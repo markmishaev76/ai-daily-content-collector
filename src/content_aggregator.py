@@ -9,7 +9,6 @@ from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 from typing import List, Dict, Optional
 import logging
-from .email_scanner import EmailScanner
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -120,28 +119,17 @@ class ContentAggregator:
             logger.error(f"Error fetching web page {url}: {str(e)}")
             return None
     
-    def aggregate_content(self, topics: List[Dict], include_email_scan: bool = True) -> Dict[str, List[Dict]]:
+    def aggregate_content(self, topics: List[Dict]) -> Dict[str, List[Dict]]:
         """
         Aggregate content from all sources defined in topics
         
         Args:
             topics: List of topic configurations
-            include_email_scan: Whether to include email scanning
             
         Returns:
             Dictionary mapping topic names to lists of articles
         """
         aggregated_content = {}
-        
-        # First, scan emails for tech content if enabled
-        email_articles = []
-        if include_email_scan:
-            try:
-                email_scanner = EmailScanner()
-                email_articles = email_scanner.scan_emails_for_content(days_back=7)
-                logger.info(f"Email scan found {len(email_articles)} articles")
-            except Exception as e:
-                logger.warning(f"Email scanning failed: {str(e)}")
         
         for topic in topics:
             topic_name = topic['name']
@@ -159,16 +147,6 @@ class ContentAggregator:
                     article = self.fetch_web_page(source_url)
                     if article:
                         articles.append(article)
-            
-            # Add relevant email articles to this topic
-            if email_articles:
-                topic_keywords = topic_name.lower().split()
-                for email_article in email_articles:
-                    # Simple keyword matching to assign email articles to topics
-                    article_text = f"{email_article['title']} {email_article['summary']}".lower()
-                    if any(keyword in article_text for keyword in topic_keywords):
-                        email_article['source'] = f"Email: {email_article['source']}"
-                        articles.append(email_article)
             
             aggregated_content[topic_name] = articles
         

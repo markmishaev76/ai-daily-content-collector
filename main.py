@@ -45,9 +45,9 @@ def generate_brief():
         )
         email_sender = EmailSender()
         
-        # Step 1: Aggregate content from all sources (including email scan)
-        logger.info("Step 1: Aggregating content from sources and scanning emails...")
-        articles_by_topic = aggregator.aggregate_content(config['topics'], include_email_scan=True)
+        # Step 1: Aggregate content from all sources
+        logger.info("Step 1: Aggregating content from sources...")
+        articles_by_topic = aggregator.aggregate_content(config['topics'])
         
         # Step 2: Filter and limit articles per topic
         max_articles = config['summarization']['max_articles_per_topic']
