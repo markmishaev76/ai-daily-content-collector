@@ -1,6 +1,12 @@
 # 🤖 AI-Powered Daily Brief Assistant
 
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
+[![Claude](https://img.shields.io/badge/AI-Claude%203.5%20Sonnet-orange.svg)](https://anthropic.com)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 Your personalized daily brief that saves you hours every day! Get one clean email every morning with curated updates, research papers, and AI-powered summaries across all your topics of interest.
+
+> **Save 3+ hours daily** with automated content aggregation and AI-powered summarization from 40+ professional sources.
 
 ## ✨ What You Get
 
@@ -14,11 +20,13 @@ Your personalized daily brief that saves you hours every day! Get one clean emai
 ## 🎯 Key Features
 
 - 📰 **Content Aggregation**: 40+ professional RSS feeds and sources
-- 🔬 **Research Integration**: Academic papers, industry reports, and surveys
+- 🔬 **Research Integration**: Academic papers, industry reports, and surveys  
 - 🧠 **AI Summaries**: Claude 3.5 Sonnet for intelligent content summarization
 - 📧 **Professional Emails**: Beautiful HTML format with mobile optimization
 - ⚙️ **Fully Automated**: Daily scheduling with background processing
 - 🎯 **Domain Expertise**: Pre-configured for tech, security, and engineering topics
+- 🐳 **Docker Support**: Easy deployment with containerization
+- 🔧 **Highly Configurable**: Customize sources, schedule, and AI settings
 
 ## 🛠️ Tech Stack
 
