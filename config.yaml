@@ -1,0 +1,350 @@
+assistant_name: "Mark's AI Assistant"
+user_name: "Mark"
+
+# Define your topics of interest - IMPROVED with more active feeds
+topics:
+  - name: "AI Technologies & Research"
+    category: "AI/ML"
+    sources:
+      # Active daily sources
+      - type: "rss"
+        url: "https://www.artificialintelligence-news.com/feed/"
+      - type: "rss"
+        url: "https://venturebeat.com/category/ai/feed/"
+      - type: "rss"
+        url: "https://blog.google/technology/ai/rss/"
+      # These are less frequent but high quality (keep them)
+      - type: "rss"
+        url: "https://blog.openai.com/rss/"
+      - type: "rss"
+        url: "https://www.anthropic.com/news/rss.xml"
+  
+  - name: "Cybersecurity News"
+    category: "Security"
+    sources:
+      # Very active daily sources
+      - type: "rss"
+        url: "https://feeds.feedburner.com/TheHackersNews"
+      - type: "rss"
+        url: "https://www.securityweek.com/feed/"
+      - type: "rss"
+        url: "https://www.bleepingcomputer.com/feed/"
+      - type: "rss"
+        url: "https://www.theregister.com/security/headlines.atom"
+      # Less frequent but quality (keep)
+      - type: "rss"
+        url: "https://krebsonsecurity.com/feed/"
+      - type: "rss"
+        url: "https://www.schneier.com/feed/"
+  
+  - name: "Application Security & Testing"
+    category: "Security"
+    sources:
+      - type: "rss"
+        url: "https://portswigger.net/daily-swig/rss"
+      - type: "rss"
+        url: "https://snyk.io/blog/feed/"
+      - type: "rss"
+        url: "https://owasp.org/blog/feed.xml"
+      - type: "rss"
+        url: "https://blog.gitguardian.com/feed/"
+      - type: "rss"
+        url: "https://www.veracode.com/blog/feed"
+      - type: "rss"
+        url: "https://blog.checkmarx.com/feed/"
+      - type: "rss"
+        url: "https://www.contrastsecurity.com/blog/rss"
+      - type: "rss"
+        url: "https://blog.sonatype.com/rss.xml"
+  
+  - name: "Cloud Architecture & Infrastructure"
+    category: "Cloud"
+    sources:
+      # Google Cloud (your expertise area)
+      - type: "rss"
+        url: "https://cloud.google.com/blog/rss"
+      - type: "rss"
+        url: "https://developers.googleblog.com/feeds/posts/default"
+      - type: "rss"
+        url: "https://cloud.google.com/blog/products/architecture/feed"
+      - type: "rss"
+        url: "https://cloud.google.com/blog/products/security/feed"
+      # AWS (industry standard)
+      - type: "rss"
+        url: "https://aws.amazon.com/blogs/aws/feed/"
+      - type: "rss"
+        url: "https://aws.amazon.com/blogs/security/feed/"
+      - type: "rss"
+        url: "https://aws.amazon.com/blogs/architecture/feed/"
+      - type: "rss"
+        url: "https://aws.amazon.com/blogs/devops/feed/"
+      # Multi-cloud and infrastructure
+      - type: "rss"
+        url: "https://www.hashicorp.com/blog/feed.xml"
+      - type: "rss"
+        url: "https://blog.docker.com/feed/"
+      - type: "rss"
+        url: "https://kubernetes.io/feed.xml"
+      - type: "rss"
+        url: "https://www.cncf.io/blog/feed/"
+  
+  - name: "Engineering Management & Leadership"
+    category: "Management"
+    sources:
+      # Engineering management focused
+      - type: "rss"
+        url: "https://blog.pragmaticengineer.com/rss/"
+      - type: "rss"
+        url: "https://charity.wtf/feed/"
+      - type: "rss"
+        url: "https://randsinrepose.com/feed/"
+      - type: "rss"
+        url: "https://www.engineeringleadership.com/feed/"
+      - type: "rss"
+        url: "https://www.manager-tools.com/feed"
+      # Team productivity and culture
+      - type: "rss"
+        url: "https://www.atlassian.com/blog/feed"
+      - type: "rss"
+        url: "https://blog.slack.com/feed"
+      # High-quality professional newsletters
+      - type: "rss"
+        url: "https://softwareleadweekly.com/feed"
+      - type: "rss"
+        url: "https://www.engineeringleadership.com/feed/"
+      - type: "rss"
+        url: "https://firstround.com/review/feed"
+      - type: "rss"
+        url: "https://a16z.com/feed/"
+      - type: "rss"
+        url: "https://stratechery.com/feed/"
+      - type: "rss"
+        url: "https://www.ben-evans.com/newsletter/feed"
+  
+  - name: "Software Architecture & Design Patterns"
+    category: "Engineering"
+    sources:
+      # Architecture and design patterns
+      - type: "rss"
+        url: "https://martinfowler.com/feed.atom"
+      - type: "rss"
+        url: "https://www.infoq.com/architecture-design/rss"
+      - type: "rss"
+        url: "https://www.infoq.com/software-architecture/rss"
+      - type: "rss"
+        url: "https://microservices.io/feed.xml"
+      - type: "rss"
+        url: "https://www.enterpriseintegrationpatterns.com/feed.xml"
+      # Cloud architecture (relevant to your role)
+      - type: "rss"
+        url: "https://aws.amazon.com/blogs/architecture/feed/"
+      - type: "rss"
+        url: "https://cloud.google.com/blog/products/architecture/feed"
+      # Tech company engineering blogs
+      - type: "rss"
+        url: "https://engineering.fb.com/feed/"
+      - type: "rss"
+        url: "https://netflixtechblog.com/feed"
+      - type: "rss"
+        url: "https://engineering.atspotify.com/feed/"
+      - type: "rss"
+        url: "https://engineering.linkedin.com/blog.rss"
+  
+  - name: "Supply Chain Security & SLSA"
+    category: "Security"
+    sources:
+      - type: "rss"
+        url: "https://blog.sigstore.dev/rss.xml"
+      - type: "rss"
+        url: "https://slsa.dev/blog/feed.xml"
+      - type: "rss"
+        url: "https://blog.chainguard.dev/rss.xml"
+      - type: "rss"
+        url: "https://blog.sonatype.com/rss.xml"
+      - type: "rss"
+        url: "https://www.anchore.com/blog/feed/"
+      - type: "rss"
+        url: "https://blog.chainguard.dev/rss.xml"
+  
+  - name: "GitLab & DevOps Ecosystem"
+    category: "Development"
+    sources:
+      # GitLab official blogs (your main platform)
+      - type: "rss"
+        url: "https://about.gitlab.com/atom.xml"
+      - type: "rss"
+        url: "https://about.gitlab.com/blog/security/feed.xml"
+      - type: "rss"
+        url: "https://about.gitlab.com/blog/engineering/feed.xml"
+      - type: "rss"
+        url: "https://about.gitlab.com/blog/devops/feed.xml"
+      - type: "rss"
+        url: "https://about.gitlab.com/blog/cloud/feed.xml"
+      # GitHub for comparison and industry trends
+      - type: "rss"
+        url: "https://github.blog/feed/"
+      - type: "rss"
+        url: "https://github.blog/engineering/feed/"
+      - type: "rss"
+        url: "https://github.blog/security/feed/"
+      # DevOps and CI/CD
+      - type: "rss"
+        url: "https://www.jenkins.io/blog/feed.xml"
+      - type: "rss"
+        url: "https://blog.argoproj.io/feed"
+      - type: "rss"
+        url: "https://www.spinnaker.io/feed/"
+  
+  - name: "AI in Security & Automation"
+    category: "AI/Security"
+    sources:
+      - type: "rss"
+        url: "https://blog.rapid7.com/feed/"
+      - type: "rss"
+        url: "https://www.crowdstrike.com/blog/feed/"
+      - type: "rss"
+        url: "https://www.paloaltonetworks.com/blog/feed"
+      - type: "rss"
+        url: "https://www.sentinelone.com/blog/feed/"
+      - type: "rss"
+        url: "https://blog.talosintelligence.com/feeds/posts/default"
+      - type: "rss"
+        url: "https://www.darktrace.com/en/blog/rss.xml"
+  
+  - name: "Authentication & Authorization"
+    category: "Security"
+    sources:
+      - type: "rss"
+        url: "https://auth0.com/blog/rss.xml"
+      - type: "rss"
+        url: "https://www.okta.com/blog/feed/"
+      - type: "rss"
+        url: "https://blog.pingidentity.com/feed/"
+      - type: "rss"
+        url: "https://www.cyberark.com/blog/feed/"
+  
+  - name: "Professional Leadership & Strategy"
+    category: "Leadership"
+    sources:
+      # Management and strategy newsletters
+      - type: "rss"
+        url: "https://hbr.org/feed"
+      - type: "rss"
+        url: "https://sloanreview.mit.edu/feed/"
+      - type: "rss"
+        url: "https://www.mckinsey.com/insights/rss"
+      - type: "rss"
+        url: "https://www2.deloitte.com/insights/us/en/rss.html"
+      - type: "rss"
+        url: "https://firstround.com/review/feed"
+      - type: "rss"
+        url: "https://a16z.com/feed/"
+      - type: "rss"
+        url: "https://stratechery.com/feed/"
+      - type: "rss"
+        url: "https://www.ben-evans.com/newsletter/feed"
+  
+  - name: "Tech News & Trends"
+    category: "Technology"
+    sources:
+      # Daily active sources
+      - type: "rss"
+        url: "https://hnrss.org/frontpage"  # Hacker News
+      - type: "rss"
+        url: "https://feeds.arstechnica.com/arstechnica/index"
+      - type: "rss"
+        url: "https://techcrunch.com/feed/"
+      - type: "rss"
+        url: "https://www.theverge.com/rss/index.xml"
+      # Professional tech newsletters
+      - type: "rss"
+        url: "https://hbr.org/feed"
+      - type: "rss"
+        url: "https://sloanreview.mit.edu/feed/"
+      - type: "rss"
+        url: "https://www.mckinsey.com/insights/rss"
+      - type: "rss"
+        url: "https://www2.deloitte.com/insights/us/en/rss.html"
+      - type: "rss"
+        url: "https://spectrum.ieee.org/rss/fulltext"
+      - type: "rss"
+        url: "https://queue.acm.org/rss/queue.rss"
+      - type: "rss"
+        url: "https://www.technologyreview.com/feed/"
+
+  # Research & Academic Papers (integrated into daily brief)
+  - name: "Research & Academic Papers"
+    category: "Research"
+    sources:
+      # AI Research
+      - type: "rss"
+        url: "https://ai.googleblog.com/feeds/posts/default"
+      - type: "rss"
+        url: "https://blog.openai.com/rss/"
+      - type: "rss"
+        url: "https://www.anthropic.com/news/rss.xml"
+      - type: "rss"
+        url: "https://spectrum.ieee.org/rss/fulltext"
+      - type: "rss"
+        url: "https://queue.acm.org/rss/queue.rss"
+      - type: "rss"
+        url: "https://www.technologyreview.com/feed/"
+      
+      # Security Research
+      - type: "rss"
+        url: "https://www.schneier.com/feed/"
+      - type: "rss"
+        url: "https://krebsonsecurity.com/feed/"
+      - type: "rss"
+        url: "https://portswigger.net/daily-swig/rss"
+      - type: "rss"
+        url: "https://blog.rapid7.com/feed/"
+      
+      # Cloud & Infrastructure Research
+      - type: "rss"
+        url: "https://kubernetes.io/feed.xml"
+      - type: "rss"
+        url: "https://www.cncf.io/blog/feed/"
+      - type: "rss"
+        url: "https://blog.docker.com/feed/"
+      
+      # Engineering Management Research
+      - type: "rss"
+        url: "https://blog.pragmaticengineer.com/rss/"
+      - type: "rss"
+        url: "https://charity.wtf/feed/"
+      - type: "rss"
+        url: "https://randsinrepose.com/feed/"
+      - type: "rss"
+        url: "https://firstround.com/review/feed"
+      - type: "rss"
+        url: "https://a16z.com/feed/"
+      
+      # Supply Chain Security Research
+      - type: "rss"
+        url: "https://blog.sigstore.dev/rss.xml"
+      - type: "rss"
+        url: "https://slsa.dev/blog/feed.xml"
+      - type: "rss"
+        url: "https://blog.chainguard.dev/rss.xml"
+      - type: "rss"
+        url: "https://blog.sonatype.com/rss.xml"
+      - type: "rss"
+        url: "https://blog.gitguardian.com/feed/"
+
+# Summarization settings
+summarization:
+  model: "claude-3-5-sonnet-20241022"
+  max_articles_per_topic: 5
+  summary_length: "brief"  # brief, medium, or detailed
+  
+# Email settings
+email:
+  subject: "Your Morning Brief - {date}"
+  include_links: true
+  group_by_category: true
+  from: "your_email@gmail.com"
+  to: "your_email@gmail.com"
+  password: "your_app_password"
+
+

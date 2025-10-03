@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  ai-assistant:
+    build: .
+    container_name: personal-ai-assistant
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./config.yaml:/app/config.yaml:ro
+      - ./logs:/app/logs
+    environment:
+      - TZ=America/New_York  # Set your timezone
+
+
