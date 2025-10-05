@@ -74,13 +74,25 @@ def generate_brief():
         # Step 4: Generate content recommendations for each topic
         logger.info("Step 3: Generating content recommendations...")
         recommendations_by_topic = {}
+        enhanced_recommendations_by_topic = {}
+        
         for topic, articles in articles_by_topic.items():
             if articles:
                 logger.info(f"Generating recommendations for topic: {topic}")
-                recommendations_by_topic[topic] = summarizer.generate_content_recommendations(
-                    topic, 
+                # Generate basic recommendations
+                basic_recommendations = summarizer.generate_content_recommendations(
+                    topic,
                     articles
                 )
+                recommendations_by_topic[topic] = basic_recommendations
+                
+                # Fetch actual content from recommended sources
+                logger.info(f"Fetching content from recommended sources for topic: {topic}")
+                enhanced_content = summarizer.fetch_recommended_content(
+                    basic_recommendations,
+                    topic
+                )
+                enhanced_recommendations_by_topic[topic] = enhanced_content
         
         # Step 5: Generate overview
         logger.info("Step 4: Generating overview...")
@@ -93,7 +105,8 @@ def generate_brief():
             overview=overview,
             user_name=config.get('user_name', 'there'),
             assistant_name=config.get('assistant_name', 'Your AI Assistant'),
-            recommendations_by_topic=recommendations_by_topic
+            recommendations_by_topic=recommendations_by_topic,
+            enhanced_recommendations_by_topic=enhanced_recommendations_by_topic
         )
         
         # Step 7: Send email

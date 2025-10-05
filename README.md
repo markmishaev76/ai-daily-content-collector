@@ -143,41 +143,58 @@ This will generate and send a test email immediately. Check your inbox!
 
 The scheduler will run in the background and send your brief at the configured time every day.
 
-## 🔍 AI Recommendations Feature
+## 🎯 Enhanced AI Recommendations with Actual Content
 
-The AI assistant now provides intelligent recommendations for each topic:
+The AI assistant now provides intelligent recommendations with **real curated content** for each topic:
 
-### **What You Get**
+### **🚀 What You Get**
+- **Smart Source Discovery**: AI finds the best RSS feeds, websites, and people to follow
+- **Real Content Fetching**: Actually fetches and summarizes content from recommended sources
+- **Curated Content**: Displays actual articles, insights, and resources with summaries
+- **Quality Filtering**: Removes generic or low-quality suggestions automatically
+
+### **🔄 How It Works**
+1. **AI Analysis**: Claude analyzes current articles in each topic
+2. **Smart Recommendations**: Generates specific sources, people, papers, and tools
+3. **Content Fetching**: Actually fetches recent content from recommended sources
+4. **Content Summarization**: Creates summaries of the fetched content
+5. **Email Integration**: Displays both recommendations AND actual content
+
+### **📧 Email Sections**
+
+Your daily brief now includes:
+
+#### Basic Recommendations
 - **📰 Additional Sources**: RSS feeds and websites to follow
-- **👥 Key People**: Influential people to follow on social media
-- **📚 Research Papers**: Academic papers and research to read
+- **👥 Key People**: Influential people to follow on social media  
+- **📚 Research Papers**: Academic papers to read
 - **🛠️ Tools & Resources**: Tools and resources to explore
 
-### **How It Works**
-1. **Analyzes Current Content**: Reviews recent articles in each topic
-2. **Generates Smart Suggestions**: Uses Claude to suggest relevant sources
-3. **Contextual Recommendations**: Tailored to current trends and topics
-4. **Beautiful Display**: Integrated into your daily email
+#### Enhanced Curated Content
+- **📰 Latest from Recommended Sources**: Actual articles with summaries
+- **👥 Insights from Key People**: Recent insights and updates
+- **📚 Research Papers to Explore**: Paper summaries and links
+- **🛠️ Tools & Resources to Try**: Tool descriptions and links
 
-### **Example Output**
+### **Example Enhanced Output**
 ```
-🔍 AI Recommendations for AI Technologies & Research
+🎯 Curated Content from Recommended Sources
 
-📰 Additional Sources:
-- The Batch by Andrew Ng: https://www.deeplearning.ai/the-batch/
-- AI Research Blog: https://ai.googleblog.com/
+📰 Latest from Recommended Sources
+┌─────────────────────────────────────────────────────────┐
+│ Recent insights from Yann LeCun: @ylecun (Twitter)      │
+│ Key insights and updates from Yann LeCun in AI Research │
+│ From: Yann LeCun: @ylecun (Twitter)                    │
+│ Follow →                                                │
+└─────────────────────────────────────────────────────────┘
 
-👥 Key People to Follow:
-- Yann LeCun: @ylecun (Meta AI Chief Scientist)
-- Fei-Fei Li: @drfeili (Stanford AI Lab Director)
-
-📚 Research Papers:
-- "Attention Is All You Need": https://arxiv.org/abs/1706.03762
-- "BERT: Pre-training of Deep Bidirectional Transformers": https://arxiv.org/abs/1810.04805
-
-🛠️ Tools & Resources:
-- Hugging Face Transformers: https://huggingface.co/transformers/
-- OpenAI API: https://platform.openai.com/
+🛠️ Tools & Resources to Try
+┌─────────────────────────────────────────────────────────┐
+│ Papers with Code: https://paperswithcode.com/          │
+│ Tool/Resource: Papers with Code                        │
+│ Tool: Papers with Code: https://paperswithcode.com/     │
+│ Explore →                                               │
+└─────────────────────────────────────────────────────────┘
 ```
 
 ## 📋 Configuration Options

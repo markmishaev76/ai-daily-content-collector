@@ -33,7 +33,8 @@ class EmailSender:
                          overview: str,
                          user_name: str = "there",
                          assistant_name: str = "Your AI Assistant",
-                         recommendations_by_topic: Dict[str, Dict] = None) -> str:
+                         recommendations_by_topic: Dict[str, Dict] = None,
+                         enhanced_recommendations_by_topic: Dict[str, Dict] = None) -> str:
         """
         Create beautiful HTML email from articles
         
@@ -270,6 +271,69 @@ class EmailSender:
                 {% endif %}
             </div>
             {% endif %}
+            
+            {% if enhanced_recommendations_by_topic and enhanced_recommendations_by_topic.get(topic_name) %}
+            <div class="enhanced-recommendations-section">
+                <h3 style="color: #E74C3C; margin-top: 30px; margin-bottom: 15px;">🎯 Curated Content from Recommended Sources</h3>
+                {% set enhanced = enhanced_recommendations_by_topic[topic_name] %}
+                
+                {% if enhanced.recommended_articles %}
+                <div class="enhanced-recommendation-category">
+                    <h4 style="color: #2C3E50; margin-bottom: 8px;">📰 Latest from Recommended Sources</h4>
+                    {% for article in enhanced.recommended_articles %}
+                    <div style="margin-bottom: 15px; padding: 10px; background-color: #F8F9FA; border-left: 3px solid #E74C3C; border-radius: 3px;">
+                        <div style="font-weight: 600; color: #2C3E50; margin-bottom: 5px;">{{ article.title }}</div>
+                        <div style="color: #7F8C8D; font-size: 14px; margin-bottom: 5px;">{{ article.summary }}</div>
+                        <div style="color: #95A5A6; font-size: 12px; margin-bottom: 5px;">Source: {{ article.recommended_by }}</div>
+                        <a href="{{ article.link }}" style="color: #E74C3C; text-decoration: none; font-size: 14px;">Read more →</a>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+                
+                {% if enhanced.recommended_tweets %}
+                <div class="enhanced-recommendation-category">
+                    <h4 style="color: #2C3E50; margin-bottom: 8px;">👥 Insights from Key People</h4>
+                    {% for tweet in enhanced.recommended_tweets %}
+                    <div style="margin-bottom: 15px; padding: 10px; background-color: #F8F9FA; border-left: 3px solid #3498DB; border-radius: 3px;">
+                        <div style="font-weight: 600; color: #2C3E50; margin-bottom: 5px;">{{ tweet.title }}</div>
+                        <div style="color: #7F8C8D; font-size: 14px; margin-bottom: 5px;">{{ tweet.summary }}</div>
+                        <div style="color: #95A5A6; font-size: 12px; margin-bottom: 5px;">From: {{ tweet.recommended_by }}</div>
+                        <a href="{{ tweet.link }}" style="color: #3498DB; text-decoration: none; font-size: 14px;">Follow →</a>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+                
+                {% if enhanced.recommended_papers %}
+                <div class="enhanced-recommendation-category">
+                    <h4 style="color: #2C3E50; margin-bottom: 8px;">📚 Research Papers to Explore</h4>
+                    {% for paper in enhanced.recommended_papers %}
+                    <div style="margin-bottom: 15px; padding: 10px; background-color: #F8F9FA; border-left: 3px solid #9B59B6; border-radius: 3px;">
+                        <div style="font-weight: 600; color: #2C3E50; margin-bottom: 5px;">{{ paper.title }}</div>
+                        <div style="color: #7F8C8D; font-size: 14px; margin-bottom: 5px;">{{ paper.summary }}</div>
+                        <div style="color: #95A5A6; font-size: 12px; margin-bottom: 5px;">Research: {{ paper.recommended_by }}</div>
+                        <a href="{{ paper.link }}" style="color: #9B59B6; text-decoration: none; font-size: 14px;">Find paper →</a>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+                
+                {% if enhanced.recommended_tools %}
+                <div class="enhanced-recommendation-category">
+                    <h4 style="color: #2C3E50; margin-bottom: 8px;">🛠️ Tools & Resources to Try</h4>
+                    {% for tool in enhanced.recommended_tools %}
+                    <div style="margin-bottom: 15px; padding: 10px; background-color: #F8F9FA; border-left: 3px solid #F39C12; border-radius: 3px;">
+                        <div style="font-weight: 600; color: #2C3E50; margin-bottom: 5px;">{{ tool.title }}</div>
+                        <div style="color: #7F8C8D; font-size: 14px; margin-bottom: 5px;">{{ tool.summary }}</div>
+                        <div style="color: #95A5A6; font-size: 12px; margin-bottom: 5px;">Tool: {{ tool.recommended_by }}</div>
+                        <a href="{{ tool.link }}" style="color: #F39C12; text-decoration: none; font-size: 14px;">Explore →</a>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+            {% endif %}
         </div>
         {% endif %}
         {% endfor %}
@@ -292,6 +356,7 @@ class EmailSender:
             user_name=user_name,
             assistant_name=assistant_name,
             recommendations_by_topic=recommendations_by_topic or {},
+            enhanced_recommendations_by_topic=enhanced_recommendations_by_topic or {},
             current_date=datetime.now().strftime("%A, %B %d, %Y")
         )
         
