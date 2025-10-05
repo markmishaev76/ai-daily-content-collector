@@ -307,15 +307,17 @@ Provide only the summary, without any preamble."""
 
     def fetch_recommended_content(self, recommendations: Dict[str, List[str]], topic_name: str) -> Dict[str, List[Dict]]:
         """
-        Generate enhanced content summaries from recommended sources and people
+        Fetch actual content from recommended sources and generate AI-powered reading recommendations
         
         Args:
             recommendations: AI-generated recommendations
             topic_name: The topic/category name
             
         Returns:
-            Dictionary with enhanced content summaries
+            Dictionary with actual content from recommended sources
         """
+        from .content_aggregator import ContentAggregator
+        
         fetched_content = {
             "recommended_articles": [],
             "recommended_tweets": [],
@@ -323,56 +325,244 @@ Provide only the summary, without any preamble."""
             "recommended_tools": []
         }
         
-        # Generate enhanced summaries for recommended people
+        # Fetch actual content from recommended sources
+        if recommendations.get('additional_sources'):
+            aggregator = ContentAggregator(hours_back=168)  # Last week
+            
+            for source in recommendations['additional_sources'][:3]:  # Limit to top 3
+                try:
+                    # Extract URL from source description
+                    if ':' in source and 'http' in source:
+                        url = source.split(': ')[-1].strip()
+                        if url.startswith('http'):
+                            # Create a mock topic for fetching
+                            mock_topic = {
+                                'name': f"Recommended {topic_name}",
+                                'sources': [{'type': 'rss', 'url': url}]
+                            }
+                            
+                            articles = aggregator.aggregate_content([mock_topic])
+                            if articles and f"Recommended {topic_name}" in articles:
+                                for article in articles[f"Recommended {topic_name}"][:2]:  # Top 2 articles
+                                    article['source_type'] = 'recommended_source'
+                                    article['recommended_by'] = source
+                                    fetched_content['recommended_articles'].append(article)
+                except Exception as e:
+                    logger.warning(f"Could not fetch from recommended source {source}: {e}")
+                    continue
+        
+        # Generate AI-powered reading recommendations for people
         if recommendations.get('key_people'):
             for person in recommendations['key_people'][:3]:  # Limit to top 3
                 try:
-                    # Create enhanced content summary for the person
-                    person_content = {
-                        'title': f"Latest insights from {person}",
-                        'link': f"https://twitter.com/{person.split('@')[-1] if '@' in person else person.replace(' ', '').lower()}",
-                        'summary': f"Recent thoughts and updates from {person} on {topic_name} - follow for expert insights",
-                        'published': datetime.now().strftime('%Y-%m-%d'),
-                        'source_type': 'recommended_person',
-                        'recommended_by': person
-                    }
-                    fetched_content['recommended_tweets'].append(person_content)
+                    # Use AI to generate specific reading recommendations
+                    person_name = person.split(':')[0].strip()
+                    reading_prompt = f"""Based on {person_name}'s expertise in {topic_name}, recommend 1-2 specific articles, papers, or resources they would likely recommend reading. 
+
+                    Person: {person}
+                    Topic: {topic_name}
+                    
+                    Provide specific, actionable reading recommendations with:
+                    - Article/paper title
+                    - Brief summary (2-3 sentences)
+                    - Why this person would recommend it
+                    - Link to the content
+                    
+                    Format as:
+                    TITLE: [specific title]
+                    SUMMARY: [brief summary]
+                    REASON: [why this person would recommend it]
+                    LINK: [URL]"""
+
+                    if self.provider == "claude":
+                        response = self.client.messages.create(
+                            model=self.model,
+                            max_tokens=400,
+                            temperature=0.7,
+                            system="You are an expert research assistant that provides specific reading recommendations based on expert knowledge.",
+                            messages=[
+                                {"role": "user", "content": reading_prompt}
+                            ]
+                        )
+                        reading_text = response.content[0].text.strip()
+                    else:
+                        response = self.client.chat.completions.create(
+                            model=self.model,
+                            messages=[
+                                {"role": "system", "content": "You are an expert research assistant that provides specific reading recommendations based on expert knowledge."},
+                                {"role": "user", "content": reading_prompt}
+                            ],
+                            temperature=0.7,
+                            max_tokens=400
+                        )
+                        reading_text = response.choices[0].message.content.strip()
+                    
+                    # Parse the AI response
+                    lines = reading_text.split('\n')
+                    title = ""
+                    summary = ""
+                    reason = ""
+                    link = ""
+                    
+                    for line in lines:
+                        if line.startswith('TITLE:'):
+                            title = line.replace('TITLE:', '').strip()
+                        elif line.startswith('SUMMARY:'):
+                            summary = line.replace('SUMMARY:', '').strip()
+                        elif line.startswith('REASON:'):
+                            reason = line.replace('REASON:', '').strip()
+                        elif line.startswith('LINK:'):
+                            link = line.replace('LINK:', '').strip()
+                    
+                    if title and summary:
+                        person_content = {
+                            'title': title,
+                            'link': link or f"https://google.com/search?q={title.replace(' ', '+')}",
+                            'summary': f"{summary} {reason}".strip(),
+                            'published': datetime.now().strftime('%Y-%m-%d'),
+                            'source_type': 'recommended_reading',
+                            'recommended_by': f"Recommended by {person_name}"
+                        }
+                        fetched_content['recommended_tweets'].append(person_content)
+                        
                 except Exception as e:
-                    logger.warning(f"Could not process recommended person {person}: {e}")
+                    logger.warning(f"Could not generate reading recommendations for {person}: {e}")
                     continue
         
-        # Generate enhanced summaries for recommended papers
+        # Generate AI-powered reading recommendations for papers
         if recommendations.get('research_papers'):
             for paper in recommendations['research_papers'][:3]:  # Limit to top 3
                 try:
-                    paper_content = {
-                        'title': f"Research: {paper}",
-                        'link': f"https://arxiv.org/search/?query={paper.replace(' ', '+')}",
-                        'summary': f"Academic paper exploring {paper} - essential reading for {topic_name} professionals",
-                        'published': datetime.now().strftime('%Y-%m-%d'),
-                        'source_type': 'recommended_paper',
-                        'recommended_by': paper
-                    }
-                    fetched_content['recommended_papers'].append(paper_content)
+                    # Use AI to generate specific paper recommendations
+                    paper_prompt = f"""For the research paper "{paper}" in {topic_name}, provide:
+                    
+                    1. A specific, recent paper title that builds on or relates to this work
+                    2. Brief summary of why this paper is important
+                    3. Direct link to the paper (arXiv, conference, journal)
+                    
+                    Format as:
+                    TITLE: [specific paper title]
+                    SUMMARY: [why this paper is important for {topic_name}]
+                    LINK: [direct URL to paper]"""
+
+                    if self.provider == "claude":
+                        response = self.client.messages.create(
+                            model=self.model,
+                            max_tokens=300,
+                            temperature=0.7,
+                            system="You are an expert research assistant that provides specific academic paper recommendations.",
+                            messages=[
+                                {"role": "user", "content": paper_prompt}
+                            ]
+                        )
+                        paper_text = response.content[0].text.strip()
+                    else:
+                        response = self.client.chat.completions.create(
+                            model=self.model,
+                            messages=[
+                                {"role": "system", "content": "You are an expert research assistant that provides specific academic paper recommendations."},
+                                {"role": "user", "content": paper_prompt}
+                            ],
+                            temperature=0.7,
+                            max_tokens=300
+                        )
+                        paper_text = response.choices[0].message.content.strip()
+                    
+                    # Parse the AI response
+                    lines = paper_text.split('\n')
+                    title = ""
+                    summary = ""
+                    link = ""
+                    
+                    for line in lines:
+                        if line.startswith('TITLE:'):
+                            title = line.replace('TITLE:', '').strip()
+                        elif line.startswith('SUMMARY:'):
+                            summary = line.replace('SUMMARY:', '').strip()
+                        elif line.startswith('LINK:'):
+                            link = line.replace('LINK:', '').strip()
+                    
+                    if title and summary:
+                        paper_content = {
+                            'title': title,
+                            'link': link or f"https://arxiv.org/search/?query={title.replace(' ', '+')}",
+                            'summary': summary,
+                            'published': datetime.now().strftime('%Y-%m-%d'),
+                            'source_type': 'recommended_paper',
+                            'recommended_by': f"Related to: {paper}"
+                        }
+                        fetched_content['recommended_papers'].append(paper_content)
+                        
                 except Exception as e:
-                    logger.warning(f"Could not process recommended paper {paper}: {e}")
+                    logger.warning(f"Could not generate paper recommendations for {paper}: {e}")
                     continue
         
-        # Generate enhanced summaries for recommended tools
+        # Generate AI-powered reading recommendations for tools
         if recommendations.get('tools_resources'):
             for tool in recommendations['tools_resources'][:3]:  # Limit to top 3
                 try:
-                    tool_content = {
-                        'title': f"Tool: {tool}",
-                        'link': f"https://google.com/search?q={tool.replace(' ', '+')}",
-                        'summary': f"Essential {tool} for {topic_name} - recommended for productivity and efficiency",
-                        'published': datetime.now().strftime('%Y-%m-%d'),
-                        'source_type': 'recommended_tool',
-                        'recommended_by': tool
-                    }
-                    fetched_content['recommended_tools'].append(tool_content)
+                    # Use AI to generate specific tool recommendations
+                    tool_prompt = f"""For the tool/resource "{tool}" in {topic_name}, recommend:
+                    
+                    1. A specific tutorial, guide, or documentation to read
+                    2. Brief summary of what you'll learn
+                    3. Direct link to the resource
+                    
+                    Format as:
+                    TITLE: [specific resource title]
+                    SUMMARY: [what you'll learn from this resource]
+                    LINK: [direct URL to resource]"""
+
+                    if self.provider == "claude":
+                        response = self.client.messages.create(
+                            model=self.model,
+                            max_tokens=300,
+                            temperature=0.7,
+                            system="You are an expert research assistant that provides specific learning resource recommendations.",
+                            messages=[
+                                {"role": "user", "content": tool_prompt}
+                            ]
+                        )
+                        tool_text = response.content[0].text.strip()
+                    else:
+                        response = self.client.chat.completions.create(
+                            model=self.model,
+                            messages=[
+                                {"role": "system", "content": "You are an expert research assistant that provides specific learning resource recommendations."},
+                                {"role": "user", "content": tool_prompt}
+                            ],
+                            temperature=0.7,
+                            max_tokens=300
+                        )
+                        tool_text = response.choices[0].message.content.strip()
+                    
+                    # Parse the AI response
+                    lines = tool_text.split('\n')
+                    title = ""
+                    summary = ""
+                    link = ""
+                    
+                    for line in lines:
+                        if line.startswith('TITLE:'):
+                            title = line.replace('TITLE:', '').strip()
+                        elif line.startswith('SUMMARY:'):
+                            summary = line.replace('SUMMARY:', '').strip()
+                        elif line.startswith('LINK:'):
+                            link = line.replace('LINK:', '').strip()
+                    
+                    if title and summary:
+                        tool_content = {
+                            'title': title,
+                            'link': link or f"https://google.com/search?q={title.replace(' ', '+')}",
+                            'summary': summary,
+                            'published': datetime.now().strftime('%Y-%m-%d'),
+                            'source_type': 'recommended_tool',
+                            'recommended_by': f"Learning resource for: {tool}"
+                        }
+                        fetched_content['recommended_tools'].append(tool_content)
+                        
                 except Exception as e:
-                    logger.warning(f"Could not process recommended tool {tool}: {e}")
+                    logger.warning(f"Could not generate tool recommendations for {tool}: {e}")
                     continue
         
         return fetched_content
