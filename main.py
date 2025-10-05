@@ -76,6 +76,7 @@ def generate_brief():
         recommendations_by_topic = {}
         enhanced_recommendations_by_topic = {}
         blogger_posts_by_topic = {}
+        conference_recommendations_by_topic = {}
         
         for topic, articles in articles_by_topic.items():
             if articles:
@@ -102,6 +103,13 @@ def generate_brief():
                     logger.info(f"Fetching recent posts from {len(bloggers)} bloggers for topic: {topic}")
                     blogger_posts = summarizer.fetch_blogger_posts(bloggers, topic)
                     blogger_posts_by_topic[topic] = blogger_posts
+
+                # Get conference and CFP recommendations
+                logger.info(f"Getting conference recommendations for topic: {topic}")
+                conferences = summarizer.get_conference_recommendations(topic, articles)
+                if conferences:
+                    logger.info(f"Found {len(conferences)} conference opportunities for topic: {topic}")
+                    conference_recommendations_by_topic[topic] = conferences
         
         # Step 5: Generate overview
         logger.info("Step 4: Generating overview...")
@@ -116,7 +124,8 @@ def generate_brief():
             assistant_name=config.get('assistant_name', 'Your AI Assistant'),
             recommendations_by_topic=recommendations_by_topic,
             enhanced_recommendations_by_topic=enhanced_recommendations_by_topic,
-            blogger_posts_by_topic=blogger_posts_by_topic
+            blogger_posts_by_topic=blogger_posts_by_topic,
+            conference_recommendations_by_topic=conference_recommendations_by_topic
         )
         
         # Step 7: Send email

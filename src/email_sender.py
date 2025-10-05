@@ -35,7 +35,8 @@ class EmailSender:
                          assistant_name: str = "Your AI Assistant",
                          recommendations_by_topic: Dict[str, Dict] = None,
                          enhanced_recommendations_by_topic: Dict[str, Dict] = None,
-                         blogger_posts_by_topic: Dict[str, List[Dict]] = None) -> str:
+                         blogger_posts_by_topic: Dict[str, List[Dict]] = None,
+                         conference_recommendations_by_topic: Dict[str, List[Dict]] = None) -> str:
         """
         Create beautiful HTML email from articles
         
@@ -321,6 +322,35 @@ class EmailSender:
                 {% endfor %}
             </div>
             {% endif %}
+
+            {% if conference_recommendations_by_topic and conference_recommendations_by_topic.get(topic_name) %}
+            <div class="conference-recommendations-section">
+                <h3 style="color: #8E44AD; margin-top: 30px; margin-bottom: 15px;">🎤 Conference & Speaking Opportunities</h3>
+                {% set conferences = conference_recommendations_by_topic[topic_name] %}
+
+                {% for conf in conferences %}
+                <div style="margin-bottom: 20px; padding: 15px; background-color: #F8F9FA; border-left: 4px solid #8E44AD; border-radius: 5px;">
+                    <div style="font-weight: 600; color: #2C3E50; margin-bottom: 8px; font-size: 16px;">
+                        {% if conf.url %}
+                        <a href="{{ conf.url }}" style="color: #2C3E50; text-decoration: none;">{{ conf.name }}</a>
+                        {% else %}
+                        {{ conf.name }}
+                        {% endif %}
+                    </div>
+                    <div style="color: #7F8C8D; font-size: 14px; margin-bottom: 8px;">
+                        <strong>{{ conf.type|title }}</strong>
+                        {% if conf.deadline %} • Deadline: {{ conf.deadline }}{% endif %}
+                    </div>
+                    <div style="color: #555; line-height: 1.5; margin-bottom: 10px;">
+                        {{ conf.description }}
+                    </div>
+                    {% if conf.url %}
+                    <a href="{{ conf.url }}" style="color: #8E44AD; text-decoration: none; font-size: 14px; font-weight: 500;">Learn more →</a>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
         </div>
         {% endif %}
         {% endfor %}
@@ -344,6 +374,8 @@ class EmailSender:
             assistant_name=assistant_name,
             recommendations_by_topic=recommendations_by_topic or {},
             enhanced_recommendations_by_topic=enhanced_recommendations_by_topic or {},
+            blogger_posts_by_topic=blogger_posts_by_topic or {},
+            conference_recommendations_by_topic=conference_recommendations_by_topic or {},
             current_date=datetime.now().strftime("%A, %B %d, %Y")
         )
         

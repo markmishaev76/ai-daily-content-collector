@@ -842,3 +842,123 @@ Make sure to include their actual blog URLs or RSS feeds where possible."""
         
         return blogger_posts
 
+    def get_conference_recommendations(self, topic_name: str, articles: List[Dict]) -> List[Dict]:
+        """
+        Get recommendations for relevant conferences and call-for-papers based on topic and role
+
+        Args:
+            topic_name: The topic/category name
+            articles: List of articles from this topic for context
+
+        Returns:
+            List of conference and CFP recommendations
+        """
+        # Create a summary of current articles for context
+        article_titles = [article['title'] for article in articles[:3]]  # Top 3 articles
+        current_trends = ", ".join(article_titles)
+
+        prompt = f"""Based on the current trends in {topic_name} (recent articles: {current_trends}), provide specific conference and call-for-paper recommendations for a Senior Engineering Manager in software supply chain security at GitLab.
+
+        Focus on conferences and CFPs that would be relevant for someone in this role who might want to:
+        - Present on software supply chain security topics
+        - Share GitLab's experiences and best practices
+        - Contribute to the broader security and DevOps community
+        - Submit research papers on supply chain security
+
+        Please provide recommendations in this exact format:
+
+        CONFERENCES:
+        - [Conference Name]: [Brief description] - [Submission deadline or dates] - [URL]
+        - [Conference Name]: [Brief description] - [Submission deadline or dates] - [URL]
+
+        CALL_FOR_PAPERS:
+        - [CFP Title]: [Brief description] - [Deadline] - [URL]
+        - [CFP Title]: [Brief description] - [Deadline] - [URL]
+
+        SPEAKING_OPPORTUNITIES:
+        - [Event/Conference]: [Topic area] - [Deadline] - [URL]
+        - [Event/Conference]: [Topic area] - [Deadline] - [URL]
+
+        Focus on:
+        - Security conferences (Black Hat, DEF CON, RSA, etc.)
+        - DevOps and SRE conferences (DevOps World, SREcon, etc.)
+        - Supply chain security specific events
+        - Academic conferences (if relevant)
+        - Industry events where GitLab's perspective would be valuable
+        - Upcoming deadlines (next 6 months)
+
+        Make sure to include actual URLs and current/relevant deadlines where possible."""
+
+        try:
+            if self.provider == "claude":
+                response = self.client.messages.create(
+                    model=self.model,
+                    max_tokens=1000,
+                    messages=[{"role": "user", "content": prompt}]
+                )
+                content = response.content[0].text
+            else:
+                response = self.client.chat.completions.create(
+                    model=self.model,
+                    messages=[{"role": "user", "content": prompt}],
+                    max_tokens=1000
+                )
+                content = response.choices[0].message.content
+
+            # Parse the response
+            conferences = self._parse_conference_recommendations(content)
+            return conferences
+
+        except Exception as e:
+            logger.error(f"Error getting conference recommendations for {topic_name}: {str(e)}")
+            return []
+
+    def _parse_conference_recommendations(self, content: str) -> List[Dict]:
+        """
+        Parse conference recommendations from AI response
+
+        Args:
+            content: Raw AI response
+
+        Returns:
+            List of structured conference recommendations
+        """
+        conferences = []
+        lines = content.split('\n')
+        
+        current_section = None
+        for line in lines:
+            line = line.strip()
+            if not line:
+                continue
+                
+            if line.startswith('CONFERENCES:'):
+                current_section = 'conferences'
+                continue
+            elif line.startswith('CALL_FOR_PAPERS:'):
+                current_section = 'cfp'
+                continue
+            elif line.startswith('SPEAKING_OPPORTUNITIES:'):
+                current_section = 'speaking'
+                continue
+            elif line.startswith('- '):
+                # Parse conference/CFP entry
+                entry_text = line[2:].strip()
+                if ' - ' in entry_text:
+                    parts = entry_text.split(' - ')
+                    if len(parts) >= 3:
+                        name = parts[0].strip()
+                        description = parts[1].strip()
+                        deadline = parts[2].strip()
+                        url = parts[3].strip() if len(parts) > 3 else ""
+                        
+                        conferences.append({
+                            'name': name,
+                            'description': description,
+                            'deadline': deadline,
+                            'url': url,
+                            'type': current_section or 'conference'
+                        })
+        
+        return conferences
+
