@@ -44,3 +44,4 @@ echo "📧 Your daily brief will be sent at $(grep SCHEDULE_TIME .env | cut -d'=
 echo "📧 Email: $(grep EMAIL_TO .env | cut -d'=' -f2 | head -1)"
 
 
+

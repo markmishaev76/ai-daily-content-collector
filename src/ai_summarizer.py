@@ -7,6 +7,8 @@ import os
 from typing import List, Dict, Optional
 import logging
 from datetime import datetime
+import requests
+from urllib.parse import urlparse
 from openai import OpenAI
 from anthropic import Anthropic
 
@@ -305,6 +307,34 @@ Provide only the summary, without any preamble."""
         
         return filtered
 
+    def validate_link(self, url: str) -> bool:
+        """
+        Validate if a URL is accessible and working
+        
+        Args:
+            url: URL to validate
+            
+        Returns:
+            True if URL is accessible, False otherwise
+        """
+        try:
+            # Parse the URL to check if it's valid
+            parsed = urlparse(url)
+            if not parsed.scheme or not parsed.netloc:
+                return False
+            
+            # Skip validation for search URLs and generic links
+            if any(domain in url.lower() for domain in ['google.com/search', 'bing.com/search', 'duckduckgo.com']):
+                return True
+            
+            # Make a HEAD request to check if the URL is accessible
+            response = requests.head(url, timeout=5, allow_redirects=True)
+            return response.status_code < 400
+            
+        except Exception as e:
+            logger.debug(f"Link validation failed for {url}: {e}")
+            return False
+
     def fetch_recommended_content(self, recommendations: Dict[str, List[str]], topic_name: str) -> Dict[str, List[Dict]]:
         """
         Fetch actual content from recommended sources and generate AI-powered reading recommendations
@@ -415,15 +445,33 @@ Provide only the summary, without any preamble."""
                             link = line.replace('LINK:', '').strip()
                     
                     if title and summary:
-                        person_content = {
-                            'title': title,
-                            'link': link or f"https://google.com/search?q={title.replace(' ', '+')}",
-                            'summary': f"{summary} {reason}".strip(),
-                            'published': datetime.now().strftime('%Y-%m-%d'),
-                            'source_type': 'recommended_reading',
-                            'recommended_by': f"Recommended by {person_name}"
-                        }
-                        fetched_content['recommended_tweets'].append(person_content)
+                        # Use provided link or generate search link
+                        final_link = link or f"https://google.com/search?q={title.replace(' ', '+')}"
+                        
+                        # Validate the link
+                        if self.validate_link(final_link):
+                            person_content = {
+                                'title': title,
+                                'link': final_link,
+                                'summary': f"{summary} {reason}".strip(),
+                                'published': datetime.now().strftime('%Y-%m-%d'),
+                                'source_type': 'recommended_reading',
+                                'recommended_by': f"Recommended by {person_name}",
+                                'has_valid_link': True
+                            }
+                            fetched_content['recommended_tweets'].append(person_content)
+                        else:
+                            # Include without link if validation fails
+                            person_content = {
+                                'title': title,
+                                'link': '',
+                                'summary': f"{summary} {reason}".strip(),
+                                'published': datetime.now().strftime('%Y-%m-%d'),
+                                'source_type': 'recommended_reading',
+                                'recommended_by': f"Recommended by {person_name}",
+                                'has_valid_link': False
+                            }
+                            fetched_content['recommended_tweets'].append(person_content)
                         
                 except Exception as e:
                     logger.warning(f"Could not generate reading recommendations for {person}: {e}")
@@ -483,15 +531,33 @@ Provide only the summary, without any preamble."""
                             link = line.replace('LINK:', '').strip()
                     
                     if title and summary:
-                        paper_content = {
-                            'title': title,
-                            'link': link or f"https://arxiv.org/search/?query={title.replace(' ', '+')}",
-                            'summary': summary,
-                            'published': datetime.now().strftime('%Y-%m-%d'),
-                            'source_type': 'recommended_paper',
-                            'recommended_by': f"Related to: {paper}"
-                        }
-                        fetched_content['recommended_papers'].append(paper_content)
+                        # Use provided link or generate search link
+                        final_link = link or f"https://arxiv.org/search/?query={title.replace(' ', '+')}"
+                        
+                        # Validate the link
+                        if self.validate_link(final_link):
+                            paper_content = {
+                                'title': title,
+                                'link': final_link,
+                                'summary': summary,
+                                'published': datetime.now().strftime('%Y-%m-%d'),
+                                'source_type': 'recommended_paper',
+                                'recommended_by': f"Related to: {paper}",
+                                'has_valid_link': True
+                            }
+                            fetched_content['recommended_papers'].append(paper_content)
+                        else:
+                            # Include without link if validation fails
+                            paper_content = {
+                                'title': title,
+                                'link': '',
+                                'summary': summary,
+                                'published': datetime.now().strftime('%Y-%m-%d'),
+                                'source_type': 'recommended_paper',
+                                'recommended_by': f"Related to: {paper}",
+                                'has_valid_link': False
+                            }
+                            fetched_content['recommended_papers'].append(paper_content)
                         
                 except Exception as e:
                     logger.warning(f"Could not generate paper recommendations for {paper}: {e}")
@@ -551,15 +617,33 @@ Provide only the summary, without any preamble."""
                             link = line.replace('LINK:', '').strip()
                     
                     if title and summary:
-                        tool_content = {
-                            'title': title,
-                            'link': link or f"https://google.com/search?q={title.replace(' ', '+')}",
-                            'summary': summary,
-                            'published': datetime.now().strftime('%Y-%m-%d'),
-                            'source_type': 'recommended_tool',
-                            'recommended_by': f"Learning resource for: {tool}"
-                        }
-                        fetched_content['recommended_tools'].append(tool_content)
+                        # Use provided link or generate search link
+                        final_link = link or f"https://google.com/search?q={title.replace(' ', '+')}"
+                        
+                        # Validate the link
+                        if self.validate_link(final_link):
+                            tool_content = {
+                                'title': title,
+                                'link': final_link,
+                                'summary': summary,
+                                'published': datetime.now().strftime('%Y-%m-%d'),
+                                'source_type': 'recommended_tool',
+                                'recommended_by': f"Learning resource for: {tool}",
+                                'has_valid_link': True
+                            }
+                            fetched_content['recommended_tools'].append(tool_content)
+                        else:
+                            # Include without link if validation fails
+                            tool_content = {
+                                'title': title,
+                                'link': '',
+                                'summary': summary,
+                                'published': datetime.now().strftime('%Y-%m-%d'),
+                                'source_type': 'recommended_tool',
+                                'recommended_by': f"Learning resource for: {tool}",
+                                'has_valid_link': False
+                            }
+                            fetched_content['recommended_tools'].append(tool_content)
                         
                 except Exception as e:
                     logger.warning(f"Could not generate tool recommendations for {tool}: {e}")

@@ -285,7 +285,9 @@ class EmailSender:
                         <div style="font-weight: 600; color: #2C3E50; margin-bottom: 5px;">{{ article.title }}</div>
                         <div style="color: #7F8C8D; font-size: 14px; margin-bottom: 5px;">{{ article.summary }}</div>
                         <div style="color: #95A5A6; font-size: 12px; margin-bottom: 5px;">Source: {{ article.recommended_by }}</div>
+                        {% if article.link %}
                         <a href="{{ article.link }}" style="color: #E74C3C; text-decoration: none; font-size: 14px;">Read article →</a>
+                        {% endif %}
                     </div>
                     {% endfor %}
                 </div>
@@ -299,7 +301,9 @@ class EmailSender:
                         <div style="font-weight: 600; color: #2C3E50; margin-bottom: 5px;">{{ reading.title }}</div>
                         <div style="color: #7F8C8D; font-size: 14px; margin-bottom: 5px;">{{ reading.summary }}</div>
                         <div style="color: #95A5A6; font-size: 12px; margin-bottom: 5px;">{{ reading.recommended_by }}</div>
+                        {% if reading.has_valid_link and reading.link %}
                         <a href="{{ reading.link }}" style="color: #3498DB; text-decoration: none; font-size: 14px;">Read now →</a>
+                        {% endif %}
                     </div>
                     {% endfor %}
                 </div>
@@ -313,7 +317,9 @@ class EmailSender:
                         <div style="font-weight: 600; color: #2C3E50; margin-bottom: 5px;">{{ paper.title }}</div>
                         <div style="color: #7F8C8D; font-size: 14px; margin-bottom: 5px;">{{ paper.summary }}</div>
                         <div style="color: #95A5A6; font-size: 12px; margin-bottom: 5px;">{{ paper.recommended_by }}</div>
+                        {% if paper.has_valid_link and paper.link %}
                         <a href="{{ paper.link }}" style="color: #9B59B6; text-decoration: none; font-size: 14px;">Read paper →</a>
+                        {% endif %}
                     </div>
                     {% endfor %}
                 </div>
@@ -327,7 +333,9 @@ class EmailSender:
                         <div style="font-weight: 600; color: #2C3E50; margin-bottom: 5px;">{{ tool.title }}</div>
                         <div style="color: #7F8C8D; font-size: 14px; margin-bottom: 5px;">{{ tool.summary }}</div>
                         <div style="color: #95A5A6; font-size: 12px; margin-bottom: 5px;">{{ tool.recommended_by }}</div>
+                        {% if tool.has_valid_link and tool.link %}
                         <a href="{{ tool.link }}" style="color: #F39C12; text-decoration: none; font-size: 14px;">Start learning →</a>
+                        {% endif %}
                     </div>
                     {% endfor %}
                 </div>
