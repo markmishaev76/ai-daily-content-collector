@@ -859,7 +859,12 @@ Make sure to include their actual blog URLs or RSS feeds where possible."""
 
         prompt = f"""Based on the current trends in {topic_name} (recent articles: {current_trends}), provide specific conference and call-for-paper recommendations for a Senior Engineering Manager in software supply chain security at GitLab.
 
-        IMPORTANT: Only recommend conferences, CFPs, and speaking opportunities that are in the FUTURE. Do not include any events with past deadlines or dates.
+        CRITICAL REQUIREMENTS:
+        - ONLY recommend conferences, CFPs, and speaking opportunities with deadlines/dates in 2025 or later
+        - DO NOT include any 2024 events as their deadlines have likely passed
+        - DO NOT include any events with past submission deadlines
+        - Focus on events where submissions are still open or will open soon
+        - If you cannot find enough 2025+ events, provide fewer recommendations rather than including outdated ones
 
         Focus on conferences and CFPs that would be relevant for someone in this role who might want to:
         - Present on software supply chain security topics
@@ -870,16 +875,16 @@ Make sure to include their actual blog URLs or RSS feeds where possible."""
         Please provide recommendations in this exact format:
 
         CONFERENCES:
-        - [Conference Name]: [Brief description] - [Future submission deadline or dates] - [URL]
-        - [Conference Name]: [Brief description] - [Future submission deadline or dates] - [URL]
+        - [Conference Name]: [Brief description] - [2025+ submission deadline or dates] - [URL]
+        - [Conference Name]: [Brief description] - [2025+ submission deadline or dates] - [URL]
 
         CALL_FOR_PAPERS:
-        - [CFP Title]: [Brief description] - [Future deadline] - [URL]
-        - [CFP Title]: [Brief description] - [Future deadline] - [URL]
+        - [CFP Title]: [Brief description] - [2025+ deadline] - [URL]
+        - [CFP Title]: [Brief description] - [2025+ deadline] - [URL]
 
         SPEAKING_OPPORTUNITIES:
-        - [Event/Conference]: [Topic area] - [Future deadline] - [URL]
-        - [Event/Conference]: [Topic area] - [Future deadline] - [URL]
+        - [Event/Conference]: [Topic area] - [2025+ deadline] - [URL]
+        - [Event/Conference]: [Topic area] - [2025+ deadline] - [URL]
 
         Focus on:
         - Security conferences (Black Hat, DEF CON, RSA, etc.)
@@ -887,9 +892,9 @@ Make sure to include their actual blog URLs or RSS feeds where possible."""
         - Supply chain security specific events
         - Academic conferences (if relevant)
         - Industry events where GitLab's perspective would be valuable
-        - Upcoming deadlines (next 6-12 months from now)
+        - Events with 2025+ deadlines and dates only
 
-        CRITICAL: Only include events with deadlines or dates that are in the future. If you're unsure about a date, do not include it. Make sure to include actual URLs and current/relevant future deadlines where possible."""
+        ABSOLUTE REQUIREMENT: Only include events with deadlines or dates in 2025 or later. If you cannot find enough 2025+ events, provide fewer recommendations rather than including any 2024 or earlier events."""
 
         try:
             if self.provider == "claude":
