@@ -859,6 +859,8 @@ Make sure to include their actual blog URLs or RSS feeds where possible."""
 
         prompt = f"""Based on the current trends in {topic_name} (recent articles: {current_trends}), provide specific conference and call-for-paper recommendations for a Senior Engineering Manager in software supply chain security at GitLab.
 
+        IMPORTANT: Only recommend conferences, CFPs, and speaking opportunities that are in the FUTURE. Do not include any events with past deadlines or dates.
+
         Focus on conferences and CFPs that would be relevant for someone in this role who might want to:
         - Present on software supply chain security topics
         - Share GitLab's experiences and best practices
@@ -868,16 +870,16 @@ Make sure to include their actual blog URLs or RSS feeds where possible."""
         Please provide recommendations in this exact format:
 
         CONFERENCES:
-        - [Conference Name]: [Brief description] - [Submission deadline or dates] - [URL]
-        - [Conference Name]: [Brief description] - [Submission deadline or dates] - [URL]
+        - [Conference Name]: [Brief description] - [Future submission deadline or dates] - [URL]
+        - [Conference Name]: [Brief description] - [Future submission deadline or dates] - [URL]
 
         CALL_FOR_PAPERS:
-        - [CFP Title]: [Brief description] - [Deadline] - [URL]
-        - [CFP Title]: [Brief description] - [Deadline] - [URL]
+        - [CFP Title]: [Brief description] - [Future deadline] - [URL]
+        - [CFP Title]: [Brief description] - [Future deadline] - [URL]
 
         SPEAKING_OPPORTUNITIES:
-        - [Event/Conference]: [Topic area] - [Deadline] - [URL]
-        - [Event/Conference]: [Topic area] - [Deadline] - [URL]
+        - [Event/Conference]: [Topic area] - [Future deadline] - [URL]
+        - [Event/Conference]: [Topic area] - [Future deadline] - [URL]
 
         Focus on:
         - Security conferences (Black Hat, DEF CON, RSA, etc.)
@@ -885,9 +887,9 @@ Make sure to include their actual blog URLs or RSS feeds where possible."""
         - Supply chain security specific events
         - Academic conferences (if relevant)
         - Industry events where GitLab's perspective would be valuable
-        - Upcoming deadlines (next 6 months)
+        - Upcoming deadlines (next 6-12 months from now)
 
-        Make sure to include actual URLs and current/relevant deadlines where possible."""
+        CRITICAL: Only include events with deadlines or dates that are in the future. If you're unsure about a date, do not include it. Make sure to include actual URLs and current/relevant future deadlines where possible."""
 
         try:
             if self.provider == "claude":
