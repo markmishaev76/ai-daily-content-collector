@@ -279,6 +279,7 @@ Provide only the summary, without any preamble."""
         filtered = {}
         
         for category, items in recommendations.items():
+                
             if not items:
                 continue
                 
