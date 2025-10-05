@@ -32,7 +32,8 @@ class EmailSender:
                          articles_by_topic: Dict[str, List[Dict]], 
                          overview: str,
                          user_name: str = "there",
-                         assistant_name: str = "Your AI Assistant") -> str:
+                         assistant_name: str = "Your AI Assistant",
+                         recommendations_by_topic: Dict[str, Dict] = None) -> str:
         """
         Create beautiful HTML email from articles
         
@@ -212,6 +213,63 @@ class EmailSender:
                 <a href="{{ article.link }}" class="article-link" target="_blank">Read more →</a>
             </div>
             {% endfor %}
+            
+            {% if recommendations_by_topic and recommendations_by_topic.get(topic_name) %}
+            <div class="recommendations-section">
+                <h3 style="color: #4A90E2; margin-top: 30px; margin-bottom: 15px;">🔍 AI Recommendations for {{ topic_name }}</h3>
+                {% set recs = recommendations_by_topic[topic_name] %}
+                
+                {% if recs.additional_sources or recs.key_people or recs.research_papers or recs.tools_resources %}
+                    {% if recs.additional_sources %}
+                    <div class="recommendation-category">
+                        <h4 style="color: #2C3E50; margin-bottom: 8px;">📰 Additional Sources</h4>
+                        <ul style="margin: 0; padding-left: 20px;">
+                            {% for source in recs.additional_sources %}
+                            <li style="margin-bottom: 5px;">{{ source }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                    
+                    {% if recs.key_people %}
+                    <div class="recommendation-category">
+                        <h4 style="color: #2C3E50; margin-bottom: 8px;">👥 Key People to Follow</h4>
+                        <ul style="margin: 0; padding-left: 20px;">
+                            {% for person in recs.key_people %}
+                            <li style="margin-bottom: 5px;">{{ person }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                    
+                    {% if recs.research_papers %}
+                    <div class="recommendation-category">
+                        <h4 style="color: #2C3E50; margin-bottom: 8px;">📚 Research Papers</h4>
+                        <ul style="margin: 0; padding-left: 20px;">
+                            {% for paper in recs.research_papers %}
+                            <li style="margin-bottom: 5px;">{{ paper }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                    
+                    {% if recs.tools_resources %}
+                    <div class="recommendation-category">
+                        <h4 style="color: #2C3E50; margin-bottom: 8px;">🛠️ Tools & Resources</h4>
+                        <ul style="margin: 0; padding-left: 20px;">
+                            {% for tool in recs.tools_resources %}
+                            <li style="margin-bottom: 5px;">{{ tool }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                {% else %}
+                    <p style="color: #7F8C8D; font-style: italic; margin-top: 10px;">
+                        No specific recommendations available for this topic at the moment.
+                    </p>
+                {% endif %}
+            </div>
+            {% endif %}
         </div>
         {% endif %}
         {% endfor %}
@@ -233,6 +291,7 @@ class EmailSender:
             overview=overview,
             user_name=user_name,
             assistant_name=assistant_name,
+            recommendations_by_topic=recommendations_by_topic or {},
             current_date=datetime.now().strftime("%A, %B %d, %Y")
         )
         
@@ -272,5 +331,6 @@ class EmailSender:
         except Exception as e:
             logger.error(f"Error sending email: {str(e)}")
             return False
+
 
 

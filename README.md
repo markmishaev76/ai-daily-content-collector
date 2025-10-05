@@ -22,6 +22,7 @@ Your personalized daily brief that saves you hours every day! Get one clean emai
 - 📰 **Content Aggregation**: 40+ professional RSS feeds and sources
 - 🔬 **Research Integration**: Academic papers, industry reports, and surveys  
 - 🧠 **AI Summaries**: Claude 3.5 Sonnet for intelligent content summarization
+- 🔍 **AI Recommendations**: Smart suggestions for additional sources, people to follow, and resources
 - 📧 **Professional Emails**: Beautiful HTML format with mobile optimization
 - ⚙️ **Fully Automated**: Daily scheduling with background processing
 - 🎯 **Domain Expertise**: Pre-configured for tech, security, and engineering topics
@@ -118,7 +119,11 @@ topics:
 ### 4. Test Your Setup
 
 ```bash
+# Test the full brief generation
 python test_brief.py
+
+# Test the new AI recommendations feature
+python test_recommendations.py
 ```
 
 This will generate and send a test email immediately. Check your inbox!
@@ -138,13 +143,50 @@ This will generate and send a test email immediately. Check your inbox!
 
 The scheduler will run in the background and send your brief at the configured time every day.
 
+## 🔍 AI Recommendations Feature
+
+The AI assistant now provides intelligent recommendations for each topic:
+
+### **What You Get**
+- **📰 Additional Sources**: RSS feeds and websites to follow
+- **👥 Key People**: Influential people to follow on social media
+- **📚 Research Papers**: Academic papers and research to read
+- **🛠️ Tools & Resources**: Tools and resources to explore
+
+### **How It Works**
+1. **Analyzes Current Content**: Reviews recent articles in each topic
+2. **Generates Smart Suggestions**: Uses Claude to suggest relevant sources
+3. **Contextual Recommendations**: Tailored to current trends and topics
+4. **Beautiful Display**: Integrated into your daily email
+
+### **Example Output**
+```
+🔍 AI Recommendations for AI Technologies & Research
+
+📰 Additional Sources:
+- The Batch by Andrew Ng: https://www.deeplearning.ai/the-batch/
+- AI Research Blog: https://ai.googleblog.com/
+
+👥 Key People to Follow:
+- Yann LeCun: @ylecun (Meta AI Chief Scientist)
+- Fei-Fei Li: @drfeili (Stanford AI Lab Director)
+
+📚 Research Papers:
+- "Attention Is All You Need": https://arxiv.org/abs/1706.03762
+- "BERT: Pre-training of Deep Bidirectional Transformers": https://arxiv.org/abs/1810.04805
+
+🛠️ Tools & Resources:
+- Hugging Face Transformers: https://huggingface.co/transformers/
+- OpenAI API: https://platform.openai.com/
+```
+
 ## 📋 Configuration Options
 
 ### Summarization Settings
 
 ```yaml
 summarization:
-  model: "gpt-4o-mini"  # or "gpt-4" for better quality
+  model: "claude-3-5-sonnet-20241022"  # Claude model for best results
   max_articles_per_topic: 5  # Limit articles per topic
   summary_length: "brief"  # brief, medium, or detailed
 ```

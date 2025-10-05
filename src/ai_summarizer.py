@@ -140,6 +140,170 @@ Provide only the summary, without any preamble."""
         
         return articles
     
+    def generate_content_recommendations(self, topic_name: str, articles: List[Dict]) -> Dict[str, List[str]]:
+        """
+        Generate content recommendations and references for a specific topic
+
+        Args:
+            topic_name: The topic/category name
+            articles: List of articles from this topic
+
+        Returns:
+            Dictionary with recommendations including:
+            - additional_sources: RSS feeds and websites to follow
+            - key_people: Influential people to follow
+            - research_papers: Academic papers to read
+            - tools_resources: Tools and resources to explore
+        """
+        # Create a summary of current articles for context
+        article_titles = [article['title'] for article in articles[:5]]  # Top 5 articles
+        current_trends = ", ".join(article_titles)
+
+        prompt = f"""Based on the current trends in {topic_name} (recent articles: {current_trends}), provide specific recommendations for staying informed in this domain.
+
+        Please provide recommendations in this exact format:
+
+        ADDITIONAL_SOURCES:
+        - [RSS feed or website name]: [URL]
+        - [RSS feed or website name]: [URL]
+
+        KEY_PEOPLE:
+        - [Person name]: [Twitter/LinkedIn handle or description]
+        - [Person name]: [Twitter/LinkedIn handle or description]
+
+        RESEARCH_PAPERS:
+        - [Paper title]: [arXiv link or description]
+        - [Paper title]: [arXiv link or description]
+
+        TOOLS_RESOURCES:
+        - [Tool/Resource name]: [URL or description]
+        - [Tool/Resource name]: [URL or description]
+
+        Focus on high-quality, authoritative sources that would be valuable for someone working in {topic_name}.
+        
+        IMPORTANT: Only include sources, people, papers, and tools that you are confident about and can provide specific, actionable information for. If you cannot provide specific recommendations for any category, omit that category entirely rather than including generic or uncertain suggestions."""
+
+        try:
+            if self.provider == "claude":
+                response = self.client.messages.create(
+                    model=self.model,
+                    max_tokens=800,
+                    temperature=0.7,
+                    system="You are an expert research assistant that provides high-quality recommendations for staying informed in technology domains. Only provide specific, actionable recommendations that you are confident about.",
+                    messages=[
+                        {"role": "user", "content": prompt}
+                    ]
+                )
+                recommendations_text = response.content[0].text.strip()
+            else:
+                response = self.client.chat.completions.create(
+                    model=self.model,
+                    messages=[
+                        {"role": "system", "content": "You are an expert research assistant that provides high-quality recommendations for staying informed in technology domains. Only provide specific, actionable recommendations that you are confident about."},
+                        {"role": "user", "content": prompt}
+                    ],
+                    temperature=0.7,
+                    max_tokens=800
+                )
+                recommendations_text = response.choices[0].message.content.strip()
+
+            # Parse the recommendations
+            recommendations = self._parse_recommendations(recommendations_text)
+            
+            # Filter out empty or low-quality recommendations
+            filtered_recommendations = self._filter_recommendations(recommendations)
+            return filtered_recommendations
+
+        except Exception as e:
+            logger.error(f"Error generating recommendations for {topic_name}: {str(e)}")
+            return {
+                "additional_sources": [],
+                "key_people": [],
+                "research_papers": [],
+                "tools_resources": []
+            }
+    
+    def _parse_recommendations(self, text: str) -> Dict[str, List[str]]:
+        """
+        Parse the AI-generated recommendations into structured format
+        
+        Args:
+            text: Raw recommendations text from AI
+            
+        Returns:
+            Dictionary with parsed recommendations
+        """
+        recommendations = {
+            "additional_sources": [],
+            "key_people": [],
+            "research_papers": [],
+            "tools_resources": []
+        }
+        
+        current_section = None
+        
+        for line in text.split('\n'):
+            line = line.strip()
+            if not line:
+                continue
+                
+            if line.startswith('ADDITIONAL_SOURCES:'):
+                current_section = 'additional_sources'
+            elif line.startswith('KEY_PEOPLE:'):
+                current_section = 'key_people'
+            elif line.startswith('RESEARCH_PAPERS:'):
+                current_section = 'research_papers'
+            elif line.startswith('TOOLS_RESOURCES:'):
+                current_section = 'tools_resources'
+            elif line.startswith('- ') and current_section:
+                # Remove the bullet point and add to current section
+                item = line[2:].strip()
+                if item:
+                    recommendations[current_section].append(item)
+        
+        return recommendations
+    
+    def _filter_recommendations(self, recommendations: Dict[str, List[str]]) -> Dict[str, List[str]]:
+        """
+        Filter out low-quality or empty recommendations
+        
+        Args:
+            recommendations: Raw recommendations from AI
+            
+        Returns:
+            Filtered recommendations with only high-quality content
+        """
+        filtered = {}
+        
+        for category, items in recommendations.items():
+            if not items:
+                continue
+                
+            filtered_items = []
+            for item in items:
+                # Skip items that are too short, generic, or unclear
+                if (len(item.strip()) < 10 or 
+                    item.lower().strip() in ['n/a', 'none', 'not available', 'tbd', 'to be determined'] or
+                    'i cannot' in item.lower() or
+                    'i don\'t know' in item.lower() or
+                    'i\'m not sure' in item.lower() or
+                    'unable to' in item.lower() or
+                    'cannot provide' in item.lower()):
+                    continue
+                    
+                # Skip items that look like errors or placeholders
+                if (item.strip().startswith('[') and item.strip().endswith(']') and 
+                    'url' in item.lower() or 'description' in item.lower()):
+                    continue
+                    
+                filtered_items.append(item.strip())
+            
+            # Only include category if it has valid items
+            if filtered_items:
+                filtered[category] = filtered_items
+        
+        return filtered
+
     def generate_overview(self, articles_by_topic: Dict[str, List[Dict]]) -> str:
         """
         Generate an overview/introduction for the entire brief

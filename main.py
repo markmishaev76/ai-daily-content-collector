@@ -71,21 +71,33 @@ def generate_brief():
                     topic
                 )
         
-        # Step 4: Generate overview
-        logger.info("Step 3: Generating overview...")
+        # Step 4: Generate content recommendations for each topic
+        logger.info("Step 3: Generating content recommendations...")
+        recommendations_by_topic = {}
+        for topic, articles in articles_by_topic.items():
+            if articles:
+                logger.info(f"Generating recommendations for topic: {topic}")
+                recommendations_by_topic[topic] = summarizer.generate_content_recommendations(
+                    topic, 
+                    articles
+                )
+        
+        # Step 5: Generate overview
+        logger.info("Step 4: Generating overview...")
         overview = summarizer.generate_overview(articles_by_topic)
         
-        # Step 5: Create HTML email
-        logger.info("Step 4: Creating email...")
+        # Step 6: Create HTML email
+        logger.info("Step 5: Creating email...")
         html_content = email_sender.create_html_email(
             articles_by_topic=articles_by_topic,
             overview=overview,
             user_name=config.get('user_name', 'there'),
-            assistant_name=config.get('assistant_name', 'Your AI Assistant')
+            assistant_name=config.get('assistant_name', 'Your AI Assistant'),
+            recommendations_by_topic=recommendations_by_topic
         )
         
-        # Step 6: Send email
-        logger.info("Step 5: Sending email...")
+        # Step 7: Send email
+        logger.info("Step 6: Sending email...")
         subject = config['email']['subject'].format(
             date=datetime.now().strftime("%B %d, %Y")
         )
