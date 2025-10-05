@@ -218,7 +218,7 @@ class EmailSender:
             
             {% if recommendations_by_topic and recommendations_by_topic.get(topic_name) %}
             {% set recs = recommendations_by_topic[topic_name] %}
-            {% if recs.research_papers or recs.additional_sources or recs.key_people or recs.tools_resources %}
+            {% if recs.research_papers %}
             <div class="recommendations-section">
                 <h3 style="color: #4A90E2; margin-top: 30px; margin-bottom: 15px;">🔍 AI Recommendations for {{ topic_name }}</h3>
                 
