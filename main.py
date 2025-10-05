@@ -75,6 +75,7 @@ def generate_brief():
         logger.info("Step 3: Generating content recommendations...")
         recommendations_by_topic = {}
         enhanced_recommendations_by_topic = {}
+        blogger_posts_by_topic = {}
         
         for topic, articles in articles_by_topic.items():
             if articles:
@@ -93,6 +94,14 @@ def generate_brief():
                     topic
                 )
                 enhanced_recommendations_by_topic[topic] = enhanced_content
+                
+                # Get blogger recommendations and fetch their recent posts
+                logger.info(f"Getting blogger recommendations for topic: {topic}")
+                bloggers = summarizer.get_blogger_recommendations(topic, articles)
+                if bloggers:
+                    logger.info(f"Fetching recent posts from {len(bloggers)} bloggers for topic: {topic}")
+                    blogger_posts = summarizer.fetch_blogger_posts(bloggers, topic)
+                    blogger_posts_by_topic[topic] = blogger_posts
         
         # Step 5: Generate overview
         logger.info("Step 4: Generating overview...")
@@ -106,7 +115,8 @@ def generate_brief():
             user_name=config.get('user_name', 'there'),
             assistant_name=config.get('assistant_name', 'Your AI Assistant'),
             recommendations_by_topic=recommendations_by_topic,
-            enhanced_recommendations_by_topic=enhanced_recommendations_by_topic
+            enhanced_recommendations_by_topic=enhanced_recommendations_by_topic,
+            blogger_posts_by_topic=blogger_posts_by_topic
         )
         
         # Step 7: Send email

@@ -701,3 +701,144 @@ There are {total_articles} total articles. Make it personal and energetic, like 
             logger.error(f"Error generating overview: {str(e)}")
             return "Here's your personalized brief with the latest updates across your topics of interest."
 
+    def get_blogger_recommendations(self, topic_name: str, articles: List[Dict]) -> List[Dict]:
+        """
+        Get recommendations for well-known bloggers/writers in a specific topic
+        
+        Args:
+            topic_name: The topic/category name
+            articles: List of articles from this topic for context
+            
+        Returns:
+            List of blogger recommendations with their blog URLs
+        """
+        # Create a summary of current articles for context
+        article_titles = [article['title'] for article in articles[:3]]  # Top 3 articles
+        current_trends = ", ".join(article_titles)
+
+        prompt = f"""Based on the current trends in {topic_name} (recent articles: {current_trends}), recommend 3-5 well-known bloggers, writers, or thought leaders who regularly write about this topic.
+
+Please provide recommendations in this exact format:
+
+BLOGGER_NAME: [Full Name]
+BLOG_URL: [Their main blog URL or RSS feed]
+EXPERTISE: [Brief description of their expertise]
+RECENT_FOCUS: [What they've been writing about recently]
+
+BLOGGER_NAME: [Full Name]
+BLOG_URL: [Their main blog URL or RSS feed]
+EXPERTISE: [Brief description of their expertise]
+RECENT_FOCUS: [What they've been writing about recently]
+
+Focus on:
+- Established thought leaders in the field
+- People who write regularly and have active blogs
+- Those with RSS feeds or easily accessible blog content
+- Mix of different perspectives and expertise areas within the topic
+
+Make sure to include their actual blog URLs or RSS feeds where possible."""
+
+        try:
+            if self.provider == "claude":
+                response = self.client.messages.create(
+                    model=self.model,
+                    max_tokens=1000,
+                    messages=[{"role": "user", "content": prompt}]
+                )
+                content = response.content[0].text
+            else:
+                response = self.client.chat.completions.create(
+                    model=self.model,
+                    messages=[{"role": "user", "content": prompt}],
+                    max_tokens=1000
+                )
+                content = response.choices[0].message.content
+
+            # Parse the response
+            bloggers = self._parse_blogger_recommendations(content)
+            return bloggers
+
+        except Exception as e:
+            logger.error(f"Error getting blogger recommendations for {topic_name}: {str(e)}")
+            return []
+
+    def _parse_blogger_recommendations(self, text: str) -> List[Dict]:
+        """
+        Parse the AI-generated blogger recommendations into structured format
+        
+        Args:
+            text: Raw blogger recommendations text from AI
+            
+        Returns:
+            List of parsed blogger recommendations
+        """
+        bloggers = []
+        current_blogger = {}
+        
+        for line in text.split('\n'):
+            line = line.strip()
+            if not line:
+                continue
+                
+            if line.startswith('BLOGGER_NAME:'):
+                # Save previous blogger if exists
+                if current_blogger and current_blogger.get('name'):
+                    bloggers.append(current_blogger)
+                # Start new blogger
+                current_blogger = {'name': line.replace('BLOGGER_NAME:', '').strip()}
+            elif line.startswith('BLOG_URL:'):
+                current_blogger['url'] = line.replace('BLOG_URL:', '').strip()
+            elif line.startswith('EXPERTISE:'):
+                current_blogger['expertise'] = line.replace('EXPERTISE:', '').strip()
+            elif line.startswith('RECENT_FOCUS:'):
+                current_blogger['recent_focus'] = line.replace('RECENT_FOCUS:', '').strip()
+        
+        # Add the last blogger
+        if current_blogger and current_blogger.get('name'):
+            bloggers.append(current_blogger)
+        
+        return bloggers
+
+    def fetch_blogger_posts(self, bloggers: List[Dict], topic_name: str) -> List[Dict]:
+        """
+        Fetch recent posts from recommended bloggers
+        
+        Args:
+            bloggers: List of blogger recommendations
+            topic_name: The topic/category name
+            
+        Returns:
+            List of recent blog posts from the bloggers
+        """
+        from .content_aggregator import ContentAggregator
+        
+        blogger_posts = []
+        
+        for blogger in bloggers:
+            if not blogger.get('url'):
+                continue
+                
+            try:
+                # Create a temporary topic configuration for the blogger
+                blogger_topic = {
+                    'name': f"Blogger: {blogger['name']}",
+                    'sources': [{'type': 'rss', 'url': blogger['url']}]
+                }
+                
+                # Fetch content using ContentAggregator
+                aggregator = ContentAggregator(hours_back=168)  # Last week
+                articles = aggregator.aggregate_content([blogger_topic])
+                
+                if articles and blogger_topic['name'] in articles:
+                    for article in articles[blogger_topic['name']][:2]:  # Top 2 posts
+                        article['blogger_name'] = blogger['name']
+                        article['blogger_expertise'] = blogger.get('expertise', '')
+                        article['blogger_recent_focus'] = blogger.get('recent_focus', '')
+                        blogger_posts.append(article)
+                        
+            except Exception as e:
+                logger.error(f"Error fetching posts from blogger {blogger.get('name', 'Unknown')}: {str(e)}")
+                continue
+        
+        return blogger_posts
+

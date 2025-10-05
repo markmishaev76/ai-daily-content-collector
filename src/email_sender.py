@@ -34,7 +34,8 @@ class EmailSender:
                          user_name: str = "there",
                          assistant_name: str = "Your AI Assistant",
                          recommendations_by_topic: Dict[str, Dict] = None,
-                         enhanced_recommendations_by_topic: Dict[str, Dict] = None) -> str:
+                         enhanced_recommendations_by_topic: Dict[str, Dict] = None,
+                         blogger_posts_by_topic: Dict[str, List[Dict]] = None) -> str:
         """
         Create beautiful HTML email from articles
         
@@ -287,6 +288,37 @@ class EmailSender:
                     {% endfor %}
                 </div>
                 {% endif %}
+            </div>
+            {% endif %}
+            
+            {% if blogger_posts_by_topic and blogger_posts_by_topic.get(topic_name) %}
+            <div class="blogger-posts-section">
+                <h3 style="color: #27AE60; margin-top: 30px; margin-bottom: 15px;">📝 Featured Blogger Posts</h3>
+                {% set blogger_posts = blogger_posts_by_topic[topic_name] %}
+                
+                {% for post in blogger_posts %}
+                <div style="margin-bottom: 20px; padding: 15px; background-color: #F8F9FA; border-left: 4px solid #27AE60; border-radius: 5px;">
+                    <div style="font-weight: 600; color: #2C3E50; margin-bottom: 8px; font-size: 16px;">
+                        <a href="{{ post.link }}" style="color: #2C3E50; text-decoration: none;">{{ post.title }}</a>
+                    </div>
+                    <div style="color: #7F8C8D; font-size: 14px; margin-bottom: 8px;">
+                        <strong>By {{ post.blogger_name }}</strong>
+                        {% if post.blogger_expertise %} • {{ post.blogger_expertise }}{% endif %}
+                    </div>
+                    {% if post.blogger_recent_focus %}
+                    <div style="color: #95A5A6; font-size: 12px; margin-bottom: 8px; font-style: italic;">
+                        Recent focus: {{ post.blogger_recent_focus }}
+                    </div>
+                    {% endif %}
+                    <div style="color: #555; line-height: 1.5; margin-bottom: 10px;">
+                        {{ post.summary or post.ai_summary or 'No summary available' }}
+                    </div>
+                    <div style="color: #95A5A6; font-size: 12px; margin-bottom: 8px;">
+                        {% if post.published %}{{ post.published.strftime('%B %d, %Y') }}{% endif %}
+                    </div>
+                    <a href="{{ post.link }}" style="color: #27AE60; text-decoration: none; font-size: 14px; font-weight: 500;">Read full post →</a>
+                </div>
+                {% endfor %}
             </div>
             {% endif %}
         </div>
