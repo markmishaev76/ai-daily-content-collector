@@ -46,3 +46,4 @@ echo "📧 Email: $(grep EMAIL_TO .env | cut -d'=' -f2 | head -1)"
 
 
 
+

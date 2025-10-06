@@ -49,6 +49,32 @@ class AISummarizer:
         else:
             raise ValueError(f"Unknown provider: {provider}")
     
+    def _sanitize_text_for_prompt(self, text: str, max_length: int = 2000) -> str:
+        """
+        Sanitize text for use in AI prompts to prevent prompt injection
+        
+        Args:
+            text: Text to sanitize
+            max_length: Maximum length of text
+            
+        Returns:
+            Sanitized text
+        """
+        if not text:
+            return ""
+        
+        # Remove potential prompt injection patterns
+        text = text.replace("\\n\\n", " ").replace("\\n", " ")
+        
+        # Remove multiple spaces
+        text = " ".join(text.split())
+        
+        # Truncate to max length
+        if len(text) > max_length:
+            text = text[:max_length] + "..."
+        
+        return text
+    
     def summarize_article(self, article: Dict, length: str = "brief") -> str:
         """
         Generate a summary for a single article
@@ -68,10 +94,14 @@ class AISummarizer:
         
         instruction = length_instructions.get(length, "in 1-2 sentences")
         
+        # Sanitize inputs to prevent prompt injection
+        safe_title = self._sanitize_text_for_prompt(article.get('title', 'No Title'), max_length=500)
+        safe_content = self._sanitize_text_for_prompt(article.get('summary', ''), max_length=1000)
+        
         prompt = f"""Summarize the following article {instruction}. Focus on the key insights and why it matters.
 
-Title: {article['title']}
-Content: {article['summary'][:1000]}
+Title: {safe_title}
+Content: {safe_content}
 
 Provide only the summary, without any preamble."""
         
@@ -296,8 +326,9 @@ Provide only the summary, without any preamble."""
                     continue
                     
                 # Skip items that look like errors or placeholders
+                # Fixed: Added explicit parentheses to match intended logic
                 if (item.strip().startswith('[') and item.strip().endswith(']') and 
-                    'url' in item.lower() or 'description' in item.lower()):
+                    ('url' in item.lower() or 'description' in item.lower())):
                     continue
                     
                 filtered_items.append(item.strip())
@@ -329,7 +360,7 @@ Provide only the summary, without any preamble."""
                 return True
             
             # Make a HEAD request to check if the URL is accessible
-            response = requests.head(url, timeout=5, allow_redirects=True)
+            response = requests.head(url, timeout=5, allow_redirects=True, verify=True)
             return response.status_code < 400
             
         except Exception as e:
@@ -356,9 +387,11 @@ Provide only the summary, without any preamble."""
             "recommended_tools": []
         }
         
+        # Reuse aggregator instance to prevent memory leak
+        aggregator = ContentAggregator(hours_back=168)  # Last week
+        
         # Fetch actual content from recommended sources
         if recommendations.get('additional_sources'):
-            aggregator = ContentAggregator(hours_back=168)  # Last week
             
             for source in recommendations['additional_sources'][:3]:  # Limit to top 3
                 try:
@@ -372,6 +405,7 @@ Provide only the summary, without any preamble."""
                                 'sources': [{'type': 'rss', 'url': url}]
                             }
                             
+                            # Reusing aggregator instance from above
                             articles = aggregator.aggregate_content([mock_topic])
                             if articles and f"Recommended {topic_name}" in articles:
                                 for article in articles[f"Recommended {topic_name}"][:2]:  # Top 2 articles

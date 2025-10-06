@@ -25,7 +25,12 @@ def job():
     logger.info("=" * 60)
     logger.info(f"Running scheduled brief generation at {datetime.now()}")
     logger.info("=" * 60)
-    generate_brief()
+    
+    try:
+        generate_brief()
+    except Exception as e:
+        logger.error(f"Critical error in scheduled job: {str(e)}", exc_info=True)
+        # Continue running - don't crash the scheduler on a single failure
 
 
 def signal_handler(sig, frame):

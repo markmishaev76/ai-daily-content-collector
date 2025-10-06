@@ -366,7 +366,8 @@ class EmailSender:
 </html>
         """
         
-        t = Template(template)
+        # Enable auto-escaping to prevent XSS attacks from malicious article content
+        t = Template(template, autoescape=True)
         html = t.render(
             articles_by_topic=articles_by_topic,
             overview=overview,
@@ -403,8 +404,8 @@ class EmailSender:
             html_part = MIMEText(html_content, 'html')
             msg.attach(html_part)
             
-            # Send email
-            with smtplib.SMTP(self.smtp_server, self.smtp_port) as server:
+            # Send email with timeout protection
+            with smtplib.SMTP(self.smtp_server, self.smtp_port, timeout=30) as server:
                 server.starttls()
                 server.login(self.email_from, self.email_password)
                 server.send_message(msg)

@@ -407,12 +407,11 @@ summarization:
   summary_length: "brief"  # brief, medium, or detailed
   
 # Email settings
+# Note: Email credentials are configured via environment variables in .env
+# EMAIL_FROM, EMAIL_TO, EMAIL_PASSWORD
 email:
   subject: "Your Morning Brief - {date}"
   include_links: true
   group_by_category: true
-  from: "your_email@gmail.com"
-  to: "your_email@gmail.com"
-  password: "your_app_password"
 
 
