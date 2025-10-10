@@ -71,61 +71,17 @@ def generate_brief():
                     topic
                 )
         
-        # Step 4: Generate content recommendations for each topic
-        logger.info("Step 3: Generating content recommendations...")
-        recommendations_by_topic = {}
-        enhanced_recommendations_by_topic = {}
-        blogger_posts_by_topic = {}
-        conference_recommendations_by_topic = {}
-        
-        for topic, articles in articles_by_topic.items():
-            if articles:
-                logger.info(f"Generating recommendations for topic: {topic}")
-                # Generate basic recommendations
-                basic_recommendations = summarizer.generate_content_recommendations(
-                    topic,
-                    articles
-                )
-                recommendations_by_topic[topic] = basic_recommendations
-                
-                # Fetch actual content from recommended sources
-                logger.info(f"Fetching content from recommended sources for topic: {topic}")
-                enhanced_content = summarizer.fetch_recommended_content(
-                    basic_recommendations,
-                    topic
-                )
-                enhanced_recommendations_by_topic[topic] = enhanced_content
-                
-                # Get blogger recommendations and fetch their recent posts
-                logger.info(f"Getting blogger recommendations for topic: {topic}")
-                bloggers = summarizer.get_blogger_recommendations(topic, articles)
-                if bloggers:
-                    logger.info(f"Fetching recent posts from {len(bloggers)} bloggers for topic: {topic}")
-                    blogger_posts = summarizer.fetch_blogger_posts(bloggers, topic)
-                    blogger_posts_by_topic[topic] = blogger_posts
-
-                # Get conference and CFP recommendations
-                logger.info(f"Getting conference recommendations for topic: {topic}")
-                conferences = summarizer.get_conference_recommendations(topic, articles)
-                if conferences:
-                    logger.info(f"Found {len(conferences)} conference opportunities for topic: {topic}")
-                    conference_recommendations_by_topic[topic] = conferences
-        
-        # Step 5: Generate overview
-        logger.info("Step 4: Generating overview...")
+        # Step 4: Generate overview
+        logger.info("Step 3: Generating overview...")
         overview = summarizer.generate_overview(articles_by_topic)
         
-        # Step 6: Create HTML email
-        logger.info("Step 5: Creating email...")
+        # Step 5: Create HTML email
+        logger.info("Step 4: Creating email...")
         html_content = email_sender.create_html_email(
             articles_by_topic=articles_by_topic,
             overview=overview,
             user_name=config.get('user_name', 'there'),
-            assistant_name=config.get('assistant_name', 'Your AI Assistant'),
-            recommendations_by_topic=recommendations_by_topic,
-            enhanced_recommendations_by_topic=enhanced_recommendations_by_topic,
-            blogger_posts_by_topic=blogger_posts_by_topic,
-            conference_recommendations_by_topic=conference_recommendations_by_topic
+            assistant_name=config.get('assistant_name', 'Your AI Assistant')
         )
         
         # Step 7: Send email

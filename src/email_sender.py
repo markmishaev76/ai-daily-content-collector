@@ -32,11 +32,7 @@ class EmailSender:
                          articles_by_topic: Dict[str, List[Dict]], 
                          overview: str,
                          user_name: str = "there",
-                         assistant_name: str = "Your AI Assistant",
-                         recommendations_by_topic: Dict[str, Dict] = None,
-                         enhanced_recommendations_by_topic: Dict[str, Dict] = None,
-                         blogger_posts_by_topic: Dict[str, List[Dict]] = None,
-                         conference_recommendations_by_topic: Dict[str, List[Dict]] = None) -> str:
+                         assistant_name: str = "Your AI Assistant") -> str:
         """
         Create beautiful HTML email from articles
         
@@ -217,140 +213,9 @@ class EmailSender:
             </div>
             {% endfor %}
             
-            {% if recommendations_by_topic and recommendations_by_topic.get(topic_name) %}
-            {% set recs = recommendations_by_topic[topic_name] %}
-            {% if recs.research_papers %}
-            <div class="recommendations-section">
-                <h3 style="color: #4A90E2; margin-top: 30px; margin-bottom: 15px;">🔍 AI Recommendations for {{ topic_name }}</h3>
-                
-                {% if recs.research_papers %}
-                <div class="recommendation-category">
-                    <h4 style="color: #2C3E50; margin-bottom: 8px;">📚 Research Papers</h4>
-                    <ul style="margin: 0; padding-left: 20px;">
-                        {% for paper in recs.research_papers %}
-                        <li style="margin-bottom: 5px;">{{ paper }}</li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                {% endif %}
-            </div>
-            {% endif %}
-            {% endif %}
             
-            {% if enhanced_recommendations_by_topic and enhanced_recommendations_by_topic.get(topic_name) %}
-            <div class="enhanced-recommendations-section">
-                <h3 style="color: #E74C3C; margin-top: 30px; margin-bottom: 15px;">📚 AI-Recommended Reading List</h3>
-                {% set enhanced = enhanced_recommendations_by_topic[topic_name] %}
-                
-                {% if enhanced.recommended_articles %}
-                <div class="enhanced-recommendation-category">
-                    <h4 style="color: #2C3E50; margin-bottom: 8px;">📰 Articles from Recommended Sources</h4>
-                    {% for article in enhanced.recommended_articles %}
-                    <div style="margin-bottom: 15px; padding: 10px; background-color: #F8F9FA; border-left: 3px solid #E74C3C; border-radius: 3px;">
-                        <div style="font-weight: 600; color: #2C3E50; margin-bottom: 5px;">{{ article.title }}</div>
-                        <div style="color: #7F8C8D; font-size: 14px; margin-bottom: 5px;">{{ article.summary }}</div>
-                        <div style="color: #95A5A6; font-size: 12px; margin-bottom: 5px;">Source: {{ article.recommended_by }}</div>
-                        {% if article.link %}
-                        <a href="{{ article.link }}" style="color: #E74C3C; text-decoration: none; font-size: 14px;">Read article →</a>
-                        {% endif %}
-                    </div>
-                    {% endfor %}
-                </div>
-                {% endif %}
-                
-                {% if enhanced.recommended_tweets %}
-                <div class="enhanced-recommendation-category">
-                    <h4 style="color: #2C3E50; margin-bottom: 8px;">📖 Expert-Recommended Reading</h4>
-                    {% for reading in enhanced.recommended_tweets %}
-                    <div style="margin-bottom: 15px; padding: 10px; background-color: #F8F9FA; border-left: 3px solid #3498DB; border-radius: 3px;">
-                        <div style="font-weight: 600; color: #2C3E50; margin-bottom: 5px;">{{ reading.title }}</div>
-                        <div style="color: #7F8C8D; font-size: 14px; margin-bottom: 5px;">{{ reading.summary }}</div>
-                        <div style="color: #95A5A6; font-size: 12px; margin-bottom: 5px;">{{ reading.recommended_by }}</div>
-                        {% if reading.has_valid_link and reading.link %}
-                        <a href="{{ reading.link }}" style="color: #3498DB; text-decoration: none; font-size: 14px;">Read now →</a>
-                        {% endif %}
-                    </div>
-                    {% endfor %}
-                </div>
-                {% endif %}
-                
-                {% if enhanced.recommended_papers %}
-                <div class="enhanced-recommendation-category">
-                    <h4 style="color: #2C3E50; margin-bottom: 8px;">🔬 Research Papers to Read</h4>
-                    {% for paper in enhanced.recommended_papers %}
-                    <div style="margin-bottom: 15px; padding: 10px; background-color: #F8F9FA; border-left: 3px solid #9B59B6; border-radius: 3px;">
-                        <div style="font-weight: 600; color: #2C3E50; margin-bottom: 5px;">{{ paper.title }}</div>
-                        <div style="color: #7F8C8D; font-size: 14px; margin-bottom: 5px;">{{ paper.summary }}</div>
-                        <div style="color: #95A5A6; font-size: 12px; margin-bottom: 5px;">{{ paper.recommended_by }}</div>
-                        {% if paper.has_valid_link and paper.link %}
-                        <a href="{{ paper.link }}" style="color: #9B59B6; text-decoration: none; font-size: 14px;">Read paper →</a>
-                        {% endif %}
-                    </div>
-                    {% endfor %}
-                </div>
-                {% endif %}
-            </div>
-            {% endif %}
             
-            {% if blogger_posts_by_topic and blogger_posts_by_topic.get(topic_name) %}
-            <div class="blogger-posts-section">
-                <h3 style="color: #27AE60; margin-top: 30px; margin-bottom: 15px;">📝 Featured Blogger Posts</h3>
-                {% set blogger_posts = blogger_posts_by_topic[topic_name] %}
-                
-                {% for post in blogger_posts %}
-                <div style="margin-bottom: 20px; padding: 15px; background-color: #F8F9FA; border-left: 4px solid #27AE60; border-radius: 5px;">
-                    <div style="font-weight: 600; color: #2C3E50; margin-bottom: 8px; font-size: 16px;">
-                        <a href="{{ post.link }}" style="color: #2C3E50; text-decoration: none;">{{ post.title }}</a>
-                    </div>
-                    <div style="color: #7F8C8D; font-size: 14px; margin-bottom: 8px;">
-                        <strong>By {{ post.blogger_name }}</strong>
-                        {% if post.blogger_expertise %} • {{ post.blogger_expertise }}{% endif %}
-                    </div>
-                    {% if post.blogger_recent_focus %}
-                    <div style="color: #95A5A6; font-size: 12px; margin-bottom: 8px; font-style: italic;">
-                        Recent focus: {{ post.blogger_recent_focus }}
-                    </div>
-                    {% endif %}
-                    <div style="color: #555; line-height: 1.5; margin-bottom: 10px;">
-                        {{ post.summary or post.ai_summary or 'No summary available' }}
-                    </div>
-                    <div style="color: #95A5A6; font-size: 12px; margin-bottom: 8px;">
-                        {% if post.published %}{{ post.published.strftime('%B %d, %Y') }}{% endif %}
-                    </div>
-                    <a href="{{ post.link }}" style="color: #27AE60; text-decoration: none; font-size: 14px; font-weight: 500;">Read full post →</a>
-                </div>
-                {% endfor %}
-            </div>
-            {% endif %}
 
-            {% if conference_recommendations_by_topic and conference_recommendations_by_topic.get(topic_name) %}
-            <div class="conference-recommendations-section">
-                <h3 style="color: #8E44AD; margin-top: 30px; margin-bottom: 15px;">🎤 Conference & Speaking Opportunities</h3>
-                {% set conferences = conference_recommendations_by_topic[topic_name] %}
-
-                {% for conf in conferences %}
-                <div style="margin-bottom: 20px; padding: 15px; background-color: #F8F9FA; border-left: 4px solid #8E44AD; border-radius: 5px;">
-                    <div style="font-weight: 600; color: #2C3E50; margin-bottom: 8px; font-size: 16px;">
-                        {% if conf.url %}
-                        <a href="{{ conf.url }}" style="color: #2C3E50; text-decoration: none;">{{ conf.name }}</a>
-                        {% else %}
-                        {{ conf.name }}
-                        {% endif %}
-                    </div>
-                    <div style="color: #7F8C8D; font-size: 14px; margin-bottom: 8px;">
-                        <strong>{{ conf.type|title }}</strong>
-                        {% if conf.deadline %} • Deadline: {{ conf.deadline }}{% endif %}
-                    </div>
-                    <div style="color: #555; line-height: 1.5; margin-bottom: 10px;">
-                        {{ conf.description }}
-                    </div>
-                    {% if conf.url %}
-                    <a href="{{ conf.url }}" style="color: #8E44AD; text-decoration: none; font-size: 14px; font-weight: 500;">Learn more →</a>
-                    {% endif %}
-                </div>
-                {% endfor %}
-            </div>
-            {% endif %}
         </div>
         {% endif %}
         {% endfor %}
@@ -373,10 +238,6 @@ class EmailSender:
             overview=overview,
             user_name=user_name,
             assistant_name=assistant_name,
-            recommendations_by_topic=recommendations_by_topic or {},
-            enhanced_recommendations_by_topic=enhanced_recommendations_by_topic or {},
-            blogger_posts_by_topic=blogger_posts_by_topic or {},
-            conference_recommendations_by_topic=conference_recommendations_by_topic or {},
             current_date=datetime.now().strftime("%A, %B %d, %Y")
         )
         
