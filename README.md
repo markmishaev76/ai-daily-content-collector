@@ -1,6 +1,6 @@
 # 🤖 AI-Powered Daily Brief Assistant
 
-[![AI Harness Scorecard](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmarkmishaev76%2Fai-daily-content-collector%2Fmain%2Fscorecard-badge.json)](https://github.com/markmishaev76/ai-harness-scorecard)
+[![AI Harness Scorecard](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmarkmishaev76%2Fai-daily-content-collector%2Fmain%2Fscorecard-badge.json)](scorecard-report.md)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![Claude](https://img.shields.io/badge/AI-Claude%203.5%20Sonnet-orange.svg)](https://anthropic.com)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
