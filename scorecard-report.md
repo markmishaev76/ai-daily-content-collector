@@ -4,7 +4,7 @@
 
 - **Repository**: `/home/runner/work/ai-daily-content-collector/ai-daily-content-collector`
 - **Languages**: python
-- **Assessed**: 2026-03-09 06:45 UTC
+- **Assessed**: 2026-03-16 07:02 UTC
 - **Checks**: 3/31 passed
 
 ## Summary
@@ -157,7 +157,7 @@ _Blog: catching edge cases in AI-generated code_
 
 **Evidence**: No property-based testing found
 
-**Remediation**: Add proptest (Rust), hypothesis (Python), or fast-check (JS/TS) for testing invariants with random structured inputs.
+**Remediation**: Add proptest (Rust), hypothesis (Python), fast-check (JS/TS), or jqwik (Java) for testing invariants with random structured inputs.
 
 ### [FAIL] Fuzz Testing (0/3)
 
