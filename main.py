@@ -26,6 +26,55 @@ def load_config(config_path: str = "config.yaml") -> dict:
         return yaml.safe_load(f)
 
 
+AX_THEME_KEYWORDS = {
+    # Agent Experience & agentic design
+    "agent experience": 5, " ax ": 4, "agentic": 3, "mcp": 4, "model context protocol": 5,
+    # Identity & authorization for agents
+    "cedar": 4, "opa": 3, "policy-as-code": 4, "policy as code": 4, "zero trust": 3,
+    "service account": 2, "composite identity": 5, "workload identity": 4,
+    "spiffe": 4, "spire": 4, "oauth scope": 3, "fine-grained": 2,
+    # Audit & trust
+    "audit trail": 3, "structured audit": 4, "provenance": 3, "slsa": 4, "sigstore": 3,
+    "attestation": 3, "sbom": 3,
+    # Secrets for agents
+    "openbao": 5, "vault": 2, "secrets management": 3, "short-lived credential": 4,
+    "credential rotation": 3,
+    # AI agents & platforms
+    "ai agent": 4, "autonomous agent": 4, "agent security": 5, "prompt injection": 4,
+    "red team": 2, "jailbreak": 2, "ai safety": 3,
+    # CI/CD software factories
+    "software factory": 5, "ci/cd": 2, "pipeline security": 4, "dependency firewall": 5,
+    "supply chain": 3, "dependency confusion": 4, "malicious package": 4,
+    # AI coding assistants
+    "cursor": 2, "copilot": 2, "devin": 3, "claude code": 3, "codex": 2,
+}
+
+
+def _score_article(article: dict) -> float:
+    """Rank articles by relevance to AX/Trust/agent-security themes.
+
+    Returns higher scores for articles matching keywords. Articles with no
+    matches fall back to a neutral 0.0 and keep their existing publish-date
+    ordering (stable sort preserves it).
+    """
+    title = (article.get("title") or "").lower()
+    body = (article.get("summary") or "").lower()
+    score = 0.0
+    for keyword, weight in AX_THEME_KEYWORDS.items():
+        if keyword in title:
+            score += weight * 2
+        if keyword in body:
+            score += weight
+    return score
+
+
+def rank_articles_by_theme(articles: list) -> list:
+    """Stable sort: theme-matching articles first, ties preserve original order."""
+    indexed = list(enumerate(articles))
+    indexed.sort(key=lambda pair: (-_score_article(pair[1]), pair[0]))
+    return [article for _, article in indexed]
+
+
 def generate_brief():
     """Main function to generate and send the daily brief"""
     try:
@@ -49,10 +98,12 @@ def generate_brief():
         logger.info("Step 1: Aggregating content from sources...")
         articles_by_topic = aggregator.aggregate_content(config['topics'])
         
-        # Step 2: Filter and limit articles per topic
+        # Step 2: Rank articles by AX/Trust/agent-security theme relevance,
+        # then truncate to the top N per topic. Ties preserve recency order.
         max_articles = config['summarization']['max_articles_per_topic']
         for topic, articles in articles_by_topic.items():
-            articles_by_topic[topic] = articles[:max_articles]
+            ranked = rank_articles_by_theme(articles)
+            articles_by_topic[topic] = ranked[:max_articles]
         
         # Step 3: Generate AI summaries for all articles
         logger.info("Step 2: Generating AI summaries...")
@@ -81,7 +132,8 @@ def generate_brief():
             articles_by_topic=articles_by_topic,
             overview=overview,
             user_name=config.get('user_name', 'there'),
-            assistant_name=config.get('assistant_name', 'Your AI Assistant')
+            assistant_name=config.get('assistant_name', 'Your AI Assistant'),
+            cursor_resources=config.get('cursor_resources'),
         )
         
         # Step 7: Send email

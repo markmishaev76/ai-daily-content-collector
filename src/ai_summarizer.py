@@ -49,6 +49,18 @@ class AISummarizer:
         else:
             raise ValueError(f"Unknown provider: {provider}")
     
+    def _summary_system_prompt(self) -> str:
+        return (
+            "You are an editor for a Senior Engineering Manager at GitLab who runs the Software Supply Chain Security org. "
+            "They care most about: Agent Experience (AX), AI agent identity and authorization (Cedar, OPA, policy-as-code), "
+            "audit trails for agent actions, secrets management for agents (OpenBao, Vault, SPIFFE/SPIRE), dependency firewalls, "
+            "SLSA and build provenance, MCP and agent protocols, and AI in CI/CD software factories. "
+            "When summarizing, lead with the angle most relevant to those themes if present. "
+            "If an article is tangential, still summarize it concisely but do not inflate its relevance. "
+            "Be direct and factual. No marketing language, no hedging, no 'it is worth noting'. "
+            "One to two sentences unless asked for more."
+        )
+
     def _sanitize_text_for_prompt(self, text: str, max_length: int = 2000) -> str:
         """
         Sanitize text for use in AI prompts to prevent prompt injection
@@ -112,7 +124,7 @@ Provide only the summary, without any preamble."""
                     model=self.model,
                     max_tokens=200,
                     temperature=0.7,
-                    system="You are a helpful assistant that creates concise, insightful summaries of news articles and blog posts.",
+                    system=self._summary_system_prompt(),
                     messages=[
                         {"role": "user", "content": prompt}
                     ]
@@ -123,7 +135,7 @@ Provide only the summary, without any preamble."""
                 response = self.client.chat.completions.create(
                     model=self.model,
                     messages=[
-                        {"role": "system", "content": "You are a helpful assistant that creates concise, insightful summaries of news articles and blog posts."},
+                        {"role": "system", "content": self._summary_system_prompt()},
                         {"role": "user", "content": prompt}
                     ],
                     temperature=0.7,
@@ -699,9 +711,9 @@ Provide only the summary, without any preamble."""
         topics = list(articles_by_topic.keys())
         total_articles = sum(len(articles) for articles in articles_by_topic.values())
         
-        prompt = f"""Generate a brief, engaging introduction (2-3 sentences) for a daily news brief that covers the following topics: {', '.join(topics)}. 
-        
-There are {total_articles} total articles. Make it personal and energetic, like a friend catching you up on what's happening."""
+        prompt = f"""Write a 2-3 sentence intro for today's brief covering: {', '.join(topics)}.
+
+{total_articles} articles total. If any cover Agent Experience (AX), AI agent identity/authz, agent audit trails, MCP, SLSA provenance, secrets for agents, or AI in CI/CD, call those out by name in the intro. Otherwise describe the day's theme in one line. Direct, no hype."""
         
         try:
             if self.provider == "claude":
