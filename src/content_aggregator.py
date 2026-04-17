@@ -104,7 +104,12 @@ class ContentAggregator:
                 logger.warning(f"Reached maximum total articles limit ({self.MAX_TOTAL_ARTICLES}), skipping {url}")
                 return articles
             
-            feed = feedparser.parse(url)
+            # Fetch with timeout to prevent hanging the scheduler
+            response = requests.get(url, timeout=15, verify=True, headers={
+                'User-Agent': 'Mozilla/5.0 (compatible; DailyBrief/1.0)'
+            })
+            response.raise_for_status()
+            feed = feedparser.parse(response.content)
             
             # Enforce per-feed limit
             feed_limit = min(max_items, self.MAX_ARTICLES_PER_FEED)

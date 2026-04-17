@@ -7,7 +7,7 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime
-from typing import Dict, List
+from typing import Dict, List, Optional
 import os
 import logging
 from jinja2 import Template
@@ -32,7 +32,8 @@ class EmailSender:
                          articles_by_topic: Dict[str, List[Dict]], 
                          overview: str,
                          user_name: str = "there",
-                         assistant_name: str = "Your AI Assistant") -> str:
+                         assistant_name: str = "Your AI Assistant",
+                         cursor_resources: Optional[dict] = None) -> str:
         """
         Create beautiful HTML email from articles
         
@@ -92,6 +93,39 @@ class EmailSender:
             padding: 15px;
             margin-bottom: 30px;
             border-radius: 5px;
+        }
+        .cursor-resources {
+            background-color: #F8F9FC;
+            border: 1px solid #D6DAE8;
+            padding: 16px 18px;
+            margin-bottom: 28px;
+            border-radius: 8px;
+        }
+        .cursor-resources h2 {
+            margin: 0 0 8px 0;
+            font-size: 17px;
+            color: #2C3E50;
+        }
+        .cursor-resources .intro {
+            font-size: 14px;
+            color: #5D6D7E;
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+        .cursor-resources ul {
+            margin: 0;
+            padding-left: 18px;
+        }
+        .cursor-resources li {
+            margin-bottom: 6px;
+            font-size: 14px;
+        }
+        .cursor-resources a {
+            color: #4A67E2;
+            text-decoration: none;
+        }
+        .cursor-resources a:hover {
+            text-decoration: underline;
         }
         .topic-section {
             margin-bottom: 40px;
@@ -183,6 +217,20 @@ class EmailSender:
             {{ overview }}
         </div>
         
+        {% if cursor_resources and cursor_resources.get('enabled') and cursor_resources.get('links') %}
+        <div class="cursor-resources">
+            <h2>{{ cursor_resources.title }}</h2>
+            {% if cursor_resources.get('intro') %}
+            <p class="intro">{{ cursor_resources.intro }}</p>
+            {% endif %}
+            <ul>
+            {% for item in cursor_resources.links %}
+                <li><a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.label }}</a></li>
+            {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+        
         {% for topic_name, articles in articles_by_topic.items() %}
         {% if articles %}
         <div class="topic-section">
@@ -238,7 +286,8 @@ class EmailSender:
             overview=overview,
             user_name=user_name,
             assistant_name=assistant_name,
-            current_date=datetime.now().strftime("%A, %B %d, %Y")
+            current_date=datetime.now().strftime("%A, %B %d, %Y"),
+            cursor_resources=cursor_resources,
         )
         
         return html
