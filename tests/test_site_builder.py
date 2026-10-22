@@ -172,6 +172,17 @@ def test_undated_item_renders_last_without_date(tmp_path):
     assert "NoDateSrc</div>" in html
 
 
+def test_about_page_has_photo_and_profile_links(tmp_path):
+    build(tmp_path)
+
+    page = (tmp_path / "about" / "index.html").read_text()
+
+    assert 'href="https://www.linkedin.com/in/mark-mishaev-64a25452/"' in page
+    assert 'href="https://medium.com/@mark-mishaev"' in page
+    assert re.search(r'<img[^>]+src="\.\./static/mark\.jpg"', page)
+    assert (tmp_path / "static" / "mark.jpg").exists()
+
+
 def test_feed_xml_lists_both_sources(tmp_path):
     build(tmp_path, posts=[medium_post(1, "2026-04-17"), local_post()])
 
