@@ -49,6 +49,10 @@ class AISummarizer:
         else:
             raise ValueError(f"Unknown provider: {provider}")
     
+    @staticmethod
+    def _response_text(response) -> str:
+        return "".join(block.text for block in response.content if block.type == "text")
+
     def _summary_system_prompt(self) -> str:
         return (
             "You are an editor for a Senior Engineering Manager at GitLab who runs the Software Supply Chain Security org. "
@@ -123,13 +127,13 @@ Provide only the summary, without any preamble."""
                 response = self.client.messages.create(
                     model=self.model,
                     max_tokens=200,
-                    temperature=0.7,
+                    thinking={"type": "between_tools"},
                     system=self._summary_system_prompt(),
                     messages=[
                         {"role": "user", "content": prompt}
                     ]
                 )
-                summary = response.content[0].text.strip()
+                summary = self._response_text(response).strip()
             else:
                 # Use OpenAI-compatible API format
                 response = self.client.chat.completions.create(
@@ -233,13 +237,13 @@ Provide only the summary, without any preamble."""
                 response = self.client.messages.create(
                     model=self.model,
                     max_tokens=800,
-                    temperature=0.7,
+                    thinking={"type": "between_tools"},
                     system="You are an expert research assistant that provides high-quality recommendations for staying informed in technology domains. Only provide specific, actionable recommendations that you are confident about.",
                     messages=[
                         {"role": "user", "content": prompt}
                     ]
                 )
-                recommendations_text = response.content[0].text.strip()
+                recommendations_text = self._response_text(response).strip()
             else:
                 response = self.client.chat.completions.create(
                     model=self.model,
@@ -455,13 +459,13 @@ Provide only the summary, without any preamble."""
                         response = self.client.messages.create(
                             model=self.model,
                             max_tokens=400,
-                            temperature=0.7,
+                            thinking={"type": "between_tools"},
                             system="You are an expert research assistant that provides specific reading recommendations based on expert knowledge.",
                             messages=[
                                 {"role": "user", "content": reading_prompt}
                             ]
                         )
-                        reading_text = response.content[0].text.strip()
+                        reading_text = self._response_text(response).strip()
                     else:
                         response = self.client.chat.completions.create(
                             model=self.model,
@@ -544,13 +548,13 @@ Provide only the summary, without any preamble."""
                         response = self.client.messages.create(
                             model=self.model,
                             max_tokens=300,
-                            temperature=0.7,
+                            thinking={"type": "between_tools"},
                             system="You are an expert research assistant that provides specific academic paper recommendations.",
                             messages=[
                                 {"role": "user", "content": paper_prompt}
                             ]
                         )
-                        paper_text = response.content[0].text.strip()
+                        paper_text = self._response_text(response).strip()
                     else:
                         response = self.client.chat.completions.create(
                             model=self.model,
@@ -630,13 +634,13 @@ Provide only the summary, without any preamble."""
                         response = self.client.messages.create(
                             model=self.model,
                             max_tokens=300,
-                            temperature=0.7,
+                            thinking={"type": "between_tools"},
                             system="You are an expert research assistant that provides specific learning resource recommendations.",
                             messages=[
                                 {"role": "user", "content": tool_prompt}
                             ]
                         )
-                        tool_text = response.content[0].text.strip()
+                        tool_text = self._response_text(response).strip()
                     else:
                         response = self.client.chat.completions.create(
                             model=self.model,
@@ -721,13 +725,13 @@ Provide only the summary, without any preamble."""
                 response = self.client.messages.create(
                     model=self.model,
                     max_tokens=150,
-                    temperature=0.8,
+                    thinking={"type": "between_tools"},
                     system="You are a friendly assistant creating personalized daily briefings.",
                     messages=[
                         {"role": "user", "content": prompt}
                     ]
                 )
-                overview = response.content[0].text.strip()
+                overview = self._response_text(response).strip()
             else:
                 # Use OpenAI-compatible API format
                 response = self.client.chat.completions.create(
@@ -789,9 +793,10 @@ Make sure to include their actual blog URLs or RSS feeds where possible."""
                 response = self.client.messages.create(
                     model=self.model,
                     max_tokens=1000,
+                    thinking={"type": "between_tools"},
                     messages=[{"role": "user", "content": prompt}]
                 )
-                content = response.content[0].text
+                content = self._response_text(response)
             else:
                 response = self.client.chat.completions.create(
                     model=self.model,
@@ -947,9 +952,10 @@ Make sure to include their actual blog URLs or RSS feeds where possible."""
                 response = self.client.messages.create(
                     model=self.model,
                     max_tokens=1000,
+                    thinking={"type": "between_tools"},
                     messages=[{"role": "user", "content": prompt}]
                 )
-                content = response.content[0].text
+                content = self._response_text(response)
             else:
                 response = self.client.chat.completions.create(
                     model=self.model,
