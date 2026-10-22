@@ -56,7 +56,7 @@ def _sections(feed: Dict[str, List[Dict]]) -> List[Dict]:
                 "excerpt": excerpt(a.get("summary", "")),
                 "source": a.get("source", ""),
                 "date": a["published"].strftime("%b %d") if a.get("published") else None,
-            } for a in articles],
+            } for a in sorted(articles, key=lambda a: a.get("published") is None)],
         })
     return sections
 

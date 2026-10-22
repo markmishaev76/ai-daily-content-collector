@@ -78,10 +78,12 @@ def test_post_page_links_use_relative_root(tmp_path):
     assert "<p>Body</p>" in page
 
 
-def test_undated_item_renders_without_date(tmp_path):
-    html = build(tmp_path, {"Topic": [article(title="Undated", published=None)]})
+def test_undated_item_renders_last_without_date(tmp_path):
+    html = build(tmp_path, {"Topic": [article(title="Undated", published=None, source="NoDateSrc"),
+                                      article(title="Dated")]})
 
-    assert "Undated" in html
+    assert html.index("Dated") < html.index("Undated")
+    assert "NoDateSrc</div>" in html
 
 
 def test_feed_xml_lists_both_sources(tmp_path):

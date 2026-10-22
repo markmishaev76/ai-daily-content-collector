@@ -36,6 +36,18 @@ def test_rejects_missing_title(tmp_path):
         posts.load_local_posts(tmp_path)
 
 
+@pytest.mark.parametrize("front_matter", [
+    "title: X\ndate: 2026-10-22 10:00",
+    "title: X\ndate: Oct 22 2026",
+    "- just\n- a list",
+])
+def test_rejects_malformed_front_matter_naming_file(tmp_path, front_matter):
+    write(tmp_path, "2026-10-22-bad.md", f"---\n{front_matter}\n---\nBody")
+
+    with pytest.raises(ValueError, match="2026-10-22-bad.md"):
+        posts.load_local_posts(tmp_path)
+
+
 def test_sorted_newest_first(tmp_path):
     write(tmp_path, "2026-01-01-old.md", "---\ntitle: Old\ndate: 2026-01-01\n---\nA")
     write(tmp_path, "2026-10-01-new.md", "---\ntitle: New\ndate: 2026-10-01\n---\nB")

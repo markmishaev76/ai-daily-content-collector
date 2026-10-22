@@ -23,7 +23,7 @@ permissions:
 
 concurrency:
   group: site
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -39,6 +39,7 @@ jobs:
       - run: python -m pytest -q
       - run: python build_site.py
       - name: Commit Medium posts
+        if: github.ref == 'refs/heads/main'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

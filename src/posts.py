@@ -3,7 +3,7 @@ Local blog posts: Markdown files with a YAML front matter block.
 """
 
 import re
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 from typing import Dict, List
 
@@ -23,14 +23,17 @@ def _parse(path: Path) -> Dict:
     if not fm:
         raise ValueError(f"{path.name}: missing front matter block")
     meta = yaml.safe_load(fm.group(1)) or {}
+    if not isinstance(meta, dict):
+        raise ValueError(f"{path.name}: front matter must be key: value pairs")
 
     for field in ('title', 'date'):
         if not meta.get(field):
             raise ValueError(f"{path.name}: front matter needs '{field}'")
 
     post_date = meta['date']
-    if isinstance(post_date, date):
-        post_date = post_date.isoformat()
+    if isinstance(post_date, datetime) or not isinstance(post_date, date):
+        raise ValueError(f"{path.name}: date must be YYYY-MM-DD, got {post_date!r}")
+    post_date = post_date.isoformat()
 
     slug = match.group(2)
     return {
