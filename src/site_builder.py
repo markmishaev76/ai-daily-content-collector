@@ -12,7 +12,7 @@ from urllib.parse import urlparse
 
 from jinja2 import Environment, FileSystemLoader
 
-SITE_URL = "https://markmishaev76.github.io/ai-daily-content-collector/"
+SITE_URL = "https://thedailybrief.dev/"
 WRITING_LIMIT = 3
 EXCERPT_LIMIT = 300
 CARDS_PER_SECTION = 3

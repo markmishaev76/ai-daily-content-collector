@@ -189,7 +189,7 @@ def test_feed_xml_lists_both_sources(tmp_path):
     xml = (tmp_path / "feed.xml").read_text()
 
     assert "https://medium.com/@mark-mishaev/p1" in xml
-    assert "https://markmishaev76.github.io/ai-daily-content-collector/blog/hello/" in xml
+    assert "https://thedailybrief.dev/blog/hello/" in xml
 
 
 def test_excerpt_cuts_to_limit():
