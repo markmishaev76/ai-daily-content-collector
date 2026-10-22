@@ -33,6 +33,11 @@ AX_THEME_KEYWORDS = {
     "cedar": 4, "opa": 3, "policy-as-code": 4, "policy as code": 4, "zero trust": 3,
     "service account": 2, "composite identity": 5, "workload identity": 4,
     "spiffe": 4, "spire": 4, "oauth scope": 3, "fine-grained": 2,
+    "agent identity": 5, "non-human identity": 5, "workload authorization grant": 5,
+    "id-jag": 5, "identity assertion": 4, "wimse": 5, "token exchange": 4,
+    "rfc 8693": 4, "rfc 7523": 4, "dpop": 4, "on-behalf-of": 3, "delegated access": 3,
+    "scim": 3, "cross-app access": 4, "agent sso": 4, "entra agent id": 5,
+    "agentcore identity": 5,
     # Audit & trust
     "audit trail": 3, "structured audit": 4, "provenance": 3, "slsa": 4, "sigstore": 3,
     "attestation": 3, "sbom": 3,
@@ -45,8 +50,16 @@ AX_THEME_KEYWORDS = {
     # CI/CD software factories
     "software factory": 5, "ci/cd": 2, "pipeline security": 4, "dependency firewall": 5,
     "supply chain": 3, "dependency confusion": 4, "malicious package": 4,
+    # Reliability and multi-tenancy
+    "rate limit": 3, "noisy neighbor": 4, "multi-tenant": 2, "postmortem": 2,
+    # Reproducible builds
+    "reproducible build": 4, "hermetic": 3,
+    # MCP and agent tool security
+    "mcp server": 3, "tool poisoning": 4,
+    # AI adoption
+    "ai adoption": 3, "developer productivity": 2,
     # AI coding assistants
-    "cursor": 2, "copilot": 2, "devin": 3, "claude code": 3, "codex": 2,
+    "copilot": 2, "devin": 3, "claude code": 3, "codex": 2,
 }
 
 
@@ -133,7 +146,6 @@ def generate_brief():
             overview=overview,
             user_name=config.get('user_name', 'there'),
             assistant_name=config.get('assistant_name', 'Your AI Assistant'),
-            cursor_resources=config.get('cursor_resources'),
         )
         
         # Step 7: Send email
