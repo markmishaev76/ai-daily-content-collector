@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="layout">
+  <nav class="sections">
+    <h3>Sections</h3>
+    {% for s in sections %}
+    <a href="#{{ s.id }}">{{ s.name }}</a>
+    {% endfor %}
+    <select class="sections-select" aria-label="Jump to section" onchange="if (this.value) location.hash = this.value">
+      <option value="">Jump to section…</option>
+      {% for s in sections %}
+      <option value="{{ s.id }}">{{ s.name }}</option>
+      {% endfor %}
+    </select>
+  </nav>
+
+  <main class="feed">
+    <h2>Today · {{ today }}</h2>
+    {% for s in sections %}
+    <section id="{{ s.id }}">
+      <h3>{{ s.name }}</h3>
+      {% for item in s.articles %}
+      <article>
+        <div class="title">
+          {% if item.link %}<a href="{{ item.link }}" rel="noopener noreferrer">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
+        </div>
+        <div class="meta">{{ item.source }}{% if item.date %} · {{ item.date }}{% endif %}</div>
+        {% if item.excerpt %}<p>{{ item.excerpt }}</p>{% endif %}
+      </article>
+      {% endfor %}
+    </section>
+    {% else %}
+    <p class="meta">Nothing new today.</p>
+    {% endfor %}
+  </main>
+
+  {% include "_writing.html" %}
+</div>
+{% endblock %}

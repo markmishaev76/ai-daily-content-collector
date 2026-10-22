@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Mark Mishaev: writing</title>
+    <link>{{ site_url }}</link>
+    <description>Posts by Mark Mishaev, here and on Medium.</description>
+    <lastBuildDate>{{ built }}</lastBuildDate>
+    {% for post in posts %}
+    <item>
+      <title>{{ post.title }}</title>
+      <link>{{ post.link }}</link>
+      <guid>{{ post.link }}</guid>
+      {% if post.rss_date %}<pubDate>{{ post.rss_date }}</pubDate>{% endif %}
+      {% if post.summary %}<description>{{ post.summary }}</description>{% endif %}
+    </item>
+    {% endfor %}
+  </channel>
+</rss>

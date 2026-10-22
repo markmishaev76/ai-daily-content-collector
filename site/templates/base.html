@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Mark Mishaev{% endblock %}</title>
+  <link rel="stylesheet" href="{{ root }}static/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Mark Mishaev: writing" href="{{ root }}feed.xml">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="{{ root }}">Mark Mishaev</a>
+    <nav>
+      <a href="{{ root }}"{% if page == "feed" %} class="active"{% endif %}>Feed</a>
+      <a href="{{ root }}blog/"{% if page == "blog" %} class="active"{% endif %}>Blog</a>
+      <a href="{{ root }}about/"{% if page == "about" %} class="active"{% endif %}>About</a>
+      <a href="{{ root }}feed.xml">RSS</a>
+    </nav>
+  </header>
+  {% block body %}{% endblock %}
+  <footer class="site-footer">Updated {{ today }}, {{ updated }}</footer>
+</body>
+</html>

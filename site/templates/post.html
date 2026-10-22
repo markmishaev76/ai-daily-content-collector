@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}{{ post.title }} · Mark Mishaev{% endblock %}
+{% block body %}
+<main class="page post">
+  <h1>{{ post.title }}</h1>
+  <div class="meta">{{ post.date }}</div>
+  {{ post.html | safe }}
+</main>
+{% endblock %}

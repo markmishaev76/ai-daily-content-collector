@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Blog · Mark Mishaev{% endblock %}
+{% block body %}
+<main class="page">
+  <h2>Blog</h2>
+  {% for post in posts %}
+  <div class="post-row">
+    <a href="{{ post_href(post, root) }}">{{ post.title }}</a>
+    <div class="meta">
+      {% if post.source == "medium" %}<span class="label">on Medium</span>{% endif %}
+      {% if post.date %}{{ post.date }}{% endif %}
+    </div>
+    {% if post.summary %}<p>{{ post.summary }}</p>{% endif %}
+  </div>
+  {% else %}
+  <p class="meta">No posts yet.</p>
+  {% endfor %}
+</main>
+{% endblock %}
