@@ -11,7 +11,7 @@ def entry(item_xml):
     return feedparser.parse(rss).entries[0]
 
 
-def test_duplicate_link_across_topics_kept_in_first_topic(monkeypatch):
+def test_duplicate_link_across_topics_kept_in_both_until_selection(monkeypatch):
     aggregator = ContentAggregator(hours_back=48)
     same = {"title": "Same", "link": "https://example.com/x", "summary": "", "published": None, "source": "A"}
     monkeypatch.setattr(aggregator, "fetch_rss_feed", lambda url: [dict(same)])
@@ -20,7 +20,28 @@ def test_duplicate_link_across_topics_kept_in_first_topic(monkeypatch):
                                          {"name": "Second", "sources": [{"type": "rss", "url": "b"}]}])
 
     assert len(feed["First"]) == 1
-    assert feed["Second"] == []
+    assert len(feed["Second"]) == 1
+
+
+def test_malformed_image_url_does_not_drop_feed(monkeypatch):
+    rss = ('<?xml version="1.0"?><rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>F</title>'
+           '<item><title>Bad image</title><link>https://example.com/1</link><media:thumbnail url="https://[bad"/></item>'
+           '<item><title>Normal</title><link>https://example.com/2</link></item></channel></rss>')
+
+    class Response:
+        content = rss.encode()
+
+        def raise_for_status(self):
+            pass
+
+    aggregator = ContentAggregator(hours_back=48)
+    monkeypatch.setattr(aggregator, "_validate_url", lambda url: True)
+    monkeypatch.setattr("src.content_aggregator.requests.get", lambda *a, **k: Response())
+
+    articles = aggregator.fetch_rss_feed("https://feeds.example.com/rss")
+
+    assert [a["title"] for a in articles] == ["Bad image", "Normal"]
+    assert articles[0]["image"] is None
 
 
 @pytest.mark.parametrize("item_xml", [

@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List
 
-from main import load_config, rank_articles_by_theme
+from main import load_config, select_articles
 from src import medium, site_builder
 from src.content_aggregator import ContentAggregator
 from src.posts import load_local_posts, render_markdown_file
@@ -20,10 +20,9 @@ MEDIUM_FEED = "https://medium.com/feed/@mark-mishaev"
 
 
 def select_feed(config: dict, aggregator) -> Dict[str, List[Dict]]:
-    """Same selection as the email: aggregate, rank by theme, keep the top N per topic."""
-    max_articles = config['brief']['max_articles_per_topic']
+    """Same selection as the email: aggregate, then main.select_articles."""
     feed = aggregator.aggregate_content(config['topics'])
-    return {topic: rank_articles_by_theme(articles)[:max_articles] for topic, articles in feed.items()}
+    return select_articles(feed, config['brief']['max_articles_per_topic'])
 
 
 def main(out_dir: Path = Path("public"), config: dict = None, aggregator=None,

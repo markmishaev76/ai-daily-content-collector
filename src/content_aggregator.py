@@ -17,9 +17,13 @@ logger = logging.getLogger(__name__)
 
 
 def _https(url: Optional[str]) -> Optional[str]:
-    if url and urlparse(url.strip()).scheme.lower() == 'https':
-        return url.strip()
-    return None
+    if not url:
+        return None
+    try:
+        scheme = urlparse(url.strip()).scheme.lower()
+    except ValueError:
+        return None
+    return url.strip() if scheme == 'https' else None
 
 
 def extract_image(entry) -> Optional[str]:
@@ -254,7 +258,6 @@ class ContentAggregator:
             Dictionary mapping topic names to lists of articles
         """
         aggregated_content = {}
-        seen_links = set()
         
         for topic in topics:
             topic_name = topic['name']
@@ -273,6 +276,7 @@ class ContentAggregator:
                     if article:
                         articles.append(article)
             
+            seen_links = set()
             unique = []
             for article in articles:
                 link = article.get('link')

@@ -86,6 +86,27 @@ def rank_articles_by_theme(articles: list) -> list:
     return [article for _, article in indexed]
 
 
+def select_articles(articles_by_topic: dict, max_articles: int) -> dict:
+    """Rank each topic and keep its top N, skipping links already shown in an earlier topic.
+
+    Used by both the email and the site so they pick the same articles.
+    """
+    shown = set()
+    selected = {}
+    for topic, articles in articles_by_topic.items():
+        picked = []
+        for article in rank_articles_by_theme(articles):
+            if len(picked) == max_articles:
+                break
+            link = article.get('link')
+            if link and link in shown:
+                continue
+            picked.append(article)
+        shown.update(a.get('link') for a in picked if a.get('link'))
+        selected[topic] = picked
+    return selected
+
+
 def generate_brief():
     """Main function to generate and send the daily brief"""
     try:
@@ -105,12 +126,8 @@ def generate_brief():
         logger.info("Step 1: Aggregating content from sources...")
         articles_by_topic = aggregator.aggregate_content(config['topics'])
         
-        # Step 2: Rank articles by AX/Trust/agent-security theme relevance,
-        # then truncate to the top N per topic. Ties preserve recency order.
-        max_articles = config['brief']['max_articles_per_topic']
-        for topic, articles in articles_by_topic.items():
-            ranked = rank_articles_by_theme(articles)
-            articles_by_topic[topic] = ranked[:max_articles]
+        # Step 2: Rank by theme relevance and keep the top N per topic, without repeats
+        articles_by_topic = select_articles(articles_by_topic, config['brief']['max_articles_per_topic'])
         
         # Step 3: Create HTML email
         logger.info("Step 2: Creating email...")
