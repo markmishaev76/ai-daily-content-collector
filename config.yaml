@@ -485,7 +485,7 @@ topics:
 
 # Summarization settings
 summarization:
-  model: "claude-sonnet-4-20250514"  # Latest Claude Sonnet model
+  model: "claude-sonnet-5-5"
   max_articles_per_topic: 5
   summary_length: "brief"  # brief, medium, or detailed
   
