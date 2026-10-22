@@ -483,11 +483,8 @@ topics:
       - type: "rss"
         url: "https://www.chainguard.dev/unchained/rss.xml"
 
-# Summarization settings
-summarization:
-  model: "claude-sonnet-5-5"
+brief:
   max_articles_per_topic: 5
-  summary_length: "brief"  # brief, medium, or detailed
   
 # Email settings
 # Note: Email credentials are configured via environment variables in .env

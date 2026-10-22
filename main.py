@@ -1,16 +1,14 @@
 """
 Personal AI Assistant - Main Application
-Aggregates, summarizes, and emails your personalized daily brief
+Aggregates, ranks, and emails your personalized daily brief
 """
 
-import os
 import yaml
 import logging
 from datetime import datetime
 from dotenv import load_dotenv
 
 from src.content_aggregator import ContentAggregator
-from src.ai_summarizer import AISummarizer
 from src.email_sender import EmailSender
 
 logging.basicConfig(
@@ -101,10 +99,6 @@ def generate_brief():
         
         # Initialize components
         aggregator = ContentAggregator(hours_back=48)  # Extended to 48 hours for more content
-        summarizer = AISummarizer(
-            provider=os.getenv("AI_PROVIDER", "openai"),
-            model=config['summarization']['model']
-        )
         email_sender = EmailSender()
         
         # Step 1: Aggregate content from all sources
@@ -113,43 +107,21 @@ def generate_brief():
         
         # Step 2: Rank articles by AX/Trust/agent-security theme relevance,
         # then truncate to the top N per topic. Ties preserve recency order.
-        max_articles = config['summarization']['max_articles_per_topic']
+        max_articles = config['brief']['max_articles_per_topic']
         for topic, articles in articles_by_topic.items():
             ranked = rank_articles_by_theme(articles)
             articles_by_topic[topic] = ranked[:max_articles]
         
-        # Step 3: Generate AI summaries for all articles
-        logger.info("Step 2: Generating AI summaries...")
-        summary_length = config['summarization']['summary_length']
-        
-        for topic, articles in articles_by_topic.items():
-            if articles:
-                logger.info(f"Summarizing {len(articles)} articles for topic: {topic}")
-                articles_by_topic[topic] = summarizer.generate_batch_summaries(
-                    articles, 
-                    length=summary_length
-                )
-                # Add tags and categories
-                articles_by_topic[topic] = summarizer.categorize_and_tag(
-                    articles_by_topic[topic], 
-                    topic
-                )
-        
-        # Step 4: Generate overview
-        logger.info("Step 3: Generating overview...")
-        overview = summarizer.generate_overview(articles_by_topic)
-        
-        # Step 5: Create HTML email
-        logger.info("Step 4: Creating email...")
+        # Step 3: Create HTML email
+        logger.info("Step 2: Creating email...")
         html_content = email_sender.create_html_email(
             articles_by_topic=articles_by_topic,
-            overview=overview,
             user_name=config.get('user_name', 'there'),
             assistant_name=config.get('assistant_name', 'Your AI Assistant'),
         )
         
-        # Step 7: Send email
-        logger.info("Step 6: Sending email...")
+        # Step 4: Send email
+        logger.info("Step 3: Sending email...")
         subject = config['email']['subject'].format(
             date=datetime.now().strftime("%B %d, %Y")
         )

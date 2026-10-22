@@ -30,7 +30,6 @@ class EmailSender:
     
     def create_html_email(self, 
                          articles_by_topic: Dict[str, List[Dict]], 
-                         overview: str,
                          user_name: str = "there",
                          assistant_name: str = "Your AI Assistant") -> str:
         """
@@ -38,7 +37,6 @@ class EmailSender:
         
         Args:
             articles_by_topic: Dictionary mapping topics to articles
-            overview: Brief overview/introduction
             user_name: User's name for personalization
             assistant_name: Assistant's name
             
@@ -85,13 +83,6 @@ class EmailSender:
             font-size: 16px;
             color: #34495E;
             margin-bottom: 20px;
-        }
-        .overview {
-            background-color: #EBF5FB;
-            border-left: 4px solid #4A90E2;
-            padding: 15px;
-            margin-bottom: 30px;
-            border-radius: 5px;
         }
         .topic-section {
             margin-bottom: 40px;
@@ -156,16 +147,6 @@ class EmailSender:
             color: #7F8C8D;
             font-size: 14px;
         }
-        .tag {
-            display: inline-block;
-            background-color: #E8F4F8;
-            color: #2980B9;
-            padding: 4px 10px;
-            border-radius: 12px;
-            font-size: 11px;
-            margin-right: 5px;
-            margin-bottom: 5px;
-        }
     </style>
 </head>
 <body>
@@ -177,10 +158,6 @@ class EmailSender:
         
         <div class="greeting">
             Good morning, {{ user_name }}! ☀️
-        </div>
-        
-        <div class="overview">
-            {{ overview }}
         </div>
         
         {% for topic_name, articles in articles_by_topic.items() %}
@@ -200,15 +177,8 @@ class EmailSender:
                     {% if article.published %}{{ article.published.strftime('%B %d, %Y') }}{% endif %}
                 </div>
                 <div class="article-summary">
-                    {{ article.ai_summary or article.summary }}
+                    {{ article.summary | truncate(300) }}
                 </div>
-                {% if article.tags %}
-                <div class="tags">
-                    {% for tag in article.tags %}
-                    <span class="tag">{{ tag }}</span>
-                    {% endfor %}
-                </div>
-                {% endif %}
                 <a href="{{ article.link }}" class="article-link" target="_blank">Read more →</a>
             </div>
             {% endfor %}
@@ -235,7 +205,6 @@ class EmailSender:
         t = Template(template, autoescape=True)
         html = t.render(
             articles_by_topic=articles_by_topic,
-            overview=overview,
             user_name=user_name,
             assistant_name=assistant_name,
             current_date=datetime.now().strftime("%A, %B %d, %Y"),
