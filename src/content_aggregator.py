@@ -16,6 +16,33 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
+def _https(url: Optional[str]) -> Optional[str]:
+    if url and urlparse(url.strip()).scheme.lower() == 'https':
+        return url.strip()
+    return None
+
+
+def extract_image(entry) -> Optional[str]:
+    """Return the first https image URL a feed entry offers, or None."""
+    for key in ('media_thumbnail', 'media_content'):
+        for media in entry.get(key) or []:
+            if media.get('medium', 'image') == 'image' and _https(media.get('url')):
+                return _https(media.get('url'))
+
+    for link in entry.get('links', []):
+        if link.get('type', '').startswith('image/') and _https(link.get('href')):
+            return _https(link.get('href'))
+
+    html_parts = [entry.get('summary', '')] + [c.get('value', '') for c in entry.get('content', [])]
+    for html in html_parts:
+        if '<img' not in (html or ''):
+            continue
+        for img in BeautifulSoup(html, 'html.parser').find_all('img'):
+            if _https(img.get('src')):
+                return _https(img.get('src'))
+    return None
+
+
 class ContentAggregator:
     # Global limits to prevent resource exhaustion
     MAX_ARTICLES_PER_FEED = 50  # Maximum articles to process per RSS feed
@@ -143,7 +170,8 @@ class ContentAggregator:
                     'link': entry.get('link', ''),
                     'summary': entry.get('summary', entry.get('description', '')),
                     'published': published_date,
-                    'source': feed.feed.get('title', url)
+                    'source': feed.feed.get('title', url),
+                    'image': extract_image(entry),
                 }
                 
                 # Clean HTML from summary

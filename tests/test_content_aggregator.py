@@ -1,4 +1,34 @@
-from src.content_aggregator import ContentAggregator
+import feedparser
+import pytest
+
+from src.content_aggregator import ContentAggregator, extract_image
+
+
+def entry(item_xml):
+    rss = ('<?xml version="1.0"?><rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" '
+           'xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>F</title>'
+           f'<item><title>T</title><link>https://example.com/a</link>{item_xml}</item></channel></rss>')
+    return feedparser.parse(rss).entries[0]
+
+
+@pytest.mark.parametrize("item_xml", [
+    '<media:thumbnail url="https://img.example.com/a.jpg"/>',
+    '<media:content url="https://img.example.com/a.jpg" medium="image"/>',
+    '<enclosure url="https://img.example.com/a.jpg" type="image/jpeg" length="1"/>',
+    '<description>&lt;p&gt;Hi &lt;img src="https://img.example.com/a.jpg"&gt;&lt;/p&gt;</description>',
+    '<content:encoded><![CDATA[<img alt="x" src="https://img.example.com/a.jpg">]]></content:encoded>',
+])
+def test_extract_image_sources(item_xml):
+    assert extract_image(entry(item_xml)) == "https://img.example.com/a.jpg"
+
+
+@pytest.mark.parametrize("item_xml", [
+    '<media:thumbnail url="http://img.example.com/a.jpg"/>',
+    '<description>&lt;img src="javascript:alert(1)"&gt;</description>',
+    '<description>No picture here</description>',
+])
+def test_extract_image_rejects_non_https_and_missing(item_xml):
+    assert extract_image(entry(item_xml)) is None
 
 
 def test_duplicate_links_across_sources_kept_once(monkeypatch):
