@@ -6,10 +6,13 @@ import yaml
 from src import site_builder
 
 NOW = datetime(2026, 10, 22, 6, 0, tzinfo=timezone.utc)
+IMG = "https://img.example.com/{}.jpg"
 
 
-def article(title="Title", link="https://example.com/a", published=NOW, summary="Summary", source="Src"):
-    return {"title": title, "link": link, "summary": summary, "published": published, "source": source}
+def article(title="Title", link=None, published=NOW, summary="Summary", source="Src", image=None):
+    link = link if link is not None else f"https://example.com/{re.sub(r'[^a-z0-9]', '', title.lower())}"
+    return {"title": title, "link": link, "summary": summary, "published": published, "source": source,
+            "image": image}
 
 
 def medium_post(n, date):
@@ -24,6 +27,12 @@ def local_post(slug="hello", date="2026-10-21"):
 def build(tmp_path, feed=None, posts=None):
     site_builder.build(feed or {"Topic": [article()]}, posts or [], "<p>About</p>", tmp_path, NOW)
     return (tmp_path / "index.html").read_text()
+
+
+def block(html, cls):
+    """Inner HTML of the first element whose class attribute starts with cls."""
+    start = html.index(f'class="{cls}')
+    return html[start:html.index("<!-- /" + cls + " -->", start)]
 
 
 def test_script_in_title_is_escaped(tmp_path):
@@ -51,22 +60,99 @@ def test_anchor_ids_unique_and_valid():
     assert all(re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", i) for i in ids)
 
 
-def test_empty_topic_hidden_from_nav_and_body(tmp_path):
+def test_empty_topic_hidden(tmp_path):
     html = build(tmp_path, {"Full Topic": [article()], "Empty Topic": []})
 
     assert "Full Topic" in html
     assert "Empty Topic" not in html
 
 
-def test_writing_column_shows_five_newest_with_medium_label(tmp_path):
-    posts = [medium_post(i, f"2026-0{i}-01") for i in range(1, 7)] + [local_post(date="2026-01-15")]
+def test_chips_in_section_order_with_colors(tmp_path):
+    html = build(tmp_path, {"First": [article("a")], "Empty": [], "Third": [article("b")]})
+    chips = block(html, "chips")
 
-    html = build(tmp_path, posts=posts)
-    writing = html.split('class="writing"')[1]
+    assert re.findall(r'href="#([a-z-]+)"', chips) == ["first", "third"]
+    assert site_builder.PALETTE[0] in chips
+    assert site_builder.PALETTE[2] in chips
 
-    assert [t for t in re.findall(r"Medium \d", writing)] == ["Medium 6", "Medium 5", "Medium 4", "Medium 3", "Medium 2"]
-    assert "Hello" not in writing
-    assert writing.count("on Medium") == 5
+
+def test_lead_is_first_image_article_and_not_repeated(tmp_path):
+    feed = {"No Pics": [article("Plain")],
+            "Pics": [article("Text only"), article("Lead story", image=IMG.format(1)), article("Later pic", image=IMG.format(2))]}
+
+    html = build(tmp_path, feed)
+    lead = block(html, "lead")
+    body = html.replace(lead, "")
+
+    assert "Lead story" in lead and IMG.format(1) in lead
+    assert "Lead story" not in body
+
+
+def test_no_images_no_lead(tmp_path):
+    html = build(tmp_path, {"Topic": [article("A"), article("B")]})
+
+    assert 'class="lead' not in html
+    assert "A" in html and "B" in html
+
+
+def test_short_section_has_no_empty_cards(tmp_path):
+    html = build(tmp_path, {"Topic": [article("Only one")]})
+
+    assert html.count('class="card"') == 1
+    assert 'class="more' not in html
+
+
+def test_cards_then_headlines(tmp_path):
+    html = build(tmp_path, {"Topic": [article(f"Story {i}") for i in range(8)]})
+
+    assert html.count('class="card"') == 3
+    assert block(html, "more").count('class="row"') == 5
+    assert html.index("Story 2") < html.index('class="more')
+
+
+def test_cards_prefer_articles_with_pictures(tmp_path):
+    feed = {"Lead": [article("Lead", image=IMG.format(0))],
+            "Topic": [article("Plain 1"), article("Plain 2"), article("Pic A", image=IMG.format(1)),
+                      article("Plain 3"), article("Pic B", image=IMG.format(2))]}
+
+    html = build(tmp_path, feed)
+    topic = html[html.index('id="topic"'):]
+    cards = topic[:topic.index('class="more')]
+
+    assert re.findall(r"(Pic A|Pic B|Plain 1|Plain 2|Plain 3)</a>", cards) == ["Plain 1", "Pic A", "Pic B"]
+
+
+def test_image_attrs_lazy_no_referrer(tmp_path):
+    html = build(tmp_path, {"Topic": [article("Text"), article("Pic", image=IMG.format(1)), article("Pic 2", image=IMG.format(2))]})
+
+    img = re.search(r'<img[^>]+' + re.escape(IMG.format(2)) + r'[^>]*>', html).group(0)
+    assert 'loading="lazy"' in img
+    assert 'referrerpolicy="no-referrer"' in img
+    assert 'onerror="this.remove()"' in img
+
+
+def test_http_image_not_rendered(tmp_path):
+    html = build(tmp_path, {"Topic": [article("A", image="http://img.example.com/x.jpg"),
+                                      article("B", image="javascript:alert(1)")]})
+
+    assert "img.example.com" not in html
+    assert "javascript:" not in html
+
+
+def test_placeholder_shows_source(tmp_path):
+    html = build(tmp_path, {"Topic": [article("No pic", source="The Hacker News")]})
+
+    card = block(html, "card")
+    assert '<span class="thumb-label">The Hacker News</span>' in card
+
+
+def test_writing_strip_three_newest(tmp_path):
+    posts = [medium_post(i, f"2026-0{i}-01") for i in range(1, 6)] + [local_post(date="2026-01-15")]
+
+    strip = block(build(tmp_path, posts=posts), "writing")
+
+    assert re.findall(r"Medium \d", strip) == ["Medium 5", "Medium 4", "Medium 3"]
+    assert strip.count("on Medium") == 3
 
 
 def test_post_page_links_use_relative_root(tmp_path):

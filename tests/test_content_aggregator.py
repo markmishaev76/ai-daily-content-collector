@@ -11,6 +11,18 @@ def entry(item_xml):
     return feedparser.parse(rss).entries[0]
 
 
+def test_duplicate_link_across_topics_kept_in_first_topic(monkeypatch):
+    aggregator = ContentAggregator(hours_back=48)
+    same = {"title": "Same", "link": "https://example.com/x", "summary": "", "published": None, "source": "A"}
+    monkeypatch.setattr(aggregator, "fetch_rss_feed", lambda url: [dict(same)])
+
+    feed = aggregator.aggregate_content([{"name": "First", "sources": [{"type": "rss", "url": "a"}]},
+                                         {"name": "Second", "sources": [{"type": "rss", "url": "b"}]}])
+
+    assert len(feed["First"]) == 1
+    assert feed["Second"] == []
+
+
 @pytest.mark.parametrize("item_xml", [
     '<media:thumbnail url="https://img.example.com/a.jpg"/>',
     '<media:content url="https://img.example.com/a.jpg" medium="image"/>',

@@ -254,6 +254,7 @@ class ContentAggregator:
             Dictionary mapping topic names to lists of articles
         """
         aggregated_content = {}
+        seen_links = set()
         
         for topic in topics:
             topic_name = topic['name']
@@ -272,7 +273,6 @@ class ContentAggregator:
                     if article:
                         articles.append(article)
             
-            seen_links = set()
             unique = []
             for article in articles:
                 link = article.get('link')

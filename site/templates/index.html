@@ -1,39 +1,70 @@
 {% extends "base.html" %}
+{% from "_thumb.html" import thumb, title %}
 {% block body %}
-<div class="layout">
-  <nav class="sections">
-    <h3>Sections</h3>
-    {% for s in sections %}
-    <a href="#{{ s.id }}">{{ s.name }}</a>
-    {% endfor %}
-    <select class="sections-select" aria-label="Jump to section" onchange="if (this.value) location.hash = this.value">
-      <option value="">Jump to section…</option>
-      {% for s in sections %}
-      <option value="{{ s.id }}">{{ s.name }}</option>
-      {% endfor %}
-    </select>
-  </nav>
+<nav class="chips" aria-label="Sections">
+  {% for s in sections %}
+  <a href="#{{ s.id }}" style="--c: {{ s.color }}">{{ s.name }}</a>
+  {% endfor %}
+</nav><!-- /chips -->
 
-  <main class="feed">
-    <h2>Today · {{ today }}</h2>
-    {% for s in sections %}
-    <section id="{{ s.id }}">
-      <h3>{{ s.name }}</h3>
-      {% for item in s.articles %}
-      <article>
-        <div class="title">
-          {% if item.link %}<a href="{{ item.link }}" rel="noopener noreferrer">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
-        </div>
+<main class="magazine">
+  <h2 class="today">Today · {{ today }}</h2>
+
+  {% if lead %}
+  <article class="lead">
+    {{ thumb(lead, lead.color, "lead-image") }}
+    <div class="lead-text">
+      <span class="chip" style="--c: {{ lead.color }}">{{ lead.section }}</span>
+      <h1>{{ title(lead) }}</h1>
+      <div class="meta">{{ lead.source }}{% if lead.date %} · {{ lead.date }}{% endif %}</div>
+      {% if lead.excerpt %}<p>{{ lead.excerpt }}</p>{% endif %}
+    </div>
+  </article><!-- /lead -->
+  {% endif %}
+
+  {% if writing %}
+  <section class="writing">
+    <div class="section-head"><span class="chip" style="--c: #5a4fcf">From my writing</span><a class="see-all" href="{{ root }}blog/">All posts →</a></div>
+    <div class="writing-cards">
+      {% for post in writing %}
+      <a class="writing-card" href="{{ post_href(post, root) }}">
+        <div class="t">{{ post.title }}</div>
+        <div class="meta">{% if post.source == "medium" %}<span class="label">on Medium</span>{% endif %}{% if post.date %}{{ post.date }}{% endif %}</div>
+      </a>
+      {% endfor %}
+    </div>
+  </section><!-- /writing -->
+  {% endif %}
+
+  {% for s in sections %}
+  <section id="{{ s.id }}" class="topic" style="--c: {{ s.color }}">
+    <div class="section-head"><span class="chip">{{ s.name }}</span></div>
+    <div class="cards">
+      {% for item in s.cards %}
+      <article class="card">
+        {{ thumb(item, s.color) }}
+        <div class="t">{{ title(item) }}</div>
         <div class="meta">{{ item.source }}{% if item.date %} · {{ item.date }}{% endif %}</div>
-        {% if item.excerpt %}<p>{{ item.excerpt }}</p>{% endif %}
+        {% if item.excerpt %}<p>{{ item.excerpt | truncate(140) }}</p>{% endif %}
+      </article><!-- /card -->
+      {% endfor %}
+    </div>
+    {% if s.more %}
+    <div class="more">
+      {% for item in s.more %}
+      <article class="row">
+        {{ thumb(item, s.color, "thumb-sm") }}
+        <div>
+          <div class="t">{{ title(item) }}</div>
+          <div class="meta">{{ item.source }}{% if item.date %} · {{ item.date }}{% endif %}</div>
+        </div>
       </article>
       {% endfor %}
-    </section>
-    {% else %}
-    <p class="meta">Nothing new today.</p>
-    {% endfor %}
-  </main>
-
-  {% include "_writing.html" %}
-</div>
+    </div><!-- /more -->
+    {% endif %}
+  </section>
+  {% else %}
+  <p class="meta">Nothing new today.</p>
+  {% endfor %}
+</main>
 {% endblock %}

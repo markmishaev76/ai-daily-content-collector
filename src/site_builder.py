@@ -13,8 +13,10 @@ from urllib.parse import urlparse
 from jinja2 import Environment, FileSystemLoader
 
 SITE_URL = "https://markmishaev76.github.io/ai-daily-content-collector/"
-WRITING_LIMIT = 5
+WRITING_LIMIT = 3
 EXCERPT_LIMIT = 300
+CARDS_PER_SECTION = 3
+PALETTE = ["#5a4fcf", "#ad3a8a", "#1f9d8b", "#d6456b", "#e07a1f", "#3577d4", "#7a8b2d", "#5b6270"]
 
 SITE_DIR = Path(__file__).resolve().parent.parent / "site"
 
@@ -42,23 +44,59 @@ def anchor_id(topic: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", topic.lower()).strip("-")
 
 
+def safe_image(url: Optional[str]) -> Optional[str]:
+    link = safe_link(url or "")
+    return link if link and urlparse(link).scheme.lower() == "https" else None
+
+
 def _sections(feed: Dict[str, List[Dict]]) -> List[Dict]:
     sections = []
-    for name, articles in feed.items():
+    for index, (name, articles) in enumerate(feed.items()):
         if not articles:
             continue
         sections.append({
             "name": name,
             "id": anchor_id(name),
+            "color": PALETTE[index % len(PALETTE)],
             "articles": [{
                 "title": a.get("title") or "Untitled",
                 "link": safe_link(a.get("link", "")),
                 "excerpt": excerpt(a.get("summary", "")),
                 "source": a.get("source", ""),
                 "date": a["published"].strftime("%b %d") if a.get("published") else None,
+                "image": safe_image(a.get("image")),
             } for a in sorted(articles, key=lambda a: a.get("published") is None)],
         })
     return sections
+
+
+def pick_lead(sections: List[Dict]) -> Optional[Dict]:
+    """Take the first article with an image, in section order, out of its section."""
+    for section in sections:
+        for i, item in enumerate(section["articles"]):
+            if item["image"]:
+                del section["articles"][i]
+                return dict(item, section=section["name"], section_id=section["id"], color=section["color"])
+    return None
+
+
+def _split_cards(articles: List[Dict]):
+    """Cards prefer articles with pictures, topped up by rank; both keep rank order."""
+    with_image = [i for i, a in enumerate(articles) if a["image"]][:CARDS_PER_SECTION]
+    without = [i for i, a in enumerate(articles) if not a["image"]]
+    chosen = set(with_image + without[:CARDS_PER_SECTION - len(with_image)])
+    cards = [a for i, a in enumerate(articles) if i in chosen]
+    more = [a for i, a in enumerate(articles) if i not in chosen]
+    return cards, more
+
+
+def _magazine(feed: Dict[str, List[Dict]]) -> Dict:
+    sections = _sections(feed)
+    lead = pick_lead(sections)
+    sections = [s for s in sections if s["articles"]]
+    for s in sections:
+        s["cards"], s["more"] = _split_cards(s["articles"])
+    return {"lead": lead, "sections": sections}
 
 
 def _sorted_posts(posts: List[Dict]) -> List[Dict]:
@@ -91,7 +129,7 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(env.get_template(template).render(**common, **ctx))
 
-    write("index.html", "index.html", root="", page="feed", sections=_sections(feed))
+    write("index.html", "index.html", root="", page="feed", **_magazine(feed))
     write("blog/index.html", "blog.html", root="../", page="blog", posts=all_posts)
     for post in all_posts:
         if post["source"] == "local":
