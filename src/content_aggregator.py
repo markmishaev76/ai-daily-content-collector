@@ -244,7 +244,16 @@ class ContentAggregator:
                     if article:
                         articles.append(article)
             
-            aggregated_content[topic_name] = articles
+            seen_links = set()
+            unique = []
+            for article in articles:
+                link = article.get('link')
+                if link and link in seen_links:
+                    continue
+                seen_links.add(link)
+                unique.append(article)
+
+            aggregated_content[topic_name] = unique
         
         return aggregated_content
 

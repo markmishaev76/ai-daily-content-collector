@@ -1,330 +1,12 @@
 assistant_name: "Mark's AI Assistant"
 user_name: "Mark"
 
-# Define your topics of interest - IMPROVED with more active feeds
+# Topics: 8 sections, each pooling the feeds of the narrower topics it replaced
 topics:
-  - name: "AI Technologies & Research"
-    category: "AI/ML"
+  - name: "Agent Identity & Authorization"
+    category: "Identity"
     sources:
-      # Active daily sources
-      - type: "rss"
-        url: "https://blog.google/technology/ai/rss/"
-      # These are less frequent but high quality (keep them)
-      - type: "rss"
-        url: "https://openai.com/news/rss.xml"
-  
-  - name: "Cybersecurity News"
-    category: "Security"
-    sources:
-      # Very active daily sources
-      - type: "rss"
-        url: "https://feeds.feedburner.com/TheHackersNews"
-      - type: "rss"
-        url: "https://www.securityweek.com/feed/"
-      - type: "rss"
-        url: "https://www.bleepingcomputer.com/feed/"
-      - type: "rss"
-        url: "https://www.theregister.com/security/headlines.atom"
-      # Less frequent but quality (keep)
-      - type: "rss"
-        url: "https://krebsonsecurity.com/feed/"
-      - type: "rss"
-        url: "https://www.schneier.com/feed/"
-  
-  - name: "Application Security & Testing"
-    category: "Security"
-    sources:
-      - type: "rss"
-        url: "https://portswigger.net/research/rss"
-      - type: "rss"
-        url: "https://snyk.io/blog/feed/"
-      - type: "rss"
-        url: "https://checkmarx.com/feed/"
-  
-  - name: "Cloud Architecture & Infrastructure"
-    category: "Cloud"
-    sources:
-      # Google Cloud (your expertise area)
-      - type: "rss"
-        url: "https://cloudblog.withgoogle.com/rss/"
-      - type: "rss"
-        url: "https://developers.googleblog.com/feeds/posts/default"
-      - type: "rss"
-        url: "https://cloudblog.withgoogle.com/products/identity-security/rss/"
-      # AWS (industry standard)
-      - type: "rss"
-        url: "https://aws.amazon.com/blogs/aws/feed/"
-      - type: "rss"
-        url: "https://aws.amazon.com/blogs/security/feed/"
-      - type: "rss"
-        url: "https://aws.amazon.com/blogs/architecture/feed/"
-      - type: "rss"
-        url: "https://aws.amazon.com/blogs/devops/feed/"
-      # Multi-cloud and infrastructure
-      - type: "rss"
-        url: "https://www.hashicorp.com/blog/feed.xml"
-      - type: "rss"
-        url: "https://www.docker.com/blog/feed/"
-      - type: "rss"
-        url: "https://kubernetes.io/feed.xml"
-      - type: "rss"
-        url: "https://www.cncf.io/blog/feed/"
-  
-  - name: "Engineering Management & Leadership"
-    category: "Management"
-    sources:
-      # Pragmatic Engineer (blog + newsletter)
-      - type: "rss"
-        url: "https://blog.pragmaticengineer.com/rss/"
-      - type: "rss"
-        url: "https://newsletter.pragmaticengineer.com/feed"
-      - type: "rss"
-        url: "https://charity.wtf/feed/"
-      - type: "rss"
-        url: "https://randsinrepose.com/feed/"
-      - type: "rss"
-        url: "https://stratechery.com/feed/"
-  
-  - name: "Software Architecture & Design Patterns"
-    category: "Engineering"
-    sources:
-      # Architecture and design patterns
-      - type: "rss"
-        url: "https://martinfowler.com/feed.atom"
-      - type: "rss"
-        url: "https://www.infoq.com/feed"
-      - type: "rss"
-        url: "https://microservices.io/feed.xml"
-      # Cloud architecture (relevant to your role)
-      - type: "rss"
-        url: "https://aws.amazon.com/blogs/architecture/feed/"
-      # Tech company engineering blogs
-      - type: "rss"
-        url: "https://engineering.fb.com/feed/"
-      - type: "rss"
-        url: "https://netflixtechblog.com/feed"
-      - type: "rss"
-        url: "https://engineering.atspotify.com/feed/"
-  
-  - name: "Supply Chain Security & SLSA"
-    category: "Security"
-    sources:
-      - type: "rss"
-        url: "https://openssf.org/feed/"
-      - type: "rss"
-        url: "https://slsa.dev/feed.xml"
-      - type: "rss"
-        url: "https://www.chainguard.dev/unchained/rss.xml"
-  
-  - name: "GitLab & DevOps Ecosystem"
-    category: "Development"
-    sources:
-      # GitLab official blogs (your main platform)
-      - type: "rss"
-        url: "https://about.gitlab.com/atom.xml"
-      # GitHub for comparison and industry trends
-      - type: "rss"
-        url: "https://github.blog/feed/"
-      - type: "rss"
-        url: "https://github.blog/engineering/feed/"
-      - type: "rss"
-        url: "https://github.blog/security/feed/"
-      # DevOps and CI/CD
-      - type: "rss"
-        url: "https://blog.argoproj.io/feed"
-  
-  - name: "DevOps & SRE"
-    category: "DevOps"
-    sources:
-      # Monitoring and Observability
-      - type: "rss"
-        url: "https://grafana.com/blog/index.xml"
-      - type: "rss"
-        url: "https://www.datadoghq.com/blog/index.xml"
-      # Infrastructure as Code
-      - type: "rss"
-        url: "https://www.pulumi.com/blog/rss.xml"
-      # Container and Orchestration
-      - type: "rss"
-        url: "https://kubernetes.io/feed.xml"
-      - type: "rss"
-        url: "https://www.cncf.io/blog/feed/"
-      - type: "rss"
-        url: "https://www.docker.com/blog/feed/"
-      - type: "rss"
-        url: "https://blog.argoproj.io/feed"
-      # CI/CD and Automation
-      - type: "rss"
-        url: "https://github.blog/engineering/feed/"
-  
-  - name: "AI in Security & Automation"
-    category: "AI/Security"
-    sources:
-      - type: "rss"
-        url: "https://www.paloaltonetworks.com/blog/feed"
-      - type: "rss"
-        url: "https://www.sentinelone.com/blog/feed/"
-  
-  - name: "Authentication & Authorization"
-    category: "Security"
-    sources:
-      - type: "rss"
-        url: "https://auth0.com/blog/rss.xml"
-      - type: "rss"
-        url: "https://developer.okta.com/feed.xml"
-  
-  - name: "Professional Leadership & Strategy"
-    category: "Leadership"
-    sources:
-      # Management and strategy newsletters
-      - type: "rss"
-        url: "https://sloanreview.mit.edu/feed/"
-      - type: "rss"
-        url: "https://www.mckinsey.com/insights/rss"
-      - type: "rss"
-        url: "https://stratechery.com/feed/"
-  
-  - name: "AI-Assisted Development & Engineering"
-    category: "AI/Engineering"
-    sources:
-      # AI-assisted dev thought leaders
-      - type: "rss"
-        url: "https://addyo.substack.com/feed"
-      - type: "rss"
-        url: "https://tidyfirst.substack.com/feed"
-      - type: "rss"
-        url: "https://simonwillison.net/atom/everything/"
-      - type: "rss"
-        url: "https://humanwhocodes.com/feeds/blog.xml"
-      - type: "rss"
-        url: "https://matklad.github.io/feed.xml"
-      - type: "rss"
-        url: "https://www.latent.space/feed"
-      - type: "rss"
-        url: "https://newsletter.pragmaticengineer.com/feed"
-      - type: "rss"
-        url: "https://leaddev.com/rss.xml"
-      - type: "rss"
-        url: "https://snorkel.ai/feed/"
-      # AI engineering research and practice
-      - type: "rss"
-        url: "https://huggingface.co/blog/feed.xml"
-      - type: "rss"
-        url: "https://lilianweng.github.io/index.xml"
-      - type: "rss"
-        url: "https://sebastianraschka.com/rss_feed.xml"
-      - type: "rss"
-        url: "https://research.google/blog/rss/"
-      - type: "rss"
-        url: "https://bair.berkeley.edu/blog/feed.xml"
-
-  - name: "AI Security & Red Teaming"
-    category: "AI/Security"
-    sources:
-      # AI-specific security research
-      - type: "rss"
-        url: "https://embracethered.com/blog/index.xml"
-      - type: "rss"
-        url: "https://simonwillison.net/tags/prompt-injection.atom"
-      - type: "rss"
-        url: "https://blog.trailofbits.com/feed"
-      - type: "rss"
-        url: "https://lilianweng.github.io/index.xml"
-      - type: "rss"
-        url: "https://www.schneier.com/feed/"
-      - type: "rss"
-        url: "https://simonwillison.net/tags/security.atom"
-
-  - name: "Developer Productivity & Engineering Effectiveness"
-    category: "DevEx"
-    sources:
-      - type: "rss"
-        url: "https://newsletter.pragmaticengineer.com/feed"
-      - type: "rss"
-        url: "https://tidyfirst.substack.com/feed"
-      - type: "rss"
-        url: "https://addyo.substack.com/feed"
-      - type: "rss"
-        url: "https://martinfowler.com/feed.atom"
-      - type: "rss"
-        url: "https://newsletter.getdx.com/feed"
-      - type: "rss"
-        url: "https://leaddev.com/rss.xml"
-
-  - name: "Agent Experience (AX) & Agentic Design"
-    category: "AI/AX"
-    sources:
-      - type: "rss"
-        url: "https://www.daytona.io/rss.xml"
-      - type: "rss"
-        url: "https://workos.com/blog/rss.xml"
-      - type: "rss"
-        url: "https://goteleport.com/blog/rss.xml"
-      - type: "rss"
-        url: "https://hnrss.org/newest?q=agent+experience"
-      - type: "rss"
-        url: "https://hnrss.org/newest?q=agentic+design"
-      - type: "rss"
-        url: "https://simonwillison.net/atom/everything/"
-
-  - name: "AI Agents, MCP & Agentic Platforms"
-    category: "AI/Agents"
-    sources:
-      - type: "rss"
-        url: "https://hnrss.org/newest?q=MCP"
-      - type: "rss"
-        url: "https://hnrss.org/newest?q=AI+agent"
-      - type: "rss"
-        url: "https://hnrss.org/newest?q=Claude+agent"
-      - type: "rss"
-        url: "https://hnrss.org/newest?q=Devin+OR+Factory.ai+OR+Replit+agent"
-      - type: "rss"
-        url: "https://www.latent.space/feed"
-      - type: "rss"
-        url: "https://openai.com/news/rss.xml"
-
-  - name: "Policy-as-Code & Agent Authorization"
-    category: "Security/Authz"
-    sources:
-      - type: "rss"
-        url: "https://www.osohq.com/blog/rss.xml"
-      - type: "rss"
-        url: "https://www.cerbos.dev/feed.xml"
-      - type: "rss"
-        url: "https://workos.com/blog/rss.xml"
-      - type: "rss"
-        url: "https://goteleport.com/blog/rss.xml"
-      - type: "rss"
-        url: "https://hnrss.org/newest?q=OPA+policy"
-      - type: "rss"
-        url: "https://hnrss.org/newest?q=Cedar+policy"
-      - type: "rss"
-        url: "https://hnrss.org/newest?q=zero+trust+agent"
-
-  - name: "Trust AX: Identity, Audit & Blast Radius for Agents"
-    category: "AI/Security"
-    sources:
-      - type: "rss"
-        url: "https://hnrss.org/newest?q=AI+agent+security"
-      - type: "rss"
-        url: "https://hnrss.org/newest?q=prompt+injection"
-      - type: "rss"
-        url: "https://hnrss.org/newest?q=agent+audit"
-      - type: "rss"
-        url: "https://hnrss.org/newest?q=SPIFFE+OR+SPIRE+OR+OpenBao"
-      - type: "rss"
-        url: "https://hnrss.org/newest?q=SLSA+provenance"
-      - type: "rss"
-        url: "https://simonwillison.net/tags/prompt-injection.atom"
-      - type: "rss"
-        url: "https://simonwillison.net/tags/security.atom"
-      - type: "rss"
-        url: "https://embracethered.com/blog/index.xml"
-
-  - name: "Agent Identity & Delegated Authorization"
-    category: "AI/Identity"
-    sources:
-      # IETF working groups and the drafts GitLab's agent identity design tracks
+      # Agent Identity & Delegated Authorization
       - type: "rss"
         url: "https://datatracker.ietf.org/feed/group-changes/oauth/"
       - type: "rss"
@@ -337,7 +19,6 @@ topics:
         url: "https://datatracker.ietf.org/feed/document-changes/draft-ietf-wimse-aims/"
       - type: "rss"
         url: "https://datatracker.ietf.org/feed/document-changes/draft-wzdk-scim-agent-resource/"
-      # Spec authors, identity providers and non-human identity vendors
       - type: "rss"
         url: "https://aaronparecki.com/feed.xml"
       - type: "rss"
@@ -358,42 +39,59 @@ topics:
         url: "https://hnrss.org/newest?q=%22non-human+identity%22"
       - type: "rss"
         url: "https://hnrss.org/newest?q=%22workload+identity%22"
+      # Trust AX: Identity, Audit & Blast Radius for Agents
+      - type: "rss"
+        url: "https://hnrss.org/newest?q=AI+agent+security"
+      - type: "rss"
+        url: "https://hnrss.org/newest?q=prompt+injection"
+      - type: "rss"
+        url: "https://hnrss.org/newest?q=agent+audit"
+      - type: "rss"
+        url: "https://hnrss.org/newest?q=SPIFFE+OR+SPIRE+OR+OpenBao"
+      - type: "rss"
+        url: "https://hnrss.org/newest?q=SLSA+provenance"
+      - type: "rss"
+        url: "https://simonwillison.net/tags/prompt-injection.atom"
+      - type: "rss"
+        url: "https://simonwillison.net/tags/security.atom"
+      - type: "rss"
+        url: "https://embracethered.com/blog/index.xml"
+      # Policy-as-Code & Agent Authorization
+      - type: "rss"
+        url: "https://www.osohq.com/blog/rss.xml"
+      - type: "rss"
+        url: "https://www.cerbos.dev/feed.xml"
+      - type: "rss"
+        url: "https://workos.com/blog/rss.xml"
+      - type: "rss"
+        url: "https://goteleport.com/blog/rss.xml"
+      - type: "rss"
+        url: "https://hnrss.org/newest?q=OPA+policy"
+      - type: "rss"
+        url: "https://hnrss.org/newest?q=Cedar+policy"
+      - type: "rss"
+        url: "https://hnrss.org/newest?q=zero+trust+agent"
+      # Authentication & Authorization
+      - type: "rss"
+        url: "https://auth0.com/blog/rss.xml"
 
-  - name: "Reliability, Rate Limiting & Multi-Tenancy"
-    category: "Reliability"
+  - name: "AI Agents & Agent Security"
+    category: "AI Security"
     sources:
+      # AI Agents, MCP & Agentic Platforms
       - type: "rss"
-        url: "https://blog.cloudflare.com/rss/"
+        url: "https://hnrss.org/newest?q=MCP"
       - type: "rss"
-        url: "https://brooker.co.za/blog/rss.xml"
+        url: "https://hnrss.org/newest?q=AI+agent"
       - type: "rss"
-        url: "https://sreweekly.com/feed/"
+        url: "https://hnrss.org/newest?q=Claude+agent"
       - type: "rss"
-        url: "https://hnrss.org/newest?q=%22rate+limiting%22"
-
-  - name: "Secrets Management & OpenBao"
-    category: "Security"
-    sources:
+        url: "https://hnrss.org/newest?q=Devin+OR+Factory.ai+OR+Replit+agent"
       - type: "rss"
-        url: "https://openbao.org/blog/rss.xml"
+        url: "https://www.latent.space/feed"
       - type: "rss"
-        url: "https://blog.gitguardian.com/rss/"
-      - type: "rss"
-        url: "https://www.hashicorp.com/blog/feed.xml"
-
-  - name: "Reproducible & Hermetic Builds"
-    category: "Supply Chain"
-    sources:
-      - type: "rss"
-        url: "https://reproducible-builds.org/blog/index.rss"
-      - type: "rss"
-        url: "https://nixos.org/blog/announcements-rss.xml"
-      - type: "rss"
-        url: "https://hnrss.org/newest?q=%22reproducible+builds%22"
-
-  - name: "MCP & Agent Tool Security"
-    category: "AI/Security"
-    sources:
+        url: "https://openai.com/news/rss.xml"
+      # MCP & Agent Tool Security
       - type: "rss"
         url: "https://genai.owasp.org/feed/"
       - type: "rss"
@@ -402,10 +100,55 @@ topics:
         url: "https://hnrss.org/newest?q=%22MCP+security%22"
       - type: "rss"
         url: "https://hnrss.org/newest?q=%22MCP+server%22+vulnerability"
+      # AI Security & Red Teaming
+      - type: "rss"
+        url: "https://blog.trailofbits.com/feed"
+      - type: "rss"
+        url: "https://lilianweng.github.io/index.xml"
+      - type: "rss"
+        url: "https://www.schneier.com/feed/"
+      # Agent Experience (AX) & Agentic Design
+      - type: "rss"
+        url: "https://www.daytona.io/rss.xml"
+      - type: "rss"
+        url: "https://hnrss.org/newest?q=agent+experience"
+      - type: "rss"
+        url: "https://hnrss.org/newest?q=agentic+design"
+      - type: "rss"
+        url: "https://simonwillison.net/atom/everything/"
+      # AI in Security & Automation
+      - type: "rss"
+        url: "https://www.paloaltonetworks.com/blog/feed"
+      - type: "rss"
+        url: "https://www.sentinelone.com/blog/feed/"
 
-  - name: "AI Adoption & Agent-First Engineering"
-    category: "AI/Engineering"
+  - name: "AI-Assisted Engineering"
+    category: "AI/ML"
     sources:
+      # AI-Assisted Development & Engineering
+      - type: "rss"
+        url: "https://addyo.substack.com/feed"
+      - type: "rss"
+        url: "https://tidyfirst.substack.com/feed"
+      - type: "rss"
+        url: "https://humanwhocodes.com/feeds/blog.xml"
+      - type: "rss"
+        url: "https://matklad.github.io/feed.xml"
+      - type: "rss"
+        url: "https://newsletter.pragmaticengineer.com/feed"
+      - type: "rss"
+        url: "https://leaddev.com/rss.xml"
+      - type: "rss"
+        url: "https://snorkel.ai/feed/"
+      - type: "rss"
+        url: "https://huggingface.co/blog/feed.xml"
+      - type: "rss"
+        url: "https://sebastianraschka.com/rss_feed.xml"
+      - type: "rss"
+        url: "https://research.google/blog/rss/"
+      - type: "rss"
+        url: "https://bair.berkeley.edu/blog/feed.xml"
+      # AI Adoption & Agent-First Engineering
       - type: "rss"
         url: "https://metr.org/feed.xml"
       - type: "rss"
@@ -414,77 +157,157 @@ topics:
         url: "https://newsletter.getdx.com/feed"
       - type: "rss"
         url: "https://hnrss.org/newest?q=%22AI+coding%22+study"
+      # Developer Productivity & Engineering Effectiveness
+      - type: "rss"
+        url: "https://martinfowler.com/feed.atom"
+      # AI Technologies & Research
+      - type: "rss"
+        url: "https://blog.google/technology/ai/rss/"
 
-  - name: "Tech News & Trends"
-    category: "Technology"
+  - name: "Security & AppSec"
+    category: "Security"
     sources:
-      # Daily active sources
+      # Cybersecurity News
       - type: "rss"
-        url: "https://hnrss.org/frontpage"  # Hacker News
+        url: "https://feeds.feedburner.com/TheHackersNews"
       - type: "rss"
-        url: "https://feeds.arstechnica.com/arstechnica/index"
+        url: "https://www.securityweek.com/feed/"
       - type: "rss"
-        url: "https://techcrunch.com/feed/"
+        url: "https://www.bleepingcomputer.com/feed/"
       - type: "rss"
-        url: "https://www.theverge.com/rss/index.xml"
-      # Professional tech newsletters
-      - type: "rss"
-        url: "https://sloanreview.mit.edu/feed/"
-      - type: "rss"
-        url: "https://www.mckinsey.com/insights/rss"
-      - type: "rss"
-        url: "https://spectrum.ieee.org/rss/fulltext"
-      - type: "rss"
-        url: "https://www.technologyreview.com/feed/"
-
-  # Research & Academic Papers (integrated into daily brief)
-  - name: "Research & Academic Papers"
-    category: "Research"
-    sources:
-      # AI Research
-      - type: "rss"
-        url: "https://research.google/blog/rss/"
-      - type: "rss"
-        url: "https://openai.com/news/rss.xml"
-      - type: "rss"
-        url: "https://spectrum.ieee.org/rss/fulltext"
-      - type: "rss"
-        url: "https://www.technologyreview.com/feed/"
-      
-      # Security Research
-      - type: "rss"
-        url: "https://www.schneier.com/feed/"
+        url: "https://www.theregister.com/security/headlines.atom"
       - type: "rss"
         url: "https://krebsonsecurity.com/feed/"
+      # Application Security & Testing
       - type: "rss"
         url: "https://portswigger.net/research/rss"
-      
-      # Cloud & Infrastructure Research
       - type: "rss"
-        url: "https://kubernetes.io/feed.xml"
+        url: "https://snyk.io/blog/feed/"
       - type: "rss"
-        url: "https://www.cncf.io/blog/feed/"
+        url: "https://checkmarx.com/feed/"
+      # Secrets Management & OpenBao
       - type: "rss"
-        url: "https://www.docker.com/blog/feed/"
-      
-      # Engineering Management Research
+        url: "https://openbao.org/blog/rss.xml"
       - type: "rss"
-        url: "https://blog.pragmaticengineer.com/rss/"
-      - type: "rss"
-        url: "https://charity.wtf/feed/"
-      - type: "rss"
-        url: "https://randsinrepose.com/feed/"
-      
-      # Supply Chain Security Research
+        url: "https://www.hashicorp.com/blog/feed.xml"
+
+  - name: "Supply Chain & Builds"
+    category: "Supply Chain"
+    sources:
+      # Supply Chain Security & SLSA
       - type: "rss"
         url: "https://openssf.org/feed/"
       - type: "rss"
         url: "https://slsa.dev/feed.xml"
       - type: "rss"
         url: "https://www.chainguard.dev/unchained/rss.xml"
+      # Reproducible & Hermetic Builds
+      - type: "rss"
+        url: "https://reproducible-builds.org/blog/index.rss"
+      - type: "rss"
+        url: "https://nixos.org/blog/announcements-rss.xml"
+      - type: "rss"
+        url: "https://hnrss.org/newest?q=%22reproducible+builds%22"
+
+  - name: "Platform, Cloud & Reliability"
+    category: "Platform"
+    sources:
+      # Cloud Architecture & Infrastructure
+      - type: "rss"
+        url: "https://cloudblog.withgoogle.com/rss/"
+      - type: "rss"
+        url: "https://developers.googleblog.com/feeds/posts/default"
+      - type: "rss"
+        url: "https://aws.amazon.com/blogs/aws/feed/"
+      - type: "rss"
+        url: "https://aws.amazon.com/blogs/security/feed/"
+      - type: "rss"
+        url: "https://aws.amazon.com/blogs/architecture/feed/"
+      - type: "rss"
+        url: "https://aws.amazon.com/blogs/devops/feed/"
+      - type: "rss"
+        url: "https://www.docker.com/blog/feed/"
+      - type: "rss"
+        url: "https://kubernetes.io/feed.xml"
+      - type: "rss"
+        url: "https://www.cncf.io/blog/feed/"
+      # DevOps & SRE
+      - type: "rss"
+        url: "https://grafana.com/blog/index.xml"
+      - type: "rss"
+        url: "https://www.datadoghq.com/blog/index.xml"
+      - type: "rss"
+        url: "https://www.pulumi.com/blog/rss.xml"
+      - type: "rss"
+        url: "https://blog.argoproj.io/feed"
+      - type: "rss"
+        url: "https://github.blog/engineering/feed/"
+      # Reliability, Rate Limiting & Multi-Tenancy
+      - type: "rss"
+        url: "https://blog.cloudflare.com/rss/"
+      - type: "rss"
+        url: "https://brooker.co.za/blog/rss.xml"
+      - type: "rss"
+        url: "https://sreweekly.com/feed/"
+      - type: "rss"
+        url: "https://hnrss.org/newest?q=%22rate+limiting%22"
+      # GitLab & DevOps Ecosystem
+      - type: "rss"
+        url: "https://about.gitlab.com/atom.xml"
+      - type: "rss"
+        url: "https://github.blog/feed/"
+      - type: "rss"
+        url: "https://github.blog/security/feed/"
+      # Software Architecture & Design Patterns
+      - type: "rss"
+        url: "https://www.infoq.com/feed"
+      - type: "rss"
+        url: "https://microservices.io/feed.xml"
+      - type: "rss"
+        url: "https://engineering.fb.com/feed/"
+      - type: "rss"
+        url: "https://netflixtechblog.com/feed"
+      - type: "rss"
+        url: "https://engineering.atspotify.com/feed/"
+
+  - name: "Leadership"
+    category: "Leadership"
+    sources:
+      # Engineering Management & Leadership
+      - type: "rss"
+        url: "https://blog.pragmaticengineer.com/rss/"
+      - type: "rss"
+        url: "https://charity.wtf/feed/"
+      - type: "rss"
+        url: "https://randsinrepose.com/feed/"
+      - type: "rss"
+        url: "https://stratechery.com/feed/"
+      # Professional Leadership & Strategy
+      - type: "rss"
+        url: "https://sloanreview.mit.edu/feed/"
+      - type: "rss"
+        url: "https://www.mckinsey.com/insights/rss"
+
+  - name: "News & Research"
+    category: "News"
+    sources:
+      # Tech News & Trends
+      - type: "rss"
+        url: "https://hnrss.org/frontpage"
+      - type: "rss"
+        url: "https://feeds.arstechnica.com/arstechnica/index"
+      - type: "rss"
+        url: "https://techcrunch.com/feed/"
+      - type: "rss"
+        url: "https://www.theverge.com/rss/index.xml"
+      - type: "rss"
+        url: "https://spectrum.ieee.org/rss/fulltext"
+      - type: "rss"
+        url: "https://www.technologyreview.com/feed/"
+      # Research & Academic Papers
 
 brief:
-  max_articles_per_topic: 5
+  max_articles_per_topic: 8
   
 # Email settings
 # Note: Email credentials are configured via environment variables in .env
