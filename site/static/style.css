@@ -14,6 +14,7 @@ body {
   color: var(--text);
   background: #fff;
   line-height: 1.55;
+  overflow-wrap: anywhere;
 }
 
 a { color: var(--text); text-decoration: none; }
@@ -85,7 +86,10 @@ h3 { margin: 0 0 10px; font-size: 13px; text-transform: uppercase; letter-spacin
 .site-footer { max-width: 1200px; margin: 0 auto; padding: 20px; color: var(--muted); font-size: 12px; border-top: 1px solid var(--line); }
 
 @media (max-width: 800px) {
-  .layout { grid-template-columns: 1fr; }
+  .layout { grid-template-columns: minmax(0, 1fr); }
+  .sections-select { max-width: 100%; }
+  .brand { white-space: nowrap; }
+  .site-header nav a { margin-left: 12px; }
   .sections, .writing { position: static; max-height: none; border: none; }
   .sections h3, .sections a { display: none; }
   .sections-select { display: block; }
