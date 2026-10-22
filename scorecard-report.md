@@ -1,11 +1,11 @@
 # AI Harness Scorecard: ai-daily-content-collector
 
-**Grade: F** (7.9/100) | No meaningful harness. AI output is essentially unaudited.
+**Grade: F** (11.4/100) | No meaningful harness. AI output is essentially unaudited.
 
 - **Repository**: `/home/runner/work/ai-daily-content-collector/ai-daily-content-collector`
 - **Languages**: python
-- **Assessed**: 2026-10-22 09:49 UTC
-- **Checks**: 3/31 passed
+- **Assessed**: 2026-10-22 19:02 UTC
+- **Checks**: 4/31 passed
 
 ## Summary
 
@@ -13,7 +13,7 @@
 |----------|--------|-------|--------|
 | Architectural Documentation | 20% | 0% [----------] | 0/5 |
 | Mechanical Constraints | 25% | 14% [#---------] | 1/7 |
-| Testing & Stability | 25% | 6% [#---------] | 1/8 |
+| Testing & Stability | 25% | 20% [##--------] | 2/8 |
 | Review & Drift Prevention | 15% | 20% [##--------] | 1/6 |
 | AI-Specific Safeguards | 15% | 0% [----------] | 0/5 |
 
@@ -66,7 +66,7 @@ _DORA 2025 - AI-accessible documentation_
 
 _DORA 2025 Report_
 
-**Evidence**: CI detected: github
+**Evidence**: CI detected: github, github
 
 ### [FAIL] Linter Enforcement (0/4)
 
@@ -117,15 +117,13 @@ _Blog: 80% problem in AI-generated code_
 **Remediation**: Add unsafe_code = forbid (Rust), security linting (semgrep/bandit), or ESLint rules against dangerous patterns.
 
 
-## Testing & Stability (6%)
+## Testing & Stability (20%)
 
-### [PASS] Test Suite (2/3)
+### [PASS] Test Suite (3/3)
 
 _Kent Beck - tests define what correct means_
 
-**Evidence**: Tests found but not confirmed in CI
-
-**Remediation**: Add test execution to your CI pipeline.
+**Evidence**: Tests present and executed in CI
 
 ### [FAIL] Feature Matrix Testing (0/3)
 
@@ -175,13 +173,11 @@ _OpenAI Harness Engineering - mechanical constraints_
 
 **Remediation**: Add contract tests that verify external interface stability (golden fixtures, snapshot tests, wire-format checks).
 
-### [FAIL] Tests Block Merge (0/2)
+### [PASS] Tests Block Merge (2/2)
 
 _DORA 2025 - stability metrics_
 
-**Evidence**: No test jobs found in CI
-
-**Remediation**: Add test execution to CI as a blocking job.
+**Evidence**: All test jobs are blocking: build
 
 
 ## Review & Drift Prevention (20%)
