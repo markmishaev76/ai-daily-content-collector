@@ -283,3 +283,52 @@ def test_invalid_weight_raises():
     import pytest
     with pytest.raises(ValueError, match="config.yaml"):
         story.score_clusters([[art("x", section="Eng")]], bad, [], NOW)
+
+
+def feed_of(*articles):
+    feed = {}
+    for a in articles:
+        feed.setdefault(a["section"], []).append({k: v for k, v in a.items() if k != "section"})
+    return feed
+
+
+def test_pick_story_uses_best_cluster_with_also_covered():
+    a = art("Patch now: CVE-2026-109618", link="https://bleepingcomputer.com/1", section="Sec", published=at(2))
+    b = art("Fortinet flaw CVE-2026-109618 exploited", link="https://thehackernews.com/2", section="Sec",
+            published=at(5), image="https://img.example.com/b.jpg")
+    c = art("CVE-2026-109618 advisory", link="https://www.thehackernews.com/3", section="Eng")
+    other = art("Some essay", section="Eng", published=at(1))
+
+    picked = story.pick_story(feed_of(a, b, c, other), CONFIG, [], None, NOW)
+
+    assert picked.link == b["link"] and picked.image == b["image"]
+    assert picked.section == "Eng" and picked.coverage == 2
+    assert picked.ids == ["CVE-2026-109618"] and picked.age_hours == 0
+    assert picked.also == [("bleepingcomputer.com", a["link"])]
+    assert not picked.pinned and picked.scored[0].lead is not None
+
+
+def test_empty_pool_no_story():
+    assert story.pick_story({"Eng": []}, CONFIG, [], None, NOW) is None
+
+
+def test_pinned_overrides():
+    a = art("Big story CVE-2026-1", section="Eng")
+    pinned_one = art("Quiet essay", link="https://essay.com/x/", section="Sec", published=at(40))
+    pin = {"url": "https://essay.com/x", "title": "Read this one", "note": "My pick", "until": NOW.date()}
+
+    picked = story.pick_story(feed_of(a, pinned_one), CONFIG, [], pin, NOW)
+
+    assert picked.pinned and picked.link == "https://essay.com/x/"
+    assert picked.title == "Read this one" and picked.note == "My pick" and picked.section == "Sec"
+
+
+def test_pinned_outside_pool_uses_title_or_url():
+    feed = feed_of(art("Big story", section="Eng"))
+    pin = {"url": "https://essay.com/y", "title": None, "note": None, "until": NOW.date()}
+
+    picked = story.pick_story(feed, CONFIG, [], pin, NOW)
+
+    assert (picked.title, picked.link, picked.section, picked.image) == ("https://essay.com/y", pin["url"], None, None)
+    assert picked.source == "essay.com" and picked.also == []
+    assert story.pick_story({}, CONFIG, [], dict(pin, title="T"), NOW).title == "T"

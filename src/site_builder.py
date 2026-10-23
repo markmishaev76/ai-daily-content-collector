@@ -17,6 +17,8 @@ CF_ANALYTICS_TOKEN = "753e85ce1c8b4659818c074e30218583"
 WRITING_LIMIT = 3
 EXCERPT_LIMIT = 300
 CARDS_PER_SECTION = 3
+LEAD_COLOR = "#5a4fcf"
+LEAD_ID_LABELS = 2
 PALETTE = ["#5a4fcf", "#ad3a8a", "#1f9d8b", "#d6456b", "#e07a1f", "#3577d4", "#7a8b2d", "#5b6270"]
 
 SITE_DIR = Path(__file__).resolve().parent.parent / "site"
@@ -71,14 +73,41 @@ def _sections(feed: Dict[str, List[Dict]]) -> List[Dict]:
     return sections
 
 
-def pick_lead(sections: List[Dict]) -> Optional[Dict]:
-    """Take the first article with an image, in section order, out of its section."""
-    for section in sections:
-        for i, item in enumerate(section["articles"]):
-            if item["image"]:
-                del section["articles"][i]
-                return dict(item, section=section["name"], section_id=section["id"], color=section["color"])
-    return None
+def age_label(hours: Optional[float]) -> Optional[str]:
+    if hours is None:
+        return None
+    if hours < 1:
+        return "under 1h ago"
+    if hours < 24:
+        return f"{int(hours)}h ago"
+    return f"{int(hours // 24)}d ago"
+
+
+def _lead(story, feed: Dict[str, List[Dict]]) -> Dict:
+    names = list(feed)
+    color = PALETTE[names.index(story.section) % len(PALETTE)] if story.section in names else LEAD_COLOR
+    labels = []
+    if story.coverage > 1:
+        labels.append(f"{story.coverage} sources")
+    labels += story.ids[:LEAD_ID_LABELS]
+    if story.section:
+        labels.append(story.section)
+    if age_label(story.age_hours):
+        labels.append(age_label(story.age_hours))
+    return {
+        "title": story.title or "Untitled",
+        "link": safe_link(story.link),
+        "excerpt": excerpt(story.summary),
+        "source": story.source,
+        "date": story.published.strftime("%b %d") if story.published else None,
+        "image": safe_image(story.image),
+        "section": story.section,
+        "color": color,
+        "pinned": story.pinned,
+        "note": story.note,
+        "labels": labels,
+        "also": [{"name": name, "link": safe_link(link)} for name, link in story.also if safe_link(link)],
+    }
 
 
 def _split_cards(articles: List[Dict]):
@@ -91,9 +120,12 @@ def _split_cards(articles: List[Dict]):
     return cards, more
 
 
-def _magazine(feed: Dict[str, List[Dict]]) -> Dict:
+def _magazine(feed: Dict[str, List[Dict]], story=None) -> Dict:
     sections = _sections(feed)
-    lead = pick_lead(sections)
+    lead = _lead(story, feed) if story else None
+    if lead and lead["link"]:
+        for s in sections:
+            s["articles"] = [a for a in s["articles"] if a["link"] != lead["link"]]
     sections = [s for s in sections if s["articles"]]
     for s in sections:
         s["cards"], s["more"] = _split_cards(s["articles"])
@@ -116,7 +148,8 @@ def _rss_date(post: Dict) -> Optional[str]:
 
 
 def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
-          out_dir: Path, now: datetime) -> None:
+          out_dir: Path, now: datetime, story=None) -> None:
+    """Write the site. `story` is a src.story.Story for the lead, or None for no lead."""
     env = Environment(loader=FileSystemLoader(SITE_DIR / "templates"), autoescape=True,
                       trim_blocks=True, lstrip_blocks=True)
     env.globals.update(post_href=_post_href, today=now.strftime("%A, %B %d, %Y"),
@@ -132,7 +165,7 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
         page_url = SITE_URL + rel.removesuffix("index.html")
         path.write_text(env.get_template(template).render(**common, page_url=page_url, **ctx))
 
-    write("index.html", "index.html", root="", page="feed", **_magazine(feed))
+    write("index.html", "index.html", root="", page="feed", **_magazine(feed, story))
     write("blog/index.html", "blog.html", root="../", page="blog", posts=all_posts)
     for post in all_posts:
         if post["source"] == "local":

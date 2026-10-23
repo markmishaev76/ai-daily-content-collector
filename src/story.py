@@ -35,6 +35,9 @@ No AI and no embeddings. Same input and `now` always give the same pick.
                         or key-token Jaccard >= STORY_REPEAT_JACCARD)
 
    Ties break on lead title, then link.
+4. Lead shown: the winning cluster's member with an https image, then the
+   best tier, then the highest keyword score, then the freshest, then link.
+   An unexpired pinned.yaml overrides the pick.
 """
 
 import json
@@ -42,10 +45,10 @@ import logging
 import math
 import re
 from collections import Counter
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from datetime import date, datetime, timedelta
 from pathlib import Path
-from typing import Dict, FrozenSet, List, Optional, Sequence
+from typing import Dict, FrozenSet, List, Optional, Sequence, Tuple
 from urllib.parse import urlparse
 
 import yaml
@@ -73,6 +76,7 @@ SECTION_REPEAT = 0.8
 STORY_REPEAT = 0.5
 STORY_REPEAT_JACCARD = 0.5
 
+ALSO_CAP = 6                 # 'Also covered by' links
 HISTORY_CAP = 30
 PINNED_FIELDS = {"url", "title", "note", "until"}
 
@@ -451,3 +455,65 @@ def load_pinned(path: Path, today: date) -> Optional[Dict]:
         logger.info(f"{name}: pick expired on {until}; ignoring it")
         return None
     return {"url": url.strip(), "title": data.get("title"), "note": data.get("note"), "until": until}
+
+
+@dataclass
+class Story:
+    title: str
+    link: str
+    summary: str
+    source: str
+    published: Optional[datetime]
+    image: Optional[str]
+    section: Optional[str]
+    coverage: int = 1
+    ids: List[str] = field(default_factory=list)
+    age_hours: Optional[float] = None
+    also: List[Tuple[str, str]] = field(default_factory=list)
+    note: Optional[str] = None
+    pinned: bool = False
+    key_tokens: FrozenSet[str] = frozenset()
+    scored: List[Scored] = field(default_factory=list)
+
+
+def _also(members: List[Dict], lead: Dict) -> List[Tuple[str, str]]:
+    seen = {domain(lead.get("link"))}
+    also = []
+    for m in members:
+        host = domain(m.get("link"))
+        if host and host not in seen:
+            seen.add(host)
+            also.append((host, m["link"]))
+    return also[:ALSO_CAP]
+
+
+def _same_url(a: str, b: str) -> bool:
+    return (a or "").strip().rstrip("/") == (b or "").strip().rstrip("/")
+
+
+def pick_story(feed: Dict[str, List[Dict]], config: Dict, history: Sequence[Dict], pinned: Optional[Dict],
+               now: datetime) -> Optional[Story]:
+    """Story of the day from every fetched article (before the per-section cut), or None if there are none."""
+    scored = score_clusters(cluster(candidates(feed)), config, history, now)
+    chosen, lead = None, None
+    if pinned:
+        for s in scored:
+            lead = next((m for m in s.members if _same_url(m.get("link"), pinned["url"])), None)
+            if lead:
+                chosen = s
+                break
+        if not chosen:
+            title = pinned.get("title") or pinned["url"]
+            return Story(title=title, link=pinned["url"], summary="", source=domain(pinned["url"]), published=None,
+                         image=None, section=None, note=pinned.get("note"), pinned=True,
+                         key_tokens=title_tokens(title), scored=scored)
+    elif scored:
+        chosen, lead = scored[0], scored[0].lead
+    else:
+        return None
+    return Story(title=(pinned or {}).get("title") or lead.get("title") or "Untitled", link=lead["link"],
+                 summary=lead.get("summary") or "", source=lead.get("source") or "",
+                 published=lead.get("published"), image=lead.get("image"), section=chosen.section,
+                 coverage=chosen.coverage, ids=sorted(chosen.ids), age_hours=chosen.age_hours,
+                 also=_also(chosen.members, lead), note=(pinned or {}).get("note"), pinned=bool(pinned),
+                 key_tokens=key_tokens(lead, chosen.ids), scored=scored)

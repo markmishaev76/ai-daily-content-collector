@@ -3,7 +3,7 @@ from datetime import datetime, timezone
 
 import yaml
 
-from src import site_builder
+from src import site_builder, story
 
 NOW = datetime(2026, 10, 22, 6, 0, tzinfo=timezone.utc)
 IMG = "https://img.example.com/{}.jpg"
@@ -24,8 +24,8 @@ def local_post(slug="hello", date="2026-10-21"):
             "url": f"blog/{slug}/", "source": "local"}
 
 
-def build(tmp_path, feed=None, posts=None):
-    site_builder.build(feed or {"Topic": [article()]}, posts or [], "<p>About</p>", tmp_path, NOW)
+def build(tmp_path, feed=None, posts=None, story=None):
+    site_builder.build(feed or {"Topic": [article()]}, posts or [], "<p>About</p>", tmp_path, NOW, story=story)
     return (tmp_path / "index.html").read_text()
 
 
@@ -76,20 +76,83 @@ def test_chips_in_section_order_with_colors(tmp_path):
     assert site_builder.PALETTE[2] in chips
 
 
-def test_lead_is_first_image_article_and_not_repeated(tmp_path):
+def lead_story(title="Lead story", link="https://example.com/leadstory", section="Pics", image=None, **kw):
+    return story.Story(title=title, link=link, summary=kw.pop("summary", "Lead summary"), source="Src",
+                       published=NOW, image=image, section=section, **kw)
+
+
+def test_lead_not_repeated_in_sections(tmp_path):
     feed = {"No Pics": [article("Plain")],
             "Pics": [article("Text only"), article("Lead story", image=IMG.format(1)), article("Later pic", image=IMG.format(2))]}
 
-    html = build(tmp_path, feed)
+    html = build(tmp_path, feed, story=lead_story(image=IMG.format(1)))
     lead = block(html, "lead")
     body = html.replace(lead, "")
 
     assert "Lead story" in lead and IMG.format(1) in lead
     assert "Lead story" not in body
+    assert "Later pic" in body
+    assert site_builder.PALETTE[1] in lead
 
 
-def test_no_images_no_lead(tmp_path):
-    html = build(tmp_path, {"Topic": [article("A"), article("B")]})
+def test_lead_without_image_renders_placeholder(tmp_path):
+    html = build(tmp_path, {"Pics": [article("Other")]}, story=lead_story())
+    lead = block(html, "lead")
+
+    assert 'class="lead-image placeholder"' in lead
+    assert '<span class="placeholder-label">Pics</span>' in lead
+    assert "<img" not in lead
+
+
+def test_why_labels_rendered(tmp_path):
+    s = lead_story(coverage=6, ids=["CVE-2026-109618"], age_hours=2.4)
+
+    lead = block(build(tmp_path, {"Pics": [article("Other")]}, story=s), "lead")
+    labels = re.findall(r"<li>(.*?)</li>", block(lead, "why"))
+
+    assert labels == ["6 sources", "CVE-2026-109618", "Pics", "2h ago"]
+
+
+def test_age_label_formats():
+    assert site_builder.age_label(None) is None
+    assert site_builder.age_label(0.2) == "under 1h ago"
+    assert site_builder.age_label(23.9) == "23h ago"
+    assert site_builder.age_label(49) == "2d ago"
+
+
+def test_also_covered_escaped_and_safe(tmp_path):
+    s = lead_story(also=[("a<b>.com", "https://a.com/1"), ("evil.com", "javascript:alert(1)"), ("c.com", "http://c.com/2")])
+
+    lead = block(build(tmp_path, {"Pics": [article("Other")]}, story=s), "lead")
+    also = block(lead, "also")
+
+    assert "Also covered by" in also
+    assert "a&lt;b&gt;.com" in also and "<b>" not in also
+    assert "javascript:" not in lead and "evil.com" not in lead
+    assert '<a href="http://c.com/2" rel="noopener noreferrer">c.com</a>' in also
+
+
+def test_lead_title_and_labels_escaped(tmp_path):
+    s = lead_story(title="<script>x</script>", ids=["<i>"], link="javascript:alert(1)")
+
+    lead = block(build(tmp_path, {"Pics": [article("Other")]}, story=s), "lead")
+
+    assert "<script>" not in lead and "<i>" not in lead and "javascript:" not in lead
+    assert "&lt;script&gt;" in lead
+
+
+def test_pinned_lead_rendered_with_note(tmp_path):
+    s = lead_story(section=None, pinned=True, note="Mark's <pick>", summary="")
+
+    lead = block(build(tmp_path, {"Pics": [article("Other")]}, story=s), "lead")
+
+    assert "Editor&#39;s pick" in lead or "Editor's pick" in lead
+    assert "Mark&#39;s &lt;pick&gt;" in lead
+    assert '<span class="placeholder-label">' in lead
+
+
+def test_no_story_no_lead(tmp_path):
+    html = build(tmp_path, {"Topic": [article("A", image=IMG.format(1)), article("B")]})
 
     assert 'class="lead' not in html
     assert "A" in html and "B" in html
