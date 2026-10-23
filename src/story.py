@@ -9,9 +9,11 @@ No AI and no embeddings. Same input and `now` always give the same pick.
    similarity of their title + first-sentence tokens is at least
    SIMILARITY_THRESHOLD with at least MIN_SHARED_TOKENS in common, or
    when they share a CVE id, RFC number or IETF draft name. Clusters are the
-   connected groups (union-find). Then each cluster covering at least
-   SIGNATURE_MIN_DOMAINS domains pulls in every article whose title has one
-   of its signature words (a coined name like "PHP2Shell": see _signature).
+   connected groups (union-find). Then each cluster that covers at least
+   SIGNATURE_MIN_DOMAINS domains and has a CVE/RFC/draft id shared by two
+   members pulls in still-unclustered articles whose title has one of its
+   signature words: a coined name like "PHP2Shell" that most titles of the
+   id-carrying members use (see _signature).
    Coverage is the number of distinct link domains in a cluster.
 3. Score per cluster:
 
@@ -66,9 +68,10 @@ from main import _score_article
 # Clustering
 SIMILARITY_THRESHOLD = 0.2   # idf-weighted Jaccard of title + first-sentence tokens
 MIN_SHARED_TOKENS = 3        # and at least this many shared tokens
-SIGNATURE_MIN_DOMAINS = 3    # clusters this wide pull in titles that use their signature word
-SIGNATURE_SHARE = 0.75       # signature: a title word in at least this share of member titles
-SIGNATURE_MAX_SPREAD = 4     # and in at most this many titles per member across the pool
+SIGNATURE_MIN_DOMAINS = 3    # id-anchored clusters this wide pull in titles that use their signature word
+SIGNATURE_MIN_TITLES = 3     # distinct member titles needed to find a signature
+SIGNATURE_SHARE = 0.75       # signature: a title word in at least this share of distinct member titles
+SIGNATURE_MAX_SPREAD = 4     # and in at most this many pool titles per distinct member title
 
 # Base points
 RELEVANCE_PTS = 2.0          # per log2(1 + keyword score)
@@ -112,6 +115,7 @@ CVE_RE = re.compile(r"\bCVE-\d{4}-\d{4,7}\b", re.I)
 RFC_RE = re.compile(r"\bRFC[\s-]?(\d{3,5})\b", re.I)
 DRAFT_RE = re.compile(r"\bdraft-[a-z0-9]+(?:-[a-z0-9]+)+", re.I)
 DRAFT_VERSION = re.compile(r"-\d{2}$")
+YEAR_RE = re.compile(r"(19|20)\d\d")
 VERSION_RE = re.compile(r"\bv?\d+\.\d+(?:\.\d+)*\b", re.I)
 RELEASE_RE = re.compile(r"\b(released?|releases|launch(?:es|ed)?|now available|generally available|ga)\b", re.I)
 BREACH_RE = re.compile(r"\b(breach(?:es|ed)?|data leak|leaked|hacked|ransomware|zero-day|0-day|"
@@ -131,9 +135,16 @@ def title_tokens(title: str) -> FrozenSet[str]:
     return frozenset(w for w in stems if w not in STOPWORDS and w not in GENERIC_WORDS)
 
 
+def _without_ids(text: str) -> str:
+    for pattern in (CVE_RE, RFC_RE, DRAFT_RE):
+        text = pattern.sub(" ", text or "")
+    return text
+
+
 def story_tokens(article: Dict) -> FrozenSet[str]:
-    """Tokens of the title and the summary's first sentence, used for clustering."""
-    return title_tokens(article.get("title")) | title_tokens(first_sentence(article.get("summary")))
+    """Title and first-sentence tokens for clustering, without ids (they have their own rule) or years."""
+    text = f"{article.get('title') or ''} {first_sentence(article.get('summary'))}"
+    return frozenset(t for t in title_tokens(_without_ids(text)) if not YEAR_RE.fullmatch(t))
 
 
 def extract_ids(text: str) -> FrozenSet[str]:
@@ -272,19 +283,24 @@ def cluster(cands: List[Dict]) -> List[List[Dict]]:
             if _similar(tokens[i], tokens[j], idf):
                 union(i, j)
 
-    titles = [title_tokens(c.get("title")) for c in cands]
+    titles = [_signature_tokens(c.get("title")) for c in cands]
     title_df = Counter(t for toks in titles for t in toks)
     first_pass: Dict[int, List[int]] = {}
     for i in range(n):
         first_pass.setdefault(find(i), []).append(i)
+    singletons = {members[0] for members in first_pass.values() if len(members) == 1}
     for root in sorted(first_pass):
         members = first_pass[root]
-        if coverage([cands[i] for i in members]) < SIGNATURE_MIN_DOMAINS:
+        ids = Counter(ident for i in members for ident in article_ids(cands[i]))
+        shared = {ident for ident, count in ids.items() if count > 1}
+        anchored = [i for i in members if article_ids(cands[i]) & shared]
+        if coverage([cands[i] for i in members]) < SIGNATURE_MIN_DOMAINS or not anchored:
             continue
-        signature = _signature([titles[i] for i in members], title_df)
-        for j in range(n):
+        signature = _signature({titles[i] for i in anchored}, title_df)
+        for j in sorted(singletons):
             if titles[j] & signature:
                 union(root, j)
+                singletons.discard(j)
 
     groups: Dict[int, List[Dict]] = {}
     for i, c in enumerate(cands):
@@ -292,10 +308,17 @@ def cluster(cands: List[Dict]) -> List[List[Dict]]:
     return [groups[root] for root in sorted(groups)]
 
 
-def _signature(member_titles: List[FrozenSet[str]], title_df: Counter) -> FrozenSet[str]:
-    """Title words most members use and the rest of the pool mostly doesn't."""
-    counts = Counter(t for toks in member_titles for t in toks)
-    size = len(member_titles)
+def _signature_tokens(title: str) -> FrozenSet[str]:
+    """Title words without CVE/RFC/draft ids and without bare numbers."""
+    return frozenset(t for t in title_tokens(_without_ids(title)) if re.search(r"[a-z]", t))
+
+
+def _signature(distinct_titles: set, title_df: Counter) -> FrozenSet[str]:
+    """Words most of a cluster's distinct titles use and the rest of the pool mostly doesn't."""
+    size = len(distinct_titles)
+    if size < SIGNATURE_MIN_TITLES:
+        return frozenset()
+    counts = Counter(t for toks in distinct_titles for t in toks)
     return frozenset(t for t, k in counts.items()
                      if k >= SIGNATURE_SHARE * size and title_df[t] <= SIGNATURE_MAX_SPREAD * size)
 

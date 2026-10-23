@@ -126,6 +126,19 @@ def test_signature_word_pulls_in_follow_ups():
     assert cluster_of(clusters, other["title"]) == {other["title"]}
 
 
+def test_signature_comes_from_id_carrying_members():
+    core = [art(f"Fooshell critical remote flaw {w} CVE-2026-5555", link=f"https://{d}/1") for w, d in
+            [("patched", "a.com"), ("mitigations", "b.com"), ("impact", "c.com")]]
+    loose = [art("Critical remote flaw patched in stack", link="https://f.com/1"),
+             art("Remote flaw patched in the stack, critical update", link="https://g.com/1")]
+    follow = art("Fooshell puts services offline", link="https://d.com/2")
+
+    clusters = story.cluster(pool(*core, *loose, follow))
+
+    assert loose[0]["title"] in cluster_of(clusters, core[0]["title"])
+    assert follow["title"] in cluster_of(clusters, core[0]["title"])
+
+
 def test_signature_needs_three_domains():
     core = fooshell_core()[:2]
     follow = art("Fooshell puts services offline", link="https://d.com/2")
@@ -141,6 +154,36 @@ def test_widespread_word_is_not_a_signature():
     clusters = story.cluster(pool(*core, *common))
 
     assert cluster_of(clusters, "Security note 0") == {"Security note 0"}
+
+
+def test_signature_needs_a_shared_id():
+    core = [art("MCP spec update adds OAuth step-up authorization", link=f"https://{d}/mcp") for d in
+            ("a.dev", "b.dev", "c.dev", "d.dev")]
+    others = [art("Show HN: WhatsApp MCP server"), art("Announcing DPoP support for Google OAuth"),
+              art("Automate medical coding with Step Functions")]
+
+    clusters = story.cluster(pool(*core, *others))
+
+    assert len(cluster_of(clusters, core[0]["title"])) == 1
+    assert all(cluster_of(clusters, o["title"]) == {o["title"]} for o in others)
+
+
+def test_syndicated_titles_do_not_make_signatures():
+    core = [art("Patch now: Chrome flaw CVE-2026-7777", link=f"https://{d}/chrome") for d in ("a.com", "b.com", "c.com")]
+    others = [art("Chrome adds tab groups"), art("Firefox flaw CVE-2026-1111 patched")]
+
+    clusters = story.cluster(pool(*core, *others))
+
+    assert all(cluster_of(clusters, o["title"]) == {o["title"]} for o in others)
+
+
+def test_signature_pull_does_not_merge_clusters():
+    pair = [art("Fooshell botnet wave CVE-2026-9999", link="https://x.com/1"),
+            art("Botnet wave CVE-2026-9999 grows", link="https://y.com/1")]
+
+    clusters = story.cluster(pool(*fooshell_core(), *pair))
+
+    assert cluster_of(clusters, pair[0]["title"]) == {p["title"] for p in pair}
 
 
 def test_same_cve_always_clusters():
@@ -391,3 +434,9 @@ def test_freshness_halves_in_twelve_hours():
     assert story.freshness(0) == 1.0
     assert story.freshness(12) == 0.5
     assert round(story.freshness(24), 3) == 0.333
+
+
+def test_story_tokens_drop_ids_and_years():
+    tokens = story.story_tokens(art("Firefox flaw CVE-2026-1111 in RFC 9700 and draft-ietf-x-y-01, 2026 edition 1.35"))
+
+    assert tokens == {"firefox", "flaw", "edition", "1.35"}

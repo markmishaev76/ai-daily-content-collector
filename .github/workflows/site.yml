@@ -38,6 +38,9 @@ jobs:
           cache-dependency-path: requirements-dev.txt
       - run: pip install -r requirements-dev.txt
       - run: python -m pytest -q
+      - name: Sync with main
+        if: github.ref == 'refs/heads/main'
+        run: git pull --ff-only origin main
       - run: python build_site.py
       - name: Commit Medium posts and lead history
         if: github.ref == 'refs/heads/main'
