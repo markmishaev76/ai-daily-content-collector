@@ -155,3 +155,131 @@ def test_cluster_order_deterministic():
     items = pool(art("Patch now: CVE-2026-1"), art("CVE-2026-1 exploited"))
 
     assert story.cluster(items) == story.cluster(list(items))
+
+
+CONFIG = {"topics": [{"name": "Eng", "weight": 1.5}, {"name": "Sec", "weight": 0.75}, {"name": "Other", "weight": 1.0}],
+          "story": {"source_tiers": TIERS}}
+HOURS = 3600
+
+
+def at(hours):
+    return datetime.fromtimestamp(NOW.timestamp() - hours * HOURS, tz=timezone.utc)
+
+
+def winner(clusters, config=CONFIG, history=()):
+    return story.score_clusters(clusters, config, list(history), NOW)[0].lead["title"]
+
+
+def test_section_weight_changes_winner():
+    a, b = art("Alpha story", section="Eng"), art("Beta story", section="Sec")
+    swapped = dict(CONFIG, topics=[{"name": "Eng", "weight": 0.75}, {"name": "Sec", "weight": 1.5}])
+
+    assert winner([[a], [b]]) == "Alpha story"
+    assert winner([[a], [b]], swapped) == "Beta story"
+
+
+def test_cluster_section_is_highest_weight_member():
+    scored = story.score_clusters([[art("x", section="Sec"), art("y", section="Eng")]], CONFIG, [], NOW)[0]
+
+    assert (scored.section, scored.section_weight) == ("Eng", 1.5)
+
+
+def test_freshness_changes_winner():
+    def pair(age_a, age_b):
+        return [[art("Alpha story", published=at(age_a))], [art("Beta story", published=at(age_b))]]
+
+    assert winner(pair(1, 30)) == "Alpha story"
+    assert winner(pair(30, 1)) == "Beta story"
+
+
+def test_undated_cluster_assumed_mid_window():
+    scored = story.score_clusters([[art("x", published=None)]], CONFIG, [], NOW)[0]
+
+    assert scored.age_hours is None
+    assert scored.freshness == story.freshness(story.UNDATED_AGE_HOURS)
+    assert story.freshness(-5) == 1.0
+
+
+def test_coverage_and_hn_points_add_to_base():
+    members = [art("x", link="https://a.com/1"), art("x", link="https://b.com/1"), art("x", link="https://c.com/1")]
+    members[0]["hn"] = 99
+
+    scored = story.score_clusters([members], CONFIG, [], NOW)[0]
+
+    assert scored.coverage == 3
+    assert scored.coverage_pts == 2 * story.COVERAGE_PTS
+    assert scored.hn_pts == story.HN_PTS * 2
+
+
+def test_hard_news_bonus():
+    a, b = art("Alpha story"), art("Beta story CVE-2026-0001")
+
+    scored = {s.lead["title"]: s for s in story.score_clusters([[a], [b]], CONFIG, [], NOW)}
+
+    assert scored["Beta story CVE-2026-0001"].hard_pts == story.HARD_NEWS_PTS
+    assert scored["Alpha story"].hard_pts == 0
+    assert winner([[a], [b]]) == "Beta story CVE-2026-0001"
+
+
+def test_primary_tier_beats_aggregator():
+    a = art("Alpha story", link="https://example.com/a", feed="https://hnrss.org/newest")
+    b = art("Beta story", link="https://datatracker.ietf.org/doc/b/")
+
+    assert winner([[a], [b]]) == "Beta story"
+
+
+def test_novelty_penalizes_recent_section_and_story():
+    a, b = art("Alpha story", section="Eng"), art("Beta story", section="Other")
+    led_eng = {"date": "2026-10-22", "url": "https://elsewhere.com/x", "title": "x", "section": "Eng", "key_tokens": []}
+    led_alpha = {"date": "2026-10-20", "url": a["link"], "title": "Alpha", "section": "Sec", "key_tokens": []}
+    too_old = dict(led_alpha, date="2026-10-19")
+
+    assert winner([[a], [b]]) == "Alpha story"
+    assert story.score_clusters([[a]], CONFIG, [led_eng], NOW)[0].novelty == story.SECTION_REPEAT
+    assert story.score_clusters([[a]], CONFIG, [led_alpha], NOW)[0].novelty == story.STORY_REPEAT
+    assert story.score_clusters([[a]], CONFIG, [too_old], NOW)[0].novelty == 1.0
+    assert winner([[a], [b]], history=[led_alpha]) == "Beta story"
+
+
+def test_novelty_matches_key_tokens_and_ids():
+    a = art("Exchange zero-day patched by Microsoft", section="Other")
+    tokens = {"date": "2026-10-22", "url": "u", "title": "t", "section": "Sec",
+              "key_tokens": ["exchange", "microsoft", "zero", "day", "server"]}
+    ident = dict(tokens, key_tokens=["CVE-2026-0001"])
+    b = art("Unrelated CVE-2026-0001 note", section="Other")
+
+    assert story.score_clusters([[a]], CONFIG, [tokens], NOW)[0].novelty == story.STORY_REPEAT
+    assert story.score_clusters([[b]], CONFIG, [ident], NOW)[0].novelty == story.STORY_REPEAT
+
+
+def test_history_from_today_ignored():
+    a = art("Alpha story", section="Eng")
+    today = {"date": "2026-10-23", "url": a["link"], "title": "Alpha", "section": "Eng", "key_tokens": []}
+
+    assert story.score_clusters([[a]], CONFIG, [today], NOW)[0].novelty == 1.0
+
+
+def test_lead_member_prefers_image_then_primary():
+    plain = art("Same story", link="https://datatracker.ietf.org/doc/x/")
+    pic = art("Same story", link="https://example.com/x", image="https://img.example.com/x.jpg")
+
+    assert story.score_clusters([[plain, pic]], CONFIG, [], NOW)[0].lead is pic
+    assert story.score_clusters([[art("S", link="https://example.com/y"), plain]], CONFIG, [], NOW)[0].lead is plain
+
+
+def test_deterministic_and_ties_break_on_title():
+    clusters = [[art("Beta story")], [art("Alpha story")]]
+
+    first = [s.lead["title"] for s in story.score_clusters(clusters, CONFIG, [], NOW)]
+
+    assert first == ["Alpha story", "Beta story"]
+    assert first == [s.lead["title"] for s in story.score_clusters(clusters[::-1], CONFIG, [], NOW)]
+    assert "Alpha story" in story.score_clusters(clusters, CONFIG, [], NOW)[0].breakdown()
+
+
+def test_invalid_weight_raises():
+    bad = dict(CONFIG, topics=[{"name": "Eng", "weight": "high"}])
+
+    import pytest
+    with pytest.raises(ValueError, match="config.yaml"):
+        story.score_clusters([[art("x", section="Eng")]], bad, [], NOW)

@@ -40,12 +40,33 @@ No AI and no embeddings. Same input and `now` always give the same pick.
 import math
 import re
 from collections import Counter
-from typing import Dict, FrozenSet, List, Optional
+from dataclasses import dataclass
+from datetime import date, datetime, timedelta
+from typing import Dict, FrozenSet, List, Optional, Sequence
 from urllib.parse import urlparse
+
+from main import _score_article
 
 # Clustering
 SIMILARITY_THRESHOLD = 0.4   # idf-weighted Jaccard of title tokens
 MIN_SHARED_TOKENS = 2        # and at least this many shared title tokens
+
+# Base points
+RELEVANCE_PTS = 3.0          # per log2(1 + keyword score)
+COVERAGE_PTS = 4.0           # per extra source domain
+COVERAGE_CAP = 5             # extra domains that count
+HARD_NEWS_PTS = 6.0
+HN_PTS = 3.0                 # per log10(1 + points + comments)
+
+# Multipliers
+GRAVITY = 0.6
+UNDATED_AGE_HOURS = 24
+TIER_MULT = {"primary": 1.25, "normal": 1.0, "aggregator": 0.85}
+TIER_RANK = {"aggregator": 0, "normal": 1, "primary": 2}
+NOVELTY_DAYS = 3
+SECTION_REPEAT = 0.8
+STORY_REPEAT = 0.5
+STORY_REPEAT_JACCARD = 0.5
 
 STOPWORDS = frozenset("""
 a an the and or but nor of to in on for with by from at as is are was were be been being it its
@@ -225,3 +246,128 @@ def cluster(cands: List[Dict]) -> List[List[Dict]]:
 def coverage(members: List[Dict]) -> int:
     """Number of distinct link domains."""
     return len({domain(m.get("link")) for m in members} - {""})
+
+
+def freshness(age_hours: float) -> float:
+    return ((max(age_hours, 0.0) + 2) / 2) ** -GRAVITY
+
+
+def section_weights(config: Dict) -> Dict[str, float]:
+    weights = {}
+    for topic in config.get("topics", []):
+        weight = topic.get("weight", 1.0)
+        if isinstance(weight, bool) or not isinstance(weight, (int, float)) or weight <= 0:
+            raise ValueError(f"config.yaml: topic {topic.get('name')!r} weight must be a positive number, "
+                             f"got {weight!r}")
+        weights[topic["name"]] = float(weight)
+    return weights
+
+
+def key_tokens(lead: Dict, ids: FrozenSet[str]) -> FrozenSet[str]:
+    return title_tokens(lead.get("title")) | ids
+
+
+def _age_hours(article: Dict, now: datetime) -> Optional[float]:
+    published = article.get("published")
+    if not isinstance(published, datetime):
+        return None
+    return max((now - published).total_seconds() / 3600, 0.0)
+
+
+def _jaccard(a: FrozenSet[str], b: FrozenSet[str]) -> float:
+    return len(a & b) / len(a | b) if a | b else 0.0
+
+
+@dataclass
+class Scored:
+    members: List[Dict]
+    lead: Dict
+    section: str
+    coverage: int
+    ids: FrozenSet[str]
+    keywords: float
+    relevance_pts: float
+    coverage_pts: float
+    hard_pts: float
+    hn: int
+    hn_pts: float
+    base: float
+    age_hours: Optional[float]
+    freshness: float
+    section_weight: float
+    tier: str
+    tier_mult: float
+    novelty: float
+    score: float
+
+    def breakdown(self) -> str:
+        age = "undated" if self.age_hours is None else f"{self.age_hours:.1f}h"
+        return (f"{self.score:6.2f} = base {self.base:.2f} (relevance {self.relevance_pts:.2f} [kw {self.keywords:g}]"
+                f" + coverage {self.coverage_pts:g} [{self.coverage} domains] + hard {self.hard_pts:g}"
+                f" + hn {self.hn_pts:.2f} [{self.hn}]) x fresh {self.freshness:.2f} [{age}]"
+                f" x section {self.section_weight:g} [{self.section}] x tier {self.tier_mult:g} [{self.tier}]"
+                f" x novelty {self.novelty:g} | {len(self.members)} items | {self.lead.get('title')}")
+
+
+def _recent(history: Sequence[Dict], today: date) -> List[Dict]:
+    start = (today - timedelta(days=NOVELTY_DAYS)).isoformat()
+    return [e for e in history if start <= str(e.get("date", "")) < today.isoformat()]
+
+
+def _novelty(section: str, members: List[Dict], keys: FrozenSet[str], ids: FrozenSet[str],
+             recent: List[Dict]) -> float:
+    novelty = 1.0
+    if any(e.get("section") == section for e in recent):
+        novelty *= SECTION_REPEAT
+    links = {m.get("link") for m in members}
+    for e in recent:
+        past = frozenset(e.get("key_tokens") or [])
+        if e.get("url") in links or ids & past or _jaccard(keys, past) >= STORY_REPEAT_JACCARD:
+            novelty *= STORY_REPEAT
+            break
+    return novelty
+
+
+def _lead_member(members: List[Dict], tiers: Dict, now: datetime) -> Dict:
+    def key(m: Dict):
+        image = (m.get("image") or "").lower().startswith("https://")
+        age = _age_hours(m, now)
+        return (not image, -TIER_RANK[source_tier(m, tiers)], -_score_article(m),
+                UNDATED_AGE_HOURS if age is None else age, m.get("link") or "")
+    return min(members, key=key)
+
+
+def score_clusters(clusters: List[List[Dict]], config: Dict, history: Sequence[Dict],
+                   now: datetime) -> List[Scored]:
+    """Score every cluster with the formula in the module docstring, best first."""
+    weights = section_weights(config)
+    order = list(weights)
+    tiers = (config.get("story") or {}).get("source_tiers") or {}
+    recent = _recent(history, now.date())
+    scored = []
+    for members in clusters:
+        sections = sorted({m.get("section") for m in members},
+                          key=lambda s: (-weights.get(s, 1.0), order.index(s) if s in order else len(order), str(s)))
+        section = sections[0]
+        ids = frozenset().union(*(article_ids(m) for m in members))
+        keywords = max(_score_article(m) for m in members)
+        cov = coverage(members)
+        hn = max(m.get("hn", 0) for m in members)
+        relevance_pts = RELEVANCE_PTS * math.log2(1 + keywords)
+        coverage_pts = COVERAGE_PTS * min(max(cov - 1, 0), COVERAGE_CAP)
+        hard_pts = HARD_NEWS_PTS if any(is_hard_news(m) for m in members) else 0.0
+        hn_pts = HN_PTS * math.log10(1 + hn)
+        base = 1 + relevance_pts + coverage_pts + hard_pts + hn_pts
+
+        ages = [a for a in (_age_hours(m, now) for m in members) if a is not None]
+        age = min(ages) if ages else None
+        fresh = freshness(UNDATED_AGE_HOURS if age is None else age)
+        tier = max((source_tier(m, tiers) for m in members), key=TIER_RANK.__getitem__)
+        lead = _lead_member(members, tiers, now)
+        novelty = _novelty(section, members, key_tokens(lead, ids), ids, recent)
+        weight = weights.get(section, 1.0)
+        score = base * fresh * weight * TIER_MULT[tier] * novelty
+        scored.append(Scored(members, lead, section, cov, ids, keywords, relevance_pts, coverage_pts, hard_pts,
+                             hn, hn_pts, base, age, fresh, weight, tier, TIER_MULT[tier], novelty, score))
+    scored.sort(key=lambda s: (-s.score, s.lead.get("title") or "", s.lead.get("link") or ""))
+    return scored
