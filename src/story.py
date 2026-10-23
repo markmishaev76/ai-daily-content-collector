@@ -39,8 +39,13 @@ No AI and no embeddings. Same input and `now` always give the same pick.
 
 import math
 import re
-from typing import Dict, FrozenSet, Optional
+from collections import Counter
+from typing import Dict, FrozenSet, List, Optional
 from urllib.parse import urlparse
+
+# Clustering
+SIMILARITY_THRESHOLD = 0.4   # idf-weighted Jaccard of title tokens
+MIN_SHARED_TOKENS = 2        # and at least this many shared title tokens
 
 STOPWORDS = frozenset("""
 a an the and or but nor of to in on for with by from at as is are was were be been being it its
@@ -71,7 +76,7 @@ def _stem(token: str) -> str:
 
 def title_tokens(title: str) -> FrozenSet[str]:
     """Lowercase word tokens without punctuation, stopwords, 1-char words or a plural s."""
-    words = re.findall(r"[a-z0-9]+", (title or "").lower())
+    words = re.findall(r"[a-z0-9]+(?:\.[0-9]+)+|[a-z0-9]+", (title or "").lower())
     return frozenset(_stem(w) for w in words if len(w) > 1 and w not in STOPWORDS)
 
 
@@ -145,3 +150,78 @@ def source_tier(article: Dict, tiers: Dict) -> str:
     if any(_matches(u, p) for u in (link, feed) for p in tiers.get("aggregator", [])):
         return "aggregator"
     return "normal"
+
+
+def _web_link(url: str) -> bool:
+    try:
+        return urlparse((url or "").strip()).scheme.lower() in ("http", "https")
+    except ValueError:
+        return False
+
+
+def candidates(feed: Dict[str, List[Dict]]) -> List[Dict]:
+    """Every article with an http(s) link, deduped by link. Copies carry `section` and `hn`."""
+    by_link: Dict[str, Dict] = {}
+    for section, articles in feed.items():
+        for article in articles:
+            link = article.get("link") or ""
+            if not _web_link(link):
+                continue
+            points = hn_points(article.get("summary"))
+            if link in by_link:
+                by_link[link]["hn"] = max(by_link[link]["hn"], points)
+                continue
+            by_link[link] = dict(article, section=section, hn=points)
+    return list(by_link.values())
+
+
+def _similar(a: FrozenSet[str], b: FrozenSet[str], idf: Dict[str, float]) -> bool:
+    shared = a & b
+    if len(shared) < MIN_SHARED_TOKENS:
+        return False
+    union = sum(idf[t] for t in a | b)
+    return sum(idf[t] for t in shared) / union >= SIMILARITY_THRESHOLD
+
+
+def cluster(cands: List[Dict]) -> List[List[Dict]]:
+    """Group candidates into same-story clusters, ordered by first member, members in input order."""
+    n = len(cands)
+    tokens = [title_tokens(c.get("title")) for c in cands]
+    df = Counter(t for toks in tokens for t in toks)
+    idf = {t: math.log((n + 1) / (count + 1)) + 1 for t, count in df.items()}
+
+    parent = list(range(n))
+
+    def find(i: int) -> int:
+        while parent[i] != i:
+            parent[i] = parent[parent[i]]
+            i = parent[i]
+        return i
+
+    def union(i: int, j: int) -> None:
+        ri, rj = find(i), find(j)
+        if ri != rj:
+            parent[max(ri, rj)] = min(ri, rj)
+
+    first_with_id: Dict[str, int] = {}
+    for i, c in enumerate(cands):
+        for ident in sorted(article_ids(c)):
+            if ident in first_with_id:
+                union(first_with_id[ident], i)
+            else:
+                first_with_id[ident] = i
+
+    for i in range(n):
+        for j in range(i + 1, n):
+            if _similar(tokens[i], tokens[j], idf):
+                union(i, j)
+
+    groups: Dict[int, List[Dict]] = {}
+    for i, c in enumerate(cands):
+        groups.setdefault(find(i), []).append(c)
+    return [groups[root] for root in sorted(groups)]
+
+
+def coverage(members: List[Dict]) -> int:
+    """Number of distinct link domains."""
+    return len({domain(m.get("link")) for m in members} - {""})
