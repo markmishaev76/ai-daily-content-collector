@@ -37,6 +37,7 @@ def main(out_dir: Path = Path("public"), config: dict = None, aggregator=None,
         pinned = story.load_pinned(pinned_path, now.date())
         history = story.load_history(history_path)
         story.section_weights(config)
+        story.lead_min_hn_points(config)
     except ValueError as e:
         logger.error(f"Not building: {e}")
         return 1

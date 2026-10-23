@@ -44,7 +44,10 @@ No AI and no embeddings. Same input and `now` always give the same pick.
                         cluster repeats a recent lead (same url, a shared id,
                         or key-token Jaccard >= STORY_REPEAT_JACCARD)
 
-   Ties break on lead title, then link.
+   Ties break on lead title, then link. A cluster whose members all came via
+   Hacker News may lead only if its best item has at least
+   story.lead_min_hn_points points (comments don't count); if no cluster is
+   eligible, the top-scored one leads anyway.
 4. Lead shown: the winning cluster's member with an https image, then the
    best tier, then the highest keyword score, then the freshest, then link.
    Its picture comes from the cluster's best-scoring news outlet member
@@ -171,15 +174,25 @@ def article_ids(article: Dict) -> FrozenSet[str]:
     return extract_ids(f"{article.get('title') or ''} {first_sentence(article.get('summary'))}")
 
 
-def hn_points(summary: Optional[str]) -> int:
-    """Points plus comments from an hnrss summary ('Points: N # Comments: M'), else 0."""
+def hn_counts(summary: Optional[str]) -> Tuple[int, int]:
+    """(points, comments) from an hnrss summary ('Points: N # Comments: M'), zeros if absent."""
     text = summary or ""
-    total = 0
+    counts = []
     for pattern in (HN_POINTS, HN_COMMENTS):
         match = pattern.search(text)
-        if match:
-            total += int(match.group(1))
-    return total
+        counts.append(int(match.group(1)) if match else 0)
+    return counts[0], counts[1]
+
+
+def hn_points(summary: Optional[str]) -> int:
+    """Points plus comments from an hnrss summary, else 0."""
+    return sum(hn_counts(summary))
+
+
+def is_hn_item(article: Dict) -> bool:
+    """Came from Hacker News: an hnrss feed or a news.ycombinator.com link."""
+    return (_matches(article.get("feed") or "", "hnrss.org")
+            or any(_matches(article.get(k) or "", "news.ycombinator.com") for k in ("link", "feed")))
 
 
 def is_hard_news(article: Dict) -> bool:
@@ -230,18 +243,26 @@ def _web_link(url: str) -> bool:
 
 
 def candidates(feed: Dict[str, List[Dict]]) -> List[Dict]:
-    """Every article with an http(s) link, deduped by link. Copies carry `section` and `hn`."""
+    """Every article with an http(s) link, deduped by link.
+
+    Copies carry `section`, `hn` (points + comments), `hn_points` and `hn_only`
+    (every copy came via Hacker News); duplicates keep the maxima.
+    """
     by_link: Dict[str, Dict] = {}
     for section, articles in feed.items():
         for article in articles:
             link = article.get("link") or ""
             if not _web_link(link):
                 continue
-            points = hn_points(article.get("summary"))
+            points, comments = hn_counts(article.get("summary"))
             if link in by_link:
-                by_link[link]["hn"] = max(by_link[link]["hn"], points)
+                kept = by_link[link]
+                kept["hn"] = max(kept["hn"], points + comments)
+                kept["hn_points"] = max(kept["hn_points"], points)
+                kept["hn_only"] = kept["hn_only"] and is_hn_item(article)
                 continue
-            by_link[link] = dict(article, section=section, hn=points)
+            by_link[link] = dict(article, section=section, hn=points + comments, hn_points=points,
+                                 hn_only=is_hn_item(article))
     return list(by_link.values())
 
 
@@ -382,6 +403,7 @@ class Scored:
     tier_mult: float
     novelty: float
     score: float
+    eligible: bool = True
 
     def breakdown(self) -> str:
         age = "undated" if self.age_hours is None else f"{self.age_hours:.1f}h"
@@ -389,7 +411,8 @@ class Scored:
                 f" + coverage {self.coverage_pts:g} [{self.coverage} domains] + hard {self.hard_pts:g}"
                 f" + hn {self.hn_pts:.2f} [{self.hn}]) x fresh {self.freshness:.2f} [{age}]"
                 f" x section {self.section_weight:g} [{self.section}] x tier {self.tier_mult:g} [{self.tier}]"
-                f" x novelty {self.novelty:g} | {len(self.members)} items | {self.lead.get('title')}")
+                f" x novelty {self.novelty:g} | {len(self.members)} items"
+                f"{'' if self.eligible else ' | not eligible: HN-only, too few points'} | {self.lead.get('title')}")
 
 
 def _recent(history: Sequence[Dict], today: date) -> List[Dict]:
@@ -427,6 +450,13 @@ def _lead_member(members: List[Dict], tiers: Dict, now: datetime) -> Dict:
     return min(members, key=key)
 
 
+def lead_min_hn_points(config: Dict) -> int:
+    value = (config.get("story") or {}).get("lead_min_hn_points", 0)
+    if isinstance(value, bool) or not isinstance(value, int) or value < 0:
+        raise ValueError(f"config.yaml: story.lead_min_hn_points must be a whole number >= 0, got {value!r}")
+    return value
+
+
 def score_clusters(clusters: List[List[Dict]], config: Dict, history: Sequence[Dict],
                    now: datetime) -> List[Scored]:
     """Score every cluster with the formula in the module docstring, best first."""
@@ -434,6 +464,7 @@ def score_clusters(clusters: List[List[Dict]], config: Dict, history: Sequence[D
     order = list(weights)
     tiers = (config.get("story") or {}).get("source_tiers") or {}
     recent = _recent(history, now.date())
+    min_points = lead_min_hn_points(config)
     scored = []
     for members in clusters:
         counts = Counter(m.get("section") for m in members)
@@ -457,8 +488,11 @@ def score_clusters(clusters: List[List[Dict]], config: Dict, history: Sequence[D
         novelty = _novelty(section, members, key_tokens(lead, ids), ids, recent)
         weight = weights.get(section, 1.0)
         score = base * fresh * weight * TIER_MULT[tier] * novelty
+        hn_only = all(m.get("hn_only", is_hn_item(m)) for m in members)
+        best_points = max(m.get("hn_points", hn_counts(m.get("summary"))[0]) for m in members)
+        eligible = not hn_only or best_points >= min_points
         scored.append(Scored(members, lead, section, cov, ids, keywords, relevance_pts, coverage_pts, hard_pts,
-                             hn, hn_pts, base, age, fresh, weight, tier, TIER_MULT[tier], novelty, score))
+                             hn, hn_pts, base, age, fresh, weight, tier, TIER_MULT[tier], novelty, score, eligible))
     scored.sort(key=lambda s: (-s.score, s.lead.get("title") or "", s.lead.get("link") or ""))
     return scored
 
@@ -614,7 +648,12 @@ def pick_story(feed: Dict[str, List[Dict]], config: Dict, history: Sequence[Dict
                          image=None, section=None, note=pinned.get("note"), pinned=True,
                          key_tokens=title_tokens(title), scored=scored)
     elif scored:
-        chosen, lead = scored[0], scored[0].lead
+        chosen = next((s for s in scored if s.eligible), None)
+        if not chosen:
+            logger.warning("No story cluster is eligible to lead (all HN-only below lead_min_hn_points); "
+                           "using the top-scored one")
+            chosen = scored[0]
+        lead = chosen.lead
     else:
         return None
     outlets = (config.get("story") or {}).get("news_outlets") or []

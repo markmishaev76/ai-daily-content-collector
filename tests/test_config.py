@@ -40,6 +40,10 @@ def test_news_outlets_listed():
     assert "about.gitlab.com" not in outlets
 
 
+def test_lead_min_hn_points():
+    assert load()["story"]["lead_min_hn_points"] == 50
+
+
 def test_no_source_listed_twice():
     urls = [s["url"] for t in load()["topics"] for s in t["sources"]]
 

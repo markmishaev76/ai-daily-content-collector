@@ -510,3 +510,73 @@ def test_falls_back_to_any_member_image_with_credit():
 
     assert picked.link == vendor["link"]
     assert picked.image == other["image"] and picked.image_credit == "Example Blog"
+
+
+HN_CONFIG = dict(CONFIG, story={"source_tiers": TIERS, "lead_min_hn_points": 50})
+HN_FEED = "https://hnrss.org/newest?q=MCP"
+
+
+def hn_item(title, points, comments=0, **kw):
+    return art(title, feed=HN_FEED, summary=f"Article URL: https://x.dev/a\nPoints: {points}\n# Comments: {comments}",
+               section="Eng", **kw)
+
+
+def test_low_point_hn_only_cluster_cannot_lead():
+    hn = hn_item("Show HN: MCP server for agent identity and prompt injection", 4)
+    essay = art("A quiet essay", section="Other")
+
+    picked = story.pick_story(feed_of(hn, essay), HN_CONFIG, [], None, NOW)
+
+    assert picked.scored[0].lead["title"] == hn["title"] and not picked.scored[0].eligible
+    assert picked.title == "A quiet essay"
+
+
+def test_hn_only_cluster_with_enough_points_can_lead():
+    hn = hn_item("Show HN: MCP server for agent identity and prompt injection", 60)
+
+    assert story.pick_story(feed_of(hn, art("A quiet essay", section="Other")), HN_CONFIG, [], None, NOW).title == hn["title"]
+
+
+def test_hn_threshold_counts_points_not_comments():
+    hn = hn_item("Show HN: MCP server for agent identity and prompt injection", 30, comments=40)
+
+    assert story.pick_story(feed_of(hn, art("A quiet essay", section="Other")), HN_CONFIG, [], None, NOW).title == "A quiet essay"
+
+
+def test_mixed_source_cluster_with_low_hn_points_stays_eligible():
+    hn = hn_item("Fooshell CVE-2026-4242 exploited", 4)
+    news = art("Patch CVE-2026-4242 now", link="https://thehackernews.com/1", section="Sec")
+
+    picked = story.pick_story(feed_of(hn, news, art("A quiet essay", section="Other")), HN_CONFIG, [], None, NOW)
+
+    assert "CVE-2026-4242" in picked.ids
+
+
+def test_same_link_via_hn_and_a_normal_feed_is_not_hn_only():
+    hn = hn_item("Show HN: MCP server for agent identity and prompt injection", 4, link="https://x.dev/tool")
+    direct = dict(hn, feed="https://x.dev/feed.xml", summary="A tool.", section="Other")
+
+    picked = story.pick_story(feed_of(hn, direct, art("A quiet essay", section="Other")), HN_CONFIG, [], None, NOW)
+
+    assert picked.link == "https://x.dev/tool"
+
+
+def test_hn_threshold_read_from_config():
+    hn = hn_item("Show HN: MCP server for agent identity and prompt injection", 4)
+    essay = art("A quiet essay", section="Other")
+    low = dict(CONFIG, story={"source_tiers": TIERS, "lead_min_hn_points": 3})
+
+    assert story.pick_story(feed_of(hn, essay), low, [], None, NOW).title == hn["title"]
+    assert story.pick_story(feed_of(hn, essay), CONFIG, [], None, NOW).title == hn["title"]
+
+
+def test_no_eligible_cluster_falls_back_to_top_score():
+    hn = hn_item("Show HN: MCP server for agent identity and prompt injection", 4)
+
+    assert story.pick_story(feed_of(hn), HN_CONFIG, [], None, NOW).title == hn["title"]
+
+
+def test_invalid_hn_threshold_raises():
+    import pytest
+    with pytest.raises(ValueError, match="lead_min_hn_points"):
+        story.lead_min_hn_points({"story": {"lead_min_hn_points": "fifty"}})
