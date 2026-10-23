@@ -37,13 +37,18 @@ No AI and no embeddings. Same input and `now` always give the same pick.
    Ties break on lead title, then link.
 """
 
+import json
+import logging
 import math
 import re
 from collections import Counter
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta
+from pathlib import Path
 from typing import Dict, FrozenSet, List, Optional, Sequence
 from urllib.parse import urlparse
+
+import yaml
 
 from main import _score_article
 
@@ -67,6 +72,11 @@ NOVELTY_DAYS = 3
 SECTION_REPEAT = 0.8
 STORY_REPEAT = 0.5
 STORY_REPEAT_JACCARD = 0.5
+
+HISTORY_CAP = 30
+PINNED_FIELDS = {"url", "title", "note", "until"}
+
+logger = logging.getLogger(__name__)
 
 STOPWORDS = frozenset("""
 a an the and or but nor of to in on for with by from at as is are was were be been being it its
@@ -371,3 +381,73 @@ def score_clusters(clusters: List[List[Dict]], config: Dict, history: Sequence[D
                              hn, hn_pts, base, age, fresh, weight, tier, TIER_MULT[tier], novelty, score))
     scored.sort(key=lambda s: (-s.score, s.lead.get("title") or "", s.lead.get("link") or ""))
     return scored
+
+
+def load_history(path: Path) -> List[Dict]:
+    """Past leads, oldest first. A missing file is empty; a malformed one raises ValueError."""
+    if not path.exists():
+        return []
+    try:
+        history = json.loads(path.read_text())
+    except json.JSONDecodeError as e:
+        raise ValueError(f"{path.name}: not valid JSON ({e})") from e
+    if not isinstance(history, list) or not all(isinstance(e, dict) for e in history):
+        raise ValueError(f"{path.name}: must be a JSON list of objects")
+    return history
+
+
+def record_lead(history: List[Dict], today: date, url: str, title: str, section: Optional[str],
+                key_tokens) -> List[Dict]:
+    """Replace today's entry with this lead and keep the newest HISTORY_CAP entries."""
+    entry = {"date": today.isoformat(), "url": url, "title": title, "section": section,
+             "key_tokens": sorted(key_tokens)}
+    kept = [e for e in history if e.get("date") != entry["date"]] + [entry]
+    kept.sort(key=lambda e: str(e.get("date", "")))
+    return kept[-HISTORY_CAP:]
+
+
+def save_history(path: Path, history: List[Dict]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(history, indent=2, ensure_ascii=False) + "\n")
+
+
+def _pinned_date(value, name: str) -> date:
+    if isinstance(value, datetime):
+        raise ValueError(f"{name}: until must be a date (YYYY-MM-DD), got {value!r}")
+    if isinstance(value, date):
+        return value
+    try:
+        return date.fromisoformat(str(value))
+    except ValueError:
+        raise ValueError(f"{name}: until must be a date (YYYY-MM-DD), got {value!r}") from None
+
+
+def load_pinned(path: Path, today: date) -> Optional[Dict]:
+    """Editor's pick from pinned.yaml, or None if absent, empty or expired. Invalid files raise ValueError."""
+    if not path.exists():
+        return None
+    name = path.name
+    try:
+        data = yaml.safe_load(path.read_text())
+    except yaml.YAMLError as e:
+        raise ValueError(f"{name}: not valid YAML ({e})") from e
+    if data is None:
+        return None
+    if not isinstance(data, dict):
+        raise ValueError(f"{name}: must be key: value pairs (url, title, note, until)")
+    unknown = set(data) - PINNED_FIELDS
+    if unknown:
+        raise ValueError(f"{name}: unknown field(s) {', '.join(sorted(map(str, unknown)))}")
+    url = data.get("url")
+    if not isinstance(url, str) or not _web_link(url):
+        raise ValueError(f"{name}: url must be an http(s) link, got {url!r}")
+    if "until" not in data:
+        raise ValueError(f"{name}: needs 'until' (last day to show the pick, YYYY-MM-DD)")
+    until = _pinned_date(data["until"], name)
+    for field in ("title", "note"):
+        if data.get(field) is not None and not isinstance(data[field], str):
+            raise ValueError(f"{name}: {field} must be text, got {data[field]!r}")
+    if until < today:
+        logger.info(f"{name}: pick expired on {until}; ignoring it")
+        return None
+    return {"url": url.strip(), "title": data.get("title"), "note": data.get("note"), "until": until}
