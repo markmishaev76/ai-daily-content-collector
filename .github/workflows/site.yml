@@ -42,14 +42,14 @@ jobs:
         if: github.ref == 'refs/heads/main'
         run: git pull --ff-only origin main
       - run: python build_site.py
-      - name: Commit Medium posts and lead history
+      - name: Commit Medium posts, lead history and og cache
         if: github.ref == 'refs/heads/main'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/medium-posts.json data/lead-history.json data/og-cache.json
           if ! git diff --cached --quiet; then
-            git commit -m "update medium posts and lead history"
+            git commit -m "update medium posts, lead history and og cache"
             git pull --rebase origin main
             git push origin HEAD:main
           fi

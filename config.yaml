@@ -98,6 +98,7 @@ topics:
         url: "https://www.paloaltonetworks.com/blog/feed"
       - type: "rss"
         url: "https://www.sentinelone.com/blog/feed/"
+        name: "SentinelOne"
 
   - name: "Leadership"
     category: "Leadership"
