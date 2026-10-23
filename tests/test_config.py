@@ -52,3 +52,7 @@ def test_no_source_listed_twice():
 
 def test_max_articles_per_topic_is_eight():
     assert load()["brief"]["max_articles_per_topic"] == 8
+
+
+def test_section_min_hn_points():
+    assert load()["story"]["section_min_hn_points"] == 10

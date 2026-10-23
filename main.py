@@ -10,6 +10,7 @@ from dotenv import load_dotenv
 
 from src.content_aggregator import ContentAggregator
 from src.email_sender import EmailSender
+from src.hn import hn_counts, is_hn_item, min_points
 
 logging.basicConfig(
     level=logging.INFO,
@@ -86,8 +87,9 @@ def rank_articles_by_theme(articles: list) -> list:
     return [article for _, article in indexed]
 
 
-def select_articles(articles_by_topic: dict, max_articles: int) -> dict:
-    """Rank each topic and keep its top N, skipping links already shown in an earlier topic.
+def select_articles(articles_by_topic: dict, max_articles: int, min_hn_points: int = 0) -> dict:
+    """Rank each topic and keep its top N, skipping links already shown in an earlier topic
+    and Hacker News items with fewer than min_hn_points points.
 
     Used by both the email and the site so they pick the same articles.
     """
@@ -100,6 +102,8 @@ def select_articles(articles_by_topic: dict, max_articles: int) -> dict:
                 break
             link = article.get('link')
             if link and link in shown:
+                continue
+            if is_hn_item(article) and hn_counts(article.get('summary'))[0] < min_hn_points:
                 continue
             picked.append(article)
         shown.update(a.get('link') for a in picked if a.get('link'))
@@ -127,7 +131,8 @@ def generate_brief():
         articles_by_topic = aggregator.aggregate_content(config['topics'])
         
         # Step 2: Rank by theme relevance and keep the top N per topic, without repeats
-        articles_by_topic = select_articles(articles_by_topic, config['brief']['max_articles_per_topic'])
+        articles_by_topic = select_articles(articles_by_topic, config['brief']['max_articles_per_topic'],
+                                            min_points(config, 'section_min_hn_points'))
         
         # Step 3: Create HTML email
         logger.info("Step 2: Creating email...")

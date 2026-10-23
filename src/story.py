@@ -70,6 +70,7 @@ from urllib.parse import urlparse
 import yaml
 
 from main import _score_article
+from src.hn import HN_BOILERPLATE, hn_counts, is_hn_item, min_points
 
 # Clustering
 SIMILARITY_THRESHOLD = 0.2   # idf-weighted Jaccard of title + first-sentence tokens
@@ -113,9 +114,6 @@ has have had using use used now first get got make made run build one two inside
 # In most of this feed's titles, so they say nothing about which story an article is.
 GENERIC_WORDS = frozenset({"ai", "agent", "agentic", "llm", "model"})
 
-HN_BOILERPLATE = re.compile(r"(Article URL:|Comments URL:|Points:\s*\d|#\s*Comments:)")
-HN_POINTS = re.compile(r"\bPoints:\s*(\d+)")
-HN_COMMENTS = re.compile(r"#\s*Comments:\s*(\d+)")
 
 CVE_RE = re.compile(r"\bCVE-\d{4}-\d{4,7}\b", re.I)
 RFC_RE = re.compile(r"\bRFC[\s-]?(\d{3,5})\b", re.I)
@@ -174,25 +172,9 @@ def article_ids(article: Dict) -> FrozenSet[str]:
     return extract_ids(f"{article.get('title') or ''} {first_sentence(article.get('summary'))}")
 
 
-def hn_counts(summary: Optional[str]) -> Tuple[int, int]:
-    """(points, comments) from an hnrss summary ('Points: N # Comments: M'), zeros if absent."""
-    text = summary or ""
-    counts = []
-    for pattern in (HN_POINTS, HN_COMMENTS):
-        match = pattern.search(text)
-        counts.append(int(match.group(1)) if match else 0)
-    return counts[0], counts[1]
-
-
 def hn_points(summary: Optional[str]) -> int:
     """Points plus comments from an hnrss summary, else 0."""
     return sum(hn_counts(summary))
-
-
-def is_hn_item(article: Dict) -> bool:
-    """Came from Hacker News: an hnrss feed or a news.ycombinator.com link."""
-    return (_matches(article.get("feed") or "", "hnrss.org")
-            or any(_matches(article.get(k) or "", "news.ycombinator.com") for k in ("link", "feed")))
 
 
 def is_hard_news(article: Dict) -> bool:
@@ -451,10 +433,7 @@ def _lead_member(members: List[Dict], tiers: Dict, now: datetime) -> Dict:
 
 
 def lead_min_hn_points(config: Dict) -> int:
-    value = (config.get("story") or {}).get("lead_min_hn_points", 0)
-    if isinstance(value, bool) or not isinstance(value, int) or value < 0:
-        raise ValueError(f"config.yaml: story.lead_min_hn_points must be a whole number >= 0, got {value!r}")
-    return value
+    return min_points(config, "lead_min_hn_points")
 
 
 def score_clusters(clusters: List[List[Dict]], config: Dict, history: Sequence[Dict],

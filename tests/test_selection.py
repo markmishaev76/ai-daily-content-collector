@@ -29,3 +29,18 @@ def test_later_section_fills_cut_after_skipping_repeats():
 
     assert len(picked["Second"]) == 8
     assert picked["Second"][0]["link"] == "https://example.com/10"
+
+
+def hn_art(n, points):
+    return dict(art(n), feed="https://hnrss.org/newest?q=MCP",
+                summary=f"Article URL: https://x.dev/{n}\nPoints: {points}\n# Comments: 99")
+
+
+def test_low_point_hn_items_skipped_in_sections():
+    picked = select_articles({"T": [hn_art(1, 9), hn_art(2, 10), art(3)]}, max_articles=8, min_hn_points=10)
+
+    assert [a["link"] for a in picked["T"]] == ["https://example.com/2", "https://example.com/3"]
+
+
+def test_hn_filter_off_by_default():
+    assert len(select_articles({"T": [hn_art(1, 0)]}, max_articles=8)["T"]) == 1

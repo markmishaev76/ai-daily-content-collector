@@ -11,6 +11,7 @@ from typing import Dict, List, Tuple
 from main import load_config, select_articles
 from src import medium, site_builder, story
 from src.content_aggregator import ContentAggregator
+from src.hn import min_points
 from src.posts import load_local_posts, render_markdown_file
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -23,7 +24,8 @@ TOP_CLUSTERS_LOGGED = 5
 def fetch_feed(config: dict, aggregator) -> Tuple[Dict[str, List[Dict]], Dict[str, List[Dict]]]:
     """All fetched articles, and the same selection as the email (main.select_articles)."""
     raw = aggregator.aggregate_content(config['topics'])
-    return raw, select_articles(raw, config['brief']['max_articles_per_topic'])
+    return raw, select_articles(raw, config['brief']['max_articles_per_topic'],
+                                min_points(config, 'section_min_hn_points'))
 
 
 def main(out_dir: Path = Path("public"), config: dict = None, aggregator=None,
@@ -38,6 +40,7 @@ def main(out_dir: Path = Path("public"), config: dict = None, aggregator=None,
         history = story.load_history(history_path)
         story.section_weights(config)
         story.lead_min_hn_points(config)
+        min_points(config, 'section_min_hn_points')
     except ValueError as e:
         logger.error(f"Not building: {e}")
         return 1

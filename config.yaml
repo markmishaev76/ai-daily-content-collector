@@ -344,6 +344,8 @@ story:
       - "reddit.com"
   # A story covered only by Hacker News items needs this many points on its best item to lead.
   lead_min_hn_points: 50
+  # Hacker News items need this many points to appear in the sections (site and email).
+  section_min_hn_points: 10
   # The lead uses a picture from one of these when its story cluster has one (vendor blog images are often screenshots).
   news_outlets:
     - "thehackernews.com"
