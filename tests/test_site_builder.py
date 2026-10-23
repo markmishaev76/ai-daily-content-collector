@@ -104,6 +104,17 @@ def test_lead_without_image_renders_placeholder(tmp_path):
     assert "<img" not in lead
 
 
+def test_image_credit_rendered_escaped_only_when_set(tmp_path):
+    credited = lead_story(image=IMG.format(1), image_credit="The <Hacker> News")
+    own = lead_story(image=IMG.format(1))
+
+    lead = block(build(tmp_path, {"Pics": [article("Other")]}, story=credited), "lead")
+    plain = block(build(tmp_path, {"Pics": [article("Other")]}, story=own), "lead")
+
+    assert '<span class="image-credit">Image: The &lt;Hacker&gt; News</span>' in lead
+    assert "image-credit" not in plain
+
+
 def test_why_labels_rendered(tmp_path):
     s = lead_story(coverage=6, ids=["CVE-2026-109618"], age_hours=2.4)
 

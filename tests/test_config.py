@@ -33,6 +33,13 @@ def test_story_tiers_listed():
     assert "news.ycombinator.com" in tiers["aggregator"]
 
 
+def test_news_outlets_listed():
+    outlets = load()["story"]["news_outlets"]
+
+    assert {"thehackernews.com", "securityweek.com", "theregister.com", "bleepingcomputer.com"} <= set(outlets)
+    assert "about.gitlab.com" not in outlets
+
+
 def test_no_source_listed_twice():
     urls = [s["url"] for t in load()["topics"] for s in t["sources"]]
 

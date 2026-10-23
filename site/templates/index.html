@@ -13,7 +13,11 @@
   {% if lead %}
   <article class="lead">
     {% if lead.image %}
-    {{ thumb(lead, lead.color, "lead-image") }}
+    <div class="lead-image" style="--c: {{ lead.color }}">
+      <span class="thumb-label">{{ lead.source }}</span>
+      <img src="{{ lead.image }}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">
+      {% if lead.image_credit %}<span class="image-credit">Image: {{ lead.image_credit }}</span>{% endif %}
+    </div>
     {% else %}
     <div class="lead-image placeholder" style="--c: {{ lead.color }}">
       <span class="placeholder-label">{{ lead.section or "Editor's pick" }}</span>

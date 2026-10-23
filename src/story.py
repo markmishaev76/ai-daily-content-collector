@@ -47,6 +47,9 @@ No AI and no embeddings. Same input and `now` always give the same pick.
    Ties break on lead title, then link.
 4. Lead shown: the winning cluster's member with an https image, then the
    best tier, then the highest keyword score, then the freshest, then link.
+   Its picture comes from the cluster's best-scoring news outlet member
+   (config.yaml story.news_outlets) when one has an https image, else the
+   lead's own, else any member's; a borrowed picture is credited.
    An unexpired pinned.yaml overrides the pick.
 """
 
@@ -544,6 +547,7 @@ class Story:
     age_hours: Optional[float] = None
     also: List[Tuple[str, str]] = field(default_factory=list)
     note: Optional[str] = None
+    image_credit: Optional[str] = None
     pinned: bool = False
     key_tokens: FrozenSet[str] = frozenset()
     scored: List[Scored] = field(default_factory=list)
@@ -558,6 +562,35 @@ def _also(members: List[Dict], lead: Dict) -> List[Tuple[str, str]]:
             seen.add(host)
             also.append((host, m["link"]))
     return also[:ALSO_CAP]
+
+
+def _https_image(article: Dict) -> Optional[str]:
+    image = (article.get("image") or "").strip()
+    try:
+        return image if urlparse(image).scheme.lower() == "https" else None
+    except ValueError:
+        return None
+
+
+def _lead_image(members: List[Dict], lead: Dict, outlets: Sequence[str],
+                now: datetime) -> Tuple[Optional[str], Optional[str]]:
+    """Image and its credit: a news outlet's picture first, then the lead's own, then any member's.
+
+    The credit is the image's source name, or None when the image is the lead's own.
+    """
+    def best(pool: List[Dict]) -> Optional[Dict]:
+        def key(m: Dict):
+            age = _age_hours(m, now)
+            return (-_keywords(m), UNDATED_AGE_HOURS if age is None else age, m.get("link") or "")
+        pool = [m for m in pool if _https_image(m)]
+        return min(pool, key=key) if pool else None
+
+    news = best([m for m in members if any(_matches(m.get("link") or "", o) for o in outlets)])
+    source = news or (lead if _https_image(lead) else best(members))
+    if not source:
+        return None, None
+    credit = None if source is lead else (source.get("source") or domain(source.get("link")))
+    return _https_image(source), credit
 
 
 def _same_url(a: str, b: str) -> bool:
@@ -584,9 +617,11 @@ def pick_story(feed: Dict[str, List[Dict]], config: Dict, history: Sequence[Dict
         chosen, lead = scored[0], scored[0].lead
     else:
         return None
+    outlets = (config.get("story") or {}).get("news_outlets") or []
+    image, credit = _lead_image(chosen.members, lead, outlets, now)
     return Story(title=(pinned or {}).get("title") or lead.get("title") or "Untitled", link=lead["link"],
                  summary=lead.get("summary") or "", source=lead.get("source") or "",
-                 published=lead.get("published"), image=lead.get("image"), section=chosen.section,
+                 published=lead.get("published"), image=image, image_credit=credit, section=chosen.section,
                  coverage=chosen.coverage, ids=sorted(chosen.ids), age_hours=chosen.age_hours,
                  also=_also(chosen.members, lead), note=(pinned or {}).get("note"), pinned=bool(pinned),
                  key_tokens=key_tokens(lead, chosen.ids), scored=scored)

@@ -126,6 +126,16 @@ a:hover { color: var(--accent); }
   line-height: 1.15;
   opacity: .95;
 }
+.image-credit {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  padding: 2px 8px;
+  border-radius: 8px;
+  font-size: 11px;
+  color: #fff;
+  background: rgba(0, 0, 0, .55);
+}
 .why { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 4px; padding: 0; list-style: none; }
 .why li {
   padding: 2px 9px;

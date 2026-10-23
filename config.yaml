@@ -342,6 +342,23 @@ story:
       - "news.ycombinator.com"
       - "hnrss.org"
       - "reddit.com"
+  # The lead uses a picture from one of these when its story cluster has one (vendor blog images are often screenshots).
+  news_outlets:
+    - "thehackernews.com"
+    - "securityweek.com"
+    - "theregister.com"
+    - "bleepingcomputer.com"
+    - "darkreading.com"
+    - "therecord.media"
+    - "krebsonsecurity.com"
+    - "arstechnica.com"
+    - "techcrunch.com"
+    - "theverge.com"
+    - "wired.com"
+    - "zdnet.com"
+    - "infoq.com"
+    - "technologyreview.com"
+    - "spectrum.ieee.org"
 
 brief:
   max_articles_per_topic: 8

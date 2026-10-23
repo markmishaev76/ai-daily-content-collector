@@ -101,6 +101,7 @@ def _lead(story, feed: Dict[str, List[Dict]]) -> Dict:
         "source": story.source,
         "date": story.published.strftime("%b %d") if story.published else None,
         "image": safe_image(story.image),
+        "image_credit": story.image_credit if safe_image(story.image) else None,
         "section": story.section,
         "color": color,
         "pinned": story.pinned,

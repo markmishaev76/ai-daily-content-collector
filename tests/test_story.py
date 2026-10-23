@@ -440,3 +440,73 @@ def test_story_tokens_drop_ids_and_years():
     tokens = story.story_tokens(art("Firefox flaw CVE-2026-1111 in RFC 9700 and draft-ietf-x-y-01, 2026 edition 1.35"))
 
     assert tokens == {"firefox", "flaw", "edition", "1.35"}
+
+
+NEWS_CONFIG = dict(CONFIG, story={"source_tiers": TIERS, "news_outlets": ["thehackernews.com", "securityweek.com"]})
+
+
+def php_cluster(thn_image="https://img.thn.com/a.jpg", vendor_image="https://img.gitlab.com/term.png"):
+    vendor = art("Fooshell CVE-2026-4242: GitLab remediation guide", link="https://about.gitlab.com/blog/x",
+                 source="GitLab", image=vendor_image, section="Eng")
+    thn = art("Fooshell CVE-2026-4242 exploited in the wild", link="https://thehackernews.com/1",
+              source="The Hacker News", image=thn_image, section="Sec")
+    sw = art("Patch CVE-2026-4242 now", link="https://www.securityweek.com/2", source="SecurityWeek",
+             image="https://img.sw.com/b.jpg", section="Sec")
+    return feed_of(vendor, thn, sw), vendor, thn
+
+
+def test_news_outlet_image_beats_vendor_image_and_keeps_headline():
+    feed, vendor, thn = php_cluster()
+    feed["Eng"][0]["link"] = "https://datatracker.ietf.org/vendor"
+
+    picked = story.pick_story(feed, NEWS_CONFIG, [], None, NOW)
+
+    assert picked.link == "https://datatracker.ietf.org/vendor" and picked.title == vendor["title"]
+    assert picked.source == "GitLab" and picked.summary == vendor["summary"]
+    assert picked.image == thn["image"] and picked.image_credit == "The Hacker News"
+
+
+def test_highest_scoring_news_outlet_image_wins():
+    feed, _, _ = php_cluster()
+    feed["Eng"][0]["link"] = "https://datatracker.ietf.org/vendor"
+    feed["Sec"][1]["title"] = "Patch CVE-2026-4242 now: MCP server supply chain attack"
+
+    picked = story.pick_story(feed, NEWS_CONFIG, [], None, NOW)
+
+    assert picked.link == "https://datatracker.ietf.org/vendor" and picked.image_credit == "SecurityWeek"
+
+
+def test_no_credit_when_image_is_the_headline_sources():
+    feed, vendor, _ = php_cluster()
+
+    picked = story.pick_story(feed, CONFIG, [], None, NOW)
+
+    assert picked.image == picked_image(feed, picked.link) and picked.image_credit is None
+
+
+def picked_image(feed, link):
+    return next(a["image"] for arts in feed.values() for a in arts if a["link"] == link)
+
+
+def test_falls_back_to_own_image_when_outlets_have_no_https_image():
+    feed, vendor, _ = php_cluster(thn_image="http://img.thn.com/a.jpg")
+    feed["Sec"][1]["image"] = None
+    feed["Eng"][0]["link"] = "https://datatracker.ietf.org/vendor"
+
+    picked = story.pick_story(feed, NEWS_CONFIG, [], None, NOW)
+
+    assert picked.image == vendor["image"] and picked.image_credit is None
+
+
+def test_falls_back_to_any_member_image_with_credit():
+    feed, vendor, _ = php_cluster(thn_image=None, vendor_image=None)
+    feed["Sec"][1]["image"] = None
+    other = art("Fooshell CVE-2026-4242 deep dive", link="https://blog.example.org/3", source="Example Blog",
+                image="https://img.example.org/c.jpg", section="Sec")
+    feed["Sec"].append({k: v for k, v in other.items() if k != "section"})
+    pin = {"url": "https://about.gitlab.com/blog/x", "title": None, "note": None, "until": NOW.date()}
+
+    picked = story.pick_story(feed, NEWS_CONFIG, [], pin, NOW)
+
+    assert picked.link == vendor["link"]
+    assert picked.image == other["image"] and picked.image_credit == "Example Blog"
