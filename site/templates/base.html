@@ -4,6 +4,20 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% block title %}Mark Mishaev{% endblock %}</title>
+  {% set share_title %}{% block share_title %}The Daily Brief{% endblock %}{% endset %}
+  {% set share_description %}{% block share_description %}A daily digest for people working on security and AI engineering: agent identity, AI security, AppSec, supply chain, platform and research. Refreshed every morning.{% endblock %}{% endset %}
+  <meta name="description" content="{{ share_description }}">
+  <link rel="canonical" href="{{ page_url }}">
+  <meta property="og:site_name" content="The Daily Brief">
+  <meta property="og:type" content="{% block share_type %}website{% endblock %}">
+  <meta property="og:title" content="{{ share_title }}">
+  <meta property="og:description" content="{{ share_description }}">
+  <meta property="og:url" content="{{ page_url }}">
+  <meta property="og:image" content="{{ site_url }}static/share.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="627">
+  <meta property="og:image:alt" content="The Daily Brief: security and AI engineering, every morning">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="{{ root }}static/style.css">
   <link rel="alternate" type="application/rss+xml" title="Mark Mishaev: writing" href="{{ root }}feed.xml">
 </head>

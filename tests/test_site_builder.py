@@ -195,3 +195,31 @@ def test_feed_xml_lists_both_sources(tmp_path):
 def test_excerpt_cuts_to_limit():
     assert len(site_builder.excerpt("word " * 200)) <= 300
     assert site_builder.excerpt("short") == "short"
+
+
+def meta(html, prop):
+    match = re.search(rf'<meta (?:property|name)="{re.escape(prop)}" content="([^"]*)"', html)
+    return match.group(1) if match else None
+
+
+def test_home_page_has_fixed_share_preview(tmp_path):
+    html = build(tmp_path, {"Topic": [article(title="Todays lead story", image=IMG.format(1))]})
+
+    assert meta(html, "og:title") == "The Daily Brief"
+    assert meta(html, "og:url") == "https://thedailybrief.dev/"
+    assert meta(html, "og:image") == "https://thedailybrief.dev/static/share.png"
+    assert meta(html, "twitter:card") == "summary_large_image"
+    assert "security and AI engineering" in meta(html, "og:description")
+    assert "Todays lead story" not in meta(html, "og:title")
+    assert (tmp_path / "static" / "share.png").exists()
+
+
+def test_post_page_share_preview_uses_post(tmp_path):
+    build(tmp_path, posts=[local_post(slug="x")])
+
+    page = (tmp_path / "blog" / "x" / "index.html").read_text()
+
+    assert meta(page, "og:title") == "Hello"
+    assert meta(page, "og:description") == "Hi"
+    assert meta(page, "og:url") == "https://thedailybrief.dev/blog/x/"
+    assert meta(page, "og:type") == "article"

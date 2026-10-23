@@ -119,7 +119,7 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
     env = Environment(loader=FileSystemLoader(SITE_DIR / "templates"), autoescape=True,
                       trim_blocks=True, lstrip_blocks=True)
     env.globals.update(post_href=_post_href, today=now.strftime("%A, %B %d, %Y"),
-                       updated=now.strftime("%H:%M UTC"))
+                       updated=now.strftime("%H:%M UTC"), site_url=SITE_URL)
 
     all_posts = _sorted_posts(posts)
     common = {"writing": all_posts[:WRITING_LIMIT]}
@@ -127,7 +127,8 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
     def write(rel: str, template: str, **ctx) -> None:
         path = out_dir / rel
         path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(env.get_template(template).render(**common, **ctx))
+        page_url = SITE_URL + rel.removesuffix("index.html")
+        path.write_text(env.get_template(template).render(**common, page_url=page_url, **ctx))
 
     write("index.html", "index.html", root="", page="feed", **_magazine(feed))
     write("blog/index.html", "blog.html", root="../", page="blog", posts=all_posts)
