@@ -148,7 +148,7 @@ def test_candidates_dedupe_keeps_first_section_and_max_hn():
     cands = story.candidates(feed)
 
     assert [(c["title"], c["section"], c["hn"]) for c in cands] == [("Same", "First", 60)]
-    assert "section" not in first
+    assert first["section"] == "S" and "hn" not in first
 
 
 def test_cluster_order_deterministic():
