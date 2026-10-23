@@ -3,8 +3,119 @@ user_name: "Mark"
 
 # Topics: 8 sections, each pooling the feeds of the narrower topics it replaced
 topics:
+  - name: "AI-Assisted Engineering"
+    category: "AI/ML"
+    weight: 1.5
+    sources:
+      # AI-Assisted Development & Engineering
+      - type: "rss"
+        url: "https://addyo.substack.com/feed"
+      - type: "rss"
+        url: "https://tidyfirst.substack.com/feed"
+      - type: "rss"
+        url: "https://humanwhocodes.com/feeds/blog.xml"
+      - type: "rss"
+        url: "https://matklad.github.io/feed.xml"
+      - type: "rss"
+        url: "https://newsletter.pragmaticengineer.com/feed"
+      - type: "rss"
+        url: "https://leaddev.com/rss.xml"
+      - type: "rss"
+        url: "https://snorkel.ai/feed/"
+      - type: "rss"
+        url: "https://huggingface.co/blog/feed.xml"
+      - type: "rss"
+        url: "https://sebastianraschka.com/rss_feed.xml"
+      - type: "rss"
+        url: "https://research.google/blog/rss/"
+      - type: "rss"
+        url: "https://bair.berkeley.edu/blog/feed.xml"
+      # AI Adoption & Agent-First Engineering
+      - type: "rss"
+        url: "https://metr.org/feed.xml"
+      - type: "rss"
+        url: "https://stackoverflow.blog/feed/"
+      - type: "rss"
+        url: "https://newsletter.getdx.com/feed"
+      - type: "rss"
+        url: "https://hnrss.org/newest?q=%22AI+coding%22+study"
+      # Developer Productivity & Engineering Effectiveness
+      - type: "rss"
+        url: "https://martinfowler.com/feed.atom"
+      # AI Technologies & Research
+      - type: "rss"
+        url: "https://blog.google/technology/ai/rss/"
+
+  - name: "AI Agents & Agent Security"
+    category: "AI Security"
+    weight: 1.25
+    sources:
+      # AI Agents, MCP & Agentic Platforms
+      - type: "rss"
+        url: "https://hnrss.org/newest?q=MCP"
+      - type: "rss"
+        url: "https://hnrss.org/newest?q=AI+agent"
+      - type: "rss"
+        url: "https://hnrss.org/newest?q=Claude+agent"
+      - type: "rss"
+        url: "https://hnrss.org/newest?q=Devin+OR+Factory.ai+OR+Replit+agent"
+      - type: "rss"
+        url: "https://www.latent.space/feed"
+      - type: "rss"
+        url: "https://openai.com/news/rss.xml"
+      # MCP & Agent Tool Security
+      - type: "rss"
+        url: "https://genai.owasp.org/feed/"
+      - type: "rss"
+        url: "https://simonwillison.net/tags/model-context-protocol.atom"
+      - type: "rss"
+        url: "https://hnrss.org/newest?q=%22MCP+security%22"
+      - type: "rss"
+        url: "https://hnrss.org/newest?q=%22MCP+server%22+vulnerability"
+      # AI Security & Red Teaming
+      - type: "rss"
+        url: "https://blog.trailofbits.com/feed"
+      - type: "rss"
+        url: "https://lilianweng.github.io/index.xml"
+      - type: "rss"
+        url: "https://www.schneier.com/feed/"
+      # Agent Experience (AX) & Agentic Design
+      - type: "rss"
+        url: "https://www.daytona.io/rss.xml"
+      - type: "rss"
+        url: "https://hnrss.org/newest?q=agent+experience"
+      - type: "rss"
+        url: "https://hnrss.org/newest?q=agentic+design"
+      - type: "rss"
+        url: "https://simonwillison.net/atom/everything/"
+      # AI in Security & Automation
+      - type: "rss"
+        url: "https://www.paloaltonetworks.com/blog/feed"
+      - type: "rss"
+        url: "https://www.sentinelone.com/blog/feed/"
+
+  - name: "Leadership"
+    category: "Leadership"
+    weight: 1.25
+    sources:
+      # Engineering Management & Leadership
+      - type: "rss"
+        url: "https://blog.pragmaticengineer.com/rss/"
+      - type: "rss"
+        url: "https://charity.wtf/feed/"
+      - type: "rss"
+        url: "https://randsinrepose.com/feed/"
+      - type: "rss"
+        url: "https://stratechery.com/feed/"
+      # Professional Leadership & Strategy
+      - type: "rss"
+        url: "https://sloanreview.mit.edu/feed/"
+      - type: "rss"
+        url: "https://www.mckinsey.com/insights/rss"
+
   - name: "Agent Identity & Authorization"
     category: "Identity"
+    weight: 1.0
     sources:
       # Agent Identity & Delegated Authorization
       - type: "rss"
@@ -75,97 +186,28 @@ topics:
       - type: "rss"
         url: "https://auth0.com/blog/rss.xml"
 
-  - name: "AI Agents & Agent Security"
-    category: "AI Security"
+  - name: "Supply Chain & Builds"
+    category: "Supply Chain"
+    weight: 1.0
     sources:
-      # AI Agents, MCP & Agentic Platforms
+      # Supply Chain Security & SLSA
       - type: "rss"
-        url: "https://hnrss.org/newest?q=MCP"
+        url: "https://openssf.org/feed/"
       - type: "rss"
-        url: "https://hnrss.org/newest?q=AI+agent"
+        url: "https://slsa.dev/feed.xml"
       - type: "rss"
-        url: "https://hnrss.org/newest?q=Claude+agent"
+        url: "https://www.chainguard.dev/unchained/rss.xml"
+      # Reproducible & Hermetic Builds
       - type: "rss"
-        url: "https://hnrss.org/newest?q=Devin+OR+Factory.ai+OR+Replit+agent"
+        url: "https://reproducible-builds.org/blog/index.rss"
       - type: "rss"
-        url: "https://www.latent.space/feed"
+        url: "https://nixos.org/blog/announcements-rss.xml"
       - type: "rss"
-        url: "https://openai.com/news/rss.xml"
-      # MCP & Agent Tool Security
-      - type: "rss"
-        url: "https://genai.owasp.org/feed/"
-      - type: "rss"
-        url: "https://simonwillison.net/tags/model-context-protocol.atom"
-      - type: "rss"
-        url: "https://hnrss.org/newest?q=%22MCP+security%22"
-      - type: "rss"
-        url: "https://hnrss.org/newest?q=%22MCP+server%22+vulnerability"
-      # AI Security & Red Teaming
-      - type: "rss"
-        url: "https://blog.trailofbits.com/feed"
-      - type: "rss"
-        url: "https://lilianweng.github.io/index.xml"
-      - type: "rss"
-        url: "https://www.schneier.com/feed/"
-      # Agent Experience (AX) & Agentic Design
-      - type: "rss"
-        url: "https://www.daytona.io/rss.xml"
-      - type: "rss"
-        url: "https://hnrss.org/newest?q=agent+experience"
-      - type: "rss"
-        url: "https://hnrss.org/newest?q=agentic+design"
-      - type: "rss"
-        url: "https://simonwillison.net/atom/everything/"
-      # AI in Security & Automation
-      - type: "rss"
-        url: "https://www.paloaltonetworks.com/blog/feed"
-      - type: "rss"
-        url: "https://www.sentinelone.com/blog/feed/"
-
-  - name: "AI-Assisted Engineering"
-    category: "AI/ML"
-    sources:
-      # AI-Assisted Development & Engineering
-      - type: "rss"
-        url: "https://addyo.substack.com/feed"
-      - type: "rss"
-        url: "https://tidyfirst.substack.com/feed"
-      - type: "rss"
-        url: "https://humanwhocodes.com/feeds/blog.xml"
-      - type: "rss"
-        url: "https://matklad.github.io/feed.xml"
-      - type: "rss"
-        url: "https://newsletter.pragmaticengineer.com/feed"
-      - type: "rss"
-        url: "https://leaddev.com/rss.xml"
-      - type: "rss"
-        url: "https://snorkel.ai/feed/"
-      - type: "rss"
-        url: "https://huggingface.co/blog/feed.xml"
-      - type: "rss"
-        url: "https://sebastianraschka.com/rss_feed.xml"
-      - type: "rss"
-        url: "https://research.google/blog/rss/"
-      - type: "rss"
-        url: "https://bair.berkeley.edu/blog/feed.xml"
-      # AI Adoption & Agent-First Engineering
-      - type: "rss"
-        url: "https://metr.org/feed.xml"
-      - type: "rss"
-        url: "https://stackoverflow.blog/feed/"
-      - type: "rss"
-        url: "https://newsletter.getdx.com/feed"
-      - type: "rss"
-        url: "https://hnrss.org/newest?q=%22AI+coding%22+study"
-      # Developer Productivity & Engineering Effectiveness
-      - type: "rss"
-        url: "https://martinfowler.com/feed.atom"
-      # AI Technologies & Research
-      - type: "rss"
-        url: "https://blog.google/technology/ai/rss/"
+        url: "https://hnrss.org/newest?q=%22reproducible+builds%22"
 
   - name: "Security & AppSec"
     category: "Security"
+    weight: 0.75
     sources:
       # Cybersecurity News
       - type: "rss"
@@ -191,26 +233,9 @@ topics:
       - type: "rss"
         url: "https://www.hashicorp.com/blog/feed.xml"
 
-  - name: "Supply Chain & Builds"
-    category: "Supply Chain"
-    sources:
-      # Supply Chain Security & SLSA
-      - type: "rss"
-        url: "https://openssf.org/feed/"
-      - type: "rss"
-        url: "https://slsa.dev/feed.xml"
-      - type: "rss"
-        url: "https://www.chainguard.dev/unchained/rss.xml"
-      # Reproducible & Hermetic Builds
-      - type: "rss"
-        url: "https://reproducible-builds.org/blog/index.rss"
-      - type: "rss"
-        url: "https://nixos.org/blog/announcements-rss.xml"
-      - type: "rss"
-        url: "https://hnrss.org/newest?q=%22reproducible+builds%22"
-
   - name: "Platform, Cloud & Reliability"
     category: "Platform"
+    weight: 0.75
     sources:
       # Cloud Architecture & Infrastructure
       - type: "rss"
@@ -270,26 +295,9 @@ topics:
       - type: "rss"
         url: "https://engineering.atspotify.com/feed/"
 
-  - name: "Leadership"
-    category: "Leadership"
-    sources:
-      # Engineering Management & Leadership
-      - type: "rss"
-        url: "https://blog.pragmaticengineer.com/rss/"
-      - type: "rss"
-        url: "https://charity.wtf/feed/"
-      - type: "rss"
-        url: "https://randsinrepose.com/feed/"
-      - type: "rss"
-        url: "https://stratechery.com/feed/"
-      # Professional Leadership & Strategy
-      - type: "rss"
-        url: "https://sloanreview.mit.edu/feed/"
-      - type: "rss"
-        url: "https://www.mckinsey.com/insights/rss"
-
   - name: "News & Research"
     category: "News"
+    weight: 0.75
     sources:
       # Tech News & Trends
       - type: "rss"
@@ -305,6 +313,35 @@ topics:
       - type: "rss"
         url: "https://www.technologyreview.com/feed/"
       # Research & Academic Papers
+
+# Story of the day (src/story.py). Section weights are the `weight:` on each topic above.
+# Entries are a host (subdomains match too) or host/path-prefix.
+story:
+  source_tiers:
+    primary:
+      - "datatracker.ietf.org"
+      - "ietf.org"
+      - "rfc-editor.org"
+      - "nist.gov"
+      - "cisa.gov"
+      - "github.blog"
+      - "about.gitlab.com"
+      - "blog.cloudflare.com"
+      - "openai.com"
+      - "anthropic.com"
+      - "aws.amazon.com/blogs/security"
+      - "auth0.com"
+      - "okta.com"
+      - "openid.net"
+      - "openssf.org"
+      - "slsa.dev"
+      - "sigstore.dev"
+      - "kubernetes.io"
+      - "blog.modelcontextprotocol.io"
+    aggregator:
+      - "news.ycombinator.com"
+      - "hnrss.org"
+      - "reddit.com"
 
 brief:
   max_articles_per_topic: 8

@@ -175,6 +175,7 @@ class ContentAggregator:
                     'summary': entry.get('summary', entry.get('description', '')),
                     'published': published_date,
                     'source': feed.feed.get('title', url),
+                    'feed': url,
                     'image': extract_image(entry),
                 }
                 
