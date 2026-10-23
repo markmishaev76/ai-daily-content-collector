@@ -6,14 +6,18 @@ No AI and no embeddings. Same input and `now` always give the same pick.
 1. Candidates: every fetched article across all sections, deduped by link
    (first section in config order wins).
 2. Clusters: two articles are the same story when the idf-weighted Jaccard
-   similarity of their title tokens is at least SIMILARITY_THRESHOLD, or
+   similarity of their title + first-sentence tokens is at least
+   SIMILARITY_THRESHOLD with at least MIN_SHARED_TOKENS in common, or
    when they share a CVE id, RFC number or IETF draft name. Clusters are the
-   connected groups (union-find). Coverage is the number of distinct link
-   domains in a cluster.
+   connected groups (union-find). Then each cluster covering at least
+   SIGNATURE_MIN_DOMAINS domains pulls in every article whose title has one
+   of its signature words (a coined name like "PHP2Shell": see _signature).
+   Coverage is the number of distinct link domains in a cluster.
 3. Score per cluster:
 
        base = 1
-            + RELEVANCE_PTS * log2(1 + keyword score of the best member)
+            + RELEVANCE_PTS * log2(1 + best member's main._score_article,
+                                   ignoring Hacker News boilerplate)
             + COVERAGE_PTS  * min(coverage - 1, COVERAGE_CAP)
             + HARD_NEWS_PTS if any member has a CVE/RFC/draft id, a version
                             release or breach wording
@@ -21,12 +25,16 @@ No AI and no embeddings. Same input and `now` always give the same pick.
 
        score = base * freshness * section_weight * tier_mult * novelty
 
-       freshness      = ((age_hours + 2) / 2) ** -GRAVITY, where age_hours is
-                        the age of the newest dated member; clusters with no
+       freshness      = ((age_hours + AGE_OFFSET_HOURS) / AGE_OFFSET_HOURS)
+                        ** -GRAVITY (Hacker News gravity with a 12h offset, as
+                        the site is built once a day: 1/2 at 12h, 1/3 at 24h),
+                        where age_hours is the age of the newest dated
+                        member; clusters with no
                         dated member are treated as UNDATED_AGE_HOURS old
                         (middle of the 48h fetch window: neutral to low)
        section_weight = `weight:` of the cluster's section in config.yaml; the
-                        section is the member section with the highest weight
+                        section is the most common member section (ties: the
+                        higher weight, then earlier in config)
        tier_mult      = TIER_MULT of the best member tier (config.yaml
                         story.source_tiers)
        novelty        = SECTION_REPEAT if the section led on one of the
@@ -56,18 +64,22 @@ import yaml
 from main import _score_article
 
 # Clustering
-SIMILARITY_THRESHOLD = 0.4   # idf-weighted Jaccard of title tokens
-MIN_SHARED_TOKENS = 2        # and at least this many shared title tokens
+SIMILARITY_THRESHOLD = 0.2   # idf-weighted Jaccard of title + first-sentence tokens
+MIN_SHARED_TOKENS = 3        # and at least this many shared tokens
+SIGNATURE_MIN_DOMAINS = 3    # clusters this wide pull in titles that use their signature word
+SIGNATURE_SHARE = 0.75       # signature: a title word in at least this share of member titles
+SIGNATURE_MAX_SPREAD = 4     # and in at most this many titles per member across the pool
 
 # Base points
-RELEVANCE_PTS = 3.0          # per log2(1 + keyword score)
+RELEVANCE_PTS = 2.0          # per log2(1 + keyword score)
 COVERAGE_PTS = 4.0           # per extra source domain
 COVERAGE_CAP = 5             # extra domains that count
 HARD_NEWS_PTS = 6.0
 HN_PTS = 3.0                 # per log10(1 + points + comments)
 
 # Multipliers
-GRAVITY = 0.6
+AGE_OFFSET_HOURS = 12         # freshness halves at this age
+GRAVITY = 1.0
 UNDATED_AGE_HOURS = 24
 TIER_MULT = {"primary": 1.25, "normal": 1.0, "aggregator": 0.85}
 TIER_RANK = {"aggregator": 0, "normal": 1, "primary": 2}
@@ -87,7 +99,10 @@ a an the and or but nor of to in on for with by from at as is are was were be be
 this that these those you your we our us i my me he she they them their his her how why what when
 where who whom which will would can could should may might must do does did not no yes vs via into
 over about after before up out new than more most just so if then there here all any some show ask hn
+has have had using use used now first get got make made run build one two inside introducing announcing
 """.split())
+# In most of this feed's titles, so they say nothing about which story an article is.
+GENERIC_WORDS = frozenset({"ai", "agent", "agentic", "llm", "model"})
 
 HN_BOILERPLATE = re.compile(r"(Article URL:|Comments URL:|Points:\s*\d|#\s*Comments:)")
 HN_POINTS = re.compile(r"\bPoints:\s*(\d+)")
@@ -112,7 +127,13 @@ def _stem(token: str) -> str:
 def title_tokens(title: str) -> FrozenSet[str]:
     """Lowercase word tokens without punctuation, stopwords, 1-char words or a plural s."""
     words = re.findall(r"[a-z0-9]+(?:\.[0-9]+)+|[a-z0-9]+", (title or "").lower())
-    return frozenset(_stem(w) for w in words if len(w) > 1 and w not in STOPWORDS)
+    stems = (_stem(w) for w in words if len(w) > 1 and w not in STOPWORDS)
+    return frozenset(w for w in stems if w not in STOPWORDS and w not in GENERIC_WORDS)
+
+
+def story_tokens(article: Dict) -> FrozenSet[str]:
+    """Tokens of the title and the summary's first sentence, used for clustering."""
+    return title_tokens(article.get("title")) | title_tokens(first_sentence(article.get("summary")))
 
 
 def extract_ids(text: str) -> FrozenSet[str]:
@@ -221,7 +242,7 @@ def _similar(a: FrozenSet[str], b: FrozenSet[str], idf: Dict[str, float]) -> boo
 def cluster(cands: List[Dict]) -> List[List[Dict]]:
     """Group candidates into same-story clusters, ordered by first member, members in input order."""
     n = len(cands)
-    tokens = [title_tokens(c.get("title")) for c in cands]
+    tokens = [story_tokens(c) for c in cands]
     df = Counter(t for toks in tokens for t in toks)
     idf = {t: math.log((n + 1) / (count + 1)) + 1 for t, count in df.items()}
 
@@ -251,10 +272,32 @@ def cluster(cands: List[Dict]) -> List[List[Dict]]:
             if _similar(tokens[i], tokens[j], idf):
                 union(i, j)
 
+    titles = [title_tokens(c.get("title")) for c in cands]
+    title_df = Counter(t for toks in titles for t in toks)
+    first_pass: Dict[int, List[int]] = {}
+    for i in range(n):
+        first_pass.setdefault(find(i), []).append(i)
+    for root in sorted(first_pass):
+        members = first_pass[root]
+        if coverage([cands[i] for i in members]) < SIGNATURE_MIN_DOMAINS:
+            continue
+        signature = _signature([titles[i] for i in members], title_df)
+        for j in range(n):
+            if titles[j] & signature:
+                union(root, j)
+
     groups: Dict[int, List[Dict]] = {}
     for i, c in enumerate(cands):
         groups.setdefault(find(i), []).append(c)
     return [groups[root] for root in sorted(groups)]
+
+
+def _signature(member_titles: List[FrozenSet[str]], title_df: Counter) -> FrozenSet[str]:
+    """Title words most members use and the rest of the pool mostly doesn't."""
+    counts = Counter(t for toks in member_titles for t in toks)
+    size = len(member_titles)
+    return frozenset(t for t, k in counts.items()
+                     if k >= SIGNATURE_SHARE * size and title_df[t] <= SIGNATURE_MAX_SPREAD * size)
 
 
 def coverage(members: List[Dict]) -> int:
@@ -263,7 +306,7 @@ def coverage(members: List[Dict]) -> int:
 
 
 def freshness(age_hours: float) -> float:
-    return ((max(age_hours, 0.0) + 2) / 2) ** -GRAVITY
+    return ((max(age_hours, 0.0) + AGE_OFFSET_HOURS) / AGE_OFFSET_HOURS) ** -GRAVITY
 
 
 def section_weights(config: Dict) -> Dict[str, float]:
@@ -342,11 +385,18 @@ def _novelty(section: str, members: List[Dict], keys: FrozenSet[str], ids: Froze
     return novelty
 
 
+def _keywords(article: Dict) -> float:
+    """main._score_article, without counting Hacker News boilerplate (URLs) as body text."""
+    if HN_BOILERPLATE.search(article.get("summary") or ""):
+        article = dict(article, summary="")
+    return _score_article(article)
+
+
 def _lead_member(members: List[Dict], tiers: Dict, now: datetime) -> Dict:
     def key(m: Dict):
         image = (m.get("image") or "").lower().startswith("https://")
         age = _age_hours(m, now)
-        return (not image, -TIER_RANK[source_tier(m, tiers)], -_score_article(m),
+        return (not image, -TIER_RANK[source_tier(m, tiers)], -_keywords(m),
                 UNDATED_AGE_HOURS if age is None else age, m.get("link") or "")
     return min(members, key=key)
 
@@ -360,11 +410,11 @@ def score_clusters(clusters: List[List[Dict]], config: Dict, history: Sequence[D
     recent = _recent(history, now.date())
     scored = []
     for members in clusters:
-        sections = sorted({m.get("section") for m in members},
-                          key=lambda s: (-weights.get(s, 1.0), order.index(s) if s in order else len(order), str(s)))
-        section = sections[0]
+        counts = Counter(m.get("section") for m in members)
+        section = min(counts, key=lambda s: (-counts[s], -weights.get(s, 1.0),
+                                             order.index(s) if s in order else len(order), str(s)))
         ids = frozenset().union(*(article_ids(m) for m in members))
-        keywords = max(_score_article(m) for m in members)
+        keywords = max(_keywords(m) for m in members)
         cov = coverage(members)
         hn = max(m.get("hn", 0) for m in members)
         relevance_pts = RELEVANCE_PTS * math.log2(1 + keywords)

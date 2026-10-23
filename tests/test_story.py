@@ -98,6 +98,51 @@ def test_paraphrased_headlines_cluster():
     assert cluster_of(clusters, a["title"]) == {a["title"], b["title"], c["title"]}
 
 
+def test_summary_sentence_links_paraphrases():
+    a = art("PHP2Shell exploit attempts hit millions", link="https://thehackernews.com/1",
+            summary="Attackers exploit the PHP2Shell RCE flaw in PHP to deploy Mirai malware. More.")
+    b = art("Mirai botnet operators join the attacks", link="https://securityweek.com/2",
+            summary="The PHP2Shell RCE flaw in PHP is now exploited by the Mirai botnet.")
+
+    assert cluster_of(story.cluster(pool(a, b)), a["title"]) == {a["title"], b["title"]}
+
+
+def test_feed_generic_words_ignored():
+    assert story.title_tokens("AI agent has new LLM model using MCP") == {"mcp"}
+
+
+def fooshell_core():
+    return [art(f"Fooshell {w} CVE-2026-5555", link=f"https://{d}/1") for w, d in
+            [("patched", "a.com"), ("mitigations", "b.com"), ("impact", "c.com")]]
+
+
+def test_signature_word_pulls_in_follow_ups():
+    follow = art("Fooshell puts services offline", link="https://d.com/2")
+    other = art("Services offline after storm", link="https://e.com/3")
+
+    clusters = story.cluster(pool(*fooshell_core(), follow, other))
+
+    assert follow["title"] in cluster_of(clusters, "Fooshell patched CVE-2026-5555")
+    assert cluster_of(clusters, other["title"]) == {other["title"]}
+
+
+def test_signature_needs_three_domains():
+    core = fooshell_core()[:2]
+    follow = art("Fooshell puts services offline", link="https://d.com/2")
+
+    assert cluster_of(story.cluster(pool(*core, follow)), follow["title"]) == {follow["title"]}
+
+
+def test_widespread_word_is_not_a_signature():
+    core = [art(f"Security {w} CVE-2026-5555", link=f"https://{d}/1") for w, d in
+            [("patched", "a.com"), ("mitigations", "b.com"), ("impact", "c.com")]]
+    common = [art(f"Security note {i}", link=f"https://n{i}.com/") for i in range(12)]
+
+    clusters = story.cluster(pool(*core, *common))
+
+    assert cluster_of(clusters, "Security note 0") == {"Security note 0"}
+
+
 def test_same_cve_always_clusters():
     a = art("Critical Fortinet bug lets attackers in", summary="CVE-2026-109618 affects FortiOS. More text.")
     b = art("Patch now: CVE-2026-109618")
@@ -178,10 +223,18 @@ def test_section_weight_changes_winner():
     assert winner([[a], [b]], swapped) == "Beta story"
 
 
-def test_cluster_section_is_highest_weight_member():
-    scored = story.score_clusters([[art("x", section="Sec"), art("y", section="Eng")]], CONFIG, [], NOW)[0]
+def test_cluster_section_is_most_common_then_highest_weight():
+    def section(*names):
+        return story.score_clusters([[art(f"x{i}", section=n) for i, n in enumerate(names)]], CONFIG, [], NOW)[0]
 
-    assert (scored.section, scored.section_weight) == ("Eng", 1.5)
+    assert (section("Sec", "Sec", "Eng").section, section("Sec", "Sec", "Eng").section_weight) == ("Sec", 0.75)
+    assert section("Sec", "Eng").section == "Eng"
+
+
+def test_hn_boilerplate_earns_no_keyword_points():
+    hn = art("Show HN: a tool", summary="Article URL: https://github.com/x/whatsapp-mcp\nPoints: 4\n# Comments: 0")
+
+    assert story.score_clusters([[hn]], CONFIG, [], NOW)[0].keywords == 0
 
 
 def test_freshness_changes_winner():
@@ -302,7 +355,7 @@ def test_pick_story_uses_best_cluster_with_also_covered():
     picked = story.pick_story(feed_of(a, b, c, other), CONFIG, [], None, NOW)
 
     assert picked.link == b["link"] and picked.image == b["image"]
-    assert picked.section == "Eng" and picked.coverage == 2
+    assert picked.section == "Sec" and picked.coverage == 2
     assert picked.ids == ["CVE-2026-109618"] and picked.age_hours == 0
     assert picked.also == [("bleepingcomputer.com", a["link"])]
     assert not picked.pinned and picked.scored[0].lead is not None
@@ -332,3 +385,9 @@ def test_pinned_outside_pool_uses_title_or_url():
     assert (picked.title, picked.link, picked.section, picked.image) == ("https://essay.com/y", pin["url"], None, None)
     assert picked.source == "essay.com" and picked.also == []
     assert story.pick_story({}, CONFIG, [], dict(pin, title="T"), NOW).title == "T"
+
+
+def test_freshness_halves_in_twelve_hours():
+    assert story.freshness(0) == 1.0
+    assert story.freshness(12) == 0.5
+    assert round(story.freshness(24), 3) == 0.333
