@@ -1,13 +1,13 @@
 import yaml
 
 GROUPS = [
-    "Agent Identity & Authorization",
-    "AI Agents & Agent Security",
     "AI-Assisted Engineering",
-    "Security & AppSec",
-    "Supply Chain & Builds",
-    "Platform, Cloud & Reliability",
+    "AI Agents & Agent Security",
     "Leadership",
+    "Agent Identity & Authorization",
+    "Supply Chain & Builds",
+    "Security & AppSec",
+    "Platform, Cloud & Reliability",
     "News & Research",
 ]
 
@@ -18,6 +18,19 @@ def load():
 
 def test_eight_groups_in_order():
     assert [t["name"] for t in load()["topics"]] == GROUPS
+
+
+def test_section_weights():
+    assert [t["weight"] for t in load()["topics"]] == [1.5, 1.25, 1.25, 1.0, 1.0, 0.75, 0.75, 0.75]
+
+
+def test_story_tiers_listed():
+    tiers = load()["story"]["source_tiers"]
+
+    assert "datatracker.ietf.org" in tiers["primary"]
+    assert "aws.amazon.com/blogs/security" in tiers["primary"]
+    assert "hnrss.org" in tiers["aggregator"]
+    assert "news.ycombinator.com" in tiers["aggregator"]
 
 
 def test_no_source_listed_twice():

@@ -42,6 +42,7 @@ def test_malformed_image_url_does_not_drop_feed(monkeypatch):
 
     assert [a["title"] for a in articles] == ["Bad image", "Normal"]
     assert articles[0]["image"] is None
+    assert articles[0]["feed"] == "https://feeds.example.com/rss"
 
 
 @pytest.mark.parametrize("item_xml", [

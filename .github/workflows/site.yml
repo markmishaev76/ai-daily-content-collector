@@ -8,6 +8,7 @@ on:
     paths:
       - 'posts/**'
       - 'about.md'
+      - 'pinned.yaml'
       - 'site/**'
       - 'config.yaml'
       - 'src/**'
@@ -37,15 +38,18 @@ jobs:
           cache-dependency-path: requirements-dev.txt
       - run: pip install -r requirements-dev.txt
       - run: python -m pytest -q
+      - name: Sync with main
+        if: github.ref == 'refs/heads/main'
+        run: git pull --ff-only origin main
       - run: python build_site.py
-      - name: Commit Medium posts
+      - name: Commit Medium posts and lead history
         if: github.ref == 'refs/heads/main'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/medium-posts.json
+          git add data/medium-posts.json data/lead-history.json
           if ! git diff --cached --quiet; then
-            git commit -m "update medium posts"
+            git commit -m "update medium posts and lead history"
             git pull --rebase origin main
             git push origin HEAD:main
           fi

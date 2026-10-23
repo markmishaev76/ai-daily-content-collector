@@ -12,12 +12,30 @@
 
   {% if lead %}
   <article class="lead">
+    {% if lead.image %}
     {{ thumb(lead, lead.color, "lead-image") }}
+    {% else %}
+    <div class="lead-image placeholder" style="--c: {{ lead.color }}">
+      <span class="placeholder-label">{{ lead.section or "Editor's pick" }}</span>
+      <span class="thumb-label">{{ lead.source }}</span>
+    </div>
+    {% endif %}
     <div class="lead-text">
-      <span class="chip" style="--c: {{ lead.color }}">{{ lead.section }}</span>
+      <span class="chip" style="--c: {{ lead.color }}">{% if lead.pinned %}Editor's pick{% else %}Story of the day{% endif %}</span>
       <h1>{{ title(lead) }}</h1>
       <div class="meta">{{ lead.source }}{% if lead.date %} · {{ lead.date }}{% endif %}</div>
+      {% if lead.labels %}
+      <ul class="why" style="--c: {{ lead.color }}">
+        {% for label in lead.labels %}
+        <li>{{ label }}</li>
+        {% endfor %}
+      </ul><!-- /why -->
+      {% endif %}
+      {% if lead.note %}<p class="note">{{ lead.note }}</p>{% endif %}
       {% if lead.excerpt %}<p>{{ lead.excerpt }}</p>{% endif %}
+      {% if lead.also %}
+      <p class="also">Also covered by {% for a in lead.also %}<a href="{{ a.link }}" rel="noopener noreferrer">{{ a.name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</p><!-- /also -->
+      {% endif %}
     </div>
   </article><!-- /lead -->
   {% endif %}
