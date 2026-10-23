@@ -109,6 +109,8 @@ def _item(a: Dict) -> Dict:
         "source": display_source(a),
         "date": a["published"].strftime("%b %d") if a.get("published") else None,
         "image": safe_image(a.get("image")),
+        "icon": safe_image(a.get("icon")),
+        "domain": _domain(a.get("link")),
         "hn": hn_line,
     }
 

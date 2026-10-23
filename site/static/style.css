@@ -83,7 +83,7 @@ a:hover { color: var(--accent); }
 .thumb { aspect-ratio: 16 / 9; }
 .thumb-sm { flex: none; width: 96px; height: 64px; border-radius: 8px; }
 .lead-image { aspect-ratio: 16 / 9; }
-.thumb img, .thumb-sm img, .lead-image img {
+.thumb > img, .thumb-sm > img, .lead-image > img {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -101,6 +101,31 @@ a:hover { color: var(--accent); }
   opacity: .9;
 }
 .thumb-sm .thumb-label { font-size: 10px; left: 6px; bottom: 4px; }
+/* No picture: the site's logo and domain, centered on the tile */
+.tile-mark {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 6px;
+  text-align: center;
+}
+.logo {
+  width: 52px;
+  height: 52px;
+  padding: 6px;
+  border-radius: 12px;
+  background: #fff;
+  object-fit: contain;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .18);
+}
+.tile-domain { color: #fff; font-weight: 700; font-size: 13px; opacity: .95; }
+.thumb-sm .tile-mark { gap: 3px; padding: 3px; }
+.thumb-sm .logo { width: 26px; height: 26px; padding: 3px; border-radius: 6px; }
+.thumb-sm .tile-domain { font-size: 9px; line-height: 1.1; }
 
 /* Lead story */
 .lead {

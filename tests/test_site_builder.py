@@ -10,10 +10,10 @@ NOW = datetime(2026, 10, 22, 6, 0, tzinfo=timezone.utc)
 IMG = "https://img.example.com/{}.jpg"
 
 
-def article(title="Title", link=None, published=NOW, summary="Summary", source="Src", image=None):
+def article(title="Title", link=None, published=NOW, summary="Summary", source="Src", image=None, **extra):
     link = link if link is not None else f"https://example.com/{re.sub(r'[^a-z0-9]', '', title.lower())}"
     return {"title": title, "link": link, "summary": summary, "published": published, "source": source,
-            "image": image}
+            "image": image, **extra}
 
 
 def medium_post(n, date):
@@ -214,11 +214,23 @@ def test_http_image_not_rendered(tmp_path):
     assert "javascript:" not in html
 
 
-def test_placeholder_shows_source(tmp_path):
-    html = build(tmp_path, {"Topic": [article("No pic", source="The Hacker News")]})
+def test_tile_without_image_shows_logo_and_domain(tmp_path):
+    html = build(tmp_path, {"Topic": [article("No pic", link="https://www.example.com/a", source="Feed: raw-tag",
+                                              icon="https://example.com/touch.png")]})
 
     card = block(html, "card")
-    assert '<span class="thumb-label">The Hacker News</span>' in card
+    tile = card[:card.index("</div>")]
+    assert '<img class="logo" src="https://example.com/touch.png"' in tile
+    assert '<span class="tile-domain">example.com</span>' in tile
+    assert "raw-tag" not in tile
+
+
+def test_tile_without_image_or_icon_shows_domain_only(tmp_path):
+    card = block(build(tmp_path, {"Topic": [article("No pic", link="https://x.org/a",
+                                                    icon="http://x.org/fav.ico")]}), "card")
+
+    assert '<span class="tile-domain">x.org</span>' in card
+    assert "<img" not in card
 
 
 def test_writing_strip_three_newest(tmp_path):

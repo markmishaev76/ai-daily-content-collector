@@ -23,9 +23,10 @@ CONFIG = {"topics": [{"name": "T", "sources": []}], "brief": {"max_articles_per_
 NOW = datetime(2026, 10, 23, 3, 0, tzinfo=timezone.utc)
 
 
-def run(tmp_path, feed, fetch_medium=lambda url: []):
+def run(tmp_path, feed, fetch_medium=lambda url: [], fetch_meta=lambda url: None):
     out = tmp_path / "public"
     code = build_site.main(out_dir=out, config=CONFIG, aggregator=FakeAggregator(feed),
+                           fetch_meta=fetch_meta, og_cache_path=tmp_path / "og-cache.json",
                            fetch_medium=fetch_medium, data_path=tmp_path / "medium.json",
                            posts_dir=tmp_path / "posts", about_path=tmp_path / "about.md",
                            history_path=tmp_path / "lead-history.json", pinned_path=tmp_path / "pinned.yaml",
@@ -98,3 +99,36 @@ def test_invalid_pinned_fails_build(tmp_path, caplog):
     assert not (out / "index.html").exists()
     assert not (tmp_path / "lead-history.json").exists()
     assert "pinned.yaml" in caplog.text
+
+
+def test_rendered_articles_get_og_images_and_cache_written(tmp_path):
+    fetched = []
+
+    def fetch_meta(url):
+        fetched.append(url)
+        return {"image": f"https://img.example.com/{url[-1]}.png", "description": None, "icon": None}
+
+    code, out = run(tmp_path, {"T": [article(i) for i in range(7)]}, fetch_meta=fetch_meta)
+    html = (out / "index.html").read_text()
+    cache = json.loads((tmp_path / "og-cache.json").read_text())
+
+    assert code == 0
+    assert 5 <= len(fetched) <= 6 and set(cache) == set(fetched)
+    assert "https://img.example.com/0.png" in html
+
+
+def test_only_rendered_articles_fetched(tmp_path):
+    fetched = []
+
+    run(tmp_path, {"T": [article(i) for i in range(9)]}, fetch_meta=lambda url: fetched.append(url))
+
+    assert len(fetched) <= 5 + 1
+
+
+def test_og_fetch_failures_do_not_fail_build(tmp_path):
+    def fetch_meta(url):
+        raise RuntimeError("network down")
+
+    code, out = run(tmp_path, {"T": [article(1)]}, fetch_meta=fetch_meta)
+
+    assert code == 0 and (out / "index.html").exists()

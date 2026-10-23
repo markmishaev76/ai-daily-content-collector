@@ -47,7 +47,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/medium-posts.json data/lead-history.json
+          git add data/medium-posts.json data/lead-history.json data/og-cache.json
           if ! git diff --cached --quiet; then
             git commit -m "update medium posts and lead history"
             git pull --rebase origin main

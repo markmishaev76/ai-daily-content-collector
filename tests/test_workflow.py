@@ -21,6 +21,7 @@ def test_commit_step_adds_history_on_main_only():
     commit = steps()[index_of("git add data/medium-posts.json")]
 
     assert "data/lead-history.json" in commit["run"]
+    assert "data/og-cache.json" in commit["run"]
     assert commit["if"] == "github.ref == 'refs/heads/main'"
 
 
