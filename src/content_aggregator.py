@@ -271,7 +271,11 @@ class ContentAggregator:
                 source_url = source.get('url')
                 
                 if source_type == 'rss':
-                    articles.extend(self.fetch_rss_feed(source_url))
+                    fetched = self.fetch_rss_feed(source_url)
+                    if source.get('name'):
+                        for article in fetched:
+                            article['source'] = source['name']
+                    articles.extend(fetched)
                 elif source_type == 'web':
                     article = self.fetch_web_page(source_url)
                     if article:

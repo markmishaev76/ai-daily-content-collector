@@ -1,6 +1,7 @@
 import re
 from datetime import datetime, timezone
 
+import pytest
 import yaml
 
 from src import site_builder, story
@@ -77,7 +78,7 @@ def test_chips_in_section_order_with_colors(tmp_path):
 
 
 def lead_story(title="Lead story", link="https://example.com/leadstory", section="Pics", image=None, **kw):
-    return story.Story(title=title, link=link, summary=kw.pop("summary", "Lead summary"), source="Src",
+    return story.Story(title=title, link=link, summary=kw.pop("summary", "Lead summary"), source=kw.pop("source", "Src"),
                        published=NOW, image=image, section=section, **kw)
 
 
@@ -320,3 +321,65 @@ def test_pages_load_cloudflare_analytics(tmp_path):
         assert 'src="https://static.cloudflareinsights.com/beacon.min.js"' in html
         assert '{&#34;token&#34;: &#34;753e85ce1c8b4659818c074e30218583&#34;}' in html \
             or '{"token": "753e85ce1c8b4659818c074e30218583"}' in html
+
+
+@pytest.mark.parametrize("raw, clean", [
+    ('Hacker News - Newest: "MCP"', "Hacker News"),
+    ("Hacker News: Front Page", "Hacker News"),
+    ("Hugging Face - Blog", "Hugging Face"),
+    ("Simon Willison's Weblog: model-context-protocol", "Simon Willison"),
+    ("The Hacker News", "The Hacker News"),
+    ("Krebs on Security", "Krebs on Security"),
+    ("AWS Security Blog", "AWS Security Blog"),
+    ("https://example.com/feed.xml", "example.com"),
+    ("", ""),
+])
+def test_clean_source(raw, clean):
+    assert site_builder.clean_source(raw) == clean
+
+
+HN_FEED = "https://hnrss.org/newest?q=MCP"
+HN_SUMMARY = "Article URL: https://github.com/x/y Comments URL: https://news.ycombinator.com/item?id=1 Points: 12 # Comments: 3"
+
+
+def hn_article(title="HN item", **kw):
+    return dict(article(title, link="https://github.com/x/y", summary=HN_SUMMARY, source='Hacker News - Newest: "MCP"'),
+                feed=HN_FEED, **kw)
+
+
+def test_hn_card_shows_domain_and_counts_not_boilerplate(tmp_path):
+    html = build(tmp_path, {"Topic": [hn_article()]})
+    card = block(html, "card")
+
+    assert "Article URL" not in html and "Comments URL" not in html
+    assert '<div class="meta">github.com via Hacker News · Oct 22</div>' in card
+    assert "<p>12 points · 3 comments</p>" in card
+
+
+def test_hn_card_uses_og_description_and_counts_in_meta(tmp_path):
+    card = block(build(tmp_path, {"Topic": [hn_article(og_description="A tool for <things>.")]}), "card")
+
+    assert "<p>A tool for &lt;things&gt;.</p>" in card
+    assert "github.com via Hacker News · Oct 22 · 12 points · 3 comments" in card
+
+
+def test_hn_row_meta_has_counts(tmp_path):
+    html = build(tmp_path, {"Topic": [article(f"S{i}") for i in range(3)] + [hn_article()]})
+
+    assert "github.com via Hacker News · Oct 22 · 12 points · 3 comments" in block(html, "more")
+
+
+def test_clean_names_on_cards(tmp_path):
+    card = block(build(tmp_path, {"Topic": [article("A", source="Hugging Face - Blog")]}), "card")
+
+    assert "Hugging Face · Oct 22" in card and "- Blog" not in card
+
+
+def test_hn_lead_uses_description_not_boilerplate(tmp_path):
+    s = lead_story(summary=HN_SUMMARY, source='Hacker News - Newest: "MCP"', feed=HN_FEED,
+                   link="https://github.com/x/y", description="Real description")
+
+    lead = block(build(tmp_path, {"Pics": [article("Other")]}, story=s), "lead")
+
+    assert "Real description" in lead and "Article URL" not in lead
+    assert "github.com via Hacker News" in lead

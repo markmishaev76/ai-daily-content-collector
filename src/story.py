@@ -561,6 +561,8 @@ class Story:
     also: List[Tuple[str, str]] = field(default_factory=list)
     note: Optional[str] = None
     image_credit: Optional[str] = None
+    feed: str = ""
+    description: Optional[str] = None
     pinned: bool = False
     key_tokens: FrozenSet[str] = frozenset()
     scored: List[Scored] = field(default_factory=list)
@@ -640,6 +642,7 @@ def pick_story(feed: Dict[str, List[Dict]], config: Dict, history: Sequence[Dict
     return Story(title=(pinned or {}).get("title") or lead.get("title") or "Untitled", link=lead["link"],
                  summary=lead.get("summary") or "", source=lead.get("source") or "",
                  published=lead.get("published"), image=image, image_credit=credit, section=chosen.section,
+                 feed=lead.get("feed") or "", description=lead.get("og_description"),
                  coverage=chosen.coverage, ids=sorted(chosen.ids), age_hours=chosen.age_hours,
                  also=_also(chosen.members, lead), note=(pinned or {}).get("note"), pinned=bool(pinned),
                  key_tokens=key_tokens(lead, chosen.ids), scored=scored)

@@ -75,3 +75,14 @@ def test_duplicate_links_across_sources_kept_once(monkeypatch):
 
     assert [a["title"] for a in feed["T"]] == ["Same", "Other"]
     assert feed["T"][0]["source"] == "A"
+
+
+def test_feed_name_overrides_feed_title(monkeypatch):
+    aggregator = ContentAggregator(hours_back=48)
+    monkeypatch.setattr(aggregator, "fetch_rss_feed", lambda url: [{"title": "T", "link": f"https://e.com/{url}",
+                                                                     "source": "Ugly Feed Title: tag"}])
+
+    feed = aggregator.aggregate_content([{"name": "S", "sources": [{"type": "rss", "url": "a", "name": "Nice"},
+                                                                   {"type": "rss", "url": "b"}]}])
+
+    assert [a["source"] for a in feed["S"]] == ["Nice", "Ugly Feed Title: tag"]

@@ -12,6 +12,8 @@ from urllib.parse import urlparse
 
 from jinja2 import Environment, FileSystemLoader
 
+from src.hn import HN_BOILERPLATE, hn_counts, is_hn_item
+
 SITE_URL = "https://thedailybrief.dev/"
 CF_ANALYTICS_TOKEN = "753e85ce1c8b4659818c074e30218583"
 WRITING_LIMIT = 3
@@ -43,6 +45,52 @@ def excerpt(text: str, limit: int = EXCERPT_LIMIT) -> str:
     return cut + "…"
 
 
+FEED_SUFFIX = re.compile(r"\s*[-–—|:]\s*(blog|news|newest\b.*|front ?page\b.*|rss|feed|latest\b.*|all posts)\s*$", re.I)
+TAG_SUFFIX = re.compile(r"\s*:\s*[a-z0-9][a-z0-9-]*$")
+WEBLOG_SUFFIX = re.compile(r"['’]s (weblog|blog)$", re.I)
+
+
+def _domain(url: str) -> str:
+    try:
+        host = urlparse((url or "").strip()).hostname or ""
+    except ValueError:
+        return ""
+    return host.lower().removeprefix("www.")
+
+
+def clean_source(name: str) -> str:
+    """Short publisher name from a feed title: drop ' - Blog', ': <tag>', ' - Newest...' and "'s Weblog"."""
+    text = " ".join((name or "").split())
+    if re.match(r"https?://", text, re.I):
+        return _domain(text)
+    if text.lower().startswith("hacker news"):
+        return "Hacker News"
+    text = TAG_SUFFIX.sub("", FEED_SUFFIX.sub("", text))
+    return WEBLOG_SUFFIX.sub("", text) or " ".join((name or "").split())
+
+
+def display_source(article: Dict) -> str:
+    """Publisher shown on the page; Hacker News items show the linked site, e.g. 'github.com via Hacker News'."""
+    if is_hn_item(article):
+        host = _domain(article.get("link"))
+        return f"{host} via Hacker News" if host and host != "news.ycombinator.com" else "Hacker News"
+    return clean_source(article.get("source") or "")
+
+
+def _hn_line(article: Dict) -> Optional[str]:
+    if not is_hn_item(article):
+        return None
+    points, comments = hn_counts(article.get("summary"))
+    return f"{points} points · {comments} comments"
+
+
+def _summary(summary: str, description: Optional[str], hn_line: Optional[str]) -> str:
+    """Excerpt text: Hacker News boilerplate becomes the page description, else the points line."""
+    if HN_BOILERPLATE.search(summary or ""):
+        return excerpt(description or hn_line or "")
+    return excerpt(summary or description or "")
+
+
 def anchor_id(topic: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", topic.lower()).strip("-")
 
@@ -50,6 +98,19 @@ def anchor_id(topic: str) -> str:
 def safe_image(url: Optional[str]) -> Optional[str]:
     link = safe_link(url or "")
     return link if link and urlparse(link).scheme.lower() == "https" else None
+
+
+def _item(a: Dict) -> Dict:
+    hn_line = _hn_line(a)
+    return {
+        "title": a.get("title") or "Untitled",
+        "link": safe_link(a.get("link", "")),
+        "excerpt": _summary(a.get("summary", ""), a.get("og_description"), hn_line),
+        "source": display_source(a),
+        "date": a["published"].strftime("%b %d") if a.get("published") else None,
+        "image": safe_image(a.get("image")),
+        "hn": hn_line,
+    }
 
 
 def _sections(feed: Dict[str, List[Dict]]) -> List[Dict]:
@@ -61,14 +122,7 @@ def _sections(feed: Dict[str, List[Dict]]) -> List[Dict]:
             "name": name,
             "id": anchor_id(name),
             "color": PALETTE[index % len(PALETTE)],
-            "articles": [{
-                "title": a.get("title") or "Untitled",
-                "link": safe_link(a.get("link", "")),
-                "excerpt": excerpt(a.get("summary", "")),
-                "source": a.get("source", ""),
-                "date": a["published"].strftime("%b %d") if a.get("published") else None,
-                "image": safe_image(a.get("image")),
-            } for a in sorted(articles, key=lambda a: a.get("published") is None)],
+            "articles": [_item(a) for a in sorted(articles, key=lambda a: a.get("published") is None)],
         })
     return sections
 
@@ -97,8 +151,8 @@ def _lead(story, feed: Dict[str, List[Dict]]) -> Dict:
     return {
         "title": story.title or "Untitled",
         "link": safe_link(story.link),
-        "excerpt": excerpt(story.summary),
-        "source": story.source,
+        "excerpt": _summary(story.summary, story.description, None),
+        "source": display_source({"source": story.source, "link": story.link, "feed": story.feed}),
         "date": story.published.strftime("%b %d") if story.published else None,
         "image": safe_image(story.image),
         "image_credit": story.image_credit if safe_image(story.image) else None,

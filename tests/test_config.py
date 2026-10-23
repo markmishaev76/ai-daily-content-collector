@@ -56,3 +56,9 @@ def test_max_articles_per_topic_is_eight():
 
 def test_section_min_hn_points():
     assert load()["story"]["section_min_hn_points"] == 10
+
+
+def test_feed_names_are_text():
+    names = [s["name"] for t in load()["topics"] for s in t["sources"] if "name" in s]
+
+    assert names and all(isinstance(n, str) and n.strip() for n in names)
