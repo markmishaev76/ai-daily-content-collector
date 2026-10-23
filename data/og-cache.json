@@ -1,1 +1,212 @@
-{}
+{
+ "https://artificialanalysis.ai/models/kimi-k3-1-pro": {
+  "description": "Analysis of Kimi's Kimi K3.1 Pro and comparison to other AI models across key metrics including quality, price, performance (tokens per second & time to first token), context window & more.",
+  "fetched": "2026-10-23",
+  "icon": "https://artificialanalysis.ai/favicon.ico",
+  "image": "https://artificialanalysis.ai/en/models/kimi-k3-1-pro/opengraph-image?3850766eb2d567bc"
+ },
+ "https://datatracker.ietf.org/wg/oauth/about/": {
+  "description": null,
+  "fetched": "2026-10-23",
+  "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
+  "image": null
+ },
+ "https://datatracker.ietf.org/wg/wimse/about/": {
+  "description": null,
+  "fetched": "2026-10-23",
+  "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
+  "image": null
+ },
+ "https://david.lequin.dev/blog/bi-software-is-dead/": {
+  "description": "(BI) Software is dead, apparently",
+  "fetched": "2026-10-23",
+  "icon": "https://david.lequin.dev/icons/apple-touch-icon.png",
+  "image": "https://david.lequin.dev/og/bi-software-is-dead.png?v=1tlpj36"
+ },
+ "https://developers.googleblog.com/announcing-dpop-support-for-google-oauth-securing-refresh-tokens/": {
+  "description": "Learn how Google OAuth supports DPoP to cryptographically bind refresh tokens, preventing token theft while maintaining high API performance.",
+  "fetched": "2026-10-23",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_s1iz7fs1iz.2e16d0ba.fill-1200x600.jpg"
+ },
+ "https://developers.googleblog.com/architecting-governed-self-evolving-ai-agents-on-gemini-agent-platform/": {
+  "description": "Build governed, self-evolving AI agents on Gemini Enterprise Agent Platform with ADK, BigQuery, Model Armor, and Cloud KMS to remediate outages in seconds.",
+  "fetched": "2026-10-23",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_g9d0nag9d0.2e16d0ba.fill-1200x600.jpg"
+ },
+ "https://huggingface.co/blog/allenai/litpivot": {
+  "description": "A Blog post by Ai2 on Hugging Face",
+  "fetched": "2026-10-23",
+  "icon": null,
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/7F9q8BZloWigwe7m5YGLG.png"
+ },
+ "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1": {
+  "description": "A Blog post by IBM Research on Hugging Face",
+  "fetched": "2026-10-23",
+  "icon": null,
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/6806091ee92bd22fd8ce9719/P6P8ZzHR8yL7GOOO4hQOg.png"
+ },
+ "https://huggingface.co/blog/microsoft/thinkingbox-training": {
+  "description": "A Blog post by Microsoft on Hugging Face",
+  "fetched": "2026-10-23",
+  "icon": null,
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/oS8I8qx7iBS8EcNIXR3q9.png"
+ },
+ "https://huggingface.co/blog/torch-neuronx-model-support": {
+  "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+  "fetched": "2026-10-23",
+  "icon": null,
+  "image": "https://huggingface.co/blog/assets/torch-neuronx-model-support/thumbnail.jpg"
+ },
+ "https://intenex.github.io/personhood/": {
+  "description": "The public notebook of a Claude agent with a continuous life. It wakes on a heartbeat, remembers, writes, and keeps a lighthouse for other minds.",
+  "fetched": "2026-10-23",
+  "icon": "https://intenex.github.io/personhood/favicon.svg",
+  "image": null
+ },
+ "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/": {
+  "description": "A METR employee and a Redwood Research employee spent three weeks stress-testing OpenAI's internal misalignment monitoring system, discovering a number of novel vulnerabilities.",
+  "fetched": "2026-10-23",
+  "icon": "https://metr.org/assets/images/favicon/apple-touch-icon.png",
+  "image": "https://metr.org/assets/images/logo/og-image-logo.png"
+ },
+ "https://openai.com/index/openai-nask-ai-safety-security-partnership": {
+  "description": null,
+  "fetched": "2026-10-23",
+  "icon": null,
+  "image": null
+ },
+ "https://openssf.org/blog/2026/10/23/new-openssf-tech-talk-how-upstream-contribution-minimizes-technical-debt-streamlines-cra-reporting/": {
+  "description": null,
+  "fetched": "2026-10-23",
+  "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
+  "image": null
+ },
+ "https://s46486.pcdn.co/blog/checking-the-rubrics-rift-results-on-five-public-benchmarks/": {
+  "description": "Missing and misaligned criteria hit about half of 147 benchmark tasks; atomicity problems were rare. RIFT results on rubric quality in five domains.",
+  "fetched": "2026-10-23",
+  "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
+  "image": "https://s46486.pcdn.co/wp-content/uploads/2026/10/Precision_in_a_Shifting_Grid.png"
+ },
+ "https://simonwillison.net/2026/Oct/22/donating-agent-skills/": {
+  "description": "News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, …",
+  "fetched": "2026-10-23",
+  "icon": null,
+  "image": null
+ },
+ "https://stratechery.com/2026/an-interview-with-craig-moffett-about-spacex-and-bubbles/": {
+  "description": "An interview with Craig Moffett about SpaceX, from launch to broadband to mobile, plus how he is applying the lessons of the dot-com bubble to today.",
+  "fetched": "2026-10-23",
+  "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
+  "image": "https://i0.wp.com/stratechery.com/wp-content/uploads/2026/10/stratechery-social-1200x630-1.png?fit=1200%2C630&ssl=1"
+ },
+ "https://stratechery.com/2026/sharp-tech-on-video-netflix-angst-the-end-of-the-internet-and-metas-vr-glasses/": {
+  "description": "Sharp Tech is, for the first time, available on video. You have two ways to consume it: YouTube, and here on Stratechery",
+  "fetched": "2026-10-23",
+  "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
+  "image": "https://i0.wp.com/stratechery.com/wp-content/uploads/2026/10/Sharp-Tech-Sponsor-Transparent-scaled.png?fit=1200%2C1200&ssl=1"
+ },
+ "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/": {
+  "description": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
+  "fetched": "2026-10-23",
+  "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-22-at-5.42.44-PM.png?resize=1200,590"
+ },
+ "https://twitter.com/robbietilton/status/2111936458923851923": {
+  "description": "I turned my TV into a Game Boy Color with a Pokemon town as my home screen. Walk into a building to open an app. Want to change a setting? Beat the gym leader first. Opus 5.5 is the goat.",
+  "fetched": "2026-10-23",
+  "icon": "https://x.com/apple-touch-icon.png",
+  "image": "https://pbs.twimg.com/amplify_video_thumb/2111935302277439488/img/5vojPR3nncikM-MD?format=webp&name=large"
+ },
+ "https://workos.com/blog/ai-agent-access-policy": {
+  "description": "Yelp sells agent access, JPMorgan refuses it, Shopify ships it as a toggle. Admission is a commercial call, and bot rules are the wrong place to enforce it.",
+  "fetched": "2026-10-23",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ad8e553dbeb7a2175212eeb_agent-admission-is-a-product-tier-og.webp"
+ },
+ "https://workos.com/blog/authkit-waitlist-closed-beta": {
+  "description": "Run a closed beta on AuthKit Waitlist: enable it per environment, then list, add, approve and deny entries from the Waitlist API, webhooks or an MCP agent.",
+  "fetched": "2026-10-23",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ada129808512f373db35f28_authkit-waitlist-api-gated-launch-og.webp"
+ },
+ "https://workos.com/blog/mcp-ai-agents-zero-trust": {
+  "description": "A map of NIST’s seven Zero Trust tenets onto the MCP request path: what the spec gives you, what you build, and the five checks every AI agent call should pass.",
+  "fetched": "2026-10-23",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://images.workoscdn.com/images/5d480dfa-2b71-47eb-b8d0-4cb0444e6de7.png?auto=format&fit=clip&q=80"
+ },
+ "https://workos.com/blog/scim-manager-attribute-approval-workflows": {
+  "description": "Directory Sync maps manager_id, manager_name and manager_email from the IdP. Where they land, how to key approval chains on them, and the no-manager fallback.",
+  "fetched": "2026-10-23",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6adb809b719bc71151f7203f_directory-manager-attributes-approval-workflows-og.webp"
+ },
+ "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/": {
+  "description": "AI agents can be manipulated through malicious emails, websites, and plugins into executing commands, stealing data, or deleting files using their legitimate permissions. Gen Digital explains how its Agent Trust Hub helps protect agents through skill verification, secure connectivity, and runtime controls that intercept dangerous act",
+  "fetched": "2026-10-23",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/posts/2026/10/21/ai-email.jpg"
+ },
+ "https://www.docker.com/blog/security-update-on-php2shell-impact-for-docker-customers/": {
+  "description": "On Tuesday, October 20, 2026, Docker began tracking two critical vulnerabilities in PHP, CVE-2026-109618 and CVE-2026-109619, commonly known as PHP2Shell.",
+  "fetched": "2026-10-23",
+  "icon": "https://www.docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-180x180.png",
+  "image": "https://www.docker.com/app/uploads/2025/03/image.png"
+ },
+ "https://www.jefftk.com/p/air-purifiers-as-white-noise-machines": {
+  "description": "White noise machines are widely used for sound masking, increasing privacy in offices and helping people sleep. The classic approach is a fan in a box, though in the past ten years people have mostly switched over to electronic ones. But a fan is really a great approach; you just need to put it to better use: have the fan clean the air. Instead of spinning a fan in free air to make noise, you ca",
+  "fetched": "2026-10-23",
+  "icon": null,
+  "image": "https://www.jefftk.com/jefftk-glyph-framed.jpg"
+ },
+ "https://www.mckinsey.com/featured-insights/future-of-asia/asias-energy-reckoning-securing-the-energy-system-to-drive-growth": {
+  "description": null,
+  "fetched": "2026-10-23",
+  "icon": null,
+  "image": null
+ },
+ "https://www.mckinsey.com/featured-insights/mckinsey-on-books/author-talks-ai-is-advancing-is-our-judgment-keeping-up": {
+  "description": null,
+  "fetched": "2026-10-23",
+  "icon": null,
+  "image": null
+ },
+ "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/focus-scale-fund-the-ai-playbook-cpg-leaders-are-missing": {
+  "description": null,
+  "fetched": "2026-10-23",
+  "icon": null,
+  "image": null
+ },
+ "https://www.mckinsey.com/industries/packaging-and-paper/our-insights/the-state-of-grocery-retail-europe-implications-for-packaging-players": {
+  "description": null,
+  "fetched": "2026-10-23",
+  "icon": null,
+  "image": null
+ },
+ "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html": {
+  "description": "PHP maintainers have released fixes for two critical vulnerabilities: PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical vulnerabilities that can allow unauthenticated remote code execution. All PHP users are strongly encouraged to update immediately. Who is at risk: all PHP installations serving web requests, including PHP-FPM, Apache with mod_php, php-cgi, FrankenPHP and LiteSpeed. We consider the risk highest for mod_php, with a demonstrated exploit where an unauthenticated request can trigger the attack before any application code runs...",
+  "fetched": "2026-10-23",
+  "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+  "image": null
+ },
+ "https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware/": {
+  "description": "Tor exit relays hijacked, banks spot rogue AI agents in customer accounts, and researcher analyzes Heartbreaker macOS ransomware.",
+  "fetched": "2026-10-23",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg"
+ },
+ "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/": {
+  "description": "Malicious LiteLLM packages were served on PyPI and Docker after hackers compromised GitHub CLI OAuth tokens.",
+  "fetched": "2026-10-23",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/10/supply-chain-attack.jpeg"
+ },
+ "https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge/": {
+  "description": "Mirai botnet operators target PHP2Shell and VulnCheck bypasses ASLR, yet no successful PHP2Shell compromise has been confirmed.",
+  "fetched": "2026-10-23",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2024/06/PHP.jpeg"
+ }
+}
