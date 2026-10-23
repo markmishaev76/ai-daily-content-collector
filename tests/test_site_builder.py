@@ -223,3 +223,16 @@ def test_post_page_share_preview_uses_post(tmp_path):
     assert meta(page, "og:description") == "Hi"
     assert meta(page, "og:url") == "https://thedailybrief.dev/blog/x/"
     assert meta(page, "og:type") == "article"
+
+
+def test_pages_link_favicons(tmp_path):
+    build(tmp_path, posts=[local_post(slug="x")])
+
+    home = (tmp_path / "index.html").read_text()
+    post = (tmp_path / "blog" / "x" / "index.html").read_text()
+
+    assert '<link rel="icon" href="static/favicon.svg" type="image/svg+xml">' in home
+    assert '<link rel="icon" href="../../static/favicon.svg" type="image/svg+xml">' in post
+    assert '<link rel="apple-touch-icon" href="static/apple-touch-icon.png">' in home
+    for name in ("favicon.svg", "favicon-32.png", "apple-touch-icon.png"):
+        assert (tmp_path / "static" / name).exists()
