@@ -203,6 +203,8 @@ a:hover { color: var(--accent); }
   padding-top: 14px;
   border-top: 1px solid var(--line);
 }
+.pulse-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px 24px; }
+.pulse .meta a { color: var(--c); }
 .row { display: flex; gap: 12px; align-items: center; padding: 8px 0; }
 .row .t { font-weight: 600; font-size: 14px; line-height: 1.3; }
 
@@ -261,7 +263,7 @@ a:hover { color: var(--accent); }
   .site-header nav a { margin-left: 12px; }
   .chips { padding: 8px 16px; }
   .magazine { padding: 4px 16px 32px; }
-  .lead, .cards, .writing-cards, .more { grid-template-columns: minmax(0, 1fr); }
+  .lead, .cards, .writing-cards, .more, .pulse-list { grid-template-columns: minmax(0, 1fr); }
   .lead { gap: 14px; }
   .lead h1 { font-size: 22px; }
   .placeholder-label { font-size: 24px; }

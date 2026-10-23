@@ -380,6 +380,20 @@ story:
     - "technologyreview.com"
     - "spectrum.ieee.org"
 
+# The Pulse (src/pulse.py): top Reddit threads of the last 24 hours, shown under the story of the day (site only).
+pulse:
+  min_upvotes: 100
+  limit: 10
+  max_age_hours: 24
+  subreddits:
+    # A small sub: its best daily threads rarely reach 100 upvotes.
+    - name: "EngineeringManagers"
+      min_upvotes: 25
+    - "ClaudeAI"
+    - "cybersecurity"
+    - "ChatGPTCoding"
+    - "cursor"
+
 brief:
   max_articles_per_topic: 8
   

@@ -395,3 +395,55 @@ def test_hn_lead_uses_description_not_boilerplate(tmp_path):
 
     assert "Real description" in lead and "Article URL" not in lead
     assert "github.com via Hacker News" in lead
+
+
+def pulse_item(title="Thread", **kw):
+    item = {"title": title, "subreddit": "ClaudeAI", "ups": 1234, "comments": 56,
+            "created": datetime(2026, 10, 21, 3, 0, tzinfo=timezone.utc),
+            "thread": "https://www.reddit.com/r/ClaudeAI/comments/abc/t/", "link": None, "image": None}
+    item.update(kw)
+    return item
+
+
+def build_pulse(tmp_path, items, story=None):
+    site_builder.build({"Topic": [article("Section story")]}, [local_post()], "<p>About</p>", tmp_path, NOW,
+                       story=story, pulse=items)
+    return (tmp_path / "index.html").read_text()
+
+
+def test_pulse_under_lead_above_writing_and_sections_with_chip(tmp_path):
+    html = build_pulse(tmp_path, [pulse_item()], story=lead_story(section="Topic"))
+
+    assert html.index("<!-- /lead -->") < html.index('id="the-pulse"') < html.index('class="writing"') \
+        < html.index('id="topic"')
+    assert re.findall(r'href="#([a-z-]+)"', block(html, "chips")) == ["the-pulse", "topic"]
+    pulse = block(html, "pulse")
+    assert '<a href="https://www.reddit.com/r/ClaudeAI/comments/abc/t/" rel="noopener noreferrer">Thread</a>' in pulse
+    assert "r/ClaudeAI · 1.2k upvotes · 56 comments · 1d ago" in pulse
+    assert '<span class="tile-domain">r/ClaudeAI</span>' in pulse
+
+
+def test_pulse_link_post_shows_external_link_and_preview(tmp_path):
+    pulse = block(build_pulse(tmp_path, [pulse_item(link="https://blog.example.com/x",
+                                                    image="https://preview.redd.it/a.jpg")]), "pulse")
+
+    assert '<a href="https://blog.example.com/x" rel="noopener noreferrer">blog.example.com ↗</a>' in pulse
+    assert 'src="https://preview.redd.it/a.jpg"' in pulse
+
+
+def test_pulse_titles_escaped_and_bad_links_dropped(tmp_path):
+    pulse = block(build_pulse(tmp_path, [pulse_item("<script>alert(1)</script>", thread="javascript:alert(1)",
+                                                    link="javascript:alert(2)", image="http://x/a.jpg")]), "pulse")
+
+    assert "<script>" not in pulse and "&lt;script&gt;" in pulse
+    assert "javascript:" not in pulse and "http://x/a.jpg" not in pulse
+
+
+def test_pulse_hidden_when_empty(tmp_path):
+    for items in (None, []):
+        html = build_pulse(tmp_path, items)
+        assert "the-pulse" not in html and "The Pulse" not in html
+
+
+def test_compact_counts():
+    assert [site_builder.compact(n) for n in (999, 1000, 1234, 15600, 1_250_000)] == ["999", "1k", "1.2k", "15.6k", "1.2M"]

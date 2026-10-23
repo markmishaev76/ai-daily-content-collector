@@ -132,3 +132,52 @@ def test_og_fetch_failures_do_not_fail_build(tmp_path):
     code, out = run(tmp_path, {"T": [article(1)]}, fetch_meta=fetch_meta)
 
     assert code == 0 and (out / "index.html").exists()
+
+
+def run_pulse(tmp_path, collect):
+    out = tmp_path / "public"
+    code = build_site.main(out_dir=out, config=dict(CONFIG, pulse={"subreddits": ["ClaudeAI"]}),
+                           aggregator=FakeAggregator({"T": [article(1)]}), fetch_medium=lambda url: [],
+                           data_path=tmp_path / "medium.json", posts_dir=tmp_path / "posts",
+                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json",
+                           pinned_path=tmp_path / "pinned.yaml", now=NOW, fetch_meta=lambda url: None,
+                           og_cache_path=tmp_path / "og.json", collect_pulse=collect)
+    return code, (out / "index.html").read_text() if (out / "index.html").exists() else ""
+
+
+def test_pulse_failure_hides_section_and_build_succeeds(tmp_path, caplog):
+    from src.pulse import PulseUnavailable
+
+    def collect(config, now):
+        raise PulseUnavailable("every subreddit failed (r/ClaudeAI: HTTP 403)")
+
+    code, html = run_pulse(tmp_path, collect)
+
+    assert code == 0 and "the-pulse" not in html
+    assert "The Pulse hidden" in caplog.text and "HTTP 403" in caplog.text
+
+
+def test_pulse_rendered_with_link_post_thumbnail_from_page(tmp_path):
+    item = {"title": "Big thread", "subreddit": "ClaudeAI", "ups": 900, "comments": 10, "created": NOW,
+            "thread": "https://www.reddit.com/r/ClaudeAI/comments/x/", "link": "https://blog.example.com/p",
+            "image": None}
+
+    out = tmp_path / "public"
+    code = build_site.main(out_dir=out, config=dict(CONFIG, pulse={"subreddits": ["ClaudeAI"]}),
+                           aggregator=FakeAggregator({"T": [article(1)]}), fetch_medium=lambda url: [],
+                           data_path=tmp_path / "medium.json", posts_dir=tmp_path / "posts",
+                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json",
+                           pinned_path=tmp_path / "pinned.yaml", now=NOW,
+                           fetch_meta=lambda url: {"image": "https://blog.example.com/og.png", "description": None,
+                                                   "icon": None},
+                           og_cache_path=tmp_path / "og.json", collect_pulse=lambda config, now: ([item], {"ClaudeAI": 1}))
+    html = (out / "index.html").read_text()
+
+    assert code == 0 and "Big thread" in html and "https://blog.example.com/og.png" in html
+
+
+def test_no_pulse_config_skips_reddit(tmp_path):
+    called = []
+    code, out = run(tmp_path, {"T": [article(1)]})
+
+    assert code == 0 and "the-pulse" not in (out / "index.html").read_text()

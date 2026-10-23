@@ -17,6 +17,13 @@ def test_main_builds_from_latest_history():
     assert index_of("git pull --ff-only origin main") < index_of("python build_site.py")
 
 
+def test_build_gets_reddit_secrets():
+    build = steps()[index_of("python build_site.py")]
+
+    assert build["env"] == {"REDDIT_CLIENT_ID": "${{ secrets.REDDIT_CLIENT_ID }}",
+                            "REDDIT_CLIENT_SECRET": "${{ secrets.REDDIT_CLIENT_SECRET }}"}
+
+
 def test_commit_step_adds_history_on_main_only():
     commit = steps()[index_of("git add data/medium-posts.json")]
 

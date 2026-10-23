@@ -62,3 +62,13 @@ def test_feed_names_are_text():
     names = [s["name"] for t in load()["topics"] for s in t["sources"] if "name" in s]
 
     assert names and all(isinstance(n, str) and n.strip() for n in names)
+
+
+def test_pulse_subreddits():
+    from src import pulse
+
+    s = pulse.settings(load())
+
+    assert [name for name, _ in s["subreddits"]] == ["EngineeringManagers", "ClaudeAI", "cybersecurity",
+                                                     "ChatGPTCoding", "cursor"]
+    assert s["min_upvotes"] == 100 and s["limit"] == 10 and s["max_age_hours"] == 24

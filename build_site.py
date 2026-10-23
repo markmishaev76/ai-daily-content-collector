@@ -3,6 +3,7 @@ Build the public site: today's feed plus Mark's writing, written to public/.
 """
 
 import logging
+import os
 import sys
 import time
 from datetime import datetime, timezone
@@ -10,7 +11,7 @@ from pathlib import Path
 from typing import Dict, List, Tuple
 
 from main import load_config, select_articles
-from src import enrich, medium, site_builder, story
+from src import enrich, medium, pulse, site_builder, story
 from src.content_aggregator import ContentAggregator
 from src.hn import min_points
 from src.posts import load_local_posts, render_markdown_file
@@ -39,6 +40,21 @@ def _rendered(raw: Dict[str, List[Dict]], feed: Dict[str, List[Dict]], lead) -> 
     return [a for articles in raw.values() for a in articles if a.get('link') in links]
 
 
+def _fetch_pulse(config: dict, now: datetime, collect=None):
+    """The Pulse's items, or None (section hidden) when Reddit can't be read; never fails the build."""
+    collect = collect or (lambda c, n: pulse.collect(c, n, env=os.environ))
+    try:
+        items, counts = collect(config, now)
+    except pulse.PulseUnavailable as e:
+        logger.warning(f"The Pulse hidden: {e}")
+        return None
+    logger.info("The Pulse: " + ", ".join(f"r/{sub} {'failed' if n is None else n}" for sub, n in counts.items())
+                + f"; showing {len(items)}")
+    if not items:
+        logger.warning("The Pulse hidden: no thread qualified")
+    return items or None
+
+
 def _tile_counts(feed: Dict[str, List[Dict]]) -> Dict[str, int]:
     counts = {"feed images": 0, "og:images": 0, "logos": 0, "plain tiles": 0}
     for article in (a for articles in feed.values() for a in articles):
@@ -56,7 +72,7 @@ def main(out_dir: Path = Path("public"), config: dict = None, aggregator=None,
          posts_dir: Path = Path("posts"), about_path: Path = Path("about.md"),
          history_path: Path = Path("data/lead-history.json"), pinned_path: Path = Path("pinned.yaml"),
          now: datetime = None, fetch_meta=enrich.fetch_meta,
-         og_cache_path: Path = Path("data/og-cache.json")) -> int:
+         og_cache_path: Path = Path("data/og-cache.json"), collect_pulse=None) -> int:
     config = config or load_config()
     now = now or datetime.now(timezone.utc)
     try:
@@ -65,6 +81,7 @@ def main(out_dir: Path = Path("public"), config: dict = None, aggregator=None,
         story.section_weights(config)
         story.lead_min_hn_points(config)
         min_points(config, 'section_min_hn_points')
+        pulse_settings = pulse.settings(config)
     except ValueError as e:
         logger.error(f"Not building: {e}")
         return 1
@@ -77,12 +94,17 @@ def main(out_dir: Path = Path("public"), config: dict = None, aggregator=None,
         return 1
 
     lead = story.pick_story(raw, config, history, pinned, now)
+    pulse_items = _fetch_pulse(config, now, collect_pulse) if pulse_settings else None
     og_cache = enrich.load_cache(og_cache_path)
     started = time.monotonic()
-    targets = _rendered(raw, feed, lead)
+    pulse_pages = [{"link": i["link"], "image": None, "feed": ""} for i in pulse_items or []
+                   if i.get("link") and not i.get("image")]
+    targets = _rendered(raw, feed, lead) + pulse_pages
     counts = enrich.enrich(targets, og_cache, now.date(), fetch=fetch_meta)
     logger.info(f"Page metadata: {counts['fetched']} fetched, {counts['cached']} cached, "
                 f"{counts['og_images']} og:images in {time.monotonic() - started:.1f}s")
+    for item, page in zip([i for i in pulse_items or [] if i.get("link") and not i.get("image")], pulse_pages):
+        item["image"], item["icon"] = page.get("image"), page.get("icon")
     lead = story.pick_story(raw, config, history, pinned, now)
     logger.info("Tiles: " + ", ".join(f"{n} {k}" for k, n in _tile_counts(feed).items()))
     for rank, scored in enumerate(lead.scored[:TOP_CLUSTERS_LOGGED] if lead else [], 1):
@@ -103,7 +125,7 @@ def main(out_dir: Path = Path("public"), config: dict = None, aggregator=None,
     posts = load_local_posts(posts_dir) + medium_posts
     about_html = render_markdown_file(about_path) if about_path.exists() else ""
 
-    site_builder.build(feed, posts, about_html, out_dir, now, story=lead)
+    site_builder.build(feed, posts, about_html, out_dir, now, story=lead, pulse=pulse_items)
     enrich.save_cache(og_cache_path, og_cache, now.date())
     if lead:
         history = story.record_lead(history, now.date(), url=lead.link, title=lead.title, section=lead.section,

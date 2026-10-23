@@ -20,6 +20,7 @@ WRITING_LIMIT = 3
 EXCERPT_LIMIT = 300
 CARDS_PER_SECTION = 3
 LEAD_COLOR = "#5a4fcf"
+PULSE_COLOR = "#e8590c"
 LEAD_ID_LABELS = 2
 PALETTE = ["#5a4fcf", "#ad3a8a", "#1f9d8b", "#d6456b", "#e07a1f", "#3577d4", "#7a8b2d", "#5b6270"]
 
@@ -167,6 +168,35 @@ def _lead(story, feed: Dict[str, List[Dict]]) -> Dict:
     }
 
 
+def compact(n: int) -> str:
+    """1234 -> '1.2k', 1250000 -> '1.2M'."""
+    for size, suffix in ((1_000_000, "M"), (1_000, "k")):
+        if n >= size:
+            return f"{n / size:.1f}".rstrip("0").rstrip(".") + suffix
+    return str(n)
+
+
+def _pulse(items: Optional[List[Dict]], now: datetime) -> List[Dict]:
+    out = []
+    for item in items or []:
+        sub = f"r/{item['subreddit']}"
+        hours = (now - item["created"]).total_seconds() / 3600
+        link = safe_link(item.get("link") or "")
+        out.append({
+            "title": item["title"],
+            "thread": safe_link(item.get("thread") or ""),
+            "link": link,
+            "link_domain": _domain(link),
+            "source": sub,
+            "domain": sub,
+            "meta": f"{sub} · {compact(item['ups'])} upvotes · {compact(item['comments'])} comments"
+                    + (f" · {age_label(hours)}" if age_label(hours) else ""),
+            "image": safe_image(item.get("image")),
+            "icon": safe_image(item.get("icon")),
+        })
+    return out
+
+
 def _split_cards(articles: List[Dict]):
     """Cards prefer articles with pictures, topped up by rank; both keep rank order."""
     with_image = [i for i, a in enumerate(articles) if a["image"]][:CARDS_PER_SECTION]
@@ -205,8 +235,9 @@ def _rss_date(post: Dict) -> Optional[str]:
 
 
 def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
-          out_dir: Path, now: datetime, story=None) -> None:
-    """Write the site. `story` is a src.story.Story for the lead, or None for no lead."""
+          out_dir: Path, now: datetime, story=None, pulse: Optional[List[Dict]] = None) -> None:
+    """Write the site. `story` is a src.story.Story for the lead, or None for no lead;
+    `pulse` is src.pulse.collect's items, or None/[] to hide The Pulse."""
     env = Environment(loader=FileSystemLoader(SITE_DIR / "templates"), autoescape=True,
                       trim_blocks=True, lstrip_blocks=True)
     env.globals.update(post_href=_post_href, today=now.strftime("%A, %B %d, %Y"),
@@ -222,7 +253,7 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
         page_url = SITE_URL + rel.removesuffix("index.html")
         path.write_text(env.get_template(template).render(**common, page_url=page_url, **ctx))
 
-    write("index.html", "index.html", root="", page="feed", **_magazine(feed, story))
+    write("index.html", "index.html", root="", page="feed", **_magazine(feed, story), pulse=_pulse(pulse, now), pulse_color=PULSE_COLOR)
     write("blog/index.html", "blog.html", root="../", page="blog", posts=all_posts)
     for post in all_posts:
         if post["source"] == "local":
