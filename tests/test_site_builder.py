@@ -236,3 +236,13 @@ def test_pages_link_favicons(tmp_path):
     assert '<link rel="apple-touch-icon" href="static/apple-touch-icon.png">' in home
     for name in ("favicon.svg", "favicon-32.png", "apple-touch-icon.png"):
         assert (tmp_path / "static" / name).exists()
+
+
+def test_pages_load_cloudflare_analytics(tmp_path):
+    build(tmp_path, posts=[local_post(slug="x")])
+
+    for page in ("index.html", "blog/index.html", "blog/x/index.html", "about/index.html"):
+        html = (tmp_path / page).read_text()
+        assert 'src="https://static.cloudflareinsights.com/beacon.min.js"' in html
+        assert '{&#34;token&#34;: &#34;753e85ce1c8b4659818c074e30218583&#34;}' in html \
+            or '{"token": "753e85ce1c8b4659818c074e30218583"}' in html

@@ -13,6 +13,7 @@ from urllib.parse import urlparse
 from jinja2 import Environment, FileSystemLoader
 
 SITE_URL = "https://thedailybrief.dev/"
+CF_ANALYTICS_TOKEN = "753e85ce1c8b4659818c074e30218583"
 WRITING_LIMIT = 3
 EXCERPT_LIMIT = 300
 CARDS_PER_SECTION = 3
@@ -119,7 +120,8 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
     env = Environment(loader=FileSystemLoader(SITE_DIR / "templates"), autoescape=True,
                       trim_blocks=True, lstrip_blocks=True)
     env.globals.update(post_href=_post_href, today=now.strftime("%A, %B %d, %Y"),
-                       updated=now.strftime("%H:%M UTC"), site_url=SITE_URL)
+                       updated=now.strftime("%H:%M UTC"), site_url=SITE_URL,
+                       cf_analytics_token=CF_ANALYTICS_TOKEN)
 
     all_posts = _sorted_posts(posts)
     common = {"writing": all_posts[:WRITING_LIMIT]}

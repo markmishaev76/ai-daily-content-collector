@@ -36,5 +36,8 @@
   </header>
   {% block body %}{% endblock %}
   <footer class="site-footer">Updated {{ today }}, {{ updated }}</footer>
+  {% if cf_analytics_token %}
+  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ cf_analytics_token }}"}'></script>
+  {% endif %}
 </body>
 </html>
