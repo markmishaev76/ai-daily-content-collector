@@ -1,4 +1,10 @@
 {
+ "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/": {
+  "description": "EPFL researchers have developed an implantable neural chip that tracks communication across brain regions, identifying cognitive and emotional states in real time.",
+  "fetched": "2026-10-24",
+  "icon": "https://web2018.epfl.ch/8.8.0/icons/apple-touch-icon.png",
+  "image": "https://actu.epfl.ch/image/168660/1440x810.jpg"
+ },
  "https://artificialanalysis.ai/models/kimi-k3-1-pro": {
   "description": "Analysis of Kimi's Kimi K3.1 Pro and comparison to other AI models across key metrics including quality, price, performance (tokens per second & time to first token), context window & more.",
   "fetched": "2026-10-23",
@@ -22,6 +28,12 @@
   "fetched": "2026-10-24",
   "icon": null,
   "image": null
+ },
+ "https://blog.roku.com/developer/gitlab-move": {
+  "description": "Roku provides the simplest way to stream entertainment to your TV. On your terms. With thousands of available channels to choose from.",
+  "fetched": "2026-10-24",
+  "icon": null,
+  "image": "https://www.roku.com/assets/roku-logo-purple.png"
  },
  "https://captnemo.in/blog/2026/10/23/emsign-revoked-gov-in/": {
   "description": "On 17th October, eight eMudhra intermediate CAs chaining to emSign ECC Root CA - G3 were found to have trivially recoverable private keys. They were revoked the next day, and Mozilla and Chrome are now distrusting the G3 root. Separately, on 19th October eMudhra revoked 9,356 certificates on its unaffected RSA hierarchy (emSign Root CA - G1) with the reason “Superseded”. That batch matches every unexpired certificate missing a certificate-type policy OID required by emSign’s own CP/CPS (Bug 2082782).",
@@ -59,6 +71,12 @@
   "icon": "https://david.lequin.dev/icons/apple-touch-icon.png",
   "image": "https://david.lequin.dev/og/bi-software-is-dead.png?v=1tlpj36"
  },
+ "https://de.numista.com/9866": {
+  "description": null,
+  "fetched": "2026-10-24",
+  "icon": null,
+  "image": null
+ },
  "https://developers.googleblog.com/announcing-dpop-support-for-google-oauth-securing-refresh-tokens/": {
   "description": "Learn how Google OAuth supports DPoP to cryptographically bind refresh tokens, preventing token theft while maintaining high API performance.",
   "fetched": "2026-10-23",
@@ -70,6 +88,24 @@
   "fetched": "2026-10-23",
   "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
   "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_g9d0nag9d0.2e16d0ba.fill-1200x600.jpg"
+ },
+ "https://developers.googleblog.com/powering-the-agent-development-lifecycle-with-any-framework-from-adk-to-langchain-and-beyond/": {
+  "description": "Learn how the Agents CLI Extension System lets you integrate any framework, like LangChain, into a unified development lifecycle.",
+  "fetched": "2026-10-24",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/1_2.2e16d0ba.fill-1200x600.png"
+ },
+ "https://developers.googleblog.com/streaming-comes-to-api-gateway-real-time-and-ai-ready-apis-without-changing-your-spec/": {
+  "description": "API Gateway introduces Public Preview support for streaming, including SSE, WebSockets, gRPC, and HTTP response streaming without spec changes.",
+  "fetched": "2026-10-24",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Streaming_feature_in__API_Gateway.2e16d0ba.fill-1200x600.jpg"
+ },
+ "https://dreamlabs.ai/research/dream-1/": {
+  "description": "Today, we're releasing Dream-1, a World Action Model that controls robots it has never seen, performs tasks it was never shown, and runs from $3/hour.",
+  "fetched": "2026-10-24",
+  "icon": "https://dreamlabs.ai/brand/favicon.svg",
+  "image": "https://dreamlabs.ai/research/dream-1/assets/og-image.jpg"
  },
  "https://drew.silcock.dev/blog/is-this-the-new-cyber-normal/": {
   "description": "A week of cyber incidents one after another – is this what every week is going to look like and what can we do about it?",
@@ -131,6 +167,18 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/index/scaling-storage-one-billion-users-part-two": {
+  "description": null,
+  "fetched": "2026-10-24",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/securing-our-frontier-model-training-environment": {
+  "description": null,
+  "fetched": "2026-10-24",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/securing-our-frontier-model-training-environment/": {
   "description": null,
   "fetched": "2026-10-24",
@@ -160,6 +208,12 @@
   "fetched": "2026-10-23",
   "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
   "image": "https://s46486.pcdn.co/wp-content/uploads/2026/10/Precision_in_a_Shifting_Grid.png"
+ },
+ "https://security.apple.com/research-device/": {
+  "description": "Get an iPhone dedicated to security research through the Apple Security Research Device program. Learn how to apply.",
+  "fetched": "2026-10-24",
+  "icon": "https://security.apple.com/favicon.ico",
+  "image": "https://security.apple.com/assets/image/seo-image.jpg"
  },
  "https://simonwillison.net/2026/Oct/22/armin-ronacher/": {
   "description": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins.",
@@ -203,6 +257,12 @@
   "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
   "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-22-at-5.42.44-PM.png?resize=1200,590"
  },
+ "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/": {
+  "description": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+  "fetched": "2026-10-24",
+  "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+  "image": "https://techcrunch.com/wp-content/uploads/2017/12/gettyimages-673436934.jpg?resize=1200,813"
+ },
  "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/": {
   "description": "A fresh academic paper on Z-Library cites a TorrentFreak article that doesn’t exist, and several other sources in the paper are also unfindable. The authors disclose that they used AI tools, which may explain what is going on. The use of AI in an academic paper on shadow libraries is also somewhat ironic, as rightsholders are suing AI companies for using these sites to train AI models.",
   "fetched": "2026-10-24",
@@ -220,6 +280,12 @@
   "fetched": "2026-10-23",
   "icon": "https://x.com/apple-touch-icon.png",
   "image": "https://pbs.twimg.com/amplify_video_thumb/2111935302277439488/img/5vojPR3nncikM-MD?format=webp&name=large"
+ },
+ "https://workos.com/blog/a-busy-week-in-security-what-it-means-for-workos-and-for-you": {
+  "description": "Node.js and PHP shipped RCE fixes, a malicious LiteLLM release hit PyPI, and eMudhra CA keys were compromised. What WorkOS did, and some recommendations for your stack.",
+  "fetched": "2026-10-24",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": null
  },
  "https://workos.com/blog/ai-agent-access-policy": {
   "description": "Yelp sells agent access, JPMorgan refuses it, Shopify ships it as a toggle. Admission is a commercial call, and bot rules are the wrong place to enforce it.",
@@ -263,6 +329,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/posts/2026/10/21/ai-email.jpg"
  },
+ "https://www.computerworld.dk/art/297226/digitaliseringsministeriet-har-i-al-stilhed-droppet-stort-anlagt-forsoeg-med-open-source-alternativ-til-microsoft": {
+  "description": "Digitaliseringsministeriet har i al stilhed lagt sit pilotprojekt med et alternativ til Microsoft Office i graven.",
+  "fetched": "2026-10-24",
+  "icon": "https://www.computerworld.dk/images/favicon/apple-touch-icon.png",
+  "image": "https://www.computerworld.dk/fil/223423?width=1200&height=630&focus=1"
+ },
  "https://www.docker.com/blog/security-update-on-php2shell-impact-for-docker-customers/": {
   "description": "On Tuesday, October 20, 2026, Docker began tracking two critical vulnerabilities in PHP, CVE-2026-109618 and CVE-2026-109619, commonly known as PHP2Shell.",
   "fetched": "2026-10-23",
@@ -305,10 +377,22 @@
   "icon": null,
   "image": null
  },
+ "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html": {
+  "description": "This article in Nature argues that it’s due to an overfishing of predators and warming sea temperatures. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.",
+  "fetched": "2026-10-24",
+  "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+  "image": null
+ },
  "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html": {
   "description": "PHP maintainers have released fixes for two critical vulnerabilities: PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical vulnerabilities that can allow unauthenticated remote code execution. All PHP users are strongly encouraged to update immediately. Who is at risk: all PHP installations serving web requests, including PHP-FPM, Apache with mod_php, php-cgi, FrankenPHP and LiteSpeed. We consider the risk highest for mod_php, with a demonstrated exploit where an unauthenticated request can trigger the attack before any application code runs...",
   "fetched": "2026-10-23",
   "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+  "image": null
+ },
+ "https://www.science.org/doi/10.1126/sciadv.aeh8870": {
+  "description": null,
+  "fetched": "2026-10-24",
+  "icon": null,
   "image": null
  },
  "https://www.sciencedaily.com/releases/2026/10/261018084421.htm": {
