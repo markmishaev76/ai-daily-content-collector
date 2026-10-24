@@ -17,6 +17,18 @@
   "icon": "https://substackcdn.com/image/fetch/$s_!9qRJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5a25c608-49d1-4a04-9075-fd975e093620%2Fapple-touch-icon-57x57.png",
   "image": "https://substackcdn.com/image/youtube/w_728,c_limit/_GJVKVNMczM"
  },
+ "https://blog.luitjes.it/posts/i-want-my-wednesday-back/": {
+  "description": null,
+  "fetched": "2026-10-24",
+  "icon": null,
+  "image": null
+ },
+ "https://captnemo.in/blog/2026/10/23/emsign-revoked-gov-in/": {
+  "description": "On 17th October, eight eMudhra intermediate CAs chaining to emSign ECC Root CA - G3 were found to have trivially recoverable private keys. They were revoked the next day, and Mozilla and Chrome are now distrusting the G3 root. Separately, on 19th October eMudhra revoked 9,356 certificates on its unaffected RSA hierarchy (emSign Root CA - G1) with the reason “Superseded”. That batch matches every unexpired certificate missing a certificate-type policy OID required by emSign’s own CP/CPS (Bug 2082782).",
+  "fetched": "2026-10-24",
+  "icon": "https://captnemo.in/img/favicon.png",
+  "image": "https://captnemo.in/img/favicon.png"
+ },
  "https://corgi.computer/": {
   "description": "Friendly helper for your agents.",
   "fetched": "2026-10-24",
@@ -161,6 +173,18 @@
   "icon": null,
   "image": null
  },
+ "https://stackoverflow.blog/2026/10/22/the-regression-tests-nobody-writes-capturing-how-software-actually-behaves/": {
+  "description": "Founded in 2008, Stack Overflow’s public platform is used by nearly everyone who codes to learn, share their knowledge, collaborate, and build their careers.",
+  "fetched": "2026-10-24",
+  "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+  "image": null
+ },
+ "https://stackoverflow.blog/2026/10/23/rumors-of-the-saas-demise-are-greatly-exaggerated/": {
+  "description": "Recorded on the floor of LDX3, Ryan chats with Nivia Henry, an engineering leader most recently at Netflix, about the reality of the supposed SaaS apocalypse, the complex calculus of the modern build-versus-buy decision in the era of AI, and the critical importance of understanding system architectures to manage long-term infrastructure costs.",
+  "fetched": "2026-10-24",
+  "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+  "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format"
+ },
  "https://stratechery.com/2026/an-interview-with-craig-moffett-about-spacex-and-bubbles/": {
   "description": "An interview with Craig Moffett about SpaceX, from launch to broadband to mobile, plus how he is applying the lessons of the dot-com bubble to today.",
   "fetched": "2026-10-23",
@@ -215,6 +239,12 @@
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6adb809b719bc71151f7203f_directory-manager-attributes-approval-workflows-og.webp"
  },
+ "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497": {
+  "description": "The Brotli flaw behind Node2Shell (CVE-2026-111497) affects many libraries and applications using HTTP with Brotli or brotlicffi installed. Check your versions and upgrade to the fix.",
+  "fetched": "2026-10-24",
+  "icon": "https://cdn.prod.website-files.com/642adcaf364024552e71df01/6acf3def6456cdb50f820e2e_favicon-512.jpg",
+  "image": "https://cdn.prod.website-files.com/642adcaf364024654c71df23/6adbe4dc7746ea7df4365811_Node-JS_OG.jpg"
+ },
  "https://www.bitdefender.com/en-us/blog/hotforsecurity/hacker-leaks-281-gb-data-germany-afd": {
   "description": "Germany&#x27;s far-right AfD (Alternative für Deutschland) party has confirmed that it has suffered a security breach, after a hacker published what appear to be hundreds of thousands of the controversial political party&#x27;s internal emails.",
   "fetched": "2026-10-24",
@@ -263,6 +293,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/": {
+  "description": null,
+  "fetched": "2026-10-24",
+  "icon": null,
+  "image": null
+ },
  "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html": {
   "description": "PHP maintainers have released fixes for two critical vulnerabilities: PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical vulnerabilities that can allow unauthenticated remote code execution. All PHP users are strongly encouraged to update immediately. Who is at risk: all PHP installations serving web requests, including PHP-FPM, Apache with mod_php, php-cgi, FrankenPHP and LiteSpeed. We consider the risk highest for mod_php, with a demonstrated exploit where an unauthenticated request can trigger the attack before any application code runs...",
   "fetched": "2026-10-23",
@@ -292,6 +328,12 @@
   "fetched": "2026-10-23",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2024/06/PHP.jpeg"
+ },
+ "https://www.southampton.ac.uk/~doug/quantum_physics/index.html": {
+  "description": null,
+  "fetched": "2026-10-24",
+  "icon": null,
+  "image": null
  },
  "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet": {
   "description": null,
