@@ -6,7 +6,9 @@ counts). Keeps videos from the last max_age_days that are not Shorts and
 have views (premieres and upcoming streams show 0), ranks them by views per
 day since publish (at least one day, so a video an hour old doesn't jump the
 queue), and picks the top `limit` with at most `per_channel` from one
-channel. The other recent videos are listed per channel, newest first.
+channel; if that leaves slots open, the next best from any channel fill them
+(after the capped picks). The other recent videos are listed per channel,
+newest first, at most `recent_per_channel` each.
 
 Each channel fails on its own with a warning; only when every channel fails
 does collect raise LearnUnavailable, and the site hides the teaser. The build
@@ -27,7 +29,7 @@ WATCH_URL = "https://www.youtube.com/watch?v="
 THUMB_URL = "https://i.ytimg.com/vi/{}/hqdefault.jpg"
 USER_AGENT = "web:thedailybrief:1.0 (+https://thedailybrief.dev)"
 TIMEOUT = 10
-DEFAULTS = {"max_age_days": 30, "per_channel": 2, "limit": 6}
+DEFAULTS = {"max_age_days": 30, "per_channel": 2, "limit": 6, "recent_per_channel": 5}
 CHANNEL_KEYS = {"name", "id", "handle"}
 VIDEO_ID = re.compile(r"[A-Za-z0-9_-]{11}")
 CHANNEL_ID = re.compile(r"UC[A-Za-z0-9_-]{22}")
@@ -149,13 +151,13 @@ def collect(config: Dict, now: datetime, get: Callable = requests.get) -> Tuple[
     pool.sort(key=lambda v: (-v["per_day"], v["title"], v["id"]))
     top, taken = [], {}
     for v in pool:
-        if len(top) == s["limit"]:
-            break
-        if taken.get(v["channel_id"], 0) < s["per_channel"]:
+        if len(top) < s["limit"] and taken.get(v["channel_id"], 0) < s["per_channel"]:
             top.append(v)
             taken[v["channel_id"]] = taken.get(v["channel_id"], 0) + 1
     picked = {v["id"] for v in top}
+    top += [v for v in pool if v["id"] not in picked][:s["limit"] - len(top)]
+    picked = {v["id"] for v in top}
     for c in channels:
         rest = [v for v in pool if v["channel_id"] == c["id"] and v["id"] not in picked]
-        c["videos"] = sorted(rest, key=lambda v: (v["published"], v["id"]), reverse=True)
+        c["videos"] = sorted(rest, key=lambda v: (v["published"], v["id"]), reverse=True)[:s["recent_per_channel"]]
     return {"top": top, "channels": channels, "days": s["max_age_days"]}, counts

@@ -441,10 +441,12 @@ pulse:
 
 # Learn (src/learn.py): popular recent YouTube videos on /learn/ and a front-page teaser (site only).
 # Ranked by views per day; Shorts and 0-view premieres are skipped. Ids come from each channel's page.
+# The grid takes at most per_channel from one channel, then fills open slots with the next best from any.
 learn:
   max_age_days: 30
   per_channel: 2
   limit: 6
+  recent_per_channel: 5
   channels:
     - name: "AI Engineer"
       handle: "@aiDotEngineer"

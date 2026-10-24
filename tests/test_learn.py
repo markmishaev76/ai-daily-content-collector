@@ -54,7 +54,7 @@ def collect(responses, config=CONFIG):
 def test_settings_defaults_and_channels():
     s = learn.settings({"learn": {"channels": [{"name": "AI Engineer", "id": AIE}]}})
 
-    assert (s["max_age_days"], s["per_channel"], s["limit"]) == (30, 2, 6)
+    assert (s["max_age_days"], s["per_channel"], s["limit"], s["recent_per_channel"]) == (30, 2, 6, 5)
     assert s["channels"] == [{"name": "AI Engineer", "id": AIE}]
 
 
@@ -71,7 +71,10 @@ def test_settings_absent_means_no_learn():
                                  {"channels": [{"name": "A", "id": AIE}], "limit": 0},
                                  {"channels": [{"name": "A", "id": AIE}], "per_channel": True},
                                  {"channels": [{"name": "A", "id": AIE}], "max_age_days": "30"},
-                                 {"channels": [{"name": "A", "id": AIE}], "max_days": 30}])
+                                 {"channels": [{"name": "A", "id": AIE}], "max_days": 30},
+                                 {"channels": [{"name": "A", "id": AIE}], "recent_per_channel": 0},
+                                 {"channels": [{"name": "A", "id": AIE}], "recent_per_channel": "5"},
+                                 {"channels": [{"name": "A", "id": AIE}], "recent_per_channel": False}])
 def test_settings_invalid_raise_naming_config(bad):
     with pytest.raises(ValueError, match="config.yaml: learn"):
         learn.settings({"learn": bad})
@@ -164,3 +167,43 @@ def test_one_channel_failing_keeps_the_others(broken, caplog):
 def test_every_channel_failing_raises():
     with pytest.raises(learn.LearnUnavailable, match="AI Engineer.*Anthropic.*Pragmatic"):
         collect({AIE: Response(500), ANT: requests.Timeout("slow"), PRAG: Response(200, b"garbage")})
+
+
+def vids(prefix, n, views=10000):
+    """n videos one day apart, so per day falls with n: 10000, 5000, 3333, ..."""
+    return [entry(f"{prefix}{k}".ljust(11, "x"), f"{prefix} {k}", days=k + 1, views=views) for k in range(n)]
+
+
+def test_fill_after_cap_takes_next_best_from_any_channel():
+    videos, _ = collect({AIE: Response(200, feed(*vids("aie", 5))),
+                         ANT: Response(200, feed(entry("antxxxxxxxx", "ANT", days=5, views=500))),
+                         PRAG: Response(200, feed())})
+
+    titles = [v["title"] for v in videos["top"]]
+    assert titles == ["aie 0", "aie 1", "ANT", "aie 2", "aie 3", "aie 4"]   # capped pass first, then the fill
+    assert len({v["id"] for v in videos["top"]}) == 6
+
+
+def test_fill_ranks_by_views_per_day_across_channels():
+    videos, _ = collect({AIE: Response(200, feed(*vids("aie", 4))),
+                         ANT: Response(200, feed(*vids("ant", 4, views=7000))),
+                         PRAG: Response(200, feed())})
+
+    assert [v["title"] for v in videos["top"]] == ["aie 0", "ant 0", "aie 1", "ant 1", "aie 2", "aie 3"]   # 2500/day beats ant 2's 2333
+
+
+def test_fewer_videos_than_limit_shows_all_once():
+    videos, _ = collect({AIE: Response(200, feed(*vids("aie", 3))), ANT: Response(200, feed()),
+                         PRAG: Response(200, feed())})
+
+    assert [v["title"] for v in videos["top"]] == ["aie 0", "aie 1", "aie 2"]
+    assert videos["channels"][0]["videos"] == []
+
+
+def test_recent_list_capped_newest_first_without_top_picks():
+    config = {"learn": dict(CONFIG["learn"], limit=2, recent_per_channel=5)}
+    videos, _ = collect({AIE: Response(200, feed(*vids("aie", 9))), ANT: Response(200, feed()),
+                         PRAG: Response(200, feed())}, config)
+
+    assert [v["title"] for v in videos["top"]] == ["aie 0", "aie 1"]
+    assert [v["title"] for v in videos["channels"][0]["videos"]] == ["aie 2", "aie 3", "aie 4", "aie 5", "aie 6"]

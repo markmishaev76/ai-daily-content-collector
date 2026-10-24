@@ -93,4 +93,4 @@ def test_learn_channels():
     assert s["channels"] == [{"name": "AI Engineer", "id": "UCLKPca3kwwd-B59HNr-_lvA"},
                              {"name": "Anthropic", "id": "UCrDwWp7EBBv4NwvScIpBDOA"},
                              {"name": "The Pragmatic Engineer", "id": "UCPbwhExawYrn9xxI21TFfyw"}]
-    assert (s["max_age_days"], s["per_channel"], s["limit"]) == (30, 2, 6)
+    assert (s["max_age_days"], s["per_channel"], s["limit"], s["recent_per_channel"]) == (30, 2, 6, 5)
