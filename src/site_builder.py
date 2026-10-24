@@ -13,6 +13,7 @@ from urllib.parse import urlparse
 from jinja2 import Environment, FileSystemLoader
 
 from src.hn import HN_BOILERPLATE, hn_counts, is_hn_item
+from src.learn import VIDEO_ID
 
 SITE_URL = "https://thedailybrief.dev/"
 CF_ANALYTICS_TOKEN = "753e85ce1c8b4659818c074e30218583"
@@ -21,6 +22,8 @@ EXCERPT_LIMIT = 300
 CARDS_PER_SECTION = 3
 LEAD_COLOR = "#5a4fcf"
 PULSE_COLOR = "#e8590c"
+LEARN_COLOR = "#c92a2a"
+LEARN_TEASER = 3
 LEAD_ID_LABELS = 2
 PALETTE = ["#5a4fcf", "#ad3a8a", "#1f9d8b", "#d6456b", "#e07a1f", "#3577d4", "#7a8b2d", "#5b6270"]
 
@@ -204,6 +207,35 @@ def _pulse_sources(items: List[Dict]) -> str:
     return " and ".join(filter(None, [", ".join(names[:-1]), names[-1]])) if names else ""
 
 
+def _videos(videos: List[Dict], now: datetime) -> List[Dict]:
+    """Videos safe to render: a strict YouTube id, links and thumbnail built from it."""
+    out = []
+    for v in videos:
+        vid = v.get("id") or ""
+        if not isinstance(vid, str) or not VIDEO_ID.fullmatch(vid):
+            continue
+        hours = (now - v["published"]).total_seconds() / 3600
+        out.append({
+            "id": vid,
+            "title": v.get("title") or "Untitled",
+            "link": f"https://www.youtube.com/watch?v={vid}",
+            "image": f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg",
+            "source": v.get("channel") or "",
+            "domain": v.get("channel") or "",
+            "meta": f"{v.get('channel')} · {compact(v['views'])} views · {compact(int(v['per_day']))}/day"
+                    + (f" · {age_label(hours)}" if age_label(hours) else ""),
+        })
+    return out
+
+
+def _learn(learn: Optional[Dict], now: datetime) -> Optional[Dict]:
+    if learn is None:
+        return None
+    channels = [{"name": c["name"], "url": safe_link(c.get("url") or ""), "videos": _videos(c.get("videos") or [], now)}
+                for c in learn.get("channels") or []]
+    return {"top": _videos(learn.get("top") or [], now), "channels": channels, "days": learn.get("days")}
+
+
 def _split_cards(articles: List[Dict]):
     """Cards prefer articles with pictures, topped up by rank; both keep rank order."""
     with_image = [i for i, a in enumerate(articles) if a["image"]][:CARDS_PER_SECTION]
@@ -242,14 +274,16 @@ def _rss_date(post: Dict) -> Optional[str]:
 
 
 def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
-          out_dir: Path, now: datetime, story=None, pulse: Optional[List[Dict]] = None) -> None:
+          out_dir: Path, now: datetime, story=None, pulse: Optional[List[Dict]] = None,
+          learn: Optional[Dict] = None) -> None:
     """Write the site. `story` is a src.story.Story for the lead, or None for no lead;
-    `pulse` is src.pulse.collect's items, or None/[] to hide The Pulse."""
+    `pulse` is src.pulse.collect's items, or None/[] to hide The Pulse;
+    `learn` is src.learn.collect's videos (empty lists when unavailable), or None for no Learn page."""
     env = Environment(loader=FileSystemLoader(SITE_DIR / "templates"), autoescape=True,
                       trim_blocks=True, lstrip_blocks=True)
     env.globals.update(post_href=_post_href, today=now.strftime("%A, %B %d, %Y"),
                        updated=now.strftime("%H:%M UTC"), site_url=SITE_URL,
-                       cf_analytics_token=CF_ANALYTICS_TOKEN)
+                       cf_analytics_token=CF_ANALYTICS_TOKEN, learn_page=learn is not None)
 
     all_posts = _sorted_posts(posts)
     common = {"writing": all_posts[:WRITING_LIMIT]}
@@ -261,8 +295,12 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
         path.write_text(env.get_template(template).render(**common, page_url=page_url, **ctx))
 
     pulse_items = _pulse(pulse, now)
+    videos = _learn(learn, now)
     write("index.html", "index.html", root="", page="feed", **_magazine(feed, story), pulse=pulse_items,
-          pulse_sources=_pulse_sources(pulse_items), pulse_color=PULSE_COLOR)
+          pulse_sources=_pulse_sources(pulse_items), pulse_color=PULSE_COLOR,
+          learn_teaser=videos["top"][:LEARN_TEASER] if videos else [], learn_color=LEARN_COLOR)
+    if videos is not None:
+        write("learn/index.html", "learn.html", root="../", page="learn", learn=videos, learn_color=LEARN_COLOR)
     write("blog/index.html", "blog.html", root="../", page="blog", posts=all_posts)
     for post in all_posts:
         if post["source"] == "local":

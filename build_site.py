@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Dict, List, Tuple
 
 from main import load_config, select_articles
-from src import enrich, medium, pulse, site_builder, story
+from src import enrich, learn, medium, pulse, site_builder, story
 from src.content_aggregator import ContentAggregator
 from src.hn import min_points
 from src.posts import load_local_posts, render_markdown_file
@@ -56,6 +56,19 @@ def _fetch_pulse(config: dict, now: datetime, shown, collect=None):
     return items or None
 
 
+def _fetch_learn(config: dict, now: datetime, days: int, collect=None) -> Dict:
+    """Learn videos; empty lists (teaser hidden, page says so) when no channel can be read. Never fails the build."""
+    collect = collect or learn.collect
+    try:
+        videos, counts = collect(config, now)
+    except learn.LearnUnavailable as e:
+        logger.warning(f"Learn hidden: {e}")
+        return {"top": [], "channels": [], "days": days}
+    logger.info("Learn: " + ", ".join(f"{name} {'failed' if n is None else n}" for name, n in counts.items())
+                + f"; showing {len(videos['top'])}")
+    return videos
+
+
 def _tile_counts(feed: Dict[str, List[Dict]]) -> Dict[str, int]:
     counts = {"feed images": 0, "og:images": 0, "logos": 0, "plain tiles": 0}
     for article in (a for articles in feed.values() for a in articles):
@@ -73,7 +86,7 @@ def main(out_dir: Path = Path("public"), config: dict = None, aggregator=None,
          posts_dir: Path = Path("posts"), about_path: Path = Path("about.md"),
          history_path: Path = Path("data/lead-history.json"), pinned_path: Path = Path("pinned.yaml"),
          now: datetime = None, fetch_meta=enrich.fetch_meta,
-         og_cache_path: Path = Path("data/og-cache.json"), collect_pulse=None) -> int:
+         og_cache_path: Path = Path("data/og-cache.json"), collect_pulse=None, collect_learn=None) -> int:
     config = config or load_config()
     now = now or datetime.now(timezone.utc)
     try:
@@ -83,6 +96,7 @@ def main(out_dir: Path = Path("public"), config: dict = None, aggregator=None,
         story.lead_min_hn_points(config)
         min_points(config, 'section_min_hn_points')
         pulse_settings = pulse.settings(config)
+        learn_settings = learn.settings(config)
     except ValueError as e:
         logger.error(f"Not building: {e}")
         return 1
@@ -128,7 +142,8 @@ def main(out_dir: Path = Path("public"), config: dict = None, aggregator=None,
     posts = load_local_posts(posts_dir) + medium_posts
     about_html = render_markdown_file(about_path) if about_path.exists() else ""
 
-    site_builder.build(feed, posts, about_html, out_dir, now, story=lead, pulse=pulse_items)
+    videos = _fetch_learn(config, now, learn_settings["max_age_days"], collect_learn) if learn_settings else None
+    site_builder.build(feed, posts, about_html, out_dir, now, story=lead, pulse=pulse_items, learn=videos)
     enrich.save_cache(og_cache_path, og_cache, now.date())
     if lead:
         history = story.record_lead(history, now.date(), url=lead.link, title=lead.title, section=lead.section,

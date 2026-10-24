@@ -439,6 +439,23 @@ pulse:
     - "ChatGPTCoding"
     - "cursor"
 
+# Learn (src/learn.py): popular recent YouTube videos on /learn/ and a front-page teaser (site only).
+# Ranked by views per day; Shorts and 0-view premieres are skipped. Ids come from each channel's page.
+learn:
+  max_age_days: 30
+  per_channel: 2
+  limit: 6
+  channels:
+    - name: "AI Engineer"
+      handle: "@aiDotEngineer"
+      id: "UCLKPca3kwwd-B59HNr-_lvA"
+    - name: "Anthropic"
+      handle: "@anthropic-ai"
+      id: "UCrDwWp7EBBv4NwvScIpBDOA"
+    - name: "The Pragmatic Engineer"
+      handle: "@pragmaticengineer"
+      id: "UCPbwhExawYrn9xxI21TFfyw"
+
 brief:
   max_articles_per_topic: 8
   

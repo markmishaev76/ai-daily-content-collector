@@ -83,3 +83,14 @@ def test_pulse_feeds():
     assert s["lobsters"]["min_score"] == 15 and {"ai", "security", "vibecoding"} <= s["lobsters"]["tags"]
     assert pulse.relevant("Anthropic ships Claude 5", None, (), s)
     assert not pulse.relevant("Air purifiers as white noise machines", None, (), s)
+
+
+def test_learn_channels():
+    from src import learn
+
+    s = learn.settings(load())
+
+    assert s["channels"] == [{"name": "AI Engineer", "id": "UCLKPca3kwwd-B59HNr-_lvA"},
+                             {"name": "Anthropic", "id": "UCrDwWp7EBBv4NwvScIpBDOA"},
+                             {"name": "The Pragmatic Engineer", "id": "UCPbwhExawYrn9xxI21TFfyw"}]
+    assert (s["max_age_days"], s["per_channel"], s["limit"]) == (30, 2, 6)

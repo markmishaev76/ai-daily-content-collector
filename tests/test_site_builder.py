@@ -1,5 +1,5 @@
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 import pytest
 import yaml
@@ -486,3 +486,93 @@ def test_pulse_hidden_when_empty(tmp_path):
 
 def test_compact_counts():
     assert [site_builder.compact(n) for n in (999, 1000, 1234, 15600, 1_250_000)] == ["999", "1k", "1.2k", "15.6k", "1.2M"]
+
+
+def video(title="Talk", vid="WOszaC1WWbQ", channel="AI Engineer", views=17451, per_day=1745.1, days=10):
+    return {"id": vid, "title": title, "channel": channel, "views": views, "per_day": per_day,
+            "published": NOW - timedelta(days=days), "link": f"https://www.youtube.com/watch?v={vid}",
+            "thumb": f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg"}
+
+
+def learn_data(top=None, rest=None):
+    return {"top": [video()] if top is None else top,
+            "channels": [{"name": "AI Engineer", "url": "https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA",
+                          "videos": [video("Older one", "abcdefghijk", days=20, per_day=50)] if rest is None else rest},
+                         {"name": "Anthropic", "url": "https://www.youtube.com/channel/UCrDwWp7EBBv4NwvScIpBDOA",
+                          "videos": []}], "days": 30}
+
+
+def build_learn(tmp_path, learn, pulse=None):
+    site_builder.build({"Topic": [article("Section story")]}, [local_post()], "<p>About</p>", tmp_path, NOW,
+                       pulse=pulse, learn=learn)
+    return (tmp_path / "index.html").read_text(), (tmp_path / "learn/index.html").read_text()
+
+
+def test_learn_page_top_videos_and_recent_per_channel(tmp_path):
+    _, page = build_learn(tmp_path, learn_data())
+
+    top = block(page, "video-grid")
+    assert 'data-video-id="WOszaC1WWbQ"' in top
+    assert '<button type="button" class="play" aria-label="Play: Talk">' in top
+    assert 'src="https://i.ytimg.com/vi/WOszaC1WWbQ/hqdefault.jpg"' in top
+    assert '<a href="https://www.youtube.com/watch?v=WOszaC1WWbQ" target="_blank" rel="noopener noreferrer">Talk</a>' in top
+    assert "AI Engineer · 17.5k views · 1.7k/day · 10d ago" in top
+    recent = block(page, "learn-channels")
+    assert "Older one" in recent and "AI Engineer · 17.5k views · 50/day · 20d ago" in recent
+    assert "No other videos in the last 30 days" in recent
+    assert '<script src="../static/learn.js" defer></script>' in page
+
+
+def test_learn_menu_link_between_blog_and_about_on_every_page(tmp_path):
+    index, page = build_learn(tmp_path, learn_data())
+
+    for html in (index, page, (tmp_path / "blog/index.html").read_text(), (tmp_path / "about/index.html").read_text()):
+        nav = html[html.index('<header class="site-header">'):html.index("</header>")]
+        assert nav.index(">Blog<") < nav.index(">Learn<") < nav.index(">About<")
+    assert '<a href="learn/">Learn</a>' in index
+    assert '<a href="../learn/" class="active">Learn</a>' in page
+
+
+def test_learn_teaser_after_pulse_top_three_with_chip(tmp_path):
+    top = [video(f"V{n}", f"abcdefghij{n}") for n in range(5)]
+    index, _ = build_learn(tmp_path, learn_data(top=top), pulse=[pulse_item()])
+
+    assert index.index('id="the-pulse"') < index.index('id="learn"') < index.index('class="writing"')
+    assert re.findall(r'href="#([a-z-]+)"', block(index, "chips"))[:2] == ["the-pulse", "learn"]
+    teaser = block(index, "learn-teaser")
+    assert teaser.count("data-video-id=") == 3 and "V3" not in teaser
+    assert '<a class="see-all" href="learn/">All videos →</a>' in teaser
+    assert '<script src="static/learn.js" defer></script>' in index
+
+
+def test_learn_titles_escaped_bad_ids_dropped_no_iframe_until_click(tmp_path):
+    top = [video('<script>alert(1)</script>"x'), video("Bad id", 'x" onclick="alert(1)')]
+    index, page = build_learn(tmp_path, learn_data(top=top))
+
+    for html in (index, page):
+        assert "<script>alert(1)" not in html and "&lt;script&gt;alert(1)&lt;/script&gt;&#34;x" in html
+        assert "Bad id" not in html and "onclick" not in html
+        assert "<iframe" not in html and "youtube.com/embed" not in html
+        assert set(re.findall(r'src="https?://([^/"]+)', html)) <= {"i.ytimg.com", "static.cloudflareinsights.com"}
+
+
+def test_learn_empty_keeps_page_and_menu_hides_teaser(tmp_path):
+    index, page = build_learn(tmp_path, {"top": [], "channels": []})
+
+    assert 'id="learn"' not in index and "learn.js" not in index and ">Learn<" in index
+    assert "No videos right now" in page
+
+
+def test_no_learn_config_means_no_page_or_menu(tmp_path):
+    html = build_pulse(tmp_path, None)
+
+    assert ">Learn<" not in html and not (tmp_path / "learn").exists()
+
+
+def test_learn_js_embeds_only_youtube_nocookie():
+    js = (site_builder.SITE_DIR / "static/learn.js").read_text()
+
+    assert "https://www.youtube-nocookie.com/embed/" in js and "youtube.com/embed" not in js.replace("youtube-nocookie.com/embed", "")
+    assert "^[A-Za-z0-9_-]{11}$" in js and "autoplay=1" in js
+    assert "autoplay; encrypted-media; picture-in-picture" in js and "allowfullscreen" in js.lower()
+    assert "innerHTML" not in js

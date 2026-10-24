@@ -191,3 +191,55 @@ def test_no_pulse_config_skips_reddit(tmp_path):
     code, out = run(tmp_path, {"T": [article(1)]})
 
     assert code == 0 and "the-pulse" not in (out / "index.html").read_text()
+
+
+def run_learn(tmp_path, collect, caplog):
+    caplog.set_level("INFO")
+    out = tmp_path / "public"
+    channels = [{"name": "AI Engineer", "id": "UCLKPca3kwwd-B59HNr-_lvA"}]
+    code = build_site.main(out_dir=out, config=dict(CONFIG, learn={"channels": channels}),
+                           aggregator=FakeAggregator({"T": [article(1)]}), fetch_medium=lambda url: [],
+                           data_path=tmp_path / "medium.json", posts_dir=tmp_path / "posts",
+                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json",
+                           pinned_path=tmp_path / "pinned.yaml", now=NOW, fetch_meta=lambda url: None,
+                           og_cache_path=tmp_path / "og.json", collect_learn=collect)
+    return code, out
+
+
+def test_learn_failure_hides_teaser_keeps_page_and_build_succeeds(tmp_path, caplog):
+    from src.learn import LearnUnavailable
+
+    def collect(config, now):
+        raise LearnUnavailable("every channel failed (AI Engineer: HTTP 500)")
+
+    code, out = run_learn(tmp_path, collect, caplog)
+
+    assert code == 0 and 'id="learn"' not in (out / "index.html").read_text()
+    assert "No videos right now" in (out / "learn/index.html").read_text()
+    assert "Learn hidden" in caplog.text and "HTTP 500" in caplog.text
+
+
+def test_learn_rendered_and_counts_logged(tmp_path, caplog):
+    vid = {"id": "WOszaC1WWbQ", "title": "Evals talk", "channel": "AI Engineer", "views": 5000, "per_day": 2500.0,
+           "published": NOW, "link": "https://www.youtube.com/watch?v=WOszaC1WWbQ",
+           "thumb": "https://i.ytimg.com/vi/WOszaC1WWbQ/hqdefault.jpg"}
+    data = {"top": [vid], "channels": [{"name": "AI Engineer", "url": "https://www.youtube.com/channel/x", "videos": []}]}
+
+    code, out = run_learn(tmp_path, lambda config, now: (data, {"AI Engineer": 1, "Anthropic": None}), caplog)
+
+    assert code == 0 and "Evals talk" in (out / "index.html").read_text()
+    assert "Evals talk" in (out / "learn/index.html").read_text()
+    assert "Learn: AI Engineer 1, Anthropic failed; showing 1" in caplog.text
+
+
+def test_invalid_learn_config_fails_build(tmp_path, caplog):
+    out = tmp_path / "public"
+    code = build_site.main(out_dir=out, config=dict(CONFIG, learn={"channels": [{"name": "X", "id": "@x"}]}),
+                           aggregator=FakeAggregator({"T": [article(1)]}), fetch_medium=lambda url: [],
+                           data_path=tmp_path / "medium.json", posts_dir=tmp_path / "posts",
+                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json",
+                           pinned_path=tmp_path / "pinned.yaml", now=NOW, fetch_meta=lambda url: None,
+                           og_cache_path=tmp_path / "og.json")
+
+    assert code == 1 and not (out / "index.html").exists()
+    assert "config.yaml: learn" in caplog.text

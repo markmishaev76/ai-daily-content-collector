@@ -1,9 +1,13 @@
 {% extends "base.html" %}
 {% from "_thumb.html" import thumb, title %}
+{% from "_video.html" import video_card %}
 {% block body %}
 <nav class="chips" aria-label="Sections">
   {% if pulse %}
   <a href="#the-pulse" style="--c: {{ pulse_color }}">The Pulse</a>
+  {% endif %}
+  {% if learn_teaser %}
+  <a href="#learn" style="--c: {{ learn_color }}">Learn</a>
   {% endif %}
   {% for s in sections %}
   <a href="#{{ s.id }}" style="--c: {{ s.color }}">{{ s.name }}</a>
@@ -64,6 +68,17 @@
   </section><!-- /pulse -->
   {% endif %}
 
+  {% if learn_teaser %}
+  <section id="learn" class="learn-teaser topic" style="--c: {{ learn_color }}">
+    <div class="section-head"><span class="chip">Learn</span><a class="see-all" href="{{ root }}learn/">All videos →</a></div>
+    <div class="video-grid">
+      {% for v in learn_teaser %}
+      {{ video_card(v, learn_color) }}
+      {% endfor %}
+    </div>
+  </section><!-- /learn-teaser -->
+  {% endif %}
+
   {% if writing %}
   <section class="writing">
     <div class="section-head"><span class="chip" style="--c: #5a4fcf">From my writing</span><a class="see-all" href="{{ root }}blog/">All posts →</a></div>
@@ -110,3 +125,4 @@
   {% endfor %}
 </main>
 {% endblock %}
+{% block scripts %}{% if learn_teaser %}<script src="{{ root }}static/learn.js" defer></script>{% endif %}{% endblock %}

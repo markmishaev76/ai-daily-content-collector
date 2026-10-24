@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% from "_thumb.html" import thumb %}
+{% from "_video.html" import video_card %}
+{% block title %}Learn · Mark Mishaev{% endblock %}
+{% block share_title %}Learn · The Daily Brief{% endblock %}
+{% block share_description %}Popular recent videos for building AI engineering and AI-assisted development skills.{% endblock %}
+{% block body %}
+<main class="magazine learn-page" style="--c: {{ learn_color }}">
+  <h2 class="today">Learn · popular videos on AI engineering and AI-assisted development</h2>
+
+  {% if learn.top %}
+  <section class="topic">
+    <div class="section-head"><span class="chip">Most watched</span><span class="meta">Views per day{% if learn.days %}, last {{ learn.days }} days{% endif %}</span></div>
+    <div class="video-grid">
+      {% for v in learn.top %}
+      {{ video_card(v, learn_color) }}
+      {% endfor %}
+    </div><!-- /video-grid -->
+  </section>
+  {% else %}
+  <p class="meta">No videos right now. Check back tomorrow.</p>
+  {% endif %}
+
+  {% if learn.channels %}
+  <section class="learn-channels topic">
+    <div class="section-head"><span class="chip">Recent from each channel</span></div>
+    <div class="channel-cols">
+      {% for c in learn.channels %}
+      <div class="channel">
+        <h3>{% if c.url %}<a href="{{ c.url }}" target="_blank" rel="noopener noreferrer">{{ c.name }} ↗</a>{% else %}{{ c.name }}{% endif %}</h3>
+        {% for v in c.videos %}
+        <article class="row">
+          {{ thumb(v, learn_color, "thumb-sm") }}
+          <div>
+            <div class="t"><a href="{{ v.link }}" target="_blank" rel="noopener noreferrer">{{ v.title }}</a></div>
+            <div class="meta">{{ v.meta }}</div>
+          </div>
+        </article>
+        {% else %}
+        <p class="meta">No other videos{% if learn.days %} in the last {{ learn.days }} days{% endif %}.</p>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+  </section><!-- /learn-channels -->
+  {% endif %}
+</main>
+{% endblock %}
+{% block scripts %}{% if learn.top %}<script src="{{ root }}static/learn.js" defer></script>{% endif %}{% endblock %}

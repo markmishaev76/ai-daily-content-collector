@@ -30,11 +30,15 @@
     <nav>
       <a href="{{ root }}"{% if page == "feed" %} class="active"{% endif %}>Feed</a>
       <a href="{{ root }}blog/"{% if page == "blog" %} class="active"{% endif %}>Blog</a>
+      {% if learn_page %}
+      <a href="{{ root }}learn/"{% if page == "learn" %} class="active"{% endif %}>Learn</a>
+      {% endif %}
       <a href="{{ root }}about/"{% if page == "about" %} class="active"{% endif %}>About</a>
       <a href="{{ root }}feed.xml">RSS</a>
     </nav>
   </header>
   {% block body %}{% endblock %}
+  {% block scripts %}{% endblock %}
   <footer class="site-footer">Updated {{ today }}, {{ updated }}</footer>
   {% if cf_analytics_token %}
   <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ cf_analytics_token }}"}'></script>

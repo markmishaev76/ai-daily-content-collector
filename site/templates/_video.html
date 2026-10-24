@@ -1,0 +1,12 @@
+{% macro video_card(v, color) %}
+<article class="video">
+  <div class="player" style="--c: {{ color }}" data-video-id="{{ v.id }}" data-title="{{ v.title }}">
+    <button type="button" class="play" aria-label="Play: {{ v.title }}">
+      <img src="{{ v.image }}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">
+      <span class="play-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+  <div class="t"><a href="{{ v.link }}" target="_blank" rel="noopener noreferrer">{{ v.title }}</a></div>
+  <div class="meta">{{ v.meta }}</div>
+</article>
+{% endmacro %}
