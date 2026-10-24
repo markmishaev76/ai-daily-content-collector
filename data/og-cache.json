@@ -5,6 +5,18 @@
   "icon": "https://artificialanalysis.ai/favicon.ico",
   "image": "https://artificialanalysis.ai/en/models/kimi-k3-1-pro/opengraph-image?3850766eb2d567bc"
  },
+ "https://ayoships.com/breakdowns/block-blast": {
+  "description": "Rules downloaded from their server decide your pieces, your score and your ads. One waits for an expensive ad, then asks for a hand you canât place.",
+  "fetched": "2026-10-24",
+  "icon": "https://ayoships.com/ayo.jpg",
+  "image": "https://ayoships.com/breakdowns/block-blast/og.jpg?v=3"
+ },
+ "https://corgi.computer/": {
+  "description": "Friendly helper for your agents.",
+  "fetched": "2026-10-24",
+  "icon": null,
+  "image": null
+ },
  "https://datatracker.ietf.org/wg/oauth/about/": {
   "description": null,
   "fetched": "2026-10-23",
@@ -83,11 +95,29 @@
   "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
   "image": null
  },
+ "https://philipotoole.com/twelve-years-of-distributed-sqlite/": {
+  "description": "In September 2014 I published a short post announcing rqlite. The idea was simple: take SQLite, put a Raft log in front of it, and replicate every write to a cluster so that the loss of a node did not mean the loss of the data. The source went on GitHub that same weekend. As…",
+  "fetched": "2026-10-24",
+  "icon": "https://philipotoole.com/wp-content/uploads/2015/12/SlyEye-300x300.jpg",
+  "image": null
+ },
+ "https://rtfeldman.com/fp-vs-c": {
+  "description": null,
+  "fetched": "2026-10-24",
+  "icon": null,
+  "image": null
+ },
  "https://s46486.pcdn.co/blog/checking-the-rubrics-rift-results-on-five-public-benchmarks/": {
   "description": "Missing and misaligned criteria hit about half of 147 benchmark tasks; atomicity problems were rare. RIFT results on rubric quality in five domains.",
   "fetched": "2026-10-23",
   "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
   "image": "https://s46486.pcdn.co/wp-content/uploads/2026/10/Precision_in_a_Shifting_Grid.png"
+ },
+ "https://simonwillison.net/2026/Oct/22/armin-ronacher/": {
+  "description": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins.",
+  "fetched": "2026-10-24",
+  "icon": null,
+  "image": null
  },
  "https://simonwillison.net/2026/Oct/22/donating-agent-skills/": {
   "description": "News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, …",
@@ -190,6 +220,12 @@
   "fetched": "2026-10-23",
   "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
   "image": null
+ },
+ "https://www.sciencedaily.com/releases/2026/10/261018084421.htm": {
+  "description": "Scientists have uncovered an unexpected culprit behind sleep loss in Alzheimerâs disease: overactive immune cells in the brain. By temporarily removing these cells, researchers restored more than two hours of sleep per day in mice, revealing a promising new target for treatment.",
+  "fetched": "2026-10-24",
+  "icon": null,
+  "image": "https://www.sciencedaily.com/images/1920/sleep-man-brain-spine-nervous-system.webp"
  },
  "https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware/": {
   "description": "Tor exit relays hijacked, banks spot rogue AI agents in customer accounts, and researcher analyzes Heartbreaker macOS ransomware.",
