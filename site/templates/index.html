@@ -41,7 +41,7 @@
       {% if lead.note %}<p class="note">{{ lead.note }}</p>{% endif %}
       {% if lead.excerpt %}<p>{{ lead.excerpt }}</p>{% endif %}
       {% if lead.also %}
-      <p class="also">Also covered by {% for a in lead.also %}<a href="{{ a.link }}" rel="noopener noreferrer">{{ a.name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</p><!-- /also -->
+      <p class="also">Also covered by {% for a in lead.also %}<a href="{{ a.link }}" target="_blank" rel="noopener noreferrer">{{ a.name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</p><!-- /also -->
       {% endif %}
     </div>
   </article><!-- /lead -->
@@ -55,8 +55,8 @@
       <article class="row">
         {{ thumb(item, pulse_color, "thumb-sm") }}
         <div>
-          <div class="t">{% if item.thread %}<a href="{{ item.thread }}" rel="noopener noreferrer">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</div>
-          <div class="meta">{{ item.meta }}{% if item.link %} · <a href="{{ item.link }}" rel="noopener noreferrer">{{ item.link_domain }} ↗</a>{% endif %}{% for a in item.also %} · also on <a href="{{ a.thread }}" rel="noopener noreferrer">{{ a.source }}</a>{% endfor %}</div>
+          <div class="t">{% if item.thread %}<a href="{{ item.thread }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</div>
+          <div class="meta">{{ item.meta }}{% if item.link %} · <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">{{ item.link_domain }} ↗</a>{% endif %}{% for a in item.also %} · also on <a href="{{ a.thread }}" target="_blank" rel="noopener noreferrer">{{ a.source }}</a>{% endfor %}</div>
         </div>
       </article>
       {% endfor %}
@@ -69,7 +69,7 @@
     <div class="section-head"><span class="chip" style="--c: #5a4fcf">From my writing</span><a class="see-all" href="{{ root }}blog/">All posts →</a></div>
     <div class="writing-cards">
       {% for post in writing %}
-      <a class="writing-card" href="{{ post_href(post, root) }}">
+      <a class="writing-card" href="{{ post_href(post, root) }}"{% if post.source == "medium" %} target="_blank" rel="noopener noreferrer"{% endif %}>
         <div class="t">{{ post.title }}</div>
         <div class="meta">{% if post.source == "medium" %}<span class="label">on Medium</span>{% endif %}{% if post.date %}{{ post.date }}{% endif %}</div>
       </a>

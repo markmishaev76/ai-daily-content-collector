@@ -141,7 +141,7 @@ def test_also_covered_escaped_and_safe(tmp_path):
     assert "Also covered by" in also
     assert "a&lt;b&gt;.com" in also and "<b>" not in also
     assert "javascript:" not in lead and "evil.com" not in lead
-    assert '<a href="http://c.com/2" rel="noopener noreferrer">c.com</a>' in also
+    assert '<a href="http://c.com/2" target="_blank" rel="noopener noreferrer">c.com</a>' in also
 
 
 def test_lead_title_and_labels_escaped(tmp_path):
@@ -240,6 +240,21 @@ def test_writing_strip_three_newest(tmp_path):
 
     assert re.findall(r"Medium \d", strip) == ["Medium 5", "Medium 4", "Medium 3"]
     assert strip.count("on Medium") == 3
+
+
+def test_external_links_open_in_new_tab_internal_do_not(tmp_path):
+    html = build(tmp_path, {"Topic": [article(title="Story", link="https://x.org/a")]},
+                 posts=[medium_post(1, "2026-04-17"), local_post(slug="mine")])
+    blog = (tmp_path / "blog" / "index.html").read_text()
+    about = (tmp_path / "about" / "index.html").read_text()
+
+    for page in (html, blog):
+        assert 'href="https://medium.com/@mark-mishaev/p1" target="_blank" rel="noopener noreferrer"' in page
+        assert re.search(r'href="[./]*blog/mine/">', page)
+    assert '<a href="https://x.org/a" target="_blank" rel="noopener noreferrer">Story</a>' in html
+    assert 'href="https://www.linkedin.com/in/mark-mishaev-64a25452/" target="_blank"' in about
+    assert re.search(r'<a class="brand" href="[^"]*">', html)
+    assert html.count('target="_blank"') == html.count('rel="noopener noreferrer')
 
 
 def test_post_page_links_use_relative_root(tmp_path):
@@ -418,7 +433,7 @@ def test_pulse_under_lead_above_writing_and_sections_with_chip(tmp_path):
         < html.index('id="topic"')
     assert re.findall(r'href="#([a-z-]+)"', block(html, "chips")) == ["the-pulse", "topic"]
     pulse = block(html, "pulse")
-    assert '<a href="https://www.reddit.com/r/ClaudeAI/comments/abc/t/" rel="noopener noreferrer">Thread</a>' in pulse
+    assert '<a href="https://www.reddit.com/r/ClaudeAI/comments/abc/t/" target="_blank" rel="noopener noreferrer">Thread</a>' in pulse
     assert "r/ClaudeAI · 1.2k upvotes · 56 comments · 1d ago" in pulse
     assert '<span class="tile-domain">r/ClaudeAI</span>' in pulse
 
@@ -427,7 +442,7 @@ def test_pulse_link_post_shows_external_link_and_preview(tmp_path):
     pulse = block(build_pulse(tmp_path, [pulse_item(link="https://blog.example.com/x",
                                                     image="https://preview.redd.it/a.jpg")]), "pulse")
 
-    assert '<a href="https://blog.example.com/x" rel="noopener noreferrer">blog.example.com ↗</a>' in pulse
+    assert '<a href="https://blog.example.com/x" target="_blank" rel="noopener noreferrer">blog.example.com ↗</a>' in pulse
     assert 'src="https://preview.redd.it/a.jpg"' in pulse
 
 
@@ -450,9 +465,9 @@ def test_pulse_feed_item_with_other_discussion_and_subtitle(tmp_path):
 
     assert "Top threads on Hacker News and Lobsters, last 24 hours" in html
     assert "Hacker News · 321 points · 56 comments · 1d ago" in pulse
-    assert '<a href="https://news.ycombinator.com/item?id=1" rel="noopener noreferrer">Post</a>' in pulse
-    assert '<a href="https://blog.example.com/x" rel="noopener noreferrer">blog.example.com ↗</a>' in pulse
-    assert 'also on <a href="https://lobste.rs/s/z/x" rel="noopener noreferrer">Lobsters</a>' in pulse
+    assert '<a href="https://news.ycombinator.com/item?id=1" target="_blank" rel="noopener noreferrer">Post</a>' in pulse
+    assert '<a href="https://blog.example.com/x" target="_blank" rel="noopener noreferrer">blog.example.com ↗</a>' in pulse
+    assert 'also on <a href="https://lobste.rs/s/z/x" target="_blank" rel="noopener noreferrer">Lobsters</a>' in pulse
     assert "javascript:" not in pulse and ">Bad<" not in pulse
     assert '<span class="tile-domain">blog.example.com</span>' in pulse
 

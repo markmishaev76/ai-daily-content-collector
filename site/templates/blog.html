@@ -5,7 +5,7 @@
   <h2>Blog</h2>
   {% for post in posts %}
   <div class="post-row">
-    <a href="{{ post_href(post, root) }}">{{ post.title }}</a>
+    <a href="{{ post_href(post, root) }}"{% if post.source == "medium" %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ post.title }}</a>
     <div class="meta">
       {% if post.source == "medium" %}<span class="label">on Medium</span>{% endif %}
       {% if post.date %}{{ post.date }}{% endif %}

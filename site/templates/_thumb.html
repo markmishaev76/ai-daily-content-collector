@@ -13,5 +13,5 @@
 {% endmacro %}
 
 {% macro title(item) %}
-{% if item.link %}<a href="{{ item.link }}" rel="noopener noreferrer">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
+{% if item.link %}<a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
 {% endmacro %}
