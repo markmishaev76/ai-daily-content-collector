@@ -134,13 +134,13 @@ def test_og_fetch_failures_do_not_fail_build(tmp_path):
     assert code == 0 and (out / "index.html").exists()
 
 
-def run_pulse(tmp_path, collect):
+def run_pulse(tmp_path, collect, fetch_meta=lambda url: None, feed=None):
     out = tmp_path / "public"
     code = build_site.main(out_dir=out, config=dict(CONFIG, pulse={"subreddits": ["ClaudeAI"]}),
-                           aggregator=FakeAggregator({"T": [article(1)]}), fetch_medium=lambda url: [],
+                           aggregator=FakeAggregator(feed or {"T": [article(1)]}), fetch_medium=lambda url: [],
                            data_path=tmp_path / "medium.json", posts_dir=tmp_path / "posts",
                            about_path=tmp_path / "about.md", history_path=tmp_path / "h.json",
-                           pinned_path=tmp_path / "pinned.yaml", now=NOW, fetch_meta=lambda url: None,
+                           pinned_path=tmp_path / "pinned.yaml", now=NOW, fetch_meta=fetch_meta,
                            og_cache_path=tmp_path / "og.json", collect_pulse=collect)
     return code, (out / "index.html").read_text() if (out / "index.html").exists() else ""
 
@@ -148,8 +148,8 @@ def run_pulse(tmp_path, collect):
 def test_pulse_failure_hides_section_and_build_succeeds(tmp_path, caplog):
     from src.pulse import PulseUnavailable
 
-    def collect(config, now):
-        raise PulseUnavailable("every subreddit failed (r/ClaudeAI: HTTP 403)")
+    def collect(config, now, shown):
+        raise PulseUnavailable("every source failed (r/ClaudeAI: HTTP 403)")
 
     code, html = run_pulse(tmp_path, collect)
 
@@ -157,23 +157,33 @@ def test_pulse_failure_hides_section_and_build_succeeds(tmp_path, caplog):
     assert "The Pulse hidden" in caplog.text and "HTTP 403" in caplog.text
 
 
-def test_pulse_rendered_with_link_post_thumbnail_from_page(tmp_path):
-    item = {"title": "Big thread", "subreddit": "ClaudeAI", "ups": 900, "comments": 10, "created": NOW,
-            "thread": "https://www.reddit.com/r/ClaudeAI/comments/x/", "link": "https://blog.example.com/p",
-            "image": None}
+def pulse_item(title="Big thread", link="https://blog.example.com/p"):
+    return {"title": title, "source": "Hacker News", "points": 900, "unit": "points", "comments": 10, "created": NOW,
+            "thread": "https://news.ycombinator.com/item?id=1", "link": link, "image": None}
 
-    out = tmp_path / "public"
-    code = build_site.main(out_dir=out, config=dict(CONFIG, pulse={"subreddits": ["ClaudeAI"]}),
-                           aggregator=FakeAggregator({"T": [article(1)]}), fetch_medium=lambda url: [],
-                           data_path=tmp_path / "medium.json", posts_dir=tmp_path / "posts",
-                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json",
-                           pinned_path=tmp_path / "pinned.yaml", now=NOW,
+
+def test_pulse_rendered_with_link_post_thumbnail_from_page(tmp_path, caplog):
+    caplog.set_level("INFO")
+    code, html = run_pulse(tmp_path, lambda config, now, shown: ([pulse_item()], {"Hacker News": 1, "Lobsters": None}),
                            fetch_meta=lambda url: {"image": "https://blog.example.com/og.png", "description": None,
-                                                   "icon": None},
-                           og_cache_path=tmp_path / "og.json", collect_pulse=lambda config, now: ([item], {"ClaudeAI": 1}))
-    html = (out / "index.html").read_text()
+                                                   "icon": None})
 
     assert code == 0 and "Big thread" in html and "https://blog.example.com/og.png" in html
+    assert "The Pulse: Hacker News 1, Lobsters failed; showing 1" in caplog.text
+
+
+def test_pulse_gets_page_links_to_dedupe(tmp_path):
+    seen = []
+
+    def collect(config, now, shown):
+        seen.append(set(shown))
+        return [pulse_item()], {"Hacker News": 1}
+
+    code, _ = run_pulse(tmp_path, collect, feed={"T": [article(i) for i in range(7)]})
+
+    assert code == 0
+    assert {f"https://example.com/{i}" for i in range(5)} <= seen[0]
+    assert "https://example.com/6" not in seen[0]
 
 
 def test_no_pulse_config_skips_reddit(tmp_path):

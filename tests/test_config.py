@@ -72,3 +72,14 @@ def test_pulse_subreddits():
     assert [name for name, _ in s["subreddits"]] == ["EngineeringManagers", "ClaudeAI", "cybersecurity",
                                                      "ChatGPTCoding", "cursor"]
     assert s["min_upvotes"] == 100 and s["limit"] == 10 and s["max_age_hours"] == 24
+
+
+def test_pulse_feeds():
+    from src import pulse
+
+    s = pulse.settings(load())
+
+    assert s["hacker_news"] == {"min_points": 100}
+    assert s["lobsters"]["min_score"] == 15 and {"ai", "security", "vibecoding"} <= s["lobsters"]["tags"]
+    assert pulse.relevant("Anthropic ships Claude 5", None, (), s)
+    assert not pulse.relevant("Air purifiers as white noise machines", None, (), s)

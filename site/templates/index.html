@@ -49,14 +49,14 @@
 
   {% if pulse %}
   <section id="the-pulse" class="topic pulse" style="--c: {{ pulse_color }}">
-    <div class="section-head"><span class="chip">The Pulse</span><span class="meta">Top Reddit threads, last 24 hours</span></div>
+    <div class="section-head"><span class="chip">The Pulse</span><span class="meta">Top threads on {{ pulse_sources }}, last 24 hours</span></div>
     <div class="pulse-list">
       {% for item in pulse %}
       <article class="row">
         {{ thumb(item, pulse_color, "thumb-sm") }}
         <div>
           <div class="t">{% if item.thread %}<a href="{{ item.thread }}" rel="noopener noreferrer">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</div>
-          <div class="meta">{{ item.meta }}{% if item.link %} · <a href="{{ item.link }}" rel="noopener noreferrer">{{ item.link_domain }} ↗</a>{% endif %}</div>
+          <div class="meta">{{ item.meta }}{% if item.link %} · <a href="{{ item.link }}" rel="noopener noreferrer">{{ item.link_domain }} ↗</a>{% endif %}{% for a in item.also %} · also on <a href="{{ a.thread }}" rel="noopener noreferrer">{{ a.source }}</a>{% endfor %}</div>
         </div>
       </article>
       {% endfor %}

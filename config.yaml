@@ -380,11 +380,56 @@ story:
     - "technologyreview.com"
     - "spectrum.ieee.org"
 
-# The Pulse (src/pulse.py): top Reddit threads of the last 24 hours, shown under the story of the day (site only).
+# The Pulse (src/pulse.py): the most-discussed threads of the last 24 hours on Hacker News, Lobsters and
+# Reddit, shown under the story of the day (site only). Ranked by points over each source's threshold.
 pulse:
-  min_upvotes: 100
   limit: 10
   max_age_hours: 24
+  # Hacker News and Lobsters posts must be on topic: a Lobsters tag below, a main.AX_THEME_KEYWORDS hit,
+  # a CVE/breach title, a story.source_tiers primary link, or one of these whole words in the title.
+  keywords:
+    - "ai"
+    - "llm"
+    - "llms"
+    - "agent"
+    - "agents"
+    - "chatgpt"
+    - "openai"
+    - "anthropic"
+    - "claude"
+    - "gemini"
+    - "security"
+    - "vulnerability"
+    - "vulnerabilities"
+    - "exploit"
+    - "rce"
+    - "cve"
+    - "malware"
+    - "phishing"
+    - "backdoor"
+    - "hacker"
+    - "hackers"
+    - "hacked"
+    - "leaks"
+    - "cyber"
+    - "cybersecurity"
+    - "oauth"
+    - "passkeys"
+    - "authentication"
+    - "kubernetes"
+    - "devops"
+    - "outage"
+    - "engineering manager"
+    - "engineering managers"
+    - "engineering management"
+  hacker_news:
+    min_points: 100
+  lobsters:
+    # Lobsters scores run far below Hacker News: 15 is about the top quarter of a day's stories.
+    min_score: 15
+    tags: ["ai", "ai-tooling", "vibecoding", "ml", "security", "cryptography", "devops", "practices", "scaling"]
+  # Reddit is read only when it answers: GitHub runners get 403 without REDDIT_CLIENT_ID/SECRET.
+  min_upvotes: 100
   subreddits:
     # A small sub: its best daily threads rarely reach 100 upvotes.
     - name: "EngineeringManagers"

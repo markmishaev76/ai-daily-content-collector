@@ -179,22 +179,29 @@ def compact(n: int) -> str:
 def _pulse(items: Optional[List[Dict]], now: datetime) -> List[Dict]:
     out = []
     for item in items or []:
-        sub = f"r/{item['subreddit']}"
         hours = (now - item["created"]).total_seconds() / 3600
         link = safe_link(item.get("link") or "")
+        also = [{"source": a["source"], "thread": safe_link(a.get("thread") or "")} for a in item.get("also") or []]
         out.append({
             "title": item["title"],
             "thread": safe_link(item.get("thread") or ""),
             "link": link,
             "link_domain": _domain(link),
-            "source": sub,
-            "domain": sub,
-            "meta": f"{sub} · {compact(item['ups'])} upvotes · {compact(item['comments'])} comments"
+            "source": item["source"],
+            "domain": _domain(link) or item["source"],
+            "meta": f"{item['source']} · {compact(item['points'])} {item['unit']} · {compact(item['comments'])} comments"
                     + (f" · {age_label(hours)}" if age_label(hours) else ""),
+            "also": [a for a in also if a["thread"]],
             "image": safe_image(item.get("image")),
             "icon": safe_image(item.get("icon")),
         })
     return out
+
+
+def _pulse_sources(items: List[Dict]) -> str:
+    """'Hacker News, Lobsters and Reddit' in first-seen order, every subreddit counted as Reddit."""
+    names = list(dict.fromkeys("Reddit" if i["source"].startswith("r/") else i["source"] for i in items))
+    return " and ".join(filter(None, [", ".join(names[:-1]), names[-1]])) if names else ""
 
 
 def _split_cards(articles: List[Dict]):
@@ -253,7 +260,9 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
         page_url = SITE_URL + rel.removesuffix("index.html")
         path.write_text(env.get_template(template).render(**common, page_url=page_url, **ctx))
 
-    write("index.html", "index.html", root="", page="feed", **_magazine(feed, story), pulse=_pulse(pulse, now), pulse_color=PULSE_COLOR)
+    pulse_items = _pulse(pulse, now)
+    write("index.html", "index.html", root="", page="feed", **_magazine(feed, story), pulse=pulse_items,
+          pulse_sources=_pulse_sources(pulse_items), pulse_color=PULSE_COLOR)
     write("blog/index.html", "blog.html", root="../", page="blog", posts=all_posts)
     for post in all_posts:
         if post["source"] == "local":

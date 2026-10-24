@@ -40,15 +40,16 @@ def _rendered(raw: Dict[str, List[Dict]], feed: Dict[str, List[Dict]], lead) -> 
     return [a for articles in raw.values() for a in articles if a.get('link') in links]
 
 
-def _fetch_pulse(config: dict, now: datetime, collect=None):
-    """The Pulse's items, or None (section hidden) when Reddit can't be read; never fails the build."""
-    collect = collect or (lambda c, n: pulse.collect(c, n, env=os.environ))
+def _fetch_pulse(config: dict, now: datetime, shown, collect=None):
+    """The Pulse's items minus links in `shown`, or None (section hidden) when no source can be read;
+    never fails the build."""
+    collect = collect or (lambda c, n, s: pulse.collect(c, n, env=os.environ, shown=s))
     try:
-        items, counts = collect(config, now)
+        items, counts = collect(config, now, shown)
     except pulse.PulseUnavailable as e:
         logger.warning(f"The Pulse hidden: {e}")
         return None
-    logger.info("The Pulse: " + ", ".join(f"r/{sub} {'failed' if n is None else n}" for sub, n in counts.items())
+    logger.info("The Pulse: " + ", ".join(f"{source} {'failed' if n is None else n}" for source, n in counts.items())
                 + f"; showing {len(items)}")
     if not items:
         logger.warning("The Pulse hidden: no thread qualified")
@@ -94,12 +95,14 @@ def main(out_dir: Path = Path("public"), config: dict = None, aggregator=None,
         return 1
 
     lead = story.pick_story(raw, config, history, pinned, now)
-    pulse_items = _fetch_pulse(config, now, collect_pulse) if pulse_settings else None
+    rendered = _rendered(raw, feed, lead)
+    shown = {a.get('link') for a in rendered} | ({lead.link} if lead else set())
+    pulse_items = _fetch_pulse(config, now, shown, collect_pulse) if pulse_settings else None
     og_cache = enrich.load_cache(og_cache_path)
     started = time.monotonic()
     pulse_pages = [{"link": i["link"], "image": None, "feed": ""} for i in pulse_items or []
                    if i.get("link") and not i.get("image")]
-    targets = _rendered(raw, feed, lead) + pulse_pages
+    targets = rendered + pulse_pages
     counts = enrich.enrich(targets, og_cache, now.date(), fetch=fetch_meta)
     logger.info(f"Page metadata: {counts['fetched']} fetched, {counts['cached']} cached, "
                 f"{counts['og_images']} og:images in {time.monotonic() - started:.1f}s")

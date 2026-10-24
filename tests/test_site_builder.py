@@ -398,7 +398,7 @@ def test_hn_lead_uses_description_not_boilerplate(tmp_path):
 
 
 def pulse_item(title="Thread", **kw):
-    item = {"title": title, "subreddit": "ClaudeAI", "ups": 1234, "comments": 56,
+    item = {"title": title, "source": "r/ClaudeAI", "points": 1234, "unit": "upvotes", "comments": 56,
             "created": datetime(2026, 10, 21, 3, 0, tzinfo=timezone.utc),
             "thread": "https://www.reddit.com/r/ClaudeAI/comments/abc/t/", "link": None, "image": None}
     item.update(kw)
@@ -437,6 +437,30 @@ def test_pulse_titles_escaped_and_bad_links_dropped(tmp_path):
 
     assert "<script>" not in pulse and "&lt;script&gt;" in pulse
     assert "javascript:" not in pulse and "http://x/a.jpg" not in pulse
+
+
+def test_pulse_feed_item_with_other_discussion_and_subtitle(tmp_path):
+    html = build_pulse(tmp_path, [pulse_item("Post", source="Hacker News", points=321, unit="points",
+                                             thread="https://news.ycombinator.com/item?id=1",
+                                             link="https://blog.example.com/x",
+                                             also=[{"source": "Lobsters", "thread": "https://lobste.rs/s/z/x"},
+                                                   {"source": "Bad", "thread": "javascript:alert(1)"}]),
+                                  pulse_item(source="Lobsters", points=40, unit="points")])
+    pulse = block(html, "pulse")
+
+    assert "Top threads on Hacker News and Lobsters, last 24 hours" in html
+    assert "Hacker News · 321 points · 56 comments · 1d ago" in pulse
+    assert '<a href="https://news.ycombinator.com/item?id=1" rel="noopener noreferrer">Post</a>' in pulse
+    assert '<a href="https://blog.example.com/x" rel="noopener noreferrer">blog.example.com ↗</a>' in pulse
+    assert 'also on <a href="https://lobste.rs/s/z/x" rel="noopener noreferrer">Lobsters</a>' in pulse
+    assert "javascript:" not in pulse and ">Bad<" not in pulse
+    assert '<span class="tile-domain">blog.example.com</span>' in pulse
+
+
+def test_pulse_subtitle_groups_subreddits_as_reddit(tmp_path):
+    html = build_pulse(tmp_path, [pulse_item(), pulse_item(source="r/cursor")])
+
+    assert "Top threads on Reddit, last 24 hours" in html
 
 
 def test_pulse_hidden_when_empty(tmp_path):
