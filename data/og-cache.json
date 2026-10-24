@@ -11,11 +11,23 @@
   "icon": "https://ayoships.com/ayo.jpg",
   "image": "https://ayoships.com/breakdowns/block-blast/og.jpg?v=3"
  },
+ "https://blog.calif.io/p/iphone": {
+  "description": "Today, we hacked what we'd set out to hack: the iPhone.",
+  "fetched": "2026-10-24",
+  "icon": "https://substackcdn.com/image/fetch/$s_!9qRJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5a25c608-49d1-4a04-9075-fd975e093620%2Fapple-touch-icon-57x57.png",
+  "image": "https://substackcdn.com/image/youtube/w_728,c_limit/_GJVKVNMczM"
+ },
  "https://corgi.computer/": {
   "description": "Friendly helper for your agents.",
   "fetched": "2026-10-24",
   "icon": null,
   "image": null
+ },
+ "https://cve.0xosprey.com/": {
+  "description": "Live count of published CVE records, rebuilt daily from the official CVE list.",
+  "fetched": "2026-10-24",
+  "icon": "https://cve.0xosprey.com/apple-touch-icon.png",
+  "image": "https://cve.0xosprey.com/og.png"
  },
  "https://datatracker.ietf.org/wg/oauth/about/": {
   "description": null,
@@ -46,6 +58,18 @@
   "fetched": "2026-10-23",
   "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
   "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_g9d0nag9d0.2e16d0ba.fill-1200x600.jpg"
+ },
+ "https://drew.silcock.dev/blog/is-this-the-new-cyber-normal/": {
+  "description": "A week of cyber incidents one after another – is this what every week is going to look like and what can we do about it?",
+  "fetched": "2026-10-24",
+  "icon": "https://drew.silcock.dev/apple-touch-icon.png",
+  "image": "https://drew.silcock.dev/open-graph/blog/is-this-the-new-cyber-normal.png"
+ },
+ "https://github.com/obsproject/obs-studio/releases/tag/33.0.0": {
+  "description": "33.0 New Features Updated CEF from 127/6533 to 150/7871 [WizardCM] (#13900) This is a massive update to the underlying framework used for browser sources and docks from the July 2024 release to S...",
+  "fetched": "2026-10-24",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://opengraph.githubassets.com/82c6e9a0e4255bc7370dd6125ccb078791f7b4a2f6b9c5e4b0198d0e7df1ff10/obsproject/obs-studio/releases/tag/33.0.0"
  },
  "https://huggingface.co/blog/allenai/litpivot": {
   "description": "A Blog post by Ai2 on Hugging Face",
@@ -83,9 +107,21 @@
   "icon": "https://metr.org/assets/images/favicon/apple-touch-icon.png",
   "image": "https://metr.org/assets/images/logo/og-image-logo.png"
  },
+ "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8": {
+  "description": null,
+  "fetched": "2026-10-24",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/openai-nask-ai-safety-security-partnership": {
   "description": null,
   "fetched": "2026-10-23",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/securing-our-frontier-model-training-environment/": {
+  "description": null,
+  "fetched": "2026-10-24",
   "icon": null,
   "image": null
  },
@@ -143,6 +179,12 @@
   "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
   "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-22-at-5.42.44-PM.png?resize=1200,590"
  },
+ "https://twitter.com/jaredkushner/status/2113376217415958767": {
+  "description": "This excerpt is from a book containing outrageous and categorically false allegations. We denied every claim on the record, yet the author provided not a single shred of verifiable evidence to substantiate them. No bank statements, wire transfer records, account numbers, transaction dates, or other…",
+  "fetched": "2026-10-24",
+  "icon": "https://x.com/apple-touch-icon.png",
+  "image": "https://pbs.twimg.com/profile_images/1554293796438941697/FjT4jVh1_400x400.jpg"
+ },
  "https://twitter.com/robbietilton/status/2111936458923851923": {
   "description": "I turned my TV into a Game Boy Color with a Pokemon town as my home screen. Walk into a building to open an app. Want to change a setting? Beat the gym leader first. Opus 5.5 is the goat.",
   "fetched": "2026-10-23",
@@ -172,6 +214,12 @@
   "fetched": "2026-10-23",
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6adb809b719bc71151f7203f_directory-manager-attributes-approval-workflows-og.webp"
+ },
+ "https://www.bitdefender.com/en-us/blog/hotforsecurity/hacker-leaks-281-gb-data-germany-afd": {
+  "description": "Germany&#x27;s far-right AfD (Alternative für Deutschland) party has confirmed that it has suffered a security breach, after a hacker published what appear to be hundreds of thousands of the controversial political party&#x27;s internal emails.",
+  "fetched": "2026-10-24",
+  "icon": "https://download.bitdefender.com/resources/images/favicon/apple-touch-icon-57x57.png",
+  "image": "https://blogapp.bitdefender.com/hotforsecurity/content/images/2026/10/afd.jpeg"
  },
  "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/": {
   "description": "AI agents can be manipulated through malicious emails, websites, and plugins into executing commands, stealing data, or deleting files using their legitimate permissions. Gen Digital explains how its Agent Trust Hub helps protect agents through skill verification, secure connectivity, and runtime controls that intercept dangerous act",
@@ -244,5 +292,11 @@
   "fetched": "2026-10-23",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2024/06/PHP.jpeg"
+ },
+ "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet": {
+  "description": null,
+  "fetched": "2026-10-24",
+  "icon": null,
+  "image": null
  }
 }
