@@ -1,5 +1,5 @@
 import json
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 import build_site
 
@@ -23,14 +23,14 @@ CONFIG = {"topics": [{"name": "T", "sources": []}], "brief": {"max_articles_per_
 NOW = datetime(2026, 10, 23, 3, 0, tzinfo=timezone.utc)
 
 
-def run(tmp_path, feed, fetch_medium=lambda url: [], fetch_meta=lambda url: None):
+def run(tmp_path, feed, fetch_medium=lambda url: [], fetch_meta=lambda url: None, now=NOW):
     out = tmp_path / "public"
     code = build_site.main(out_dir=out, config=CONFIG, aggregator=FakeAggregator(feed),
                            fetch_meta=fetch_meta, og_cache_path=tmp_path / "og-cache.json",
                            fetch_medium=fetch_medium, data_path=tmp_path / "medium.json",
                            posts_dir=tmp_path / "posts", about_path=tmp_path / "about.md",
-                           history_path=tmp_path / "lead-history.json", pinned_path=tmp_path / "pinned.yaml",
-                           now=NOW)
+                           history_path=tmp_path / "lead-history.json", seen_path=tmp_path / "seen.json", pinned_path=tmp_path / "pinned.yaml",
+                           now=now)
     return code, out
 
 
@@ -139,7 +139,7 @@ def run_pulse(tmp_path, collect, fetch_meta=lambda url: None, feed=None):
     code = build_site.main(out_dir=out, config=dict(CONFIG, pulse={"subreddits": ["ClaudeAI"]}),
                            aggregator=FakeAggregator(feed or {"T": [article(1)]}), fetch_medium=lambda url: [],
                            data_path=tmp_path / "medium.json", posts_dir=tmp_path / "posts",
-                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json",
+                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json", seen_path=tmp_path / "seen.json",
                            pinned_path=tmp_path / "pinned.yaml", now=NOW, fetch_meta=fetch_meta,
                            og_cache_path=tmp_path / "og.json", collect_pulse=collect)
     return code, (out / "index.html").read_text() if (out / "index.html").exists() else ""
@@ -200,7 +200,7 @@ def run_learn(tmp_path, collect, caplog):
     code = build_site.main(out_dir=out, config=dict(CONFIG, learn={"channels": channels}),
                            aggregator=FakeAggregator({"T": [article(1)]}), fetch_medium=lambda url: [],
                            data_path=tmp_path / "medium.json", posts_dir=tmp_path / "posts",
-                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json",
+                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json", seen_path=tmp_path / "seen.json",
                            pinned_path=tmp_path / "pinned.yaml", now=NOW, fetch_meta=lambda url: None,
                            og_cache_path=tmp_path / "og.json", collect_learn=collect)
     return code, out
@@ -237,9 +237,55 @@ def test_invalid_learn_config_fails_build(tmp_path, caplog):
     code = build_site.main(out_dir=out, config=dict(CONFIG, learn={"channels": [{"name": "X", "id": "@x"}]}),
                            aggregator=FakeAggregator({"T": [article(1)]}), fetch_medium=lambda url: [],
                            data_path=tmp_path / "medium.json", posts_dir=tmp_path / "posts",
-                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json",
+                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json", seen_path=tmp_path / "seen.json",
                            pinned_path=tmp_path / "pinned.yaml", now=NOW, fetch_meta=lambda url: None,
                            og_cache_path=tmp_path / "og.json")
 
     assert code == 1 and not (out / "index.html").exists()
     assert "config.yaml: learn" in caplog.text
+
+
+def test_seen_articles_shown_once_across_days_stable_within_a_day(tmp_path):
+    code, out = run(tmp_path, {"T": [article(i) for i in range(3)]})
+    seen = json.loads((tmp_path / "seen.json").read_text())
+    assert code == 0 and seen == {f"example.com/{i}": "2026-10-23" for i in range(3)}
+
+    code, out = run(tmp_path, {"T": [article(i) for i in range(4)]}, now=NOW.replace(hour=15))
+    html = (out / "index.html").read_text()
+    assert code == 0 and all(f'https://example.com/{i}"' in html for i in range(4))
+
+    code, out = run(tmp_path, {"T": [article(i) for i in range(6)]}, now=NOW + timedelta(days=1))
+    html = (out / "index.html").read_text()
+    assert code == 0
+    assert not any(f'https://example.com/{i}"' in html for i in range(4))
+    assert 'https://example.com/4"' in html and 'https://example.com/5"' in html
+
+
+def test_seen_skips_lead_candidates_too(tmp_path):
+    (tmp_path / "seen.json").write_text(json.dumps({"example.com/7": "2026-10-22"}))
+    items = [article(i) for i in range(3)] + [dict(article(7), title="Patch now: CVE-2026-109618")]
+
+    code, out = run(tmp_path, {"T": items})
+
+    assert code == 0 and "CVE-2026-109618" not in (out / "index.html").read_text()
+
+
+def test_corrupt_seen_fails_build_naming_file(tmp_path, caplog):
+    (tmp_path / "seen.json").write_text("{not json")
+
+    code, out = run(tmp_path, {"T": [article(1)]})
+
+    assert code == 1 and not (out / "index.html").exists()
+    assert "seen.json" in caplog.text
+
+
+def test_feed_hours_back_validated_before_fetching(tmp_path, caplog):
+    config = dict(CONFIG, topics=[{"name": "T", "sources": [{"type": "rss", "url": "https://e.com/f", "hours_back": 0}]}])
+
+    code = build_site.main(out_dir=tmp_path / "public", config=config, aggregator=FakeAggregator({"T": [article(1)]}),
+                           fetch_medium=lambda url: [], data_path=tmp_path / "medium.json", posts_dir=tmp_path / "posts",
+                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json",
+                           seen_path=tmp_path / "seen.json", pinned_path=tmp_path / "pinned.yaml", now=NOW,
+                           fetch_meta=lambda url: None, og_cache_path=tmp_path / "og.json")
+
+    assert code == 1 and "config.yaml" in caplog.text and "hours_back" in caplog.text

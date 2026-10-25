@@ -47,21 +47,35 @@ def extract_image(entry) -> Optional[str]:
     return None
 
 
+def validate_sources(topics: List[Dict]) -> None:
+    """Raise ValueError naming config.yaml when a feed's optional hours_back isn't a positive whole number."""
+    for topic in topics:
+        for source in topic.get('sources', []):
+            if 'hours_back' not in source:
+                continue
+            value = source['hours_back']
+            if isinstance(value, bool) or not isinstance(value, int) or value < 1:
+                raise ValueError(f"config.yaml: topic {topic.get('name')!r} feed {source.get('url')} hours_back "
+                                 f"must be a whole number of hours >= 1, got {value!r}")
+
+
 class ContentAggregator:
     # Global limits to prevent resource exhaustion
     MAX_ARTICLES_PER_FEED = 50  # Maximum articles to process per RSS feed
     MAX_TOTAL_ARTICLES = 500  # Maximum total articles across all feeds
     
-    def __init__(self, hours_back: int = 24):
+    def __init__(self, hours_back: int = 24, now: Optional[datetime] = None):
         """
         Initialize the content aggregator
         
         Args:
-            hours_back: How many hours back to fetch content (default: 24)
+            hours_back: How many hours back to fetch content (default: 24); a feed's hours_back overrides it
+            now: Current time (default: the real UTC now)
         """
         self.hours_back = hours_back
         # Use timezone-aware datetime for proper comparison with RSS feed dates
-        self.cutoff_date = datetime.now(timezone.utc) - timedelta(hours=hours_back)
+        self.now = now or datetime.now(timezone.utc)
+        self.cutoff_date = self.now - timedelta(hours=hours_back)
         self.total_articles_fetched = 0  # Track total articles for resource limiting
     
     def _validate_url(self, url: str) -> bool:
@@ -111,18 +125,20 @@ class ContentAggregator:
             logger.error(f"URL validation error for {url}: {e}")
             return False
     
-    def fetch_rss_feed(self, url: str, max_items: int = 10) -> List[Dict]:
+    def fetch_rss_feed(self, url: str, max_items: int = 10, hours_back: Optional[int] = None) -> List[Dict]:
         """
         Fetch articles from an RSS feed
         
         Args:
             url: RSS feed URL
             max_items: Maximum number of items to fetch
+            hours_back: This feed's age window, if it differs from the aggregator's
             
         Returns:
             List of article dictionaries
         """
         articles = []
+        cutoff_date = self.cutoff_date if hours_back is None else self.now - timedelta(hours=hours_back)
         
         # Validate URL to prevent SSRF
         if not self._validate_url(url):
@@ -162,7 +178,7 @@ class ContentAggregator:
                 # Skip old articles (only if we have a valid date)
                 if published_date is not None:
                     try:
-                        if published_date < self.cutoff_date:
+                        if published_date < cutoff_date:
                             continue
                     except TypeError:
                         # Handle timezone comparison issues gracefully
@@ -192,7 +208,8 @@ class ContentAggregator:
                     logger.warning(f"Reached maximum total articles limit ({self.MAX_TOTAL_ARTICLES})")
                     break
             
-            logger.info(f"Fetched {len(articles)} articles from {url}")
+            window = f" ({hours_back}h window)" if hours_back is not None else ""
+            logger.info(f"Fetched {len(articles)} articles from {url}{window}")
             
         except Exception as e:
             logger.error(f"Error fetching RSS feed {url}: {str(e)}")
@@ -258,6 +275,7 @@ class ContentAggregator:
         Returns:
             Dictionary mapping topic names to lists of articles
         """
+        validate_sources(topics)
         aggregated_content = {}
         
         for topic in topics:
@@ -271,7 +289,7 @@ class ContentAggregator:
                 source_url = source.get('url')
                 
                 if source_type == 'rss':
-                    fetched = self.fetch_rss_feed(source_url)
+                    fetched = self.fetch_rss_feed(source_url, hours_back=source.get('hours_back'))
                     if source.get('name'):
                         for article in fetched:
                             article['source'] = source['name']

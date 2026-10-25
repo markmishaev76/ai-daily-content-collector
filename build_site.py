@@ -11,8 +11,8 @@ from pathlib import Path
 from typing import Dict, List, Tuple
 
 from main import load_config, select_articles
-from src import enrich, learn, medium, pulse, site_builder, story
-from src.content_aggregator import ContentAggregator
+from src import enrich, learn, medium, pulse, seen, site_builder, story
+from src.content_aggregator import ContentAggregator, validate_sources
 from src.hn import min_points
 from src.posts import load_local_posts, render_markdown_file
 
@@ -23,9 +23,12 @@ MEDIUM_FEED = "https://medium.com/feed/@mark-mishaev"
 TOP_CLUSTERS_LOGGED = 5
 
 
-def fetch_feed(config: dict, aggregator) -> Tuple[Dict[str, List[Dict]], Dict[str, List[Dict]]]:
-    """All fetched articles, and the same selection as the email (main.select_articles)."""
+def fetch_feed(config: dict, aggregator, keep=None) -> Tuple[Dict[str, List[Dict]], Dict[str, List[Dict]]]:
+    """All fetched articles (narrowed by `keep`, e.g. seen.unseen), and the same selection as the email
+    (main.select_articles)."""
     raw = aggregator.aggregate_content(config['topics'])
+    if keep:
+        raw = keep(raw)
     return raw, select_articles(raw, config['brief']['max_articles_per_topic'],
                                 min_points(config, 'section_min_hn_points'))
 
@@ -85,6 +88,7 @@ def main(out_dir: Path = Path("public"), config: dict = None, aggregator=None,
          fetch_medium=medium.fetch_medium_posts, data_path: Path = Path("data/medium-posts.json"),
          posts_dir: Path = Path("posts"), about_path: Path = Path("about.md"),
          history_path: Path = Path("data/lead-history.json"), pinned_path: Path = Path("pinned.yaml"),
+         seen_path: Path = Path("data/seen.json"),
          now: datetime = None, fetch_meta=enrich.fetch_meta,
          og_cache_path: Path = Path("data/og-cache.json"), collect_pulse=None, collect_learn=None) -> int:
     config = config or load_config()
@@ -92,6 +96,8 @@ def main(out_dir: Path = Path("public"), config: dict = None, aggregator=None,
     try:
         pinned = story.load_pinned(pinned_path, now.date())
         history = story.load_history(history_path)
+        shown_before = seen.load(seen_path)
+        validate_sources(config['topics'])
         story.section_weights(config)
         story.lead_min_hn_points(config)
         min_points(config, 'section_min_hn_points')
@@ -102,7 +108,12 @@ def main(out_dir: Path = Path("public"), config: dict = None, aggregator=None,
         return 1
 
     aggregator = aggregator or ContentAggregator(hours_back=48)
-    raw, feed = fetch_feed(config, aggregator)
+    def keep(raw):
+        fresh, skipped = seen.unseen(raw, shown_before, now.date())
+        logger.info(f"Seen: skipped {skipped} articles shown on an earlier day")
+        return fresh
+
+    raw, feed = fetch_feed(config, aggregator, keep)
     total = sum(len(articles) for articles in feed.values())
     if total == 0:
         logger.error("Fetched zero articles across all topics; not building, so the live site stays as it is")
@@ -149,6 +160,8 @@ def main(out_dir: Path = Path("public"), config: dict = None, aggregator=None,
         history = story.record_lead(history, now.date(), url=lead.link, title=lead.title, section=lead.section,
                                     key_tokens=lead.key_tokens)
         story.save_history(history_path, history)
+    shown_links = [a.get('link') for articles in feed.values() for a in articles] + ([lead.link] if lead else [])
+    seen.save(seen_path, seen.record(shown_before, shown_links, now.date()))
     logger.info(f"Built site in {out_dir}: {total} articles, {len(posts)} posts")
     return 0
 

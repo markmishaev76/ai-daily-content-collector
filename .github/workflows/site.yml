@@ -48,14 +48,14 @@ jobs:
         env:
           REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
-      - name: Commit Medium posts, lead history and og cache
+      - name: Commit Medium posts, lead history, og cache and seen articles
         if: github.ref == 'refs/heads/main'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/medium-posts.json data/lead-history.json data/og-cache.json
+          git add data/medium-posts.json data/lead-history.json data/og-cache.json data/seen.json
           if ! git diff --cached --quiet; then
-            git commit -m "update medium posts, lead history and og cache"
+            git commit -m "update medium posts, lead history, og cache and seen articles"
             git pull --rebase origin main
             git push origin HEAD:main
           fi

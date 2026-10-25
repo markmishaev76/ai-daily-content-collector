@@ -1,7 +1,9 @@
+from datetime import datetime, timezone
+
 import feedparser
 import pytest
 
-from src.content_aggregator import ContentAggregator, extract_image
+from src.content_aggregator import ContentAggregator, extract_image, validate_sources
 
 
 def entry(item_xml):
@@ -14,7 +16,7 @@ def entry(item_xml):
 def test_duplicate_link_across_topics_kept_in_both_until_selection(monkeypatch):
     aggregator = ContentAggregator(hours_back=48)
     same = {"title": "Same", "link": "https://example.com/x", "summary": "", "published": None, "source": "A"}
-    monkeypatch.setattr(aggregator, "fetch_rss_feed", lambda url: [dict(same)])
+    monkeypatch.setattr(aggregator, "fetch_rss_feed", lambda url, **kw: [dict(same)])
 
     feed = aggregator.aggregate_content([{"name": "First", "sources": [{"type": "rss", "url": "a"}]},
                                          {"name": "Second", "sources": [{"type": "rss", "url": "b"}]}])
@@ -69,7 +71,7 @@ def test_duplicate_links_across_sources_kept_once(monkeypatch):
     aggregator = ContentAggregator(hours_back=48)
     same = {"title": "Same", "link": "https://example.com/x", "summary": "", "published": None, "source": "A"}
     other = {"title": "Other", "link": "https://example.com/y", "summary": "", "published": None, "source": "B"}
-    monkeypatch.setattr(aggregator, "fetch_rss_feed", lambda url: [same, other] if url == "a" else [dict(same, source="B")])
+    monkeypatch.setattr(aggregator, "fetch_rss_feed", lambda url, **kw: [same, other] if url == "a" else [dict(same, source="B")])
 
     feed = aggregator.aggregate_content([{"name": "T", "sources": [{"type": "rss", "url": "a"}, {"type": "rss", "url": "b"}]}])
 
@@ -79,10 +81,55 @@ def test_duplicate_links_across_sources_kept_once(monkeypatch):
 
 def test_feed_name_overrides_feed_title(monkeypatch):
     aggregator = ContentAggregator(hours_back=48)
-    monkeypatch.setattr(aggregator, "fetch_rss_feed", lambda url: [{"title": "T", "link": f"https://e.com/{url}",
+    monkeypatch.setattr(aggregator, "fetch_rss_feed", lambda url, **kw: [{"title": "T", "link": f"https://e.com/{url}",
                                                                      "source": "Ugly Feed Title: tag"}])
 
     feed = aggregator.aggregate_content([{"name": "S", "sources": [{"type": "rss", "url": "a", "name": "Nice"},
                                                                    {"type": "rss", "url": "b"}]}])
 
     assert [a["source"] for a in feed["S"]] == ["Nice", "Ugly Feed Title: tag"]
+
+
+NOW = datetime(2026, 10, 24, 12, 0, tzinfo=timezone.utc)
+DATE_ONLY_60H = ('<?xml version="1.0"?><rss version="2.0"><channel><title>Anthropic Research</title>'
+                 '<item><title>LLMs make formal verification feasible</title>'
+                 '<link>https://www.anthropic.com/research/formal-verification</link>'
+                 '<pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate></item></channel></rss>')
+
+
+@pytest.fixture
+def date_only_feed(monkeypatch):
+    class Response:
+        content = DATE_ONLY_60H.encode()
+
+        def raise_for_status(self):
+            pass
+
+    monkeypatch.setattr(ContentAggregator, "_validate_url", lambda self, url: True)
+    monkeypatch.setattr("src.content_aggregator.requests.get", lambda *a, **k: Response())
+
+
+def topics(**source):
+    return [{"name": "News", "sources": [dict({"type": "rss", "url": "https://feeds.example.com/a.xml"}, **source)]}]
+
+
+def test_date_only_post_60h_old_kept_by_72h_feed(date_only_feed):
+    feed = ContentAggregator(hours_back=48, now=NOW).aggregate_content(topics(hours_back=72, name="Anthropic Research"))
+
+    assert [a["link"] for a in feed["News"]] == ["https://www.anthropic.com/research/formal-verification"]
+    assert feed["News"][0]["source"] == "Anthropic Research"
+
+
+def test_date_only_post_60h_old_dropped_by_default_48h_feed(date_only_feed):
+    assert ContentAggregator(hours_back=48, now=NOW).aggregate_content(topics())["News"] == []
+
+
+@pytest.mark.parametrize("bad", [0, -1, "72", True, 1.5, None])
+def test_feed_hours_back_must_be_positive_whole_number(bad):
+    with pytest.raises(ValueError, match=r"config.yaml: topic 'News' feed https://feeds.example.com/a.xml hours_back"):
+        validate_sources(topics(hours_back=bad))
+
+
+def test_feed_hours_back_optional():
+    validate_sources(topics())
+    validate_sources(topics(hours_back=72))

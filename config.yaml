@@ -7,6 +7,12 @@ topics:
     category: "AI/ML"
     weight: 1.5
     sources:
+      # Anthropic has no official RSS: community feeds (github.com/Olshansk/rss-feeds) with date-only posts that
+      # land up to ~2 days late, hence the 72h window. Listed first so first-party posts win keyword-score ties.
+      - type: "rss"
+        url: "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_engineering.xml"
+        name: "Anthropic Engineering"
+        hours_back: 72
       # AI-Assisted Development & Engineering
       - type: "rss"
         url: "https://addyo.substack.com/feed"
@@ -315,6 +321,15 @@ topics:
     category: "News"
     weight: 0.75
     sources:
+      # Anthropic (community feeds, see AI-Assisted Engineering)
+      - type: "rss"
+        url: "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml"
+        name: "Anthropic Research"
+        hours_back: 72
+      - type: "rss"
+        url: "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml"
+        name: "Anthropic"
+        hours_back: 72
       # Tech News & Trends
       - type: "rss"
         url: "https://hnrss.org/frontpage"

@@ -94,3 +94,34 @@ def test_learn_channels():
                              {"name": "Anthropic", "id": "UCrDwWp7EBBv4NwvScIpBDOA"},
                              {"name": "The Pragmatic Engineer", "id": "UCPbwhExawYrn9xxI21TFfyw"}]
     assert (s["max_age_days"], s["per_channel"], s["limit"], s["recent_per_channel"]) == (30, 2, 6, 5)
+
+
+ANTHROPIC = "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_"
+
+
+def test_anthropic_feeds_first_in_their_sections_with_72h_window():
+    from src.content_aggregator import validate_sources
+
+    topics = {t["name"]: t["sources"] for t in load()["topics"]}
+
+    assert topics["AI-Assisted Engineering"][0] == {"type": "rss", "url": ANTHROPIC + "engineering.xml",
+                                                    "name": "Anthropic Engineering", "hours_back": 72}
+    assert topics["News & Research"][:2] == [
+        {"type": "rss", "url": ANTHROPIC + "research.xml", "name": "Anthropic Research", "hours_back": 72},
+        {"type": "rss", "url": ANTHROPIC + "news.xml", "name": "Anthropic", "hours_back": 72}]
+    validate_sources(load()["topics"])
+
+
+def test_first_party_post_survives_section_cut_and_is_primary():
+    from main import select_articles
+    from src import story
+
+    config = load()
+    fv = {"title": "LLMs are making formal software verification feasible at a massive scale",
+          "link": "https://www.anthropic.com/research/formal-verification", "summary": "Formal verification can prove..."}
+    others = [{"title": f"Other {n}", "link": f"https://e.com/{n}", "summary": ""} for n in range(20)]
+
+    picked = select_articles({"News & Research": [fv] + others}, config["brief"]["max_articles_per_topic"])
+
+    assert fv in picked["News & Research"]
+    assert story.source_tier(fv, config["story"]["source_tiers"]) == "primary"
