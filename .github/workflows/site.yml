@@ -1,7 +1,10 @@
 name: Site
 on:
   schedule:
+    # GitHub often delays or drops scheduled runs; later slots are backups.
     - cron: '17 2 * * *'
+    - cron: '43 4 * * *'
+    - cron: '29 7 * * *'
   workflow_dispatch: {}
   push:
     branches: [main]
