@@ -197,6 +197,12 @@
   "icon": "https://substackcdn.com/image/fetch/$s_!_bhP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F342e39ec-514c-4b4d-8a76-6acf0cbd8248%2Fapple-touch-icon-57x57.png",
   "image": "https://substackcdn.com/image/fetch/$s_!1SoS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F519db120-1320-411b-adec-a88865345f2c_4083x2916.jpeg"
  },
+ "https://medium.com/@ai_news/argus-might-be-one-of-the-most-impressive-open-source-cybersecurity-projects-released-this-year-118043bd0c8c": {
+  "description": null,
+  "fetched": "2026-10-25",
+  "icon": null,
+  "image": null
+ },
  "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/": {
   "description": "A METR employee and a Redwood Research employee spent three weeks stress-testing OpenAI's internal misalignment monitoring system, discovering a number of novel vulnerabilities.",
   "fetched": "2026-10-23",
@@ -243,6 +249,12 @@
   "description": "In September 2014 I published a short post announcing rqlite. The idea was simple: take SQLite, put a Raft log in front of it, and replicate every write to a cluster so that the loss of a node did not mean the loss of the data. The source went on GitHub that same weekend. As…",
   "fetched": "2026-10-24",
   "icon": "https://philipotoole.com/wp-content/uploads/2015/12/SlyEye-300x300.jpg",
+  "image": null
+ },
+ "https://ratfactor.com/cards/pl-small": {
+  "description": null,
+  "fetched": "2026-10-25",
+  "icon": "https://ratfactor.com/apple-touch-icon.png",
   "image": null
  },
  "https://rtfeldman.com/fp-vs-c": {
