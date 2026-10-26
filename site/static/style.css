@@ -71,7 +71,27 @@ a:hover { color: var(--accent); }
 }
 
 .magazine { max-width: 1200px; margin: 0 auto; padding: 8px 24px 40px; }
-.today { margin: 18px 0; font-size: 15px; font-weight: 600; color: var(--muted); }
+.today { margin: 18px 0 10px; font-size: 15px; font-weight: 600; color: var(--muted); }
+
+/* Last 7 days, and previous/next on brief pages */
+.days { display: flex; gap: 6px; margin-bottom: 18px; overflow-x: auto; scrollbar-width: none; }
+.days a, .days span {
+  flex: none;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text);
+  background: var(--panel);
+}
+.days a:hover { color: #fff; background: var(--accent); }
+.days a.active { color: #fff; background: var(--accent); }
+.days .disabled { color: #b4b4be; background: none; border: 1px dashed var(--line); }
+.past-note { margin: -6px 0 10px; color: var(--muted); font-size: 13px; }
+.past-note a { color: var(--accent); }
+.pager { display: flex; justify-content: space-between; margin-bottom: 24px; font-size: 13px; font-weight: 600; }
+.pager a { color: var(--accent); }
+.pager .disabled { color: #b4b4be; }
 
 /* Picture tiles: colored placeholder with source name; the image covers it when it loads */
 .thumb, .thumb-sm, .lead-image {

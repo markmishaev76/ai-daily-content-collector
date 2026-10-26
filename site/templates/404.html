@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Not found · Mark Mishaev{% endblock %}
+{% block body %}
+<main class="page not-found">
+  <div data-case="other">
+    <h2>Page not found</h2>
+    <p>There's nothing at this address. <a href="/">Go to today's brief →</a></p>
+  </div>
+  <div data-case="brief" hidden>
+    <h2>This brief is older than a week</h2>
+    <p>Past briefs are kept for seven days. <a href="/">Read today's brief →</a></p>
+  </div>
+</main>
+{% endblock %}
+{% block scripts %}<script src="/static/notfound.js" defer></script>{% endblock %}

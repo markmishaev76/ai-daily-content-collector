@@ -29,7 +29,7 @@ def run(tmp_path, feed, fetch_medium=lambda url: [], fetch_meta=lambda url: None
                            fetch_meta=fetch_meta, og_cache_path=tmp_path / "og-cache.json",
                            fetch_medium=fetch_medium, data_path=tmp_path / "medium.json",
                            posts_dir=tmp_path / "posts", about_path=tmp_path / "about.md",
-                           history_path=tmp_path / "lead-history.json", seen_path=tmp_path / "seen.json", pinned_path=tmp_path / "pinned.yaml",
+                           history_path=tmp_path / "lead-history.json", seen_path=tmp_path / "seen.json", briefs_dir=tmp_path / "briefs", pinned_path=tmp_path / "pinned.yaml",
                            now=now)
     return code, out
 
@@ -139,7 +139,7 @@ def run_pulse(tmp_path, collect, fetch_meta=lambda url: None, feed=None):
     code = build_site.main(out_dir=out, config=dict(CONFIG, pulse={"subreddits": ["ClaudeAI"]}),
                            aggregator=FakeAggregator(feed or {"T": [article(1)]}), fetch_medium=lambda url: [],
                            data_path=tmp_path / "medium.json", posts_dir=tmp_path / "posts",
-                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json", seen_path=tmp_path / "seen.json",
+                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json", seen_path=tmp_path / "seen.json", briefs_dir=tmp_path / "briefs",
                            pinned_path=tmp_path / "pinned.yaml", now=NOW, fetch_meta=fetch_meta,
                            og_cache_path=tmp_path / "og.json", collect_pulse=collect)
     return code, (out / "index.html").read_text() if (out / "index.html").exists() else ""
@@ -200,7 +200,7 @@ def run_learn(tmp_path, collect, caplog):
     code = build_site.main(out_dir=out, config=dict(CONFIG, learn={"channels": channels}),
                            aggregator=FakeAggregator({"T": [article(1)]}), fetch_medium=lambda url: [],
                            data_path=tmp_path / "medium.json", posts_dir=tmp_path / "posts",
-                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json", seen_path=tmp_path / "seen.json",
+                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json", seen_path=tmp_path / "seen.json", briefs_dir=tmp_path / "briefs",
                            pinned_path=tmp_path / "pinned.yaml", now=NOW, fetch_meta=lambda url: None,
                            og_cache_path=tmp_path / "og.json", collect_learn=collect)
     return code, out
@@ -237,7 +237,7 @@ def test_invalid_learn_config_fails_build(tmp_path, caplog):
     code = build_site.main(out_dir=out, config=dict(CONFIG, learn={"channels": [{"name": "X", "id": "@x"}]}),
                            aggregator=FakeAggregator({"T": [article(1)]}), fetch_medium=lambda url: [],
                            data_path=tmp_path / "medium.json", posts_dir=tmp_path / "posts",
-                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json", seen_path=tmp_path / "seen.json",
+                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json", seen_path=tmp_path / "seen.json", briefs_dir=tmp_path / "briefs",
                            pinned_path=tmp_path / "pinned.yaml", now=NOW, fetch_meta=lambda url: None,
                            og_cache_path=tmp_path / "og.json")
 
@@ -285,7 +285,51 @@ def test_feed_hours_back_validated_before_fetching(tmp_path, caplog):
     code = build_site.main(out_dir=tmp_path / "public", config=config, aggregator=FakeAggregator({"T": [article(1)]}),
                            fetch_medium=lambda url: [], data_path=tmp_path / "medium.json", posts_dir=tmp_path / "posts",
                            about_path=tmp_path / "about.md", history_path=tmp_path / "h.json",
-                           seen_path=tmp_path / "seen.json", pinned_path=tmp_path / "pinned.yaml", now=NOW,
+                           seen_path=tmp_path / "seen.json", briefs_dir=tmp_path / "briefs", pinned_path=tmp_path / "pinned.yaml", now=NOW,
                            fetch_meta=lambda url: None, og_cache_path=tmp_path / "og.json")
 
     assert code == 1 and "config.yaml" in caplog.text and "hours_back" in caplog.text
+
+
+def test_brief_snapshot_saved_overwritten_same_day_and_pruned(tmp_path):
+    briefs = tmp_path / "briefs"
+    briefs.mkdir()
+    old = {"date": "2026-10-16", "lead": None, "pulse": [], "sections": []}
+    (briefs / "2026-10-16.json").write_text(json.dumps(old))
+    (briefs / "2026-10-17.json").write_text(json.dumps(dict(old, date="2026-10-17")))
+    kept = (briefs / "2026-10-17.json").read_text()
+
+    run(tmp_path, {"T": [article(1)]})
+    run(tmp_path, {"T": [article(1), article(2)]}, now=NOW.replace(hour=15))
+
+    snap = json.loads((briefs / "2026-10-23.json").read_text())
+    assert snap["date"] == "2026-10-23"
+    shown = [snap["lead"]["title"]] + [c["title"] for s in snap["sections"] for c in s["cards"] + s["more"]]
+    assert sorted(shown) == ["A1", "A2"]
+    assert sorted(p.name for p in briefs.iterdir()) == ["2026-10-17.json", "2026-10-23.json"]
+    assert (briefs / "2026-10-17.json").read_text() == kept
+
+
+def test_saved_past_brief_rendered_as_its_own_page(tmp_path):
+    briefs = tmp_path / "briefs"
+    briefs.mkdir()
+    past = {"date": "2026-10-22", "lead": None, "pulse": [],
+            "sections": [{"name": "T", "cards": [{"title": "Yesterday card", "link": "https://example.com/y"}], "more": []}]}
+    (briefs / "2026-10-22.json").write_text(json.dumps(past))
+
+    code, out = run(tmp_path, {"T": [article(1)]})
+
+    assert code == 0 and "Yesterday card" in (out / "brief/2026-10-22/index.html").read_text()
+    assert '<a href="brief/2026-10-22/">Thu 22</a>' in (out / "index.html").read_text()
+    assert (out / "brief/2026-10-23/index.html").exists() and (out / "404.html").exists()
+
+
+def test_corrupt_brief_snapshot_fails_build_naming_file(tmp_path, caplog):
+    briefs = tmp_path / "briefs"
+    briefs.mkdir()
+    (briefs / "2026-10-22.json").write_text("{not json")
+
+    code, out = run(tmp_path, {"T": [article(1)]})
+
+    assert code == 1 and not (out / "index.html").exists()
+    assert "briefs/2026-10-22.json" in caplog.text

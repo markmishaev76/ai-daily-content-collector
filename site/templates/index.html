@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% from "_thumb.html" import thumb, title %}
 {% from "_video.html" import video_card %}
+{% block title %}{% if title_prefix %}{{ title_prefix }} · {% endif %}Mark Mishaev{% endblock %}
 {% block body %}
 <nav class="chips" aria-label="Sections">
   {% if pulse %}
@@ -15,7 +16,19 @@
 </nav><!-- /chips -->
 
 <main class="magazine">
-  <h2 class="today">Today · {{ today }}</h2>
+  <h2 class="today">{{ heading }}</h2>
+  <nav class="days" aria-label="Last 7 days">
+    {% for d in days %}
+    {% if d.href %}<a href="{{ d.href }}"{% if d.active %} class="active" aria-current="page"{% endif %}>{{ d.label }}</a>{% else %}<span class="disabled" aria-disabled="true">{{ d.label }}</span>{% endif %}
+    {% endfor %}
+  </nav><!-- /days -->
+  {% if pager %}
+  <p class="past-note">{% if is_today %}This is today's brief. <a href="{{ root }}">Open the front page →</a>{% else %}You're viewing a past brief — <a href="{{ root }}">back to today →</a>{% endif %}</p>
+  <nav class="pager" aria-label="Previous and next brief">
+    {% if pager.prev %}<a href="{{ pager.prev.href }}" rel="prev">← {{ pager.prev.label }}</a>{% else %}<span class="disabled">← previous</span>{% endif %}
+    {% if pager.next %}<a href="{{ pager.next.href }}" rel="next">{{ pager.next.label }} →</a>{% else %}<span class="disabled">next →</span>{% endif %}
+  </nav><!-- /pager -->
+  {% endif %}
 
   {% if lead %}
   <article class="lead">

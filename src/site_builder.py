@@ -4,7 +4,7 @@ Static site renderer: today's feed plus Mark's writing, as plain HTML.
 
 import re
 import shutil
-from datetime import datetime
+from datetime import date, datetime
 from email.utils import format_datetime
 from pathlib import Path
 from typing import Dict, List, Optional
@@ -12,6 +12,7 @@ from urllib.parse import urlparse
 
 from jinja2 import Environment, FileSystemLoader
 
+from src import briefs as brief_store
 from src.hn import HN_BOILERPLATE, hn_counts, is_hn_item
 from src.learn import VIDEO_ID
 
@@ -21,6 +22,7 @@ WRITING_LIMIT = 3
 EXCERPT_LIMIT = 300
 CARDS_PER_SECTION = 3
 LEAD_COLOR = "#5a4fcf"
+NEUTRAL_COLOR = "#7a7a85"
 PULSE_COLOR = "#e8590c"
 LEARN_COLOR = "#c92a2a"
 LEARN_TEASER = 3
@@ -203,7 +205,8 @@ def _pulse(items: Optional[List[Dict]], now: datetime) -> List[Dict]:
 
 def _pulse_sources(items: List[Dict]) -> str:
     """'Hacker News, Lobsters and Reddit' in first-seen order, every subreddit counted as Reddit."""
-    names = list(dict.fromkeys("Reddit" if i["source"].startswith("r/") else i["source"] for i in items))
+    names = list(dict.fromkeys("Reddit" if (i.get("source") or "").startswith("r/") else i.get("source") or ""
+                               for i in items))
     return " and ".join(filter(None, [", ".join(names[:-1]), names[-1]])) if names else ""
 
 
@@ -258,6 +261,79 @@ def _magazine(feed: Dict[str, List[Dict]], story=None) -> Dict:
     return {"lead": lead, "sections": sections}
 
 
+def brief_snapshot(feed: Dict[str, List[Dict]], story, pulse: Optional[List[Dict]], now: datetime) -> Dict:
+    """Today's brief as plain JSON data: the lead, The Pulse and each section's cards and headline rows, with
+    links and images already validated. Colors and anchors are not stored; they come from config at render time."""
+    magazine = _magazine(feed, story)
+    lead = {k: v for k, v in magazine["lead"].items() if k != "color"} if magazine["lead"] else None
+    return {"date": now.date().isoformat(), "lead": lead, "pulse": _pulse(pulse, now),
+            "sections": [{"name": s["name"], "cards": s["cards"], "more": s["more"]} for s in magazine["sections"]]}
+
+
+def _text(value) -> str:
+    return value if isinstance(value, str) else ""
+
+
+def _clean(item: Dict, links=("link",), images=("image", "icon")) -> Dict:
+    """A snapshot item with its links and images validated again (the JSON is committed to the repo)."""
+    out = dict(item, title=_text(item.get("title")) or "Untitled")
+    for key in links:
+        out[key] = safe_link(_text(item.get(key)))
+    for key in images:
+        out[key] = safe_image(_text(item.get(key)))
+    return out
+
+
+def _brief_page(snap: Dict, names: List[str]) -> Dict:
+    """Template context for a snapshot; sections renamed since it was saved get a neutral color."""
+    def color(name: str, missing: str) -> str:
+        return PALETTE[names.index(name) % len(PALETTE)] if name in names else missing
+
+    sections = [{"name": s["name"], "id": anchor_id(s["name"]), "color": color(s["name"], NEUTRAL_COLOR),
+                 "cards": [_clean(i) for i in s["cards"]], "more": [_clean(i) for i in s["more"]]}
+                for s in snap["sections"]]
+    lead = None
+    if snap.get("lead"):
+        raw = snap["lead"]
+        lead = _clean(raw, images=("image",))
+        lead["image_credit"] = _text(raw.get("image_credit")) or None if lead["image"] else None
+        lead["color"] = color(raw.get("section"), LEAD_COLOR)
+        lead["labels"] = [label for label in raw.get("labels") or [] if isinstance(label, str)]
+        lead["also"] = [{"name": _text(a.get("name")), "link": safe_link(_text(a.get("link")))}
+                        for a in raw.get("also") or [] if isinstance(a, dict) and safe_link(_text(a.get("link")))]
+    pulse = []
+    for raw in snap["pulse"]:
+        item = _clean(raw, links=("thread", "link"))
+        item["also"] = [{"source": _text(a.get("source")), "thread": safe_link(_text(a.get("thread")))}
+                        for a in raw.get("also") or [] if isinstance(a, dict) and safe_link(_text(a.get("thread")))]
+        pulse.append(item)
+    return {"lead": lead, "sections": sections, "pulse": pulse, "pulse_sources": _pulse_sources(pulse)}
+
+
+def _day_label(day: date) -> str:
+    return f"{day:%a} {day.day}"
+
+
+def _day_href(day: date, today: date, root: str) -> str:
+    return (root or "./") if day == today else f"{root}brief/{day.isoformat()}/"
+
+
+def _days(today: date, available: set, current: date, root: str) -> List[Dict]:
+    """The last seven days for the strip; days without a saved brief have no link."""
+    return [{"label": _day_label(d), "active": d == current,
+             "href": _day_href(d, today, root) if d.isoformat() in available else None}
+            for d in brief_store.window(today)]
+
+
+def _pager(today: date, available: set, current: date, root: str) -> Dict:
+    """The nearest earlier and later days that have a brief (today's links to the front page)."""
+    kept = sorted(date.fromisoformat(d) for d in available)
+    earlier = [d for d in kept if d < current]
+    later = [d for d in kept if d > current]
+    return {"prev": {"label": _day_label(earlier[-1]), "href": _day_href(earlier[-1], today, root)} if earlier else None,
+            "next": {"label": _day_label(later[0]), "href": _day_href(later[0], today, root)} if later else None}
+
+
 def _sorted_posts(posts: List[Dict]) -> List[Dict]:
     dated = sorted((p for p in posts if p.get("date")), key=lambda p: p["date"], reverse=True)
     return dated + [p for p in posts if not p.get("date")]
@@ -275,10 +351,11 @@ def _rss_date(post: Dict) -> Optional[str]:
 
 def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
           out_dir: Path, now: datetime, story=None, pulse: Optional[List[Dict]] = None,
-          learn: Optional[Dict] = None) -> None:
-    """Write the site. `story` is a src.story.Story for the lead, or None for no lead;
-    `pulse` is src.pulse.collect's items, or None/[] to hide The Pulse;
-    `learn` is src.learn.collect's videos (empty lists when unavailable), or None for no Learn page."""
+          learn: Optional[Dict] = None, briefs: Optional[Dict[str, Dict]] = None) -> Dict:
+    """Write the site and return today's brief snapshot. `story` is a src.story.Story for the lead, or None for
+    no lead; `pulse` is src.pulse.collect's items, or None/[] to hide The Pulse; `learn` is src.learn.collect's
+    videos (empty lists when unavailable), or None for no Learn page; `briefs` maps YYYY-MM-DD to earlier
+    snapshots (src.briefs.load), each rendered at /brief/<date>/ like today's."""
     env = Environment(loader=FileSystemLoader(SITE_DIR / "templates"), autoescape=True,
                       trim_blocks=True, lstrip_blocks=True)
     env.globals.update(post_href=_post_href, today=now.strftime("%A, %B %d, %Y"),
@@ -292,13 +369,26 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
         path = out_dir / rel
         path.parent.mkdir(parents=True, exist_ok=True)
         page_url = SITE_URL + rel.removesuffix("index.html")
-        path.write_text(env.get_template(template).render(**common, page_url=page_url, **ctx))
+        path.write_text(env.get_template(template).render(**{**common, "page_url": page_url, **ctx}))
 
-    pulse_items = _pulse(pulse, now)
+    names, today = list(feed), now.date()
+    snap = brief_snapshot(feed, story, pulse, now)
+    window = {d.isoformat() for d in brief_store.window(today)}
+    pages = {d: b for d, b in (briefs or {}).items() if d in window}
+    pages[today.isoformat()] = snap
+    available = set(pages)
     videos = _learn(learn, now)
-    write("index.html", "index.html", root="", page="feed", **_magazine(feed, story), pulse=pulse_items,
-          pulse_sources=_pulse_sources(pulse_items), pulse_color=PULSE_COLOR,
+    write("index.html", "index.html", root="", page="feed", heading=f"Today · {now:%A, %B %d, %Y}",
+          days=_days(today, available, today, ""), **_brief_page(snap, names), pulse_color=PULSE_COLOR,
           learn_teaser=videos["top"][:LEARN_TEASER] if videos else [], learn_color=LEARN_COLOR)
+    for iso, page in sorted(pages.items()):
+        day, root = date.fromisoformat(iso), "../../"
+        label = f"Brief · {day:%A, %B %d, %Y}"
+        write(f"brief/{iso}/index.html", "index.html", root=root, page="feed", heading=label, title_prefix=label,
+              days=_days(today, available, day, root), pager=_pager(today, available, day, root),
+              is_today=day == today, **_brief_page(page, names), pulse_color=PULSE_COLOR, writing=[],
+              learn_teaser=[], learn_color=LEARN_COLOR)
+    write("404.html", "404.html", root="/", page="")
     if videos is not None:
         write("learn/index.html", "learn.html", root="../", page="learn", learn=videos, learn_color=LEARN_COLOR)
     write("blog/index.html", "blog.html", root="../", page="blog", posts=all_posts)
@@ -311,3 +401,4 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
                       rss_date=_rss_date(p)) for p in all_posts])
 
     shutil.copytree(SITE_DIR / "static", out_dir / "static", dirs_exist_ok=True)
+    return snap
