@@ -1,0 +1,8 @@
+name = "thedailybrief-cron"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+workers_dev = false
+
+# UTC. Starts the GitHub Site workflow; extra runs the same day just refresh the page.
+[triggers]
+crons = ["5 2 * * *", "5 4 * * *", "5 6 * * *"]
