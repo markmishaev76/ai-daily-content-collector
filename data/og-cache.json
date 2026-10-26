@@ -29,6 +29,12 @@
   "icon": "https://ayoships.com/ayo.jpg",
   "image": "https://ayoships.com/breakdowns/block-blast/og.jpg?v=3"
  },
+ "https://blocks.manifold3d.ch/": {
+  "description": "41'285 kmÂ², ein Block pro Meter, aus swisstopo-Daten.",
+  "fetched": "2026-10-26",
+  "icon": "https://blocks.manifold3d.ch/apple-touch-icon.png",
+  "image": null
+ },
  "https://blog.calif.io/p/iphone": {
   "description": "Today, we hacked what we'd set out to hack: the iPhone.",
   "fetched": "2026-10-24",
@@ -539,6 +545,12 @@
   "icon": null,
   "image": "https://static.blast-info.fr/stories/2026/open_graph-information-exclusive-blast-le-premier-ministre-a-prepare-la-coupure-des-reseaux-sociaux-pour-le-24-octobre-9D8cgrU5S5iiW14Sb9nMzQ.jpg"
  },
+ "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-7-new-tools-desktop-updates/": {
+  "description": "Kali Linux has released version 2026.3, its third release this year, featuring six new hacking tools, desktop environment improvements, refreshed build scripts, and more.",
+  "fetched": "2026-10-26",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2025/09/24/Kali-Linux.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/": {
   "description": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package.",
   "fetched": "2026-10-26",
@@ -598,6 +610,12 @@
   "fetched": "2026-10-23",
   "icon": null,
   "image": "https://www.jefftk.com/jefftk-glyph-framed.jpg"
+ },
+ "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-rise-of-the-agentic-coworker-a-banking-cios-guide-to-the-next-wave-of-ai": {
+  "description": null,
+  "fetched": "2026-10-26",
+  "icon": null,
+  "image": null
  },
  "https://www.mckinsey.com/featured-insights/future-of-asia/asias-energy-reckoning-securing-the-energy-system-to-drive-growth": {
   "description": null,
@@ -694,6 +712,12 @@
   "fetched": "2026-10-26",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Claude-Mythos.jpeg"
+ },
+ "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages/": {
+  "description": "Microsoft, Node.js, and Python package maintainers have patched Node2Shell (CVE-2026-111497), a critical Brotli decoder flaw.",
+  "fetched": "2026-10-26",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2025/01/application-security-vulnerabilities.jpeg"
  },
  "https://www.southampton.ac.uk/~doug/quantum_physics/index.html": {
   "description": null,
