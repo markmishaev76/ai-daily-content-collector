@@ -119,17 +119,41 @@
   "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
   "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_8zpqf88zpq.2e16d0ba.fill-1200x600.jpg"
  },
+ "https://developers.googleblog.com/integrating-torchtpu-into-torchtitan-and-optimizing-models-for-tpu/": {
+  "description": "Learn how TorchTitan and TorchTPU enable seamless, high-performance distributed AI model training on Google Cloud TPUs with native PyTorch support.",
+  "fetched": "2026-10-26",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Torch_Titan_Header_Image.2e16d0ba.fill-1200x600.jpg"
+ },
+ "https://developers.googleblog.com/native-model-authoring-for-edge-with-litert-tensor-api/": {
+  "description": "Author neural models and zero-copy pre/post-processing graphs in native C++ with the LiteRT Tensor API for cross-platform GPU, NPU, and CPU execution.",
+  "fetched": "2026-10-26",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_bguxwvbgux.2e16d0ba.fill-1200x600.jpg"
+ },
  "https://developers.googleblog.com/powering-the-agent-development-lifecycle-with-any-framework-from-adk-to-langchain-and-beyond/": {
   "description": "Learn how the Agents CLI Extension System lets you integrate any framework, like LangChain, into a unified development lifecycle.",
   "fetched": "2026-10-24",
   "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
   "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/1_2.2e16d0ba.fill-1200x600.png"
  },
+ "https://developers.googleblog.com/step-by-step-guide-build-a-voice-agent-that-never-goes-silent-using-adk/": {
+  "description": "Learn how to build responsive voice agents that never go silent using open-source ADK, streaming tools, and Gemini 3.8 Live with response scheduling.",
+  "fetched": "2026-10-26",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/option4_minimal_flow_diagram_1600.2e16d0ba.fill-1200x600.png"
+ },
  "https://developers.googleblog.com/streaming-comes-to-api-gateway-real-time-and-ai-ready-apis-without-changing-your-spec/": {
   "description": "API Gateway introduces Public Preview support for streaming, including SSE, WebSockets, gRPC, and HTTP response streaming without spec changes.",
   "fetched": "2026-10-24",
   "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
   "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Streaming_feature_in__API_Gateway.2e16d0ba.fill-1200x600.jpg"
+ },
+ "https://developers.googleblog.com/unifying-edge-ai-how-coral-npus-open-standard-brings-portable-energy-viable-intelligence-from-model-to-silicon/": {
+  "description": "Google Research announces the complete 32-bit Coral NPU RISC-V architecture, v1.0 IREE/MLIR compiler, and new commercial hardware with Synaptics.",
+  "fetched": "2026-10-26",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog-header-image.2e16d0ba.fill-1200x600.jpg"
  },
  "https://dreamlabs.ai/research/dream-1/": {
   "description": "Today, we're releasing Dream-1, a World Action Model that controls robots it has never seen, performs tasks it was never shown, and runs from $3/hour.",
@@ -142,6 +166,18 @@
   "fetched": "2026-10-24",
   "icon": "https://drew.silcock.dev/apple-touch-icon.png",
   "image": "https://drew.silcock.dev/open-graph/blog/is-this-the-new-cyber-normal.png"
+ },
+ "https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&sort=pub_year_isi+asc%2C+title_sort+asc&view=masonry": {
+  "description": null,
+  "fetched": "2026-10-26",
+  "icon": null,
+  "image": null
+ },
+ "https://github.com/KrushnaVardhanReddy/PaperPilot": {
+  "description": "Your local AI copilot for documents. Contribute to KrushnaVardhanReddy/PaperPilot development by creating an account on GitHub.",
+  "fetched": "2026-10-26",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://opengraph.githubassets.com/54b1328ec49ee1adeede6f3491b2680acdd2497e8f396b51c0dab36f3884bdb2/KrushnaVardhanReddy/PaperPilot"
  },
  "https://github.com/ihhub/fheroes2": {
   "description": "fheroes2 is a recreation of Heroes of Might and Magic II game engine - ihhub/fheroes2",
@@ -203,6 +239,18 @@
   "icon": "https://intenex.github.io/personhood/favicon.svg",
   "image": null
  },
+ "https://korindiehacker.bloffy.blog/en/removing-nextjs-got-my-blog-to-100-on-every-lighthouse-category": {
+  "description": "My blog just scored a perfect 100 on every Lighthouse category. I love blogging. I wanted to build a blog that’s light, fast, free of clutter, able to run multiple blogs, and fully accessible on top of that. And finally, at long last, I’ve more or less pulled it off. It was quite a tedious proces...",
+  "fetched": "2026-10-26",
+  "icon": "https://korindiehacker.bloffy.blog/favicon.ico",
+  "image": "https://cdn.bloffy.blog/korindiehacker/articles/469/1792976193085-aneuvk"
+ },
+ "https://lynchlab.net/llm-skin-cancer": {
+  "description": "I am a dermatologist. I tested the ability of GPT-6 Astra and Claude Fable 5.1 to diagnosis skin cancer and found that they were less accurate than I expected. I compared to a 10-year old CNN and to my surprise found that this was superior.",
+  "fetched": "2026-10-26",
+  "icon": "https://lynchlab.net/static/ico/lynchlab-favicon.ico",
+  "image": null
+ },
  "https://magazine.sebastianraschka.com/p/building-reasoning-models": {
   "description": "Over 11 hours of coding videos on evaluation, inference-time scaling, reinforcement learning, and distillation, with Python and PyTorch.",
   "fetched": "2026-10-25",
@@ -220,6 +268,12 @@
   "fetched": "2026-10-23",
   "icon": "https://metr.org/assets/images/favicon/apple-touch-icon.png",
   "image": "https://metr.org/assets/images/logo/og-image-logo.png"
+ },
+ "https://minimaxir.com/2026/10/cheap-llms/": {
+  "description": "What is “the true cost of a token”?",
+  "fetched": "2026-10-26",
+  "icon": "https://minimaxir.com/apple-touch-icon.png",
+  "image": "https://minimaxir.com/2026/10/cheap-llms/vercel.png"
  },
  "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8": {
   "description": null,
@@ -287,6 +341,12 @@
   "icon": "https://security.apple.com/favicon.ico",
   "image": "https://security.apple.com/assets/image/seo-image.jpg"
  },
+ "https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/": {
+  "description": "Microsoft launched Decision-1, a 9B Qwen3.5-based model for AI decision scoring. See pricing, benchmarks, and how it compares to rivals.",
+  "fetched": "2026-10-26",
+  "icon": "https://shattered.io/static/apple-touch-icon.png",
+  "image": "https://shattered.io/wp-content/uploads/2026/10/microsoft-decision-1-qwen3-5-9b-model-2026-gen.jpg"
+ },
  "https://simonwillison.net/2026/Oct/22/armin-ronacher/": {
   "description": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins.",
   "fetched": "2026-10-24",
@@ -297,6 +357,18 @@
   "description": "News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, …",
   "fetched": "2026-10-23",
   "icon": null,
+  "image": null
+ },
+ "https://simonwillison.net/2026/Oct/25/seam-cutter/": {
+  "description": "Seam Cutter",
+  "fetched": "2026-10-26",
+  "icon": null,
+  "image": null
+ },
+ "https://sreweekly.com/sre-weekly-issue-540/": {
+  "description": null,
+  "fetched": "2026-10-26",
+  "icon": "https://sreweekly.com/wp-content/uploads/2015/12/cropped-sreweekly-logo-axes-180x180.png",
   "image": null
  },
  "https://stackoverflow.blog/2026/10/22/the-regression-tests-nobody-writes-capturing-how-software-actually-behaves/": {
@@ -334,6 +406,12 @@
   "fetched": "2026-10-24",
   "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
   "image": "https://techcrunch.com/wp-content/uploads/2017/12/gettyimages-673436934.jpg?resize=1200,813"
+ },
+ "https://titleart.dvy.io/": {
+  "description": "Every classic WordArt style, shape and 3-D effect, in your browser.",
+  "fetched": "2026-10-26",
+  "icon": "https://titleart.dvy.io/apple-touch-icon.png",
+  "image": "https://titleart.dvy.io/social-preview.png"
  },
  "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/": {
   "description": "A fresh academic paper on Z-Library cites a TorrentFreak article that doesn’t exist, and several other sources in the paper are also unfindable. The authors disclose that they used AI tools, which may explain what is going on. The use of AI in an academic paper on shadow libraries is also somewhat ironic, as rightsholders are suing AI companies for using these sites to train AI models.",
@@ -431,6 +509,18 @@
   "icon": null,
   "image": "https://static.blast-info.fr/stories/2026/open_graph-information-exclusive-blast-le-premier-ministre-a-prepare-la-coupure-des-reseaux-sociaux-pour-le-24-octobre-9D8cgrU5S5iiW14Sb9nMzQ.jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/": {
+  "description": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package.",
+  "fetched": "2026-10-26",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/10/23/robot.jpg"
+ },
+ "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/": {
+  "description": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast.",
+  "fetched": "2026-10-26",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/10/23/blackX.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/": {
   "description": "AI agents can be manipulated through malicious emails, websites, and plugins into executing commands, stealing data, or deleting files using their legitimate permissions. Gen Digital explains how its Agent Trust Hub helps protect agents through skill verification, secure connectivity, and runtime controls that intercept dangerous act",
   "fetched": "2026-10-23",
@@ -449,6 +539,12 @@
   "icon": "https://www.computerworld.dk/images/favicon/apple-touch-icon.png",
   "image": "https://www.computerworld.dk/fil/223423?width=1200&height=630&focus=1"
  },
+ "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html": {
+  "description": "Richard Borcherds, a UC Berkeley professor and Fields medalist, no longer grades his students’ homework. After seeing how many of his students used AI to consistently receive top scores, he",
+  "fetched": "2026-10-26",
+  "icon": "https://bloximages.chicago2.vip.townnews.com/dailycal.org/content/tncms/custom/image/6b3dafc9-1707-4317-aff9-b6f92a7f38d2.png?crop=631%2C631%2C285%2C0&resize=180%2C180&order=crop%2Cresize",
+  "image": "https://bloximages.chicago2.vip.townnews.com/dailycal.org/content/tncms/assets/v3/editorial/9/44/944d84f9-b521-443c-ae42-3811a39ea788/6adac8999d0f1.image.jpg?crop=1793%2C941%2C0%2C106&resize=1200%2C630&order=crop%2Cresize"
+ },
  "https://www.darkhorizons.com/xbox-turns-down-netflix-500-million-offer/": {
   "description": "Netflix reportedly offered Microsoft $500 million for a seven year deal that would allow the streaming giant to adapt shows and films about Xbox characters. Puck broke the news, indicating that Microsoft responded with an offer for $800 million – as a result, the deal has reportedly fallen through. In a statement to Puck, Xbox […]",
   "fetched": "2026-10-25",
@@ -460,6 +556,12 @@
   "fetched": "2026-10-23",
   "icon": "https://www.docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-180x180.png",
   "image": "https://www.docker.com/app/uploads/2025/03/image.png"
+ },
+ "https://www.ifixit.com/News/119895/iphone-duo-teardown": {
+  "description": "We took the Duo all the way down to the gears, followed glowing dust into its hinge, and put its crease-hiding nano-texture under the microscope.",
+  "fetched": "2026-10-26",
+  "icon": "https://assets.cdn.ifixit.com/static/icons/ifixit/apple-touch-icon-57x57.png",
+  "image": "https://valkyrie.cdn.ifixit.com/media/2026/10/24232224/iPhone-Duo_94.jpg"
  },
  "https://www.jefftk.com/p/air-purifiers-as-white-noise-machines": {
   "description": "White noise machines are widely used for sound masking, increasing privacy in offices and helping people sleep. The classic approach is a fan in a box, though in the past ten years people have mostly switched over to electronic ones. But a fan is really a great approach; you just need to put it to better use: have the fan clean the air. Instead of spinning a fan in free air to make noise, you ca",
@@ -494,6 +596,12 @@
  "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/": {
   "description": null,
   "fetched": "2026-10-24",
+  "icon": null,
+  "image": null
+ },
+ "https://www.reuters.com/live/brazil-election-live-lula-bolsonaro-face-off-presidential-runoff-2026-10-25/": {
+  "description": null,
+  "fetched": "2026-10-26",
   "icon": null,
   "image": null
  },
@@ -569,10 +677,22 @@
   "icon": "https://www.techspot.com/images/ts3mobile-badge.png",
   "image": "https://www.techspot.com/images2/news/bigimage/2026/10/2026-10-12-image-4.jpg"
  },
+ "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640": {
+  "description": "90 percent of the performance at ten percent of the price, in just two or three racks, is hard to beat",
+  "fetched": "2026-10-26",
+  "icon": "https://www.theregister.com/view-resources/dachser2/public/theregister/favicons/apple-touch-icon.png",
+  "image": "https://image.theregister.com/4091853.jpg?imageId=4091853&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683"
+ },
  "https://xtramagazine.com/culture/online-censorship-indie-webcomics-284463": {
   "description": "From social media platforms to payment processors, new restrictions are making it harder for webcomic artists to exist",
   "fetched": "2026-10-25",
   "icon": "https://xtramagazine.com/wp-content/themes/xtra_magazine/images/apple-touch-icon.png",
   "image": "https://xtramagazine.com/wp-content/uploads/2026/09/Xtra_Comics_Raccoons_CGallardo_Web.jpg"
+ },
+ "https://yossarian.net/til/post/posix-wordexp-3-is-dangerous/": {
+  "description": null,
+  "fetched": "2026-10-26",
+  "icon": null,
+  "image": null
  }
 }
