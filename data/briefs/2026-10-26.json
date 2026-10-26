@@ -1,21 +1,31 @@
 {
   "date": "2026-10-26",
   "lead": {
-    "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
-    "link": "https://github.com/KrushnaVardhanReddy/PaperPilot",
-    "excerpt": "Your local AI copilot for documents. Contribute to KrushnaVardhanReddy/PaperPilot development by creating an account on GitHub.",
-    "source": "github.com via Hacker News",
+    "title": "Apple unveils new iPad mini with OLED display and faster A20 Pro chip",
+    "link": "https://techcrunch.com/2026/10/26/apple-unveils-new-ipad-mini-with-oled-display-and-faster-a20-pro-chip/",
+    "excerpt": "The new iPad mini features a thinner and lighter design than its predecessor.",
+    "source": "TechCrunch",
     "date": "Oct 26",
-    "image": "https://opengraph.githubassets.com/54b1328ec49ee1adeede6f3491b2680acdd2497e8f396b51c0dab36f3884bdb2/KrushnaVardhanReddy/PaperPilot",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-26-at-9.44.29-AM.png?resize=1200,792",
     "image_credit": null,
-    "section": "AI Agents & Agent Security",
+    "section": "News & Research",
     "pinned": false,
     "note": null,
     "labels": [
-      "AI Agents & Agent Security",
-      "10h ago"
+      "3 sources",
+      "News & Research",
+      "under 1h ago"
     ],
-    "also": []
+    "also": [
+      {
+        "name": "apple.com",
+        "link": "https://www.apple.com/shop/buy-ipad/ipad-mini"
+      },
+      {
+        "name": "theverge.com",
+        "link": "https://www.theverge.com/tech/1017801/ipad-mini-oled-display-apple-announce"
+      }
+    ]
   },
   "pulse": [
     {
@@ -25,7 +35,7 @@
       "link_domain": "lynchlab.net",
       "source": "Hacker News",
       "domain": "lynchlab.net",
-      "meta": "Hacker News · 620 points · 259 comments · 21h ago",
+      "meta": "Hacker News · 625 points · 260 comments · 21h ago",
       "also": [],
       "image": null,
       "icon": "https://lynchlab.net/static/ico/lynchlab-favicon.ico"
@@ -49,7 +59,7 @@
       "link_domain": "minimaxir.com",
       "source": "Hacker News",
       "domain": "minimaxir.com",
-      "meta": "Hacker News · 381 points · 383 comments · 17h ago",
+      "meta": "Hacker News · 381 points · 385 comments · 17h ago",
       "also": [],
       "image": "https://minimaxir.com/2026/10/cheap-llms/vercel.png",
       "icon": "https://minimaxir.com/apple-touch-icon.png"
@@ -61,7 +71,7 @@
       "link_domain": "dailycal.org",
       "source": "Hacker News",
       "domain": "dailycal.org",
-      "meta": "Hacker News · 226 points · 320 comments · 21h ago",
+      "meta": "Hacker News · 226 points · 320 comments · 22h ago",
       "also": [],
       "image": "https://bloximages.chicago2.vip.townnews.com/dailycal.org/content/tncms/assets/v3/editorial/9/44/944d84f9-b521-443c-ae42-3811a39ea788/6adac8999d0f1.image.jpg?crop=1793%2C941%2C0%2C106&resize=1200%2C630&order=crop%2Cresize",
       "icon": "https://bloximages.chicago2.vip.townnews.com/dailycal.org/content/tncms/custom/image/6b3dafc9-1707-4317-aff9-b6f92a7f38d2.png?crop=631%2C631%2C285%2C0&resize=180%2C180&order=crop%2Cresize"
@@ -73,7 +83,7 @@
       "link_domain": "fishbowl.pastiche.org",
       "source": "Lobsters",
       "domain": "fishbowl.pastiche.org",
-      "meta": "Lobsters · 27 points · 21 comments · 13h ago",
+      "meta": "Lobsters · 27 points · 21 comments · 14h ago",
       "also": [],
       "image": null,
       "icon": "https://fishbowl.pastiche.org/favicon.ico"
@@ -112,6 +122,17 @@
       "name": "AI Agents & Agent Security",
       "cards": [
         {
+          "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+          "link": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+          "excerpt": "Your local AI copilot for documents. Contribute to KrushnaVardhanReddy/PaperPilot development by creating an account on GitHub.",
+          "source": "github.com via Hacker News",
+          "date": "Oct 26",
+          "image": "https://opengraph.githubassets.com/54b1328ec49ee1adeede6f3491b2680acdd2497e8f396b51c0dab36f3884bdb2/KrushnaVardhanReddy/PaperPilot",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "192 points · 70 comments"
+        },
+        {
           "title": "How Fanatics and OpenAI streamline the fan experience",
           "link": "https://openai.com/index/fanatics-streamline-fan-experience",
           "excerpt": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
@@ -132,7 +153,9 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Seam Cutter",
           "link": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
@@ -144,8 +167,7 @@
           "domain": "simonwillison.net",
           "hn": null
         }
-      ],
-      "more": []
+      ]
     },
     {
       "name": "Leadership",
@@ -446,7 +468,7 @@
           "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-mini-finish-unselect-gallery-1-202610?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1791933043916",
           "icon": "https://www.apple.com/favicon.ico",
           "domain": "apple.com",
-          "hn": "23 points · 5 comments"
+          "hn": "50 points · 39 comments"
         },
         {
           "title": "The new iPad mini",
@@ -457,18 +479,18 @@
           "image": "https://www.apple.com/newsroom/images/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/tile/Apple-iPad-mini-hero-261026-lp.jpg.og.jpg?202610261310",
           "icon": "https://www.apple.com/favicon.ico",
           "domain": "apple.com",
-          "hn": "18 points · 4 comments"
+          "hn": "32 points · 13 comments"
         },
         {
           "title": "Anthropic S-1",
           "link": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
-          "excerpt": "368 points · 309 comments",
+          "excerpt": "441 points · 351 comments",
           "source": "sec.gov via Hacker News",
           "date": "Oct 26",
           "image": null,
           "icon": "https://www.sec.gov/favicon.ico",
           "domain": "sec.gov",
-          "hn": "368 points · 309 comments"
+          "hn": "441 points · 351 comments"
         },
         {
           "title": "Fixing Tool-Call Accuracy in vLLM",
@@ -479,7 +501,7 @@
           "image": "https://cdn.prod.website-files.com/64f9d9b4e737e7b37d4e39a4/6ace25a7011f2d0bca7a06ea_LLM-inference.png",
           "icon": "https://cdn.prod.website-files.com/64f9d9b4e737e7b37d4e39a4/64fe41a59732cbbaa5762828_Webclip.png",
           "domain": "ubicloud.com",
-          "hn": "30 points · 3 comments"
+          "hn": "41 points · 6 comments"
         },
         {
           "title": "Writing Is Closer to Thought Than Code",
@@ -490,7 +512,7 @@
           "image": "https://danielmiessler.com/images/og/writing-is-closer-to-thought-than-code.jpg?t=1792989881480",
           "icon": "https://danielmiessler.com/favicon.ico",
           "domain": "danielmiessler.com",
-          "hn": "25 points · 9 comments"
+          "hn": "28 points · 11 comments"
         }
       ]
     }
