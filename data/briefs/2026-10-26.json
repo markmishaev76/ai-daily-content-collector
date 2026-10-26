@@ -25,7 +25,7 @@
       "link_domain": "lynchlab.net",
       "source": "Hacker News",
       "domain": "lynchlab.net",
-      "meta": "Hacker News · 614 points · 259 comments · 20h ago",
+      "meta": "Hacker News · 620 points · 259 comments · 21h ago",
       "also": [],
       "image": null,
       "icon": "https://lynchlab.net/static/ico/lynchlab-favicon.ico"
@@ -37,7 +37,7 @@
       "link_domain": "yossarian.net",
       "source": "Lobsters",
       "domain": "yossarian.net",
-      "meta": "Lobsters · 76 points · 19 comments · 22h ago",
+      "meta": "Lobsters · 76 points · 19 comments · 23h ago",
       "also": [],
       "image": null,
       "icon": "https://yossarian.net/favicon.ico"
@@ -49,7 +49,7 @@
       "link_domain": "minimaxir.com",
       "source": "Hacker News",
       "domain": "minimaxir.com",
-      "meta": "Hacker News · 379 points · 381 comments · 16h ago",
+      "meta": "Hacker News · 381 points · 383 comments · 17h ago",
       "also": [],
       "image": "https://minimaxir.com/2026/10/cheap-llms/vercel.png",
       "icon": "https://minimaxir.com/apple-touch-icon.png"
@@ -111,6 +111,17 @@
     {
       "name": "AI Agents & Agent Security",
       "cards": [
+        {
+          "title": "How Fanatics and OpenAI streamline the fan experience",
+          "link": "https://openai.com/index/fanatics-streamline-fan-experience",
+          "excerpt": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+          "source": "OpenAI News",
+          "date": "Oct 26",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null
+        },
         {
           "title": "Bias in Qwen3-Coder Model",
           "link": "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html",
@@ -202,6 +213,17 @@
       "name": "Security & AppSec",
       "cards": [
         {
+          "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
+          "link": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
+          "excerpt": "A new NIST, CISA, and NSA guide treats runaway agents as incidents to be rehearsed. The hard part of the response is answering whose authority the agent used, and that answer has to exist before the incident does. [...]",
+          "source": "BleepingComputer",
+          "date": "Oct 26",
+          "image": "https://www.bleepstatic.com/content/posts/2026/10/22/ai-agent-header.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null
+        },
+        {
           "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
           "link": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
           "excerpt": "Two critical flaws in Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say. An attacker would first need a vulnerable Wasmtime build to compile a module they…",
@@ -222,7 +244,9 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null
-        },
+        }
+      ],
+      "more": [
         {
           "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
           "link": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
@@ -233,9 +257,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
           "link": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
@@ -279,17 +301,6 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null
-        },
-        {
-          "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
-          "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
-          "excerpt": "In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws. \"What researchers saw was an attack against a European government agency executed in the…",
-          "source": "The Hacker News",
-          "date": "Oct 25",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzK2qokKedMIUzd876s0EWaLDb7qw-DMzlFWKvmfgCzMKZ2KVvdpZ-298SoEm1_PP6aoEBc6q1LAydnANGur1FbFNmXmhlo6zHtRFvgRcbx-LOoDoM_-JI-_7XkkM4r5q3LQH1SdfirarXTGeiu16d5YMDSeYs8tfJn5ITfRQ4DThbqkq66b4WdDQcOJqf/s1600/php2shell-exploit.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null
         }
       ]
     },
@@ -319,6 +330,19 @@
           "hn": null
         },
         {
+          "title": "Readyon Builds Four Layer Tenant Isolation for Multi Tenant Amazon EKS",
+          "link": "https://www.infoq.com/news/2026/10/readyon-four-layer-isolation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "ReadyOn has detailed a four-layer tenant isolation architecture for its Harmony platform on Amazon EKS. The design combines Kubernetes namespaces, dedicated Karpenter node pools, VPC security groups, and per-tenant Aurora databases, with controls evaluated against a 10-stage multi-tenant threat…",
+          "source": "InfoQ",
+          "date": "Oct 26",
+          "image": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
           "title": "Isolation. Security. Scale.",
           "link": "https://www.cncf.io/blog/2026/10/26/isolation-security-scale/",
           "excerpt": "Without these three things, Agents cannot be properly implemented in a controlled environment, they will not have policy enforcement to ensure they do what they’re supposed to do, and there’s zero way of ensuring that the...",
@@ -327,19 +351,6 @@
           "image": "https://www.cncf.io/wp-content/uploads/2026/10/image-2.jpeg",
           "icon": null,
           "domain": "cncf.io",
-          "hn": null
-        }
-      ],
-      "more": [
-        {
-          "title": "SRE Weekly Issue #540",
-          "link": "https://sreweekly.com/sre-weekly-issue-540/",
-          "excerpt": "View on sreweekly.com A message from our sponsor, Dragonfly: Redis runs one core per process. Your server has 64. Dragonfly is a Redis/Valkey-compatible data store, rebuilt multi-threaded by an ex-AWS ElastiCache engineer: 6M ops/sec on one node, no cluster Drop-in: same clients, same commands…",
-          "source": "SRE WEEKLY",
-          "date": "Oct 26",
-          "image": null,
-          "icon": "https://sreweekly.com/wp-content/uploads/2015/12/cropped-sreweekly-logo-axes-180x180.png",
-          "domain": "sreweekly.com",
           "hn": null
         },
         {
@@ -414,6 +425,52 @@
           "hn": null
         },
         {
+          "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+          "link": "https://www.anthropic.com/news/s1-sec",
+          "excerpt": "Anthropic files S-1 with the SEC for proposed initial public offering",
+          "source": "Anthropic",
+          "date": "Oct 26",
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+          "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+          "domain": "anthropic.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "OLED iPad Mini",
+          "link": "https://www.apple.com/shop/buy-ipad/ipad-mini",
+          "excerpt": "Get $45–$915 off the new iPad mini when you trade in an iPad 6 or newer. Buy now at apple.com.",
+          "source": "apple.com via Hacker News",
+          "date": "Oct 26",
+          "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-mini-finish-unselect-gallery-1-202610?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1791933043916",
+          "icon": "https://www.apple.com/favicon.ico",
+          "domain": "apple.com",
+          "hn": "23 points · 5 comments"
+        },
+        {
+          "title": "The new iPad mini",
+          "link": "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
+          "excerpt": "Apple unveils the all-new iPad mini, featuring an OLED display in a thinner design, a leap in performance with A20 Pro, and water and dust resistance.",
+          "source": "apple.com via Hacker News",
+          "date": "Oct 26",
+          "image": "https://www.apple.com/newsroom/images/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/tile/Apple-iPad-mini-hero-261026-lp.jpg.og.jpg?202610261310",
+          "icon": "https://www.apple.com/favicon.ico",
+          "domain": "apple.com",
+          "hn": "18 points · 4 comments"
+        },
+        {
+          "title": "Anthropic S-1",
+          "link": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+          "excerpt": "368 points · 309 comments",
+          "source": "sec.gov via Hacker News",
+          "date": "Oct 26",
+          "image": null,
+          "icon": "https://www.sec.gov/favicon.ico",
+          "domain": "sec.gov",
+          "hn": "368 points · 309 comments"
+        },
+        {
           "title": "Fixing Tool-Call Accuracy in vLLM",
           "link": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
           "excerpt": "Tool call accuracy is an important part of serving open-weight AI models. When your tool calls aren’t accurate, the model builds up on nonsensical context. We’ve been carrying our own fork of vLLM to hit 100% in tool call schema accuracy with Kimi and DeepSeek. Fortunately, vLLM 0.31 added support…",
@@ -422,42 +479,7 @@
           "image": "https://cdn.prod.website-files.com/64f9d9b4e737e7b37d4e39a4/6ace25a7011f2d0bca7a06ea_LLM-inference.png",
           "icon": "https://cdn.prod.website-files.com/64f9d9b4e737e7b37d4e39a4/64fe41a59732cbbaa5762828_Webclip.png",
           "domain": "ubicloud.com",
-          "hn": "19 points · 1 comments"
-        }
-      ],
-      "more": [
-        {
-          "title": "Anthropic S-1",
-          "link": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm#ica694c859b8e458dbf6a73f56dde9d42_2972",
-          "excerpt": "13 points · 0 comments",
-          "source": "sec.gov via Hacker News",
-          "date": "Oct 26",
-          "image": null,
-          "icon": "https://www.sec.gov/favicon.ico",
-          "domain": "sec.gov",
-          "hn": "13 points · 0 comments"
-        },
-        {
-          "title": "Anthropic S-1",
-          "link": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
-          "excerpt": "318 points · 254 comments",
-          "source": "sec.gov via Hacker News",
-          "date": "Oct 26",
-          "image": null,
-          "icon": "https://www.sec.gov/favicon.ico",
-          "domain": "sec.gov",
-          "hn": "318 points · 254 comments"
-        },
-        {
-          "title": "Peter Thiel, the tech oligarch who believes in the Antichrist",
-          "link": "https://english.elpais.com/technology/2026-10-25/peter-thiel-the-tech-oligarch-who-believes-in-the-antichrist.html",
-          "excerpt": "The PayPal founder is probably the most influential figure in the technology industry in decades. He spreads conspiracy theories, but he is not an eccentric divorced from reality: he saw Trump’s rise before almost anyone else, and he is behind the career of Vice President J. D. Vance. And his…",
-          "source": "english.elpais.com via Hacker News",
-          "date": "Oct 26",
-          "image": "https://imagenes.elpais.com/resizer/v2/Z2NRV74JRFELXKGOA4YPJSRCYE.jpg?auth=f82f480c9b7758dc053ecb8eb8bdd27801d38540edd0f42713348072e744d11e&width=1200",
-          "icon": "https://static.elpais.com/dist/resources/images/apple-touch-icon.png",
-          "domain": "english.elpais.com",
-          "hn": "94 points · 61 comments"
+          "hn": "30 points · 3 comments"
         },
         {
           "title": "Writing Is Closer to Thought Than Code",
@@ -468,18 +490,7 @@
           "image": "https://danielmiessler.com/images/og/writing-is-closer-to-thought-than-code.jpg?t=1792989881480",
           "icon": "https://danielmiessler.com/favicon.ico",
           "domain": "danielmiessler.com",
-          "hn": "22 points · 7 comments"
-        },
-        {
-          "title": "Tasks as Code: Move Your Tickets into the Repository",
-          "link": "https://typemill.net/knowledge-hub/tasks-as-code",
-          "excerpt": "AI coding agents work from your repository, so why keep tasks in Jira? Learn how Tasks as Code stores them as Markdown in Git, next to code and docs.",
-          "source": "typemill.net via Hacker News",
-          "date": "Oct 26",
-          "image": "https://typemill.net/media/live/tasks-like-code.webp",
-          "icon": "https://typemill.net/media/custom/favicon-72x72.png",
-          "domain": "typemill.net",
-          "hn": "30 points · 25 comments"
+          "hn": "25 points · 9 comments"
         }
       ]
     }

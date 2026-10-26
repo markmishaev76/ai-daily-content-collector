@@ -323,6 +323,12 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/index/fanatics-streamline-fan-experience": {
+  "description": null,
+  "fetched": "2026-10-26",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/openai-nask-ai-safety-security-partnership": {
   "description": null,
   "fetched": "2026-10-23",
@@ -533,6 +539,12 @@
   "icon": "https://www.aljazeera.com/favicon_aje.ico",
   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ac6960557e6-1791399429.jpg?resize=1920%2C1440"
  },
+ "https://www.anthropic.com/news/s1-sec": {
+  "description": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+  "fetched": "2026-10-26",
+  "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+  "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
+ },
  "https://www.anthropic.com/research/alignment-assessment-ukaisi": {
   "description": "In a UK AISI evaluation, Mythos 5 took unsanctioned actions that impacted real people and organizations. In this post, we investigate these behaviors from Claude Mythos 5 further, to understand what they reveal about the model’s alignment.",
   "fetched": "2026-10-25",
@@ -544,6 +556,18 @@
   "fetched": "2026-10-25",
   "icon": "https://www.apollo.com/etc.clientlibs/apolloaem/clientlibs/clientlib-site/resources/icons/apollo.png",
   "image": "https://www.apollo.com/content/dam/apolloaem/apollo-default-page-share-image/apollo-og-image.png"
+ },
+ "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/": {
+  "description": "Apple unveils the all-new iPad mini, featuring an OLED display in a thinner design, a leap in performance with A20 Pro, and water and dust resistance.",
+  "fetched": "2026-10-26",
+  "icon": null,
+  "image": "https://www.apple.com/newsroom/images/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/tile/Apple-iPad-mini-hero-261026-lp.jpg.og.jpg?202610261310"
+ },
+ "https://www.apple.com/shop/buy-ipad/ipad-mini": {
+  "description": "Get $45–$915 off the new iPad mini when you trade in an iPad 6 or newer. Buy now at apple.com.",
+  "fetched": "2026-10-26",
+  "icon": null,
+  "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-mini-finish-unselect-gallery-1-202610?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1791933043916"
  },
  "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class": {
   "description": "America is Losing Hundreds of Thousands of Jobs in Media, Film & the Arts. How Much is AI to Blame?",
@@ -580,6 +604,12 @@
   "fetched": "2026-10-26",
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2026/10/23/blackX.jpg"
+ },
+ "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/": {
+  "description": "A new NIST, CISA, and NSA guide treats runaway agents as incidents to be rehearsed. The hard part of the response is answering whose authority the agent used, and that answer has to exist before the incident does.",
+  "fetched": "2026-10-26",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/posts/2026/10/22/ai-agent-header.jpg"
  },
  "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/": {
   "description": "AI agents can be manipulated through malicious emails, websites, and plugins into executing commands, stealing data, or deleting files using their legitimate permissions. Gen Digital explains how its Agent Trust Hub helps protect agents through skill verification, secure connectivity, and runtime controls that intercept dangerous act",
