@@ -1,0 +1,487 @@
+{
+  "date": "2026-10-26",
+  "lead": {
+    "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+    "link": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+    "excerpt": "Your local AI copilot for documents. Contribute to KrushnaVardhanReddy/PaperPilot development by creating an account on GitHub.",
+    "source": "github.com via Hacker News",
+    "date": "Oct 26",
+    "image": "https://opengraph.githubassets.com/54b1328ec49ee1adeede6f3491b2680acdd2497e8f396b51c0dab36f3884bdb2/KrushnaVardhanReddy/PaperPilot",
+    "image_credit": null,
+    "section": "AI Agents & Agent Security",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "AI Agents & Agent Security",
+      "10h ago"
+    ],
+    "also": []
+  },
+  "pulse": [
+    {
+      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "thread": "https://news.ycombinator.com/item?id=50233779",
+      "link": "https://lynchlab.net/llm-skin-cancer",
+      "link_domain": "lynchlab.net",
+      "source": "Hacker News",
+      "domain": "lynchlab.net",
+      "meta": "Hacker News · 613 points · 259 comments · 20h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://lynchlab.net/static/ico/lynchlab-favicon.ico"
+    },
+    {
+      "title": "POSIX wordexp(3) is dangerous",
+      "thread": "https://lobste.rs/s/tbbiqb/posix_wordexp_3_is_dangerous",
+      "link": "https://yossarian.net/til/post/posix-wordexp-3-is-dangerous/",
+      "link_domain": "yossarian.net",
+      "source": "Lobsters",
+      "domain": "yossarian.net",
+      "meta": "Lobsters · 76 points · 19 comments · 22h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://yossarian.net/favicon.ico"
+    },
+    {
+      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "thread": "https://news.ycombinator.com/item?id=50236102",
+      "link": "https://minimaxir.com/2026/10/cheap-llms/",
+      "link_domain": "minimaxir.com",
+      "source": "Hacker News",
+      "domain": "minimaxir.com",
+      "meta": "Hacker News · 379 points · 377 comments · 16h ago",
+      "also": [],
+      "image": "https://minimaxir.com/2026/10/cheap-llms/vercel.png",
+      "icon": "https://minimaxir.com/apple-touch-icon.png"
+    },
+    {
+      "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+      "thread": "https://news.ycombinator.com/item?id=50233304",
+      "link": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+      "link_domain": "dailycal.org",
+      "source": "Hacker News",
+      "domain": "dailycal.org",
+      "meta": "Hacker News · 226 points · 320 comments · 21h ago",
+      "also": [],
+      "image": "https://bloximages.chicago2.vip.townnews.com/dailycal.org/content/tncms/assets/v3/editorial/9/44/944d84f9-b521-443c-ae42-3811a39ea788/6adac8999d0f1.image.jpg?crop=1793%2C941%2C0%2C106&resize=1200%2C630&order=crop%2Cresize",
+      "icon": "https://bloximages.chicago2.vip.townnews.com/dailycal.org/content/tncms/custom/image/6b3dafc9-1707-4317-aff9-b6f92a7f38d2.png?crop=631%2C631%2C285%2C0&resize=180%2C180&order=crop%2Cresize"
+    },
+    {
+      "title": "“AI Skills” are worthless in 2026",
+      "thread": "https://lobste.rs/s/x1s5oq/ai_skills_are_worthless_2026",
+      "link": "https://fishbowl.pastiche.org/2026/10/26/ai-skills",
+      "link_domain": "fishbowl.pastiche.org",
+      "source": "Lobsters",
+      "domain": "fishbowl.pastiche.org",
+      "meta": "Lobsters · 27 points · 20 comments · 13h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://fishbowl.pastiche.org/favicon.ico"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI-Assisted Engineering",
+      "cards": [
+        {
+          "title": "What’s next for DORA?",
+          "link": "https://leaddev.com/reporting/whats-next-for-dora?utm_source=leaddev&utm_medium=RSS",
+          "excerpt": "What the legacy of DORA says about the modern tech industry. The post What’s next for DORA? appeared first on LeadDev.",
+          "source": "LeadDev",
+          "date": "Oct 26",
+          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1280,h_853/next/2024/08/Reporting3-1.png",
+          "icon": null,
+          "domain": "leaddev.com",
+          "hn": null
+        },
+        {
+          "title": "Engineers are coding out loud",
+          "link": "https://leaddev.com/technical-direction/engineers-are-coding-out-loud?utm_source=leaddev&utm_medium=RSS",
+          "excerpt": "The rise of voice coding developers. The post Engineers are coding out loud appeared first on LeadDev.",
+          "source": "LeadDev",
+          "date": "Oct 26",
+          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_640,h_360/next/2024/11/Effectively-handling-difficult-conversations-as-a-leader-3.png",
+          "icon": null,
+          "domain": "leaddev.com",
+          "hn": null
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "AI Agents & Agent Security",
+      "cards": [
+        {
+          "title": "Bias in Qwen3-Coder Model",
+          "link": "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html",
+          "excerpt": "Interesting research: TL;DR: Chinese AI models now sit inside Western products, and some carry geopolitical triggers: tell the model who the code is for, and the security of what it writes changes. For the first time, we showed that this vulnerability lives in the model’s weights, and that…",
+          "source": "Schneier on Security",
+          "date": "Oct 26",
+          "image": null,
+          "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+          "domain": "schneier.com",
+          "hn": null
+        },
+        {
+          "title": "Seam Cutter",
+          "link": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
+          "excerpt": "Tool: Seam Cutter I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a section in the middle of an image. I wanted this because I often use Tailor on…",
+          "source": "Simon Willison",
+          "date": "Oct 25",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Leadership",
+      "cards": [
+        {
+          "title": "Agentic AI in financial-crime prevention: Lessons from winners",
+          "link": "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/agentic-ai-in-financial-crime-prevention-lessons-from-winners",
+          "excerpt": "A year of delivery has confirmed much of what we expected about agentic AI in financial-crime prevention—and inspired five key questions that can help institutions scale.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Oct 26",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null
+        },
+        {
+          "title": "The End of the Internet",
+          "link": "https://stratechery.com/2026/the-end-of-the-internet/",
+          "excerpt": "The old Internet, where anyone could host a server is over, but it's just the final blow in an ending that has been coming for years. The future, though, is brighter than it appears.",
+          "source": "Stratechery by Ben Thompson",
+          "date": "Oct 26",
+          "image": "https://i0.wp.com/stratechery.com/wp-content/uploads/2026/10/Stripe-wordmark-Blurple-Small.png?resize=55%2C23&ssl=1",
+          "icon": null,
+          "domain": "stratechery.com",
+          "hn": null
+        },
+        {
+          "title": "Is HR Tech Undermining Your Strategy?",
+          "link": "https://sloanreview.mit.edu/article/is-hr-tech-undermining-your-strategy/",
+          "excerpt": "Getty Images HR technology is no longer peripheral to how organizations operate. A fast-growing assortment of platforms is touching the employee life cycle and capturing workforce data. At the October 2025 HR Technology Conference, more than 400 vendors showcased their wares, including new…",
+          "source": "MIT Sloan Management Review",
+          "date": "Oct 26",
+          "image": "https://sloanreview.mit.edu/wp-content/uploads/2026/10/Wiblen-1290x860-1.jpg",
+          "icon": null,
+          "domain": "sloanreview.mit.edu",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "The rise of the agentic coworker: A banking CIO’s guide to the next wave of AI",
+          "link": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-rise-of-the-agentic-coworker-a-banking-cios-guide-to-the-next-wave-of-ai",
+          "excerpt": "AI agents can increasingly make decisions, act, and collaborate across workflows. Deploying them at scale requires new approaches to governance, architecture, and accountability.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Oct 26",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null
+        },
+        {
+          "title": "Agentic AI in transaction monitoring: How banks can scale AI in compliance",
+          "link": "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/agentic-ai-in-transaction-monitoring-how-banks-can-scale-ai-in-compliance",
+          "excerpt": "Applying AI to transaction monitoring shows how agents can transform compliance tasks and processes, turning cost centers into drivers of advantage.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Oct 26",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
+          "link": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
+          "excerpt": "Two critical flaws in Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say. An attacker would first need a vulnerable Wasmtime build to compile a module they…",
+          "source": "The Hacker News",
+          "date": "Oct 26",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5xq9w5oCep_lu7UpdVExPO7yRQ1tMz0YkxljYR_LmwG3WKowZ2CtLPh4F6kASJ7Xu0xJKy4uVzlwj7fPEO3fgKUELS4BqUtDZvGh1P-iqRslXNCLdkcJMCBGSKvJeqrrkeZdfPO9Wmv_v2VqdYEZVavTHw-QHUhli9QYGVhASuSRt3DETy8JMBz1D-kE/s1600/wasm.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
+          "link": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
+          "excerpt": "Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and response (NDR) platform, connects individual alerts into one timeline, and it feeds the defensive systems that can tie all…",
+          "source": "The Hacker News",
+          "date": "Oct 26",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhH3sLtMeyrqaZo1e2DoGlQohJtAM96DKv9JxQVxynJVNyJ_76dwQQAvkcN2xeos8NtStnH6A3B4bOwtFvdsNSxdBkR6so5s66iBb0ApIhIJ2cs3hVCYdh6oOnO4K_kwKOJsDSqL4wsPrOJ48x3VmSXiQwpcxm_ULL7En-Xw_9Rc1sEFQvCdb9Sr0NwUH0/s1600/Misses.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
+          "link": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+          "excerpt": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these tampered copies, spread outside the official app stores, or who run WeChat inside…",
+          "source": "The Hacker News",
+          "date": "Oct 26",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdBBtFdo2KmBzapUDlLWoS0hh17lYfWUw0kOLWTfbgeNOTP5F5pEJPmWSzBHkjSv4HR-vwfJ-Ba38Tg_su11Zi4CDKXJ29BnlQdCrU-oU84jl7TAET_aPyWV2fRazSLy0hBz8sBP3EhFubGETPdPwpnAFAX0CSbEQfsA65JqQMob9R_4cPbbJRi91KAkY/s1600/telegram-wechat.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+          "link": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+          "excerpt": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 organizations. Huntress, which observed the activity between…",
+          "source": "The Hacker News",
+          "date": "Oct 26",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKwJ8hpTcgaV_VMCyzQDPQQOPlZmmE3Fg-XAOrUfFazMKgVGEoT7OHQgWhyJLhCpHO6Hvp35u_YZGBfyGXAuJfpwP4BriicsNfvhPXjq4BzNyULVQPzNCWzmSIGnDLN7P2RNW2sfm15qZxLrVzpDg8FvOcGTZBhMsBFPH3IhiV1k3NdGAHFRC7kkKaOMMn/s1600/contoso.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
+          "link": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
+          "excerpt": "An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The attacks have succeeded in private repositories and GitHub Enterprise environments, according to an…",
+          "source": "The Hacker News",
+          "date": "Oct 26",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipCbP2hnS9ddXqMz9cNIAMEQZWy2qX45MZnYfIuO_Zszamhl_FS7ViRp4CZcjHS6uu6A4jR_S4vBzHzoMNtAb0CbaGxHxj2F07wuKWHfSbsFUov-4dsQWUNJZwfGbnfThW1sAQZ61y5ibqyhlW1iBmbWeSwE1gKHsigRRXaql9P96aFANb3al6vno7fuA/s1600/github-secrets.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+          "link": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+          "excerpt": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm Forever Security said in a report published last week. The company caught the attempt on a real customer's machine and stopped the agent…",
+          "source": "The Hacker News",
+          "date": "Oct 26",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6cUQufM8zcABLKEfGt5xpGX34mUnThXvptS6o1GfAv8Ak_FO__f-rsT0GPf1Nro1NSRQuUsEGJl1boXq5Rt-IMFOnHunESsqj4sfJ_ypu9qhRgva3V0OqPN04FAKvOw0Y0KeKUvgG_RzWvA7u6piuPvLIaTJG2mbeWRRgFJB2vziZdJbkU1dN2nfwBf8/s1600/codex.png",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+          "link": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+          "excerpt": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls…",
+          "source": "The Hacker News",
+          "date": "Oct 25",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbGR63RmXInXPwCVFZlGJSiGv5WQfLTWymToOPIYbKXfXniB7X4YDbTVK-28G4r3WfdelCr_2TRzhoYrIogcG_C9WjXEHaLhURIh_v5RyO5sBY8UKwQWbKUBrv_H5n5K7N4mz2WG3d5dldw_re-M5CgDDbVi_EhTqvB9P87fZJlODojj8ivvj-RwLUhpg/s1600/tailscale.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
+          "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+          "excerpt": "In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws. \"What researchers saw was an attack against a European government agency executed in the…",
+          "source": "The Hacker News",
+          "date": "Oct 25",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzK2qokKedMIUzd876s0EWaLDb7qw-DMzlFWKvmfgCzMKZ2KVvdpZ-298SoEm1_PP6aoEBc6q1LAydnANGur1FbFNmXmhlo6zHtRFvgRcbx-LOoDoM_-JI-_7XkkM4r5q3LQH1SdfirarXTGeiu16d5YMDSeYs8tfJn5ITfRQ4DThbqkq66b4WdDQcOJqf/s1600/php2shell-exploit.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "MCP C# SDK 2.0 Makes HTTP Stateless by Default and Adds Multi Round-Trip Requests",
+          "link": "https://www.infoq.com/news/2026/10/MCP-CSharp-SDK-Stateless/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Microsoft announced version 2.0 of the official MCP C# SDK, which implements the 2026-07-28 revision of the Model Context Protocol with stateless HTTP servers by default, standardised routing headers and Multi Round-Trip Requests. Releases 2.1 to 2.3 have since added hybrid session serving, a…",
+          "source": "InfoQ",
+          "date": "Oct 26",
+          "image": "https://res.infoq.com/news/2026/10/MCP-CSharp-SDK-Stateless/en/headerimage/header-1792707557585.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null
+        },
+        {
+          "title": "Article: The Evolution of Agentic Harnesses: From Chains to Graph to Code",
+          "link": "https://www.infoq.com/articles/agentic-ai-architecture-harness-evolution/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Agentic LLM systems have moved from linear prompt chains to graph-based workflows and, more recently, code-executing harnesses. Chains are simple but fragile, graphs add branching, retries, and validation, and code harnesses verify outputs through execution. The article advises validating model…",
+          "source": "InfoQ",
+          "date": "Oct 26",
+          "image": "https://res.infoq.com/articles/agentic-ai-architecture-harness-evolution/en/headerimage/agentic-ai-architecture-harness-evolution-header-1792744961862.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null
+        },
+        {
+          "title": "Isolation. Security. Scale.",
+          "link": "https://www.cncf.io/blog/2026/10/26/isolation-security-scale/",
+          "excerpt": "Without these three things, Agents cannot be properly implemented in a controlled environment, they will not have policy enforcement to ensure they do what they’re supposed to do, and there’s zero way of ensuring that the...",
+          "source": "Blog – Cloud Native Computing Foundation",
+          "date": "Oct 26",
+          "image": "https://www.cncf.io/wp-content/uploads/2026/10/image-2.jpeg",
+          "icon": null,
+          "domain": "cncf.io",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "SRE Weekly Issue #540",
+          "link": "https://sreweekly.com/sre-weekly-issue-540/",
+          "excerpt": "View on sreweekly.com A message from our sponsor, Dragonfly: Redis runs one core per process. Your server has 64. Dragonfly is a Redis/Valkey-compatible data store, rebuilt multi-threaded by an ex-AWS ElastiCache engineer: 6M ops/sec on one node, no cluster Drop-in: same clients, same commands…",
+          "source": "SRE WEEKLY",
+          "date": "Oct 26",
+          "image": null,
+          "icon": "https://sreweekly.com/wp-content/uploads/2015/12/cropped-sreweekly-logo-axes-180x180.png",
+          "domain": "sreweekly.com",
+          "hn": null
+        },
+        {
+          "title": "Unifying Edge AI: How Coral NPU’s open standard brings portable, energy-viable intelligence from model to silicon",
+          "link": "https://developers.googleblog.com/unifying-edge-ai-how-coral-npus-open-standard-brings-portable-energy-viable-intelligence-from-model-to-silicon/",
+          "excerpt": "Google Research has completed the 32-bit open-source Coral NPU RISC-V architecture with the introduction of its Matrix Execution Unit, which delivers up to 1 TOPS while targeting 10 mW average power for edge inference. Alongside this architecture, the release of the v1.0 open-source IREE/MLIR…",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog-header-image.2e16d0ba.fill-1200x600.jpg",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null
+        },
+        {
+          "title": "Integrating TorchTPU into TorchTitan and Optimizing Models for TPU",
+          "link": "https://developers.googleblog.com/integrating-torchtpu-into-torchtitan-and-optimizing-models-for-tpu/",
+          "excerpt": "TorchTPU integrates a native torch.device(\"tpu\") backend directly into PyTorch, allowing developers to train large-scale models on Google Cloud TPUs without rewriting code in JAX. The TorchTitan TPU fork enhances this with production-grade scaling primitives like SimpleFSDP, Graph Trainer, and…",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Torch_Titan_Header_Image.2e16d0ba.fill-1200x600.jpg",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null
+        },
+        {
+          "title": "Native Model Authoring for Edge with LiteRT Tensor API",
+          "link": "https://developers.googleblog.com/native-model-authoring-for-edge-with-litert-tensor-api/",
+          "excerpt": "Meet the LiteRT Tensor API: giving developers native C++ control over the model graph to unify end-to-end ML computations on heterogeneous edge hardware.",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_bguxwvbgux.2e16d0ba.fill-1200x600.jpg",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null
+        },
+        {
+          "title": "Step by Step guide: Build a Voice Agent That Never Goes Silent using ADK",
+          "link": "https://developers.googleblog.com/step-by-step-guide-build-a-voice-agent-that-never-goes-silent-using-adk/",
+          "excerpt": "The open-source Agent Development Kit (ADK) and gemini-3.8-live enable developers to build responsive voice agents by implementing non-blocking tools in Python. Developers can use streaming tools to yield progress updates or background execution patterns to keep conversations fluid during…",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/option4_minimal_flow_diagram_1600.2e16d0ba.fill-1200x600.png",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "The focus on AI safety disasters ignores everyday harms",
+          "link": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
+          "excerpt": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide. A social media platform makes it more difficult for children to buy fentanyl. These are important protections, and they should have existed all along. But companies can clear…",
+          "source": "MIT Technology Review",
+          "date": "Oct 26",
+          "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/monkeys-teen3.jpg?resize=1200,600",
+          "icon": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/static/media/favicon.1cfcdb44759a0f93ddf5feb5405dd4cc.ico",
+          "domain": "technologyreview.com",
+          "hn": null
+        },
+        {
+          "title": "The Download: everyday AI harms and the race to nuclear spaceflight",
+          "link": "https://www.technologyreview.com/2026/10/26/1147650/the-download-everyday-ai-harms-nuclear-spaceflight/",
+          "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Opinion: The focus on AI safety disasters ignores everyday harms —Sam Hiner, cofounder of the Young People’s Alliance, and Emma Leiken, executive director of…",
+          "source": "MIT Technology Review",
+          "date": "Oct 26",
+          "image": "https://wp.technologyreview.com/wp-content/uploads/2026/03/260326_uterus.jpg?fit=2128,1196",
+          "icon": null,
+          "domain": "technologyreview.com",
+          "hn": null
+        },
+        {
+          "title": "Fixing Tool-Call Accuracy in vLLM",
+          "link": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
+          "excerpt": "Tool call accuracy is an important part of serving open-weight AI models. When your tool calls aren’t accurate, the model builds up on nonsensical context. We’ve been carrying our own fork of vLLM to hit 100% in tool call schema accuracy with Kimi and DeepSeek. Fortunately, vLLM 0.31 added support…",
+          "source": "ubicloud.com via Hacker News",
+          "date": "Oct 26",
+          "image": "https://cdn.prod.website-files.com/64f9d9b4e737e7b37d4e39a4/6ace25a7011f2d0bca7a06ea_LLM-inference.png",
+          "icon": "https://cdn.prod.website-files.com/64f9d9b4e737e7b37d4e39a4/64fe41a59732cbbaa5762828_Webclip.png",
+          "domain": "ubicloud.com",
+          "hn": "19 points · 1 comments"
+        }
+      ],
+      "more": [
+        {
+          "title": "Anthropic S-1",
+          "link": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm#ica694c859b8e458dbf6a73f56dde9d42_2972",
+          "excerpt": "13 points · 0 comments",
+          "source": "sec.gov via Hacker News",
+          "date": "Oct 26",
+          "image": null,
+          "icon": "https://www.sec.gov/favicon.ico",
+          "domain": "sec.gov",
+          "hn": "13 points · 0 comments"
+        },
+        {
+          "title": "Anthropic S-1",
+          "link": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+          "excerpt": "318 points · 254 comments",
+          "source": "sec.gov via Hacker News",
+          "date": "Oct 26",
+          "image": null,
+          "icon": "https://www.sec.gov/favicon.ico",
+          "domain": "sec.gov",
+          "hn": "318 points · 254 comments"
+        },
+        {
+          "title": "Peter Thiel, the tech oligarch who believes in the Antichrist",
+          "link": "https://english.elpais.com/technology/2026-10-25/peter-thiel-the-tech-oligarch-who-believes-in-the-antichrist.html",
+          "excerpt": "The PayPal founder is probably the most influential figure in the technology industry in decades. He spreads conspiracy theories, but he is not an eccentric divorced from reality: he saw Trump’s rise before almost anyone else, and he is behind the career of Vice President J. D. Vance. And his…",
+          "source": "english.elpais.com via Hacker News",
+          "date": "Oct 26",
+          "image": "https://imagenes.elpais.com/resizer/v2/Z2NRV74JRFELXKGOA4YPJSRCYE.jpg?auth=f82f480c9b7758dc053ecb8eb8bdd27801d38540edd0f42713348072e744d11e&width=1200",
+          "icon": "https://static.elpais.com/dist/resources/images/apple-touch-icon.png",
+          "domain": "english.elpais.com",
+          "hn": "94 points · 61 comments"
+        },
+        {
+          "title": "Writing Is Closer to Thought Than Code",
+          "link": "https://danielmiessler.com/blog/writing-is-closer-to-thought-than-code",
+          "excerpt": "Why your written intent should be the source of truth when building with AI",
+          "source": "danielmiessler.com via Hacker News",
+          "date": "Oct 26",
+          "image": "https://danielmiessler.com/images/og/writing-is-closer-to-thought-than-code.jpg?t=1792989881480",
+          "icon": "https://danielmiessler.com/favicon.ico",
+          "domain": "danielmiessler.com",
+          "hn": "22 points · 7 comments"
+        },
+        {
+          "title": "Tasks as Code: Move Your Tickets into the Repository",
+          "link": "https://typemill.net/knowledge-hub/tasks-as-code",
+          "excerpt": "AI coding agents work from your repository, so why keep tasks in Jira? Learn how Tasks as Code stores them as Markdown in Git, next to code and docs.",
+          "source": "typemill.net via Hacker News",
+          "date": "Oct 26",
+          "image": "https://typemill.net/media/live/tasks-like-code.webp",
+          "icon": "https://typemill.net/media/custom/favicon-72x72.png",
+          "domain": "typemill.net",
+          "hn": "30 points · 25 comments"
+        }
+      ]
+    }
+  ]
+}

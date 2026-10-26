@@ -83,6 +83,12 @@
   "icon": "https://cve.0xosprey.com/apple-touch-icon.png",
   "image": "https://cve.0xosprey.com/og.png"
  },
+ "https://danielmiessler.com/blog/writing-is-closer-to-thought-than-code": {
+  "description": "Why your written intent should be the source of truth when building with AI",
+  "fetched": "2026-10-26",
+  "icon": "https://danielmiessler.com/favicon.ico",
+  "image": "https://danielmiessler.com/images/og/writing-is-closer-to-thought-than-code.jpg?t=1792989881480"
+ },
  "https://danluu.com/ambitious/": {
   "description": null,
   "fetched": "2026-10-25",
@@ -184,6 +190,12 @@
   "fetched": "2026-10-24",
   "icon": "https://drew.silcock.dev/apple-touch-icon.png",
   "image": "https://drew.silcock.dev/open-graph/blog/is-this-the-new-cyber-normal.png"
+ },
+ "https://english.elpais.com/technology/2026-10-25/peter-thiel-the-tech-oligarch-who-believes-in-the-antichrist.html": {
+  "description": "The PayPal founder is probably the most influential figure in the technology industry in decades. He spreads conspiracy theories, but he is not an eccentric divorced from reality: he saw Trump’s rise before almost anyone else, and he is behind the career of Vice President J. D. Vance. And his defense and espionage company, Palantir, has signed contracts with governments around the world",
+  "fetched": "2026-10-26",
+  "icon": "https://static.elpais.com/dist/resources/images/apple-touch-icon.png",
+  "image": "https://imagenes.elpais.com/resizer/v2/Z2NRV74JRFELXKGOA4YPJSRCYE.jpg?auth=f82f480c9b7758dc053ecb8eb8bdd27801d38540edd0f42713348072e744d11e&width=1200"
  },
  "https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&sort=pub_year_isi+asc%2C+title_sort+asc&view=masonry": {
   "description": null,
@@ -473,6 +485,12 @@
   "icon": "https://x.com/apple-touch-icon.png",
   "image": "https://pbs.twimg.com/amplify_video_thumb/2111935302277439488/img/5vojPR3nncikM-MD?format=webp&name=large"
  },
+ "https://typemill.net/knowledge-hub/tasks-as-code": {
+  "description": "AI coding agents work from your repository, so why keep tasks in Jira? Learn how Tasks as Code stores them as Markdown in Git, next to code and docs.",
+  "fetched": "2026-10-26",
+  "icon": "https://typemill.net/media/custom/favicon-72x72.png",
+  "image": "https://typemill.net/media/live/tasks-like-code.webp"
+ },
  "https://workos.com/blog/a-busy-week-in-security-what-it-means-for-workos-and-for-you": {
   "description": "Node.js and PHP shipped RCE fixes, a malicious LiteLLM release hit PyPI, and eMudhra CA keys were compromised. What WorkOS did, and some recommendations for your stack.",
   "fetched": "2026-10-24",
@@ -611,6 +629,18 @@
   "icon": null,
   "image": "https://www.jefftk.com/jefftk-glyph-framed.jpg"
  },
+ "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/agentic-ai-in-financial-crime-prevention-lessons-from-winners": {
+  "description": null,
+  "fetched": "2026-10-26",
+  "icon": null,
+  "image": null
+ },
+ "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/agentic-ai-in-transaction-monitoring-how-banks-can-scale-ai-in-compliance": {
+  "description": null,
+  "fetched": "2026-10-26",
+  "icon": null,
+  "image": null
+ },
  "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-rise-of-the-agentic-coworker-a-banking-cios-guide-to-the-next-wave-of-ai": {
   "description": null,
   "fetched": "2026-10-26",
@@ -653,6 +683,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html": {
+  "description": "Interesting research: TL;DR: Chinese AI models now sit inside Western products, and some carry geopolitical triggers: tell the model who the code is for, and the security of what it writes changes. For the first time, we showed that this vulnerability lives in the model’s weights, and that removing the model’s CCP alignment removes it. One word tilts the code against Americans. Ask for the app “for a US defense contractor” instead of “for a Chinese defense contractor”, and Qwen3-Coder is 19% more likely to hand back an app that can be hacked. ...",
+  "fetched": "2026-10-26",
+  "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+  "image": null
+ },
  "https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html": {
   "description": "The Indian CA eMudhra Limited has eight TLS certificates with laughably weak private keys: The compromised eMudhra keys were defective at a level that’s challenging the imagination of many of the engineers studying the incident. A normal size for a NIST P-384 elliptic curve cryptography private key contains roughly 384 bits of entropy, a size allowing almost 2384, or a number with 116 digits, different possibilities. The private key sizes of the compromised keys ranged from 3 to 8 bits. Astonishingly, the private keys were 4, 56, 66, 115, 155, 156, 230, 237...",
   "fetched": "2026-10-25",
@@ -682,6 +718,18 @@
   "fetched": "2026-10-24",
   "icon": null,
   "image": "https://www.sciencedaily.com/images/1920/sleep-man-brain-spine-nervous-system.webp"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm": {
+  "description": null,
+  "fetched": "2026-10-26",
+  "icon": null,
+  "image": null
+ },
+ "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm#ica694c859b8e458dbf6a73f56dde9d42_2972": {
+  "description": null,
+  "fetched": "2026-10-26",
+  "icon": null,
+  "image": null
  },
  "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/": {
   "description": "Mave has emerged from stealth with $34 million in seed and Series A funding to build an agentic SecOps platform for enterprises.",
@@ -731,6 +779,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/": {
+  "description": "Lawmakers are passing industry-backed bills to guard against the worst outcomes, rather than addressing more common problems.",
+  "fetched": "2026-10-26",
+  "icon": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/static/media/favicon.1cfcdb44759a0f93ddf5feb5405dd4cc.ico",
+  "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/monkeys-teen3.jpg?resize=1200,600"
+ },
  "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html": {
   "description": "Nikon's 16th annual Small World in Motion contest is open to any movie or digital time-lapse photography taken through the microscope.",
   "fetched": "2026-10-25",
@@ -742,6 +796,12 @@
   "fetched": "2026-10-26",
   "icon": "https://www.theregister.com/view-resources/dachser2/public/theregister/favicons/apple-touch-icon.png",
   "image": "https://image.theregister.com/4091853.jpg?imageId=4091853&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683"
+ },
+ "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm": {
+  "description": "Tool call accuracy is an important part of serving open-weight AI models. When your tool calls aren’t accurate, the model builds up on nonsensical context. We’ve been carrying our own fork of vLLM to hit 100% in tool call schema accuracy with Kimi and DeepSeek. Fortunately, vLLM 0.31 added support for constrained decoding, a technique to guarantee schema-adherence. By enabling it, you can get to 100% schema accuracy with the newer Kimi and DeepSeek models.",
+  "fetched": "2026-10-26",
+  "icon": "https://cdn.prod.website-files.com/64f9d9b4e737e7b37d4e39a4/64fe41a59732cbbaa5762828_Webclip.png",
+  "image": "https://cdn.prod.website-files.com/64f9d9b4e737e7b37d4e39a4/6ace25a7011f2d0bca7a06ea_LLM-inference.png"
  },
  "https://xtramagazine.com/culture/online-censorship-indie-webcomics-284463": {
   "description": "From social media platforms to payment processors, new restrictions are making it harder for webcomic artists to exist",
