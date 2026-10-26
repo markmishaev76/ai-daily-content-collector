@@ -354,3 +354,8 @@ a:hover { color: var(--accent); }
   .site-header nav { white-space: nowrap; }
   .site-header nav a { margin-left: 10px; font-size: 14px; }
 }
+
+@media (max-width: 520px) {
+  .days { gap: 4px; }
+  .days a, .days span { flex: 1 1 0; min-width: 0; padding: 3px 0; font-size: 11px; text-align: center; white-space: nowrap; }
+}
