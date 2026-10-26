@@ -183,3 +183,18 @@ def test_not_found_page_handles_old_briefs_and_other_paths(tmp_path):
     assert '<a href="/">' in html and 'href="/static/style.css"' in html and 'src="/static/notfound.js"' in html
     assert 'href="../' not in html and 'src="static/' not in html
     assert r"^\/brief\/\d{4}-\d{2}-\d{2}\/?$" in js and "innerHTML" not in js
+
+
+def test_reconstructed_brief_shows_note(tmp_path):
+    build(tmp_path, briefs={"2026-10-21": dict(past(), reconstructed=True), "2026-10-20": past("2026-10-20")})
+    note = "Reconstructed from the feeds afterwards; may differ from what was shown that day."
+
+    assert note in page(tmp_path, "2026-10-21")
+    assert note not in page(tmp_path, "2026-10-20") and note not in page(tmp_path, "2026-10-22")
+    assert note not in page(tmp_path)
+
+
+def test_reconstructed_flag_must_be_true_not_truthy(tmp_path):
+    build(tmp_path, briefs={"2026-10-21": dict(past(), reconstructed="yes")})
+
+    assert "Reconstructed from the feeds" not in page(tmp_path, "2026-10-21")

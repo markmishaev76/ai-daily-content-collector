@@ -307,7 +307,8 @@ def _brief_page(snap: Dict, names: List[str]) -> Dict:
         item["also"] = [{"source": _text(a.get("source")), "thread": safe_link(_text(a.get("thread")))}
                         for a in raw.get("also") or [] if isinstance(a, dict) and safe_link(_text(a.get("thread")))]
         pulse.append(item)
-    return {"lead": lead, "sections": sections, "pulse": pulse, "pulse_sources": _pulse_sources(pulse)}
+    return {"lead": lead, "sections": sections, "pulse": pulse, "pulse_sources": _pulse_sources(pulse),
+            "reconstructed": snap.get("reconstructed") is True}
 
 
 def _day_label(day: date) -> str:

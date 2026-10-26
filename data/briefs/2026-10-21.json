@@ -1,0 +1,723 @@
+{
+  "date": "2026-10-21",
+  "lead": {
+    "title": "Millions of PHP Instances Exposed - What Organizations Need To Do Right Now",
+    "link": "https://www.paloaltonetworks.com/blog/2026/10/millions-of-php-instances-exposed-what-organizations-need-to-do-right-now/",
+    "excerpt": "Two critical vulnerabilities in PHP (CVE-2026-109618 and CVE-2026-109619) have been published. Both vulnerabilities carry a severe CVSS score of 9.2 (more technical details are in the Unit 42 Threat Brief). This is … The post Millions of PHP Instances Exposed - What Organizations Need To Do Right…",
+    "source": "Palo Alto Networks Blog",
+    "date": "Oct 21",
+    "image": "https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/10/Frontier_AI_PHP_Security-scaled.jpeg",
+    "image_credit": null,
+    "section": "AI Agents & Agent Security",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "2 sources",
+      "CVE-2026-109618",
+      "CVE-2026-109619",
+      "AI Agents & Agent Security",
+      "8h ago"
+    ],
+    "also": [
+      {
+        "name": "cloud.google.com",
+        "link": "https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619/"
+      }
+    ]
+  },
+  "pulse": [
+    {
+      "title": "Today's PHP security release, and how we're strengthening security",
+      "thread": "https://news.ycombinator.com/item?id=50182987",
+      "link": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+      "link_domain": "thephp.foundation",
+      "source": "Hacker News",
+      "domain": "thephp.foundation",
+      "meta": "Hacker News · 816 points · 403 comments · 8h ago",
+      "also": [],
+      "image": "https://thephp.foundation/assets/share/2026-10-21-todays-php-security-release-and-how-were-strengthening-php-security.png",
+      "icon": "https://thephp.foundation/assets/icons/php_foundation.svg"
+    },
+    {
+      "title": "There isn't an easy exploit for this PHP vulnerability",
+      "thread": "https://news.ycombinator.com/item?id=50188948",
+      "link": "https://eliastaylor.com/noexploit/",
+      "link_domain": "eliastaylor.com",
+      "source": "Hacker News",
+      "domain": "eliastaylor.com",
+      "meta": "Hacker News · 634 points · 476 comments · under 1h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://eliastaylor.com/favicon.svg"
+    },
+    {
+      "title": "Security Disclosure",
+      "thread": "https://news.ycombinator.com/item?id=50188228",
+      "link": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+      "link_domain": "blog.railway.com",
+      "source": "Hacker News",
+      "domain": "blog.railway.com",
+      "meta": "Hacker News · 602 points · 341 comments · 2h ago",
+      "also": [],
+      "image": "https://cms.railway.com/media/cf05de70-b435-4fe9-8d52-540e0b585874-blog-security-disclosure-wednesday-october-21st.png?w=1200&q=90",
+      "icon": "https://blog.railway.com/favicon.ico"
+    },
+    {
+      "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+      "thread": "https://news.ycombinator.com/item?id=50181114",
+      "link": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+      "link_domain": "safedep.io",
+      "source": "Hacker News",
+      "domain": "safedep.io",
+      "meta": "Hacker News · 595 points · 197 comments · 9h ago",
+      "also": [],
+      "image": "https://safedep.io/images/litellm-pypi-compromise-credential-stealer-backdoor-banner.jpg",
+      "icon": "https://safedep.io/_astro/apple-touch-icon.3XNmTfTB.svg"
+    },
+    {
+      "title": "Claude Duet",
+      "thread": "https://news.ycombinator.com/item?id=50186037",
+      "link": "https://claude.com/product/claude-duet",
+      "link_domain": "claude.com",
+      "source": "Hacker News",
+      "domain": "claude.com",
+      "meta": "Hacker News · 567 points · 534 comments · 4h ago",
+      "also": [],
+      "image": "https://claude.com/static/claude-duet/og.jpg",
+      "icon": "https://assets.claude.com/95a868946ac8a31e5ff832e2899f294aa368b836.png?w=32&h=32"
+    },
+    {
+      "title": "PHP2Shell: AI uncovers critical RCE in PHP",
+      "thread": "https://news.ycombinator.com/item?id=50180836",
+      "link": "https://www.wiz.io/blog/php2shell-php-rce",
+      "link_domain": "wiz.io",
+      "source": "Hacker News",
+      "domain": "wiz.io",
+      "meta": "Hacker News · 454 points · 185 comments · 10h ago",
+      "also": [],
+      "image": "https://www.datocms-assets.com/75231/1792534907-img_7274.png?fm=webp",
+      "icon": "https://www.wiz.io/favicon.png"
+    },
+    {
+      "title": "Dutch National Cyber Security Center is Offline because it uses PHP",
+      "thread": "https://news.ycombinator.com/item?id=50179828",
+      "link": "https://www.ncsc.nl/actueel",
+      "link_domain": "ncsc.nl",
+      "source": "Hacker News",
+      "domain": "ncsc.nl",
+      "meta": "Hacker News · 275 points · 95 comments · 11h ago",
+      "also": [],
+      "image": "https://www.ncsc.nl/images/NCSC-logo.png",
+      "icon": "https://www.ncsc.nl/apple-touch-icon.png"
+    },
+    {
+      "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+      "thread": "https://news.ycombinator.com/item?id=50181175",
+      "link": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+      "link_domain": "openai.com",
+      "source": "Hacker News",
+      "domain": "openai.com",
+      "meta": "Hacker News · 266 points · 183 comments · 9h ago",
+      "also": [],
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/xq2rRszwLvIAxOynZi2qa/b1cf094a0d095f67821bf4b8cfaba0b9/coordinated-disclosure-of-critical-vulnerabilities-social.png?w=1600&h=900&fit=fill",
+      "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png"
+    },
+    {
+      "title": "Using LLM for confidence scoring is a bad idea",
+      "thread": "https://news.ycombinator.com/item?id=50176082",
+      "link": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
+      "link_domain": "rumple.github.io",
+      "source": "Hacker News",
+      "domain": "rumple.github.io",
+      "meta": "Hacker News · 226 points · 105 comments · 19h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://rumple.github.io/favicon.ico"
+    },
+    {
+      "title": "PHP session.upload_progress heap UAF (CVE-2026-109618 / -109619)",
+      "thread": "https://news.ycombinator.com/item?id=50176077",
+      "link": "https://jackalsyn.com/posts/php-up-2026.html",
+      "link_domain": "jackalsyn.com",
+      "source": "Hacker News",
+      "domain": "jackalsyn.com",
+      "meta": "Hacker News · 187 points · 62 comments · 19h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://jackalsyn.com/assets/icon.png"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI-Assisted Engineering",
+      "cards": [
+        {
+          "title": "Fragments: October 21",
+          "link": "https://martinfowler.com/fragments/2026-10-21.html",
+          "excerpt": "Gergely Orosz is frustrated at those that entered his explicitly “No AI” essay competition and used AI. He goes on to say: When I start to suspect some part is AI about someone I don’t know: how can I tell how much of it is? And how much time and effort do I want to invest to figure out? I fear…",
+          "source": "Martin Fowler",
+          "date": "Oct 21",
+          "image": "https://martinfowler.com/fragments/fragments-thumb.png",
+          "icon": "https://martinfowler.com/favicon.ico",
+          "domain": "martinfowler.com",
+          "hn": null
+        },
+        {
+          "title": "The revised rules of engineering management with Will Larson",
+          "link": "https://newsletter.pragmaticengineer.com/p/the-revised-rules-of-engineering",
+          "excerpt": "Will Larson, CTO of Imprint, explores how AI and shifting industry expectations are changing engineering management, career ladders, and the path from engineer to CTO.",
+          "source": "The Pragmatic Engineer",
+          "date": "Oct 21",
+          "image": "https://substackcdn.com/image/fetch/$s_!aK1D!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fee01f02b-a319-48e2-9687-2a6dc0dc9fe2_2400x2400.png",
+          "icon": null,
+          "domain": "newsletter.pragmaticengineer.com",
+          "hn": null
+        },
+        {
+          "title": "The unseen work of engineering management",
+          "link": "https://leaddev.com/management/the-unseen-work-of-engineering-management?utm_source=leaddev&utm_medium=RSS",
+          "excerpt": "Your best work goes unnoticed. The post The unseen work of engineering management appeared first on LeadDev.",
+          "source": "LeadDev",
+          "date": "Oct 21",
+          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2025/06/report-14.png",
+          "icon": null,
+          "domain": "leaddev.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+          "link": "https://huggingface.co/blog/nvidia/kumo-relational",
+          "excerpt": "A Blog post by NVIDIA on Hugging Face",
+          "source": "Hugging Face",
+          "date": "Oct 21",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/6ad8e88370f69967fafc8703/i-Flass3NMPRmc6lVfwO_.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null
+        },
+        {
+          "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+          "link": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+          "excerpt": "A Blog post by Dharma-AI on Hugging Face",
+          "source": "Hugging Face",
+          "date": "Oct 21",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/OWGtXjnbBov-7SI_04o4z.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null
+        },
+        {
+          "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+          "link": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+          "excerpt": "A Blog post by Amazon on Hugging Face",
+          "source": "Hugging Face",
+          "date": "Oct 21",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/6ac67ea29579ea34f1f7e470/hEodPVvQZI24jETLbPooP.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null
+        },
+        {
+          "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+          "link": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+          "excerpt": "A Blog post by IBM Granite on Hugging Face",
+          "source": "Hugging Face",
+          "date": "Oct 21",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/653fb52cbfd890805461d691/M_JJyIOBOWVzHXdy7CVVG.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null
+        },
+        {
+          "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+          "link": "https://huggingface.co/blog/hf-torchtpu",
+          "excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "source": "Hugging Face",
+          "date": "Oct 20",
+          "image": "https://huggingface.co/blog/assets/hf-torchtpu/thumbnail.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "AI Agents & Agent Security",
+      "cards": [
+        {
+          "title": "Your AI agent fixed the bug, but what else did it change?",
+          "link": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/",
+          "excerpt": "Today we’re publishing patching-bugs and regression-hunt, two plugins that let engineers delegate patch development and regression checks to agents. Our patching-bugs plugin reproduces reported bugs, develops fixes, and tests them. The regression-hunt plugin checks whether any changes break…",
+          "source": "The Trail of Bits Blog",
+          "date": "Oct 21",
+          "image": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/patching_figure1_hu_fd1b211e358e4802.webp",
+          "icon": null,
+          "domain": "blog.trailofbits.com",
+          "hn": null
+        },
+        {
+          "title": "Using thousands of AI agents to uncover new leads in biological data",
+          "link": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+          "excerpt": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+          "source": "OpenAI News",
+          "date": "Oct 21",
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/5Uhfx9LWwXWN8zKg7a6aNi/021edebfedf0c6f9638f929ba23900ab/scaling-ai-biological-data-social.png?w=1600&h=900&fit=fill",
+          "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
+          "domain": "openai.com",
+          "hn": null
+        },
+        {
+          "title": "Advancing Agentic AI Security with Palo Alto Networks and NVIDIA",
+          "link": "https://www.paloaltonetworks.com/blog/2026/10/advancing-agentic-ai-security-with-palo-alto-networks-and-nvidia/",
+          "excerpt": "AI is moving from answering questions to taking action. Agents can use tools, access enterprise data, and carry out work across systems on our behalf or autonomously. This creates opportunities for businesses … The post Advancing Agentic AI Security with Palo Alto Networks and NVIDIA appeared…",
+          "source": "Palo Alto Networks Blog",
+          "date": "Oct 21",
+          "image": "https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/10/PAN_NVIDIA_OpenShell.png",
+          "icon": null,
+          "domain": "paloaltonetworks.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess",
+          "link": "https://latent.space/p/tenex/",
+          "excerpt": "Paying for outcomes, building with agents, and the last mile of enterprise AI adoption",
+          "source": "Latent Space",
+          "date": "Oct 21",
+          "image": "https://i.ytimg.com/vi/Vki6cklFqxo/maxresdefault.jpg",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null
+        },
+        {
+          "title": "OpenAI models are coming to Google Cloud",
+          "link": "https://openai.com/index/openai-models-google-cloud",
+          "excerpt": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+          "source": "OpenAI News",
+          "date": "Oct 21",
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/659u0DsrtDQd9LxI8L4J9M/0b95908d6a9ed46ffe20b23d081574b4/openai-models-coming-to-google-cloud-social.png?w=1600&h=900&fit=fill",
+          "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
+          "domain": "openai.com",
+          "hn": null
+        },
+        {
+          "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+          "link": "https://openai.com/index/cloudflare-cyber",
+          "excerpt": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
+          "source": "OpenAI News",
+          "date": "Oct 21",
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/7o1UbpHuhgjqnJemTCObNX/dc8b67a70b84e01b66e7d2a2be717ec6/cloudflare-cyber-woven-current-social.png?w=1600&h=900&fit=fill",
+          "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
+          "domain": "openai.com",
+          "hn": null
+        },
+        {
+          "title": "Claude Mods: Flipping the Harness Inside Out",
+          "link": "https://latent.space/p/claude-mods/",
+          "excerpt": "Claude Mods is an early form of the Attention Interface. It flips the agent harness paradigm from the harness facing the machine, to the harness facing the human.",
+          "source": "Latent Space",
+          "date": "Oct 21",
+          "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/755e017f-7da5-4a38-a7fd-d5a505003fe9/c61f4d99-31a9-4e4c-aa02-65e5b5db1799_1280x720.png?t=1792620904",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null
+        },
+        {
+          "title": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
+          "link": "https://latent.space/p/ainews-deepseek-deepinfer-open-source/",
+          "excerpt": "An open source “bomb” drops from China",
+          "source": "Latent Space",
+          "date": "Oct 21",
+          "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/0ec35ae9-34c4-4317-964f-b6b0837dc76f/07a949cd-f727-48e2-9bd4-c4d110bf94e9_1326x1362.jpg?t=1792620904",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "Leadership",
+      "cards": [
+        {
+          "title": "Presented by Stripe",
+          "link": "https://stratechery.com/2026/presented-by-stripe/",
+          "excerpt": "Stratechery is now presented by Stripe. What that means for me, for you, and for the future of Stratechery content.",
+          "source": "Stratechery by Ben Thompson",
+          "date": "Oct 21",
+          "image": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9zdHJhdGVjaGVyeS5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMThcLzAzXC9jcm9wcGVkLWFuZHJvaWQtY2hyb21lLTUxMng1MTItMS5wbmc_Zml0PTUxMiUyQzUxMiZzc2w9MSIsInR4dCI6IlN0cmF0ZWNoZXJ5IGJ5IEJlbiBUaG9tcHNvbiIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxODgwNDM0MTV9.5VWck4PcKPWCTPe_HVznn3n3xsgn-G0b3d2OeiNNC7cMQ",
+          "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
+          "domain": "stratechery.com",
+          "hn": null
+        },
+        {
+          "title": "Netflix Earnings, Business or Franchise, Disney’s Deal",
+          "link": "https://stratechery.com/2026/netflix-earnings-business-or-franchise-disneys-deal/",
+          "excerpt": "Netflix has a solid business, which is exactly the problem: the company increasingly seems like a business and not a franchise, at least in terms of growth.",
+          "source": "Stratechery by Ben Thompson",
+          "date": "Oct 21",
+          "image": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9zdHJhdGVjaGVyeS5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMThcLzAzXC9jcm9wcGVkLWFuZHJvaWQtY2hyb21lLTUxMng1MTItMS5wbmc_Zml0PTUxMiUyQzUxMiZzc2w9MSIsInR4dCI6IlN0cmF0ZWNoZXJ5IGJ5IEJlbiBUaG9tcHNvbiIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxODgwNDM0MTV9.5VWck4PcKPWCTPe_HVznn3n3xsgn-G0b3d2OeiNNC7cMQ",
+          "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
+          "domain": "stratechery.com",
+          "hn": null
+        },
+        {
+          "title": "The Hidden Upside of Tech Challenges",
+          "link": "https://sloanreview.mit.edu/article/the-hidden-upside-of-tech-challenges/",
+          "excerpt": "Alice Mollon/Ikon Images Employee stress is a major social issue both within and outside of our workplaces. As of 2022, stress had increased medical expenses and decreased productivity at an estimated annual cost of up to $300 billion in high-income countries. In the workplace, a proliferation of…",
+          "source": "MIT Sloan Management Review",
+          "date": "Oct 21",
+          "image": "https://sloanreview.mit.edu/wp-content/uploads/2026/10/Tams-1290x860-1.jpg",
+          "icon": null,
+          "domain": "sloanreview.mit.edu",
+          "hn": null
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Agent Identity & Authorization",
+      "cards": [
+        {
+          "title": "Hardware-backed security at global scale: Confidential G4 with NVIDIA Blackwell is GA",
+          "link": "https://cloud.google.com/blog/topics/ai-infrastructure/confidential-g4-gpus-are-ga/",
+          "excerpt": "Bringing autonomous agents into production means processing sensitive data and valuable intellectual property in real time. Protecting proprietary model weights, user prompts, and generated outputs requires security that safeguards data while it is actively being computed.As part of our efforts to…",
+          "source": "Security & Identity",
+          "date": "Oct 21",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/AI_infrastructure_default.max-2600x2600.jpg",
+          "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
+          "domain": "cloud.google.com",
+          "hn": null
+        },
+        {
+          "title": "OAuth for AI agents: What four extensions cover, and the gaps they leave",
+          "link": "https://workos.com/blog/oauth-for-ai-agents-rar-dpop-cimd-transaction-tokens",
+          "excerpt": "RAR, DPoP, CIMD and Transaction Tokens get cited as the answer for AI agents. What each one actually binds, and three problems none of them solves yet.",
+          "source": "WorkOS Blog",
+          "date": "Oct 21",
+          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ad8cb25899a0b5f27f21e99_oauth-extensions-ai-agents-rar-dpop-cimd-transaction-tokens-og.webp",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null
+        },
+        {
+          "title": "SSO vs. SCIM in workforce identity: Sign-in and provisioning",
+          "link": "https://workos.com/blog/workforce-identity-sso-vs-scim",
+          "excerpt": "SSO handles employee sign-in, and SCIM keeps app accounts and groups in sync with your directory. Learn where offboarding gaps appear and what to ask vendors.",
+          "source": "WorkOS Blog",
+          "date": "Oct 20",
+          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ad78657672891df13f687db_workforce-identity-sso-vs-scim-og.webp",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "Defakto Joins OpenID Foundation to Help Eradicate Long-Lived Credentials for Non-Human Identities",
+          "link": "https://www.defakto.security/blog/defakto-joins-openid-foundation-to-help-eradicate-long-lived-credentials-for-non-human-identities/",
+          "excerpt": "Defakto is helping set the standard for secure, interoperable non-human identity and access without long-lived credentials PALO ALTO, Calif. – October 20, 2026 – Defakto Security, the non-human identity and access management company for the enterprise, has joined the OpenID Foundation as a…",
+          "source": "Defakto Security",
+          "date": "Oct 20",
+          "image": "https://www.defakto.security/wp-content/uploads/2026/10/OpenIDFoundation.png",
+          "icon": "https://www.defakto.security/wp-content/uploads/2025/10/favicon.png",
+          "domain": "defakto.security",
+          "hn": null
+        },
+        {
+          "title": "What is Enterprise-Managed Authorization (EMA)?",
+          "link": "https://workos.com/blog/what-is-enterprise-managed-authorization",
+          "excerpt": "How your identity provider can grant AI agents access to work apps, without a consent screen for every app and every agent.",
+          "source": "WorkOS Blog",
+          "date": "Oct 20",
+          "image": "https://images.workoscdn.com/images/4228458c-3346-4f13-9e06-30985e8b78ef.png?auto=format&fit=clip&q=80",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null
+        },
+        {
+          "title": "DX's Justin Reock on the AI ROI that isn't showing up in the data",
+          "link": "https://workos.com/blog/justin-reock-dx-ai-roi-bottleneck-elc-2026",
+          "excerpt": "DX Deputy CTO Justin Reock on why PR throughput keeps climbing, AI spend is up 50x, and the data still shows no clear return on agentic coding tools yet.",
+          "source": "WorkOS Blog",
+          "date": "Oct 20",
+          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ad7fb532c7308e5fe1e7c9e_justin-reock-dx-ai-roi-bottleneck-elc-2026-og.webp",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null
+        },
+        {
+          "title": "Defakto joins the OIDF as a Sustaining Corporate Member",
+          "link": "https://openid.net/defakto-joins-the-oidf-as-a-sustaining-corporate-member/",
+          "excerpt": "The OpenID Foundation is pleased to welcome Defakto Security as a new Sustaining Corporate Member. Defakto secures the non-human identities driving the next generation of cloud, automation, and AI. Global enterprises rely on Defakto to eradicate long-lived secrets in favor of short-lived,…",
+          "source": "OpenID Foundation",
+          "date": "Oct 20",
+          "image": "https://openid.net/wp-content/uploads/2026/10/DefaktoSecurityLogo-300x136.png",
+          "icon": null,
+          "domain": "openid.net",
+          "hn": null
+        },
+        {
+          "title": "What Is Credential Layer Security? The Layer Every Other Control Trusts",
+          "link": "https://blog.gitguardian.com/credential-layer-security/",
+          "excerpt": "Developer laptops hold about 150 secrets each, and roughly 28% of secret incidents happen outside code repositories. Learn what credential layer security is and the six controls that protect every surface where credentials live",
+          "source": "GitGuardian Blog - Take Control of Your Secrets Security",
+          "date": "Oct 21",
+          "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/10/what-is-credential-layer-security.png",
+          "icon": null,
+          "domain": "blog.gitguardian.com",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "Supply Chain & Builds",
+      "cards": [
+        {
+          "title": "LiteLLM attacked again: Malicious 1.107.0 wheels on PyPI and Docker Hub (October 2026)",
+          "link": "https://www.chainguard.dev/unchained/litellm-attacked-again-malicious-1-107-0-wheels-on-pypi-and-docker-hub-october-2026",
+          "excerpt": "LiteLLM 1.107.0 on PyPI and Docker shipped a credential stealer and a remote code loader. See how Chainguard kept customers protected.",
+          "source": "Chainguard: Unchained",
+          "date": "Oct 21",
+          "image": "https://images.ctfassets.net/l47ir7rfykkn/le1bRJYMbwPCdUi785hrm/8f334d060ee79a6f2b55c0745ef20f03/LiteLLM_attacked_again__malicious_1.107.0_wheels_on_PyPI_and_Docker_Hub__October_2026_.png",
+          "icon": "https://www.chainguard.dev/favicon.ico",
+          "domain": "chainguard.dev",
+          "hn": null
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "The Harness Is the Hard Part of Agentic Pentesting",
+          "link": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html",
+          "excerpt": "An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production and worth acting on afterward lives in the harness around the model. The harness…",
+          "source": "The Hacker News",
+          "date": "Oct 21",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTdLja8gnPl92G1mhffmAZ3Dy5Q8gX9wpjY22n1J2xerzpx0Eab4VMj2fzt3XAe_TjT8hlDkjdzW8DdBwWCvAPa9o5SKnFN4MSo5H0MnXylWX36NwFiwcI19f3MR0QDPT2uKXtXH4RAj5_rU3aBnmAVxsczeL2sfBj7G1r878XbJ6rAyEFgIg0XeuBNKk/s1600/pentera-main.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
+          "link": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+          "excerpt": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind. The compromise affects LiteLLM 1.107.0, distributed through PyPI wheels and…",
+          "source": "The Hacker News",
+          "date": "Oct 21",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-f1TsJE93kcT5Cp1wvKlnR-bCWFP9ZUZofd0PXryxRBt0B1q0-t0BaHnEJcNhy3IhRZq2fBU9fmILshSvlY-qk28TOO-f1JoBcGSRtwiC3MIV4gDxdXYzTS_ZMirtPka7UaG9Shie7kgWKzauZOwKgPvk8hHXUTFly2YXpzBuxUD20MdxBfKeXrRsIG-W/s1600/litellm-hack.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "PHP blames supply chain security biz Chainguard for putting huge chunks of the web at risk",
+          "link": "https://www.theregister.com/security/2026/10/22/php-blames-supply-chain-security-biz-chainguard-for-putting-huge-chunks-of-the-web-at-risk/5304611",
+          "excerpt": "'Coordinated vulnerability disclosure, unless there's evidence of active exploits in the wild,' Chainguard CEO tells The Reg",
+          "source": "The Register",
+          "date": "Oct 21",
+          "image": "https://image.theregister.com/?imageId=5304620&width=800",
+          "icon": null,
+          "domain": "theregister.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "LiteLLM supply chain attack hoovers up passwords and secrets",
+          "link": "https://www.theregister.com/security/2026/10/21/litellm-supply-chain-attack-hoovers-up-passwords-and-secrets/5304548",
+          "excerpt": "Plus a RAT for good measure - get threat hunting now",
+          "source": "The Register",
+          "date": "Oct 21",
+          "image": "https://image.theregister.com/?imageId=244835&width=800",
+          "icon": null,
+          "domain": "theregister.com",
+          "hn": null
+        },
+        {
+          "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
+          "link": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
+          "excerpt": "Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites. TeamUpdraft is the developer behind UpdraftPlus, a popular WordPress backup…",
+          "source": "The Hacker News",
+          "date": "Oct 21",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdsSYB_dpfRL3wD0MeCT_VyPyFJS8HjQAW0VuBHSTviFY4WBOQfa8MCP79qyJR3zYyMBesIXiCtL8XwwtjjLGm9Stxdv_qoIkf3_Rpc7YGFwZuzVS974TbuDfF5GkLRJX2DxFaDudlMlXSDyiZ8fvoVGaKaA-tpCr_eAvvEsfQr1uyfdBk-8KyK4aisYgC/s1600/wp-backdoor.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
+          "link": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+          "excerpt": "GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2014. The fix matters even for administrators who patched nine days earlier: the October 12 update…",
+          "source": "The Hacker News",
+          "date": "Oct 21",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4Pkd5r0GeWGSaCoHaEsZVVoh5Y6xBkFvMTGYKvD5oONYnczQGAUqpjD6eCiA6sxiiel6Zs0kPiBEWOZJ21URkE59iJm-LDUFPYwPEf8o8d8lnyiMOR53H7IeXGKn3tTG9pusA-HKwYo0n04WQ1m8kg8dxIWEtxFGMDiBzrV-zzqAH2R2OVT2E1ViX_U/s1600/git-rce.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
+          "link": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
+          "excerpt": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks. The AI company said the incident took place on October 3 and 6, 2026, for Sol and…",
+          "source": "The Hacker News",
+          "date": "Oct 21",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLjuo6QB0kLx2z3u5thyphenhyphenjrULwTFigmtHb1U1y6141FNvIITM2nytdxcKmShZMElSSZdMFbnGfiwjTIpqOYtNzK3gAeSGkEVr8XnsPB9RF1GOh-6qqkXPmX8SY2COyV0eyA6khfN3QYzF-Ydbsz8Mw8jBmFDouame4hTt0ulaNxq0pPTR4FKFuVyQ2Ln6WC/s1600/openai-bot.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
+          "link": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
+          "excerpt": "PHP has released emergency updates that fix two critical flaws in the language itself, letting an attacker without an account run code on a web server. The fixes are in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, and the PHP team says only updating fully protects a server. The flaws, together called…",
+          "source": "The Hacker News",
+          "date": "Oct 21",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz8MKP95jyzesxy1eZd6zQDCb3dr-9m-bRE9W0PYnomN3z8lodXmM_0Oo4AAiP_nt2QMNpLxsUNPKueH4TW6FnvXl7ijDGDwxnXcfiyAII6sUDd8cfKoB7Z3MgLOvcAWDeplnUdixy-zfpgVqCuAVZmqH-Orn4S-QhYREVcY1ew7_6kIG8LBsdLZC8Ofs/s1600/PHP2SHELL.gif",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "Running Pulumi Neo in a Docker Sandbox: workshop recap",
+          "link": "https://www.pulumi.com/blog/running-pulumi-neo-in-a-docker-sandbox/",
+          "excerpt": "The more an agent can do on its own, the more infrastructure work you can hand it, as long as its limits hold when it gets something wrong. In April, they didn’t hold for PocketOS. A coding agent on a routine staging task deleted the company’s production volume in 9 seconds. According to founder…",
+          "source": "Pulumi Blog",
+          "date": "Oct 21",
+          "image": "https://www.pulumi.com/images/generated/blog/running-pulumi-neo-in-a-docker-sandbox/index.png",
+          "icon": null,
+          "domain": "pulumi.com",
+          "hn": null
+        },
+        {
+          "title": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents",
+          "link": "https://blog.cloudflare.com/webmcp-commerce/",
+          "excerpt": "Almost 100,000 Commerce.com domains now give AI agents real shopping tools through WebMCP on Cloudflare. Here's how we turned it on across every store at once, while keeping each merchant in control.",
+          "source": "Cloudflare Blog",
+          "date": "Oct 21",
+          "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M5AYSA5Z4MMJ6XYBSMECP05T.png",
+          "icon": null,
+          "domain": "blog.cloudflare.com",
+          "hn": null
+        },
+        {
+          "title": "From baseline to Secure Software Factory: securing the systems that build your software",
+          "link": "https://www.docker.com/blog/from-baseline-to-secure-software-factory-securing-the-systems-that-build-your-software/",
+          "excerpt": "In July, Docker, Snyk and Keycard published Agent Baseline, an open, vendor-neutral reference architecture that defines security outcomes for running AI agents in the enterprise. It grew out of conversations with industry leaders who want to adopt agents more broadly but need answers to three…",
+          "source": "Docker",
+          "date": "Oct 21",
+          "image": "https://www.docker.com/app/uploads/2025/03/image.png",
+          "icon": "https://www.docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-180x180.png",
+          "domain": "docker.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "Google Cloud and NVIDIA expand co-engineering collaboration to scale infrastructure for the agentic era",
+          "link": "https://cloud.google.com/blog/topics/ai-infrastructure/google-cloud-infrastructure-at-nvidia-gtc-berlin-2026/",
+          "excerpt": "As enterprises transition to continuous, multi-step agentic workflows, traditional infrastructure is hitting its limits. But raw performance is only part of the equation. To truly scale agentic AI, enterprises also need the flexibility to run the right models for the right tasks, alongside the…",
+          "source": "Cloud Blog",
+          "date": "Oct 21",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/nvidia_hero.max-600x600.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null
+        },
+        {
+          "title": "BigQuery ObjectRef now GA: Build multimodal data platforms for conversational analytics entirely in SQL",
+          "link": "https://cloud.google.com/blog/products/data-analytics/analyze-unstructured-data-in-bigquery-with-objectref/",
+          "excerpt": "For data science, data engineering, and machine learning teams, unlocking the value of unstructured data, such as images, videos, audio, and documents, has historically meant managing siloed data pipelines for structured and unstructured data, and for analytics and AI/ML use cases. Even when files…",
+          "source": "Cloud Blog",
+          "date": "Oct 21",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_4ahVBX3.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null
+        },
+        {
+          "title": "Automate medical coding with Step Functions and Amazon Bedrock AgentCore",
+          "link": "https://aws.amazon.com/blogs/architecture/automate-medical-coding-with-step-functions-and-amazon-bedrock-agentcore/",
+          "excerpt": "Learn how to combine deterministic orchestration with bounded agentic reasoning using AWS Step Functions and the Amazon Bedrock AgentCore harness. This medical coding workflow escalates cheapest-first: a safety block-list, then exact matching, then an AI agent only for terms that need judgment,…",
+          "source": "AWS Architecture Blog",
+          "date": "Oct 21",
+          "image": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/19/ARCHBLOG-1619-1.png",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null
+        },
+        {
+          "title": "Announcements and highlights from Google Public Sector Summit 2026",
+          "link": "https://cloud.google.com/blog/topics/public-sector/announcements-and-highlights-from-google-public-sector-summit-2026/",
+          "excerpt": "Today we are bringing together mission leaders and builders from across the public sector at the Google Public Sector Summit in Washington D.C. to explore a critical intersection: Where mission meets moonshot. Through our hands-on programming, we will offer inspiration as well as pragmatic steps…",
+          "source": "Cloud Blog",
+          "date": "Oct 20",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/GPS_Blog_Image_Header_2436x1200.max-600x600.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null
+        },
+        {
+          "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+          "link": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+          "excerpt": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog.",
+          "source": "The GitHub Blog",
+          "date": "Oct 20",
+          "image": "https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo.png",
+          "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
+          "domain": "github.blog",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+          "link": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+          "excerpt": "Dr. Christopher Stubbs, an experimental physicist and former Dean of Science at Harvard University, has joined Anthropic’s Long-Term Benefit Trust. He brings to the Trust decades of scientific expertise across observational cosmology and precision measurement.",
+          "source": "Anthropic",
+          "date": "Oct 21",
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+          "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+          "domain": "anthropic.com",
+          "hn": null
+        },
+        {
+          "title": "Manfred “Fred” J. Schindler Is 2027 IEEE President-Elect",
+          "link": "https://spectrum.ieee.org/schindler-2027-ieee-president-elect",
+          "excerpt": "IEEE Life Fellow Manfred “Fred” J. Schindler has been elected as the 2027 IEEE president-elect. He will begin serving as president on 1 January 2028.Schindler, who was nominated by the IEEE Board of Directors, received 16,421 votes in the election. Senior Member David Alan Koehler received 13,874…",
+          "source": "IEEE Spectrum",
+          "date": "Oct 21",
+          "image": "https://spectrum.ieee.org/media-library/smiling-portrait-of-a-middle-aged-white-man-in-a-suit-jacket.jpg?id=68452816&width=980",
+          "icon": null,
+          "domain": "spectrum.ieee.org",
+          "hn": null
+        },
+        {
+          "title": "How Wikipedia’s Editors Keep the Online Encyclopedia Human-Written",
+          "link": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+          "excerpt": "Ellia Lebleu is a founding member of the WikiProject AI Cleanup, a volunteer effort launched in 2023 to find and remove AI-generated material from Wikipedia that breaks the website’s guidelines. When the cleanup began, AI writing was often betrayed by conspicuous clichés. Today, the project’s…",
+          "source": "IEEE Spectrum",
+          "date": "Oct 21",
+          "image": "https://spectrum.ieee.org/media-library/surreal-collage-of-a-womans-face-with-geometric-shapes-pencil-and-wikipedia-globe.png?id=68486571&width=980",
+          "icon": null,
+          "domain": "spectrum.ieee.org",
+          "hn": null
+        }
+      ],
+      "more": []
+    }
+  ],
+  "reconstructed": true
+}
