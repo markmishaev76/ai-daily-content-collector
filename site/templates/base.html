@@ -26,7 +26,13 @@
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="{{ root }}">Mark Mishaev</a>
+    <a class="brand" href="{{ root }}">
+      <img class="brand-photo" src="{{ root }}static/mark.jpg" alt="" width="44" height="44">
+      <span class="brand-text">
+        <span class="brand-name">Mark Mishaev</span>
+        <span class="brand-bio">Engineering leader at GitLab · security, identity and AI agents</span>
+      </span>
+    </a>
     <nav>
       <a href="{{ root }}"{% if page == "feed" %} class="active"{% endif %}>Feed</a>
       <a href="{{ root }}blog/"{% if page == "blog" %} class="active"{% endif %}>Blog</a>
@@ -36,7 +42,7 @@
       <a href="{{ root }}about/"{% if page == "about" %} class="active"{% endif %}>About</a>
       <a href="{{ root }}feed.xml">RSS</a>
     </nav>
-  </header>
+  </header><!-- /site-header -->
   {% block body %}{% endblock %}
   {% block scripts %}{% endblock %}
   <footer class="site-footer">Updated {{ today }}, {{ updated }}</footer>

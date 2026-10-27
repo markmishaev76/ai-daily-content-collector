@@ -257,6 +257,14 @@ def test_external_links_open_in_new_tab_internal_do_not(tmp_path):
     assert html.count('target="_blank"') == html.count('rel="noopener noreferrer')
 
 
+def test_header_has_photo_name_and_bio(tmp_path):
+    header = block(build(tmp_path), "site-header")
+
+    assert 'src="static/mark.jpg"' in header
+    assert '<span class="brand-name">Mark Mishaev</span>' in header
+    assert "Engineering leader at GitLab · security, identity and AI agents" in header
+
+
 def test_post_page_links_use_relative_root(tmp_path):
     build(tmp_path, posts=[local_post(slug="x")])
 
