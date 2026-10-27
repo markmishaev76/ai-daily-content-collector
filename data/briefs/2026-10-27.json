@@ -1,35 +1,31 @@
 {
   "date": "2026-10-27",
   "lead": {
-    "title": "Elevators, toasters, and the birth of Java",
-    "link": "https://stackoverflow.blog/2026/10/27/elevators-toasters-and-the-birth-of-java/",
-    "excerpt": "Ryan sits down with James Gosling, creator of Java at Sun Microsystems, to talk about the early networking friction that drove the need for interconnectedness, the stringent reliability requirements of consumer electronics companies that inspired the Java virtual machine, and the evolution of…",
-    "source": "Stack Overflow Blog",
+    "title": "HPE Patches Dozens of Critical Flaws in Networking Products",
+    "link": "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/",
+    "excerpt": "Eight max-severity security defects could lead to remote code execution and authentication bypass. The post HPE Patches Dozens of Critical Flaws in Networking Products appeared first on SecurityWeek.",
+    "source": "SecurityWeek",
     "date": "Oct 27",
-    "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format",
+    "image": "https://www.securityweek.com/wp-content/uploads/2026/10/HPE-Aruba.jpeg",
     "image_credit": null,
-    "section": "AI-Assisted Engineering",
+    "section": "Security & AppSec",
     "pinned": false,
     "note": null,
     "labels": [
-      "AI-Assisted Engineering",
-      "3h ago"
+      "2 sources",
+      "CVE-2026-109618",
+      "CVE-2026-109619",
+      "Security & AppSec",
+      "under 1h ago"
     ],
-    "also": []
+    "also": [
+      {
+        "name": "snyk.io",
+        "link": "https://snyk.io/blog/php-patches-critical-unauthenticated-rces/"
+      }
+    ]
   },
   "pulse": [
-    {
-      "title": "Anthropic S-1",
-      "thread": "https://news.ycombinator.com/item?id=50242939",
-      "link": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
-      "link_domain": "sec.gov",
-      "source": "Hacker News",
-      "domain": "sec.gov",
-      "meta": "Hacker News · 1.6k points · 1.6k comments · 21h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://www.sec.gov/favicon.ico"
-    },
     {
       "title": "Concerning behavior from a popular open-weight AI model",
       "thread": "https://news.ycombinator.com/item?id=50246658",
@@ -37,7 +33,7 @@
       "link_domain": "cohere.com",
       "source": "Hacker News",
       "domain": "cohere.com",
-      "meta": "Hacker News · 304 points · 118 comments · 18h ago",
+      "meta": "Hacker News · 309 points · 122 comments · 20h ago",
       "also": [],
       "image": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/658e160a6519a049e260213d409551e67399113a-1352x754.png?rect=0,22,1352,710&w=1200&h=630&q=80&fit=crop&auto=format",
       "icon": "https://cohere.com/apple-touch-icon.png"
@@ -49,10 +45,22 @@
       "link_domain": "404media.co",
       "source": "Hacker News",
       "domain": "404media.co",
-      "meta": "Hacker News · 299 points · 177 comments · 16h ago",
+      "meta": "Hacker News · 302 points · 182 comments · 19h ago",
       "also": [],
       "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/FLOCKSCAN_01..jpg",
       "icon": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w256h256/format/png/2023/08/favicon-3.svg"
+    },
+    {
+      "title": "The Mythical Man-Month in the Age of AI",
+      "thread": "https://news.ycombinator.com/item?id=50255298",
+      "link": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+      "link_domain": "j11g.com",
+      "source": "Hacker News",
+      "domain": "j11g.com",
+      "meta": "Hacker News · 260 points · 176 comments · 7h ago",
+      "also": [],
+      "image": "https://j11g.com/content/images/cern-resized.jpg",
+      "icon": "https://j11g.com/content/images/favicon.ico"
     },
     {
       "title": "ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems",
@@ -61,22 +69,10 @@
       "link_domain": "404media.co",
       "source": "Hacker News",
       "domain": "404media.co",
-      "meta": "Hacker News · 249 points · 90 comments · 17h ago",
+      "meta": "Hacker News · 252 points · 94 comments · 19h ago",
       "also": [],
       "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/Untitled-1.png",
       "icon": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w256h256/format/png/2023/08/favicon-3.svg"
-    },
-    {
-      "title": "Brown student maps the hidden global labor powering AI",
-      "thread": "https://news.ycombinator.com/item?id=50242843",
-      "link": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
-      "link_domain": "brown.edu",
-      "source": "Hacker News",
-      "domain": "brown.edu",
-      "meta": "Hacker News · 179 points · 171 comments · 21h ago",
-      "also": [],
-      "image": "https://www.brown.edu/sites/default/files/styles/wide_lrg/public/2026-10/Dataworkers.jpg?h=f6430484&itok=1eq5-wXm",
-      "icon": "https://www.brown.edu/themes/custom/brown/static/apple-touch-icon.png"
     },
     {
       "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
@@ -85,7 +81,7 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 147 points · 33 comments · 18h ago",
+      "meta": "Hacker News · 152 points · 35 comments · 21h ago",
       "also": [],
       "image": "https://repository-images.githubusercontent.com/1419901875/bef3a5ac-8f6b-4f29-8f2a-30f31c1771d7",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
@@ -97,7 +93,7 @@
       "link_domain": "blog.cloudflare.com",
       "source": "Hacker News",
       "domain": "blog.cloudflare.com",
-      "meta": "Hacker News · 139 points · 45 comments · 12h ago",
+      "meta": "Hacker News · 150 points · 49 comments · 14h ago",
       "also": [],
       "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M5X2YJT16K16BFFJGEMCAXRS.01M5X2YM62P3YQRBGRP96FS4P6.png",
       "icon": "https://blog.cloudflare.com/favicon.ico"
@@ -107,6 +103,17 @@
     {
       "name": "AI-Assisted Engineering",
       "cards": [
+        {
+          "title": "Elevators, toasters, and the birth of Java",
+          "link": "https://stackoverflow.blog/2026/10/27/elevators-toasters-and-the-birth-of-java/",
+          "excerpt": "Ryan sits down with James Gosling, creator of Java at Sun Microsystems, to talk about the early networking friction that drove the need for interconnectedness, the stringent reliability requirements of consumer electronics companies that inspired the Java virtual machine, and the evolution of…",
+          "source": "Stack Overflow Blog",
+          "date": "Oct 27",
+          "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format",
+          "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+          "domain": "stackoverflow.blog",
+          "hn": null
+        },
         {
           "title": "Are technical design reviews disappearing?",
           "link": "https://leaddev.com/test-pattern/are-technical-design-reviews-disappearing?utm_source=leaddev&utm_medium=RSS",
@@ -147,30 +154,6 @@
           "hn": null
         },
         {
-          "title": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn",
-          "link": "https://latent.space/p/ainews-anthropic-s1/",
-          "excerpt": "The S-1, the numbers, and the reactions.",
-          "source": "Latent Space",
-          "date": "Oct 27",
-          "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/f056ab0b-c9ca-46f2-8fb1-08d5f2f6b891/image.png?t=1793085208",
-          "icon": null,
-          "domain": "latent.space",
-          "hn": null
-        },
-        {
-          "title": "GPT-6.1 Terra",
-          "link": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
-          "excerpt": "GPT-6.1 Terra It's always interesting to note which aspects of a new model are emphasized in the release announcement. In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use: We’re introducing GPT-6.1 Terra, a fast, efficient model that combines detailed visual reasoning…",
-          "source": "Simon Willison",
-          "date": "Oct 26",
-          "image": "https://static.simonwillison.net/static/2026-10-26/terra-max.webp",
-          "icon": null,
-          "domain": "simonwillison.net",
-          "hn": null
-        }
-      ],
-      "more": [
-        {
           "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
           "link": "https://openai.com/index/openai-cut-incident-investigation",
           "excerpt": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
@@ -181,6 +164,19 @@
           "domain": "openai.com",
           "hn": null
         },
+        {
+          "title": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn",
+          "link": "https://latent.space/p/ainews-anthropic-s1/",
+          "excerpt": "The S-1, the numbers, and the reactions.",
+          "source": "Latent Space",
+          "date": "Oct 27",
+          "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/f056ab0b-c9ca-46f2-8fb1-08d5f2f6b891/image.png?t=1793085208",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null
+        }
+      ],
+      "more": [
         {
           "title": "Working with academic communities to build scientific understanding",
           "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
@@ -224,6 +220,17 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null
+        },
+        {
+          "title": "Hiding Capabilities in AI Models",
+          "link": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
+          "excerpt": "Interesting research: “AI Models Can Provably Hide Arbitrary Capabilities” Abstract: Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold…",
+          "source": "Schneier on Security",
+          "date": "Oct 27",
+          "image": null,
+          "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+          "domain": "schneier.com",
+          "hn": null
         }
       ]
     },
@@ -242,6 +249,30 @@
           "hn": null
         },
         {
+          "title": "What Interruptions Say About Your Organizational Culture",
+          "link": "https://sloanreview.mit.edu/article/what-interruptions-say-about-your-organizational-culture/",
+          "excerpt": "Mark Airs/Ikon Images Leaders tend to talk about culture in abstract terms: values, norms, trust, belonging, and the like. But employees watch for the moments that show how culture actually manifests. During meetings, who gets interrupted? Employees notice whose sentences are cut short,…",
+          "source": "MIT Sloan Management Review",
+          "date": "Oct 27",
+          "image": "https://sloanreview.mit.edu/wp-content/uploads/2026/10/Laker_Interrupt-1290x860-1.jpg",
+          "icon": null,
+          "domain": "sloanreview.mit.edu",
+          "hn": null
+        },
+        {
+          "title": "‘Hold course and adapt as you go’: An interview with Manon van Beek",
+          "link": "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/hold-course-and-adapt-as-you-go-an-interview-with-manon-van-beek",
+          "excerpt": "As she prepares to step down, the CEO of leading European grid operator TenneT reflects on scaling energy infrastructure, navigating geopolitical shocks, and building resilience amid uncertainty.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Oct 27",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
           "title": "Pfizer’s Alex Condoleon on medical affairs accountability",
           "link": "https://www.mckinsey.com/industries/life-sciences/our-insights/pfizers-alex-condoleon-on-medical-affairs-accountability",
           "excerpt": "Pfizer’s chief medical affairs officer talks about measuring medical affairs’ true impact, leading change at scale, and what patient-first really means.",
@@ -252,8 +283,7 @@
           "domain": "mckinsey.com",
           "hn": null
         }
-      ],
-      "more": []
+      ]
     },
     {
       "name": "Agent Identity & Authorization",
@@ -332,17 +362,6 @@
           "hn": null
         },
         {
-          "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
-          "link": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
-          "excerpt": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already being used in attacks, and security teams have more urgent patches than they…",
-          "source": "The Hacker News",
-          "date": "Oct 26",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjztmxBbaYZEAd_HSv1heMQm8UuLym1h7XcN8NrgWjJmaoghOIR2O1rHwQzunUd9jlQn4R_8ft4Y0K9xLQOhs2xM8vVh1eHoEsZIFonHd7K6TA1cd0aIJ6jK-K2RNVBCwMfQwq7WWpuFtB8inWvubRjIEw_9fetsRFllw-fsAAnjCnpMCqFIL28ovMhJwbd/s1600/recap2monday.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null
-        },
-        {
           "title": "LiteLLM supply chain attack started with an exposed master key",
           "link": "https://www.theregister.com/security/2026/10/26/litellm-supply-chain-attack-started-with-an-exposed-master-key/5305544",
           "excerpt": "A 'strong illustration of the risks associated with failing to rotate a potentially exposed key'",
@@ -352,9 +371,7 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Anthropic Files for Potentially the Biggest IPO Ever as CEO Warns of Risk to Humanity From AI",
           "link": "https://www.securityweek.com/anthropic-files-for-potentially-the-biggest-ipo-ever-as-ceo-warns-of-risk-to-humanity-from-ai/",
@@ -365,6 +382,52 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
+          "link": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+          "excerpt": "Microsoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app, such as Teams, and collect sign-in tokens for a victim's work account. Microsoft tracks the flaw as CVE-2026-80097 and fixed it in Authenticator for Android…",
+          "source": "The Hacker News",
+          "date": "Oct 27",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqk63DF3MJCMgQqpg91UsWY7mjACbBgPl50GfKwDPi7v3md6sP5l8a2BUqHABjgMN_6BzgcMx4vVKW4hR9B9pz8_XHqp5ctKqQQLw-RJwuKmVWm2MaSzEMkHIsV-Yi0V6Mq_gUYYuzTpi-BzV2-8dRVYBjtuW4nb9TbobkPwvOGTkIFTpr334JB_LZIkw/s1600/msms.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
+          "link": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
+          "excerpt": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a statement on October 26. Someone with that key could build counterfeit devices that pass the online check owners use to verify a Keystone. A buyer who…",
+          "source": "The Hacker News",
+          "date": "Oct 27",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkvGXPUhZZjWBsYYBAx8KeJ8WilsBMLE-JhqfNAEyCOPuxs6-4VIF1e77IHR5zVdGfRsjJkSOfUVE1JaEmKe0mSAVM-ha4SeROxEGAdkLY5n5rBqx1LBSm6UVxA167sJYZEJTRra7BSipFtdlw2S-kFCUOSa9n70NbfSka3zRNVHd0D69qbVpSGIOnuAU/s1600/keystone.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
+          "link": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
+          "excerpt": "Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands and tailor phishing attempts to specific employees or organizations. Some fake login pages go beyond stealing passwords.…",
+          "source": "The Hacker News",
+          "date": "Oct 27",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCX1RKz1isf0HwbYOFkKneC7maFNTVr0q0LTVHBsoGhEN5w7ZOfSLYqfq_6-oKzf51Vb3FJTVla21T-RrWus7Dxadw81UmqDBbw8rIWxfbBhPdI5tyAUQZSYwYaq9JetgW4_4yl1qbWU7ScrdxYjoTCot6v9gXMIyjsk4W66Z531z5oHaHHEguj6_EISU/s1600/keeper-password.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
+          "link": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
+          "excerpt": "The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, software, and wire-communication equipment manufacturing sectors. According to Russian cybersecurity…",
+          "source": "The Hacker News",
+          "date": "Oct 27",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwoWz3Ex4w0TebsrzDSdna5WAjqoQx5EHWC1kY3db9VgMg6FrGK6VbncVA9b3tKdPnqlR6qmdwsq7CT1f-Cp57WpH6lpfoF-5zb_Xg-ahdsNxO4OUTsdDVeO_8s7SQFLp54SrsWlWrZn-37sAcqv1ZeG_7Yc62vQ5X9Tq-MlIEm6EOQOiTkQVlcy9F4VG4/s1600/korean-malware.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
         },
         {
           "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
@@ -373,39 +436,6 @@
           "source": "The Hacker News",
           "date": "Oct 27",
           "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinCXm9nOGLf3YFKOH7D87d6Wau4yc3WG_4nSANlzh0oVcI9dUXg07hiHfBkDONqewGH90O6qN1cv9B1vPKGeXr7dhwAjpJ9pHCZKv2MOU9WYesukNBqS55LiPg0ytVl8JonI32qTVei_L25bCcUsPTl2PZsxYhvx0nDsxwqy3RgKE1_iRRuSbAoaH8OcY/s1600/aus.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null
-        },
-        {
-          "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
-          "link": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
-          "excerpt": "OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text, security firm Xint has shown. OpenAI's reasoning models work through a problem before answering, and the service normally returns only the…",
-          "source": "The Hacker News",
-          "date": "Oct 27",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNsIWTk2-hgeO3hAG2ohh1yrK20QoX_O0WDYRc83Q9qg-Igk4mEbzap014Pya2lSNiYEvbRIzilTYToybQVVtR3sQH84nJj-kd8tGWOqW3D-ylLpwcxOfvONGVSzjNuu5piwltyECtuezAw4Q8R7S3lvH_g2z3EpDT_EuOOEJg1-FRrChaADA4S6scQkU/s1600/chatgpt-compact.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null
-        },
-        {
-          "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
-          "link": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
-          "excerpt": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua. \"Cases of compromising IP cameras and DVRs with access to the video stream, changing the device configuration and creating…",
-          "source": "The Hacker News",
-          "date": "Oct 27",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjISG9SXb2aeE6Zy-bIbnuaqwUNmGof7xU8RQl0vGZIcxcgNE3YXpuvG7rJKSTn_q9J8d_2DEv6rU2zxoX615DIYePz9rMA2TiLT6Fo1q2leGoyH85hJuIUta8j8FEN2mY5AGaO6zH5o6MkCHZ9Sv7OpjrZ6LE1yZygl9R4hUgt7xWJMMeGXRI4UJziuPCW/s1600/hackers-camera.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null
-        },
-        {
-          "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
-          "link": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
-          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog. The PHP vulnerabilities, both rated 9.2 on the CVSS scoring system, facilitate…",
-          "source": "The Hacker News",
-          "date": "Oct 27",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-vxKiggBxnuXu0fenkg0gfce0iuuA3OxeVzvWAdc0zaDPDayQgY8y_miqnvHJrpYvw61AhvGHEOW4EIKIYZ4QkRGjGEhqiU-3R0o6m0fgHJYDtszsoXyqse7WDGMh4rvEuTf1T-17KOVkyJKgEcaw5yBXFi6ElwIFyU9TjudvJrHz4fz6VNro8bjUZcnD/s1600/cisa-php.jpg",
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null
@@ -511,17 +541,6 @@
       "name": "News & Research",
       "cards": [
         {
-          "title": "The RealReal won’t let AI agents hog designer clothing",
-          "link": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
-          "excerpt": "The RealReal, a secondhand luxury fashion consignment retailer, said it's updating its bot defense system, effectively making it harder for AI agents to shop on its site. The change comes days after The Verge reported that an AI agent could be used to take advantage of The RealReal's item reserve…",
-          "source": "The Verge",
-          "date": "Oct 26",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS539_AI_AGENTS_SHOPPING_E.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "icon": null,
-          "domain": "theverge.com",
-          "hn": null
-        },
-        {
           "title": "Meet the real-life Scottish surgeon who inspired Sherlock Holmes",
           "link": "https://arstechnica.com/science/2026/10/meet-the-real-life-scottish-surgeon-who-inspired-sherlock-holmes/",
           "excerpt": "Lindsey Fitzharris chats with Ars about her new book, Sleuth-Hound: The Case of the Real Sherlock Holmes.",
@@ -530,6 +549,17 @@
           "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/sleuthTOP-500x500.jpg",
           "icon": null,
           "domain": "arstechnica.com",
+          "hn": null
+        },
+        {
+          "title": "I Used AI to Fake a Scientific Paper. Here’s What Happened",
+          "link": "https://spectrum.ieee.org/ai-generated-scientific-papers",
+          "excerpt": "Science has a spam problem. And the spam filter is getting clogged up.According to all reports, academic publishing is drowning in what has come to be called AI slop: low-quality, mass-produced content generated with AI. By 2025, an estimated 57 percent of all published academic articles exhibited…",
+          "source": "IEEE Spectrum",
+          "date": "Oct 27",
+          "image": "https://spectrum.ieee.org/media-library/man-in-glasses-at-night-his-face-reflected-in-a-window-beside-him.jpg?id=68515605&width=980",
+          "icon": null,
+          "domain": "spectrum.ieee.org",
           "hn": null
         },
         {
@@ -546,59 +576,59 @@
       ],
       "more": [
         {
-          "title": "I will no longer upload to NEW",
-          "link": "https://lists.debian.org/debian-devel/2026/10/msg00263.html",
-          "excerpt": "22 points · 0 comments",
-          "source": "lists.debian.org via Hacker News",
+          "title": "Apple introduces the new 14-inch MacBook Pro with M6",
+          "link": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+          "excerpt": "Apple today announced the new 14-inch MacBook Pro with M6, delivering more performance, powerful on-device AI capabilities, and faster connectivity.",
+          "source": "apple.com via Hacker News",
+          "date": "Oct 27",
+          "image": "https://www.apple.com/newsroom/images/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/tile/Apple-MacBook-Pro-14-in-with-M6-hero-261027-lp.jpg.og.jpg?202610271300",
+          "icon": "https://www.apple.com/favicon.ico",
+          "domain": "apple.com",
+          "hn": "23 points · 22 comments"
+        },
+        {
+          "title": "Software may be getting worse, but it used to be horrible",
+          "link": "https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/",
+          "excerpt": "Software is degrading all around us, for obvious reasons. I've written about this before. All else equal, if you increase your code production by 10x but you don't reduce your error rate by a factor of 10, then your production app is buggier than it used to be. I've seen threads where people also…",
+          "source": "bitlog.com via Hacker News",
           "date": "Oct 27",
           "image": null,
-          "icon": "https://lists.debian.org/favicon.ico",
-          "domain": "lists.debian.org",
-          "hn": "22 points · 0 comments"
+          "icon": "https://www.bitlog.com/favicon.ico",
+          "domain": "bitlog.com",
+          "hn": "124 points · 90 comments"
         },
         {
-          "title": "AI is ruining haunted houses",
-          "link": "https://www.plagiarismtoday.com/2026/10/26/ai-is-ruining-haunted-attractions/",
-          "excerpt": "Increasingly, it feels like AI-generated content is everywhere. But while it’s often disappointing, it’s outright ruining the haunted attraction industry.",
-          "source": "plagiarismtoday.com via Hacker News",
-          "date": "Oct 27",
-          "image": "https://www.plagiarismtoday.com/wp-content/uploads/2026/10/AIruinshaunts-675-sized.png",
-          "icon": "https://www.plagiarismtoday.com/wp-content/uploads/2020/11/cropped-ptlogosquare512-180x180.png",
-          "domain": "plagiarismtoday.com",
-          "hn": "23 points · 17 comments"
-        },
-        {
-          "title": "The Mythical Man-Month in the Age of AI",
-          "link": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
-          "excerpt": "An update to Brooks's Law in the age of AI.",
-          "source": "j11g.com via Hacker News",
-          "date": "Oct 27",
-          "image": "https://j11g.com/content/images/cern-resized.jpg",
-          "icon": "https://j11g.com/content/images/favicon.ico",
-          "domain": "j11g.com",
-          "hn": "156 points · 113 comments"
-        },
-        {
-          "title": "Writing about pratt parsing so I remember it",
-          "link": "https://www.unix.dog/~yosh/blog/2026-10-25_pratt-parsing.html",
-          "excerpt": "36 points · 1 comments",
-          "source": "unix.dog via Hacker News",
-          "date": "Oct 27",
-          "image": "https://unix.dog/~yosh/img/renard_lftanthology.png",
-          "icon": "https://www.unix.dog/~yosh/img/favicon.png",
-          "domain": "unix.dog",
-          "hn": "36 points · 1 comments"
-        },
-        {
-          "title": "I still teach OpenGL ES 3.0",
-          "link": "https://eliasfarhan.ch/graphics/cpp/2026/01/27/why-i-teach-opengles.html",
-          "excerpt": "71 points · 42 comments",
-          "source": "eliasfarhan.ch via Hacker News",
+          "title": "Python's experimental JIT to be removed",
+          "link": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
+          "excerpt": "Python's experimental just-in-time (JIT) compiler, which was added to CPython in 2024 for the 3 [...]",
+          "source": "lwn.net via Hacker News",
           "date": "Oct 27",
           "image": null,
-          "icon": "https://eliasfarhan.ch/favicon.ico",
-          "domain": "eliasfarhan.ch",
-          "hn": "71 points · 42 comments"
+          "icon": "https://static.lwn.net/images/favicon.png",
+          "domain": "lwn.net",
+          "hn": "101 points · 41 comments"
+        },
+        {
+          "title": "Wikipedia's Cleanup of AI-Generated Content",
+          "link": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+          "excerpt": "AI-generated text is harder to spot, but that hasn’t deterred them",
+          "source": "spectrum.ieee.org via Hacker News",
+          "date": "Oct 27",
+          "image": "https://spectrum.ieee.org/media-library/surreal-collage-of-a-womans-face-with-geometric-shapes-pencil-and-wikipedia-globe.png?id=68486571&width=1200&height=600&coordinates=0%2C167%2C0%2C168",
+          "icon": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNjU5NjY0OS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTg0ODgxODUwNn0.1LlzHtxZSVXyzapxWjeSrRIRu5qo3CeB8FaWpd2tl_o/img.png?width=192&height=192",
+          "domain": "spectrum.ieee.org",
+          "hn": "95 points · 44 comments"
+        },
+        {
+          "title": "AI promised less work. I've never worked more",
+          "link": "https://oioannou.com/blog/ai-promised-less-work/",
+          "excerpt": "Agents made implementation cheap, so I started doing far more of it in parallel. My GitHub history since 2019 shows what that did: as VP of Technology I am back at my full-stack engineer pace, with bursts, burnout and a low season that is no longer low.",
+          "source": "oioannou.com via Hacker News",
+          "date": "Oct 27",
+          "image": "https://oioannou.com/img/blog-by-orestis.jpg",
+          "icon": "https://oioannou.com/favicon.ico",
+          "domain": "oioannou.com",
+          "hn": "142 points · 113 comments"
         }
       ]
     }

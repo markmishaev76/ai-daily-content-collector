@@ -359,6 +359,12 @@
   "icon": null,
   "image": null
  },
+ "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/": {
+  "description": "Python's experimental just-in-time (JIT) compiler, which was added to CPython in 2024 for the 3 [...]",
+  "fetched": "2026-10-27",
+  "icon": "https://static.lwn.net/images/favicon.png",
+  "image": null
+ },
  "https://lynchlab.net/llm-skin-cancer": {
   "description": "I am a dermatologist. I tested the ability of GPT-6 Astra and Claude Fable 5.1 to diagnosis skin cancer and found that they were less accurate than I expected. I compared to a 10-year old CNN and to my surprise found that this was superior.",
   "fetched": "2026-10-26",
@@ -394,6 +400,12 @@
   "fetched": "2026-10-24",
   "icon": null,
   "image": null
+ },
+ "https://oioannou.com/blog/ai-promised-less-work/": {
+  "description": "Agents made implementation cheap, so I started doing far more of it in parallel. My GitHub history since 2019 shows what that did: as VP of Technology I am back at my full-stack engineer pace, with bursts, burnout and a low season that is no longer low.",
+  "fetched": "2026-10-27",
+  "icon": "https://oioannou.com/favicon.ico",
+  "image": "https://oioannou.com/img/blog-by-orestis.jpg"
  },
  "https://openai.com/index/building-scientific-understanding-with-academic-communities": {
   "description": null,
@@ -544,6 +556,12 @@
   "fetched": "2026-10-27",
   "icon": null,
   "image": null
+ },
+ "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup": {
+  "description": "AI-generated text is harder to spot, but that hasn’t deterred them",
+  "fetched": "2026-10-27",
+  "icon": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNjU5NjY0OS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTg0ODgxODUwNn0.1LlzHtxZSVXyzapxWjeSrRIRu5qo3CeB8FaWpd2tl_o/img.png?width=192&height=192",
+  "image": "https://spectrum.ieee.org/media-library/surreal-collage-of-a-womans-face-with-geometric-shapes-pencil-and-wikipedia-globe.png?id=68486571&width=1200&height=600&coordinates=0%2C167%2C0%2C168"
  },
  "https://sreweekly.com/sre-weekly-issue-540/": {
   "description": null,
@@ -755,6 +773,12 @@
   "icon": null,
   "image": "https://www.apple.com/newsroom/images/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/tile/Apple-iPad-mini-hero-261026-lp.jpg.og.jpg?202610261310"
  },
+ "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/": {
+  "description": "Apple today announced the new 14-inch MacBook Pro with M6, delivering more performance, powerful on-device AI capabilities, and faster connectivity.",
+  "fetched": "2026-10-27",
+  "icon": null,
+  "image": "https://www.apple.com/newsroom/images/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/tile/Apple-MacBook-Pro-14-in-with-M6-hero-261027-lp.jpg.og.jpg?202610271300"
+ },
  "https://www.apple.com/shop/buy-ipad/ipad-mini": {
   "description": "Get $45–$915 off the new iPad mini when you trade in an iPad 6 or newer. Buy now at apple.com.",
   "fetched": "2026-10-26",
@@ -772,6 +796,12 @@
   "fetched": "2026-10-24",
   "icon": "https://download.bitdefender.com/resources/images/favicon/apple-touch-icon-57x57.png",
   "image": "https://blogapp.bitdefender.com/hotforsecurity/content/images/2026/10/afd.jpeg"
+ },
+ "https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/": {
+  "description": "Software is degrading all around us, for obvious reasons. I've written about this before. All else equal, if you increase your code production by 10x but you don't reduce your error rate by a factor of 10, then your production app is buggier than it used to be. I've seen threads where people also have...",
+  "fetched": "2026-10-27",
+  "icon": null,
+  "image": null
  },
  "https://www.blast-info.fr/articles/2026/information-exclusive-blast-le-premier-ministre-a-prepare-la-coupure-des-reseaux-sociaux-pour-le-24-octobre-9D8cgrU5S5iiW14Sb9nMzQ": {
   "description": "Deux jours avant la manifestation du 24 octobre, le Premier ministre Sébastien Lecornu a demandé à Orange, SFR, Free et Bouygues Telecom de se tenir prêts à couper l’accès à TikTok, Instagram ,Snapchat et X. Blast révèle la lettre et le compte rendu de la…",
@@ -869,6 +899,12 @@
   "icon": null,
   "image": "https://www.jefftk.com/jefftk-glyph-framed.jpg"
  },
+ "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/hold-course-and-adapt-as-you-go-an-interview-with-manon-van-beek": {
+  "description": null,
+  "fetched": "2026-10-27",
+  "icon": null,
+  "image": null
+ },
  "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/agentic-ai-in-financial-crime-prevention-lessons-from-winners": {
   "description": null,
   "fetched": "2026-10-26",
@@ -953,6 +989,12 @@
   "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
   "image": null
  },
+ "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html": {
+  "description": "Interesting research: “AI Models Can Provably Hide Arbitrary Capabilities” Abstract: Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold under adversarial conditions by constructing backdoor attacks that embed encrypted neural networks within host model weights, decrypting and executing them only upon receiving a secret trigger. Using digital lockers, these hidden circuits remain provably hard to elicit and interpret under cryptographic assumptions, even given full access to model weights, extending prior work from hiding fixed strings to arbitrary computations. We implement our proof of concept constructions in PyTorch and evaluate elicitation through fine-tuning, weight noising, gradient-based trigger search, and latent adversarial training, using a small chemical reaction prediction task as a proxy for CBRN-relevant capabilities. Our results demonstrate resistance to these methods and, together with our cryptographic guarantees, reveal a limit of elicitation-based capability audits. We release our models to support the improvement of defenses...",
+  "fetched": "2026-10-27",
+  "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+  "image": null
+ },
  "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html": {
   "description": "PHP maintainers have released fixes for two critical vulnerabilities: PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical vulnerabilities that can allow unauthenticated remote code execution. All PHP users are strongly encouraged to update immediately. Who is at risk: all PHP installations serving web requests, including PHP-FPM, Apache with mod_php, php-cgi, FrankenPHP and LiteSpeed. We consider the risk highest for mod_php, with a demonstrated exploit where an unauthenticated request can trigger the attack before any application code runs...",
   "fetched": "2026-10-23",
@@ -1000,6 +1042,12 @@
   "fetched": "2026-10-25",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2025/11/funding-investment-market-3.jpeg"
+ },
+ "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/": {
+  "description": "HPE has patched 72 vulnerabilities in its networking products, including max-severity flaws leading to RCE and authentication bypass.",
+  "fetched": "2026-10-27",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/10/HPE-Aruba.jpeg"
  },
  "https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware/": {
   "description": "Tor exit relays hijacked, banks spot rogue AI agents in customer accounts, and researcher analyzes Heartbreaker macOS ransomware.",
