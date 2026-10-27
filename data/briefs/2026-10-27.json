@@ -1,0 +1,580 @@
+{
+  "date": "2026-10-27",
+  "lead": {
+    "title": "GPT-6.1 Terra",
+    "link": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+    "excerpt": "GPT-6.1 Terra It's always interesting to note which aspects of a new model are emphasized in the release announcement. In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use: We’re introducing GPT-6.1 Terra, a fast, efficient model that combines detailed visual reasoning…",
+    "source": "Simon Willison",
+    "date": "Oct 26",
+    "image": "https://static.simonwillison.net/static/2026-10-26/terra-max.webp",
+    "image_credit": null,
+    "section": "AI Agents & Agent Security",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "2 sources",
+      "AI Agents & Agent Security",
+      "2h ago"
+    ],
+    "also": [
+      {
+        "name": "openai.com",
+        "link": "https://openai.com/index/introducing-gpt-6-1-terra"
+      }
+    ]
+  },
+  "pulse": [
+    {
+      "title": "Anthropic S-1",
+      "thread": "https://news.ycombinator.com/item?id=50242939",
+      "link": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "link_domain": "sec.gov",
+      "source": "Hacker News",
+      "domain": "sec.gov",
+      "meta": "Hacker News · 1.5k points · 1.5k comments · 13h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.sec.gov/favicon.ico"
+    },
+    {
+      "title": "About the compromised eMudhra intermediate CAs",
+      "thread": "https://lobste.rs/s/xzp4m0/about_compromised_emudhra_intermediate",
+      "link": "https://support.apple.com/en-us/149555",
+      "link_domain": "support.apple.com",
+      "source": "Lobsters",
+      "domain": "support.apple.com",
+      "meta": "Lobsters · 44 points · 32 comments · 16h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://support.apple.com/favicon.ico"
+    },
+    {
+      "title": "In Leaked Audio, Flock CEO Tells Cops Backlash to the Company Isn't Real",
+      "thread": "https://news.ycombinator.com/item?id=50248005",
+      "link": "https://www.404media.co/in-leaked-audio-flock-ceo-tells-cops-backlash-to-the-company-isnt-real/",
+      "link_domain": "404media.co",
+      "source": "Hacker News",
+      "domain": "404media.co",
+      "meta": "Hacker News · 286 points · 165 comments · 8h ago",
+      "also": [],
+      "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/FLOCKSCAN_01..jpg",
+      "icon": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w256h256/format/png/2023/08/favicon-3.svg"
+    },
+    {
+      "title": "Concerning behavior from a popular open-weight AI model",
+      "thread": "https://news.ycombinator.com/item?id=50246658",
+      "link": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+      "link_domain": "cohere.com",
+      "source": "Hacker News",
+      "domain": "cohere.com",
+      "meta": "Hacker News · 257 points · 111 comments · 9h ago",
+      "also": [],
+      "image": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/658e160a6519a049e260213d409551e67399113a-1352x754.png?rect=0,22,1352,710&w=1200&h=630&q=80&fit=crop&auto=format",
+      "icon": "https://cohere.com/apple-touch-icon.png"
+    },
+    {
+      "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+      "thread": "https://news.ycombinator.com/item?id=50238739",
+      "link": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+      "link_domain": "github.com",
+      "source": "Hacker News",
+      "domain": "github.com",
+      "meta": "Hacker News · 228 points · 82 comments · 22h ago",
+      "also": [],
+      "image": "https://opengraph.githubassets.com/54b1328ec49ee1adeede6f3491b2680acdd2497e8f396b51c0dab36f3884bdb2/KrushnaVardhanReddy/PaperPilot",
+      "icon": "https://github.githubassets.com/favicons/favicon.svg"
+    },
+    {
+      "title": "ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems",
+      "thread": "https://news.ycombinator.com/item?id=50247630",
+      "link": "https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/",
+      "link_domain": "404media.co",
+      "source": "Hacker News",
+      "domain": "404media.co",
+      "meta": "Hacker News · 219 points · 82 comments · 8h ago",
+      "also": [],
+      "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/Untitled-1.png",
+      "icon": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w256h256/format/png/2023/08/favicon-3.svg"
+    },
+    {
+      "title": "Brown student maps the hidden global labor powering AI",
+      "thread": "https://news.ycombinator.com/item?id=50242843",
+      "link": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
+      "link_domain": "brown.edu",
+      "source": "Hacker News",
+      "domain": "brown.edu",
+      "meta": "Hacker News · 175 points · 167 comments · 13h ago",
+      "also": [],
+      "image": "https://www.brown.edu/sites/default/files/styles/wide_lrg/public/2026-10/Dataworkers.jpg?h=f6430484&itok=1eq5-wXm",
+      "icon": "https://www.brown.edu/themes/custom/brown/static/apple-touch-icon.png"
+    },
+    {
+      "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+      "thread": "https://news.ycombinator.com/item?id=50246238",
+      "link": "https://github.com/FrigadeHQ/hob",
+      "link_domain": "github.com",
+      "source": "Hacker News",
+      "domain": "github.com",
+      "meta": "Hacker News · 120 points · 29 comments · 9h ago",
+      "also": [],
+      "image": "https://repository-images.githubusercontent.com/1419901875/bef3a5ac-8f6b-4f29-8f2a-30f31c1771d7",
+      "icon": "https://github.githubassets.com/favicons/favicon.svg"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI-Assisted Engineering",
+      "cards": [
+        {
+          "title": "Our newest AI Quest: Mapping the human brain",
+          "link": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+          "excerpt": "An illustration of a planet rotating to show various cartoon figures waving. At the top is the text \"AI Quests\"",
+          "source": "Google AI",
+          "date": "Oct 26",
+          "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/social_sharing_updated.max-600x600.format-webp.webp",
+          "icon": null,
+          "domain": "blog.google",
+          "hn": null
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "AI Agents & Agent Security",
+      "cards": [
+        {
+          "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+          "link": "https://openai.com/index/greptile-code-review-codex-astra",
+          "excerpt": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+          "source": "OpenAI News",
+          "date": "Oct 26",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null
+        },
+        {
+          "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+          "link": "https://openai.com/index/openai-cut-incident-investigation",
+          "excerpt": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
+          "source": "OpenAI News",
+          "date": "Oct 26",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null
+        },
+        {
+          "title": "Working with academic communities to build scientific understanding",
+          "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+          "excerpt": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+          "source": "OpenAI News",
+          "date": "Oct 26",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+          "link": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+          "excerpt": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+          "source": "OpenAI News",
+          "date": "Oct 26",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null
+        },
+        {
+          "title": "ChatGPT’s expanding world of work",
+          "link": "https://openai.com/index/chatgpt-expanding-world-of-work",
+          "excerpt": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+          "source": "OpenAI News",
+          "date": "Oct 26",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null
+        },
+        {
+          "title": "Introducing GPT-6.1 Terra",
+          "link": "https://openai.com/index/introducing-gpt-6-1-terra",
+          "excerpt": "Bringing fast and capable computer use to everyone",
+          "source": "OpenAI News",
+          "date": "Oct 26",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null
+        },
+        {
+          "title": "Quoting Jason Koebler",
+          "link": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
+          "excerpt": "Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech problems have turned to ChatGPT. And, increasingly, ChatGPT is telling people that have normal tech support problems that…",
+          "source": "Simon Willison",
+          "date": "Oct 26",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "Leadership",
+      "cards": [
+        {
+          "title": "Pfizer’s Alex Condoleon on medical affairs accountability",
+          "link": "https://www.mckinsey.com/industries/life-sciences/our-insights/pfizers-alex-condoleon-on-medical-affairs-accountability",
+          "excerpt": "Pfizer’s chief medical affairs officer talks about measuring medical affairs’ true impact, leading change at scale, and what patient-first really means.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Oct 26",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Agent Identity & Authorization",
+      "cards": [
+        {
+          "title": "OWASP Top 10 Kubernetes Security Risks Explained: Why Credentials Deserve a Closer Look",
+          "link": "https://blog.gitguardian.com/kubernetes-security-risks/",
+          "excerpt": "GitGuardian researchers reached 44 active Kubernetes clusters through leaked secrets, and 30% had been exposed for more than two years. Here’s how the OWASP Kubernetes Top 10 explains these Kubernetes security risks, and why K03, Secrets Management Failures, turns one leak into a chain.",
+          "source": "GitGuardian Blog - Take Control of Your Secrets Security",
+          "date": "Oct 26",
+          "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/10/ubernetes-security-risks-through-the-OWASP-Kubernetes-Top-10.png",
+          "icon": null,
+          "domain": "blog.gitguardian.com",
+          "hn": null
+        },
+        {
+          "title": "Assign roles to groups, not people, with WorkOS User Groups",
+          "link": "https://workos.com/blog/assign-roles-to-groups-workos-user-groups",
+          "excerpt": "Create a group in WorkOS, give it a role, and every current and future member inherits it. How group roles resolve in single-role and multiple-roles mode.",
+          "source": "WorkOS Blog",
+          "date": "Oct 26",
+          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6adf902d0ea92c0983ee290c_workos-user-groups-role-assignment-og.webp",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null
+        },
+        {
+          "title": "Sign in with Microsoft vs. Entra SSO: Which one does your app need?",
+          "link": "https://workos.com/blog/sign-in-with-microsoft-vs-entra-sso",
+          "excerpt": "Microsoft OAuth and an Entra SSO connection are two different integrations. What each covers, how email domains route users, and which one a deal needs.",
+          "source": "WorkOS Blog",
+          "date": "Oct 26",
+          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6adf875135a6faaa6ea211c6_sign-in-with-microsoft-vs-entra-sso-og.webp",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "Localizing AuthKit end to end: Sign-in pages, emails and widgets",
+          "link": "https://workos.com/blog/localizing-authkit-end-to-end",
+          "excerpt": "AuthKit translates its hosted pages, emails and Widgets into 90 locales. How each one picks the language, what you pass, and which strings stay yours.",
+          "source": "WorkOS Blog",
+          "date": "Oct 26",
+          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6adf75fed930d69e034f7f3d_localizing-authkit-end-to-end-og.webp",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
+          "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
+          "excerpt": "OpenAI has launched GPT-6.1 Terra, a new model focused on computer use, visual reasoning, coding, and everyday work, while costing significantly less than its larger models. [...]",
+          "source": "BleepingComputer",
+          "date": "Oct 26",
+          "image": "https://www.bleepstatic.com/content/hl-images/2023/11/09/OpenAI.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null
+        },
+        {
+          "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
+          "link": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
+          "excerpt": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already being used in attacks, and security teams have more urgent patches than they…",
+          "source": "The Hacker News",
+          "date": "Oct 26",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjztmxBbaYZEAd_HSv1heMQm8UuLym1h7XcN8NrgWjJmaoghOIR2O1rHwQzunUd9jlQn4R_8ft4Y0K9xLQOhs2xM8vVh1eHoEsZIFonHd7K6TA1cd0aIJ6jK-K2RNVBCwMfQwq7WWpuFtB8inWvubRjIEw_9fetsRFllw-fsAAnjCnpMCqFIL28ovMhJwbd/s1600/recap2monday.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "LiteLLM supply chain attack started with an exposed master key",
+          "link": "https://www.theregister.com/security/2026/10/26/litellm-supply-chain-attack-started-with-an-exposed-master-key/5305544",
+          "excerpt": "A 'strong illustration of the risks associated with failing to rotate a potentially exposed key'",
+          "source": "The Register",
+          "date": "Oct 26",
+          "image": "https://image.theregister.com/?imageId=5263597&width=800",
+          "icon": null,
+          "domain": "theregister.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "Anthropic Files for Potentially the Biggest IPO Ever as CEO Warns of Risk to Humanity From AI",
+          "link": "https://www.securityweek.com/anthropic-files-for-potentially-the-biggest-ipo-ever-as-ceo-warns-of-risk-to-humanity-from-ai/",
+          "excerpt": "A string of hacking incidents by rogue AI agents also has raised fears the technology will slip free of human control to carry out harmful, life-threatening tasks. The post Anthropic Files for Potentially the Biggest IPO Ever as CEO Warns of Risk to Humanity From AI appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Oct 26",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/02/Anthropic-AI_Military.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null
+        },
+        {
+          "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
+          "link": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
+          "excerpt": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025. According to Dutch e-commerce security company Sansec, the activity is designed to add a small piece of code to the store's pages that, when visited by…",
+          "source": "The Hacker News",
+          "date": "Oct 26",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdh3aURB79okzf_mo3sPzJy6vKRiWdPc4gyrE93xmMW-MRgYHrOuJ5yya0TpovJvi-2ol3GubNo5ir76ui-2jBo1jUvOd45Z8f98YeGVAECGcwgpRetuyxFxGWY8bBOB4a0G1H5YiYoYJ3Kd8YauFJGUIVTKYVHsLrvDElRe8sOuD4Y8CKMrAtCA6eJazr/s1600/m-code.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
+          "link": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
+          "excerpt": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and potentially run code. PHP says the flaw can be reached through the cURL extension when…",
+          "source": "The Hacker News",
+          "date": "Oct 26",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWGYEqFaRxRywsWzBt-2T2G_Jpdp4zy3iV7qI1alNGRaBf_8TMdzRQQb335GhASkVoXD3q9mGkiLjAog4ez9d7DHhl88lkNVvuhI74KiKZP0zZpb2O8yyqyDw12WoYTiGaq1AVfG9TfGcdNhP-DmRwuKJ4Pj4mr9rEo-TVLYxYSpmUogJUSFZFL_VaduQ/s1600/php-windows.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
+          "link": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+          "excerpt": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct impersonation scams or to deliver malware. \"A consistent pattern of attacker…",
+          "source": "The Hacker News",
+          "date": "Oct 26",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGj3R5UeJnb_pAG2XH5cEGUzKbzeRHLNAES48EgHC8ssOnuDbDOqJA9ydPHJqmxYONu2lCeu42YOv_e_XA2RtX5jVGsMkQY0QAGrzoqmY4qU6NnWrPTfX0V-U68B9Z80KHLJvZDtUeSm4dvkp06oJ9JmgJvr7CDYZ-48fwAOENt31Lrcpr4M6O_4x6ovLZ/s1600/support.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients and Close Clinics",
+          "link": "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/",
+          "excerpt": "The University of New Mexico Health System told people not to show up at its main hospital in Albuquerque and canceled appointments at more than 30 clinics. The post Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients and Close Clinics appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Oct 27",
+          "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "AGNTCon + MCPCon 2026: Agentic AI Foundation Adds Four Projects as MCP Turns to Security",
+          "link": "https://www.infoq.com/news/2026/10/agntcon-mcpcon-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "At AGNTCon + MCPCon North America 2026, the Agentic AI Foundation added OpenSandbox, Open Responses, Agent Skills, and OpenEnv, reaching ten projects in its first year. Keynotes from Anthropic, OpenAI, Google, and UC Berkeley focused on MCP in production, security, and agents with their own…",
+          "source": "InfoQ",
+          "date": "Oct 26",
+          "image": "https://res.infoq.com/news/2026/10/agntcon-mcpcon-2026/en/headerimage/agntcon-header-1792936265463.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null
+        },
+        {
+          "title": "DigitalOcean Launches Learning and Data Services to Enable Self-Improving AI Agents",
+          "link": "https://www.infoq.com/news/2026/10/digitalocean-self-improving-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "DigitalOcean has announced the public preview of Learning Services and Agent Data Services, enabling developers to build, evaluate, and continuously improve AI agents within a unified, AI-native, cloud platform. By Sergio De Simone",
+          "source": "InfoQ",
+          "date": "Oct 26",
+          "image": "https://res.infoq.com/news/2026/10/digitalocean-self-improving-ai/en/headerimage/digitalocean-managed-agents-1793035926117.jpeg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null
+        },
+        {
+          "title": "Unifying enterprise context and semantics: LookML in Knowledge Catalog is now GA",
+          "link": "https://cloud.google.com/blog/products/business-intelligence/lookml-metadata-indexing-in-knowledge-catalog-is-now-ga/",
+          "excerpt": "As enterprises go from experimental AI agent prototypes to using them in production, data teams are realizing that access to data is not the same as understanding that data. To help bridge that gap, today, we are announcing the general availability (GA) of LookML semantic language indexing in…",
+          "source": "Cloud Blog",
+          "date": "Oct 26",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/original_images/1_-_LookML_Indexing_in_Knowledge_Catalog.gif",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "Making Failure Diagnosis Reliable with Pensive AI",
+          "link": "https://netflixtechblog.com/making-failure-diagnosis-reliable-with-pensive-ai-6b0811a1c015?source=rss----2615bd06b42e---4",
+          "excerpt": "By Praneeth Yenugutala, Victor Dusa, Anastasia Samoilova, Megan Ren, Justin Wei, Marcelo MaywormAt Netflix, data and machine learning practitioners run millions of workloads each day across orchestration systems and compute engines such as Titus, Spark, Trino, and Druid. On peak days, roughly…",
+          "source": "Netflix TechBlog - Medium",
+          "date": "Oct 26",
+          "image": "https://cdn-images-1.medium.com/max/1024/1*2TSVpCdPYj4fMMlFPuheCg.png",
+          "icon": null,
+          "domain": "netflixtechblog.com",
+          "hn": null
+        },
+        {
+          "title": "Easy to integrate, compliant by design: Bringing the Swiss Franc to Google Cloud Universal Ledger",
+          "link": "https://cloud.google.com/blog/topics/financial-services/easy-to-integrate-compliant-by-design-bringing-the-swiss-franc-to-google-cloud-universal-ledger/",
+          "excerpt": "Every day, countless financial transactions are interrupted by slow, expensive, and inflexible conventional payment systems. As a result, public commercial stablecoins like Tether, USDC, and PayPal USD have become increasingly popular by making it easy to move money efficiently with instant, 24/7…",
+          "source": "Cloud Blog",
+          "date": "Oct 26",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/swiss-franc-stablecoin-gcul-2_3lwzLOd.max-600x600.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null
+        },
+        {
+          "title": "Pillow CVE-2026-112900: How to find and fix it with GitLab",
+          "link": "https://about.gitlab.com/blog/pillow-cve-find-and-fix-with-gitlab/",
+          "excerpt": "GitLab is not affected by CVE-2026-112900 or the other vulnerabilities fixed in Pillow 13.0.0. GitLab products do not include the Pillow library, and our Security team has found no evidence of impact to GitLab-managed infrastructure. GitLab.com, GitLab Self-Managed, and GitLab Dedicated are not…",
+          "source": "GitLab",
+          "date": "Oct 26",
+          "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1793049447/qw4yuepojec1q89qkas4.png",
+          "icon": null,
+          "domain": "about.gitlab.com",
+          "hn": null
+        },
+        {
+          "title": "AWS Weekly Roundup: Amazon Polly Generative engine, TorchNeuron for Trainium, and more (October 26, 2026)",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-polly-generative-engine-torchneuron-for-trainium-and-more-october-26-2026/",
+          "excerpt": "A few weeks ago I presented to a small group of commercial and technology leaders from Brazilian agribusiness at the AWS office in São Paulo. My talk ran through where generative AI fits across the different stages of an agribusiness operation, and the point I kept returning to is that the markets…",
+          "source": "AWS News Blog",
+          "date": "Oct 26",
+          "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/10/23/genai-agronegocio-speaker-crop-1280.jpg",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null
+        },
+        {
+          "title": "Preview, edit, and collaborate on markdown (.md) files natively in Google Docs and Drive",
+          "link": "https://developers.googleblog.com/preview-edit-and-collaborate-on-markdown-md-files-natively-in-google-docs-and-drive/",
+          "excerpt": "Google Workspace now offers native support for Markdown (.md) files, allowing developers and AI agents to seamlessly collaborate on documentation directly in Google Docs without manual file conversions. This integration preserves native file fidelity for use with Git repositories and developer…",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image_11_a479DBi.2e16d0ba.fill-1200x600.png",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "The RealReal won’t let AI agents hog designer clothing",
+          "link": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
+          "excerpt": "The RealReal, a secondhand luxury fashion consignment retailer, said it's updating its bot defense system, effectively making it harder for AI agents to shop on its site. The change comes days after The Verge reported that an AI agent could be used to take advantage of The RealReal's item reserve…",
+          "source": "The Verge",
+          "date": "Oct 26",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS539_AI_AGENTS_SHOPPING_E.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "icon": null,
+          "domain": "theverge.com",
+          "hn": null
+        },
+        {
+          "title": "Meet the real-life Scottish surgeon who inspired Sherlock Holmes",
+          "link": "https://arstechnica.com/science/2026/10/meet-the-real-life-scottish-surgeon-who-inspired-sherlock-holmes/",
+          "excerpt": "Lindsey Fitzharris chats with Ars about her new book, Sleuth-Hound: The Case of the Real Sherlock Holmes.",
+          "source": "Ars Technica - All content",
+          "date": "Oct 26",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/sleuthTOP-500x500.jpg",
+          "icon": null,
+          "domain": "arstechnica.com",
+          "hn": null
+        },
+        {
+          "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+          "link": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+          "excerpt": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
+          "source": "TechCrunch",
+          "date": "Oct 27",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/55593495974_7bfdac6a15_k.jpg?resize=1200,800",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows",
+          "link": "https://github.com/otya128/winevdm",
+          "excerpt": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows - otya128/winevdm",
+          "source": "github.com via Hacker News",
+          "date": "Oct 27",
+          "image": "https://opengraph.githubassets.com/bb1f8c596bccf32d8a4c346978b9317a3b74a720d9e7fe373014479de549dc17/otya128/winevdm",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "11 points · 1 comments"
+        },
+        {
+          "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+          "link": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+          "excerpt": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
+          "source": "blog.cloudflare.com via Hacker News",
+          "date": "Oct 26",
+          "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M5X2YJT16K16BFFJGEMCAXRS.01M5X2YM62P3YQRBGRP96FS4P6.png",
+          "icon": "https://blog.cloudflare.com/favicon.ico",
+          "domain": "blog.cloudflare.com",
+          "hn": "73 points · 15 comments"
+        },
+        {
+          "title": "Is PHP Running on Your ColdFusion Server? How to Check, and Remove It",
+          "link": "https://www.gregoryalexander.com/blog/2026/10/23/is-php-quietly-running-on-your-coldfusion-server-how-to-check-and-remove-it",
+          "excerpt": "22 points · 17 comments",
+          "source": "gregoryalexander.com via Hacker News",
+          "date": "Oct 26",
+          "image": null,
+          "icon": "https://www.gregoryalexander.com/favicon.ico",
+          "domain": "gregoryalexander.com",
+          "hn": "22 points · 17 comments"
+        },
+        {
+          "title": "The Exponential Time Hypothesis Is False [pdf]",
+          "link": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+          "excerpt": "Contribute to openai/math development by creating an account on GitHub.",
+          "source": "github.com via Hacker News",
+          "date": "Oct 26",
+          "image": "https://opengraph.githubassets.com/4db5e5c23a495b2a77310719082489e1fd05146ce3a4ee82e0270eb0bd287fe8/openai/math",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "288 points · 113 comments"
+        },
+        {
+          "title": "Announcing three new discoveries in mathematics, computer science, and physics",
+          "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+          "excerpt": "461 points · 177 comments",
+          "source": "openai.com via Hacker News",
+          "date": "Oct 26",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": "461 points · 177 comments"
+        }
+      ]
+    }
+  ]
+}
