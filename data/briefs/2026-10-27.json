@@ -1,27 +1,21 @@
 {
   "date": "2026-10-27",
   "lead": {
-    "title": "GPT-6.1 Terra",
-    "link": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
-    "excerpt": "GPT-6.1 Terra It's always interesting to note which aspects of a new model are emphasized in the release announcement. In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use: We’re introducing GPT-6.1 Terra, a fast, efficient model that combines detailed visual reasoning…",
-    "source": "Simon Willison",
-    "date": "Oct 26",
-    "image": "https://static.simonwillison.net/static/2026-10-26/terra-max.webp",
+    "title": "Elevators, toasters, and the birth of Java",
+    "link": "https://stackoverflow.blog/2026/10/27/elevators-toasters-and-the-birth-of-java/",
+    "excerpt": "Ryan sits down with James Gosling, creator of Java at Sun Microsystems, to talk about the early networking friction that drove the need for interconnectedness, the stringent reliability requirements of consumer electronics companies that inspired the Java virtual machine, and the evolution of…",
+    "source": "Stack Overflow Blog",
+    "date": "Oct 27",
+    "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format",
     "image_credit": null,
-    "section": "AI Agents & Agent Security",
+    "section": "AI-Assisted Engineering",
     "pinned": false,
     "note": null,
     "labels": [
-      "2 sources",
-      "AI Agents & Agent Security",
-      "10h ago"
+      "AI-Assisted Engineering",
+      "3h ago"
     ],
-    "also": [
-      {
-        "name": "openai.com",
-        "link": "https://openai.com/index/introducing-gpt-6-1-terra"
-      }
-    ]
+    "also": []
   },
   "pulse": [
     {
@@ -31,7 +25,7 @@
       "link_domain": "sec.gov",
       "source": "Hacker News",
       "domain": "sec.gov",
-      "meta": "Hacker News · 1.6k points · 1.5k comments · 20h ago",
+      "meta": "Hacker News · 1.6k points · 1.6k comments · 21h ago",
       "also": [],
       "image": null,
       "icon": "https://www.sec.gov/favicon.ico"
@@ -43,7 +37,7 @@
       "link_domain": "cohere.com",
       "source": "Hacker News",
       "domain": "cohere.com",
-      "meta": "Hacker News · 301 points · 118 comments · 17h ago",
+      "meta": "Hacker News · 303 points · 118 comments · 18h ago",
       "also": [],
       "image": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/658e160a6519a049e260213d409551e67399113a-1352x754.png?rect=0,22,1352,710&w=1200&h=630&q=80&fit=crop&auto=format",
       "icon": "https://cohere.com/apple-touch-icon.png"
@@ -55,7 +49,7 @@
       "link_domain": "404media.co",
       "source": "Hacker News",
       "domain": "404media.co",
-      "meta": "Hacker News · 298 points · 177 comments · 16h ago",
+      "meta": "Hacker News · 299 points · 177 comments · 16h ago",
       "also": [],
       "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/FLOCKSCAN_01..jpg",
       "icon": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w256h256/format/png/2023/08/favicon-3.svg"
@@ -67,7 +61,7 @@
       "link_domain": "404media.co",
       "source": "Hacker News",
       "domain": "404media.co",
-      "meta": "Hacker News · 249 points · 90 comments · 16h ago",
+      "meta": "Hacker News · 249 points · 90 comments · 17h ago",
       "also": [],
       "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/Untitled-1.png",
       "icon": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w256h256/format/png/2023/08/favicon-3.svg"
@@ -91,27 +85,28 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 147 points · 33 comments · 17h ago",
+      "meta": "Hacker News · 147 points · 33 comments · 18h ago",
       "also": [],
       "image": "https://repository-images.githubusercontent.com/1419901875/bef3a5ac-8f6b-4f29-8f2a-30f31c1771d7",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
+    },
+    {
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+      "thread": "https://news.ycombinator.com/item?id=50252159",
+      "link": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "link_domain": "blog.cloudflare.com",
+      "source": "Hacker News",
+      "domain": "blog.cloudflare.com",
+      "meta": "Hacker News · 139 points · 45 comments · 11h ago",
+      "also": [],
+      "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M5X2YJT16K16BFFJGEMCAXRS.01M5X2YM62P3YQRBGRP96FS4P6.png",
+      "icon": "https://blog.cloudflare.com/favicon.ico"
     }
   ],
   "sections": [
     {
       "name": "AI-Assisted Engineering",
       "cards": [
-        {
-          "title": "Elevators, toasters, and the birth of Java",
-          "link": "https://stackoverflow.blog/2026/10/27/elevators-toasters-and-the-birth-of-java/",
-          "excerpt": "Ryan sits down with James Gosling, creator of Java at Sun Microsystems, to talk about the early networking friction that drove the need for interconnectedness, the stringent reliability requirements of consumer electronics companies that inspired the Java virtual machine, and the evolution of…",
-          "source": "Stack Overflow Blog",
-          "date": "Oct 27",
-          "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format",
-          "icon": "https://stackoverflow.blog/apple-touch-icon.png",
-          "domain": "stackoverflow.blog",
-          "hn": null
-        },
         {
           "title": "Are technical design reviews disappearing?",
           "link": "https://leaddev.com/test-pattern/are-technical-design-reviews-disappearing?utm_source=leaddev&utm_medium=RSS",
@@ -152,6 +147,30 @@
           "hn": null
         },
         {
+          "title": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn",
+          "link": "https://latent.space/p/ainews-anthropic-s1/",
+          "excerpt": "The S-1, the numbers, and the reactions.",
+          "source": "Latent Space",
+          "date": "Oct 27",
+          "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/f056ab0b-c9ca-46f2-8fb1-08d5f2f6b891/image.png?t=1793085208",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null
+        },
+        {
+          "title": "GPT-6.1 Terra",
+          "link": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+          "excerpt": "GPT-6.1 Terra It's always interesting to note which aspects of a new model are emphasized in the release announcement. In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use: We’re introducing GPT-6.1 Terra, a fast, efficient model that combines detailed visual reasoning…",
+          "source": "Simon Willison",
+          "date": "Oct 26",
+          "image": "https://static.simonwillison.net/static/2026-10-26/terra-max.webp",
+          "icon": null,
+          "domain": "simonwillison.net",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
           "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
           "link": "https://openai.com/index/openai-cut-incident-investigation",
           "excerpt": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
@@ -162,19 +181,6 @@
           "domain": "openai.com",
           "hn": null
         },
-        {
-          "title": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn",
-          "link": "https://latent.space/p/ainews-anthropic-s1/",
-          "excerpt": "The S-1, the numbers, and the reactions.",
-          "source": "Latent Space",
-          "date": "Oct 27",
-          "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/f056ab0b-c9ca-46f2-8fb1-08d5f2f6b891/image.png?t=1793085208",
-          "icon": null,
-          "domain": "latent.space",
-          "hn": null
-        }
-      ],
-      "more": [
         {
           "title": "Working with academic communities to build scientific understanding",
           "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
@@ -224,6 +230,17 @@
     {
       "name": "Leadership",
       "cards": [
+        {
+          "title": "Anthropic S-1, The Cost of Compute, Who Is Paying?",
+          "link": "https://stratechery.com/2026/anthropic-s-1-the-cost-of-compute-who-is-paying/",
+          "excerpt": "Anthropic's IPO is finally here; the core business is very profitable, but competition may eat all of the profits, even as investors are set up for endless dilution.",
+          "source": "Stratechery by Ben Thompson",
+          "date": "Oct 27",
+          "image": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9zdHJhdGVjaGVyeS5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMThcLzAzXC9jcm9wcGVkLWFuZHJvaWQtY2hyb21lLTUxMng1MTItMS5wbmc_Zml0PTUxMiUyQzUxMiZzc2w9MSIsInR4dCI6IlN0cmF0ZWNoZXJ5IGJ5IEJlbiBUaG9tcHNvbiIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxODgwNDM0MTV9.5VWck4PcKPWCTPe_HVznn3n3xsgn-G0b3d2OeiNNC7cMQ",
+          "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
+          "domain": "stratechery.com",
+          "hn": null
+        },
         {
           "title": "Pfizer’s Alex Condoleon on medical affairs accountability",
           "link": "https://www.mckinsey.com/industries/life-sciences/our-insights/pfizers-alex-condoleon-on-medical-affairs-accountability",
@@ -529,6 +546,28 @@
       ],
       "more": [
         {
+          "title": "I will no longer upload to NEW",
+          "link": "https://lists.debian.org/debian-devel/2026/10/msg00263.html",
+          "excerpt": "22 points · 0 comments",
+          "source": "lists.debian.org via Hacker News",
+          "date": "Oct 27",
+          "image": null,
+          "icon": "https://lists.debian.org/favicon.ico",
+          "domain": "lists.debian.org",
+          "hn": "22 points · 0 comments"
+        },
+        {
+          "title": "AI is ruining haunted houses",
+          "link": "https://www.plagiarismtoday.com/2026/10/26/ai-is-ruining-haunted-attractions/",
+          "excerpt": "Increasingly, it feels like AI-generated content is everywhere. But while it’s often disappointing, it’s outright ruining the haunted attraction industry.",
+          "source": "plagiarismtoday.com via Hacker News",
+          "date": "Oct 27",
+          "image": "https://www.plagiarismtoday.com/wp-content/uploads/2026/10/AIruinshaunts-675-sized.png",
+          "icon": "https://www.plagiarismtoday.com/wp-content/uploads/2020/11/cropped-ptlogosquare512-180x180.png",
+          "domain": "plagiarismtoday.com",
+          "hn": "23 points · 17 comments"
+        },
+        {
           "title": "The Mythical Man-Month in the Age of AI",
           "link": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
           "excerpt": "An update to Brooks's Law in the age of AI.",
@@ -537,51 +576,29 @@
           "image": "https://j11g.com/content/images/cern-resized.jpg",
           "icon": "https://j11g.com/content/images/favicon.ico",
           "domain": "j11g.com",
-          "hn": "124 points · 99 comments"
+          "hn": "156 points · 113 comments"
         },
         {
           "title": "Writing about pratt parsing so I remember it",
           "link": "https://www.unix.dog/~yosh/blog/2026-10-25_pratt-parsing.html",
-          "excerpt": "27 points · 1 comments",
+          "excerpt": "36 points · 1 comments",
           "source": "unix.dog via Hacker News",
           "date": "Oct 27",
           "image": "https://unix.dog/~yosh/img/renard_lftanthology.png",
           "icon": "https://www.unix.dog/~yosh/img/favicon.png",
           "domain": "unix.dog",
-          "hn": "27 points · 1 comments"
+          "hn": "36 points · 1 comments"
         },
         {
           "title": "I still teach OpenGL ES 3.0",
           "link": "https://eliasfarhan.ch/graphics/cpp/2026/01/27/why-i-teach-opengles.html",
-          "excerpt": "58 points · 38 comments",
+          "excerpt": "71 points · 42 comments",
           "source": "eliasfarhan.ch via Hacker News",
           "date": "Oct 27",
           "image": null,
           "icon": "https://eliasfarhan.ch/favicon.ico",
           "domain": "eliasfarhan.ch",
-          "hn": "58 points · 38 comments"
-        },
-        {
-          "title": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows",
-          "link": "https://github.com/otya128/winevdm",
-          "excerpt": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows - otya128/winevdm",
-          "source": "github.com via Hacker News",
-          "date": "Oct 27",
-          "image": "https://opengraph.githubassets.com/bb1f8c596bccf32d8a4c346978b9317a3b74a720d9e7fe373014479de549dc17/otya128/winevdm",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "88 points · 20 comments"
-        },
-        {
-          "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
-          "link": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
-          "excerpt": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
-          "source": "blog.cloudflare.com via Hacker News",
-          "date": "Oct 26",
-          "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M5X2YJT16K16BFFJGEMCAXRS.01M5X2YM62P3YQRBGRP96FS4P6.png",
-          "icon": "https://blog.cloudflare.com/favicon.ico",
-          "domain": "blog.cloudflare.com",
-          "hn": "135 points · 45 comments"
+          "hn": "71 points · 42 comments"
         }
       ]
     }
