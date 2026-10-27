@@ -14,7 +14,7 @@
     "labels": [
       "2 sources",
       "AI Agents & Agent Security",
-      "4h ago"
+      "6h ago"
     ],
     "also": [
       {
@@ -31,7 +31,7 @@
       "link_domain": "sec.gov",
       "source": "Hacker News",
       "domain": "sec.gov",
-      "meta": "Hacker News · 1.5k points · 1.5k comments · 15h ago",
+      "meta": "Hacker News · 1.6k points · 1.5k comments · 17h ago",
       "also": [],
       "image": null,
       "icon": "https://www.sec.gov/favicon.ico"
@@ -43,7 +43,7 @@
       "link_domain": "support.apple.com",
       "source": "Lobsters",
       "domain": "support.apple.com",
-      "meta": "Lobsters · 46 points · 32 comments · 18h ago",
+      "meta": "Lobsters · 49 points · 32 comments · 20h ago",
       "also": [],
       "image": null,
       "icon": "https://support.apple.com/favicon.ico"
@@ -55,7 +55,7 @@
       "link_domain": "404media.co",
       "source": "Hacker News",
       "domain": "404media.co",
-      "meta": "Hacker News · 290 points · 171 comments · 10h ago",
+      "meta": "Hacker News · 291 points · 171 comments · 12h ago",
       "also": [],
       "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/FLOCKSCAN_01..jpg",
       "icon": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w256h256/format/png/2023/08/favicon-3.svg"
@@ -67,7 +67,7 @@
       "link_domain": "cohere.com",
       "source": "Hacker News",
       "domain": "cohere.com",
-      "meta": "Hacker News · 275 points · 113 comments · 11h ago",
+      "meta": "Hacker News · 283 points · 114 comments · 13h ago",
       "also": [],
       "image": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/658e160a6519a049e260213d409551e67399113a-1352x754.png?rect=0,22,1352,710&w=1200&h=630&q=80&fit=crop&auto=format",
       "icon": "https://cohere.com/apple-touch-icon.png"
@@ -79,7 +79,7 @@
       "link_domain": "404media.co",
       "source": "Hacker News",
       "domain": "404media.co",
-      "meta": "Hacker News · 236 points · 85 comments · 10h ago",
+      "meta": "Hacker News · 242 points · 88 comments · 12h ago",
       "also": [],
       "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/Untitled-1.png",
       "icon": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w256h256/format/png/2023/08/favicon-3.svg"
@@ -91,7 +91,7 @@
       "link_domain": "brown.edu",
       "source": "Hacker News",
       "domain": "brown.edu",
-      "meta": "Hacker News · 175 points · 170 comments · 15h ago",
+      "meta": "Hacker News · 177 points · 171 comments · 17h ago",
       "also": [],
       "image": "https://www.brown.edu/sites/default/files/styles/wide_lrg/public/2026-10/Dataworkers.jpg?h=f6430484&itok=1eq5-wXm",
       "icon": "https://www.brown.edu/themes/custom/brown/static/apple-touch-icon.png"
@@ -103,7 +103,7 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 127 points · 31 comments · 11h ago",
+      "meta": "Hacker News · 136 points · 31 comments · 13h ago",
       "also": [],
       "image": "https://repository-images.githubusercontent.com/1419901875/bef3a5ac-8f6b-4f29-8f2a-30f31c1771d7",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
@@ -113,6 +113,17 @@
     {
       "name": "AI-Assisted Engineering",
       "cards": [
+        {
+          "title": "Elevators, toasters, and the birth of Java",
+          "link": "https://stackoverflow.blog/2026/10/27/elevators-toasters-and-the-birth-of-java/",
+          "excerpt": "Ryan sits down with James Gosling, creator of Java at Sun Microsystems, to talk about the early networking friction that drove the need for interconnectedness, the stringent reliability requirements of consumer electronics companies that inspired the Java virtual machine, and the evolution of…",
+          "source": "Stack Overflow Blog",
+          "date": "Oct 27",
+          "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format",
+          "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+          "domain": "stackoverflow.blog",
+          "hn": null
+        },
         {
           "title": "Our newest AI Quest: Mapping the human brain",
           "link": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
@@ -153,6 +164,19 @@
           "hn": null
         },
         {
+          "title": "Micron Taiwan increasing salaries for factory workers by 2.7X",
+          "link": "https://ec.ltn.com.tw/article/breakingnews/5619258",
+          "excerpt": "〔財經頻道／綜合報導〕美光公司與台中工會達成共識，根據經濟部日前說明，約有8成以上人員調薪近2.7倍，產線人員從63萬增加到200多萬。由於調整後的年薪相當優渥，引起網友熱議，驚呼加入美光、人生",
+          "source": "ec.ltn.com.tw via Hacker News",
+          "date": "Oct 27",
+          "image": "https://img.ltn.com.tw/Upload/business/page/800/2026/10/26/php8U0QbL.jpg",
+          "icon": "https://ec.ltn.com.tw/assets/images/1200_ec.png",
+          "domain": "ec.ltn.com.tw",
+          "hn": "15 points · 5 comments"
+        }
+      ],
+      "more": [
+        {
           "title": "Working with academic communities to build scientific understanding",
           "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
           "excerpt": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
@@ -162,9 +186,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null
-        }
-      ],
-      "more": [
+        },
         {
           "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
           "link": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
@@ -196,17 +218,6 @@
           "image": null,
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
-          "hn": null
-        },
-        {
-          "title": "Quoting Jason Koebler",
-          "link": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
-          "excerpt": "Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech problems have turned to ChatGPT. And, increasingly, ChatGPT is telling people that have normal tech support problems that…",
-          "source": "Simon Willison",
-          "date": "Oct 26",
-          "image": null,
-          "icon": "https://simonwillison.net/favicon.ico",
-          "domain": "simonwillison.net",
           "hn": null
         }
       ]
@@ -329,6 +340,17 @@
           "hn": null
         },
         {
+          "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+          "link": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog. The PHP vulnerabilities, both rated 9.2 on the CVSS scoring system, facilitate…",
+          "source": "The Hacker News",
+          "date": "Oct 27",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-vxKiggBxnuXu0fenkg0gfce0iuuA3OxeVzvWAdc0zaDPDayQgY8y_miqnvHJrpYvw61AhvGHEOW4EIKIYZ4QkRGjGEhqiU-3R0o6m0fgHJYDtszsoXyqse7WDGMh4rvEuTf1T-17KOVkyJKgEcaw5yBXFi6ElwIFyU9TjudvJrHz4fz6VNro8bjUZcnD/s1600/cisa-php.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
           "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
           "link": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
           "excerpt": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025. According to Dutch e-commerce security company Sansec, the activity is designed to add a small piece of code to the store's pages that, when visited by…",
@@ -359,17 +381,6 @@
           "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGj3R5UeJnb_pAG2XH5cEGUzKbzeRHLNAES48EgHC8ssOnuDbDOqJA9ydPHJqmxYONu2lCeu42YOv_e_XA2RtX5jVGsMkQY0QAGrzoqmY4qU6NnWrPTfX0V-U68B9Z80KHLJvZDtUeSm4dvkp06oJ9JmgJvr7CDYZ-48fwAOENt31Lrcpr4M6O_4x6ovLZ/s1600/support.jpg",
           "icon": null,
           "domain": "thehackernews.com",
-          "hn": null
-        },
-        {
-          "title": "Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients and Close Clinics",
-          "link": "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/",
-          "excerpt": "The University of New Mexico Health System told people not to show up at its main hospital in Albuquerque and canceled appointments at more than 30 clinics. The post Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients and Close Clinics appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Oct 27",
-          "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
           "hn": null
         }
       ]
@@ -508,15 +519,26 @@
       ],
       "more": [
         {
-          "title": "Incremental rust builds up to 92x faster than cargo/rustc",
-          "link": "https://github.com/indexable-inc/blaze",
-          "excerpt": "Incremental rust builds up to 92x faster than cargo/rustc - indexable-inc/blaze",
-          "source": "github.com via Hacker News",
+          "title": "There are now 5 inference providers for abliterated DeepSeek",
+          "link": "https://allmodels.io/llm/abliterated",
+          "excerpt": "Route abliterated language models across providers with automatic fallbacks, modality-aware selection, and one place to compare availability and token prices.",
+          "source": "allmodels.io via Hacker News",
           "date": "Oct 27",
-          "image": "https://opengraph.githubassets.com/2829e1517a39ef301b05bfb7cb714018c72c86e37c1bc194e6a37925c6d46914/indexable-inc/blaze",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "11 points · 2 comments"
+          "image": "https://allmodels.io/assets/og/llm-abliterated-pixels-v1.png",
+          "icon": "https://allmodels.io/assets/favicon.png",
+          "domain": "allmodels.io",
+          "hn": "27 points · 16 comments"
+        },
+        {
+          "title": "I still teach OpenGL ES 3.0",
+          "link": "https://eliasfarhan.ch/graphics/cpp/2026/01/27/why-i-teach-opengles.html",
+          "excerpt": "20 points · 14 comments",
+          "source": "eliasfarhan.ch via Hacker News",
+          "date": "Oct 27",
+          "image": null,
+          "icon": "https://eliasfarhan.ch/favicon.ico",
+          "domain": "eliasfarhan.ch",
+          "hn": "20 points · 14 comments"
         },
         {
           "title": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows",
@@ -527,7 +549,7 @@
           "image": "https://opengraph.githubassets.com/bb1f8c596bccf32d8a4c346978b9317a3b74a720d9e7fe373014479de549dc17/otya128/winevdm",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "39 points · 2 comments"
+          "hn": "62 points · 5 comments"
         },
         {
           "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
@@ -538,29 +560,18 @@
           "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M5X2YJT16K16BFFJGEMCAXRS.01M5X2YM62P3YQRBGRP96FS4P6.png",
           "icon": "https://blog.cloudflare.com/favicon.ico",
           "domain": "blog.cloudflare.com",
-          "hn": "96 points · 30 comments"
+          "hn": "111 points · 37 comments"
         },
         {
           "title": "Is PHP Running on Your ColdFusion Server? How to Check, and Remove It",
           "link": "https://www.gregoryalexander.com/blog/2026/10/23/is-php-quietly-running-on-your-coldfusion-server-how-to-check-and-remove-it",
-          "excerpt": "34 points · 25 comments",
+          "excerpt": "36 points · 29 comments",
           "source": "gregoryalexander.com via Hacker News",
           "date": "Oct 26",
           "image": null,
           "icon": "https://www.gregoryalexander.com/favicon.ico",
           "domain": "gregoryalexander.com",
-          "hn": "34 points · 25 comments"
-        },
-        {
-          "title": "The Exponential Time Hypothesis Is False [pdf]",
-          "link": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
-          "excerpt": "Contribute to openai/math development by creating an account on GitHub.",
-          "source": "github.com via Hacker News",
-          "date": "Oct 26",
-          "image": "https://opengraph.githubassets.com/4db5e5c23a495b2a77310719082489e1fd05146ce3a4ee82e0270eb0bd287fe8/openai/math",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "410 points · 151 comments"
+          "hn": "36 points · 29 comments"
         }
       ]
     }

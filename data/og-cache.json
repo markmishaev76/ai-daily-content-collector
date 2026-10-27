@@ -5,6 +5,12 @@
   "icon": "https://web2018.epfl.ch/8.8.0/icons/apple-touch-icon.png",
   "image": "https://actu.epfl.ch/image/168660/1440x810.jpg"
  },
+ "https://allmodels.io/llm/abliterated": {
+  "description": "Route abliterated language models across providers with automatic fallbacks, modality-aware selection, and one place to compare availability and token prices.",
+  "fetched": "2026-10-27",
+  "icon": "https://allmodels.io/assets/favicon.png",
+  "image": "https://allmodels.io/assets/og/llm-abliterated-pixels-v1.png"
+ },
  "https://artificialanalysis.ai/models/kimi-k3-1-pro": {
   "description": "Analysis of Kimi's Kimi K3.1 Pro and comparison to other AI models across key metrics including quality, price, performance (tokens per second & time to first token), context window & more.",
   "fetched": "2026-10-23",
@@ -208,6 +214,18 @@
   "fetched": "2026-10-24",
   "icon": "https://drew.silcock.dev/apple-touch-icon.png",
   "image": "https://drew.silcock.dev/open-graph/blog/is-this-the-new-cyber-normal.png"
+ },
+ "https://ec.ltn.com.tw/article/breakingnews/5619258": {
+  "description": "〔財經頻道／綜合報導〕美光公司與台中工會達成共識，根據經濟部日前說明，約有8成以上人員調薪近2.7倍，產線人員從63萬增加到200多萬。由於調整後的年薪相當優渥，引起網友熱議，驚呼加入美光、人生",
+  "fetched": "2026-10-27",
+  "icon": "https://ec.ltn.com.tw/assets/images/1200_ec.png",
+  "image": "https://img.ltn.com.tw/Upload/business/page/800/2026/10/26/php8U0QbL.jpg"
+ },
+ "https://eliasfarhan.ch/graphics/cpp/2026/01/27/why-i-teach-opengles.html": {
+  "description": null,
+  "fetched": "2026-10-27",
+  "icon": null,
+  "image": null
  },
  "https://english.elpais.com/technology/2026-10-25/peter-thiel-the-tech-oligarch-who-believes-in-the-antichrist.html": {
   "description": "The PayPal founder is probably the most influential figure in the technology industry in decades. He spreads conspiracy theories, but he is not an eccentric divorced from reality: he saw Trump’s rise before almost anyone else, and he is behind the career of Vice President J. D. Vance. And his defense and espionage company, Palantir, has signed contracts with governments around the world",
@@ -524,6 +542,12 @@
  "https://stackoverflow.blog/2026/10/23/rumors-of-the-saas-demise-are-greatly-exaggerated/": {
   "description": "Recorded on the floor of LDX3, Ryan chats with Nivia Henry, an engineering leader most recently at Netflix, about the reality of the supposed SaaS apocalypse, the complex calculus of the modern build-versus-buy decision in the era of AI, and the critical importance of understanding system architectures to manage long-term infrastructure costs.",
   "fetched": "2026-10-24",
+  "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+  "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format"
+ },
+ "https://stackoverflow.blog/2026/10/27/elevators-toasters-and-the-birth-of-java/": {
+  "description": "Ryan sits down with James Gosling, creator of Java at Sun Microsystems, to talk about the early networking friction that drove the need for interconnectedness, the stringent reliability requirements of consumer electronics companies that inspired the Java virtual machine, and the evolution of garbage collectors that allow Java to handle large-scale concurrent memory management.",
+  "fetched": "2026-10-27",
   "icon": "https://stackoverflow.blog/apple-touch-icon.png",
   "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format"
  },
