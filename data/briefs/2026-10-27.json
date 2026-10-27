@@ -14,7 +14,7 @@
     "labels": [
       "2 sources",
       "AI Agents & Agent Security",
-      "6h ago"
+      "8h ago"
     ],
     "also": [
       {
@@ -31,7 +31,7 @@
       "link_domain": "sec.gov",
       "source": "Hacker News",
       "domain": "sec.gov",
-      "meta": "Hacker News · 1.6k points · 1.5k comments · 17h ago",
+      "meta": "Hacker News · 1.6k points · 1.5k comments · 18h ago",
       "also": [],
       "image": null,
       "icon": "https://www.sec.gov/favicon.ico"
@@ -43,7 +43,7 @@
       "link_domain": "support.apple.com",
       "source": "Lobsters",
       "domain": "support.apple.com",
-      "meta": "Lobsters · 49 points · 32 comments · 20h ago",
+      "meta": "Lobsters · 52 points · 32 comments · 21h ago",
       "also": [],
       "image": null,
       "icon": "https://support.apple.com/favicon.ico"
@@ -55,7 +55,7 @@
       "link_domain": "404media.co",
       "source": "Hacker News",
       "domain": "404media.co",
-      "meta": "Hacker News · 291 points · 171 comments · 12h ago",
+      "meta": "Hacker News · 297 points · 170 comments · 14h ago",
       "also": [],
       "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/FLOCKSCAN_01..jpg",
       "icon": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w256h256/format/png/2023/08/favicon-3.svg"
@@ -67,7 +67,7 @@
       "link_domain": "cohere.com",
       "source": "Hacker News",
       "domain": "cohere.com",
-      "meta": "Hacker News · 283 points · 114 comments · 13h ago",
+      "meta": "Hacker News · 291 points · 117 comments · 15h ago",
       "also": [],
       "image": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/658e160a6519a049e260213d409551e67399113a-1352x754.png?rect=0,22,1352,710&w=1200&h=630&q=80&fit=crop&auto=format",
       "icon": "https://cohere.com/apple-touch-icon.png"
@@ -79,7 +79,7 @@
       "link_domain": "404media.co",
       "source": "Hacker News",
       "domain": "404media.co",
-      "meta": "Hacker News · 242 points · 88 comments · 12h ago",
+      "meta": "Hacker News · 246 points · 89 comments · 14h ago",
       "also": [],
       "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/Untitled-1.png",
       "icon": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w256h256/format/png/2023/08/favicon-3.svg"
@@ -91,7 +91,7 @@
       "link_domain": "brown.edu",
       "source": "Hacker News",
       "domain": "brown.edu",
-      "meta": "Hacker News · 177 points · 171 comments · 17h ago",
+      "meta": "Hacker News · 179 points · 171 comments · 18h ago",
       "also": [],
       "image": "https://www.brown.edu/sites/default/files/styles/wide_lrg/public/2026-10/Dataworkers.jpg?h=f6430484&itok=1eq5-wXm",
       "icon": "https://www.brown.edu/themes/custom/brown/static/apple-touch-icon.png"
@@ -103,7 +103,7 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 136 points · 31 comments · 13h ago",
+      "meta": "Hacker News · 140 points · 32 comments · 15h ago",
       "also": [],
       "image": "https://repository-images.githubusercontent.com/1419901875/bef3a5ac-8f6b-4f29-8f2a-30f31c1771d7",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
@@ -153,6 +153,30 @@
           "hn": null
         },
         {
+          "title": "The Mythical Man-Month in the Age of AI",
+          "link": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+          "excerpt": "An update to Brooks's Law in the age of AI.",
+          "source": "j11g.com via Hacker News",
+          "date": "Oct 27",
+          "image": "https://j11g.com/content/images/cern-resized.jpg",
+          "icon": "https://j11g.com/content/images/favicon.ico",
+          "domain": "j11g.com",
+          "hn": "26 points · 17 comments"
+        },
+        {
+          "title": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn",
+          "link": "https://latent.space/p/ainews-anthropic-s1/",
+          "excerpt": "The S-1, the numbers, and the reactions.",
+          "source": "Latent Space",
+          "date": "Oct 27",
+          "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/f056ab0b-c9ca-46f2-8fb1-08d5f2f6b891/image.png?t=1793085208",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
           "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
           "link": "https://openai.com/index/openai-cut-incident-investigation",
           "excerpt": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
@@ -163,19 +187,6 @@
           "domain": "openai.com",
           "hn": null
         },
-        {
-          "title": "Micron Taiwan increasing salaries for factory workers by 2.7X",
-          "link": "https://ec.ltn.com.tw/article/breakingnews/5619258",
-          "excerpt": "〔財經頻道／綜合報導〕美光公司與台中工會達成共識，根據經濟部日前說明，約有8成以上人員調薪近2.7倍，產線人員從63萬增加到200多萬。由於調整後的年薪相當優渥，引起網友熱議，驚呼加入美光、人生",
-          "source": "ec.ltn.com.tw via Hacker News",
-          "date": "Oct 27",
-          "image": "https://img.ltn.com.tw/Upload/business/page/800/2026/10/26/php8U0QbL.jpg",
-          "icon": "https://ec.ltn.com.tw/assets/images/1200_ec.png",
-          "domain": "ec.ltn.com.tw",
-          "hn": "15 points · 5 comments"
-        }
-      ],
-      "more": [
         {
           "title": "Working with academic communities to build scientific understanding",
           "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
@@ -340,6 +351,17 @@
           "hn": null
         },
         {
+          "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
+          "link": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
+          "excerpt": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua. \"Cases of compromising IP cameras and DVRs with access to the video stream, changing the device configuration and creating…",
+          "source": "The Hacker News",
+          "date": "Oct 27",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjISG9SXb2aeE6Zy-bIbnuaqwUNmGof7xU8RQl0vGZIcxcgNE3YXpuvG7rJKSTn_q9J8d_2DEv6rU2zxoX615DIYePz9rMA2TiLT6Fo1q2leGoyH85hJuIUta8j8FEN2mY5AGaO6zH5o6MkCHZ9Sv7OpjrZ6LE1yZygl9R4hUgt7xWJMMeGXRI4UJziuPCW/s1600/hackers-camera.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
           "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
           "link": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
           "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog. The PHP vulnerabilities, both rated 9.2 on the CVSS scoring system, facilitate…",
@@ -368,17 +390,6 @@
           "source": "The Hacker News",
           "date": "Oct 26",
           "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWGYEqFaRxRywsWzBt-2T2G_Jpdp4zy3iV7qI1alNGRaBf_8TMdzRQQb335GhASkVoXD3q9mGkiLjAog4ez9d7DHhl88lkNVvuhI74KiKZP0zZpb2O8yyqyDw12WoYTiGaq1AVfG9TfGcdNhP-DmRwuKJ4Pj4mr9rEo-TVLYxYSpmUogJUSFZFL_VaduQ/s1600/php-windows.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null
-        },
-        {
-          "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
-          "link": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
-          "excerpt": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct impersonation scams or to deliver malware. \"A consistent pattern of attacker…",
-          "source": "The Hacker News",
-          "date": "Oct 26",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGj3R5UeJnb_pAG2XH5cEGUzKbzeRHLNAES48EgHC8ssOnuDbDOqJA9ydPHJqmxYONu2lCeu42YOv_e_XA2RtX5jVGsMkQY0QAGrzoqmY4qU6NnWrPTfX0V-U68B9Z80KHLJvZDtUeSm4dvkp06oJ9JmgJvr7CDYZ-48fwAOENt31Lrcpr4M6O_4x6ovLZ/s1600/support.jpg",
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null
@@ -519,26 +530,37 @@
       ],
       "more": [
         {
-          "title": "There are now 5 inference providers for abliterated DeepSeek",
-          "link": "https://allmodels.io/llm/abliterated",
-          "excerpt": "Route abliterated language models across providers with automatic fallbacks, modality-aware selection, and one place to compare availability and token prices.",
-          "source": "allmodels.io via Hacker News",
+          "title": "A simplified proof of ETH is False [pdf]",
+          "link": "https://shivakintali.github.io/papers/ETH.pdf",
+          "excerpt": "13 points · 0 comments",
+          "source": "shivakintali.github.io via Hacker News",
           "date": "Oct 27",
-          "image": "https://allmodels.io/assets/og/llm-abliterated-pixels-v1.png",
-          "icon": "https://allmodels.io/assets/favicon.png",
-          "domain": "allmodels.io",
-          "hn": "27 points · 16 comments"
+          "image": null,
+          "icon": "https://shivakintali.github.io/favicon.ico",
+          "domain": "shivakintali.github.io",
+          "hn": "13 points · 0 comments"
+        },
+        {
+          "title": "Writing about pratt parsing so I remember it",
+          "link": "https://www.unix.dog/~yosh/blog/2026-10-25_pratt-parsing.html",
+          "excerpt": "12 points · 0 comments",
+          "source": "unix.dog via Hacker News",
+          "date": "Oct 27",
+          "image": "https://unix.dog/~yosh/img/renard_lftanthology.png",
+          "icon": "https://www.unix.dog/~yosh/img/favicon.png",
+          "domain": "unix.dog",
+          "hn": "12 points · 0 comments"
         },
         {
           "title": "I still teach OpenGL ES 3.0",
           "link": "https://eliasfarhan.ch/graphics/cpp/2026/01/27/why-i-teach-opengles.html",
-          "excerpt": "20 points · 14 comments",
+          "excerpt": "46 points · 26 comments",
           "source": "eliasfarhan.ch via Hacker News",
           "date": "Oct 27",
           "image": null,
           "icon": "https://eliasfarhan.ch/favicon.ico",
           "domain": "eliasfarhan.ch",
-          "hn": "20 points · 14 comments"
+          "hn": "46 points · 26 comments"
         },
         {
           "title": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows",
@@ -549,7 +571,7 @@
           "image": "https://opengraph.githubassets.com/bb1f8c596bccf32d8a4c346978b9317a3b74a720d9e7fe373014479de549dc17/otya128/winevdm",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "62 points · 5 comments"
+          "hn": "79 points · 8 comments"
         },
         {
           "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
@@ -560,18 +582,7 @@
           "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M5X2YJT16K16BFFJGEMCAXRS.01M5X2YM62P3YQRBGRP96FS4P6.png",
           "icon": "https://blog.cloudflare.com/favicon.ico",
           "domain": "blog.cloudflare.com",
-          "hn": "111 points · 37 comments"
-        },
-        {
-          "title": "Is PHP Running on Your ColdFusion Server? How to Check, and Remove It",
-          "link": "https://www.gregoryalexander.com/blog/2026/10/23/is-php-quietly-running-on-your-coldfusion-server-how-to-check-and-remove-it",
-          "excerpt": "36 points · 29 comments",
-          "source": "gregoryalexander.com via Hacker News",
-          "date": "Oct 26",
-          "image": null,
-          "icon": "https://www.gregoryalexander.com/favicon.ico",
-          "domain": "gregoryalexander.com",
-          "hn": "36 points · 29 comments"
+          "hn": "125 points · 40 comments"
         }
       ]
     }
