@@ -139,4 +139,4 @@
   {% endfor %}
 </main>
 {% endblock %}
-{% block scripts %}{% if learn_teaser %}<script src="{{ root }}static/learn.js" defer></script>{% endif %}{% endblock %}
+{% block scripts %}{% if learn_teaser %}<script src="{{ asset(root, 'learn.js') }}" defer></script>{% endif %}{% endblock %}

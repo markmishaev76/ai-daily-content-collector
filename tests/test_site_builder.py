@@ -257,6 +257,20 @@ def test_external_links_open_in_new_tab_internal_do_not(tmp_path):
     assert html.count('target="_blank"') == html.count('rel="noopener noreferrer')
 
 
+def test_stylesheet_url_changes_with_content(tmp_path, monkeypatch):
+    static = tmp_path / "site" / "static"
+    static.mkdir(parents=True)
+    monkeypatch.setattr(site_builder, "SITE_DIR", tmp_path / "site")
+
+    (static / "style.css").write_text("a{}")
+    first = site_builder._asset_url("../", "style.css")
+    (static / "style.css").write_text("b{}")
+    second = site_builder._asset_url("../", "style.css")
+
+    assert re.fullmatch(r"\.\./static/style\.css\?v=[0-9a-f]{10}", first)
+    assert first != second
+
+
 def test_header_has_photo_name_and_bio(tmp_path):
     header = block(build(tmp_path), "site-header")
 
@@ -270,7 +284,7 @@ def test_post_page_links_use_relative_root(tmp_path):
 
     page = (tmp_path / "blog" / "x" / "index.html").read_text()
 
-    assert 'href="../../static/style.css"' in page
+    assert 'href="../../static/style.css?v=' in page
     assert "<p>Body</p>" in page
 
 
@@ -528,7 +542,7 @@ def test_learn_page_top_videos_and_recent_per_channel(tmp_path):
     recent = block(page, "learn-channels")
     assert "Older one" in recent and "AI Engineer · 17.5k views · 50/day · 20d ago" in recent
     assert "No other videos in the last 30 days" in recent
-    assert '<script src="../static/learn.js" defer></script>' in page
+    assert re.search(r'<script src="\.\./static/learn\.js\?v=[0-9a-f]{10}" defer></script>', page)
 
 
 def test_learn_menu_link_between_blog_and_about_on_every_page(tmp_path):
@@ -550,7 +564,7 @@ def test_learn_teaser_after_pulse_top_three_with_chip(tmp_path):
     teaser = block(index, "learn-teaser")
     assert teaser.count("data-video-id=") == 3 and "V3" not in teaser
     assert '<a class="see-all" href="learn/">All videos →</a>' in teaser
-    assert '<script src="static/learn.js" defer></script>' in index
+    assert re.search(r'<script src="static/learn\.js\?v=[0-9a-f]{10}" defer></script>', index)
 
 
 def test_learn_titles_escaped_bad_ids_dropped_no_iframe_until_click(tmp_path):

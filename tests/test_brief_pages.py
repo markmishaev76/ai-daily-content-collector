@@ -180,7 +180,7 @@ def test_not_found_page_handles_old_briefs_and_other_paths(tmp_path):
 
     assert "Page not found" in html and "This brief is older than a week" in html
     assert re.search(r'data-case="brief"[^>]*hidden', html)
-    assert '<a href="/">' in html and 'href="/static/style.css"' in html and 'src="/static/notfound.js"' in html
+    assert '<a href="/">' in html and 'href="/static/style.css?v=' in html and 'src="/static/notfound.js?v=' in html
     assert 'href="../' not in html and 'src="static/' not in html
     assert r"^\/brief\/\d{4}-\d{2}-\d{2}\/?$" in js and "innerHTML" not in js
 

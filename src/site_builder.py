@@ -2,6 +2,7 @@
 Static site renderer: today's feed plus Mark's writing, as plain HTML.
 """
 
+import hashlib
 import re
 import shutil
 from datetime import date, datetime
@@ -340,6 +341,12 @@ def _sorted_posts(posts: List[Dict]) -> List[Dict]:
     return dated + [p for p in posts if not p.get("date")]
 
 
+def _asset_url(root: str, name: str) -> str:
+    """URL of a file in site/static with a content hash, so browsers refetch it when it changes."""
+    digest = hashlib.sha256((SITE_DIR / "static" / name).read_bytes()).hexdigest()[:10]
+    return f"{root}static/{name}?v={digest}"
+
+
 def _post_href(post: Dict, root: str) -> str:
     return post["url"] if post["source"] == "medium" else root + post["url"]
 
@@ -361,7 +368,8 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
                       trim_blocks=True, lstrip_blocks=True)
     env.globals.update(post_href=_post_href, today=now.strftime("%A, %B %d, %Y"),
                        updated=now.strftime("%H:%M UTC"), site_url=SITE_URL,
-                       cf_analytics_token=CF_ANALYTICS_TOKEN, learn_page=learn is not None)
+                       cf_analytics_token=CF_ANALYTICS_TOKEN, learn_page=learn is not None,
+                       asset=_asset_url)
 
     all_posts = _sorted_posts(posts)
     common = {"writing": all_posts[:WRITING_LIMIT]}
