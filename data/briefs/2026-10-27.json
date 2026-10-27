@@ -14,7 +14,7 @@
     "labels": [
       "2 sources",
       "AI Agents & Agent Security",
-      "2h ago"
+      "4h ago"
     ],
     "also": [
       {
@@ -31,7 +31,7 @@
       "link_domain": "sec.gov",
       "source": "Hacker News",
       "domain": "sec.gov",
-      "meta": "Hacker News · 1.5k points · 1.5k comments · 13h ago",
+      "meta": "Hacker News · 1.5k points · 1.5k comments · 15h ago",
       "also": [],
       "image": null,
       "icon": "https://www.sec.gov/favicon.ico"
@@ -43,7 +43,7 @@
       "link_domain": "support.apple.com",
       "source": "Lobsters",
       "domain": "support.apple.com",
-      "meta": "Lobsters · 44 points · 32 comments · 16h ago",
+      "meta": "Lobsters · 46 points · 32 comments · 18h ago",
       "also": [],
       "image": null,
       "icon": "https://support.apple.com/favicon.ico"
@@ -55,7 +55,7 @@
       "link_domain": "404media.co",
       "source": "Hacker News",
       "domain": "404media.co",
-      "meta": "Hacker News · 286 points · 165 comments · 8h ago",
+      "meta": "Hacker News · 290 points · 171 comments · 10h ago",
       "also": [],
       "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/FLOCKSCAN_01..jpg",
       "icon": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w256h256/format/png/2023/08/favicon-3.svg"
@@ -67,22 +67,10 @@
       "link_domain": "cohere.com",
       "source": "Hacker News",
       "domain": "cohere.com",
-      "meta": "Hacker News · 257 points · 111 comments · 9h ago",
+      "meta": "Hacker News · 275 points · 113 comments · 11h ago",
       "also": [],
       "image": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/658e160a6519a049e260213d409551e67399113a-1352x754.png?rect=0,22,1352,710&w=1200&h=630&q=80&fit=crop&auto=format",
       "icon": "https://cohere.com/apple-touch-icon.png"
-    },
-    {
-      "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
-      "thread": "https://news.ycombinator.com/item?id=50238739",
-      "link": "https://github.com/KrushnaVardhanReddy/PaperPilot",
-      "link_domain": "github.com",
-      "source": "Hacker News",
-      "domain": "github.com",
-      "meta": "Hacker News · 228 points · 82 comments · 22h ago",
-      "also": [],
-      "image": "https://opengraph.githubassets.com/54b1328ec49ee1adeede6f3491b2680acdd2497e8f396b51c0dab36f3884bdb2/KrushnaVardhanReddy/PaperPilot",
-      "icon": "https://github.githubassets.com/favicons/favicon.svg"
     },
     {
       "title": "ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems",
@@ -91,7 +79,7 @@
       "link_domain": "404media.co",
       "source": "Hacker News",
       "domain": "404media.co",
-      "meta": "Hacker News · 219 points · 82 comments · 8h ago",
+      "meta": "Hacker News · 236 points · 85 comments · 10h ago",
       "also": [],
       "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/Untitled-1.png",
       "icon": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w256h256/format/png/2023/08/favicon-3.svg"
@@ -103,7 +91,7 @@
       "link_domain": "brown.edu",
       "source": "Hacker News",
       "domain": "brown.edu",
-      "meta": "Hacker News · 175 points · 167 comments · 13h ago",
+      "meta": "Hacker News · 175 points · 170 comments · 15h ago",
       "also": [],
       "image": "https://www.brown.edu/sites/default/files/styles/wide_lrg/public/2026-10/Dataworkers.jpg?h=f6430484&itok=1eq5-wXm",
       "icon": "https://www.brown.edu/themes/custom/brown/static/apple-touch-icon.png"
@@ -115,7 +103,7 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 120 points · 29 comments · 9h ago",
+      "meta": "Hacker News · 127 points · 31 comments · 11h ago",
       "also": [],
       "image": "https://repository-images.githubusercontent.com/1419901875/bef3a5ac-8f6b-4f29-8f2a-30f31c1771d7",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
@@ -520,6 +508,17 @@
       ],
       "more": [
         {
+          "title": "Incremental rust builds up to 92x faster than cargo/rustc",
+          "link": "https://github.com/indexable-inc/blaze",
+          "excerpt": "Incremental rust builds up to 92x faster than cargo/rustc - indexable-inc/blaze",
+          "source": "github.com via Hacker News",
+          "date": "Oct 27",
+          "image": "https://opengraph.githubassets.com/2829e1517a39ef301b05bfb7cb714018c72c86e37c1bc194e6a37925c6d46914/indexable-inc/blaze",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "11 points · 2 comments"
+        },
+        {
           "title": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows",
           "link": "https://github.com/otya128/winevdm",
           "excerpt": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows - otya128/winevdm",
@@ -528,7 +527,7 @@
           "image": "https://opengraph.githubassets.com/bb1f8c596bccf32d8a4c346978b9317a3b74a720d9e7fe373014479de549dc17/otya128/winevdm",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "11 points · 1 comments"
+          "hn": "39 points · 2 comments"
         },
         {
           "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
@@ -539,18 +538,18 @@
           "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M5X2YJT16K16BFFJGEMCAXRS.01M5X2YM62P3YQRBGRP96FS4P6.png",
           "icon": "https://blog.cloudflare.com/favicon.ico",
           "domain": "blog.cloudflare.com",
-          "hn": "73 points · 15 comments"
+          "hn": "96 points · 30 comments"
         },
         {
           "title": "Is PHP Running on Your ColdFusion Server? How to Check, and Remove It",
           "link": "https://www.gregoryalexander.com/blog/2026/10/23/is-php-quietly-running-on-your-coldfusion-server-how-to-check-and-remove-it",
-          "excerpt": "22 points · 17 comments",
+          "excerpt": "34 points · 25 comments",
           "source": "gregoryalexander.com via Hacker News",
           "date": "Oct 26",
           "image": null,
           "icon": "https://www.gregoryalexander.com/favicon.ico",
           "domain": "gregoryalexander.com",
-          "hn": "22 points · 17 comments"
+          "hn": "34 points · 25 comments"
         },
         {
           "title": "The Exponential Time Hypothesis Is False [pdf]",
@@ -561,18 +560,7 @@
           "image": "https://opengraph.githubassets.com/4db5e5c23a495b2a77310719082489e1fd05146ce3a4ee82e0270eb0bd287fe8/openai/math",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "288 points · 113 comments"
-        },
-        {
-          "title": "Announcing three new discoveries in mathematics, computer science, and physics",
-          "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-          "excerpt": "461 points · 177 comments",
-          "source": "openai.com via Hacker News",
-          "date": "Oct 26",
-          "image": null,
-          "icon": "https://openai.com/favicon.ico",
-          "domain": "openai.com",
-          "hn": "461 points · 177 comments"
+          "hn": "410 points · 151 comments"
         }
       ]
     }
