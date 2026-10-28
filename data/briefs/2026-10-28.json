@@ -1,21 +1,27 @@
 {
   "date": "2026-10-28",
   "lead": {
-    "title": "\"No human at the helm\": Delaware plan would let AI agents run businesses",
-    "link": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
-    "excerpt": "Owners of AI-run firms would evade liability for \"reckless\" AI, US Rep. Comer says.",
-    "source": "arstechnica.com via Hacker News",
+    "title": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
+    "link": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/",
+    "excerpt": "Since coding is solved, why code for the job?",
+    "source": "Latent Space",
     "date": "Oct 28",
-    "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/09/robot-phone-headset-1152x648.jpg",
+    "image": "https://latent.space/og/card/post/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/c7f8e2dbe8139bba15d3c59987deb0b2ed5de83f9aded73244cc1febb17cee0c.png",
     "image_credit": null,
     "section": "AI Agents & Agent Security",
     "pinned": false,
     "note": null,
     "labels": [
+      "2 sources",
       "AI Agents & Agent Security",
-      "under 1h ago"
+      "1h ago"
     ],
-    "also": []
+    "also": [
+      {
+        "name": "felixrieseberg.com",
+        "link": "https://felixrieseberg.com/hunger-beats-tenure-advice-for-junior-engineers/"
+      }
+    ]
   },
   "pulse": [
     {
@@ -25,7 +31,7 @@
       "link_domain": "oioannou.com",
       "source": "Hacker News",
       "domain": "oioannou.com",
-      "meta": "Hacker News · 634 points · 629 comments · 21h ago",
+      "meta": "Hacker News · 643 points · 639 comments · 23h ago",
       "also": [],
       "image": "https://oioannou.com/img/blog-by-orestis.jpg",
       "icon": "https://oioannou.com/favicon.ico"
@@ -37,7 +43,7 @@
       "link_domain": "stanforddaily.com",
       "source": "Hacker News",
       "domain": "stanforddaily.com",
-      "meta": "Hacker News · 520 points · 274 comments · 17h ago",
+      "meta": "Hacker News · 525 points · 275 comments · 19h ago",
       "also": [],
       "image": "https://stanforddaily.com/wp-content/uploads/2026/10/Green-Library.png",
       "icon": "https://stanforddaily.com/wp-content/uploads/2019/03/cropped-DailyIcon-CardinalRed.png?w=180"
@@ -49,7 +55,7 @@
       "link_domain": "spectrum.ieee.org",
       "source": "Hacker News",
       "domain": "spectrum.ieee.org",
-      "meta": "Hacker News · 475 points · 216 comments · 21h ago",
+      "meta": "Hacker News · 480 points · 218 comments · 23h ago",
       "also": [],
       "image": "https://spectrum.ieee.org/media-library/surreal-collage-of-a-womans-face-with-geometric-shapes-pencil-and-wikipedia-globe.png?id=68486571&width=1200&height=600&coordinates=0%2C167%2C0%2C168",
       "icon": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNjU5NjY0OS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTg0ODgxODUwNn0.1LlzHtxZSVXyzapxWjeSrRIRu5qo3CeB8FaWpd2tl_o/img.png?width=192&height=192"
@@ -61,7 +67,7 @@
       "link_domain": "gizmodo.com",
       "source": "Hacker News",
       "domain": "gizmodo.com",
-      "meta": "Hacker News · 370 points · 283 comments · 15h ago",
+      "meta": "Hacker News · 373 points · 291 comments · 18h ago",
       "also": [],
       "image": null,
       "icon": "https://gizmodo.com/favicon.ico"
@@ -73,7 +79,7 @@
       "link_domain": "brangus.io",
       "source": "Hacker News",
       "domain": "brangus.io",
-      "meta": "Hacker News · 325 points · 136 comments · 12h ago",
+      "meta": "Hacker News · 363 points · 143 comments · 14h ago",
       "also": [],
       "image": "https://www.brangus.io/survival-llm/social-card.png",
       "icon": "https://www.brangus.io/favicon.ico"
@@ -85,10 +91,22 @@
       "link_domain": "futurism.com",
       "source": "Hacker News",
       "domain": "futurism.com",
-      "meta": "Hacker News · 314 points · 240 comments · 16h ago",
+      "meta": "Hacker News · 322 points · 252 comments · 18h ago",
       "also": [],
       "image": "https://futurism.com/wp-content/uploads/2026/07/amazon-gutting-ai-division-failure.jpg?w=1200",
       "icon": "https://futurism.com/wp-content/uploads/2025/09/favicon.png?quality=85&w=180"
+    },
+    {
+      "title": "This is not sustainable",
+      "thread": "https://lobste.rs/s/cpaibp/this_is_not_sustainable",
+      "link": "https://www.netmeister.org/blog/defense-ddos.html",
+      "link_domain": "netmeister.org",
+      "source": "Lobsters",
+      "domain": "netmeister.org",
+      "meta": "Lobsters · 38 points · 7 comments · 6h ago",
+      "also": [],
+      "image": "https://www.netmeister.org/blog/images/captain-haddock.jpg",
+      "icon": "https://www.netmeister.org/favicon.ico"
     },
     {
       "title": "Here be monsters: What do you still need to know when agents do the work?",
@@ -97,7 +115,7 @@
       "link_domain": "blog.adrq.dev",
       "source": "Hacker News",
       "domain": "blog.adrq.dev",
-      "meta": "Hacker News · 169 points · 93 comments · 19h ago",
+      "meta": "Hacker News · 173 points · 95 comments · 21h ago",
       "also": [],
       "image": "https://cdn.hashnode.com/uploads/og-images/69b44e3d6e27dd07d92bbf57/3a278202-0f64-4cf0-9a32-bfd202f3a073.png",
       "icon": "https://cdn.hashnode.com/uploads/favicons/69b44e3d6e27dd07d92bbf57/8a84d0e2-5b45-470c-949f-3c5402886a45.png"
@@ -109,22 +127,10 @@
       "link_domain": "thenumb.at",
       "source": "Lobsters",
       "domain": "thenumb.at",
-      "meta": "Lobsters · 25 points · 9 comments · 17h ago",
+      "meta": "Lobsters · 25 points · 9 comments · 20h ago",
       "also": [],
       "image": null,
       "icon": "https://thenumb.at/icon.ico"
-    },
-    {
-      "title": "This is not sustainable",
-      "thread": "https://lobste.rs/s/cpaibp/this_is_not_sustainable",
-      "link": "https://www.netmeister.org/blog/defense-ddos.html",
-      "link_domain": "netmeister.org",
-      "source": "Lobsters",
-      "domain": "netmeister.org",
-      "meta": "Lobsters · 20 points · 3 comments · 4h ago",
-      "also": [],
-      "image": "https://www.netmeister.org/blog/images/captain-haddock.jpg",
-      "icon": "https://www.netmeister.org/favicon.ico"
     }
   ],
   "sections": [
@@ -187,6 +193,17 @@
           "icon": null,
           "domain": "research.google",
           "hn": null
+        },
+        {
+          "title": "You can’t find 10x developers, but you can build 10x organizations",
+          "link": "https://newsletter.getdx.com/p/you-cant-find-10x-developers",
+          "excerpt": "Part I: The Coding War Games, a study behind the 10x developer myth.",
+          "source": "Engineering Enablement",
+          "date": "Oct 28",
+          "image": "https://substack-post-media.s3.amazonaws.com/public/images/c9ef6f4f-45b5-4629-bb17-a7b67564448c_2400x1260.png",
+          "icon": null,
+          "domain": "newsletter.getdx.com",
+          "hn": null
         }
       ]
     },
@@ -229,6 +246,17 @@
       ],
       "more": [
         {
+          "title": "Legora is building the agentic operating system for legal work",
+          "link": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+          "excerpt": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+          "source": "OpenAI News",
+          "date": "Oct 28",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null
+        },
+        {
           "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
           "link": "https://openai.com/index/oracle-apps-in-chatgpt",
           "excerpt": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
@@ -237,6 +265,17 @@
           "image": null,
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
+          "hn": null
+        },
+        {
+          "title": "Quoting Terk Terkowitz",
+          "link": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
+          "excerpt": "If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share it with your community of peers, bring it to your manager, and work to find solutions. An engineer who can explain where AI does not yet help their work is demonstrating the judgement we…",
+          "source": "Simon Willison",
+          "date": "Oct 28",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
           "hn": null
         },
         {
@@ -249,45 +288,23 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null
-        },
-        {
-          "title": "How Check Point accelerates vulnerability research with Daybreak",
-          "link": "https://openai.com/index/check-point-daybreak",
-          "excerpt": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
-          "source": "OpenAI News",
-          "date": "Oct 27",
-          "image": null,
-          "icon": "https://openai.com/favicon.ico",
-          "domain": "openai.com",
-          "hn": null
-        },
-        {
-          "title": "Game Boy Color on My Conference Badge",
-          "link": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
-          "excerpt": "Game Boy Color on My Conference Badge I'm at GitHub Universe this week and, similar to last year, the conference badge is a full-blown color screen computer. I've been hacking around with it again, and then I ran into with Steve Francia... who worked with Gemini to get a full NES emulator working…",
-          "source": "Simon Willison",
-          "date": "Oct 27",
-          "image": "https://static.simonwillison.net/static/2026-10-27/IMG_9339.jpeg",
-          "icon": null,
-          "domain": "simonwillison.net",
-          "hn": null
-        },
-        {
-          "title": "webframe: evaluated as a scraper and a sandbox",
-          "link": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/",
-          "excerpt": "Research: webframe: evaluated as a scraper and a sandbox webframe is a neat little project from Jeff Lindsay which lets you \"run a web page like a program\" - you point it at a URL or file and it executes it in a hidden headless web view and outputs console.log() to standard output and any…",
-          "source": "Simon Willison",
-          "date": "Oct 26",
-          "image": null,
-          "icon": "https://simonwillison.net/favicon.ico",
-          "domain": "simonwillison.net",
-          "hn": null
         }
       ]
     },
     {
       "name": "Leadership",
       "cards": [
+        {
+          "title": "Meta Earnings, Muse and the Frontier, Musebook",
+          "link": "https://stratechery.com/2026/meta-earnings-muse-and-the-frontier-musebook/",
+          "excerpt": "Meta's earnings come in the context of Zuckerberg delivering on his promise; if investors believe in Muse they must support Meta's spending on compute.",
+          "source": "Stratechery by Ben Thompson",
+          "date": "Oct 28",
+          "image": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9zdHJhdGVjaGVyeS5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMThcLzAzXC9jcm9wcGVkLWFuZHJvaWQtY2hyb21lLTUxMng1MTItMS5wbmc_Zml0PTUxMiUyQzUxMiZzc2w9MSIsInR4dCI6IlN0cmF0ZWNoZXJ5IGJ5IEJlbiBUaG9tcHNvbiIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxODgwNDM0MTV9.5VWck4PcKPWCTPe_HVznn3n3xsgn-G0b3d2OeiNNC7cMQ",
+          "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
+          "domain": "stratechery.com",
+          "hn": null
+        },
         {
           "title": "What AI can’t replace—and why it matters for value",
           "link": "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/what-ai-cant-replace-and-why-it-matters-for-value",
@@ -357,6 +374,17 @@
       "name": "Security & AppSec",
       "cards": [
         {
+          "title": "Secrets Management Firm Infisical Valued at $600 Million After $40 Million Raise",
+          "link": "https://www.securityweek.com/secrets-management-firm-infisical-valued-at-600-million-after-40-million-raise/",
+          "excerpt": "The company will use the Series B funds to expand its platform for securing AI agents’ access to sensitive systems. The post Secrets Management Firm Infisical Valued at $600 Million After $40 Million Raise appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Oct 28",
+          "image": "https://www.securityweek.com/wp-content/uploads/2025/12/funding-round.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null
+        },
+        {
           "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
           "link": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
           "excerpt": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure. [...]",
@@ -377,7 +405,9 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
           "link": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
@@ -388,9 +418,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null
-        }
-      ],
-      "more": [
+        },
         {
           "title": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
           "link": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html",
@@ -431,17 +459,6 @@
           "source": "The Hacker News",
           "date": "Oct 28",
           "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgiU-iVEycp9z-2dprGJhgl046M9ZvG7kGGwaXNzgFJg7XDubOoWWLvEuKAOczIcGuXU04db46Xa6pRMKO36ZS7Fu8Xkv7mNuPjHUS0zLTHkGlNWNRD2DLCznPf6jqvqamZSZGMBXSzh9gMYm-9sR-y7OgN7i7n6x0dfYxyl9QftWlfuQw0mpTteHy57k/s1600/sh.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null
-        },
-        {
-          "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-          "link": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
-          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are…",
-          "source": "The Hacker News",
-          "date": "Oct 28",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1vdoV4q9cDhhxBpH2lDPkUPc4WTkuwSmH93IS6MDM8fSYR4ZsKEakfK54cvOjHMFYGJA7Hri87MShqbPweb0BNmEXEsKJErbferZyq7_m7XdHLrb2bgmps_Bs_nu_w7RCiade8PPKSYv6NpxnWTG8pJD5CIUvI2E_cfWMqNBFTl4MXm2WKZaqL_T0DaO-/s1600/cisa-warning.jpg",
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null
@@ -558,6 +575,17 @@
           "hn": null
         },
         {
+          "title": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
+          "link": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
+          "excerpt": "Owners of AI-run firms would evade liability for \"reckless\" AI, US Rep. Comer says.",
+          "source": "Ars Technica - All content",
+          "date": "Oct 27",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/09/robot-phone-headset-500x500-1793134828.jpg",
+          "icon": null,
+          "domain": "arstechnica.com",
+          "hn": null
+        },
+        {
           "title": "Guidewire buys Hyperexponential for $1.7B in cash",
           "link": "https://techcrunch.com/2026/10/27/guidewire-buys-hyperexponential-for-1-7b-in-cash/",
           "excerpt": "The deal, expected to close sometime next year, is to help bring AI agents to work alongside humans to underwrite, analyze, and price decisions.",
@@ -567,7 +595,9 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
           "link": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
@@ -578,9 +608,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Early progress on accelerating drug development with Claude",
           "link": "https://www.anthropic.com/research/early-progress-drug-development",
@@ -604,26 +632,26 @@
           "hn": null
         },
         {
-          "title": "Artificial Analysis Intelligence Index v5",
-          "link": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
-          "excerpt": "Index v5 features 2 new benchmarks and 3 upgrades. For the first time, the majority of the Index is built on private datasets",
-          "source": "artificialanalysis.ai via Hacker News",
+          "title": "Spain train crash: 'At least 10 dead' in high-speed collision",
+          "link": "https://www.thetimes.com/world/europe/article/spain-train-crash-madrid-latest-deaths-victims-807kwv23l",
+          "excerpt": "Accident occurred in Toledo province on the line connecting Madrid to southern Andalusia, with scores also injured",
+          "source": "thetimes.com via Hacker News",
           "date": "Oct 28",
-          "image": "https://cdn.sanity.io/images/6vfeftx9/articles/c091ec22bdbb2a18ba5205e03dd14575b80f552e-1200x1200.jpg?w=1200&auto=format",
-          "icon": "https://artificialanalysis.ai/favicon.ico",
-          "domain": "artificialanalysis.ai",
-          "hn": "33 points · 42 comments"
+          "image": "https://www.thetimes.com/imageserver/image/ca5f6e82-d39b-4c7a-bf03-6f9fd28482ce.jpg?strip=all&format=webp&crop=2741px%2C1541px%2C0px%2C142px&resize=1200",
+          "icon": "https://www.thetimes.com/imageserver/image/4e2c5841-df25-42a6-8b74-065cc072e1e8.png?w=180",
+          "domain": "thetimes.com",
+          "hn": "41 points · 32 comments"
         },
         {
-          "title": "Git for the US Code",
-          "link": "https://lexifina.com/blog/git-for-the-us-code",
-          "excerpt": "Lawyers should be able to read a statute as it stood on any date and see which law wrote each phrase. A history of nine titles of the US Code, built by replaying every amendment, as the example.",
-          "source": "lexifina.com via Hacker News",
+          "title": "Wealth Inequality in America drawn to scale",
+          "link": "https://dreamagainusa.org/",
+          "excerpt": "Picture U.S. wealth as stacks of $100 bills: the median household’s is about 9 inches tall. The average top-1% household’s is 145 feet, and it keeps getting taller and taller…",
+          "source": "dreamagainusa.org via Hacker News",
           "date": "Oct 28",
-          "image": "https://lexifina.com/social-preview-v3.png?v=20261018",
-          "icon": "https://lexifina.com/apple-touch-icon.png?v=20261017b",
-          "domain": "lexifina.com",
-          "hn": "227 points · 116 comments"
+          "image": "https://dreamagainusa.org/img/social-card.png?v=3",
+          "icon": "https://dreamagainusa.org/favicon.svg",
+          "domain": "dreamagainusa.org",
+          "hn": "41 points · 8 comments"
         }
       ]
     }
