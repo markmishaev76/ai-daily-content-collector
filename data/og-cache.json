@@ -89,6 +89,12 @@
   "icon": null,
   "image": "https://www.roku.com/assets/roku-logo-purple.png"
  },
+ "https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/": {
+  "description": "A few years back I wrote “The modern packager’s security nightmare”. Have things improved since? On the contrary, I feel like we’re slipping down a well-oiled slope with no end in…",
+  "fetched": "2026-10-28",
+  "icon": null,
+  "image": "https://s0.wp.com/i/blank.jpg"
+ },
  "https://captnemo.in/blog/2026/10/23/emsign-revoked-gov-in/": {
   "description": "On 17th October, eight eMudhra intermediate CAs chaining to emSign ECC Root CA - G3 were found to have trivially recoverable private keys. They were revoked the next day, and Mozilla and Chrome are now distrusting the G3 root. Separately, on 19th October eMudhra revoked 9,356 certificates on its unaffected RSA hierarchy (emSign Root CA - G1) with the reason “Superseded”. That batch matches every unexpired certificate missing a certificate-type policy OID required by emSign’s own CP/CPS (Bug 2082782).",
   "fetched": "2026-10-24",
@@ -263,6 +269,12 @@
   "icon": null,
   "image": null
  },
+ "https://emudhra.we-have-a-problem.com/apple.html": {
+  "description": "Eleven days after Apple was notified of the eMudhra CA compromise, the git, curl and python3 that Apple ships with macOS still trust the compromised certificates.",
+  "fetched": "2026-10-28",
+  "icon": null,
+  "image": null
+ },
  "https://english.elpais.com/technology/2026-10-25/peter-thiel-the-tech-oligarch-who-believes-in-the-antichrist.html": {
   "description": "The PayPal founder is probably the most influential figure in the technology industry in decades. He spreads conspiracy theories, but he is not an eccentric divorced from reality: he saw Trump’s rise before almost anyone else, and he is behind the career of Vice President J. D. Vance. And his defense and espionage company, Palantir, has signed contracts with governments around the world",
   "fetched": "2026-10-26",
@@ -352,6 +364,12 @@
   "fetched": "2026-10-25",
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://opengraph.githubassets.com/5546c725e6f55d20e5d531b4c03c68d12107551386f66a2da9f905ee4d3c2f72/slee-persis/GVS5H"
+ },
+ "https://github.com/thomasunise/casecite": {
+  "description": "CaseCite is a source-available, self-hosted legal RAG caselaw research & document analysis platform. - thomasunise/casecite",
+  "fetched": "2026-10-28",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://opengraph.githubassets.com/6ca5ca5347933d3b5b69c1d06228df76a2c5e79dc8eff3a0aa86bc1c06402795/thomasunise/casecite"
  },
  "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220": {
   "description": null,
@@ -611,10 +629,22 @@
   "icon": "https://philipotoole.com/wp-content/uploads/2015/12/SlyEye-300x300.jpg",
   "image": null
  },
+ "https://projectzero.google/2026/10/fuzzing-v-AI.html": {
+  "description": "SummaryProject Zero compared two automated tools used by Google to find vulnerabilities in Chrome...",
+  "fetched": "2026-10-28",
+  "icon": "https://projectzero.google/images/project-zero.svg",
+  "image": "https://projectzero.google/images/preview_image.png"
+ },
  "https://ratfactor.com/cards/pl-small": {
   "description": null,
   "fetched": "2026-10-25",
   "icon": "https://ratfactor.com/apple-touch-icon.png",
+  "image": null
+ },
+ "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/": {
+  "description": null,
+  "fetched": "2026-10-28",
+  "icon": null,
   "image": null
  },
  "https://rtfeldman.com/fp-vs-c": {
@@ -1025,6 +1055,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2026/10/23/blackX.jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/": {
+  "description": "PHP2Shell shows how quickly attackers can exploit critical vulnerabilities, often before organizations have time to patch. Token Security explains why limiting the access of service accounts, API keys, and AI agents is just as important as fixing vulnerabilities to reduce the damage from a breach.",
+  "fetched": "2026-10-28",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/posts/2026/10/27/green-pumpkin.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/": {
   "description": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure.",
   "fetched": "2026-10-28",
@@ -1079,6 +1115,12 @@
   "icon": "https://cdndark.darkhorizons.com/wp-content/uploads/2021/09/dh-76-purple.png",
   "image": "https://cdndark.darkhorizons.com/wp-content/uploads/2026/05/more-halo-remakes-are-on-the-way.jpg"
  },
+ "https://www.docker.com/blog/docker-navigator-partner-program/": {
+  "description": "Docker is launching the Navigator Partner Program, with three tiers, co-selling benefits, and a new incentive for every registered AI governance deal.",
+  "fetched": "2026-10-28",
+  "icon": "https://www.docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-180x180.png",
+  "image": "https://www.docker.com/app/uploads/2025/03/image.png"
+ },
  "https://www.docker.com/blog/security-update-on-php2shell-impact-for-docker-customers/": {
   "description": "On Tuesday, October 20, 2026, Docker began tracking two critical vulnerabilities in PHP, CVE-2026-109618 and CVE-2026-109619, commonly known as PHP2Shell.",
   "fetched": "2026-10-23",
@@ -1102,6 +1144,18 @@
   "fetched": "2026-10-23",
   "icon": null,
   "image": "https://www.jefftk.com/jefftk-glyph-framed.jpg"
+ },
+ "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/who-wins-when-ai-does-the-shopping-new-evidence-on-agentic-commerce": {
+  "description": null,
+  "fetched": "2026-10-28",
+  "icon": null,
+  "image": null
+ },
+ "https://www.mckinsey.com/capabilities/operations/our-insights/agentic-ai-in-strategic-sourcing-hype-or-hero": {
+  "description": null,
+  "fetched": "2026-10-28",
+  "icon": null,
+  "image": null
  },
  "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/hold-course-and-adapt-as-you-go-an-interview-with-manon-van-beek": {
   "description": null,
@@ -1336,6 +1390,12 @@
   "fetched": "2026-10-24",
   "icon": null,
   "image": null
+ },
+ "https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50/": {
+  "description": "How the MIT AI Lab’s text editor gave birth to the free software movement.",
+  "fetched": "2026-10-28",
+  "icon": "https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50/static/media/favicon.1cfcdb44759a0f93ddf5feb5405dd4cc.ico",
+  "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/cover-mockup-thumb.jpg?resize=1200,600"
  },
  "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/": {
   "description": "Lawmakers are passing industry-backed bills to guard against the worst outcomes, rather than addressing more common problems.",

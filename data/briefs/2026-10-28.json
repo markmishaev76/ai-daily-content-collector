@@ -1,41 +1,23 @@
 {
   "date": "2026-10-28",
   "lead": {
-    "title": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
-    "link": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/",
-    "excerpt": "Since coding is solved, why code for the job?",
-    "source": "Latent Space",
+    "title": "Analysts followed AI agent's randomly assigned preferences in 86% of decisions",
+    "link": "https://www.anthropic.com/research/agents-judgment-calls",
+    "excerpt": "In a randomized trial, professional analysts working with an AI coding agent went with the option the agent was randomly assigned to favor 86% of the time. We look at what this means for human oversight of AI-assisted work.",
+    "source": "anthropic.com via Hacker News",
     "date": "Oct 28",
-    "image": "https://latent.space/og/card/post/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/c7f8e2dbe8139bba15d3c59987deb0b2ed5de83f9aded73244cc1febb17cee0c.png",
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b3aee146e4ef35b394b2b626d5eaf5faaee741aa-1200x630.jpg",
     "image_credit": null,
     "section": "AI Agents & Agent Security",
     "pinned": false,
     "note": null,
     "labels": [
-      "2 sources",
       "AI Agents & Agent Security",
-      "1h ago"
+      "2h ago"
     ],
-    "also": [
-      {
-        "name": "felixrieseberg.com",
-        "link": "https://felixrieseberg.com/hunger-beats-tenure-advice-for-junior-engineers/"
-      }
-    ]
+    "also": []
   },
   "pulse": [
-    {
-      "title": "AI promised less work. I've never worked more",
-      "thread": "https://news.ycombinator.com/item?id=50257325",
-      "link": "https://oioannou.com/blog/ai-promised-less-work/",
-      "link_domain": "oioannou.com",
-      "source": "Hacker News",
-      "domain": "oioannou.com",
-      "meta": "Hacker News · 643 points · 639 comments · 23h ago",
-      "also": [],
-      "image": "https://oioannou.com/img/blog-by-orestis.jpg",
-      "icon": "https://oioannou.com/favicon.ico"
-    },
     {
       "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
       "thread": "https://news.ycombinator.com/item?id=50260814",
@@ -43,58 +25,10 @@
       "link_domain": "stanforddaily.com",
       "source": "Hacker News",
       "domain": "stanforddaily.com",
-      "meta": "Hacker News · 525 points · 275 comments · 19h ago",
+      "meta": "Hacker News · 542 points · 280 comments · 22h ago",
       "also": [],
       "image": "https://stanforddaily.com/wp-content/uploads/2026/10/Green-Library.png",
       "icon": "https://stanforddaily.com/wp-content/uploads/2019/03/cropped-DailyIcon-CardinalRed.png?w=180"
-    },
-    {
-      "title": "Wikipedia's Cleanup of AI-Generated Content",
-      "thread": "https://news.ycombinator.com/item?id=50257326",
-      "link": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
-      "link_domain": "spectrum.ieee.org",
-      "source": "Hacker News",
-      "domain": "spectrum.ieee.org",
-      "meta": "Hacker News · 480 points · 218 comments · 23h ago",
-      "also": [],
-      "image": "https://spectrum.ieee.org/media-library/surreal-collage-of-a-womans-face-with-geometric-shapes-pencil-and-wikipedia-globe.png?id=68486571&width=1200&height=600&coordinates=0%2C167%2C0%2C168",
-      "icon": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNjU5NjY0OS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTg0ODgxODUwNn0.1LlzHtxZSVXyzapxWjeSrRIRu5qo3CeB8FaWpd2tl_o/img.png?width=192&height=192"
-    },
-    {
-      "title": "Police are using AI to pull over drivers for 'suspicious' behavior",
-      "thread": "https://news.ycombinator.com/item?id=50261819",
-      "link": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
-      "link_domain": "gizmodo.com",
-      "source": "Hacker News",
-      "domain": "gizmodo.com",
-      "meta": "Hacker News · 373 points · 291 comments · 18h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://gizmodo.com/favicon.ico"
-    },
-    {
-      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
-      "thread": "https://news.ycombinator.com/item?id=50264853",
-      "link": "https://www.brangus.io/survival-llm",
-      "link_domain": "brangus.io",
-      "source": "Hacker News",
-      "domain": "brangus.io",
-      "meta": "Hacker News · 363 points · 143 comments · 14h ago",
-      "also": [],
-      "image": "https://www.brangus.io/survival-llm/social-card.png",
-      "icon": "https://www.brangus.io/favicon.ico"
-    },
-    {
-      "title": "Amazon Is Gutting Its AI Division After Sustained Failure",
-      "thread": "https://news.ycombinator.com/item?id=50261589",
-      "link": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
-      "link_domain": "futurism.com",
-      "source": "Hacker News",
-      "domain": "futurism.com",
-      "meta": "Hacker News · 322 points · 252 comments · 18h ago",
-      "also": [],
-      "image": "https://futurism.com/wp-content/uploads/2026/07/amazon-gutting-ai-division-failure.jpg?w=1200",
-      "icon": "https://futurism.com/wp-content/uploads/2025/09/favicon.png?quality=85&w=180"
     },
     {
       "title": "This is not sustainable",
@@ -103,22 +37,63 @@
       "link_domain": "netmeister.org",
       "source": "Lobsters",
       "domain": "netmeister.org",
-      "meta": "Lobsters · 38 points · 7 comments · 6h ago",
+      "meta": "Lobsters · 69 points · 9 comments · 10h ago",
       "also": [],
       "image": "https://www.netmeister.org/blog/images/captain-haddock.jpg",
       "icon": "https://www.netmeister.org/favicon.ico"
     },
     {
-      "title": "Here be monsters: What do you still need to know when agents do the work?",
-      "thread": "https://news.ycombinator.com/item?id=50258868",
-      "link": "https://blog.adrq.dev/here-be-monsters-what-do-you-still-need-to-know-when-agents-do-the-work",
-      "link_domain": "blog.adrq.dev",
+      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "thread": "https://news.ycombinator.com/item?id=50264853",
+      "link": "https://www.brangus.io/survival-llm",
+      "link_domain": "brangus.io",
       "source": "Hacker News",
-      "domain": "blog.adrq.dev",
-      "meta": "Hacker News · 173 points · 95 comments · 21h ago",
+      "domain": "brangus.io",
+      "meta": "Hacker News · 426 points · 164 comments · 18h ago",
       "also": [],
-      "image": "https://cdn.hashnode.com/uploads/og-images/69b44e3d6e27dd07d92bbf57/3a278202-0f64-4cf0-9a32-bfd202f3a073.png",
-      "icon": "https://cdn.hashnode.com/uploads/favicons/69b44e3d6e27dd07d92bbf57/8a84d0e2-5b45-470c-949f-3c5402886a45.png"
+      "image": "https://www.brangus.io/survival-llm/social-card.png",
+      "icon": "https://www.brangus.io/favicon.ico"
+    },
+    {
+      "title": "Ten days later, Git on macOS still trusts the compromised eMudhra certificates",
+      "thread": "https://news.ycombinator.com/item?id=50271640",
+      "link": "https://emudhra.we-have-a-problem.com/apple.html",
+      "link_domain": "emudhra.we-have-a-problem.com",
+      "source": "Hacker News",
+      "domain": "emudhra.we-have-a-problem.com",
+      "meta": "Hacker News · 402 points · 162 comments · 3h ago",
+      "also": [
+        {
+          "source": "Lobsters",
+          "thread": "https://lobste.rs/s/xybmsj/apple_s_git_still_trusts_compromised"
+        }
+      ],
+      "image": null,
+      "icon": "https://emudhra.we-have-a-problem.com/favicon.ico"
+    },
+    {
+      "title": "Police are using AI to pull over drivers for 'suspicious' behavior",
+      "thread": "https://news.ycombinator.com/item?id=50261819",
+      "link": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
+      "link_domain": "gizmodo.com",
+      "source": "Hacker News",
+      "domain": "gizmodo.com",
+      "meta": "Hacker News · 380 points · 299 comments · 21h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://gizmodo.com/favicon.ico"
+    },
+    {
+      "title": "Amazon Is Gutting Its AI Division After Sustained Failure",
+      "thread": "https://news.ycombinator.com/item?id=50261589",
+      "link": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
+      "link_domain": "futurism.com",
+      "source": "Hacker News",
+      "domain": "futurism.com",
+      "meta": "Hacker News · 334 points · 262 comments · 21h ago",
+      "also": [],
+      "image": "https://futurism.com/wp-content/uploads/2026/07/amazon-gutting-ai-division-failure.jpg?w=1200",
+      "icon": "https://futurism.com/wp-content/uploads/2025/09/favicon.png?quality=85&w=180"
     },
     {
       "title": "Compile-Time Dependent Types",
@@ -127,16 +102,51 @@
       "link_domain": "thenumb.at",
       "source": "Lobsters",
       "domain": "thenumb.at",
-      "meta": "Lobsters · 25 points · 9 comments · 20h ago",
+      "meta": "Lobsters · 25 points · 9 comments · 23h ago",
       "also": [],
       "image": null,
       "icon": "https://thenumb.at/icon.ico"
+    },
+    {
+      "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
+      "thread": "https://lobste.rs/s/rswyzt/fuzzers_vs_ai_comparing_fuzzilli",
+      "link": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
+      "link_domain": "projectzero.google",
+      "source": "Lobsters",
+      "domain": "projectzero.google",
+      "meta": "Lobsters · 16 points · 4 comments · 19h ago",
+      "also": [],
+      "image": "https://projectzero.google/images/preview_image.png",
+      "icon": "https://projectzero.google/images/project-zero.svg"
+    },
+    {
+      "title": "The next circle of security hell",
+      "thread": "https://lobste.rs/s/f3jpq3/next_circle_security_hell",
+      "link": "https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/",
+      "link_domain": "blogs.gentoo.org",
+      "source": "Lobsters",
+      "domain": "blogs.gentoo.org",
+      "meta": "Lobsters · 15 points · 2 comments · 18h ago",
+      "also": [],
+      "image": "https://s0.wp.com/i/blank.jpg",
+      "icon": "https://blogs.gentoo.org/favicon.ico"
     }
   ],
   "sections": [
     {
       "name": "AI-Assisted Engineering",
       "cards": [
+        {
+          "title": "Fragments: October 28",
+          "link": "https://martinfowler.com/fragments/2026-10-28.html",
+          "excerpt": "Andrej Karpathy sees a widening gap in how people see LLM capabilities. The general public has mostly not interacted with these systems. When they have, it looks like a derpy chatbot. The majority of professionals still see only a modest uplift. And a small sliver of professionals are experiencing…",
+          "source": "Martin Fowler",
+          "date": "Oct 28",
+          "image": "https://www.thoughtworks.com/content/dam/thoughtworks/documents/blog/machine-learning-and-ai/tw_blog_token_sourcing_image2.png",
+          "icon": null,
+          "domain": "martinfowler.com",
+          "hn": null
+        },
         {
           "title": "AI SRE: what is it, how could it change on-call – and does it work?",
           "link": "https://newsletter.pragmaticengineer.com/p/ai-sre",
@@ -158,7 +168,9 @@
           "icon": null,
           "domain": "leaddev.com",
           "hn": null
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Build specialized multimodal models with LFM3",
           "link": "https://huggingface.co/blog/LiquidAI/lfm3",
@@ -169,9 +181,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Can we trust LLMs to judge whether a research idea is novel?",
           "link": "https://huggingface.co/blog/allenai/novelty-bench",
@@ -200,7 +210,7 @@
           "excerpt": "Part I: The Coding War Games, a study behind the 10x developer myth.",
           "source": "Engineering Enablement",
           "date": "Oct 28",
-          "image": "https://substack-post-media.s3.amazonaws.com/public/images/c9ef6f4f-45b5-4629-bb17-a7b67564448c_2400x1260.png",
+          "image": "https://substack-post-media.s3.amazonaws.com/public/images/6a0b5ccd-fe66-48e2-903f-eeb6156f97cb_2400x1260.png",
           "icon": null,
           "domain": "newsletter.getdx.com",
           "hn": null
@@ -210,6 +220,17 @@
     {
       "name": "AI Agents & Agent Security",
       "cards": [
+        {
+          "title": "The October inflection point for vibe game development",
+          "link": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+          "excerpt": "I've written before about how November 2025 was an inflection point for coding agents - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily drivers for software engineers. I think we've reached a new inflection point in…",
+          "source": "Simon Willison",
+          "date": "Oct 28",
+          "image": "https://static.simonwillison.net/static/2026/tree-appreciator.webp",
+          "icon": null,
+          "domain": "simonwillison.net",
+          "hn": null
+        },
         {
           "title": "Coding From the Himalayas With an Offline AI Agent",
           "link": "https://latent.space/p/offline-coding/",
@@ -228,17 +249,6 @@
           "source": "Latent Space",
           "date": "Oct 27",
           "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/f111395b-ddfb-4ddc-969e-2424a5d05eb7/chatgpt.png?t=1793127236",
-          "icon": null,
-          "domain": "latent.space",
-          "hn": null
-        },
-        {
-          "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
-          "link": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/",
-          "excerpt": "Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude Platform: launching Opus 5.5, separating the model’s “brain” from the agent’s “hands,” scaling APIs, and building reliable managed agents. A new introduction ...",
-          "source": "Latent Space",
-          "date": "Oct 27",
-          "image": "https://i.ytimg.com/vi/MRQTlwcW-aQ/maxresdefault.jpg",
           "icon": null,
           "domain": "latent.space",
           "hn": null
@@ -288,12 +298,34 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null
+        },
+        {
+          "title": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
+          "link": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/",
+          "excerpt": "Since coding is solved, why code for the job?",
+          "source": "Latent Space",
+          "date": "Oct 28",
+          "image": "https://latent.space/og/card/post/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/c7f8e2dbe8139bba15d3c59987deb0b2ed5de83f9aded73244cc1febb17cee0c.png",
+          "icon": "https://latent.space/favicon.png",
+          "domain": "latent.space",
+          "hn": null
         }
       ]
     },
     {
       "name": "Leadership",
       "cards": [
+        {
+          "title": "Agentic AI in strategic sourcing: Hype or hero?",
+          "link": "https://www.mckinsey.com/capabilities/operations/our-insights/agentic-ai-in-strategic-sourcing-hype-or-hero",
+          "excerpt": "As more procurement functions invest in agentic AI to capture savings and drive efficiency, the question is increasingly: Is it worth it?",
+          "source": "McKinsey Insights & Publications",
+          "date": "Oct 28",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null
+        },
         {
           "title": "Meta Earnings, Muse and the Frontier, Musebook",
           "link": "https://stratechery.com/2026/meta-earnings-muse-and-the-frontier-musebook/",
@@ -303,6 +335,30 @@
           "image": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9zdHJhdGVjaGVyeS5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMThcLzAzXC9jcm9wcGVkLWFuZHJvaWQtY2hyb21lLTUxMng1MTItMS5wbmc_Zml0PTUxMiUyQzUxMiZzc2w9MSIsInR4dCI6IlN0cmF0ZWNoZXJ5IGJ5IEJlbiBUaG9tcHNvbiIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxODgwNDM0MTV9.5VWck4PcKPWCTPe_HVznn3n3xsgn-G0b3d2OeiNNC7cMQ",
           "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
           "domain": "stratechery.com",
+          "hn": null
+        },
+        {
+          "title": "AI Is Thriving at Capital One",
+          "link": "https://sloanreview.mit.edu/article/ai-is-thriving-at-capital-one/",
+          "excerpt": "Eliot Wyatt/Ikon Images If one were making a list of the companies that have most exploited the potential of data, analytics, and artificial intelligence in the 21st century, Capital One would probably be at or near the top. Spun out of the credit card business of Signet Bank in 1994, Capital One…",
+          "source": "MIT Sloan Management Review",
+          "date": "Oct 28",
+          "image": "https://sloanreview.mit.edu/wp-content/uploads/2026/09/DavenportBeanCapitalOne-1290x860-1.jpg",
+          "icon": null,
+          "domain": "sloanreview.mit.edu",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "Who wins when AI does the shopping? New evidence on agentic commerce",
+          "link": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/who-wins-when-ai-does-the-shopping-new-evidence-on-agentic-commerce",
+          "excerpt": "Analysis of about 21,000 consumers indicates how AI shopping behavior is growing and evolving, with early evidence showing companies are not yet equipped to meet the rising demand.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Oct 28",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
           "hn": null
         },
         {
@@ -316,8 +372,7 @@
           "domain": "mckinsey.com",
           "hn": null
         }
-      ],
-      "more": []
+      ]
     },
     {
       "name": "Agent Identity & Authorization",
@@ -334,6 +389,17 @@
           "hn": null
         },
         {
+          "title": "Code Story podcast: Alex Olivier on building Cerbos, AI agents, and authorization on every request",
+          "link": "https://cerbos.dev/blog/code-story-podcast-building-cerbos-ai-agents-authorization-every-request",
+          "excerpt": "Alex Olivier on the Code Story podcast, covering how Cerbos started after he rebuilt permissions at several companies, how the user community shaped the product, and why AI agents need access checked on every call, not only at login.",
+          "source": "Cerbos",
+          "date": "Oct 27",
+          "image": "https://stylish-appliance-1c1cc1c30d.media.strapiapp.com/code_story_podcast_cerbos_alex_olivier_7207c258e0.png",
+          "icon": null,
+          "domain": "cerbos.dev",
+          "hn": null
+        },
+        {
           "title": "GhostAction Crosses Paths With PolinRider: Inside the October Escalation",
           "link": "https://blog.gitguardian.com/ghostaction-x-polinrider/",
           "excerpt": "GhostAction pushed 72,026 commits to 22,964 repos in nine days, now targeting CI runners and developer machines with a launcher copied from PolinRider.",
@@ -343,7 +409,9 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Which test email domains pass AuthKit's deliverability check?",
           "link": "https://workos.com/blog/authkit-test-email-domains-deliverability-check",
@@ -354,9 +422,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null
-        }
-      ],
-      "more": [
+        },
         {
           "title": "The token that never expired: What the Zeabur breach teaches SaaS teams that store customer secrets",
           "link": "https://workos.com/blog/zeabur-breach-customer-secrets",
@@ -385,80 +451,80 @@
           "hn": null
         },
         {
-          "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
-          "link": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
-          "excerpt": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure. [...]",
-          "source": "BleepingComputer",
-          "date": "Oct 27",
-          "image": "https://www.bleepstatic.com/content/hl-images/2026/10/27/warp.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
+          "title": "Cisco open sources tool for detecting AI agents on hacking sprees",
+          "link": "https://www.theregister.com/security/2026/10/28/cisco-open-sources-tool-for-detecting-ai-agents-on-hacking-sprees/5305867",
+          "excerpt": "Project Quarry aims to provide a 'shared language' for evaluating agent behavior",
+          "source": "The Register",
+          "date": "Oct 28",
+          "image": "https://image.theregister.com/?imageId=5259466&width=800",
+          "icon": null,
+          "domain": "theregister.com",
           "hn": null
         },
         {
-          "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
-          "link": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
-          "excerpt": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator. TrendAI, which analyzed three exposed server environments used by threat…",
-          "source": "The Hacker News",
-          "date": "Oct 27",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiniSfVwM2b4RVouLhc_nIvm2CdQCg9jtQDBVQP6BjvEC2NBaLFqU0A8RyC_GA3PkI4jF87W3h0GJ4xzycp6LAd4I3eRh3JnhnM9yi7CZ9dX2Pfe3MdDaaUSyrDUy1ksA-fdq0bUVzWcFRmS-JWOy3z7xiWB70DzgXLst_YspRqbGIAyv85_D4H9sPT7Sq3/s1600/cyberstrikeai.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
+          "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
+          "link": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
+          "excerpt": "PHP2Shell shows how quickly attackers can exploit critical vulnerabilities, often before organizations have time to patch. Token Security explains why limiting the access of service accounts, API keys, and AI agents is just as important as fixing vulnerabilities to reduce the damage from a breach.…",
+          "source": "BleepingComputer",
+          "date": "Oct 28",
+          "image": "https://www.bleepstatic.com/content/posts/2026/10/27/green-pumpkin.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
           "hn": null
         }
       ],
       "more": [
         {
-          "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
-          "link": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
-          "excerpt": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report. The exploits were built in the lab after the model was prompted, not seen in any real attack, and…",
+          "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+          "link": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+          "excerpt": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber. The vulnerability in question is CVE-2026-101767 (CVSS score: 9.8) in the Oracle Application Object Library of Oracle E-Business…",
           "source": "The Hacker News",
           "date": "Oct 28",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSMl2C6S6mb-smamI35fLYotcPaercI_2PIgtuF78Q7PtQcFvFUKXkModTW4nRCh6FC7Xht2BltSGImRS2QNR4Lnc22S7UBU9V_0UDcZi2iDNXSlCJDqD4ApmJPqA_boFokj_9dTWKdzhjIgNt_Y47zumx_c5vrcJn5Vd-Xaowafv4HGCzCcqgDV4GGpo/s1600/hacker-chain.jpg",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBB03AGS7veiAqQ7-xPeadzhhaRvDmhOlLgQcDN0y-r1na_us5yomWjBEXCbwbw8OW_o8SSGjjqk4VZFQ4ZxLiWKQPZxlcBkzJ5lv3OlEV0rOETUKyQzWoZ74LGpSjOjrScmk1rVf0OhRmDACHG3jwSDfBnnta75I_3s_nuoWGZmcfg7NZfHBp_PEIl8aj/s1600/oracle-hack.jpg",
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null
         },
         {
-          "title": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
-          "link": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html",
-          "excerpt": "The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a domain associated with a bulletproof hosting provider (BPH) named Virtualine. The move was in response to the service being used to commit and facilitate prolific criminal activity, including \"the advertisement of sexually…",
+          "title": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
+          "link": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
+          "excerpt": "A critical 16-year-old flaw in EDK II, the open-source code that most hardware makers use to build UEFI firmware, can allow an attacker to run code on a machine before its operating system loads, but only while the machine is booting over the network. UEFI firmware is the software that runs first…",
           "source": "The Hacker News",
           "date": "Oct 28",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAdfKblTUCEDUoHzYpHPcEPzHO6qKTr01uG2-x7YyIT5t_-xeFc27zuZ3yOK76rkhz-J8y_Z4MqmydEQUtiCEvry_2H43qaSJXDrWRbM1gs8wDVTBgi_NzxIXsGBMoX8zlzISFlvcJ8NdNSyeMIZh8z-aHkXCyBDPJ2l195Ji1XgnVu_A0Yhh3H2QvEyiA/s1600/servers.jpg",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoVVx2e6mg8LPbhDYmtubHewVD_9BI7UcctCMSwwG-h4SuOyZJOvIyTre_g9Ggo6sLw6Bjrse_1FsqKKThyiIvc5CbuYqq4caYCtUciHGg33wReFQgOjJuTX5FrnSS3OZTd_yjXt03l_kxwIX-NshU9A8wpANSdQwOWkDKzy31QdXkCD6UP21dOpfbjhg/s1600/server-bios.jpg",
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null
         },
         {
-          "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
-          "link": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
-          "excerpt": "Japan's GMO Internet Group is offering up to $1 million in total for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand. The reward program opened on October 28 and pays only if a tip helps lead to an arrest or an…",
+          "title": "Wazuh and AI for Enhanced SOC Workflows",
+          "link": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
+          "excerpt": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster decision-making.…",
           "source": "The Hacker News",
           "date": "Oct 28",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguDDZZalFBPLgf4YxDU_9FK46XXVkU3x0GKHeZHFd2WTdJ0cK5n1KCWDEOIvSgzHP4R14xmwLygLnnmyuBEVcHRVO7b9nIUZVcp5ehxIgFGrPyXZ3hZGwNa2bg8k4e_kkSHa2tyo05yPortQqRR_9g3yr-T0k0Tga9_26Pr0rs_MNIU8RndHMeq9r5Rr0/s1600/gmo.jpg",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjo5_lgjV0zvHt5XW8CcCjQnBc_cvxOxrGxsrliXv3s9c6RD-Aw7eXOlNrp78QHxSnVO5yBgphx7KqCjkjje3YbwCFUtXUdLN4xA-sW_zVoFsK7au37XZxUPyoDRlhCIGsxc2at70I_FexwVKgdyub-XuuvwIZCy1o6hoCU50o7lhHWDSgktrcsrXkN9p8/s1600/wazuh.png",
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null
         },
         {
-          "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
-          "link": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
-          "excerpt": "Tailscale has released version 1.104.4 to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the root user should be able to touch. The flaws are in how Tailscale SSH forwards network connections, a job the Tailscale background…",
+          "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+          "link": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+          "excerpt": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation. The list of eight vulnerabilities is as follows - CVE-2026-104351 (CVSS score:…",
           "source": "The Hacker News",
           "date": "Oct 28",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4t7YUY-idhgGJFpEuulM5zELQR4QNB-UKmsh7cyB5cdMH4AU_zumf3K27WBWgAw6ra28TvALm5fFeLrV_1wHJXeYy3azE1TcblP-1JSCPLF3mq-WKjUOXy3K-pfjhHtiwGkCoYhxfEMZGielHz2Bit6mLoNlnElmauP0RNcbXelNkAHIWI4s92qrymUQ/s1600/tailscale-patches.jpg",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3z7SDPF49VtrfeTS8qZD9-Rv1ne3ZUL2KLJZklOlASYXMnjBQXmmIYZ-wAC9PR248ntUBTyZLq2G6TPVYLZ-aEN7fDFc4pcEhSbt_vj36JTbujGJ2UHTbxFDUOiDvYDyKl7NpCvSMlySdqWjPhyphenhyphenFUNTkC38Ej0biyWHeF1u4kFHCe4tkJjgCW6RCHttx_/s1600/adobe-main.jpg",
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null
         },
         {
-          "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-          "link": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
-          "excerpt": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week. Oracle patched all three under a single identifier, CVE-2026-35273, in June. Its root is a server-side request forgery (SSRF)…",
+          "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
+          "link": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
+          "excerpt": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows to gain access to corporate accounts while leaving fewer obvious signs behind.…",
           "source": "The Hacker News",
           "date": "Oct 28",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgiU-iVEycp9z-2dprGJhgl046M9ZvG7kGGwaXNzgFJg7XDubOoWWLvEuKAOczIcGuXU04db46Xa6pRMKO36ZS7Fu8Xkv7mNuPjHUS0zLTHkGlNWNRD2DLCznPf6jqvqamZSZGMBXSzh9gMYm-9sR-y7OgN7i7n6x0dfYxyl9QftWlfuQw0mpTteHy57k/s1600/sh.jpg",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgf2g4rsWnZ5eQP03cr-4e99MQStvJmuaTTi91WESG3ua1ddAW73T6X22gyaspj2SirqH-1bSAU9VkOg2F1Kh9TLmPc4jYsNAlD72S2XzCeTTRHSiN3B7is7roWwIMcIm__yRu8SkUBbyeWxAEBo5Fe-bbACZWRuoxZqv_pysQ9iMsZRHPCD_clJZsNIDs/s1600/anyrun-main.jpg",
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null
@@ -526,6 +592,17 @@
           "hn": null
         },
         {
+          "title": "Win the Agentic Era, Together: Introducing the Docker Navigator Partner Program",
+          "link": "https://www.docker.com/blog/docker-navigator-partner-program/",
+          "excerpt": "Docker is launching the Navigator Partner Program, with three tiers, co-selling benefits, and a new incentive for every registered AI governance deal.",
+          "source": "Docker",
+          "date": "Oct 28",
+          "image": "https://www.docker.com/app/uploads/2025/03/image.png",
+          "icon": "https://www.docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-180x180.png",
+          "domain": "docker.com",
+          "hn": null
+        },
+        {
           "title": "Bringing Google TPUs to Oracle Cloud Infrastructure",
           "link": "https://cloud.google.com/blog/products/infrastructure/bringing-google-tpus-to-oracle-cloud-infrastructure/",
           "excerpt": "As AI workloads scale across every industry, organizations need compute options that optimize throughput, latency, and unit economics across the AI lifecycle. To meet this demand, Oracle and Google Cloud are partnering to bring Google Tensor Processing Units (TPUs) to Oracle Cloud Infrastructure…",
@@ -546,34 +623,12 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null
-        },
-        {
-          "title": "How Anchorage Digital and Turnkey verify code with AWS Nitro Enclaves",
-          "link": "https://aws.amazon.com/blogs/architecture/how-anchorage-digital-and-turnkey-verify-code-with-aws-nitro-enclaves/",
-          "excerpt": "Anchorage Digital and Turnkey built verifiable infrastructure on AWS Nitro Enclaves so crypto wallets can cryptographically verify which code parsed a transaction. This post covers the architecture, the attestation-gated access pattern, and how it extends to any high-trust workflow beyond…",
-          "source": "AWS Architecture Blog",
-          "date": "Oct 27",
-          "image": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/09/ARCHBLOG-1598-1-1.png",
-          "icon": null,
-          "domain": "aws.amazon.com",
-          "hn": null
         }
       ]
     },
     {
       "name": "News & Research",
       "cards": [
-        {
-          "title": "How AI agents shape experts’ judgment calls",
-          "link": "https://www.anthropic.com/research/agents-judgment-calls",
-          "excerpt": "As AI does more of the hands-on work, the hope is that experts still make the judgment calls, meaning the decisions with more than one defensible answer. We tested this with 50 professional analysts who did a statistical analysis with Claude Code. On each key decision, we randomly assigned which…",
-          "source": "Anthropic Research",
-          "date": "Oct 27",
-          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b3aee146e4ef35b394b2b626d5eaf5faaee741aa-1200x630.jpg",
-          "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
-          "domain": "anthropic.com",
-          "hn": null
-        },
         {
           "title": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
           "link": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
@@ -595,19 +650,6 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null
-        }
-      ],
-      "more": [
-        {
-          "title": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
-          "link": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
-          "excerpt": "The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access.",
-          "source": "TechCrunch",
-          "date": "Oct 27",
-          "image": "https://techcrunch.com/wp-content/uploads/2026/05/ai-agents-GettyImages-2229880232.jpg?resize=1200,675",
-          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
-          "domain": "techcrunch.com",
-          "hn": null
         },
         {
           "title": "Early progress on accelerating drug development with Claude",
@@ -619,7 +661,9 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
           "link": "https://www.anthropic.com/news/expanding-partnership-gsa",
@@ -632,26 +676,37 @@
           "hn": null
         },
         {
-          "title": "Spain train crash: 'At least 10 dead' in high-speed collision",
-          "link": "https://www.thetimes.com/world/europe/article/spain-train-crash-madrid-latest-deaths-victims-807kwv23l",
-          "excerpt": "Accident occurred in Toledo province on the line connecting Madrid to southern Andalusia, with scores also injured",
-          "source": "thetimes.com via Hacker News",
+          "title": "Harvey raised 500M for legal AI, I built the same and open sourced it",
+          "link": "https://github.com/thomasunise/casecite",
+          "excerpt": "CaseCite is a source-available, self-hosted legal RAG caselaw research & document analysis platform. - thomasunise/casecite",
+          "source": "github.com via Hacker News",
           "date": "Oct 28",
-          "image": "https://www.thetimes.com/imageserver/image/ca5f6e82-d39b-4c7a-bf03-6f9fd28482ce.jpg?strip=all&format=webp&crop=2741px%2C1541px%2C0px%2C142px&resize=1200",
-          "icon": "https://www.thetimes.com/imageserver/image/4e2c5841-df25-42a6-8b74-065cc072e1e8.png?w=180",
-          "domain": "thetimes.com",
-          "hn": "41 points · 32 comments"
+          "image": "https://opengraph.githubassets.com/6ca5ca5347933d3b5b69c1d06228df76a2c5e79dc8eff3a0aa86bc1c06402795/thomasunise/casecite",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "23 points · 1 comments"
         },
         {
-          "title": "Wealth Inequality in America drawn to scale",
-          "link": "https://dreamagainusa.org/",
-          "excerpt": "Picture U.S. wealth as stacks of $100 bills: the median household’s is about 9 inches tall. The average top-1% household’s is 145 feet, and it keeps getting taller and taller…",
-          "source": "dreamagainusa.org via Hacker News",
+          "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
+          "link": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
+          "excerpt": "35 points · 20 comments",
+          "source": "religionnews.com via Hacker News",
           "date": "Oct 28",
-          "image": "https://dreamagainusa.org/img/social-card.png?v=3",
-          "icon": "https://dreamagainusa.org/favicon.svg",
-          "domain": "dreamagainusa.org",
-          "hn": "41 points · 8 comments"
+          "image": null,
+          "icon": "https://religionnews.com/favicon.ico",
+          "domain": "religionnews.com",
+          "hn": "35 points · 20 comments"
+        },
+        {
+          "title": "Emacs Turns 50",
+          "link": "https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50/",
+          "excerpt": "How the MIT AI Lab’s text editor gave birth to the free software movement.",
+          "source": "technologyreview.com via Hacker News",
+          "date": "Oct 28",
+          "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/cover-mockup-thumb.jpg?resize=1200,600",
+          "icon": "https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50/static/media/favicon.1cfcdb44759a0f93ddf5feb5405dd4cc.ico",
+          "domain": "technologyreview.com",
+          "hn": "30 points · 11 comments"
         }
       ]
     }
