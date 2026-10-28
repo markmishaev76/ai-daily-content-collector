@@ -13,7 +13,7 @@
     "note": null,
     "labels": [
       "Agent Identity & Authorization",
-      "10h ago"
+      "12h ago"
     ],
     "also": []
   },
@@ -25,7 +25,7 @@
       "link_domain": "oioannou.com",
       "source": "Hacker News",
       "domain": "oioannou.com",
-      "meta": "Hacker News · 620 points · 617 comments · 14h ago",
+      "meta": "Hacker News · 625 points · 619 comments · 16h ago",
       "also": [],
       "image": "https://oioannou.com/img/blog-by-orestis.jpg",
       "icon": "https://oioannou.com/favicon.ico"
@@ -37,7 +37,7 @@
       "link_domain": "stanforddaily.com",
       "source": "Hacker News",
       "domain": "stanforddaily.com",
-      "meta": "Hacker News · 475 points · 265 comments · 10h ago",
+      "meta": "Hacker News · 490 points · 268 comments · 12h ago",
       "also": [],
       "image": "https://stanforddaily.com/wp-content/uploads/2026/10/Green-Library.png",
       "icon": "https://stanforddaily.com/wp-content/uploads/2019/03/cropped-DailyIcon-CardinalRed.png?w=180"
@@ -49,7 +49,7 @@
       "link_domain": "spectrum.ieee.org",
       "source": "Hacker News",
       "domain": "spectrum.ieee.org",
-      "meta": "Hacker News · 454 points · 209 comments · 14h ago",
+      "meta": "Hacker News · 466 points · 211 comments · 16h ago",
       "also": [],
       "image": "https://spectrum.ieee.org/media-library/surreal-collage-of-a-womans-face-with-geometric-shapes-pencil-and-wikipedia-globe.png?id=68486571&width=1200&height=600&coordinates=0%2C167%2C0%2C168",
       "icon": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNjU5NjY0OS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTg0ODgxODUwNn0.1LlzHtxZSVXyzapxWjeSrRIRu5qo3CeB8FaWpd2tl_o/img.png?width=192&height=192"
@@ -61,7 +61,7 @@
       "link_domain": "j11g.com",
       "source": "Hacker News",
       "domain": "j11g.com",
-      "meta": "Hacker News · 436 points · 305 comments · 19h ago",
+      "meta": "Hacker News · 444 points · 310 comments · 21h ago",
       "also": [],
       "image": "https://j11g.com/content/images/cern-resized.jpg",
       "icon": "https://j11g.com/content/images/favicon.ico"
@@ -73,7 +73,7 @@
       "link_domain": "gizmodo.com",
       "source": "Hacker News",
       "domain": "gizmodo.com",
-      "meta": "Hacker News · 342 points · 274 comments · 9h ago",
+      "meta": "Hacker News · 355 points · 277 comments · 11h ago",
       "also": [],
       "image": null,
       "icon": "https://gizmodo.com/favicon.ico"
@@ -85,7 +85,7 @@
       "link_domain": "futurism.com",
       "source": "Hacker News",
       "domain": "futurism.com",
-      "meta": "Hacker News · 270 points · 187 comments · 9h ago",
+      "meta": "Hacker News · 287 points · 213 comments · 11h ago",
       "also": [],
       "image": "https://futurism.com/wp-content/uploads/2026/07/amazon-gutting-ai-division-failure.jpg?w=1200",
       "icon": "https://futurism.com/wp-content/uploads/2025/09/favicon.png?quality=85&w=180"
@@ -97,7 +97,7 @@
       "link_domain": "brangus.io",
       "source": "Hacker News",
       "domain": "brangus.io",
-      "meta": "Hacker News · 191 points · 103 comments · 6h ago",
+      "meta": "Hacker News · 223 points · 116 comments · 8h ago",
       "also": [],
       "image": "https://www.brangus.io/survival-llm/social-card.png",
       "icon": "https://www.brangus.io/favicon.ico"
@@ -109,7 +109,7 @@
       "link_domain": "blog.adrq.dev",
       "source": "Hacker News",
       "domain": "blog.adrq.dev",
-      "meta": "Hacker News · 159 points · 86 comments · 12h ago",
+      "meta": "Hacker News · 163 points · 88 comments · 14h ago",
       "also": [],
       "image": "https://cdn.hashnode.com/uploads/og-images/69b44e3d6e27dd07d92bbf57/3a278202-0f64-4cf0-9a32-bfd202f3a073.png",
       "icon": "https://cdn.hashnode.com/uploads/favicons/69b44e3d6e27dd07d92bbf57/8a84d0e2-5b45-470c-949f-3c5402886a45.png"
@@ -121,7 +121,7 @@
       "link_domain": "thenumb.at",
       "source": "Lobsters",
       "domain": "thenumb.at",
-      "meta": "Lobsters · 23 points · 9 comments · 11h ago",
+      "meta": "Lobsters · 24 points · 9 comments · 13h ago",
       "also": [],
       "image": null,
       "icon": "https://thenumb.at/icon.ico"
@@ -592,6 +592,17 @@
           "hn": null
         },
         {
+          "title": "Git for US Legislation",
+          "link": "https://lexifina.com/blog/git-for-the-us-code",
+          "excerpt": "Lawyers should be able to read a statute as it stood on any date and see which law wrote each phrase. A history of nine titles of the US Code, built by replaying every amendment, as the example.",
+          "source": "lexifina.com via Hacker News",
+          "date": "Oct 28",
+          "image": "https://lexifina.com/social-preview-v3.png?v=20261018",
+          "icon": "https://lexifina.com/apple-touch-icon.png?v=20261017b",
+          "domain": "lexifina.com",
+          "hn": "74 points · 35 comments"
+        },
+        {
           "title": "Moxnox 1.0: NT-Like, POSIX-Compatible OS Running Atop Btrfs",
           "link": "https://github.com/maharmstone/moxnox",
           "excerpt": "NT-like POSIX-compatible operating system. Contribute to maharmstone/moxnox development by creating an account on GitHub.",
@@ -600,18 +611,7 @@
           "image": "https://opengraph.githubassets.com/6abe816f18bfe723e7c207a7318e1059fb4c1dbfb84df56566bd2eee4e4842bd/maharmstone/moxnox",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "12 points · 3 comments"
-        },
-        {
-          "title": "Reviewers rarely talk about reliability. Owners bring it up twice as often",
-          "link": "https://www.bettascore.ai/research/reliability-reviewers-vs-owners",
-          "excerpt": "Across 657 products in 19 categories, Reddit owners bring up reliability and support in 13% of their opinions, YouTube reviewers in 7%. On apps, 71% of owner opinions are negative. Data to download.",
-          "source": "bettascore.ai via Hacker News",
-          "date": "Oct 27",
-          "image": "https://www.bettascore.ai/research/reliability-reviewers-vs-owners/image/16x9",
-          "icon": "https://www.bettascore.ai/apple-touch-icon.png",
-          "domain": "bettascore.ai",
-          "hn": "59 points · 62 comments"
+          "hn": "25 points · 3 comments"
         }
       ]
     }
