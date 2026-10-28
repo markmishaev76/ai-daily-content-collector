@@ -1,0 +1,619 @@
+{
+  "date": "2026-10-28",
+  "lead": {
+    "title": "Scale agents securely with IAM Helper Agent Skills and MCP Tools",
+    "link": "https://cloud.google.com/blog/products/identity-security/scale-agents-securely-with-iam-helper-agent-skills-and-mcp-tools/",
+    "excerpt": "As organizations adopt autonomous agents to build applications, securing identities and access has become more challenging. Developers relying on agents to provision cloud resources, write Terraform, and deploy microservices at machine-speed only find their CI/CD pipelines blocked even faster as…",
+    "source": "Security & Identity",
+    "date": "Oct 27",
+    "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/17_-_Security__Identity_NrORvDT.max-2600x2600.jpg",
+    "image_credit": null,
+    "section": "Agent Identity & Authorization",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "Agent Identity & Authorization",
+      "10h ago"
+    ],
+    "also": []
+  },
+  "pulse": [
+    {
+      "title": "AI promised less work. I've never worked more",
+      "thread": "https://news.ycombinator.com/item?id=50257325",
+      "link": "https://oioannou.com/blog/ai-promised-less-work/",
+      "link_domain": "oioannou.com",
+      "source": "Hacker News",
+      "domain": "oioannou.com",
+      "meta": "Hacker News · 620 points · 617 comments · 14h ago",
+      "also": [],
+      "image": "https://oioannou.com/img/blog-by-orestis.jpg",
+      "icon": "https://oioannou.com/favicon.ico"
+    },
+    {
+      "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
+      "thread": "https://news.ycombinator.com/item?id=50260814",
+      "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+      "link_domain": "stanforddaily.com",
+      "source": "Hacker News",
+      "domain": "stanforddaily.com",
+      "meta": "Hacker News · 475 points · 265 comments · 10h ago",
+      "also": [],
+      "image": "https://stanforddaily.com/wp-content/uploads/2026/10/Green-Library.png",
+      "icon": "https://stanforddaily.com/wp-content/uploads/2019/03/cropped-DailyIcon-CardinalRed.png?w=180"
+    },
+    {
+      "title": "Wikipedia's Cleanup of AI-Generated Content",
+      "thread": "https://news.ycombinator.com/item?id=50257326",
+      "link": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+      "link_domain": "spectrum.ieee.org",
+      "source": "Hacker News",
+      "domain": "spectrum.ieee.org",
+      "meta": "Hacker News · 454 points · 209 comments · 14h ago",
+      "also": [],
+      "image": "https://spectrum.ieee.org/media-library/surreal-collage-of-a-womans-face-with-geometric-shapes-pencil-and-wikipedia-globe.png?id=68486571&width=1200&height=600&coordinates=0%2C167%2C0%2C168",
+      "icon": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNjU5NjY0OS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTg0ODgxODUwNn0.1LlzHtxZSVXyzapxWjeSrRIRu5qo3CeB8FaWpd2tl_o/img.png?width=192&height=192"
+    },
+    {
+      "title": "The Mythical Man-Month in the Age of AI",
+      "thread": "https://news.ycombinator.com/item?id=50255298",
+      "link": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+      "link_domain": "j11g.com",
+      "source": "Hacker News",
+      "domain": "j11g.com",
+      "meta": "Hacker News · 436 points · 305 comments · 19h ago",
+      "also": [],
+      "image": "https://j11g.com/content/images/cern-resized.jpg",
+      "icon": "https://j11g.com/content/images/favicon.ico"
+    },
+    {
+      "title": "Police are using AI to pull over drivers for 'suspicious' behavior",
+      "thread": "https://news.ycombinator.com/item?id=50261819",
+      "link": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
+      "link_domain": "gizmodo.com",
+      "source": "Hacker News",
+      "domain": "gizmodo.com",
+      "meta": "Hacker News · 342 points · 274 comments · 9h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://gizmodo.com/favicon.ico"
+    },
+    {
+      "title": "Amazon Is Gutting Its AI Division After Sustained Failure",
+      "thread": "https://news.ycombinator.com/item?id=50261589",
+      "link": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
+      "link_domain": "futurism.com",
+      "source": "Hacker News",
+      "domain": "futurism.com",
+      "meta": "Hacker News · 270 points · 187 comments · 9h ago",
+      "also": [],
+      "image": "https://futurism.com/wp-content/uploads/2026/07/amazon-gutting-ai-division-failure.jpg?w=1200",
+      "icon": "https://futurism.com/wp-content/uploads/2025/09/favicon.png?quality=85&w=180"
+    },
+    {
+      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "thread": "https://news.ycombinator.com/item?id=50264853",
+      "link": "https://www.brangus.io/survival-llm",
+      "link_domain": "brangus.io",
+      "source": "Hacker News",
+      "domain": "brangus.io",
+      "meta": "Hacker News · 191 points · 103 comments · 6h ago",
+      "also": [],
+      "image": "https://www.brangus.io/survival-llm/social-card.png",
+      "icon": "https://www.brangus.io/favicon.ico"
+    },
+    {
+      "title": "Here be monsters: What do you still need to know when agents do the work?",
+      "thread": "https://news.ycombinator.com/item?id=50258868",
+      "link": "https://blog.adrq.dev/here-be-monsters-what-do-you-still-need-to-know-when-agents-do-the-work",
+      "link_domain": "blog.adrq.dev",
+      "source": "Hacker News",
+      "domain": "blog.adrq.dev",
+      "meta": "Hacker News · 159 points · 86 comments · 12h ago",
+      "also": [],
+      "image": "https://cdn.hashnode.com/uploads/og-images/69b44e3d6e27dd07d92bbf57/3a278202-0f64-4cf0-9a32-bfd202f3a073.png",
+      "icon": "https://cdn.hashnode.com/uploads/favicons/69b44e3d6e27dd07d92bbf57/8a84d0e2-5b45-470c-949f-3c5402886a45.png"
+    },
+    {
+      "title": "Compile-Time Dependent Types",
+      "thread": "https://lobste.rs/s/d09iy3/compile_time_dependent_types",
+      "link": "https://thenumb.at/Syl-Intro/",
+      "link_domain": "thenumb.at",
+      "source": "Lobsters",
+      "domain": "thenumb.at",
+      "meta": "Lobsters · 23 points · 9 comments · 11h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://thenumb.at/icon.ico"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI-Assisted Engineering",
+      "cards": [
+        {
+          "title": "AI SRE: what is it, how could it change on-call – and does it work?",
+          "link": "https://newsletter.pragmaticengineer.com/p/ai-sre",
+          "excerpt": "“AI SRE” is fast becoming a trending term fueled by flashy demos from vendors, but has an AI SRE ever really been on-call while engineers slept? Deepdive",
+          "source": "The Pragmatic Engineer",
+          "date": "Oct 27",
+          "image": "https://substackcdn.com/image/fetch/$s_!v-ox!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2fa0f8f5-2796-4db4-91f1-7ab4b45fb8fd_1350x970.png",
+          "icon": null,
+          "domain": "newsletter.pragmaticengineer.com",
+          "hn": null
+        },
+        {
+          "title": "Build specialized multimodal models with LFM3",
+          "link": "https://huggingface.co/blog/LiquidAI/lfm3",
+          "excerpt": "A Blog post by Liquid AI on Hugging Face",
+          "source": "Hugging Face",
+          "date": "Oct 27",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/wEKXxH6qGa7vmHjn5KA-W.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null
+        },
+        {
+          "title": "Can we trust LLMs to judge whether a research idea is novel?",
+          "link": "https://huggingface.co/blog/allenai/novelty-bench",
+          "excerpt": "A Blog post by Ai2 on Hugging Face",
+          "source": "Hugging Face",
+          "date": "Oct 27",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/ZrKpGOLkSf0LmAf3bnJIX.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+          "link": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+          "excerpt": "Education Innovation",
+          "source": "Google Research",
+          "date": "Oct 27",
+          "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/LLMSleep_Cover.jpg",
+          "icon": null,
+          "domain": "research.google",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "AI Agents & Agent Security",
+      "cards": [
+        {
+          "title": "Coding From the Himalayas With an Offline AI Agent",
+          "link": "https://latent.space/p/offline-coding/",
+          "excerpt": "How to set up and run an offline coding agent using OpenCode, Ollama and Qwen.",
+          "source": "Latent Space",
+          "date": "Oct 27",
+          "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/425b6203-2bf9-4c0a-9545-27f2704fa9aa/himilayas-no-wifi-1280x720.png?t=1793103846",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null
+        },
+        {
+          "title": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
+          "link": "https://latent.space/p/opus55/",
+          "excerpt": "Katelyn Lesse and Angela Jiang on Opus 5.5, the Claude Platform, and the engineering behind AI agents.",
+          "source": "Latent Space",
+          "date": "Oct 27",
+          "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/f111395b-ddfb-4ddc-969e-2424a5d05eb7/chatgpt.png?t=1793127236",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null
+        },
+        {
+          "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+          "link": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/",
+          "excerpt": "Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude Platform: launching Opus 5.5, separating the model’s “brain” from the agent’s “hands,” scaling APIs, and building reliable managed agents. A new introduction ...",
+          "source": "Latent Space",
+          "date": "Oct 27",
+          "image": "https://i.ytimg.com/vi/MRQTlwcW-aQ/maxresdefault.jpg",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+          "link": "https://openai.com/index/oracle-apps-in-chatgpt",
+          "excerpt": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+          "source": "OpenAI News",
+          "date": "Oct 27",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null
+        },
+        {
+          "title": "Retell uses OpenAI models to help power 100M monthly calls",
+          "link": "https://openai.com/index/retell-ai",
+          "excerpt": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+          "source": "OpenAI News",
+          "date": "Oct 27",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null
+        },
+        {
+          "title": "How Check Point accelerates vulnerability research with Daybreak",
+          "link": "https://openai.com/index/check-point-daybreak",
+          "excerpt": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+          "source": "OpenAI News",
+          "date": "Oct 27",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null
+        },
+        {
+          "title": "Game Boy Color on My Conference Badge",
+          "link": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
+          "excerpt": "Game Boy Color on My Conference Badge I'm at GitHub Universe this week and, similar to last year, the conference badge is a full-blown color screen computer. I've been hacking around with it again, and then I ran into with Steve Francia... who worked with Gemini to get a full NES emulator working…",
+          "source": "Simon Willison",
+          "date": "Oct 27",
+          "image": "https://static.simonwillison.net/static/2026-10-27/IMG_9339.jpeg",
+          "icon": null,
+          "domain": "simonwillison.net",
+          "hn": null
+        },
+        {
+          "title": "webframe: evaluated as a scraper and a sandbox",
+          "link": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/",
+          "excerpt": "Research: webframe: evaluated as a scraper and a sandbox webframe is a neat little project from Jeff Lindsay which lets you \"run a web page like a program\" - you point it at a URL or file and it executes it in a hidden headless web view and outputs console.log() to standard output and any…",
+          "source": "Simon Willison",
+          "date": "Oct 26",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "Leadership",
+      "cards": [
+        {
+          "title": "What AI can’t replace—and why it matters for value",
+          "link": "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/what-ai-cant-replace-and-why-it-matters-for-value",
+          "excerpt": "AI may be deepening our crisis of connection, says Stanford research psychologist Jamil Zaki. Managing change with empathy helps leaders build trust, strengthen relationships, and get the most out of their AI investments.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Oct 27",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Agent Identity & Authorization",
+      "cards": [
+        {
+          "title": "GhostAction Crosses Paths With PolinRider: Inside the October Escalation",
+          "link": "https://blog.gitguardian.com/ghostaction-x-polinrider/",
+          "excerpt": "GhostAction pushed 72,026 commits to 22,964 repos in nine days, now targeting CI runners and developer machines with a launcher copied from PolinRider.",
+          "source": "GitGuardian Blog - Take Control of Your Secrets Security",
+          "date": "Oct 27",
+          "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/10/A-fake-font-file--a-hidden-VS-Code-task--and-a-cron-job-that-survives-cleanup.png",
+          "icon": null,
+          "domain": "blog.gitguardian.com",
+          "hn": null
+        },
+        {
+          "title": "Which test email domains pass AuthKit's deliverability check?",
+          "link": "https://workos.com/blog/authkit-test-email-domains-deliverability-check",
+          "excerpt": "AuthKit rejects sign-ups and invitations at domains that can't receive mail. The reserved test domains that keep seeded environments and CI suites green.",
+          "source": "WorkOS Blog",
+          "date": "Oct 27",
+          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae0d7ec9987718bbf67c6d3_authkit-deliverability-check-test-domains-og.webp",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null
+        },
+        {
+          "title": "The token that never expired: What the Zeabur breach teaches SaaS teams that store customer secrets",
+          "link": "https://workos.com/blog/zeabur-breach-customer-secrets",
+          "excerpt": "A cluster admin token created in 2024 and never rotated led to 3.2 million customer environment variables being read. What that means if your product stores credentials for your customers.",
+          "source": "WorkOS Blog",
+          "date": "Oct 27",
+          "image": "https://images.workoscdn.com/images/7173f589-29eb-4e7d-b522-256757dc38d4.png?auto=format&fit=clip&q=80",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
+          "link": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
+          "excerpt": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure. [...]",
+          "source": "BleepingComputer",
+          "date": "Oct 27",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/10/27/warp.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null
+        },
+        {
+          "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
+          "link": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+          "excerpt": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator. TrendAI, which analyzed three exposed server environments used by threat…",
+          "source": "The Hacker News",
+          "date": "Oct 27",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiniSfVwM2b4RVouLhc_nIvm2CdQCg9jtQDBVQP6BjvEC2NBaLFqU0A8RyC_GA3PkI4jF87W3h0GJ4xzycp6LAd4I3eRh3JnhnM9yi7CZ9dX2Pfe3MdDaaUSyrDUy1ksA-fdq0bUVzWcFRmS-JWOy3z7xiWB70DzgXLst_YspRqbGIAyv85_D4H9sPT7Sq3/s1600/cyberstrikeai.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
+          "link": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+          "excerpt": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on affected setups. The flaw is in builds that use the OpenSSL backend with mutual-TLS, where the server…",
+          "source": "The Hacker News",
+          "date": "Oct 27",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6ae8TupuVJ4B0uHZJxwQnaqstuuA42Jwt_Zh7m9RwCBp_IrCYuChUaac6fUphOhpalVEC8tfhGsYGxt1lmswBobM-r-ds6t0uEMSV9HZKT_dYcigHPxGJQo7dcJte96ymjxwSREmiGulG6xPIX4Hx3visDSuyaX2DJ3HRcctAz0Jw1T9ALkCEwZUlMsQ/s1600/goahead.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+          "link": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+          "excerpt": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices. The vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds write affecting CoreGraphics that could result in arbitrary code execution when…",
+          "source": "The Hacker News",
+          "date": "Oct 27",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqZx9ghfLBFufN5Q4s1dq2U1rXwenlfzU7UsqQfLWn3AEUe5CX3krGuvC6DM4mF2T9MmscvntBNxmgU7UjNOnfJQteKvuAs-4Nq0vJ3TnTkuFy1TRO3ibdh2Ekqi_WqiInvPkXjYlnvrCuYb5mb8neOOqBbmf_034wh8MPOLPKW2Nvvezpb2LFNXPbeUa6/s1600/apple-patch.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws",
+          "link": "https://www.securityweek.com/tailscale-rushes-patches-after-uncoordinated-disclosure-of-tailworm-flaws/",
+          "excerpt": "Tailscale is preparing a patch for Tailscale SSH flaws whose details went public over the weekend, before any fixes had been released. The post Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Oct 27",
+          "image": "https://www.securityweek.com/wp-content/uploads/2024/04/vulnerability.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null
+        },
+        {
+          "title": "Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk",
+          "link": "https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/",
+          "excerpt": "A leaked SquareML access key could have been used to access a database containing personal and health information. The post Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Oct 27",
+          "image": "https://www.securityweek.com/wp-content/uploads/2025/10/bank-finance-lender-credit-union-hack.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null
+        },
+        {
+          "title": "Unexplained DreamHost Incident Prompts Email, FTP Password Resets",
+          "link": "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/",
+          "excerpt": "The company says it reacted to an issue affecting some of its systems, including DreamHost webmail. The post Unexplained DreamHost Incident Prompts Email, FTP Password Resets appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Oct 27",
+          "image": "https://www.securityweek.com/wp-content/uploads/2025/08/password-manager.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null
+        },
+        {
+          "title": "iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18",
+          "link": "https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/",
+          "excerpt": "Apple patched 286 vulnerabilities in iOS and macOS 27.2 and brought the fix for an exploited CoreGraphics zero-day to older iPhones. The post iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18 appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Oct 27",
+          "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Apple-iOS-macOS-Patches.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "Powering the agentic enterprise with latest innovations in Oracle AI Database@Google Cloud",
+          "link": "https://cloud.google.com/blog/products/databases/oracle-ai-databasegoogle-cloud-whats-new-at-oracle-ai-world/",
+          "excerpt": "For decades, core enterprise operations — from global supply chains and financial ledgers to billing engines — have relied on the performance and transactional integrity of Oracle databases. Today at Oracle AI World in Las Vegas, Google Cloud and Oracle are expanding our partnership across the AI…",
+          "source": "Cloud Blog",
+          "date": "Oct 27",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/10_-_Databases.max-2600x2600.jpg",
+          "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
+          "domain": "cloud.google.com",
+          "hn": null
+        },
+        {
+          "title": "Securely connecting Gemini Enterprise to Snowflake data",
+          "link": "https://cloud.google.com/blog/products/data-analytics/bridge-gemini-enterprise-and-snowflake-with-google-adk/",
+          "excerpt": "Enterprise AI needs to go beyond simple chat interfaces. To provide real value, AI agents must access your data warehouses to generate actionable insights, all while maintaining strict security and data governance.This guide explores how to build a secure bridge between Google Cloud’s Gemini…",
+          "source": "Cloud Blog",
+          "date": "Oct 27",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_rLGaLNc.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null
+        },
+        {
+          "title": "Agent Observability FAQ: Understand the value of monitoring, evaluating, and improving your AI agents",
+          "link": "https://grafana.com/blog/agent-observability-faq-understand-the-value-of-monitoring-evaluating-and-improving-your-ai-agents/",
+          "excerpt": "Agents have quickly become part of the tech landscape as organizations embrace AI across their businesses. But embracing agents also means embracing the monitoring best practices that have long been part of engineers' workflows: tracking performance, catching errors, and responding to incidents…",
+          "source": "Grafana Labs blog on Grafana Labs",
+          "date": "Oct 27",
+          "image": "https://a-us.storyblok.com/f/1022730/1200x630/d88c896117/agent-o11y-faq-meta.jpeg/m/1200x630/filters:quality(80)/",
+          "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
+          "domain": "grafana.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "Extend GitLab Duo Agent Platform into your business systems",
+          "link": "https://about.gitlab.com/blog/extend-gitlab-duo-agent-platform-into-your-business-systems/",
+          "excerpt": "Developers mostly use GitLab Duo Agent Platform where they already work: the IDE, merge requests, and issues. But DevSecOps teams also support the business systems the rest of the company runs on, and those systems break too.In Salesforce, for example, when a validation fails, a callout times out,…",
+          "source": "GitLab",
+          "date": "Oct 27",
+          "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1793038948/do3owb7ivg2uqixoeiqo.jpg",
+          "icon": null,
+          "domain": "about.gitlab.com",
+          "hn": null
+        },
+        {
+          "title": "Gemini Robotics Embodied Reasoning 2 is now available on Google Cloud",
+          "link": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud/",
+          "excerpt": "Earlier this year, we introduced Gemini Robotics 2 — our next-generation intelligence layer enabling robots to think, act, and adapt in the physical world. At the core of this breakthrough is Gemini Robotics Embodied Reasoning 2 (ER 2), a specialized Gemini model that serves as a robot’s…",
+          "source": "Cloud Blog",
+          "date": "Oct 27",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/gemini-robotics-2__blog__cover.width-2200.fo.max-600x600.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null
+        },
+        {
+          "title": "Bringing Google TPUs to Oracle Cloud Infrastructure",
+          "link": "https://cloud.google.com/blog/products/infrastructure/bringing-google-tpus-to-oracle-cloud-infrastructure/",
+          "excerpt": "As AI workloads scale across every industry, organizations need compute options that optimize throughput, latency, and unit economics across the AI lifecycle. To meet this demand, Oracle and Google Cloud are partnering to bring Google Tensor Processing Units (TPUs) to Oracle Cloud Infrastructure…",
+          "source": "Cloud Blog",
+          "date": "Oct 27",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Blog_Headers_-_Cloudstyle_3.0_2.max-600x600.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null
+        },
+        {
+          "title": "Publishing LMS courses with a Kiro SCORM pipeline",
+          "link": "https://aws.amazon.com/blogs/architecture/publishing-lms-courses-with-a-kiro-scorm-pipeline/",
+          "excerpt": "See how to use Kiro, an agentic AI, to automate converting raw training material into compliant SCORM packages that are ready to upload to a learning management system (LMS).",
+          "source": "AWS Architecture Blog",
+          "date": "Oct 27",
+          "image": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/26/ARCHBLOG-1570-1-1.png",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null
+        },
+        {
+          "title": "How Anchorage Digital and Turnkey verify code with AWS Nitro Enclaves",
+          "link": "https://aws.amazon.com/blogs/architecture/how-anchorage-digital-and-turnkey-verify-code-with-aws-nitro-enclaves/",
+          "excerpt": "Anchorage Digital and Turnkey built verifiable infrastructure on AWS Nitro Enclaves so crypto wallets can cryptographically verify which code parsed a transaction. This post covers the architecture, the attestation-gated access pattern, and how it extends to any high-trust workflow beyond…",
+          "source": "AWS Architecture Blog",
+          "date": "Oct 27",
+          "image": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/09/ARCHBLOG-1598-1-1.png",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "How AI agents shape experts’ judgment calls",
+          "link": "https://www.anthropic.com/research/agents-judgment-calls",
+          "excerpt": "As AI does more of the hands-on work, the hope is that experts still make the judgment calls, meaning the decisions with more than one defensible answer. We tested this with 50 professional analysts who did a statistical analysis with Claude Code. On each key decision, we randomly assigned which…",
+          "source": "Anthropic Research",
+          "date": "Oct 27",
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b3aee146e4ef35b394b2b626d5eaf5faaee741aa-1200x630.jpg",
+          "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+          "domain": "anthropic.com",
+          "hn": null
+        },
+        {
+          "title": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
+          "link": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
+          "excerpt": "Owners of AI-run firms would evade liability for \"reckless\" AI, US Rep. Comer says.",
+          "source": "Ars Technica - All content",
+          "date": "Oct 27",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/09/robot-phone-headset-500x500-1793134828.jpg",
+          "icon": null,
+          "domain": "arstechnica.com",
+          "hn": null
+        },
+        {
+          "title": "Guidewire buys Hyperexponential for $1.7B in cash",
+          "link": "https://techcrunch.com/2026/10/27/guidewire-buys-hyperexponential-for-1-7b-in-cash/",
+          "excerpt": "The deal, expected to close sometime next year, is to help bring AI agents to work alongside humans to underwrite, analyze, and price decisions.",
+          "source": "TechCrunch",
+          "date": "Oct 27",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/Golden-AI-finance-collage.png?resize=1200,600",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
+          "link": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
+          "excerpt": "The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access.",
+          "source": "TechCrunch",
+          "date": "Oct 27",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/05/ai-agents-GettyImages-2229880232.jpg?resize=1200,675",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
+          "hn": null
+        },
+        {
+          "title": "Early progress on accelerating drug development with Claude",
+          "link": "https://www.anthropic.com/research/early-progress-drug-development",
+          "excerpt": "We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.",
+          "source": "Anthropic Research",
+          "date": "Oct 27",
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6a50f5ba4c0931f8d2c411f26d860955c1efeae7-1200x630.jpg",
+          "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+          "domain": "anthropic.com",
+          "hn": null
+        },
+        {
+          "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+          "link": "https://www.anthropic.com/news/expanding-partnership-gsa",
+          "excerpt": "We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and the Claude API.",
+          "source": "Anthropic",
+          "date": "Oct 27",
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4e3bfa972a8ec391977288fa36de3da1ecd78232-1920x1080.webp",
+          "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+          "domain": "anthropic.com",
+          "hn": null
+        },
+        {
+          "title": "Moxnox 1.0: NT-Like, POSIX-Compatible OS Running Atop Btrfs",
+          "link": "https://github.com/maharmstone/moxnox",
+          "excerpt": "NT-like POSIX-compatible operating system. Contribute to maharmstone/moxnox development by creating an account on GitHub.",
+          "source": "github.com via Hacker News",
+          "date": "Oct 27",
+          "image": "https://opengraph.githubassets.com/6abe816f18bfe723e7c207a7318e1059fb4c1dbfb84df56566bd2eee4e4842bd/maharmstone/moxnox",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "12 points · 3 comments"
+        },
+        {
+          "title": "Reviewers rarely talk about reliability. Owners bring it up twice as often",
+          "link": "https://www.bettascore.ai/research/reliability-reviewers-vs-owners",
+          "excerpt": "Across 657 products in 19 categories, Reddit owners bring up reliability and support in 13% of their opinions, YouTube reviewers in 7%. On apps, 71% of owner opinions are negative. Data to download.",
+          "source": "bettascore.ai via Hacker News",
+          "date": "Oct 27",
+          "image": "https://www.bettascore.ai/research/reliability-reviewers-vs-owners/image/16x9",
+          "icon": "https://www.bettascore.ai/apple-touch-icon.png",
+          "domain": "bettascore.ai",
+          "hn": "59 points · 62 comments"
+        }
+      ]
+    }
+  ]
+}
