@@ -1,19 +1,19 @@
 {
   "date": "2026-10-28",
   "lead": {
-    "title": "Scale agents securely with IAM Helper Agent Skills and MCP Tools",
-    "link": "https://cloud.google.com/blog/products/identity-security/scale-agents-securely-with-iam-helper-agent-skills-and-mcp-tools/",
-    "excerpt": "As organizations adopt autonomous agents to build applications, securing identities and access has become more challenging. Developers relying on agents to provision cloud resources, write Terraform, and deploy microservices at machine-speed only find their CI/CD pipelines blocked even faster as…",
-    "source": "Security & Identity",
-    "date": "Oct 27",
-    "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/17_-_Security__Identity_NrORvDT.max-2600x2600.jpg",
+    "title": "\"No human at the helm\": Delaware plan would let AI agents run businesses",
+    "link": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
+    "excerpt": "Owners of AI-run firms would evade liability for \"reckless\" AI, US Rep. Comer says.",
+    "source": "arstechnica.com via Hacker News",
+    "date": "Oct 28",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/09/robot-phone-headset-1152x648.jpg",
     "image_credit": null,
-    "section": "Agent Identity & Authorization",
+    "section": "AI Agents & Agent Security",
     "pinned": false,
     "note": null,
     "labels": [
-      "Agent Identity & Authorization",
-      "14h ago"
+      "AI Agents & Agent Security",
+      "under 1h ago"
     ],
     "also": []
   },
@@ -25,7 +25,7 @@
       "link_domain": "oioannou.com",
       "source": "Hacker News",
       "domain": "oioannou.com",
-      "meta": "Hacker News · 629 points · 624 comments · 18h ago",
+      "meta": "Hacker News · 634 points · 629 comments · 21h ago",
       "also": [],
       "image": "https://oioannou.com/img/blog-by-orestis.jpg",
       "icon": "https://oioannou.com/favicon.ico"
@@ -37,7 +37,7 @@
       "link_domain": "stanforddaily.com",
       "source": "Hacker News",
       "domain": "stanforddaily.com",
-      "meta": "Hacker News · 501 points · 269 comments · 14h ago",
+      "meta": "Hacker News · 520 points · 274 comments · 17h ago",
       "also": [],
       "image": "https://stanforddaily.com/wp-content/uploads/2026/10/Green-Library.png",
       "icon": "https://stanforddaily.com/wp-content/uploads/2019/03/cropped-DailyIcon-CardinalRed.png?w=180"
@@ -49,22 +49,10 @@
       "link_domain": "spectrum.ieee.org",
       "source": "Hacker News",
       "domain": "spectrum.ieee.org",
-      "meta": "Hacker News · 470 points · 215 comments · 18h ago",
+      "meta": "Hacker News · 475 points · 216 comments · 21h ago",
       "also": [],
       "image": "https://spectrum.ieee.org/media-library/surreal-collage-of-a-womans-face-with-geometric-shapes-pencil-and-wikipedia-globe.png?id=68486571&width=1200&height=600&coordinates=0%2C167%2C0%2C168",
       "icon": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNjU5NjY0OS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTg0ODgxODUwNn0.1LlzHtxZSVXyzapxWjeSrRIRu5qo3CeB8FaWpd2tl_o/img.png?width=192&height=192"
-    },
-    {
-      "title": "The Mythical Man-Month in the Age of AI",
-      "thread": "https://news.ycombinator.com/item?id=50255298",
-      "link": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
-      "link_domain": "j11g.com",
-      "source": "Hacker News",
-      "domain": "j11g.com",
-      "meta": "Hacker News · 450 points · 314 comments · 23h ago",
-      "also": [],
-      "image": "https://j11g.com/content/images/cern-resized.jpg",
-      "icon": "https://j11g.com/content/images/favicon.ico"
     },
     {
       "title": "Police are using AI to pull over drivers for 'suspicious' behavior",
@@ -73,22 +61,10 @@
       "link_domain": "gizmodo.com",
       "source": "Hacker News",
       "domain": "gizmodo.com",
-      "meta": "Hacker News · 368 points · 280 comments · 13h ago",
+      "meta": "Hacker News · 370 points · 283 comments · 15h ago",
       "also": [],
       "image": null,
       "icon": "https://gizmodo.com/favicon.ico"
-    },
-    {
-      "title": "Amazon Is Gutting Its AI Division After Sustained Failure",
-      "thread": "https://news.ycombinator.com/item?id=50261589",
-      "link": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
-      "link_domain": "futurism.com",
-      "source": "Hacker News",
-      "domain": "futurism.com",
-      "meta": "Hacker News · 299 points · 228 comments · 13h ago",
-      "also": [],
-      "image": "https://futurism.com/wp-content/uploads/2026/07/amazon-gutting-ai-division-failure.jpg?w=1200",
-      "icon": "https://futurism.com/wp-content/uploads/2025/09/favicon.png?quality=85&w=180"
     },
     {
       "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
@@ -97,10 +73,22 @@
       "link_domain": "brangus.io",
       "source": "Hacker News",
       "domain": "brangus.io",
-      "meta": "Hacker News · 278 points · 121 comments · 10h ago",
+      "meta": "Hacker News · 325 points · 136 comments · 12h ago",
       "also": [],
       "image": "https://www.brangus.io/survival-llm/social-card.png",
       "icon": "https://www.brangus.io/favicon.ico"
+    },
+    {
+      "title": "Amazon Is Gutting Its AI Division After Sustained Failure",
+      "thread": "https://news.ycombinator.com/item?id=50261589",
+      "link": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
+      "link_domain": "futurism.com",
+      "source": "Hacker News",
+      "domain": "futurism.com",
+      "meta": "Hacker News · 314 points · 240 comments · 16h ago",
+      "also": [],
+      "image": "https://futurism.com/wp-content/uploads/2026/07/amazon-gutting-ai-division-failure.jpg?w=1200",
+      "icon": "https://futurism.com/wp-content/uploads/2025/09/favicon.png?quality=85&w=180"
     },
     {
       "title": "Here be monsters: What do you still need to know when agents do the work?",
@@ -109,7 +97,7 @@
       "link_domain": "blog.adrq.dev",
       "source": "Hacker News",
       "domain": "blog.adrq.dev",
-      "meta": "Hacker News · 166 points · 89 comments · 16h ago",
+      "meta": "Hacker News · 169 points · 93 comments · 19h ago",
       "also": [],
       "image": "https://cdn.hashnode.com/uploads/og-images/69b44e3d6e27dd07d92bbf57/3a278202-0f64-4cf0-9a32-bfd202f3a073.png",
       "icon": "https://cdn.hashnode.com/uploads/favicons/69b44e3d6e27dd07d92bbf57/8a84d0e2-5b45-470c-949f-3c5402886a45.png"
@@ -121,10 +109,22 @@
       "link_domain": "thenumb.at",
       "source": "Lobsters",
       "domain": "thenumb.at",
-      "meta": "Lobsters · 24 points · 9 comments · 15h ago",
+      "meta": "Lobsters · 25 points · 9 comments · 17h ago",
       "also": [],
       "image": null,
       "icon": "https://thenumb.at/icon.ico"
+    },
+    {
+      "title": "This is not sustainable",
+      "thread": "https://lobste.rs/s/cpaibp/this_is_not_sustainable",
+      "link": "https://www.netmeister.org/blog/defense-ddos.html",
+      "link_domain": "netmeister.org",
+      "source": "Lobsters",
+      "domain": "netmeister.org",
+      "meta": "Lobsters · 20 points · 3 comments · 4h ago",
+      "also": [],
+      "image": "https://www.netmeister.org/blog/images/captain-haddock.jpg",
+      "icon": "https://www.netmeister.org/favicon.ico"
     }
   ],
   "sections": [
@@ -143,6 +143,17 @@
           "hn": null
         },
         {
+          "title": "AI’s time savings are disappearing into code review",
+          "link": "https://leaddev.com/ai/ais-time-savings-are-disappearing-into-code-review?utm_source=leaddev&utm_medium=RSS",
+          "excerpt": "The old friction hasn’t gone anywhere. The post AI’s time savings are disappearing into code review appeared first on LeadDev.",
+          "source": "LeadDev",
+          "date": "Oct 28",
+          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2024/10/meeting-fatigue-fin-07-2.jpg",
+          "icon": null,
+          "domain": "leaddev.com",
+          "hn": null
+        },
+        {
           "title": "Build specialized multimodal models with LFM3",
           "link": "https://huggingface.co/blog/LiquidAI/lfm3",
           "excerpt": "A Blog post by Liquid AI on Hugging Face",
@@ -152,7 +163,9 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Can we trust LLMs to judge whether a research idea is novel?",
           "link": "https://huggingface.co/blog/allenai/novelty-bench",
@@ -163,9 +176,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null
-        }
-      ],
-      "more": [
+        },
         {
           "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
           "link": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
@@ -295,6 +306,17 @@
       "name": "Agent Identity & Authorization",
       "cards": [
         {
+          "title": "Scale agents securely with IAM Helper Agent Skills and MCP Tools",
+          "link": "https://cloud.google.com/blog/products/identity-security/scale-agents-securely-with-iam-helper-agent-skills-and-mcp-tools/",
+          "excerpt": "As organizations adopt autonomous agents to build applications, securing identities and access has become more challenging. Developers relying on agents to provision cloud resources, write Terraform, and deploy microservices at machine-speed only find their CI/CD pipelines blocked even faster as…",
+          "source": "Security & Identity",
+          "date": "Oct 27",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/17_-_Security__Identity_NrORvDT.max-2600x2600.jpg",
+          "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
+          "domain": "cloud.google.com",
+          "hn": null
+        },
+        {
           "title": "GhostAction Crosses Paths With PolinRider: Inside the October Escalation",
           "link": "https://blog.gitguardian.com/ghostaction-x-polinrider/",
           "excerpt": "GhostAction pushed 72,026 commits to 22,964 repos in nine days, now targeting CI runners and developer machines with a launcher copied from PolinRider.",
@@ -315,7 +337,9 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null
-        },
+        }
+      ],
+      "more": [
         {
           "title": "The token that never expired: What the Zeabur breach teaches SaaS teams that store customer secrets",
           "link": "https://workos.com/blog/zeabur-breach-customer-secrets",
@@ -327,8 +351,7 @@
           "domain": "workos.com",
           "hn": null
         }
-      ],
-      "more": []
+      ]
     },
     {
       "name": "Security & AppSec",
@@ -356,12 +379,12 @@
           "hn": null
         },
         {
-          "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
-          "link": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
-          "excerpt": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on affected setups. The flaw is in builds that use the OpenSSL backend with mutual-TLS, where the server…",
+          "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
+          "link": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+          "excerpt": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report. The exploits were built in the lab after the model was prompted, not seen in any real attack, and…",
           "source": "The Hacker News",
-          "date": "Oct 27",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6ae8TupuVJ4B0uHZJxwQnaqstuuA42Jwt_Zh7m9RwCBp_IrCYuChUaac6fUphOhpalVEC8tfhGsYGxt1lmswBobM-r-ds6t0uEMSV9HZKT_dYcigHPxGJQo7dcJte96ymjxwSREmiGulG6xPIX4Hx3visDSuyaX2DJ3HRcctAz0Jw1T9ALkCEwZUlMsQ/s1600/goahead.jpg",
+          "date": "Oct 28",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSMl2C6S6mb-smamI35fLYotcPaercI_2PIgtuF78Q7PtQcFvFUKXkModTW4nRCh6FC7Xht2BltSGImRS2QNR4Lnc22S7UBU9V_0UDcZi2iDNXSlCJDqD4ApmJPqA_boFokj_9dTWKdzhjIgNt_Y47zumx_c5vrcJn5Vd-Xaowafv4HGCzCcqgDV4GGpo/s1600/hacker-chain.jpg",
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null
@@ -369,58 +392,58 @@
       ],
       "more": [
         {
-          "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
-          "link": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
-          "excerpt": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices. The vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds write affecting CoreGraphics that could result in arbitrary code execution when…",
+          "title": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
+          "link": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html",
+          "excerpt": "The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a domain associated with a bulletproof hosting provider (BPH) named Virtualine. The move was in response to the service being used to commit and facilitate prolific criminal activity, including \"the advertisement of sexually…",
           "source": "The Hacker News",
-          "date": "Oct 27",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqZx9ghfLBFufN5Q4s1dq2U1rXwenlfzU7UsqQfLWn3AEUe5CX3krGuvC6DM4mF2T9MmscvntBNxmgU7UjNOnfJQteKvuAs-4Nq0vJ3TnTkuFy1TRO3ibdh2Ekqi_WqiInvPkXjYlnvrCuYb5mb8neOOqBbmf_034wh8MPOLPKW2Nvvezpb2LFNXPbeUa6/s1600/apple-patch.jpg",
+          "date": "Oct 28",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAdfKblTUCEDUoHzYpHPcEPzHO6qKTr01uG2-x7YyIT5t_-xeFc27zuZ3yOK76rkhz-J8y_Z4MqmydEQUtiCEvry_2H43qaSJXDrWRbM1gs8wDVTBgi_NzxIXsGBMoX8zlzISFlvcJ8NdNSyeMIZh8z-aHkXCyBDPJ2l195Ji1XgnVu_A0Yhh3H2QvEyiA/s1600/servers.jpg",
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null
         },
         {
-          "title": "Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws",
-          "link": "https://www.securityweek.com/tailscale-rushes-patches-after-uncoordinated-disclosure-of-tailworm-flaws/",
-          "excerpt": "Tailscale is preparing a patch for Tailscale SSH flaws whose details went public over the weekend, before any fixes had been released. The post Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Oct 27",
-          "image": "https://www.securityweek.com/wp-content/uploads/2024/04/vulnerability.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
+          "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
+          "link": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
+          "excerpt": "Japan's GMO Internet Group is offering up to $1 million in total for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand. The reward program opened on October 28 and pays only if a tip helps lead to an arrest or an…",
+          "source": "The Hacker News",
+          "date": "Oct 28",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguDDZZalFBPLgf4YxDU_9FK46XXVkU3x0GKHeZHFd2WTdJ0cK5n1KCWDEOIvSgzHP4R14xmwLygLnnmyuBEVcHRVO7b9nIUZVcp5ehxIgFGrPyXZ3hZGwNa2bg8k4e_kkSHa2tyo05yPortQqRR_9g3yr-T0k0Tga9_26Pr0rs_MNIU8RndHMeq9r5Rr0/s1600/gmo.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
           "hn": null
         },
         {
-          "title": "Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk",
-          "link": "https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/",
-          "excerpt": "A leaked SquareML access key could have been used to access a database containing personal and health information. The post Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Oct 27",
-          "image": "https://www.securityweek.com/wp-content/uploads/2025/10/bank-finance-lender-credit-union-hack.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
+          "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
+          "link": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
+          "excerpt": "Tailscale has released version 1.104.4 to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the root user should be able to touch. The flaws are in how Tailscale SSH forwards network connections, a job the Tailscale background…",
+          "source": "The Hacker News",
+          "date": "Oct 28",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4t7YUY-idhgGJFpEuulM5zELQR4QNB-UKmsh7cyB5cdMH4AU_zumf3K27WBWgAw6ra28TvALm5fFeLrV_1wHJXeYy3azE1TcblP-1JSCPLF3mq-WKjUOXy3K-pfjhHtiwGkCoYhxfEMZGielHz2Bit6mLoNlnElmauP0RNcbXelNkAHIWI4s92qrymUQ/s1600/tailscale-patches.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
           "hn": null
         },
         {
-          "title": "Unexplained DreamHost Incident Prompts Email, FTP Password Resets",
-          "link": "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/",
-          "excerpt": "The company says it reacted to an issue affecting some of its systems, including DreamHost webmail. The post Unexplained DreamHost Incident Prompts Email, FTP Password Resets appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Oct 27",
-          "image": "https://www.securityweek.com/wp-content/uploads/2025/08/password-manager.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
+          "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+          "link": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+          "excerpt": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week. Oracle patched all three under a single identifier, CVE-2026-35273, in June. Its root is a server-side request forgery (SSRF)…",
+          "source": "The Hacker News",
+          "date": "Oct 28",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgiU-iVEycp9z-2dprGJhgl046M9ZvG7kGGwaXNzgFJg7XDubOoWWLvEuKAOczIcGuXU04db46Xa6pRMKO36ZS7Fu8Xkv7mNuPjHUS0zLTHkGlNWNRD2DLCznPf6jqvqamZSZGMBXSzh9gMYm-9sR-y7OgN7i7n6x0dfYxyl9QftWlfuQw0mpTteHy57k/s1600/sh.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
           "hn": null
         },
         {
-          "title": "iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18",
-          "link": "https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/",
-          "excerpt": "Apple patched 286 vulnerabilities in iOS and macOS 27.2 and brought the fix for an exploited CoreGraphics zero-day to older iPhones. The post iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18 appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Oct 27",
-          "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Apple-iOS-macOS-Patches.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
+          "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
+          "link": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
+          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are…",
+          "source": "The Hacker News",
+          "date": "Oct 28",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1vdoV4q9cDhhxBpH2lDPkUPc4WTkuwSmH93IS6MDM8fSYR4ZsKEakfK54cvOjHMFYGJA7Hri87MShqbPweb0BNmEXEsKJErbferZyq7_m7XdHLrb2bgmps_Bs_nu_w7RCiade8PPKSYv6NpxnWTG8pJD5CIUvI2E_cfWMqNBFTl4MXm2WKZaqL_T0DaO-/s1600/cisa-warning.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
           "hn": null
         }
       ]
@@ -535,17 +558,6 @@
           "hn": null
         },
         {
-          "title": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
-          "link": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
-          "excerpt": "Owners of AI-run firms would evade liability for \"reckless\" AI, US Rep. Comer says.",
-          "source": "Ars Technica - All content",
-          "date": "Oct 27",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/09/robot-phone-headset-500x500-1793134828.jpg",
-          "icon": null,
-          "domain": "arstechnica.com",
-          "hn": null
-        },
-        {
           "title": "Guidewire buys Hyperexponential for $1.7B in cash",
           "link": "https://techcrunch.com/2026/10/27/guidewire-buys-hyperexponential-for-1-7b-in-cash/",
           "excerpt": "The deal, expected to close sometime next year, is to help bring AI agents to work alongside humans to underwrite, analyze, and price decisions.",
@@ -555,9 +567,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
           "link": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
@@ -568,7 +578,9 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Early progress on accelerating drug development with Claude",
           "link": "https://www.anthropic.com/research/early-progress-drug-development",
@@ -592,6 +604,17 @@
           "hn": null
         },
         {
+          "title": "Artificial Analysis Intelligence Index v5",
+          "link": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+          "excerpt": "Index v5 features 2 new benchmarks and 3 upgrades. For the first time, the majority of the Index is built on private datasets",
+          "source": "artificialanalysis.ai via Hacker News",
+          "date": "Oct 28",
+          "image": "https://cdn.sanity.io/images/6vfeftx9/articles/c091ec22bdbb2a18ba5205e03dd14575b80f552e-1200x1200.jpg?w=1200&auto=format",
+          "icon": "https://artificialanalysis.ai/favicon.ico",
+          "domain": "artificialanalysis.ai",
+          "hn": "33 points · 42 comments"
+        },
+        {
           "title": "Git for the US Code",
           "link": "https://lexifina.com/blog/git-for-the-us-code",
           "excerpt": "Lawyers should be able to read a statute as it stood on any date and see which law wrote each phrase. A history of nine titles of the US Code, built by replaying every amendment, as the example.",
@@ -600,18 +623,7 @@
           "image": "https://lexifina.com/social-preview-v3.png?v=20261018",
           "icon": "https://lexifina.com/apple-touch-icon.png?v=20261017b",
           "domain": "lexifina.com",
-          "hn": "157 points · 74 comments"
-        },
-        {
-          "title": "Moxnox 1.0: NT-Like, POSIX-Compatible OS Running Atop Btrfs",
-          "link": "https://github.com/maharmstone/moxnox",
-          "excerpt": "NT-like POSIX-compatible operating system. Contribute to maharmstone/moxnox development by creating an account on GitHub.",
-          "source": "github.com via Hacker News",
-          "date": "Oct 27",
-          "image": "https://opengraph.githubassets.com/6abe816f18bfe723e7c207a7318e1059fb4c1dbfb84df56566bd2eee4e4842bd/maharmstone/moxnox",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "46 points · 8 comments"
+          "hn": "227 points · 116 comments"
         }
       ]
     }
