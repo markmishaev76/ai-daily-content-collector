@@ -1,19 +1,19 @@
 {
   "date": "2026-10-29",
   "lead": {
-    "title": "WorkOS makes the Cyber60 as CISOs put agent identity first",
-    "link": "https://workos.com/blog/workos-cyber60-2026-2027-ciso-survey",
-    "excerpt": "WorkOS is on the 2026-27 Cyber60. The CISO survey published with it shows 77% of enterprises run agents and only 34% give those agents their own identity.",
-    "source": "WorkOS Blog",
+    "title": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
+    "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+    "excerpt": "Claude Code burns ~15-20% of your tokens on a 3-word status line: a Bun preload that turns agent_summary off · by Flamerix AI, flamerix.ai · MIT - README.md",
+    "source": "gist.github.com via Hacker News",
     "date": "Oct 29",
-    "image": "https://images.workoscdn.com/images/cc6bebaf-e25f-40f4-9321-2f7da4c98b9e.png?auto=format&fit=clip&q=80",
+    "image": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png",
     "image_credit": null,
-    "section": "Agent Identity & Authorization",
+    "section": "News & Research",
     "pinned": false,
     "note": null,
     "labels": [
-      "Agent Identity & Authorization",
-      "3h ago"
+      "News & Research",
+      "2h ago"
     ],
     "also": []
   },
@@ -25,7 +25,7 @@
       "link_domain": "emudhra.we-have-a-problem.com",
       "source": "Hacker News",
       "domain": "emudhra.we-have-a-problem.com",
-      "meta": "Hacker News · 1.1k points · 383 comments · 17h ago",
+      "meta": "Hacker News · 1.1k points · 385 comments · 19h ago",
       "also": [
         {
           "source": "Lobsters",
@@ -42,7 +42,7 @@
       "link_domain": "blog.google",
       "source": "Hacker News",
       "domain": "blog.google",
-      "meta": "Hacker News · 841 points · 702 comments · 11h ago",
+      "meta": "Hacker News · 870 points · 716 comments · 13h ago",
       "also": [],
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png",
       "icon": "https://blog.google/favicon.ico"
@@ -54,7 +54,7 @@
       "link_domain": "religionnews.com",
       "source": "Hacker News",
       "domain": "religionnews.com",
-      "meta": "Hacker News · 445 points · 491 comments · 14h ago",
+      "meta": "Hacker News · 449 points · 496 comments · 16h ago",
       "also": [],
       "image": null,
       "icon": "https://religionnews.com/favicon.ico"
@@ -66,22 +66,10 @@
       "link_domain": "wired.com",
       "source": "Hacker News",
       "domain": "wired.com",
-      "meta": "Hacker News · 299 points · 157 comments · 7h ago",
+      "meta": "Hacker News · 310 points · 168 comments · 9h ago",
       "also": [],
       "image": "https://media.wired.com/photos/6ae126cfb5fdd6fa181bb24f/191:100/w_1280,c_limit/Security_Massive%20Leak%20Exposes%2041,000%20DHS%20Employees_v1.jpg",
       "icon": "https://www.wired.com/verso/static/wired-us/assets/favicon.ico"
-    },
-    {
-      "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
-      "thread": "https://news.ycombinator.com/item?id=50275626",
-      "link": "https://surgehq.ai/blog/dayjob-tax",
-      "link_domain": "surgehq.ai",
-      "source": "Hacker News",
-      "domain": "surgehq.ai",
-      "meta": "Hacker News · 216 points · 139 comments · 12h ago",
-      "also": [],
-      "image": "https://cdn.prod.website-files.com/68dcd2ceb173c46fa029931c/6ae0beffc0ef7d2c805991ec_6ae0bef7bc59db92222e060b_dayjob-tax-cover-v3.png",
-      "icon": "https://cdn.prod.website-files.com/68dc970bd6e945ea3fb0f426/6a5b7e19dbef008a2100f7c4_surge-favicon.png"
     },
     {
       "title": "Why Is This Fingerprinting Script Creating Bioweapons?",
@@ -90,10 +78,22 @@
       "link_domain": "nullpt.rs",
       "source": "Lobsters",
       "domain": "nullpt.rs",
-      "meta": "Lobsters · 31 points · 0 comments · 9h ago",
+      "meta": "Lobsters · 36 points · 1 comments · 11h ago",
       "also": [],
       "image": null,
       "icon": "https://nullpt.rs/favicon.ico"
+    },
+    {
+      "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+      "thread": "https://news.ycombinator.com/item?id=50275626",
+      "link": "https://surgehq.ai/blog/dayjob-tax",
+      "link_domain": "surgehq.ai",
+      "source": "Hacker News",
+      "domain": "surgehq.ai",
+      "meta": "Hacker News · 221 points · 143 comments · 14h ago",
+      "also": [],
+      "image": "https://cdn.prod.website-files.com/68dcd2ceb173c46fa029931c/6ae0beffc0ef7d2c805991ec_6ae0bef7bc59db92222e060b_dayjob-tax-cover-v3.png",
+      "icon": "https://cdn.prod.website-files.com/68dc970bd6e945ea3fb0f426/6a5b7e19dbef008a2100f7c4_surge-favicon.png"
     },
     {
       "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
@@ -102,7 +102,7 @@
       "link_domain": "arstechnica.com",
       "source": "Lobsters",
       "domain": "arstechnica.com",
-      "meta": "Lobsters · 27 points · 13 comments · 18h ago",
+      "meta": "Lobsters · 28 points · 13 comments · 20h ago",
       "also": [],
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2024/04/malware.jpg",
       "icon": "https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-300x300.png"
@@ -114,22 +114,10 @@
       "link_domain": "support.apple.com",
       "source": "Hacker News",
       "domain": "support.apple.com",
-      "meta": "Hacker News · 156 points · 76 comments · 16h ago",
+      "meta": "Hacker News · 160 points · 76 comments · 18h ago",
       "also": [],
       "image": null,
       "icon": "https://support.apple.com/favicon.ico"
-    },
-    {
-      "title": "Google AI gets cagey when asked who won the 2020 elections",
-      "thread": "https://news.ycombinator.com/item?id=50280178",
-      "link": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
-      "link_domain": "arstechnica.com",
-      "source": "Hacker News",
-      "domain": "arstechnica.com",
-      "meta": "Hacker News · 136 points · 65 comments · 7h ago",
-      "also": [],
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2181827335-1152x648.jpg",
-      "icon": "https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-300x300.png"
     },
     {
       "title": "Forging a Microsoft Edge Full Chain with Logic Bugs Only",
@@ -138,10 +126,22 @@
       "link_domain": "blog.orange.tw",
       "source": "Lobsters",
       "domain": "blog.orange.tw",
-      "meta": "Lobsters · 19 points · 1 comments · 14h ago",
+      "meta": "Lobsters · 22 points · 2 comments · 16h ago",
       "also": [],
       "image": "https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/pwnie-award-2026.webp",
       "icon": "https://blog.orange.tw/images/apple-touch-icon.png"
+    },
+    {
+      "title": "Google AI gets cagey when asked who won the 2020 elections",
+      "thread": "https://news.ycombinator.com/item?id=50280178",
+      "link": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
+      "link_domain": "arstechnica.com",
+      "source": "Hacker News",
+      "domain": "arstechnica.com",
+      "meta": "Hacker News · 142 points · 67 comments · 9h ago",
+      "also": [],
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2181827335-1152x648.jpg",
+      "icon": "https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-300x300.png"
     }
   ],
   "sections": [
@@ -177,17 +177,6 @@
       "name": "AI Agents & Agent Security",
       "cards": [
         {
-          "title": "Legora is building the agentic operating system for legal work",
-          "link": "https://openai.com/index/legora",
-          "excerpt": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-          "source": "OpenAI News",
-          "date": "Oct 28",
-          "image": null,
-          "icon": "https://openai.com/favicon.ico",
-          "domain": "openai.com",
-          "hn": null
-        },
-        {
           "title": "Why Agents Love Supabase",
           "link": "https://latent.space/p/supabase/",
           "excerpt": "Paul Copplestone and Ant Wilson on building the backend for AI agents",
@@ -208,9 +197,31 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null
+        },
+        {
+          "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
+          "link": "https://latent.space/p/ainews-gemini-4-carbon/",
+          "excerpt": "Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.",
+          "source": "Latent Space",
+          "date": "Oct 29",
+          "image": "https://latent.space/og/card/post/ainews-gemini-4-carbon/95760c867a2e9becf313c47b14f0386243bc4596c54259bb71809eb955f9dad9.png",
+          "icon": "https://latent.space/favicon.png",
+          "domain": "latent.space",
+          "hn": null
         }
       ],
       "more": [
+        {
+          "title": "Legora is building the agentic operating system for legal work",
+          "link": "https://openai.com/index/legora",
+          "excerpt": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+          "source": "OpenAI News",
+          "date": "Oct 28",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null
+        },
         {
           "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
           "link": "https://openai.com/index/openai-servicenow-partnership-expansion",
@@ -277,6 +288,17 @@
     {
       "name": "Agent Identity & Authorization",
       "cards": [
+        {
+          "title": "WorkOS makes the Cyber60 as CISOs put agent identity first",
+          "link": "https://workos.com/blog/workos-cyber60-2026-2027-ciso-survey",
+          "excerpt": "WorkOS is on the 2026-27 Cyber60. The CISO survey published with it shows 77% of enterprises run agents and only 34% give those agents their own identity.",
+          "source": "WorkOS Blog",
+          "date": "Oct 29",
+          "image": "https://images.workoscdn.com/images/cc6bebaf-e25f-40f4-9321-2f7da4c98b9e.png?auto=format&fit=clip&q=80",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null
+        },
         {
           "title": "Rotating 1,000 Service Account Passwords With Zero Outages: Why the Inventory Comes First",
           "link": "https://blog.gitguardian.com/rotating-1-000-service-account-passwords-with-zero-outages-why-the-inventory-comes-first/",
@@ -502,17 +524,6 @@
       "name": "News & Research",
       "cards": [
         {
-          "title": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
-          "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-          "excerpt": "Claude Code burns ~15-20% of your tokens on a 3-word status line: a Bun preload that turns agent_summary off · by Flamerix AI, flamerix.ai · MIT - README.md",
-          "source": "gist.github.com via Hacker News",
-          "date": "Oct 29",
-          "image": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "gist.github.com",
-          "hn": "29 points · 0 comments"
-        },
-        {
           "title": "Anduril now says its BlueChip laptop will meet Buy American standards at launch",
           "link": "https://www.theverge.com/policy/1021554/anduril-bluechip-65-percent-domestic-buy-american",
           "excerpt": "On Tuesday, defense contractor Anduril and chipmaker Qualcomm announced a partnership to build laptops entirely in the United States, starting with a single model in 2027. They also announced a \"long-term goal\" of pushing the computer industry to create \"a fully domestic supply chain.\" Even a…",
@@ -533,9 +544,7 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null
-        }
-      ],
-      "more": [
+        },
         {
           "title": "AI for Science expands to foundations and research institutions",
           "link": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
@@ -546,28 +555,30 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "Zillow to pay $212.5M to settle class action for real estate venture",
+          "link": "https://www.reuters.com/legal/government/zillow-pay-2125-million-settle-class-action-over-failed-real-estate-venture-2026-10-28/",
+          "excerpt": "27 points · 4 comments",
+          "source": "reuters.com via Hacker News",
+          "date": "Oct 29",
+          "image": null,
+          "icon": "https://www.reuters.com/favicon.ico",
+          "domain": "reuters.com",
+          "hn": "27 points · 4 comments"
         },
         {
-          "title": "Richest 0.1% (8M) produce more carbon pollution than 3.5B",
-          "link": "https://www.oxfam.org/en/press-releases/ultra-rich-01-produce-more-carbon-pollution-nearly-half-humanity-while-cashing",
-          "excerpt": "58 points · 10 comments",
-          "source": "oxfam.org via Hacker News",
+          "title": "The Milwaukee Brewers win the first World Series title in franchise history",
+          "link": "https://www.cnn.com/2026/10/28/sport/live-news/game-5-world-series",
+          "excerpt": "The Milwaukee Brewers erased nearly six decades of heartache, defeating the Tampa Bay Rays in Game 5 to clinch the franchise’s first World Series title.",
+          "source": "cnn.com via Hacker News",
           "date": "Oct 29",
-          "image": "https://www.oxfam.org,",
-          "icon": "https://www.oxfam.org/apple-touch-icon.png",
-          "domain": "oxfam.org",
-          "hn": "58 points · 10 comments"
-        },
-        {
-          "title": "Electronic fibers weave touchscreen into sleeve that survives machine washing",
-          "link": "https://www.designboom.com/technology/electronic-fibers-touchscreen-sleeve-machine-washing-national-university-singapore-nus-tural-khudiyev/",
-          "excerpt": "researchers at the national university of singapore (NUS) develop a washable textile touchscreen that displays video and responds to touch.",
-          "source": "designboom.com via Hacker News",
-          "date": "Oct 29",
-          "image": "https://www.designboom.com/twitterimages/uploads/2026/10/electronic-fibers-touchscreen-sleeve-machine-washing-national-university-singapore-nus-tural-khudiyev-designboom-1200.jpg",
-          "icon": "https://www.designboom.com/favicon.ico",
-          "domain": "designboom.com",
-          "hn": "21 points · 0 comments"
+          "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2302470713.jpg?c=16x9&q=w_800,c_fill",
+          "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png",
+          "domain": "cnn.com",
+          "hn": "70 points · 28 comments"
         },
         {
           "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
@@ -578,7 +589,7 @@
           "image": "https://divagr.com/qwenputer/og.png",
           "icon": "https://divagr.com/favicon.svg",
           "domain": "divagr.com",
-          "hn": "191 points · 43 comments"
+          "hn": "275 points · 62 comments"
         },
         {
           "title": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
@@ -589,7 +600,7 @@
           "image": null,
           "icon": "https://alpinelinux.org/alpine-logo.ico",
           "domain": "alpinelinux.org",
-          "hn": "112 points · 44 comments"
+          "hn": "136 points · 57 comments"
         }
       ]
     }
