@@ -13,7 +13,7 @@
     "note": null,
     "labels": [
       "Agent Identity & Authorization",
-      "1h ago"
+      "3h ago"
     ],
     "also": []
   },
@@ -25,7 +25,7 @@
       "link_domain": "emudhra.we-have-a-problem.com",
       "source": "Hacker News",
       "domain": "emudhra.we-have-a-problem.com",
-      "meta": "Hacker News · 1k points · 378 comments · 15h ago",
+      "meta": "Hacker News · 1.1k points · 383 comments · 17h ago",
       "also": [
         {
           "source": "Lobsters",
@@ -42,22 +42,10 @@
       "link_domain": "blog.google",
       "source": "Hacker News",
       "domain": "blog.google",
-      "meta": "Hacker News · 812 points · 673 comments · 9h ago",
+      "meta": "Hacker News · 841 points · 702 comments · 11h ago",
       "also": [],
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png",
       "icon": "https://blog.google/favicon.ico"
-    },
-    {
-      "title": "This is not sustainable",
-      "thread": "https://lobste.rs/s/cpaibp/this_is_not_sustainable",
-      "link": "https://www.netmeister.org/blog/defense-ddos.html",
-      "link_domain": "netmeister.org",
-      "source": "Lobsters",
-      "domain": "netmeister.org",
-      "meta": "Lobsters · 119 points · 32 comments · 22h ago",
-      "also": [],
-      "image": "https://www.netmeister.org/blog/images/captain-haddock.jpg",
-      "icon": "https://www.netmeister.org/favicon.ico"
     },
     {
       "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
@@ -66,7 +54,7 @@
       "link_domain": "religionnews.com",
       "source": "Hacker News",
       "domain": "religionnews.com",
-      "meta": "Hacker News · 436 points · 479 comments · 12h ago",
+      "meta": "Hacker News · 445 points · 491 comments · 14h ago",
       "also": [],
       "image": null,
       "icon": "https://religionnews.com/favicon.ico"
@@ -78,7 +66,7 @@
       "link_domain": "wired.com",
       "source": "Hacker News",
       "domain": "wired.com",
-      "meta": "Hacker News · 282 points · 142 comments · 5h ago",
+      "meta": "Hacker News · 299 points · 157 comments · 7h ago",
       "also": [],
       "image": "https://media.wired.com/photos/6ae126cfb5fdd6fa181bb24f/191:100/w_1280,c_limit/Security_Massive%20Leak%20Exposes%2041,000%20DHS%20Employees_v1.jpg",
       "icon": "https://www.wired.com/verso/static/wired-us/assets/favicon.ico"
@@ -90,10 +78,22 @@
       "link_domain": "surgehq.ai",
       "source": "Hacker News",
       "domain": "surgehq.ai",
-      "meta": "Hacker News · 203 points · 127 comments · 10h ago",
+      "meta": "Hacker News · 216 points · 139 comments · 12h ago",
       "also": [],
       "image": "https://cdn.prod.website-files.com/68dcd2ceb173c46fa029931c/6ae0beffc0ef7d2c805991ec_6ae0bef7bc59db92222e060b_dayjob-tax-cover-v3.png",
       "icon": "https://cdn.prod.website-files.com/68dc970bd6e945ea3fb0f426/6a5b7e19dbef008a2100f7c4_surge-favicon.png"
+    },
+    {
+      "title": "Why Is This Fingerprinting Script Creating Bioweapons?",
+      "thread": "https://lobste.rs/s/gvy5gz/why_is_this_fingerprinting_script",
+      "link": "https://nullpt.rs/fingerprinting-bioweapons",
+      "link_domain": "nullpt.rs",
+      "source": "Lobsters",
+      "domain": "nullpt.rs",
+      "meta": "Lobsters · 31 points · 0 comments · 9h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://nullpt.rs/favicon.ico"
     },
     {
       "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
@@ -102,7 +102,7 @@
       "link_domain": "arstechnica.com",
       "source": "Lobsters",
       "domain": "arstechnica.com",
-      "meta": "Lobsters · 25 points · 12 comments · 16h ago",
+      "meta": "Lobsters · 27 points · 13 comments · 18h ago",
       "also": [],
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2024/04/malware.jpg",
       "icon": "https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-300x300.png"
@@ -114,22 +114,10 @@
       "link_domain": "support.apple.com",
       "source": "Hacker News",
       "domain": "support.apple.com",
-      "meta": "Hacker News · 154 points · 73 comments · 14h ago",
+      "meta": "Hacker News · 156 points · 76 comments · 16h ago",
       "also": [],
       "image": null,
       "icon": "https://support.apple.com/favicon.ico"
-    },
-    {
-      "title": "Why Is This Fingerprinting Script Creating Bioweapons?",
-      "thread": "https://lobste.rs/s/gvy5gz/why_is_this_fingerprinting_script",
-      "link": "https://nullpt.rs/fingerprinting-bioweapons",
-      "link_domain": "nullpt.rs",
-      "source": "Lobsters",
-      "domain": "nullpt.rs",
-      "meta": "Lobsters · 22 points · 0 comments · 7h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://nullpt.rs/favicon.ico"
     },
     {
       "title": "Google AI gets cagey when asked who won the 2020 elections",
@@ -138,10 +126,22 @@
       "link_domain": "arstechnica.com",
       "source": "Hacker News",
       "domain": "arstechnica.com",
-      "meta": "Hacker News · 130 points · 63 comments · 5h ago",
+      "meta": "Hacker News · 136 points · 65 comments · 7h ago",
       "also": [],
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2181827335-1152x648.jpg",
       "icon": "https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-300x300.png"
+    },
+    {
+      "title": "Forging a Microsoft Edge Full Chain with Logic Bugs Only",
+      "thread": "https://lobste.rs/s/ansfvi/forging_microsoft_edge_full_chain_with",
+      "link": "https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/",
+      "link_domain": "blog.orange.tw",
+      "source": "Lobsters",
+      "domain": "blog.orange.tw",
+      "meta": "Lobsters · 19 points · 1 comments · 14h ago",
+      "also": [],
+      "image": "https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/pwnie-award-2026.webp",
+      "icon": "https://blog.orange.tw/images/apple-touch-icon.png"
     }
   ],
   "sections": [
@@ -502,6 +502,28 @@
       "name": "News & Research",
       "cards": [
         {
+          "title": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
+          "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+          "excerpt": "Claude Code burns ~15-20% of your tokens on a 3-word status line: a Bun preload that turns agent_summary off · by Flamerix AI, flamerix.ai · MIT - README.md",
+          "source": "gist.github.com via Hacker News",
+          "date": "Oct 29",
+          "image": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "gist.github.com",
+          "hn": "29 points · 0 comments"
+        },
+        {
+          "title": "Anduril now says its BlueChip laptop will meet Buy American standards at launch",
+          "link": "https://www.theverge.com/policy/1021554/anduril-bluechip-65-percent-domestic-buy-american",
+          "excerpt": "On Tuesday, defense contractor Anduril and chipmaker Qualcomm announced a partnership to build laptops entirely in the United States, starting with a single model in 2027. They also announced a \"long-term goal\" of pushing the computer industry to create \"a fully domestic supply chain.\" Even a…",
+          "source": "The Verge",
+          "date": "Oct 29",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/2026-BlueChip-InField-5-Web.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "icon": null,
+          "domain": "theverge.com",
+          "hn": null
+        },
+        {
           "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
           "link": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
           "excerpt": "Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gains\" in coding, agentic tasks, and cybersecurity. In an announcement on Wednesday, Google highlights Carbon's top spot on the Artificial Analysis Intelligence Index (v5.0) benchmark, with Claude Opus 5.5 and…",
@@ -511,7 +533,9 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null
-        },
+        }
+      ],
+      "more": [
         {
           "title": "AI for Science expands to foundations and research institutions",
           "link": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
@@ -524,18 +548,27 @@
           "hn": null
         },
         {
-          "title": "MicroZig to Adopt Strict No LLM / No AI Policy",
-          "link": "https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md",
-          "excerpt": "MicroZig is a toolbox for building embedded applications in Zig. - ZigEmbeddedGroup/microzig",
-          "source": "github.com via Hacker News",
+          "title": "Richest 0.1% (8M) produce more carbon pollution than 3.5B",
+          "link": "https://www.oxfam.org/en/press-releases/ultra-rich-01-produce-more-carbon-pollution-nearly-half-humanity-while-cashing",
+          "excerpt": "58 points · 10 comments",
+          "source": "oxfam.org via Hacker News",
           "date": "Oct 29",
-          "image": "https://repository-images.githubusercontent.com/349134426/ad5d8e71-d4a8-496c-a54b-c4c0042eb88b",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "31 points · 25 comments"
-        }
-      ],
-      "more": [
+          "image": "https://www.oxfam.org,",
+          "icon": "https://www.oxfam.org/apple-touch-icon.png",
+          "domain": "oxfam.org",
+          "hn": "58 points · 10 comments"
+        },
+        {
+          "title": "Electronic fibers weave touchscreen into sleeve that survives machine washing",
+          "link": "https://www.designboom.com/technology/electronic-fibers-touchscreen-sleeve-machine-washing-national-university-singapore-nus-tural-khudiyev/",
+          "excerpt": "researchers at the national university of singapore (NUS) develop a washable textile touchscreen that displays video and responds to touch.",
+          "source": "designboom.com via Hacker News",
+          "date": "Oct 29",
+          "image": "https://www.designboom.com/twitterimages/uploads/2026/10/electronic-fibers-touchscreen-sleeve-machine-washing-national-university-singapore-nus-tural-khudiyev-designboom-1200.jpg",
+          "icon": "https://www.designboom.com/favicon.ico",
+          "domain": "designboom.com",
+          "hn": "21 points · 0 comments"
+        },
         {
           "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
           "link": "https://divagr.com/blog/qwenputer",
@@ -545,7 +578,7 @@
           "image": "https://divagr.com/qwenputer/og.png",
           "icon": "https://divagr.com/favicon.svg",
           "domain": "divagr.com",
-          "hn": "66 points · 11 comments"
+          "hn": "191 points · 43 comments"
         },
         {
           "title": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
@@ -556,40 +589,7 @@
           "image": null,
           "icon": "https://alpinelinux.org/alpine-logo.ico",
           "domain": "alpinelinux.org",
-          "hn": "77 points · 22 comments"
-        },
-        {
-          "title": "The first wired XR glasses powered by Android XR",
-          "link": "https://blog.google/products-and-platforms/platforms/android/xreal-aura/",
-          "excerpt": "XREAL AURA, the first wired XR glasses powered by Android XR, lets you work, watch, and play anywhere with Gemini by your side.",
-          "source": "blog.google via Hacker News",
-          "date": "Oct 28",
-          "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ManinOffice_V2.width-1300.png",
-          "icon": "https://blog.google/favicon.ico",
-          "domain": "blog.google",
-          "hn": "25 points · 22 comments"
-        },
-        {
-          "title": "StackOverflow now gets fewer than 1000 questions a month",
-          "link": "https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1",
-          "excerpt": "97 points · 127 comments",
-          "source": "data.stackexchange.com via Hacker News",
-          "date": "Oct 28",
-          "image": null,
-          "icon": "https://data.stackexchange.com/favicon.ico",
-          "domain": "data.stackexchange.com",
-          "hn": "97 points · 127 comments"
-        },
-        {
-          "title": "Formlabs Studio 1 $699 Resin Printer",
-          "link": "https://formlabs.com/products/form-studio-1-basic-founders-edition/",
-          "excerpt": "Form Studio 1: the professional desktop 3D printer for hobbyists. Print razor-sharp minis, models & props in under 2 hours with mess-free resin handling.",
-          "source": "formlabs.com via Hacker News",
-          "date": "Oct 28",
-          "image": "https://formlabs.com/default_seo_image.jpg",
-          "icon": "https://formlabs.com/favicon.ico",
-          "domain": "formlabs.com",
-          "hn": "117 points · 85 comments"
+          "hn": "112 points · 44 comments"
         }
       ]
     }
