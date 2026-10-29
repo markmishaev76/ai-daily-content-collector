@@ -1,4 +1,10 @@
 {
+ "https://about.gitlab.com/blog/security-at-machine-speed/": {
+  "description": "AI is changing how quickly vulnerabilities can be discovered and exploited. The next challenge is bringing that same speed to remediation and prevention",
+  "fetched": "2026-10-29",
+  "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
+  "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1772195014/ooezwusxjl1f7ijfmbvj.png"
+ },
  "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/": {
   "description": "EPFL researchers have developed an implantable neural chip that tracks communication across brain regions, identifying cognitive and emotional states in real time.",
   "fetched": "2026-10-24",
@@ -10,6 +16,24 @@
   "fetched": "2026-10-27",
   "icon": "https://allmodels.io/assets/favicon.png",
   "image": "https://allmodels.io/assets/og/llm-abliterated-pixels-v1.png"
+ },
+ "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html": {
+  "description": "Alpine Linux",
+  "fetched": "2026-10-29",
+  "icon": "https://alpinelinux.org/alpine-logo.ico",
+  "image": null
+ },
+ "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/": {
+  "description": "But the AI responses get more forthright when asked outside the US.",
+  "fetched": "2026-10-29",
+  "icon": "https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-300x300.png",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2181827335-1152x648.jpg"
+ },
+ "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/": {
+  "description": "Critical flaw in EDK2 allows attackers to execute code early in the boot process.",
+  "fetched": "2026-10-29",
+  "icon": "https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-300x300.png",
+  "image": "https://cdn.arstechnica.net/wp-content/uploads/2024/04/malware.jpg"
  },
  "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/": {
   "description": "Owners of AI-run firms would evade liability for \"reckless\" AI, US Rep. Comer says.",
@@ -70,6 +94,18 @@
   "fetched": "2026-10-27",
   "icon": "https://blog.cloudflare.com/favicon.ico",
   "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M5X2YJT16K16BFFJGEMCAXRS.01M5X2YM62P3YQRBGRP96FS4P6.png"
+ },
+ "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/": {
+  "description": "Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities.",
+  "fetched": "2026-10-29",
+  "icon": null,
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png"
+ },
+ "https://blog.google/products-and-platforms/platforms/android/xreal-aura/": {
+  "description": "XREAL AURA, the first wired XR glasses powered by Android XR, lets you work, watch, and play anywhere with Gemini by your side.",
+  "fetched": "2026-10-29",
+  "icon": null,
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ManinOffice_V2.width-1300.png"
  },
  "https://blog.habets.se/2026/10/Attention-people-who-think-UB-is-fine.html": {
   "description": "After my post on undefined behavior in C some people insisted that itâs demonstrably fine, we know what the code will do, and at worst weâll get a segfault.",
@@ -146,6 +182,12 @@
  "https://danluu.com/ambitious/": {
   "description": null,
   "fetched": "2026-10-25",
+  "icon": null,
+  "image": null
+ },
+ "https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1": {
+  "description": null,
+  "fetched": "2026-10-29",
   "icon": null,
   "image": null
  },
@@ -239,6 +281,12 @@
   "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
   "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog-header-image.2e16d0ba.fill-1200x600.jpg"
  },
+ "https://divagr.com/blog/qwenputer": {
+  "description": "I compiled a RISC-V CPU into Qwen 3.5 4B's weights, using its Gated DeltaNet layers as RAM. It runs C and MicroPython inside the forward passes, and Qwen uses it for exact arithmetic.",
+  "fetched": "2026-10-29",
+  "icon": "https://divagr.com/favicon.svg",
+  "image": "https://divagr.com/qwenputer/og.png"
+ },
  "https://dreamagainusa.org/": {
   "description": "Picture U.S. wealth as stacks of $100 bills: the median household’s is about 9 inches tall. The average top-1% household’s is 145 feet, and it keeps getting taller and taller…",
   "fetched": "2026-10-28",
@@ -299,6 +347,12 @@
   "icon": "https://fishbowl.pastiche.org/favicon.ico",
   "image": null
  },
+ "https://formlabs.com/products/form-studio-1-basic-founders-edition/": {
+  "description": "Form Studio 1: the professional desktop 3D printer for hobbyists. Print razor-sharp minis, models & props in under 2 hours with mess-free resin handling.",
+  "fetched": "2026-10-29",
+  "icon": null,
+  "image": "https://formlabs.com/default_seo_image.jpg"
+ },
  "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova": {
   "description": "Amazon is gutting its AI labs and funneling its resources into a new project headed by a noted AI robotics guru.",
   "fetched": "2026-10-28",
@@ -322,6 +376,12 @@
   "fetched": "2026-10-26",
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://opengraph.githubassets.com/54b1328ec49ee1adeede6f3491b2680acdd2497e8f396b51c0dab36f3884bdb2/KrushnaVardhanReddy/PaperPilot"
+ },
+ "https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md": {
+  "description": "MicroZig is a toolbox for building embedded applications in Zig. - ZigEmbeddedGroup/microzig",
+  "fetched": "2026-10-29",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://repository-images.githubusercontent.com/349134426/ad5d8e71-d4a8-496c-a54b-c4c0042eb88b"
  },
  "https://github.com/ihhub/fheroes2": {
   "description": "fheroes2 is a recreation of Heroes of Might and Magic II game engine - ihhub/fheroes2",
@@ -389,6 +449,12 @@
   "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
   "image": "https://a-us.storyblok.com/f/1022730/1200x630/d88c896117/agent-o11y-faq-meta.jpeg/m/1200x630/filters:quality(80)/"
  },
+ "https://grafana.com/blog/evaluate-ai-models-for-observability-o11y-bench-joins-fireworks-specialized-intelligence-index-and-reaches-v1-1/": {
+  "description": "Our open benchmark is joining Fireworks' Specialized Intelligence Index with updates that make evaluating AI models on observability tasks more reliable and reproducible.",
+  "fetched": "2026-10-29",
+  "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
+  "image": "https://a-us.storyblok.com/f/1022730/1280x720/4aa960a5a7/o11y-bench-sii-meta.png/m/1200x630/filters:quality(80)/"
+ },
  "https://homepage.farm/ai.html": {
   "description": null,
   "fetched": "2026-10-25",
@@ -424,6 +490,12 @@
   "fetched": "2026-10-23",
   "icon": null,
   "image": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/oS8I8qx7iBS8EcNIXR3q9.png"
+ },
+ "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary": {
+  "description": "A Blog post by NVIDIA on Hugging Face",
+  "fetched": "2026-10-29",
+  "icon": null,
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/68127936de624fb6f57d9989/3vFxCEUXz_xJVrTBr4hNr.jpeg"
  },
  "https://huggingface.co/blog/torch-neuronx-model-support": {
   "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
@@ -509,6 +581,12 @@
   "icon": null,
   "image": null
  },
+ "https://nullpt.rs/fingerprinting-bioweapons": {
+  "description": null,
+  "fetched": "2026-10-29",
+  "icon": null,
+  "image": null
+ },
  "https://oioannou.com/blog/ai-promised-less-work/": {
   "description": "Agents made implementation cheap, so I started doing far more of it in parallel. My GitHub history since 2019 shows what that did: as VP of Technology I am back at my full-stack engineer pace, with bursts, burnout and a low season that is no longer low.",
   "fetched": "2026-10-27",
@@ -569,6 +647,12 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/index/legora": {
+  "description": null,
+  "fetched": "2026-10-29",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/legora-agentic-operating-system-for-legal-work": {
   "description": null,
   "fetched": "2026-10-28",
@@ -584,6 +668,12 @@
  "https://openai.com/index/openai-nask-ai-safety-security-partnership": {
   "description": null,
   "fetched": "2026-10-23",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/openai-servicenow-partnership-expansion": {
+  "description": null,
+  "fetched": "2026-10-29",
   "icon": null,
   "image": null
  },
@@ -614,6 +704,12 @@
  "https://openai.com/index/securing-our-frontier-model-training-environment/": {
   "description": null,
   "fetched": "2026-10-24",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/the-future-of-the-firm": {
+  "description": null,
+  "fetched": "2026-10-29",
   "icon": null,
   "image": null
  },
@@ -707,6 +803,12 @@
   "icon": null,
   "image": null
  },
+ "https://simonwillison.net/2026/Oct/28/ted-sanders/": {
+  "description": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. …",
+  "fetched": "2026-10-29",
+  "icon": null,
+  "image": null
+ },
  "https://simonwillison.net/2026/Oct/28/terk-terkowitz/": {
   "description": "If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share it with your community of peers, bring it to your …",
   "fetched": "2026-10-28",
@@ -743,6 +845,12 @@
   "icon": "https://stackoverflow.blog/apple-touch-icon.png",
   "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format"
  },
+ "https://stackoverflow.blog/2026/10/28/delivering-controlled-and-concentrated-context/": {
+  "description": "Check out the new features and capabilities now available in Stack Internal and Stack Internal Community. Try Stack Internal for free by visiting stackinternal.com.",
+  "fetched": "2026-10-29",
+  "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+  "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/d2896e0a931ba2ad6afc31c70b61eaa24d2d7ed4-1200x630.png?w=1200&h=630&auto=format"
+ },
  "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/": {
   "description": "The AI company pirated at least 10 Stanford academics’ work in a $1.5 billion copyright settlement.",
   "fetched": "2026-10-28",
@@ -778,6 +886,12 @@
   "fetched": "2026-10-27",
   "icon": "https://support.apple.com/favicon.ico",
   "image": null
+ },
+ "https://surgehq.ai/blog/dayjob-tax": {
+  "description": "DAYJOB: Tax evaluates AI agents across 50 realistic tax environments, testing their ability to navigate messy records, exercise professional judgment, and deliver reliable tax work.",
+  "fetched": "2026-10-29",
+  "icon": "https://cdn.prod.website-files.com/68dc970bd6e945ea3fb0f426/6a5b7e19dbef008a2100f7c4_surge-favicon.png",
+  "image": "https://cdn.prod.website-files.com/68dcd2ceb173c46fa029931c/6ae0beffc0ef7d2c805991ec_6ae0bef7bc59db92222e060b_dayjob-tax-cover-v3.png"
  },
  "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/": {
   "description": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
@@ -917,6 +1031,12 @@
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6adf875135a6faaa6ea211c6_sign-in-with-microsoft-vs-entra-sso-og.webp"
  },
+ "https://workos.com/blog/workos-cyber60-2026-2027-ciso-survey": {
+  "description": "WorkOS is on the 2026-27 Cyber60. The CISO survey published with it shows 77% of enterprises run agents and only 34% give those agents their own identity.",
+  "fetched": "2026-10-29",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://images.workoscdn.com/images/cc6bebaf-e25f-40f4-9321-2f7da4c98b9e.png?auto=format&fit=clip&q=80"
+ },
  "https://workos.com/blog/zeabur-breach-customer-secrets": {
   "description": "A cluster admin token created in 2024 and never rotated led to 3.2 million customer environment variables being read. What that means if your product stores credentials for your customers.",
   "fetched": "2026-10-28",
@@ -946,6 +1066,12 @@
   "fetched": "2026-10-25",
   "icon": "https://www.aljazeera.com/favicon_aje.ico",
   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ac6960557e6-1791399429.jpg?resize=1920%2C1440"
+ },
+ "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions": {
+  "description": "We’re highlighting 20 scientific foundations, institutions, and research groups from around the world that we’ve partnered with in an expansion of our AI for Science program.",
+  "fetched": "2026-10-29",
+  "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+  "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/2c317246f4ac7eaf0667d90a76ac05a7a7b601fc-1200x630.jpg"
  },
  "https://www.anthropic.com/news/expanding-partnership-gsa": {
   "description": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
@@ -1097,6 +1223,12 @@
   "icon": "https://cdn.sanity.io/images/e4qjo92p/production/e7a55ae5ab7e2c4fdfd4e66a51f628d1f2f44207-967x967.png?w=512&h=512&fit=max&auto=format",
   "image": "https://cdn.sanity.io/images/e4qjo92p/production/1796e3cccda1454e97d262833fb0bb0d6015032f-2786x1567.png?rect=0,53,2786,1463&w=1200&h=630&fit=max&auto=format"
  },
+ "https://www.chainguard.dev/unchained/this-shit-is-hard-nobody-has-ever-been-pwned-by-helvetica-or-have-they": {
+  "description": "Fonts are an overlooked software supply chain risk. Learn how Chainguard rebuilt thousands of fonts from source to improve security and trust.",
+  "fetched": "2026-10-29",
+  "icon": null,
+  "image": "https://images.ctfassets.net/l47ir7rfykkn/pyFdDf4x33Kjpem0wFv75/9bf4f0ec3f1f8ab7dd0edc7c9129bbf6/15a61dad-1d40-4e94-997c-e9e4ea3d18e7.png"
+ },
  "https://www.computerworld.dk/art/297226/digitaliseringsministeriet-har-i-al-stilhed-droppet-stort-anlagt-forsoeg-med-open-source-alternativ-til-microsoft": {
   "description": "Digitaliseringsministeriet har i al stilhed lagt sit pilotprojekt med et alternativ til Microsoft Office i graven.",
   "fetched": "2026-10-24",
@@ -1205,6 +1337,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.mckinsey.com/industries/financial-services/our-insights/rewiring-securities-services-for-a-new-era-of-competition-and-growth": {
+  "description": null,
+  "fetched": "2026-10-29",
+  "icon": null,
+  "image": null
+ },
  "https://www.mckinsey.com/industries/life-sciences/our-insights/pfizers-alex-condoleon-on-medical-affairs-accountability": {
   "description": null,
   "fetched": "2026-10-27",
@@ -1271,6 +1409,12 @@
   "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
   "image": null
  },
+ "https://www.schneier.com/blog/archives/2026/10/studying-fraudulent-north-korean-it-workers.html": {
+  "description": "Researchers set up a fake start-up company to study fraudulent North Korean IT workers.",
+  "fetched": "2026-10-29",
+  "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+  "image": null
+ },
  "https://www.science.org/doi/10.1126/sciadv.aeh8870": {
   "description": null,
   "fetched": "2026-10-24",
@@ -1300,6 +1444,12 @@
   "fetched": "2026-10-27",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/02/Anthropic-AI_Military.jpg"
+ },
+ "https://www.securityweek.com/chrome-and-firefox-updates-patch-over-200-vulnerabilities/": {
+  "description": "Google’s latest Chrome 156 update and Mozilla’s Firefox 159 patch more than 200 vulnerabilities, including four critical Chrome bugs.",
+  "fetched": "2026-10-29",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2025/01/Chrome-Firefox.jpeg"
  },
  "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/": {
   "description": "A cybersecurity incident at the University of New Mexico Health System forced it to send ambulances to other hospitals.",
@@ -1367,11 +1517,23 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2024/04/vulnerability.jpeg"
  },
+ "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/": {
+  "description": "Ukrainian national Artem Stryzhak was sentenced to 70 months in US prison for deploying Nefilim and Hive ransomware against victims.",
+  "fetched": "2026-10-29",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2024/10/hacker-prison-sentence.jpeg"
+ },
  "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/": {
   "description": "DreamHost took the File Manager panel offline for three days and reset the passwords for some of its email and FTP/SFTP users.",
   "fetched": "2026-10-28",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2025/08/password-manager.jpeg"
+ },
+ "https://www.securityweek.com/upwind-security-raises-400-million-at-3-8-billion-valuation/": {
+  "description": "Upwind Security announced a $400 million Series C funding round at a $3.8 billion valuation and has now raised over $800 million.",
+  "fetched": "2026-10-29",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg"
  },
  "https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/": {
   "description": "Denver Health Medical Plan says the information of 238,000 people may have been exposed in a data breach involving SquareML.",
@@ -1432,6 +1594,12 @@
   "fetched": "2026-10-27",
   "icon": "https://www.unix.dog/~yosh/img/favicon.png",
   "image": "https://unix.dog/~yosh/img/renard_lftanthology.png"
+ },
+ "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/": {
+  "description": "The leaked records include the locations of ICE and CBP facilities, workers’ cell phone numbers, and the members of groups tied to wiretap programs, Palantir software, and xAI’s Grok chatbot.",
+  "fetched": "2026-10-29",
+  "icon": "https://www.wired.com/verso/static/wired-us/assets/favicon.ico",
+  "image": "https://media.wired.com/photos/6ae126cfb5fdd6fa181bb24f/191:100/w_1280,c_limit/Security_Massive%20Leak%20Exposes%2041,000%20DHS%20Employees_v1.jpg"
  },
  "https://xtramagazine.com/culture/online-censorship-indie-webcomics-284463": {
   "description": "From social media platforms to payment processors, new restrictions are making it harder for webcomic artists to exist",
