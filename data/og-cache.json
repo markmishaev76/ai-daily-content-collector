@@ -173,6 +173,12 @@
   "icon": null,
   "image": null
  },
+ "https://cursor.com/blog/agent-sdk": {
+  "description": "The Agent SDK is the framework we use to build our own managed agents like Bugbot, Security Reviewer, and Rollouts. Define agents in code and deploy them with one command.",
+  "fetched": "2026-10-29",
+  "icon": "https://cursor.com/marketing-static/apple-touch-icon-light.png",
+  "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/OG%20Images/agent-sdk-blog-og-WlJMIsDgzkUUfvyf1R9PJSIfytr7Sx.png"
+ },
  "https://cve.0xosprey.com/": {
   "description": "Live count of published CVE records, rebuilt daily from the official CVE list.",
   "fetched": "2026-10-24",
@@ -1487,6 +1493,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/02/Anthropic-AI_Military.jpg"
  },
+ "https://www.securityweek.com/chinese-hackers-quietly-used-low-severity-esxi-logging-flaw-as-zero-day/": {
+  "description": "CISA warns that attackers have been exploiting a low-severity insufficient logging issue in VMware ESXi, tracked as CVE-2026-41709.",
+  "fetched": "2026-10-29",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2022/08/VMWare.jpg"
+ },
  "https://www.securityweek.com/chrome-and-firefox-updates-patch-over-200-vulnerabilities/": {
   "description": "Google’s latest Chrome 156 update and Mozilla’s Firefox 159 patch more than 200 vulnerabilities, including four critical Chrome bugs.",
   "fetched": "2026-10-29",
@@ -1624,6 +1636,12 @@
   "fetched": "2026-10-28",
   "icon": "https://www.thetimes.com/imageserver/image/4e2c5841-df25-42a6-8b74-065cc072e1e8.png?w=180",
   "image": "https://www.thetimes.com/imageserver/image/ca5f6e82-d39b-4c7a-bf03-6f9fd28482ce.jpg?strip=all&format=webp&crop=2741px%2C1541px%2C0px%2C142px&resize=1200"
+ },
+ "https://www.timeanddate.com/news/time/cuba-keeps-dst-until-nov-2027.html": {
+  "description": null,
+  "fetched": "2026-10-29",
+  "icon": null,
+  "image": null
  },
  "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm": {
   "description": "Tool call accuracy is an important part of serving open-weight AI models. When your tool calls aren’t accurate, the model builds up on nonsensical context. We’ve been carrying our own fork of vLLM to hit 100% in tool call schema accuracy with Kimi and DeepSeek. Fortunately, vLLM 0.31 added support for constrained decoding, a technique to guarantee schema-adherence. By enabling it, you can get to 100% schema accuracy with the newer Kimi and DeepSeek models.",

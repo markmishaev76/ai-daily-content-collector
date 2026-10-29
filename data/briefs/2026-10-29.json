@@ -1,18 +1,18 @@
 {
   "date": "2026-10-29",
   "lead": {
-    "title": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
-    "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-    "excerpt": "Claude Code burns ~15-20% of your tokens on a 3-word status line: a Bun preload that turns agent_summary off · by Flamerix AI, flamerix.ai · MIT - README.md",
-    "source": "gist.github.com via Hacker News",
+    "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+    "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+    "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in…",
+    "source": "The Hacker News",
     "date": "Oct 29",
-    "image": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcr5vMvEpNtC6AAPL85NwoZLwafJYuuIYKlofAez4dmACEH-0VI-icaKusP2b9HgxcJC2AMyZkdGNfVOyXQCWqjK-_vIvw1OjptUH_maUL82An7MRxEnZQ62JZqPqwuTp6QQ8TWq4y0SRqUb6KhdXLYRJMyUHg2cQBzez3g-0G8jh2ujIgx-6FqQdWBuFr/s1600/esx-audit.jpg",
     "image_credit": null,
-    "section": "News & Research",
+    "section": "Security & AppSec",
     "pinned": false,
     "note": null,
     "labels": [
-      "News & Research",
+      "Security & AppSec",
       "2h ago"
     ],
     "also": []
@@ -25,7 +25,7 @@
       "link_domain": "emudhra.we-have-a-problem.com",
       "source": "Hacker News",
       "domain": "emudhra.we-have-a-problem.com",
-      "meta": "Hacker News · 1.1k points · 385 comments · 19h ago",
+      "meta": "Hacker News · 1.1k points · 393 comments · 21h ago",
       "also": [
         {
           "source": "Lobsters",
@@ -42,7 +42,7 @@
       "link_domain": "blog.google",
       "source": "Hacker News",
       "domain": "blog.google",
-      "meta": "Hacker News · 870 points · 716 comments · 13h ago",
+      "meta": "Hacker News · 912 points · 738 comments · 15h ago",
       "also": [],
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png",
       "icon": "https://blog.google/favicon.ico"
@@ -54,7 +54,7 @@
       "link_domain": "religionnews.com",
       "source": "Hacker News",
       "domain": "religionnews.com",
-      "meta": "Hacker News · 449 points · 496 comments · 16h ago",
+      "meta": "Hacker News · 456 points · 503 comments · 18h ago",
       "also": [],
       "image": null,
       "icon": "https://religionnews.com/favicon.ico"
@@ -66,22 +66,10 @@
       "link_domain": "wired.com",
       "source": "Hacker News",
       "domain": "wired.com",
-      "meta": "Hacker News · 310 points · 168 comments · 9h ago",
+      "meta": "Hacker News · 317 points · 174 comments · 11h ago",
       "also": [],
       "image": "https://media.wired.com/photos/6ae126cfb5fdd6fa181bb24f/191:100/w_1280,c_limit/Security_Massive%20Leak%20Exposes%2041,000%20DHS%20Employees_v1.jpg",
       "icon": "https://www.wired.com/verso/static/wired-us/assets/favicon.ico"
-    },
-    {
-      "title": "Why Is This Fingerprinting Script Creating Bioweapons?",
-      "thread": "https://lobste.rs/s/gvy5gz/why_is_this_fingerprinting_script",
-      "link": "https://nullpt.rs/fingerprinting-bioweapons",
-      "link_domain": "nullpt.rs",
-      "source": "Lobsters",
-      "domain": "nullpt.rs",
-      "meta": "Lobsters · 36 points · 1 comments · 11h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://nullpt.rs/favicon.ico"
     },
     {
       "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
@@ -90,7 +78,7 @@
       "link_domain": "surgehq.ai",
       "source": "Hacker News",
       "domain": "surgehq.ai",
-      "meta": "Hacker News · 221 points · 143 comments · 14h ago",
+      "meta": "Hacker News · 227 points · 148 comments · 16h ago",
       "also": [],
       "image": "https://cdn.prod.website-files.com/68dcd2ceb173c46fa029931c/6ae0beffc0ef7d2c805991ec_6ae0bef7bc59db92222e060b_dayjob-tax-cover-v3.png",
       "icon": "https://cdn.prod.website-files.com/68dc970bd6e945ea3fb0f426/6a5b7e19dbef008a2100f7c4_surge-favicon.png"
@@ -102,22 +90,10 @@
       "link_domain": "arstechnica.com",
       "source": "Lobsters",
       "domain": "arstechnica.com",
-      "meta": "Lobsters · 28 points · 13 comments · 20h ago",
+      "meta": "Lobsters · 28 points · 13 comments · 23h ago",
       "also": [],
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2024/04/malware.jpg",
       "icon": "https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-300x300.png"
-    },
-    {
-      "title": "About the compromised eMudhra intermediate CAs",
-      "thread": "https://news.ycombinator.com/item?id=50271685",
-      "link": "https://support.apple.com/en-us/149555",
-      "link_domain": "support.apple.com",
-      "source": "Hacker News",
-      "domain": "support.apple.com",
-      "meta": "Hacker News · 160 points · 76 comments · 18h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://support.apple.com/favicon.ico"
     },
     {
       "title": "Forging a Microsoft Edge Full Chain with Logic Bugs Only",
@@ -126,10 +102,22 @@
       "link_domain": "blog.orange.tw",
       "source": "Lobsters",
       "domain": "blog.orange.tw",
-      "meta": "Lobsters · 22 points · 2 comments · 16h ago",
+      "meta": "Lobsters · 25 points · 2 comments · 18h ago",
       "also": [],
       "image": "https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/pwnie-award-2026.webp",
       "icon": "https://blog.orange.tw/images/apple-touch-icon.png"
+    },
+    {
+      "title": "About the compromised eMudhra intermediate CAs",
+      "thread": "https://news.ycombinator.com/item?id=50271685",
+      "link": "https://support.apple.com/en-us/149555",
+      "link_domain": "support.apple.com",
+      "source": "Hacker News",
+      "domain": "support.apple.com",
+      "meta": "Hacker News · 162 points · 78 comments · 21h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://support.apple.com/favicon.ico"
     },
     {
       "title": "Google AI gets cagey when asked who won the 2020 elections",
@@ -138,16 +126,39 @@
       "link_domain": "arstechnica.com",
       "source": "Hacker News",
       "domain": "arstechnica.com",
-      "meta": "Hacker News · 142 points · 67 comments · 9h ago",
+      "meta": "Hacker News · 150 points · 69 comments · 12h ago",
       "also": [],
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2181827335-1152x648.jpg",
       "icon": "https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-300x300.png"
+    },
+    {
+      "title": "The Agent SDK",
+      "thread": "https://news.ycombinator.com/item?id=50273731",
+      "link": "https://cursor.com/blog/agent-sdk",
+      "link_domain": "cursor.com",
+      "source": "Hacker News",
+      "domain": "cursor.com",
+      "meta": "Hacker News · 122 points · 119 comments · 18h ago",
+      "also": [],
+      "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/OG%20Images/agent-sdk-blog-og-WlJMIsDgzkUUfvyf1R9PJSIfytr7Sx.png",
+      "icon": "https://cursor.com/marketing-static/apple-touch-icon-light.png"
     }
   ],
   "sections": [
     {
       "name": "AI-Assisted Engineering",
       "cards": [
+        {
+          "title": "Cheap AI tokens are running out",
+          "link": "https://leaddev.com/ai/cheap-ai-tokens-are-running-out?utm_source=leaddev&utm_medium=RSS",
+          "excerpt": "Insert coins to continue. The post Cheap AI tokens are running out appeared first on LeadDev.",
+          "source": "LeadDev",
+          "date": "Oct 29",
+          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2025/11/slot-machine-code.jpg",
+          "icon": null,
+          "domain": "leaddev.com",
+          "hn": null
+        },
         {
           "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
           "link": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
@@ -204,8 +215,8 @@
           "excerpt": "Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.",
           "source": "Latent Space",
           "date": "Oct 29",
-          "image": "https://latent.space/og/card/post/ainews-gemini-4-carbon/95760c867a2e9becf313c47b14f0386243bc4596c54259bb71809eb955f9dad9.png",
-          "icon": "https://latent.space/favicon.png",
+          "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/053a201f-ae0f-4388-9c79-d636a1bcf99f/image.png?t=1793258939",
+          "icon": null,
           "domain": "latent.space",
           "hn": null
         }
@@ -345,6 +356,17 @@
           "hn": null
         },
         {
+          "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
+          "link": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+          "excerpt": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces. \"Active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the internet,\" the…",
+          "source": "The Hacker News",
+          "date": "Oct 29",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9wRucatO6j8IYS9drMJNn_BtgvNwY739pg33a6-50h33cCXnqi4unW5RppMfzO6TLjMdDQ-XICWN6uKTU6ai_SyLBeD8k4SdO7Kx2-QJeMbz0LSEMZkuKZls2dMSNoJmkY5nSc2SOduiSkVpKY9uFjCG0gU73hMvSyyqMANymiqb012-Z_rVUUUJtQQ5C/s1600/php-palo.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
           "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
           "link": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
           "excerpt": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access. \"First identified in late 2023, Silent Train uses rotating chains of compromised…",
@@ -354,7 +376,9 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
           "link": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
@@ -365,9 +389,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
           "link": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
@@ -391,34 +413,12 @@
           "hn": null
         },
         {
-          "title": "Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison",
-          "link": "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/",
-          "excerpt": "Artem Stryzhak was sentenced to 70 months in prison after pleading guilty to using Nefilim ransomware in attacks. The post Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison appeared first on SecurityWeek.",
+          "title": "Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day",
+          "link": "https://www.securityweek.com/chinese-hackers-quietly-used-low-severity-esxi-logging-flaw-as-zero-day/",
+          "excerpt": "CVE-2026-41709 allows attackers with administrative privileges to perform operations without being logged. The post Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day appeared first on SecurityWeek.",
           "source": "SecurityWeek",
-          "date": "Oct 28",
-          "image": "https://www.securityweek.com/wp-content/uploads/2024/10/hacker-prison-sentence.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null
-        },
-        {
-          "title": "Upwind Security Raises $400 Million at $3.8 Billion Valuation",
-          "link": "https://www.securityweek.com/upwind-security-raises-400-million-at-3-8-billion-valuation/",
-          "excerpt": "The massive funding round comes just days after reports emerged that Upwind had attracted acquisition interest from several companies, including Datadog The post Upwind Security Raises $400 Million at $3.8 Billion Valuation appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Oct 28",
-          "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null
-        },
-        {
-          "title": "Chrome and Firefox Updates Patch Over 200 Vulnerabilities",
-          "link": "https://www.securityweek.com/chrome-and-firefox-updates-patch-over-200-vulnerabilities/",
-          "excerpt": "The Chrome 156 update fixes 52 bugs, while Firefox 159 was rolled out with 167 security patches. The post Chrome and Firefox Updates Patch Over 200 Vulnerabilities appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Oct 28",
-          "image": "https://www.securityweek.com/wp-content/uploads/2025/01/Chrome-Firefox.jpeg",
+          "date": "Oct 29",
+          "image": "https://www.securityweek.com/wp-content/uploads/2022/08/VMWare.jpg",
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null
@@ -524,6 +524,17 @@
       "name": "News & Research",
       "cards": [
         {
+          "title": "Claude Code regularly sends each background agent’s transcript to its model",
+          "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+          "excerpt": "Claude Code burns ~15-20% of your tokens on a 3-word status line: a Bun preload that turns agent_summary off · by Flamerix AI, flamerix.ai · MIT - README.md",
+          "source": "gist.github.com via Hacker News",
+          "date": "Oct 29",
+          "image": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "gist.github.com",
+          "hn": "318 points · 98 comments"
+        },
+        {
           "title": "Anduril now says its BlueChip laptop will meet Buy American standards at launch",
           "link": "https://www.theverge.com/policy/1021554/anduril-bluechip-65-percent-domestic-buy-american",
           "excerpt": "On Tuesday, defense contractor Anduril and chipmaker Qualcomm announced a partnership to build laptops entirely in the United States, starting with a single model in 2027. They also announced a \"long-term goal\" of pushing the computer industry to create \"a fully domestic supply chain.\" Even a…",
@@ -544,7 +555,9 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null
-        },
+        }
+      ],
+      "more": [
         {
           "title": "AI for Science expands to foundations and research institutions",
           "link": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
@@ -555,30 +568,28 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null
-        }
-      ],
-      "more": [
+        },
+        {
+          "title": "Cuba is skipping its November 1, 2026 clock change and staying on DST until 2027",
+          "link": "https://www.timeanddate.com/news/time/cuba-keeps-dst-until-nov-2027.html",
+          "excerpt": "13 points · 8 comments",
+          "source": "timeanddate.com via Hacker News",
+          "date": "Oct 29",
+          "image": null,
+          "icon": "https://www.timeanddate.com/favicon.ico",
+          "domain": "timeanddate.com",
+          "hn": "13 points · 8 comments"
+        },
         {
           "title": "Zillow to pay $212.5M to settle class action for real estate venture",
           "link": "https://www.reuters.com/legal/government/zillow-pay-2125-million-settle-class-action-over-failed-real-estate-venture-2026-10-28/",
-          "excerpt": "27 points · 4 comments",
+          "excerpt": "36 points · 9 comments",
           "source": "reuters.com via Hacker News",
           "date": "Oct 29",
           "image": null,
           "icon": "https://www.reuters.com/favicon.ico",
           "domain": "reuters.com",
-          "hn": "27 points · 4 comments"
-        },
-        {
-          "title": "The Milwaukee Brewers win the first World Series title in franchise history",
-          "link": "https://www.cnn.com/2026/10/28/sport/live-news/game-5-world-series",
-          "excerpt": "The Milwaukee Brewers erased nearly six decades of heartache, defeating the Tampa Bay Rays in Game 5 to clinch the franchise’s first World Series title.",
-          "source": "cnn.com via Hacker News",
-          "date": "Oct 29",
-          "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2302470713.jpg?c=16x9&q=w_800,c_fill",
-          "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png",
-          "domain": "cnn.com",
-          "hn": "70 points · 28 comments"
+          "hn": "36 points · 9 comments"
         },
         {
           "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
@@ -589,7 +600,7 @@
           "image": "https://divagr.com/qwenputer/og.png",
           "icon": "https://divagr.com/favicon.svg",
           "domain": "divagr.com",
-          "hn": "275 points · 62 comments"
+          "hn": "395 points · 83 comments"
         },
         {
           "title": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
@@ -600,7 +611,7 @@
           "image": null,
           "icon": "https://alpinelinux.org/alpine-logo.ico",
           "domain": "alpinelinux.org",
-          "hn": "136 points · 57 comments"
+          "hn": "166 points · 76 comments"
         }
       ]
     }
