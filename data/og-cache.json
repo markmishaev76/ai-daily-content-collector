@@ -839,6 +839,12 @@
   "icon": null,
   "image": null
  },
+ "https://smsofdeath.com/": {
+  "description": "A single malformed WAP Push SMS crashes com.android.phone on Android. Zero-click, remote, drops emergency calls.",
+  "fetched": "2026-10-29",
+  "icon": null,
+  "image": null
+ },
  "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup": {
   "description": "AI-generated text is harder to spot, but that hasn’t deterred them",
   "fetched": "2026-10-27",
@@ -1001,6 +1007,12 @@
   "icon": "https://typemill.net/media/custom/favicon-72x72.png",
   "image": "https://typemill.net/media/live/tasks-like-code.webp"
  },
+ "https://v12.sh/blog/the-case-of-the-9bit-aes-key": {
+  "description": "Several PDF implementations advertise AES-256, but generate the 256-bit key from either a very small state space, or from insecure random sources.",
+  "fetched": "2026-10-29",
+  "icon": "https://v12.sh/apple-touch-icon.png",
+  "image": "https://v12.sh/static/opengraph-image.png"
+ },
  "https://workos.com/blog/a-busy-week-in-security-what-it-means-for-workos-and-for-you": {
   "description": "Node.js and PHP shipped RCE fixes, a malicious LiteLLM release hit PyPI, and eMudhra CA keys were compromised. What WorkOS did, and some recommendations for your stack.",
   "fetched": "2026-10-24",
@@ -1156,6 +1168,12 @@
   "fetched": "2026-10-25",
   "icon": "https://substackcdn.com/image/fetch/$s_!ZWY6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F61c73240-2b39-47a6-9ba2-747c6fa2dfc3%2Fapple-touch-icon-57x57.png",
   "image": "https://substackcdn.com/image/fetch/$s_!oz9x!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F999e3450-1df3-457d-8715-5e2e46d5121c_2886x1843.png"
+ },
+ "https://www.bbc.com/news/articles/cm8xz7pkd0jjo": {
+  "description": "More than 500 passengers were on board the trains when the crash occurred in the province of Toledo, south of Madrid.",
+  "fetched": "2026-10-29",
+  "icon": "https://static.files.bbci.co.uk/bbcdotcom/web/20261027-121803-88dfe2b2c8-web-3.26.0-4/apple-touch-icon.png",
+  "image": "https://ichef.bbci.co.uk/news/1024/branded_news/fe69/live/788ac890-d37d-11f1-b441-2b33b063138f.jpg"
  },
  "https://www.bettascore.ai/research/reliability-reviewers-vs-owners": {
   "description": "Across 657 products in 19 categories, Reddit owners bring up reliability and support in 13% of their opinions, YouTube reviewers in 7%. On apps, 71% of owner opinions are negative. Data to download.",
@@ -1346,6 +1364,12 @@
  "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/agentic-ai-in-transaction-monitoring-how-banks-can-scale-ai-in-compliance": {
   "description": null,
   "fetched": "2026-10-26",
+  "icon": null,
+  "image": null
+ },
+ "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/global-economics-intelligence": {
+  "description": null,
+  "fetched": "2026-10-29",
   "icon": null,
   "image": null
  },
@@ -1618,6 +1642,12 @@
   "fetched": "2026-10-26",
   "icon": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/static/media/favicon.1cfcdb44759a0f93ddf5feb5405dd4cc.ico",
   "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/monkeys-teen3.jpg?resize=1200,600"
+ },
+ "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/": {
+  "description": "Right now, we’re effectively flying blind when deploying these tools. Here’s what we need to do instead.",
+  "fetched": "2026-10-29",
+  "icon": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/static/media/favicon.1cfcdb44759a0f93ddf5feb5405dd4cc.ico",
+  "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/261028_AIsurveillance.jpg?resize=1200,600"
  },
  "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html": {
   "description": "Nikon's 16th annual Small World in Motion contest is open to any movie or digital time-lapse photography taken through the microscope.",

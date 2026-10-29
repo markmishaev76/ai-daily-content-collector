@@ -1,40 +1,23 @@
 {
   "date": "2026-10-29",
   "lead": {
-    "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
-    "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
-    "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in…",
-    "source": "The Hacker News",
+    "title": "QCon AI New York 2026 Program Committee Picks: Agent Identity, Context Costs, and Open-Source Infere",
+    "link": "https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-pc-picks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "excerpt": "Who authorizes an agent’s actions, and how should teams manage growing context costs? The QCon AI New York 2026 program committee shares six session picks that tackle these questions, alongside open-source inference, agent standards, and audio AI. By Artenisa Chatziou",
+    "source": "InfoQ",
     "date": "Oct 29",
-    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcr5vMvEpNtC6AAPL85NwoZLwafJYuuIYKlofAez4dmACEH-0VI-icaKusP2b9HgxcJC2AMyZkdGNfVOyXQCWqjK-_vIvw1OjptUH_maUL82An7MRxEnZQ62JZqPqwuTp6QQ8TWq4y0SRqUb6KhdXLYRJMyUHg2cQBzez3g-0G8jh2ujIgx-6FqQdWBuFr/s1600/esx-audit.jpg",
+    "image": "https://res.infoq.com/news/2026/10/qcon-ai-newyork-2026-pc-picks/en/headerimage/qcon-ai-newyork-2026-pc-picks-1793192613417.jpg",
     "image_credit": null,
-    "section": "Security & AppSec",
+    "section": "Platform, Cloud & Reliability",
     "pinned": false,
     "note": null,
     "labels": [
-      "Security & AppSec",
-      "2h ago"
+      "Platform, Cloud & Reliability",
+      "under 1h ago"
     ],
     "also": []
   },
   "pulse": [
-    {
-      "title": "Apple's git still trusts the compromised eMudhra certificates",
-      "thread": "https://news.ycombinator.com/item?id=50271640",
-      "link": "https://emudhra.we-have-a-problem.com/apple.html",
-      "link_domain": "emudhra.we-have-a-problem.com",
-      "source": "Hacker News",
-      "domain": "emudhra.we-have-a-problem.com",
-      "meta": "Hacker News · 1.1k points · 393 comments · 21h ago",
-      "also": [
-        {
-          "source": "Lobsters",
-          "thread": "https://lobste.rs/s/xybmsj/apple_s_git_still_trusts_compromised"
-        }
-      ],
-      "image": null,
-      "icon": "https://emudhra.we-have-a-problem.com/favicon.ico"
-    },
     {
       "title": "Gemini 4 Carbon",
       "thread": "https://news.ycombinator.com/item?id=50276792",
@@ -42,7 +25,7 @@
       "link_domain": "blog.google",
       "source": "Hacker News",
       "domain": "blog.google",
-      "meta": "Hacker News · 912 points · 738 comments · 15h ago",
+      "meta": "Hacker News · 944 points · 760 comments · 18h ago",
       "also": [],
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png",
       "icon": "https://blog.google/favicon.ico"
@@ -54,7 +37,7 @@
       "link_domain": "religionnews.com",
       "source": "Hacker News",
       "domain": "religionnews.com",
-      "meta": "Hacker News · 456 points · 503 comments · 18h ago",
+      "meta": "Hacker News · 462 points · 504 comments · 21h ago",
       "also": [],
       "image": null,
       "icon": "https://religionnews.com/favicon.ico"
@@ -66,7 +49,7 @@
       "link_domain": "wired.com",
       "source": "Hacker News",
       "domain": "wired.com",
-      "meta": "Hacker News · 317 points · 174 comments · 11h ago",
+      "meta": "Hacker News · 322 points · 179 comments · 14h ago",
       "also": [],
       "image": "https://media.wired.com/photos/6ae126cfb5fdd6fa181bb24f/191:100/w_1280,c_limit/Security_Massive%20Leak%20Exposes%2041,000%20DHS%20Employees_v1.jpg",
       "icon": "https://www.wired.com/verso/static/wired-us/assets/favicon.ico"
@@ -78,22 +61,27 @@
       "link_domain": "surgehq.ai",
       "source": "Hacker News",
       "domain": "surgehq.ai",
-      "meta": "Hacker News · 227 points · 148 comments · 16h ago",
+      "meta": "Hacker News · 240 points · 154 comments · 19h ago",
       "also": [],
       "image": "https://cdn.prod.website-files.com/68dcd2ceb173c46fa029931c/6ae0beffc0ef7d2c805991ec_6ae0bef7bc59db92222e060b_dayjob-tax-cover-v3.png",
       "icon": "https://cdn.prod.website-files.com/68dc970bd6e945ea3fb0f426/6a5b7e19dbef008a2100f7c4_surge-favicon.png"
     },
     {
-      "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
-      "thread": "https://lobste.rs/s/0gomue/code_execution_flaw_uefi_firmware",
-      "link": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
-      "link_domain": "arstechnica.com",
+      "title": "GitLab security incident: attempted exploitation of CVE-2026-97229",
+      "thread": "https://lobste.rs/s/2zsjwt/gitlab_security_incident_attempted",
+      "link": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
+      "link_domain": "alpinelinux.org",
       "source": "Lobsters",
-      "domain": "arstechnica.com",
-      "meta": "Lobsters · 28 points · 13 comments · 23h ago",
-      "also": [],
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2024/04/malware.jpg",
-      "icon": "https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-300x300.png"
+      "domain": "alpinelinux.org",
+      "meta": "Lobsters · 32 points · 5 comments · 12h ago",
+      "also": [
+        {
+          "source": "Hacker News",
+          "thread": "https://news.ycombinator.com/item?id=50282544"
+        }
+      ],
+      "image": null,
+      "icon": "https://alpinelinux.org/alpine-logo.ico"
     },
     {
       "title": "Forging a Microsoft Edge Full Chain with Logic Bugs Only",
@@ -102,7 +90,7 @@
       "link_domain": "blog.orange.tw",
       "source": "Lobsters",
       "domain": "blog.orange.tw",
-      "meta": "Lobsters · 25 points · 2 comments · 18h ago",
+      "meta": "Lobsters · 26 points · 2 comments · 21h ago",
       "also": [],
       "image": "https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/pwnie-award-2026.webp",
       "icon": "https://blog.orange.tw/images/apple-touch-icon.png"
@@ -114,7 +102,7 @@
       "link_domain": "support.apple.com",
       "source": "Hacker News",
       "domain": "support.apple.com",
-      "meta": "Hacker News · 162 points · 78 comments · 21h ago",
+      "meta": "Hacker News · 162 points · 78 comments · 23h ago",
       "also": [],
       "image": null,
       "icon": "https://support.apple.com/favicon.ico"
@@ -126,10 +114,22 @@
       "link_domain": "arstechnica.com",
       "source": "Hacker News",
       "domain": "arstechnica.com",
-      "meta": "Hacker News · 150 points · 69 comments · 12h ago",
+      "meta": "Hacker News · 155 points · 69 comments · 14h ago",
       "also": [],
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2181827335-1152x648.jpg",
       "icon": "https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-300x300.png"
+    },
+    {
+      "title": "The case of the 9 bit AES key",
+      "thread": "https://lobste.rs/s/dqexzg/case_9_bit_aes_key",
+      "link": "https://v12.sh/blog/the-case-of-the-9bit-aes-key",
+      "link_domain": "v12.sh",
+      "source": "Lobsters",
+      "domain": "v12.sh",
+      "meta": "Lobsters · 20 points · 0 comments · 8h ago",
+      "also": [],
+      "image": "https://v12.sh/static/opengraph-image.png",
+      "icon": "https://v12.sh/apple-touch-icon.png"
     },
     {
       "title": "The Agent SDK",
@@ -138,7 +138,7 @@
       "link_domain": "cursor.com",
       "source": "Hacker News",
       "domain": "cursor.com",
-      "meta": "Hacker News · 122 points · 119 comments · 18h ago",
+      "meta": "Hacker News · 131 points · 126 comments · 21h ago",
       "also": [],
       "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/OG%20Images/agent-sdk-blog-og-WlJMIsDgzkUUfvyf1R9PJSIfytr7Sx.png",
       "icon": "https://cursor.com/marketing-static/apple-touch-icon-light.png"
@@ -292,6 +292,28 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null
+        },
+        {
+          "title": "An Interview with Palantir CTO Shyam Sankar About the AI Religious War",
+          "link": "https://stratechery.com/2026/an-interview-with-palantir-cto-shyam-sankar-about-the-ai-religious-war/",
+          "excerpt": "An interview with Palantir CTO Shyam Sankar about AI diffusion and safety, forward-deployed engineer, and what the battle in tech is actually about.",
+          "source": "Stratechery by Ben Thompson",
+          "date": "Oct 29",
+          "image": "https://i0.wp.com/stratechery.com/wp-content/uploads/2026/10/Stripe-wordmark-Blurple-Small.png?resize=55%2C23&ssl=1",
+          "icon": null,
+          "domain": "stratechery.com",
+          "hn": null
+        },
+        {
+          "title": "Global Economics Intelligence executive summary, September 2026",
+          "link": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/global-economics-intelligence",
+          "excerpt": "Central banks move to tighten interest rate policies as energy price spikes fuel inflation; growth looks sparse in some economies, but activity indicators see manufacturing and services expanding.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Oct 29",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null
         }
       ],
       "more": []
@@ -345,6 +367,28 @@
       "name": "Security & AppSec",
       "cards": [
         {
+          "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
+          "link": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
+          "excerpt": "GitHub has announced that it's introducing a new package firewall as a preview to block installation of suspicious npm packages during installation time. \"The firewall inspects both metadata requests and package downloads for signs of malicious activity, acting as an install-time policy gate,\"…",
+          "source": "The Hacker News",
+          "date": "Oct 29",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ7hXo0MoiQiXCSLnOj0h2YUqDhIHl13Le4XxOU3UxV7X2mm4_YGJKOT6akyW58uRaMhslGN6NY9B_1u7V-y_fy0kYJHKoVA-yBWVt53xqBk06_syRpASgWezvnVIZs9goRlwNrp_HMVj_Pu8rzXmIsfJBV1YzhJ8IAd-1g7FFVhFWqc9HegTk4Jok5kR9/s1600/github.gif",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+          "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in…",
+          "source": "The Hacker News",
+          "date": "Oct 29",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcr5vMvEpNtC6AAPL85NwoZLwafJYuuIYKlofAez4dmACEH-0VI-icaKusP2b9HgxcJC2AMyZkdGNfVOyXQCWqjK-_vIvw1OjptUH_maUL82An7MRxEnZQ62JZqPqwuTp6QQ8TWq4y0SRqUb6KhdXLYRJMyUHg2cQBzez3g-0G8jh2ujIgx-6FqQdWBuFr/s1600/esx-audit.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
           "title": "Snyk UNFILTERED: Inside Our First-Ever Customer Summit",
           "link": "https://snyk.io/blog/snyk-unfiltered-customer-summit/",
           "excerpt": "At Snyk’s first customer summit, security leaders shared candid perspectives on AI risk, vulnerability remediation, and governing autonomous agents. Five themes reveal how teams are adapting security for AI speed.",
@@ -353,6 +397,41 @@
           "image": "https://res.cloudinary.com/snyk/image/upload/v1671633728/wordpress-sync/feature-5FoCS.jpg",
           "icon": null,
           "domain": "snyk.io",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+          "link": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+          "excerpt": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the CVSS…",
+          "source": "The Hacker News",
+          "date": "Oct 29",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKqTkl_DfXdrvaLinBOu5OU0NISVo_mPJfqRmnHL-m8efFXEijbxOVsFgrSPparCspKfoUtxDtfA7gu8myFTfvWCFJfse3BQakKGOZCA54pWh371KyXdluHyqjckIBFjZ36Ogv1EI42yDCO2dt02noigEyL2RKJ8lEivH3PCWJURryc1JtNO9djpeW88tJ/s1600/cisco-flaws.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+          "link": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+          "excerpt": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab released a fix, Alpine Linux said on 28 October. The flaw, CVE-2026-97229 (CVSS score: 10.0), can let an attacker run code on a GitLab server through a crafted regular…",
+          "source": "The Hacker News",
+          "date": "Oct 29",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh65eroK1pQacKJwqeGmgp2sDta1mgCrPuNMXiwAgTi-FVZNc1V4D7qooFFc-V-XNOJzYpjYk28Y_kIkoHMNJfnQ5h2gI0-bOWlVOt9VJ9oZUpRsBzYLsSMe3oNRTfZe53dtpezOOq1MHmWhEhAigbyOMLx4jWAbcvvImY39jY1h4FMS4_OUqSDF-kZJvQ/s1600/linux-gitlab.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+          "link": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+          "excerpt": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network. The malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for later use, Cisco…",
+          "source": "The Hacker News",
+          "date": "Oct 29",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDuVB5nQJHwAnAATDQxAqD8KtWk7IpNvBqXQq6RPkqJ72joLVDp5dUDDdYmRHlrbUhJQpaQQ59p245XjotvW2DNx_fKk7cPp0wJUsK0z5IQY2jXA1oP-YcYKLtSdBXnZJDNECWOzX9tP3-12cKXJm2A1KKoBsu9CEiOYKbgJDVqvQt7YRF8Fzd706YumA/s1600/cisco-sdwan.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
           "hn": null
         },
         {
@@ -375,52 +454,6 @@
           "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXuRyHXVM1n6S9Z49nYkM2dmJjKwuZx2RAre0CQSpB202GteLj8keMogqzR7ZVIv7YRc9udBHU7-oCpnpzL6nLaez3ypbVr9cVmiH9zFwJVApy5cev84W725y38auaUdkCQGN3zvngCivMUl-SYV1jnJu9eHduaYeBzro4cdmFHIQJfBQN4RvcC-fUTrs1/s1600/si.jpg",
           "icon": null,
           "domain": "thehackernews.com",
-          "hn": null
-        }
-      ],
-      "more": [
-        {
-          "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
-          "link": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
-          "excerpt": "Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the background. To qualify, a store must pass identity checks and send Google its full catalog, along with every new app and…",
-          "source": "The Hacker News",
-          "date": "Oct 28",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJGjoQXY31UWoQz0bfvFTDRKy4lDpdbhqOJFgOspdG5AcGZNlsme3byg1-XnmyLsx7HQrxb0iojoqyoeO0KDhEDWbLxzQLceuQwSlD8TXgkhzoRCyFepV0PcOwNee4lCypBnYFiZ4DhJ_ZojQ0HyRuCGGqFVAwBxMqdzkOHL2I1tLTUctLATvKl7MMONo/s1600/android-app-install.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null
-        },
-        {
-          "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
-          "link": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
-          "excerpt": "A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge's sandbox, a security researcher has shown. Orange Tsai of DEVCORE published the full method on October 28, five months after the chain won $175,000 at…",
-          "source": "The Hacker News",
-          "date": "Oct 28",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAGi2cGlEYo6PNV9aaEulhQB9MtbWjCBFhi3MugyJf4kGwtSPjq9F9wxhlptAUKuipSCQ0_NhE5eyEbHzMWnT6hVLsXtqrIQImq0QndxbKoKMz_gzxJonZa2jnvwHGEqjN_J7uyi5BPaqlGmtMn1y9xzJQywFZB_FNgKV-GR7qtBQfVmrLxdoUlyhPTiA/s1600/edge.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null
-        },
-        {
-          "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
-          "link": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
-          "excerpt": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems. The activity, which was observed on October 25,…",
-          "source": "The Hacker News",
-          "date": "Oct 28",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl3PPkqzXf7YyMcnwdBu5XWlOwWtUonf15z0n79qMtIOVTb4LNfKdnl7tUK-45_2boP9r2ZKuHmX6e1BZLmo-LYF-rUwH8gtNrynFuaX4rlNh20UXPvtIfC85BcKcHXK1qei6uOJyImSjTfO537yljJve0Y_zMlfFfhBl0mKPfppWhkfojtGlYgxLjdSO0/s1600/php-united.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null
-        },
-        {
-          "title": "Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day",
-          "link": "https://www.securityweek.com/chinese-hackers-quietly-used-low-severity-esxi-logging-flaw-as-zero-day/",
-          "excerpt": "CVE-2026-41709 allows attackers with administrative privileges to perform operations without being logged. The post Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Oct 29",
-          "image": "https://www.securityweek.com/wp-content/uploads/2022/08/VMWare.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
           "hn": null
         }
       ]
@@ -475,6 +508,17 @@
           "hn": null
         },
         {
+          "title": "Anthropic Says Nobody Needs a Mental Model of Claude Code. Practitioners Are Testing That",
+          "link": "https://www.infoq.com/news/2026/10/anthropic-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Anthropic has published how the Claude Code team reviews code now that Claude writes roughly 90% of it, including a claim that nobody keeps a complete mental model of the codebase. The post documents a pull request that ran more than fifty review rounds overnight, a reviewer spending most of its…",
+          "source": "InfoQ",
+          "date": "Oct 29",
+          "image": "https://res.infoq.com/news/2026/10/anthropic-code-review/en/headerimage/generatedHeaderImage-1792959100117.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null
+        },
+        {
           "title": "Evaluate AI models for observability: o11y-bench joins Fireworks' Specialized Intelligence Index and reaches v1.1",
           "link": "https://grafana.com/blog/evaluate-ai-models-for-observability-o11y-bench-joins-fireworks-specialized-intelligence-index-and-reaches-v1-1/",
           "excerpt": "When evaluating AI models for observability, generating a plausible query or explanation isn't enough. Teams need to know whether an agent's conclusions are supported by telemetry, whether its changes to dashboards actually work, and whether it can deliver reliable results consistently.This is why…",
@@ -495,34 +539,23 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null
-        },
-        {
-          "title": "Step into a new dimension with XREAL AURA, the first-of-its-kind wired XR glasses",
-          "link": "https://cloud.google.com/blog/products/chrome-enterprise/step-in-to-a-new-dimension-with-xreal-aura-a-first-of-its-kind-wired-xr-glasses/",
-          "excerpt": "The world of work is rapidly evolving, and with it, the tools we use to stay productive and connected. As AI adoption transforms daily workflows, form factors like XR headsets and glasses offer fresh ways to reimagine how productive work happens across apps and devices.Today marks the launch of…",
-          "source": "Cloud Blog",
-          "date": "Oct 28",
-          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/image_1793115762660776.max-600x600.png",
-          "icon": null,
-          "domain": "cloud.google.com",
-          "hn": null
-        },
-        {
-          "title": "Introducing the AlloyDB Omni web UI for easier cluster observability",
-          "link": "https://cloud.google.com/blog/products/databases/alloydb-omni-delivers-a-web-ui-for-cluster-observability/",
-          "excerpt": "Managing PostgreSQL databases across on-premises, edge, and multi-cloud environments often forces administrators to rely on command-line tools, making it hard to see cluster health and quickly diagnose issues. To solve this, we are announcing the General Availability (GA) of the AlloyDB Omni Web…",
-          "source": "Cloud Blog",
-          "date": "Oct 28",
-          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/original_images/1_System_Insights_and_Query_Insights_in_AlloyDB_Omni_Web_UI.gif",
-          "icon": null,
-          "domain": "cloud.google.com",
-          "hn": null
         }
       ]
     },
     {
       "name": "News & Research",
       "cards": [
+        {
+          "title": "We urgently need to monitor AI agents’ actions in real time",
+          "link": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+          "excerpt": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent accessed private files from an…",
+          "source": "MIT Technology Review",
+          "date": "Oct 29",
+          "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/261028_AIsurveillance.jpg?resize=1200,600",
+          "icon": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/static/media/favicon.1cfcdb44759a0f93ddf5feb5405dd4cc.ico",
+          "domain": "technologyreview.com",
+          "hn": null
+        },
         {
           "title": "Claude Code regularly sends each background agent’s transcript to its model",
           "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
@@ -532,7 +565,7 @@
           "image": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "gist.github.com",
-          "hn": "318 points · 98 comments"
+          "hn": "400 points · 142 comments"
         },
         {
           "title": "Anduril now says its BlueChip laptop will meet Buy American standards at launch",
@@ -544,7 +577,9 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
           "link": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
@@ -555,9 +590,7 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null
-        }
-      ],
-      "more": [
+        },
         {
           "title": "AI for Science expands to foundations and research institutions",
           "link": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
@@ -570,48 +603,37 @@
           "hn": null
         },
         {
+          "title": "Spain train crash: What we know after two trains crashed with dozens feared dead",
+          "link": "https://www.bbc.com/news/articles/cm8xz7pkd0jjo",
+          "excerpt": "More than 500 passengers were on board the trains when the crash occurred in the province of Toledo, south of Madrid.",
+          "source": "bbc.com via Hacker News",
+          "date": "Oct 29",
+          "image": "https://ichef.bbci.co.uk/news/1024/branded_news/fe69/live/788ac890-d37d-11f1-b441-2b33b063138f.jpg",
+          "icon": "https://static.files.bbci.co.uk/bbcdotcom/web/20261027-121803-88dfe2b2c8-web-3.26.0-4/apple-touch-icon.png",
+          "domain": "bbc.com",
+          "hn": "23 points · 13 comments"
+        },
+        {
           "title": "Cuba is skipping its November 1, 2026 clock change and staying on DST until 2027",
           "link": "https://www.timeanddate.com/news/time/cuba-keeps-dst-until-nov-2027.html",
-          "excerpt": "13 points · 8 comments",
+          "excerpt": "69 points · 124 comments",
           "source": "timeanddate.com via Hacker News",
           "date": "Oct 29",
           "image": null,
           "icon": "https://www.timeanddate.com/favicon.ico",
           "domain": "timeanddate.com",
-          "hn": "13 points · 8 comments"
+          "hn": "69 points · 124 comments"
         },
         {
-          "title": "Zillow to pay $212.5M to settle class action for real estate venture",
-          "link": "https://www.reuters.com/legal/government/zillow-pay-2125-million-settle-class-action-over-failed-real-estate-venture-2026-10-28/",
-          "excerpt": "36 points · 9 comments",
-          "source": "reuters.com via Hacker News",
+          "title": "Zero click, silent, remote Android DoS",
+          "link": "https://smsofdeath.com/",
+          "excerpt": "A single malformed WAP Push SMS crashes com.android.phone on Android. Zero-click, remote, drops emergency calls.",
+          "source": "smsofdeath.com via Hacker News",
           "date": "Oct 29",
           "image": null,
-          "icon": "https://www.reuters.com/favicon.ico",
-          "domain": "reuters.com",
-          "hn": "36 points · 9 comments"
-        },
-        {
-          "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
-          "link": "https://divagr.com/blog/qwenputer",
-          "excerpt": "I compiled a RISC-V CPU into Qwen 3.5 4B's weights, using its Gated DeltaNet layers as RAM. It runs C and MicroPython inside the forward passes, and Qwen uses it for exact arithmetic.",
-          "source": "divagr.com via Hacker News",
-          "date": "Oct 29",
-          "image": "https://divagr.com/qwenputer/og.png",
-          "icon": "https://divagr.com/favicon.svg",
-          "domain": "divagr.com",
-          "hn": "395 points · 83 comments"
-        },
-        {
-          "title": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
-          "link": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
-          "excerpt": "Alpine Linux",
-          "source": "alpinelinux.org via Hacker News",
-          "date": "Oct 28",
-          "image": null,
-          "icon": "https://alpinelinux.org/alpine-logo.ico",
-          "domain": "alpinelinux.org",
-          "hn": "166 points · 76 comments"
+          "icon": "https://smsofdeath.com/favicon.ico",
+          "domain": "smsofdeath.com",
+          "hn": "105 points · 55 comments"
         }
       ]
     }
