@@ -1,4 +1,10 @@
 {
+ "https://about.gitlab.com/blog/find-vulnerability-blast-radius-with-gitlab-orbit/": {
+  "description": "Exploitation happens at machine speed now. Map every project, owner, and pipeline a critical CVE touches so remediation can keep up.",
+  "fetched": "2026-10-29",
+  "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
+  "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1780996524/sd1vpl8empy26wizarqj.png"
+ },
  "https://about.gitlab.com/blog/security-at-machine-speed/": {
   "description": "AI is changing how quickly vulnerabilities can be discovered and exploited. The next challenge is bringing that same speed to remediation and prevention",
   "fetched": "2026-10-29",
@@ -46,6 +52,12 @@
   "fetched": "2026-10-28",
   "icon": "https://artificialanalysis.ai/favicon.ico",
   "image": "https://cdn.sanity.io/images/6vfeftx9/articles/c091ec22bdbb2a18ba5205e03dd14575b80f552e-1200x1200.jpg?w=1200&auto=format"
+ },
+ "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1": {
+  "description": "Google’s Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5, and second only to Claude Opus 5.5 on the Artificial Analysis Coding Agent Index",
+  "fetched": "2026-10-29",
+  "icon": "https://artificialanalysis.ai/favicon.ico",
+  "image": "https://cdn.sanity.io/images/6vfeftx9/articles/ce3b883faa25c57a8672817086d2da1d248fbbfa-1254x1254.png?w=1200&auto=format"
  },
  "https://artificialanalysis.ai/models/kimi-k3-1-pro": {
   "description": "Analysis of Kimi's Kimi K3.1 Pro and comparison to other AI models across key metrics including quality, price, performance (tokens per second & time to first token), context window & more.",
@@ -497,6 +509,18 @@
   "icon": null,
   "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/ZrKpGOLkSf0LmAf3bnJIX.png"
  },
+ "https://huggingface.co/blog/anydecisionmodel": {
+  "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+  "fetched": "2026-10-29",
+  "icon": null,
+  "image": "https://huggingface.co/blog/assets/anydecisionmodel/banner.png"
+ },
+ "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1": {
+  "description": "A Blog post by IBM Granite on Hugging Face",
+  "fetched": "2026-10-29",
+  "icon": null,
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/662836b742709fe826510597/az6afuuoAkyiMImufSePe.png"
+ },
  "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1": {
   "description": "A Blog post by IBM Research on Hugging Face",
   "fetched": "2026-10-23",
@@ -508,6 +532,12 @@
   "fetched": "2026-10-23",
   "icon": null,
   "image": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/oS8I8qx7iBS8EcNIXR3q9.png"
+ },
+ "https://huggingface.co/blog/mistral-large4": {
+  "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+  "fetched": "2026-10-29",
+  "icon": null,
+  "image": "https://huggingface.co/blog/assets/ml4/thumbnail.png"
  },
  "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary": {
   "description": "A Blog post by NVIDIA on Hugging Face",
@@ -598,6 +628,12 @@
   "fetched": "2026-10-26",
   "icon": "https://minimaxir.com/apple-touch-icon.png",
   "image": "https://minimaxir.com/2026/10/cheap-llms/vercel.png"
+ },
+ "https://mistral.ai/news/mistral-large-4-oss/": {
+  "description": "The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe.",
+  "fetched": "2026-10-29",
+  "icon": null,
+  "image": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp"
  },
  "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8": {
   "description": null,
@@ -839,6 +875,12 @@
   "icon": null,
   "image": null
  },
+ "https://simonwillison.net/2026/Oct/29/ben-hylak/": {
+  "description": "every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath. except for our product, of course. …",
+  "fetched": "2026-10-29",
+  "icon": null,
+  "image": null
+ },
  "https://smsofdeath.com/": {
   "description": "A single malformed WAP Push SMS crashes com.android.phone on Android. Zero-click, remote, drops emergency calls.",
   "fetched": "2026-10-29",
@@ -874,6 +916,12 @@
   "fetched": "2026-10-27",
   "icon": "https://stackoverflow.blog/apple-touch-icon.png",
   "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format"
+ },
+ "https://stackoverflow.blog/2026/10/28/a-json-schema-is-not-an-ai-governance-layer/": {
+  "description": "The AI governance argument is happening one layer above the code that actually stops your agent.",
+  "fetched": "2026-10-29",
+  "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+  "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/0c60f7b40db43d83c41e715c86e9764a779aaf8a-2560x1344.jpg?w=1200&h=630&auto=format"
  },
  "https://stackoverflow.blog/2026/10/28/delivering-controlled-and-concentrated-context/": {
   "description": "Check out the new features and capabilities now available in Stack Internal and Stack Internal Community. Try Stack Internal for free by visiting stackinternal.com.",
@@ -958,6 +1006,18 @@
   "fetched": "2026-10-28",
   "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
   "image": "https://techcrunch.com/wp-content/uploads/2026/10/Golden-AI-finance-collage.png?resize=1200,600"
+ },
+ "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/": {
+  "description": "On Thursday, AI app, Wabi, now describing itself as a \"personal agent,\" said it has raised $55 million at a $1.25 billion valuation.",
+  "fetched": "2026-10-29",
+  "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/wabi-20.jpg?resize=1200,620"
+ },
+ "https://text.npr.org/nx-s1-6021497": {
+  "description": null,
+  "fetched": "2026-10-29",
+  "icon": null,
+  "image": null
  },
  "https://thenumb.at/Syl-Intro/": {
   "description": null,
@@ -1211,6 +1271,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2025/09/24/Kali-Linux.jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/": {
+  "description": "AI agents can control authenticated browsers, interact with corporate applications, and access sensitive data while appearing to act as legitimate employees. Keep Aware examines three ways agents operate inside browsers and why traditional security tools may struggle to distinguish their activity from human users.",
+  "fetched": "2026-10-29",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/posts/2026/10/27/ai-agents-header.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/": {
   "description": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package.",
   "fetched": "2026-10-26",
@@ -1367,6 +1433,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/banking-on-ai-how-a-new-operating-model-can-transform-distressed-credit-management": {
+  "description": null,
+  "fetched": "2026-10-29",
+  "icon": null,
+  "image": null
+ },
  "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/global-economics-intelligence": {
   "description": null,
   "fetched": "2026-10-29",
@@ -1398,6 +1470,12 @@
   "image": null
  },
  "https://www.mckinsey.com/industries/financial-services/our-insights/rewiring-securities-services-for-a-new-era-of-competition-and-growth": {
+  "description": null,
+  "fetched": "2026-10-29",
+  "icon": null,
+  "image": null
+ },
+ "https://www.mckinsey.com/industries/financial-services/our-insights/the-algorithm-isnt-the-advantage-the-team-is": {
   "description": null,
   "fetched": "2026-10-29",
   "icon": null,
@@ -1528,6 +1606,12 @@
   "fetched": "2026-10-29",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2025/01/Chrome-Firefox.jpeg"
+ },
+ "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps/": {
+  "description": "Cisco’s Quarry combines ML judgment and exact rules to spot malicious intent hidden across a series of harmless AI agent steps.",
+  "fetched": "2026-10-29",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/09/AI-artificial-intelligence-training.jpeg"
  },
  "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/": {
   "description": "A cybersecurity incident at the University of New Mexico Health System forced it to send ambulances to other hospitals.",
@@ -1684,6 +1768,12 @@
   "fetched": "2026-10-27",
   "icon": "https://www.unix.dog/~yosh/img/favicon.png",
   "image": "https://unix.dog/~yosh/img/renard_lftanthology.png"
+ },
+ "https://www.vox.com/xpress/2014/11/12/7204453/martin-luther-king-fbi-letter": {
+  "description": "Vox is a general interest news site for the 21st century. Its mission: to help everyone understand our complicated world, so that we can all help shape it. In text, video and audio, our reporters explain politics, policy, world affairs, technology, culture, science, the climate crisis, money, health and everything else that matters. Our goal is to ensure that everyone, regardless of income or status, can access accurate information that empowers them.",
+  "fetched": "2026-10-29",
+  "icon": "https://www.vox.com/static-assets/icons/apple-touch-icon.png",
+  "image": "https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/10036067/Screen_Shot_2014-11-12_at_10.58.40_AM.0.0.0.png?quality=90&strip=all&crop=0,29.913082161311,100,40.173835677377"
  },
  "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/": {
   "description": "The leaked records include the locations of ICE and CBP facilities, workers’ cell phone numbers, and the members of groups tied to wiretap programs, Palantir software, and xAI’s Grok chatbot.",
