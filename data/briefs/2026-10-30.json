@@ -1,21 +1,28 @@
 {
   "date": "2026-10-30",
   "lead": {
-    "title": "We ran AI agent swarms in Minecraft and Mindustry",
-    "link": "https://labs.ycombinator.com/projects/games/index.html",
-    "excerpt": "Swarms of Claude and GPT agents in Minecraft and Mindustry.",
-    "source": "labs.ycombinator.com via Hacker News",
+    "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+    "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+    "excerpt": "A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthropic said on October 27 that its AI model wrote an exploit that uses the flaw…",
+    "source": "The Hacker News",
     "date": "Oct 29",
-    "image": "https://labs.ycombinator.com/og.png",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfCJ0ttE8v4hkDjJRqbTvxlxFcoNtFJhbYCQ-o8NtaiyFLImEyA8aSO967eeZG9fRebhc8oVA-OloE9X9KVVAxM-H3wKvUlh8XmN6bGlEz2IJwMgcssmA7yIRi7YNOwVQYD6nhQCaWUg6fPy-QXVjfw6rV55LueKlLvZLazjKjTL94KJMMUZ2uZ3R019Km/s1600/linux-flaw.jpg",
     "image_credit": null,
-    "section": "AI Agents & Agent Security",
+    "section": "Security & AppSec",
     "pinned": false,
     "note": null,
     "labels": [
-      "AI Agents & Agent Security",
-      "6h ago"
+      "2 sources",
+      "CVE-2026-98432",
+      "Security & AppSec",
+      "3h ago"
     ],
-    "also": []
+    "also": [
+      {
+        "name": "penligent.ai",
+        "link": "https://www.penligent.ai/hackinglabs/cve-2026-98432/"
+      }
+    ]
   },
   "pulse": [
     {
@@ -25,7 +32,7 @@
       "link_domain": "arkm.com",
       "source": "Hacker News",
       "domain": "arkm.com",
-      "meta": "Hacker News · 911 points · 532 comments · 6h ago",
+      "meta": "Hacker News · 1k points · 626 comments · 8h ago",
       "also": [],
       "image": null,
       "icon": "https://arkm.com/favicon.ico"
@@ -37,7 +44,7 @@
       "link_domain": "artificialanalysis.ai",
       "source": "Hacker News",
       "domain": "artificialanalysis.ai",
-      "meta": "Hacker News · 329 points · 240 comments · 15h ago",
+      "meta": "Hacker News · 331 points · 240 comments · 17h ago",
       "also": [],
       "image": "https://cdn.sanity.io/images/6vfeftx9/articles/ce3b883faa25c57a8672817086d2da1d248fbbfa-1254x1254.png?w=1200&auto=format",
       "icon": "https://artificialanalysis.ai/favicon.ico"
@@ -49,7 +56,7 @@
       "link_domain": "dreamgroup.com",
       "source": "Hacker News",
       "domain": "dreamgroup.com",
-      "meta": "Hacker News · 308 points · 150 comments · 17h ago",
+      "meta": "Hacker News · 309 points · 153 comments · 19h ago",
       "also": [],
       "image": "https://cdn.prod.website-files.com/6a146a5aca0b1a41051708a5/6adf6b3b5ddc1bc1311cd370_6a32a0cab8a1061a5787637e_17.jpeg",
       "icon": "https://cdn.prod.website-files.com/6a1324866930e66fe78a27d6/6a324f6e3649826a83d27520_webclip.jpg"
@@ -61,7 +68,7 @@
       "link_domain": "divagr.com",
       "source": "Lobsters",
       "domain": "divagr.com",
-      "meta": "Lobsters · 42 points · 5 comments · 18h ago",
+      "meta": "Lobsters · 42 points · 5 comments · 20h ago",
       "also": [],
       "image": "https://divagr.com/qwenputer/og.png",
       "icon": "https://divagr.com/favicon.svg"
@@ -73,7 +80,7 @@
       "link_domain": "text.npr.org",
       "source": "Hacker News",
       "domain": "text.npr.org",
-      "meta": "Hacker News · 260 points · 75 comments · 15h ago",
+      "meta": "Hacker News · 260 points · 76 comments · 17h ago",
       "also": [],
       "image": null,
       "icon": "https://text.npr.org/favicon.ico"
@@ -85,7 +92,7 @@
       "link_domain": "",
       "source": "Lobsters",
       "domain": "Lobsters",
-      "meta": "Lobsters · 27 points · 36 comments · 13h ago",
+      "meta": "Lobsters · 29 points · 38 comments · 15h ago",
       "also": [],
       "image": null,
       "icon": null
@@ -97,7 +104,7 @@
       "link_domain": "trakkr.ai",
       "source": "Hacker News",
       "domain": "trakkr.ai",
-      "meta": "Hacker News · 152 points · 65 comments · 13h ago",
+      "meta": "Hacker News · 155 points · 66 comments · 14h ago",
       "also": [],
       "image": "https://trakkr.ai/images/research/og/zombie-stats.png",
       "icon": "https://trakkr.ai/apple-touch-icon.png"
@@ -109,7 +116,7 @@
       "link_domain": "404media.co",
       "source": "Hacker News",
       "domain": "404media.co",
-      "meta": "Hacker News · 145 points · 52 comments · 13h ago",
+      "meta": "Hacker News · 149 points · 53 comments · 15h ago",
       "also": [],
       "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/andy3.png",
       "icon": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w256h256/format/png/2023/08/favicon-3.svg"
@@ -121,7 +128,7 @@
       "link_domain": "fig.blue",
       "source": "Hacker News",
       "domain": "fig.blue",
-      "meta": "Hacker News · 112 points · 99 comments · 10h ago",
+      "meta": "Hacker News · 114 points · 113 comments · 12h ago",
       "also": [],
       "image": null,
       "icon": "https://fig.blue/favicon.svg"
@@ -143,6 +150,17 @@
           "hn": null
         },
         {
+          "title": "It’s ok that computers are (sometimes) better than us",
+          "link": "https://stackoverflow.blog/2026/10/30/it-s-ok-that-computers-are-sometimes-better-than-us/",
+          "excerpt": "Ryan is joined by Charity Majors, co-founder and CTO at Honeycomb, for a conversation about applying the concept of immutable infrastructure to software development to treat code like cattle instead of pets, shifting the paradigm of system specifications to accommodate the rapid influx of…",
+          "source": "Stack Overflow Blog",
+          "date": "Oct 30",
+          "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format",
+          "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+          "domain": "stackoverflow.blog",
+          "hn": null
+        },
+        {
           "title": "The reports of Stack Overflow's death are greatly exaggerated",
           "link": "https://stackoverflow.blog/2026/10/29/the-reports-of-stack-overflow-s-death-are-greatly-exaggerated/",
           "excerpt": "I’ve seen the recent predictions about Stack Overflow’s demise. They make for compelling headlines, but they confuse a change in how people access knowledge with the disappearance of the knowledge—and the company—behind it.",
@@ -151,17 +169,6 @@
           "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/f077426960fd528ef7706da767d169cf49038d71-2048x1152.png?rect=0,39,2048,1075&w=1200&h=630&auto=format",
           "icon": "https://stackoverflow.blog/apple-touch-icon.png",
           "domain": "stackoverflow.blog",
-          "hn": null
-        },
-        {
-          "title": "Bliki: LLM Voice",
-          "link": "https://martinfowler.com/bliki/LLM-Voice.html",
-          "excerpt": "Sometimes when I read a post, I get the growing feeling that I'm reading the output of an LLM. I can't necessarily define why, although there are the common tells (it's not the em-dashes, it's the load-bearing tapestries). As I do this my desire to read on atrophies, sometimes to the point of…",
-          "source": "Martin Fowler",
-          "date": "Oct 29",
-          "image": "https://martinfowler.com/logo-sq.png",
-          "icon": "https://martinfowler.com/favicon.ico",
-          "domain": "martinfowler.com",
           "hn": null
         }
       ],
@@ -176,12 +183,34 @@
           "icon": "https://matklad.github.io/favicon.png",
           "domain": "matklad.github.io",
           "hn": null
+        },
+        {
+          "title": "Bliki: LLM Voice",
+          "link": "https://martinfowler.com/bliki/LLM-Voice.html",
+          "excerpt": "Sometimes when I read a post, I get the growing feeling that I'm reading the output of an LLM. I can't necessarily define why, although there are the common tells (it's not the em-dashes, it's the load-bearing tapestries). As I do this my desire to read on atrophies, sometimes to the point of…",
+          "source": "Martin Fowler",
+          "date": "Oct 29",
+          "image": "https://martinfowler.com/logo-sq.png",
+          "icon": "https://martinfowler.com/favicon.ico",
+          "domain": "martinfowler.com",
+          "hn": null
         }
       ]
     },
     {
       "name": "AI Agents & Agent Security",
       "cards": [
+        {
+          "title": "We ran AI agent swarms in Minecraft and Mindustry",
+          "link": "https://labs.ycombinator.com/projects/games/index.html",
+          "excerpt": "Swarms of Claude and GPT agents in Minecraft and Mindustry.",
+          "source": "labs.ycombinator.com via Hacker News",
+          "date": "Oct 29",
+          "image": "https://labs.ycombinator.com/og.png",
+          "icon": "https://labs.ycombinator.com/favicon.png?v=black2",
+          "domain": "labs.ycombinator.com",
+          "hn": "241 points · 82 comments"
+        },
         {
           "title": "Show HN: phpClaw – AI agent runtime for PHP with tools, memory and guards",
           "link": "https://github.com/phpclaw-php/phpclaw-monorepo",
@@ -203,7 +232,9 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
           "link": "https://latent.space/p/elorian/",
@@ -214,9 +245,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null
-        }
-      ],
-      "more": [
+        },
         {
           "title": "An updated Model Spec for more capable and beneficial AI",
           "link": "https://openai.com/index/updated-model-spec",
@@ -357,23 +386,23 @@
       "name": "Security & AppSec",
       "cards": [
         {
+          "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
+          "link": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+          "excerpt": "Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets. The world's biggest cryptocurrency exchange said nearly $3 billion of those assets have been frozen on-chain so far. Tether and Circle said they have frozen…",
+          "source": "The Hacker News",
+          "date": "Oct 30",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmTtJggkBbk2ERH6bhZMSPnb_E1aQ44w4EpzkwAt1tqp45sGvG7jeAg2QvmbWQsBy5hyphenhyphen7ur18XQ1Uax7D9XRg-CZpQpMAByXt37Fn1loBClsu49KlBEsnxRCfy7vSuI-5yrpHB4JLWc1vtw0aITnhbFXDb4CosJzm07My3Lw6p3fOLTfcaxJLBR-Pdi2A6/s1600/Binance.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
           "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
           "link": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
           "excerpt": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't. There's a strange mix of clever tricks and careless mistakes. Hackers are borrowing trust from…",
           "source": "The Hacker News",
           "date": "Oct 29",
           "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoNTh5CKLvFJeeXzWn1LVT-e9435oFtUz4jT-4TmZaWkRUY_RY8EAtijUWxQztoK3K_tU_csSw54MuVeX8UzeT6ZWNLtTMex5pMS4z4Npz-aYAN9qIfWk2bUsei5nswh3UkzycVlKznVjK7n1I_knJ-p1I59RoX_TECTfr-NPej9LWoDt2UuwvLY4heSip/s1600/t-day.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null
-        },
-        {
-          "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
-          "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
-          "excerpt": "A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthropic said on October 27 that its AI model wrote an exploit that uses the flaw…",
-          "source": "The Hacker News",
-          "date": "Oct 29",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfCJ0ttE8v4hkDjJRqbTvxlxFcoNtFJhbYCQ-o8NtaiyFLImEyA8aSO967eeZG9fRebhc8oVA-OloE9X9KVVAxM-H3wKvUlh8XmN6bGlEz2IJwMgcssmA7yIRi7YNOwVQYD6nhQCaWUg6fPy-QXVjfw6rV55LueKlLvZLazjKjTL94KJMMUZ2uZ3R019Km/s1600/linux-flaw.jpg",
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null
@@ -431,17 +460,6 @@
           "source": "SecurityWeek",
           "date": "Oct 29",
           "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null
-        },
-        {
-          "title": "Google Touts Powerful Cybersecurity Capabilities in Gemini 4 Carbon Model",
-          "link": "https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities/",
-          "excerpt": "Google’s new frontier model scored 88.2% on SEC-bench Pro and is rolling out first to vetted cyber defenders via its Fairwind Program. The post Google Touts Powerful Cybersecurity Capabilities in Gemini 4 Carbon Model appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Oct 29",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/04/Gemini.jpeg",
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null
@@ -566,7 +584,7 @@
           "image": "https://repository-images.githubusercontent.com/1383708351/edc8f018-5dfd-4df7-b4e1-dacb8573208c",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "13 points · 0 comments"
+          "hn": "21 points · 3 comments"
         },
         {
           "title": "CVE-2026-98432: Linux TCP Use-After-Free Risk and Patch Validation",
@@ -577,7 +595,7 @@
           "image": "https://www.penligent.ai/hackinglabs/wp-content/uploads/2026/10/clipboard-285.png",
           "icon": "https://www.penligent.ai/hackinglabs/wp-content/uploads/2025/12/cropped-penligent1-scaled-1-180x180.png",
           "domain": "penligent.ai",
-          "hn": "13 points · 8 comments"
+          "hn": "38 points · 28 comments"
         }
       ],
       "more": [
@@ -590,7 +608,7 @@
           "image": "https://opengraph.githubassets.com/3a6d74ffc646cd0aef45becc597592b9912ffb260ae8ee5d318d49d43eb92f14/picocss/pico/discussions/754",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "61 points · 20 comments"
+          "hn": "89 points · 25 comments"
         },
         {
           "title": "Herdr has released native app",
@@ -601,18 +619,18 @@
           "image": "https://opengraph.githubassets.com/c69dbc1fa5bf868b60cccd6dab8afd1f7bd0ab88c6cd3f063986658ef11248e6/herdrdev/herdr-app",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "59 points · 44 comments"
+          "hn": "108 points · 72 comments"
         },
         {
           "title": "Cormac McCarthy's Library",
           "link": "https://cormacmccarthy.lib.utk.edu/",
-          "excerpt": "27 points · 11 comments",
+          "excerpt": "37 points · 16 comments",
           "source": "cormacmccarthy.lib.utk.edu via Hacker News",
           "date": "Oct 30",
           "image": null,
           "icon": "https://cormacmccarthy.lib.utk.edu/favicon.ico",
           "domain": "cormacmccarthy.lib.utk.edu",
-          "hn": "27 points · 11 comments"
+          "hn": "37 points · 16 comments"
         },
         {
           "title": "Show HN: I Turned DOOM into a Transformer",
@@ -623,18 +641,18 @@
           "image": "https://opengraph.githubassets.com/632c59ef53c075f0915ca950764838dbc73e0423f590d72c65651f2b8dd813f0/mottopanikeiku/doomformer",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "57 points · 13 comments"
+          "hn": "65 points · 16 comments"
         },
         {
           "title": "A Pig, the State, and War: Porco Rosso (Kurenai No Buta) (2014)",
           "link": "https://journal.animationstudies.org/article/id/66/",
-          "excerpt": "71 points · 10 comments",
+          "excerpt": "88 points · 18 comments",
           "source": "journal.animationstudies.org via Hacker News",
           "date": "Oct 29",
           "image": "https://journal.animationstudies.org/media/cover_images/32a1852c-fcda-4630-b063-f82dd00354b3.jpeg",
           "icon": "https://journal.animationstudies.org/favicon.ico",
           "domain": "journal.animationstudies.org",
-          "hn": "71 points · 10 comments"
+          "hn": "88 points · 18 comments"
         }
       ]
     }
