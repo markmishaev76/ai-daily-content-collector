@@ -1,28 +1,21 @@
 {
   "date": "2026-10-30",
   "lead": {
-    "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
-    "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
-    "excerpt": "A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthropic said on October 27 that its AI model wrote an exploit that uses the flaw…",
-    "source": "The Hacker News",
+    "title": "We ran AI agent swarms in Minecraft and Mindustry",
+    "link": "https://labs.ycombinator.com/projects/games/index.html",
+    "excerpt": "Swarms of Claude and GPT agents in Minecraft and Mindustry.",
+    "source": "labs.ycombinator.com via Hacker News",
     "date": "Oct 29",
-    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfCJ0ttE8v4hkDjJRqbTvxlxFcoNtFJhbYCQ-o8NtaiyFLImEyA8aSO967eeZG9fRebhc8oVA-OloE9X9KVVAxM-H3wKvUlh8XmN6bGlEz2IJwMgcssmA7yIRi7YNOwVQYD6nhQCaWUg6fPy-QXVjfw6rV55LueKlLvZLazjKjTL94KJMMUZ2uZ3R019Km/s1600/linux-flaw.jpg",
+    "image": "https://labs.ycombinator.com/og.png",
     "image_credit": null,
-    "section": "Security & AppSec",
+    "section": "AI Agents & Agent Security",
     "pinned": false,
     "note": null,
     "labels": [
-      "2 sources",
-      "CVE-2026-98432",
-      "Security & AppSec",
-      "3h ago"
+      "AI Agents & Agent Security",
+      "11h ago"
     ],
-    "also": [
-      {
-        "name": "penligent.ai",
-        "link": "https://www.penligent.ai/hackinglabs/cve-2026-98432/"
-      }
-    ]
+    "also": []
   },
   "pulse": [
     {
@@ -32,7 +25,7 @@
       "link_domain": "arkm.com",
       "source": "Hacker News",
       "domain": "arkm.com",
-      "meta": "Hacker News · 1k points · 626 comments · 8h ago",
+      "meta": "Hacker News · 1.3k points · 777 comments · 11h ago",
       "also": [],
       "image": null,
       "icon": "https://arkm.com/favicon.ico"
@@ -44,7 +37,7 @@
       "link_domain": "artificialanalysis.ai",
       "source": "Hacker News",
       "domain": "artificialanalysis.ai",
-      "meta": "Hacker News · 331 points · 240 comments · 17h ago",
+      "meta": "Hacker News · 334 points · 242 comments · 19h ago",
       "also": [],
       "image": "https://cdn.sanity.io/images/6vfeftx9/articles/ce3b883faa25c57a8672817086d2da1d248fbbfa-1254x1254.png?w=1200&auto=format",
       "icon": "https://artificialanalysis.ai/favicon.ico"
@@ -56,7 +49,7 @@
       "link_domain": "dreamgroup.com",
       "source": "Hacker News",
       "domain": "dreamgroup.com",
-      "meta": "Hacker News · 309 points · 153 comments · 19h ago",
+      "meta": "Hacker News · 311 points · 153 comments · 21h ago",
       "also": [],
       "image": "https://cdn.prod.website-files.com/6a146a5aca0b1a41051708a5/6adf6b3b5ddc1bc1311cd370_6a32a0cab8a1061a5787637e_17.jpeg",
       "icon": "https://cdn.prod.website-files.com/6a1324866930e66fe78a27d6/6a324f6e3649826a83d27520_webclip.jpg"
@@ -68,7 +61,7 @@
       "link_domain": "divagr.com",
       "source": "Lobsters",
       "domain": "divagr.com",
-      "meta": "Lobsters · 42 points · 5 comments · 20h ago",
+      "meta": "Lobsters · 40 points · 6 comments · 22h ago",
       "also": [],
       "image": "https://divagr.com/qwenputer/og.png",
       "icon": "https://divagr.com/favicon.svg"
@@ -80,7 +73,7 @@
       "link_domain": "text.npr.org",
       "source": "Hacker News",
       "domain": "text.npr.org",
-      "meta": "Hacker News · 260 points · 76 comments · 17h ago",
+      "meta": "Hacker News · 264 points · 74 comments · 20h ago",
       "also": [],
       "image": null,
       "icon": "https://text.npr.org/favicon.ico"
@@ -92,22 +85,10 @@
       "link_domain": "",
       "source": "Lobsters",
       "domain": "Lobsters",
-      "meta": "Lobsters · 29 points · 38 comments · 15h ago",
+      "meta": "Lobsters · 31 points · 42 comments · 18h ago",
       "also": [],
       "image": null,
       "icon": null
-    },
-    {
-      "title": "Zombie stats: Where the numbers AI quotes come from",
-      "thread": "https://news.ycombinator.com/item?id=50290283",
-      "link": "https://trakkr.ai/trakkr-research/zombie-stats",
-      "link_domain": "trakkr.ai",
-      "source": "Hacker News",
-      "domain": "trakkr.ai",
-      "meta": "Hacker News · 155 points · 66 comments · 14h ago",
-      "also": [],
-      "image": "https://trakkr.ai/images/research/og/zombie-stats.png",
-      "icon": "https://trakkr.ai/apple-touch-icon.png"
     },
     {
       "title": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning",
@@ -116,10 +97,22 @@
       "link_domain": "404media.co",
       "source": "Hacker News",
       "domain": "404media.co",
-      "meta": "Hacker News · 149 points · 53 comments · 15h ago",
+      "meta": "Hacker News · 160 points · 55 comments · 18h ago",
       "also": [],
       "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/andy3.png",
       "icon": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w256h256/format/png/2023/08/favicon-3.svg"
+    },
+    {
+      "title": "Zombie stats: Where the numbers AI quotes come from",
+      "thread": "https://news.ycombinator.com/item?id=50290283",
+      "link": "https://trakkr.ai/trakkr-research/zombie-stats",
+      "link_domain": "trakkr.ai",
+      "source": "Hacker News",
+      "domain": "trakkr.ai",
+      "meta": "Hacker News · 160 points · 66 comments · 17h ago",
+      "also": [],
+      "image": "https://trakkr.ai/images/research/og/zombie-stats.png",
+      "icon": "https://trakkr.ai/apple-touch-icon.png"
     },
     {
       "title": "Claude Duet is the first personal-assistant-type harness that feels useful",
@@ -128,10 +121,22 @@
       "link_domain": "fig.blue",
       "source": "Hacker News",
       "domain": "fig.blue",
-      "meta": "Hacker News · 114 points · 113 comments · 12h ago",
+      "meta": "Hacker News · 115 points · 120 comments · 15h ago",
       "also": [],
       "image": null,
       "icon": "https://fig.blue/favicon.svg"
+    },
+    {
+      "title": "C2PA's eMudhra Moment",
+      "thread": "https://lobste.rs/s/2matgw/c2pa_s_emudhra_moment",
+      "link": "https://www.da.vidbuchanan.co.uk/blog/c2pa-four.html",
+      "link_domain": "da.vidbuchanan.co.uk",
+      "source": "Lobsters",
+      "domain": "da.vidbuchanan.co.uk",
+      "meta": "Lobsters · 15 points · 1 comments · 12h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.da.vidbuchanan.co.uk/favicon.ico"
     }
   ],
   "sections": [
@@ -201,17 +206,6 @@
       "name": "AI Agents & Agent Security",
       "cards": [
         {
-          "title": "We ran AI agent swarms in Minecraft and Mindustry",
-          "link": "https://labs.ycombinator.com/projects/games/index.html",
-          "excerpt": "Swarms of Claude and GPT agents in Minecraft and Mindustry.",
-          "source": "labs.ycombinator.com via Hacker News",
-          "date": "Oct 29",
-          "image": "https://labs.ycombinator.com/og.png",
-          "icon": "https://labs.ycombinator.com/favicon.png?v=black2",
-          "domain": "labs.ycombinator.com",
-          "hn": "241 points · 82 comments"
-        },
-        {
           "title": "Show HN: phpClaw – AI agent runtime for PHP with tools, memory and guards",
           "link": "https://github.com/phpclaw-php/phpclaw-monorepo",
           "excerpt": "Open-source AI agent framework for PHP. Tools, memory, security guards and a ReAct loop built in. Works with Laravel, Symfony, WordPress, Drupal, Magento, Joomla, OpenCart, PrestaShop. Any LLM prov...",
@@ -231,6 +225,17 @@
           "image": "https://static.simonwillison.net/static/2026-10-29/IMG_9406.webp",
           "icon": null,
           "domain": "simonwillison.net",
+          "hn": null
+        },
+        {
+          "title": "[AINews] Building AIE CODE: The top Coding Agent Conference",
+          "link": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference/",
+          "excerpt": "Mistral’s open-weight release, frontier monitoring, and the day’s AI Twitter and Reddit recaps.",
+          "source": "Latent Space",
+          "date": "Oct 30",
+          "image": "https://latent.space/og/card/post/ainews-building-aie-code-the-top-coding-agent-conference/5b23d2a392473bc3aa4d9ff6d1748256231886548b7aa04537c84279d37eeb0f.png",
+          "icon": "https://latent.space/favicon.png",
+          "domain": "latent.space",
           "hn": null
         }
       ],
@@ -277,17 +282,6 @@
           "image": null,
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
-          "hn": null
-        },
-        {
-          "title": "Daytona2: Agent Infrastructure Requires More Than Kubernetes",
-          "link": "https://www.daytona.io/dotfiles/daytona2-agent-infrastructure-requires-more-than-kubernetes",
-          "excerpt": "Why Scalable Agent Infrastructure Requires More Than KubernetesâDaytona's purpose-built runtime for running AI agents at scale.",
-          "source": "Dotfiles Insider · Daytona",
-          "date": "Oct 29",
-          "image": "https://www.datocms-assets.com/103916/1793303267-daytona2-agent-infrastructure-requires-more-than-kubernetes-dark.png?auto=compress%2Cformat&fit=crop&h=1260&w=2520",
-          "icon": "https://www.daytona.io/apple-touch-icon.png",
-          "domain": "daytona.io",
           "hn": null
         }
       ]
@@ -386,6 +380,17 @@
       "name": "Security & AppSec",
       "cards": [
         {
+          "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+          "link": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-97229 (CVSS score: 10.0) -…",
+          "source": "The Hacker News",
+          "date": "Oct 30",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiw1Ms9mKdtALczFoDaNy5Bm0HVMfxu0ps0ykDUXuLn3BeOEqUCDnzUiCP2lU_7xbC2kYuIAGCuOiQCGIlkR6wYBfCfb7g0wRESfIFaMtSltOjWphyswldC4LJxFf0RnCB9FzEVc-euJGtGbUvpJr7FOE0QefC3_rn8xLSFTij_yJn1MNP6bJVu8VgrcLaV/s1600/github-cisco.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
           "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
           "link": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
           "excerpt": "Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets. The world's biggest cryptocurrency exchange said nearly $3 billion of those assets have been frozen on-chain so far. Tether and Circle said they have frozen…",
@@ -406,6 +411,19 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+          "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+          "excerpt": "A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthropic said on October 27 that its AI model wrote an exploit that uses the flaw…",
+          "source": "The Hacker News",
+          "date": "Oct 29",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfCJ0ttE8v4hkDjJRqbTvxlxFcoNtFJhbYCQ-o8NtaiyFLImEyA8aSO967eeZG9fRebhc8oVA-OloE9X9KVVAxM-H3wKvUlh8XmN6bGlEz2IJwMgcssmA7yIRi7YNOwVQYD6nhQCaWUg6fPy-QXVjfw6rV55LueKlLvZLazjKjTL94KJMMUZ2uZ3R019Km/s1600/linux-flaw.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
         },
         {
           "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
@@ -417,9 +435,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
           "link": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
@@ -451,17 +467,6 @@
           "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwVszv5076OudfiraNA4yh_XuzZZof-jYaklwUgiY700oPMvBHQfKHx-8yLNwhF9NVXahFRvWwU7c0mPCsIG-GUo45Fi_LT6ecZMsaRUfaLIL6eK16qeku1PO5aMTQRV0VKJh-pjKG4rC-RyajCGjL4R_A5W6YPsps4B4-GhEbstuAN7AnelVJPwIFK5W-/s1600/gite.jpg",
           "icon": null,
           "domain": "thehackernews.com",
-          "hn": null
-        },
-        {
-          "title": "When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis",
-          "link": "https://www.securityweek.com/when-risk-becomes-personal-what-security-leaders-can-learn-from-a-cancer-diagnosis/",
-          "excerpt": "Risk managers are trained to spot weak signals, plan for disruption and make hard decisions under uncertainty. But the discipline looks different when the risk is not a system or an enterprise, but you. The post When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis…",
-          "source": "SecurityWeek",
-          "date": "Oct 29",
-          "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
           "hn": null
         }
       ]
@@ -576,29 +581,16 @@
           "hn": null
         },
         {
-          "title": "Show HN: Lasm – Write formally verified webapps in Lean for Node/serverless/edge",
-          "link": "https://github.com/Millillion/lasm",
-          "excerpt": "Lean for JavaScript and WebAssembly runtimes. Contribute to Millillion/lasm development by creating an account on GitHub.",
-          "source": "github.com via Hacker News",
+          "title": "'Elite North Korean hackers' blamed for $6.3B Binance hack",
+          "link": "https://www.theguardian.com/business/live/2026/oct/30/uk-house-price-growth-crypto-industry-6bn-binance-hack-eurozone-france-gdp-latest-news-updates",
+          "excerpt": "Blockchain intelligence firm TRM says North Korea’s TraderTraitor hacking unit is responsible for the largest crypto theft on record",
+          "source": "theguardian.com via Hacker News",
           "date": "Oct 30",
-          "image": "https://repository-images.githubusercontent.com/1383708351/edc8f018-5dfd-4df7-b4e1-dacb8573208c",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "21 points · 3 comments"
+          "image": "https://i.guim.co.uk/img/media/c88d8154f76fef59b24c916cab7348652d9f113c/481_0_4070_3256/master/4070.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=10860848b9ed5bb27829c20d7b32815d",
+          "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg",
+          "domain": "theguardian.com",
+          "hn": "14 points · 4 comments"
         },
-        {
-          "title": "CVE-2026-98432: Linux TCP Use-After-Free Risk and Patch Validation",
-          "link": "https://www.penligent.ai/hackinglabs/cve-2026-98432/",
-          "excerpt": "CVE-2026-98432 is a Linux IPv4 TCP use-after-free. Understand the 9.8 versus 5.9 ratings, MPTCP lab RCE evidence, exposure checks, patches, and safe validation.",
-          "source": "penligent.ai via Hacker News",
-          "date": "Oct 30",
-          "image": "https://www.penligent.ai/hackinglabs/wp-content/uploads/2026/10/clipboard-285.png",
-          "icon": "https://www.penligent.ai/hackinglabs/wp-content/uploads/2025/12/cropped-penligent1-scaled-1-180x180.png",
-          "domain": "penligent.ai",
-          "hn": "38 points · 28 comments"
-        }
-      ],
-      "more": [
         {
           "title": "Pico CSS is no longer maintained",
           "link": "https://github.com/picocss/pico/discussions/754",
@@ -608,8 +600,10 @@
           "image": "https://opengraph.githubassets.com/3a6d74ffc646cd0aef45becc597592b9912ffb260ae8ee5d318d49d43eb92f14/picocss/pico/discussions/754",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "89 points · 25 comments"
-        },
+          "hn": "116 points · 45 comments"
+        }
+      ],
+      "more": [
         {
           "title": "Herdr has released native app",
           "link": "https://github.com/herdrdev/herdr-app",
@@ -619,18 +613,18 @@
           "image": "https://opengraph.githubassets.com/c69dbc1fa5bf868b60cccd6dab8afd1f7bd0ab88c6cd3f063986658ef11248e6/herdrdev/herdr-app",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "108 points · 72 comments"
+          "hn": "170 points · 102 comments"
         },
         {
           "title": "Cormac McCarthy's Library",
           "link": "https://cormacmccarthy.lib.utk.edu/",
-          "excerpt": "37 points · 16 comments",
+          "excerpt": "51 points · 19 comments",
           "source": "cormacmccarthy.lib.utk.edu via Hacker News",
           "date": "Oct 30",
           "image": null,
           "icon": "https://cormacmccarthy.lib.utk.edu/favicon.ico",
           "domain": "cormacmccarthy.lib.utk.edu",
-          "hn": "37 points · 16 comments"
+          "hn": "51 points · 19 comments"
         },
         {
           "title": "Show HN: I Turned DOOM into a Transformer",
@@ -641,18 +635,29 @@
           "image": "https://opengraph.githubassets.com/632c59ef53c075f0915ca950764838dbc73e0423f590d72c65651f2b8dd813f0/mottopanikeiku/doomformer",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "65 points · 16 comments"
+          "hn": "82 points · 25 comments"
         },
         {
           "title": "A Pig, the State, and War: Porco Rosso (Kurenai No Buta) (2014)",
           "link": "https://journal.animationstudies.org/article/id/66/",
-          "excerpt": "88 points · 18 comments",
+          "excerpt": "112 points · 27 comments",
           "source": "journal.animationstudies.org via Hacker News",
           "date": "Oct 29",
           "image": "https://journal.animationstudies.org/media/cover_images/32a1852c-fcda-4630-b063-f82dd00354b3.jpeg",
           "icon": "https://journal.animationstudies.org/favicon.ico",
           "domain": "journal.animationstudies.org",
-          "hn": "88 points · 18 comments"
+          "hn": "112 points · 27 comments"
+        },
+        {
+          "title": "The Great American Rascal: Tom Sawyer at 150",
+          "link": "https://claremontreviewofbooks.com/the-great-american-rascal/",
+          "excerpt": "The Great American Rascal",
+          "source": "claremontreviewofbooks.com via Hacker News",
+          "date": "Oct 29",
+          "image": "https://claremontreviewofbooks.com/wp-content/uploads/2026/09/CRB_FA26_Wolfson-573x400.png",
+          "icon": "https://claremontreviewofbooks.com/wp-content/uploads/2019/11/favcion.png",
+          "domain": "claremontreviewofbooks.com",
+          "hn": "67 points · 34 comments"
         }
       ]
     }
