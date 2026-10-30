@@ -1,83 +1,37 @@
 {
   "date": "2026-10-30",
   "lead": {
-    "title": "We ran AI agent swarms in Minecraft and Mindustry",
-    "link": "https://labs.ycombinator.com/projects/games/index.html",
-    "excerpt": "Swarms of Claude and GPT agents in Minecraft and Mindustry.",
-    "source": "labs.ycombinator.com via Hacker News",
-    "date": "Oct 29",
-    "image": "https://labs.ycombinator.com/og.png",
+    "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
+    "link": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+    "excerpt": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. [...]",
+    "source": "BleepingComputer",
+    "date": "Oct 30",
+    "image": "https://www.bleepstatic.com/content/hl-images/2026/10/30/Binance.jpg",
     "image_credit": null,
-    "section": "AI Agents & Agent Security",
+    "section": "Security & AppSec",
     "pinned": false,
     "note": null,
     "labels": [
-      "AI Agents & Agent Security",
-      "11h ago"
+      "4 sources",
+      "Security & AppSec",
+      "1h ago"
     ],
-    "also": []
+    "also": [
+      {
+        "name": "securityweek.com",
+        "link": "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/"
+      },
+      {
+        "name": "theregister.com",
+        "link": "https://www.theregister.com/security/2026/10/30/in-the-year-ai-re-wrote-the-infosec-rulebook-its-comforting-to-know-crypto-exchanges-still-have-bad-security/5306539"
+      },
+      {
+        "name": "techcrunch.com",
+        "link": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/"
+      }
+    ]
   },
   "pulse": [
-    {
-      "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
-      "thread": "https://news.ycombinator.com/item?id=50296470",
-      "link": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
-      "link_domain": "arkm.com",
-      "source": "Hacker News",
-      "domain": "arkm.com",
-      "meta": "Hacker News · 1.3k points · 777 comments · 11h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://arkm.com/favicon.ico"
-    },
-    {
-      "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
-      "thread": "https://news.ycombinator.com/item?id=50288019",
-      "link": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
-      "link_domain": "artificialanalysis.ai",
-      "source": "Hacker News",
-      "domain": "artificialanalysis.ai",
-      "meta": "Hacker News · 334 points · 242 comments · 19h ago",
-      "also": [],
-      "image": "https://cdn.sanity.io/images/6vfeftx9/articles/ce3b883faa25c57a8672817086d2da1d248fbbfa-1254x1254.png?w=1200&auto=format",
-      "icon": "https://artificialanalysis.ai/favicon.ico"
-    },
-    {
-      "title": "Chained PHP2Shell exploit roots 25 servers, including US Government servers",
-      "thread": "https://news.ycombinator.com/item?id=50286987",
-      "link": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
-      "link_domain": "dreamgroup.com",
-      "source": "Hacker News",
-      "domain": "dreamgroup.com",
-      "meta": "Hacker News · 311 points · 153 comments · 21h ago",
-      "also": [],
-      "image": "https://cdn.prod.website-files.com/6a146a5aca0b1a41051708a5/6adf6b3b5ddc1bc1311cd370_6a32a0cab8a1061a5787637e_17.jpeg",
-      "icon": "https://cdn.prod.website-files.com/6a1324866930e66fe78a27d6/6a324f6e3649826a83d27520_webclip.jpg"
-    },
-    {
-      "title": "Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5",
-      "thread": "https://lobste.rs/s/zftely/qwenputer_fully_functioning",
-      "link": "https://divagr.com/blog/qwenputer",
-      "link_domain": "divagr.com",
-      "source": "Lobsters",
-      "domain": "divagr.com",
-      "meta": "Lobsters · 40 points · 6 comments · 22h ago",
-      "also": [],
-      "image": "https://divagr.com/qwenputer/og.png",
-      "icon": "https://divagr.com/favicon.svg"
-    },
-    {
-      "title": "Hackers expose the identities of more than 40k DHS employees",
-      "thread": "https://news.ycombinator.com/item?id=50287898",
-      "link": "https://text.npr.org/nx-s1-6021497",
-      "link_domain": "text.npr.org",
-      "source": "Hacker News",
-      "domain": "text.npr.org",
-      "meta": "Hacker News · 264 points · 74 comments · 20h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://text.npr.org/favicon.ico"
-    },
     {
       "title": "Shared password manager for families?",
       "thread": "https://lobste.rs/s/eccbci/shared_password_manager_for_families",
@@ -85,46 +39,10 @@
       "link_domain": "",
       "source": "Lobsters",
       "domain": "Lobsters",
-      "meta": "Lobsters · 31 points · 42 comments · 18h ago",
+      "meta": "Lobsters · 36 points · 45 comments · 20h ago",
       "also": [],
       "image": null,
       "icon": null
-    },
-    {
-      "title": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning",
-      "thread": "https://news.ycombinator.com/item?id=50289692",
-      "link": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
-      "link_domain": "404media.co",
-      "source": "Hacker News",
-      "domain": "404media.co",
-      "meta": "Hacker News · 160 points · 55 comments · 18h ago",
-      "also": [],
-      "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/andy3.png",
-      "icon": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w256h256/format/png/2023/08/favicon-3.svg"
-    },
-    {
-      "title": "Zombie stats: Where the numbers AI quotes come from",
-      "thread": "https://news.ycombinator.com/item?id=50290283",
-      "link": "https://trakkr.ai/trakkr-research/zombie-stats",
-      "link_domain": "trakkr.ai",
-      "source": "Hacker News",
-      "domain": "trakkr.ai",
-      "meta": "Hacker News · 160 points · 66 comments · 17h ago",
-      "also": [],
-      "image": "https://trakkr.ai/images/research/og/zombie-stats.png",
-      "icon": "https://trakkr.ai/apple-touch-icon.png"
-    },
-    {
-      "title": "Claude Duet is the first personal-assistant-type harness that feels useful",
-      "thread": "https://news.ycombinator.com/item?id=50292727",
-      "link": "https://fig.blue/posts/duet-is-the-future/",
-      "link_domain": "fig.blue",
-      "source": "Hacker News",
-      "domain": "fig.blue",
-      "meta": "Hacker News · 115 points · 120 comments · 15h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://fig.blue/favicon.svg"
     },
     {
       "title": "C2PA's eMudhra Moment",
@@ -133,7 +51,7 @@
       "link_domain": "da.vidbuchanan.co.uk",
       "source": "Lobsters",
       "domain": "da.vidbuchanan.co.uk",
-      "meta": "Lobsters · 15 points · 1 comments · 12h ago",
+      "meta": "Lobsters · 18 points · 1 comments · 14h ago",
       "also": [],
       "image": null,
       "icon": "https://www.da.vidbuchanan.co.uk/favicon.ico"
@@ -206,6 +124,17 @@
       "name": "AI Agents & Agent Security",
       "cards": [
         {
+          "title": "We ran AI agent swarms in Minecraft and Mindustry",
+          "link": "https://labs.ycombinator.com/projects/games/index.html",
+          "excerpt": "Swarms of Claude and GPT agents in Minecraft and Mindustry.",
+          "source": "labs.ycombinator.com via Hacker News",
+          "date": "Oct 29",
+          "image": "https://labs.ycombinator.com/og.png",
+          "icon": "https://labs.ycombinator.com/favicon.png?v=black2",
+          "domain": "labs.ycombinator.com",
+          "hn": "297 points · 109 comments"
+        },
+        {
           "title": "Show HN: phpClaw – AI agent runtime for PHP with tools, memory and guards",
           "link": "https://github.com/phpclaw-php/phpclaw-monorepo",
           "excerpt": "Open-source AI agent framework for PHP. Tools, memory, security guards and a ReAct loop built in. Works with Laravel, Symfony, WordPress, Drupal, Magento, Joomla, OpenCart, PrestaShop. Any LLM prov...",
@@ -226,7 +155,9 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null
-        },
+        }
+      ],
+      "more": [
         {
           "title": "[AINews] Building AIE CODE: The top Coding Agent Conference",
           "link": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference/",
@@ -237,9 +168,7 @@
           "icon": "https://latent.space/favicon.png",
           "domain": "latent.space",
           "hn": null
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
           "link": "https://latent.space/p/elorian/",
@@ -285,6 +214,34 @@
           "hn": null
         }
       ]
+    },
+    {
+      "name": "Leadership",
+      "cards": [
+        {
+          "title": "Sharp Tech on Video: Anthropic’s S-1 and What It Means for Meta and Muse, You Can See Everything, and Brewers!",
+          "link": "https://stratechery.com/2026/sharp-tech-on-video-anthropics-s-1-and-what-it-means-for-meta-and-muse-you-can-see-everything-and-brewers/",
+          "excerpt": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery.",
+          "source": "Stratechery by Ben Thompson",
+          "date": "Oct 30",
+          "image": "https://i0.wp.com/stratechery.com/wp-content/uploads/2026/10/20261029_sharptech-p2-EditJM_14_30_1524.jpeg?fit=1200%2C675&ssl=1",
+          "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
+          "domain": "stratechery.com",
+          "hn": null
+        },
+        {
+          "title": "Wärtsilä CEO Håkan Agnevall: focus, flexibility, and the next wave of growth",
+          "link": "https://www.mckinsey.com/industries/industrials/our-insights/wartsila-ceo-hakan-agnevall-focus-flexibility-and-the-next-wave-of-growth",
+          "excerpt": "Industrial leaders can turn disruption into growth by sharpening their focus, scaling to meet surging data-center power demand, and putting AI and continuous improvement to work.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Oct 30",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null
+        }
+      ],
+      "more": []
     },
     {
       "name": "Agent Identity & Authorization",
@@ -380,6 +337,41 @@
       "name": "Security & AppSec",
       "cards": [
         {
+          "title": "Official Claude Code VS Code Extension Compromised to Install Persistent SSH Backdoor",
+          "link": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+          "excerpt": "Cybersecurity researchers have disclosed that the official Anthropic Claude Code extension was compromised on the Open VSX registry to install a persistent SSH backdoor on infected hosts. The issue has since been traced to the compromise of the Cursor Marketplace, prompting the AI coding platform…",
+          "source": "The Hacker News",
+          "date": "Oct 30",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggT2-bdx6q5Aa-HsOIuOeYTY1kFbPYIPIaA7N0Esdo4LHRscpkr3fMnRNiE_NqR71eURHrlqkC1stLKp2bKmT8cLHta8uYyGPtbWRwGm5ctnpMJC-8Q7pswyRP5hXMkIDjptIHDBdcQobfqaMEu9eXfPS9c_vvIi-jYmZBHVnKJb04CtcCyGOeBY709cdq/s1600/claude-vs.png",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
+          "link": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
+          "excerpt": "Malicious code linked to a website monitoring tool was designed to hijack logged-in Polymarket sessions and siphon user funds. The post $2 Million+ Drained From Polymarket Traders in New Supply Chain Attack appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Oct 30",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Polymarket.webp",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null
+        },
+        {
+          "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+          "link": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+          "excerpt": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from 0.0.0 to 2.41 and from 3.0.0 to 3.3.13.…",
+          "source": "The Hacker News",
+          "date": "Oct 30",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitgPkf4uToEgXwcfmDEKipEveRL2l0PEz6WIegAc2uWyf5_khO7Scgu6MpWHRovED7S-4sKJb4o88JsJT8NI8zB8WCBo04Q9TrEVNJa-08EbxP_zdPkaA7wsBEPIjXbApW1StdY8JunSewAi9TNrAcMwYZjqSsVktddqQ0uIi8-rUzXq1LMMLBHBdccapz/s1600/drupal-rce.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
           "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
           "link": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
           "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-97229 (CVSS score: 10.0) -…",
@@ -411,9 +403,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
           "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
@@ -432,39 +422,6 @@
           "source": "The Hacker News",
           "date": "Oct 29",
           "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1ij0gwe-L1jDZxdoUPZ6hpSJnJgMHh2bG8bFF2y8y-dJA9nY0Fr2JOU2i4NaCetGqvTZOtvaRXbZONR6d8ajjMR6DNm_X7OwaVCiH7dPycEN9xGI0psNvPYbwDhpGmUQ4Qyhp5x9fqQ_sgzjcReslK-a-gRS3kFr5_JOns1kkuC6UheDHVb2yaV8EAhIF/s1600/claude-hack.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null
-        },
-        {
-          "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
-          "link": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
-          "excerpt": "A flaw in Telegram for Android could be chained with two other bugs to take full control of a victim's phone through a voice call, once the victim answered, according to security startup NebuSec. The attacker needed only an ordinary Telegram account. Telegram fixed the flaw in version 12.10.4 of…",
-          "source": "The Hacker News",
-          "date": "Oct 29",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguzUg6G-A4KdRvBuhj9LZ93cFfXfvMNkg3dJO0H9sfNJ3MTlecsgLEMIk5TnIrdl2N6UGB8D9rlqLduGEZVm7X-XrWZr6Xh5ZrVp38x5uTd1vHyHGcjRR2N3gctNen-CBSz8JihnNL57galBoeOVKwG5w3qsOZnqmGYdkxzjurrI3QWolmS1Qfz_E_Wog/s1600/telegram.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null
-        },
-        {
-          "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
-          "link": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
-          "excerpt": "AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are becoming tasks that AI systems can perform on their own. As these capabilities…",
-          "source": "The Hacker News",
-          "date": "Oct 29",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDZvKBLpFrPhWNRvVvRjmTtgwdpGykJjCmzNWNaytIUO2C9VadEDZjeY35hq6H33jHDxV7kAOMTyOV7RO_YUG2caQ75nA_NstH_GxfRJo57n970u4ACXwZXoKl8mizESwgP9wulusqUmSnZwjFNHIJZ2hk_VzrlCJ5HBD9_8zs8Fj1WZULiZoZMD9G9D8/s1600/conf.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null
-        },
-        {
-          "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
-          "link": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
-          "excerpt": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it. Independent researcher Ben Zimmermann found them by scanning 7.25 million public Gitee repositories…",
-          "source": "The Hacker News",
-          "date": "Oct 29",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwVszv5076OudfiraNA4yh_XuzZZof-jYaklwUgiY700oPMvBHQfKHx-8yLNwhF9NVXahFRvWwU7c0mPCsIG-GUo45Fi_LT6ecZMsaRUfaLIL6eK16qeku1PO5aMTQRV0VKJh-pjKG4rC-RyajCGjL4R_A5W6YPsps4B4-GhEbstuAN7AnelVJPwIFK5W-/s1600/gite.jpg",
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null
@@ -581,6 +538,17 @@
           "hn": null
         },
         {
+          "title": "How Do You Take a Picture of a Black Hole?",
+          "link": "https://www.quantamagazine.org/how-do-you-take-a-picture-of-a-black-hole-20261029/",
+          "excerpt": "Astrophysicist Shep Doeleman explains how capturing the first image of a black hole required a telescope the size of the world, and why the next goal is to create a movie.",
+          "source": "quantamagazine.org via Hacker News",
+          "date": "Oct 30",
+          "image": "https://www.quantamagazine.org/wp-content/uploads/2026/10/JOW-S5-E11-cr.Chanelle-Nibbelink-Social-LOGO.jpg",
+          "icon": "https://www.quantamagazine.org/wp-content/themes/quanta2024/frontend/images/apple-touch-icon.png",
+          "domain": "quantamagazine.org",
+          "hn": "11 points · 5 comments"
+        },
+        {
           "title": "'Elite North Korean hackers' blamed for $6.3B Binance hack",
           "link": "https://www.theguardian.com/business/live/2026/oct/30/uk-house-price-growth-crypto-industry-6bn-binance-hack-eurozone-france-gdp-latest-news-updates",
           "excerpt": "Blockchain intelligence firm TRM says North Korea’s TraderTraitor hacking unit is responsible for the largest crypto theft on record",
@@ -589,8 +557,10 @@
           "image": "https://i.guim.co.uk/img/media/c88d8154f76fef59b24c916cab7348652d9f113c/481_0_4070_3256/master/4070.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=10860848b9ed5bb27829c20d7b32815d",
           "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg",
           "domain": "theguardian.com",
-          "hn": "14 points · 4 comments"
-        },
+          "hn": "59 points · 57 comments"
+        }
+      ],
+      "more": [
         {
           "title": "Pico CSS is no longer maintained",
           "link": "https://github.com/picocss/pico/discussions/754",
@@ -600,10 +570,8 @@
           "image": "https://opengraph.githubassets.com/3a6d74ffc646cd0aef45becc597592b9912ffb260ae8ee5d318d49d43eb92f14/picocss/pico/discussions/754",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "116 points · 45 comments"
-        }
-      ],
-      "more": [
+          "hn": "148 points · 66 comments"
+        },
         {
           "title": "Herdr has released native app",
           "link": "https://github.com/herdrdev/herdr-app",
@@ -613,18 +581,7 @@
           "image": "https://opengraph.githubassets.com/c69dbc1fa5bf868b60cccd6dab8afd1f7bd0ab88c6cd3f063986658ef11248e6/herdrdev/herdr-app",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "170 points · 102 comments"
-        },
-        {
-          "title": "Cormac McCarthy's Library",
-          "link": "https://cormacmccarthy.lib.utk.edu/",
-          "excerpt": "51 points · 19 comments",
-          "source": "cormacmccarthy.lib.utk.edu via Hacker News",
-          "date": "Oct 30",
-          "image": null,
-          "icon": "https://cormacmccarthy.lib.utk.edu/favicon.ico",
-          "domain": "cormacmccarthy.lib.utk.edu",
-          "hn": "51 points · 19 comments"
+          "hn": "222 points · 142 comments"
         },
         {
           "title": "Show HN: I Turned DOOM into a Transformer",
@@ -635,29 +592,29 @@
           "image": "https://opengraph.githubassets.com/632c59ef53c075f0915ca950764838dbc73e0423f590d72c65651f2b8dd813f0/mottopanikeiku/doomformer",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "82 points · 25 comments"
+          "hn": "95 points · 30 comments"
         },
         {
           "title": "A Pig, the State, and War: Porco Rosso (Kurenai No Buta) (2014)",
           "link": "https://journal.animationstudies.org/article/id/66/",
-          "excerpt": "112 points · 27 comments",
+          "excerpt": "123 points · 29 comments",
           "source": "journal.animationstudies.org via Hacker News",
           "date": "Oct 29",
           "image": "https://journal.animationstudies.org/media/cover_images/32a1852c-fcda-4630-b063-f82dd00354b3.jpeg",
           "icon": "https://journal.animationstudies.org/favicon.ico",
           "domain": "journal.animationstudies.org",
-          "hn": "112 points · 27 comments"
+          "hn": "123 points · 29 comments"
         },
         {
-          "title": "The Great American Rascal: Tom Sawyer at 150",
-          "link": "https://claremontreviewofbooks.com/the-great-american-rascal/",
-          "excerpt": "The Great American Rascal",
-          "source": "claremontreviewofbooks.com via Hacker News",
+          "title": "Should a medical diagnosis reshape the past? (2025)",
+          "link": "https://chengela.substack.com/p/should-a-medical-diagnosis-reshape",
+          "excerpt": "45 points · 9 comments",
+          "source": "chengela.substack.com via Hacker News",
           "date": "Oct 29",
-          "image": "https://claremontreviewofbooks.com/wp-content/uploads/2026/09/CRB_FA26_Wolfson-573x400.png",
-          "icon": "https://claremontreviewofbooks.com/wp-content/uploads/2019/11/favcion.png",
-          "domain": "claremontreviewofbooks.com",
-          "hn": "67 points · 34 comments"
+          "image": null,
+          "icon": "https://chengela.substack.com/favicon.ico",
+          "domain": "chengela.substack.com",
+          "hn": "45 points · 9 comments"
         }
       ]
     }
