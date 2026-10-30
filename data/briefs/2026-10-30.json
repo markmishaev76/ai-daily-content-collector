@@ -1,20 +1,20 @@
 {
   "date": "2026-10-30",
   "lead": {
-    "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
-    "link": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
-    "excerpt": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. [...]",
-    "source": "BleepingComputer",
+    "title": "North Korean hackers blamed for stealing record $6.3B in Binance breach",
+    "link": "https://techcrunch.com/2026/10/30/north-korean-hackers-blamed-for-stealing-record-6-3b-in-binance-breach/",
+    "excerpt": "Hackers working for North Korea are suspected of hacking a Binance employee's laptop, which allowed the theft of billions in crypto.",
+    "source": "TechCrunch",
     "date": "Oct 30",
-    "image": "https://www.bleepstatic.com/content/hl-images/2026/10/30/Binance.jpg",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/binance-2206279918.jpg?resize=1200,800",
     "image_credit": null,
     "section": "Security & AppSec",
     "pinned": false,
     "note": null,
     "labels": [
-      "4 sources",
+      "6 sources",
       "Security & AppSec",
-      "1h ago"
+      "under 1h ago"
     ],
     "also": [
       {
@@ -22,16 +22,48 @@
         "link": "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/"
       },
       {
+        "name": "bleepingcomputer.com",
+        "link": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/"
+      },
+      {
         "name": "theregister.com",
         "link": "https://www.theregister.com/security/2026/10/30/in-the-year-ai-re-wrote-the-infosec-rulebook-its-comforting-to-know-crypto-exchanges-still-have-bad-security/5306539"
       },
       {
-        "name": "techcrunch.com",
-        "link": "https://techcrunch.com/2026/10/29/binance-pauses-withdrawals-as-hackers-suspected-of-stealing-billions-in-crypto/"
+        "name": "arstechnica.com",
+        "link": "https://arstechnica.com/security/2026/10/hackers-steal-6-3-billion-from-binance-in-record-crypto-heist/"
+      },
+      {
+        "name": "theverge.com",
+        "link": "https://www.theverge.com/tech/1023021/binance-hack-billions-biggest-crypto-heist"
       }
     ]
   },
   "pulse": [
+    {
+      "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
+      "thread": "https://news.ycombinator.com/item?id=50296470",
+      "link": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+      "link_domain": "arkm.com",
+      "source": "Hacker News",
+      "domain": "arkm.com",
+      "meta": "Hacker News · 1.6k points · 1.1k comments · 16h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://arkm.com/favicon.ico"
+    },
+    {
+      "title": "Anthropic hacked to deliver remote access trojan",
+      "thread": "https://news.ycombinator.com/item?id=50301983",
+      "link": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2",
+      "link_domain": "doublepulsar.com",
+      "source": "Hacker News",
+      "domain": "doublepulsar.com",
+      "meta": "Hacker News · 363 points · 73 comments · 4h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://doublepulsar.com/favicon.ico"
+    },
     {
       "title": "Shared password manager for families?",
       "thread": "https://lobste.rs/s/eccbci/shared_password_manager_for_families",
@@ -39,10 +71,34 @@
       "link_domain": "",
       "source": "Lobsters",
       "domain": "Lobsters",
-      "meta": "Lobsters · 36 points · 45 comments · 20h ago",
+      "meta": "Lobsters · 42 points · 48 comments · 23h ago",
       "also": [],
       "image": null,
       "icon": null
+    },
+    {
+      "title": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning",
+      "thread": "https://news.ycombinator.com/item?id=50289692",
+      "link": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
+      "link_domain": "404media.co",
+      "source": "Hacker News",
+      "domain": "404media.co",
+      "meta": "Hacker News · 188 points · 66 comments · 23h ago",
+      "also": [],
+      "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/andy3.png",
+      "icon": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w256h256/format/png/2023/08/favicon-3.svg"
+    },
+    {
+      "title": "Zombie stats: Where the numbers AI quotes come from",
+      "thread": "https://news.ycombinator.com/item?id=50290283",
+      "link": "https://trakkr.ai/trakkr-research/zombie-stats",
+      "link_domain": "trakkr.ai",
+      "source": "Hacker News",
+      "domain": "trakkr.ai",
+      "meta": "Hacker News · 172 points · 68 comments · 23h ago",
+      "also": [],
+      "image": "https://trakkr.ai/images/research/og/zombie-stats.png",
+      "icon": "https://trakkr.ai/apple-touch-icon.png"
     },
     {
       "title": "C2PA's eMudhra Moment",
@@ -51,10 +107,46 @@
       "link_domain": "da.vidbuchanan.co.uk",
       "source": "Lobsters",
       "domain": "da.vidbuchanan.co.uk",
-      "meta": "Lobsters · 18 points · 1 comments · 14h ago",
+      "meta": "Lobsters · 24 points · 4 comments · 17h ago",
       "also": [],
       "image": null,
       "icon": "https://www.da.vidbuchanan.co.uk/favicon.ico"
+    },
+    {
+      "title": "Claude Duet is the first personal-assistant-type harness that feels useful",
+      "thread": "https://news.ycombinator.com/item?id=50292727",
+      "link": "https://fig.blue/posts/duet-is-the-future/",
+      "link_domain": "fig.blue",
+      "source": "Hacker News",
+      "domain": "fig.blue",
+      "meta": "Hacker News · 122 points · 134 comments · 21h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://fig.blue/favicon.svg"
+    },
+    {
+      "title": "Ask HN: Are you tired too in this AI era?",
+      "thread": "https://news.ycombinator.com/item?id=50301479",
+      "link": null,
+      "link_domain": "",
+      "source": "Hacker News",
+      "domain": "Hacker News",
+      "meta": "Hacker News · 119 points · 115 comments · 5h ago",
+      "also": [],
+      "image": null,
+      "icon": null
+    },
+    {
+      "title": "Proton goes all in on using AI",
+      "thread": "https://news.ycombinator.com/item?id=50296602",
+      "link": "https://convo.casa/@b/117525936178835007",
+      "link_domain": "convo.casa",
+      "source": "Hacker News",
+      "domain": "convo.casa",
+      "meta": "Hacker News · 103 points · 105 comments · 16h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://convo.casa/packs/assets/apple-touch-icon-57x57-BsPGHSez.png"
     }
   ],
   "sections": [
@@ -132,7 +224,7 @@
           "image": "https://labs.ycombinator.com/og.png",
           "icon": "https://labs.ycombinator.com/favicon.png?v=black2",
           "domain": "labs.ycombinator.com",
-          "hn": "297 points · 109 comments"
+          "hn": "341 points · 137 comments"
         },
         {
           "title": "Show HN: phpClaw – AI agent runtime for PHP with tools, memory and guards",
@@ -143,7 +235,7 @@
           "image": "https://opengraph.githubassets.com/2fc646d5200570920fb5fcad7f4d66c0b8b3fc402a2e3e06ccd79bc8fb293851/phpclaw-php/phpclaw-monorepo",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "11 points · 4 comments"
+          "hn": "12 points · 4 comments"
         },
         {
           "title": "Building a multiplayer game world with autonomous Fable-class models",
@@ -219,6 +311,17 @@
       "name": "Leadership",
       "cards": [
         {
+          "title": "Waniwani’s CEO on the agentic future of insurance distribution",
+          "link": "https://www.mckinsey.com/industries/financial-services/our-insights/waniwanis-ceo-on-the-agentic-future-of-insurance-distribution",
+          "excerpt": "AI agents could fundamentally change the economics of insurance distribution. Waniwani CEO Robin Diligent explains the opportunities, risks, and implications for insurers.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Oct 30",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null
+        },
+        {
           "title": "Sharp Tech on Video: Anthropic’s S-1 and What It Means for Meta and Muse, You Can See Everything, and Brewers!",
           "link": "https://stratechery.com/2026/sharp-tech-on-video-anthropics-s-1-and-what-it-means-for-meta-and-muse-you-can-see-everything-and-brewers/",
           "excerpt": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery.",
@@ -230,6 +333,19 @@
           "hn": null
         },
         {
+          "title": "Bob Bowman on winning: Show up and do your work",
+          "link": "https://www.mckinsey.com/featured-insights/bob-bowman-on-winning-show-up-and-do-your-work",
+          "excerpt": "The coach who guided Michael Phelps to 23 Olympic gold medals explains why consistency beats motivation and what leaders can borrow from how he builds championship teams.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Oct 30",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
           "title": "Wärtsilä CEO Håkan Agnevall: focus, flexibility, and the next wave of growth",
           "link": "https://www.mckinsey.com/industries/industrials/our-insights/wartsila-ceo-hakan-agnevall-focus-flexibility-and-the-next-wave-of-growth",
           "excerpt": "Industrial leaders can turn disruption into growth by sharpening their focus, scaling to meet surging data-center power demand, and putting AI and continuous improvement to work.",
@@ -240,8 +356,7 @@
           "domain": "mckinsey.com",
           "hn": null
         }
-      ],
-      "more": []
+      ]
     },
     {
       "name": "Agent Identity & Authorization",
@@ -281,6 +396,17 @@
         }
       ],
       "more": [
+        {
+          "title": "Public TLS certificates drop client authentication: What breaks for mTLS",
+          "link": "https://workos.com/blog/public-tls-certificates-client-authentication-mtls",
+          "excerpt": "Public CAs and Chrome are removing clientAuth from TLS certificates by 2027. The dates per CA, what fails at renewal, and where mTLS should go next.",
+          "source": "WorkOS Blog",
+          "date": "Oct 30",
+          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae47bbc5ed0687ad546f1b1_public-tls-certificates-lose-client-auth-eku-og.webp",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null
+        },
         {
           "title": "How to brand AuthKit per application when products share users",
           "link": "https://workos.com/blog/authkit-branding-per-application",
@@ -337,12 +463,12 @@
       "name": "Security & AppSec",
       "cards": [
         {
-          "title": "Official Claude Code VS Code Extension Compromised to Install Persistent SSH Backdoor",
+          "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
           "link": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
-          "excerpt": "Cybersecurity researchers have disclosed that the official Anthropic Claude Code extension was compromised on the Open VSX registry to install a persistent SSH backdoor on infected hosts. The issue has since been traced to the compromise of the Cursor Marketplace, prompting the AI coding platform…",
+          "excerpt": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems. The malicious update, version 2.1.313, was…",
           "source": "The Hacker News",
           "date": "Oct 30",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggT2-bdx6q5Aa-HsOIuOeYTY1kFbPYIPIaA7N0Esdo4LHRscpkr3fMnRNiE_NqR71eURHrlqkC1stLKp2bKmT8cLHta8uYyGPtbWRwGm5ctnpMJC-8Q7pswyRP5hXMkIDjptIHDBdcQobfqaMEu9eXfPS9c_vvIi-jYmZBHVnKJb04CtcCyGOeBY709cdq/s1600/claude-vs.png",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMAV00lkxu7R724ItLdgrRsnEYHR_d2eUSdcen_KymGeBY1tCo8SRVz6w_XiNzzYgwpcl0Me3JCJz8DeieRM_0jb8aL4VkHAAIeXrqNf8oQkmzKahqMHOGvhkFK32HOasHZht8BwtI1NxEZ-_nIwmQY_8fxpGbbl3csC6oZKCVnIRk3iYTRhH975dyxsWS/s1600/cursor-vscode.jpg",
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null
@@ -359,6 +485,41 @@
           "hn": null
         },
         {
+          "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
+          "link": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
+          "excerpt": "A Trezor Safe 5 hardware wallet bought from the reseller CryptoBilis has an extra circuit board that sends out the recovery phrase over a mobile network, a customer has reported. Trezor has not yet examined the device. It is telling everyone who bought a Trezor from CryptoBilis since March 2026 to…",
+          "source": "The Hacker News",
+          "date": "Oct 30",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEih5QxhFnBw6d40ollOAoolmZedxywTm7DeBQpEqydVG5Pqg0v5iDVFT1hhbsW7Thqg00oI8MACNXC9FX6MCp_qMRkBRiqdxb9D4CDKfTWTZwI5eyY3V2IOa8ODSg24kX7Ni_C968r2X89tUXwPbDnHPV9xX-ydhytwerqMI1ru7tqdIK-cqA0p9oM5Ppxr/s1600/trezor-wallet.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
+          "link": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
+          "excerpt": "The alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who keep applications available need proof that the change won’t break anything. Their concerns are practical. An IPS protection could block legitimate traffic. A…",
+          "source": "The Hacker News",
+          "date": "Oct 30",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitJWSYL167QzDoyvN2y9DAuXmFFe0en34dEHp-I2sSVLEPIfljdlRfeIthyMQUgSvf9AfwW4p-solbE5zH3cKpfeLKWg-IqPnVdHbKQ99Bw91fDAoqHx3E9mlpNmXYA5i3RnaTYxZYkZcwbeY31O4CljtFQYp2JPLTmJo1BI09Al9Kh-CDtzFubVly7hM/s1600/cp.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
+          "link": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
+          "excerpt": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been sentenced by a U.S. federal court to 42 months in prison for his role in a hacking conspiracy that targeted Western news outlets. The conspiracy was organized and led by members of former Syrian President Bashar…",
+          "source": "The Hacker News",
+          "date": "Oct 30",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxhyw9NKYcR8Nkb28O8I-MA0sr3NhXC_Xr7gjpFqZKFd-29F8pGa5TCuIL2GTBPLAPzQ9iW5DsU_2zK-pUWIar_TdJdKiQMsptNjA-XxvVwMACBSQR9tW_qAC8d7I21YdqraYoY5LdWCRE8vKXjrxYCEW8X7ZbPulwCzdTdxODqnMuJbqQUZStRMRiKHc/s1600/tweets.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
           "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
           "link": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
           "excerpt": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from 0.0.0 to 2.41 and from 3.0.0 to 3.3.13.…",
@@ -368,9 +529,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null
-        }
-      ],
-      "more": [
+        },
         {
           "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
           "link": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
@@ -389,39 +548,6 @@
           "source": "The Hacker News",
           "date": "Oct 30",
           "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmTtJggkBbk2ERH6bhZMSPnb_E1aQ44w4EpzkwAt1tqp45sGvG7jeAg2QvmbWQsBy5hyphenhyphen7ur18XQ1Uax7D9XRg-CZpQpMAByXt37Fn1loBClsu49KlBEsnxRCfy7vSuI-5yrpHB4JLWc1vtw0aITnhbFXDb4CosJzm07My3Lw6p3fOLTfcaxJLBR-Pdi2A6/s1600/Binance.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null
-        },
-        {
-          "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
-          "link": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
-          "excerpt": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't. There's a strange mix of clever tricks and careless mistakes. Hackers are borrowing trust from…",
-          "source": "The Hacker News",
-          "date": "Oct 29",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoNTh5CKLvFJeeXzWn1LVT-e9435oFtUz4jT-4TmZaWkRUY_RY8EAtijUWxQztoK3K_tU_csSw54MuVeX8UzeT6ZWNLtTMex5pMS4z4Npz-aYAN9qIfWk2bUsei5nswh3UkzycVlKznVjK7n1I_knJ-p1I59RoX_TECTfr-NPej9LWoDt2UuwvLY4heSip/s1600/t-day.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null
-        },
-        {
-          "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
-          "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
-          "excerpt": "A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthropic said on October 27 that its AI model wrote an exploit that uses the flaw…",
-          "source": "The Hacker News",
-          "date": "Oct 29",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfCJ0ttE8v4hkDjJRqbTvxlxFcoNtFJhbYCQ-o8NtaiyFLImEyA8aSO967eeZG9fRebhc8oVA-OloE9X9KVVAxM-H3wKvUlh8XmN6bGlEz2IJwMgcssmA7yIRi7YNOwVQYD6nhQCaWUg6fPy-QXVjfw6rV55LueKlLvZLazjKjTL94KJMMUZ2uZ3R019Km/s1600/linux-flaw.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null
-        },
-        {
-          "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-          "link": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-          "excerpt": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba. The activity involves creating fake GitHub projects that claim to be desktop…",
-          "source": "The Hacker News",
-          "date": "Oct 29",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1ij0gwe-L1jDZxdoUPZ6hpSJnJgMHh2bG8bFF2y8y-dJA9nY0Fr2JOU2i4NaCetGqvTZOtvaRXbZONR6d8ajjMR6DNm_X7OwaVCiH7dPycEN9xGI0psNvPYbwDhpGmUQ4Qyhp5x9fqQ_sgzjcReslK-a-gRS3kFr5_JOns1kkuC6UheDHVb2yaV8EAhIF/s1600/claude-hack.jpg",
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null
@@ -489,6 +615,17 @@
           "hn": null
         },
         {
+          "title": "DoorDash Cuts Grocery Reorder Latency from 16 to 2 Seconds with AI Agents",
+          "link": "https://www.infoq.com/news/2026/10/doordash-ai-grocery-reorder/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "DoorDash reduced grocery reorder latency from 16 to 2 seconds by precomputing recurring purchase needs using batch LLM inference and deterministic validation. Live catalog resolution keeps product selections current, while an editable shopping interface avoids unnecessary model calls. The company…",
+          "source": "InfoQ",
+          "date": "Oct 30",
+          "image": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null
+        },
+        {
           "title": "Grounding agents in one context graph connecting semantic models you already trust",
           "link": "https://cloud.google.com/blog/products/data-analytics/expanded-semantic-model-support-in-knowledge-catalog/",
           "excerpt": "Picture the scene: Before an executive business review, your VP of Sales asks an AI assistant, \"What was net revenue for our top enterprise accounts last quarter?\" In seconds, the agent returns a polished chart! Unfortunately, the numbers don't match the finance report. Why? Because the agent…",
@@ -497,17 +634,6 @@
           "image": "https://storage.googleapis.com/gweb-cloudblog-publish/original_images/1._Side-by-side_comparison_z1p0n9c.gif",
           "icon": null,
           "domain": "cloud.google.com",
-          "hn": null
-        },
-        {
-          "title": "From Working Group to SIG Architecture: spotlight on AI Conformance",
-          "link": "https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/",
-          "excerpt": "In this SIG Architecture spotlight we talked with Janet Kuo (Google) and Yuan Tang (Red Hat) about the journey of AI Conformance in Kubernetes, from the initial Working Group to the integration SIG Architecture as a subproject. IntroductionsFrederico Muñoz and Kirti Goyal (FK): Hi Janet, Yuan, and…",
-          "source": "Kubernetes Blog",
-          "date": "Oct 29",
-          "image": "https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/ai_conf_kubecon.jpg",
-          "icon": null,
-          "domain": "kubernetes.io",
           "hn": null
         },
         {
@@ -527,6 +653,17 @@
       "name": "News & Research",
       "cards": [
         {
+          "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
+          "link": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+          "excerpt": "DoorDash said that it is open to working with third-party agent makers",
+          "source": "TechCrunch",
+          "date": "Oct 30",
+          "image": "https://techcrunch.com/wp-content/uploads/2022/08/GettyImages-1232015093.jpg?resize=1200,800",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
+          "hn": null
+        },
+        {
           "title": "Consumer Appetite for Personal AI Goes Mainstream",
           "link": "https://spectrum.ieee.org/ai-personal-assistant-intelligent-wearables",
           "excerpt": "This article is brought to you by Qualcomm Technologies.For many consumers, much of the promise and appeal of AI is personal. Consumers are looking past generic tools and want to know how these technologies will help them in their daily lives. These trends coincide with the advent of new classes…",
@@ -538,83 +675,72 @@
           "hn": null
         },
         {
-          "title": "How Do You Take a Picture of a Black Hole?",
-          "link": "https://www.quantamagazine.org/how-do-you-take-a-picture-of-a-black-hole-20261029/",
-          "excerpt": "Astrophysicist Shep Doeleman explains how capturing the first image of a black hole required a telescope the size of the world, and why the next goal is to create a movie.",
-          "source": "quantamagazine.org via Hacker News",
+          "title": "Massie, Khanna, and Others Introduce the \"Epstein Files Transparency Act II\"",
+          "link": "https://massie.house.gov/news/documentsingle.aspx?DocumentID=395849",
+          "excerpt": "37 points · 4 comments",
+          "source": "massie.house.gov via Hacker News",
           "date": "Oct 30",
-          "image": "https://www.quantamagazine.org/wp-content/uploads/2026/10/JOW-S5-E11-cr.Chanelle-Nibbelink-Social-LOGO.jpg",
-          "icon": "https://www.quantamagazine.org/wp-content/themes/quanta2024/frontend/images/apple-touch-icon.png",
-          "domain": "quantamagazine.org",
-          "hn": "11 points · 5 comments"
-        },
-        {
-          "title": "'Elite North Korean hackers' blamed for $6.3B Binance hack",
-          "link": "https://www.theguardian.com/business/live/2026/oct/30/uk-house-price-growth-crypto-industry-6bn-binance-hack-eurozone-france-gdp-latest-news-updates",
-          "excerpt": "Blockchain intelligence firm TRM says North Korea’s TraderTraitor hacking unit is responsible for the largest crypto theft on record",
-          "source": "theguardian.com via Hacker News",
-          "date": "Oct 30",
-          "image": "https://i.guim.co.uk/img/media/c88d8154f76fef59b24c916cab7348652d9f113c/481_0_4070_3256/master/4070.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=10860848b9ed5bb27829c20d7b32815d",
-          "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg",
-          "domain": "theguardian.com",
-          "hn": "59 points · 57 comments"
+          "image": "https://massie.house.gov/images/facebook-meta-23.jpg",
+          "icon": "https://massie.house.gov/images/favicon.png",
+          "domain": "massie.house.gov",
+          "hn": "37 points · 4 comments"
         }
       ],
       "more": [
         {
-          "title": "Pico CSS is no longer maintained",
-          "link": "https://github.com/picocss/pico/discussions/754",
-          "excerpt": "v2.1.1 is the final release. Why Today, AI can generate lightweight, standalone, accessible HTML with just the CSS it needs, so a Minimal CSS Framework for Semantic HTML matters less than it used t...",
-          "source": "github.com via Hacker News",
+          "title": "Backdoors in official Claude Code extensions",
+          "link": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+          "excerpt": "Anthropic got compromised. Their Claude Code extension on Visual Studio Code and Cursor has malware in it, which creates a remote access Trojan to desktops. https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+          "source": "cyberplace.social via Hacker News",
           "date": "Oct 30",
-          "image": "https://opengraph.githubassets.com/3a6d74ffc646cd0aef45becc597592b9912ffb260ae8ee5d318d49d43eb92f14/picocss/pico/discussions/754",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "148 points · 66 comments"
-        },
-        {
-          "title": "Herdr has released native app",
-          "link": "https://github.com/herdrdev/herdr-app",
-          "excerpt": "herdr desktop app. Contribute to herdrdev/herdr-app development by creating an account on GitHub.",
-          "source": "github.com via Hacker News",
-          "date": "Oct 30",
-          "image": "https://opengraph.githubassets.com/c69dbc1fa5bf868b60cccd6dab8afd1f7bd0ab88c6cd3f063986658ef11248e6/herdrdev/herdr-app",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "222 points · 142 comments"
-        },
-        {
-          "title": "Show HN: I Turned DOOM into a Transformer",
-          "link": "https://github.com/mottopanikeiku/doomformer",
-          "excerpt": "Compile an integer neural network into a DOOM map. Voodoo dolls do the arithmetic, light levels and plane heights hold the values, and every value is checked against NumPy with tolerance 0. - motto...",
-          "source": "github.com via Hacker News",
-          "date": "Oct 29",
-          "image": "https://opengraph.githubassets.com/632c59ef53c075f0915ca950764838dbc73e0423f590d72c65651f2b8dd813f0/mottopanikeiku/doomformer",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "95 points · 30 comments"
-        },
-        {
-          "title": "A Pig, the State, and War: Porco Rosso (Kurenai No Buta) (2014)",
-          "link": "https://journal.animationstudies.org/article/id/66/",
-          "excerpt": "123 points · 29 comments",
-          "source": "journal.animationstudies.org via Hacker News",
-          "date": "Oct 29",
-          "image": "https://journal.animationstudies.org/media/cover_images/32a1852c-fcda-4630-b063-f82dd00354b3.jpeg",
-          "icon": "https://journal.animationstudies.org/favicon.ico",
-          "domain": "journal.animationstudies.org",
-          "hn": "123 points · 29 comments"
-        },
-        {
-          "title": "Should a medical diagnosis reshape the past? (2025)",
-          "link": "https://chengela.substack.com/p/should-a-medical-diagnosis-reshape",
-          "excerpt": "45 points · 9 comments",
-          "source": "chengela.substack.com via Hacker News",
-          "date": "Oct 29",
           "image": null,
-          "icon": "https://chengela.substack.com/favicon.ico",
-          "domain": "chengela.substack.com",
-          "hn": "45 points · 9 comments"
+          "icon": "https://cyberplace.social/packs/assets/apple-touch-icon-57x57-BsPGHSez.png",
+          "domain": "cyberplace.social",
+          "hn": "618 points · 182 comments"
+        },
+        {
+          "title": "Just Noting That Your Candy Corn Is Made of Bug Secretions",
+          "link": "https://www.theatlantic.com/science/2026/10/candy-corn-bug-shellac/689213/",
+          "excerpt": "10 points · 16 comments",
+          "source": "theatlantic.com via Hacker News",
+          "date": "Oct 30",
+          "image": null,
+          "icon": "https://www.theatlantic.com/favicon.ico",
+          "domain": "theatlantic.com",
+          "hn": "10 points · 16 comments"
+        },
+        {
+          "title": "The $6.3B Binance Hack Was Pulled Off in Just 20 Minutes",
+          "link": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/",
+          "excerpt": "Multiple crypto-tracing firms say notorious North Korean hackers TraderTraitor may be behind the largest digital heist in history—with billions of crypto likely gone for good.",
+          "source": "wired.com via Hacker News",
+          "date": "Oct 30",
+          "image": "https://media.wired.com/photos/6ae463bdc091c8b8d1ec019e/191:100/w_1280,c_limit/102026-Binance%20Hacked.jpg",
+          "icon": "https://www.wired.com/verso/static/wired-us/assets/favicon.ico",
+          "domain": "wired.com",
+          "hn": "65 points · 25 comments"
+        },
+        {
+          "title": "American views of higher ed decline, once again",
+          "link": "https://bryanalexander.org/horizon-scanning/american-views-of-higher-ed-decline-once-again/",
+          "excerpt": "13 points · 2 comments",
+          "source": "bryanalexander.org via Hacker News",
+          "date": "Oct 30",
+          "image": null,
+          "icon": "https://bryanalexander.org/favicon.ico",
+          "domain": "bryanalexander.org",
+          "hn": "13 points · 2 comments"
+        },
+        {
+          "title": "US Reps Lead Democratic Resolution Opposing A.I. Bubble Bailout for Big Tech",
+          "link": "https://progressives.house.gov/2026/10/reps-casar-waters-lead-democratic-resolution-opposing-a-i-bubble-bailout-for-big-tech-commit-to-protecting-american-people-instead",
+          "excerpt": "207 points · 133 comments",
+          "source": "progressives.house.gov via Hacker News",
+          "date": "Oct 30",
+          "image": null,
+          "icon": "https://progressives.house.gov/vendor/_accounts/cpc/images/logo.ico",
+          "domain": "progressives.house.gov",
+          "hn": "207 points · 133 comments"
         }
       ]
     }

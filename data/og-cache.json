@@ -155,6 +155,12 @@
   "icon": null,
   "image": "https://s0.wp.com/i/blank.jpg"
  },
+ "https://bryanalexander.org/horizon-scanning/american-views-of-higher-ed-decline-once-again/": {
+  "description": null,
+  "fetched": "2026-10-30",
+  "icon": null,
+  "image": null
+ },
  "https://captnemo.in/blog/2026/10/23/emsign-revoked-gov-in/": {
   "description": "On 17th October, eight eMudhra intermediate CAs chaining to emSign ECC Root CA - G3 were found to have trivially recoverable private keys. They were revoked the next day, and Mozilla and Chrome are now distrusting the G3 root. Separately, on 19th October eMudhra revoked 9,356 certificates on its unaffected RSA hierarchy (emSign Root CA - G1) with the reason “Superseded”. That batch matches every unexpired certificate missing a certificate-type policy OID required by emSign’s own CP/CPS (Bug 2082782).",
   "fetched": "2026-10-24",
@@ -197,6 +203,12 @@
   "icon": "https://substackcdn.com/image/fetch/$s_!6rg5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd2a0b054-e060-44a3-a6a5-85471a56710d%2Fapple-touch-icon-57x57.png",
   "image": "https://substackcdn.com/image/fetch/$s_!0-U5!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcafd3438-ef0d-41c0-83cf-bcc7e1c995be_1536x1024.png"
  },
+ "https://convo.casa/@b/117525936178835007": {
+  "description": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/ re: @protonprivacy@mastodon.social > In the last few months, Yen set up an email address for employees to contact if they come across anything blocking adoption of AI at Proton, so leadership can “ruthlessly smash everything that stands in the way of AI velocity;” Proton installed software on workers’ computers that track how much AI code the company is generating; and Yen said this is the last year that Proton will hire engineers at all, and instead only hire people to build things with AI. #Proton #protonmail #protonPrivacy #ai #aiSlop #vibecoding #infosec #cybersecurity #security #privacy",
+  "fetched": "2026-10-30",
+  "icon": "https://convo.casa/packs/assets/apple-touch-icon-57x57-BsPGHSez.png",
+  "image": null
+ },
  "https://corgi.computer/": {
   "description": "Friendly helper for your agents.",
   "fetched": "2026-10-24",
@@ -220,6 +232,12 @@
   "fetched": "2026-10-24",
   "icon": "https://cve.0xosprey.com/apple-touch-icon.png",
   "image": "https://cve.0xosprey.com/og.png"
+ },
+ "https://cyberplace.social/@GossiTheDog/117528831681803563": {
+  "description": "Anthropic got compromised. Their Claude Code extension on Visual Studio Code and Cursor has malware in it, which creates a remote access Trojan to desktops. https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+  "fetched": "2026-10-30",
+  "icon": "https://cyberplace.social/packs/assets/apple-touch-icon-57x57-BsPGHSez.png",
+  "image": null
  },
  "https://danielmiessler.com/blog/writing-is-closer-to-thought-than-code": {
   "description": "Why your written intent should be the source of truth when building with AI",
@@ -340,6 +358,12 @@
   "fetched": "2026-10-29",
   "icon": "https://divagr.com/favicon.svg",
   "image": "https://divagr.com/qwenputer/og.png"
+ },
+ "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2": {
+  "description": null,
+  "fetched": "2026-10-30",
+  "icon": null,
+  "image": null
  },
  "https://dreamagainusa.org/": {
   "description": "Picture U.S. wealth as stacks of $100 bills: the median household’s is about 9 inches tall. The average top-1% household’s is 145 feet, and it keeps getting taller and taller…",
@@ -719,6 +743,12 @@
   "icon": null,
   "image": "https://martinfowler.com/logo-sq.png"
  },
+ "https://massie.house.gov/news/documentsingle.aspx?DocumentID=395849": {
+  "description": null,
+  "fetched": "2026-10-30",
+  "icon": "https://massie.house.gov/images/favicon.png",
+  "image": "https://massie.house.gov/images/facebook-meta-23.jpg"
+ },
  "https://matklad.github.io/2026/10/29/pub-calls-pub.html": {
   "description": "A small-scale rule of thumb. This article will land much better with a concrete example, but I am drawing a blank here, so you gotta just blindly trust my say so!",
   "fetched": "2026-10-30",
@@ -915,6 +945,12 @@
   "description": "In September 2014 I published a short post announcing rqlite. The idea was simple: take SQLite, put a Raft log in front of it, and replicate every write to a cluster so that the loss of a node did not mean the loss of the data. The source went on GitHub that same weekend. As…",
   "fetched": "2026-10-24",
   "icon": "https://philipotoole.com/wp-content/uploads/2015/12/SlyEye-300x300.jpg",
+  "image": null
+ },
+ "https://progressives.house.gov/2026/10/reps-casar-waters-lead-democratic-resolution-opposing-a-i-bubble-bailout-for-big-tech-commit-to-protecting-american-people-instead": {
+  "description": null,
+  "fetched": "2026-10-30",
+  "icon": "https://progressives.house.gov/vendor/_accounts/cpc/images/logo.ico",
   "image": null
  },
  "https://projects.freehackers.org/sylphide-os/": {
@@ -1175,6 +1211,18 @@
   "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
   "image": "https://techcrunch.com/wp-content/uploads/2026/09/wabi-20.jpg?resize=1200,620"
  },
+ "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/": {
+  "description": "DoorDash said that it is open to working with third-party agent makers",
+  "fetched": "2026-10-30",
+  "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+  "image": "https://techcrunch.com/wp-content/uploads/2022/08/GettyImages-1232015093.jpg?resize=1200,800"
+ },
+ "https://techcrunch.com/2026/10/30/north-korean-hackers-blamed-for-stealing-record-6-3b-in-binance-breach/": {
+  "description": "Hackers working for North Korea are suspected of hacking a Binance employee's laptop, which allowed the theft of billions in crypto.",
+  "fetched": "2026-10-30",
+  "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/binance-2206279918.jpg?resize=1200,800"
+ },
  "https://text.npr.org/nx-s1-6021497": {
   "description": null,
   "fetched": "2026-10-29",
@@ -1300,6 +1348,12 @@
   "fetched": "2026-10-23",
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://images.workoscdn.com/images/5d480dfa-2b71-47eb-b8d0-4cb0444e6de7.png?auto=format&fit=clip&q=80"
+ },
+ "https://workos.com/blog/public-tls-certificates-client-authentication-mtls": {
+  "description": "Public CAs and Chrome are removing clientAuth from TLS certificates by 2027. The dates per CA, what fails at renewal, and where mTLS should go next.",
+  "fetched": "2026-10-30",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae47bbc5ed0687ad546f1b1_public-tls-certificates-lose-client-auth-eku-og.webp"
  },
  "https://workos.com/blog/scim-manager-attribute-approval-workflows": {
   "description": "Directory Sync maps manager_id, manager_name and manager_email from the IdP. Where they land, how to key approval chains on them, and the no-manager fallback.",
@@ -1691,6 +1745,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.mckinsey.com/featured-insights/bob-bowman-on-winning-show-up-and-do-your-work": {
+  "description": null,
+  "fetched": "2026-10-30",
+  "icon": null,
+  "image": null
+ },
  "https://www.mckinsey.com/featured-insights/future-of-asia/asias-energy-reckoning-securing-the-energy-system-to-drive-growth": {
   "description": null,
   "fetched": "2026-10-23",
@@ -1718,6 +1778,12 @@
  "https://www.mckinsey.com/industries/financial-services/our-insights/the-algorithm-isnt-the-advantage-the-team-is": {
   "description": null,
   "fetched": "2026-10-29",
+  "icon": null,
+  "image": null
+ },
+ "https://www.mckinsey.com/industries/financial-services/our-insights/waniwanis-ceo-on-the-agentic-future-of-insurance-distribution": {
+  "description": null,
+  "fetched": "2026-10-30",
   "icon": null,
   "image": null
  },
@@ -2021,6 +2087,12 @@
   "icon": "https://www.techspot.com/images/ts3mobile-badge.png",
   "image": "https://www.techspot.com/images2/news/bigimage/2026/10/2026-10-12-image-4.jpg"
  },
+ "https://www.theatlantic.com/science/2026/10/candy-corn-bug-shellac/689213/": {
+  "description": null,
+  "fetched": "2026-10-30",
+  "icon": null,
+  "image": null
+ },
  "https://www.theguardian.com/business/live/2026/oct/30/uk-house-price-growth-crypto-industry-6bn-binance-hack-eurozone-france-gdp-latest-news-updates": {
   "description": "Blockchain intelligence firm TRM says North Korea’s TraderTraitor hacking unit is responsible for the largest crypto theft on record",
   "fetched": "2026-10-30",
@@ -2074,6 +2146,12 @@
   "fetched": "2026-10-29",
   "icon": "https://www.wired.com/verso/static/wired-us/assets/favicon.ico",
   "image": "https://media.wired.com/photos/6ae126cfb5fdd6fa181bb24f/191:100/w_1280,c_limit/Security_Massive%20Leak%20Exposes%2041,000%20DHS%20Employees_v1.jpg"
+ },
+ "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/": {
+  "description": "Multiple crypto-tracing firms say notorious North Korean hackers TraderTraitor may be behind the largest digital heist in history—with billions of crypto likely gone for good.",
+  "fetched": "2026-10-30",
+  "icon": "https://www.wired.com/verso/static/wired-us/assets/favicon.ico",
+  "image": "https://media.wired.com/photos/6ae463bdc091c8b8d1ec019e/191:100/w_1280,c_limit/102026-Binance%20Hacked.jpg"
  },
  "https://xtramagazine.com/culture/online-censorship-indie-webcomics-284463": {
   "description": "From social media platforms to payment processors, new restrictions are making it harder for webcomic artists to exist",
