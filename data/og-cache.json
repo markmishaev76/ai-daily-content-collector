@@ -29,6 +29,12 @@
   "icon": "https://alpinelinux.org/alpine-logo.ico",
   "image": null
  },
+ "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8": {
+  "description": null,
+  "fetched": "2026-10-30",
+  "icon": null,
+  "image": null
+ },
  "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/": {
   "description": "But the AI responses get more forthright when asked outside the US.",
   "fetched": "2026-10-29",
@@ -155,6 +161,12 @@
   "icon": "https://captnemo.in/img/favicon.png",
   "image": "https://captnemo.in/img/favicon.png"
  },
+ "https://claremontreviewofbooks.com/the-great-american-rascal/": {
+  "description": "The Great American Rascal",
+  "fetched": "2026-10-30",
+  "icon": "https://claremontreviewofbooks.com/wp-content/uploads/2019/11/favcion.png",
+  "image": "https://claremontreviewofbooks.com/wp-content/uploads/2026/09/CRB_FA26_Wolfson-573x400.png"
+ },
  "https://cloud.google.com/blog/products/databases/oracle-ai-databasegoogle-cloud-whats-new-at-oracle-ai-world/": {
   "description": "Oracle AI Database@Google Cloud adds Gemini integration, MCP Server in GA, BigQuery federation, and Iceberg lakehouse access.",
   "fetched": "2026-10-28",
@@ -182,6 +194,12 @@
  "https://corgi.computer/": {
   "description": "Friendly helper for your agents.",
   "fetched": "2026-10-24",
+  "icon": null,
+  "image": null
+ },
+ "https://cormacmccarthy.lib.utk.edu/": {
+  "description": null,
+  "fetched": "2026-10-30",
   "icon": null,
   "image": null
  },
@@ -263,6 +281,12 @@
   "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
   "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_8zpqf88zpq.2e16d0ba.fill-1200x600.jpg"
  },
+ "https://developers.googleblog.com/build-generative-ui-apps-with-a2ui-copilotkit-agents/": {
+  "description": "Learn how to build generative UI apps using Google's A2UI open standard and CopilotKit, enabling agents to render rich, interactive interfaces across popular frameworks.",
+  "fetched": "2026-10-30",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/cover-without-title.2e16d0ba.fill-1200x600.png"
+ },
  "https://developers.googleblog.com/integrating-torchtpu-into-torchtitan-and-optimizing-models-for-tpu/": {
   "description": "Learn how TorchTitan and TorchTPU enable seamless, high-performance distributed AI model training on Google Cloud TPUs with native PyTorch support.",
   "fetched": "2026-10-26",
@@ -317,6 +341,12 @@
   "icon": "https://dreamagainusa.org/favicon.svg",
   "image": "https://dreamagainusa.org/img/social-card.png?v=3"
  },
+ "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers": {
+  "description": "Custom PHP2Shell Exploit Chained with Kernel LPE to Root Versions of Palo Alto Networks PAN-OS Firewalls in the Wild",
+  "fetched": "2026-10-30",
+  "icon": "https://cdn.prod.website-files.com/6a1324866930e66fe78a27d6/6a324f6e3649826a83d27520_webclip.jpg",
+  "image": "https://cdn.prod.website-files.com/6a146a5aca0b1a41051708a5/6adf6b3b5ddc1bc1311cd370_6a32a0cab8a1061a5787637e_17.jpeg"
+ },
  "https://dreamlabs.ai/research/dream-1/": {
   "description": "Today, we're releasing Dream-1, a World Action Model that controls robots it has never seen, performs tasks it was never shown, and runs from $3/hour.",
   "fetched": "2026-10-24",
@@ -364,6 +394,12 @@
   "fetched": "2026-10-28",
   "icon": null,
   "image": "https://storage.ghost.io/c/89/e0/89e08557-681a-40be-8264-278bf46d6b25/content/images/size/w1200/2026/10/IMG_8925.jpeg"
+ },
+ "https://fig.blue/posts/duet-is-the-future/": {
+  "description": null,
+  "fetched": "2026-10-30",
+  "icon": "https://fig.blue/favicon.svg",
+  "image": null
  },
  "https://fishbowl.pastiche.org/2026/10/26/ai-skills": {
   "description": "And yet, in five years, Iâm sure there will be old heads doggedly adding âyou are an experienced software developer, make no mistakesâ to their custom instructions.",
@@ -431,6 +467,12 @@
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://opengraph.githubassets.com/6abe816f18bfe723e7c207a7318e1059fb4c1dbfb84df56566bd2eee4e4842bd/maharmstone/moxnox"
  },
+ "https://github.com/mottopanikeiku/doomformer": {
+  "description": "Compile an integer neural network into a DOOM map. Voodoo dolls do the arithmetic, light levels and plane heights hold the values, and every value is checked against NumPy with tolerance 0. - motto...",
+  "fetched": "2026-10-30",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://opengraph.githubassets.com/632c59ef53c075f0915ca950764838dbc73e0423f590d72c65651f2b8dd813f0/mottopanikeiku/doomformer"
+ },
  "https://github.com/obsproject/obs-studio/releases/tag/33.0.0": {
   "description": "33.0 New Features Updated CEF from 127/6533 to 150/7871 [WizardCM] (#13900) This is a massive update to the underlying framework used for browser sources and docks from the July 2024 release to S...",
   "fetched": "2026-10-24",
@@ -449,6 +491,12 @@
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://opengraph.githubassets.com/bb1f8c596bccf32d8a4c346978b9317a3b74a720d9e7fe373014479de549dc17/otya128/winevdm"
  },
+ "https://github.com/phpclaw-php/phpclaw-monorepo": {
+  "description": "Open-source AI agent framework for PHP. Tools, memory, security guards and a ReAct loop built in. Works with Laravel, Symfony, WordPress, Drupal, Magento, Joomla, OpenCart, PrestaShop. Any LLM prov...",
+  "fetched": "2026-10-30",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://opengraph.githubassets.com/2fc646d5200570920fb5fcad7f4d66c0b8b3fc402a2e3e06ccd79bc8fb293851/phpclaw-php/phpclaw-monorepo"
+ },
  "https://github.com/slee-persis/GVS5H": {
   "description": "GVS5H: Five Qwen3.8-27B Models Match Claude Fable 5 on LiveCodeBench Hard | Fable 5 Level Coding for a Fifth the Price - or on a Single GPU - slee-persis/GVS5H",
   "fetched": "2026-10-25",
@@ -460,6 +508,12 @@
   "fetched": "2026-10-28",
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://opengraph.githubassets.com/6ca5ca5347933d3b5b69c1d06228df76a2c5e79dc8eff3a0aa86bc1c06402795/thomasunise/casecite"
+ },
+ "https://gizmodo.com/el-nino-is-already-flooding-californias-coasts-and-the-years-highest-tides-havent-arrived-2000832574": {
+  "description": null,
+  "fetched": "2026-10-30",
+  "icon": null,
+  "image": null
  },
  "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220": {
   "description": null,
@@ -508,6 +562,12 @@
   "fetched": "2026-10-28",
   "icon": null,
   "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/ZrKpGOLkSf0LmAf3bnJIX.png"
+ },
+ "https://huggingface.co/blog/announcing-project-protostar": {
+  "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+  "fetched": "2026-10-30",
+  "icon": null,
+  "image": "https://huggingface.co/blog/assets/announcing-project-protostar/thumbnail.jpg"
  },
  "https://huggingface.co/blog/anydecisionmodel": {
   "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
@@ -563,11 +623,23 @@
   "icon": "https://j11g.com/content/images/favicon.ico",
   "image": "https://j11g.com/content/images/cern-resized.jpg"
  },
+ "https://journal.animationstudies.org/article/id/66/": {
+  "description": null,
+  "fetched": "2026-10-30",
+  "icon": null,
+  "image": "https://journal.animationstudies.org/media/cover_images/32a1852c-fcda-4630-b063-f82dd00354b3.jpeg"
+ },
  "https://korindiehacker.bloffy.blog/en/removing-nextjs-got-my-blog-to-100-on-every-lighthouse-category": {
   "description": "My blog just scored a perfect 100 on every Lighthouse category. I love blogging. I wanted to build a blog that’s light, fast, free of clutter, able to run multiple blogs, and fully accessible on top of that. And finally, at long last, I’ve more or less pulled it off. It was quite a tedious proces...",
   "fetched": "2026-10-26",
   "icon": "https://korindiehacker.bloffy.blog/favicon.ico",
   "image": "https://cdn.bloffy.blog/korindiehacker/articles/469/1792976193085-aneuvk"
+ },
+ "https://labs.ycombinator.com/projects/games/index.html": {
+  "description": "Swarms of Claude and GPT agents in Minecraft and Mindustry.",
+  "fetched": "2026-10-30",
+  "icon": "https://labs.ycombinator.com/favicon.png?v=black2",
+  "image": "https://labs.ycombinator.com/og.png"
  },
  "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/": {
   "description": "Since coding is solved, why code for the job?",
@@ -610,6 +682,18 @@
   "fetched": "2026-10-25",
   "icon": "https://substackcdn.com/image/fetch/$s_!_bhP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F342e39ec-514c-4b4d-8a76-6acf0cbd8248%2Fapple-touch-icon-57x57.png",
   "image": "https://substackcdn.com/image/fetch/$s_!1SoS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F519db120-1320-411b-adec-a88865345f2c_4083x2916.jpeg"
+ },
+ "https://martinfowler.com/bliki/LLM-Voice.html": {
+  "description": "The uncanny valley of LLMs' prose",
+  "fetched": "2026-10-30",
+  "icon": null,
+  "image": "https://martinfowler.com/logo-sq.png"
+ },
+ "https://matklad.github.io/2026/10/29/pub-calls-pub.html": {
+  "description": "A small-scale rule of thumb. This article will land much better with a concrete example, but I am drawing a blank here, so you gotta just blindly trust my say so!",
+  "fetched": "2026-10-30",
+  "icon": "https://matklad.github.io/favicon.png",
+  "image": null
  },
  "https://medium.com/@ai_news/argus-might-be-one-of-the-most-impressive-open-source-cybersecurity-projects-released-this-year-118043bd0c8c": {
   "description": null,
@@ -695,6 +779,12 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/index/how-we-detect-frontier-model-misalignment": {
+  "description": null,
+  "fetched": "2026-10-30",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/introducing-gpt-6-1-terra": {
   "description": null,
   "fetched": "2026-10-27",
@@ -749,6 +839,12 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/index/ropes-gray-ai-diligence": {
+  "description": null,
+  "fetched": "2026-10-30",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/scaling-storage-one-billion-users-part-two": {
   "description": null,
   "fetched": "2026-10-24",
@@ -773,6 +869,12 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/index/updated-model-spec": {
+  "description": null,
+  "fetched": "2026-10-30",
+  "icon": null,
+  "image": null
+ },
  "https://openssf.org/blog/2026/10/23/new-openssf-tech-talk-how-upstream-contribution-minimizes-technical-debt-streamlines-cra-reporting/": {
   "description": null,
   "fetched": "2026-10-23",
@@ -783,6 +885,12 @@
   "description": "In September 2014 I published a short post announcing rqlite. The idea was simple: take SQLite, put a Raft log in front of it, and replicate every write to a cluster so that the loss of a node did not mean the loss of the data. The source went on GitHub that same weekend. As…",
   "fetched": "2026-10-24",
   "icon": "https://philipotoole.com/wp-content/uploads/2015/12/SlyEye-300x300.jpg",
+  "image": null
+ },
+ "https://projects.freehackers.org/sylphide-os/": {
+  "description": "None",
+  "fetched": "2026-10-30",
+  "icon": "https://projects.freehackers.org/sylphide-os/img/favicon.ico",
   "image": null
  },
  "https://projectzero.google/2026/10/fuzzing-v-AI.html": {
@@ -929,6 +1037,12 @@
   "icon": "https://stackoverflow.blog/apple-touch-icon.png",
   "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/d2896e0a931ba2ad6afc31c70b61eaa24d2d7ed4-1200x630.png?w=1200&h=630&auto=format"
  },
+ "https://stackoverflow.blog/2026/10/29/the-reports-of-stack-overflow-s-death-are-greatly-exaggerated/": {
+  "description": "I’ve seen the recent predictions about Stack Overflow’s demise. They make for compelling headlines, but they confuse a change in how people access knowledge with the disappearance of the knowledge—and the company—behind it.",
+  "fetched": "2026-10-30",
+  "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+  "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/f077426960fd528ef7706da767d169cf49038d71-2048x1152.png?rect=0,39,2048,1075&w=1200&h=630&auto=format"
+ },
  "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/": {
   "description": "The AI company pirated at least 10 Stanford academics’ work in a $1.5 billion copyright settlement.",
   "fetched": "2026-10-28",
@@ -1043,6 +1157,12 @@
   "icon": "https://train-it.eu/apple-touch-icon.png",
   "image": "https://train-it.eu/og/blog/cpp26-contracts-the-ballot-result.png"
  },
+ "https://trakkr.ai/trakkr-research/zombie-stats": {
+  "description": "We asked five AI assistants 200 questions that call for a number and followed 1,285 of the statistics they cited back to the source.",
+  "fetched": "2026-10-30",
+  "icon": "https://trakkr.ai/apple-touch-icon.png",
+  "image": "https://trakkr.ai/images/research/og/zombie-stats.png"
+ },
  "https://twitter.com/jaredkushner/status/2113376217415958767": {
   "description": "This excerpt is from a book containing outrageous and categorically false allegations. We denied every claim on the record, yet the author provided not a single shred of verifiable evidence to substantiate them. No bank statements, wire transfer records, account numbers, transaction dates, or other…",
   "fetched": "2026-10-24",
@@ -1079,6 +1199,12 @@
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": null
  },
+ "https://workos.com/blog/agent-to-agent-delegated-tokens": {
+  "description": "Shared credentials turn one manipulated agent into a compromised chain. Narrow, audience-bound tokens at every hop shrink the blast radius.",
+  "fetched": "2026-10-30",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://images.workoscdn.com/images/7b5e3dc6-133e-44d5-bfcd-7da3e1886f08.png?auto=format&fit=clip&q=80"
+ },
  "https://workos.com/blog/ai-agent-access-policy": {
   "description": "Yelp sells agent access, JPMorgan refuses it, Shopify ships it as a toggle. Admission is a commercial call, and bot rules are the wrong place to enforce it.",
   "fetched": "2026-10-23",
@@ -1091,6 +1217,12 @@
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6adf902d0ea92c0983ee290c_workos-user-groups-role-assignment-og.webp"
  },
+ "https://workos.com/blog/authkit-branding-per-application": {
+  "description": "Give each product its own AuthKit sign-in pages and emails while users keep one account. How inheritance works, and what stays environment-wide.",
+  "fetched": "2026-10-30",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae3a508953fd3d0e6dd22ac_authkit-branding-per-application-og.webp"
+ },
  "https://workos.com/blog/authkit-test-email-domains-deliverability-check": {
   "description": "AuthKit rejects sign-ups and invitations at domains that can't receive mail. The reserved test domains that keep seeded environments and CI suites green.",
   "fetched": "2026-10-28",
@@ -1102,6 +1234,12 @@
   "fetched": "2026-10-23",
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ada129808512f373db35f28_authkit-waitlist-api-gated-launch-og.webp"
+ },
+ "https://workos.com/blog/entra-memberof-retirement-scim-provisioning": {
+  "description": "On November 3, 2026, Entra dynamic groups built on memberOf stop updating. Apps provisioned from them stop receiving new hires and role changes, and nothing reports an error.",
+  "fetched": "2026-10-30",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae389c954bd3c640b44bbda_entra-memberof-retirement-scim-provisioning-og.webp"
  },
  "https://workos.com/blog/localizing-authkit-end-to-end": {
   "description": "AuthKit translates its hosted pages, emails and Widgets into 90 locales. How each one picks the language, what you pass, and which strings stay yours.",
@@ -1120,6 +1258,12 @@
   "fetched": "2026-10-23",
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6adb809b719bc71151f7203f_directory-manager-attributes-approval-workflows-og.webp"
+ },
+ "https://workos.com/blog/session-length-access-token-duration-inactivity-timeout": {
+  "description": "Maximum session length, access token duration, and inactivity timeout each run a different clock in AuthKit. What each one controls, and how to choose it.",
+  "fetched": "2026-10-30",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae3693f94487c4f8c1f73f8_session-length-access-token-duration-inactivity-timeout-og.webp"
  },
  "https://workos.com/blog/sign-in-with-microsoft-vs-entra-sso": {
   "description": "Microsoft OAuth and an Entra SSO connection are two different integrations. What each covers, how email domains route users, and which one a deal needs.",
@@ -1150,6 +1294,12 @@
   "fetched": "2026-10-27",
   "icon": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w256h256/format/png/2023/08/favicon-3.svg",
   "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/FLOCKSCAN_01..jpg"
+ },
+ "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/": {
+  "description": "Proton CEO Andy Yen projects a calm persona and rails against Big Tech and critiques AI. Internally, he is pushing engineers to build Proton with AI, even when they have security concerns.",
+  "fetched": "2026-10-30",
+  "icon": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w256h256/format/png/2023/08/favicon-3.svg",
+  "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/andy3.png"
  },
  "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497": {
   "description": "The Brotli flaw behind Node2Shell (CVE-2026-111497) affects many libraries and applications using HTTP with Brotli or brotlicffi installed. Check your versions and upgrade to the fix.",
@@ -1331,6 +1481,12 @@
   "icon": "https://cdn.sanity.io/images/e4qjo92p/production/e7a55ae5ab7e2c4fdfd4e66a51f628d1f2f44207-967x967.png?w=512&h=512&fit=max&auto=format",
   "image": "https://cdn.sanity.io/images/e4qjo92p/production/1796e3cccda1454e97d262833fb0bb0d6015032f-2786x1567.png?rect=0,53,2786,1463&w=1200&h=630&fit=max&auto=format"
  },
+ "https://www.chainguard.dev/unchained/rebuild-the-planet": {
+  "description": "Patching can't keep pace with AI-discovered vulnerabilities. See how Chainguard plans to eliminate entire classes of security bugs by design.",
+  "fetched": "2026-10-30",
+  "icon": null,
+  "image": "https://images.ctfassets.net/l47ir7rfykkn/1nQ1Vpwd7xHyDS1nWyWOMP/d284d7e13c67083f54e807ed2ac1e244/Rebuild_the_Planet_2.png"
+ },
  "https://www.chainguard.dev/unchained/this-shit-is-hard-nobody-has-ever-been-pwned-by-helvetica-or-have-they": {
   "description": "Fonts are an overlooked software supply chain risk. Learn how Chainguard rebuilt thousands of fonts from source to improve security and trust.",
   "fetched": "2026-10-29",
@@ -1360,6 +1516,18 @@
   "fetched": "2026-10-25",
   "icon": "https://cdndark.darkhorizons.com/wp-content/uploads/2021/09/dh-76-purple.png",
   "image": "https://cdndark.darkhorizons.com/wp-content/uploads/2026/05/more-halo-remakes-are-on-the-way.jpg"
+ },
+ "https://www.datadoghq.com/blog/detect-when-your-ai-agent-copies-a-self-replicating-prompt-injection/": {
+  "description": "Learn how Datadog AI Guard can flag self-replicating prompt injections when an AI agent copies hidden instructions into email replies or skill files.",
+  "fetched": "2026-10-30",
+  "icon": null,
+  "image": "https://web-assets.dd-static.net/42588/1793283002-dandelion-hero-image.jpg"
+ },
+ "https://www.datadoghq.com/blog/serverless-ai-agents/": {
+  "description": "Learn how to run AI agents as serverless workflows, build an execution profile, and compare costs against warm or dedicated compute.",
+  "fetched": "2026-10-30",
+  "icon": null,
+  "image": "https://web-assets.dd-static.net/42588/1793301334-run-ai-agents-on-serverless.jpg"
  },
  "https://www.designboom.com/technology/electronic-fibers-touchscreen-sleeve-machine-washing-national-university-singapore-nus-tural-khudiyev/": {
   "description": "researchers at the national university of singapore (NUS) develop a washable textile touchscreen that displays video and responds to touch.",
@@ -1625,6 +1793,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2025/11/funding-investment-market-3.jpeg"
  },
+ "https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities/": {
+  "description": "Google says Gemini 4 Carbon's cybersecurity capabilities beat rival AI models on vulnerability benchmarks. Access is limited to vetted defenders for now.",
+  "fetched": "2026-10-30",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/04/Gemini.jpeg"
+ },
  "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/": {
   "description": "HPE has patched 72 vulnerabilities in its networking products, including max-severity flaws leading to RCE and authentication bypass.",
   "fetched": "2026-10-27",
@@ -1703,6 +1877,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2025/10/bank-finance-lender-credit-union-hack.jpeg"
  },
+ "https://www.securityweek.com/when-risk-becomes-personal-what-security-leaders-can-learn-from-a-cancer-diagnosis/": {
+  "description": "Risk management leaders educate people on measuring exposure, testing assumptions and advising on how to prepare for incidents they hope won’t occur.",
+  "fetched": "2026-10-30",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg"
+ },
  "https://www.southampton.ac.uk/~doug/quantum_physics/index.html": {
   "description": null,
   "fetched": "2026-10-24",
@@ -1774,6 +1954,12 @@
   "fetched": "2026-10-29",
   "icon": "https://www.vox.com/static-assets/icons/apple-touch-icon.png",
   "image": "https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/10036067/Screen_Shot_2014-11-12_at_10.58.40_AM.0.0.0.png?quality=90&strip=all&crop=0,29.913082161311,100,40.173835677377"
+ },
+ "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/": {
+  "description": "Sources tell WIRED that an Accenture employee’s personal Claude agent ran on a DOD network for two months before it was identified and the vulnerability could be patched.",
+  "fetched": "2026-10-30",
+  "icon": "https://www.wired.com/verso/static/wired-us/assets/favicon.ico",
+  "image": "https://media.wired.com/photos/6ae113e3b0a8ac98a8d177dc/191:100/w_1280,c_limit/102726-department-of-defense-ai-agent.jpg"
  },
  "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/": {
   "description": "The leaked records include the locations of ICE and CBP facilities, workers’ cell phone numbers, and the members of groups tied to wiretap programs, Palantir software, and xAI’s Grok chatbot.",

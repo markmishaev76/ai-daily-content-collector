@@ -1,0 +1,654 @@
+{
+  "date": "2026-10-30",
+  "lead": {
+    "title": "We ran AI agent swarms in Minecraft and Mindustry",
+    "link": "https://labs.ycombinator.com/projects/games/index.html",
+    "excerpt": "Swarms of Claude and GPT agents in Minecraft and Mindustry.",
+    "source": "labs.ycombinator.com via Hacker News",
+    "date": "Oct 29",
+    "image": "https://labs.ycombinator.com/og.png",
+    "image_credit": null,
+    "section": "AI Agents & Agent Security",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "AI Agents & Agent Security",
+      "4h ago"
+    ],
+    "also": []
+  },
+  "pulse": [
+    {
+      "title": "Claude Code regularly sends each background agent’s transcript to its model",
+      "thread": "https://news.ycombinator.com/item?id=50284255",
+      "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+      "link_domain": "gist.github.com",
+      "source": "Hacker News",
+      "domain": "gist.github.com",
+      "meta": "Hacker News · 561 points · 225 comments · 22h ago",
+      "also": [],
+      "image": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png",
+      "icon": "https://github.githubassets.com/favicons/favicon.svg"
+    },
+    {
+      "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+      "thread": "https://news.ycombinator.com/item?id=50288019",
+      "link": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+      "link_domain": "artificialanalysis.ai",
+      "source": "Hacker News",
+      "domain": "artificialanalysis.ai",
+      "meta": "Hacker News · 328 points · 240 comments · 13h ago",
+      "also": [],
+      "image": "https://cdn.sanity.io/images/6vfeftx9/articles/ce3b883faa25c57a8672817086d2da1d248fbbfa-1254x1254.png?w=1200&auto=format",
+      "icon": "https://artificialanalysis.ai/favicon.ico"
+    },
+    {
+      "title": "Chained PHP2Shell exploit roots 25 servers, including US Government servers",
+      "thread": "https://news.ycombinator.com/item?id=50286987",
+      "link": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
+      "link_domain": "dreamgroup.com",
+      "source": "Hacker News",
+      "domain": "dreamgroup.com",
+      "meta": "Hacker News · 291 points · 142 comments · 15h ago",
+      "also": [],
+      "image": "https://cdn.prod.website-files.com/6a146a5aca0b1a41051708a5/6adf6b3b5ddc1bc1311cd370_6a32a0cab8a1061a5787637e_17.jpeg",
+      "icon": "https://cdn.prod.website-files.com/6a1324866930e66fe78a27d6/6a324f6e3649826a83d27520_webclip.jpg"
+    },
+    {
+      "title": "Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5",
+      "thread": "https://lobste.rs/s/zftely/qwenputer_fully_functioning",
+      "link": "https://divagr.com/blog/qwenputer",
+      "link_domain": "divagr.com",
+      "source": "Lobsters",
+      "domain": "divagr.com",
+      "meta": "Lobsters · 41 points · 5 comments · 16h ago",
+      "also": [],
+      "image": "https://divagr.com/qwenputer/og.png",
+      "icon": "https://divagr.com/favicon.svg"
+    },
+    {
+      "title": "Hackers expose the identities of more than 40k DHS employees",
+      "thread": "https://news.ycombinator.com/item?id=50287898",
+      "link": "https://text.npr.org/nx-s1-6021497",
+      "link_domain": "text.npr.org",
+      "source": "Hacker News",
+      "domain": "text.npr.org",
+      "meta": "Hacker News · 260 points · 75 comments · 13h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://text.npr.org/favicon.ico"
+    },
+    {
+      "title": "The case of the 9 bit AES key",
+      "thread": "https://lobste.rs/s/dqexzg/case_9_bit_aes_key",
+      "link": "https://v12.sh/blog/the-case-of-the-9bit-aes-key",
+      "link_domain": "v12.sh",
+      "source": "Lobsters",
+      "domain": "v12.sh",
+      "meta": "Lobsters · 38 points · 1 comments · 23h ago",
+      "also": [],
+      "image": "https://v12.sh/static/opengraph-image.png",
+      "icon": "https://v12.sh/apple-touch-icon.png"
+    },
+    {
+      "title": "Shared password manager for families?",
+      "thread": "https://lobste.rs/s/eccbci/shared_password_manager_for_families",
+      "link": null,
+      "link_domain": "",
+      "source": "Lobsters",
+      "domain": "Lobsters",
+      "meta": "Lobsters · 27 points · 33 comments · 11h ago",
+      "also": [],
+      "image": null,
+      "icon": null
+    },
+    {
+      "title": "Zombie stats: Where the numbers AI quotes come from",
+      "thread": "https://news.ycombinator.com/item?id=50290283",
+      "link": "https://trakkr.ai/trakkr-research/zombie-stats",
+      "link_domain": "trakkr.ai",
+      "source": "Hacker News",
+      "domain": "trakkr.ai",
+      "meta": "Hacker News · 144 points · 63 comments · 10h ago",
+      "also": [],
+      "image": "https://trakkr.ai/images/research/og/zombie-stats.png",
+      "icon": "https://trakkr.ai/apple-touch-icon.png"
+    },
+    {
+      "title": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning",
+      "thread": "https://news.ycombinator.com/item?id=50289692",
+      "link": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
+      "link_domain": "404media.co",
+      "source": "Hacker News",
+      "domain": "404media.co",
+      "meta": "Hacker News · 141 points · 51 comments · 11h ago",
+      "also": [],
+      "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/andy3.png",
+      "icon": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w256h256/format/png/2023/08/favicon-3.svg"
+    },
+    {
+      "title": "Claude Duet is the first personal-assistant-type harness that feels useful",
+      "thread": "https://news.ycombinator.com/item?id=50292727",
+      "link": "https://fig.blue/posts/duet-is-the-future/",
+      "link_domain": "fig.blue",
+      "source": "Hacker News",
+      "domain": "fig.blue",
+      "meta": "Hacker News · 107 points · 92 comments · 8h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://fig.blue/favicon.svg"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI-Assisted Engineering",
+      "cards": [
+        {
+          "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+          "link": "https://huggingface.co/blog/announcing-project-protostar",
+          "excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "source": "Hugging Face",
+          "date": "Oct 29",
+          "image": "https://huggingface.co/blog/assets/announcing-project-protostar/thumbnail.jpg",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null
+        },
+        {
+          "title": "The reports of Stack Overflow's death are greatly exaggerated",
+          "link": "https://stackoverflow.blog/2026/10/29/the-reports-of-stack-overflow-s-death-are-greatly-exaggerated/",
+          "excerpt": "I’ve seen the recent predictions about Stack Overflow’s demise. They make for compelling headlines, but they confuse a change in how people access knowledge with the disappearance of the knowledge—and the company—behind it.",
+          "source": "Stack Overflow Blog",
+          "date": "Oct 29",
+          "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/f077426960fd528ef7706da767d169cf49038d71-2048x1152.png?rect=0,39,2048,1075&w=1200&h=630&auto=format",
+          "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+          "domain": "stackoverflow.blog",
+          "hn": null
+        },
+        {
+          "title": "Bliki: LLM Voice",
+          "link": "https://martinfowler.com/bliki/LLM-Voice.html",
+          "excerpt": "Sometimes when I read a post, I get the growing feeling that I'm reading the output of an LLM. I can't necessarily define why, although there are the common tells (it's not the em-dashes, it's the load-bearing tapestries). As I do this my desire to read on atrophies, sometimes to the point of…",
+          "source": "Martin Fowler",
+          "date": "Oct 29",
+          "image": "https://martinfowler.com/logo-sq.png",
+          "icon": "https://martinfowler.com/favicon.ico",
+          "domain": "martinfowler.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "Avoid Public Functions Calling Other Public Functions",
+          "link": "https://matklad.github.io/2026/10/29/pub-calls-pub.html",
+          "excerpt": "A small-scale rule of thumb. This article will land much better with a concrete example, but I am drawing a blank here, so you gotta just blindly trust my say so!",
+          "source": "matklad",
+          "date": "Oct 29",
+          "image": null,
+          "icon": "https://matklad.github.io/favicon.png",
+          "domain": "matklad.github.io",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "AI Agents & Agent Security",
+      "cards": [
+        {
+          "title": "A Defense Contractor Gave Their AI Agent Access to a Secure Pentagon System",
+          "link": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
+          "excerpt": "Sources tell WIRED that an Accenture employee’s personal Claude agent ran on a DOD network for two months before it was identified and the vulnerability could be patched.",
+          "source": "wired.com via Hacker News",
+          "date": "Oct 29",
+          "image": "https://media.wired.com/photos/6ae113e3b0a8ac98a8d177dc/191:100/w_1280,c_limit/102726-department-of-defense-ai-agent.jpg",
+          "icon": "https://www.wired.com/verso/static/wired-us/assets/favicon.ico",
+          "domain": "wired.com",
+          "hn": "19 points · 6 comments"
+        },
+        {
+          "title": "Show HN: phpClaw – AI agent runtime for PHP with tools, memory and guards",
+          "link": "https://github.com/phpclaw-php/phpclaw-monorepo",
+          "excerpt": "Open-source AI agent framework for PHP. Tools, memory, security guards and a ReAct loop built in. Works with Laravel, Symfony, WordPress, Drupal, Magento, Joomla, OpenCart, PrestaShop. Any LLM prov...",
+          "source": "github.com via Hacker News",
+          "date": "Oct 29",
+          "image": "https://opengraph.githubassets.com/2fc646d5200570920fb5fcad7f4d66c0b8b3fc402a2e3e06ccd79bc8fb293851/phpclaw-php/phpclaw-monorepo",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "11 points · 4 comments"
+        },
+        {
+          "title": "Building a multiplayer game world with autonomous Fable-class models",
+          "link": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+          "excerpt": "How I Built the Most AI-Pilled Company in the World Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models. Spawn is a…",
+          "source": "Simon Willison",
+          "date": "Oct 29",
+          "image": "https://static.simonwillison.net/static/2026-10-29/IMG_9406.webp",
+          "icon": null,
+          "domain": "simonwillison.net",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
+          "link": "https://latent.space/p/elorian/",
+          "excerpt": "A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images.",
+          "source": "Latent Space",
+          "date": "Oct 29",
+          "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/c0263f23-d8f4-45a5-8e75-1ea88650605f/Elorian_Decoy_Feature_Image.png?t=1793221147",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null
+        },
+        {
+          "title": "An updated Model Spec for more capable and beneficial AI",
+          "link": "https://openai.com/index/updated-model-spec",
+          "excerpt": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+          "source": "OpenAI News",
+          "date": "Oct 29",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null
+        },
+        {
+          "title": "How we detect frontier model misalignment",
+          "link": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+          "excerpt": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+          "source": "OpenAI News",
+          "date": "Oct 29",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null
+        },
+        {
+          "title": "How Ropes & Gray is developing AI for transactional diligence",
+          "link": "https://openai.com/index/ropes-gray-ai-diligence",
+          "excerpt": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+          "source": "OpenAI News",
+          "date": "Oct 29",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "Agent Identity & Authorization",
+      "cards": [
+        {
+          "title": "Cloud CISO Perspectives: Introducing new $250,000 tier for Google Cloud VRP (Q&A)",
+          "link": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-introducing-new-tier-for-google-cloud-vrp/",
+          "excerpt": "Welcome to the second Cloud CISO Perspectives for October 2026. Today, Chris Betz talks with Michael Cote, our vulnerability rewards program lead, about the new tier of our Cloud VRP program and the current state of vulnerability rewards. As with all Cloud CISO Perspectives, the contents of this…",
+          "source": "Security & Identity",
+          "date": "Oct 29",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Cloud_CISO_Perspectives_header_4_Blue.max-600x600.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null
+        },
+        {
+          "title": "GitHub Octoverse 2026: AI Agents, Citizen Developers, and the New Security Reality",
+          "link": "https://blog.gitguardian.com/github-octoverse-2026/",
+          "excerpt": "GitHub’s Octoverse 2026 counted 34.3 billion commits, and over 40% of pull requests now start with an AI agent. Read to learn what the State of the Octoverse 2026 Report reveals about AI, citizen developers, and our new security reality.",
+          "source": "GitGuardian Blog - Take Control of Your Secrets Security",
+          "date": "Oct 29",
+          "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/10/github-octoverse-2026.png",
+          "icon": null,
+          "domain": "blog.gitguardian.com",
+          "hn": null
+        },
+        {
+          "title": "Entra stops updating MemberOf groups on November 3: What it means for SCIM provisioning",
+          "link": "https://workos.com/blog/entra-memberof-retirement-scim-provisioning",
+          "excerpt": "On November 3, 2026, Entra dynamic groups built on memberOf stop updating. Apps provisioned from them stop receiving new hires and role changes, and nothing reports an error.",
+          "source": "WorkOS Blog",
+          "date": "Oct 29",
+          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae389c954bd3c640b44bbda_entra-memberof-retirement-scim-provisioning-og.webp",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "How to brand AuthKit per application when products share users",
+          "link": "https://workos.com/blog/authkit-branding-per-application",
+          "excerpt": "Give each product its own AuthKit sign-in pages and emails while users keep one account. How inheritance works, and what stays environment-wide.",
+          "source": "WorkOS Blog",
+          "date": "Oct 29",
+          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae3a508953fd3d0e6dd22ac_authkit-branding-per-application-og.webp",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null
+        },
+        {
+          "title": "Session length vs. access token duration vs. inactivity timeout",
+          "link": "https://workos.com/blog/session-length-access-token-duration-inactivity-timeout",
+          "excerpt": "Maximum session length, access token duration, and inactivity timeout each run a different clock in AuthKit. What each one controls, and how to choose it.",
+          "source": "WorkOS Blog",
+          "date": "Oct 29",
+          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae3693f94487c4f8c1f73f8_session-length-access-token-duration-inactivity-timeout-og.webp",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null
+        },
+        {
+          "title": "Why agent-to-agent chains need per-hop delegated tokens",
+          "link": "https://workos.com/blog/agent-to-agent-delegated-tokens",
+          "excerpt": "Shared credentials turn one manipulated agent into a compromised chain. Narrow, audience-bound tokens at every hop shrink the blast radius.",
+          "source": "WorkOS Blog",
+          "date": "Oct 29",
+          "image": "https://images.workoscdn.com/images/7b5e3dc6-133e-44d5-bfcd-7da3e1886f08.png?auto=format&fit=clip&q=80",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "Supply Chain & Builds",
+      "cards": [
+        {
+          "title": "Rebuild the planet",
+          "link": "https://www.chainguard.dev/unchained/rebuild-the-planet",
+          "excerpt": "Patching can't keep pace with AI-discovered vulnerabilities. See how Chainguard plans to eliminate entire classes of security bugs by design.",
+          "source": "Chainguard: Unchained",
+          "date": "Oct 29",
+          "image": "https://images.ctfassets.net/l47ir7rfykkn/1nQ1Vpwd7xHyDS1nWyWOMP/d284d7e13c67083f54e807ed2ac1e244/Rebuild_the_Planet_2.png",
+          "icon": "https://www.chainguard.dev/favicon.ico",
+          "domain": "chainguard.dev",
+          "hn": null
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
+          "link": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
+          "excerpt": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't. There's a strange mix of clever tricks and careless mistakes. Hackers are borrowing trust from…",
+          "source": "The Hacker News",
+          "date": "Oct 29",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoNTh5CKLvFJeeXzWn1LVT-e9435oFtUz4jT-4TmZaWkRUY_RY8EAtijUWxQztoK3K_tU_csSw54MuVeX8UzeT6ZWNLtTMex5pMS4z4Npz-aYAN9qIfWk2bUsei5nswh3UkzycVlKznVjK7n1I_knJ-p1I59RoX_TECTfr-NPej9LWoDt2UuwvLY4heSip/s1600/t-day.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+          "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+          "excerpt": "A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthropic said on October 27 that its AI model wrote an exploit that uses the flaw…",
+          "source": "The Hacker News",
+          "date": "Oct 29",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfCJ0ttE8v4hkDjJRqbTvxlxFcoNtFJhbYCQ-o8NtaiyFLImEyA8aSO967eeZG9fRebhc8oVA-OloE9X9KVVAxM-H3wKvUlh8XmN6bGlEz2IJwMgcssmA7yIRi7YNOwVQYD6nhQCaWUg6fPy-QXVjfw6rV55LueKlLvZLazjKjTL94KJMMUZ2uZ3R019Km/s1600/linux-flaw.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
+          "link": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+          "excerpt": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba. The activity involves creating fake GitHub projects that claim to be desktop…",
+          "source": "The Hacker News",
+          "date": "Oct 29",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1ij0gwe-L1jDZxdoUPZ6hpSJnJgMHh2bG8bFF2y8y-dJA9nY0Fr2JOU2i4NaCetGqvTZOtvaRXbZONR6d8ajjMR6DNm_X7OwaVCiH7dPycEN9xGI0psNvPYbwDhpGmUQ4Qyhp5x9fqQ_sgzjcReslK-a-gRS3kFr5_JOns1kkuC6UheDHVb2yaV8EAhIF/s1600/claude-hack.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
+          "link": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
+          "excerpt": "A flaw in Telegram for Android could be chained with two other bugs to take full control of a victim's phone through a voice call, once the victim answered, according to security startup NebuSec. The attacker needed only an ordinary Telegram account. Telegram fixed the flaw in version 12.10.4 of…",
+          "source": "The Hacker News",
+          "date": "Oct 29",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguzUg6G-A4KdRvBuhj9LZ93cFfXfvMNkg3dJO0H9sfNJ3MTlecsgLEMIk5TnIrdl2N6UGB8D9rlqLduGEZVm7X-XrWZr6Xh5ZrVp38x5uTd1vHyHGcjRR2N3gctNen-CBSz8JihnNL57galBoeOVKwG5w3qsOZnqmGYdkxzjurrI3QWolmS1Qfz_E_Wog/s1600/telegram.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
+          "link": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
+          "excerpt": "AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are becoming tasks that AI systems can perform on their own. As these capabilities…",
+          "source": "The Hacker News",
+          "date": "Oct 29",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDZvKBLpFrPhWNRvVvRjmTtgwdpGykJjCmzNWNaytIUO2C9VadEDZjeY35hq6H33jHDxV7kAOMTyOV7RO_YUG2caQ75nA_NstH_GxfRJo57n970u4ACXwZXoKl8mizESwgP9wulusqUmSnZwjFNHIJZ2hk_VzrlCJ5HBD9_8zs8Fj1WZULiZoZMD9G9D8/s1600/conf.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
+          "link": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
+          "excerpt": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it. Independent researcher Ben Zimmermann found them by scanning 7.25 million public Gitee repositories…",
+          "source": "The Hacker News",
+          "date": "Oct 29",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwVszv5076OudfiraNA4yh_XuzZZof-jYaklwUgiY700oPMvBHQfKHx-8yLNwhF9NVXahFRvWwU7c0mPCsIG-GUo45Fi_LT6ecZMsaRUfaLIL6eK16qeku1PO5aMTQRV0VKJh-pjKG4rC-RyajCGjL4R_A5W6YPsps4B4-GhEbstuAN7AnelVJPwIFK5W-/s1600/gite.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis",
+          "link": "https://www.securityweek.com/when-risk-becomes-personal-what-security-leaders-can-learn-from-a-cancer-diagnosis/",
+          "excerpt": "Risk managers are trained to spot weak signals, plan for disruption and make hard decisions under uncertainty. But the discipline looks different when the risk is not a system or an enterprise, but you. The post When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis…",
+          "source": "SecurityWeek",
+          "date": "Oct 29",
+          "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null
+        },
+        {
+          "title": "Google Touts Powerful Cybersecurity Capabilities in Gemini 4 Carbon Model",
+          "link": "https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities/",
+          "excerpt": "Google’s new frontier model scored 88.2% on SEC-bench Pro and is rolling out first to vetted cyber defenders via its Fairwind Program. The post Google Touts Powerful Cybersecurity Capabilities in Gemini 4 Carbon Model appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Oct 29",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/04/Gemini.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "What’s new with Google Data Cloud",
+          "link": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/",
+          "excerpt": "October 19 - October 23 BigQuery introduces column aliases in GoogleSQL and cross-region table copy GAGoogleSQL in BigQuery now supports column aliases in SELECT and WHERE clauses (GA opt-in), avoiding nested subqueries and simplifying migrations from Snowflake and Teradata. Cross-region table…",
+          "source": "Cloud Blog",
+          "date": "Oct 29",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/original_images/whats_new_data_cloud_fWg4bKK.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null
+        },
+        {
+          "title": "Detect when your AI agent copies a self-replicating prompt injection",
+          "link": "https://www.datadoghq.com/blog/detect-when-your-ai-agent-copies-a-self-replicating-prompt-injection/",
+          "excerpt": "Learn how Datadog AI Guard can flag self-replicating prompt injections when an AI agent copies hidden instructions into email replies or skill files.",
+          "source": "Datadog | The Monitor blog",
+          "date": "Oct 29",
+          "image": "https://web-assets.dd-static.net/42588/1793283002-dandelion-hero-image.jpg",
+          "icon": "https://www.datadoghq.com/favicon.ico",
+          "domain": "datadoghq.com",
+          "hn": null
+        },
+        {
+          "title": "Default to serverless for AI agents, then let production data decide what moves",
+          "link": "https://www.datadoghq.com/blog/serverless-ai-agents/",
+          "excerpt": "Learn how to run AI agents as serverless workflows, build an execution profile, and compare costs against warm or dedicated compute.",
+          "source": "Datadog | The Monitor blog",
+          "date": "Oct 29",
+          "image": "https://web-assets.dd-static.net/42588/1793301334-run-ai-agents-on-serverless.jpg",
+          "icon": "https://www.datadoghq.com/favicon.ico",
+          "domain": "datadoghq.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "Google Adopts DPoP to Strengthen OAuth 2.0 Against Token Theft and Replay Attacks",
+          "link": "https://www.infoq.com/news/2026/10/google-dpop-oauth2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Google's OAuth Platform has recently introduces support for Demonstrating Proof-of-Possession (DPoP), an OAuth 2.0 security mechanism designed to mitigate token theft and replay attacks. By Sergio De Simone",
+          "source": "InfoQ",
+          "date": "Oct 29",
+          "image": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null
+        },
+        {
+          "title": "The boundary problem in agentic AI is a platform problem",
+          "link": "https://www.cncf.io/blog/2026/10/29/the-boundary-problem-in-agentic-ai-is-a-platform-problem/",
+          "excerpt": "An autonomous agent will do exactly what its tools let it do, and no more. This sounds like a constraint. In practice it is the whole risk, because the set of things an agent’s tools let...",
+          "source": "Blog – Cloud Native Computing Foundation",
+          "date": "Oct 29",
+          "image": "https://www.cncf.io/wp-content/uploads/2026/10/image-36.png",
+          "icon": null,
+          "domain": "cncf.io",
+          "hn": null
+        },
+        {
+          "title": "Grounding agents in one context graph connecting semantic models you already trust",
+          "link": "https://cloud.google.com/blog/products/data-analytics/expanded-semantic-model-support-in-knowledge-catalog/",
+          "excerpt": "Picture the scene: Before an executive business review, your VP of Sales asks an AI assistant, \"What was net revenue for our top enterprise accounts last quarter?\" In seconds, the agent returns a polished chart! Unfortunately, the numbers don't match the finance report. Why? Because the agent…",
+          "source": "Cloud Blog",
+          "date": "Oct 29",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/original_images/1._Side-by-side_comparison_z1p0n9c.gif",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null
+        },
+        {
+          "title": "From Working Group to SIG Architecture: spotlight on AI Conformance",
+          "link": "https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/",
+          "excerpt": "In this SIG Architecture spotlight we talked with Janet Kuo (Google) and Yuan Tang (Red Hat) about the journey of AI Conformance in Kubernetes, from the initial Working Group to the integration SIG Architecture as a subproject. IntroductionsFrederico Muñoz and Kirti Goyal (FK): Hi Janet, Yuan, and…",
+          "source": "Kubernetes Blog",
+          "date": "Oct 29",
+          "image": "https://kubernetes.io/blog/2026/10/29/sig-arch-ai-conformance-2026/ai_conf_kubecon.jpg",
+          "icon": null,
+          "domain": "kubernetes.io",
+          "hn": null
+        },
+        {
+          "title": "Build Generative UI Apps with A2UI & CopilotKit Agents",
+          "link": "https://developers.googleblog.com/build-generative-ui-apps-with-a2ui-copilotkit-agents/",
+          "excerpt": "See Google A2Ui in action! Learn how to natively render agentic UIs across Langchain, AWS Strands, Microsoft agents, and Google ADK using CopilotKit SDKs for A2UI.",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/cover-without-title.2e16d0ba.fill-1200x600.png",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "Consumer Appetite for Personal AI Goes Mainstream",
+          "link": "https://spectrum.ieee.org/ai-personal-assistant-intelligent-wearables",
+          "excerpt": "This article is brought to you by Qualcomm Technologies.For many consumers, much of the promise and appeal of AI is personal. Consumers are looking past generic tools and want to know how these technologies will help them in their daily lives. These trends coincide with the advent of new classes…",
+          "source": "IEEE Spectrum",
+          "date": "Oct 29",
+          "image": "https://spectrum.ieee.org/media-library/smiling-man-in-headphones-with-on-screen-alerts-for-calendar-emails-and-awareness-mode.png?id=68506456&width=980",
+          "icon": null,
+          "domain": "spectrum.ieee.org",
+          "hn": null
+        },
+        {
+          "title": "Show HN: I Turned DOOM into a Transformer",
+          "link": "https://github.com/mottopanikeiku/doomformer",
+          "excerpt": "Compile an integer neural network into a DOOM map. Voodoo dolls do the arithmetic, light levels and plane heights hold the values, and every value is checked against NumPy with tolerance 0. - motto...",
+          "source": "github.com via Hacker News",
+          "date": "Oct 29",
+          "image": "https://opengraph.githubassets.com/632c59ef53c075f0915ca950764838dbc73e0423f590d72c65651f2b8dd813f0/mottopanikeiku/doomformer",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "38 points · 8 comments"
+        },
+        {
+          "title": "A Pig, the State, and War: Porco Rosso (Kurenai No Buta) (2014)",
+          "link": "https://journal.animationstudies.org/article/id/66/",
+          "excerpt": "47 points · 7 comments",
+          "source": "journal.animationstudies.org via Hacker News",
+          "date": "Oct 29",
+          "image": "https://journal.animationstudies.org/media/cover_images/32a1852c-fcda-4630-b063-f82dd00354b3.jpeg",
+          "icon": "https://journal.animationstudies.org/favicon.ico",
+          "domain": "journal.animationstudies.org",
+          "hn": "47 points · 7 comments"
+        }
+      ],
+      "more": [
+        {
+          "title": "Cormac McCarthy's Library",
+          "link": "https://cormacmccarthy.lib.utk.edu/",
+          "excerpt": "10 points · 1 comments",
+          "source": "cormacmccarthy.lib.utk.edu via Hacker News",
+          "date": "Oct 30",
+          "image": null,
+          "icon": "https://cormacmccarthy.lib.utk.edu/favicon.ico",
+          "domain": "cormacmccarthy.lib.utk.edu",
+          "hn": "10 points · 1 comments"
+        },
+        {
+          "title": "The Great American Rascal: Tom Sawyer at 150",
+          "link": "https://claremontreviewofbooks.com/the-great-american-rascal/",
+          "excerpt": "The Great American Rascal",
+          "source": "claremontreviewofbooks.com via Hacker News",
+          "date": "Oct 29",
+          "image": "https://claremontreviewofbooks.com/wp-content/uploads/2026/09/CRB_FA26_Wolfson-573x400.png",
+          "icon": "https://claremontreviewofbooks.com/wp-content/uploads/2019/11/favcion.png",
+          "domain": "claremontreviewofbooks.com",
+          "hn": "44 points · 14 comments"
+        },
+        {
+          "title": "El Niño Is Flooding California's Coasts with the Highest Tides to Come",
+          "link": "https://gizmodo.com/el-nino-is-already-flooding-californias-coasts-and-the-years-highest-tides-havent-arrived-2000832574",
+          "excerpt": "93 points · 29 comments",
+          "source": "gizmodo.com via Hacker News",
+          "date": "Oct 29",
+          "image": null,
+          "icon": "https://gizmodo.com/favicon.ico",
+          "domain": "gizmodo.com",
+          "hn": "93 points · 29 comments"
+        },
+        {
+          "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
+          "link": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+          "excerpt": "739 points · 441 comments",
+          "source": "arkm.com via Hacker News",
+          "date": "Oct 29",
+          "image": null,
+          "icon": "https://arkm.com/favicon.ico",
+          "domain": "arkm.com",
+          "hn": "739 points · 441 comments"
+        },
+        {
+          "title": "Sylphide OS: a general-purpose OS for microcontroller-based computers",
+          "link": "https://projects.freehackers.org/sylphide-os/",
+          "excerpt": "None",
+          "source": "projects.freehackers.org via Hacker News",
+          "date": "Oct 29",
+          "image": null,
+          "icon": "https://projects.freehackers.org/sylphide-os/img/favicon.ico",
+          "domain": "projects.freehackers.org",
+          "hn": "38 points · 12 comments"
+        }
+      ]
+    }
+  ]
+}
