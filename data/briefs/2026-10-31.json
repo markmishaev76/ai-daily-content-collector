@@ -1,0 +1,753 @@
+{
+  "date": "2026-10-31",
+  "lead": {
+    "title": "Identity Assertion JWT Authorization Grant Draft 06",
+    "link": "https://aaronparecki.com/2026/10/30/19/oauth-id-jag-draft-06",
+    "excerpt": "We've just published draft -06 of the Identity Assertion JWT Authorization Grant (ID-JAG):",
+    "source": "Articles by Aaron Parecki",
+    "date": "Oct 31",
+    "image": null,
+    "image_credit": null,
+    "section": "Agent Identity & Authorization",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "Agent Identity & Authorization",
+      "1h ago"
+    ],
+    "also": []
+  },
+  "pulse": [
+    {
+      "title": "Backdoors in Claude Code for VS, Cursor official extensions",
+      "thread": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
+      "link": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+      "link_domain": "cyberplace.social",
+      "source": "Lobsters",
+      "domain": "cyberplace.social",
+      "meta": "Lobsters · 142 points · 38 comments · 15h ago",
+      "also": [
+        {
+          "source": "Hacker News",
+          "thread": "https://news.ycombinator.com/item?id=50302334"
+        }
+      ],
+      "image": null,
+      "icon": "https://cyberplace.social/packs/assets/apple-touch-icon-57x57-BsPGHSez.png"
+    },
+    {
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "thread": "https://news.ycombinator.com/item?id=50300683",
+      "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "link_domain": "phorion.io",
+      "source": "Hacker News",
+      "domain": "phorion.io",
+      "meta": "Hacker News · 784 points · 489 comments · 18h ago",
+      "also": [],
+      "image": "https://phorion.io/images/default-social-card.png",
+      "icon": "https://phorion.io/images/apple-touch-icon.png"
+    },
+    {
+      "title": "AI isn't replacing SREs, it's deskilling them",
+      "thread": "https://news.ycombinator.com/item?id=50305693",
+      "link": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+      "link_domain": "newsletter.signoz.io",
+      "source": "Hacker News",
+      "domain": "newsletter.signoz.io",
+      "meta": "Hacker News · 512 points · 385 comments · 10h ago",
+      "also": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!Hgvq!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F530d847f-26cb-4ddd-a6de-875cbbaf8fab_6233x4167.webp",
+      "icon": "https://substackcdn.com/icons/substack/apple-touch-icon.png"
+    },
+    {
+      "title": "Claude Code VS Code extension with backdoor released on Cursor marketplace",
+      "thread": "https://news.ycombinator.com/item?id=50301983",
+      "link": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2",
+      "link_domain": "doublepulsar.com",
+      "source": "Hacker News",
+      "domain": "doublepulsar.com",
+      "meta": "Hacker News · 399 points · 1 comments · 15h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://doublepulsar.com/favicon.ico"
+    },
+    {
+      "title": "Northflank Breached",
+      "thread": "https://news.ycombinator.com/item?id=50305025",
+      "link": "https://status.northflank.com",
+      "link_domain": "status.northflank.com",
+      "source": "Hacker News",
+      "domain": "status.northflank.com",
+      "meta": "Hacker News · 365 points · 275 comments · 10h ago",
+      "also": [],
+      "image": "https://northflank.instatus.com/api/og",
+      "icon": "https://instatus.com/user-content/v1635412200/ydjpg9wb8ximfbrlegtn.ico"
+    },
+    {
+      "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+      "thread": "https://news.ycombinator.com/item?id=50307219",
+      "link": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
+      "link_domain": "ft.com",
+      "source": "Hacker News",
+      "domain": "ft.com",
+      "meta": "Hacker News · 283 points · 231 comments · 8h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.ft.com/favicon.ico"
+    },
+    {
+      "title": "Proton's CEO Cancels AI 'Re-Interviews'",
+      "thread": "https://news.ycombinator.com/item?id=50307183",
+      "link": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
+      "link_domain": "404media.co",
+      "source": "Hacker News",
+      "domain": "404media.co",
+      "meta": "Hacker News · 262 points · 220 comments · 8h ago",
+      "also": [],
+      "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/andy4.png",
+      "icon": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w256h256/format/png/2023/08/favicon-3.svg"
+    },
+    {
+      "title": "US tech stocks see sharp falls over AI cost fears",
+      "thread": "https://news.ycombinator.com/item?id=50306008",
+      "link": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+      "link_domain": "bbc.co.uk",
+      "source": "Hacker News",
+      "domain": "bbc.co.uk",
+      "meta": "Hacker News · 241 points · 265 comments · 9h ago",
+      "also": [],
+      "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/10b0/live/dcdf2a60-d46e-11f1-9dda-1ba6fcc7d159.jpg",
+      "icon": "https://static.files.bbci.co.uk/core/website/assets/static/icons/touch/news/touch-icon-36.413a37b227.png"
+    },
+    {
+      "title": "Bunny CDN Security Incident",
+      "thread": "https://news.ycombinator.com/item?id=50308697",
+      "link": "https://status.bunny.net/incidents/p6gf1by9kr7m",
+      "link_domain": "status.bunny.net",
+      "source": "Hacker News",
+      "domain": "status.bunny.net",
+      "meta": "Hacker News · 201 points · 40 comments · 7h ago",
+      "also": [],
+      "image": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
+      "icon": "https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/20630/favicon.png"
+    },
+    {
+      "title": "Ask HN: Are you tired too in this AI era?",
+      "thread": "https://news.ycombinator.com/item?id=50301479",
+      "link": null,
+      "link_domain": "",
+      "source": "Hacker News",
+      "domain": "Hacker News",
+      "meta": "Hacker News · 142 points · 136 comments · 16h ago",
+      "also": [],
+      "image": null,
+      "icon": null
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI-Assisted Engineering",
+      "cards": [
+        {
+          "title": "Roblox’s approach to tripling AI code review acceptance rates",
+          "link": "https://newsletter.getdx.com/p/robloxs-approach-to-tripling-ai-code",
+          "excerpt": "Andrew Swerdlow shares how Roblox is building trust in AI agents to autonomously review, test, and deploy code and what that means for engineers.",
+          "source": "Engineering Enablement",
+          "date": "Oct 30",
+          "image": "https://substackcdn.com/image/fetch/$s_!YwUQ!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b404a84-d74c-49cf-8317-c98d7fdb6482_2560x1440.png",
+          "icon": "https://substackcdn.com/image/fetch/$s_!6g5W!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6135d637-27c9-4440-ba74-f9747a16267f%2Fapple-touch-icon-57x57.png",
+          "domain": "newsletter.getdx.com",
+          "hn": null
+        },
+        {
+          "title": "The Pulse: Anthropic kills the coding interview",
+          "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-anthropic-kills-the-coding",
+          "excerpt": "AI is rendering the Leetcode-style interview pointless and now Anthropic has deleted it from its interview loop. Also: details of incident.io’s AI spend, Microsoft’s exit offer to engineers, and more",
+          "source": "The Pragmatic Engineer",
+          "date": "Oct 30",
+          "image": "https://substackcdn.com/image/fetch/$s_!LqGQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc10d7a14-d196-4d3e-89f4-51d28a0ce45a_2042x1006.png",
+          "icon": null,
+          "domain": "newsletter.pragmaticengineer.com",
+          "hn": null
+        },
+        {
+          "title": "nemotron-halloween",
+          "link": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+          "excerpt": "A Blog post by NVIDIA on Hugging Face",
+          "source": "Hugging Face",
+          "date": "Oct 30",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/6ab2a746c7d0655b3d8dfbb9/fownH6rn05tSp1jDBTz8m.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "AI Agents & Agent Security",
+      "cards": [
+        {
+          "title": "dbreunig/nesformer",
+          "link": "https://simonwillison.net/2026/Oct/30/nesformer/",
+          "excerpt": "dbreunig/nesformer Inspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs such as Super Mario Bros (very slowly) running inside Qwen! In a comment on Hacker News Drew…",
+          "source": "Simon Willison",
+          "date": "Oct 30",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null
+        },
+        {
+          "title": "Making it easier for websites to express AI training preferences",
+          "link": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+          "excerpt": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+          "source": "OpenAI News",
+          "date": "Oct 30",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null
+        },
+        {
+          "title": "Daytona runs the code, Notte runs the browser",
+          "link": "https://www.daytona.io/dotfiles/daytona-runs-the-code-notte-runs-the-browser",
+          "excerpt": "Agents in Daytona sandboxes can run Chromium beside their code or use a Notte browser for bot checks, captchas and logins. A Daytona guide shows how.",
+          "source": "Dotfiles Insider · Daytona",
+          "date": "Oct 30",
+          "image": "https://www.datocms-assets.com/103916/1793298707-daytona-og-lockup-2026-10-29-18-31-40.png?auto=compress%2Cformat&fit=crop&h=1260&w=2520",
+          "icon": "https://www.daytona.io/apple-touch-icon.png",
+          "domain": "daytona.io",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "Community safety report and new protections for teens",
+          "link": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+          "excerpt": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+          "source": "OpenAI News",
+          "date": "Oct 30",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null
+        },
+        {
+          "title": "Fair use benefits everyone",
+          "link": "https://openai.com/index/fair-use-benefits-everyone",
+          "excerpt": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+          "source": "OpenAI News",
+          "date": "Oct 30",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null
+        },
+        {
+          "title": "Friday Squid Blogging: Bigfin Squid Off California Coast",
+          "link": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-bigfin-squid-off-california-coast.html",
+          "excerpt": "Neat video: The sighting, announced September 2, marks the first time anyone has spotted a live bigfin squid, which belongs to the Magnapinna genus, in the northeastern Pacific Ocean. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered.…",
+          "source": "Schneier on Security",
+          "date": "Oct 30",
+          "image": null,
+          "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+          "domain": "schneier.com",
+          "hn": null
+        },
+        {
+          "title": "Bloatware in Aftermarket Auto Parts",
+          "link": "https://www.schneier.com/blog/archives/2026/10/bloatware-in-aftermarket-auto-parts.html",
+          "excerpt": "This story is interesting: One Civic owner purchased a cheap aftermarket head unit off Amazon, and decided to have Claude work its magic on it, like it would a smart TV. What was reportedly discovered isn’t surprising, but is worth knowing about. Among the pre-installed bloatware—­or spyware, if…",
+          "source": "Schneier on Security",
+          "date": "Oct 30",
+          "image": null,
+          "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+          "domain": "schneier.com",
+          "hn": null
+        },
+        {
+          "title": "API credits benefit for eligible ChatGPT subscriptions",
+          "link": "https://simonwillison.net/2026/Oct/29/api-credits/",
+          "excerpt": "API credits benefit for eligible ChatGPT subscriptions Earlier this month Anthropic announced a generous new benefit for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivalent quantity of (expiring) credits to use with the Anthropic API. OpenAI have…",
+          "source": "Simon Willison",
+          "date": "Oct 29",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "Leadership",
+      "cards": [
+        {
+          "title": "Closing banking’s AI value gap: A CEO guide",
+          "link": "https://www.mckinsey.com/industries/financial-services/our-insights/closing-bankings-ai-value-gap-a-ceo-guide",
+          "excerpt": "As AI adoption races ahead, great value is being left behind. Leaders need an operating model that turns investment into AI capital that can be deployed again and again.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Oct 30",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null
+        },
+        {
+          "title": "The Pulse: Time to rethink software security because of AI?",
+          "link": "https://blog.pragmaticengineer.com/the-pulse-time-to-rethink-software-security-because-of-ai/",
+          "excerpt": "A month’s worth of security breaches in a single day – will things get worse before they improve?",
+          "source": "The Pragmatic Engineer",
+          "date": "Oct 30",
+          "image": "https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/2026/10/image-52.png",
+          "icon": null,
+          "domain": "blog.pragmaticengineer.com",
+          "hn": null
+        },
+        {
+          "title": "2026.44: At Long Last…",
+          "link": "https://stratechery.com/2026/at-long-last/",
+          "excerpt": "The best Stratechery content from the week of October 26, 2026 including Anthropic numbers, the end of the Internet as we know it, and autocracies then and now.",
+          "source": "Stratechery by Ben Thompson",
+          "date": "Oct 30",
+          "image": "https://i0.wp.com/stratechery.com/wp-content/uploads/2026/10/GettyImages-2302476744-blog-lead-lossless.png?resize=1700%2C1431&ssl=1",
+          "icon": null,
+          "domain": "stratechery.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "Shapers and Founders: Scaling without losing soul",
+          "link": "https://www.mckinsey.com/featured-insights/future-of-asia/future-of-asia-podcasts/shapers-and-founders-scaling-without-losing-soul",
+          "excerpt": "A closer look at Asia’s successful founder-CEOs reveals how they have scaled their businesses without sacrificing their entrepreneurial spirit.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Oct 30",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null
+        },
+        {
+          "title": "Overcoming the R&D bottleneck: Building a causal decision system",
+          "link": "https://www.mckinsey.com/industries/life-sciences/our-insights/overcoming-the-r-and-d-bottleneck-building-a-causal-decision-system",
+          "excerpt": "Tackling stalled development productivity requires sharp decision making. Leading biopharma are replacing fragmented analysis with connected, causal decision systems to optimize speed, cost, and success rates.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Oct 30",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null
+        },
+        {
+          "title": "Author Talks: Why you can’t separate strategy from value—and vice versa",
+          "link": "https://www.mckinsey.com/featured-insights/mckinsey-on-books/author-talks-why-you-cant-separate-strategy-from-value-and-vice-versa",
+          "excerpt": "Three McKinsey experts in strategy and corporate finance explore the four foundational principles that underpin all successful value-creating strategies.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Oct 30",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "Agent Identity & Authorization",
+      "cards": [
+        {
+          "title": "How to add enterprise SSO and SCIM to a Better Auth app",
+          "link": "https://workos.com/blog/add-enterprise-sso-scim-better-auth-app",
+          "excerpt": "Keep Better Auth for sign-in and sessions, and let WorkOS handle SAML, OIDC and directory sync for the customers who need them.",
+          "source": "WorkOS Blog",
+          "date": "Oct 30",
+          "image": "https://images.workoscdn.com/images/b7905dee-8e95-4d3e-80cf-95c846ae1a5d.png?auto=format&fit=clip&q=80",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null
+        },
+        {
+          "title": "How GitGuardian Secures the Credential Layer: From Discovery to Remediation",
+          "link": "https://blog.gitguardian.com/credential-layer-security-in-practice/",
+          "excerpt": "Credential layer security is more than detection. Follow one credential through the GitGuardian platform, from discovery across repos, CI/CD, laptops, and vaults to owner and access context, safe remediation, and prevention.",
+          "source": "GitGuardian Blog - Take Control of Your Secrets Security",
+          "date": "Oct 30",
+          "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/10/credential-layer-in-practice.png",
+          "icon": null,
+          "domain": "blog.gitguardian.com",
+          "hn": null
+        },
+        {
+          "title": "[Aaron Parecki] New version available: draft-ietf-oauth-identity-assertion-authz-grant-06.txt [rev. 06]",
+          "link": "https://datatracker.ietf.org/doc/draft-ietf-oauth-identity-assertion-authz-grant/history/#history-1239429",
+          "excerpt": "New version available: <b>draft-ietf-oauth-identity-assertion-authz-grant-06.txt</b>",
+          "source": "IETF Datatracker",
+          "date": "Oct 31",
+          "image": null,
+          "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
+          "domain": "datatracker.ietf.org",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "[(System)] New version approved [rev. 06]",
+          "link": "https://datatracker.ietf.org/doc/draft-ietf-oauth-identity-assertion-authz-grant/history/#history-1239428",
+          "excerpt": "New version approved",
+          "source": "IETF Datatracker",
+          "date": "Oct 31",
+          "image": null,
+          "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
+          "domain": "datatracker.ietf.org",
+          "hn": null
+        },
+        {
+          "title": "[(System)] Request for posting confirmation emailed to previous authors: Aaron Parecki , Brian Campbell , Karl … [rev. 06]",
+          "link": "https://datatracker.ietf.org/doc/draft-ietf-oauth-identity-assertion-authz-grant/history/#history-1239427",
+          "excerpt": "Request for posting confirmation emailed to previous authors: Aaron Parecki &lt;aaron@parecki.com&gt;, Brian Campbell &lt;bcampbell@pingidentity.com&gt;, Karl McGuinness &lt;public@karlmcguinness.com&gt;",
+          "source": "IETF Datatracker",
+          "date": "Oct 31",
+          "image": null,
+          "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
+          "domain": "datatracker.ietf.org",
+          "hn": null
+        },
+        {
+          "title": "[Aaron Parecki] Uploaded new revision [rev. 06]",
+          "link": "https://datatracker.ietf.org/doc/draft-ietf-oauth-identity-assertion-authz-grant/history/#history-1239426",
+          "excerpt": "Uploaded new revision",
+          "source": "IETF Datatracker",
+          "date": "Oct 31",
+          "image": null,
+          "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
+          "domain": "datatracker.ietf.org",
+          "hn": null
+        },
+        {
+          "title": "[Aaron Parecki] New version available: draft-ietf-oauth-identity-assertion-authz-grant-05.txt [rev. 05]",
+          "link": "https://datatracker.ietf.org/doc/draft-ietf-oauth-identity-assertion-authz-grant/history/#history-1239343",
+          "excerpt": "New version available: <b>draft-ietf-oauth-identity-assertion-authz-grant-05.txt</b>",
+          "source": "IETF Datatracker",
+          "date": "Oct 30",
+          "image": null,
+          "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
+          "domain": "datatracker.ietf.org",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "Supply Chain & Builds",
+      "cards": [
+        {
+          "title": "New LF Research Survey Shows Generative AI Cuts Open Source Coding Time in Half, but 25% of Incoming Pull Requests are Considered AI Slop",
+          "link": "https://openssf.org/press-release/2026/10/30/new-lf-research-survey-shows-generative-ai-cuts-open-source-coding-time-in-half-but-25-of-incoming-pull-requests-are-considered-ai-slop/",
+          "excerpt": "While Generative AI boosts developer productivity and lowers barriers to entry, a new Linux Foundation Research report reveals it also increases maintainer workloads. With 25% of incoming pull requests now considered \"AI slop,\" the findings highlight an urgent need for stronger open source project…",
+          "source": "Open Source Security Foundation",
+          "date": "Oct 30",
+          "image": null,
+          "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
+          "domain": "openssf.org",
+          "hn": null
+        },
+        {
+          "title": "OpenSSF Newsletter – October 2026",
+          "link": "https://openssf.org/newsletter/2026/10/30/openssf-newsletter-october-2026/",
+          "excerpt": "October brought four new members and fresh CRA resources from Prague, a practical guide to finding and fixing vulnerabilities with AI, and a new Sandbox project. Next stop: Salt Lake City for Open Source SecurityCon on November 9.",
+          "source": "Open Source Security Foundation",
+          "date": "Oct 30",
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f310.png",
+          "icon": null,
+          "domain": "openssf.org",
+          "hn": null
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+          "link": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+          "excerpt": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors. [...]",
+          "source": "BleepingComputer",
+          "date": "Oct 30",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/10/30/claude-code-attack.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null
+        },
+        {
+          "title": "Anthropic: That Claude Code extension compromise… couldn't be us",
+          "link": "https://www.theregister.com/cyber-crime/2026/10/30/anthropic-that-claude-code-extension-compromise-couldnt-be-us/5306682",
+          "excerpt": "Claudeshop fingers 'malicious actor' in targeted supply-chain attack on Cursor",
+          "source": "The Register",
+          "date": "Oct 30",
+          "image": "https://image.theregister.com/?imageId=5254625&width=800",
+          "icon": null,
+          "domain": "theregister.com",
+          "hn": null
+        },
+        {
+          "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+          "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+          "excerpt": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously. The activity has been attributed by CrowdStrike to a China-based \"targeted intrusion…",
+          "source": "The Hacker News",
+          "date": "Oct 30",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP1M46Z4Xs0qNHz9xzhTea14XsqTHvNhAfnGb4Ni9goHQR2ypz3BLKRgu-WxWD8VSUNMB3YAP7UhcCAK1AweCc3lC-7VlJ-OqNniD4FvZdE_R-XJkkRadhl2tp3-PqbKPWmQTeJ3a3gvd1kHH_zaW06tCf9cH-7k5feNqHrqbChMAsc5K3hruiX9BDROAe/s1600/CS.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+          "link": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+          "excerpt": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the viewer, and the machine it controls is the host. A malicious or compromised host can…",
+          "source": "The Hacker News",
+          "date": "Oct 30",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEge-ZayNgwlu4fhpD2BSyGgkMYehkV0atRJINisISPLpiubkgyXopa4NWVnxOZs9gi-DEYTNEQ5G2pu-X5iSHyMp8pguzp-Q6g-1-mGwcy3so4AkeuYFuYoaotOcmF5A-2oVDvnxd0B_FaZ7JJt8W3zrNFot6kBlJp7WffHkb7m92C9bNQnwFLwnNgXpDk/s1600/teamviewer-flaw.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+          "link": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+          "excerpt": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released. The vulnerability, which does not have a CVE identifier, relates to a case of remote code execution impacting WordPress Core versions 4.7 through 7.1.3. It…",
+          "source": "The Hacker News",
+          "date": "Oct 30",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhf-pzflJO9HQoCdvBvYNtS12gwwEjAbM4dQ30ak7UYaIPzsVPN9MlFwvIDEFkbe9cWg4wQRFPbGfJ0YXjzGcBS6mUTwttwkQ8IR7OoHyTz3owZkVzYQOAObyJUqfjsC-PqMw2pv41_m68hb6ZkwJb56kGx-Ypv7GWZBtDzjyTTQ8L8i9NxA8_MDVoJSEba/s1600/wp-hack.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress",
+          "link": "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/",
+          "excerpt": "Over 22.6 million exposed instances are potentially affected by the critical PHP flaws that have been targeted for over a week. The post PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Oct 30",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/10/php-exploit-code.webp",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null
+        },
+        {
+          "title": "In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak",
+          "link": "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/",
+          "excerpt": "Noteworthy stories that might have slipped under the radar: Iran eyed in military freezer hacks, Copenhagen University breach, AI-powered malware. The post In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Oct 30",
+          "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null
+        },
+        {
+          "title": "Passkeys Are Better Than Passwords. But They Are Not Enough.",
+          "link": "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/",
+          "excerpt": "As organizations eliminate passwords, attackers will adapt. Instead of attacking the authenticator directly, they will look for opportunities around it. The post Passkeys Are Better Than Passwords. But They Are Not Enough. appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Oct 30",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/10/Passkey-Password-Authentication.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "What’s new with Google Cloud",
+          "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
+          "excerpt": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip: Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud…",
+          "source": "Cloud Blog",
+          "date": "Oct 30",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/whats_new_2026_CfhxFWX.max-600x600.jpg",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null
+        },
+        {
+          "title": "What’s new in AI infrastructure and orchestration in October",
+          "link": "https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month/",
+          "excerpt": "The Google Cloud AI Infrastructure team had another busy month in October, filled with new product launches and updates to power today’s AI and agentic workloads scalably and efficiently. We were also honored to share our progress with customers, partners, and the broader community at leading…",
+          "source": "Cloud Blog",
+          "date": "Oct 30",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Whats_new_in_AI_infrastructure.max-600x600.jpg",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null
+        },
+        {
+          "title": "Innovate on your own business terms: Google Cloud spend caps now generally available",
+          "link": "https://cloud.google.com/blog/topics/cost-management/google-cloud-spend-caps-now-generally-available/",
+          "excerpt": "Today, we’re announcing that spend caps on Google Cloud Budgets are generally available. With this release, we’re delivering ways to protect your workloads from runaway costs without risking resource deletion. More importantly, we’re introducing three major updates, directly inspired by your…",
+          "source": "Cloud Blog",
+          "date": "Oct 30",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Live_Costs_-_Hi_Res_Mock.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "Querying Databricks Apache Iceberg Tables with the borderless Lakehouse",
+          "link": "https://cloud.google.com/blog/products/data-analytics/querying-databricks-iceberg-tables-with-google-clouds-lakehouse/",
+          "excerpt": "Enterprise organizations often leverage multiple data platforms, including Databricks, to execute heavy Apache Spark jobs alongside BigQuery to power highly concurrent analytics workloads. Historically, bridging these systems often meant building complex pipelines to copy data between…",
+          "source": "Cloud Blog",
+          "date": "Oct 29",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_9nWgq7s.max-1000x1000.jpg",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null
+        },
+        {
+          "title": "Grafana 13.3 release: manage variables across dashboards, share findings with Notebooks, a UI refresh, and more",
+          "link": "https://grafana.com/blog/grafana-13-3-release-all-the-latest-features/",
+          "excerpt": "Grafana 13.3 is here, bringing more consistency and control to how you work across Grafana. Cross-dashboard variables help you manage shared dashboard controls from one place, while Notebooks let you capture and share findings from across Grafana in a single, editable document. You'll also get a…",
+          "source": "Grafana Labs blog on Grafana Labs",
+          "date": "Oct 29",
+          "image": "https://a-us.storyblok.com/f/1022730/1200x628/3abe40dd0c/grafana-13-3-meta-image.png/m/1200x630/filters:quality(80)/",
+          "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
+          "domain": "grafana.com",
+          "hn": null
+        },
+        {
+          "title": "How we use Insights to improve the agent behind Insights",
+          "link": "https://www.datadoghq.com/blog/improving-insights-agent-observability/",
+          "excerpt": "Learn how Datadog uses Insights in Agent Observability to identify cost and reliability problems in its own AI agent and prepare fixes.",
+          "source": "Datadog | The Monitor blog",
+          "date": "Oct 30",
+          "image": "https://web-assets.dd-static.net/42588/1793382330-improving-agents-insights-agent-observability-hero.png",
+          "icon": "https://www.datadoghq.com/favicon.ico",
+          "domain": "datadoghq.com",
+          "hn": null
+        },
+        {
+          "title": "When the Kubernetes API went silent: A three-layer networking mystery",
+          "link": "https://cloud.google.com/blog/products/networking/the-three-layer-gke-network-mystery/",
+          "excerpt": "Every support engineer has a case that stays with them. The one that comes up at team lunches. The one where, even after it's resolved, you find yourself staring at a packet capture at midnight just to make sure you really understand what happened. This is that case. It started in January 2026…",
+          "source": "Cloud Blog",
+          "date": "Oct 30",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/updated_architecture_official_icon.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null
+        },
+        {
+          "title": "DevFest is back!",
+          "link": "https://developers.googleblog.com/devfest-is-back/",
+          "excerpt": "DevFest 2026 runs from October 1 to December 31, bringing together nearly a million developers across more than 800 global events centered on the agentic AI era. Under the theme \"Build, Secure, Scale,\" participants gain hands-on experience with Google’s developer stack—including Gemini, Google AI…",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Developers_Blog_Header_1.2e16d0ba.fill-1200x600.jpg",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "Basically no one is using AI agents for their DoorDash orders",
+          "link": "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/",
+          "excerpt": "But it's still early days for the relatively new e-commerce use case.",
+          "source": "Ars Technica - All content",
+          "date": "Oct 30",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2301817894-500x500.jpg",
+          "icon": null,
+          "domain": "arstechnica.com",
+          "hn": null
+        },
+        {
+          "title": "Last-minute Halloween costumes for tech nerds",
+          "link": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
+          "excerpt": "No Halloween costume? Just be a deceptively cute AI agent icon, a PHP vulnerability, or sleepy time Bryan Johnson.",
+          "source": "TechCrunch",
+          "date": "Oct 30",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2170662558.jpg?resize=1200,800",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
+          "hn": null
+        },
+        {
+          "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
+          "excerpt": "Asked about supply chain shortages, like the ongoing RAM shortage, OpenAI CEO Sam Altman said in an interview that it's \"terrible\" to have RAM in personal PCs instead of data centers. During his appearance on the Cheeky Pint podcast, where he also commented on AI's impact on math, Altman said: \"A…",
+          "source": "The Verge",
+          "date": "Oct 30",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/gettyimages-1778705436.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "icon": null,
+          "domain": "theverge.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game",
+          "link": "https://tng.episodle.com/",
+          "excerpt": "57 points · 17 comments",
+          "source": "tng.episodle.com via Hacker News",
+          "date": "Oct 30",
+          "image": null,
+          "icon": "https://tng.episodle.com/favicon.ico",
+          "domain": "tng.episodle.com",
+          "hn": "57 points · 17 comments"
+        },
+        {
+          "title": "Linode Security Incident",
+          "link": "https://status.linode.com/incidents/nt58zhx3pmgm",
+          "excerpt": "Linode's Status Page - Customer Security Advisory: CVE-2026-98432.",
+          "source": "status.linode.com via Hacker News",
+          "date": "Oct 30",
+          "image": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/4176/linode-logo-7c2f2333-3e3c-47fa-a657-2a658d5cba70.png",
+          "icon": "https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/4176/favicon-96x96-d432930b-32ee-4f20-b9e6-28b2920c9e10.png",
+          "domain": "status.linode.com",
+          "hn": "149 points · 78 comments"
+        },
+        {
+          "title": "sanstun: A sans-IO, parallel-friendly WireGuard implementation in Rust",
+          "link": "https://www.firezone.dev/blog/introducing-sanstun",
+          "excerpt": "Our sans-IO WireGuard implementation in Rust, optimized for ease of use, security and performance through a parallel-friendly and idiomatic API.",
+          "source": "firezone.dev via Hacker News",
+          "date": "Oct 30",
+          "image": "https://www.firezone.dev/blog/opengraph-image?dc0a4d310bb2b9d5",
+          "icon": "https://www.firezone.dev/apple-icon.png?apple-icon.1et4512dm-met.png",
+          "domain": "firezone.dev",
+          "hn": "61 points · 14 comments"
+        },
+        {
+          "title": "AO3 Down for Maintenance",
+          "link": "https://www.otwstatus.org",
+          "excerpt": "Welcome to Organization for Transformative Works's home for real-time and historical data on system performance.",
+          "source": "otwstatus.org via Hacker News",
+          "date": "Oct 30",
+          "image": null,
+          "icon": "https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/809621/Logocollage2circleround-Olivia-Riley-b3ecf4da-abe9-4bee-b455-587aa128fc2a.png",
+          "domain": "otwstatus.org",
+          "hn": "92 points · 22 comments"
+        },
+        {
+          "title": "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man",
+          "link": "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/",
+          "excerpt": "Patrick Stewart's most famous character showed a generation of youth a complex character who strived to do what was right.",
+          "source": "bostonglobe.com via Hacker News",
+          "date": "Oct 30",
+          "image": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/v2/CGTKMVCJ3II6DM4QQY75UQKYRQ.jpg?auth=1665db2d602a73cebcb708de2cff81cdafb1dff34e84e5e1b3f511472b91079a&width=1440",
+          "icon": "https://www.bostonglobe.com/pf/resources/images/icons/apple-touch-icon.png?v=bostonGlobe&d=713",
+          "domain": "bostonglobe.com",
+          "hn": "214 points · 126 comments"
+        }
+      ]
+    }
+  ]
+}

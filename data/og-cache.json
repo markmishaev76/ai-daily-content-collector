@@ -1,4 +1,10 @@
 {
+ "https://aaronparecki.com/2026/10/30/19/oauth-id-jag-draft-06": {
+  "description": "We've just published draft -06 of the Identity Assertion JWT Authorization Grant (ID-JAG):",
+  "fetched": "2026-10-31",
+  "icon": null,
+  "image": null
+ },
  "https://about.gitlab.com/blog/find-vulnerability-blast-radius-with-gitlab-orbit/": {
   "description": "Exploitation happens at machine speed now. Map every project, owner, and pipeline a critical CVE touches so remediation can keep up.",
   "fetched": "2026-10-29",
@@ -257,6 +263,36 @@
   "icon": null,
   "image": null
  },
+ "https://datatracker.ietf.org/doc/draft-ietf-oauth-identity-assertion-authz-grant/history/#history-1239343": {
+  "description": null,
+  "fetched": "2026-10-31",
+  "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
+  "image": null
+ },
+ "https://datatracker.ietf.org/doc/draft-ietf-oauth-identity-assertion-authz-grant/history/#history-1239426": {
+  "description": null,
+  "fetched": "2026-10-31",
+  "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
+  "image": null
+ },
+ "https://datatracker.ietf.org/doc/draft-ietf-oauth-identity-assertion-authz-grant/history/#history-1239427": {
+  "description": null,
+  "fetched": "2026-10-31",
+  "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
+  "image": null
+ },
+ "https://datatracker.ietf.org/doc/draft-ietf-oauth-identity-assertion-authz-grant/history/#history-1239428": {
+  "description": null,
+  "fetched": "2026-10-31",
+  "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
+  "image": null
+ },
+ "https://datatracker.ietf.org/doc/draft-ietf-oauth-identity-assertion-authz-grant/history/#history-1239429": {
+  "description": null,
+  "fetched": "2026-10-31",
+  "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
+  "image": null
+ },
  "https://datatracker.ietf.org/wg/oauth/about/": {
   "description": null,
   "fetched": "2026-10-23",
@@ -310,6 +346,12 @@
   "fetched": "2026-10-30",
   "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
   "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/cover-without-title.2e16d0ba.fill-1200x600.png"
+ },
+ "https://developers.googleblog.com/devfest-is-back/": {
+  "description": "Join DevFest 2026! Connect with local Google Developer Groups from October 1 to December 31 to build, secure, and scale with AI, Cloud, Android, and Web tech.",
+  "fetched": "2026-10-31",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Developers_Blog_Header_1.2e16d0ba.fill-1200x600.jpg"
  },
  "https://developers.googleblog.com/integrating-torchtpu-into-torchtitan-and-optimizing-models-for-tpu/": {
   "description": "Learn how TorchTitan and TorchTPU enable seamless, high-performance distributed AI model training on Google Cloud TPUs with native PyTorch support.",
@@ -587,6 +629,12 @@
   "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
   "image": "https://a-us.storyblok.com/f/1022730/1280x720/4aa960a5a7/o11y-bench-sii-meta.png/m/1200x630/filters:quality(80)/"
  },
+ "https://grafana.com/blog/grafana-13-3-release-all-the-latest-features/": {
+  "description": "Explore what's new in Grafana 13.3, including cross-dashboard variables, Notebooks for capturing and sharing your findings across Grafana, and a first look at the refreshed Grafana UI.",
+  "fetched": "2026-10-31",
+  "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
+  "image": "https://a-us.storyblok.com/f/1022730/1200x628/3abe40dd0c/grafana-13-3-meta-image.png/m/1200x630/filters:quality(80)/"
+ },
  "https://homepage.farm/ai.html": {
   "description": null,
   "fetched": "2026-10-25",
@@ -646,6 +694,12 @@
   "fetched": "2026-10-29",
   "icon": null,
   "image": "https://huggingface.co/blog/assets/ml4/thumbnail.png"
+ },
+ "https://huggingface.co/blog/nvidia/nemotron-halloween": {
+  "description": "A Blog post by NVIDIA on Hugging Face",
+  "fetched": "2026-10-31",
+  "icon": null,
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/6ab2a746c7d0655b3d8dfbb9/fownH6rn05tSp1jDBTz8m.png"
  },
  "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary": {
   "description": "A Blog post by NVIDIA on Hugging Face",
@@ -779,6 +833,18 @@
   "icon": null,
   "image": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp"
  },
+ "https://newsletter.getdx.com/p/robloxs-approach-to-tripling-ai-code": {
+  "description": "Andrew Swerdlow shares how Roblox is building trust in AI agents to autonomously review, test, and deploy code and what that means for engineers.",
+  "fetched": "2026-10-31",
+  "icon": "https://substackcdn.com/image/fetch/$s_!6g5W!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6135d637-27c9-4440-ba74-f9747a16267f%2Fapple-touch-icon-57x57.png",
+  "image": "https://substackcdn.com/image/fetch/$s_!YwUQ!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b404a84-d74c-49cf-8317-c98d7fdb6482_2560x1440.png"
+ },
+ "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling": {
+  "description": "When AI handles 95% of your incident response, do you get worse at handling the 5% that actually matters?",
+  "fetched": "2026-10-31",
+  "icon": "https://substackcdn.com/icons/substack/apple-touch-icon.png",
+  "image": "https://substackcdn.com/image/fetch/$s_!Hgvq!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F530d847f-26cb-4ddd-a6de-875cbbaf8fab_6233x4167.webp"
+ },
  "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8": {
   "description": null,
   "fetched": "2026-10-24",
@@ -821,6 +887,18 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/index/community-safety-report-and-new-protections-for-teens": {
+  "description": null,
+  "fetched": "2026-10-31",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/fair-use-benefits-everyone": {
+  "description": null,
+  "fetched": "2026-10-31",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/fanatics-streamline-fan-experience": {
   "description": null,
   "fetched": "2026-10-26",
@@ -836,6 +914,12 @@
  "https://openai.com/index/greptile-code-review-codex-astra": {
   "description": null,
   "fetched": "2026-10-27",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/helping-websites-express-ai-training-preferences": {
+  "description": null,
+  "fetched": "2026-10-31",
   "icon": null,
   "image": null
  },
@@ -941,11 +1025,23 @@
   "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
   "image": null
  },
+ "https://openssf.org/press-release/2026/10/30/new-lf-research-survey-shows-generative-ai-cuts-open-source-coding-time-in-half-but-25-of-incoming-pull-requests-are-considered-ai-slop/": {
+  "description": "A new LF Research survey reveals Generative AI cuts open source coding time in half, but increases maintainer workloads with 25% of pull requests deemed \"AI slop.\"",
+  "fetched": "2026-10-31",
+  "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
+  "image": null
+ },
  "https://philipotoole.com/twelve-years-of-distributed-sqlite/": {
   "description": "In September 2014 I published a short post announcing rqlite. The idea was simple: take SQLite, put a Raft log in front of it, and replicate every write to a cluster so that the loss of a node did not mean the loss of the data. The source went on GitHub that same weekend. As…",
   "fetched": "2026-10-24",
   "icon": "https://philipotoole.com/wp-content/uploads/2015/12/SlyEye-300x300.jpg",
   "image": null
+ },
+ "https://phorion.io/blog/offical-claude-code-vsx-compromise/": {
+  "description": "Phorion has detected a backdoor in the official Claude Code for VS Code extension bundle on the Cursor Marketplace that drops a persistent SSH backdoor across macOS, Linux, and Windows. This write-up …",
+  "fetched": "2026-10-31",
+  "icon": "https://phorion.io/images/apple-touch-icon.png",
+  "image": "https://phorion.io/images/default-social-card.png"
  },
  "https://progressives.house.gov/2026/10/reps-casar-waters-lead-democratic-resolution-opposing-a-i-bubble-bailout-for-big-tech-commit-to-protecting-american-people-instead": {
   "description": null,
@@ -1049,9 +1145,21 @@
   "icon": null,
   "image": null
  },
+ "https://simonwillison.net/2026/Oct/29/api-credits/": {
+  "description": "Earlier this month Anthropic announced a generous new benefit for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivalent quantity of (expiring) credits …",
+  "fetched": "2026-10-31",
+  "icon": null,
+  "image": null
+ },
  "https://simonwillison.net/2026/Oct/29/ben-hylak/": {
   "description": "every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath. except for our product, of course. …",
   "fetched": "2026-10-29",
+  "icon": null,
+  "image": null
+ },
+ "https://simonwillison.net/2026/Oct/30/nesformer/": {
+  "description": "Inspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs …",
+  "fetched": "2026-10-31",
   "icon": null,
   "image": null
  },
@@ -1120,6 +1228,24 @@
   "fetched": "2026-10-28",
   "icon": "https://stanforddaily.com/wp-content/uploads/2019/03/cropped-DailyIcon-CardinalRed.png?w=180",
   "image": "https://stanforddaily.com/wp-content/uploads/2026/10/Green-Library.png"
+ },
+ "https://status.bunny.net/incidents/p6gf1by9kr7m": {
+  "description": "bunny.net's Status Page - Security update regarding one of our infrastructure providers.",
+  "fetched": "2026-10-31",
+  "icon": "https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/20630/favicon.png",
+  "image": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+ },
+ "https://status.linode.com/incidents/nt58zhx3pmgm": {
+  "description": "Linode's Status Page - Customer Security Advisory: CVE-2026-98432.",
+  "fetched": "2026-10-31",
+  "icon": "https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/4176/favicon-96x96-d432930b-32ee-4f20-b9e6-28b2920c9e10.png",
+  "image": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/4176/linode-logo-7c2f2333-3e3c-47fa-a657-2a658d5cba70.png"
+ },
+ "https://status.northflank.com": {
+  "description": "Northflank Status",
+  "fetched": "2026-10-31",
+  "icon": "https://instatus.com/user-content/v1635412200/ydjpg9wb8ximfbrlegtn.ico",
+  "image": "https://northflank.instatus.com/api/og"
  },
  "https://stratechery.com/2026/an-interview-with-craig-moffett-about-spacex-and-bubbles/": {
   "description": "An interview with Craig Moffett about SpaceX, from launch to broadband to mobile, plus how he is applying the lessons of the dot-com bubble to today.",
@@ -1217,6 +1343,12 @@
   "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
   "image": "https://techcrunch.com/wp-content/uploads/2022/08/GettyImages-1232015093.jpg?resize=1200,800"
  },
+ "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/": {
+  "description": "No Halloween costume? Just be a deceptively cute AI agent icon, a PHP vulnerability, or sleepy time Bryan Johnson.",
+  "fetched": "2026-10-31",
+  "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2170662558.jpg?resize=1200,800"
+ },
  "https://techcrunch.com/2026/10/30/north-korean-hackers-blamed-for-stealing-record-6-3b-in-binance-breach/": {
   "description": "Hackers working for North Korea are suspected of hacking a Binance employee's laptop, which allowed the theft of billions in crypto.",
   "fetched": "2026-10-30",
@@ -1240,6 +1372,12 @@
   "fetched": "2026-10-26",
   "icon": "https://titleart.dvy.io/apple-touch-icon.png",
   "image": "https://titleart.dvy.io/social-preview.png"
+ },
+ "https://tng.episodle.com/": {
+  "description": null,
+  "fetched": "2026-10-31",
+  "icon": null,
+  "image": null
  },
  "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/": {
   "description": "A fresh academic paper on Z-Library cites a TorrentFreak article that doesn’t exist, and several other sources in the paper are also unfindable. The authors disclose that they used AI tools, which may explain what is going on. The use of AI in an academic paper on shadow libraries is also somewhat ironic, as rightsholders are suing AI companies for using these sites to train AI models.",
@@ -1294,6 +1432,12 @@
   "fetched": "2026-10-24",
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": null
+ },
+ "https://workos.com/blog/add-enterprise-sso-scim-better-auth-app": {
+  "description": "Keep Better Auth for sign-in and sessions, and let WorkOS handle SAML, OIDC and directory sync for the customers who need them.",
+  "fetched": "2026-10-31",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://images.workoscdn.com/images/b7905dee-8e95-4d3e-80cf-95c846ae1a5d.png?auto=format&fit=clip&q=80"
  },
  "https://workos.com/blog/agent-to-agent-delegated-tokens": {
   "description": "Shared credentials turn one manipulated agent into a compromised chain. Narrow, audience-bound tokens at every hop shrink the blast radius.",
@@ -1403,6 +1547,12 @@
   "icon": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w256h256/format/png/2023/08/favicon-3.svg",
   "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/andy3.png"
  },
+ "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/": {
+  "description": "The move came after 404 Media published an investigation into how Proton CEO Andy Yen was aggressively pushing AI across Proton despite security concerns and the culture of fear he has created.",
+  "fetched": "2026-10-31",
+  "icon": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w256h256/format/png/2023/08/favicon-3.svg",
+  "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/andy4.png"
+ },
  "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497": {
   "description": "The Brotli flaw behind Node2Shell (CVE-2026-111497) affects many libraries and applications using HTTP with Brotli or brotlicffi installed. Check your versions and upgrade to the fix.",
   "fetched": "2026-10-24",
@@ -1480,6 +1630,12 @@
   "fetched": "2026-10-25",
   "icon": "https://substackcdn.com/image/fetch/$s_!ZWY6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F61c73240-2b39-47a6-9ba2-747c6fa2dfc3%2Fapple-touch-icon-57x57.png",
   "image": "https://substackcdn.com/image/fetch/$s_!oz9x!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F999e3450-1df3-457d-8715-5e2e46d5121c_2886x1843.png"
+ },
+ "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo": {
+  "description": "Shares in Intel continue to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.",
+  "fetched": "2026-10-31",
+  "icon": "https://static.files.bbci.co.uk/core/website/assets/static/icons/touch/news/touch-icon-36.413a37b227.png",
+  "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/10b0/live/dcdf2a60-d46e-11f1-9dda-1ba6fcc7d159.jpg"
  },
  "https://www.bbc.com/news/articles/cm8xz7pkd0jjo": {
   "description": "More than 500 passengers were on board the trains when the crash occurred in the province of Toledo, south of Madrid.",
@@ -1559,6 +1715,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/posts/2026/10/27/green-pumpkin.jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/": {
+  "description": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors.",
+  "fetched": "2026-10-31",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/10/30/claude-code-attack.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/": {
   "description": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure.",
   "fetched": "2026-10-28",
@@ -1576,6 +1738,12 @@
   "fetched": "2026-10-23",
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/posts/2026/10/21/ai-email.jpg"
+ },
+ "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/": {
+  "description": "Patrick Stewart's most famous character showed a generation of youth a complex character who strived to do what was right.",
+  "fetched": "2026-10-31",
+  "icon": "https://www.bostonglobe.com/pf/resources/images/icons/apple-touch-icon.png?v=bostonGlobe&d=713",
+  "image": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/v2/CGTKMVCJ3II6DM4QQY75UQKYRQ.jpg?auth=1665db2d602a73cebcb708de2cff81cdafb1dff34e84e5e1b3f511472b91079a&width=1440"
  },
  "https://www.brangus.io/survival-llm": {
   "description": "A free AI assistant and survival library (1.5 million offline articles) that runs on your own computer, with no internet. Shows the source of every answer. Mac and Windows.",
@@ -1643,11 +1811,23 @@
   "icon": null,
   "image": "https://web-assets.dd-static.net/42588/1793283002-dandelion-hero-image.jpg"
  },
+ "https://www.datadoghq.com/blog/improving-insights-agent-observability/": {
+  "description": "Learn how Datadog uses Insights in Agent Observability to identify cost and reliability problems in its own AI agent and prepare fixes.",
+  "fetched": "2026-10-31",
+  "icon": null,
+  "image": "https://web-assets.dd-static.net/42588/1793382330-improving-agents-insights-agent-observability-hero.png"
+ },
  "https://www.datadoghq.com/blog/serverless-ai-agents/": {
   "description": "Learn how to run AI agents as serverless workflows, build an execution profile, and compare costs against warm or dedicated compute.",
   "fetched": "2026-10-30",
   "icon": null,
   "image": "https://web-assets.dd-static.net/42588/1793301334-run-ai-agents-on-serverless.jpg"
+ },
+ "https://www.daytona.io/dotfiles/daytona-runs-the-code-notte-runs-the-browser": {
+  "description": "Agents in Daytona sandboxes can run Chromium beside their code or use a Notte browser for bot checks, captchas and logins. A Daytona guide shows how.",
+  "fetched": "2026-10-31",
+  "icon": "https://www.daytona.io/apple-touch-icon.png",
+  "image": "https://www.datocms-assets.com/103916/1793298707-daytona-og-lockup-2026-10-29-18-31-40.png?auto=compress%2Cformat&fit=crop&h=1260&w=2520"
  },
  "https://www.daytona.io/dotfiles/daytona2-agent-infrastructure-requires-more-than-kubernetes": {
   "description": "Why Scalable Agent Infrastructure Requires More Than KubernetesâDaytona's purpose-built runtime for running AI agents at scale.",
@@ -1672,6 +1852,18 @@
   "fetched": "2026-10-23",
   "icon": "https://www.docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-180x180.png",
   "image": "https://www.docker.com/app/uploads/2025/03/image.png"
+ },
+ "https://www.firezone.dev/blog/introducing-sanstun": {
+  "description": "Our sans-IO WireGuard implementation in Rust, optimized for ease of use, security and performance through a parallel-friendly and idiomatic API.",
+  "fetched": "2026-10-31",
+  "icon": "https://www.firezone.dev/apple-icon.png?apple-icon.1et4512dm-met.png",
+  "image": "https://www.firezone.dev/blog/opengraph-image?dc0a4d310bb2b9d5"
+ },
+ "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f": {
+  "description": null,
+  "fetched": "2026-10-31",
+  "icon": null,
+  "image": null
  },
  "https://www.gregoryalexander.com/blog/2026/10/23/is-php-quietly-running-on-your-coldfusion-server-how-to-check-and-remove-it": {
   "description": null,
@@ -1757,15 +1949,33 @@
   "icon": null,
   "image": null
  },
+ "https://www.mckinsey.com/featured-insights/future-of-asia/future-of-asia-podcasts/shapers-and-founders-scaling-without-losing-soul": {
+  "description": null,
+  "fetched": "2026-10-31",
+  "icon": null,
+  "image": null
+ },
  "https://www.mckinsey.com/featured-insights/mckinsey-on-books/author-talks-ai-is-advancing-is-our-judgment-keeping-up": {
   "description": null,
   "fetched": "2026-10-23",
   "icon": null,
   "image": null
  },
+ "https://www.mckinsey.com/featured-insights/mckinsey-on-books/author-talks-why-you-cant-separate-strategy-from-value-and-vice-versa": {
+  "description": null,
+  "fetched": "2026-10-31",
+  "icon": null,
+  "image": null
+ },
  "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/focus-scale-fund-the-ai-playbook-cpg-leaders-are-missing": {
   "description": null,
   "fetched": "2026-10-23",
+  "icon": null,
+  "image": null
+ },
+ "https://www.mckinsey.com/industries/financial-services/our-insights/closing-bankings-ai-value-gap-a-ceo-guide": {
+  "description": null,
+  "fetched": "2026-10-31",
   "icon": null,
   "image": null
  },
@@ -1793,6 +2003,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.mckinsey.com/industries/life-sciences/our-insights/overcoming-the-r-and-d-bottleneck-building-a-causal-decision-system": {
+  "description": null,
+  "fetched": "2026-10-31",
+  "icon": null,
+  "image": null
+ },
  "https://www.mckinsey.com/industries/life-sciences/our-insights/pfizers-alex-condoleon-on-medical-affairs-accountability": {
   "description": null,
   "fetched": "2026-10-27",
@@ -1810,6 +2026,12 @@
   "fetched": "2026-10-28",
   "icon": null,
   "image": "https://www.netmeister.org/blog/images/captain-haddock.jpg"
+ },
+ "https://www.otwstatus.org": {
+  "description": "Welcome to Organization for Transformative Works's home for real-time and historical data on system performance.",
+  "fetched": "2026-10-31",
+  "icon": "https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/809621/Logocollage2circleround-Olivia-Riley-b3ecf4da-abe9-4bee-b455-587aa128fc2a.png",
+  "image": null
  },
  "https://www.oxfam.org/en/press-releases/ultra-rich-01-produce-more-carbon-pollution-nearly-half-humanity-while-cashing": {
   "description": null,
@@ -1859,9 +2081,21 @@
   "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
   "image": null
  },
+ "https://www.schneier.com/blog/archives/2026/10/bloatware-in-aftermarket-auto-parts.html": {
+  "description": "This story is interesting: One Civic owner purchased a cheap aftermarket head unit off Amazon, and decided to have Claude work its magic on it, like it would a smart TV. What was reportedly discovered isn’t surprising, but is worth knowing about. Among the pre-installed bloatware—­or spyware, if you’re being less charitable­—was a voice assistant equipped with WebView, an Android system component that lets apps display content off the web. This apparently always used about a third of processing power, even while idle, which isn’t great. There were also Baidu location services, a call recorder (!), a DAB radio client that is pretty much useless in the U.S., and Adobe Acrobat, presumably so your passenger can entertain themselves with PDFs on the go...",
+  "fetched": "2026-10-31",
+  "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+  "image": null
+ },
  "https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html": {
   "description": "The Indian CA eMudhra Limited has eight TLS certificates with laughably weak private keys: The compromised eMudhra keys were defective at a level that’s challenging the imagination of many of the engineers studying the incident. A normal size for a NIST P-384 elliptic curve cryptography private key contains roughly 384 bits of entropy, a size allowing almost 2384, or a number with 116 digits, different possibilities. The private key sizes of the compromised keys ranged from 3 to 8 bits. Astonishingly, the private keys were 4, 56, 66, 115, 155, 156, 230, 237...",
   "fetched": "2026-10-25",
+  "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+  "image": null
+ },
+ "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-bigfin-squid-off-california-coast.html": {
+  "description": "Neat video: The sighting, announced September 2, marks the first time anyone has spotted a live bigfin squid, which belongs to the Magnapinna genus, in the northeastern Pacific Ocean. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.",
+  "fetched": "2026-10-31",
   "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
   "image": null
  },
@@ -1973,6 +2207,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/10/HPE-Aruba.jpeg"
  },
+ "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/": {
+  "description": "Anthropic disputes the scope of an ex-DOGE startup’s intrusion, a UEFI flaw affects most servers, and Cloudflare fixes an AI data leak.",
+  "fetched": "2026-10-31",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg"
+ },
  "https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware/": {
   "description": "Tor exit relays hijacked, banks spot rogue AI agents in customer accounts, and researcher analyzes Heartbreaker macOS ransomware.",
   "fetched": "2026-10-23",
@@ -2008,6 +2248,18 @@
   "fetched": "2026-10-26",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2025/01/application-security-vulnerabilities.jpeg"
+ },
+ "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/": {
+  "description": "Passkeys replace shared secrets with cryptographic credentials. There is no password for an attacker to steal, intercept through phishing, or reuse against another service.",
+  "fetched": "2026-10-31",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/10/Passkey-Password-Authentication.jpg"
+ },
+ "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/": {
+  "description": "Palo Alto Networks firewalls have been rooted via PHP2Shell exploits, but no WordPress site has been compromised.",
+  "fetched": "2026-10-31",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/10/php-exploit-code.webp"
  },
  "https://www.securityweek.com/secrets-management-firm-infisical-valued-at-600-million-after-40-million-raise/": {
   "description": "Infisical has raised $40 million in a Series B round led by investor Elad Gil that values the secrets management company at $600 million.",
