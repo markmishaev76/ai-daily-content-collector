@@ -13,7 +13,7 @@
     "note": null,
     "labels": [
       "News & Research",
-      "3h ago"
+      "5h ago"
     ],
     "also": []
   },
@@ -25,7 +25,7 @@
       "link_domain": "cyberplace.social",
       "source": "Lobsters",
       "domain": "cyberplace.social",
-      "meta": "Lobsters · 149 points · 38 comments · 19h ago",
+      "meta": "Lobsters · 152 points · 38 comments · 21h ago",
       "also": [
         {
           "source": "Hacker News",
@@ -36,25 +36,13 @@
       "icon": "https://cyberplace.social/packs/assets/apple-touch-icon-57x57-BsPGHSez.png"
     },
     {
-      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
-      "thread": "https://news.ycombinator.com/item?id=50300683",
-      "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-      "link_domain": "phorion.io",
-      "source": "Hacker News",
-      "domain": "phorion.io",
-      "meta": "Hacker News · 858 points · 512 comments · 22h ago",
-      "also": [],
-      "image": "https://phorion.io/images/default-social-card.png",
-      "icon": "https://phorion.io/images/apple-touch-icon.png"
-    },
-    {
       "title": "AI isn't replacing SREs, it's deskilling them",
       "thread": "https://news.ycombinator.com/item?id=50305693",
       "link": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
       "link_domain": "newsletter.signoz.io",
       "source": "Hacker News",
       "domain": "newsletter.signoz.io",
-      "meta": "Hacker News · 551 points · 410 comments · 14h ago",
+      "meta": "Hacker News · 584 points · 430 comments · 16h ago",
       "also": [],
       "image": "https://substackcdn.com/image/fetch/$s_!Hgvq!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F530d847f-26cb-4ddd-a6de-875cbbaf8fab_6233x4167.webp",
       "icon": "https://substackcdn.com/icons/substack/apple-touch-icon.png"
@@ -66,7 +54,7 @@
       "link_domain": "status.northflank.com",
       "source": "Hacker News",
       "domain": "status.northflank.com",
-      "meta": "Hacker News · 405 points · 299 comments · 14h ago",
+      "meta": "Hacker News · 425 points · 312 comments · 17h ago",
       "also": [],
       "image": "https://northflank.instatus.com/api/og",
       "icon": "https://instatus.com/user-content/v1635412200/ydjpg9wb8ximfbrlegtn.ico"
@@ -78,7 +66,7 @@
       "link_domain": "doublepulsar.com",
       "source": "Hacker News",
       "domain": "doublepulsar.com",
-      "meta": "Hacker News · 399 points · 1 comments · 19h ago",
+      "meta": "Hacker News · 399 points · 1 comments · 22h ago",
       "also": [],
       "image": null,
       "icon": "https://doublepulsar.com/favicon.ico"
@@ -90,7 +78,7 @@
       "link_domain": "ft.com",
       "source": "Hacker News",
       "domain": "ft.com",
-      "meta": "Hacker News · 301 points · 248 comments · 12h ago",
+      "meta": "Hacker News · 306 points · 252 comments · 15h ago",
       "also": [],
       "image": null,
       "icon": "https://www.ft.com/favicon.ico"
@@ -102,7 +90,7 @@
       "link_domain": "404media.co",
       "source": "Hacker News",
       "domain": "404media.co",
-      "meta": "Hacker News · 268 points · 221 comments · 12h ago",
+      "meta": "Hacker News · 272 points · 227 comments · 15h ago",
       "also": [],
       "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/andy4.png",
       "icon": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w256h256/format/png/2023/08/favicon-3.svg"
@@ -114,7 +102,7 @@
       "link_domain": "bbc.co.uk",
       "source": "Hacker News",
       "domain": "bbc.co.uk",
-      "meta": "Hacker News · 248 points · 280 comments · 13h ago",
+      "meta": "Hacker News · 252 points · 283 comments · 16h ago",
       "also": [],
       "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/10b0/live/dcdf2a60-d46e-11f1-9dda-1ba6fcc7d159.jpg",
       "icon": "https://static.files.bbci.co.uk/core/website/assets/static/icons/touch/news/touch-icon-36.413a37b227.png"
@@ -126,10 +114,22 @@
       "link_domain": "status.bunny.net",
       "source": "Hacker News",
       "domain": "status.bunny.net",
-      "meta": "Hacker News · 212 points · 40 comments · 11h ago",
+      "meta": "Hacker News · 216 points · 43 comments · 13h ago",
       "also": [],
       "image": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
       "icon": "https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/20630/favicon.png"
+    },
+    {
+      "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
+      "thread": "https://news.ycombinator.com/item?id=50304122",
+      "link": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
+      "link_domain": "fortune.com",
+      "source": "Hacker News",
+      "domain": "fortune.com",
+      "meta": "Hacker News · 179 points · 210 comments · 18h ago",
+      "also": [],
+      "image": "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-2270629609-e1793295597735.jpg?resize=1200,600",
+      "icon": "https://fortune.com/apple-touch-icon.png"
     },
     {
       "title": "Linode Security Incident",
@@ -138,7 +138,7 @@
       "link_domain": "status.linode.com",
       "source": "Hacker News",
       "domain": "status.linode.com",
-      "meta": "Hacker News · 176 points · 98 comments · 8h ago",
+      "meta": "Hacker News · 179 points · 99 comments · 10h ago",
       "also": [],
       "image": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/4176/linode-logo-7c2f2333-3e3c-47fa-a657-2a658d5cba70.png",
       "icon": "https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/4176/favicon-96x96-d432930b-32ee-4f20-b9e6-28b2920c9e10.png"
@@ -596,6 +596,19 @@
           "hn": null
         },
         {
+          "title": "Kubernetes Confidential Containers Get Fortanix Attestation and Key Management",
+          "link": "https://www.infoq.com/news/2026/10/k8s-confidential-containers/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Fortanix's CoCo integration connects workload attestation to decryption-key release for Kubernetes AI workloads. GPU-verification settings affect protection, while upstream Trustee and Azure Secure Key Release offer alternative routes to attestation-based key release. By Mark Silvester",
+          "source": "InfoQ",
+          "date": "Oct 31",
+          "image": "https://res.infoq.com/news/2026/10/k8s-confidential-containers/en/headerimage/header-1793049721702.jpeg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
           "title": "Innovate on your own business terms: Google Cloud spend caps now generally available",
           "link": "https://cloud.google.com/blog/topics/cost-management/google-cloud-spend-caps-now-generally-available/",
           "excerpt": "Today, we’re announcing that spend caps on Google Cloud Budgets are generally available. With this release, we’re delivering ways to protect your workloads from runaway costs without risking resource deletion. More importantly, we’re introducing three major updates, directly inspired by your…",
@@ -605,9 +618,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Querying Databricks Apache Iceberg Tables with the borderless Lakehouse",
           "link": "https://cloud.google.com/blog/products/data-analytics/querying-databricks-iceberg-tables-with-google-clouds-lakehouse/",
@@ -639,17 +650,6 @@
           "image": "https://web-assets.dd-static.net/42588/1793382330-improving-agents-insights-agent-observability-hero.png",
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
-          "hn": null
-        },
-        {
-          "title": "When the Kubernetes API went silent: A three-layer networking mystery",
-          "link": "https://cloud.google.com/blog/products/networking/the-three-layer-gke-network-mystery/",
-          "excerpt": "Every support engineer has a case that stays with them. The one that comes up at team lunches. The one where, even after it's resolved, you find yourself staring at a packet capture at midnight just to make sure you really understand what happened. This is that case. It started in January 2026…",
-          "source": "Cloud Blog",
-          "date": "Oct 30",
-          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/updated_architecture_official_icon.max-1000x1000.png",
-          "icon": null,
-          "domain": "cloud.google.com",
           "hn": null
         },
         {
@@ -704,40 +704,18 @@
       ],
       "more": [
         {
-          "title": "OpenAI raises less than half of $30B target",
-          "link": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
-          "excerpt": "108 points · 58 comments",
-          "source": "wsj.com via Hacker News",
-          "date": "Oct 31",
-          "image": null,
-          "icon": "https://www.wsj.com/favicon.ico",
-          "domain": "wsj.com",
-          "hn": "108 points · 58 comments"
-        },
-        {
-          "title": "Flock camera searches fell 95% after a dispatcher's misconduct was caught",
-          "link": "https://www.wkyc.com/article/news/investigations/flock-camera-searches-fall-95-percent-highland-heights-dispatcher-misconduct-caught/95-94b18f33-60e2-4bc7-a00f-d71d1e1fdd5e",
-          "excerpt": "62 points · 6 comments",
-          "source": "wkyc.com via Hacker News",
-          "date": "Oct 31",
-          "image": null,
-          "icon": "https://www.wkyc.com/favicon.ico",
-          "domain": "wkyc.com",
-          "hn": "62 points · 6 comments"
-        },
-        {
           "title": "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game",
           "link": "https://tng.episodle.com/",
-          "excerpt": "143 points · 42 comments",
+          "excerpt": "183 points · 50 comments",
           "source": "tng.episodle.com via Hacker News",
           "date": "Oct 30",
           "image": null,
           "icon": "https://tng.episodle.com/favicon.ico",
           "domain": "tng.episodle.com",
-          "hn": "143 points · 42 comments"
+          "hn": "183 points · 50 comments"
         },
         {
-          "title": "sanstun: A sans-IO, parallel-friendly WireGuard implementation in Rust",
+          "title": "Sanstun: A sans-IO, parallel-friendly WireGuard implementation in Rust",
           "link": "https://www.firezone.dev/blog/introducing-sanstun",
           "excerpt": "Our sans-IO WireGuard implementation in Rust, optimized for ease of use, security and performance through a parallel-friendly and idiomatic API.",
           "source": "firezone.dev via Hacker News",
@@ -745,7 +723,29 @@
           "image": "https://www.firezone.dev/blog/opengraph-image?dc0a4d310bb2b9d5",
           "icon": "https://www.firezone.dev/apple-icon.png?apple-icon.1et4512dm-met.png",
           "domain": "firezone.dev",
-          "hn": "99 points · 17 comments"
+          "hn": "125 points · 20 comments"
+        },
+        {
+          "title": "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man",
+          "link": "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/",
+          "excerpt": "Patrick Stewart's most famous character showed a generation of youth a complex character who strived to do what was right.",
+          "source": "bostonglobe.com via Hacker News",
+          "date": "Oct 30",
+          "image": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/v2/CGTKMVCJ3II6DM4QQY75UQKYRQ.jpg?auth=1665db2d602a73cebcb708de2cff81cdafb1dff34e84e5e1b3f511472b91079a&width=1440",
+          "icon": "https://www.bostonglobe.com/pf/resources/images/icons/apple-touch-icon.png?v=bostonGlobe&d=713",
+          "domain": "bostonglobe.com",
+          "hn": "298 points · 167 comments"
+        },
+        {
+          "title": "Jules Verne's Lost Novel",
+          "link": "https://blue-continuum.com/verne-paris",
+          "excerpt": "Jules Verne’s lost novel got the machines of 1960 right. He never imagined that Paris would keep its poets",
+          "source": "blue-continuum.com via Hacker News",
+          "date": "Oct 30",
+          "image": "https://blue-continuum.com/__l5e/assets-v1/4c93ed3c-ba50-4d5d-a01a-8490d86ffb63/verne-paris-hero.jpeg",
+          "icon": "https://blue-continuum.com/favicon-192.png",
+          "domain": "blue-continuum.com",
+          "hn": "103 points · 26 comments"
         }
       ]
     }
