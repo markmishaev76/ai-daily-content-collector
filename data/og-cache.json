@@ -455,6 +455,12 @@
   "icon": null,
   "image": null
  },
+ "https://en.wikipedia.org/wiki/Shiny_object_syndrome": {
+  "description": null,
+  "fetched": "2026-10-31",
+  "icon": "https://en.wikipedia.org/static/apple-touch/wikipedia.png",
+  "image": null
+ },
  "https://english.elpais.com/technology/2026-10-25/peter-thiel-the-tech-oligarch-who-believes-in-the-antichrist.html": {
   "description": "The PayPal founder is probably the most influential figure in the technology industry in decades. He spreads conspiracy theories, but he is not an eccentric divorced from reality: he saw Trump’s rise before almost anyone else, and he is behind the career of Vice President J. D. Vance. And his defense and espionage company, Palantir, has signed contracts with governments around the world",
   "fetched": "2026-10-26",
@@ -860,6 +866,12 @@
  "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8": {
   "description": null,
   "fetched": "2026-10-24",
+  "icon": null,
+  "image": null
+ },
+ "https://nullprogram.com/blog/2026/10/31/": {
+  "description": null,
+  "fetched": "2026-10-31",
   "icon": null,
   "image": null
  },
@@ -1727,6 +1739,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2026/10/23/blackX.jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/": {
+  "description": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles.",
+  "fetched": "2026-10-31",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2025/03/18/Blockchain-2.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/": {
   "description": "PHP2Shell shows how quickly attackers can exploit critical vulnerabilities, often before organizations have time to patch. Token Security explains why limiting the access of service accounts, API keys, and AI agents is just as important as fixing vulnerabilities to reduce the damage from a breach.",
   "fetched": "2026-10-28",
@@ -1895,6 +1913,12 @@
   "icon": "https://assets.cdn.ifixit.com/static/icons/ifixit/apple-touch-icon-57x57.png",
   "image": "https://valkyrie.cdn.ifixit.com/media/2026/10/24232224/iPhone-Duo_94.jpg"
  },
+ "https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26": {
+  "description": "An AI startup hacked Anthropic within 12 hours and accessed employee details and internal messages. The breach exposed both personnel information and private company communications.",
+  "fetched": "2026-10-31",
+  "icon": "https://akm-img-a-in.tosshub.com/indiatoday/images/misc/IT-logo-180.png",
+  "image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202610/anthropic--cathedral-263559161-16x9_0.png?VersionId=hngQNnOgez44Zv0vMDM35oEeCVLPJGZC"
+ },
  "https://www.jefftk.com/p/air-purifiers-as-white-noise-machines": {
   "description": "White noise machines are widely used for sound masking, increasing privacy in offices and helping people sleep. The classic approach is a fan in a box, though in the past ten years people have mostly switched over to electronic ones. But a fan is really a great approach; you just need to put it to better use: have the fan clean the air. Instead of spinning a fan in free air to make noise, you ca",
   "fetched": "2026-10-23",
@@ -2062,6 +2086,12 @@
   "fetched": "2026-10-29",
   "icon": "https://www.oxfam.org/apple-touch-icon.png",
   "image": "https://www.oxfam.org,"
+ },
+ "https://www.parameter.ai/labs/we-found-a-gap-at-openai": {
+  "description": "By bypassing ChatGPT's sandbox and content security policy, our research team was able to take over anyone's account simply by sending them a link.",
+  "fetched": "2026-10-31",
+  "icon": "https://www.parameter.ai/apple-icon.png",
+  "image": "https://www.parameter.ai/opengraph-image.png"
  },
  "https://www.penligent.ai/hackinglabs/cve-2026-98432/": {
   "description": "CVE-2026-98432 is a Linux IPv4 TCP use-after-free. Understand the 9.8 versus 5.9 ratings, MPTCP lab RCE evidence, exposure checks, patches, and safe validation.",
@@ -2368,6 +2398,12 @@
   "fetched": "2026-10-30",
   "icon": null,
   "image": null
+ },
+ "https://www.thebignewsletter.com/p/why-anthropics-filing-crushed-tech": {
+  "description": "The trillion dollar Anthropic IPO will enrich Google and Amazon, who are ostensibly competitors. How does that make sense? It doesn’t, unless Anthropic is four flailing monopolies in a trench coat.",
+  "fetched": "2026-10-31",
+  "icon": "https://substackcdn.com/image/fetch/$s_!foQf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb98ab605-be40-4612-8493-dd79bce9c716%2Fapple-touch-icon-57x57.png",
+  "image": "https://substackcdn.com/image/fetch/$s_!ZgR_!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F37133ce1-424f-47a3-a941-9ca5017b2df7_1694x490.png"
  },
  "https://www.theguardian.com/business/live/2026/oct/30/uk-house-price-growth-crypto-industry-6bn-binance-hack-eurozone-france-gdp-latest-news-updates": {
   "description": "Blockchain intelligence firm TRM says North Korea’s TraderTraitor hacking unit is responsible for the largest crypto theft on record",
