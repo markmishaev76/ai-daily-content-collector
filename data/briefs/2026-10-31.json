@@ -13,7 +13,7 @@
     "note": null,
     "labels": [
       "Agent Identity & Authorization",
-      "1h ago"
+      "3h ago"
     ],
     "also": []
   },
@@ -25,7 +25,7 @@
       "link_domain": "cyberplace.social",
       "source": "Lobsters",
       "domain": "cyberplace.social",
-      "meta": "Lobsters · 142 points · 38 comments · 15h ago",
+      "meta": "Lobsters · 145 points · 38 comments · 17h ago",
       "also": [
         {
           "source": "Hacker News",
@@ -42,7 +42,7 @@
       "link_domain": "phorion.io",
       "source": "Hacker News",
       "domain": "phorion.io",
-      "meta": "Hacker News · 784 points · 489 comments · 18h ago",
+      "meta": "Hacker News · 825 points · 503 comments · 20h ago",
       "also": [],
       "image": "https://phorion.io/images/default-social-card.png",
       "icon": "https://phorion.io/images/apple-touch-icon.png"
@@ -54,7 +54,7 @@
       "link_domain": "newsletter.signoz.io",
       "source": "Hacker News",
       "domain": "newsletter.signoz.io",
-      "meta": "Hacker News · 512 points · 385 comments · 10h ago",
+      "meta": "Hacker News · 534 points · 400 comments · 12h ago",
       "also": [],
       "image": "https://substackcdn.com/image/fetch/$s_!Hgvq!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F530d847f-26cb-4ddd-a6de-875cbbaf8fab_6233x4167.webp",
       "icon": "https://substackcdn.com/icons/substack/apple-touch-icon.png"
@@ -66,7 +66,7 @@
       "link_domain": "doublepulsar.com",
       "source": "Hacker News",
       "domain": "doublepulsar.com",
-      "meta": "Hacker News · 399 points · 1 comments · 15h ago",
+      "meta": "Hacker News · 399 points · 1 comments · 17h ago",
       "also": [],
       "image": null,
       "icon": "https://doublepulsar.com/favicon.ico"
@@ -78,7 +78,7 @@
       "link_domain": "status.northflank.com",
       "source": "Hacker News",
       "domain": "status.northflank.com",
-      "meta": "Hacker News · 365 points · 275 comments · 10h ago",
+      "meta": "Hacker News · 383 points · 287 comments · 12h ago",
       "also": [],
       "image": "https://northflank.instatus.com/api/og",
       "icon": "https://instatus.com/user-content/v1635412200/ydjpg9wb8ximfbrlegtn.ico"
@@ -90,7 +90,7 @@
       "link_domain": "ft.com",
       "source": "Hacker News",
       "domain": "ft.com",
-      "meta": "Hacker News · 283 points · 231 comments · 8h ago",
+      "meta": "Hacker News · 288 points · 243 comments · 10h ago",
       "also": [],
       "image": null,
       "icon": "https://www.ft.com/favicon.ico"
@@ -102,7 +102,7 @@
       "link_domain": "404media.co",
       "source": "Hacker News",
       "domain": "404media.co",
-      "meta": "Hacker News · 262 points · 220 comments · 8h ago",
+      "meta": "Hacker News · 265 points · 221 comments · 10h ago",
       "also": [],
       "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/andy4.png",
       "icon": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w256h256/format/png/2023/08/favicon-3.svg"
@@ -114,7 +114,7 @@
       "link_domain": "bbc.co.uk",
       "source": "Hacker News",
       "domain": "bbc.co.uk",
-      "meta": "Hacker News · 241 points · 265 comments · 9h ago",
+      "meta": "Hacker News · 243 points · 268 comments · 11h ago",
       "also": [],
       "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/10b0/live/dcdf2a60-d46e-11f1-9dda-1ba6fcc7d159.jpg",
       "icon": "https://static.files.bbci.co.uk/core/website/assets/static/icons/touch/news/touch-icon-36.413a37b227.png"
@@ -126,7 +126,7 @@
       "link_domain": "status.bunny.net",
       "source": "Hacker News",
       "domain": "status.bunny.net",
-      "meta": "Hacker News · 201 points · 40 comments · 7h ago",
+      "meta": "Hacker News · 210 points · 40 comments · 9h ago",
       "also": [],
       "image": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
       "icon": "https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/20630/favicon.png"
@@ -138,7 +138,7 @@
       "link_domain": "",
       "source": "Hacker News",
       "domain": "Hacker News",
-      "meta": "Hacker News · 142 points · 136 comments · 16h ago",
+      "meta": "Hacker News · 144 points · 139 comments · 18h ago",
       "also": [],
       "image": null,
       "icon": null
@@ -693,15 +693,37 @@
       ],
       "more": [
         {
+          "title": "Tell HN: Scribd Breached",
+          "link": "https://news.ycombinator.com/item?id=50312756",
+          "excerpt": "49 points · 7 comments",
+          "source": "Hacker News",
+          "date": "Oct 31",
+          "image": null,
+          "icon": null,
+          "domain": "news.ycombinator.com",
+          "hn": "49 points · 7 comments"
+        },
+        {
+          "title": "Flock camera searches fell 95% after a dispatcher's misconduct was caught",
+          "link": "https://www.wkyc.com/article/news/investigations/flock-camera-searches-fall-95-percent-highland-heights-dispatcher-misconduct-caught/95-94b18f33-60e2-4bc7-a00f-d71d1e1fdd5e",
+          "excerpt": "17 points · 3 comments",
+          "source": "wkyc.com via Hacker News",
+          "date": "Oct 31",
+          "image": null,
+          "icon": "https://www.wkyc.com/favicon.ico",
+          "domain": "wkyc.com",
+          "hn": "17 points · 3 comments"
+        },
+        {
           "title": "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game",
           "link": "https://tng.episodle.com/",
-          "excerpt": "57 points · 17 comments",
+          "excerpt": "111 points · 35 comments",
           "source": "tng.episodle.com via Hacker News",
           "date": "Oct 30",
           "image": null,
           "icon": "https://tng.episodle.com/favicon.ico",
           "domain": "tng.episodle.com",
-          "hn": "57 points · 17 comments"
+          "hn": "111 points · 35 comments"
         },
         {
           "title": "Linode Security Incident",
@@ -712,7 +734,7 @@
           "image": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/4176/linode-logo-7c2f2333-3e3c-47fa-a657-2a658d5cba70.png",
           "icon": "https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/4176/favicon-96x96-d432930b-32ee-4f20-b9e6-28b2920c9e10.png",
           "domain": "status.linode.com",
-          "hn": "149 points · 78 comments"
+          "hn": "170 points · 92 comments"
         },
         {
           "title": "sanstun: A sans-IO, parallel-friendly WireGuard implementation in Rust",
@@ -723,29 +745,7 @@
           "image": "https://www.firezone.dev/blog/opengraph-image?dc0a4d310bb2b9d5",
           "icon": "https://www.firezone.dev/apple-icon.png?apple-icon.1et4512dm-met.png",
           "domain": "firezone.dev",
-          "hn": "61 points · 14 comments"
-        },
-        {
-          "title": "AO3 Down for Maintenance",
-          "link": "https://www.otwstatus.org",
-          "excerpt": "Welcome to Organization for Transformative Works's home for real-time and historical data on system performance.",
-          "source": "otwstatus.org via Hacker News",
-          "date": "Oct 30",
-          "image": null,
-          "icon": "https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/809621/Logocollage2circleround-Olivia-Riley-b3ecf4da-abe9-4bee-b455-587aa128fc2a.png",
-          "domain": "otwstatus.org",
-          "hn": "92 points · 22 comments"
-        },
-        {
-          "title": "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man",
-          "link": "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/",
-          "excerpt": "Patrick Stewart's most famous character showed a generation of youth a complex character who strived to do what was right.",
-          "source": "bostonglobe.com via Hacker News",
-          "date": "Oct 30",
-          "image": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/v2/CGTKMVCJ3II6DM4QQY75UQKYRQ.jpg?auth=1665db2d602a73cebcb708de2cff81cdafb1dff34e84e5e1b3f511472b91079a&width=1440",
-          "icon": "https://www.bostonglobe.com/pf/resources/images/icons/apple-touch-icon.png?v=bostonGlobe&d=713",
-          "domain": "bostonglobe.com",
-          "hn": "214 points · 126 comments"
+          "hn": "86 points · 14 comments"
         }
       ]
     }
