@@ -99,6 +99,20 @@
   </section><!-- /learn-teaser -->
   {% endif %}
 
+  {% if cfp_strip %}
+  <section class="cfp-strip topic" style="--c: {{ events_color }}">
+    <div class="section-head"><span class="chip">Calls for talks closing soon</span><a class="see-all" href="{{ root }}events/">All events →</a></div>
+    <div class="cfp-strip-rows">
+      {% for e in cfp_strip %}
+      <div class="cfp-row">
+        <div class="t"><a href="{{ e.link }}" target="_blank" rel="noopener noreferrer">{{ e.name }}</a></div>
+        <div class="meta">Closes {{ e.deadline }} · {{ e.days_left_label }} · {{ e.dates }}{% if e.location %} · {{ e.location }}{% endif %}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </section><!-- /cfp-strip -->
+  {% endif %}
+
   {% if writing %}
   <section class="writing">
     <div class="section-head"><span class="chip" style="--c: #5a4fcf">From my writing</span><a class="see-all" href="{{ root }}blog/">All posts →</a></div>

@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}Events · Mark Mishaev{% endblock %}
+{% block share_title %}Events · The Daily Brief{% endblock %}
+{% block share_description %}Open calls for talks and upcoming conferences on AI agents, security, identity, platform engineering and leadership.{% endblock %}
+{% macro event_row(e, kind) %}
+<li class="event-row" data-cats="{{ e.cats }}">
+  <div class="t"><a href="{{ e.link }}" target="_blank" rel="noopener noreferrer">{{ e.name }}</a>{% if kind == "cfp" and e.closing_soon %} <span class="soon">Closing soon</span>{% endif %}</div>
+  <div class="meta">{% if kind == "cfp" %}Closes {{ e.deadline }} · {{ e.days_left_label }} · {% endif %}{{ e.dates }}{% if e.location %} · {{ e.location }}{% endif %}{% if e.online and e.location != "Online" %} · Online{% endif %}{% for c in e.labels %} <span class="event-cat">{{ c }}</span>{% endfor %}</div>
+</li>
+{% endmacro %}
+{% block body %}
+<main class="magazine events-page" style="--c: {{ events_color }}">
+  <h2 class="today">Events · calls for talks and conferences on the site's topics</h2>
+  <p class="meta events-sub">Calendar of CFP deadlines: <a href="{{ webcal_url }}">Subscribe in your calendar</a> · <a href="{{ ics_url }}">.ics file</a></p>
+
+  <div class="event-filters" role="group" aria-label="Filter events" hidden>
+    {% for f in filters %}
+    <button type="button" data-filter="{{ f.id }}"{% if loop.first %} aria-pressed="true"{% else %} aria-pressed="false"{% endif %}>{{ f.label }}</button>
+    {% endfor %}
+  </div><!-- /event-filters -->
+
+  <section class="topic">
+    <div class="section-head"><span class="chip">Open calls for talks</span><span class="meta">By deadline</span></div>
+    {% if events.cfps %}
+    <ul class="cfp-list event-list">
+      {% for e in events.cfps %}{{ event_row(e, "cfp") }}{% endfor %}
+    </ul><!-- /cfp-list -->
+    {% else %}
+    <p class="meta">No open calls for talks right now.</p>
+    {% endif %}
+  </section>
+
+  <section class="topic">
+    <div class="section-head"><span class="chip">Conferences in the next {{ horizon_days }} days</span><span class="meta">By start date</span></div>
+    {% if events.upcoming %}
+    <ul class="upcoming-list event-list">
+      {% for e in events.upcoming %}{{ event_row(e, "conf") }}{% endfor %}
+    </ul><!-- /upcoming-list -->
+    {% else %}
+    <p class="meta">No conferences in the next {{ horizon_days }} days.</p>
+    {% endif %}
+  </section>
+  <p class="meta">Sources: <a href="https://developers.events/" target="_blank" rel="noopener noreferrer">developers.events</a> and <a href="https://github.com/tech-conferences/conference-data" target="_blank" rel="noopener noreferrer">tech-conferences/conference-data</a>. Dates and deadlines are as the organisers list them.</p>
+</main>
+{% endblock %}
+{% block scripts %}<script src="{{ asset(root, 'events.js') }}" defer></script>{% endblock %}

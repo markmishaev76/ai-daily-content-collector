@@ -14,6 +14,7 @@ from urllib.parse import urlparse
 from jinja2 import Environment, FileSystemLoader
 
 from src import briefs as brief_store
+from src import events as event_radar
 from src.hn import HN_BOILERPLATE, hn_counts, is_hn_item
 from src.learn import VIDEO_ID
 
@@ -27,6 +28,8 @@ NEUTRAL_COLOR = "#7a7a85"
 PULSE_COLOR = "#e8590c"
 LEARN_COLOR = "#c92a2a"
 LEARN_TEASER = 3
+EVENTS_COLOR = "#2b8a3e"
+CFP_STRIP = 3
 LEAD_ID_LABELS = 2
 PALETTE = ["#5a4fcf", "#ad3a8a", "#1f9d8b", "#d6456b", "#e07a1f", "#3577d4", "#7a8b2d", "#5b6270"]
 
@@ -240,6 +243,27 @@ def _learn(learn: Optional[Dict], now: datetime) -> Optional[Dict]:
     return {"top": _videos(learn.get("top") or [], now), "channels": channels, "days": learn.get("days")}
 
 
+def _event(e: Dict) -> Dict:
+    """An event ready for the page: validated link, labels and plain-text dates."""
+    link = safe_link(e.get("cfp_url") or "") or safe_link(e.get("url") or "")
+    days = e.get("days_left")
+    return {"name": e.get("name") or "Untitled", "link": link,
+            "deadline": f"{e['cfp_end']:%b} {e['cfp_end'].day}" if e.get("cfp_end") else None,
+            "days_left_label": "closes today" if days == 0 else "1 day left" if days == 1 else f"{days} days left",
+            "closing_soon": bool(e.get("closing_soon")), "dates": event_radar._date_range(e["start"], e["end"]),
+            "location": e.get("location") or "", "online": bool(e.get("online")),
+            "cats": " ".join(e.get("categories") or []),
+            "labels": [event_radar.CATEGORIES[c] for c in e.get("categories") or [] if c in event_radar.CATEGORIES]}
+
+
+def _events(events: Optional[Dict]) -> Optional[Dict]:
+    if events is None:
+        return None
+    cfps = [_event(e) for e in events.get("cfps") or []]
+    upcoming = [_event(dict(e, cfp_url=None)) for e in events.get("upcoming") or []]
+    return {"cfps": [e for e in cfps if e["link"]], "upcoming": upcoming}
+
+
 def _split_cards(articles: List[Dict]):
     """Cards prefer articles with pictures, topped up by rank; both keep rank order."""
     with_image = [i for i, a in enumerate(articles) if a["image"]][:CARDS_PER_SECTION]
@@ -365,17 +389,20 @@ def _rss_date(post: Dict) -> Optional[str]:
 def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
           out_dir: Path, now: datetime, story=None, pulse: Optional[List[Dict]] = None,
           learn: Optional[Dict] = None, briefs: Optional[Dict[str, Dict]] = None,
-          takes: Optional[Dict[str, str]] = None) -> Dict:
+          takes: Optional[Dict[str, str]] = None, events: Optional[Dict] = None,
+          events_horizon: int = 90) -> Dict:
     """Write the site and return today's brief snapshot. `story` is a src.story.Story for the lead, or None for
     no lead; `pulse` is src.pulse.collect's items, or None/[] to hide The Pulse; `learn` is src.learn.collect's
     videos (empty lists when unavailable), or None for no Learn page; `briefs` maps YYYY-MM-DD to earlier
     snapshots (src.briefs.load), each rendered at /brief/<date>/ like today's; `takes` is src.takes.load's
-    date -> Mark's take, shown under that day's lead."""
+    date -> Mark's take, shown under that day's lead; `events` is src.events.collect's data (empty lists when
+    unavailable), or None for no Events page."""
     env = Environment(loader=FileSystemLoader(SITE_DIR / "templates"), autoescape=True,
                       trim_blocks=True, lstrip_blocks=True)
     env.globals.update(post_href=_post_href, today=now.strftime("%A, %B %d, %Y"),
                        updated=now.strftime("%H:%M UTC"), site_url=SITE_URL,
                        cf_analytics_token=CF_ANALYTICS_TOKEN, learn_page=learn is not None,
+                       events_page=events is not None,
                        asset=_asset_url)
 
     all_posts = _sorted_posts(posts)
@@ -394,10 +421,12 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
     pages[today.isoformat()] = snap
     available = set(pages)
     videos = _learn(learn, now)
+    radar = _events(events)
     write("index.html", "index.html", root="", page="feed", heading=f"Today · {now:%A, %B %d, %Y}",
           days=_days(today, available, today, ""), **_brief_page(snap, names, takes.get(today.isoformat())),
           pulse_color=PULSE_COLOR,
-          learn_teaser=videos["top"][:LEARN_TEASER] if videos else [], learn_color=LEARN_COLOR)
+          learn_teaser=videos["top"][:LEARN_TEASER] if videos else [], learn_color=LEARN_COLOR,
+          cfp_strip=radar["cfps"][:CFP_STRIP] if radar else [], events_color=EVENTS_COLOR)
     for iso, page in sorted(pages.items()):
         day, root = date.fromisoformat(iso), "../../"
         label = f"Brief · {day:%A, %B %d, %Y}"
@@ -406,6 +435,12 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
               is_today=day == today, **_brief_page(page, names, takes.get(iso)), pulse_color=PULSE_COLOR, writing=[],
               learn_teaser=[], learn_color=LEARN_COLOR)
     write("404.html", "404.html", root="/", page="")
+    if radar is not None:
+        ics_url = SITE_URL + "events/cfps.ics"
+        write("events/index.html", "events.html", root="../", page="events", events=radar, events_color=EVENTS_COLOR,
+              horizon_days=events_horizon, ics_url=ics_url, webcal_url="webcal://" + ics_url.split("://", 1)[1],
+              filters=[{"id": "all", "label": "All"}] + [{"id": k, "label": v} for k, v in event_radar.CATEGORIES.items()])
+        (out_dir / "events" / "cfps.ics").write_bytes(event_radar.ics(events.get("cfps") or [], now).encode("utf-8"))
     if videos is not None:
         write("learn/index.html", "learn.html", root="../", page="learn", learn=videos, learn_color=LEARN_COLOR)
     write("blog/index.html", "blog.html", root="../", page="blog", posts=all_posts)

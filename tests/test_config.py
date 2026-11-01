@@ -125,3 +125,12 @@ def test_first_party_post_survives_section_cut_and_is_primary():
 
     assert fv in picked["News & Research"]
     assert story.source_tier(fv, config["story"]["source_tiers"]) == "primary"
+
+
+def test_events_settings():
+    from src import events
+
+    s = events.settings(load())
+
+    assert s["horizon_days"] == 90 and s["closing_days"] == 7 and len(s["topics"]) == 9
+    assert {"MCP", "agentic"} <= set(s["keywords"]["ai"]) and "LeadDev" in s["keywords"]["leadership"]

@@ -39,6 +39,9 @@
       {% if learn_page %}
       <a href="{{ root }}learn/"{% if page == "learn" %} class="active"{% endif %}>Learn</a>
       {% endif %}
+      {% if events_page %}
+      <a href="{{ root }}events/"{% if page == "events" %} class="active"{% endif %}>Events</a>
+      {% endif %}
       <a href="{{ root }}about/"{% if page == "about" %} class="active"{% endif %}>About</a>
       <a href="{{ root }}feed.xml">RSS</a>
     </nav>

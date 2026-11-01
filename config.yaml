@@ -473,6 +473,26 @@ learn:
       handle: "@pragmaticengineer"
       id: "UCPbwhExawYrn9xxI21TFfyw"
 
+# Events (src/events.py): open calls for talks and conferences on /events/, a CFP strip on the front page,
+# and /events/cfps.ics (site only). A conference is kept when its name has a keyword below (whole words,
+# any case) or it comes from a conference-data topic file listed under topic_categories.
+events:
+  horizon_days: 90
+  closing_days: 7
+  topics: ["security", "devops", "sre", "leadership", "general", "opensource", "python", "api", "data"]
+  topic_categories:
+    security: "security"
+    devops: "platform"
+    sre: "platform"
+    leadership: "leadership"
+  keywords:
+    ai: ["AI", "LLM", "LLMs", "GenAI", "agent", "agents", "agentic", "MCP", "ML", "machine learning"]
+    security: ["security", "AppSec", "DevSecOps", "OWASP", "BSides", "DEF CON", "DEFCON", "Black Hat", "cyber",
+               "infosec", "identity", "IAM", "OAuth", "Identiverse"]
+    platform: ["DevOps", "DevOpsDays", "platform", "cloud", "cloud native", "Kubernetes", "KubeCon", "SRE", "SREcon",
+               "observability", "infrastructure"]
+    leadership: ["leadership", "LeadDev", "engineering management", "CTO", "StaffPlus"]
+
 brief:
   max_articles_per_topic: 8
   

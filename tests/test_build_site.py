@@ -360,3 +360,32 @@ def test_invalid_takes_fails_build_naming_file(tmp_path, caplog):
     code, out = run(tmp_path, {"T": [article(1)]})
 
     assert code == 1 and not (out / "index.html").exists() and "takes.yaml" in caplog.text
+
+
+def run_events(tmp_path, collect, caplog):
+    caplog.set_level("INFO")
+    out = tmp_path / "public"
+    code = build_site.main(out_dir=out, config=dict(CONFIG, events={}), aggregator=FakeAggregator({"T": [article(1)]}),
+                           fetch_medium=lambda url: [], data_path=tmp_path / "medium.json", posts_dir=tmp_path / "posts",
+                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json",
+                           seen_path=tmp_path / "seen.json", briefs_dir=tmp_path / "briefs",
+                           takes_path=tmp_path / "takes.yaml", pinned_path=tmp_path / "pinned.yaml", now=NOW,
+                           fetch_meta=lambda url: None, og_cache_path=tmp_path / "og.json", collect_events=collect)
+    return code, out
+
+
+def test_events_unexpected_failure_never_fails_build(tmp_path, caplog):
+    def collect(config, now):
+        raise RuntimeError("boom")
+
+    code, out = run_events(tmp_path, collect, caplog)
+
+    assert code == 0 and "No open calls for talks right now" in (out / "events/index.html").read_text()
+    assert "Events unavailable" in caplog.text
+
+
+def test_events_counts_logged(tmp_path, caplog):
+    code, out = run_events(tmp_path, lambda config, now: ({"cfps": [], "upcoming": []},
+                                                         {"developers.events": 3, "conference-data": None}), caplog)
+
+    assert code == 0 and "Events: developers.events 3, conference-data failed; 0 open CFPs, 0 upcoming" in caplog.text

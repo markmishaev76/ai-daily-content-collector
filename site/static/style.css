@@ -301,6 +301,41 @@ a:hover { color: var(--accent); }
 .channel-cols { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px 28px; }
 .channel h3 { margin: 4px 0 6px; font-size: 15px; color: var(--c); }
 
+/* Events */
+.events-sub { margin: -4px 0 18px; }
+.events-sub a, .events-page p.meta a { color: var(--c); }
+.event-filters { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 22px; }
+.event-filters button {
+  padding: 4px 12px;
+  border: 0;
+  border-radius: 14px;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--c);
+  background: color-mix(in srgb, var(--c) 10%, white);
+  cursor: pointer;
+}
+.event-filters button[aria-pressed="true"] { color: #fff; background: var(--c); }
+.event-list { margin: 0; padding: 0; list-style: none; }
+.event-row { padding: 9px 0; border-top: 1px solid var(--line); }
+.event-row .t a:hover, .cfp-row .t a:hover { color: var(--c); }
+.event-row .t, .cfp-row .t { font-weight: 600; font-size: 15px; line-height: 1.3; }
+.soon {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 7px;
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #fff;
+  background: #e03131;
+  vertical-align: 2px;
+}
+.event-cat { margin-left: 4px; padding: 0 6px; border-radius: 8px; font-size: 11px; color: var(--c); background: color-mix(in srgb, var(--c) 10%, white); }
+.cfp-strip-rows { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px 24px; }
+.cfp-row { padding: 10px 12px; border-radius: 10px; background: var(--panel); border-left: 4px solid var(--c); }
+
 .meta { color: var(--muted); font-size: 12px; }
 .label {
   display: inline-block;
@@ -365,7 +400,7 @@ a:hover { color: var(--accent); }
   .site-header nav a { margin-left: 12px; }
   .chips { padding: 8px 16px; }
   .magazine { padding: 4px 16px 32px; }
-  .lead, .cards, .writing-cards, .more, .pulse-list { grid-template-columns: minmax(0, 1fr); }
+  .lead, .cards, .writing-cards, .more, .pulse-list, .cfp-strip-rows { grid-template-columns: minmax(0, 1fr); }
   .lead { gap: 14px; }
   .lead h1 { font-size: 22px; }
   .placeholder-label { font-size: 24px; }
