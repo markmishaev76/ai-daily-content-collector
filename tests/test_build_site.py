@@ -29,7 +29,7 @@ def run(tmp_path, feed, fetch_medium=lambda url: [], fetch_meta=lambda url: None
                            fetch_meta=fetch_meta, og_cache_path=tmp_path / "og-cache.json",
                            fetch_medium=fetch_medium, data_path=tmp_path / "medium.json",
                            posts_dir=tmp_path / "posts", about_path=tmp_path / "about.md",
-                           history_path=tmp_path / "lead-history.json", seen_path=tmp_path / "seen.json", briefs_dir=tmp_path / "briefs", takes_path=tmp_path / "takes.yaml", pinned_path=tmp_path / "pinned.yaml",
+                           history_path=tmp_path / "lead-history.json", seen_path=tmp_path / "seen.json", briefs_dir=tmp_path / "briefs", takes_path=tmp_path / "takes.yaml", weeks_dir=tmp_path / "weeks", pinned_path=tmp_path / "pinned.yaml",
                            now=now)
     return code, out
 
@@ -139,7 +139,7 @@ def run_pulse(tmp_path, collect, fetch_meta=lambda url: None, feed=None):
     code = build_site.main(out_dir=out, config=dict(CONFIG, pulse={"subreddits": ["ClaudeAI"]}),
                            aggregator=FakeAggregator(feed or {"T": [article(1)]}), fetch_medium=lambda url: [],
                            data_path=tmp_path / "medium.json", posts_dir=tmp_path / "posts",
-                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json", seen_path=tmp_path / "seen.json", briefs_dir=tmp_path / "briefs", takes_path=tmp_path / "takes.yaml",
+                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json", seen_path=tmp_path / "seen.json", briefs_dir=tmp_path / "briefs", takes_path=tmp_path / "takes.yaml", weeks_dir=tmp_path / "weeks",
                            pinned_path=tmp_path / "pinned.yaml", now=NOW, fetch_meta=fetch_meta,
                            og_cache_path=tmp_path / "og.json", collect_pulse=collect)
     return code, (out / "index.html").read_text() if (out / "index.html").exists() else ""
@@ -200,7 +200,7 @@ def run_learn(tmp_path, collect, caplog):
     code = build_site.main(out_dir=out, config=dict(CONFIG, learn={"channels": channels}),
                            aggregator=FakeAggregator({"T": [article(1)]}), fetch_medium=lambda url: [],
                            data_path=tmp_path / "medium.json", posts_dir=tmp_path / "posts",
-                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json", seen_path=tmp_path / "seen.json", briefs_dir=tmp_path / "briefs", takes_path=tmp_path / "takes.yaml",
+                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json", seen_path=tmp_path / "seen.json", briefs_dir=tmp_path / "briefs", takes_path=tmp_path / "takes.yaml", weeks_dir=tmp_path / "weeks",
                            pinned_path=tmp_path / "pinned.yaml", now=NOW, fetch_meta=lambda url: None,
                            og_cache_path=tmp_path / "og.json", collect_learn=collect)
     return code, out
@@ -237,7 +237,7 @@ def test_invalid_learn_config_fails_build(tmp_path, caplog):
     code = build_site.main(out_dir=out, config=dict(CONFIG, learn={"channels": [{"name": "X", "id": "@x"}]}),
                            aggregator=FakeAggregator({"T": [article(1)]}), fetch_medium=lambda url: [],
                            data_path=tmp_path / "medium.json", posts_dir=tmp_path / "posts",
-                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json", seen_path=tmp_path / "seen.json", briefs_dir=tmp_path / "briefs", takes_path=tmp_path / "takes.yaml",
+                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json", seen_path=tmp_path / "seen.json", briefs_dir=tmp_path / "briefs", takes_path=tmp_path / "takes.yaml", weeks_dir=tmp_path / "weeks",
                            pinned_path=tmp_path / "pinned.yaml", now=NOW, fetch_meta=lambda url: None,
                            og_cache_path=tmp_path / "og.json")
 
@@ -285,7 +285,7 @@ def test_feed_hours_back_validated_before_fetching(tmp_path, caplog):
     code = build_site.main(out_dir=tmp_path / "public", config=config, aggregator=FakeAggregator({"T": [article(1)]}),
                            fetch_medium=lambda url: [], data_path=tmp_path / "medium.json", posts_dir=tmp_path / "posts",
                            about_path=tmp_path / "about.md", history_path=tmp_path / "h.json",
-                           seen_path=tmp_path / "seen.json", briefs_dir=tmp_path / "briefs", takes_path=tmp_path / "takes.yaml", pinned_path=tmp_path / "pinned.yaml", now=NOW,
+                           seen_path=tmp_path / "seen.json", briefs_dir=tmp_path / "briefs", takes_path=tmp_path / "takes.yaml", weeks_dir=tmp_path / "weeks", pinned_path=tmp_path / "pinned.yaml", now=NOW,
                            fetch_meta=lambda url: None, og_cache_path=tmp_path / "og.json")
 
     assert code == 1 and "config.yaml" in caplog.text and "hours_back" in caplog.text
@@ -369,7 +369,7 @@ def run_events(tmp_path, collect, caplog):
                            fetch_medium=lambda url: [], data_path=tmp_path / "medium.json", posts_dir=tmp_path / "posts",
                            about_path=tmp_path / "about.md", history_path=tmp_path / "h.json",
                            seen_path=tmp_path / "seen.json", briefs_dir=tmp_path / "briefs",
-                           takes_path=tmp_path / "takes.yaml", pinned_path=tmp_path / "pinned.yaml", now=NOW,
+                           takes_path=tmp_path / "takes.yaml", weeks_dir=tmp_path / "weeks", pinned_path=tmp_path / "pinned.yaml", now=NOW,
                            fetch_meta=lambda url: None, og_cache_path=tmp_path / "og.json", collect_events=collect)
     return code, out
 
@@ -389,3 +389,55 @@ def test_events_counts_logged(tmp_path, caplog):
                                                          {"developers.events": 3, "conference-data": None}), caplog)
 
     assert code == 0 and "Events: developers.events 3, conference-data failed; 0 open CFPs, 0 upcoming" in caplog.text
+
+
+def test_sunday_build_saves_the_week(tmp_path):
+    sunday = datetime(2026, 11, 1, 8, 0, tzinfo=timezone.utc)
+    briefs = tmp_path / "briefs"
+    briefs.mkdir()
+    (briefs / "2026-10-26.json").write_text(json.dumps({"date": "2026-10-26", "pulse": [], "sections": [],
+                                                        "lead": {"title": "Monday lead", "link": "https://m.com/1"}}))
+
+    code, out = run(tmp_path, {"T": [article(1), article(2)]}, now=sunday)
+
+    week = json.loads((tmp_path / "weeks" / "2026-W44.json").read_text())
+    assert code == 0 and week["week"] == "2026-W44" and week["preview"] is False
+    assert week["days"][0]["lead"]["title"] == "Monday lead" and week["days"][6]["lead"] is not None
+    assert "Week in review · Oct 26 – Nov 1, 2026" in (out / "week/index.html").read_text()
+    assert (out / "week/2026-W44/index.html").exists()
+
+
+def test_weekday_build_shows_preview_without_saving(tmp_path):
+    code, out = run(tmp_path, {"T": [article(1)]})
+
+    assert code == 0 and not list((tmp_path / "weeks").glob("*.json"))
+    assert "Week so far" in (out / "week/index.html").read_text()
+
+
+def test_weekday_build_keeps_saved_weeks(tmp_path):
+    weeks_dir = tmp_path / "weeks"
+    weeks_dir.mkdir()
+    saved = {"week": "2026-W42", "start": "2026-10-12", "end": "2026-10-18", "preview": False, "days": [], "top": []}
+    (weeks_dir / "2026-W42.json").write_text(json.dumps(saved))
+
+    code, out = run(tmp_path, {"T": [article(1)]})
+
+    assert code == 0 and json.loads((weeks_dir / "2026-W42.json").read_text()) == saved
+    assert "Oct 12 – Oct 18, 2026" in (out / "week/index.html").read_text()
+
+
+def test_corrupt_week_file_fails_build_naming_it(tmp_path, caplog):
+    (tmp_path / "weeks").mkdir()
+    (tmp_path / "weeks" / "2026-W42.json").write_text("{bad")
+
+    code, out = run(tmp_path, {"T": [article(1)]})
+
+    assert code == 1 and "weeks/2026-W42.json" in caplog.text
+
+
+def test_snapshot_items_carry_story_score_and_coverage(tmp_path):
+    run(tmp_path, {"T": [article(1), article(2), article(3)]})
+    snap = json.loads((tmp_path / "briefs" / "2026-10-23.json").read_text())
+    items = [i for s in snap["sections"] for i in s["cards"] + s["more"]]
+
+    assert items and all(isinstance(i["score"], float) and i["coverage"] == 1 for i in items)

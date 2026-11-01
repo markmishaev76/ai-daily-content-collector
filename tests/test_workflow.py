@@ -31,6 +31,7 @@ def test_commit_step_adds_history_on_main_only():
     assert "data/og-cache.json" in commit["run"]
     assert "data/seen.json" in commit["run"]
     assert "data/briefs" in commit["run"]
+    assert "data/weeks" in commit["run"]
     assert commit["if"] == "github.ref == 'refs/heads/main'"
 
 

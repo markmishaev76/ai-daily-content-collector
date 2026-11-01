@@ -22,6 +22,7 @@
     {% if d.href %}<a href="{{ d.href }}"{% if d.active %} class="active" aria-current="page"{% endif %}>{{ d.label }}</a>{% else %}<span class="disabled" aria-disabled="true">{{ d.label }}</span>{% endif %}
     {% endfor %}
   </nav><!-- /days -->
+  {% if week_link %}<a class="week-link" href="{{ root }}week/">Week in review →</a>{% endif %}
   {% if pager %}
   <p class="past-note">{% if is_today %}This is today's brief. <a href="{{ root }}">Open the front page →</a>{% else %}You're viewing a past brief — <a href="{{ root }}">back to today →</a>{% endif %}</p>
   {% if reconstructed %}<p class="past-note">Reconstructed from the feeds afterwards; may differ from what was shown that day.</p>{% endif %}

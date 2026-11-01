@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block title %}{{ heading }} · Mark Mishaev{% endblock %}
+{% block share_title %}{{ heading }} · The Daily Brief{% endblock %}
+{% block share_description %}The week's stories of the day and its most-covered articles on security, identity and AI engineering.{% endblock %}
+{% block body %}
+<main class="magazine week-page">
+  <h2 class="today">{{ heading }}</h2>
+  {% if preview %}<p class="past-note">Preview: the week isn't over. The full week is saved on Sunday.</p>{% endif %}
+  {% if week_nav %}
+  <nav class="week-nav" aria-label="Other weeks">
+    {% if week_nav.prev %}<a href="{{ week_nav.prev.href }}" rel="prev">← {{ week_nav.prev.label }}</a>{% else %}<span></span>{% endif %}
+    {% if week_nav.next %}<a href="{{ week_nav.next.href }}" rel="next">{{ week_nav.next.label }} →</a>{% endif %}
+  </nav><!-- /week-nav -->
+  {% endif %}
+
+  <section class="topic">
+    <div class="section-head"><span class="chip">Stories of the day</span></div>
+    <ol class="week-leads week-days">
+      {% for d in days %}
+      <li class="week-day">
+        <span class="day">{{ d.label }}</span>
+        {% if d.lead %}
+        <div>
+          <div class="t">{% if d.lead.link %}<a href="{{ d.lead.link }}" target="_blank" rel="noopener noreferrer">{{ d.lead.title }}</a>{% else %}{{ d.lead.title }}{% endif %}</div>
+          <div class="meta">{% if d.lead.section %}<span class="chip" style="--c: {{ d.lead.color }}">{{ d.lead.section }}</span> {% endif %}{{ d.lead.source }}</div>
+        </div>
+        {% if d.lead.take %}
+        <blockquote class="take" style="--c: {{ d.lead.color }}">
+          <img class="take-photo" src="{{ root }}static/mark.jpg" alt="" width="32" height="32">
+          <div><span class="take-label">Mark's take</span><p>{{ d.lead.take }}</p></div>
+        </blockquote>
+        {% endif %}
+        {% else %}
+        <div class="meta">No brief</div>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ol><!-- /week-leads -->
+  </section>
+
+  <section class="topic">
+    <div class="section-head"><span class="chip">Top of the week</span><span class="meta">Most covered, one per story</span></div>
+    {% if top %}
+    <ol class="week-top">
+      {% for t in top %}
+      <li>
+        <div class="t">{% if t.link %}<a href="{{ t.link }}" target="_blank" rel="noopener noreferrer">{{ t.title }}</a>{% else %}{{ t.title }}{% endif %}</div>
+        <div class="meta">{% if t.section %}<span class="chip" style="--c: {{ t.color }}">{{ t.section }}</span>{% endif %}{{ t.source }}{% if t.day %} · {{ t.day }}{% endif %}</div>
+      </li>
+      {% endfor %}
+    </ol><!-- /week-top -->
+    {% else %}
+    <p class="meta">Nothing else stood out this week.</p>
+    {% endif %}
+  </section>
+
+  <section class="topic">
+    <div class="week-actions">
+      <button type="button" class="copy-week" hidden>Copy for LinkedIn</button>
+      <span class="meta copy-status" aria-live="polite"></span>
+    </div>
+    <details class="week-text">
+      <summary>Copy for LinkedIn (plain text)</summary>
+      <pre>{{ text }}</pre>
+    </details><!-- /week-text -->
+  </section>
+</main>
+{% endblock %}
+{% block scripts %}<script src="{{ asset(root, 'week.js') }}" defer></script>{% endblock %}

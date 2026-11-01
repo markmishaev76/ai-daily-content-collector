@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Dict, List, Tuple
 
 from main import load_config, select_articles
-from src import briefs, enrich, events, learn, medium, pulse, seen, site_builder, story, takes as mark_takes
+from src import briefs, enrich, events, learn, medium, pulse, seen, site_builder, story, takes as mark_takes, weeks
 from src.content_aggregator import ContentAggregator, validate_sources
 from src.hn import min_points
 from src.posts import load_local_posts, render_markdown_file
@@ -85,6 +85,22 @@ def _fetch_events(config: dict, now: datetime, collect=None) -> Dict:
     return found
 
 
+def _weeks(config: dict, now: datetime, snapshots: Dict[str, Dict], saved: Dict[str, Dict], weeks_dir: Path):
+    """On Sundays save this week (and keep the newest weeks); without any saved week, a preview of this one."""
+    weeks_dir.mkdir(parents=True, exist_ok=True)
+    if now.weekday() == 6:
+        week = weeks.build_week(snapshots, now.date(), config)
+        weeks.save(weeks_dir, week)
+        weeks.prune(weeks_dir)
+        saved = dict(sorted({**saved, week["week"]: week}.items())[-weeks.KEEP_WEEKS:])
+        logger.info(f"Week: saved {week['week']} with {sum(1 for d in week['days'] if d['lead'])} leads "
+                    f"and {len(week['top'])} top articles")
+    if saved:
+        return saved, None
+    logger.info("Week: no saved week yet; showing this week so far as a preview")
+    return saved, weeks.build_week(snapshots, now.date(), config, preview=True)
+
+
 def _warn_unused_takes(takes: Dict[str, str], past_briefs: Dict[str, Dict], lead, now: datetime) -> None:
     """Warn about takes in the 7-day window that have no story of the day to attach to."""
     for day in briefs.window(now.date()):
@@ -113,7 +129,7 @@ def main(out_dir: Path = Path("public"), config: dict = None, aggregator=None,
          posts_dir: Path = Path("posts"), about_path: Path = Path("about.md"),
          history_path: Path = Path("data/lead-history.json"), pinned_path: Path = Path("pinned.yaml"),
          seen_path: Path = Path("data/seen.json"), briefs_dir: Path = Path("data/briefs"),
-         takes_path: Path = Path("takes.yaml"),
+         takes_path: Path = Path("takes.yaml"), weeks_dir: Path = Path("data/weeks"),
          now: datetime = None, fetch_meta=enrich.fetch_meta,
          og_cache_path: Path = Path("data/og-cache.json"), collect_pulse=None, collect_learn=None,
          collect_events=None) -> int:
@@ -125,6 +141,7 @@ def main(out_dir: Path = Path("public"), config: dict = None, aggregator=None,
         shown_before = seen.load(seen_path)
         past_briefs = briefs.load(briefs_dir, now.date())
         takes = mark_takes.load(takes_path)
+        saved_weeks = weeks.load(weeks_dir)
         validate_sources(config['topics'])
         story.section_weights(config)
         story.lead_min_hn_points(config)
@@ -185,9 +202,13 @@ def main(out_dir: Path = Path("public"), config: dict = None, aggregator=None,
     videos = _fetch_learn(config, now, learn_settings["max_age_days"], collect_learn) if learn_settings else None
     radar = _fetch_events(config, now, collect_events) if events_settings else None
     _warn_unused_takes(takes, past_briefs, lead, now)
-    today_brief = site_builder.build(feed, posts, about_html, out_dir, now, story=lead, pulse=pulse_items,
-                                     learn=videos, briefs=past_briefs, takes=takes, events=radar,
-                                     events_horizon=events_settings["horizon_days"] if events_settings else 90)
+    today_brief = site_builder.brief_snapshot(feed, lead, pulse_items, now, take=takes.get(now.date().isoformat()))
+    saved_weeks, preview = _weeks(config, now, {**past_briefs, now.date().isoformat(): today_brief}, saved_weeks,
+                                  weeks_dir)
+    site_builder.build(feed, posts, about_html, out_dir, now, story=lead, pulse=pulse_items,
+                       learn=videos, briefs=past_briefs, takes=takes, events=radar,
+                       events_horizon=events_settings["horizon_days"] if events_settings else 90,
+                       today_brief=today_brief, weeks=saved_weeks, week_preview=preview)
     briefs.save(briefs_dir, now.date(), today_brief)
     briefs.prune(briefs_dir, now.date())
     logger.info(f"Briefs: saved {now.date()}, past days available: {', '.join(sorted(past_briefs)) or 'none'}")

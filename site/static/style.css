@@ -100,6 +100,28 @@ a:hover { color: var(--accent); }
 .days a.active { color: #fff; background: var(--accent); }
 .days .disabled { color: #b4b4be; background: none; border: 1px dashed var(--line); }
 .past-note { margin: -6px 0 10px; color: var(--muted); font-size: 13px; }
+.week-link { display: inline-block; margin: -10px 0 16px; font-size: 13px; font-weight: 600; color: var(--accent); }
+
+/* Week in review */
+.week-days { margin: 0 0 28px; padding: 0; list-style: none; }
+.week-day { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 4px 14px; padding: 10px 0; border-top: 1px solid var(--line); }
+.week-day .day { font-size: 13px; font-weight: 700; color: var(--muted); }
+.week-day .t { font-weight: 650; font-size: 16px; line-height: 1.3; }
+.week-day .take { grid-column: 2; margin: 6px 0 0; }
+.week-top { margin: 0 0 28px; padding-left: 22px; }
+.week-top li { padding: 8px 0; border-top: 1px solid var(--line); }
+.week-top .t { font-weight: 600; font-size: 15px; }
+.week-top .chip { margin-right: 6px; font-size: 10px; padding: 1px 8px; }
+.week-actions { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+.copy-week { padding: 6px 14px; border: 0; border-radius: 16px; font: inherit; font-size: 13px; font-weight: 600; color: #fff; background: var(--accent); cursor: pointer; }
+.week-text summary { cursor: pointer; font-size: 13px; color: var(--muted); }
+.week-text pre { white-space: pre-wrap; padding: 12px; border-radius: 10px; background: var(--panel); font-size: 13px; }
+.week-nav { display: flex; justify-content: space-between; margin-bottom: 18px; font-size: 13px; font-weight: 600; }
+.week-nav a { color: var(--accent); }
+@media (max-width: 640px) {
+  .week-day { grid-template-columns: minmax(0, 1fr); }
+  .week-day .take { grid-column: 1; }
+}
 .past-note a { color: var(--accent); }
 .pager { display: flex; justify-content: space-between; margin-bottom: 24px; font-size: 13px; font-weight: 600; }
 .pager a { color: var(--accent); }

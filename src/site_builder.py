@@ -5,7 +5,7 @@ Static site renderer: today's feed plus Mark's writing, as plain HTML.
 import hashlib
 import re
 import shutil
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from email.utils import format_datetime
 from pathlib import Path
 from typing import Dict, List, Optional
@@ -15,6 +15,7 @@ from jinja2 import Environment, FileSystemLoader
 
 from src import briefs as brief_store
 from src import events as event_radar
+from src import weeks as week_store
 from src.hn import HN_BOILERPLATE, hn_counts, is_hn_item
 from src.learn import VIDEO_ID
 
@@ -294,6 +295,14 @@ def brief_snapshot(feed: Dict[str, List[Dict]], story, pulse: Optional[List[Dict
     lead = {k: v for k, v in magazine["lead"].items() if k != "color"} if magazine["lead"] else None
     if lead and take:
         lead["take"] = take
+    signals = {}
+    for scored in getattr(story, "scored", None) or []:
+        for member in scored.members:
+            signals.setdefault((member.get("link") or "").strip(), (round(scored.score, 3), scored.coverage))
+    for section in magazine["sections"]:
+        for item in section["cards"] + section["more"]:
+            if (item.get("link") or "") in signals:
+                item["score"], item["coverage"] = signals[item["link"]]
     return {"date": now.date().isoformat(), "lead": lead, "pulse": _pulse(pulse, now),
             "sections": [{"name": s["name"], "cards": s["cards"], "more": s["more"]} for s in magazine["sections"]]}
 
@@ -365,6 +374,45 @@ def _pager(today: date, available: set, current: date, root: str) -> Dict:
             "next": {"label": _day_label(later[0]), "href": _day_href(later[0], today, root)} if later else None}
 
 
+def _week_page(week: Dict, names: List[str], base: str, ids: List[str]) -> Dict:
+    """Template context for a saved week (or the preview); links checked again, colors from config."""
+    def color(name) -> str:
+        return PALETTE[names.index(name) % len(PALETTE)] if name in names else NEUTRAL_COLOR
+
+    start, end = date.fromisoformat(week["start"]), date.fromisoformat(week["end"])
+    days = []
+    for d in week["days"]:
+        lead = d.get("lead") if isinstance(d.get("lead"), dict) else None
+        days.append({"label": week_store.label(date.fromisoformat(d["date"])), "lead": {
+            "title": _text(lead.get("title")) or "Untitled", "link": safe_link(_text(lead.get("link"))),
+            "source": _text(lead.get("source")), "section": _text(lead.get("section")),
+            "color": color(lead.get("section")), "take": _text(lead.get("take")) or None} if lead else None})
+    top = [{"title": _text(t.get("title")) or "Untitled", "link": safe_link(_text(t.get("link"))),
+            "source": _text(t.get("source")), "section": _text(t.get("section")), "color": color(t.get("section")),
+            "day": week_store.label(date.fromisoformat(t["date"])) if _text(t.get("date")) else ""}
+           for t in week["top"]]
+    url = SITE_URL + ("week/" if week.get("preview") else f"week/{week['week']}/")
+    clean = dict(week, days=[{"date": d["date"], "lead": dict(d["lead"], link=x["lead"]["link"]) if x["lead"] else None}
+                             for d, x in zip(week["days"], days)],
+                 top=[dict(t, link=x["link"]) for t, x in zip(week["top"], top)])
+    index = ids.index(week["week"]) if week["week"] in ids and not week.get("preview") else None
+    nav = {}
+    if index is not None:
+        for key, other in (("prev", index - 1), ("next", index + 1)):
+            if 0 <= other < len(ids):
+                w = ids[other]
+                nav[key] = {"href": f"{base}{w}/", "label": week_store.short_span(*_week_bounds(w))}
+    title = "Week so far" if week.get("preview") else "Week in review"
+    return {"heading": f"{title} · {week_store.span(start, end)}", "preview": bool(week.get("preview")),
+            "days": days, "top": top, "text": week_store.plain_text(clean, url), "week_nav": nav, "page_url": url}
+
+
+def _week_bounds(wid: str):
+    year, week = wid.split("-W")
+    monday = date.fromisocalendar(int(year), int(week), 1)
+    return monday, monday + timedelta(days=6)
+
+
 def _sorted_posts(posts: List[Dict]) -> List[Dict]:
     dated = sorted((p for p in posts if p.get("date")), key=lambda p: p["date"], reverse=True)
     return dated + [p for p in posts if not p.get("date")]
@@ -390,13 +438,16 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
           out_dir: Path, now: datetime, story=None, pulse: Optional[List[Dict]] = None,
           learn: Optional[Dict] = None, briefs: Optional[Dict[str, Dict]] = None,
           takes: Optional[Dict[str, str]] = None, events: Optional[Dict] = None,
-          events_horizon: int = 90) -> Dict:
+          events_horizon: int = 90, today_brief: Optional[Dict] = None, weeks: Optional[Dict[str, Dict]] = None,
+          week_preview: Optional[Dict] = None) -> Dict:
     """Write the site and return today's brief snapshot. `story` is a src.story.Story for the lead, or None for
     no lead; `pulse` is src.pulse.collect's items, or None/[] to hide The Pulse; `learn` is src.learn.collect's
     videos (empty lists when unavailable), or None for no Learn page; `briefs` maps YYYY-MM-DD to earlier
     snapshots (src.briefs.load), each rendered at /brief/<date>/ like today's; `takes` is src.takes.load's
     date -> Mark's take, shown under that day's lead; `events` is src.events.collect's data (empty lists when
-    unavailable), or None for no Events page."""
+    unavailable), or None for no Events page; `today_brief` is today's snapshot if already made
+    (brief_snapshot); `weeks` are the saved weeks (src.weeks.load) and `week_preview` the week so far, shown at
+    /week/ only when no week is saved."""
     env = Environment(loader=FileSystemLoader(SITE_DIR / "templates"), autoescape=True,
                       trim_blocks=True, lstrip_blocks=True)
     env.globals.update(post_href=_post_href, today=now.strftime("%A, %B %d, %Y"),
@@ -415,7 +466,9 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
         path.write_text(env.get_template(template).render(**{**common, "page_url": page_url, **ctx}))
 
     names, today, takes = list(feed), now.date(), takes or {}
-    snap = brief_snapshot(feed, story, pulse, now, take=takes.get(now.date().isoformat()))
+    snap = today_brief or brief_snapshot(feed, story, pulse, now, take=takes.get(now.date().isoformat()))
+    saved_weeks = dict(sorted((weeks or {}).items()))
+    latest_week = week_store.latest(saved_weeks, week_preview)
     window = {d.isoformat() for d in brief_store.window(today)}
     pages = {d: b for d, b in (briefs or {}).items() if d in window}
     pages[today.isoformat()] = snap
@@ -426,15 +479,21 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
           days=_days(today, available, today, ""), **_brief_page(snap, names, takes.get(today.isoformat())),
           pulse_color=PULSE_COLOR,
           learn_teaser=videos["top"][:LEARN_TEASER] if videos else [], learn_color=LEARN_COLOR,
-          cfp_strip=radar["cfps"][:CFP_STRIP] if radar else [], events_color=EVENTS_COLOR)
+          cfp_strip=radar["cfps"][:CFP_STRIP] if radar else [], events_color=EVENTS_COLOR,
+          week_link=latest_week is not None)
     for iso, page in sorted(pages.items()):
         day, root = date.fromisoformat(iso), "../../"
         label = f"Brief · {day:%A, %B %d, %Y}"
         write(f"brief/{iso}/index.html", "index.html", root=root, page="feed", heading=label, title_prefix=label,
               days=_days(today, available, day, root), pager=_pager(today, available, day, root),
               is_today=day == today, **_brief_page(page, names, takes.get(iso)), pulse_color=PULSE_COLOR, writing=[],
-              learn_teaser=[], learn_color=LEARN_COLOR)
+              learn_teaser=[], learn_color=LEARN_COLOR, week_link=latest_week is not None)
     write("404.html", "404.html", root="/", page="")
+    ids = list(saved_weeks)
+    for wid, week in saved_weeks.items():
+        write(f"week/{wid}/index.html", "week.html", root="../../", page="week", **_week_page(week, names, "../", ids))
+    if latest_week is not None:
+        write("week/index.html", "week.html", root="../", page="week", **_week_page(latest_week, names, "", ids))
     if radar is not None:
         ics_url = SITE_URL + "events/cfps.ics"
         write("events/index.html", "events.html", root="../", page="events", events=radar, events_color=EVENTS_COLOR,
