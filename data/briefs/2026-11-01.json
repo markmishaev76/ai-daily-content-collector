@@ -13,7 +13,7 @@
     "note": null,
     "labels": [
       "Agent Identity & Authorization",
-      "3h ago"
+      "6h ago"
     ],
     "also": []
   },
@@ -25,22 +25,10 @@
       "link_domain": "atlasum.net",
       "source": "Hacker News",
       "domain": "atlasum.net",
-      "meta": "Hacker News · 440 points · 205 comments · 10h ago",
+      "meta": "Hacker News · 491 points · 226 comments · 13h ago",
       "also": [],
       "image": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf/opengraph-image",
       "icon": "https://atlasum.net/favicon/apple-touch-icon.png"
-    },
-    {
-      "title": "Do the math: How we took over ChatGPT accounts",
-      "thread": "https://news.ycombinator.com/item?id=50314699",
-      "link": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-      "link_domain": "parameter.ai",
-      "source": "Hacker News",
-      "domain": "parameter.ai",
-      "meta": "Hacker News · 316 points · 157 comments · 19h ago",
-      "also": [],
-      "image": "https://www.parameter.ai/opengraph-image.png",
-      "icon": "https://www.parameter.ai/apple-icon.png"
     },
     {
       "title": "Anthropic blocks users for anything touching training larger models",
@@ -49,10 +37,22 @@
       "link_domain": "twitter.com",
       "source": "Hacker News",
       "domain": "twitter.com",
-      "meta": "Hacker News · 291 points · 162 comments · 10h ago",
+      "meta": "Hacker News · 334 points · 190 comments · 13h ago",
       "also": [],
       "image": "https://pbs.twimg.com/profile_images/1983126868095315969/28wHeS_J_400x400.jpg",
       "icon": "https://x.com/apple-touch-icon.png"
+    },
+    {
+      "title": "Do the math: How we took over ChatGPT accounts",
+      "thread": "https://news.ycombinator.com/item?id=50314699",
+      "link": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "link_domain": "parameter.ai",
+      "source": "Hacker News",
+      "domain": "parameter.ai",
+      "meta": "Hacker News · 325 points · 162 comments · 22h ago",
+      "also": [],
+      "image": "https://www.parameter.ai/opengraph-image.png",
+      "icon": "https://www.parameter.ai/apple-icon.png"
     },
     {
       "title": "Malware uses LLMs to rank victims by how much they're worth",
@@ -61,7 +61,7 @@
       "link_domain": "blog.talosintelligence.com",
       "source": "Hacker News",
       "domain": "blog.talosintelligence.com",
-      "meta": "Hacker News · 241 points · 131 comments · 15h ago",
+      "meta": "Hacker News · 246 points · 131 comments · 18h ago",
       "also": [],
       "image": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/size/w1200/2026/10/VOLTA.jpg",
       "icon": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/size/w256h256/2022/07/talos_o_square.png"
@@ -73,7 +73,7 @@
       "link_domain": "mashable.com",
       "source": "Hacker News",
       "domain": "mashable.com",
-      "meta": "Hacker News · 126 points · 78 comments · 8h ago",
+      "meta": "Hacker News · 140 points · 87 comments · 11h ago",
       "also": [],
       "image": "https://helios-i.mashable.com/imagery/articles/00cSAXoWdRYObLNtN71MkCO/hero-image.fill.size_1200x675.v1793455880.png",
       "icon": "https://mashable.com/favicons/apple-touch-icon.jpg"
@@ -135,6 +135,41 @@
       "name": "Security & AppSec",
       "cards": [
         {
+          "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+          "link": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+          "excerpt": "Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company. Polymarket says it is refunding about $2.7 million to 726…",
+          "source": "The Hacker News",
+          "date": "Nov 01",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhe0B28qLAtUMfqN29_phxZJVJORICkj_98MZFwDiXAxFTABw8G9qbsVyD98pg7T_Rvgv83NXyR5tNGYH4dRwlxs3QFTUZxDPHQs2BgFsnmGcOuVW1HkFVCfiCR3Y05kPQrfFx4S7A8DiFXXAAgdc5SiEKx0-0xrW5rNlNSyN3jZJcyXasdpCr5AG7KM3s/s1600/Polymarket.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+          "link": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+          "excerpt": "Cybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government organizations in Asia. The activity, detailed by Kaspersky this week, targeted a custom Windows 10 build used exclusively by government entities in Asia and…",
+          "source": "The Hacker News",
+          "date": "Nov 01",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy0oLNj9TVg8ifLKdJSg4HH1EhN3m_OBldd7wEIeVoQSHtFXSmsiPdmf-njsPD-CbVHY8NckeW2N9rN8-CTnp81zaeFq-ISj04O7ihoj5HgnvJT_zY_0fdC8vCcd5LXL8Mx9ym1fPI5GMrEtjxZoEiernCr_CZwLocgtrJsKZzixEnYUe2WmkehWLNR2hx/s1600/windows-hacker.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+          "link": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+          "excerpt": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899. The FBI, along with the U.S.…",
+          "source": "The Hacker News",
+          "date": "Nov 01",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmb1j0HC3RkKxZ4bBQPaOa5GaLqC2EBtxXHOMnebPlgHGDJG7ryIuSBIR-9YBQuUm6HwD15-OJQgBvIkhbLIApM8XoU0DptSEF6DNhEpinxPA-06wQZhLhRiKmFGO5cVjONcaouGC3lqybhkeEsZj-xebX6u6hSR19mS7sVqOrpR02qNOlpHZJEUjf1HtB/s1600/binance-hack.png",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
           "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
           "link": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
           "excerpt": "A US court sentenced Syrian hacker Ahmad Umar Agha to 42 months for pro-Assad attacks on media, businesses, and government entities. The post Syrian Hacker Gets Prison Time in US After Over a Decade on the Run appeared first on SecurityWeek.",
@@ -166,9 +201,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Drupal Commerce Core Vulnerability Exploited Against Online Stores",
           "link": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/",
@@ -189,39 +222,6 @@
           "image": "https://www.securityweek.com/wp-content/uploads/2026/06/GitLab.jpeg",
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
-          "hn": null
-        },
-        {
-          "title": "TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines",
-          "link": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
-          "excerpt": "An integer overflow tracked as CVE-2026-111585 could be used to execute arbitrary code on the viewer’s system. The post TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Oct 30",
-          "image": "https://www.securityweek.com/wp-content/uploads/2024/06/Teamviewer.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null
-        },
-        {
-          "title": "Northflank security breach leads to abuse of customers' AI API keys",
-          "link": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
-          "excerpt": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
-          "source": "BleepingComputer",
-          "date": "Oct 31",
-          "image": "https://www.bleepstatic.com/content/hl-images/2026/10/31/northflank-header.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
-          "hn": null
-        },
-        {
-          "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
-          "link": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
-          "excerpt": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. [...]",
-          "source": "BleepingComputer",
-          "date": "Oct 31",
-          "image": "https://www.bleepstatic.com/content/hl-images/2024/01/31/image_(2).jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
           "hn": null
         }
       ]
@@ -265,12 +265,12 @@
       ],
       "more": [
         {
-          "title": "Cloudflare’s Post-Quantum GeoKey Manager Enters Closed Beta Without Attribute-Based Encryption",
-          "link": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "Cloudflare has moved a post-quantum rebuild of GeoKey Manager into closed beta, guarding geo-fenced keys with hybrid ML-KEM-768 and X25519 instead of the attribute-based encryption used since 2022. Keys live only in kernel memory on verified regional servers, and any failed check rejects the…",
+          "title": "AWS Capacity Largely Sold Out Through 2027, With On Demand Headroom Reserved",
+          "link": "https://www.infoq.com/news/2026/11/aws-capacity-sold-out/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Amazon CEO Andy Jassy says AWS’s large committed cloud capacity is largely sold out through 2027, with part of 2028 already allocated, while the company continues to reserve headroom for On Demand, EC2 and Bedrock. Practitioners discussing the remarks report difficulty obtaining On Demand capacity…",
           "source": "InfoQ",
-          "date": "Oct 31",
-          "image": "https://res.infoq.com/news/2026/10/cf-pq-geokey-manager/en/headerimage/generatedHeaderImage-1793376907936.jpg",
+          "date": "Nov 01",
+          "image": "https://res.infoq.com/news/2026/11/aws-capacity-sold-out/en/headerimage/generatedHeaderImage-1793124716899.jpg",
           "icon": null,
           "domain": "infoq.com",
           "hn": null
@@ -325,18 +325,29 @@
       "name": "News & Research",
       "cards": [
         {
-          "title": "Show HN: BBRouter – Ben Eater's 8-bit computer, simulated on 3D breadboards",
-          "link": "https://bbrouter.com/bbrouter/ben-eater-sap-1",
-          "excerpt": "A project by @bbrouter on BBRouter, the 3D breadboard editor and simulator: open it to look around and run it.",
-          "source": "bbrouter.com via Hacker News",
+          "title": "The AI cost of JavaScript frameworks",
+          "link": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+          "excerpt": "One of my pet peeves with the web development community is that so many of the decisions we make are vibes-based. Frameworks are “blazing fast,” tools will…",
+          "source": "nolanlawson.com via Hacker News",
           "date": "Nov 01",
-          "image": "https://bbrouter.com/api/public/bbrouter/Ben-Eater-SAP-1/picture?card&r=27",
-          "icon": "https://bbrouter.com/apple-touch-icon.png",
-          "domain": "bbrouter.com",
-          "hn": "20 points · 6 comments"
+          "image": "https://nolanlawson.com/_astro/frameworks.B14_z7MF_2lv3q1.webp",
+          "icon": "https://nolanlawson.com/apple-touch-icon.png",
+          "domain": "nolanlawson.com",
+          "hn": "29 points · 10 comments"
         },
         {
-          "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM",
+          "title": "OTape",
+          "link": "https://www.otape.org/",
+          "excerpt": "One cassette, one file. An open format for digital cassettes with two sides, a fixed length, record tabs, a label and a J-card.",
+          "source": "otape.org via Hacker News",
+          "date": "Nov 01",
+          "image": "https://otape.org/assets/img/og.jpg",
+          "icon": "https://www.otape.org/assets/img/favicon.svg",
+          "domain": "otape.org",
+          "hn": "25 points · 12 comments"
+        },
+        {
+          "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM (2024)",
           "link": "https://arxiv.org/abs/2409.02292",
           "excerpt": "Air-gapped systems are physically separated from external networks, including the Internet. This isolation is achieved by keeping the air-gap computers disconnected from wired or wireless networks, preventing direct or remote communication with other devices or networks. Air-gap measures may be…",
           "source": "arxiv.org via Hacker News",
@@ -344,31 +355,20 @@
           "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
           "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png",
           "domain": "arxiv.org",
-          "hn": "42 points · 19 comments"
-        },
-        {
-          "title": "When electric cars were for women",
-          "link": "https://spectrum.ieee.org/early-electric-vehicles",
-          "excerpt": "Early carmakers decided women wanted cars that were quiet, clean, and easy to start",
-          "source": "spectrum.ieee.org via Hacker News",
-          "date": "Oct 31",
-          "image": "https://spectrum.ieee.org/media-library/image.jpg?id=68537019&width=1200&height=600&coordinates=0%2C300%2C0%2C301",
-          "icon": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNjU5NjY0OS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTg0ODgxODUwNn0.1LlzHtxZSVXyzapxWjeSrRIRu5qo3CeB8FaWpd2tl_o/img.png?width=192&height=192",
-          "domain": "spectrum.ieee.org",
-          "hn": "58 points · 43 comments"
+          "hn": "75 points · 32 comments"
         }
       ],
       "more": [
         {
-          "title": "Constructing a Quine from Kleene's Second Recursion Theorem",
-          "link": "https://emarzion.github.io/KSRT/",
-          "excerpt": "Table of contents",
-          "source": "emarzion.github.io via Hacker News",
+          "title": "ChatGPT and Codex usage limits merging",
+          "link": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+          "excerpt": "100 points · 42 comments",
+          "source": "help.openai.com via Hacker News",
           "date": "Oct 31",
           "image": null,
-          "icon": "https://emarzion.github.io/favicon.ico",
-          "domain": "emarzion.github.io",
-          "hn": "15 points · 1 comments"
+          "icon": "https://help.openai.com/favicon.ico",
+          "domain": "help.openai.com",
+          "hn": "100 points · 42 comments"
         },
         {
           "title": "Altoids Project",
@@ -379,7 +379,7 @@
           "image": null,
           "icon": "https://uvdn7.github.io/favicon.ico",
           "domain": "uvdn7.github.io",
-          "hn": "83 points · 4 comments"
+          "hn": "102 points · 4 comments"
         },
         {
           "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
@@ -390,7 +390,7 @@
           "image": "https://opengraph.githubassets.com/a7b7a1ea0aa7cf5973b524f6b84227facb1eebf9f79648b95f3d6944adb2e342/guregodevo/memdoor",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "163 points · 89 comments"
+          "hn": "211 points · 102 comments"
         },
         {
           "title": "An Italian farmer found some unknown seeds in his attic and planted them",
@@ -401,7 +401,7 @@
           "image": "https://th-thumbnailer.cdn-si-edu.com/_-X8sWyx82CD0eX5ZxIF7dcS2X8=/fit-in/1600x0/filters:focal(1181x787:1182x788)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/37/95/3795362b-64a6-4d5f-b7df-67aa18192521/l2190910.jpg",
           "icon": "https://www.smithsonianmag.com/static/smithsonianmag/img/smithmag-favicon-logo.cb31c6e193dd.png",
           "domain": "smithsonianmag.com",
-          "hn": "283 points · 77 comments"
+          "hn": "370 points · 107 comments"
         },
         {
           "title": "AI text watermarking and quality loss",
@@ -412,7 +412,7 @@
           "image": "https://substackcdn.com/image/fetch/$s_!EKF2!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d292d10-d3ea-4c94-b5a7-2b422b15c140_1672x941.png",
           "icon": "https://substackcdn.com/image/fetch/$s_!yN8B!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff34a514e-920f-4253-bad2-9b27887a59c3%2Fapple-touch-icon-57x57.png",
           "domain": "blog.keyvan.net",
-          "hn": "43 points · 7 comments"
+          "hn": "52 points · 8 comments"
         }
       ]
     }
