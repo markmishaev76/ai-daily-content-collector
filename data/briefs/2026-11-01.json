@@ -13,7 +13,7 @@
     "note": null,
     "labels": [
       "Agent Identity & Authorization",
-      "6h ago"
+      "7h ago"
     ],
     "also": []
   },
@@ -73,7 +73,7 @@
       "link_domain": "mashable.com",
       "source": "Hacker News",
       "domain": "mashable.com",
-      "meta": "Hacker News · 144 points · 89 comments · 12h ago",
+      "meta": "Hacker News · 145 points · 89 comments · 12h ago",
       "also": [],
       "image": "https://helios-i.mashable.com/imagery/articles/00cSAXoWdRYObLNtN71MkCO/hero-image.fill.size_1200x675.v1793455880.png",
       "icon": "https://mashable.com/favicons/apple-touch-icon.jpg"
@@ -93,9 +93,37 @@
           "icon": "https://lucumr.pocoo.org/static/avatar-small.jpg",
           "domain": "lucumr.pocoo.org",
           "hn": null,
-          "score": 0.772,
+          "score": 0.771,
           "coverage": 1
         },
+        {
+          "title": "Trust Is the Binding Constraint",
+          "link": "https://newsletter.kentbeck.com/p/trust-is-the-binding-constraint",
+          "excerpt": "Teams accumulate code faster than they accumulate trust.",
+          "source": "Kent Beck",
+          "date": "Oct 30",
+          "image": "https://substackcdn.com/image/fetch/$s_!glPN!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Ftidyfirst.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D1077263058%26version%3D9",
+          "icon": "https://substackcdn.com/icons/substack/apple-touch-icon.png",
+          "domain": "newsletter.kentbeck.com",
+          "hn": null,
+          "score": 0.256,
+          "coverage": 1
+        },
+        {
+          "title": "We're Renaming This Newsletter (and You Get First Word)",
+          "link": "https://newsletter.kentbeck.com/p/were-renaming-this-newsletter-and",
+          "excerpt": "When I started this Substack in 2021 it had one job: keep me writing by creating community, feedback, and energy.",
+          "source": "Kent Beck",
+          "date": "Oct 28",
+          "image": "https://substackcdn.com/image/fetch/$s_!glPN!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Ftidyfirst.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D1077263058%26version%3D9",
+          "icon": "https://substackcdn.com/icons/substack/apple-touch-icon.png",
+          "domain": "newsletter.kentbeck.com",
+          "hn": null,
+          "score": 0.138,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "How We Took Over ChatGPT Accounts",
           "link": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
@@ -106,7 +134,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.653,
+          "score": 0.652,
           "coverage": 1
         },
         {
@@ -119,11 +147,10 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.622,
+          "score": 0.621,
           "coverage": 1
         }
-      ],
-      "more": []
+      ]
     },
     {
       "name": "AI Agents & Agent Security",
@@ -138,7 +165,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 2.566,
+          "score": 2.563,
           "coverage": 1
         },
         {
@@ -170,7 +197,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.518,
+          "score": 0.517,
           "coverage": 1
         },
         {
@@ -183,7 +210,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.505,
+          "score": 0.504,
           "coverage": 1
         },
         {
@@ -196,7 +223,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.494,
+          "score": 0.493,
           "coverage": 1
         }
       ],
@@ -322,7 +349,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.678,
+          "score": 0.677,
           "coverage": 1
         },
         {
@@ -392,7 +419,7 @@
           "icon": "https://bbrouter.com/apple-touch-icon.png",
           "domain": "bbrouter.com",
           "hn": "29 points · 8 comments",
-          "score": 2.077,
+          "score": 2.074,
           "coverage": 1
         },
         {
@@ -405,7 +432,7 @@
           "icon": "https://unsung.aresluna.org/pac-mans-siren-call/_unsung/favicon-halloween-dark.png",
           "domain": "unsung.aresluna.org",
           "hn": "11 points · 3 comments",
-          "score": 2.338,
+          "score": 2.333,
           "coverage": 1
         },
         {
@@ -418,7 +445,7 @@
           "icon": "https://nolanlawson.com/apple-touch-icon.png",
           "domain": "nolanlawson.com",
           "hn": "42 points · 18 comments",
-          "score": 3.197,
+          "score": 3.191,
           "coverage": 1
         }
       ],
@@ -433,7 +460,7 @@
           "icon": "https://help.openai.com/favicon.ico",
           "domain": "help.openai.com",
           "hn": "109 points · 49 comments",
-          "score": 5.864,
+          "score": 5.857,
           "coverage": 1
         },
         {
@@ -446,7 +473,7 @@
           "icon": "https://www.otape.org/assets/img/favicon.svg",
           "domain": "otape.org",
           "hn": "25 points · 14 comments",
-          "score": 2.338,
+          "score": 2.334,
           "coverage": 1
         },
         {
@@ -459,7 +486,7 @@
           "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png",
           "domain": "arxiv.org",
           "hn": "78 points · 36 comments",
-          "score": 2.812,
+          "score": 2.808,
           "coverage": 1
         },
         {
@@ -472,7 +499,7 @@
           "icon": "https://uvdn7.github.io/favicon.ico",
           "domain": "uvdn7.github.io",
           "hn": "106 points · 4 comments",
-          "score": 2.437,
+          "score": 2.434,
           "coverage": 1
         },
         {
@@ -485,7 +512,7 @@
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
           "hn": "214 points · 105 comments",
-          "score": 2.89,
+          "score": 2.886,
           "coverage": 1
         }
       ]
