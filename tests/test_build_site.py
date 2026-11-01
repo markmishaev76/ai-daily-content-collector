@@ -29,7 +29,7 @@ def run(tmp_path, feed, fetch_medium=lambda url: [], fetch_meta=lambda url: None
                            fetch_meta=fetch_meta, og_cache_path=tmp_path / "og-cache.json",
                            fetch_medium=fetch_medium, data_path=tmp_path / "medium.json",
                            posts_dir=tmp_path / "posts", about_path=tmp_path / "about.md",
-                           history_path=tmp_path / "lead-history.json", seen_path=tmp_path / "seen.json", briefs_dir=tmp_path / "briefs", pinned_path=tmp_path / "pinned.yaml",
+                           history_path=tmp_path / "lead-history.json", seen_path=tmp_path / "seen.json", briefs_dir=tmp_path / "briefs", takes_path=tmp_path / "takes.yaml", pinned_path=tmp_path / "pinned.yaml",
                            now=now)
     return code, out
 
@@ -139,7 +139,7 @@ def run_pulse(tmp_path, collect, fetch_meta=lambda url: None, feed=None):
     code = build_site.main(out_dir=out, config=dict(CONFIG, pulse={"subreddits": ["ClaudeAI"]}),
                            aggregator=FakeAggregator(feed or {"T": [article(1)]}), fetch_medium=lambda url: [],
                            data_path=tmp_path / "medium.json", posts_dir=tmp_path / "posts",
-                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json", seen_path=tmp_path / "seen.json", briefs_dir=tmp_path / "briefs",
+                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json", seen_path=tmp_path / "seen.json", briefs_dir=tmp_path / "briefs", takes_path=tmp_path / "takes.yaml",
                            pinned_path=tmp_path / "pinned.yaml", now=NOW, fetch_meta=fetch_meta,
                            og_cache_path=tmp_path / "og.json", collect_pulse=collect)
     return code, (out / "index.html").read_text() if (out / "index.html").exists() else ""
@@ -200,7 +200,7 @@ def run_learn(tmp_path, collect, caplog):
     code = build_site.main(out_dir=out, config=dict(CONFIG, learn={"channels": channels}),
                            aggregator=FakeAggregator({"T": [article(1)]}), fetch_medium=lambda url: [],
                            data_path=tmp_path / "medium.json", posts_dir=tmp_path / "posts",
-                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json", seen_path=tmp_path / "seen.json", briefs_dir=tmp_path / "briefs",
+                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json", seen_path=tmp_path / "seen.json", briefs_dir=tmp_path / "briefs", takes_path=tmp_path / "takes.yaml",
                            pinned_path=tmp_path / "pinned.yaml", now=NOW, fetch_meta=lambda url: None,
                            og_cache_path=tmp_path / "og.json", collect_learn=collect)
     return code, out
@@ -237,7 +237,7 @@ def test_invalid_learn_config_fails_build(tmp_path, caplog):
     code = build_site.main(out_dir=out, config=dict(CONFIG, learn={"channels": [{"name": "X", "id": "@x"}]}),
                            aggregator=FakeAggregator({"T": [article(1)]}), fetch_medium=lambda url: [],
                            data_path=tmp_path / "medium.json", posts_dir=tmp_path / "posts",
-                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json", seen_path=tmp_path / "seen.json", briefs_dir=tmp_path / "briefs",
+                           about_path=tmp_path / "about.md", history_path=tmp_path / "h.json", seen_path=tmp_path / "seen.json", briefs_dir=tmp_path / "briefs", takes_path=tmp_path / "takes.yaml",
                            pinned_path=tmp_path / "pinned.yaml", now=NOW, fetch_meta=lambda url: None,
                            og_cache_path=tmp_path / "og.json")
 
@@ -285,7 +285,7 @@ def test_feed_hours_back_validated_before_fetching(tmp_path, caplog):
     code = build_site.main(out_dir=tmp_path / "public", config=config, aggregator=FakeAggregator({"T": [article(1)]}),
                            fetch_medium=lambda url: [], data_path=tmp_path / "medium.json", posts_dir=tmp_path / "posts",
                            about_path=tmp_path / "about.md", history_path=tmp_path / "h.json",
-                           seen_path=tmp_path / "seen.json", briefs_dir=tmp_path / "briefs", pinned_path=tmp_path / "pinned.yaml", now=NOW,
+                           seen_path=tmp_path / "seen.json", briefs_dir=tmp_path / "briefs", takes_path=tmp_path / "takes.yaml", pinned_path=tmp_path / "pinned.yaml", now=NOW,
                            fetch_meta=lambda url: None, og_cache_path=tmp_path / "og.json")
 
     assert code == 1 and "config.yaml" in caplog.text and "hours_back" in caplog.text
@@ -333,3 +333,30 @@ def test_corrupt_brief_snapshot_fails_build_naming_file(tmp_path, caplog):
 
     assert code == 1 and not (out / "index.html").exists()
     assert "briefs/2026-10-22.json" in caplog.text
+
+
+def test_take_for_a_day_without_lead_is_ignored_with_warning(tmp_path, caplog, monkeypatch):
+    (tmp_path / "takes.yaml").write_text('2026-10-23: "Nice one."\n')
+    monkeypatch.setattr(build_site.story, "pick_story", lambda *a, **k: None)
+
+    code, out = run(tmp_path, {"T": [article(1)]})
+
+    assert code == 0 and "Mark's take" not in (out / "index.html").read_text()
+    assert "takes.yaml" in caplog.text and "2026-10-23" in caplog.text and "no story of the day" in caplog.text
+
+
+def test_take_attached_to_todays_lead(tmp_path):
+    (tmp_path / "takes.yaml").write_text('2026-10-23: "Nice one."\n')
+
+    code, out = run(tmp_path, {"T": [article(1)]})
+
+    assert code == 0 and "Nice one." in (out / "index.html").read_text()
+    assert json.loads((tmp_path / "briefs" / "2026-10-23.json").read_text())["lead"]["take"] == "Nice one."
+
+
+def test_invalid_takes_fails_build_naming_file(tmp_path, caplog):
+    (tmp_path / "takes.yaml").write_text("2026-10-23: [broken\n")
+
+    code, out = run(tmp_path, {"T": [article(1)]})
+
+    assert code == 1 and not (out / "index.html").exists() and "takes.yaml" in caplog.text

@@ -39,3 +39,10 @@ def test_pinned_file_triggers_build():
         workflow = yaml.safe_load(f)
 
     assert "pinned.yaml" in workflow[True]["push"]["paths"]
+
+
+def test_takes_file_triggers_build():
+    with open(".github/workflows/site.yml") as f:
+        workflow = yaml.safe_load(f)
+
+    assert "takes.yaml" in workflow[True]["push"]["paths"]

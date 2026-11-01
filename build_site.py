@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Dict, List, Tuple
 
 from main import load_config, select_articles
-from src import briefs, enrich, learn, medium, pulse, seen, site_builder, story
+from src import briefs, enrich, learn, medium, pulse, seen, site_builder, story, takes as mark_takes
 from src.content_aggregator import ContentAggregator, validate_sources
 from src.hn import min_points
 from src.posts import load_local_posts, render_markdown_file
@@ -72,6 +72,17 @@ def _fetch_learn(config: dict, now: datetime, days: int, collect=None) -> Dict:
     return videos
 
 
+def _warn_unused_takes(takes: Dict[str, str], past_briefs: Dict[str, Dict], lead, now: datetime) -> None:
+    """Warn about takes in the 7-day window that have no story of the day to attach to."""
+    for day in briefs.window(now.date()):
+        iso = day.isoformat()
+        if iso not in takes:
+            continue
+        has_lead = bool(lead) if day == now.date() else bool((past_briefs.get(iso) or {}).get("lead"))
+        if not has_lead:
+            logger.warning(f"takes.yaml: ignoring the take for {iso}: no story of the day that day")
+
+
 def _tile_counts(feed: Dict[str, List[Dict]]) -> Dict[str, int]:
     counts = {"feed images": 0, "og:images": 0, "logos": 0, "plain tiles": 0}
     for article in (a for articles in feed.values() for a in articles):
@@ -89,6 +100,7 @@ def main(out_dir: Path = Path("public"), config: dict = None, aggregator=None,
          posts_dir: Path = Path("posts"), about_path: Path = Path("about.md"),
          history_path: Path = Path("data/lead-history.json"), pinned_path: Path = Path("pinned.yaml"),
          seen_path: Path = Path("data/seen.json"), briefs_dir: Path = Path("data/briefs"),
+         takes_path: Path = Path("takes.yaml"),
          now: datetime = None, fetch_meta=enrich.fetch_meta,
          og_cache_path: Path = Path("data/og-cache.json"), collect_pulse=None, collect_learn=None) -> int:
     config = config or load_config()
@@ -98,6 +110,7 @@ def main(out_dir: Path = Path("public"), config: dict = None, aggregator=None,
         history = story.load_history(history_path)
         shown_before = seen.load(seen_path)
         past_briefs = briefs.load(briefs_dir, now.date())
+        takes = mark_takes.load(takes_path)
         validate_sources(config['topics'])
         story.section_weights(config)
         story.lead_min_hn_points(config)
@@ -155,8 +168,9 @@ def main(out_dir: Path = Path("public"), config: dict = None, aggregator=None,
     about_html = render_markdown_file(about_path) if about_path.exists() else ""
 
     videos = _fetch_learn(config, now, learn_settings["max_age_days"], collect_learn) if learn_settings else None
+    _warn_unused_takes(takes, past_briefs, lead, now)
     today_brief = site_builder.build(feed, posts, about_html, out_dir, now, story=lead, pulse=pulse_items,
-                                     learn=videos, briefs=past_briefs)
+                                     learn=videos, briefs=past_briefs, takes=takes)
     briefs.save(briefs_dir, now.date(), today_brief)
     briefs.prune(briefs_dir, now.date())
     logger.info(f"Briefs: saved {now.date()}, past days available: {', '.join(sorted(past_briefs)) or 'none'}")

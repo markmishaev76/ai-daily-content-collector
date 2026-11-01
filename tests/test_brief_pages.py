@@ -198,3 +198,35 @@ def test_reconstructed_flag_must_be_true_not_truthy(tmp_path):
     build(tmp_path, briefs={"2026-10-21": dict(past(), reconstructed="yes")})
 
     assert "Reconstructed from the feeds" not in page(tmp_path, "2026-10-21")
+
+
+def test_take_renders_under_lead_headline_escaped_and_is_in_snapshot(tmp_path):
+    lead = story.Story(title="Lead", link="https://example.com/lead", summary="S", source="Src", published=NOW,
+                       image=None, section="Topic")
+    snap = build(tmp_path, story=lead, takes={"2026-10-22": "Read this <b>now</b> & patch."})
+    html = page(tmp_path)
+    block_ = html[html.index('class="lead'):html.index("<!-- /lead -->")]
+
+    assert snap["lead"]["take"] == "Read this <b>now</b> & patch."
+    assert block_.index("<h1>") < block_.index('class="take"') < block_.index('class="meta"')
+    assert "Mark's take" in block_ and "Read this &lt;b&gt;now&lt;/b&gt; &amp; patch." in block_
+    assert 'class="take-photo"' in block_ and "static/mark.jpg" in block_
+    assert "Read this" in page(tmp_path, "2026-10-22")
+
+
+def test_no_take_no_block(tmp_path):
+    lead = story.Story(title="Lead", link="https://example.com/lead", summary="S", source="Src", published=NOW,
+                       image=None, section="Topic")
+    snap = build(tmp_path, story=lead, takes={"2026-10-21": "Other day"})
+
+    assert "take" not in snap["lead"] and 'class="take"' not in page(tmp_path)
+
+
+def test_past_page_keeps_snapshot_take_and_takes_file_can_add_one_later(tmp_path):
+    kept = past()
+    kept["lead"]["take"] = "Saved take"
+    build(tmp_path, briefs={"2026-10-21": kept, "2026-10-20": past("2026-10-20")},
+          takes={"2026-10-20": "Added later <i>"})
+
+    assert "Saved take" in page(tmp_path, "2026-10-21")
+    assert "Added later &lt;i&gt;" in page(tmp_path, "2026-10-20")

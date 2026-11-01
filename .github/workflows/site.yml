@@ -12,6 +12,7 @@ on:
       - 'posts/**'
       - 'about.md'
       - 'pinned.yaml'
+      - 'takes.yaml'
       - 'site/**'
       - 'config.yaml'
       - 'src/**'

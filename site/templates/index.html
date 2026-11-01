@@ -48,6 +48,12 @@
     <div class="lead-text">
       <span class="chip" style="--c: {{ lead.color }}">{% if lead.pinned %}Editor's pick{% else %}Story of the day{% endif %}</span>
       <h1>{{ title(lead) }}</h1>
+      {% if lead.take %}
+      <blockquote class="take" style="--c: {{ lead.color }}">
+        <img class="take-photo" src="{{ root }}static/mark.jpg" alt="" width="32" height="32">
+        <div><span class="take-label">Mark's take</span><p>{{ lead.take }}</p></div>
+      </blockquote><!-- /take -->
+      {% endif %}
       <div class="meta">{{ lead.source }}{% if lead.date %} · {{ lead.date }}{% endif %}</div>
       {% if lead.labels %}
       <ul class="why" style="--c: {{ lead.color }}">

@@ -262,11 +262,14 @@ def _magazine(feed: Dict[str, List[Dict]], story=None) -> Dict:
     return {"lead": lead, "sections": sections}
 
 
-def brief_snapshot(feed: Dict[str, List[Dict]], story, pulse: Optional[List[Dict]], now: datetime) -> Dict:
+def brief_snapshot(feed: Dict[str, List[Dict]], story, pulse: Optional[List[Dict]], now: datetime,
+                   take: Optional[str] = None) -> Dict:
     """Today's brief as plain JSON data: the lead, The Pulse and each section's cards and headline rows, with
     links and images already validated. Colors and anchors are not stored; they come from config at render time."""
     magazine = _magazine(feed, story)
     lead = {k: v for k, v in magazine["lead"].items() if k != "color"} if magazine["lead"] else None
+    if lead and take:
+        lead["take"] = take
     return {"date": now.date().isoformat(), "lead": lead, "pulse": _pulse(pulse, now),
             "sections": [{"name": s["name"], "cards": s["cards"], "more": s["more"]} for s in magazine["sections"]]}
 
@@ -285,8 +288,9 @@ def _clean(item: Dict, links=("link",), images=("image", "icon")) -> Dict:
     return out
 
 
-def _brief_page(snap: Dict, names: List[str]) -> Dict:
-    """Template context for a snapshot; sections renamed since it was saved get a neutral color."""
+def _brief_page(snap: Dict, names: List[str], take: Optional[str] = None) -> Dict:
+    """Template context for a snapshot; sections renamed since it was saved get a neutral color. `take`
+    (from takes.yaml) wins over the take saved in the snapshot."""
     def color(name: str, missing: str) -> str:
         return PALETTE[names.index(name) % len(PALETTE)] if name in names else missing
 
@@ -300,6 +304,7 @@ def _brief_page(snap: Dict, names: List[str]) -> Dict:
         lead["image_credit"] = _text(raw.get("image_credit")) or None if lead["image"] else None
         lead["color"] = color(raw.get("section"), LEAD_COLOR)
         lead["labels"] = [label for label in raw.get("labels") or [] if isinstance(label, str)]
+        lead["take"] = take or _text(raw.get("take")) or None
         lead["also"] = [{"name": _text(a.get("name")), "link": safe_link(_text(a.get("link")))}
                         for a in raw.get("also") or [] if isinstance(a, dict) and safe_link(_text(a.get("link")))]
     pulse = []
@@ -359,11 +364,13 @@ def _rss_date(post: Dict) -> Optional[str]:
 
 def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
           out_dir: Path, now: datetime, story=None, pulse: Optional[List[Dict]] = None,
-          learn: Optional[Dict] = None, briefs: Optional[Dict[str, Dict]] = None) -> Dict:
+          learn: Optional[Dict] = None, briefs: Optional[Dict[str, Dict]] = None,
+          takes: Optional[Dict[str, str]] = None) -> Dict:
     """Write the site and return today's brief snapshot. `story` is a src.story.Story for the lead, or None for
     no lead; `pulse` is src.pulse.collect's items, or None/[] to hide The Pulse; `learn` is src.learn.collect's
     videos (empty lists when unavailable), or None for no Learn page; `briefs` maps YYYY-MM-DD to earlier
-    snapshots (src.briefs.load), each rendered at /brief/<date>/ like today's."""
+    snapshots (src.briefs.load), each rendered at /brief/<date>/ like today's; `takes` is src.takes.load's
+    date -> Mark's take, shown under that day's lead."""
     env = Environment(loader=FileSystemLoader(SITE_DIR / "templates"), autoescape=True,
                       trim_blocks=True, lstrip_blocks=True)
     env.globals.update(post_href=_post_href, today=now.strftime("%A, %B %d, %Y"),
@@ -380,22 +387,23 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
         page_url = SITE_URL + rel.removesuffix("index.html")
         path.write_text(env.get_template(template).render(**{**common, "page_url": page_url, **ctx}))
 
-    names, today = list(feed), now.date()
-    snap = brief_snapshot(feed, story, pulse, now)
+    names, today, takes = list(feed), now.date(), takes or {}
+    snap = brief_snapshot(feed, story, pulse, now, take=takes.get(now.date().isoformat()))
     window = {d.isoformat() for d in brief_store.window(today)}
     pages = {d: b for d, b in (briefs or {}).items() if d in window}
     pages[today.isoformat()] = snap
     available = set(pages)
     videos = _learn(learn, now)
     write("index.html", "index.html", root="", page="feed", heading=f"Today · {now:%A, %B %d, %Y}",
-          days=_days(today, available, today, ""), **_brief_page(snap, names), pulse_color=PULSE_COLOR,
+          days=_days(today, available, today, ""), **_brief_page(snap, names, takes.get(today.isoformat())),
+          pulse_color=PULSE_COLOR,
           learn_teaser=videos["top"][:LEARN_TEASER] if videos else [], learn_color=LEARN_COLOR)
     for iso, page in sorted(pages.items()):
         day, root = date.fromisoformat(iso), "../../"
         label = f"Brief · {day:%A, %B %d, %Y}"
         write(f"brief/{iso}/index.html", "index.html", root=root, page="feed", heading=label, title_prefix=label,
               days=_days(today, available, day, root), pager=_pager(today, available, day, root),
-              is_today=day == today, **_brief_page(page, names), pulse_color=PULSE_COLOR, writing=[],
+              is_today=day == today, **_brief_page(page, names, takes.get(iso)), pulse_color=PULSE_COLOR, writing=[],
               learn_teaser=[], learn_color=LEARN_COLOR)
     write("404.html", "404.html", root="/", page="")
     if videos is not None:
