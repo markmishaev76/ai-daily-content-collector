@@ -25,7 +25,7 @@
       "link_domain": "atlasum.net",
       "source": "Hacker News",
       "domain": "atlasum.net",
-      "meta": "Hacker News · 494 points · 226 comments · 13h ago",
+      "meta": "Hacker News · 496 points · 227 comments · 14h ago",
       "also": [],
       "image": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf/opengraph-image",
       "icon": "https://atlasum.net/favicon/apple-touch-icon.png"
@@ -37,7 +37,7 @@
       "link_domain": "twitter.com",
       "source": "Hacker News",
       "domain": "twitter.com",
-      "meta": "Hacker News · 336 points · 190 comments · 13h ago",
+      "meta": "Hacker News · 337 points · 191 comments · 13h ago",
       "also": [],
       "image": "https://pbs.twimg.com/profile_images/1983126868095315969/28wHeS_J_400x400.jpg",
       "icon": "https://x.com/apple-touch-icon.png"
@@ -61,7 +61,7 @@
       "link_domain": "blog.talosintelligence.com",
       "source": "Hacker News",
       "domain": "blog.talosintelligence.com",
-      "meta": "Hacker News · 246 points · 131 comments · 18h ago",
+      "meta": "Hacker News · 247 points · 131 comments · 18h ago",
       "also": [],
       "image": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/size/w1200/2026/10/VOLTA.jpg",
       "icon": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/size/w256h256/2022/07/talos_o_square.png"
@@ -73,13 +73,58 @@
       "link_domain": "mashable.com",
       "source": "Hacker News",
       "domain": "mashable.com",
-      "meta": "Hacker News · 142 points · 89 comments · 11h ago",
+      "meta": "Hacker News · 144 points · 89 comments · 12h ago",
       "also": [],
       "image": "https://helios-i.mashable.com/imagery/articles/00cSAXoWdRYObLNtN71MkCO/hero-image.fill.size_1200x675.v1793455880.png",
       "icon": "https://mashable.com/favicons/apple-touch-icon.jpg"
     }
   ],
   "sections": [
+    {
+      "name": "AI-Assisted Engineering",
+      "cards": [
+        {
+          "title": "Custom Voices With Qwen3-TTS",
+          "link": "https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices/",
+          "excerpt": "With my kids I’m currently building a little dungeron crawler and we’re trying to learn a bit about game development along the way. However given that we live in the modern times of increasing capabilities we wanted to get a narrator and voice over. But we also wanted it to not sound like…",
+          "source": "Armin Ronacher",
+          "date": "Oct 29",
+          "image": "https://lucumr.pocoo.org/social/2026-10-29-qwen3-custom-voices-social.png",
+          "icon": "https://lucumr.pocoo.org/static/avatar-small.jpg",
+          "domain": "lucumr.pocoo.org",
+          "hn": null,
+          "score": 0.772,
+          "coverage": 1
+        },
+        {
+          "title": "How We Took Over ChatGPT Accounts",
+          "link": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+          "excerpt": "How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews), where interactive custom HTML apps are displayed in a…",
+          "source": "Simon Willison",
+          "date": "Oct 31",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.654,
+          "coverage": 1
+        },
+        {
+          "title": "datasette-llm 0.1a9",
+          "link": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+          "excerpt": "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default model used by LLM, which means you can start using Datasette Agent without…",
+          "source": "Simon Willison",
+          "date": "Oct 31",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.623,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
     {
       "name": "AI Agents & Agent Security",
       "cards": [
@@ -93,20 +138,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 2.582,
-          "coverage": 1
-        },
-        {
-          "title": "How We Took Over ChatGPT Accounts",
-          "link": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
-          "excerpt": "How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews), where interactive custom HTML apps are displayed in a…",
-          "source": "Simon Willison",
-          "date": "Oct 31",
-          "image": null,
-          "icon": "https://simonwillison.net/favicon.ico",
-          "domain": "simonwillison.net",
-          "hn": null,
-          "score": 0.686,
+          "score": 2.569,
           "coverage": 1
         },
         {
@@ -123,21 +155,7 @@
           "coverage": 1
         }
       ],
-      "more": [
-        {
-          "title": "datasette-llm 0.1a9",
-          "link": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
-          "excerpt": "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default model used by LLM, which means you can start using Datasette Agent without…",
-          "source": "Simon Willison",
-          "date": "Oct 31",
-          "image": null,
-          "icon": "https://simonwillison.net/favicon.ico",
-          "domain": "simonwillison.net",
-          "hn": null,
-          "score": 0.653,
-          "coverage": 1
-        }
-      ]
+      "more": []
     },
     {
       "name": "Security & AppSec",
@@ -152,7 +170,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.525,
+          "score": 0.52,
           "coverage": 1
         },
         {
@@ -165,7 +183,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.511,
+          "score": 0.506,
           "coverage": 1
         },
         {
@@ -178,7 +196,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.5,
+          "score": 0.495,
           "coverage": 1
         }
       ],
@@ -193,7 +211,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.211,
+          "score": 0.21,
           "coverage": 1
         },
         {
@@ -206,7 +224,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.13,
+          "score": 0.129,
           "coverage": 1
         },
         {
@@ -245,7 +263,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.846,
+          "score": 0.844,
           "coverage": 1
         }
       ]
@@ -263,7 +281,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.802,
+          "score": 0.8,
           "coverage": 1
         },
         {
@@ -276,7 +294,7 @@
           "icon": null,
           "domain": "blog.cloudflare.com",
           "hn": null,
-          "score": 0.219,
+          "score": 0.218,
           "coverage": 1
         },
         {
@@ -289,7 +307,7 @@
           "icon": null,
           "domain": "blog.cloudflare.com",
           "hn": null,
-          "score": 0.206,
+          "score": 0.205,
           "coverage": 1
         }
       ],
@@ -304,7 +322,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.688,
+          "score": 0.68,
           "coverage": 1
         },
         {
@@ -374,7 +392,7 @@
           "icon": "https://bbrouter.com/apple-touch-icon.png",
           "domain": "bbrouter.com",
           "hn": "29 points · 8 comments",
-          "score": 2.095,
+          "score": 2.08,
           "coverage": 1
         },
         {
@@ -387,7 +405,7 @@
           "icon": "https://unsung.aresluna.org/pac-mans-siren-call/_unsung/favicon-halloween-dark.png",
           "domain": "unsung.aresluna.org",
           "hn": "11 points · 3 comments",
-          "score": 2.367,
+          "score": 2.343,
           "coverage": 1
         },
         {
@@ -400,7 +418,7 @@
           "icon": "https://nolanlawson.com/apple-touch-icon.png",
           "domain": "nolanlawson.com",
           "hn": "42 points · 18 comments",
-          "score": 3.236,
+          "score": 3.204,
           "coverage": 1
         }
       ],
@@ -415,7 +433,7 @@
           "icon": "https://help.openai.com/favicon.ico",
           "domain": "help.openai.com",
           "hn": "109 points · 49 comments",
-          "score": 5.911,
+          "score": 5.873,
           "coverage": 1
         },
         {
@@ -428,7 +446,7 @@
           "icon": "https://www.otape.org/assets/img/favicon.svg",
           "domain": "otape.org",
           "hn": "25 points · 14 comments",
-          "score": 2.36,
+          "score": 2.342,
           "coverage": 1
         },
         {
@@ -441,7 +459,7 @@
           "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png",
           "domain": "arxiv.org",
           "hn": "78 points · 36 comments",
-          "score": 2.839,
+          "score": 2.817,
           "coverage": 1
         },
         {
@@ -454,7 +472,7 @@
           "icon": "https://uvdn7.github.io/favicon.ico",
           "domain": "uvdn7.github.io",
           "hn": "106 points · 4 comments",
-          "score": 2.457,
+          "score": 2.441,
           "coverage": 1
         },
         {
@@ -467,7 +485,7 @@
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
           "hn": "214 points · 105 comments",
-          "score": 2.913,
+          "score": 2.894,
           "coverage": 1
         }
       ]
