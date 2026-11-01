@@ -41,8 +41,8 @@ AX_THEME_KEYWORDS = {
     "audit trail": 3, "structured audit": 4, "provenance": 3, "slsa": 4, "sigstore": 3,
     "attestation": 3, "sbom": 3,
     # Secrets for agents
-    "openbao": 5, "vault": 2, "secrets management": 3, "short-lived credential": 4,
-    "credential rotation": 3,
+    "openbao": 5, "vault": 2, "secrets management": 3, "secrets manager": 4, "short-lived credential": 4,
+    "credential rotation": 3, "leaked secret": 3, "secret sprawl": 4,
     # AI agents & platforms
     "ai agent": 4, "autonomous agent": 4, "agent security": 5, "prompt injection": 4,
     "red team": 2, "jailbreak": 2, "ai safety": 3,

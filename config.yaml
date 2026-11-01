@@ -1,7 +1,7 @@
 assistant_name: "Mark's AI Assistant"
 user_name: "Mark"
 
-# Topics: 8 sections, each pooling the feeds of the narrower topics it replaced
+# Topics: 9 sections, each pooling the feeds of the narrower topics it replaced
 topics:
   - name: "AI-Assisted Engineering"
     category: "AI/ML"
@@ -221,8 +221,6 @@ topics:
       - type: "rss"
         url: "https://www.defakto.security/feed/"
       - type: "rss"
-        url: "https://blog.gitguardian.com/rss/"
-      - type: "rss"
         url: "https://cloudblog.withgoogle.com/products/identity-security/rss/"
       - type: "rss"
         url: "https://hnrss.org/newest?q=%22agent+identity%22"
@@ -268,6 +266,35 @@ topics:
       - type: "rss"
         url: "https://auth0.com/blog/rss.xml"
 
+  - name: "Secrets & NHI"
+    category: "Secrets"
+    weight: 1.0
+    always_show: true
+    sources:
+      # Low-volume secrets and non-human identity blogs: a week's window, listed first (see AI-Assisted Engineering).
+      # No GitHub release feeds: their titles are bare version numbers.
+      - type: "rss"
+        url: "https://openbao.org/blog/rss.xml"
+        name: "OpenBao"
+        hours_back: 168
+      - type: "rss"
+        url: "https://blog.gitguardian.com/rss/"
+        name: "GitGuardian"
+        hours_back: 168
+      - type: "rss"
+        url: "https://aembit.io/feed/"
+        name: "Aembit"
+        hours_back: 168
+      - type: "rss"
+        url: "https://www.hashicorp.com/blog/feed.xml"
+        name: "HashiCorp"
+      - type: "rss"
+        url: "https://hnrss.org/newest?q=%22secrets+manager%22+OR+%22secrets+management%22"
+      - type: "rss"
+        url: "https://hnrss.org/newest?q=%22leaked+secrets%22+OR+%22secret+sprawl%22+OR+%22hardcoded+secrets%22"
+      - type: "rss"
+        url: "https://hnrss.org/newest?q=%22HashiCorp+Vault%22+OR+Infisical+OR+%22External+Secrets%22"
+
   - name: "Supply Chain & Builds"
     category: "Supply Chain"
     weight: 1.0
@@ -311,11 +338,6 @@ topics:
         url: "https://snyk.io/blog/feed/"
       - type: "rss"
         url: "https://checkmarx.com/feed/"
-      # Secrets Management & OpenBao
-      - type: "rss"
-        url: "https://openbao.org/blog/rss.xml"
-      - type: "rss"
-        url: "https://www.hashicorp.com/blog/feed.xml"
 
   - name: "Platform, Cloud & Reliability"
     category: "Platform"

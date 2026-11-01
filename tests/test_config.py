@@ -5,6 +5,7 @@ GROUPS = [
     "AI Agents & Agent Security",
     "Leadership",
     "Agent Identity & Authorization",
+    "Secrets & NHI",
     "Supply Chain & Builds",
     "Security & AppSec",
     "Platform, Cloud & Reliability",
@@ -16,12 +17,12 @@ def load():
         return yaml.safe_load(f)
 
 
-def test_eight_groups_in_order():
+def test_nine_groups_in_order():
     assert [t["name"] for t in load()["topics"]] == GROUPS
 
 
 def test_section_weights():
-    assert [t["weight"] for t in load()["topics"]] == [1.5, 1.25, 1.25, 1.0, 1.0, 0.75, 0.75, 0.75]
+    assert [t["weight"] for t in load()["topics"]] == [1.5, 1.25, 1.25, 1.0, 1.0, 1.0, 0.75, 0.75, 0.75]
 
 
 def test_story_tiers_listed():
@@ -141,10 +142,22 @@ def sources(name):
     return next(t["sources"] for t in load()["topics"] if t["name"] == name)
 
 
-def test_ai_sections_always_show():
+def test_ai_and_secrets_sections_always_show():
     from src import story
 
-    assert story.always_show(load()) == ["AI-Assisted Engineering", "AI Agents & Agent Security"]
+    assert story.always_show(load()) == ["AI-Assisted Engineering", "AI Agents & Agent Security", "Secrets & NHI"]
+
+
+def test_secrets_section_owns_secrets_feeds_with_week_window_on_blogs():
+    feeds = sources("Secrets & NHI")
+    by_name = {s.get("name"): s for s in feeds}
+    for name in ("OpenBao", "GitGuardian", "Aembit"):
+        assert by_name[name]["hours_back"] == 168, name
+    assert "hours_back" not in by_name["HashiCorp"]
+    assert sum("hnrss.org" in s["url"] for s in feeds) == 3
+    assert not any("github.com" in s["url"] and s["url"].endswith("releases.atom") for s in feeds)
+    for other in ("Security & AppSec", "Agent Identity & Authorization"):
+        assert not any(u in s["url"] for s in sources(other) for u in ("openbao.org", "gitguardian.com", "hashicorp.com"))
 
 
 def test_ai_engineering_blogs_named_listed_early_with_week_window():
@@ -170,9 +183,9 @@ def test_no_duplicate_or_dead_feeds():
     assert sum("simonwillison.net/atom/everything" in u for u in urls) == 1
 
 
-def test_week_window_only_on_blog_feeds_in_ai_sections():
+def test_week_window_only_on_blog_feeds_in_always_show_sections():
     for topic in load()["topics"]:
         for s in topic["sources"]:
             if s.get("hours_back") == 168:
-                assert topic["name"] in ("AI-Assisted Engineering", "AI Agents & Agent Security")
+                assert topic["name"] in ("AI-Assisted Engineering", "AI Agents & Agent Security", "Secrets & NHI")
                 assert "hnrss.org" not in s["url"]
