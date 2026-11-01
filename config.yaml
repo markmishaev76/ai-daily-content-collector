@@ -16,12 +16,13 @@ topics:
         hours_back: 72
       # First-party AI engineering blogs: a few posts a month, so a week's window (each post still shows once,
       # see data/seen.json). Listed before the high-volume feeds so they win keyword-score ties for the 8 slots.
+      # No *.substack.com URLs: Substack answers 403 to GitHub's runners (custom domains work).
       - type: "rss"
-        url: "https://addyo.substack.com/feed"
+        url: "https://addyosmani.com/rss.xml"
         name: "Addy Osmani"
         hours_back: 168
       - type: "rss"
-        url: "https://tidyfirst.substack.com/feed"
+        url: "https://newsletter.kentbeck.com/feed"
         name: "Kent Beck"
         hours_back: 168
       - type: "rss"

@@ -156,6 +156,8 @@ def test_ai_engineering_blogs_named_listed_early_with_week_window():
     first_hn = next(i for i, s in enumerate(feeds) if "hnrss.org" in s["url"])
     assert all(i < first_hn for i, s in enumerate(feeds) if s.get("hours_back") == 168)
     assert by_name["Simon Willison"]["url"] == "https://simonwillison.net/atom/everything/"
+    assert by_name["Addy Osmani"]["url"] == "https://addyosmani.com/rss.xml"
+    assert by_name["Kent Beck"]["url"] == "https://newsletter.kentbeck.com/feed"
     assert "hours_back" not in by_name["Simon Willison"]
 
 
@@ -163,7 +165,8 @@ def test_no_duplicate_or_dead_feeds():
     urls = [s["url"] for t in load()["topics"] for s in t["sources"]]
 
     assert len(urls) == len(set(urls))
-    assert not any("addyosmani.com" in u or "huyenchip.com" in u or "cursor.com/blog" in u for u in urls)
+    assert not any("huyenchip.com" in u or "cursor.com/blog" in u for u in urls)
+    assert not any(".substack.com" in u for u in urls)          # Substack answers 403 to GitHub's runners
     assert sum("simonwillison.net/atom/everything" in u for u in urls) == 1
 
 
