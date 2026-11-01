@@ -1,0 +1,163 @@
+{
+  "week": "2026-W44",
+  "start": "2026-10-26",
+  "end": "2026-11-01",
+  "preview": false,
+  "days": [
+    {
+      "date": "2026-10-26",
+      "lead": {
+        "title": "Apple unveils new iPad mini with OLED display and faster A20 Pro chip",
+        "link": "https://techcrunch.com/2026/10/26/apple-unveils-new-ipad-mini-with-oled-display-and-faster-a20-pro-chip/",
+        "source": "TechCrunch",
+        "section": "News & Research"
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "lead": {
+        "title": "HPE Patches Dozens of Critical Flaws in Networking Products",
+        "link": "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/",
+        "source": "SecurityWeek",
+        "section": "Security & AppSec"
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "lead": {
+        "title": "Analysts followed AI agent's randomly assigned preferences in 86% of decisions",
+        "link": "https://www.anthropic.com/research/agents-judgment-calls",
+        "source": "anthropic.com via Hacker News",
+        "section": "AI Agents & Agent Security"
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "lead": {
+        "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+        "link": "https://huggingface.co/blog/mistral-large4",
+        "source": "Hugging Face",
+        "section": "AI-Assisted Engineering"
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "lead": {
+        "title": "North Korean hackers blamed for stealing record $6.3B in Binance breach",
+        "link": "https://techcrunch.com/2026/10/30/north-korean-hackers-blamed-for-stealing-record-6-3b-in-binance-breach/",
+        "source": "TechCrunch",
+        "section": "Security & AppSec"
+      }
+    },
+    {
+      "date": "2026-10-31",
+      "lead": {
+        "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+        "link": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+        "source": "BleepingComputer",
+        "section": "Security & AppSec"
+      }
+    },
+    {
+      "date": "2026-11-01",
+      "lead": {
+        "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+        "link": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+        "source": "jetstream.security via Hacker News",
+        "section": "Agent Identity & Authorization"
+      }
+    }
+  ],
+  "top": [
+    {
+      "title": "Backdoors in official Claude Code extensions",
+      "link": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+      "source": "cyberplace.social via Hacker News",
+      "section": "News & Research",
+      "date": "2026-10-30",
+      "coverage": 3,
+      "score": 9.0
+    },
+    {
+      "title": "Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Steps",
+      "link": "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps/",
+      "source": "SecurityWeek",
+      "section": "Security & AppSec",
+      "date": "2026-10-29",
+      "coverage": 2,
+      "score": 12.0
+    },
+    {
+      "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
+      "link": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
+      "source": "SecurityWeek",
+      "section": "Security & AppSec",
+      "date": "2026-11-01",
+      "coverage": 2,
+      "score": 0.211
+    },
+    {
+      "title": "Drupal Commerce Core Vulnerability Exploited Against Online Stores",
+      "link": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/",
+      "source": "SecurityWeek",
+      "section": "Security & AppSec",
+      "date": "2026-11-01",
+      "coverage": 2,
+      "score": 0.124
+    },
+    {
+      "title": "Detect when your AI agent copies a self-replicating prompt injection",
+      "link": "https://www.datadoghq.com/blog/detect-when-your-ai-agent-copies-a-self-replicating-prompt-injection/",
+      "source": "Datadog | The Monitor blog",
+      "section": "Platform, Cloud & Reliability",
+      "date": "2026-10-30",
+      "coverage": 1,
+      "score": 24.0
+    },
+    {
+      "title": "AGNTCon + MCPCon 2026: Agentic AI Foundation Adds Four Projects as MCP Turns to Security",
+      "link": "https://www.infoq.com/news/2026/10/agntcon-mcpcon-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "section": "Platform, Cloud & Reliability",
+      "date": "2026-10-27",
+      "coverage": 1,
+      "score": 21.0
+    },
+    {
+      "title": "How GKE networking scales to support high densities of concurrent AI agents",
+      "link": "https://cloud.google.com/blog/products/networking/gke-networking-dataplane-for-large-agentic-ai-workloads/",
+      "source": "Cloud Blog",
+      "section": "Platform, Cloud & Reliability",
+      "date": "2026-10-29",
+      "coverage": 1,
+      "score": 19.0
+    },
+    {
+      "title": "Identity Assertion JWT Authorization Grant Draft 06",
+      "link": "https://aaronparecki.com/2026/10/30/19/oauth-id-jag-draft-06",
+      "source": "Articles by Aaron Parecki",
+      "section": "Agent Identity & Authorization",
+      "date": "2026-10-31",
+      "coverage": 1,
+      "score": 17.0
+    },
+    {
+      "title": "MCP C# SDK 2.0 Makes HTTP Stateless by Default and Adds Multi Round-Trip Requests",
+      "link": "https://www.infoq.com/news/2026/10/MCP-CSharp-SDK-Stateless/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "section": "Platform, Cloud & Reliability",
+      "date": "2026-10-26",
+      "coverage": 1,
+      "score": 17.0
+    },
+    {
+      "title": "Human-in-the-loop approval for AI agents: Cerbos partners with iProov",
+      "link": "https://cerbos.dev/blog/human-in-the-loop-approval-for-ai-agents-cerbos-iproov",
+      "source": "Cerbos",
+      "section": "Agent Identity & Authorization",
+      "date": "2026-10-29",
+      "coverage": 1,
+      "score": 15.0
+    }
+  ]
+}

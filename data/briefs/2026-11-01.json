@@ -25,7 +25,7 @@
       "link_domain": "atlasum.net",
       "source": "Hacker News",
       "domain": "atlasum.net",
-      "meta": "Hacker News · 491 points · 226 comments · 13h ago",
+      "meta": "Hacker News · 494 points · 226 comments · 13h ago",
       "also": [],
       "image": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf/opengraph-image",
       "icon": "https://atlasum.net/favicon/apple-touch-icon.png"
@@ -37,7 +37,7 @@
       "link_domain": "twitter.com",
       "source": "Hacker News",
       "domain": "twitter.com",
-      "meta": "Hacker News · 334 points · 190 comments · 13h ago",
+      "meta": "Hacker News · 336 points · 190 comments · 13h ago",
       "also": [],
       "image": "https://pbs.twimg.com/profile_images/1983126868095315969/28wHeS_J_400x400.jpg",
       "icon": "https://x.com/apple-touch-icon.png"
@@ -49,7 +49,7 @@
       "link_domain": "parameter.ai",
       "source": "Hacker News",
       "domain": "parameter.ai",
-      "meta": "Hacker News · 325 points · 163 comments · 22h ago",
+      "meta": "Hacker News · 327 points · 163 comments · 22h ago",
       "also": [],
       "image": "https://www.parameter.ai/opengraph-image.png",
       "icon": "https://www.parameter.ai/apple-icon.png"
@@ -73,7 +73,7 @@
       "link_domain": "mashable.com",
       "source": "Hacker News",
       "domain": "mashable.com",
-      "meta": "Hacker News · 140 points · 88 comments · 11h ago",
+      "meta": "Hacker News · 142 points · 89 comments · 11h ago",
       "also": [],
       "image": "https://helios-i.mashable.com/imagery/articles/00cSAXoWdRYObLNtN71MkCO/hero-image.fill.size_1200x675.v1793455880.png",
       "icon": "https://mashable.com/favicons/apple-touch-icon.jpg"
@@ -92,7 +92,9 @@
           "image": "https://i.ytimg.com/vi/KM3VQZKjpiY/maxresdefault.jpg",
           "icon": null,
           "domain": "latent.space",
-          "hn": null
+          "hn": null,
+          "score": 2.582,
+          "coverage": 1
         },
         {
           "title": "How We Took Over ChatGPT Accounts",
@@ -103,7 +105,9 @@
           "image": null,
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
-          "hn": null
+          "hn": null,
+          "score": 0.686,
+          "coverage": 1
         },
         {
           "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 44 (2026)",
@@ -114,7 +118,9 @@
           "image": "https://images.contentstack.io/v3/assets/blt53c99b43892c2378/blt4f4cff1c329a76ed/6ae43a14aaf3517a5b2d99b5/GBU_week44_2026.jpg",
           "icon": null,
           "domain": "sentinelone.com",
-          "hn": null
+          "hn": null,
+          "score": 0.29,
+          "coverage": 1
         }
       ],
       "more": [
@@ -127,7 +133,9 @@
           "image": null,
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
-          "hn": null
+          "hn": null,
+          "score": 0.653,
+          "coverage": 1
         }
       ]
     },
@@ -143,7 +151,9 @@
           "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhe0B28qLAtUMfqN29_phxZJVJORICkj_98MZFwDiXAxFTABw8G9qbsVyD98pg7T_Rvgv83NXyR5tNGYH4dRwlxs3QFTUZxDPHQs2BgFsnmGcOuVW1HkFVCfiCR3Y05kPQrfFx4S7A8DiFXXAAgdc5SiEKx0-0xrW5rNlNSyN3jZJcyXasdpCr5AG7KM3s/s1600/Polymarket.jpg",
           "icon": null,
           "domain": "thehackernews.com",
-          "hn": null
+          "hn": null,
+          "score": 0.525,
+          "coverage": 1
         },
         {
           "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
@@ -154,7 +164,9 @@
           "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy0oLNj9TVg8ifLKdJSg4HH1EhN3m_OBldd7wEIeVoQSHtFXSmsiPdmf-njsPD-CbVHY8NckeW2N9rN8-CTnp81zaeFq-ISj04O7ihoj5HgnvJT_zY_0fdC8vCcd5LXL8Mx9ym1fPI5GMrEtjxZoEiernCr_CZwLocgtrJsKZzixEnYUe2WmkehWLNR2hx/s1600/windows-hacker.jpg",
           "icon": null,
           "domain": "thehackernews.com",
-          "hn": null
+          "hn": null,
+          "score": 0.511,
+          "coverage": 1
         },
         {
           "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
@@ -165,7 +177,9 @@
           "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmb1j0HC3RkKxZ4bBQPaOa5GaLqC2EBtxXHOMnebPlgHGDJG7ryIuSBIR-9YBQuUm6HwD15-OJQgBvIkhbLIApM8XoU0DptSEF6DNhEpinxPA-06wQZhLhRiKmFGO5cVjONcaouGC3lqybhkeEsZj-xebX6u6hSR19mS7sVqOrpR02qNOlpHZJEUjf1HtB/s1600/binance-hack.png",
           "icon": null,
           "domain": "thehackernews.com",
-          "hn": null
+          "hn": null,
+          "score": 0.5,
+          "coverage": 1
         }
       ],
       "more": [
@@ -178,7 +192,9 @@
           "image": "https://www.securityweek.com/wp-content/uploads/2024/03/hacker-sentenced-prison.jpeg",
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
-          "hn": null
+          "hn": null,
+          "score": 0.211,
+          "coverage": 1
         },
         {
           "title": "Bulletproof Host Virtualine Loses Its Domain to FBI Seizure",
@@ -189,7 +205,9 @@
           "image": "https://www.securityweek.com/wp-content/uploads/2026/10/Virtualine-seized.jpg",
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
-          "hn": null
+          "hn": null,
+          "score": 0.13,
+          "coverage": 1
         },
         {
           "title": "Fresh WordPress Vulnerability in Attackers’ Crosshairs",
@@ -200,7 +218,9 @@
           "image": "https://www.securityweek.com/wp-content/uploads/2024/08/WordPress.jpeg",
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
-          "hn": null
+          "hn": null,
+          "score": 0.126,
+          "coverage": 1
         },
         {
           "title": "Drupal Commerce Core Vulnerability Exploited Against Online Stores",
@@ -211,7 +231,9 @@
           "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Drupal.jpg",
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
-          "hn": null
+          "hn": null,
+          "score": 0.124,
+          "coverage": 1
         },
         {
           "title": "Max-Severity GitLab Vulnerability Exploited Against Alpine Linux",
@@ -222,7 +244,9 @@
           "image": "https://www.securityweek.com/wp-content/uploads/2026/06/GitLab.jpeg",
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
-          "hn": null
+          "hn": null,
+          "score": 0.846,
+          "coverage": 1
         }
       ]
     },
@@ -238,7 +262,9 @@
           "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/LegalAndFinservBlogHeaderYellow.max-600x600.png",
           "icon": null,
           "domain": "cloud.google.com",
-          "hn": null
+          "hn": null,
+          "score": 0.802,
+          "coverage": 1
         },
         {
           "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
@@ -249,7 +275,9 @@
           "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M66XYHSQQJRRA4097AJD12PN.png",
           "icon": null,
           "domain": "blog.cloudflare.com",
-          "hn": null
+          "hn": null,
+          "score": 0.219,
+          "coverage": 1
         },
         {
           "title": "Cloudflare services for private origins is now generally available",
@@ -260,7 +288,9 @@
           "image": "https://blog.cloudflare.com/_emdash/api/media/file/01KW44TXMXRJ1NFA38CJB0MT3A.png",
           "icon": null,
           "domain": "blog.cloudflare.com",
-          "hn": null
+          "hn": null,
+          "score": 0.206,
+          "coverage": 1
         }
       ],
       "more": [
@@ -273,7 +303,9 @@
           "image": "https://res.infoq.com/news/2026/11/aws-capacity-sold-out/en/headerimage/generatedHeaderImage-1793124716899.jpg",
           "icon": null,
           "domain": "infoq.com",
-          "hn": null
+          "hn": null,
+          "score": 0.688,
+          "coverage": 1
         },
         {
           "title": "Smaller apps and faster GPU inference with LiteRT in Google Play services",
@@ -284,7 +316,9 @@
           "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_dcklz0dckl.2e16d0ba.fill-1200x600.jpg",
           "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
           "domain": "developers.googleblog.com",
-          "hn": null
+          "hn": null,
+          "score": 0.25,
+          "coverage": 1
         },
         {
           "title": "Hill-Climbing Agent Quality with Agents CLI Evaluation",
@@ -295,7 +329,9 @@
           "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/1_3.2e16d0ba.fill-1200x600.png",
           "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
           "domain": "developers.googleblog.com",
-          "hn": null
+          "hn": null,
+          "score": 0.25,
+          "coverage": 1
         },
         {
           "title": "Fast, reliable A2UI, with swappable inference formats",
@@ -306,7 +342,9 @@
           "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/00-header-1600x900.2e16d0ba.fill-1200x600.png",
           "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
           "domain": "developers.googleblog.com",
-          "hn": null
+          "hn": null,
+          "score": 0.25,
+          "coverage": 1
         },
         {
           "title": "Building Conversational Commerce with Multi-Agent Swarms on GCP: A Working Prototype",
@@ -317,7 +355,9 @@
           "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/cui_banner_light_1600x900_1791294.2e16d0ba.fill-1200x600.jpg",
           "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
           "domain": "developers.googleblog.com",
-          "hn": null
+          "hn": null,
+          "score": 0.25,
+          "coverage": 1
         }
       ]
     },
@@ -333,7 +373,22 @@
           "image": "https://bbrouter.com/api/public/bbrouter/Ben-Eater-SAP-1/picture?card&r=27",
           "icon": "https://bbrouter.com/apple-touch-icon.png",
           "domain": "bbrouter.com",
-          "hn": "27 points · 8 comments"
+          "hn": "29 points · 8 comments",
+          "score": 2.095,
+          "coverage": 1
+        },
+        {
+          "title": "Pac-Man's Siren Call",
+          "link": "https://unsung.aresluna.org/pac-mans-siren-call/",
+          "excerpt": "A blog about software craft and quality",
+          "source": "unsung.aresluna.org via Hacker News",
+          "date": "Nov 01",
+          "image": "https://unsung.aresluna.org/_media/pac-mans-siren-call/ogimage.jpg",
+          "icon": "https://unsung.aresluna.org/pac-mans-siren-call/_unsung/favicon-halloween-dark.png",
+          "domain": "unsung.aresluna.org",
+          "hn": "11 points · 3 comments",
+          "score": 2.367,
+          "coverage": 1
         },
         {
           "title": "The AI cost of JavaScript frameworks",
@@ -344,7 +399,24 @@
           "image": "https://nolanlawson.com/_astro/frameworks.B14_z7MF_2lv3q1.webp",
           "icon": "https://nolanlawson.com/apple-touch-icon.png",
           "domain": "nolanlawson.com",
-          "hn": "38 points · 13 comments"
+          "hn": "42 points · 18 comments",
+          "score": 3.236,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "ChatGPT and Codex usage limits merging",
+          "link": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+          "excerpt": "109 points · 49 comments",
+          "source": "help.openai.com via Hacker News",
+          "date": "Oct 31",
+          "image": null,
+          "icon": "https://help.openai.com/favicon.ico",
+          "domain": "help.openai.com",
+          "hn": "109 points · 49 comments",
+          "score": 5.911,
+          "coverage": 1
         },
         {
           "title": "OTape",
@@ -355,20 +427,9 @@
           "image": "https://otape.org/assets/img/og.jpg",
           "icon": "https://www.otape.org/assets/img/favicon.svg",
           "domain": "otape.org",
-          "hn": "25 points · 14 comments"
-        }
-      ],
-      "more": [
-        {
-          "title": "ChatGPT and Codex usage limits merging",
-          "link": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
-          "excerpt": "103 points · 45 comments",
-          "source": "help.openai.com via Hacker News",
-          "date": "Oct 31",
-          "image": null,
-          "icon": "https://help.openai.com/favicon.ico",
-          "domain": "help.openai.com",
-          "hn": "103 points · 45 comments"
+          "hn": "25 points · 14 comments",
+          "score": 2.36,
+          "coverage": 1
         },
         {
           "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM (2024)",
@@ -379,7 +440,9 @@
           "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
           "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png",
           "domain": "arxiv.org",
-          "hn": "77 points · 35 comments"
+          "hn": "78 points · 36 comments",
+          "score": 2.839,
+          "coverage": 1
         },
         {
           "title": "Altoids Project",
@@ -390,7 +453,9 @@
           "image": null,
           "icon": "https://uvdn7.github.io/favicon.ico",
           "domain": "uvdn7.github.io",
-          "hn": "105 points · 4 comments"
+          "hn": "106 points · 4 comments",
+          "score": 2.457,
+          "coverage": 1
         },
         {
           "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
@@ -401,18 +466,9 @@
           "image": "https://opengraph.githubassets.com/a7b7a1ea0aa7cf5973b524f6b84227facb1eebf9f79648b95f3d6944adb2e342/guregodevo/memdoor",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "213 points · 104 comments"
-        },
-        {
-          "title": "An Italian farmer found some unknown seeds in his attic and planted them",
-          "link": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
-          "excerpt": "When a seven-eared stem emerged from the ground, it seemed like a miracle. What Claudio Grossi had unearthed was an ancient grain that proved to be an answer to some modern problems",
-          "source": "smithsonianmag.com via Hacker News",
-          "date": "Oct 31",
-          "image": "https://th-thumbnailer.cdn-si-edu.com/_-X8sWyx82CD0eX5ZxIF7dcS2X8=/fit-in/1600x0/filters:focal(1181x787:1182x788)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/37/95/3795362b-64a6-4d5f-b7df-67aa18192521/l2190910.jpg",
-          "icon": "https://www.smithsonianmag.com/static/smithsonianmag/img/smithmag-favicon-logo.cb31c6e193dd.png",
-          "domain": "smithsonianmag.com",
-          "hn": "380 points · 108 comments"
+          "hn": "214 points · 105 comments",
+          "score": 2.913,
+          "coverage": 1
         }
       ]
     }
