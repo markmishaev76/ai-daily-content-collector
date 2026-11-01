@@ -94,16 +94,7 @@
       "section": "Security & AppSec",
       "date": "2026-11-01",
       "coverage": 2,
-      "score": 0.21
-    },
-    {
-      "title": "Drupal Commerce Core Vulnerability Exploited Against Online Stores",
-      "link": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/",
-      "source": "SecurityWeek",
-      "section": "Security & AppSec",
-      "date": "2026-11-01",
-      "coverage": 2,
-      "score": 0.124
+      "score": 0.197
     },
     {
       "title": "Detect when your AI agent copies a self-replicating prompt injection",
@@ -158,6 +149,15 @@
       "date": "2026-10-29",
       "coverage": 1,
       "score": 15.0
+    },
+    {
+      "title": "Scale agents securely with IAM Helper Agent Skills and MCP Tools",
+      "link": "https://cloud.google.com/blog/products/identity-security/scale-agents-securely-with-iam-helper-agent-skills-and-mcp-tools/",
+      "source": "Security & Identity",
+      "section": "Agent Identity & Authorization",
+      "date": "2026-10-28",
+      "coverage": 1,
+      "score": 14.0
     }
   ]
 }
