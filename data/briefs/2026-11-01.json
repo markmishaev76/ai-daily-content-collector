@@ -49,7 +49,7 @@
       "link_domain": "parameter.ai",
       "source": "Hacker News",
       "domain": "parameter.ai",
-      "meta": "Hacker News · 325 points · 162 comments · 22h ago",
+      "meta": "Hacker News · 325 points · 163 comments · 22h ago",
       "also": [],
       "image": "https://www.parameter.ai/opengraph-image.png",
       "icon": "https://www.parameter.ai/apple-icon.png"
@@ -73,7 +73,7 @@
       "link_domain": "mashable.com",
       "source": "Hacker News",
       "domain": "mashable.com",
-      "meta": "Hacker News · 140 points · 87 comments · 11h ago",
+      "meta": "Hacker News · 140 points · 88 comments · 11h ago",
       "also": [],
       "image": "https://helios-i.mashable.com/imagery/articles/00cSAXoWdRYObLNtN71MkCO/hero-image.fill.size_1200x675.v1793455880.png",
       "icon": "https://mashable.com/favicons/apple-touch-icon.jpg"
@@ -325,6 +325,17 @@
       "name": "News & Research",
       "cards": [
         {
+          "title": "Show HN: BBRouter – Ben Eater's 8-bit computer, simulated on 3D breadboards",
+          "link": "https://bbrouter.com/bbrouter/ben-eater-sap-1",
+          "excerpt": "A project by @bbrouter on BBRouter, the 3D breadboard editor and simulator: open it to look around and run it.",
+          "source": "bbrouter.com via Hacker News",
+          "date": "Nov 01",
+          "image": "https://bbrouter.com/api/public/bbrouter/Ben-Eater-SAP-1/picture?card&r=27",
+          "icon": "https://bbrouter.com/apple-touch-icon.png",
+          "domain": "bbrouter.com",
+          "hn": "27 points · 8 comments"
+        },
+        {
           "title": "The AI cost of JavaScript frameworks",
           "link": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
           "excerpt": "One of my pet peeves with the web development community is that so many of the decisions we make are vibes-based. Frameworks are “blazing fast,” tools will…",
@@ -333,7 +344,7 @@
           "image": "https://nolanlawson.com/_astro/frameworks.B14_z7MF_2lv3q1.webp",
           "icon": "https://nolanlawson.com/apple-touch-icon.png",
           "domain": "nolanlawson.com",
-          "hn": "29 points · 10 comments"
+          "hn": "38 points · 13 comments"
         },
         {
           "title": "OTape",
@@ -344,7 +355,20 @@
           "image": "https://otape.org/assets/img/og.jpg",
           "icon": "https://www.otape.org/assets/img/favicon.svg",
           "domain": "otape.org",
-          "hn": "25 points · 12 comments"
+          "hn": "25 points · 14 comments"
+        }
+      ],
+      "more": [
+        {
+          "title": "ChatGPT and Codex usage limits merging",
+          "link": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+          "excerpt": "103 points · 45 comments",
+          "source": "help.openai.com via Hacker News",
+          "date": "Oct 31",
+          "image": null,
+          "icon": "https://help.openai.com/favicon.ico",
+          "domain": "help.openai.com",
+          "hn": "103 points · 45 comments"
         },
         {
           "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM (2024)",
@@ -355,20 +379,7 @@
           "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
           "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png",
           "domain": "arxiv.org",
-          "hn": "75 points · 32 comments"
-        }
-      ],
-      "more": [
-        {
-          "title": "ChatGPT and Codex usage limits merging",
-          "link": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
-          "excerpt": "100 points · 42 comments",
-          "source": "help.openai.com via Hacker News",
-          "date": "Oct 31",
-          "image": null,
-          "icon": "https://help.openai.com/favicon.ico",
-          "domain": "help.openai.com",
-          "hn": "100 points · 42 comments"
+          "hn": "77 points · 35 comments"
         },
         {
           "title": "Altoids Project",
@@ -379,7 +390,7 @@
           "image": null,
           "icon": "https://uvdn7.github.io/favicon.ico",
           "domain": "uvdn7.github.io",
-          "hn": "102 points · 4 comments"
+          "hn": "105 points · 4 comments"
         },
         {
           "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
@@ -390,7 +401,7 @@
           "image": "https://opengraph.githubassets.com/a7b7a1ea0aa7cf5973b524f6b84227facb1eebf9f79648b95f3d6944adb2e342/guregodevo/memdoor",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "211 points · 102 comments"
+          "hn": "213 points · 104 comments"
         },
         {
           "title": "An Italian farmer found some unknown seeds in his attic and planted them",
@@ -401,18 +412,7 @@
           "image": "https://th-thumbnailer.cdn-si-edu.com/_-X8sWyx82CD0eX5ZxIF7dcS2X8=/fit-in/1600x0/filters:focal(1181x787:1182x788)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/37/95/3795362b-64a6-4d5f-b7df-67aa18192521/l2190910.jpg",
           "icon": "https://www.smithsonianmag.com/static/smithsonianmag/img/smithmag-favicon-logo.cb31c6e193dd.png",
           "domain": "smithsonianmag.com",
-          "hn": "370 points · 107 comments"
-        },
-        {
-          "title": "AI text watermarking and quality loss",
-          "link": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
-          "excerpt": "After the EU AI Act’s transparency guidelines went into effect, and following the announcement that most major AI labs will soon be watermarking their text output to comply, there has been some debate about how much of an impact this is going to have, if any, on the quality of the text produced by…",
-          "source": "blog.keyvan.net via Hacker News",
-          "date": "Oct 31",
-          "image": "https://substackcdn.com/image/fetch/$s_!EKF2!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d292d10-d3ea-4c94-b5a7-2b422b15c140_1672x941.png",
-          "icon": "https://substackcdn.com/image/fetch/$s_!yN8B!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff34a514e-920f-4253-bad2-9b27887a59c3%2Fapple-touch-icon-57x57.png",
-          "domain": "blog.keyvan.net",
-          "hn": "52 points · 8 comments"
+          "hn": "380 points · 108 comments"
         }
       ]
     }
