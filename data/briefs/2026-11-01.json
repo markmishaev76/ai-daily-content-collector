@@ -61,7 +61,7 @@
       "link_domain": "help.openai.com",
       "source": "Hacker News",
       "domain": "help.openai.com",
-      "meta": "Hacker News · 187 points · 123 comments · 15h ago",
+      "meta": "Hacker News · 187 points · 125 comments · 15h ago",
       "also": [],
       "image": null,
       "icon": "https://help.openai.com/favicon.ico"
@@ -73,7 +73,7 @@
       "link_domain": "mashable.com",
       "source": "Hacker News",
       "domain": "mashable.com",
-      "meta": "Hacker News · 157 points · 101 comments · 16h ago",
+      "meta": "Hacker News · 158 points · 101 comments · 16h ago",
       "also": [],
       "image": "https://helios-i.mashable.com/imagery/articles/00cSAXoWdRYObLNtN71MkCO/hero-image.fill.size_1200x675.v1793455880.png",
       "icon": "https://mashable.com/favicons/apple-touch-icon.jpg"
@@ -147,7 +147,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.526,
+          "score": 0.525,
           "coverage": 1
         }
       ]
@@ -165,7 +165,20 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 2.24,
+          "score": 2.238,
+          "coverage": 1
+        },
+        {
+          "title": "Everyone Has Email. Nobody Uses It Right",
+          "link": "https://kaplich.me/essays/email",
+          "excerpt": "A practical guide to mastering email - the most important tool on the internet. Learn why email still matters and how to use it effectively.",
+          "source": "kaplich.me via Hacker News",
+          "date": "Nov 01",
+          "image": "https://kaplich.me/essays/email/og.png",
+          "icon": "https://kaplich.me/essays/email/favicon.ico",
+          "domain": "kaplich.me",
+          "hn": "12 points · 3 comments",
+          "score": 4.539,
           "coverage": 1
         },
         {
@@ -178,7 +191,7 @@
           "icon": null,
           "domain": "sentinelone.com",
           "hn": null,
-          "score": 0.268,
+          "score": 0.267,
           "coverage": 1
         }
       ],
@@ -197,7 +210,7 @@
           "icon": null,
           "domain": "aembit.io",
           "hn": null,
-          "score": 2.563,
+          "score": 2.561,
           "coverage": 1
         },
         {
@@ -223,7 +236,7 @@
           "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
           "domain": "aembit.io",
           "hn": null,
-          "score": 2.333,
+          "score": 2.332,
           "coverage": 1
         }
       ],
@@ -238,7 +251,7 @@
           "icon": null,
           "domain": "aembit.io",
           "hn": null,
-          "score": 1.352,
+          "score": 1.351,
           "coverage": 1
         },
         {
@@ -251,7 +264,7 @@
           "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
           "domain": "aembit.io",
           "hn": null,
-          "score": 1.314,
+          "score": 1.313,
           "coverage": 1
         },
         {
@@ -264,7 +277,7 @@
           "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png",
           "domain": "arxiv.org",
           "hn": "110 points · 57 comments",
-          "score": 3.291,
+          "score": 3.286,
           "coverage": 1
         },
         {
@@ -277,7 +290,7 @@
           "icon": "https://maketecheasier.com/wp-content/uploads/2022/11/cropped-site-icon-180x180.png",
           "domain": "maketecheasier.com",
           "hn": "134 points · 40 comments",
-          "score": 1.549,
+          "score": 1.548,
           "coverage": 1
         },
         {
@@ -308,7 +321,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 2.839,
+          "score": 2.832,
           "coverage": 1
         },
         {
@@ -321,7 +334,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.431,
+          "score": 0.43,
           "coverage": 1
         },
         {
@@ -334,7 +347,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.397,
+          "score": 0.396,
           "coverage": 1
         }
       ],
@@ -349,7 +362,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.389,
+          "score": 0.388,
           "coverage": 1
         },
         {
@@ -362,7 +375,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.389,
+          "score": 0.388,
           "coverage": 1
         },
         {
@@ -401,7 +414,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 1.598,
+          "score": 1.596,
           "coverage": 1
         }
       ]
@@ -445,7 +458,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.514,
+          "score": 0.513,
           "coverage": 1
         }
       ],
@@ -460,7 +473,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.473,
+          "score": 0.472,
           "coverage": 1
         },
         {
@@ -530,7 +543,7 @@
           "icon": "https://noyb.eu/themes/chives/images/ao_canvas/apple-touch-icon.png",
           "domain": "noyb.eu",
           "hn": "25 points · 3 comments",
-          "score": 2.887,
+          "score": 2.88,
           "coverage": 1
         },
         {
@@ -543,7 +556,7 @@
           "icon": "https://nolanlawson.com/apple-touch-icon.png",
           "domain": "nolanlawson.com",
           "hn": "141 points · 92 comments",
-          "score": 3.187,
+          "score": 3.182,
           "coverage": 1
         },
         {
@@ -571,7 +584,7 @@
           "icon": "https://www.visitnorway.com/favicon.ico",
           "domain": "visitnorway.com",
           "hn": "339 points · 168 comments",
-          "score": 4.724,
+          "score": 4.713,
           "coverage": 1
         },
         {
@@ -584,7 +597,7 @@
           "icon": "https://xn--69f31l4t57c0mag4b613h.xn--7uh4898msjaso/favicon.ico",
           "domain": "xn--69f31l4t57c0mag4b613h.xn--7uh4898msjaso",
           "hn": "22 points · 12 comments",
-          "score": 2.906,
+          "score": 2.899,
           "coverage": 1
         },
         {
@@ -597,7 +610,7 @@
           "icon": "https://www.economist.com/favicon.ico",
           "domain": "economist.com",
           "hn": "76 points · 52 comments",
-          "score": 3.624,
+          "score": 3.615,
           "coverage": 1
         },
         {
@@ -610,7 +623,7 @@
           "icon": "https://uvdn7.github.io/favicon.ico",
           "domain": "uvdn7.github.io",
           "hn": "125 points · 7 comments",
-          "score": 2.116,
+          "score": 2.113,
           "coverage": 1
         },
         {
@@ -623,7 +636,7 @@
           "icon": null,
           "domain": "arstechnica.com",
           "hn": null,
-          "score": 0.234,
+          "score": 0.233,
           "coverage": 1
         }
       ]
