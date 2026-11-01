@@ -134,3 +134,42 @@ def test_events_settings():
 
     assert s["horizon_days"] == 90 and s["closing_days"] == 7 and len(s["topics"]) == 9
     assert {"MCP", "agentic"} <= set(s["keywords"]["ai"]) and "LeadDev" in s["keywords"]["leadership"]
+
+
+
+def sources(name):
+    return next(t["sources"] for t in load()["topics"] if t["name"] == name)
+
+
+def test_ai_sections_always_show():
+    from src import story
+
+    assert story.always_show(load()) == ["AI-Assisted Engineering", "AI Agents & Agent Security"]
+
+
+def test_ai_engineering_blogs_named_listed_early_with_week_window():
+    feeds = sources("AI-Assisted Engineering")
+    by_name = {s.get("name"): s for s in feeds}
+    for name in ("Addy Osmani", "Kent Beck", "Martin Fowler", "Hamel Husain", "Eugene Yan", "Mitchell Hashimoto",
+                 "Armin Ronacher", "GitHub AI & ML", "Cursor changelog"):
+        assert by_name[name]["hours_back"] == 168, name
+    first_hn = next(i for i, s in enumerate(feeds) if "hnrss.org" in s["url"])
+    assert all(i < first_hn for i, s in enumerate(feeds) if s.get("hours_back") == 168)
+    assert by_name["Simon Willison"]["url"] == "https://simonwillison.net/atom/everything/"
+    assert "hours_back" not in by_name["Simon Willison"]
+
+
+def test_no_duplicate_or_dead_feeds():
+    urls = [s["url"] for t in load()["topics"] for s in t["sources"]]
+
+    assert len(urls) == len(set(urls))
+    assert not any("addyosmani.com" in u or "huyenchip.com" in u or "cursor.com/blog" in u for u in urls)
+    assert sum("simonwillison.net/atom/everything" in u for u in urls) == 1
+
+
+def test_week_window_only_on_blog_feeds_in_ai_sections():
+    for topic in load()["topics"]:
+        for s in topic["sources"]:
+            if s.get("hours_back") == 168:
+                assert topic["name"] in ("AI-Assisted Engineering", "AI Agents & Agent Security")
+                assert "hnrss.org" not in s["url"]

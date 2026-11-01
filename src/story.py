@@ -46,8 +46,10 @@ No AI and no embeddings. Same input and `now` always give the same pick.
 
    Ties break on lead title, then link. A cluster whose members all came via
    Hacker News may lead only if its best item has at least
-   story.lead_min_hn_points points (comments don't count); if no cluster is
-   eligible, the top-scored one leads anyway.
+   story.lead_min_hn_points points (comments don't count), and a cluster whose
+   newest dated member is older than LEAD_MAX_AGE_HOURS may not lead (blog
+   feeds reach back a week; 72h still lets late date-only posts lead). If no
+   cluster is eligible, the top-scored one leads anyway.
 4. Lead shown: the winning cluster's member with an https image, then the
    best tier, then the highest keyword score, then the freshest, then link.
    Its picture comes from the cluster's best-scoring news outlet member
@@ -91,6 +93,7 @@ HN_PTS = 3.0                 # per log10(1 + points + comments)
 AGE_OFFSET_HOURS = 12         # freshness halves at this age
 GRAVITY = 1.0
 UNDATED_AGE_HOURS = 24
+LEAD_MAX_AGE_HOURS = 72
 TIER_MULT = {"primary": 1.25, "normal": 1.0, "aggregator": 0.85}
 TIER_RANK = {"aggregator": 0, "normal": 1, "primary": 2}
 NOVELTY_DAYS = 3
@@ -349,6 +352,18 @@ def section_weights(config: Dict) -> Dict[str, float]:
     return weights
 
 
+def always_show(config: Dict) -> List[str]:
+    """Topics with `always_show: true` in config.yaml, in order; they render even with nothing new."""
+    names = []
+    for topic in config.get("topics", []):
+        value = topic.get("always_show", False)
+        if not isinstance(value, bool):
+            raise ValueError(f"config.yaml: topic {topic.get('name')!r} always_show must be true or false, got {value!r}")
+        if value:
+            names.append(topic["name"])
+    return names
+
+
 def key_tokens(lead: Dict, ids: FrozenSet[str]) -> FrozenSet[str]:
     return title_tokens(lead.get("title")) | ids
 
@@ -386,6 +401,7 @@ class Scored:
     novelty: float
     score: float
     eligible: bool = True
+    why_not: str = ""
 
     def breakdown(self) -> str:
         age = "undated" if self.age_hours is None else f"{self.age_hours:.1f}h"
@@ -394,7 +410,7 @@ class Scored:
                 f" + hn {self.hn_pts:.2f} [{self.hn}]) x fresh {self.freshness:.2f} [{age}]"
                 f" x section {self.section_weight:g} [{self.section}] x tier {self.tier_mult:g} [{self.tier}]"
                 f" x novelty {self.novelty:g} | {len(self.members)} items"
-                f"{'' if self.eligible else ' | not eligible: HN-only, too few points'} | {self.lead.get('title')}")
+                f"{'' if self.eligible else ' | not eligible: ' + self.why_not} | {self.lead.get('title')}")
 
 
 def _recent(history: Sequence[Dict], today: date) -> List[Dict]:
@@ -469,9 +485,11 @@ def score_clusters(clusters: List[List[Dict]], config: Dict, history: Sequence[D
         score = base * fresh * weight * TIER_MULT[tier] * novelty
         hn_only = all(m.get("hn_only", is_hn_item(m)) for m in members)
         best_points = max(m.get("hn_points", hn_counts(m.get("summary"))[0]) for m in members)
-        eligible = not hn_only or best_points >= min_points
+        why_not = "HN-only, too few points" if hn_only and best_points < min_points else \
+            "too old to lead" if age is not None and age > LEAD_MAX_AGE_HOURS else ""
         scored.append(Scored(members, lead, section, cov, ids, keywords, relevance_pts, coverage_pts, hard_pts,
-                             hn, hn_pts, base, age, fresh, weight, tier, TIER_MULT[tier], novelty, score, eligible))
+                             hn, hn_pts, base, age, fresh, weight, tier, TIER_MULT[tier], novelty, score, not why_not,
+                             why_not))
     scored.sort(key=lambda s: (-s.score, s.lead.get("title") or "", s.lead.get("link") or ""))
     return scored
 
@@ -631,8 +649,8 @@ def pick_story(feed: Dict[str, List[Dict]], config: Dict, history: Sequence[Dict
     elif scored:
         chosen = next((s for s in scored if s.eligible), None)
         if not chosen:
-            logger.warning("No story cluster is eligible to lead (all HN-only below lead_min_hn_points); "
-                           "using the top-scored one")
+            logger.warning("No story cluster is eligible to lead (HN-only below lead_min_hn_points or older than "
+                           f"{LEAD_MAX_AGE_HOURS}h); using the top-scored one")
             chosen = scored[0]
         lead = chosen.lead
     else:

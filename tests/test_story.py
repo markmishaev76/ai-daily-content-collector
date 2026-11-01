@@ -1,4 +1,6 @@
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
+
+import pytest
 
 from src import story
 
@@ -580,3 +582,36 @@ def test_invalid_hn_threshold_raises():
     import pytest
     with pytest.raises(ValueError, match="lead_min_hn_points"):
         story.lead_min_hn_points({"story": {"lead_min_hn_points": "fifty"}})
+
+
+def test_week_old_blog_post_cannot_lead_over_todays_news():
+    old = art("Agent identity, MCP server tool poisoning and prompt injection: workload identity for AI agents",
+              published=NOW - timedelta(hours=144), section="Eng")
+    fresh = art("Router firmware update fixes reboot loop", published=NOW - timedelta(hours=2), section="Sec")
+
+    picked = story.pick_story(feed_of(old, fresh), CONFIG, [], None, NOW)
+    old_scored = next(s for s in picked.scored if s.lead["title"] == old["title"])
+
+    assert picked.title == fresh["title"]
+    assert not old_scored.eligible and "too old to lead" in old_scored.breakdown()
+
+
+def test_late_date_only_post_inside_lead_age_limit_stays_eligible():
+    late = art("Formal verification with LLMs at scale", published=NOW - timedelta(hours=60), section="Eng")
+
+    picked = story.pick_story(feed_of(late), CONFIG, [], None, NOW)
+
+    assert picked.scored[0].eligible and picked.title == late["title"]
+
+
+@pytest.mark.parametrize("value", ["yes", 1, None])
+def test_always_show_must_be_boolean(value):
+    with pytest.raises(ValueError, match="config.yaml: topic 'Eng' always_show"):
+        story.always_show({"topics": [{"name": "Eng", "always_show": value}]})
+
+
+def test_always_show_lists_flagged_topics_in_order():
+    config = {"topics": [{"name": "A", "always_show": True}, {"name": "B"}, {"name": "C", "always_show": False},
+                         {"name": "D", "always_show": True}]}
+
+    assert story.always_show(config) == ["A", "D"]

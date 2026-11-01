@@ -8,7 +8,7 @@ import shutil
 from datetime import date, datetime, timedelta
 from email.utils import format_datetime
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Dict, Iterable, List, Optional
 from urllib.parse import urlparse
 
 from jinja2 import Environment, FileSystemLoader
@@ -321,7 +321,8 @@ def _clean(item: Dict, links=("link",), images=("image", "icon")) -> Dict:
     return out
 
 
-def _brief_page(snap: Dict, names: List[str], take: Optional[str] = None) -> Dict:
+def _brief_page(snap: Dict, names: List[str], take: Optional[str] = None, always: Iterable[str] = (),
+                empty_link: Optional[Dict] = None) -> Dict:
     """Template context for a snapshot; sections renamed since it was saved get a neutral color. `take`
     (from takes.yaml) wins over the take saved in the snapshot."""
     def color(name: str, missing: str) -> str:
@@ -330,6 +331,10 @@ def _brief_page(snap: Dict, names: List[str], take: Optional[str] = None) -> Dic
     sections = [{"name": s["name"], "id": anchor_id(s["name"]), "color": color(s["name"], NEUTRAL_COLOR),
                  "cards": [_clean(i) for i in s["cards"]], "more": [_clean(i) for i in s["more"]]}
                 for s in snap["sections"]]
+    present = {s["name"] for s in sections}
+    sections += [{"name": n, "id": anchor_id(n), "color": color(n, NEUTRAL_COLOR), "cards": [], "more": [],
+                  "empty": empty_link or {}} for n in always if n not in present]
+    sections.sort(key=lambda s: names.index(s["name"]) if s["name"] in names else len(names))
     lead = None
     if snap.get("lead"):
         raw = snap["lead"]
@@ -348,6 +353,15 @@ def _brief_page(snap: Dict, names: List[str], take: Optional[str] = None) -> Dic
         pulse.append(item)
     return {"lead": lead, "sections": sections, "pulse": pulse, "pulse_sources": _pulse_sources(pulse),
             "reconstructed": snap.get("reconstructed") is True}
+
+
+def _empty_link(day: date, today: date, available: set, root: str, week: bool) -> Dict:
+    """Where an always-on section with nothing new points: the latest brief before `day`, else the week page."""
+    earlier = sorted(d for d in available if d < day.isoformat())
+    if earlier:
+        label = "See the last brief →" if day == today else "See the brief before →"
+        return {"href": f"{root}brief/{earlier[-1]}/", "label": label}
+    return {"href": f"{root}week/", "label": "See the week in review →"} if week else {}
 
 
 def _day_label(day: date) -> str:
@@ -436,14 +450,15 @@ def _rss_date(post: Dict) -> Optional[str]:
 
 def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
           out_dir: Path, now: datetime, story=None, pulse: Optional[List[Dict]] = None,
-          learn: Optional[Dict] = None, briefs: Optional[Dict[str, Dict]] = None,
+          learn: Optional[Dict] = None, briefs: Optional[Dict[str, Dict]] = None, always_show: Iterable[str] = (),
           takes: Optional[Dict[str, str]] = None, events: Optional[Dict] = None,
           events_horizon: int = 90, today_brief: Optional[Dict] = None, weeks: Optional[Dict[str, Dict]] = None,
           week_preview: Optional[Dict] = None) -> Dict:
     """Write the site and return today's brief snapshot. `story` is a src.story.Story for the lead, or None for
     no lead; `pulse` is src.pulse.collect's items, or None/[] to hide The Pulse; `learn` is src.learn.collect's
     videos (empty lists when unavailable), or None for no Learn page; `briefs` maps YYYY-MM-DD to earlier
-    snapshots (src.briefs.load), each rendered at /brief/<date>/ like today's; `takes` is src.takes.load's
+    snapshots (src.briefs.load), each rendered at /brief/<date>/ like today's; `always_show` sections render
+    even when empty, with a link to an earlier brief; `takes` is src.takes.load's
     date -> Mark's take, shown under that day's lead; `events` is src.events.collect's data (empty lists when
     unavailable), or None for no Events page; `today_brief` is today's snapshot if already made
     (brief_snapshot); `weeks` are the saved weeks (src.weeks.load) and `week_preview` the week so far, shown at
@@ -476,7 +491,9 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
     videos = _learn(learn, now)
     radar = _events(events)
     write("index.html", "index.html", root="", page="feed", heading=f"Today · {now:%A, %B %d, %Y}",
-          days=_days(today, available, today, ""), **_brief_page(snap, names, takes.get(today.isoformat())),
+          days=_days(today, available, today, ""),
+          **_brief_page(snap, names, takes.get(today.isoformat()), always_show,
+                        _empty_link(today, today, available, "", latest_week is not None)),
           pulse_color=PULSE_COLOR,
           learn_teaser=videos["top"][:LEARN_TEASER] if videos else [], learn_color=LEARN_COLOR,
           cfp_strip=radar["cfps"][:CFP_STRIP] if radar else [], events_color=EVENTS_COLOR,
@@ -486,7 +503,9 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
         label = f"Brief · {day:%A, %B %d, %Y}"
         write(f"brief/{iso}/index.html", "index.html", root=root, page="feed", heading=label, title_prefix=label,
               days=_days(today, available, day, root), pager=_pager(today, available, day, root),
-              is_today=day == today, **_brief_page(page, names, takes.get(iso)), pulse_color=PULSE_COLOR, writing=[],
+              is_today=day == today, pulse_color=PULSE_COLOR, writing=[],
+              **_brief_page(page, names, takes.get(iso), always_show,
+                            _empty_link(day, today, available, root, latest_week is not None)),
               learn_teaser=[], learn_color=LEARN_COLOR, week_link=latest_week is not None)
     write("404.html", "404.html", root="/", page="")
     ids = list(saved_weeks)

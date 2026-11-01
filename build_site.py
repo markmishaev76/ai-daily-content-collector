@@ -144,6 +144,7 @@ def main(out_dir: Path = Path("public"), config: dict = None, aggregator=None,
         saved_weeks = weeks.load(weeks_dir)
         validate_sources(config['topics'])
         story.section_weights(config)
+        always_show = story.always_show(config)
         story.lead_min_hn_points(config)
         min_points(config, 'section_min_hn_points')
         pulse_settings = pulse.settings(config)
@@ -206,7 +207,7 @@ def main(out_dir: Path = Path("public"), config: dict = None, aggregator=None,
     saved_weeks, preview = _weeks(config, now, {**past_briefs, now.date().isoformat(): today_brief}, saved_weeks,
                                   weeks_dir)
     site_builder.build(feed, posts, about_html, out_dir, now, story=lead, pulse=pulse_items,
-                       learn=videos, briefs=past_briefs, takes=takes, events=radar,
+                       learn=videos, briefs=past_briefs, always_show=always_show, takes=takes, events=radar,
                        events_horizon=events_settings["horizon_days"] if events_settings else 90,
                        today_brief=today_brief, weeks=saved_weeks, week_preview=preview)
     briefs.save(briefs_dir, now.date(), today_brief)

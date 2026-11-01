@@ -230,3 +230,34 @@ def test_past_page_keeps_snapshot_take_and_takes_file_can_add_one_later(tmp_path
 
     assert "Saved take" in page(tmp_path, "2026-10-21")
     assert "Added later &lt;i&gt;" in page(tmp_path, "2026-10-20")
+
+
+
+def test_always_show_section_renders_empty_with_link_to_last_brief(tmp_path):
+    build(tmp_path, feed={"Topic": [], "Quiet": [], "Other": [article("Other card")]},
+          briefs={"2026-10-21": past()}, always_show=["Topic"])
+    html = page(tmp_path)
+
+    section = html[html.index('id="topic"'):html.index("</section>", html.index('id="topic"'))]
+    assert "Nothing new today." in section and '<a href="brief/2026-10-21/">See the last brief →</a>' in section
+    assert 'id="quiet"' not in html
+    assert re.findall(r'href="#([a-z-]+)"', html[html.index('class="chips'):html.index("<!-- /chips -->")])[-2:] == \
+        ["topic", "other"]
+
+
+def test_always_show_section_on_past_page_links_to_the_brief_before(tmp_path):
+    sections = [{"name": "Other", "cards": [item("Past other")], "more": []}]
+    build(tmp_path, feed={"Topic": [article("Today card")], "Other": [article("Other card")]},
+          briefs={"2026-10-21": past(sections=sections), "2026-10-19": past("2026-10-19")}, always_show=["Topic"])
+    html = page(tmp_path, "2026-10-21")
+
+    section = html[html.index('id="topic"'):html.index("</section>", html.index('id="topic"'))]
+    assert "Nothing new that day." in section and '<a href="../../brief/2026-10-19/">See the brief before →</a>' in section
+    assert html.index('id="topic"') < html.index('id="other"')
+
+
+def test_always_show_section_without_any_earlier_brief_has_plain_note(tmp_path):
+    build(tmp_path, feed={"Topic": [], "Other": [article("Other card")]}, always_show=["Topic"])
+    section = page(tmp_path)[page(tmp_path).index('id="topic"'):]
+
+    assert "Nothing new today." in section[:section.index("</section>")] and "See the last brief" not in section

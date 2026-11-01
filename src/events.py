@@ -32,7 +32,7 @@ DEFAULTS = {
         "ai": ["AI", "LLM", "LLMs", "GenAI", "agent", "agents", "agentic", "MCP", "ML", "machine learning"],
         "security": ["security", "AppSec", "DevSecOps", "OWASP", "BSides", "DEF CON", "DEFCON", "Black Hat", "cyber",
                      "infosec", "identity", "IAM", "OAuth", "Identiverse"],
-        "platform": ["DevOps", "DevOpsDays", "platform", "cloud", "cloud native", "Kubernetes", "KubeCon", "SRE",
+        "platform": ["DevOps", "DevOpsDays", "platform engineering", "cloud", "cloud native", "Kubernetes", "KubeCon", "SRE",
                      "SREcon", "observability", "infrastructure"],
         "leadership": ["leadership", "LeadDev", "engineering management", "CTO", "StaffPlus"],
     },
@@ -159,23 +159,33 @@ def _key(event: Dict) -> Tuple[str, int]:
     return " ".join(re.findall(r"[a-z0-9]+", name)), event["year"]
 
 
+def _same(a: Dict, b: Dict) -> bool:
+    """Same conference: same normalized name and year, or the same start date with one name's words (years
+    dropped) inside the other's, e.g. 'BSides Prague 2027' and 'BSides Prague Czechia 2027'."""
+    if _key(a) == _key(b):
+        return True
+    if a["start"] != b["start"]:
+        return False
+    words_a, words_b = set(_key(a)[0].split()), set(_key(b)[0].split())
+    return bool(words_a and words_b) and (words_a <= words_b or words_b <= words_a)
+
+
 def _merge(found: Iterable[Dict], s: Dict) -> List[Dict]:
     """Relevant events, one per conference: CFP details from developers.events win, the rest fills gaps."""
-    merged: Dict[Tuple[str, int], Dict] = {}
+    merged: List[Dict] = []
     for event in found:
         cats = categories(event["name"], event.get("topic"), s)
         if not cats:
             continue
-        key = _key(event)
-        if key not in merged:
-            merged[key] = dict(event, categories=cats)
+        kept = next((m for m in merged if _same(m, event)), None)
+        if kept is None:
+            merged.append(dict(event, categories=cats))
             continue
-        kept = merged[key]
         kept["categories"] = kept["categories"] | cats
         for field in ("url", "cfp_url", "cfp_end", "location"):
             if not kept.get(field) and event.get(field):
                 kept[field] = event[field]
-    return list(merged.values())
+    return merged
 
 
 def _get_json(url: str, get: Callable):

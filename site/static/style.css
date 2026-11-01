@@ -359,6 +359,8 @@ a:hover { color: var(--accent); }
 .cfp-row { padding: 10px 12px; border-radius: 10px; background: var(--panel); border-left: 4px solid var(--c); }
 
 .meta { color: var(--muted); font-size: 12px; }
+.empty-section { font-size: 14px; }
+.empty-section a { color: var(--c); }
 .label {
   display: inline-block;
   background: #eeedfb;

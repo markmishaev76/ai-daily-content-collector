@@ -131,6 +131,9 @@
   {% for s in sections %}
   <section id="{{ s.id }}" class="topic" style="--c: {{ s.color }}">
     <div class="section-head"><span class="chip">{{ s.name }}</span></div>
+    {% if not s.cards and not s.more %}
+    <p class="meta empty-section">{% if is_today or not pager %}Nothing new today.{% else %}Nothing new that day.{% endif %}{% if s.empty and s.empty.href %} <a href="{{ s.empty.href }}">{{ s.empty.label }}</a>{% endif %}</p>
+    {% endif %}
     <div class="cards">
       {% for item in s.cards %}
       <article class="card">

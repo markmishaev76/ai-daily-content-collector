@@ -6,6 +6,7 @@ topics:
   - name: "AI-Assisted Engineering"
     category: "AI/ML"
     weight: 1.5
+    always_show: true
     sources:
       # Anthropic has no official RSS: community feeds (github.com/Olshansk/rss-feeds) with date-only posts that
       # land up to ~2 days late, hence the 72h window. Listed first so first-party posts win keyword-score ties.
@@ -13,52 +14,128 @@ topics:
         url: "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_engineering.xml"
         name: "Anthropic Engineering"
         hours_back: 72
-      # AI-Assisted Development & Engineering
+      # First-party AI engineering blogs: a few posts a month, so a week's window (each post still shows once,
+      # see data/seen.json). Listed before the high-volume feeds so they win keyword-score ties for the 8 slots.
       - type: "rss"
         url: "https://addyo.substack.com/feed"
+        name: "Addy Osmani"
+        hours_back: 168
       - type: "rss"
         url: "https://tidyfirst.substack.com/feed"
+        name: "Kent Beck"
+        hours_back: 168
       - type: "rss"
-        url: "https://humanwhocodes.com/feeds/blog.xml"
+        url: "https://martinfowler.com/feed.atom"
+        name: "Martin Fowler"
+        hours_back: 168
       - type: "rss"
-        url: "https://matklad.github.io/feed.xml"
+        url: "https://hamel.dev/index.xml"
+        name: "Hamel Husain"
+        hours_back: 168
       - type: "rss"
-        url: "https://newsletter.pragmaticengineer.com/feed"
+        url: "https://eugeneyan.com/rss/"
+        name: "Eugene Yan"
+        hours_back: 168
       - type: "rss"
-        url: "https://leaddev.com/rss.xml"
+        url: "https://mitchellh.com/feed.xml"
+        name: "Mitchell Hashimoto"
+        hours_back: 168
+      - type: "rss"
+        url: "https://lucumr.pocoo.org/feed.atom"
+        name: "Armin Ronacher"
+        hours_back: 168
+      - type: "rss"
+        url: "https://github.blog/ai-and-ml/feed/"
+        name: "GitHub AI & ML"
+        hours_back: 168
+      - type: "rss"
+        url: "https://cursor.com/changelog/rss.xml"
+        name: "Cursor changelog"
+        hours_back: 168
+      - type: "rss"
+        url: "https://sebastianraschka.com/rss_feed.xml"
+        name: "Sebastian Raschka"
+        hours_back: 168
+      - type: "rss"
+        url: "https://metr.org/feed.xml"
+        name: "METR"
+        hours_back: 168
       - type: "rss"
         url: "https://snorkel.ai/feed/"
+        name: "Snorkel AI"
+        hours_back: 168
+      - type: "rss"
+        url: "https://bair.berkeley.edu/blog/feed.xml"
+        name: "BAIR"
+        hours_back: 168
+      - type: "rss"
+        url: "https://research.google/blog/rss/"
+        name: "Google Research"
+        hours_back: 168
+      - type: "rss"
+        url: "https://humanwhocodes.com/feeds/blog.xml"
+        name: "Human Who Codes"
+        hours_back: 168
+      - type: "rss"
+        url: "https://matklad.github.io/feed.xml"
+        name: "matklad"
+        hours_back: 168
+      - type: "rss"
+        url: "https://newsletter.pragmaticengineer.com/feed"
+        name: "The Pragmatic Engineer"
+        hours_back: 168
+      - type: "rss"
+        url: "https://newsletter.getdx.com/feed"
+        name: "DX"
+        hours_back: 168
+      # Simon Willison posts several times a day: this section owns his all-posts feed (normal window).
+      - type: "rss"
+        url: "https://simonwillison.net/atom/everything/"
+        name: "Simon Willison"
+      # Higher-volume news and company blogs
+      - type: "rss"
+        url: "https://leaddev.com/rss.xml"
       - type: "rss"
         url: "https://huggingface.co/blog/feed.xml"
         name: "Hugging Face"
       - type: "rss"
-        url: "https://sebastianraschka.com/rss_feed.xml"
-      - type: "rss"
-        url: "https://research.google/blog/rss/"
-        name: "Google Research"
-      - type: "rss"
-        url: "https://bair.berkeley.edu/blog/feed.xml"
-      # AI Adoption & Agent-First Engineering
-      - type: "rss"
-        url: "https://metr.org/feed.xml"
-      - type: "rss"
         url: "https://stackoverflow.blog/feed/"
-      - type: "rss"
-        url: "https://newsletter.getdx.com/feed"
-      - type: "rss"
-        url: "https://hnrss.org/newest?q=%22AI+coding%22+study"
-      # Developer Productivity & Engineering Effectiveness
-      - type: "rss"
-        url: "https://martinfowler.com/feed.atom"
-      # AI Technologies & Research
       - type: "rss"
         url: "https://blog.google/technology/ai/rss/"
         name: "Google AI"
+      - type: "rss"
+        url: "https://hnrss.org/newest?q=%22AI+coding%22+study"
 
   - name: "AI Agents & Agent Security"
     category: "AI Security"
     weight: 1.25
+    always_show: true
     sources:
+      # Low-volume agent and AI security blogs: a week's window, listed first (see AI-Assisted Engineering)
+      - type: "rss"
+        url: "https://www.latent.space/feed"
+        name: "Latent Space"
+        hours_back: 168
+      - type: "rss"
+        url: "https://genai.owasp.org/feed/"
+        name: "OWASP GenAI"
+        hours_back: 168
+      - type: "rss"
+        url: "https://simonwillison.net/tags/model-context-protocol.atom"
+        name: "Simon Willison"
+        hours_back: 168
+      - type: "rss"
+        url: "https://blog.trailofbits.com/feed"
+        name: "Trail of Bits"
+        hours_back: 168
+      - type: "rss"
+        url: "https://lilianweng.github.io/index.xml"
+        name: "Lilian Weng"
+        hours_back: 168
+      - type: "rss"
+        url: "https://www.daytona.io/rss.xml"
+        name: "Daytona"
+        hours_back: 168
       # AI Agents, MCP & Agentic Platforms
       - type: "rss"
         url: "https://hnrss.org/newest?q=MCP"
@@ -69,36 +146,20 @@ topics:
       - type: "rss"
         url: "https://hnrss.org/newest?q=Devin+OR+Factory.ai+OR+Replit+agent"
       - type: "rss"
-        url: "https://www.latent.space/feed"
-      - type: "rss"
         url: "https://openai.com/news/rss.xml"
       # MCP & Agent Tool Security
-      - type: "rss"
-        url: "https://genai.owasp.org/feed/"
-      - type: "rss"
-        url: "https://simonwillison.net/tags/model-context-protocol.atom"
-        name: "Simon Willison"
       - type: "rss"
         url: "https://hnrss.org/newest?q=%22MCP+security%22"
       - type: "rss"
         url: "https://hnrss.org/newest?q=%22MCP+server%22+vulnerability"
       # AI Security & Red Teaming
       - type: "rss"
-        url: "https://blog.trailofbits.com/feed"
-      - type: "rss"
-        url: "https://lilianweng.github.io/index.xml"
-      - type: "rss"
         url: "https://www.schneier.com/feed/"
       # Agent Experience (AX) & Agentic Design
-      - type: "rss"
-        url: "https://www.daytona.io/rss.xml"
       - type: "rss"
         url: "https://hnrss.org/newest?q=agent+experience"
       - type: "rss"
         url: "https://hnrss.org/newest?q=agentic+design"
-      - type: "rss"
-        url: "https://simonwillison.net/atom/everything/"
-        name: "Simon Willison"
       # AI in Security & Automation
       - type: "rss"
         url: "https://www.paloaltonetworks.com/blog/feed"
@@ -489,7 +550,7 @@ events:
     ai: ["AI", "LLM", "LLMs", "GenAI", "agent", "agents", "agentic", "MCP", "ML", "machine learning"]
     security: ["security", "AppSec", "DevSecOps", "OWASP", "BSides", "DEF CON", "DEFCON", "Black Hat", "cyber",
                "infosec", "identity", "IAM", "OAuth", "Identiverse"]
-    platform: ["DevOps", "DevOpsDays", "platform", "cloud", "cloud native", "Kubernetes", "KubeCon", "SRE", "SREcon",
+    platform: ["DevOps", "DevOpsDays", "platform engineering", "cloud", "cloud native", "Kubernetes", "KubeCon", "SRE", "SREcon",
                "observability", "infrastructure"]
     leadership: ["leadership", "LeadDev", "engineering management", "CTO", "StaffPlus"]
 

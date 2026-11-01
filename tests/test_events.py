@@ -220,3 +220,32 @@ def test_cfp_closing_after_the_conference_is_dropped():
     data, _ = events.collect(CONFIG, NOW, get=fake_get(cfps))
 
     assert [e["name"] for e in data["cfps"]] == ["AI Engineer Summit"]
+
+
+
+def test_power_platform_is_not_platform_engineering():
+    s = events.settings({"events": {}})
+
+    assert events.categories("Power Platform Days Barcelona", "general", s) == set()
+    assert events.categories("PlatformCon: platform engineering", "general", s) == {"platform"}
+
+
+def test_same_conference_with_country_in_name_merged():
+    cfps = [cfp("BSides Prague 2027", until=date(2026, 12, 31), start=date(2027, 4, 7), end=date(2027, 4, 8),
+                location="Prague (Czechia)"),
+            cfp("BSides Prague Czechia 2027", until=date(2026, 12, 31), start=date(2027, 4, 7), end=date(2027, 4, 8),
+                location="Prague (Czechia)", link="https://other.example.com/cfp"),
+            cfp("BSides Tel Aviv 2027", until=date(2026, 12, 31), start=date(2027, 4, 7), end=date(2027, 4, 8),
+                location="Tel Aviv (Israel)")]
+
+    data, _ = events.collect(CONFIG, NOW, get=fake_get(cfps))
+
+    assert sorted(e["name"] for e in data["cfps"]) == ["BSides Prague 2027", "BSides Tel Aviv 2027"]
+
+
+def test_same_name_different_dates_not_merged():
+    cfps = [cfp("AI Day Berlin", start=date(2027, 2, 10)), cfp("AI Day", start=date(2027, 5, 10))]
+
+    data, _ = events.collect(CONFIG, NOW, get=fake_get(cfps))
+
+    assert len(data["cfps"]) == 2
