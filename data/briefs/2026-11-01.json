@@ -1,0 +1,433 @@
+{
+  "date": "2026-11-01",
+  "lead": {
+    "title": "HackerTube: YouTube built from videos recommended by HN",
+    "link": "https://karpathy.bearblog.dev/hacker-tube/",
+    "excerpt": "Instead of YouTube, watch HackerTube!",
+    "source": "karpathy.bearblog.dev via Hacker News",
+    "date": "Oct 31",
+    "image": "https://bearblog.dev/static/og-image.png",
+    "image_credit": null,
+    "section": "News & Research",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "News & Research",
+      "6h ago"
+    ],
+    "also": []
+  },
+  "pulse": [
+    {
+      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "thread": "https://news.ycombinator.com/item?id=50319143",
+      "link": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+      "link_domain": "atlasum.net",
+      "source": "Hacker News",
+      "domain": "atlasum.net",
+      "meta": "Hacker News · 353 points · 168 comments · 6h ago",
+      "also": [],
+      "image": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf/opengraph-image",
+      "icon": "https://atlasum.net/favicon/apple-touch-icon.png"
+    },
+    {
+      "title": "Tell HN: Scribd Breached",
+      "thread": "https://news.ycombinator.com/item?id=50312756",
+      "link": null,
+      "link_domain": "",
+      "source": "Hacker News",
+      "domain": "Hacker News",
+      "meta": "Hacker News · 336 points · 120 comments · 23h ago",
+      "also": [],
+      "image": null,
+      "icon": null
+    },
+    {
+      "title": "Do the math: How we took over ChatGPT accounts",
+      "thread": "https://news.ycombinator.com/item?id=50314699",
+      "link": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "link_domain": "parameter.ai",
+      "source": "Hacker News",
+      "domain": "parameter.ai",
+      "meta": "Hacker News · 303 points · 150 comments · 15h ago",
+      "also": [],
+      "image": "https://www.parameter.ai/opengraph-image.png",
+      "icon": "https://www.parameter.ai/apple-icon.png"
+    },
+    {
+      "title": "Malware uses LLMs to rank victims by how much they're worth",
+      "thread": "https://news.ycombinator.com/item?id=50316531",
+      "link": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "link_domain": "blog.talosintelligence.com",
+      "source": "Hacker News",
+      "domain": "blog.talosintelligence.com",
+      "meta": "Hacker News · 233 points · 128 comments · 11h ago",
+      "also": [],
+      "image": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/size/w1200/2026/10/VOLTA.jpg",
+      "icon": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/size/w256h256/2022/07/talos_o_square.png"
+    },
+    {
+      "title": "Anthropic blocks users for anything touching training larger models",
+      "thread": "https://news.ycombinator.com/item?id=50319358",
+      "link": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+      "link_domain": "twitter.com",
+      "source": "Hacker News",
+      "domain": "twitter.com",
+      "meta": "Hacker News · 203 points · 117 comments · 6h ago",
+      "also": [],
+      "image": "https://pbs.twimg.com/profile_images/1983126868095315969/28wHeS_J_400x400.jpg",
+      "icon": "https://x.com/apple-touch-icon.png"
+    },
+    {
+      "title": "OpenAI raises less than half of $30B target",
+      "thread": "https://news.ycombinator.com/item?id=50312922",
+      "link": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+      "link_domain": "wsj.com",
+      "source": "Hacker News",
+      "domain": "wsj.com",
+      "meta": "Hacker News · 182 points · 186 comments · 22h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.wsj.com/favicon.ico"
+    },
+    {
+      "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
+      "thread": "https://news.ycombinator.com/item?id=50320255",
+      "link": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+      "link_domain": "mashable.com",
+      "source": "Hacker News",
+      "domain": "mashable.com",
+      "meta": "Hacker News · 101 points · 68 comments · 4h ago",
+      "also": [],
+      "image": "https://helios-i.mashable.com/imagery/articles/00cSAXoWdRYObLNtN71MkCO/hero-image.fill.size_1200x675.v1793455880.png",
+      "icon": "https://mashable.com/favicons/apple-touch-icon.jpg"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI Agents & Agent Security",
+      "cards": [
+        {
+          "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
+          "link": "https://latent.space/p/arca/",
+          "excerpt": "Arca's head of AI discusses persistent memory, the benefits of a custom harness, and agentic workflows that span days.",
+          "source": "Latent Space",
+          "date": "Oct 31",
+          "image": "https://i.ytimg.com/vi/KM3VQZKjpiY/maxresdefault.jpg",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null
+        },
+        {
+          "title": "How We Took Over ChatGPT Accounts",
+          "link": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+          "excerpt": "How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews), where interactive custom HTML apps are displayed in a…",
+          "source": "Simon Willison",
+          "date": "Oct 31",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null
+        },
+        {
+          "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 44 (2026)",
+          "link": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-44-8",
+          "excerpt": "PHP2SHELL’s complexity stalls mass exploitation, attackers chain it with Fragnesia to root firewalls, and a silent Brotli fix leaves Node2Shell exposed.",
+          "source": "SentinelOne",
+          "date": "Oct 30",
+          "image": "https://images.contentstack.io/v3/assets/blt53c99b43892c2378/blt4f4cff1c329a76ed/6ae43a14aaf3517a5b2d99b5/GBU_week44_2026.jpg",
+          "icon": null,
+          "domain": "sentinelone.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "datasette-llm 0.1a9",
+          "link": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+          "excerpt": "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default model used by LLM, which means you can start using Datasette Agent without…",
+          "source": "Simon Willison",
+          "date": "Oct 31",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
+          "link": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
+          "excerpt": "A US court sentenced Syrian hacker Ahmad Umar Agha to 42 months for pro-Assad attacks on media, businesses, and government entities. The post Syrian Hacker Gets Prison Time in US After Over a Decade on the Run appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Oct 31",
+          "image": "https://www.securityweek.com/wp-content/uploads/2024/03/hacker-sentenced-prison.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null
+        },
+        {
+          "title": "Bulletproof Host Virtualine Loses Its Domain to FBI Seizure",
+          "link": "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/",
+          "excerpt": "It allowed customers to host hack-for-hire services, supported ransomware and infostealer operators, and accepted crypto payments. The post Bulletproof Host Virtualine Loses Its Domain to FBI Seizure appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Oct 30",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/10/Virtualine-seized.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null
+        },
+        {
+          "title": "Fresh WordPress Vulnerability in Attackers’ Crosshairs",
+          "link": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
+          "excerpt": "Threat actors are attempting to exploit a high-severity unauthenticated race condition leading to remote code execution. The post Fresh WordPress Vulnerability in Attackers’ Crosshairs appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Oct 30",
+          "image": "https://www.securityweek.com/wp-content/uploads/2024/08/WordPress.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "Drupal Commerce Core Vulnerability Exploited Against Online Stores",
+          "link": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/",
+          "excerpt": "Drupal says a highly critical Commerce Core access bypass is exploited in the wild and urges store owners to audit their orders. The post Drupal Commerce Core Vulnerability Exploited Against Online Stores appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Oct 30",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Drupal.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null
+        },
+        {
+          "title": "Max-Severity GitLab Vulnerability Exploited Against Alpine Linux",
+          "link": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/",
+          "excerpt": "Tracked as CVE-2026-97229, the bug allows unauthenticated attackers to execute arbitrary code on the server. The post Max-Severity GitLab Vulnerability Exploited Against Alpine Linux appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Oct 30",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/06/GitLab.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null
+        },
+        {
+          "title": "TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines",
+          "link": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
+          "excerpt": "An integer overflow tracked as CVE-2026-111585 could be used to execute arbitrary code on the viewer’s system. The post TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Oct 30",
+          "image": "https://www.securityweek.com/wp-content/uploads/2024/06/Teamviewer.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null
+        },
+        {
+          "title": "Northflank security breach leads to abuse of customers' AI API keys",
+          "link": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+          "excerpt": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
+          "source": "BleepingComputer",
+          "date": "Oct 31",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/10/31/northflank-header.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null
+        },
+        {
+          "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+          "link": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+          "excerpt": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. [...]",
+          "source": "BleepingComputer",
+          "date": "Oct 31",
+          "image": "https://www.bleepstatic.com/content/hl-images/2024/01/31/image_(2).jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "New Gemini courses for financial services and legal teams",
+          "link": "https://cloud.google.com/blog/topics/training-certifications/new-gemini-courses-for-financial-services-and-legal-teams/",
+          "excerpt": "Today Google Skills is sharing new, industry-specific video learning bundles to get you into Gemini and using agents. One bundle is designed for financial services and one is built specifically for those in the legal profession. You can access all of these videos at no cost on Google Skills today.…",
+          "source": "Cloud Blog",
+          "date": "Oct 30",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/LegalAndFinservBlogHeaderYellow.max-600x600.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null
+        },
+        {
+          "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
+          "link": "https://blog.cloudflare.com/emudhra-patching/",
+          "excerpt": "Four, just four: that’s the key to break into any unpatched connection on the Internet that is using eMudhra certificates. Here’s how we quickly patched Cloudflare, what evidence we can see of attempted exploitation, and how much of the rest of the Internet remains exposed.",
+          "source": "Cloudflare Blog",
+          "date": "Oct 30",
+          "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M66XYHSQQJRRA4097AJD12PN.png",
+          "icon": null,
+          "domain": "blog.cloudflare.com",
+          "hn": null
+        },
+        {
+          "title": "Cloudflare services for private origins is now generally available",
+          "link": "https://blog.cloudflare.com/private-origins-public-to-private/",
+          "excerpt": "Public traffic to private origins, with WAF, bot management, caching, and Workers, is now available to every customer with Cloudflare One connectivity.",
+          "source": "Cloudflare Blog",
+          "date": "Oct 30",
+          "image": "https://blog.cloudflare.com/_emdash/api/media/file/01KW44TXMXRJ1NFA38CJB0MT3A.png",
+          "icon": null,
+          "domain": "blog.cloudflare.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "Cloudflare’s Post-Quantum GeoKey Manager Enters Closed Beta Without Attribute-Based Encryption",
+          "link": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Cloudflare has moved a post-quantum rebuild of GeoKey Manager into closed beta, guarding geo-fenced keys with hybrid ML-KEM-768 and X25519 instead of the attribute-based encryption used since 2022. Keys live only in kernel memory on verified regional servers, and any failed check rejects the…",
+          "source": "InfoQ",
+          "date": "Oct 31",
+          "image": "https://res.infoq.com/news/2026/10/cf-pq-geokey-manager/en/headerimage/generatedHeaderImage-1793376907936.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null
+        },
+        {
+          "title": "Smaller apps and faster GPU inference with LiteRT in Google Play services",
+          "link": "https://developers.googleblog.com/smaller-apps-and-faster-gpu-inference-with-litert-in-google-play-services/",
+          "excerpt": "LiteRT in Google Play services now offers GPU inference powered by ML Drift, delivering about 1.4x faster performance alongside the new CompiledModel API. Switching from bundled binaries reduces app size by approximately 8 MB while enabling seamless, automatic runtime updates across billions of…",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_dcklz0dckl.2e16d0ba.fill-1200x600.jpg",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null
+        },
+        {
+          "title": "Hill-Climbing Agent Quality with Agents CLI Evaluation",
+          "link": "https://developers.googleblog.com/hill-climbing-agent-quality-with-agents-cli-evaluation/",
+          "excerpt": "This post walks through the Agents CLI evaluation loop for systematically improving agent performance through continuous testing and grading. It demonstrates how to catch prompt regressions, evaluate model backend swaps using side-by-side trace comparisons, and automate evaluation passes.…",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/1_3.2e16d0ba.fill-1200x600.png",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null
+        },
+        {
+          "title": "Fast, reliable A2UI, with swappable inference formats",
+          "link": "https://developers.googleblog.com/fast-reliable-a2ui/",
+          "excerpt": "A2UI now supports swappable inference formats, introducing A2UI Express which uses up to 3x fewer tokens and cuts latency by compiling compact Python-style syntax into standard A2UI JSON via Agent SDKs. Developers can also use controlled generation with TypeSafe's Jev system-decision models to…",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/00-header-1600x900.2e16d0ba.fill-1200x600.png",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null
+        },
+        {
+          "title": "Building Conversational Commerce with Multi-Agent Swarms on GCP: A Working Prototype",
+          "link": "https://developers.googleblog.com/building-conversational-commerce-with-multi-agent-swarms-on-gcp-a-working-prototype/",
+          "excerpt": "This document provides a publication template and metadata structure for a technical blog post focused on building Conversational User Interfaces (CUIs) using AI. It outlines key developer focus areas, product stacks, and approval workflows required for publishing technical content through Google…",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/cui_banner_light_1600x900_1791294.2e16d0ba.fill-1200x600.jpg",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "When electric cars were for women",
+          "link": "https://spectrum.ieee.org/early-electric-vehicles",
+          "excerpt": "Early carmakers decided women wanted cars that were quiet, clean, and easy to start",
+          "source": "spectrum.ieee.org via Hacker News",
+          "date": "Oct 31",
+          "image": "https://spectrum.ieee.org/media-library/image.jpg?id=68537019&width=1200&height=600&coordinates=0%2C300%2C0%2C301",
+          "icon": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNjU5NjY0OS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTg0ODgxODUwNn0.1LlzHtxZSVXyzapxWjeSrRIRu5qo3CeB8FaWpd2tl_o/img.png?width=192&height=192",
+          "domain": "spectrum.ieee.org",
+          "hn": "36 points · 9 comments"
+        },
+        {
+          "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+          "link": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+          "excerpt": "A lightweight coding and automation agent in one CLI binary. Run locally or over SSH, optimize token use, and automate CI and cron with durable workflows. - guregodevo/memdoor",
+          "source": "github.com via Hacker News",
+          "date": "Oct 31",
+          "image": "https://opengraph.githubassets.com/a7b7a1ea0aa7cf5973b524f6b84227facb1eebf9f79648b95f3d6944adb2e342/guregodevo/memdoor",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "81 points · 39 comments"
+        },
+        {
+          "title": "An Italian farmer found some unknown seeds in his attic and planted them",
+          "link": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
+          "excerpt": "When a seven-eared stem emerged from the ground, it seemed like a miracle. What Claudio Grossi had unearthed was an ancient grain that proved to be an answer to some modern problems",
+          "source": "smithsonianmag.com via Hacker News",
+          "date": "Oct 31",
+          "image": "https://th-thumbnailer.cdn-si-edu.com/_-X8sWyx82CD0eX5ZxIF7dcS2X8=/fit-in/1600x0/filters:focal(1181x787:1182x788)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/37/95/3795362b-64a6-4d5f-b7df-67aa18192521/l2190910.jpg",
+          "icon": "https://www.smithsonianmag.com/static/smithsonianmag/img/smithmag-favicon-logo.cb31c6e193dd.png",
+          "domain": "smithsonianmag.com",
+          "hn": "153 points · 46 comments"
+        }
+      ],
+      "more": [
+        {
+          "title": "Altoids Project",
+          "link": "https://uvdn7.github.io/altoids-project/",
+          "excerpt": "My 12-year-old son and I spent about two months on, what we call, the Altoids project. Here is the final product (video):",
+          "source": "uvdn7.github.io via Hacker News",
+          "date": "Oct 31",
+          "image": null,
+          "icon": "https://uvdn7.github.io/favicon.ico",
+          "domain": "uvdn7.github.io",
+          "hn": "39 points · 1 comments"
+        },
+        {
+          "title": "AI text watermarking and quality loss",
+          "link": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
+          "excerpt": "After the EU AI Act’s transparency guidelines went into effect, and following the announcement that most major AI labs will soon be watermarking their text output to comply, there has been some debate about how much of an impact this is going to have, if any, on the quality of the text produced by…",
+          "source": "blog.keyvan.net via Hacker News",
+          "date": "Oct 31",
+          "image": "https://substackcdn.com/image/fetch/$s_!EKF2!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d292d10-d3ea-4c94-b5a7-2b422b15c140_1672x941.png",
+          "icon": "https://substackcdn.com/image/fetch/$s_!yN8B!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff34a514e-920f-4253-bad2-9b27887a59c3%2Fapple-touch-icon-57x57.png",
+          "domain": "blog.keyvan.net",
+          "hn": "20 points · 4 comments"
+        },
+        {
+          "title": "With 86% of the words, you might understand only 38% of an anime's lines",
+          "link": "https://learnfromx.com/research/anime-word-coverage-vs-lines-understood",
+          "excerpt": "We counted eight anime line by line. In Frieren, the 500 most common words give you 85.9% coverage but only 38.4% of the lines.",
+          "source": "learnfromx.com via Hacker News",
+          "date": "Oct 31",
+          "image": "https://learnfromx.com/static/images/og-word-coverage.png",
+          "icon": "https://learnfromx.com/static/icons/apple-touch-icon.png?v=47bf0acf",
+          "domain": "learnfromx.com",
+          "hn": "68 points · 43 comments"
+        },
+        {
+          "title": "Surviving \"The Graduate\"",
+          "link": "https://www.newyorker.com/culture/the-weekend-essay/dustin-hoffman-on-surviving-the-graduate",
+          "excerpt": "It was the film that made me famous. On set, all I could think about was how I was failing.",
+          "source": "newyorker.com via Hacker News",
+          "date": "Oct 31",
+          "image": "https://media.newyorker.com/photos/6ae39ebeda249834dbb46a9b/16:9/w_1280,c_limit/HTG_01_final_still.jpg",
+          "icon": "https://www.newyorker.com/verso/static/thenewyorker-us/assets/favicon.ico",
+          "domain": "newyorker.com",
+          "hn": "60 points · 17 comments"
+        }
+      ]
+    }
+  ]
+}

@@ -89,6 +89,12 @@
   "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png",
   "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
  },
+ "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf": {
+  "description": "CVE-2026-98432 is a CVSS 9.8 remote use-after-free in Linux's IPv4 TCP handshake, fixed upstream Oct 15. Ubuntu and RHEL haven't shipped a fixed kernel yet.",
+  "fetched": "2026-11-01",
+  "icon": "https://atlasum.net/favicon/apple-touch-icon.png",
+  "image": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf/opengraph-image"
+ },
  "https://ayoships.com/breakdowns/block-blast": {
   "description": "Rules downloaded from their server decide your pieces, your score and your ads. One waits for an expensive ad, then asks for a hand you canât place.",
   "fetched": "2026-10-24",
@@ -137,6 +143,12 @@
   "icon": "https://blog.habets.se/static/apple-touch-icon.png",
   "image": null
  },
+ "https://blog.keyvan.net/p/ai-text-watermarking-and-quality": {
+  "description": "After the EU AI Act’s transparency guidelines went into effect, and following the announcement that most major AI labs will soon be watermarking their text output to comply, there has been some debate about how much of an impact this is going to have, if any, on the quality of the text produced by AI models.",
+  "fetched": "2026-11-01",
+  "icon": "https://substackcdn.com/image/fetch/$s_!yN8B!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff34a514e-920f-4253-bad2-9b27887a59c3%2Fapple-touch-icon-57x57.png",
+  "image": "https://substackcdn.com/image/fetch/$s_!EKF2!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d292d10-d3ea-4c94-b5a7-2b422b15c140_1672x941.png"
+ },
  "https://blog.luitjes.it/posts/i-want-my-wednesday-back/": {
   "description": null,
   "fetched": "2026-10-24",
@@ -154,6 +166,12 @@
   "fetched": "2026-10-24",
   "icon": null,
   "image": "https://www.roku.com/assets/roku-logo-purple.png"
+ },
+ "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/": {
+  "description": "The self-deleting VOLTA infostealer steals credentials, sessions, and cryptocurrency wallets. Then, it uses LLMs to profile victims and rank their most valuable assets.",
+  "fetched": "2026-11-01",
+  "icon": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/size/w256h256/2022/07/talos_o_square.png",
+  "image": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/size/w1200/2026/10/VOLTA.jpg"
  },
  "https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/": {
   "description": "A few years back I wrote “The modern packager’s security nightmare”. Have things improved since? On the contrary, I feel like we’re slipping down a well-oiled slope with no end in…",
@@ -353,11 +371,29 @@
   "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
   "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/cover-without-title.2e16d0ba.fill-1200x600.png"
  },
+ "https://developers.googleblog.com/building-conversational-commerce-with-multi-agent-swarms-on-gcp-a-working-prototype/": {
+  "description": "Learn how to build a Conversational User Interface (CUI) using AI in this step-by-step guide.",
+  "fetched": "2026-11-01",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/cui_banner_light_1600x900_1791294.2e16d0ba.fill-1200x600.jpg"
+ },
  "https://developers.googleblog.com/devfest-is-back/": {
   "description": "Join DevFest 2026! Connect with local Google Developer Groups from October 1 to December 31 to build, secure, and scale with AI, Cloud, Android, and Web tech.",
   "fetched": "2026-10-31",
   "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
   "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Developers_Blog_Header_1.2e16d0ba.fill-1200x600.jpg"
+ },
+ "https://developers.googleblog.com/fast-reliable-a2ui/": {
+  "description": "Discover A2UI's new swappable inference formats, including A2UI Express for 3x lower latency and controlled generation with Jev for fast, reliable generative UI.",
+  "fetched": "2026-11-01",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/00-header-1600x900.2e16d0ba.fill-1200x600.png"
+ },
+ "https://developers.googleblog.com/hill-climbing-agent-quality-with-agents-cli-evaluation/": {
+  "description": "Learn how to hill-climb agent quality using the Agents CLI eval loop, from initial baseline runs and regression tracking to model swaps and automated alerts.",
+  "fetched": "2026-11-01",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/1_3.2e16d0ba.fill-1200x600.png"
  },
  "https://developers.googleblog.com/integrating-torchtpu-into-torchtitan-and-optimizing-models-for-tpu/": {
   "description": "Learn how TorchTitan and TorchTPU enable seamless, high-performance distributed AI model training on Google Cloud TPUs with native PyTorch support.",
@@ -382,6 +418,12 @@
   "fetched": "2026-10-27",
   "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
   "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image_11_a479DBi.2e16d0ba.fill-1200x600.png"
+ },
+ "https://developers.googleblog.com/smaller-apps-and-faster-gpu-inference-with-litert-in-google-play-services/": {
+  "description": "Learn how LiteRT in Google Play services enables smaller Android app sizes and ~1.4x faster GPU inference powered by ML Drift and the CompiledModel API.",
+  "fetched": "2026-11-01",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_dcklz0dckl.2e16d0ba.fill-1200x600.jpg"
  },
  "https://developers.googleblog.com/step-by-step-guide-build-a-voice-agent-that-never-goes-silent-using-adk/": {
   "description": "Learn how to build responsive voice agents that never go silent using open-source ADK, streaming tools, and Gemini 3.8 Live with response scheduling.",
@@ -544,6 +586,12 @@
   "fetched": "2026-10-29",
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://repository-images.githubusercontent.com/349134426/ad5d8e71-d4a8-496c-a54b-c4c0042eb88b"
+ },
+ "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve": {
+  "description": "A lightweight coding and automation agent in one CLI binary. Run locally or over SSH, optimize token use, and automate CI and cron with durable workflows. - guregodevo/memdoor",
+  "fetched": "2026-11-01",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://opengraph.githubassets.com/a7b7a1ea0aa7cf5973b524f6b84227facb1eebf9f79648b95f3d6944adb2e342/guregodevo/memdoor"
  },
  "https://github.com/herdrdev/herdr-app": {
   "description": "herdr desktop app. Contribute to herdrdev/herdr-app development by creating an account on GitHub.",
@@ -749,6 +797,12 @@
   "icon": null,
   "image": "https://journal.animationstudies.org/media/cover_images/32a1852c-fcda-4630-b063-f82dd00354b3.jpeg"
  },
+ "https://karpathy.bearblog.dev/hacker-tube/": {
+  "description": "Instead of YouTube, watch HackerTube!",
+  "fetched": "2026-11-01",
+  "icon": null,
+  "image": "https://bearblog.dev/static/og-image.png"
+ },
  "https://korindiehacker.bloffy.blog/en/removing-nextjs-got-my-blog-to-100-on-every-lighthouse-category": {
   "description": "My blog just scored a perfect 100 on every Lighthouse category. I love blogging. I wanted to build a blog that’s light, fast, free of clutter, able to run multiple blogs, and fully accessible on top of that. And finally, at long last, I’ve more or less pulled it off. It was quite a tedious proces...",
   "fetched": "2026-10-26",
@@ -778,6 +832,12 @@
   "fetched": "2026-10-29",
   "icon": "https://latent.space/favicon.png",
   "image": "https://latent.space/og/card/post/ainews-gemini-4-carbon/95760c867a2e9becf313c47b14f0386243bc4596c54259bb71809eb955f9dad9.png"
+ },
+ "https://learnfromx.com/research/anime-word-coverage-vs-lines-understood": {
+  "description": "We counted eight anime line by line. In Frieren, the 500 most common words give you 85.9% coverage but only 38.4% of the lines.",
+  "fetched": "2026-11-01",
+  "icon": "https://learnfromx.com/static/icons/apple-touch-icon.png?v=47bf0acf",
+  "image": "https://learnfromx.com/static/images/og-word-coverage.png"
  },
  "https://lexifina.com/blog/git-for-the-us-code": {
   "description": "Lawyers should be able to read a statute as it stood on any date and see which law wrote each phrase. A history of nine titles of the US Code, built by replaying every amendment, as the example.",
@@ -814,6 +874,12 @@
   "fetched": "2026-10-30",
   "icon": null,
   "image": "https://martinfowler.com/logo-sq.png"
+ },
+ "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering": {
+  "description": "The restrictions are so broad that they're even hurting legitimate game developers and preventing basic troubleshooting tasks.",
+  "fetched": "2026-11-01",
+  "icon": "https://mashable.com/favicons/apple-touch-icon.jpg",
+  "image": "https://helios-i.mashable.com/imagery/articles/00cSAXoWdRYObLNtN71MkCO/hero-image.fill.size_1200x675.v1793455880.png"
  },
  "https://massie.house.gov/news/documentsingle.aspx?DocumentID=395849": {
   "description": null,
@@ -1187,11 +1253,29 @@
   "icon": null,
   "image": null
  },
+ "https://simonwillison.net/2026/Oct/31/datasette-llm/": {
+  "description": "LLM integration plugin for other plugins to depend on",
+  "fetched": "2026-11-01",
+  "icon": null,
+  "image": null
+ },
+ "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/": {
+  "description": "Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML …",
+  "fetched": "2026-11-01",
+  "icon": null,
+  "image": null
+ },
  "https://smsofdeath.com/": {
   "description": "A single malformed WAP Push SMS crashes com.android.phone on Android. Zero-click, remote, drops emergency calls.",
   "fetched": "2026-10-29",
   "icon": null,
   "image": null
+ },
+ "https://spectrum.ieee.org/early-electric-vehicles": {
+  "description": "Early carmakers decided women wanted cars that were quiet, clean, and easy to start",
+  "fetched": "2026-11-01",
+  "icon": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNjU5NjY0OS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTg0ODgxODUwNn0.1LlzHtxZSVXyzapxWjeSrRIRu5qo3CeB8FaWpd2tl_o/img.png?width=192&height=192",
+  "image": "https://spectrum.ieee.org/media-library/image.jpg?id=68537019&width=1200&height=600&coordinates=0%2C300%2C0%2C301"
  },
  "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup": {
   "description": "AI-generated text is harder to spot, but that hasn’t deterred them",
@@ -1427,6 +1511,12 @@
   "icon": "https://x.com/apple-touch-icon.png",
   "image": "https://pbs.twimg.com/profile_images/1554293796438941697/FjT4jVh1_400x400.jpg"
  },
+ "https://twitter.com/jiahaoshao1/status/2116475922190922088": {
+  "description": "Shame on @DarioAmodei / Anthropic. I never distilled Claude—rollouts came from a strong open-source model; Claude just helped submit jobs and run analysis. Still got tagged for \"training a competitor,\" and now anything touching RFT, SFT, or training larger models gets me blocked, Opus 5.5 downgrade…",
+  "fetched": "2026-11-01",
+  "icon": "https://x.com/apple-touch-icon.png",
+  "image": "https://pbs.twimg.com/profile_images/1983126868095315969/28wHeS_J_400x400.jpg"
+ },
  "https://twitter.com/mike64_t/status/2114150399406202896": {
   "description": "Ok, I just checked this, and its literally running a freaking TensorFlow Lite model on 960×540 images with INT8 quantization every couple of seconds in an attempt to figure out what game you are playing. It's literally called \"alex.tflite\" and its literally AlexNet and seems to follow torchvision.m…",
   "fetched": "2026-10-25",
@@ -1444,6 +1534,12 @@
   "fetched": "2026-10-26",
   "icon": "https://typemill.net/media/custom/favicon-72x72.png",
   "image": "https://typemill.net/media/live/tasks-like-code.webp"
+ },
+ "https://uvdn7.github.io/altoids-project/": {
+  "description": "My 12-year-old son and I spent about two months on, what we call, the Altoids project. Here is the final product (video):",
+  "fetched": "2026-11-01",
+  "icon": null,
+  "image": null
  },
  "https://v12.sh/blog/the-case-of-the-9bit-aes-key": {
   "description": "Several PDF implementations advertise AES-256, but generate the 256-bit key from either a very small state space, or from insecure random sources.",
@@ -1757,6 +1853,18 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2026/10/30/claude-code-attack.jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/": {
+  "description": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message.",
+  "fetched": "2026-11-01",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2024/01/31/image_(2).jpg"
+ },
+ "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/": {
+  "description": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys.",
+  "fetched": "2026-11-01",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/10/31/northflank-header.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/": {
   "description": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure.",
   "fetched": "2026-10-28",
@@ -2069,6 +2177,12 @@
   "icon": null,
   "image": "https://www.netmeister.org/blog/images/captain-haddock.jpg"
  },
+ "https://www.newyorker.com/culture/the-weekend-essay/dustin-hoffman-on-surviving-the-graduate": {
+  "description": "It was the film that made me famous. On set, all I could think about was how I was failing.",
+  "fetched": "2026-11-01",
+  "icon": "https://www.newyorker.com/verso/static/thenewyorker-us/assets/favicon.ico",
+  "image": "https://media.newyorker.com/photos/6ae39ebeda249834dbb46a9b/16:9/w_1280,c_limit/HTG_01_final_still.jpg"
+ },
  "https://www.osnews.com/story/146273/how-long-do-you-need-to-hold-down-the-power-button-to-turn-off-a-pc/": {
   "description": null,
   "fetched": "2026-10-31",
@@ -2219,6 +2333,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/02/Anthropic-AI_Military.jpg"
  },
+ "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/": {
+  "description": "The FBI has seized Virtualine's bulletproof hosting domain for facilitating illicit operations, including ransomware and infostealers.",
+  "fetched": "2026-11-01",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/10/Virtualine-seized.jpg"
+ },
  "https://www.securityweek.com/chinese-hackers-quietly-used-low-severity-esxi-logging-flaw-as-zero-day/": {
   "description": "CISA warns that attackers have been exploiting a low-severity insufficient logging issue in VMware ESXi, tracked as CVE-2026-41709.",
   "fetched": "2026-10-29",
@@ -2243,11 +2363,23 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg"
  },
+ "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/": {
+  "description": "Drupal has patched CVE-2026-118539, an exploited Commerce Core access bypass that may financially impact online store owners.",
+  "fetched": "2026-11-01",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Drupal.jpg"
+ },
  "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/": {
   "description": "Mave has emerged from stealth with $34 million in seed and Series A funding to build an agentic SecOps platform for enterprises.",
   "fetched": "2026-10-25",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2025/11/funding-investment-market-3.jpeg"
+ },
+ "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/": {
+  "description": "Hackers are targeting a newly patched high-severity unauthenticated remote code execution vulnerability in WordPress.",
+  "fetched": "2026-11-01",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2024/08/WordPress.jpeg"
  },
  "https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities/": {
   "description": "Google says Gemini 4 Carbon's cybersecurity capabilities beat rival AI models on vulnerability benchmarks. Access is limited to vetted defenders for now.",
@@ -2285,6 +2417,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/10/supply-chain-attack.jpeg"
  },
+ "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/": {
+  "description": "Hackers exploited CVE-2026-97229, a max-severity code execution vulnerability in GitLab, against Alpine Linux’s instance.",
+  "fetched": "2026-11-01",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/06/GitLab.jpeg"
+ },
  "https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge/": {
   "description": "Mirai botnet operators target PHP2Shell and VulnCheck bypasses ASLR, yet no successful PHP2Shell compromise has been confirmed.",
   "fetched": "2026-10-23",
@@ -2321,11 +2459,23 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2025/12/funding-round.jpeg"
  },
+ "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/": {
+  "description": "Syrian Electronic Army hacker Ahmad Umar Agha, who hijacked AP’s Twitter account in 2013, gets 42 months after a decade on the run.",
+  "fetched": "2026-11-01",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2024/03/hacker-sentenced-prison.jpeg"
+ },
  "https://www.securityweek.com/tailscale-rushes-patches-after-uncoordinated-disclosure-of-tailworm-flaws/": {
   "description": "Tailscale is preparing a client update for Tailworm, SSH flaws that researchers say let one hacked device gain root on others.",
   "fetched": "2026-10-28",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2024/04/vulnerability.jpeg"
+ },
+ "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/": {
+  "description": "An integer overflow tracked as CVE-2026-111585 could be used to execute arbitrary code on the viewer’s system.",
+  "fetched": "2026-11-01",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2024/06/Teamviewer.jpeg"
  },
  "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/": {
   "description": "Ukrainian national Artem Stryzhak was sentenced to 70 months in US prison for deploying Nefilim and Hive ransomware against victims.",
@@ -2356,6 +2506,12 @@
   "fetched": "2026-10-30",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg"
+ },
+ "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/": {
+  "description": "When a seven-eared stem emerged from the ground, it seemed like a miracle. What Claudio Grossi had unearthed was an ancient grain that proved to be an answer to some modern problems",
+  "fetched": "2026-11-01",
+  "icon": "https://www.smithsonianmag.com/static/smithsonianmag/img/smithmag-favicon-logo.cb31c6e193dd.png",
+  "image": "https://th-thumbnailer.cdn-si-edu.com/_-X8sWyx82CD0eX5ZxIF7dcS2X8=/fit-in/1600x0/filters:focal(1181x787:1182x788)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/37/95/3795362b-64a6-4d5f-b7df-67aa18192521/l2190910.jpg"
  },
  "https://www.southampton.ac.uk/~doug/quantum_physics/index.html": {
   "description": null,
