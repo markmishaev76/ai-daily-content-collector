@@ -13,7 +13,7 @@
     "note": null,
     "labels": [
       "Agent Identity & Authorization",
-      "9h ago"
+      "11h ago"
     ],
     "also": []
   },
@@ -25,7 +25,7 @@
       "link_domain": "atlasum.net",
       "source": "Hacker News",
       "domain": "atlasum.net",
-      "meta": "Hacker News · 527 points · 243 comments · 16h ago",
+      "meta": "Hacker News · 565 points · 262 comments · 18h ago",
       "also": [],
       "image": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf/opengraph-image",
       "icon": "https://atlasum.net/favicon/apple-touch-icon.png"
@@ -37,7 +37,7 @@
       "link_domain": "twitter.com",
       "source": "Hacker News",
       "domain": "twitter.com",
-      "meta": "Hacker News · 376 points · 217 comments · 15h ago",
+      "meta": "Hacker News · 399 points · 227 comments · 17h ago",
       "also": [],
       "image": "https://pbs.twimg.com/profile_images/1983126868095315969/28wHeS_J_400x400.jpg",
       "icon": "https://x.com/apple-touch-icon.png"
@@ -49,7 +49,7 @@
       "link_domain": "blog.talosintelligence.com",
       "source": "Hacker News",
       "domain": "blog.talosintelligence.com",
-      "meta": "Hacker News · 249 points · 131 comments · 20h ago",
+      "meta": "Hacker News · 249 points · 131 comments · 23h ago",
       "also": [],
       "image": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/size/w1200/2026/10/VOLTA.jpg",
       "icon": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/size/w256h256/2022/07/talos_o_square.png"
@@ -61,7 +61,7 @@
       "link_domain": "help.openai.com",
       "source": "Hacker News",
       "domain": "help.openai.com",
-      "meta": "Hacker News · 153 points · 92 comments · 13h ago",
+      "meta": "Hacker News · 187 points · 123 comments · 15h ago",
       "also": [],
       "image": null,
       "icon": "https://help.openai.com/favicon.ico"
@@ -73,7 +73,7 @@
       "link_domain": "mashable.com",
       "source": "Hacker News",
       "domain": "mashable.com",
-      "meta": "Hacker News · 149 points · 96 comments · 14h ago",
+      "meta": "Hacker News · 157 points · 101 comments · 16h ago",
       "also": [],
       "image": "https://helios-i.mashable.com/imagery/articles/00cSAXoWdRYObLNtN71MkCO/hero-image.fill.size_1200x675.v1793455880.png",
       "icon": "https://mashable.com/favicons/apple-touch-icon.jpg"
@@ -93,7 +93,7 @@
           "icon": "https://lucumr.pocoo.org/static/avatar-small.jpg",
           "domain": "lucumr.pocoo.org",
           "hn": null,
-          "score": 0.754,
+          "score": 0.738,
           "coverage": 1
         },
         {
@@ -106,7 +106,7 @@
           "icon": "https://substackcdn.com/icons/substack/apple-touch-icon.png",
           "domain": "newsletter.kentbeck.com",
           "hn": null,
-          "score": 0.246,
+          "score": 0.238,
           "coverage": 1
         },
         {
@@ -119,7 +119,7 @@
           "icon": "https://substackcdn.com/icons/substack/apple-touch-icon.png",
           "domain": "newsletter.kentbeck.com",
           "hn": null,
-          "score": 0.135,
+          "score": 0.133,
           "coverage": 1
         }
       ],
@@ -134,7 +134,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.594,
+          "score": 0.547,
           "coverage": 1
         },
         {
@@ -147,7 +147,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.569,
+          "score": 0.526,
           "coverage": 1
         }
       ]
@@ -165,7 +165,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 2.389,
+          "score": 2.24,
           "coverage": 1
         },
         {
@@ -178,11 +178,122 @@
           "icon": null,
           "domain": "sentinelone.com",
           "hn": null,
-          "score": 0.278,
+          "score": 0.268,
           "coverage": 1
         }
       ],
       "more": []
+    },
+    {
+      "name": "Secrets & NHI",
+      "cards": [
+        {
+          "title": "Enable Filesystem Access for MCP Servers, Step by Step",
+          "link": "https://aembit.io/blog/how-to-enable-filesystem-support-in-model-context-protocol-mcp/",
+          "excerpt": "4 min readAI and LLMs have proven to useful in many ways. However, this usually means using a website that was trained on unknown, publicly available data. What if you want to use local files and make changes locally? That’s where the filesystem functionality in Model Context Protocol (MCP), a…",
+          "source": "Aembit",
+          "date": "Oct 30",
+          "image": "https://aembit.io/wp-content/uploads/2025/04/mcp1.png",
+          "icon": null,
+          "domain": "aembit.io",
+          "hn": null,
+          "score": 2.563,
+          "coverage": 1
+        },
+        {
+          "title": "Aembit Now Supports SPIFFE: X.509-SVID and JWT-SVID Without SPIRE",
+          "link": "https://aembit.io/blog/aembit-now-supports-spiffe-x-509-svid-and-jwt-svid-without-spire/",
+          "excerpt": "2 min readAembit’s identity control plane now issues both SPIFFE credential types: X.509-SVID certificates for mutual TLS and JWT-SVID tokens for bearer-token authentication. Workloads and AI agents get a standards-compliant identity, without deploying or operating SPIRE. What Is Aembit…",
+          "source": "Aembit",
+          "date": "Oct 27",
+          "image": "https://aembit.io/wp-content/uploads/2026/10/SPIFFE-1.jpg",
+          "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
+          "domain": "aembit.io",
+          "hn": null,
+          "score": 0.988,
+          "coverage": 1
+        },
+        {
+          "title": "MCP Servers vs API Security: What’s the Difference?",
+          "link": "https://aembit.io/blog/mcp-security-vs-traditional-api-security/",
+          "excerpt": "6 min readSecuring MCP requires a fundamentally different approach than traditional API security. The post MCP Servers vs API Security: What’s the Difference? appeared first on Aembit.",
+          "source": "Aembit",
+          "date": "Oct 30",
+          "image": "https://aembit.io/wp-content/uploads/2025/12/MCP-vs-Traditional-API-Security.jpg",
+          "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
+          "domain": "aembit.io",
+          "hn": null,
+          "score": 2.333,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Introducing the AI Agent Kill Switch: Instant Single-User Revocation",
+          "link": "https://aembit.io/blog/introducing-the-ai-agent-kill-switch-instant-single-user-revocation/",
+          "excerpt": "3 min readOne day, an employee at your organization notices that a co-worker’s Claude Code session is acting outside its intended scope. Or an agent approved for a pilot has been retired. You need that single connection stopped, but you do not want to lock the employee out of every other agent,…",
+          "source": "Aembit",
+          "date": "Oct 29",
+          "image": "https://aembit.io/wp-content/uploads/2026/10/Aembit-Kill-Switch-1024x629.png",
+          "icon": null,
+          "domain": "aembit.io",
+          "hn": null,
+          "score": 1.352,
+          "coverage": 1
+        },
+        {
+          "title": "2-Legged vs 3-Legged OAuth: Which Flow Fits Your Use Case?",
+          "link": "https://aembit.io/blog/2-legged-vs-3-legged-oauth-flows/",
+          "excerpt": "6 min readLearn when to use 2-legged vs 3-legged OAuth flows for your authentication needs. Discover security vulnerabilities, implementation patterns, and how Workload Identity Federation eliminates credential risks. The post 2-Legged vs 3-Legged OAuth: Which Flow Fits Your Use Case? appeared…",
+          "source": "Aembit",
+          "date": "Oct 30",
+          "image": "https://aembit.io/wp-content/uploads/2025/10/2-Legged-vs-3-Legged-OAuth-1-1024x535.jpg",
+          "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
+          "domain": "aembit.io",
+          "hn": null,
+          "score": 1.314,
+          "coverage": 1
+        },
+        {
+          "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM (2024)",
+          "link": "https://arxiv.org/abs/2409.02292",
+          "excerpt": "Air-gapped systems are physically separated from external networks, including the Internet. This isolation is achieved by keeping the air-gap computers disconnected from wired or wireless networks, preventing direct or remote communication with other devices or networks. Air-gap measures may be…",
+          "source": "arxiv.org via Hacker News",
+          "date": "Nov 01",
+          "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+          "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png",
+          "domain": "arxiv.org",
+          "hn": "110 points · 57 comments",
+          "score": 3.291,
+          "coverage": 1
+        },
+        {
+          "title": "Zinc creep in cable spelter sockets brought down the Arecibo telescope in 2020",
+          "link": "https://maketecheasier.com/arecibo-zinc-creep-collapse/",
+          "excerpt": "A 2024 National Academies report blames the 2020 Arecibo telescope collapse on zinc creep in cable spelter sockets, a failure never documented before.",
+          "source": "maketecheasier.com via Hacker News",
+          "date": "Oct 30",
+          "image": "https://maketecheasier.com/wp-content/uploads/2026/10/arecibo-zinc-creep-collapse-featured.jpg",
+          "icon": "https://maketecheasier.com/wp-content/uploads/2022/11/cropped-site-icon-180x180.png",
+          "domain": "maketecheasier.com",
+          "hn": "134 points · 40 comments",
+          "score": 1.549,
+          "coverage": 1
+        },
+        {
+          "title": "Democrats' Secret Effort to Stack Alaska's Ballot",
+          "link": "https://www.nytimes.com/2026/10/28/us/politics/alaska-dan-sullivan-conspiracy-peltola.html",
+          "excerpt": "10 points · 17 comments",
+          "source": "nytimes.com via Hacker News",
+          "date": "Oct 30",
+          "image": null,
+          "icon": "https://www.nytimes.com/favicon.ico",
+          "domain": "nytimes.com",
+          "hn": "10 points · 17 comments",
+          "score": 1.039,
+          "coverage": 1
+        }
+      ]
     },
     {
       "name": "Security & AppSec",
@@ -197,7 +308,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 3.323,
+          "score": 2.839,
           "coverage": 1
         },
         {
@@ -210,7 +321,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.492,
+          "score": 0.431,
           "coverage": 1
         },
         {
@@ -223,7 +334,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.449,
+          "score": 0.397,
           "coverage": 1
         }
       ],
@@ -238,7 +349,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.438,
+          "score": 0.389,
           "coverage": 1
         },
         {
@@ -251,7 +362,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.438,
+          "score": 0.389,
           "coverage": 1
         },
         {
@@ -264,7 +375,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.197,
+          "score": 0.187,
           "coverage": 1
         },
         {
@@ -277,20 +388,20 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.124,
+          "score": 0.12,
           "coverage": 1
         },
         {
-          "title": "Fresh WordPress Vulnerability in Attackers’ Crosshairs",
-          "link": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
-          "excerpt": "Threat actors are attempting to exploit a high-severity unauthenticated race condition leading to remote code execution. The post Fresh WordPress Vulnerability in Attackers’ Crosshairs appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Oct 30",
-          "image": "https://www.securityweek.com/wp-content/uploads/2024/08/WordPress.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
+          "title": "Northflank security breach leads to abuse of customers' AI API keys",
+          "link": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+          "excerpt": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
+          "source": "BleepingComputer",
+          "date": "Oct 31",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/10/31/northflank-header.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.121,
+          "score": 1.598,
           "coverage": 1
         }
       ]
@@ -298,19 +409,6 @@
     {
       "name": "Platform, Cloud & Reliability",
       "cards": [
-        {
-          "title": "New Gemini courses for financial services and legal teams",
-          "link": "https://cloud.google.com/blog/topics/training-certifications/new-gemini-courses-for-financial-services-and-legal-teams/",
-          "excerpt": "Today Google Skills is sharing new, industry-specific video learning bundles to get you into Gemini and using agents. One bundle is designed for financial services and one is built specifically for those in the legal profession. You can access all of these videos at no cost on Google Skills today.…",
-          "source": "Cloud Blog",
-          "date": "Oct 30",
-          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/LegalAndFinservBlogHeaderYellow.max-600x600.png",
-          "icon": null,
-          "domain": "cloud.google.com",
-          "hn": null,
-          "score": 0.77,
-          "coverage": 1
-        },
         {
           "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
           "link": "https://blog.cloudflare.com/emudhra-patching/",
@@ -321,7 +419,7 @@
           "icon": null,
           "domain": "blog.cloudflare.com",
           "hn": null,
-          "score": 0.209,
+          "score": 0.201,
           "coverage": 1
         },
         {
@@ -334,11 +432,9 @@
           "icon": null,
           "domain": "blog.cloudflare.com",
           "hn": null,
-          "score": 0.197,
+          "score": 0.19,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "AWS Capacity Largely Sold Out Through 2027, With On Demand Headroom Reserved",
           "link": "https://www.infoq.com/news/2026/11/aws-capacity-sold-out/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -349,7 +445,22 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.583,
+          "score": 0.514,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "File Mover Express: AWS Releases Open-Source Tool for S3 File Transfers",
+          "link": "https://www.infoq.com/news/2026/11/aws-s3-file-transfer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "AWS has recently released File Mover Express, an open-source application under the Apache 2.0 license for transferring large files between local systems and Amazon S3. Available for macOS, Windows, and Linux, it supports parallel transfers, automatic performance tuning, retries, pause and resume,…",
+          "source": "InfoQ",
+          "date": "Nov 01",
+          "image": "https://res.infoq.com/news/2026/11/aws-s3-file-transfer/en/headerimage/generatedHeaderImage-1792218946629.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.473,
           "coverage": 1
         },
         {
@@ -410,29 +521,16 @@
       "name": "News & Research",
       "cards": [
         {
-          "title": "Show HN: BBRouter – Ben Eater's 8-bit computer, simulated on 3D breadboards",
-          "link": "https://bbrouter.com/bbrouter/ben-eater-sap-1",
-          "excerpt": "A project by @bbrouter on BBRouter, the 3D breadboard editor and simulator: open it to look around and run it.",
-          "source": "bbrouter.com via Hacker News",
+          "title": "noyb win: French electronics retailer Fnac Darty fined €7M",
+          "link": "https://noyb.eu/en/noyb-win-french-electronics-retailer-fnac-darty-fined-eu7-million",
+          "excerpt": "The fine is based on a noyb complaint from 2023. Back then, we highlighted that Fnac Darty illegally tracked users of its mobile apps without consent",
+          "source": "noyb.eu via Hacker News",
           "date": "Nov 01",
-          "image": "https://bbrouter.com/api/public/bbrouter/Ben-Eater-SAP-1/picture?card&r=27",
-          "icon": "https://bbrouter.com/apple-touch-icon.png",
-          "domain": "bbrouter.com",
-          "hn": "35 points · 8 comments",
-          "score": 1.947,
-          "coverage": 1
-        },
-        {
-          "title": "Pac-Man's Siren Call",
-          "link": "https://unsung.aresluna.org/pac-mans-siren-call/",
-          "excerpt": "A blog about software craft and quality",
-          "source": "unsung.aresluna.org via Hacker News",
-          "date": "Nov 01",
-          "image": "https://unsung.aresluna.org/_media/pac-mans-siren-call/ogimage.jpg",
-          "icon": "https://unsung.aresluna.org/pac-mans-siren-call/_unsung/favicon-halloween-dark.png",
-          "domain": "unsung.aresluna.org",
-          "hn": "24 points · 6 comments",
-          "score": 2.466,
+          "image": "https://noyb.eu/sites/default/files/styles/facebook/public/2026-10/mobile_apps_header_0.png?h=19fb9a6b&itok=PsCuZQBN",
+          "icon": "https://noyb.eu/themes/chives/images/ao_canvas/apple-touch-icon.png",
+          "domain": "noyb.eu",
+          "hn": "25 points · 3 comments",
+          "score": 2.887,
           "coverage": 1
         },
         {
@@ -444,8 +542,21 @@
           "image": "https://nolanlawson.com/_astro/frameworks.B14_z7MF_2lv3q1.webp",
           "icon": "https://nolanlawson.com/apple-touch-icon.png",
           "domain": "nolanlawson.com",
-          "hn": "93 points · 51 comments",
-          "score": 3.295,
+          "hn": "141 points · 92 comments",
+          "score": 3.187,
+          "coverage": 1
+        },
+        {
+          "title": "Seabirds racing home over the ocean can get jet-lagged",
+          "link": "https://arstechnica.com/science/2026/10/seabirds-racing-home-over-the-ocean-can-get-jet-lagged/",
+          "excerpt": "A long flight home from feeding grounds messes with birds' internal clocks.",
+          "source": "Ars Technica - All content",
+          "date": "Oct 31",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/image-4-500x500.jpeg",
+          "icon": null,
+          "domain": "arstechnica.com",
+          "hn": null,
+          "score": 0.235,
           "coverage": 1
         }
       ],
@@ -453,40 +564,40 @@
         {
           "title": "Norway makes shithouses great again",
           "link": "https://www.visitnorway.com/plan-your-trip/travel-tips-a-z/norwegian-scenic-routes/worlds-best-toilets/",
-          "excerpt": "40 points · 10 comments",
+          "excerpt": "339 points · 168 comments",
           "source": "visitnorway.com via Hacker News",
           "date": "Nov 01",
           "image": null,
           "icon": "https://www.visitnorway.com/favicon.ico",
           "domain": "visitnorway.com",
-          "hn": "40 points · 10 comments",
-          "score": 3.694,
+          "hn": "339 points · 168 comments",
+          "score": 4.724,
+          "coverage": 1
+        },
+        {
+          "title": "Domain hacks with unusual Unicode characters (2018)",
+          "link": "https://xn--69f31l4t57c0mag4b613h.xn--7uh4898msjaso/🆆🆃🅵/",
+          "excerpt": "22 points · 12 comments",
+          "source": "xn--69f31l4t57c0mag4b613h.xn--7uh4898msjaso via Hacker News",
+          "date": "Nov 01",
+          "image": null,
+          "icon": "https://xn--69f31l4t57c0mag4b613h.xn--7uh4898msjaso/favicon.ico",
+          "domain": "xn--69f31l4t57c0mag4b613h.xn--7uh4898msjaso",
+          "hn": "22 points · 12 comments",
+          "score": 2.906,
           "coverage": 1
         },
         {
           "title": "A tiny Pacific country rolls out universal basic income",
           "link": "https://www.economist.com/asia/2026/10/29/a-tiny-pacific-country-rolls-out-universal-basic-income",
-          "excerpt": "17 points · 3 comments",
+          "excerpt": "76 points · 52 comments",
           "source": "economist.com via Hacker News",
           "date": "Nov 01",
           "image": null,
           "icon": "https://www.economist.com/favicon.ico",
           "domain": "economist.com",
-          "hn": "17 points · 3 comments",
-          "score": 2.837,
-          "coverage": 1
-        },
-        {
-          "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM (2024)",
-          "link": "https://arxiv.org/abs/2409.02292",
-          "excerpt": "Air-gapped systems are physically separated from external networks, including the Internet. This isolation is achieved by keeping the air-gap computers disconnected from wired or wireless networks, preventing direct or remote communication with other devices or networks. Air-gap measures may be…",
-          "source": "arxiv.org via Hacker News",
-          "date": "Nov 01",
-          "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-          "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png",
-          "domain": "arxiv.org",
-          "hn": "93 points · 46 comments",
-          "score": 2.622,
+          "hn": "76 points · 52 comments",
+          "score": 3.624,
           "coverage": 1
         },
         {
@@ -498,21 +609,21 @@
           "image": null,
           "icon": "https://uvdn7.github.io/favicon.ico",
           "domain": "uvdn7.github.io",
-          "hn": "116 points · 6 comments",
-          "score": 2.264,
+          "hn": "125 points · 7 comments",
+          "score": 2.116,
           "coverage": 1
         },
         {
-          "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
-          "link": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
-          "excerpt": "A lightweight coding and automation agent in one CLI binary. Run locally or over SSH, optimize token use, and automate CI and cron with durable workflows. - guregodevo/memdoor",
-          "source": "github.com via Hacker News",
+          "title": "The FDA wants to pull its approval of a drug. It’s not so easy.",
+          "link": "https://arstechnica.com/science/2026/10/the-fda-wants-to-pull-its-approval-of-a-drug-its-not-so-easy/",
+          "excerpt": "The regulator says Tavneos was approved on the basis of manipulated study data. Should patients still have access to it?",
+          "source": "Ars Technica - All content",
           "date": "Oct 31",
-          "image": "https://opengraph.githubassets.com/a7b7a1ea0aa7cf5973b524f6b84227facb1eebf9f79648b95f3d6944adb2e342/guregodevo/memdoor",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "257 points · 119 comments",
-          "score": 2.702,
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2193810869-500x500.jpg",
+          "icon": null,
+          "domain": "arstechnica.com",
+          "hn": null,
+          "score": 0.234,
           "coverage": 1
         }
       ]

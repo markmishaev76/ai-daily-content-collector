@@ -23,6 +23,24 @@
   "icon": "https://web2018.epfl.ch/8.8.0/icons/apple-touch-icon.png",
   "image": "https://actu.epfl.ch/image/168660/1440x810.jpg"
  },
+ "https://aembit.io/blog/2-legged-vs-3-legged-oauth-flows/": {
+  "description": "Learn when to use 2-legged vs 3-legged OAuth flows for your authentication needs. Discover security vulnerabilities, implementation patterns, and how Workload Identity Federation eliminates credential risks.",
+  "fetched": "2026-11-01",
+  "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
+  "image": "https://aembit.io/wp-content/uploads/2025/10/2-Legged-vs-3-Legged-OAuth-1-1024x535.jpg"
+ },
+ "https://aembit.io/blog/aembit-now-supports-spiffe-x-509-svid-and-jwt-svid-without-spire/": {
+  "description": "Aembit now issues SPIFFE X.509-SVID certificates and JWT-SVID tokens for AI agents and workloads, no SPIRE deployment required. See how.",
+  "fetched": "2026-11-01",
+  "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
+  "image": "https://aembit.io/wp-content/uploads/2026/10/SPIFFE-1.jpg"
+ },
+ "https://aembit.io/blog/mcp-security-vs-traditional-api-security/": {
+  "description": "Securing MCP requires a fundamentally different approach than traditional API security. Traditional API security fails for MCP. Learn why AI agents, dynamic context, and tool orchestration demand new security controls for workload identity.",
+  "fetched": "2026-11-01",
+  "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
+  "image": "https://aembit.io/wp-content/uploads/2025/12/MCP-vs-Traditional-API-Security.jpg"
+ },
  "https://allmodels.io/llm/abliterated": {
   "description": "Route abliterated language models across providers with automatic fallbacks, modality-aware selection, and one place to compare availability and token prices.",
   "fetched": "2026-10-27",
@@ -905,6 +923,12 @@
   "icon": "https://substackcdn.com/image/fetch/$s_!_bhP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F342e39ec-514c-4b4d-8a76-6acf0cbd8248%2Fapple-touch-icon-57x57.png",
   "image": "https://substackcdn.com/image/fetch/$s_!1SoS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F519db120-1320-411b-adec-a88865345f2c_4083x2916.jpeg"
  },
+ "https://maketecheasier.com/arecibo-zinc-creep-collapse/": {
+  "description": "A 2024 National Academies report blames the 2020 Arecibo telescope collapse on zinc creep in cable spelter sockets, a failure never documented before.",
+  "fetched": "2026-11-01",
+  "icon": "https://maketecheasier.com/wp-content/uploads/2022/11/cropped-site-icon-180x180.png",
+  "image": "https://maketecheasier.com/wp-content/uploads/2026/10/arecibo-zinc-creep-collapse-featured.jpg"
+ },
  "https://martinfowler.com/bliki/LLM-Voice.html": {
   "description": "The uncanny valley of LLMs' prose",
   "fetched": "2026-10-30",
@@ -988,6 +1012,12 @@
   "fetched": "2026-11-01",
   "icon": "https://nolanlawson.com/apple-touch-icon.png",
   "image": "https://nolanlawson.com/_astro/frameworks.B14_z7MF_2lv3q1.webp"
+ },
+ "https://noyb.eu/en/noyb-win-french-electronics-retailer-fnac-darty-fined-eu7-million": {
+  "description": "The fine is based on a noyb complaint from 2023. Back then, we highlighted that Fnac Darty illegally tracked users of its mobile apps without consent",
+  "fetched": "2026-11-01",
+  "icon": "https://noyb.eu/themes/chives/images/ao_canvas/apple-touch-icon.png",
+  "image": "https://noyb.eu/sites/default/files/styles/facebook/public/2026-10/mobile_apps_header_0.png?h=19fb9a6b&itok=PsCuZQBN"
  },
  "https://nullprogram.com/blog/2026/10/31/": {
   "description": null,
@@ -2255,6 +2285,12 @@
   "icon": "https://www.newyorker.com/verso/static/thenewyorker-us/assets/favicon.ico",
   "image": "https://media.newyorker.com/photos/6ae39ebeda249834dbb46a9b/16:9/w_1280,c_limit/HTG_01_final_still.jpg"
  },
+ "https://www.nytimes.com/2026/10/28/us/politics/alaska-dan-sullivan-conspiracy-peltola.html": {
+  "description": null,
+  "fetched": "2026-11-01",
+  "icon": null,
+  "image": null
+ },
  "https://www.osnews.com/story/146273/how-long-do-you-need-to-hold-down-the-power-button-to-turn-off-a-pc/": {
   "description": null,
   "fetched": "2026-10-31",
@@ -2720,6 +2756,12 @@
  "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5": {
   "description": null,
   "fetched": "2026-10-31",
+  "icon": null,
+  "image": null
+ },
+ "https://xn--69f31l4t57c0mag4b613h.xn--7uh4898msjaso/🆆🆃🅵/": {
+  "description": null,
+  "fetched": "2026-11-01",
   "icon": null,
   "image": null
  },
