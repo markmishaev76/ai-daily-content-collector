@@ -197,6 +197,12 @@
   "icon": "https://blog.orange.tw/images/apple-touch-icon.png",
   "image": "https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/pwnie-award-2026.webp"
  },
+ "https://blog.raed.dev/posts/proton-loser-thinking/": {
+  "description": "Proton's CEO called a request for security testing \"loser thinking\". Using AI to write code is fine, but for a privacy company, the guardrails around that code are the product.",
+  "fetched": "2026-11-02",
+  "icon": "https://blog.raed.dev/favicon.png",
+  "image": "https://blog.raed.dev/It%20wasn't%20AI%20that%20flipped%20Proton's%20charge.png"
+ },
  "https://blog.roku.com/developer/gitlab-move": {
   "description": "Roku provides the simplest way to stream entertainment to your TV. On your terms. With thousands of available channels to choose from.",
   "fetched": "2026-10-24",
@@ -599,6 +605,12 @@
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png"
  },
+ "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/": {
+  "description": "GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT.",
+  "fetched": "2026-11-02",
+  "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
+  "image": "https://github.blog/wp-content/uploads/2026/10/og-image.png"
+ },
  "https://github.com/FrigadeHQ/hob": {
   "description": "An easier way to use AI on your own computer. A free, open-source alternative to Claude and ChatGPT that runs open-weight models like Gemma and gpt-oss locally on Mac, Windows and Linux. Private, a...",
   "fetched": "2026-10-27",
@@ -742,6 +754,12 @@
   "fetched": "2026-10-31",
   "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
   "image": "https://a-us.storyblok.com/f/1022730/1200x628/3abe40dd0c/grafana-13-3-meta-image.png/m/1200x630/filters:quality(80)/"
+ },
+ "https://hackerbooks.org": {
+  "description": "A bookshelf of the books Hacker News readers mention most, 2007â2026.",
+  "fetched": "2026-11-02",
+  "icon": null,
+  "image": null
  },
  "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits": {
   "description": null,
@@ -1043,6 +1061,12 @@
   "icon": null,
   "image": null
  },
+ "https://occupysaas.com/": {
+  "description": "Clean-room, AI-assisted, open-source, drop-in replacements for the SaaS giants. Apache-2.0. Self-hosted. No per-seat tax.",
+  "fetched": "2026-11-02",
+  "icon": "https://occupysaas.com/assets/img/apple-touch-icon.png",
+  "image": "https://occupysaas.com/assets/img/og.jpg"
+ },
  "https://oioannou.com/blog/ai-promised-less-work/": {
   "description": "Agents made implementation cheap, so I started doing far more of it in parallel. My GitHub history since 2019 shows what that did: as VP of Technology I am back at my full-stack engineer pace, with bursts, burnout and a low season that is no longer low.",
   "fetched": "2026-10-27",
@@ -1217,6 +1241,12 @@
   "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
   "image": null
  },
+ "https://paulfwalsh.substack.com/p/metas-muse-ai-agent-is-a-commercial": {
+  "description": null,
+  "fetched": "2026-11-02",
+  "icon": null,
+  "image": null
+ },
  "https://philipotoole.com/twelve-years-of-distributed-sqlite/": {
   "description": "In September 2014 I published a short post announcing rqlite. The idea was simple: take SQLite, put a Raft log in front of it, and replicate every write to a cluster so that the loss of a node did not mean the loss of the data. The source went on GitHub that same weekend. As…",
   "fetched": "2026-10-24",
@@ -1286,6 +1316,18 @@
  "https://shivakintali.github.io/papers/ETH.pdf": {
   "description": null,
   "fetched": "2026-10-27",
+  "icon": null,
+  "image": null
+ },
+ "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/": {
+  "description": "I've been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I'm having to remember is: If in doubt, delete the uv.lock file …",
+  "fetched": "2026-11-02",
+  "icon": null,
+  "image": null
+ },
+ "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/": {
+  "description": "More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with …",
+  "fetched": "2026-11-02",
   "icon": null,
   "image": null
  },
@@ -1505,6 +1547,12 @@
   "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
   "image": "https://techcrunch.com/wp-content/uploads/2017/12/gettyimages-673436934.jpg?resize=1200,813"
  },
+ "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/": {
+  "description": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
+  "fetched": "2026-11-02",
+  "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+  "image": "https://techcrunch.com/wp-content/uploads/2023/08/GettyImages-1308803174.jpg?resize=1200,800"
+ },
  "https://techcrunch.com/2026/10/26/apple-unveils-new-ipad-mini-with-oled-display-and-faster-a20-pro-chip/": {
   "description": "The new iPad mini features a thinner and lighter design than its predecessor.",
   "fetched": "2026-10-26",
@@ -1558,6 +1606,12 @@
   "fetched": "2026-10-30",
   "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
   "image": "https://techcrunch.com/wp-content/uploads/2026/10/binance-2206279918.jpg?resize=1200,800"
+ },
+ "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/": {
+  "description": "[This is a guest post by Frank Calegari. This blog post was initially written in a different file format and converted using AI. — T.] Why we should not be sad The release by OpenAI on Octobe…",
+  "fetched": "2026-11-02",
+  "icon": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=114",
+  "image": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=200&ts=1793584812"
  },
  "https://text.npr.org/nx-s1-6021497": {
   "description": null,
@@ -1925,6 +1979,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2026/10/23/robot.jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/": {
+  "description": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible compromise.",
+  "fetched": "2026-11-02",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/10/30/alpine-linux.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/": {
   "description": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop.",
   "fetched": "2026-10-30",
@@ -1955,6 +2015,18 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/posts/2026/10/27/green-pumpkin.jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/": {
+  "description": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record.",
+  "fetched": "2026-11-02",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2024/08/12/north-korean-hackers.jpg"
+ },
+ "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/": {
+  "description": "AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical cybersecurity skills, use AI responsibly, and produce reproducible findings that stand up to scrutiny.",
+  "fetched": "2026-11-02",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/posts/2026/10/30/tryhackme-laptop.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/": {
   "description": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors.",
   "fetched": "2026-10-31",
@@ -1972,6 +2044,12 @@
   "fetched": "2026-11-01",
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2026/10/31/northflank-header.jpg"
+ },
+ "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/": {
+  "description": "Reddit announced in a post by co-founder Steve Huffman that the site will gradually become a \"logged-in service,\" offering limited access to visitors without accounts.",
+  "fetched": "2026-11-02",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/10/30/reddit.jpg"
  },
  "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/": {
   "description": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure.",
@@ -2363,6 +2441,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/": {
+  "description": null,
+  "fetched": "2026-11-02",
+  "icon": null,
+  "image": null
+ },
  "https://www.reuters.com/legal/government/zillow-pay-2125-million-settle-class-action-over-failed-real-estate-venture-2026-10-28/": {
   "description": null,
   "fetched": "2026-10-29",
@@ -2645,6 +2729,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg"
  },
+ "https://www.semiconductor-today.com/news_items/2026/oct/seoul-291026.shtml": {
+  "description": "WICOP 3 targeted at AR glasses and AI datacoms applications",
+  "fetched": "2026-11-02",
+  "icon": null,
+  "image": null
+ },
  "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/": {
   "description": "When a seven-eared stem emerged from the ground, it seemed like a miracle. What Claudio Grossi had unearthed was an ancient grain that proved to be an answer to some modern problems",
   "fetched": "2026-11-01",
@@ -2723,6 +2813,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy": {
+  "description": "It is hoped game testing can provide insight into recent AI agent headlines, good and bad.",
+  "fetched": "2026-11-02",
+  "icon": "https://vanilla.futurecdn.net/tomshardware/1799740/apple-touch-icon.png",
+  "image": "https://cdn.mos.cms.futurecdn.net/SCYhnjqyKUaWNuCxFpW8m9-1920-80.jpg"
+ },
  "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm": {
   "description": "Tool call accuracy is an important part of serving open-weight AI models. When your tool calls aren’t accurate, the model builds up on nonsensical context. We’ve been carrying our own fork of vLLM to hit 100% in tool call schema accuracy with Kimi and DeepSeek. Fortunately, vLLM 0.31 added support for constrained decoding, a technique to guarantee schema-adherence. By enabling it, you can get to 100% schema accuracy with the newer Kimi and DeepSeek models.",
   "fetched": "2026-10-26",
@@ -2740,6 +2836,12 @@
   "fetched": "2026-11-01",
   "icon": null,
   "image": null
+ },
+ "https://www.vox.com/politics/508526/patrick-stewart-jean-luc-picard-star-trek-liberalism": {
+  "description": "Great leaders, and great nations, need role models like Jean-Luc Picard.",
+  "fetched": "2026-11-02",
+  "icon": "https://www.vox.com/static-assets/icons/apple-touch-icon.png",
+  "image": "https://platform.vox.com/wp-content/uploads/sites/2/2026/10/gettyimages-459889618.jpg?quality=90&strip=all&crop=0%2C15.142462754721%2C100%2C69.715074490557&w=1200"
  },
  "https://www.vox.com/xpress/2014/11/12/7204453/martin-luther-king-fbi-letter": {
   "description": "Vox is a general interest news site for the 21st century. Its mission: to help everyone understand our complicated world, so that we can all help shape it. In text, video and audio, our reporters explain politics, policy, world affairs, technology, culture, science, the climate crisis, money, health and everything else that matters. Our goal is to ensure that everyone, regardless of income or status, can access accurate information that empowers them.",

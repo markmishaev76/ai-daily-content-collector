@@ -1,0 +1,353 @@
+{
+  "date": "2026-11-02",
+  "lead": {
+    "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+    "excerpt": "It is hoped game testing can provide insight into recent AI agent headlines, good and bad.",
+    "source": "tomshardware.com via Hacker News",
+    "date": "Nov 01",
+    "image": "https://cdn.mos.cms.futurecdn.net/SCYhnjqyKUaWNuCxFpW8m9-1920-80.jpg",
+    "image_credit": null,
+    "section": "AI Agents & Agent Security",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "AI Agents & Agent Security",
+      "12h ago"
+    ],
+    "also": []
+  },
+  "pulse": [
+    {
+      "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+      "thread": "https://news.ycombinator.com/item?id=50322173",
+      "link": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+      "link_domain": "jetstream.security",
+      "source": "Hacker News",
+      "domain": "jetstream.security",
+      "meta": "Hacker News · 315 points · 200 comments · 23h ago",
+      "also": [],
+      "image": "https://jetstream.security/wp-content/uploads/2026/07/ChatGPT-Image-Jul-1-2026-02_56_34-PM.png",
+      "icon": "https://jetstream.security/apple-touch-icon.png"
+    },
+    {
+      "title": "The AI cost of JavaScript frameworks",
+      "thread": "https://news.ycombinator.com/item?id=50323088",
+      "link": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "link_domain": "nolanlawson.com",
+      "source": "Hacker News",
+      "domain": "nolanlawson.com",
+      "meta": "Hacker News · 302 points · 230 comments · 19h ago",
+      "also": [],
+      "image": "https://nolanlawson.com/_astro/frameworks.B14_z7MF_2lv3q1.webp",
+      "icon": "https://nolanlawson.com/apple-touch-icon.png"
+    },
+    {
+      "title": "It wasn't AI that flipped Proton's charge",
+      "thread": "https://news.ycombinator.com/item?id=50328488",
+      "link": "https://blog.raed.dev/posts/proton-loser-thinking/",
+      "link_domain": "blog.raed.dev",
+      "source": "Hacker News",
+      "domain": "blog.raed.dev",
+      "meta": "Hacker News · 142 points · 81 comments · 7h ago",
+      "also": [],
+      "image": "https://blog.raed.dev/It%20wasn't%20AI%20that%20flipped%20Proton's%20charge.png",
+      "icon": "https://blog.raed.dev/favicon.png"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI-Assisted Engineering",
+      "cards": [
+        {
+          "title": "If in doubt, delete the uv.lock file",
+          "link": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
+          "excerpt": "I've been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I'm having to remember is: If in doubt, delete the uv.lock file Most of my projects are libraries which don't include a uv.lock file, since it's rude for a library dependency to lock…",
+          "source": "Simon Willison",
+          "date": "Nov 01",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 1.225,
+          "coverage": 1
+        },
+        {
+          "title": "Quoting Kyle Kingsbury",
+          "link": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
+          "excerpt": "More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to rely on as markers of a mature system are now easier to counterfeit. [...] In…",
+          "source": "Simon Willison",
+          "date": "Nov 01",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.846,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "AI Agents & Agent Security",
+      "cards": [
+        {
+          "title": "Muse AI agent is a commercial surveillance network disguised as an AI assistant",
+          "link": "https://paulfwalsh.substack.com/p/metas-muse-ai-agent-is-a-commercial",
+          "excerpt": "34 points · 6 comments",
+          "source": "paulfwalsh.substack.com via Hacker News",
+          "date": "Nov 01",
+          "image": null,
+          "icon": "https://paulfwalsh.substack.com/favicon.ico",
+          "domain": "paulfwalsh.substack.com",
+          "hn": "34 points · 6 comments",
+          "score": 7.943,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
+          "link": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+          "excerpt": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 01",
+          "image": "https://www.bleepstatic.com/content/hl-images/2024/08/12/north-korean-hackers.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 1.985,
+          "coverage": 2
+        },
+        {
+          "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+          "link": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+          "excerpt": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible compromise. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 01",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/10/30/alpine-linux.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.314,
+          "coverage": 1
+        },
+        {
+          "title": "Reddit to lock content behind logins to fight scrapers",
+          "link": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
+          "excerpt": "Reddit announced in a post by co-founder Steve Huffman that the site will gradually become a \"logged-in service,\" offering limited access to visitors without accounts. [...]",
+          "source": "BleepingComputer",
+          "date": "Oct 31",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/10/30/reddit.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.15,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+          "link": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+          "excerpt": "AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical cybersecurity skills, use AI responsibly, and produce reproducible findings that stand up to…",
+          "source": "BleepingComputer",
+          "date": "Oct 31",
+          "image": "https://www.bleepstatic.com/content/posts/2026/10/30/tryhackme-laptop.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.147,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "Game Off 2026: The theme is SHIFT",
+          "link": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
+          "excerpt": "GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain key. The post Game Off 2026: The theme is SHIFT appeared first on The GitHub Blog.",
+          "source": "The GitHub Blog",
+          "date": "Nov 01",
+          "image": "https://github.blog/wp-content/uploads/2026/10/og-image.png",
+          "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
+          "domain": "github.blog",
+          "hn": null,
+          "score": 3.848,
+          "coverage": 1
+        },
+        {
+          "title": "OpenBSD 8.0 Brings Expanded Hardware Support, Security Enhancements, and Virtualization Improvements",
+          "link": "https://www.infoq.com/news/2026/10/openbsd-8-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "OpenBSD 8.0 is a substantial upgrade bringing broader hardware compatibility, enhanced security, an expanded virtual address space, and support for modern architectures, including Intel Arc A-Series graphics support, ARM64 hibernation, RISC-V improvements, and enhanced virtual machine support. By…",
+          "source": "InfoQ",
+          "date": "Oct 31",
+          "image": "https://res.infoq.com/news/2026/10/openbsd-8-released/en/headerimage/openbsd-8-released-1793464400707.jpeg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.2,
+          "coverage": 1
+        },
+        {
+          "title": "Spring News Roundup: First Release Candidates of Boot, Framework, Data, Security, Modulith, AI",
+          "link": "https://www.infoq.com/news/2026/10/spring-news-roundup-oct19-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "There was a flurry of activity during the week of October 19th, 2026, highlighting: first release candidates of: Spring Boot, Spring Framework, Spring Data, Spring Cloud, Spring Security, Spring for GraphQL, Spring Session, Spring Integration, Spring HATEOS, Spring Modulith, Spring REST Docs,…",
+          "source": "InfoQ",
+          "date": "Oct 31",
+          "image": "https://res.infoq.com/news/2026/10/spring-news-roundup-oct19-2026/en/headerimage/spring-news-roundup-image-1793452938585.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.185,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "LocalStack for Azure Enters Public Preview with Security Settings Stored but Not Enforced",
+          "link": "https://www.infoq.com/news/2026/10/localstack-azure-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "LocalStack has opened its Azure emulator to a free public preview, running Azure services locally and accepting existing ARM, Bicep, and Terraform without rewrites. Its own documentation reports partial operation coverage per service and a consistent pattern: configuration is stored and returned,…",
+          "source": "InfoQ",
+          "date": "Oct 31",
+          "image": "https://res.infoq.com/news/2026/10/localstack-azure-preview/en/headerimage/generatedHeaderImage-1793037893055.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.166,
+          "coverage": 1
+        },
+        {
+          "title": "Google Discloses PageBreak AI Security Agent That Found 500+ XSS Bugs",
+          "link": "https://www.infoq.com/news/2026/10/google-pagebreak-security-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "According to a paper published by Google, its AI-powered security agent has uncovered more than 500 XSS vulnerabilities across its web applications since entering full operation in January. PageBreak uses Gemini models to autonomously investigate potential vulnerabilities, but reports them only…",
+          "source": "InfoQ",
+          "date": "Oct 31",
+          "image": "https://res.infoq.com/news/2026/10/google-pagebreak-security-agent/en/headerimage/generatedHeaderImage-1791008728252.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.161,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "OccupySaaS",
+          "link": "https://occupysaas.com/",
+          "excerpt": "Clean-room, AI-assisted, open-source, drop-in replacements for the SaaS giants. Apache-2.0. Self-hosted. No per-seat tax.",
+          "source": "occupysaas.com via Hacker News",
+          "date": "Nov 02",
+          "image": "https://occupysaas.com/assets/img/og.jpg",
+          "icon": "https://occupysaas.com/assets/img/apple-touch-icon.png",
+          "domain": "occupysaas.com",
+          "hn": "16 points · 3 comments",
+          "score": 2.716,
+          "coverage": 1
+        },
+        {
+          "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
+          "link": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+          "excerpt": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
+          "source": "techcrunch.com via Hacker News",
+          "date": "Nov 01",
+          "image": "https://techcrunch.com/wp-content/uploads/2023/08/GettyImages-1308803174.jpg?resize=1200,800",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
+          "hn": "169 points · 136 comments",
+          "score": 4.064,
+          "coverage": 1
+        },
+        {
+          "title": "Mathematics has changed. Let's act like it",
+          "link": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+          "excerpt": "[This is a guest post by Frank Calegari. This blog post was initially written in a different file format and converted using AI. — T.] Why we should not be sad The release by OpenAI on Octobe…",
+          "source": "terrytao.wordpress.com via Hacker News",
+          "date": "Nov 01",
+          "image": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=200&ts=1793584812",
+          "icon": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=114",
+          "domain": "terrytao.wordpress.com",
+          "hn": "226 points · 249 comments",
+          "score": 3.522,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Ask HN: Which TV do you recommend for privacy?",
+          "link": "https://news.ycombinator.com/item?id=50328896",
+          "excerpt": "140 points · 261 comments",
+          "source": "Hacker News",
+          "date": "Nov 01",
+          "image": null,
+          "icon": null,
+          "domain": "news.ycombinator.com",
+          "hn": "140 points · 261 comments",
+          "score": 3.642,
+          "coverage": 1
+        },
+        {
+          "title": "Patrick Stewart taught us what good men do with power",
+          "link": "https://www.vox.com/politics/508526/patrick-stewart-jean-luc-picard-star-trek-liberalism",
+          "excerpt": "Great leaders, and great nations, need role models like Jean-Luc Picard.",
+          "source": "vox.com via Hacker News",
+          "date": "Nov 01",
+          "image": "https://platform.vox.com/wp-content/uploads/sites/2/2026/10/gettyimages-459889618.jpg?quality=90&strip=all&crop=0%2C15.142462754721%2C100%2C69.715074490557&w=1200",
+          "icon": "https://www.vox.com/static-assets/icons/apple-touch-icon.png",
+          "domain": "vox.com",
+          "hn": "372 points · 263 comments",
+          "score": 3.49,
+          "coverage": 1
+        },
+        {
+          "title": "Frontier Airlines Likely Breached",
+          "link": "https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/",
+          "excerpt": "176 points · 69 comments",
+          "source": "reddit.com via Hacker News",
+          "date": "Nov 01",
+          "image": null,
+          "icon": "https://www.reddit.com/favicon.ico",
+          "domain": "reddit.com",
+          "hn": "176 points · 69 comments",
+          "score": 5.085,
+          "coverage": 1
+        },
+        {
+          "title": "Seoul Viosys begins production of rare-earth-free white light emitter",
+          "link": "https://www.semiconductor-today.com/news_items/2026/oct/seoul-291026.shtml",
+          "excerpt": "WICOP 3 targeted at AR glasses and AI datacoms applications",
+          "source": "semiconductor-today.com via Hacker News",
+          "date": "Nov 01",
+          "image": null,
+          "icon": "https://www.semiconductor-today.com/favicon.ico",
+          "domain": "semiconductor-today.com",
+          "hn": "138 points · 34 comments",
+          "score": 2.718,
+          "coverage": 1
+        },
+        {
+          "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+          "link": "https://hackerbooks.org",
+          "excerpt": "A bookshelf of the books Hacker News readers mention most, 2007â2026.",
+          "source": "hackerbooks.org via Hacker News",
+          "date": "Nov 01",
+          "image": null,
+          "icon": "https://hackerbooks.org/favicon.ico",
+          "domain": "hackerbooks.org",
+          "hn": "931 points · 180 comments",
+          "score": 3.505,
+          "coverage": 1
+        }
+      ]
+    }
+  ]
+}
