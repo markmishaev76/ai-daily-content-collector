@@ -1,4 +1,10 @@
 {
+ "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html": {
+  "description": "Over the past decade, the timing of PostgreSQL major releases has become very predictable: no earlier than the middle of September, and no l...",
+  "fetched": "2026-11-02",
+  "icon": null,
+  "image": null
+ },
  "https://aaronparecki.com/2026/10/30/19/oauth-id-jag-draft-06": {
   "description": "We've just published draft -06 of the Identity Assertion JWT Authorization Grant (ID-JAG):",
   "fetched": "2026-10-31",
@@ -130,6 +136,12 @@
   "fetched": "2026-11-01",
   "icon": "https://atlasum.net/favicon/apple-touch-icon.png",
   "image": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf/opengraph-image"
+ },
+ "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-1-terra-on-bedrock-step-functions-as-agent-tools-and-more-november-2-2026/": {
+  "description": "The agentic launches that stayed with me last week had nothing to do with how capable a model is. They were about reach. AWS Step Functions, which already orchestrates over 220 AWS services, can now be handed to an agent as a tool, so workflows teams already trust became callable without a rewrite. In the […]",
+  "fetched": "2026-11-02",
+  "icon": "https://a0.awsstatic.com/main/images/site/touch-icon-iphone-114-smile.png",
+  "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png"
  },
  "https://ayoships.com/breakdowns/block-blast": {
   "description": "Rules downloaded from their server decide your pieces, your score and your ads. One waits for an expensive ad, then asks for a hand you canât place.",
@@ -947,6 +959,12 @@
   "icon": null,
   "image": null
  },
+ "https://longcat.ai/blog/longcat-2.5/": {
+  "description": "1.6万亿总参大模型，训练全程由国产芯片完成",
+  "fetched": "2026-11-02",
+  "icon": "https://s3plus.meituan.net/aigc-media-resources/longcat/yeqian-logo.svg",
+  "image": "https://s3plus.meituan.net/aigc-media-resources/longcat/big-cat-logo.png"
+ },
  "https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices/": {
   "description": "Cloning, designing and blending voices with Qwen3-TTS.",
   "fetched": "2026-11-01",
@@ -1024,6 +1042,12 @@
   "fetched": "2026-10-29",
   "icon": null,
   "image": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp"
+ },
+ "https://momentic.ai/": {
+  "description": "Mo is an AI QA engineer that bug bashes your app. 117,010 bugs caught, with repro steps and evidence. Plain-English tests agents execute and maintain.",
+  "fetched": "2026-11-02",
+  "icon": "https://momentic.ai/images/apple-touch-icon.png",
+  "image": "https://momentic.ai/images/og/home.png"
  },
  "https://newsletter.getdx.com/p/robloxs-approach-to-tripling-ai-code": {
   "description": "Andrew Swerdlow shares how Roblox is building trust in AI agents to autonomously review, test, and deploy code and what that means for engineers.",
@@ -1145,6 +1169,12 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/index/grid-protectors-program": {
+  "description": null,
+  "fetched": "2026-11-02",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/helping-websites-express-ai-training-preferences": {
   "description": null,
   "fetched": "2026-10-31",
@@ -1258,6 +1288,12 @@
   "fetched": "2026-10-31",
   "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
   "image": null
+ },
+ "https://p.migdal.pl/warsaw-vibe-voxel/": {
+  "description": "Central Warsaw in 1 m voxels, built from OpenStreetMap, LiDAR and the city's tree database. Walk around the Palace of Culture, change the date, hour and weather, or possess a pedestrian. Inspired by Minecraft, MagicaVoxel and Dungeon Keeper.",
+  "fetched": "2026-11-02",
+  "icon": null,
+  "image": "https://p.migdal.pl/warsaw-vibe-voxel/preview.jpg?v=5"
  },
  "https://paulfwalsh.substack.com/p/metas-muse-ai-agent-is-a-commercial": {
   "description": null,
@@ -1649,6 +1685,12 @@
   "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
   "image": "https://techcrunch.com/wp-content/uploads/2026/10/binance-2206279918.jpg?resize=1200,800"
  },
+ "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/": {
+  "description": "OpenAI said that ChatGPT and Codex will draw usage from the same allocation pool after this change.",
+  "fetched": "2026-11-02",
+  "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800"
+ },
  "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/": {
   "description": "[This is a guest post by Frank Calegari. This blog post was initially written in a different file format and converted using AI. — T.] Why we should not be sad The release by OpenAI on Octobe…",
   "fetched": "2026-11-02",
@@ -1775,6 +1817,12 @@
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": null
  },
+ "https://workos.com/blog/account-takeover-b2b-saas": {
+  "description": "In B2B SaaS, one taken-over account exposes a whole customer organization. Here are the B2B-specific doors and the WorkOS controls that close each one.",
+  "fetched": "2026-11-02",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae4cf9a70975930686d334c_account-takeover-b2b-saas-og.webp"
+ },
  "https://workos.com/blog/add-enterprise-sso-scim-better-auth-app": {
   "description": "Keep Better Auth for sign-in and sessions, and let WorkOS handle SAML, OIDC and directory sync for the customers who need them.",
   "fetched": "2026-10-31",
@@ -1835,6 +1883,12 @@
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://images.workoscdn.com/images/5d480dfa-2b71-47eb-b8d0-4cb0444e6de7.png?auto=format&fit=clip&q=80"
  },
+ "https://workos.com/blog/owasp-top-10-a07-authentication-failures": {
+  "description": "A practical walkthrough of OWASP A07:2025, the weaknesses it lists, the fix for each one, and which of them your auth layer should be handling already.",
+  "fetched": "2026-11-02",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae4d0323ba1bc5ec6194215_owasp-top-10-a07-authentication-failures-og.webp"
+ },
  "https://workos.com/blog/public-tls-certificates-client-authentication-mtls": {
   "description": "Public CAs and Chrome are removing clientAuth from TLS certificates by 2027. The dates per CA, what fails at renewal, and where mTLS should go next.",
   "fetched": "2026-10-30",
@@ -1858,6 +1912,12 @@
   "fetched": "2026-10-27",
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6adf875135a6faaa6ea211c6_sign-in-with-microsoft-vs-entra-sso-og.webp"
+ },
+ "https://workos.com/blog/what-is-account-takeover": {
+  "description": "Account takeover is the outcome. Credential stuffing, phishing, SIM swapping and session theft are the methods. Here are the four ways in and how to close them.",
+  "fetched": "2026-11-02",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae4d015b6837d0958479ae4_what-is-account-takeover-og.webp"
  },
  "https://workos.com/blog/workos-cyber60-2026-2027-ciso-survey": {
   "description": "WorkOS is on the 2026-27 Cyber60. The CISO survey published with it shows 77% of enterprises run agents and only 34% give those agents their own identity.",
@@ -2159,6 +2219,12 @@
   "icon": "https://www.brown.edu/themes/custom/brown/static/apple-touch-icon.png",
   "image": "https://www.brown.edu/sites/default/files/styles/wide_lrg/public/2026-10/Dataworkers.jpg?h=f6430484&itok=1eq5-wXm"
  },
+ "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11": {
+  "description": "Anthropic's IPO filing reveals a striking milestone: Its internal AI usage is now valued above employee compensation.",
+  "fetched": "2026-11-02",
+  "icon": "https://www.businessinsider.com/public/assets/BI/US/favicons/apple-touch-icon-180x180.png?v=2025-05",
+  "image": "https://i.insider.com/6ae5023ed8cc18cf7950fbe3?width=1200&format=jpeg"
+ },
  "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras": {
   "description": "Learn how Cerebras maps trillion-parameter frontier models across WSE-3T wafers to deliver scalable inference at 1,000–2,000+ tokens per second.",
   "fetched": "2026-10-25",
@@ -2176,6 +2242,12 @@
   "fetched": "2026-10-29",
   "icon": null,
   "image": "https://images.ctfassets.net/l47ir7rfykkn/pyFdDf4x33Kjpem0wFv75/9bf4f0ec3f1f8ab7dd0edc7c9129bbf6/15a61dad-1d40-4e94-997c-e9e4ea3d18e7.png"
+ },
+ "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html": {
+  "description": "Anthropic unveiled its S-1 prospectus last week, but the initial filing only included the company's financials through the first half of the year.",
+  "fetched": "2026-11-02",
+  "icon": "https://fm.cnbc.com/applications/cnbc.com/resources/img/CNBC_LOGO_FAVICON_1C_KO_RGB.ico",
+  "image": "https://image.cnbcfm.com/api/v1/image/108369526-1790698647709-gettyimages-2297195052-AFP_C9PK8G7.jpeg?v=1790698665&w=1920&h=1080"
  },
  "https://www.cncf.io/blog/2026/11/02/the-linkerd-story-the-people-behind-the-service-mesh-a-new-documentary-premieres-at-kubecon-cloudnativecon-north-america-2026/": {
   "description": "Join CNCF and Buoyant on November 9 in Salt Lake City for the premiere of a new documentary celebrating a decade of Linkerd, the evolution of service mesh technology, and the people who helped make it…",
@@ -2224,6 +2296,12 @@
   "fetched": "2026-10-31",
   "icon": null,
   "image": "https://web-assets.dd-static.net/42588/1793382330-improving-agents-insights-agent-observability-hero.png"
+ },
+ "https://www.datadoghq.com/blog/runtime-security-for-ai-agents/": {
+  "description": "Learn how weâre building AI Guard to secure AI agents at by detecting and blocking threats at runtime.",
+  "fetched": "2026-11-02",
+  "icon": null,
+  "image": "https://web-assets.dd-static.net/42588/1793601142-ai-guard-hero-v2_resized.png"
  },
  "https://www.datadoghq.com/blog/serverless-ai-agents/": {
   "description": "Learn how to run AI agents as serverless workflows, build an execution profile, and compare costs against warm or dedicated compute.",
@@ -2348,6 +2426,12 @@
  "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/banking-on-ai-how-a-new-operating-model-can-transform-distressed-credit-management": {
   "description": null,
   "fetched": "2026-10-29",
+  "icon": null,
+  "image": null
+ },
+ "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/critical-infrastructure-is-under-threat-are-organizations-prepared": {
+  "description": null,
+  "fetched": "2026-11-02",
   "icon": null,
   "image": null
  },
@@ -2524,6 +2608,12 @@
   "fetched": "2026-10-30",
   "icon": "https://www.quantamagazine.org/wp-content/themes/quanta2024/frontend/images/apple-touch-icon.png",
   "image": "https://www.quantamagazine.org/wp-content/uploads/2026/10/JOW-S5-E11-cr.Chanelle-Nibbelink-Social-LOGO.jpg"
+ },
+ "https://www.quora.com/Why-are-Soviet-mathematics-physics-textbooks-so-insanely-hardcore-in-comparison-to-US-textbooks/answer/Scott-Miller-307?share=1": {
+  "description": null,
+  "fetched": "2026-11-02",
+  "icon": null,
+  "image": null
  },
  "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/": {
   "description": null,
@@ -2944,6 +3034,12 @@
   "fetched": "2026-10-28",
   "icon": "https://www.thetimes.com/imageserver/image/4e2c5841-df25-42a6-8b74-065cc072e1e8.png?w=180",
   "image": "https://www.thetimes.com/imageserver/image/ca5f6e82-d39b-4c7a-bf03-6f9fd28482ce.jpg?strip=all&format=webp&crop=2741px%2C1541px%2C0px%2C142px&resize=1200"
+ },
+ "https://www.theverge.com/games/1024206/playable-portal-prequel-f-stop-leak": {
+  "description": "Nearly 20 years after it was canceled, the camera-based Portal prequel F-Stop is no longer lost media.",
+  "fetched": "2026-11-02",
+  "icon": "https://www.theverge.com/static-assets/icons/apple-touch-icon.png",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/11/STKB376_VALVE_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
  },
  "https://www.timeanddate.com/news/time/cuba-keeps-dst-until-nov-2027.html": {
   "description": null,

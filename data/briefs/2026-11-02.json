@@ -1,23 +1,35 @@
 {
   "date": "2026-11-02",
   "lead": {
-    "title": "Backporting security fixes at scale with Codex",
-    "link": "https://blog.trailofbits.com/2026/11/02/backporting-security-fixes-at-scale-with-codex/",
-    "excerpt": "Stable Linux releases lack existing security fixes because backporting them is time-consuming and often thankless work. We’re using Codex to reduce the backporting process time from days to hours per fix, empowering human patch reviewers to rapidly submit fixes for critical software like Ubuntu…",
-    "source": "Trail of Bits",
+    "title": "Your Leaked Secrets Now Show Up in Wiz",
+    "link": "https://blog.gitguardian.com/gitguardian-wiz-integration/",
+    "excerpt": "GitGuardian now sends leaked secrets from GitHub, GitLab, Bitbucket, and Azure DevOps to Wiz once a day, with validity, severity, and a link back to the incident. Your cloud and AppSec teams see the same leaked key, and the secret value never leaves GitGuardian.",
+    "source": "GitGuardian",
     "date": "Nov 02",
-    "image": "https://blog.trailofbits.com/2026/11/02/backporting-security-fixes-at-scale-with-codex/backporting_image1_hu_4b767af928294590.webp",
+    "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/10/The-GitGuardian-Wiz-integration-for-cloud-and-AppSec-teams.png",
     "image_credit": null,
-    "section": "AI Agents & Agent Security",
+    "section": "Secrets & NHI",
     "pinned": false,
     "note": null,
     "labels": [
-      "AI Agents & Agent Security",
-      "under 1h ago"
+      "Secrets & NHI",
+      "1h ago"
     ],
     "also": []
   },
   "pulse": [
+    {
+      "title": "Postgres 19 is late, and it's AI's fault",
+      "thread": "https://lobste.rs/s/0yxkvs/postgres_19_is_late_it_s_ai_s_fault",
+      "link": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
+      "link_domain": "rhaas.blogspot.com",
+      "source": "Lobsters",
+      "domain": "rhaas.blogspot.com",
+      "meta": "Lobsters · 38 points · 13 comments · 15h ago",
+      "also": [],
+      "image": null,
+      "icon": null
+    },
     {
       "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
       "thread": "https://news.ycombinator.com/item?id=50330456",
@@ -25,22 +37,34 @@
       "link_domain": "techcrunch.com",
       "source": "Hacker News",
       "domain": "techcrunch.com",
-      "meta": "Hacker News · 229 points · 229 comments · 14h ago",
+      "meta": "Hacker News · 239 points · 244 comments · 19h ago",
       "also": [],
       "image": "https://techcrunch.com/wp-content/uploads/2023/08/GettyImages-1308803174.jpg?resize=1200,800",
       "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180"
     },
     {
-      "title": "Frontier Airlines Likely Breached",
-      "thread": "https://news.ycombinator.com/item?id=50327266",
-      "link": "https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/",
-      "link_domain": "reddit.com",
+      "title": "Supermarket freezers across Europe hit by second suspected cyber-attack",
+      "thread": "https://news.ycombinator.com/item?id=50335615",
+      "link": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
+      "link_domain": "theguardian.com",
       "source": "Hacker News",
-      "domain": "reddit.com",
-      "meta": "Hacker News · 207 points · 83 comments · 20h ago",
+      "domain": "theguardian.com",
+      "meta": "Hacker News · 210 points · 299 comments · 5h ago",
       "also": [],
-      "image": null,
-      "icon": "https://www.reddit.com/favicon.ico"
+      "image": "https://i.guim.co.uk/img/media/4b71e9b955055d1a0eb5f597da100556359fa09b/1184_0_6400_5120/master/6400.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a69f8f68954a7702d519049973a8be9f",
+      "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg"
+    },
+    {
+      "title": "Anthropic reports $17B in Q3 revenue, commitments of $895B in revised S-1",
+      "thread": "https://news.ycombinator.com/item?id=50337439",
+      "link": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+      "link_domain": "cnbc.com",
+      "source": "Hacker News",
+      "domain": "cnbc.com",
+      "meta": "Hacker News · 181 points · 180 comments · 2h ago",
+      "also": [],
+      "image": "https://image.cnbcfm.com/api/v1/image/108369526-1790698647709-gettyimages-2297195052-AFP_C9PK8G7.jpeg?v=1790698665&w=1920&h=1080",
+      "icon": "https://fm.cnbc.com/applications/cnbc.com/resources/img/CNBC_LOGO_FAVICON_1C_KO_RGB.ico"
     },
     {
       "title": "It wasn't AI that flipped Proton's charge",
@@ -49,10 +73,46 @@
       "link_domain": "blog.raed.dev",
       "source": "Hacker News",
       "domain": "blog.raed.dev",
-      "meta": "Hacker News · 160 points · 93 comments · 17h ago",
+      "meta": "Hacker News · 164 points · 97 comments · 22h ago",
       "also": [],
       "image": "https://blog.raed.dev/It%20wasn't%20AI%20that%20flipped%20Proton's%20charge.png",
       "icon": "https://blog.raed.dev/favicon.png"
+    },
+    {
+      "title": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
+      "thread": "https://news.ycombinator.com/item?id=50334038",
+      "link": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
+      "link_domain": "labs.cloudsecurityalliance.org",
+      "source": "Hacker News",
+      "domain": "labs.cloudsecurityalliance.org",
+      "meta": "Hacker News · 143 points · 77 comments · 9h ago",
+      "also": [],
+      "image": "https://i0.wp.com/labs.cloudsecurityalliance.org/wp-content/uploads/2025/12/cropped-logo.png?fit=512%2C512&ssl=1",
+      "icon": "https://i0.wp.com/labs.cloudsecurityalliance.org/wp-content/uploads/2025/12/cropped-logo.png?fit=180%2C180&ssl=1"
+    },
+    {
+      "title": "Supermarket freezers in Belgium and Sweden hit by suspected cyber-attack",
+      "thread": "https://news.ycombinator.com/item?id=50335602",
+      "link": "https://www.bbc.com/news/articles/cq1kd1nee80eo",
+      "link_domain": "bbc.com",
+      "source": "Hacker News",
+      "domain": "bbc.com",
+      "meta": "Hacker News · 107 points · 1 comments · 5h ago",
+      "also": [],
+      "image": "https://ichef.bbci.co.uk/news/1024/branded_news/0873/live/ecc62190-d6ad-11f1-ac90-f7afd947062e.jpg",
+      "icon": "https://static.files.bbci.co.uk/bbcdotcom/web/20261027-121803-88dfe2b2c8-web-3.26.0-4/apple-touch-icon.png"
+    },
+    {
+      "title": "AI fan wikis riddled with errors are muddying the waters of games culture",
+      "thread": "https://news.ycombinator.com/item?id=50332086",
+      "link": "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
+      "link_domain": "eurogamer.net",
+      "source": "Hacker News",
+      "domain": "eurogamer.net",
+      "meta": "Hacker News · 100 points · 96 comments · 15h ago",
+      "also": [],
+      "image": "https://assetsio.gnwcdn.com/gamedb-wiki-header.png?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+      "icon": "https://www.eurogamer.net/static/04100a5b6f176ab1e59b5a1d25dcfd37/icon/apple-touch-icon-152x152.png"
     }
   ],
   "sections": [
@@ -60,16 +120,29 @@
       "name": "AI-Assisted Engineering",
       "cards": [
         {
-          "title": "If in doubt, delete the uv.lock file",
-          "link": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
-          "excerpt": "I've been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I'm having to remember is: If in doubt, delete the uv.lock file Most of my projects are libraries which don't include a uv.lock file, since it's rude for a library dependency to lock…",
+          "title": "The U.S. Census Bureau and “Super Intelligence”",
+          "link": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+          "excerpt": "I was reminded today of AI Adoption Rate Trending Down for Large Companies, a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in U.S. corporate AI adoption based on numbers collected by the U.S. Census Bureau. At the time I used that chart to…",
           "source": "Simon Willison",
-          "date": "Nov 01",
-          "image": null,
-          "icon": "https://simonwillison.net/favicon.ico",
+          "date": "Nov 02",
+          "image": "https://static.simonwillison.net/static/2026-11-01/5821A414-FAF6-4E61-B037-952C1FD80D39.png",
+          "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.707,
+          "score": 5.68,
+          "coverage": 1
+        },
+        {
+          "title": "Not A Copier",
+          "link": "https://newsletter.kentbeck.com/p/not-a-copier",
+          "excerpt": "A highly skilled product manager, former colleague, told me they wanted to treat the genie like a copier.",
+          "source": "Kent Beck",
+          "date": "Nov 02",
+          "image": "https://substackcdn.com/image/fetch/$s_!mGcg!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F079cebc5-b0fc-4f89-911f-a748ce46db7c_499x286.jpeg",
+          "icon": null,
+          "domain": "newsletter.kentbeck.com",
+          "hn": null,
+          "score": 1.194,
           "coverage": 1
         },
         {
@@ -82,7 +155,35 @@
           "icon": null,
           "domain": "leaddev.com",
           "hn": null,
-          "score": 1.23,
+          "score": 0.94,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "If in doubt, delete the uv.lock file",
+          "link": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
+          "excerpt": "I've been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I'm having to remember is: If in doubt, delete the uv.lock file Most of my projects are libraries which don't include a uv.lock file, since it's rude for a library dependency to lock…",
+          "source": "Simon Willison",
+          "date": "Nov 01",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.601,
+          "coverage": 1
+        },
+        {
+          "title": "Quoting Kyle Kingsbury",
+          "link": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
+          "excerpt": "More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to rely on as markers of a mature system are now easier to counterfeit. [...] In…",
+          "source": "Simon Willison",
+          "date": "Nov 01",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.492,
           "coverage": 1
         },
         {
@@ -95,22 +196,7 @@
           "icon": null,
           "domain": "leaddev.com",
           "hn": null,
-          "score": 1.055,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "Quoting Kyle Kingsbury",
-          "link": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
-          "excerpt": "More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to rely on as markers of a mature system are now easier to counterfeit. [...] In…",
-          "source": "Simon Willison",
-          "date": "Nov 01",
-          "image": null,
-          "icon": "https://simonwillison.net/favicon.ico",
-          "domain": "simonwillison.net",
-          "hn": null,
-          "score": 0.562,
+          "score": 0.834,
           "coverage": 1
         }
       ]
@@ -119,29 +205,29 @@
       "name": "AI Agents & Agent Security",
       "cards": [
         {
-          "title": "Muse AI agent is a commercial surveillance network disguised as an AI assistant",
-          "link": "https://paulfwalsh.substack.com/p/metas-muse-ai-agent-is-a-commercial",
-          "excerpt": "52 points · 6 comments",
-          "source": "paulfwalsh.substack.com via Hacker News",
-          "date": "Nov 01",
-          "image": null,
-          "icon": "https://paulfwalsh.substack.com/favicon.ico",
-          "domain": "paulfwalsh.substack.com",
-          "hn": "52 points · 6 comments",
-          "score": 5.324,
+          "title": "Backporting security fixes at scale with Codex",
+          "link": "https://blog.trailofbits.com/2026/11/02/backporting-security-fixes-at-scale-with-codex/",
+          "excerpt": "Stable Linux releases lack existing security fixes because backporting them is time-consuming and often thankless work. We’re using Codex to reduce the backporting process time from days to hours per fix, empowering human patch reviewers to rapidly submit fixes for critical software like Ubuntu…",
+          "source": "Trail of Bits",
+          "date": "Nov 02",
+          "image": "https://blog.trailofbits.com/2026/11/02/backporting-security-fixes-at-scale-with-codex/backporting_image1_hu_4b767af928294590.webp",
+          "icon": null,
+          "domain": "blog.trailofbits.com",
+          "hn": null,
+          "score": 6.839,
           "coverage": 1
         },
         {
-          "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
-          "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
-          "excerpt": "It is hoped game testing can provide insight into recent AI agent headlines, good and bad.",
-          "source": "tomshardware.com via Hacker News",
-          "date": "Nov 01",
-          "image": "https://cdn.mos.cms.futurecdn.net/SCYhnjqyKUaWNuCxFpW8m9-1920-80.jpg",
-          "icon": "https://vanilla.futurecdn.net/tomshardware/1799740/apple-touch-icon.png",
-          "domain": "tomshardware.com",
-          "hn": "171 points · 82 comments",
-          "score": 5.293,
+          "title": "Introducing the Grid Protectors Program",
+          "link": "https://openai.com/index/grid-protectors-program",
+          "excerpt": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+          "source": "OpenAI News",
+          "date": "Nov 02",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 1.305,
           "coverage": 1
         },
         {
@@ -154,7 +240,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 1.171,
+          "score": 0.866,
           "coverage": 1
         }
       ],
@@ -163,6 +249,19 @@
     {
       "name": "Leadership",
       "cards": [
+        {
+          "title": "Three Dots",
+          "link": "https://randsinrepose.com/archives/three-dots/",
+          "excerpt": "Last Friday, Reddit had its worst day since its IPO, with a drop of almost 30%1. It didn’t matter that they beat their third-quarter estimates; what mattered most was a weak Q4 forecast and the quote from Reddit CEO Steve Huffman, “Our search referral traffic was down meaningfully in Q3, with the…",
+          "source": "Rands in Repose",
+          "date": "Nov 02",
+          "image": "https://randsinrepose.com/wp-content/uploads/2026/11/three-dots-1024x535.png",
+          "icon": null,
+          "domain": "randsinrepose.com",
+          "hn": null,
+          "score": 1.061,
+          "coverage": 1
+        },
         {
           "title": "Google Earnings, Facebook Déjà Vu, The Agent Play",
           "link": "https://stratechery.com/2026/google-earnings-facebook-deja-vu-the-agent-play/",
@@ -173,7 +272,7 @@
           "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
           "domain": "stratechery.com",
           "hn": null,
-          "score": 1.083,
+          "score": 0.817,
           "coverage": 1
         },
         {
@@ -186,9 +285,11 @@
           "icon": null,
           "domain": "sloanreview.mit.edu",
           "hn": null,
-          "score": 1.168,
+          "score": 0.864,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Turning executive judgment into organizational intelligence: Leveraging AI in CEO leadership",
           "link": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/turning-executive-judgment-into-organizational-intelligence-leveraging-ai-in-ceo-leadership",
@@ -199,11 +300,167 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.604,
+          "score": 0.511,
+          "coverage": 1
+        },
+        {
+          "title": "Critical infrastructure is under threat. Are organizations prepared?",
+          "link": "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/critical-infrastructure-is-under-threat-are-organizations-prepared",
+          "excerpt": "Organizations may not recognize their exposure to conventional, cyber, and hybrid risks until a disruption occurs. Here is how they can anticipate and reduce risks associated with these threats.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 02",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.511,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Agent Identity & Authorization",
+      "cards": [
+        {
+          "title": "Authorize outbound model calls before they leave the network",
+          "link": "https://cerbos.dev/blog/authorize-outbound-model-calls-before-they-leave-network",
+          "excerpt": "An API key is a binary, so it says nothing about what a caller may ask for, what a request may cost, or whether the file an assistant is about to read should leave the network. Covers authorizing outbound LLM calls at the egress point, and what the control misses.",
+          "source": "Cerbos",
+          "date": "Nov 02",
+          "image": "https://stylish-appliance-1c1cc1c30d.media.strapiapp.com/Authorize_outbound_model_calls_before_they_leave_the_network_0aa8c0b91d.png",
+          "icon": null,
+          "domain": "cerbos.dev",
+          "hn": null,
+          "score": 0.647,
+          "coverage": 1
+        },
+        {
+          "title": "OWASP Top 10 2025 A07: Authentication failures explained for SaaS teams",
+          "link": "https://workos.com/blog/owasp-top-10-a07-authentication-failures",
+          "excerpt": "A practical walkthrough of OWASP A07:2025, the weaknesses it lists, the fix for each one, and which of them your auth layer should be handling already.",
+          "source": "WorkOS Blog",
+          "date": "Nov 02",
+          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae4d0323ba1bc5ec6194215_owasp-top-10-a07-authentication-failures-og.webp",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null,
+          "score": 0.327,
+          "coverage": 1
+        },
+        {
+          "title": "What is account takeover? How ATO attacks work and how to prevent them",
+          "link": "https://workos.com/blog/what-is-account-takeover",
+          "excerpt": "Account takeover is the outcome. Credential stuffing, phishing, SIM swapping and session theft are the methods. Here are the four ways in and how to close them.",
+          "source": "WorkOS Blog",
+          "date": "Nov 02",
+          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae4d015b6837d0958479ae4_what-is-account-takeover-og.webp",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null,
+          "score": 0.327,
           "coverage": 1
         }
       ],
-      "more": []
+      "more": [
+        {
+          "title": "Account takeover in B2B SaaS: Where it happens and how to stop it",
+          "link": "https://workos.com/blog/account-takeover-b2b-saas",
+          "excerpt": "In B2B SaaS, one taken-over account exposes a whole customer organization. Here are the B2B-specific doors and the WorkOS controls that close each one.",
+          "source": "WorkOS Blog",
+          "date": "Nov 02",
+          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae4cf9a70975930686d334c_account-takeover-b2b-saas-og.webp",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null,
+          "score": 0.327,
+          "coverage": 1
+        },
+        {
+          "title": "Beyond Infrastructure: The New Era of CIAM Innovation",
+          "link": "https://auth0.com/blog/okta-named-a-leader-in-gartner-magic-quadrant-2026/",
+          "excerpt": "Okta has been named a Leader in Gartner® Magic Quadrant™ for Customer Identity and Access Management.",
+          "source": "Auth0 Blog",
+          "date": "Nov 02",
+          "image": "https://images.ctfassets.net/23aumh6u8s0i/2ZywAGy1Bj6O8eFIEyAtf/af665bf9dadb680f166979305ced1583/blog-graphic.jpg",
+          "icon": null,
+          "domain": "auth0.com",
+          "hn": null,
+          "score": 0.409,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Secrets & NHI",
+      "cards": [
+        {
+          "title": "The Binance Hack Raises a Critical Question: What Can a  Compromised Laptop Reach?",
+          "link": "https://blog.gitguardian.com/binance-hack-compromised-laptop/",
+          "excerpt": "A compromised laptop may have started the Binance hack. What can an attacker reach from a developer’s machine?",
+          "source": "GitGuardian",
+          "date": "Nov 02",
+          "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/11/binance-1.png",
+          "icon": null,
+          "domain": "blog.gitguardian.com",
+          "hn": null,
+          "score": 6.791,
+          "coverage": 1
+        },
+        {
+          "title": "A playable version of Portal prequel F-Stop leaked",
+          "link": "https://www.theverge.com/games/1024206/playable-portal-prequel-f-stop-leak",
+          "excerpt": "Nearly 20 years after it was canceled, the camera-based Portal prequel F-Stop is no longer lost media.",
+          "source": "theverge.com via Hacker News",
+          "date": "Nov 01",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/11/STKB376_VALVE_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "icon": "https://www.theverge.com/static-assets/icons/apple-touch-icon.png",
+          "domain": "theverge.com",
+          "hn": "36 points · 1 comments",
+          "score": 4.628,
+          "coverage": 2
+        },
+        {
+          "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+          "link": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+          "excerpt": "Anthropic's IPO filing reveals a striking milestone: Its internal AI usage is now valued above employee compensation.",
+          "source": "businessinsider.com via Hacker News",
+          "date": "Nov 02",
+          "image": "https://i.insider.com/6ae5023ed8cc18cf7950fbe3?width=1200&format=jpeg",
+          "icon": "https://www.businessinsider.com/public/assets/BI/US/favicons/apple-touch-icon-180x180.png?v=2025-05",
+          "domain": "businessinsider.com",
+          "hn": "23 points · 10 comments",
+          "score": 4.495,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Why are Soviet math textbooks so hardcore in comparison to US textbooks? (2017)",
+          "link": "https://www.quora.com/Why-are-Soviet-mathematics-physics-textbooks-so-insanely-hardcore-in-comparison-to-US-textbooks/answer/Scott-Miller-307?share=1",
+          "excerpt": "105 points · 129 comments",
+          "source": "quora.com via Hacker News",
+          "date": "Nov 02",
+          "image": null,
+          "icon": "https://www.quora.com/favicon.ico",
+          "domain": "quora.com",
+          "hn": "105 points · 129 comments",
+          "score": 5.768,
+          "coverage": 1
+        },
+        {
+          "title": "Anthropic's Mythos-class model allegedly leaked on Hugging Face",
+          "link": "https://news.ycombinator.com/item?id=50326727",
+          "excerpt": "45 points · 47 comments",
+          "source": "Hacker News",
+          "date": "Nov 01",
+          "image": null,
+          "icon": null,
+          "domain": "news.ycombinator.com",
+          "hn": "45 points · 47 comments",
+          "score": 8.456,
+          "coverage": 2
+        }
+      ]
     },
     {
       "name": "Security & AppSec",
@@ -218,9 +475,37 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 5.12,
+          "score": 3.825,
           "coverage": 1
         },
+        {
+          "title": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
+          "link": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
+          "excerpt": "Forty percent of security teams now use AI every day, and another 56% are testing it. Only 4% have no plans to adopt it, according to Prophet Security's State of AI in Security Operations 2026 survey of more than 250 CISOs, SOC leaders and practitioners. For the teams still testing, the next…",
+          "source": "The Hacker News",
+          "date": "Nov 02",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZbG_0dst_8ctvKrGx37rAninLXS6SIcKT4YjziNbu7bPmTPAsYvWo-Jkwj0UqT493VwmYVtvkthnEGLqTusFvJFo9fPth_VWjI2XNev9SKY-sePLY12rM5yWoQOzrvEXG0DWOWBb7N8GcdHNPqv6skeqGx2r2zGVlDeWkPnt5drMe_R2yh8TB8-kOCug/s1600/pro.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 2.958,
+          "coverage": 1
+        },
+        {
+          "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
+          "link": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
+          "excerpt": "Two critical flaws in Langflow could let a remote attacker with no account bypass authentication or run arbitrary code, IBM said last week. Langflow is an open-source tool for building AI agents and workflows, and its vulnerability reports go to IBM. Every release from 1.0.0 through 1.12.8 has the…",
+          "source": "The Hacker News",
+          "date": "Nov 02",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_FF2_yXQrxnB1ymo-GsohY6t0INslV7mps2DVMnYa_dD_RpZu7uz9HwNrux1gxieMF4hnc_84KMpOyhroj0EDx0Vwv0QljdhTehvJINIsr-Sjyw4CaMiLO3fFWGl-8LhLWgOtC4DRU2X5e46s3Rxghu3KLUMsyHfpxFyKogIs34Q2fm2RYpAMI_Jt_9A/s1600/langflow-rce.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 2.317,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "Chainalysis Discloses Data Breach Following AI-Driven Cyberattack",
           "link": "https://www.securityweek.com/chainalysis-discloses-data-breach-following-ai-driven-cyberattack/",
@@ -231,7 +516,33 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 5.506,
+          "score": 4.189,
+          "coverage": 1
+        },
+        {
+          "title": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
+          "link": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+          "excerpt": "A botnet of more than 1.3 million Android devices, mostly TV set-top boxes, lost control of its servers in late October in a takedown led by Google. Google says it is highly confident that device maker Videostrong intentionally put a backdoor in the boxes and sold access to criminals. They used…",
+          "source": "The Hacker News",
+          "date": "Nov 02",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkbU6vLZjF0nlz7vqN6UVf3kN1IcdUfIpAmVWlh2II4gGbMMmSuiE1S8HLzP4JV-ImeCa64hU-cEaa-yGXWqUO_XHOurKtEw61DFvjGOJhM7gHpRPpegBcCFYrXkd59wGX-PoV6zm7z7uq6PpXjc4GLhDRzcinR5IIjcOVZEVl8FMQ0v0Dt3CV9sRxZNk/s1600/android-tv-botnet.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.532,
+          "coverage": 1
+        },
+        {
+          "title": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
+          "link": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
+          "excerpt": "Cybersecurity researchers have disclosed details of a cyber espionage campaign targeting Israel and the Kurdistan Region of Iraq by an Iran state-aligned threat actor between August and October 2026. According to a report published by Dream Research Labs, the campaign has led to the compromise of…",
+          "source": "The Hacker News",
+          "date": "Nov 02",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7nIwDn7LIoF8OUZdj0NRjq4ZMu-xjzcOPQJDwouwkwqwVe618e77am9iyAIez63Q8jVqZi7OtU43gJlhbZT-_4l_4pUq3tYpDUe4ErouPlkNi8YTNZiPQ6KmX2Ci028oT24DRcPtCdKv_zZ33_ZHOodARrbmcwxYWCAx4r45Qc0qVOQNmCCoWZmAWJnzt/s1600/shelby-hacker.png",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.493,
           "coverage": 1
         },
         {
@@ -244,11 +555,9 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.525,
+          "score": 0.395,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts",
           "link": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
@@ -259,66 +568,68 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.514,
+          "score": 0.493,
           "coverage": 1
-        },
-        {
-          "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
-          "link": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
-          "excerpt": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value. Like other typical stealer families, VOLTA is equipped to harvest passwords and…",
-          "source": "The Hacker News",
-          "date": "Nov 02",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhd5V8QVweKn56_SnTCKZkhmOip6paz9noBrJn7znyZqUtFbOEaLuALQUNlmjcSAb7RIUW8GDETB6J0kFpQQe6vq7wAjk3ogxKUeQ0-2rKeO6TveLdqHNs9KnTN6zC6rwPzWE2IBWMokqQOUzAA0XPM2BWHTUTE7_U7XDfUGKTDIC1PYttxHGnAq_Kr_hMq/s1600/hacker-ai.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.379,
-          "coverage": 1
-        },
-        {
-          "title": "Polymarket Returns $3.9 Million to Traders as DebugBear Cites DNS Hijack",
-          "link": "https://www.securityweek.com/polymarket-returns-3-9-million-to-traders-as-debugbear-cites-dns-hijack/",
-          "excerpt": "DebugBear says its DNS records were compromised via its domain registrar, and early findings show a single customer was targeted. The post Polymarket Returns $3.9 Million to Traders as DebugBear Cites DNS Hijack appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 02",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Polymarket.webp",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.471,
-          "coverage": 1
-        },
-        {
-          "title": "FBI Flags Over 600 Addresses Tied to North Korea’s Binance Heist",
-          "link": "https://www.securityweek.com/fbi-flags-over-600-addresses-tied-to-north-koreas-binance-heist/",
-          "excerpt": "The FBI has officially pinned the $6 billion Binance hack on North Korea’s TraderTraitor as the attackers launder the stolen crypto. The post FBI Flags Over 600 Addresses Tied to North Korea’s Binance Heist appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 02",
-          "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 7.146,
-          "coverage": 4
-        },
-        {
-          "title": "Ivanti Patches Two More Zero-Days Exploited in Connect Secure Attack Chain",
-          "link": "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/",
-          "excerpt": "CISA has added CVE-2026-111357 and CVE-2026-118527 to its KEV catalog after the Ivanti VPN flaws were chained in zero-day attacks. The post Ivanti Patches Two More Zero-Days Exploited in Connect Secure Attack Chain appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 02",
-          "image": "https://www.securityweek.com/wp-content/uploads/2024/02/Ivanti-Risks-Exploits.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 5.179,
-          "coverage": 2
         }
       ]
     },
     {
       "name": "Platform, Cloud & Reliability",
       "cards": [
+        {
+          "title": "Uber Builds MCP Gateway to Govern Access to 800+ Servers and 5,000+ AI Agent Tools",
+          "link": "https://www.infoq.com/news/2026/11/uber-mcp-gateway-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Uber has built an MCP Gateway to standardize how AI agents discover and invoke internal services across more than 800 MCP servers and 5,000 tools. The gateway separates tool registration from runtime execution and includes automated API discovery, access controls, sensitive data redaction,…",
+          "source": "InfoQ",
+          "date": "Nov 02",
+          "image": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 6.169,
+          "coverage": 1
+        },
+        {
+          "title": "Shutting the Door on the XCPE Botnet",
+          "link": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/",
+          "excerpt": "Introduction Last week, Google and industry partners dismantled the XCPE backdoor which enrolled more than 1.3 million set-top boxes into a botnet. We assess with high confidence that the backdoor and botnet were intentionally developed, deployed, and operated for financial gain by Videostrong…",
+          "source": "Cloud Blog",
+          "date": "Nov 02",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Figure_1_XCPE_malware_overview.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 5.373,
+          "coverage": 1
+        },
+        {
+          "title": "The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
+          "link": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/",
+          "excerpt": "Written by: Christopher Romano, Codi Starks, Garrett Mahoney, John Wolfram, Josh Murchie, K Singh, Mathew Potaczek, Mike Lombardi, Rik Dolfing Introduction Mandiant responded to multiple incidents in 2026 in which threat actors hijacked enterprise access to Large Language Models (LLMs), a tactic…",
+          "source": "Cloud Blog",
+          "date": "Nov 02",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Figure_1_Usage_chart_showing_LLMJacking_ge.max-1000x1000_IcanCpV.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 8.675,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "The Ecosystem is the Answer: Docker, the Blueprint Alliance, and the Importance of Collaboration in the Agentic Era",
+          "link": "https://www.docker.com/blog/docker-blueprint-alliance-agent-baseline/",
+          "excerpt": "Docker is a founding member of the Blueprint Alliance, a 12-company reference architecture for securing AI agents, built around four governance questions.",
+          "source": "Docker",
+          "date": "Nov 02",
+          "image": "https://www.docker.com/app/uploads/2026/10/image1-3.png",
+          "icon": null,
+          "domain": "docker.com",
+          "hn": null,
+          "score": 4.637,
+          "coverage": 1
+        },
         {
           "title": "Article: Systemic Approach to Memory, Knowledge, and Context in Agentic AI Architectures",
           "link": "https://www.infoq.com/articles/agentic-ai-context-memory-knowledge/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -329,7 +640,20 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 4.968,
+          "score": 3.745,
+          "coverage": 1
+        },
+        {
+          "title": "Agents make decisions at runtime—your security controls should too",
+          "link": "https://www.datadoghq.com/blog/runtime-security-for-ai-agents/",
+          "excerpt": "Learn how we’re building AI Guard to secure AI agents at by detecting and blocking threats at runtime.",
+          "source": "Datadog | The Monitor blog",
+          "date": "Nov 02",
+          "image": "https://web-assets.dd-static.net/42588/1793601142-ai-guard-hero-v2_resized.png",
+          "icon": "https://www.datadoghq.com/favicon.ico",
+          "domain": "datadoghq.com",
+          "hn": null,
+          "score": 1.73,
           "coverage": 1
         },
         {
@@ -342,87 +666,20 @@
           "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
           "domain": "github.blog",
           "hn": null,
-          "score": 2.33,
+          "score": 1.999,
           "coverage": 1
         },
         {
-          "title": "Inside a successful AWS European Sovereign Cloud exercise to demonstrate independent operation",
-          "link": "https://aws.amazon.com/blogs/security/inside-a-successful-aws-european-sovereign-cloud-exercise-to-demonstrate-independent-operation/",
-          "excerpt": "On Saturday, October 24, 2026 we conducted a successful exercise demonstrating that the AWS European Sovereign Cloud can operate without depending on any infrastructure outside the European Union (EU). This was the first public technical exercise demonstrating the independence of a sovereign cloud…",
-          "source": "AWS Security Blog",
+          "title": "AWS Weekly Roundup: GPT-6.1 Terra on Bedrock, Step Functions as agent tools, and more (November 2, 2026)",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-1-terra-on-bedrock-step-functions-as-agent-tools-and-more-november-2-2026/",
+          "excerpt": "The agentic launches that stayed with me last week had nothing to do with how capable a model is. They were about reach. AWS Step Functions, which already orchestrates over 220 AWS services, can now be handed to an agent as a tool, so workflows teams already trust became callable without a…",
+          "source": "AWS News Blog",
           "date": "Nov 02",
-          "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/05/11/Stephane-Israel-Headshot.jpg",
-          "icon": null,
+          "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png",
+          "icon": "https://a0.awsstatic.com/main/images/site/touch-icon-iphone-114-smile.png",
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.53,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "The Linkerd Story: The people Behind The Service Mesh — A new documentary premieres at KubeCon + CloudNativeCon North America 2026",
-          "link": "https://www.cncf.io/blog/2026/11/02/the-linkerd-story-the-people-behind-the-service-mesh-a-new-documentary-premieres-at-kubecon-cloudnativecon-north-america-2026/",
-          "excerpt": "Join CNCF and Buoyant on November 9 in Salt Lake City for the premiere of a new documentary celebrating a decade of Linkerd, the evolution of service mesh technology, and the people who helped make it...",
-          "source": "Blog – Cloud Native Computing Foundation",
-          "date": "Nov 02",
-          "image": "https://www.cncf.io/wp-content/uploads/2026/10/Blog-Default-6.jpg",
-          "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
-          "domain": "cncf.io",
-          "hn": null,
-          "score": 0.7,
-          "coverage": 1
-        },
-        {
-          "title": "SRE Weekly Issue #541",
-          "link": "https://sreweekly.com/sre-weekly-issue-541/",
-          "excerpt": "View on sreweekly.com A message from our sponsor, incident.io: Your agent is only as useful as the tools it can reach, and only as safe as the limits you set. Join incident.io’s engineering team for an Extensions showcase. We’ll build a skill live, watch it run, and safely deploy. Register Now →…",
-          "source": "SRE WEEKLY",
-          "date": "Nov 02",
-          "image": null,
-          "icon": "https://sreweekly.com/wp-content/uploads/2015/12/cropped-sreweekly-logo-axes-180x180.png",
-          "domain": "sreweekly.com",
-          "hn": null,
-          "score": 0.436,
-          "coverage": 1
-        },
-        {
-          "title": "Podcast: Educating an Architect: A Conversation with Luca Mezzalira",
-          "link": "https://www.infoq.com/podcasts/educating-architect-conversation-luca-mezzalira/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "In this podcast, Michael Stiefel spoke to Luca Mezzalira about software architecture as a socio-technical discipline that balances technological design with an organization's social and managerial context. They explored how architectural choices must be adapted to a company's unique culture and…",
-          "source": "InfoQ",
-          "date": "Nov 02",
-          "image": "https://res.infoq.com/podcasts/educating-architect-conversation-luca-mezzalira/en/smallimage/infoq-podcast-500-1793347709702.jpg",
-          "icon": null,
-          "domain": "infoq.com",
-          "hn": null,
-          "score": 0.65,
-          "coverage": 1
-        },
-        {
-          "title": "Shopify Overexposed Scans GKE Ingresses and Cloud Run for Exposure",
-          "link": "https://www.infoq.com/news/2026/11/shopify-kubernetes-ingresses/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "Shopify has introduced Overexposed. This internal scanner locates Kubernetes Ingresses on GKE and Cloud Run services. It checks for those that are accessible from the internet without authentication By Claudio Masolo",
-          "source": "InfoQ",
-          "date": "Nov 02",
-          "image": "https://res.infoq.com/news/2026/11/shopify-kubernetes-ingresses/en/headerimage/generatedHeaderImage-1793520999206.jpg",
-          "icon": null,
-          "domain": "infoq.com",
-          "hn": null,
-          "score": 0.568,
-          "coverage": 1
-        },
-        {
-          "title": "OpenBSD 8.0 Brings Expanded Hardware Support, Security Enhancements, and Virtualization Improvements",
-          "link": "https://www.infoq.com/news/2026/10/openbsd-8-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "OpenBSD 8.0 is a substantial upgrade bringing broader hardware compatibility, enhanced security, an expanded virtual address space, and support for modern architectures, including Intel Arc A-Series graphics support, ARM64 hibernation, RISC-V improvements, and enhanced virtual machine support. By…",
-          "source": "InfoQ",
-          "date": "Oct 31",
-          "image": "https://res.infoq.com/news/2026/10/openbsd-8-released/en/headerimage/openbsd-8-released-1793464400707.jpeg",
-          "icon": null,
-          "domain": "infoq.com",
-          "hn": null,
-          "score": 0.161,
+          "score": 3.57,
           "coverage": 1
         }
       ]
@@ -430,6 +687,60 @@
     {
       "name": "News & Research",
       "cards": [
+        {
+          "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+          "link": "https://momentic.ai/",
+          "excerpt": "Mo is an AI QA engineer that bug bashes your app. 117,010 bugs caught, with repro steps and evidence. Plain-English tests agents execute and maintain.",
+          "source": "momentic.ai via Hacker News",
+          "date": "Nov 02",
+          "image": "https://momentic.ai/images/og/home.png",
+          "icon": "https://momentic.ai/images/apple-touch-icon.png",
+          "domain": "momentic.ai",
+          "hn": "13 points · 0 comments",
+          "score": 2.765,
+          "coverage": 1
+        },
+        {
+          "title": "Raising the quality of insights in agentic analytics",
+          "link": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+          "excerpt": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The…",
+          "source": "MIT Technology Review",
+          "date": "Nov 02",
+          "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/Snowflake-cover-2026.png",
+          "icon": null,
+          "domain": "technologyreview.com",
+          "hn": null,
+          "score": 5.562,
+          "coverage": 1
+        },
+        {
+          "title": "The Download: the agentic web arrives and the drive for safer roads",
+          "link": "https://www.technologyreview.com/2026/11/02/1147889/the-download-agentic-web-arrives-eliminating-traffic-deaths/",
+          "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The agentic web is here In 2001, a decade after inventing the World Wide Web, Tim Berners-Lee articulated a new vision: an internet navigated by autonomous…",
+          "source": "MIT Technology Review",
+          "date": "Nov 02",
+          "image": "https://wp.technologyreview.com/wp-content/uploads/2025/01/Wafer-Testing.jpg?fit=2128,1196",
+          "icon": null,
+          "domain": "technologyreview.com",
+          "hn": null,
+          "score": 4.246,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "LongCat-2.5: Native Multimodality for Agentic Tasks",
+          "link": "https://longcat.ai/blog/longcat-2.5/",
+          "excerpt": "1.6万亿总参大模型，训练全程由国产芯片完成",
+          "source": "longcat.ai via Hacker News",
+          "date": "Nov 02",
+          "image": "https://s3plus.meituan.net/aigc-media-resources/longcat/big-cat-logo.png",
+          "icon": "https://s3plus.meituan.net/aigc-media-resources/longcat/yeqian-logo.svg",
+          "domain": "longcat.ai",
+          "hn": "40 points · 13 comments",
+          "score": 6.292,
+          "coverage": 1
+        },
         {
           "title": "The agentic web is here",
           "link": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
@@ -440,100 +751,46 @@
           "icon": null,
           "domain": "technologyreview.com",
           "hn": null,
-          "score": 3.901,
+          "score": 3.01,
           "coverage": 1
         },
         {
-          "title": "Supermarket freezers across Europe hit by second suspected cyber-attack",
-          "link": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
-          "excerpt": "Chains in Sweden, Belgium and Luxembourg say fridge temperatures rose overnight, similar to hack of French stores",
-          "source": "theguardian.com via Hacker News",
+          "title": "Show HN: Warsaw in voxels – an interactive 3D map of the city centre",
+          "link": "https://p.migdal.pl/warsaw-vibe-voxel/",
+          "excerpt": "Central Warsaw in 1 m voxels, built from OpenStreetMap, LiDAR and the city's tree database. Walk around the Palace of Culture, change the date, hour and weather, or possess a pedestrian. Inspired by Minecraft, MagicaVoxel and Dungeon Keeper.",
+          "source": "p.migdal.pl via Hacker News",
           "date": "Nov 02",
-          "image": "https://i.guim.co.uk/img/media/4b71e9b955055d1a0eb5f597da100556359fa09b/1184_0_6400_5120/master/6400.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a69f8f68954a7702d519049973a8be9f",
-          "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg",
-          "domain": "theguardian.com",
-          "hn": "11 points · 7 comments",
-          "score": 6.334,
-          "coverage": 2
-        },
-        {
-          "title": "Supermarket freezers in Belgium and Sweden hit by suspected cyber-attack",
-          "link": "https://www.bbc.com/news/articles/cq1kd1nee80eo",
-          "excerpt": "Stores in Sweden say temperatures for its freezers were raised to 50 C (122F).",
-          "source": "bbc.com via Hacker News",
-          "date": "Nov 02",
-          "image": "https://ichef.bbci.co.uk/news/1024/branded_news/0873/live/ecc62190-d6ad-11f1-ac90-f7afd947062e.jpg",
-          "icon": "https://static.files.bbci.co.uk/bbcdotcom/web/20261027-121803-88dfe2b2c8-web-3.26.0-4/apple-touch-icon.png",
-          "domain": "bbc.com",
-          "hn": "42 points · 41 comments",
-          "score": 6.334,
-          "coverage": 2
-        }
-      ],
-      "more": [
-        {
-          "title": "The future in old computer magazines (1984–2004)",
-          "link": "https://tomorrowasusual.substack.com/p/blast-from-the-past-the-future-in",
-          "excerpt": "27 points · 7 comments",
-          "source": "tomorrowasusual.substack.com via Hacker News",
-          "date": "Nov 02",
-          "image": null,
-          "icon": "https://tomorrowasusual.substack.com/favicon.ico",
-          "domain": "tomorrowasusual.substack.com",
-          "hn": "27 points · 7 comments",
-          "score": 3.146,
+          "image": "https://p.migdal.pl/warsaw-vibe-voxel/preview.jpg?v=5",
+          "icon": "https://p.migdal.pl/favicon.ico",
+          "domain": "p.migdal.pl",
+          "hn": "29 points · 6 comments",
+          "score": 3.35,
           "coverage": 1
         },
         {
-          "title": "Show HN: I've updated my Linux System Call website and API",
-          "link": "https://syscall.sh/",
-          "excerpt": "The Linux syscall table for 27 architectures: every system call number, argument and register, with a table per architecture, from Linux 3.3 to 7.3.",
-          "source": "syscall.sh via Hacker News",
+          "title": "Stop counting tokens, start counting what ships",
+          "link": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+          "excerpt": "When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 times more tokens than a basic chat prompt. The more useful the agent becomes, the more calls…",
+          "source": "MIT Technology Review",
           "date": "Nov 02",
-          "image": "https://syscall.sh/og.png",
-          "icon": "https://syscall.sh/apple-touch-icon.png",
-          "domain": "syscall.sh",
-          "hn": "50 points · 23 comments",
-          "score": 3.291,
-          "coverage": 1
-        },
-        {
-          "title": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
-          "link": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
-          "excerpt": "China’s First Frontier AI Export Controls: MOFCOM Announcement No. 48 Key Takeaways On October 16, 2026, China’s Ministry of Commerce (MOFCOM) and Ministry of Science and Technology (MO…",
-          "source": "labs.cloudsecurityalliance.org via Hacker News",
-          "date": "Nov 02",
-          "image": "https://i0.wp.com/labs.cloudsecurityalliance.org/wp-content/uploads/2025/12/cropped-logo.png?fit=512%2C512&ssl=1",
-          "icon": "https://i0.wp.com/labs.cloudsecurityalliance.org/wp-content/uploads/2025/12/cropped-logo.png?fit=180%2C180&ssl=1",
-          "domain": "labs.cloudsecurityalliance.org",
-          "hn": "68 points · 39 comments",
-          "score": 3.123,
-          "coverage": 1
-        },
-        {
-          "title": "Show HN: HackerHack – HackerBooks but for Posts Posted on HN",
-          "link": "https://news.ycombinator.com/",
-          "excerpt": "66 points · 12 comments",
-          "source": "Hacker News",
-          "date": "Nov 02",
-          "image": null,
+          "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/iStock-2297734847.jpg?w=840",
           "icon": null,
-          "domain": "news.ycombinator.com",
-          "hn": "66 points · 12 comments",
-          "score": 2.868,
+          "domain": "technologyreview.com",
+          "hn": null,
+          "score": 3.137,
           "coverage": 1
         },
         {
-          "title": "From Charlemagne to the Kitchen Boy: Reading the Hamburg Rathaus",
-          "link": "https://alsterrunde.com/from-charlemagne-to-the-kitchen-boy-reading-the-hamburg-rathaus/",
-          "excerpt": "The Hamburg Rathaus tells the story of its city in more than a hundred small details, and this is my walk through them.",
-          "source": "alsterrunde.com via Hacker News",
+          "title": "OpenAI is finally merging ChatGPT’s Chat and Work tabs",
+          "link": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+          "excerpt": "OpenAI said that ChatGPT and Codex will draw usage from the same allocation pool after this change.",
+          "source": "TechCrunch",
           "date": "Nov 02",
-          "image": "https://cdn.synaps.media/alsterrunde/content/images/size/w1200/2026/10/IMG_2755.jpeg",
-          "icon": "https://cdn.synaps.media/alsterrunde/content/images/size/w256h256/format/png/2026/05/alsterrunde.webp",
-          "domain": "alsterrunde.com",
-          "hn": "45 points · 6 comments",
-          "score": 2.586,
+          "image": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
+          "hn": null,
+          "score": 2.436,
           "coverage": 1
         }
       ]
