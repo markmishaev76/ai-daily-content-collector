@@ -13,7 +13,7 @@
     "note": null,
     "labels": [
       "AI Agents & Agent Security",
-      "14h ago"
+      "16h ago"
     ],
     "also": []
   },
@@ -25,7 +25,7 @@
       "link_domain": "nolanlawson.com",
       "source": "Hacker News",
       "domain": "nolanlawson.com",
-      "meta": "Hacker News · 323 points · 243 comments · 21h ago",
+      "meta": "Hacker News · 337 points · 259 comments · 23h ago",
       "also": [],
       "image": "https://nolanlawson.com/_astro/frameworks.B14_z7MF_2lv3q1.webp",
       "icon": "https://nolanlawson.com/apple-touch-icon.png"
@@ -37,7 +37,7 @@
       "link_domain": "techcrunch.com",
       "source": "Hacker News",
       "domain": "techcrunch.com",
-      "meta": "Hacker News · 205 points · 195 comments · 5h ago",
+      "meta": "Hacker News · 212 points · 210 comments · 7h ago",
       "also": [],
       "image": "https://techcrunch.com/wp-content/uploads/2023/08/GettyImages-1308803174.jpg?resize=1200,800",
       "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180"
@@ -49,7 +49,7 @@
       "link_domain": "reddit.com",
       "source": "Hacker News",
       "domain": "reddit.com",
-      "meta": "Hacker News · 188 points · 74 comments · 11h ago",
+      "meta": "Hacker News · 196 points · 75 comments · 13h ago",
       "also": [],
       "image": null,
       "icon": "https://www.reddit.com/favicon.ico"
@@ -61,7 +61,7 @@
       "link_domain": "blog.raed.dev",
       "source": "Hacker News",
       "domain": "blog.raed.dev",
-      "meta": "Hacker News · 144 points · 83 comments · 9h ago",
+      "meta": "Hacker News · 151 points · 84 comments · 11h ago",
       "also": [],
       "image": "https://blog.raed.dev/It%20wasn't%20AI%20that%20flipped%20Proton's%20charge.png",
       "icon": "https://blog.raed.dev/favicon.png"
@@ -81,7 +81,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 1.078,
+          "score": 0.963,
           "coverage": 1
         },
         {
@@ -94,7 +94,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.773,
+          "score": 0.712,
           "coverage": 1
         }
       ],
@@ -106,14 +106,14 @@
         {
           "title": "Muse AI agent is a commercial surveillance network disguised as an AI assistant",
           "link": "https://paulfwalsh.substack.com/p/metas-muse-ai-agent-is-a-commercial",
-          "excerpt": "40 points · 6 comments",
+          "excerpt": "43 points · 6 comments",
           "source": "paulfwalsh.substack.com via Hacker News",
           "date": "Nov 01",
           "image": null,
           "icon": "https://paulfwalsh.substack.com/favicon.ico",
           "domain": "paulfwalsh.substack.com",
-          "hn": "40 points · 6 comments",
-          "score": 7.309,
+          "hn": "43 points · 6 comments",
+          "score": 6.732,
           "coverage": 1
         }
       ],
@@ -122,6 +122,19 @@
     {
       "name": "Security & AppSec",
       "cards": [
+        {
+          "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+          "link": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+          "excerpt": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value. Like other typical stealer families, VOLTA is equipped to harvest passwords and…",
+          "source": "The Hacker News",
+          "date": "Nov 02",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhd5V8QVweKn56_SnTCKZkhmOip6paz9noBrJn7znyZqUtFbOEaLuALQUNlmjcSAb7RIUW8GDETB6J0kFpQQe6vq7wAjk3ogxKUeQ0-2rKeO6TveLdqHNs9KnTN6zC6rwPzWE2IBWMokqQOUzAA0XPM2BWHTUTE7_U7XDfUGKTDIC1PYttxHGnAq_Kr_hMq/s1600/hacker-ai.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.588,
+          "coverage": 1
+        },
         {
           "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
           "link": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
@@ -132,7 +145,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 1.788,
+          "score": 1.626,
           "coverage": 2
         },
         {
@@ -145,9 +158,11 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.289,
+          "score": 0.268,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Reddit to lock content behind logins to fight scrapers",
           "link": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
@@ -158,11 +173,9 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.144,
+          "score": 0.138,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
           "link": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
@@ -173,7 +186,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.141,
+          "score": 0.136,
           "coverage": 1
         }
       ]
@@ -191,7 +204,7 @@
           "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
           "domain": "github.blog",
           "hn": null,
-          "score": 3.431,
+          "score": 3.097,
           "coverage": 1
         },
         {
@@ -204,7 +217,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.901,
+          "score": 0.777,
           "coverage": 1
         },
         {
@@ -217,11 +230,24 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.191,
+          "score": 0.183,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "SRE Weekly Issue #541",
+          "link": "https://sreweekly.com/sre-weekly-issue-541/",
+          "excerpt": "View on sreweekly.com A message from our sponsor, incident.io: Your agent is only as useful as the tools it can reach, and only as safe as the limits you set. Join incident.io’s engineering team for an Extensions showcase. We’ll build a skill live, watch it run, and safely deploy. Register Now →…",
+          "source": "SRE WEEKLY",
+          "date": "Nov 02",
+          "image": null,
+          "icon": "https://sreweekly.com/wp-content/uploads/2015/12/cropped-sreweekly-logo-axes-180x180.png",
+          "domain": "sreweekly.com",
+          "hn": null,
+          "score": 0.648,
+          "coverage": 1
+        },
         {
           "title": "Spring News Roundup: First Release Candidates of Boot, Framework, Data, Security, Modulith, AI",
           "link": "https://www.infoq.com/news/2026/10/spring-news-roundup-oct19-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -232,7 +258,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.178,
+          "score": 0.171,
           "coverage": 1
         },
         {
@@ -245,7 +271,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.16,
+          "score": 0.155,
           "coverage": 1
         },
         {
@@ -258,7 +284,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.156,
+          "score": 0.151,
           "coverage": 1
         }
       ]
@@ -275,8 +301,8 @@
           "image": "https://fosscomics.com/posts/13. BSD Unix Part 3 - The Beginning of BSD Unix/images/feature.png",
           "icon": "https://fosscomics.com/images/favicon.png",
           "domain": "fosscomics.com",
-          "hn": "31 points · 3 comments",
-          "score": 3.054,
+          "hn": "66 points · 5 comments",
+          "score": 3.121,
           "coverage": 1
         },
         {
@@ -288,8 +314,8 @@
           "image": "https://assetsio.gnwcdn.com/gamedb-wiki-header.png?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
           "icon": "https://www.eurogamer.net/static/04100a5b6f176ab1e59b5a1d25dcfd37/icon/apple-touch-icon-152x152.png",
           "domain": "eurogamer.net",
-          "hn": "33 points · 11 comments",
-          "score": 3.184,
+          "hn": "59 points · 35 comments",
+          "score": 3.25,
           "coverage": 1
         },
         {
@@ -301,8 +327,8 @@
           "image": "https://trigger.dev/blog/generic/incident-report-generic.png",
           "icon": "https://trigger.dev/favicon.ico",
           "domain": "trigger.dev",
-          "hn": "22 points · 1 comments",
-          "score": 2.631,
+          "hn": "53 points · 18 comments",
+          "score": 2.966,
           "coverage": 1
         }
       ],
@@ -316,21 +342,21 @@
           "image": "https://occupysaas.com/assets/img/og.jpg",
           "icon": "https://occupysaas.com/assets/img/apple-touch-icon.png",
           "domain": "occupysaas.com",
-          "hn": "118 points · 73 comments",
-          "score": 3.798,
+          "hn": "164 points · 109 comments",
+          "score": 3.57,
           "coverage": 1
         },
         {
           "title": "Ask HN: Which TV do you recommend for privacy?",
           "link": "https://news.ycombinator.com/item?id=50328896",
-          "excerpt": "198 points · 353 comments",
+          "excerpt": "247 points · 417 comments",
           "source": "Hacker News",
           "date": "Nov 01",
           "image": null,
           "icon": null,
           "domain": "news.ycombinator.com",
-          "hn": "198 points · 353 comments",
-          "score": 3.441,
+          "hn": "247 points · 417 comments",
+          "score": 3.217,
           "coverage": 1
         },
         {
@@ -342,8 +368,8 @@
           "image": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=200&ts=1793584812",
           "icon": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=114",
           "domain": "terrytao.wordpress.com",
-          "hn": "244 points · 273 comments",
-          "score": 3.234,
+          "hn": "260 points · 286 comments",
+          "score": 2.983,
           "coverage": 1
         },
         {
@@ -355,8 +381,8 @@
           "image": null,
           "icon": "https://www.semiconductor-today.com/favicon.ico",
           "domain": "semiconductor-today.com",
-          "hn": "147 points · 39 comments",
-          "score": 2.521,
+          "hn": "154 points · 43 comments",
+          "score": 2.347,
           "coverage": 1
         },
         {
@@ -368,8 +394,8 @@
           "image": null,
           "icon": "https://hackerbooks.org/favicon.ico",
           "domain": "hackerbooks.org",
-          "hn": "1049 points · 194 comments",
-          "score": 3.261,
+          "hn": "1170 points · 209 comments",
+          "score": 3.05,
           "coverage": 1
         }
       ]
