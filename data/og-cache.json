@@ -593,6 +593,12 @@
   "icon": "https://fortune.com/apple-touch-icon.png",
   "image": "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-2270629609-e1793295597735.jpg?resize=1200,600"
  },
+ "https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/": {
+  "description": "From Pascal and ex tapes to a VAX system: Bill Joy handles BSD distribution and debugging, then joins Ozalp Babaoglu to bring virtual memory to Unix.",
+  "fetched": "2026-11-02",
+  "icon": "https://fosscomics.com/images/favicon.png",
+  "image": "https://fosscomics.com/posts/13. BSD Unix Part 3 - The Beginning of BSD Unix/images/feature.png"
+ },
  "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova": {
   "description": "Amazon is gutting its AI labs and funneling its resources into a new project headed by a noted AI robotics guru.",
   "fetched": "2026-10-28",
@@ -1655,6 +1661,12 @@
   "icon": "https://trakkr.ai/apple-touch-icon.png",
   "image": "https://trakkr.ai/images/research/og/zombie-stats.png"
  },
+ "https://trigger.dev/blog/security-incident-nov-2026": {
+  "description": "An attacker gained unauthorized access to environment variables for a subset of organizations. We've blocked the exploit and emailed all impacted account owners with steps to mitigate.",
+  "fetched": "2026-11-02",
+  "icon": null,
+  "image": "https://trigger.dev/blog/generic/incident-report-generic.png"
+ },
  "https://twitter.com/jaredkushner/status/2113376217415958767": {
   "description": "This excerpt is from a book containing outrageous and categorically false allegations. We denied every claim on the record, yet the author provided not a single shred of verifiable evidence to substantiate them. No bank statements, wire transfer records, account numbers, transaction dates, or other…",
   "fetched": "2026-10-24",
@@ -2188,6 +2200,12 @@
   "fetched": "2026-11-01",
   "icon": null,
   "image": null
+ },
+ "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture": {
+  "description": "LLM-powered wikis, often full of inaccurate or irrelevant information, are starting to take over, leaving fans sidelined and publishers playing whack-a-mole.",
+  "fetched": "2026-11-02",
+  "icon": "https://www.eurogamer.net/static/04100a5b6f176ab1e59b5a1d25dcfd37/icon/apple-touch-icon-152x152.png",
+  "image": "https://assetsio.gnwcdn.com/gamedb-wiki-header.png?width=1200&height=630&fit=crop&enable=upscale&auto=webp"
  },
  "https://www.firezone.dev/blog/introducing-sanstun": {
   "description": "Our sans-IO WireGuard implementation in Rust, optimized for ease of use, security and performance through a parallel-friendly and idiomatic API.",

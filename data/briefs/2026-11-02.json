@@ -13,23 +13,11 @@
     "note": null,
     "labels": [
       "AI Agents & Agent Security",
-      "12h ago"
+      "14h ago"
     ],
     "also": []
   },
   "pulse": [
-    {
-      "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
-      "thread": "https://news.ycombinator.com/item?id=50322173",
-      "link": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
-      "link_domain": "jetstream.security",
-      "source": "Hacker News",
-      "domain": "jetstream.security",
-      "meta": "Hacker News · 315 points · 200 comments · 23h ago",
-      "also": [],
-      "image": "https://jetstream.security/wp-content/uploads/2026/07/ChatGPT-Image-Jul-1-2026-02_56_34-PM.png",
-      "icon": "https://jetstream.security/apple-touch-icon.png"
-    },
     {
       "title": "The AI cost of JavaScript frameworks",
       "thread": "https://news.ycombinator.com/item?id=50323088",
@@ -37,10 +25,34 @@
       "link_domain": "nolanlawson.com",
       "source": "Hacker News",
       "domain": "nolanlawson.com",
-      "meta": "Hacker News · 302 points · 230 comments · 19h ago",
+      "meta": "Hacker News · 323 points · 243 comments · 21h ago",
       "also": [],
       "image": "https://nolanlawson.com/_astro/frameworks.B14_z7MF_2lv3q1.webp",
       "icon": "https://nolanlawson.com/apple-touch-icon.png"
+    },
+    {
+      "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
+      "thread": "https://news.ycombinator.com/item?id=50330456",
+      "link": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "link_domain": "techcrunch.com",
+      "source": "Hacker News",
+      "domain": "techcrunch.com",
+      "meta": "Hacker News · 205 points · 195 comments · 5h ago",
+      "also": [],
+      "image": "https://techcrunch.com/wp-content/uploads/2023/08/GettyImages-1308803174.jpg?resize=1200,800",
+      "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180"
+    },
+    {
+      "title": "Frontier Airlines Likely Breached",
+      "thread": "https://news.ycombinator.com/item?id=50327266",
+      "link": "https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/",
+      "link_domain": "reddit.com",
+      "source": "Hacker News",
+      "domain": "reddit.com",
+      "meta": "Hacker News · 188 points · 74 comments · 11h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.reddit.com/favicon.ico"
     },
     {
       "title": "It wasn't AI that flipped Proton's charge",
@@ -49,7 +61,7 @@
       "link_domain": "blog.raed.dev",
       "source": "Hacker News",
       "domain": "blog.raed.dev",
-      "meta": "Hacker News · 142 points · 81 comments · 7h ago",
+      "meta": "Hacker News · 144 points · 83 comments · 9h ago",
       "also": [],
       "image": "https://blog.raed.dev/It%20wasn't%20AI%20that%20flipped%20Proton's%20charge.png",
       "icon": "https://blog.raed.dev/favicon.png"
@@ -69,7 +81,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 1.225,
+          "score": 1.078,
           "coverage": 1
         },
         {
@@ -82,7 +94,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.846,
+          "score": 0.773,
           "coverage": 1
         }
       ],
@@ -94,14 +106,14 @@
         {
           "title": "Muse AI agent is a commercial surveillance network disguised as an AI assistant",
           "link": "https://paulfwalsh.substack.com/p/metas-muse-ai-agent-is-a-commercial",
-          "excerpt": "34 points · 6 comments",
+          "excerpt": "40 points · 6 comments",
           "source": "paulfwalsh.substack.com via Hacker News",
           "date": "Nov 01",
           "image": null,
           "icon": "https://paulfwalsh.substack.com/favicon.ico",
           "domain": "paulfwalsh.substack.com",
-          "hn": "34 points · 6 comments",
-          "score": 7.943,
+          "hn": "40 points · 6 comments",
+          "score": 7.309,
           "coverage": 1
         }
       ],
@@ -120,7 +132,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 1.985,
+          "score": 1.788,
           "coverage": 2
         },
         {
@@ -133,7 +145,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.314,
+          "score": 0.289,
           "coverage": 1
         },
         {
@@ -146,7 +158,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.15,
+          "score": 0.144,
           "coverage": 1
         }
       ],
@@ -161,7 +173,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.147,
+          "score": 0.141,
           "coverage": 1
         }
       ]
@@ -179,7 +191,20 @@
           "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
           "domain": "github.blog",
           "hn": null,
-          "score": 3.848,
+          "score": 3.431,
+          "coverage": 1
+        },
+        {
+          "title": "Inside a successful AWS European Sovereign Cloud exercise to demonstrate independent operation",
+          "link": "https://aws.amazon.com/blogs/security/inside-a-successful-aws-european-sovereign-cloud-exercise-to-demonstrate-independent-operation/",
+          "excerpt": "On Saturday, October 24, 2026 we conducted a successful exercise demonstrating that the AWS European Sovereign Cloud can operate without depending on any infrastructure outside the European Union (EU). This was the first public technical exercise demonstrating the independence of a sovereign cloud…",
+          "source": "AWS Security Blog",
+          "date": "Nov 02",
+          "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/05/11/Stephane-Israel-Headshot.jpg",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 0.901,
           "coverage": 1
         },
         {
@@ -192,9 +217,11 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.2,
+          "score": 0.191,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Spring News Roundup: First Release Candidates of Boot, Framework, Data, Security, Modulith, AI",
           "link": "https://www.infoq.com/news/2026/10/spring-news-roundup-oct19-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -205,11 +232,9 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.185,
+          "score": 0.178,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "LocalStack for Azure Enters Public Preview with Security Settings Stored but Not Enforced",
           "link": "https://www.infoq.com/news/2026/10/localstack-azure-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -220,7 +245,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.166,
+          "score": 0.16,
           "coverage": 1
         },
         {
@@ -233,7 +258,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.161,
+          "score": 0.156,
           "coverage": 1
         }
       ]
@@ -241,6 +266,47 @@
     {
       "name": "News & Research",
       "cards": [
+        {
+          "title": "F/OSS Comics #13: BSD Unix, Part 3 – The Beginning of BSD Unix",
+          "link": "https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/",
+          "excerpt": "From Pascal and ex tapes to a VAX system: Bill Joy handles BSD distribution and debugging, then joins Ozalp Babaoglu to bring virtual memory to Unix.",
+          "source": "fosscomics.com via Hacker News",
+          "date": "Nov 02",
+          "image": "https://fosscomics.com/posts/13. BSD Unix Part 3 - The Beginning of BSD Unix/images/feature.png",
+          "icon": "https://fosscomics.com/images/favicon.png",
+          "domain": "fosscomics.com",
+          "hn": "31 points · 3 comments",
+          "score": 3.054,
+          "coverage": 1
+        },
+        {
+          "title": "AI fan wikis riddled with errors are muddying the waters of games culture",
+          "link": "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
+          "excerpt": "LLM-powered wikis, often full of inaccurate or irrelevant information, are starting to take over, leaving fans sidelined and publishers playing whack-a-mole.",
+          "source": "eurogamer.net via Hacker News",
+          "date": "Nov 02",
+          "image": "https://assetsio.gnwcdn.com/gamedb-wiki-header.png?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+          "icon": "https://www.eurogamer.net/static/04100a5b6f176ab1e59b5a1d25dcfd37/icon/apple-touch-icon-152x152.png",
+          "domain": "eurogamer.net",
+          "hn": "33 points · 11 comments",
+          "score": 3.184,
+          "coverage": 1
+        },
+        {
+          "title": "Trigger.dev customer environment variables exposed",
+          "link": "https://trigger.dev/blog/security-incident-nov-2026",
+          "excerpt": "An attacker gained unauthorized access to environment variables for a subset of organizations. We've blocked the exploit and emailed all impacted account owners with steps to mitigate.",
+          "source": "trigger.dev via Hacker News",
+          "date": "Nov 02",
+          "image": "https://trigger.dev/blog/generic/incident-report-generic.png",
+          "icon": "https://trigger.dev/favicon.ico",
+          "domain": "trigger.dev",
+          "hn": "22 points · 1 comments",
+          "score": 2.631,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "OccupySaaS",
           "link": "https://occupysaas.com/",
@@ -250,21 +316,21 @@
           "image": "https://occupysaas.com/assets/img/og.jpg",
           "icon": "https://occupysaas.com/assets/img/apple-touch-icon.png",
           "domain": "occupysaas.com",
-          "hn": "16 points · 3 comments",
-          "score": 2.716,
+          "hn": "118 points · 73 comments",
+          "score": 3.798,
           "coverage": 1
         },
         {
-          "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
-          "link": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-          "excerpt": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
-          "source": "techcrunch.com via Hacker News",
+          "title": "Ask HN: Which TV do you recommend for privacy?",
+          "link": "https://news.ycombinator.com/item?id=50328896",
+          "excerpt": "198 points · 353 comments",
+          "source": "Hacker News",
           "date": "Nov 01",
-          "image": "https://techcrunch.com/wp-content/uploads/2023/08/GettyImages-1308803174.jpg?resize=1200,800",
-          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
-          "domain": "techcrunch.com",
-          "hn": "169 points · 136 comments",
-          "score": 4.064,
+          "image": null,
+          "icon": null,
+          "domain": "news.ycombinator.com",
+          "hn": "198 points · 353 comments",
+          "score": 3.441,
           "coverage": 1
         },
         {
@@ -276,49 +342,8 @@
           "image": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=200&ts=1793584812",
           "icon": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=114",
           "domain": "terrytao.wordpress.com",
-          "hn": "226 points · 249 comments",
-          "score": 3.522,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "Ask HN: Which TV do you recommend for privacy?",
-          "link": "https://news.ycombinator.com/item?id=50328896",
-          "excerpt": "140 points · 261 comments",
-          "source": "Hacker News",
-          "date": "Nov 01",
-          "image": null,
-          "icon": null,
-          "domain": "news.ycombinator.com",
-          "hn": "140 points · 261 comments",
-          "score": 3.642,
-          "coverage": 1
-        },
-        {
-          "title": "Patrick Stewart taught us what good men do with power",
-          "link": "https://www.vox.com/politics/508526/patrick-stewart-jean-luc-picard-star-trek-liberalism",
-          "excerpt": "Great leaders, and great nations, need role models like Jean-Luc Picard.",
-          "source": "vox.com via Hacker News",
-          "date": "Nov 01",
-          "image": "https://platform.vox.com/wp-content/uploads/sites/2/2026/10/gettyimages-459889618.jpg?quality=90&strip=all&crop=0%2C15.142462754721%2C100%2C69.715074490557&w=1200",
-          "icon": "https://www.vox.com/static-assets/icons/apple-touch-icon.png",
-          "domain": "vox.com",
-          "hn": "372 points · 263 comments",
-          "score": 3.49,
-          "coverage": 1
-        },
-        {
-          "title": "Frontier Airlines Likely Breached",
-          "link": "https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/",
-          "excerpt": "176 points · 69 comments",
-          "source": "reddit.com via Hacker News",
-          "date": "Nov 01",
-          "image": null,
-          "icon": "https://www.reddit.com/favicon.ico",
-          "domain": "reddit.com",
-          "hn": "176 points · 69 comments",
-          "score": 5.085,
+          "hn": "244 points · 273 comments",
+          "score": 3.234,
           "coverage": 1
         },
         {
@@ -330,8 +355,8 @@
           "image": null,
           "icon": "https://www.semiconductor-today.com/favicon.ico",
           "domain": "semiconductor-today.com",
-          "hn": "138 points · 34 comments",
-          "score": 2.718,
+          "hn": "147 points · 39 comments",
+          "score": 2.521,
           "coverage": 1
         },
         {
@@ -343,8 +368,8 @@
           "image": null,
           "icon": "https://hackerbooks.org/favicon.ico",
           "domain": "hackerbooks.org",
-          "hn": "931 points · 180 comments",
-          "score": 3.505,
+          "hn": "1049 points · 194 comments",
+          "score": 3.261,
           "coverage": 1
         }
       ]
