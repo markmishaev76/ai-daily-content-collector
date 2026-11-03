@@ -1,18 +1,18 @@
 {
   "date": "2026-11-03",
   "lead": {
-    "title": "The cryptography behind electronic voting (and why paper ballots are still essential)",
-    "link": "https://blog.trailofbits.com/2026/11/03/the-cryptography-behind-electronic-voting-and-why-paper-ballots-are-still-essential/",
-    "excerpt": "As millions of Americans vote in today’s U.S. midterms, most will use paper ballots, which are protected by strict chain-of-custody protocols and, in some cases, statistical audits. You may wonder why we still use paper for our elections and voting systems when tasks like banking, tax filing, and…",
-    "source": "Trail of Bits",
+    "title": "What’s in the SOSS? Podcast #77 – S3E29 Baking Security into the Toolchain: Accurate Swift SBOMs with Apple’s Ev Cheng and Sam Khouri",
+    "link": "https://openssf.org/podcast/2026/11/03/whats-in-the-soss-podcast-77-s3e29-baking-security-into-the-toolchain-accurate-swift-sboms-with-apples-ev-cheng-and-sam-khouri/",
+    "excerpt": "In this episode of What's in the SOSS, Apple engineers Ev Cheng and Sam Khouri discuss the evolution of Software Bill of Materials (SBOMs) and how native build-graph awareness in Swift ensures accurate, build-time precision.",
+    "source": "Open Source Security Foundation",
     "date": "Nov 03",
-    "image": "https://blog.trailofbits.com/2026/11/03/the-cryptography-behind-electronic-voting-and-why-paper-ballots-are-still-essential/electronicvoting_socialbanner.png",
+    "image": null,
     "image_credit": null,
-    "section": "AI Agents & Agent Security",
+    "section": "Supply Chain & Builds",
     "pinned": false,
     "note": null,
     "labels": [
-      "AI Agents & Agent Security",
+      "Supply Chain & Builds",
       "under 1h ago"
     ],
     "also": []
@@ -25,7 +25,7 @@
       "link_domain": "blog.nns.ee",
       "source": "Lobsters",
       "domain": "blog.nns.ee",
-      "meta": "Lobsters · 119 points · 5 comments · 19h ago",
+      "meta": "Lobsters · 135 points · 9 comments · 22h ago",
       "also": [],
       "image": "https://blog.nns.ee/img/logo.png",
       "icon": "https://blog.nns.ee/img/apple-touch-icon.png"
@@ -37,46 +37,10 @@
       "link_domain": "freenode.net",
       "source": "Hacker News",
       "domain": "freenode.net",
-      "meta": "Hacker News · 547 points · 161 comments · 17h ago",
+      "meta": "Hacker News · 575 points · 174 comments · 20h ago",
       "also": [],
       "image": "https://freenode.net/media/og-default.png",
       "icon": "https://freenode.net/static/favicon.svg"
-    },
-    {
-      "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
-      "thread": "https://news.ycombinator.com/item?id=50344919",
-      "link": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
-      "link_domain": "techpolicy.press",
-      "source": "Hacker News",
-      "domain": "techpolicy.press",
-      "meta": "Hacker News · 369 points · 275 comments · 13h ago",
-      "also": [],
-      "image": "https://cdn.sanity.io/images/3tzzh18d/production/07bfadd5db5c963aa461d36b3f5bfa4a34c6f335-1200x675.png",
-      "icon": "https://cdn.sanity.io/images/3tzzh18d/production/9a2224d300c1699fc1b87235aac36318e2c76cec-867x867.png"
-    },
-    {
-      "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
-      "thread": "https://news.ycombinator.com/item?id=50339494",
-      "link": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
-      "link_domain": "businessinsider.com",
-      "source": "Hacker News",
-      "domain": "businessinsider.com",
-      "meta": "Hacker News · 334 points · 254 comments · 19h ago",
-      "also": [],
-      "image": "https://i.insider.com/6ae5023ed8cc18cf7950fbe3?width=1200&format=jpeg",
-      "icon": "https://www.businessinsider.com/public/assets/BI/US/favicons/apple-touch-icon-180x180.png?v=2025-05"
-    },
-    {
-      "title": "Stop Hardcoding Your Timeouts",
-      "thread": "https://lobste.rs/s/qa0owz/stop_hardcoding_your_timeouts",
-      "link": "https://alfy.blog/2026/04/23/stop-hardcoding-your-timeouts.html",
-      "link_domain": "alfy.blog",
-      "source": "Lobsters",
-      "domain": "alfy.blog",
-      "meta": "Lobsters · 47 points · 10 comments · 16h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://alfy.blog/favicon.ico"
     },
     {
       "title": "This background sound leaks your exact location",
@@ -85,10 +49,58 @@
       "link_domain": "youtu.be",
       "source": "Lobsters",
       "domain": "youtu.be",
-      "meta": "Lobsters · 43 points · 5 comments · 16h ago",
+      "meta": "Lobsters · 65 points · 6 comments · 19h ago",
       "also": [],
       "image": null,
       "icon": "https://www.youtube.com/s/desktop/92ead095/img/favicon_32x32.png"
+    },
+    {
+      "title": "Show HN: Hacker Times, a New York Times-inspired version of Hacker News",
+      "thread": "https://news.ycombinator.com/item?id=50346981",
+      "link": "https://hackertimes.ca/",
+      "link_domain": "hackertimes.ca",
+      "source": "Hacker News",
+      "domain": "hackertimes.ca",
+      "meta": "Hacker News · 393 points · 125 comments · 13h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://hackertimes.ca/favicon.svg"
+    },
+    {
+      "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+      "thread": "https://news.ycombinator.com/item?id=50344919",
+      "link": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+      "link_domain": "techpolicy.press",
+      "source": "Hacker News",
+      "domain": "techpolicy.press",
+      "meta": "Hacker News · 380 points · 292 comments · 16h ago",
+      "also": [],
+      "image": "https://cdn.sanity.io/images/3tzzh18d/production/07bfadd5db5c963aa461d36b3f5bfa4a34c6f335-1200x675.png",
+      "icon": "https://cdn.sanity.io/images/3tzzh18d/production/9a2224d300c1699fc1b87235aac36318e2c76cec-867x867.png"
+    },
+    {
+      "title": "Stop Hardcoding Your Timeouts",
+      "thread": "https://lobste.rs/s/qa0owz/stop_hardcoding_your_timeouts",
+      "link": "https://alfy.blog/2026/04/23/stop-hardcoding-your-timeouts.html",
+      "link_domain": "alfy.blog",
+      "source": "Lobsters",
+      "domain": "alfy.blog",
+      "meta": "Lobsters · 55 points · 15 comments · 20h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://alfy.blog/favicon.ico"
+    },
+    {
+      "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+      "thread": "https://news.ycombinator.com/item?id=50339494",
+      "link": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+      "link_domain": "businessinsider.com",
+      "source": "Hacker News",
+      "domain": "businessinsider.com",
+      "meta": "Hacker News · 339 points · 263 comments · 22h ago",
+      "also": [],
+      "image": "https://i.insider.com/6ae5023ed8cc18cf7950fbe3?width=1200&format=jpeg",
+      "icon": "https://www.businessinsider.com/public/assets/BI/US/favicons/apple-touch-icon-180x180.png?v=2025-05"
     },
     {
       "title": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
@@ -97,7 +109,7 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 265 points · 54 comments · 10h ago",
+      "meta": "Hacker News · 308 points · 68 comments · 13h ago",
       "also": [],
       "image": "https://opengraph.githubassets.com/c57d29275f91ef3028e6e92635e1b9fd50af01cbdfe17d8906cb530e9563ecb5/JiaFeiMiao-K-Cat/DiscImageStudio",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
@@ -109,34 +121,22 @@
       "link_domain": "nist.gov",
       "source": "Hacker News",
       "domain": "nist.gov",
-      "meta": "Hacker News · 245 points · 73 comments · 18h ago",
+      "meta": "Hacker News · 306 points · 84 comments · 21h ago",
       "also": [],
       "image": "https://www.nist.gov/sites/default/files/styles/social/public/images/2026/04/29/shutterstock_2477030163.jpg?itok=7zzPE_fG",
       "icon": "https://www.nist.gov/themes/custom/nist_www/favicon.ico"
     },
     {
-      "title": "Anthropic reports $17B in Q3 revenue, commitments of $895B in revised S-1",
-      "thread": "https://news.ycombinator.com/item?id=50337439",
-      "link": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
-      "link_domain": "cnbc.com",
-      "source": "Hacker News",
-      "domain": "cnbc.com",
-      "meta": "Hacker News · 233 points · 275 comments · 21h ago",
+      "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
+      "thread": "https://lobste.rs/s/u7wdqj/sparks_weight_space_programming_llms_can",
+      "link": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "link_domain": "rikiyat.github.io",
+      "source": "Lobsters",
+      "domain": "rikiyat.github.io",
+      "meta": "Lobsters · 37 points · 7 comments · 20h ago",
       "also": [],
-      "image": "https://image.cnbcfm.com/api/v1/image/108369526-1790698647709-gettyimages-2297195052-AFP_C9PK8G7.jpeg?v=1790698665&w=1920&h=1080",
-      "icon": "https://fm.cnbc.com/applications/cnbc.com/resources/img/CNBC_LOGO_FAVICON_1C_KO_RGB.ico"
-    },
-    {
-      "title": "Anthropic's growth just flattened",
-      "thread": "https://news.ycombinator.com/item?id=50344958",
-      "link": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
-      "link_domain": "regenerator1.com",
-      "source": "Hacker News",
-      "domain": "regenerator1.com",
-      "meta": "Hacker News · 213 points · 248 comments · 13h ago",
-      "also": [],
-      "image": "https://substackcdn.com/image/fetch/$s_!qfl2!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68ef8665-4279-4a1d-b5d6-447d33f93edd_1206x748.png",
-      "icon": "https://substackcdn.com/image/fetch/$s_!tkec!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5db19a6c-793d-4d76-94b0-4f748cf8134f%2Fapple-touch-icon-57x57.png"
+      "image": "https://rikiyat.github.io/images/blog/weight-space-programming.png",
+      "icon": "https://rikiyat.github.io/favicon.ico"
     }
   ],
   "sections": [
@@ -153,7 +153,7 @@
           "icon": "https://stackoverflow.blog/apple-touch-icon.png",
           "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 8.041,
+          "score": 6.715,
           "coverage": 1
         },
         {
@@ -166,7 +166,7 @@
           "icon": null,
           "domain": "leaddev.com",
           "hn": null,
-          "score": 1.098,
+          "score": 0.924,
           "coverage": 1
         },
         {
@@ -179,7 +179,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.74,
+          "score": 0.656,
           "coverage": 1
         }
       ],
@@ -194,7 +194,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.958,
+          "score": 0.822,
           "coverage": 1
         },
         {
@@ -207,7 +207,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.955,
+          "score": 0.82,
           "coverage": 1
         },
         {
@@ -220,7 +220,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.734,
+          "score": 0.652,
           "coverage": 1
         },
         {
@@ -233,7 +233,7 @@
           "icon": null,
           "domain": "blog.google",
           "hn": null,
-          "score": 0.588,
+          "score": 0.534,
           "coverage": 1
         }
       ]
@@ -250,8 +250,21 @@
           "image": "https://pbs.twimg.com/media/HVtOKh7aIAAFGeA?format=webp&name=large",
           "icon": "https://x.com/apple-touch-icon.png",
           "domain": "twitter.com",
-          "hn": "137 points · 107 comments",
-          "score": 5.212,
+          "hn": "138 points · 111 comments",
+          "score": 4.803,
+          "coverage": 1
+        },
+        {
+          "title": "The cryptography behind electronic voting (and why paper ballots are still essential)",
+          "link": "https://blog.trailofbits.com/2026/11/03/the-cryptography-behind-electronic-voting-and-why-paper-ballots-are-still-essential/",
+          "excerpt": "As millions of Americans vote in today’s U.S. midterms, most will use paper ballots, which are protected by strict chain-of-custody protocols and, in some cases, statistical audits. You may wonder why we still use paper for our elections and voting systems when tasks like banking, tax filing, and…",
+          "source": "Trail of Bits",
+          "date": "Nov 03",
+          "image": "https://blog.trailofbits.com/2026/11/03/the-cryptography-behind-electronic-voting-and-why-paper-ballots-are-still-essential/electronicvoting_socialbanner.png",
+          "icon": "https://blog.trailofbits.com/favicon.png",
+          "domain": "blog.trailofbits.com",
+          "hn": null,
+          "score": 6.431,
           "coverage": 1
         },
         {
@@ -264,20 +277,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.8,
-          "coverage": 1
-        },
-        {
-          "title": "Building AI for Lawyers - Jacob Lauritzen, CTO of Legora",
-          "link": "https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora/",
-          "excerpt": "Evals without traces, million-cell tabular reviews, and cracks in the billable hour as a business model",
-          "source": "Latent Space",
-          "date": "Nov 02",
-          "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/ddf5ae31-7afc-4bdb-90ce-b116c9981792/private-evals.jpg?t=1793682299",
-          "icon": null,
-          "domain": "latent.space",
-          "hn": null,
-          "score": 0.592,
+          "score": 0.687,
           "coverage": 1
         }
       ],
@@ -292,7 +292,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 2.566,
+          "score": 2.412,
           "coverage": 1
         },
         {
@@ -305,7 +305,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 4.786,
+          "score": 4.024,
           "coverage": 1
         },
         {
@@ -318,7 +318,20 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 2.381,
+          "score": 2.176,
+          "coverage": 1
+        },
+        {
+          "title": "Building AI for Lawyers - Jacob Lauritzen, CTO of Legora",
+          "link": "https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora/",
+          "excerpt": "Evals without traces, million-cell tabular reviews, and cracks in the billable hour as a business model",
+          "source": "Latent Space",
+          "date": "Nov 02",
+          "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/ddf5ae31-7afc-4bdb-90ce-b116c9981792/private-evals.jpg?t=1793682299",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null,
+          "score": 0.528,
           "coverage": 1
         },
         {
@@ -331,7 +344,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.592,
+          "score": 0.528,
           "coverage": 1
         }
       ]
@@ -349,7 +362,20 @@
           "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
           "domain": "stratechery.com",
           "hn": null,
-          "score": 1.125,
+          "score": 0.913,
+          "coverage": 1
+        },
+        {
+          "title": "Future of Wellness 2027: Inside the $2.7 trillion takeover",
+          "link": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/future-of-wellness-trends",
+          "excerpt": "More consumers are prioritizing their health and scrutinizing what they buy. Our latest Future of Wellness research explores the trends shaping where they spend and what they expect in return.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 03",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.547,
           "coverage": 1
         },
         {
@@ -362,7 +388,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.616,
+          "score": 0.547,
           "coverage": 1
         }
       ],
@@ -381,7 +407,7 @@
           "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
           "domain": "datatracker.ietf.org",
           "hn": null,
-          "score": 6.105,
+          "score": 5.525,
           "coverage": 1
         },
         {
@@ -394,7 +420,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 2.745,
+          "score": 2.48,
           "coverage": 1
         },
         {
@@ -407,7 +433,7 @@
           "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
           "domain": "datatracker.ietf.org",
           "hn": null,
-          "score": 6.105,
+          "score": 5.525,
           "coverage": 1
         }
       ],
@@ -422,7 +448,7 @@
           "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
           "domain": "datatracker.ietf.org",
           "hn": null,
-          "score": 6.105,
+          "score": 5.525,
           "coverage": 1
         },
         {
@@ -435,7 +461,7 @@
           "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
           "domain": "datatracker.ietf.org",
           "hn": null,
-          "score": 0.404,
+          "score": 0.366,
           "coverage": 1
         },
         {
@@ -448,7 +474,7 @@
           "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
           "domain": "datatracker.ietf.org",
           "hn": null,
-          "score": 6.105,
+          "score": 5.525,
           "coverage": 1
         },
         {
@@ -461,7 +487,7 @@
           "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
           "domain": "datatracker.ietf.org",
           "hn": null,
-          "score": 6.105,
+          "score": 5.525,
           "coverage": 1
         },
         {
@@ -474,10 +500,29 @@
           "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
           "domain": "datatracker.ietf.org",
           "hn": null,
-          "score": 0.404,
+          "score": 0.366,
           "coverage": 1
         }
       ]
+    },
+    {
+      "name": "Secrets & NHI",
+      "cards": [
+        {
+          "title": "What Is an AI Agent Registry, and How Does It Fit Into Enterprise Identity Security?",
+          "link": "https://aembit.io/blog/what-is-an-ai-agent-registry/",
+          "excerpt": "8 min readAn invoice agent can look up a vendor’s prices, but what happens when it tries to change them? The answer starts with its registry entry. The post What Is an AI Agent Registry, and How Does It Fit Into Enterprise Identity Security? appeared first on Aembit.",
+          "source": "Aembit",
+          "date": "Nov 03",
+          "image": "https://aembit.io/wp-content/uploads/2026/11/image2-1024x587.png",
+          "icon": null,
+          "domain": "aembit.io",
+          "hn": null,
+          "score": 6.357,
+          "coverage": 1
+        }
+      ],
+      "more": []
     },
     {
       "name": "Supply Chain & Builds",
@@ -492,7 +537,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.248,
+          "score": 0.233,
           "coverage": 1
         }
       ],
@@ -511,7 +556,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 3.898,
+          "score": 3.25,
           "coverage": 1
         },
         {
@@ -524,7 +569,74 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.934,
+          "score": 2.519,
+          "coverage": 1
+        },
+        {
+          "title": "CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode",
+          "link": "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/",
+          "excerpt": "The acquisitions will add AI agent observability and automated AI security testing capabilities to the CrowdStrike Falcon platform. The post CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 03",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/02/MA-merger-acquisition.webp",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 3.074,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
+          "link": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+          "excerpt": "Gartner predicts that security operations centers will have 50% more engineers than analysts by 2028 as AI agents take over routine alert handling. Prophet Security examines how AI is reshaping SOC roles, from analyst responsibilities and detection engineering to threat hunting and exposure…",
+          "source": "BleepingComputer",
+          "date": "Nov 03",
+          "image": "https://www.bleepstatic.com/content/posts/2026/10/28/future-soc-roles-header.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 3.27,
+          "coverage": 1
+        },
+        {
+          "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
+          "link": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+          "excerpt": "Fixed kernels for a use-after-free vulnerability in the Linux kernel's IPv4 TCP code are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest long-term-support releases remain in its opt-in testing channel with no date for a regular update. The flaw,…",
+          "source": "The Hacker News",
+          "date": "Nov 03",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdf8UfDHsjH9VaJGtYT5WgjtJ1G5YRMkjPWNeKn-hw05sM9ny0kW9L2eIc3UCiIQ7qmc_TmfrenS1WH8KiRBjln2hQS0X7DUlykxdHrzDgg4uoiHpiOf3fVTOnUuOt4618z3PN7hw1AfUch_y0Tot3ubTga5LEfyWnATkzegfQBSWxMbzNzJaGY18QqC8/s1600/linux-rce.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 3.144,
+          "coverage": 1
+        },
+        {
+          "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
+          "link": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
+          "excerpt": "Your team is remediating more vulnerabilities than ever, yet your breach risk has barely changed. You’re spending too much time and effort on exposures attackers may never exploit, while higher-risk exposures sit, waiting in the queue. Gartner®’s report on exposure prioritization states that fewer…",
+          "source": "The Hacker News",
+          "date": "Nov 03",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiK5J_qkmStJVdWJYvNtd4lb2cRfPMaSvu1dEKp8tXOjw71kt_fRGGfdPr60HL5agJ8NMBYO5sH7jVvzMWXlLW1fq0xilaF0GyLQHCznSjHeos7sdP_Xwmd6OWyzKv8Yq8m-Z0Hn3x15GBU8AySu2A27OlIWiuAW9ch0iZuXxTpELRSQ6uRdW9nLK4uXQg/s1600/picus-main.png",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.447,
+          "coverage": 1
+        },
+        {
+          "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
+          "link": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
+          "excerpt": "A Russia-aligned threat actor known as Gorbag has been observed using simple information stealer malware in attacks targeting Ukrainian organizations. \"Active since at least February 2025, the group has focused exclusively on Ukrainian targets, with a clear preference for law enforcement and…",
+          "source": "The Hacker News",
+          "date": "Nov 03",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqyPfrBB7GYTnYsvVj2TxCv0pPwFh_PkVpdQcxuspKgQfbsX1p2kDSdokIyPqLsxSfBCkFPiTATfZxZRbouqkoqfEESL7CgA-MyXD61eQFluiQtdFZDyXQc_3EUAg71JWIHxq9MPVLrwwegvUVuiViE8AxsKH6iBVypWazO0wmCoaC3-D1Ih9Yw3vwN1FJ/s1600/russia-hackers.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.439,
           "coverage": 1
         },
         {
@@ -537,75 +649,8 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.278,
+          "score": 1.905,
           "coverage": 2
-        }
-      ],
-      "more": [
-        {
-          "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
-          "link": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
-          "excerpt": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks. The Taiwanese vendor said it observed threat actors exploiting a vulnerability patched in December 2024 to target devices running outdated…",
-          "source": "The Hacker News",
-          "date": "Nov 03",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg18lSM19IJpBCuAofy8CZNsJ-05CtvqxdL8BcHUS65fn_Oph-FAXqpdDE9c11G78nq7I1pVtt4XAotc_hszgea-QpNDTt-RzstD3k7yfXHP3JUnBViplsRzL_4q_LM-jujcv6NbMUUYBMWtJKSdKcBYlbSkm7Mx9LaTbVRW88uFh723nDOGYYDxiwkfYFr/s1600/synology-ransomware.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 3.033,
-          "coverage": 1
-        },
-        {
-          "title": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
-          "link": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
-          "excerpt": "Attackers remotely changed the settings on refrigeration controls at supermarkets in Belgium, Sweden, Estonia and other European countries overnight into Monday, November 2, warming fridges and freezers. No chain reported more than several dozen affected stores, and some had to throw away chilled…",
-          "source": "The Hacker News",
-          "date": "Nov 03",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjScxShEa3bsAhGLHlqkBcsyuRe6UeQwrOVXBFP3TwxzmXtd03vDeDRZHxxBLIKHDYgY5p5CsrFvBwuozg3UsRLtVMO758NhVwSju6D6WgO1J42wJd2NWR9aVzz-B_CWfiMFH2QANUrAnUXbgkKec2KtJjULvN3NTqrCPbLRNnxlnvBFIAkndClXJMIeXY/s1600/fridge-hack.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 3.901,
-          "coverage": 3
-        },
-        {
-          "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
-          "link": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
-          "excerpt": "A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed. The vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case of missing authentication for a critical function that could be exploited by an…",
-          "source": "The Hacker News",
-          "date": "Nov 03",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLg0QvfH0SD_sz2pFnyrG6Zcs-ltrKaf42ZY7PYKTsA26Nu4alNeqarZZ9HGEjO0UJFr5Wfsb7WBSDYoRnGi6X1jXZ8_4xx1VJtYshtPXYX9DVJYu4lln_IqEhf-NQJC7MKWI1JVzzR5heu6O_OnWezfKsj3AnBs5NKVp5dOVgR-7XuKMIAiyiKflPlT9E/s1600/siemens-hack.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.384,
-          "coverage": 1
-        },
-        {
-          "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
-          "link": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
-          "excerpt": "Some attacks this week didn't need much of a trick. A fake support call, a trusted extension, a shared link, or a device with no password. Small things that people barely think about. Yet each was enough to cause serious trouble. Then there were the bigger messes. Billions stolen, hidden networks…",
-          "source": "The Hacker News",
-          "date": "Nov 02",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj03NmPVHpoxRjXKDh7s6v2Dav4D-MCSLBTLalEb9ScH_lLc4yQJWOW8QfTIBePp7Pcgo1qrq6MYuQvNeyb0LCvWO4E4e7BLQKEj-g3Z2LImj4CXV-UUGfVd-vVL0NGtxMMn50klhOLlyI3p6DXhIFf-LkMsST7LK4kh3gIjqlvBwOUgbKTq8-hRdvmfz46/s1600/rcap.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.23,
-          "coverage": 1
-        },
-        {
-          "title": "Critical Node-RED Flaw Exploited in Attacks",
-          "link": "https://www.securityweek.com/critical-node-red-flaw-exploited-in-attacks/",
-          "excerpt": "Multiple attacks from the same IP address attempted to deploy various payloads, including a Linux bot and webshells. The post Critical Node-RED Flaw Exploited in Attacks appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 03",
-          "image": "https://www.securityweek.com/wp-content/uploads/2025/12/industrial-AI-OT-security.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.592,
-          "coverage": 1
         }
       ]
     },
@@ -622,7 +667,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.983,
+          "score": 2.722,
           "coverage": 1
         },
         {
@@ -635,7 +680,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.817,
+          "score": 2.557,
           "coverage": 1
         },
         {
@@ -648,7 +693,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 5.669,
+          "score": 4.602,
           "coverage": 1
         }
       ],
@@ -663,7 +708,7 @@
           "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
           "domain": "about.gitlab.com",
           "hn": null,
-          "score": 1.164,
+          "score": 1.094,
           "coverage": 1
         },
         {
@@ -676,7 +721,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.287,
+          "score": 0.261,
           "coverage": 1
         },
         {
@@ -689,7 +734,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.372,
+          "score": 0.338,
           "coverage": 1
         },
         {
@@ -702,7 +747,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.291,
+          "score": 0.265,
           "coverage": 1
         },
         {
@@ -715,7 +760,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.291,
+          "score": 0.265,
           "coverage": 1
         }
       ]
@@ -733,50 +778,37 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 3.185,
+          "score": 2.818,
+          "coverage": 1
+        },
+        {
+          "title": "The Download: controlling AI agents and “Super Intelligence” loyalty tests",
+          "link": "https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/",
+          "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How “reverse game theory” could keep AI agents in check A new approach known as “reverse game theory” aims to control powerful AI models by designing systems…",
+          "source": "MIT Technology Review",
+          "date": "Nov 03",
+          "image": "https://wp.technologyreview.com/wp-content/uploads/2026/04/GettyImages-546444524.jpg?w=2667",
+          "icon": null,
+          "domain": "technologyreview.com",
+          "hn": null,
+          "score": 5.301,
           "coverage": 1
         },
         {
           "title": "How “reverse game theory” could keep AI agents in check",
           "link": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
-          "excerpt": "A new approach known as “reverse game theory” aims to create incentives for powerful AI models that make following the rules the most rational choice. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words,…",
+          "excerpt": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that…",
           "source": "MIT Technology Review",
           "date": "Nov 03",
           "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/cake.jpg?resize=1200,600",
           "icon": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/static/media/favicon.1cfcdb44759a0f93ddf5feb5405dd4cc.ico",
           "domain": "technologyreview.com",
           "hn": null,
-          "score": 4.854,
-          "coverage": 1
-        },
-        {
-          "title": "Anthropic clamps down on Claude’s AI video game clones",
-          "link": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
-          "excerpt": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use…",
-          "source": "The Verge",
-          "date": "Nov 02",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_B.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "icon": null,
-          "domain": "theverge.com",
-          "hn": null,
-          "score": 1.53,
+          "score": 3.955,
           "coverage": 1
         }
       ],
       "more": [
-        {
-          "title": "Show HN: Hacker Times, a New York Times-inspired version of Hacker News",
-          "link": "https://hackertimes.ca/",
-          "excerpt": "A newspaper from Hacker News, refreshed every hour. Independent headlines, original sources.",
-          "source": "hackertimes.ca via Hacker News",
-          "date": "Nov 03",
-          "image": null,
-          "icon": "https://hackertimes.ca/favicon.svg",
-          "domain": "hackertimes.ca",
-          "hn": "321 points · 97 comments",
-          "score": 5.183,
-          "coverage": 1
-        },
         {
           "title": "Progress on provable inference for large language models",
           "link": "https://www.anthropic.com/research/provable-inference",
@@ -787,46 +819,59 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 0.233,
+          "score": 0.219,
           "coverage": 1
         },
         {
-          "title": "Sam Altman's Case Against Your RAM Is Efficient. That's the Problem",
-          "link": "https://www.techdirt.com/2026/11/02/sam-altmans-case-against-your-ram-is-efficient-thats-the-problem/",
-          "excerpt": "18 points · 29 comments",
-          "source": "techdirt.com via Hacker News",
+          "title": "Octomind – open-source AI harness that saves your tokens, static rust",
+          "link": "https://github.com/Muvon/octomind",
+          "excerpt": "Open-source AI coding agent and agent runtime: one binary, any model, MCP-native. Runs in terminal, CI, or as a daemon. - Muvon/octomind",
+          "source": "github.com via Hacker News",
+          "date": "Nov 03",
+          "image": "https://repository-images.githubusercontent.com/994166447/5deca376-0441-481a-83f3-48dcaeb7487c",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "11 points · 2 comments",
+          "score": 2.743,
+          "coverage": 1
+        },
+        {
+          "title": "Just a little AI resistance, as a treat",
+          "link": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat/",
+          "excerpt": "At the recent EMFCamp, I bumped in to Professor Kate Devlin who was talking a little about the AI Resist List. I think one of the useful things we can do is loudly complain about shitty uses of AI. Here's an example. As mentioned in a previous post, I'm contacting companies which send malformed…",
+          "source": "shkspr.mobi via Hacker News",
+          "date": "Nov 03",
+          "image": "https://shkspr.mobi/blog/wp-content/uploads/2017/11/Confused-Robot.jpg",
+          "icon": "https://shkspr.mobi/blog/wp-content/uploads/2023/07/cropped-avatar-180x180.jpeg",
+          "domain": "shkspr.mobi",
+          "hn": "86 points · 54 comments",
+          "score": 4.319,
+          "coverage": 1
+        },
+        {
+          "title": "Microsoft's Canada timezone troubles leave admins fixing calendars",
+          "link": "https://www.theregister.com/software/2026/11/02/microsofts-canada-timezone-troubles-leave-admins-fixing-calendars-pretending-theyre-in-bogota/5306934",
+          "excerpt": "Canadian regions stop turning back the clocks, Microsoft wishes it could",
+          "source": "theregister.com via Hacker News",
+          "date": "Nov 03",
+          "image": "https://image.theregister.com/1682641.jpg?imageId=1682641&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+          "icon": "https://www.theregister.com/view-resources/dachser2/public/theregister/favicons/apple-touch-icon.png",
+          "domain": "theregister.com",
+          "hn": "27 points · 20 comments",
+          "score": 3.349,
+          "coverage": 1
+        },
+        {
+          "title": "Show HN: Bema: Work messaging built for humans",
+          "link": "https://getbema.app/",
+          "excerpt": "14 points · 16 comments",
+          "source": "getbema.app via Hacker News",
           "date": "Nov 03",
           "image": null,
-          "icon": "https://www.techdirt.com/favicon.ico",
-          "domain": "techdirt.com",
-          "hn": "18 points · 29 comments",
-          "score": 3.615,
-          "coverage": 1
-        },
-        {
-          "title": "Anthropic IPO filing: $1.7B quarterly payroll, about $107K per employee monthly",
-          "link": "https://www.techspot.com/news/114428-anthropic-ipo-filing-reveals-17-billion-quarterly-personnel.html",
-          "excerpt": "The filing, spotted by Business Insider, shows that Anthropic recorded more than $1.7 billion in personnel expenses from July through to September. With 5,300 people working at...",
-          "source": "techspot.com via Hacker News",
-          "date": "Nov 03",
-          "image": "https://www.techspot.com/images2/news/bigimage/2026/11/2026-11-03-image-7.jpg",
-          "icon": "https://www.techspot.com/images/ts3mobile-badge.png",
-          "domain": "techspot.com",
-          "hn": "17 points · 5 comments",
-          "score": 2.977,
-          "coverage": 1
-        },
-        {
-          "title": "Revolut moves to self-hosted GLM",
-          "link": "https://twitter.com/guilleflorvs/status/2117379073785696395",
-          "excerpt": "BREAKING: Revolut moved ~2,000 engineers onto self-hosted GLM for coding and pushed Claude Code and Codex to the exception list. Per David Abitbol, who leads AI ops there: 56 Nvidia B200s, a blended 30 cents per million tokens, roughly a tenth of what they paid Anthropic and OpenAI. Engineering le…",
-          "source": "twitter.com via Hacker News",
-          "date": "Nov 03",
-          "image": "https://pbs.twimg.com/media/HWJxC2yWEAAWYYO?format=webp&name=large",
-          "icon": "https://x.com/apple-touch-icon.png",
-          "domain": "twitter.com",
-          "hn": "114 points · 78 comments",
-          "score": 4.163,
+          "icon": "https://getbema.app/favicon.svg",
+          "domain": "getbema.app",
+          "hn": "14 points · 16 comments",
+          "score": 2.873,
           "coverage": 1
         }
       ]

@@ -725,6 +725,12 @@
   "icon": "https://futurism.com/wp-content/uploads/2025/09/favicon.png?quality=85&w=180",
   "image": "https://futurism.com/wp-content/uploads/2026/07/amazon-gutting-ai-division-failure.jpg?w=1200"
  },
+ "https://getbema.app/": {
+  "description": null,
+  "fetched": "2026-11-03",
+  "icon": "https://getbema.app/favicon.svg",
+  "image": null
+ },
  "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce": {
   "description": "Claude Code burns ~15-20% of your tokens on a 3-word status line: a Bun preload that turns agent_summary off · by Flamerix AI, flamerix.ai · MIT - README.md",
   "fetched": "2026-10-29",
@@ -766,6 +772,12 @@
   "fetched": "2026-10-30",
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://repository-images.githubusercontent.com/1383708351/edc8f018-5dfd-4df7-b4e1-dacb8573208c"
+ },
+ "https://github.com/Muvon/octomind": {
+  "description": "Open-source AI coding agent and agent runtime: one binary, any model, MCP-native. Runs in terminal, CI, or as a daemon. - Muvon/octomind",
+  "fetched": "2026-11-03",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://repository-images.githubusercontent.com/994166447/5deca376-0441-481a-83f3-48dcaeb7487c"
  },
  "https://github.com/NVIDIA/auto-ontology": {
   "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for L...",
@@ -1463,6 +1475,12 @@
   "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
   "image": null
  },
+ "https://openssf.org/podcast/2026/11/03/whats-in-the-soss-podcast-77-s3e29-baking-security-into-the-toolchain-accurate-swift-sboms-with-apples-ev-cheng-and-sam-khouri/": {
+  "description": "Join Apple engineers Ev Cheng and Sam Khouri on the OpenSSF podcast to explore native Swift SBOM generation, SE-0509, and the future of supply chain security.",
+  "fetched": "2026-11-03",
+  "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
+  "image": null
+ },
  "https://openssf.org/press-release/2026/10/30/new-lf-research-survey-shows-generative-ai-cuts-open-source-coding-time-in-half-but-25-of-incoming-pull-requests-are-considered-ai-slop/": {
   "description": "A new LF Research survey reveals Generative AI cuts open source coding time in half, but increases maintainer workloads with 25% of pull requests deemed \"AI slop.\"",
   "fetched": "2026-10-31",
@@ -1529,6 +1547,12 @@
   "icon": null,
   "image": null
  },
+ "https://rikiyat.github.io/blog/weight-space-programming/": {
+  "description": "We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights, well past what we’d expect from humans or conventional algorithms.",
+  "fetched": "2026-11-03",
+  "icon": null,
+  "image": "https://rikiyat.github.io/images/blog/weight-space-programming.png"
+ },
  "https://rtfeldman.com/fp-vs-c": {
   "description": null,
   "fetched": "2026-10-24",
@@ -1564,6 +1588,12 @@
   "fetched": "2026-10-27",
   "icon": null,
   "image": null
+ },
+ "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat/": {
+  "description": "At the recent EMFCamp, I bumped in to Professor Kate Devlin who was talking a little about the AI Resist List. I think one of the useful things we can do is loudly complain about shitty uses of AI. Here's an example. As mentioned in a previous post, I'm contacting companies which send malformed calendar invites. One of the organisation I contacted was the British online supermarket Ocado. They…",
+  "fetched": "2026-11-03",
+  "icon": "https://shkspr.mobi/blog/wp-content/uploads/2023/07/cropped-avatar-180x180.jpeg",
+  "image": "https://shkspr.mobi/blog/wp-content/uploads/2017/11/Confused-Robot.jpg"
  },
  "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/": {
   "description": "I've been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I'm having to remember is: If in doubt, delete the uv.lock file …",
@@ -2411,6 +2441,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/posts/2026/10/30/tryhackme-laptop.jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/": {
+  "description": "Gartner predicts that security operations centers will have 50% more engineers than analysts by 2028 as AI agents take over routine alert handling. Prophet Security examines how AI is reshaping SOC roles, from analyst responsibilities and detection engineering to threat hunting and exposure management.",
+  "fetched": "2026-11-03",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/posts/2026/10/28/future-soc-roles-header.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/": {
   "description": "Google and industry partners have dismantled the XCPE malware botnet consisting of more than 1.3 million Android TV streaming TV boxes that Google says its manufacturer intentionally infected with malware to generate revenue through cybercrime activities.",
   "fetched": "2026-11-03",
@@ -2777,6 +2813,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/future-of-wellness-trends": {
+  "description": null,
+  "fetched": "2026-11-03",
+  "icon": null,
+  "image": null
+ },
  "https://www.mckinsey.com/industries/financial-services/our-insights/closing-bankings-ai-value-gap-a-ceo-guide": {
   "description": null,
   "fetched": "2026-10-31",
@@ -3082,6 +3124,12 @@
   "fetched": "2026-11-03",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2025/12/industrial-AI-OT-security.jpeg"
+ },
+ "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/": {
+  "description": "CrowdStrike will reportedly pay $400 million for Fiddler AI and $95 million for Dreadnode to secure and monitor enterprise AI agents.",
+  "fetched": "2026-11-03",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/02/MA-merger-acquisition.webp"
  },
  "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/": {
   "description": "A cybersecurity incident at the University of New Mexico Health System forced it to send ambulances to other hospitals.",
@@ -3394,6 +3442,12 @@
   "fetched": "2026-11-02",
   "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg",
   "image": "https://i.guim.co.uk/img/media/4b71e9b955055d1a0eb5f597da100556359fa09b/1184_0_6400_5120/master/6400.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a69f8f68954a7702d519049973a8be9f"
+ },
+ "https://www.theregister.com/software/2026/11/02/microsofts-canada-timezone-troubles-leave-admins-fixing-calendars-pretending-theyre-in-bogota/5306934": {
+  "description": "Canadian regions stop turning back the clocks, Microsoft wishes it could",
+  "fetched": "2026-11-03",
+  "icon": "https://www.theregister.com/view-resources/dachser2/public/theregister/favicons/apple-touch-icon.png",
+  "image": "https://image.theregister.com/1682641.jpg?imageId=1682641&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683"
  },
  "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640": {
   "description": "90 percent of the performance at ten percent of the price, in just two or three racks, is hard to beat",
