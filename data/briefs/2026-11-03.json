@@ -1,21 +1,19 @@
 {
   "date": "2026-11-03",
   "lead": {
-    "title": "[Pieter Kasselman] New version available: draft-ietf-wimse-aims-01.txt [rev. 01]",
-    "link": "https://datatracker.ietf.org/doc/draft-ietf-wimse-aims/history/#history-1241580",
-    "excerpt": "New version available: <b>draft-ietf-wimse-aims-01.txt</b>",
-    "source": "IETF Datatracker",
+    "title": "Scaling Git at OpenAI",
+    "link": "https://openai.com/index/scaling-git-at-openai",
+    "excerpt": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+    "source": "OpenAI News",
     "date": "Nov 02",
     "image": null,
     "image_credit": null,
-    "section": "Agent Identity & Authorization",
+    "section": "AI Agents & Agent Security",
     "pinned": false,
     "note": null,
     "labels": [
-      "draft-carleton-workload-authz-grant",
-      "draft-ietf-wimse-aims",
-      "Agent Identity & Authorization",
-      "7h ago"
+      "AI Agents & Agent Security",
+      "4h ago"
     ],
     "also": []
   },
@@ -27,22 +25,10 @@
       "link_domain": "blog.nns.ee",
       "source": "Lobsters",
       "domain": "blog.nns.ee",
-      "meta": "Lobsters · 74 points · 3 comments · 9h ago",
+      "meta": "Lobsters · 82 points · 3 comments · 11h ago",
       "also": [],
       "image": "https://blog.nns.ee/img/logo.png",
       "icon": "https://blog.nns.ee/img/apple-touch-icon.png"
-    },
-    {
-      "title": "Supermarket freezers across Europe hit by second suspected cyber-attack",
-      "thread": "https://news.ycombinator.com/item?id=50335615",
-      "link": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
-      "link_domain": "theguardian.com",
-      "source": "Hacker News",
-      "domain": "theguardian.com",
-      "meta": "Hacker News · 370 points · 416 comments · 14h ago",
-      "also": [],
-      "image": "https://i.guim.co.uk/img/media/4b71e9b955055d1a0eb5f597da100556359fa09b/1184_0_6400_5120/master/6400.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a69f8f68954a7702d519049973a8be9f",
-      "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg"
     },
     {
       "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
@@ -51,22 +37,22 @@
       "link_domain": "freenode.net",
       "source": "Hacker News",
       "domain": "freenode.net",
-      "meta": "Hacker News · 340 points · 82 comments · 7h ago",
+      "meta": "Hacker News · 384 points · 105 comments · 9h ago",
       "also": [],
       "image": "https://freenode.net/media/og-default.png",
       "icon": "https://freenode.net/static/favicon.svg"
     },
     {
-      "title": "Postgres 19 is late, and it's AI's fault",
-      "thread": "https://lobste.rs/s/0yxkvs/postgres_19_is_late_it_s_ai_s_fault",
-      "link": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
-      "link_domain": "rhaas.blogspot.com",
-      "source": "Lobsters",
-      "domain": "rhaas.blogspot.com",
-      "meta": "Lobsters · 45 points · 17 comments · 23h ago",
+      "title": "Supermarket freezers across Europe hit by second suspected cyber-attack",
+      "thread": "https://news.ycombinator.com/item?id=50335615",
+      "link": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
+      "link_domain": "theguardian.com",
+      "source": "Hacker News",
+      "domain": "theguardian.com",
+      "meta": "Hacker News · 377 points · 421 comments · 16h ago",
       "also": [],
-      "image": null,
-      "icon": null
+      "image": "https://i.guim.co.uk/img/media/4b71e9b955055d1a0eb5f597da100556359fa09b/1184_0_6400_5120/master/6400.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a69f8f68954a7702d519049973a8be9f",
+      "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg"
     },
     {
       "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
@@ -75,10 +61,22 @@
       "link_domain": "businessinsider.com",
       "source": "Hacker News",
       "domain": "businessinsider.com",
-      "meta": "Hacker News · 292 points · 238 comments · 9h ago",
+      "meta": "Hacker News · 300 points · 241 comments · 11h ago",
       "also": [],
       "image": "https://i.insider.com/6ae5023ed8cc18cf7950fbe3?width=1200&format=jpeg",
       "icon": "https://www.businessinsider.com/public/assets/BI/US/favicons/apple-touch-icon-180x180.png?v=2025-05"
+    },
+    {
+      "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+      "thread": "https://news.ycombinator.com/item?id=50344919",
+      "link": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+      "link_domain": "techpolicy.press",
+      "source": "Hacker News",
+      "domain": "techpolicy.press",
+      "meta": "Hacker News · 249 points · 184 comments · 5h ago",
+      "also": [],
+      "image": "https://cdn.sanity.io/images/3tzzh18d/production/07bfadd5db5c963aa461d36b3f5bfa4a34c6f335-1200x675.png",
+      "icon": "https://cdn.sanity.io/images/3tzzh18d/production/9a2224d300c1699fc1b87235aac36318e2c76cec-867x867.png"
     },
     {
       "title": "Anthropic reports $17B in Q3 revenue, commitments of $895B in revised S-1",
@@ -87,9 +85,45 @@
       "link_domain": "cnbc.com",
       "source": "Hacker News",
       "domain": "cnbc.com",
-      "meta": "Hacker News · 226 points · 264 comments · 11h ago",
+      "meta": "Hacker News · 228 points · 268 comments · 13h ago",
       "also": [],
       "image": "https://image.cnbcfm.com/api/v1/image/108369526-1790698647709-gettyimages-2297195052-AFP_C9PK8G7.jpeg?v=1790698665&w=1920&h=1080",
+      "icon": "https://fm.cnbc.com/applications/cnbc.com/resources/img/CNBC_LOGO_FAVICON_1C_KO_RGB.ico"
+    },
+    {
+      "title": "Stop Hardcoding Your Timeouts",
+      "thread": "https://lobste.rs/s/qa0owz/stop_hardcoding_your_timeouts",
+      "link": "https://alfy.blog/2026/04/23/stop-hardcoding-your-timeouts.html",
+      "link_domain": "alfy.blog",
+      "source": "Lobsters",
+      "domain": "alfy.blog",
+      "meta": "Lobsters · 30 points · 2 comments · 8h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://alfy.blog/favicon.ico"
+    },
+    {
+      "title": "Anthropic's growth just flattened",
+      "thread": "https://news.ycombinator.com/item?id=50344958",
+      "link": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
+      "link_domain": "regenerator1.com",
+      "source": "Hacker News",
+      "domain": "regenerator1.com",
+      "meta": "Hacker News · 187 points · 212 comments · 5h ago",
+      "also": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!qfl2!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68ef8665-4279-4a1d-b5d6-447d33f93edd_1206x748.png",
+      "icon": "https://substackcdn.com/image/fetch/$s_!tkec!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5db19a6c-793d-4d76-94b0-4f748cf8134f%2Fapple-touch-icon-57x57.png"
+    },
+    {
+      "title": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
+      "thread": "https://news.ycombinator.com/item?id=50342284",
+      "link": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+      "link_domain": "cnbc.com",
+      "source": "Hacker News",
+      "domain": "cnbc.com",
+      "meta": "Hacker News · 173 points · 155 comments · 8h ago",
+      "also": [],
+      "image": "https://image.cnbcfm.com/api/v1/image/108468745-1793103926982-gettyimages-2234722679-_73a3321_cmlbiuj4.jpeg?v=1793642583&w=1920&h=1080",
       "icon": "https://fm.cnbc.com/applications/cnbc.com/resources/img/CNBC_LOGO_FAVICON_1C_KO_RGB.ico"
     },
     {
@@ -99,46 +133,10 @@
       "link_domain": "bloomberg.com",
       "source": "Hacker News",
       "domain": "bloomberg.com",
-      "meta": "Hacker News · 161 points · 229 comments · 11h ago",
+      "meta": "Hacker News · 167 points · 239 comments · 13h ago",
       "also": [],
       "image": null,
       "icon": "https://www.bloomberg.com/favicon.ico"
-    },
-    {
-      "title": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
-      "thread": "https://news.ycombinator.com/item?id=50342284",
-      "link": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
-      "link_domain": "cnbc.com",
-      "source": "Hacker News",
-      "domain": "cnbc.com",
-      "meta": "Hacker News · 158 points · 118 comments · 6h ago",
-      "also": [],
-      "image": "https://image.cnbcfm.com/api/v1/image/108468745-1793103926982-gettyimages-2234722679-_73a3321_cmlbiuj4.jpeg?v=1793642583&w=1920&h=1080",
-      "icon": "https://fm.cnbc.com/applications/cnbc.com/resources/img/CNBC_LOGO_FAVICON_1C_KO_RGB.ico"
-    },
-    {
-      "title": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
-      "thread": "https://news.ycombinator.com/item?id=50334038",
-      "link": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
-      "link_domain": "labs.cloudsecurityalliance.org",
-      "source": "Hacker News",
-      "domain": "labs.cloudsecurityalliance.org",
-      "meta": "Hacker News · 149 points · 86 comments · 18h ago",
-      "also": [],
-      "image": "https://i0.wp.com/labs.cloudsecurityalliance.org/wp-content/uploads/2025/12/cropped-logo.png?fit=512%2C512&ssl=1",
-      "icon": "https://i0.wp.com/labs.cloudsecurityalliance.org/wp-content/uploads/2025/12/cropped-logo.png?fit=180%2C180&ssl=1"
-    },
-    {
-      "title": "My reflex of assuming our servers need ever-growing amounts of RAM",
-      "thread": "https://lobste.rs/s/saskzi/my_reflex_assuming_our_servers_need_ever",
-      "link": "https://utcc.utoronto.ca/~cks/space/blog/sysadmin/ServerRAMGrowthReflex",
-      "link_domain": "utcc.utoronto.ca",
-      "source": "Lobsters",
-      "domain": "utcc.utoronto.ca",
-      "meta": "Lobsters · 22 points · 9 comments · 15h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://utcc.utoronto.ca/favicon.ico"
     }
   ],
   "sections": [
@@ -155,7 +153,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 1.261,
+          "score": 1.106,
           "coverage": 1
         },
         {
@@ -168,7 +166,7 @@
           "icon": null,
           "domain": "blog.google",
           "hn": null,
-          "score": 0.885,
+          "score": 0.805,
           "coverage": 1
         }
       ],
@@ -186,8 +184,8 @@
           "image": "https://pbs.twimg.com/media/HVtOKh7aIAAFGeA?format=webp&name=large",
           "icon": "https://x.com/apple-touch-icon.png",
           "domain": "twitter.com",
-          "hn": "122 points · 100 comments",
-          "score": 7.264,
+          "hn": "125 points · 100 comments",
+          "score": 6.738,
           "coverage": 1
         },
         {
@@ -200,7 +198,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.995,
+          "score": 0.878,
           "coverage": 1
         },
         {
@@ -213,7 +211,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.995,
+          "score": 0.878,
           "coverage": 1
         }
       ],
@@ -228,46 +226,46 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 3.255,
+          "score": 3.093,
           "coverage": 1
         },
         {
-          "title": "Scaling Git at OpenAI",
-          "link": "https://openai.com/index/scaling-git-at-openai",
-          "excerpt": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+          "title": "Median net worth of U.S. households under 35 fell 23% from 2022 to 2025 (real)",
+          "link": "https://www.keepingup.com/benchmarks/net-worth/age-30-33",
+          "excerpt": "The median net worth for people aged 30–33 in the U.S. is $68,000; the top 10% starts at $440,000. Type yours and see your percentile — no account needed. Full p10–p90 ladder by age and city.",
+          "source": "keepingup.com via Hacker News",
+          "date": "Nov 03",
+          "image": "https://www.keepingup.com/benchmarks/opengraph-image",
+          "icon": "https://www.keepingup.com/keeping-up-icon-180.png",
+          "domain": "keepingup.com",
+          "hn": "79 points · 12 comments",
+          "score": 6.957,
+          "coverage": 1
+        },
+        {
+          "title": "Rewarding defenders with bigger bug bounties",
+          "link": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+          "excerpt": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
           "source": "OpenAI News",
           "date": "Nov 02",
           "image": null,
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 3.46,
+          "score": 0.848,
           "coverage": 1
         },
         {
-          "title": "LifeVal",
-          "link": "https://openai.com/index/lifeval",
-          "excerpt": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+          "title": "Preparing our next security sprint to harden OpenAI",
+          "link": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+          "excerpt": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
           "source": "OpenAI News",
           "date": "Nov 02",
           "image": null,
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.644,
-          "coverage": 1
-        },
-        {
-          "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-          "link": "https://openai.com/index/dan-driscoll-joins-openai",
-          "excerpt": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
-          "source": "OpenAI News",
-          "date": "Nov 02",
-          "image": null,
-          "icon": "https://openai.com/favicon.ico",
-          "domain": "openai.com",
-          "hn": null,
-          "score": 0.492,
+          "score": 0.848,
           "coverage": 1
         }
       ]
@@ -275,6 +273,19 @@
     {
       "name": "Agent Identity & Authorization",
       "cards": [
+        {
+          "title": "[Pieter Kasselman] New version available: draft-ietf-wimse-aims-01.txt [rev. 01]",
+          "link": "https://datatracker.ietf.org/doc/draft-ietf-wimse-aims/history/#history-1241580",
+          "excerpt": "New version available: <b>draft-ietf-wimse-aims-01.txt</b>",
+          "source": "IETF Datatracker",
+          "date": "Nov 02",
+          "image": null,
+          "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
+          "domain": "datatracker.ietf.org",
+          "hn": null,
+          "score": 8.47,
+          "coverage": 1
+        },
         {
           "title": "Build an AI Wellbeing App with Fireworks and Fitbit via Auth0 Token Vault.",
           "link": "https://auth0.com/blog/build-an-ai-wellbeing-app-with-fireworks-fitbit-via-auth0-token-vault/",
@@ -285,7 +296,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 4.249,
+          "score": 3.837,
           "coverage": 1
         },
         {
@@ -298,9 +309,11 @@
           "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
           "domain": "datatracker.ietf.org",
           "hn": null,
-          "score": 9.352,
+          "score": 8.47,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "[(System)] New version approved [rev. 02]",
           "link": "https://datatracker.ietf.org/doc/draft-carleton-workload-authz-grant/history/#history-1241655",
@@ -311,11 +324,9 @@
           "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
           "domain": "datatracker.ietf.org",
           "hn": null,
-          "score": 9.352,
+          "score": 8.47,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "[(System)] Request for posting confirmation emailed to previous authors: Aaron Parecki , Arndt Schwenkschuster , Brian … [rev. 02]",
           "link": "https://datatracker.ietf.org/doc/draft-carleton-workload-authz-grant/history/#history-1241639",
@@ -326,7 +337,7 @@
           "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
           "domain": "datatracker.ietf.org",
           "hn": null,
-          "score": 0.617,
+          "score": 0.56,
           "coverage": 1
         },
         {
@@ -339,7 +350,7 @@
           "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
           "domain": "datatracker.ietf.org",
           "hn": null,
-          "score": 9.352,
+          "score": 8.47,
           "coverage": 1
         },
         {
@@ -352,7 +363,7 @@
           "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
           "domain": "datatracker.ietf.org",
           "hn": null,
-          "score": 9.352,
+          "score": 8.47,
           "coverage": 1
         },
         {
@@ -365,7 +376,7 @@
           "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
           "domain": "datatracker.ietf.org",
           "hn": null,
-          "score": 0.617,
+          "score": 0.56,
           "coverage": 1
         }
       ]
@@ -383,7 +394,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.315,
+          "score": 0.299,
           "coverage": 1
         }
       ],
@@ -402,7 +413,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.341,
+          "score": 0.311,
           "coverage": 1
         },
         {
@@ -415,7 +426,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.312,
+          "score": 0.287,
           "coverage": 1
         },
         {
@@ -428,7 +439,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.308,
+          "score": 0.284,
           "coverage": 1
         }
       ],
@@ -443,7 +454,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 2.056,
+          "score": 1.901,
           "coverage": 1
         },
         {
@@ -456,7 +467,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.292,
+          "score": 0.27,
           "coverage": 1
         },
         {
@@ -469,7 +480,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.438,
+          "score": 0.391,
           "coverage": 1
         },
         {
@@ -482,7 +493,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.377,
+          "score": 0.341,
           "coverage": 1
         },
         {
@@ -495,8 +506,8 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 3.71,
-          "coverage": 3
+          "score": 6.834,
+          "coverage": 4
         }
       ]
     },
@@ -513,7 +524,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 4.364,
+          "score": 4.001,
           "coverage": 1
         },
         {
@@ -526,7 +537,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 4.252,
+          "score": 3.866,
           "coverage": 1
         },
         {
@@ -539,7 +550,7 @@
           "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
           "domain": "about.gitlab.com",
           "hn": null,
-          "score": 1.476,
+          "score": 1.403,
           "coverage": 1
         }
       ],
@@ -554,7 +565,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.427,
+          "score": 0.39,
           "coverage": 1
         },
         {
@@ -567,7 +578,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.563,
+          "score": 0.511,
           "coverage": 1
         },
         {
@@ -580,7 +591,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.436,
+          "score": 0.397,
           "coverage": 1
         },
         {
@@ -593,7 +604,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.436,
+          "score": 0.397,
           "coverage": 1
         },
         {
@@ -606,7 +617,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.436,
+          "score": 0.397,
           "coverage": 1
         }
       ]
@@ -624,7 +635,20 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 5.6,
+          "score": 4.876,
+          "coverage": 1
+        },
+        {
+          "title": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
+          "link": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+          "excerpt": "Contribute to JiaFeiMiao-K-Cat/DiscImageStudio development by creating an account on GitHub.",
+          "source": "github.com via Hacker News",
+          "date": "Nov 03",
+          "image": "https://opengraph.githubassets.com/c57d29275f91ef3028e6e92635e1b9fd50af01cbdfe17d8906cb530e9563ecb5/JiaFeiMiao-K-Cat/DiscImageStudio",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "74 points · 21 comments",
+          "score": 6.608,
           "coverage": 1
         },
         {
@@ -637,7 +661,35 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 2.348,
+          "score": 2.126,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Show HN: Hacker Times, a New York Times-inspired version of Hacker News",
+          "link": "https://hackertimes.ca/",
+          "excerpt": "A newspaper from Hacker News, refreshed every hour. Independent headlines, original sources.",
+          "source": "hackertimes.ca via Hacker News",
+          "date": "Nov 03",
+          "image": null,
+          "icon": "https://hackertimes.ca/favicon.svg",
+          "domain": "hackertimes.ca",
+          "hn": "81 points · 30 comments",
+          "score": 7.26,
+          "coverage": 1
+        },
+        {
+          "title": "Ask HN: Does anyone have a contact with Cleveland-area Ham club?",
+          "link": "https://news.ycombinator.com/item?id=50346164",
+          "excerpt": "92 points · 13 comments",
+          "source": "Hacker News",
+          "date": "Nov 03",
+          "image": null,
+          "icon": null,
+          "domain": "news.ycombinator.com",
+          "hn": "92 points · 13 comments",
+          "score": 3.395,
           "coverage": 1
         },
         {
@@ -649,75 +701,34 @@
           "image": "https://s.yimg.com/lo/mysterio/api/20c071d47e1d29b6bcb68516712316fd79f4afbe9817d204b091e7acdade2c1f/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F1b2b2cbf-96e4-452f-9ea7-7917f40a6da2",
           "icon": "https://s.yimg.com/cv/apiv2/default/finance/favicon-180x180.png",
           "domain": "finance.yahoo.com",
-          "hn": "67 points · 36 comments",
-          "score": 3.867,
+          "hn": "126 points · 84 comments",
+          "score": 3.822,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
-          "title": "Ask HN: Does anyone have a contact with Cleveland-area Ham club?",
-          "link": "https://news.ycombinator.com/item?id=50346164",
-          "excerpt": "22 points · 4 comments",
-          "source": "Hacker News",
-          "date": "Nov 03",
+          "title": "Scaling Git at OpenAI",
+          "link": "https://openai.com/index/scaling-git-at-openai/",
+          "excerpt": "79 points · 26 comments",
+          "source": "openai.com via Hacker News",
+          "date": "Nov 02",
           "image": null,
-          "icon": null,
-          "domain": "news.ycombinator.com",
-          "hn": "22 points · 4 comments",
-          "score": 2.906,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": "79 points · 26 comments",
+          "score": 11.782,
           "coverage": 1
         },
         {
           "title": "WorkOS reports security breach",
           "link": "https://news.ycombinator.com/item?id=50345712",
-          "excerpt": "41 points · 5 comments",
+          "excerpt": "58 points · 7 comments",
           "source": "Hacker News",
           "date": "Nov 02",
           "image": null,
           "icon": null,
           "domain": "news.ycombinator.com",
-          "hn": "41 points · 5 comments",
-          "score": 6.304,
-          "coverage": 1
-        },
-        {
-          "title": "Anthropic's growth just flattened",
-          "link": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
-          "excerpt": "Look at the monthly numbers...",
-          "source": "regenerator1.com via Hacker News",
-          "date": "Nov 02",
-          "image": "https://substackcdn.com/image/fetch/$s_!qfl2!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68ef8665-4279-4a1d-b5d6-447d33f93edd_1206x748.png",
-          "icon": "https://substackcdn.com/image/fetch/$s_!tkec!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5db19a6c-793d-4d76-94b0-4f748cf8134f%2Fapple-touch-icon-57x57.png",
-          "domain": "regenerator1.com",
-          "hn": "160 points · 187 comments",
-          "score": 4.245,
-          "coverage": 1
-        },
-        {
-          "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
-          "link": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
-          "excerpt": "If Anthropic goes public, workers, retail investors, and retirees will be left holding the bag when its bills come due, writes Matt Scherer.",
-          "source": "techpolicy.press via Hacker News",
-          "date": "Nov 02",
-          "image": "https://cdn.sanity.io/images/3tzzh18d/production/07bfadd5db5c963aa461d36b3f5bfa4a34c6f335-1200x675.png",
-          "icon": "https://cdn.sanity.io/images/3tzzh18d/production/9a2224d300c1699fc1b87235aac36318e2c76cec-867x867.png",
-          "domain": "techpolicy.press",
-          "hn": "193 points · 124 comments",
-          "score": 4.176,
-          "coverage": 1
-        },
-        {
-          "title": "SLAC researchers find proof of altermagnetism, a new magnetic phase",
-          "link": "https://www6.slac.stanford.edu/news/2026-10-29-slac-researchers-find-proof-altermagnetism-new-magnetic-phase",
-          "excerpt": "The team is the first to directly observe a unique property in an altermagnetic candidate material, key evidence of a new phase of magnetism.",
-          "source": "www6.slac.stanford.edu via Hacker News",
-          "date": "Nov 02",
-          "image": "https://www6.slac.stanford.edu/sites/default/files/styles/extra_large_card/public/2026-07/altermagnetism_la_v06.jpg?h=d14915d2&itok=ysTK99rN",
-          "icon": "https://www6.slac.stanford.edu/sites/default/files/SLAC_S_favicon_192_pixels.png",
-          "domain": "www6.slac.stanford.edu",
-          "hn": "20 points · 3 comments",
-          "score": 2.399,
+          "hn": "58 points · 7 comments",
+          "score": 5.746,
           "coverage": 1
         }
       ]
