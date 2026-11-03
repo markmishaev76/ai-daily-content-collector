@@ -1,0 +1,726 @@
+{
+  "date": "2026-11-03",
+  "lead": {
+    "title": "[Pieter Kasselman] New version available: draft-ietf-wimse-aims-01.txt [rev. 01]",
+    "link": "https://datatracker.ietf.org/doc/draft-ietf-wimse-aims/history/#history-1241580",
+    "excerpt": "New version available: <b>draft-ietf-wimse-aims-01.txt</b>",
+    "source": "IETF Datatracker",
+    "date": "Nov 02",
+    "image": null,
+    "image_credit": null,
+    "section": "Agent Identity & Authorization",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "draft-carleton-workload-authz-grant",
+      "draft-ietf-wimse-aims",
+      "Agent Identity & Authorization",
+      "7h ago"
+    ],
+    "also": []
+  },
+  "pulse": [
+    {
+      "title": "Jailbreaking my car's navigation system just so I can change the time",
+      "thread": "https://lobste.rs/s/qvdatp/jailbreaking_my_car_s_navigation_system",
+      "link": "https://blog.nns.ee/2026/11/02/renault-hack/",
+      "link_domain": "blog.nns.ee",
+      "source": "Lobsters",
+      "domain": "blog.nns.ee",
+      "meta": "Lobsters · 74 points · 3 comments · 9h ago",
+      "also": [],
+      "image": "https://blog.nns.ee/img/logo.png",
+      "icon": "https://blog.nns.ee/img/apple-touch-icon.png"
+    },
+    {
+      "title": "Supermarket freezers across Europe hit by second suspected cyber-attack",
+      "thread": "https://news.ycombinator.com/item?id=50335615",
+      "link": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
+      "link_domain": "theguardian.com",
+      "source": "Hacker News",
+      "domain": "theguardian.com",
+      "meta": "Hacker News · 370 points · 416 comments · 14h ago",
+      "also": [],
+      "image": "https://i.guim.co.uk/img/media/4b71e9b955055d1a0eb5f597da100556359fa09b/1184_0_6400_5120/master/6400.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a69f8f68954a7702d519049973a8be9f",
+      "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg"
+    },
+    {
+      "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
+      "thread": "https://news.ycombinator.com/item?id=50341462",
+      "link": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+      "link_domain": "freenode.net",
+      "source": "Hacker News",
+      "domain": "freenode.net",
+      "meta": "Hacker News · 340 points · 82 comments · 7h ago",
+      "also": [],
+      "image": "https://freenode.net/media/og-default.png",
+      "icon": "https://freenode.net/static/favicon.svg"
+    },
+    {
+      "title": "Postgres 19 is late, and it's AI's fault",
+      "thread": "https://lobste.rs/s/0yxkvs/postgres_19_is_late_it_s_ai_s_fault",
+      "link": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
+      "link_domain": "rhaas.blogspot.com",
+      "source": "Lobsters",
+      "domain": "rhaas.blogspot.com",
+      "meta": "Lobsters · 45 points · 17 comments · 23h ago",
+      "also": [],
+      "image": null,
+      "icon": null
+    },
+    {
+      "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+      "thread": "https://news.ycombinator.com/item?id=50339494",
+      "link": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+      "link_domain": "businessinsider.com",
+      "source": "Hacker News",
+      "domain": "businessinsider.com",
+      "meta": "Hacker News · 292 points · 238 comments · 9h ago",
+      "also": [],
+      "image": "https://i.insider.com/6ae5023ed8cc18cf7950fbe3?width=1200&format=jpeg",
+      "icon": "https://www.businessinsider.com/public/assets/BI/US/favicons/apple-touch-icon-180x180.png?v=2025-05"
+    },
+    {
+      "title": "Anthropic reports $17B in Q3 revenue, commitments of $895B in revised S-1",
+      "thread": "https://news.ycombinator.com/item?id=50337439",
+      "link": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+      "link_domain": "cnbc.com",
+      "source": "Hacker News",
+      "domain": "cnbc.com",
+      "meta": "Hacker News · 226 points · 264 comments · 11h ago",
+      "also": [],
+      "image": "https://image.cnbcfm.com/api/v1/image/108369526-1790698647709-gettyimages-2297195052-AFP_C9PK8G7.jpeg?v=1790698665&w=1920&h=1080",
+      "icon": "https://fm.cnbc.com/applications/cnbc.com/resources/img/CNBC_LOGO_FAVICON_1C_KO_RGB.ico"
+    },
+    {
+      "title": "Jobless tech workers are being left out of San Francisco's AI boom",
+      "thread": "https://news.ycombinator.com/item?id=50337454",
+      "link": "https://www.bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near",
+      "link_domain": "bloomberg.com",
+      "source": "Hacker News",
+      "domain": "bloomberg.com",
+      "meta": "Hacker News · 161 points · 229 comments · 11h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.bloomberg.com/favicon.ico"
+    },
+    {
+      "title": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
+      "thread": "https://news.ycombinator.com/item?id=50342284",
+      "link": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+      "link_domain": "cnbc.com",
+      "source": "Hacker News",
+      "domain": "cnbc.com",
+      "meta": "Hacker News · 158 points · 118 comments · 6h ago",
+      "also": [],
+      "image": "https://image.cnbcfm.com/api/v1/image/108468745-1793103926982-gettyimages-2234722679-_73a3321_cmlbiuj4.jpeg?v=1793642583&w=1920&h=1080",
+      "icon": "https://fm.cnbc.com/applications/cnbc.com/resources/img/CNBC_LOGO_FAVICON_1C_KO_RGB.ico"
+    },
+    {
+      "title": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
+      "thread": "https://news.ycombinator.com/item?id=50334038",
+      "link": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
+      "link_domain": "labs.cloudsecurityalliance.org",
+      "source": "Hacker News",
+      "domain": "labs.cloudsecurityalliance.org",
+      "meta": "Hacker News · 149 points · 86 comments · 18h ago",
+      "also": [],
+      "image": "https://i0.wp.com/labs.cloudsecurityalliance.org/wp-content/uploads/2025/12/cropped-logo.png?fit=512%2C512&ssl=1",
+      "icon": "https://i0.wp.com/labs.cloudsecurityalliance.org/wp-content/uploads/2025/12/cropped-logo.png?fit=180%2C180&ssl=1"
+    },
+    {
+      "title": "My reflex of assuming our servers need ever-growing amounts of RAM",
+      "thread": "https://lobste.rs/s/saskzi/my_reflex_assuming_our_servers_need_ever",
+      "link": "https://utcc.utoronto.ca/~cks/space/blog/sysadmin/ServerRAMGrowthReflex",
+      "link_domain": "utcc.utoronto.ca",
+      "source": "Lobsters",
+      "domain": "utcc.utoronto.ca",
+      "meta": "Lobsters · 22 points · 9 comments · 15h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://utcc.utoronto.ca/favicon.ico"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI-Assisted Engineering",
+      "cards": [
+        {
+          "title": "llm 0.37",
+          "link": "https://simonwillison.net/2026/Nov/2/llm/",
+          "excerpt": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added gpt-6.1-sol and gpt-6.1-terra, plus a new llm openai endpoint add command to make it easier to configure additional models…",
+          "source": "Simon Willison",
+          "date": "Nov 02",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 1.261,
+          "coverage": 1
+        },
+        {
+          "title": "The latest AI news we announced in October 2026",
+          "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+          "excerpt": "Animated carousel of images from AI posts in October",
+          "source": "Google AI",
+          "date": "Nov 02",
+          "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Oct_AI_Recap_social.max-600x600.format-webp.webp",
+          "icon": null,
+          "domain": "blog.google",
+          "hn": null,
+          "score": 0.885,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "AI Agents & Agent Security",
+      "cards": [
+        {
+          "title": "Last night an AI agent performed brain surgery on a mouse",
+          "link": "https://twitter.com/OcanaSantero/status/2115442964574908902",
+          "excerpt": "Last night an AI agent performed brain surgery on a mouse. We gave it 19 gene therapy vectors in a spreadsheet, a mouse model of epilepsy, access to a motorize surgery rig with cameras and one goal: reduce seizures. It picked the drug. It picked the brain region. It derived the coordinates from t…",
+          "source": "twitter.com via Hacker News",
+          "date": "Nov 02",
+          "image": "https://pbs.twimg.com/media/HVtOKh7aIAAFGeA?format=webp&name=large",
+          "icon": "https://x.com/apple-touch-icon.png",
+          "domain": "twitter.com",
+          "hn": "122 points · 100 comments",
+          "score": 7.264,
+          "coverage": 1
+        },
+        {
+          "title": "Building AI for Lawyers - Jacob Lauritzen, CTO of Legora",
+          "link": "https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora/",
+          "excerpt": "Evals without traces, million-cell tabular reviews, and cracks in the billable hour as a business model",
+          "source": "Latent Space",
+          "date": "Nov 02",
+          "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/4df2c736-d45f-4b0a-9748-cba4ed1d6f72/legora-thumbnail.png?t=1793660014",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null,
+          "score": 0.995,
+          "coverage": 1
+        },
+        {
+          "title": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
+          "link": "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/",
+          "excerpt": "Legora can’t read a single trace of what its agent does for a lawyer. The data belongs to the law firm’s clients. How do you build and test an agent when you can’t see its work? Jacob Lauritzen is the CTO of Legora, one of the fastest-growing companies...",
+          "source": "Latent Space",
+          "date": "Nov 02",
+          "image": "https://i.ytimg.com/vi/bJBEFzlKPoQ/maxresdefault.jpg",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null,
+          "score": 0.995,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Qodo builds context into AI code review with Codex",
+          "link": "https://openai.com/index/qodo-codex-plugin",
+          "excerpt": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+          "source": "OpenAI News",
+          "date": "Nov 02",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 3.255,
+          "coverage": 1
+        },
+        {
+          "title": "Scaling Git at OpenAI",
+          "link": "https://openai.com/index/scaling-git-at-openai",
+          "excerpt": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+          "source": "OpenAI News",
+          "date": "Nov 02",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 3.46,
+          "coverage": 1
+        },
+        {
+          "title": "LifeVal",
+          "link": "https://openai.com/index/lifeval",
+          "excerpt": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+          "source": "OpenAI News",
+          "date": "Nov 02",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.644,
+          "coverage": 1
+        },
+        {
+          "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+          "link": "https://openai.com/index/dan-driscoll-joins-openai",
+          "excerpt": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+          "source": "OpenAI News",
+          "date": "Nov 02",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.492,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Agent Identity & Authorization",
+      "cards": [
+        {
+          "title": "Build an AI Wellbeing App with Fireworks and Fitbit via Auth0 Token Vault.",
+          "link": "https://auth0.com/blog/build-an-ai-wellbeing-app-with-fireworks-fitbit-via-auth0-token-vault/",
+          "excerpt": "Build Daily Wellbeing, a Next.js app that connects Fitbit through Auth0 Token Vault, compares your daily activity and sleep with your averages, and uses Fireworks to suggest what to try today.",
+          "source": "Auth0 Blog",
+          "date": "Nov 02",
+          "image": "https://images.ctfassets.net/23aumh6u8s0i/4oDCp1Lnc64BDzrsGwPXcQ/88b71a3aea7b61b2bbc10a5f363c04d4/Auth0xFireworks.png",
+          "icon": null,
+          "domain": "auth0.com",
+          "hn": null,
+          "score": 4.249,
+          "coverage": 1
+        },
+        {
+          "title": "[Paul Carleton] New version available: draft-carleton-workload-authz-grant-02.txt [rev. 02]",
+          "link": "https://datatracker.ietf.org/doc/draft-carleton-workload-authz-grant/history/#history-1241656",
+          "excerpt": "New version available: <b>draft-carleton-workload-authz-grant-02.txt</b>",
+          "source": "IETF Datatracker",
+          "date": "Nov 02",
+          "image": null,
+          "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
+          "domain": "datatracker.ietf.org",
+          "hn": null,
+          "score": 9.352,
+          "coverage": 1
+        },
+        {
+          "title": "[(System)] New version approved [rev. 02]",
+          "link": "https://datatracker.ietf.org/doc/draft-carleton-workload-authz-grant/history/#history-1241655",
+          "excerpt": "New version approved",
+          "source": "IETF Datatracker",
+          "date": "Nov 02",
+          "image": null,
+          "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
+          "domain": "datatracker.ietf.org",
+          "hn": null,
+          "score": 9.352,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "[(System)] Request for posting confirmation emailed to previous authors: Aaron Parecki , Arndt Schwenkschuster , Brian … [rev. 02]",
+          "link": "https://datatracker.ietf.org/doc/draft-carleton-workload-authz-grant/history/#history-1241639",
+          "excerpt": "Request for posting confirmation emailed to previous authors: Aaron Parecki &lt;aaron@parecki.com&gt;, Arndt Schwenkschuster &lt;arndts.ietf@gmail.com&gt;, Brian Campbell &lt;bcampbell@pingidentity.com&gt;, Nick Steele &lt;steele@openai.com&gt;, …",
+          "source": "IETF Datatracker",
+          "date": "Nov 02",
+          "image": null,
+          "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
+          "domain": "datatracker.ietf.org",
+          "hn": null,
+          "score": 0.617,
+          "coverage": 1
+        },
+        {
+          "title": "[Paul Carleton] Uploaded new revision [rev. 02]",
+          "link": "https://datatracker.ietf.org/doc/draft-carleton-workload-authz-grant/history/#history-1241638",
+          "excerpt": "Uploaded new revision",
+          "source": "IETF Datatracker",
+          "date": "Nov 02",
+          "image": null,
+          "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
+          "domain": "datatracker.ietf.org",
+          "hn": null,
+          "score": 9.352,
+          "coverage": 1
+        },
+        {
+          "title": "[(System)] New version approved [rev. 01]",
+          "link": "https://datatracker.ietf.org/doc/draft-ietf-wimse-aims/history/#history-1241579",
+          "excerpt": "New version approved",
+          "source": "IETF Datatracker",
+          "date": "Nov 02",
+          "image": null,
+          "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
+          "domain": "datatracker.ietf.org",
+          "hn": null,
+          "score": 9.352,
+          "coverage": 1
+        },
+        {
+          "title": "[(System)] Request for posting confirmation emailed to previous authors: Aaron Parecki , Brian Campbell , Jeff … [rev. 01]",
+          "link": "https://datatracker.ietf.org/doc/draft-ietf-wimse-aims/history/#history-1241578",
+          "excerpt": "Request for posting confirmation emailed to previous authors: Aaron Parecki &lt;aaron@parecki.com&gt;, Brian Campbell &lt;bcampbell@pingidentity.com&gt;, Jeff Lombardo &lt;jeffsec@amazon.com&gt;, Nick Steele &lt;steele@openai.com&gt;, …",
+          "source": "IETF Datatracker",
+          "date": "Nov 02",
+          "image": null,
+          "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
+          "domain": "datatracker.ietf.org",
+          "hn": null,
+          "score": 0.617,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Supply Chain & Builds",
+      "cards": [
+        {
+          "title": "Building Guarded Entrypoint for Chainguard Containers",
+          "link": "https://www.chainguard.dev/unchained/building-guarded-entrypoint-for-chainguard-containers",
+          "excerpt": "Configure container startup logic without rebuilding images. See how Chainguard Guarded Entrypoint keeps your containers secure and verifiable.",
+          "source": "Chainguard: Unchained",
+          "date": "Nov 02",
+          "image": "https://images.ctfassets.net/l47ir7rfykkn/dIgD5IKWIPDGBXSVRf7iC/e4be1c0ffa021c16b57ee2ce5ce7ebb8/Building_Guarded_Entrypoint_image.png",
+          "icon": "https://www.chainguard.dev/favicon.ico",
+          "domain": "chainguard.dev",
+          "hn": null,
+          "score": 0.315,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
+          "link": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
+          "excerpt": "Some attacks this week didn't need much of a trick. A fake support call, a trusted extension, a shared link, or a device with no password. Small things that people barely think about. Yet each was enough to cause serious trouble. Then there were the bigger messes. Billions stolen, hidden networks…",
+          "source": "The Hacker News",
+          "date": "Nov 02",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj03NmPVHpoxRjXKDh7s6v2Dav4D-MCSLBTLalEb9ScH_lLc4yQJWOW8QfTIBePp7Pcgo1qrq6MYuQvNeyb0LCvWO4E4e7BLQKEj-g3Z2LImj4CXV-UUGfVd-vVL0NGtxMMn50klhOLlyI3p6DXhIFf-LkMsST7LK4kh3gIjqlvBwOUgbKTq8-hRdvmfz46/s1600/rcap.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.341,
+          "coverage": 1
+        },
+        {
+          "title": "Cybersecurity M&A Roundup: 37 Deals Announced in October 2026",
+          "link": "https://www.securityweek.com/cybersecurity-ma-roundup-37-deals-announced-in-october-2026/",
+          "excerpt": "Significant cybersecurity deals were announced by Absolute Security, Aikido, Anthropic, Cohere, Hex-Rays, and Proofpoint. The post Cybersecurity M&A Roundup: 37 Deals Announced in October 2026 appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 02",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/02/MA-mergers-and-acquisitions.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.312,
+          "coverage": 1
+        },
+        {
+          "title": "Florida Student Aid Website Hack Puts Data of 4.9 Million People at Risk",
+          "link": "https://www.securityweek.com/florida-student-aid-website-hack-puts-data-of-4-9-million-people-at-risk/",
+          "excerpt": "The Florida Department of Education says SSNs and other personal data may have been exposed in a breach of its financial aid website. The post Florida Student Aid Website Hack Puts Data of 4.9 Million People at Risk appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 02",
+          "image": "https://www.securityweek.com/wp-content/uploads/2025/03/school-education.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.308,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Revolve Data Breach Impacts at Least 180,000 People",
+          "link": "https://www.securityweek.com/revolve-data-breach-impacts-at-least-180000-people/",
+          "excerpt": "Hackers accessed its online shopping platform and stole customers’ personal and payment card information. The post Revolve Data Breach Impacts at Least 180,000 People appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 02",
+          "image": "https://www.securityweek.com/wp-content/uploads/2025/02/data_breach.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 2.056,
+          "coverage": 1
+        },
+        {
+          "title": "Google Introduces $250,000 Root-in-Cloud Bug Bounty Reward",
+          "link": "https://www.securityweek.com/google-introduces-250000-root-in-cloud-bug-bounty-reward/",
+          "excerpt": "The top payout is for high-impact architectural research demonstrating full administrative control. The post Google Introduces $250,000 Root-in-Cloud Bug Bounty Reward appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 02",
+          "image": "https://www.securityweek.com/wp-content/uploads/2024/07/Google.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.292,
+          "coverage": 1
+        },
+        {
+          "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
+          "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
+          "excerpt": "Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framework, in attacks against more than 200 organizations across 14 countries. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 02",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/02/pandabot.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.438,
+          "coverage": 1
+        },
+        {
+          "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
+          "link": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
+          "excerpt": "Financial technology company Abrigo has restored its Sageworks risk management application, except for borrower-facing capabilities, following an outage triggered by \"irregular activity\" in its environment. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 02",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/02/abrigo.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.377,
+          "coverage": 1
+        },
+        {
+          "title": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker",
+          "link": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+          "excerpt": "Google and industry partners have dismantled the XCPE malware botnet consisting of more than 1.3 million Android TV streaming TV boxes that Google says its manufacturer intentionally infected with malware to generate revenue through cybercrime activities. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 02",
+          "image": "https://www.bleepstatic.com/content/hl-images/2024/09/12/android-tv-malware.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 3.71,
+          "coverage": 3
+        }
+      ]
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "What Google Cloud announced in AI this month",
+          "link": "https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month/",
+          "excerpt": "Editor’s note: Want to keep up with the latest from Google Cloud? Check back here for a monthly recap of our latest updates, announcements, resources, events, learning opportunities, and more. This October, we took massive leaps forward in delivering flexible, open, and powerful enterprise AI…",
+          "source": "Cloud Blog",
+          "date": "Nov 02",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/AI_this_month.max-600x600.jpg",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 4.364,
+          "coverage": 1
+        },
+        {
+          "title": "Google Cloud Developer plugin now available in Antigravity Marketplace",
+          "link": "https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-developer-plugin-now-available-in-antigravity-marketplace/",
+          "excerpt": "Building cloud solutions with autonomous AI agents should feel fast, safe, and reliable. Without cloud-specific context, coding agents often struggle. They might invent deprecated SDK syntax, guess invalid command flags, or attempt operations without the required Identity and Access Management…",
+          "source": "Cloud Blog",
+          "date": "Nov 02",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/google-cloud-developer-plugin-now-available-.max-600x600.jpg",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 4.252,
+          "coverage": 1
+        },
+        {
+          "title": "10 questions to ask any software vendor about sovereignty",
+          "link": "https://about.gitlab.com/blog/10-questions-to-ask-any-software-vendor-about-sovereignty/",
+          "excerpt": "Sovereignty is moving from buzzword to buying criterion. The European Commission’s proposed Cloud and AI Development Act (CADA) would set assurance levels for the cloud and AI services public authorities buy, defining where data should live and who can access it. Parts of it could reach private…",
+          "source": "GitLab",
+          "date": "Nov 02",
+          "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1785336708/ww4mlighwlvvzgnmbe6w.png",
+          "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
+          "domain": "about.gitlab.com",
+          "hn": null,
+          "score": 1.476,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Beyond Migration: Using Database Migration Service for disk shrinking",
+          "link": "https://cloud.google.com/blog/products/databases/use-dms-to-shrink-cloud-sql-for-sql-server-disk/",
+          "excerpt": "When database engineers hear “database migration\", they typically think of a one-time onboarding pathway—moving databases from on-premises environments to the cloud, or between different cloud providers. However, Google Cloud's Database Migration Service (DMS) supports Cloud SQL for SQL Server as…",
+          "source": "Cloud Blog",
+          "date": "Nov 02",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1_oV7twdV.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 0.427,
+          "coverage": 1
+        },
+        {
+          "title": "Beyond DKIM key rotation: understanding email replay attacks",
+          "link": "https://aws.amazon.com/blogs/security/beyond-dkim-key-rotation-understanding-email-replay-attacks/",
+          "excerpt": "As the email administrator for your organization’s domain, you receive a Domain-based Message Authentication, Reporting, and Conformance (DMARC) aggregate report showing email passing DomainKeys Identified Mail (DKIM) verification as though it came from your domain, sent from IP addresses you…",
+          "source": "AWS Security Blog",
+          "date": "Nov 02",
+          "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/10/06/Michael-Araba.jpg",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 0.563,
+          "coverage": 1
+        },
+        {
+          "title": "How to run a DR readiness engagement",
+          "link": "https://aws.amazon.com/blogs/architecture/how-to-run-a-dr-readiness-engagement/",
+          "excerpt": "This final post turns the DR framework into a repeatable engagement: a five-step sequence from kickoff and gap assessment through progressive validation to an updated recovery commitment, with a real before-and-after example and ways to compress the timeline from months to weeks. Part 3 of a…",
+          "source": "AWS Architecture Blog",
+          "date": "Nov 02",
+          "image": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/29/ARCHBLOG-1634-p3-1-1.jpg",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 0.436,
+          "coverage": 1
+        },
+        {
+          "title": "Validating your DR commitment: From controlled test to real-world readiness",
+          "link": "https://aws.amazon.com/blogs/architecture/validating-your-dr-commitment-from-controlled-test-to-real-world-readiness/",
+          "excerpt": "After you define your DR targets, testing tells you whether they hold. This post walks through a four-level progressive validation model (tabletop, planned failover, surprise drill, and game day) and shows how each level surfaces a different class of recovery gap that feeds back into your…",
+          "source": "AWS Architecture Blog",
+          "date": "Nov 02",
+          "image": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/29/ARCHBLOG-1634-p2-1-1.jpg",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 0.436,
+          "coverage": 1
+        },
+        {
+          "title": "Three business decisions that define your DR success",
+          "link": "https://aws.amazon.com/blogs/architecture/three-business-decisions-that-define-your-dr-success/",
+          "excerpt": "A disaster recovery strategy is only as strong as the business decisions behind it. Before you choose an architecture pattern, three decisions shape whether recovery succeeds: what you're actually recovering, what the business needs from that recovery, and what your dependencies allow you to…",
+          "source": "AWS Architecture Blog",
+          "date": "Nov 02",
+          "image": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/29/ARCHBLOG-1634-p1-1.jpg",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 0.436,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+          "link": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+          "excerpt": "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion.",
+          "source": "TechCrunch",
+          "date": "Nov 03",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/03/garry-tan-sxsw-getty.jpg?resize=1200,801",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
+          "hn": null,
+          "score": 5.6,
+          "coverage": 1
+        },
+        {
+          "title": "Anthropic clamps down on Claude’s AI video game clones",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+          "excerpt": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use…",
+          "source": "The Verge",
+          "date": "Nov 02",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "icon": null,
+          "domain": "theverge.com",
+          "hn": null,
+          "score": 2.348,
+          "coverage": 1
+        },
+        {
+          "title": "Intel stock collapse worsens as $3.5T chip rout spreads",
+          "link": "https://finance.yahoo.com/markets/article/the-intel-stock-collapse-is-getting-worse--and-the-37-trillion-chip-rout-is-spreading-212154947.html",
+          "excerpt": "Intel's slide spread through memory and storage stocks Monday as most of Wall Street moved on from last week's tech sell-off.",
+          "source": "finance.yahoo.com via Hacker News",
+          "date": "Nov 03",
+          "image": "https://s.yimg.com/lo/mysterio/api/20c071d47e1d29b6bcb68516712316fd79f4afbe9817d204b091e7acdade2c1f/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F1b2b2cbf-96e4-452f-9ea7-7917f40a6da2",
+          "icon": "https://s.yimg.com/cv/apiv2/default/finance/favicon-180x180.png",
+          "domain": "finance.yahoo.com",
+          "hn": "67 points · 36 comments",
+          "score": 3.867,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Ask HN: Does anyone have a contact with Cleveland-area Ham club?",
+          "link": "https://news.ycombinator.com/item?id=50346164",
+          "excerpt": "22 points · 4 comments",
+          "source": "Hacker News",
+          "date": "Nov 03",
+          "image": null,
+          "icon": null,
+          "domain": "news.ycombinator.com",
+          "hn": "22 points · 4 comments",
+          "score": 2.906,
+          "coverage": 1
+        },
+        {
+          "title": "WorkOS reports security breach",
+          "link": "https://news.ycombinator.com/item?id=50345712",
+          "excerpt": "41 points · 5 comments",
+          "source": "Hacker News",
+          "date": "Nov 02",
+          "image": null,
+          "icon": null,
+          "domain": "news.ycombinator.com",
+          "hn": "41 points · 5 comments",
+          "score": 6.304,
+          "coverage": 1
+        },
+        {
+          "title": "Anthropic's growth just flattened",
+          "link": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
+          "excerpt": "Look at the monthly numbers...",
+          "source": "regenerator1.com via Hacker News",
+          "date": "Nov 02",
+          "image": "https://substackcdn.com/image/fetch/$s_!qfl2!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68ef8665-4279-4a1d-b5d6-447d33f93edd_1206x748.png",
+          "icon": "https://substackcdn.com/image/fetch/$s_!tkec!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5db19a6c-793d-4d76-94b0-4f748cf8134f%2Fapple-touch-icon-57x57.png",
+          "domain": "regenerator1.com",
+          "hn": "160 points · 187 comments",
+          "score": 4.245,
+          "coverage": 1
+        },
+        {
+          "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+          "link": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+          "excerpt": "If Anthropic goes public, workers, retail investors, and retirees will be left holding the bag when its bills come due, writes Matt Scherer.",
+          "source": "techpolicy.press via Hacker News",
+          "date": "Nov 02",
+          "image": "https://cdn.sanity.io/images/3tzzh18d/production/07bfadd5db5c963aa461d36b3f5bfa4a34c6f335-1200x675.png",
+          "icon": "https://cdn.sanity.io/images/3tzzh18d/production/9a2224d300c1699fc1b87235aac36318e2c76cec-867x867.png",
+          "domain": "techpolicy.press",
+          "hn": "193 points · 124 comments",
+          "score": 4.176,
+          "coverage": 1
+        },
+        {
+          "title": "SLAC researchers find proof of altermagnetism, a new magnetic phase",
+          "link": "https://www6.slac.stanford.edu/news/2026-10-29-slac-researchers-find-proof-altermagnetism-new-magnetic-phase",
+          "excerpt": "The team is the first to directly observe a unique property in an altermagnetic candidate material, key evidence of a new phase of magnetism.",
+          "source": "www6.slac.stanford.edu via Hacker News",
+          "date": "Nov 02",
+          "image": "https://www6.slac.stanford.edu/sites/default/files/styles/extra_large_card/public/2026-07/altermagnetism_la_v06.jpg?h=d14915d2&itok=ysTK99rN",
+          "icon": "https://www6.slac.stanford.edu/sites/default/files/SLAC_S_favicon_192_pixels.png",
+          "domain": "www6.slac.stanford.edu",
+          "hn": "20 points · 3 comments",
+          "score": 2.399,
+          "coverage": 1
+        }
+      ]
+    }
+  ]
+}
