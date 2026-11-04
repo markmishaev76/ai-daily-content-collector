@@ -1,19 +1,19 @@
 {
   "date": "2026-11-04",
   "lead": {
-    "title": "Show HN: An MCP Server for Manpages",
-    "link": "https://www.chainguard.dev/unchained/every-manual-page-in-chainguard-os-now-readable-by-your-agent",
-    "excerpt": "AI coding agents need accurate documentation. See how Chainguard makes Linux manual pages searchable, version-specific, and accessible through MCP.",
-    "source": "chainguard.dev via Hacker News",
-    "date": "Nov 03",
-    "image": "https://images.ctfassets.net/l47ir7rfykkn/1fqlfI0OllKxt0jJpZPReP/c8a305d367b6512b17205c2f4ab2e135/Every_manual_page_in_Chainguard_OS__now_readable_by_your_agent.png",
+    "title": "Docker Urges Isolation and Governance for AI Agent Security",
+    "link": "https://www.infoq.com/news/2026/11/docker-ai-agent-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "excerpt": "Docker has published a guide to five security risks that arise when AI agents are allowed to browse, run code and call tools with limited human oversight. They argue that the autonomy that makes agents useful also makes conventional application security controls insufficient. The company positions…",
+    "source": "InfoQ",
+    "date": "Nov 04",
+    "image": "https://res.infoq.com/news/2026/11/docker-ai-agent-security/en/headerimage/generatedHeaderImage-1793733720293.jpg",
     "image_credit": null,
-    "section": "AI Agents & Agent Security",
+    "section": "Platform, Cloud & Reliability",
     "pinned": false,
     "note": null,
     "labels": [
-      "AI Agents & Agent Security",
-      "8h ago"
+      "Platform, Cloud & Reliability",
+      "under 1h ago"
     ],
     "also": []
   },
@@ -25,7 +25,7 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 1.2k points · 378 comments · 12h ago",
+      "meta": "Hacker News · 1.3k points · 415 comments · 15h ago",
       "also": [],
       "image": "https://opengraph.githubassets.com/34bafa214176245a7aed2cca85da459d50b384e27aecc138da1c372cf988d83d/postmanlabs/postman-app-support/issues/14370",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
@@ -37,7 +37,7 @@
       "link_domain": "nytimes.com",
       "source": "Hacker News",
       "domain": "nytimes.com",
-      "meta": "Hacker News · 591 points · 422 comments · 14h ago",
+      "meta": "Hacker News · 613 points · 431 comments · 17h ago",
       "also": [],
       "image": null,
       "icon": "https://www.nytimes.com/favicon.ico"
@@ -49,7 +49,7 @@
       "link_domain": "",
       "source": "Hacker News",
       "domain": "Hacker News",
-      "meta": "Hacker News · 462 points · 144 comments · 15h ago",
+      "meta": "Hacker News · 476 points · 144 comments · 18h ago",
       "also": [],
       "image": null,
       "icon": null
@@ -61,7 +61,7 @@
       "link_domain": "asia.nikkei.com",
       "source": "Hacker News",
       "domain": "asia.nikkei.com",
-      "meta": "Hacker News · 321 points · 140 comments · 8h ago",
+      "meta": "Hacker News · 349 points · 144 comments · 11h ago",
       "also": [],
       "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F1%2F3%2F4%2F13394319-2-eng-GB%2Faad3b104a912-photo_SXM2026103100004660.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
       "icon": "https://asia.nikkei.com/images/frontend/favicons/144x144.png"
@@ -73,7 +73,7 @@
       "link_domain": "arxiv.org",
       "source": "Hacker News",
       "domain": "arxiv.org",
-      "meta": "Hacker News · 293 points · 49 comments · 8h ago",
+      "meta": "Hacker News · 334 points · 51 comments · 11h ago",
       "also": [],
       "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png"
@@ -85,7 +85,7 @@
       "link_domain": "pavursec.com",
       "source": "Lobsters",
       "domain": "pavursec.com",
-      "meta": "Lobsters · 26 points · 0 comments · 6h ago",
+      "meta": "Lobsters · 40 points · 0 comments · 9h ago",
       "also": [],
       "image": "https://pavursec.com/media/logo.svg",
       "icon": "https://pavursec.com/media/icon_hu9a38971af2c2beba5807cd7db08d44b5_22339_180x180_fill_lanczos_center_3.png"
@@ -97,22 +97,10 @@
       "link_domain": "shkspr.mobi",
       "source": "Hacker News",
       "domain": "shkspr.mobi",
-      "meta": "Hacker News · 173 points · 107 comments · 15h ago",
+      "meta": "Hacker News · 173 points · 108 comments · 19h ago",
       "also": [],
       "image": "https://shkspr.mobi/blog/wp-content/uploads/2017/11/Confused-Robot.jpg",
       "icon": "https://shkspr.mobi/blog/wp-content/uploads/2023/07/cropped-avatar-180x180.jpeg"
-    },
-    {
-      "title": "Gitbook Breached",
-      "thread": "https://news.ycombinator.com/item?id=50354336",
-      "link": null,
-      "link_domain": "",
-      "source": "Hacker News",
-      "domain": "Hacker News",
-      "meta": "Hacker News · 150 points · 36 comments · 13h ago",
-      "also": [],
-      "image": null,
-      "icon": null
     },
     {
       "title": "How I use AI (Oct 2026)",
@@ -121,10 +109,22 @@
       "link_domain": "ben.stolovitz.com",
       "source": "Hacker News",
       "domain": "ben.stolovitz.com",
-      "meta": "Hacker News · 124 points · 108 comments · 11h ago",
+      "meta": "Hacker News · 168 points · 154 comments · 15h ago",
       "also": [],
       "image": "https://ben.stolovitz.com/_astro/og.jsHy_xv-_2lnd7v.png",
       "icon": "https://ben.stolovitz.com/_astro/apple-touch-icon.CBaaKE1V.png"
+    },
+    {
+      "title": "Gitbook Breached",
+      "thread": "https://news.ycombinator.com/item?id=50354336",
+      "link": null,
+      "link_domain": "",
+      "source": "Hacker News",
+      "domain": "Hacker News",
+      "meta": "Hacker News · 155 points · 36 comments · 16h ago",
+      "also": [],
+      "image": null,
+      "icon": null
     },
     {
       "title": "AI is destroying my CS degree",
@@ -133,7 +133,7 @@
       "link_domain": "lordtoots.bearblog.dev",
       "source": "Hacker News",
       "domain": "lordtoots.bearblog.dev",
-      "meta": "Hacker News · 121 points · 112 comments · 14h ago",
+      "meta": "Hacker News · 123 points · 115 comments · 17h ago",
       "also": [],
       "image": "https://bearblog.dev/static/og-image.png",
       "icon": "https://lordtoots.bearblog.dev/favicon.ico"
@@ -153,7 +153,20 @@
           "icon": null,
           "domain": "newsletter.pragmaticengineer.com",
           "hn": null,
-          "score": 0.716,
+          "score": 0.636,
+          "coverage": 1
+        },
+        {
+          "title": "Agile matters more in the AI era",
+          "link": "https://leaddev.com/ai/agile-matters-more-in-the-ai-era?utm_source=leaddev&utm_medium=RSS",
+          "excerpt": "The Agile Manifesto was never about code. The post Agile matters more in the AI era appeared first on LeadDev.",
+          "source": "LeadDev",
+          "date": "Nov 04",
+          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2025/10/circus-04-3.png",
+          "icon": null,
+          "domain": "leaddev.com",
+          "hn": null,
+          "score": 1.401,
           "coverage": 1
         },
         {
@@ -166,20 +179,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.724,
-          "coverage": 1
-        },
-        {
-          "title": "Palette: teaching a small model to build decks in your design language",
-          "link": "https://huggingface.co/blog/ibm-research/palette-deck-building",
-          "excerpt": "A Blog post by IBM Research on Hugging Face",
-          "source": "Hugging Face",
-          "date": "Nov 03",
-          "image": "https://cdn-uploads.huggingface.co/production/uploads/63890e3843d8b0797a0ad606/5pHD09UHuAK-6OyKGKimD.png",
-          "icon": "https://huggingface.co/favicon.ico",
-          "domain": "huggingface.co",
-          "hn": null,
-          "score": 0.706,
+          "score": 0.643,
           "coverage": 1
         }
       ],
@@ -194,7 +194,20 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.703,
+          "score": 0.626,
+          "coverage": 1
+        },
+        {
+          "title": "Palette: teaching a small model to build decks in your design language",
+          "link": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+          "excerpt": "A Blog post by IBM Research on Hugging Face",
+          "source": "Hugging Face",
+          "date": "Nov 03",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/63890e3843d8b0797a0ad606/5pHD09UHuAK-6OyKGKimD.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null,
+          "score": 0.628,
           "coverage": 1
         },
         {
@@ -207,7 +220,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.428,
+          "score": 0.398,
           "coverage": 1
         }
       ]
@@ -225,7 +238,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 2.597,
+          "score": 2.351,
           "coverage": 1
         },
         {
@@ -238,20 +251,20 @@
           "icon": "https://www.daytona.io/apple-touch-icon.png",
           "domain": "daytona.io",
           "hn": null,
-          "score": 0.356,
+          "score": 0.331,
           "coverage": 1
         },
         {
-          "title": "Google will cut off search access for students at schools that reject AI",
-          "link": "https://apnews.com/article/ai-schools-classroom-students-google-7ba4219e505db1c11d672f6eefe7155a",
-          "excerpt": "14 points · 2 comments",
-          "source": "apnews.com via Hacker News",
+          "title": "Kitty 0.50",
+          "link": "https://sw.kovidgoyal.net/kitty/changelog/#",
+          "excerpt": "kitty is a feature-rich, cross-platform, fast, GPU based terminal. To update kitty, follow the instructions. Recent major new features: Docked windows [0.50]: kitty windows can now be docked to an ...",
+          "source": "sw.kovidgoyal.net via Hacker News",
           "date": "Nov 04",
-          "image": null,
-          "icon": "https://apnews.com/favicon.ico",
-          "domain": "apnews.com",
-          "hn": "14 points · 2 comments",
-          "score": 4.452,
+          "image": "https://sw.kovidgoyal.net/kitty/_images/social_previews/summary_changelog_3a0c7623.png",
+          "icon": "https://sw.kovidgoyal.net/kitty/_static/kitty.svg",
+          "domain": "sw.kovidgoyal.net",
+          "hn": "23 points · 6 comments",
+          "score": 5.628,
           "coverage": 1
         }
       ],
@@ -266,7 +279,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.55,
+          "score": 0.503,
           "coverage": 1
         },
         {
@@ -279,7 +292,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.445,
+          "score": 0.414,
           "coverage": 1
         },
         {
@@ -292,7 +305,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.499,
+          "score": 0.451,
           "coverage": 1
         }
       ]
@@ -310,7 +323,7 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.578,
+          "score": 0.516,
           "coverage": 1
         },
         {
@@ -323,7 +336,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.356,
+          "score": 0.331,
           "coverage": 1
         },
         {
@@ -336,7 +349,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.356,
+          "score": 0.331,
           "coverage": 1
         }
       ],
@@ -355,7 +368,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 2.573,
+          "score": 2.307,
           "coverage": 1
         },
         {
@@ -368,7 +381,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 1.609,
+          "score": 1.496,
           "coverage": 1
         },
         {
@@ -381,7 +394,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 1.609,
+          "score": 1.496,
           "coverage": 1
         }
       ],
@@ -396,59 +409,59 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 1.425,
+          "score": 1.326,
           "coverage": 1
         },
         {
-          "title": "Let your customer's IT admin manage team members inside your app",
-          "link": "https://workos.com/blog/users-management-widget-customer-admins",
-          "excerpt": "Drop the WorkOS UsersManagement widget into your B2B app so your customers' own IT admins can invite members, remove them, and change roles without a ticket.",
+          "title": "IdP-initiated SSO: How to turn a dashboard tile click into a normal sign-in",
+          "link": "https://workos.com/blog/idp-initiated-sso-sign-in-endpoint",
+          "excerpt": "Configure a sign-in endpoint and WorkOS turns an identity provider tile click into a normal SP-initiated sign-in, handing your app the connection_id it needs.",
           "source": "WorkOS Blog",
-          "date": "Nov 03",
-          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9f2d57974c1a33199e505_users-management-widget-customer-admins-og.webp",
+          "date": "Nov 04",
+          "image": "https://images.workoscdn.com/images/8c5bcb16-5f36-499b-8f49-02b4eb388548.png?auto=format&fit=clip&q=80",
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.381,
+          "score": 0.452,
           "coverage": 1
         },
         {
-          "title": "One customer needs a role nobody else has: organization-scoped custom roles",
-          "link": "https://workos.com/blog/organization-scoped-custom-roles",
-          "excerpt": "Environment roles apply to every organization. A custom role belongs to one, so you can give a customer the role they asked for without touching the rest.",
+          "title": "How to set up AD FS SAML SSO: Relying party trust, claims rules and metadata",
+          "link": "https://workos.com/blog/adfs-saml-sso-setup",
+          "excerpt": "A step-by-step walkthrough of the AD FS console work behind a SAML SSO connection, plus the claims and metadata details that cause failed sign-ins later.",
           "source": "WorkOS Blog",
-          "date": "Nov 03",
-          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9f2c8eeef851541e6f836_organization-scoped-custom-roles-og.webp",
+          "date": "Nov 04",
+          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9f30176e901acc40ebd4a_adfs-saml-sso-setup-og.webp",
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.35,
+          "score": 0.452,
           "coverage": 1
         },
         {
-          "title": "Password spraying: The low-and-slow attack that per-account lockouts miss",
-          "link": "https://workos.com/blog/password-spraying-attack-detection",
-          "excerpt": "Password spraying tries a few common passwords across many accounts, slipping under per-account lockouts. The signals it leaves and what stops it.",
+          "title": "SSO just-in-time provisioning: How to match a login to an existing user safely",
+          "link": "https://workos.com/blog/sso-jit-provisioning-account-matching",
+          "excerpt": "Just-in-time provisioning is a resolution order in your SSO callback. Here is the order, the condition that makes the email match safe, and what to store.",
           "source": "WorkOS Blog",
-          "date": "Nov 03",
-          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9ebd28e73b339403ae04d_password-spraying-attack-detection-og.webp",
+          "date": "Nov 04",
+          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9f2f17fee77bc69bfbe5b_sso-jit-provisioning-account-matching-og.webp",
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.344,
+          "score": 0.452,
           "coverage": 1
         },
         {
-          "title": "Security questions are dead: What NIST 800-63B-4 allows instead",
-          "link": "https://workos.com/blog/security-questions-nist-800-63b-4-account-recovery",
-          "excerpt": "NIST no longer accepts security questions for account recovery. The four methods SP 800-63B-4 recognizes, and how to migrate your product onto them.",
+          "title": "GitHub App installation tokens are now 520 characters: What to check before November 30",
+          "link": "https://workos.com/blog/github-app-installation-token-format-change",
+          "excerpt": "GitHub App installation tokens are now about 520 characters instead of 40. What to audit before the override header is deprecated on November 30, 2026.",
           "source": "WorkOS Blog",
-          "date": "Nov 03",
-          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9eb9f171ac3e95f93b2ee_security-questions-nist-800-63b-4-account-recovery-og.webp",
+          "date": "Nov 04",
+          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6aea10af7192b41670f10da3_github-app-installation-token-format-change-og.webp",
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.344,
+          "score": 0.452,
           "coverage": 1
         }
       ]
@@ -466,7 +479,7 @@
           "icon": "https://www.hashicorp.com/favicon.ico",
           "domain": "hashicorp.com",
           "hn": null,
-          "score": 2.481,
+          "score": 2.271,
           "coverage": 1
         },
         {
@@ -479,7 +492,7 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 2.574,
+          "score": 2.297,
           "coverage": 1
         }
       ],
@@ -488,6 +501,19 @@
     {
       "name": "Supply Chain & Builds",
       "cards": [
+        {
+          "title": "It’s a man’s, man’s, man’s world: Every manual page in Chainguard OS, now readable by your agent",
+          "link": "https://www.chainguard.dev/unchained/every-manual-page-in-chainguard-os-now-readable-by-your-agent",
+          "excerpt": "AI coding agents need accurate documentation. See how Chainguard makes Linux manual pages searchable, version-specific, and accessible through MCP.",
+          "source": "Chainguard: Unchained",
+          "date": "Nov 03",
+          "image": "https://images.ctfassets.net/l47ir7rfykkn/1fqlfI0OllKxt0jJpZPReP/c8a305d367b6512b17205c2f4ab2e135/Every_manual_page_in_Chainguard_OS__now_readable_by_your_agent.png",
+          "icon": "https://www.chainguard.dev/favicon.ico",
+          "domain": "chainguard.dev",
+          "hn": null,
+          "score": 5.478,
+          "coverage": 1
+        },
         {
           "title": "The PHP Security Wake-Up Call: Fixes Are Only the Beginning",
           "link": "https://openssf.org/blog/2026/11/03/the-php-security-wake-up-call-fixes-are-only-the-beginning/",
@@ -498,7 +524,7 @@
           "icon": null,
           "domain": "openssf.org",
           "hn": null,
-          "score": 0.528,
+          "score": 0.463,
           "coverage": 1
         }
       ],
@@ -517,7 +543,48 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 2.252,
+          "score": 1.976,
+          "coverage": 1
+        },
+        {
+          "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
+          "link": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
+          "excerpt": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure. Also known as Fluffy Wolf, the threat actor has a history of targeting Russian and international companies since 2016. The Ministry of Internal Affairs of the…",
+          "source": "The Hacker News",
+          "date": "Nov 04",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvVXRk9XWLvV5V7-gF-fqxa3YEEGpquE2Q8rML0rLK7ieZAbLJLqsHS6Sk012cwUslyYApJRP4b8SvmPCyATY2SbWpuhWILK0MRglNFqH5l5rVhTjSaJunpjWvbt8O9_UUnZnuxMJ26k5S4aQNj6pMBJLhY0gfn4zIY0Ot6m-gkntqxJiU4qgoAL3641pw/s1600/russia-hackerss.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.694,
+          "coverage": 1
+        },
+        {
+          "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+          "link": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+          "excerpt": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin. The flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later, which phone makers and…",
+          "source": "The Hacker News",
+          "date": "Nov 04",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgm9fDI_lHL64S1r-eoB5-99WagZJBIjKDF-bEJ9egJw_EiLUomXSakGnV0vdq9Fqu2j6KVWM4upLmOwweDCKQ32f21W8CTsQHnoGMhFm-ISPNQEg1Jq5WbDujqLHVkGSEsox0Xd3Yc5Dd-v4-6rdzU4akd97y7cBhRYFO2ofmxpf3HYspJ6MkJs2RtfC4/s1600/android-patch.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 3.336,
+          "coverage": 2
+        }
+      ],
+      "more": [
+        {
+          "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+          "link": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
+          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The high-severity vulnerability, tracked as CVE-2026-119977 (CVSS score: 8.1), is a case of…",
+          "source": "The Hacker News",
+          "date": "Nov 04",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9IgE0BWDAvYzjY8wFSMADIRn69AMLYxUa-oPoOISNBOpPbxwBNoWrbXWzI6P0deiU6WDqitiIZx1gFXSAlR8xX9rj56BuU48veMEPJAGSsmQTbVPirFOCuyMc_KQxtbPfc841GZGZ-3HSYYHCGbHnzrihtwQUaMlXrT3leLzI2USh00hc9OBw4k1SCJt4/s1600/wp-exploit.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.579,
           "coverage": 1
         },
         {
@@ -530,7 +597,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 1.929,
+          "score": 1.699,
           "coverage": 2
         },
         {
@@ -543,11 +610,9 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.644,
+          "score": 2.335,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
           "link": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
@@ -558,7 +623,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.358,
+          "score": 0.318,
           "coverage": 1
         },
         {
@@ -571,47 +636,8 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 1.723,
+          "score": 1.537,
           "coverage": 2
-        },
-        {
-          "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
-          "link": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
-          "excerpt": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services. The tactic is called LLMjacking, a form of resource hijacking adapted for the LLM era, where an attacker obtains an API…",
-          "source": "The Hacker News",
-          "date": "Nov 03",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvqwPJPXsflyvqykVK3Pd1lLXLzEJ6vpLudxQUyYbWkS4nQ0dr9dhcSlMCPwgqfAkyadPSj28XReqkeiymKG5RAZMWpx5Hqhg_XI0HNp3jRMRpaO-wVIRbyJyS8MaaqDNOxXvk8aUENx_aiNMqrqm9SWjtJVpXR2uaP-LNp5deG4U_4YvSxpPKtdJLRNoh/s1600/llmjacking.png",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 1.935,
-          "coverage": 2
-        },
-        {
-          "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
-          "link": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
-          "excerpt": "An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers. The script installed a backdoor and collected password hashes and other sensitive files from servers that ran it, cPGuard maker OPSSHIELD said in…",
-          "source": "The Hacker News",
-          "date": "Nov 03",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtc3HOtWwxZPk7V8yva9o6Oe5lWAPX8KZsWHG27ohycqrb04wAKSDSSdk6ta6y284N9gT6Ab6QKIWwTPss2bBK4PtS3Fm7gSI9QG5kec2AvEgQPjQnc0YlhlUQx0uZKt2ygn576BQ3aburL-IhrMRFVm1vEpTR5ol06R0BtjySvifD05Q_dQGUPvyPLxs/s1600/cpgaurd.png",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.335,
-          "coverage": 1
-        },
-        {
-          "title": "Frontline Education Data Breach Impacts Over 1.3 Million",
-          "link": "https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/",
-          "excerpt": "Hackers exploited a flaw in third-party software and stole the personal information of school district staff and students. The post Frontline Education Data Breach Impacts Over 1.3 Million appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 03",
-          "image": "https://www.securityweek.com/wp-content/uploads/2024/08/data-breach.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 2.286,
-          "coverage": 1
         }
       ]
     },
@@ -628,7 +654,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.652,
+          "score": 2.427,
           "coverage": 1
         },
         {
@@ -641,7 +667,7 @@
           "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 3.556,
+          "score": 3.159,
           "coverage": 1
         },
         {
@@ -654,7 +680,7 @@
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
           "hn": null,
-          "score": 1.796,
+          "score": 1.671,
           "coverage": 1
         }
       ],
@@ -669,7 +695,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.017,
+          "score": 1.846,
           "coverage": 1
         },
         {
@@ -682,7 +708,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.867,
+          "score": 1.651,
           "coverage": 1
         },
         {
@@ -695,7 +721,7 @@
           "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
           "domain": "grafana.com",
           "hn": null,
-          "score": 2.188,
+          "score": 1.897,
           "coverage": 1
         },
         {
@@ -708,20 +734,7 @@
           "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
           "domain": "grafana.com",
           "hn": null,
-          "score": 1.666,
-          "coverage": 1
-        },
-        {
-          "title": "Arnis turns any place on Earth into a Minecraft world",
-          "link": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/",
-          "excerpt": "Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone. The post Arnis turns any place on Earth into a Minecraft world appeared first on The GitHub Blog.",
-          "source": "The GitHub Blog",
-          "date": "Nov 03",
-          "image": "https://github.blog/wp-content/uploads/2026/11/692880266-19c28791-dea3-4df2-beab-3916036a4d0b.png?fit=1280%2C720",
-          "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
-          "domain": "github.blog",
-          "hn": null,
-          "score": 1.797,
+          "score": 1.491,
           "coverage": 1
         }
       ]
@@ -729,19 +742,6 @@
     {
       "name": "News & Research",
       "cards": [
-        {
-          "title": "Show HN: Kairos – Open-source risk and fraud decisioning platform",
-          "link": "https://github.com/finic-ai/kairos",
-          "excerpt": "Real time event intelligence, fraud and risk decisioning for financial behavior. - finic-ai/kairos",
-          "source": "github.com via Hacker News",
-          "date": "Nov 03",
-          "image": "https://opengraph.githubassets.com/c8823305f432189cd23ed2dd098cc620a5ecb657ac31fe09aa9c709da1b18cd3/finic-ai/kairos",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "82 points · 17 comments",
-          "score": 2.572,
-          "coverage": 1
-        },
         {
           "title": "IEEE Computer Society Chapter Offers Webinars With Industry Experts",
           "link": "https://spectrum.ieee.org/ieee-industry-experts-webinar",
@@ -752,24 +752,9 @@
           "icon": null,
           "domain": "spectrum.ieee.org",
           "hn": null,
-          "score": 2.727,
+          "score": 2.399,
           "coverage": 1
         },
-        {
-          "title": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
-          "link": "https://uncracked.city",
-          "excerpt": "The cases nobody has cracked.",
-          "source": "uncracked.city via Hacker News",
-          "date": "Nov 03",
-          "image": "https://uncracked.city/og/en.png",
-          "icon": "https://uncracked.city/apple-icon.png?apple-icon.02oyrvbu_8oio.png",
-          "domain": "uncracked.city",
-          "hn": "15 points · 4 comments",
-          "score": 1.806,
-          "coverage": 1
-        }
-      ],
-      "more": [
         {
           "title": "Binance says hackers used fake job interviews and an internal AI tool to pull off the $6.3 billion heist",
           "link": "https://www.theverge.com/news/1025576/binance-cyrpto-theft-explained",
@@ -780,20 +765,48 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 1.873,
+          "score": 1.618,
+          "coverage": 1
+        },
+        {
+          "title": "AI stocks slide as Texas governor result raises data center risks",
+          "link": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
+          "excerpt": "Tech stocks were down in overnight trading, and grew more severe as the night wore on, as the likelihood of a blue wave grew.",
+          "source": "cnbc.com via Hacker News",
+          "date": "Nov 04",
+          "image": "https://image.cnbcfm.com/api/v1/image/108511091-1793714895762-gettyimages-2302880756-US_MIDTERMS.jpeg?v=1793714928&w=1920&h=1080",
+          "icon": "https://fm.cnbc.com/applications/cnbc.com/resources/img/CNBC_LOGO_FAVICON_1C_KO_RGB.ico",
+          "domain": "cnbc.com",
+          "hn": "25 points · 14 comments",
+          "score": 3.116,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "The lost malloc()",
+          "link": "https://napcakes.nekoweb.org/posts/malloc/",
+          "excerpt": "20 points · 3 comments",
+          "source": "napcakes.nekoweb.org via Hacker News",
+          "date": "Nov 04",
+          "image": null,
+          "icon": "https://napcakes.nekoweb.org/favicon.ico",
+          "domain": "napcakes.nekoweb.org",
+          "hn": "20 points · 3 comments",
+          "score": 2.885,
           "coverage": 1
         },
         {
           "title": "Jelly Sheet",
           "link": "https://mrdoob.github.io/codevember-2026/01/",
-          "excerpt": "53 points · 9 comments",
+          "excerpt": "223 points · 58 comments",
           "source": "mrdoob.github.io via Hacker News",
           "date": "Nov 04",
           "image": null,
           "icon": "https://mrdoob.github.io/favicon.ico",
           "domain": "mrdoob.github.io",
-          "hn": "53 points · 9 comments",
-          "score": 3.394,
+          "hn": "223 points · 58 comments",
+          "score": 3.634,
           "coverage": 1
         },
         {
@@ -805,34 +818,34 @@
           "image": null,
           "icon": "https://www.dana-farber.org/sites/default/files/favicon.ico",
           "domain": "dana-farber.org",
-          "hn": "43 points · 1 comments",
-          "score": 3.088,
+          "hn": "65 points · 12 comments",
+          "score": 2.85,
           "coverage": 1
         },
         {
           "title": "Arrows to arrows, categories to queries (2025)",
           "link": "https://reasonablypolymorphic.com/blog/arrows-to-arrows/",
-          "excerpt": "19 points · 0 comments",
+          "excerpt": "45 points · 2 comments",
           "source": "reasonablypolymorphic.com via Hacker News",
           "date": "Nov 04",
           "image": null,
           "icon": "https://reasonablypolymorphic.com/favicon.ico",
           "domain": "reasonablypolymorphic.com",
-          "hn": "19 points · 0 comments",
-          "score": 2.515,
+          "hn": "45 points · 2 comments",
+          "score": 2.559,
           "coverage": 1
         },
         {
           "title": "Giant canyon on Mars is still tectonically active",
           "link": "https://lamont.columbia.edu/news/giant-canyon-mars-still-tectonically-active-today",
-          "excerpt": "52 points · 3 comments",
+          "excerpt": "79 points · 9 comments",
           "source": "lamont.columbia.edu via Hacker News",
           "date": "Nov 04",
           "image": null,
           "icon": "https://lamont.columbia.edu/favicon.ico",
           "domain": "lamont.columbia.edu",
-          "hn": "52 points · 3 comments",
-          "score": 2.908,
+          "hn": "79 points · 9 comments",
+          "score": 2.676,
           "coverage": 1
         }
       ]

@@ -1295,6 +1295,12 @@
   "icon": null,
   "image": null
  },
+ "https://napcakes.nekoweb.org/posts/malloc/": {
+  "description": null,
+  "fetched": "2026-11-04",
+  "icon": null,
+  "image": null
+ },
  "https://newsletter.getdx.com/p/robloxs-approach-to-tripling-ai-code": {
   "description": "Andrew Swerdlow shares how Roblox is building trust in AI agents to autonomously review, test, and deploy code and what that means for engineers.",
   "fetched": "2026-10-31",
@@ -1991,6 +1997,12 @@
   "icon": "https://cdn.prod.website-files.com/68dc970bd6e945ea3fb0f426/6a5b7e19dbef008a2100f7c4_surge-favicon.png",
   "image": "https://cdn.prod.website-files.com/68dcd2ceb173c46fa029931c/6ae0beffc0ef7d2c805991ec_6ae0bef7bc59db92222e060b_dayjob-tax-cover-v3.png"
  },
+ "https://sw.kovidgoyal.net/kitty/changelog/#": {
+  "description": "kitty is a feature-rich, cross-platform, fast, GPU based terminal. To update kitty, follow the instructions. Recent major new features: Docked windows [0.50]: kitty windows can now be docked to an ...",
+  "fetched": "2026-11-04",
+  "icon": "https://sw.kovidgoyal.net/kitty/_static/kitty.svg",
+  "image": "https://sw.kovidgoyal.net/kitty/_images/social_previews/summary_changelog_3a0c7623.png"
+ },
  "https://syscall.sh/": {
   "description": "The Linux syscall table for 27 architectures: every system call number, argument and register, with a table per architecture, from Linux 3.3 to 7.3.",
   "fetched": "2026-11-02",
@@ -2255,6 +2267,12 @@
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://images.workoscdn.com/images/b7905dee-8e95-4d3e-80cf-95c846ae1a5d.png?auto=format&fit=clip&q=80"
  },
+ "https://workos.com/blog/adfs-saml-sso-setup": {
+  "description": "A step-by-step walkthrough of the AD FS console work behind a SAML SSO connection, plus the claims and metadata details that cause failed sign-ins later.",
+  "fetched": "2026-11-04",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9f30176e901acc40ebd4a_adfs-saml-sso-setup-og.webp"
+ },
  "https://workos.com/blog/agent-to-agent-delegated-tokens": {
   "description": "Shared credentials turn one manipulated agent into a compromised chain. Narrow, audience-bound tokens at every hop shrink the blast radius.",
   "fetched": "2026-10-30",
@@ -2296,6 +2314,18 @@
   "fetched": "2026-10-30",
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae389c954bd3c640b44bbda_entra-memberof-retirement-scim-provisioning-og.webp"
+ },
+ "https://workos.com/blog/github-app-installation-token-format-change": {
+  "description": "GitHub App installation tokens are now about 520 characters instead of 40. What to audit before the override header is deprecated on November 30, 2026.",
+  "fetched": "2026-11-04",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6aea10af7192b41670f10da3_github-app-installation-token-format-change-og.webp"
+ },
+ "https://workos.com/blog/idp-initiated-sso-sign-in-endpoint": {
+  "description": "Configure a sign-in endpoint and WorkOS turns an identity provider tile click into a normal SP-initiated sign-in, handing your app the connection_id it needs.",
+  "fetched": "2026-11-04",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://images.workoscdn.com/images/8c5bcb16-5f36-499b-8f49-02b4eb388548.png?auto=format&fit=clip&q=80"
  },
  "https://workos.com/blog/localizing-authkit-end-to-end": {
   "description": "AuthKit translates its hosted pages, emails and Widgets into 90 locales. How each one picks the language, what you pass, and which strings stay yours.",
@@ -2362,6 +2392,12 @@
   "fetched": "2026-10-27",
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6adf875135a6faaa6ea211c6_sign-in-with-microsoft-vs-entra-sso-og.webp"
+ },
+ "https://workos.com/blog/sso-jit-provisioning-account-matching": {
+  "description": "Just-in-time provisioning is a resolution order in your SSO callback. Here is the order, the condition that makes the email match safe, and what to store.",
+  "fetched": "2026-11-04",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9f2f17fee77bc69bfbe5b_sso-jit-provisioning-account-matching-og.webp"
  },
  "https://workos.com/blog/users-management-widget-customer-admins": {
   "description": "Drop the WorkOS UsersManagement widget into your B2B app so your customers' own IT admins can invite members, remove them, and change roles without a ticket.",
@@ -2758,6 +2794,12 @@
   "fetched": "2026-11-03",
   "icon": "https://fm.cnbc.com/applications/cnbc.com/resources/img/CNBC_LOGO_FAVICON_1C_KO_RGB.ico",
   "image": "https://image.cnbcfm.com/api/v1/image/108468745-1793103926982-gettyimages-2234722679-_73a3321_cmlbiuj4.jpeg?v=1793642583&w=1920&h=1080"
+ },
+ "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html": {
+  "description": "Tech stocks were down in overnight trading, and grew more severe as the night wore on, as the likelihood of a blue wave grew.",
+  "fetched": "2026-11-04",
+  "icon": "https://fm.cnbc.com/applications/cnbc.com/resources/img/CNBC_LOGO_FAVICON_1C_KO_RGB.ico",
+  "image": "https://image.cnbcfm.com/api/v1/image/108511091-1793714895762-gettyimages-2302880756-US_MIDTERMS.jpeg?v=1793714928&w=1920&h=1080"
  },
  "https://www.cncf.io/blog/2026/11/02/the-linkerd-story-the-people-behind-the-service-mesh-a-new-documentary-premieres-at-kubecon-cloudnativecon-north-america-2026/": {
   "description": "Join CNCF and Buoyant on November 9 in Salt Lake City for the premiere of a new documentary celebrating a decade of Linkerd, the evolution of service mesh technology, and the people who helped make it…",
