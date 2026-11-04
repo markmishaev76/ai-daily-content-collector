@@ -1,21 +1,27 @@
 {
   "date": "2026-11-04",
   "lead": {
-    "title": "When Cultures Collide in Crisis",
-    "link": "https://sloanreview.mit.edu/article/when-cultures-collide-in-crisis/",
-    "excerpt": "Sergio Ingravalle/Ikon Images High-stakes disruptions test businesses’ cultural agility as well as their operational resilience. As supply chains stretch across continents and leadership teams span time zones, cultural agility becomes a business essential. Many crises now unfold across cultures as…",
-    "source": "MIT Sloan Management Review",
+    "title": "Pierre Computer is being acquired by OpenAI",
+    "link": "https://twitter.com/pierrecomputer/status/2117999036175188183",
+    "excerpt": "an announcement from the pierre computer company",
+    "source": "twitter.com via Hacker News",
     "date": "Nov 04",
-    "image": "https://sloanreview.mit.edu/wp-content/uploads/2026/10/Somer_Collide-1290x860-1.jpg",
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2117998774412832769/img/UQdWE3BBn4mW1W9I?format=webp&name=large",
     "image_credit": null,
-    "section": "Leadership",
+    "section": "AI Agents & Agent Security",
     "pinned": false,
     "note": null,
     "labels": [
-      "Leadership",
+      "2 sources",
+      "AI Agents & Agent Security",
       "under 1h ago"
     ],
-    "also": []
+    "also": [
+      {
+        "name": "openai.com",
+        "link": "https://openai.com/index/openai-to-acquire-pierre"
+      }
+    ]
   },
   "pulse": [
     {
@@ -25,34 +31,10 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 1.3k points · 453 comments · 19h ago",
+      "meta": "Hacker News · 1.4k points · 466 comments · 22h ago",
       "also": [],
       "image": "https://opengraph.githubassets.com/34bafa214176245a7aed2cca85da459d50b384e27aecc138da1c372cf988d83d/postmanlabs/postman-app-support/issues/14370",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
-    },
-    {
-      "title": "Google will turn off search for schools that reject AI",
-      "thread": "https://news.ycombinator.com/item?id=50353192",
-      "link": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
-      "link_domain": "nytimes.com",
-      "source": "Hacker News",
-      "domain": "nytimes.com",
-      "meta": "Hacker News · 630 points · 434 comments · 21h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://www.nytimes.com/favicon.ico"
-    },
-    {
-      "title": "OpenAI seems to be silently re-enabling model training on Codex chats",
-      "thread": "https://news.ycombinator.com/item?id=50352757",
-      "link": null,
-      "link_domain": "",
-      "source": "Hacker News",
-      "domain": "Hacker News",
-      "meta": "Hacker News · 491 points · 148 comments · 21h ago",
-      "also": [],
-      "image": null,
-      "icon": null
     },
     {
       "title": "Observations from Running stealmybitcoin.com",
@@ -61,10 +43,22 @@
       "link_domain": "pavursec.com",
       "source": "Lobsters",
       "domain": "pavursec.com",
-      "meta": "Lobsters · 61 points · 0 comments · 12h ago",
+      "meta": "Lobsters · 85 points · 0 comments · 15h ago",
       "also": [],
       "image": "https://pavursec.com/media/logo.svg",
       "icon": "https://pavursec.com/media/icon_hu9a38971af2c2beba5807cd7db08d44b5_22339_180x180_fill_lanczos_center_3.png"
+    },
+    {
+      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "thread": "https://news.ycombinator.com/item?id=50364336",
+      "link": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "link_domain": "spectrum.ieee.org",
+      "source": "Hacker News",
+      "domain": "spectrum.ieee.org",
+      "meta": "Hacker News · 447 points · 310 comments · 3h ago",
+      "also": [],
+      "image": "https://spectrum.ieee.org/media-library/image.jpg?id=68544156&width=1200&height=600&coordinates=0%2C312%2C0%2C313",
+      "icon": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNjU5NjY0OS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTg0ODgxODUwNn0.1LlzHtxZSVXyzapxWjeSrRIRu5qo3CeB8FaWpd2tl_o/img.png?width=192&height=192"
     },
     {
       "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
@@ -73,7 +67,7 @@
       "link_domain": "asia.nikkei.com",
       "source": "Hacker News",
       "domain": "asia.nikkei.com",
-      "meta": "Hacker News · 367 points · 153 comments · 15h ago",
+      "meta": "Hacker News · 390 points · 158 comments · 18h ago",
       "also": [],
       "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F1%2F3%2F4%2F13394319-2-eng-GB%2Faad3b104a912-photo_SXM2026103100004660.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
       "icon": "https://asia.nikkei.com/images/frontend/favicons/144x144.png"
@@ -85,10 +79,34 @@
       "link_domain": "arxiv.org",
       "source": "Hacker News",
       "domain": "arxiv.org",
-      "meta": "Hacker News · 357 points · 56 comments · 14h ago",
+      "meta": "Hacker News · 367 points · 56 comments · 18h ago",
       "also": [],
       "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png"
+    },
+    {
+      "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+      "thread": "https://news.ycombinator.com/item?id=50363461",
+      "link": null,
+      "link_domain": "",
+      "source": "Hacker News",
+      "domain": "Hacker News",
+      "meta": "Hacker News · 341 points · 93 comments · 5h ago",
+      "also": [],
+      "image": null,
+      "icon": null
+    },
+    {
+      "title": "Geoffrey Hinton: it might turn out we were better off without AI",
+      "thread": "https://news.ycombinator.com/item?id=50363554",
+      "link": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+      "link_domain": "theguardian.com",
+      "source": "Hacker News",
+      "domain": "theguardian.com",
+      "meta": "Hacker News · 245 points · 198 comments · 5h ago",
+      "also": [],
+      "image": "https://i.guim.co.uk/img/media/2874e862dc2a0fc34d651f70e5ecffd542d947a6/543_22_2658_2128/master/2658.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ae0638cdbc3daea6b3a154d41c73dad9",
+      "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg"
     },
     {
       "title": "How I use AI (Oct 2026)",
@@ -97,22 +115,10 @@
       "link_domain": "ben.stolovitz.com",
       "source": "Hacker News",
       "domain": "ben.stolovitz.com",
-      "meta": "Hacker News · 192 points · 229 comments · 18h ago",
+      "meta": "Hacker News · 229 points · 261 comments · 21h ago",
       "also": [],
       "image": "https://ben.stolovitz.com/_astro/og.jsHy_xv-_2lnd7v.png",
       "icon": "https://ben.stolovitz.com/_astro/apple-touch-icon.CBaaKE1V.png"
-    },
-    {
-      "title": "Just a little AI resistance, as a treat",
-      "thread": "https://news.ycombinator.com/item?id=50352257",
-      "link": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat/",
-      "link_domain": "shkspr.mobi",
-      "source": "Hacker News",
-      "domain": "shkspr.mobi",
-      "meta": "Hacker News · 175 points · 108 comments · 22h ago",
-      "also": [],
-      "image": "https://shkspr.mobi/blog/wp-content/uploads/2017/11/Confused-Robot.jpg",
-      "icon": "https://shkspr.mobi/blog/wp-content/uploads/2023/07/cropped-avatar-180x180.jpeg"
     },
     {
       "title": "Gitbook Breached",
@@ -121,22 +127,22 @@
       "link_domain": "",
       "source": "Hacker News",
       "domain": "Hacker News",
-      "meta": "Hacker News · 161 points · 37 comments · 19h ago",
+      "meta": "Hacker News · 162 points · 38 comments · 22h ago",
       "also": [],
       "image": null,
       "icon": null
     },
     {
-      "title": "AI is destroying my CS degree",
-      "thread": "https://news.ycombinator.com/item?id=50353300",
-      "link": "https://lordtoots.bearblog.dev/ai-is-destroying-my-cs-degree/",
-      "link_domain": "lordtoots.bearblog.dev",
+      "title": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
+      "thread": "https://news.ycombinator.com/item?id=50358352",
+      "link": "https://uncracked.city",
+      "link_domain": "uncracked.city",
       "source": "Hacker News",
-      "domain": "lordtoots.bearblog.dev",
-      "meta": "Hacker News · 124 points · 116 comments · 20h ago",
+      "domain": "uncracked.city",
+      "meta": "Hacker News · 101 points · 51 comments · 18h ago",
       "also": [],
-      "image": "https://bearblog.dev/static/og-image.png",
-      "icon": "https://lordtoots.bearblog.dev/favicon.ico"
+      "image": "https://uncracked.city/og/en.png",
+      "icon": "https://uncracked.city/apple-icon.png?apple-icon.02oyrvbu_8oio.png"
     }
   ],
   "sections": [
@@ -153,7 +159,7 @@
           "icon": null,
           "domain": "newsletter.pragmaticengineer.com",
           "hn": null,
-          "score": 0.571,
+          "score": 0.518,
           "coverage": 1
         },
         {
@@ -166,7 +172,7 @@
           "icon": null,
           "domain": "newsletter.getdx.com",
           "hn": null,
-          "score": 1.339,
+          "score": 1.082,
           "coverage": 1
         },
         {
@@ -179,7 +185,7 @@
           "icon": null,
           "domain": "leaddev.com",
           "hn": null,
-          "score": 1.119,
+          "score": 0.934,
           "coverage": 1
         }
       ],
@@ -194,7 +200,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.562,
+          "score": 0.511,
           "coverage": 1
         },
         {
@@ -207,7 +213,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.576,
+          "score": 0.523,
           "coverage": 1
         },
         {
@@ -220,7 +226,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.564,
+          "score": 0.513,
           "coverage": 1
         },
         {
@@ -233,7 +239,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.371,
+          "score": 0.348,
           "coverage": 1
         }
       ]
@@ -241,6 +247,19 @@
     {
       "name": "AI Agents & Agent Security",
       "cards": [
+        {
+          "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+          "link": "https://openai.com/index/openai-to-acquire-pierre",
+          "excerpt": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+          "source": "OpenAI News",
+          "date": "Nov 04",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 17.643,
+          "coverage": 2
+        },
         {
           "title": "Accelerating engineering for the physical world",
           "link": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
@@ -251,7 +270,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 2.142,
+          "score": 1.97,
           "coverage": 1
         },
         {
@@ -264,7 +283,22 @@
           "icon": "https://www.daytona.io/apple-touch-icon.png",
           "domain": "daytona.io",
           "hn": null,
-          "score": 0.309,
+          "score": 0.29,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+          "link": "https://openai.com/index/daybreak-red-aws-govcloud",
+          "excerpt": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+          "source": "OpenAI News",
+          "date": "Nov 04",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.906,
           "coverage": 1
         },
         {
@@ -277,11 +311,9 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.463,
+          "score": 0.429,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
           "link": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
@@ -292,7 +324,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.387,
+          "score": 0.363,
           "coverage": 1
         },
         {
@@ -305,7 +337,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.411,
+          "score": 0.378,
           "coverage": 1
         }
       ]
@@ -313,6 +345,19 @@
     {
       "name": "Leadership",
       "cards": [
+        {
+          "title": "When Cultures Collide in Crisis",
+          "link": "https://sloanreview.mit.edu/article/when-cultures-collide-in-crisis/",
+          "excerpt": "Sergio Ingravalle/Ikon Images High-stakes disruptions test businesses’ cultural agility as well as their operational resilience. As supply chains stretch across continents and leadership teams span time zones, cultural agility becomes a business essential. Many crises now unfold across cultures as…",
+          "source": "MIT Sloan Management Review",
+          "date": "Nov 04",
+          "image": "https://sloanreview.mit.edu/wp-content/uploads/2026/10/Somer_Collide-1290x860-1.jpg",
+          "icon": null,
+          "domain": "sloanreview.mit.edu",
+          "hn": null,
+          "score": 4.784,
+          "coverage": 1
+        },
         {
           "title": "Ask Rands",
           "link": "https://randsinrepose.com/archives/ask-rands/",
@@ -323,7 +368,7 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.464,
+          "score": 0.422,
           "coverage": 1
         },
         {
@@ -336,9 +381,11 @@
           "icon": null,
           "domain": "stratechery.com",
           "hn": null,
-          "score": 1.111,
+          "score": 0.899,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "The AI-enabled risk function of the future",
           "link": "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/the-ai-enabled-risk-function-of-the-future",
@@ -349,11 +396,35 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.612,
+          "score": 0.542,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
+        {
+          "title": "Rethinking growth with AI: A conversation with Slack CMO Ryan Gavin",
+          "link": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/rethinking-growth-with-ai-a-conversation-with-slack-cmo-ryan-gavin",
+          "excerpt": "At Cannes Lions 2026, Slack CMO Ryan Gavin and McKinsey Partner Jeff Jacobs discussed how AI can turn productivity gains into a lever for growth.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 04",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.542,
+          "coverage": 1
+        },
+        {
+          "title": "From science fiction to reality: The next phase of shared autonomous mobility",
+          "link": "https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/from-science-fiction-to-reality-the-next-phase-of-shared-autonomous-mobility",
+          "excerpt": "As shared autonomous vehicles expand into cities worldwide, operators are evaluating how to scale them profitably in multiple urban areas.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 04",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.542,
+          "coverage": 1
+        },
         {
           "title": "The 1 percent wake-up call for life insurers",
           "link": "https://www.mckinsey.com/industries/financial-services/our-insights/the-1-percent-wake-up-call-for-life-insurers",
@@ -364,7 +435,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.309,
+          "score": 0.29,
           "coverage": 1
         },
         {
@@ -377,7 +448,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.309,
+          "score": 0.29,
           "coverage": 1
         }
       ]
@@ -395,7 +466,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 2.086,
+          "score": 1.906,
           "coverage": 1
         },
         {
@@ -408,7 +479,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 1.396,
+          "score": 1.31,
           "coverage": 1
         },
         {
@@ -421,7 +492,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 1.396,
+          "score": 1.31,
           "coverage": 1
         }
       ],
@@ -436,7 +507,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 1.237,
+          "score": 1.161,
           "coverage": 1
         },
         {
@@ -449,7 +520,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.392,
+          "score": 0.347,
           "coverage": 1
         },
         {
@@ -462,7 +533,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.392,
+          "score": 0.347,
           "coverage": 1
         },
         {
@@ -475,7 +546,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.392,
+          "score": 0.347,
           "coverage": 1
         },
         {
@@ -488,7 +559,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.392,
+          "score": 0.347,
           "coverage": 1
         }
       ]
@@ -506,7 +577,7 @@
           "icon": "https://www.hashicorp.com/favicon.ico",
           "domain": "hashicorp.com",
           "hn": null,
-          "score": 2.089,
+          "score": 1.937,
           "coverage": 1
         },
         {
@@ -519,7 +590,7 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 2.068,
+          "score": 1.883,
           "coverage": 1
         }
       ],
@@ -538,7 +609,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 4.822,
+          "score": 1.048,
           "coverage": 1
         },
         {
@@ -551,7 +622,7 @@
           "icon": null,
           "domain": "openssf.org",
           "hn": null,
-          "score": 0.412,
+          "score": 0.371,
           "coverage": 1
         }
       ],
@@ -560,6 +631,32 @@
     {
       "name": "Security & AppSec",
       "cards": [
+        {
+          "title": "Sysdig Adds Runtime Security and Governance for AI Agents",
+          "link": "https://www.securityweek.com/sysdig-adds-runtime-security-and-governance-for-ai-agents/",
+          "excerpt": "Sysdig’s platform uses runtime visibility to track AI agent actions and block risky behavior before it reaches production systems. The post Sysdig Adds Runtime Security and Governance for AI Agents appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 04",
+          "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 5.766,
+          "coverage": 1
+        },
+        {
+          "title": "Agentic Data Security Firm Sentra Raises $150 Million",
+          "link": "https://www.securityweek.com/agentic-data-security-firm-sentra-raises-150-million/",
+          "excerpt": "The company will invest in agentic data security capabilities and expand its go-to-market organization. The post Agentic Data Security Firm Sentra Raises $150 Million appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 04",
+          "image": "https://www.securityweek.com/wp-content/uploads/2025/12/cyber-security-investment.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 5.082,
+          "coverage": 1
+        },
         {
           "title": "Malicious cPGuard Updates Served in OpsShield Supply Chain Attack",
           "link": "https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/",
@@ -570,9 +667,11 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 5.063,
+          "score": 4.1,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
           "link": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
@@ -583,7 +682,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 4.295,
+          "score": 3.445,
           "coverage": 1
         },
         {
@@ -596,11 +695,22 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 1.755,
+          "score": 1.58,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
+        {
+          "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+          "link": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+          "excerpt": "The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker. \"The injected…",
+          "source": "The Hacker News",
+          "date": "Nov 04",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx1cus2o8fkYGLhQu9BfPgGtAUwnmTAMucLagfAodBuRoYnyxGIJKgpqtKFyCSV-WSG3pDqmPujhj-iwoOZB-zF8JjbQMrLzDHYtdTPA3hD3Kc3rqYQM4CQwkICwZkh8K6O8ZSt-WAA_PBoUA6lHwh_55dbDlKizsjzcTN847c9BSHsWHmrAP42JHRHIYS/s1600/ios-exploit.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 6.123,
+          "coverage": 2
+        },
         {
           "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
           "link": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
@@ -611,7 +721,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.727,
+          "score": 0.578,
           "coverage": 1
         },
         {
@@ -624,53 +734,27 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.707,
+          "score": 0.565,
           "coverage": 1
-        },
-        {
-          "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
-          "link": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
-          "excerpt": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called DarkVigil (aka FDMTP).…",
-          "source": "The Hacker News",
-          "date": "Nov 04",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMawvNNOvRYRm-k7ii9yDdw214v4kwQ7h5fAfOaUVkvMetNwArral8qumlObtaftjOcBsibL9vkqM1UT0-9l9jYPjj3M3C9NcPfg5pdIuENUfdKlK7lyseCS30AVhgLLs6a-2fdXlSDymSVeyIziO7IC13HFCaOf1v4sjbgmkeKfewWNsbTJCJ0WR2zLBZ/s1600/key.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.687,
-          "coverage": 1
-        },
-        {
-          "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
-          "link": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
-          "excerpt": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure. Also known as Fluffy Wolf, the threat actor has a history of targeting Russian and international companies since 2016. The Ministry of Internal Affairs of the…",
-          "source": "The Hacker News",
-          "date": "Nov 04",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvVXRk9XWLvV5V7-gF-fqxa3YEEGpquE2Q8rML0rLK7ieZAbLJLqsHS6Sk012cwUslyYApJRP4b8SvmPCyATY2SbWpuhWILK0MRglNFqH5l5rVhTjSaJunpjWvbt8O9_UUnZnuxMJ26k5S4aQNj6pMBJLhY0gfn4zIY0Ot6m-gkntqxJiU4qgoAL3641pw/s1600/russia-hackerss.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.555,
-          "coverage": 1
-        },
-        {
-          "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
-          "link": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
-          "excerpt": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin. The flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later, which phone makers and…",
-          "source": "The Hacker News",
-          "date": "Nov 04",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgm9fDI_lHL64S1r-eoB5-99WagZJBIjKDF-bEJ9egJw_EiLUomXSakGnV0vdq9Fqu2j6KVWM4upLmOwweDCKQ32f21W8CTsQHnoGMhFm-ISPNQEg1Jq5WbDujqLHVkGSEsox0Xd3Yc5Dd-v4-6rdzU4akd97y7cBhRYFO2ofmxpf3HYspJ6MkJs2RtfC4/s1600/android-patch.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 2.69,
-          "coverage": 2
         }
       ]
     },
     {
       "name": "Platform, Cloud & Reliability",
       "cards": [
+        {
+          "title": "New capabilities to power agents at scale with Google's Agentic Data Cloud",
+          "link": "https://cloud.google.com/blog/products/databases/whats-new-across-googles-agentic-data-cloud/",
+          "excerpt": "Not long ago, we were entering the agentic era; today, organizations are deriving significant value from running agents in production. The opportunity to capture new revenue streams, improve efficiency, and manage risk makes reimagining operations with agents top of mind for enterprise leaders.…",
+          "source": "Cloud Blog",
+          "date": "Nov 04",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/FallMomentumNov4BlogHero.max-600x600.jpg",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 6.762,
+          "coverage": 1
+        },
         {
           "title": "Five rules for evaluating agent skills before they bloat your context window",
           "link": "https://cloud.google.com/blog/topics/developers-practitioners/evaluate-agent-skills-before-they-bloat-your-context-window/",
@@ -681,7 +765,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.233,
+          "score": 2.07,
           "coverage": 1
         },
         {
@@ -694,9 +778,11 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 5.833,
+          "score": 4.838,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Leading in the agentic era: How to put people first as you adopt AI agents",
           "link": "https://cloud.google.com/blog/topics/consulting/lessons-for-adopting-ai-agents/",
@@ -707,11 +793,9 @@
           "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.834,
+          "score": 2.573,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Evaluate your AI agents with Fireworks AI models in Datadog Agent Observability",
           "link": "https://www.datadoghq.com/blog/fireworks-ai-integration/",
@@ -722,7 +806,20 @@
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
           "hn": null,
-          "score": 1.559,
+          "score": 1.463,
+          "coverage": 1
+        },
+        {
+          "title": "AlloyDB Express: Instant, scale-to-zero PostgreSQL for developers and coding agents",
+          "link": "https://cloud.google.com/blog/products/databases/introducing-alloydb-express-for-rapid-testing-and-prototyping/",
+          "excerpt": "Databases have struggled to keep up with the speed of AI-enabled software development. Across the engineering and platform teams we talk to, we see coding agents stalled by slow database provisioning, CI/CD test pipelines bottlenecked by complexity, and internal apps hitting a wall as they…",
+          "source": "Cloud Blog",
+          "date": "Nov 04",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Databases_AZBYEeO.max-2500x2500.jpg",
+          "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 5.205,
           "coverage": 1
         },
         {
@@ -735,46 +832,20 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.699,
+          "score": 1.575,
           "coverage": 1
         },
         {
-          "title": "OpenShell on Kubernetes: A guide for platform engineers",
-          "link": "https://www.cncf.io/blog/2026/11/04/openshell-on-kubernetes-a-guide-for-platform-engineers/",
-          "excerpt": "What OpenShell is AI agents do more than call APIs. They run shells, install packages, read files, and open network connections. Often they act on text they pulled from the internet a minute earlier. So every...",
-          "source": "Blog – Cloud Native Computing Foundation",
-          "date": "Nov 04",
-          "image": "https://www.cncf.io/wp-content/uploads/2026/10/image-41.png",
-          "icon": null,
-          "domain": "cncf.io",
-          "hn": null,
-          "score": 4.063,
-          "coverage": 1
-        },
-        {
-          "title": "Presentation: Panel: Who Builds the Frontend Now? (And What Breaks When They Do)",
-          "link": "https://www.infoq.com/presentations/panel-ai-frontend-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "The panelists explain how AI tools and vibe coding reshape frontend and mobile engineering. They share insights on evolving junior developer roles, managing AI-generated code review fatigue, designing systems for autonomous agents, enforcing architectural guardrails, and navigating economic shifts…",
-          "source": "InfoQ",
-          "date": "Nov 04",
-          "image": "https://res.infoq.com/presentations/panel-ai-frontend-architecture/en/mediumimage/medium-1792133520845.jpg",
-          "icon": null,
-          "domain": "infoq.com",
-          "hn": null,
-          "score": 3.762,
-          "coverage": 1
-        },
-        {
-          "title": "How Nammu21 automates syndicated loans on Google Cloud Universal Ledger",
-          "link": "https://cloud.google.com/blog/topics/financial-services/how-nammu21-automates-syndicated-loans-on-google-cloud-universal-ledger/",
-          "excerpt": "The syndicated loan and private credit markets, both critical components of corporate finance, have long been constrained by manual processes, leading to multi-week settlements, valuation opacity, and trade friction. To solve these long-standing challenges, fintech innovator Nammu21 partnered with…",
+          "title": "Unify operational and Lakehouse data with direct Iceberg access in AlloyDB for PostgreSQL",
+          "link": "https://cloud.google.com/blog/products/databases/direct-iceberg-access-in-alloydb/",
+          "excerpt": "To make good business decisions, you need two kinds of data: the live state of the business from operational databases, and the historical context stored in an analytical system such as a lakehouse or a data warehouse. Traditionally, those systems have been separate, but they are now converging…",
           "source": "Cloud Blog",
-          "date": "Nov 03",
-          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/nammu21-automating-sydicated-loans-header.max-600x600.png",
+          "date": "Nov 04",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/AlloyDB.max-1000x1000.png",
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.475,
+          "score": 3.71,
           "coverage": 1
         }
       ]
@@ -782,6 +853,19 @@
     {
       "name": "News & Research",
       "cards": [
+        {
+          "title": "Securing the agentic enterprise with data lineage",
+          "link": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+          "excerpt": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal for the sales rep.…",
+          "source": "MIT Technology Review",
+          "date": "Nov 04",
+          "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTR_Cyberhaven_V4_Cover.png?w=840",
+          "icon": null,
+          "domain": "technologyreview.com",
+          "hn": null,
+          "score": 4.851,
+          "coverage": 1
+        },
         {
           "title": "IEEE Computer Society Chapter Offers Webinars With Industry Experts",
           "link": "https://spectrum.ieee.org/ieee-industry-experts-webinar",
@@ -792,100 +876,74 @@
           "icon": null,
           "domain": "spectrum.ieee.org",
           "hn": null,
-          "score": 2.136,
+          "score": 1.927,
           "coverage": 1
         },
         {
-          "title": "Binance says hackers used fake job interviews and an internal AI tool to pull off the $6.3 billion heist",
-          "link": "https://www.theverge.com/news/1025576/binance-cyrpto-theft-explained",
-          "excerpt": "The largest crypto theft to date was pulled off by combining some well-known hacking techniques over the course of a few months, according to Binance. A postmortem from the company says the process started in June with one developer downloading a tampered installer apparently spread by a malicious…",
-          "source": "The Verge",
-          "date": "Nov 03",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23932848/acastro_STK018__02.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "icon": null,
-          "domain": "theverge.com",
-          "hn": null,
-          "score": 1.42,
-          "coverage": 1
-        },
-        {
-          "title": "Hackers hit French national blood bank",
-          "link": "https://www.telegraph.co.uk/world-news/2026/11/04/hackers-hit-french-blood-bank/",
-          "excerpt": "Cold storage facilities affected during attack targeting refrigeration systems throughout Europe",
-          "source": "telegraph.co.uk via Hacker News",
+          "title": "The Download: blended meat, restored sight, and the agentic web",
+          "link": "https://www.technologyreview.com/2026/11/04/1148001/the-download-blended-meat-sight-restoring-implant-agentic-web/",
+          "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. These startups hope “blended” food will cut our appetite for red meat In the fall of 2025, Jeff Dodge served hungry students steaming marinara sauce and…",
+          "source": "MIT Technology Review",
           "date": "Nov 04",
-          "image": "https://www.telegraph.co.uk/content/dam/world-news/2026/11/04/TELEMMGLPICT000510367521_17937907750130_trans_NvBQzQNjv4Bq8jWyxvP9pmIYP_osKFfWzygOoV7jtqb1rQ6_6TwBR2U.jpeg?impolicy=OG-Standard",
-          "icon": "https://www.telegraph.co.uk/etc.clientlibs/settings/wcm/designs/telegraph/core/clientlibs/core/resources/icons/apple-touch-icon-180x180.png",
-          "domain": "telegraph.co.uk",
-          "hn": "11 points · 4 comments",
-          "score": 2.855,
+          "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f937-200d-2642-fe0f.png",
+          "icon": null,
+          "domain": "technologyreview.com",
+          "hn": null,
+          "score": 4.098,
           "coverage": 1
         }
       ],
       "more": [
         {
-          "title": "AI is forcing us to pay off 40 years of technical debt",
-          "link": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-          "excerpt": "AI is forcing us to pay off 40 years of technical debt",
-          "source": "spectrum.ieee.org via Hacker News",
-          "date": "Nov 04",
-          "image": "https://spectrum.ieee.org/media-library/image.jpg?id=68544156&width=1200&height=600&coordinates=0%2C312%2C0%2C313",
-          "icon": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNjU5NjY0OS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTg0ODgxODUwNn0.1LlzHtxZSVXyzapxWjeSrRIRu5qo3CeB8FaWpd2tl_o/img.png?width=192&height=192",
-          "domain": "spectrum.ieee.org",
-          "hn": "62 points · 13 comments",
-          "score": 4.023,
-          "coverage": 1
-        },
-        {
-          "title": "Synaptics Appears to Use Legal Threats to Block Open-Source DisplayLink Driver",
-          "link": "https://www.phoronix.com/news/Synaptics-Blocks-Vino-Driver",
-          "excerpt": "From earlier in the year you may recall a new experimental open-source Linux driver for modern DisplayLink hardware",
-          "source": "phoronix.com via Hacker News",
-          "date": "Nov 04",
-          "image": "https://www.phoronix.net/image.php?id=2026&image=no_vino",
-          "icon": "https://www.phoronix.com/apple-touch-icon-57x57.png",
-          "domain": "phoronix.com",
-          "hn": "10 points · 1 comments",
-          "score": 2.444,
-          "coverage": 1
-        },
-        {
-          "title": "Geoffrey Hinton: it might turn out we were better off without AI",
-          "link": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
-          "excerpt": "Nobel winner warns the tech could be near to triggering major incident such as power or banking shutdown",
-          "source": "theguardian.com via Hacker News",
-          "date": "Nov 04",
-          "image": "https://i.guim.co.uk/img/media/2874e862dc2a0fc34d651f70e5ecffd542d947a6/543_22_2658_2128/master/2658.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ae0638cdbc3daea6b3a154d41c73dad9",
-          "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg",
-          "domain": "theguardian.com",
-          "hn": "80 points · 48 comments",
-          "score": 3.976,
-          "coverage": 1
-        },
-        {
-          "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
-          "link": "https://news.ycombinator.com/item?id=50363461",
-          "excerpt": "98 points · 33 comments",
+          "title": "Ask HN: What's your current AI agentic setup?",
+          "link": "https://news.ycombinator.com/item?id=50366117",
+          "excerpt": "11 points · 2 comments",
           "source": "Hacker News",
           "date": "Nov 04",
           "image": null,
           "icon": null,
           "domain": "news.ycombinator.com",
-          "hn": "98 points · 33 comments",
-          "score": 3.931,
+          "hn": "11 points · 2 comments",
+          "score": 7.172,
           "coverage": 1
         },
         {
-          "title": "Incident with Pull Requests, Git Operations and Issues",
-          "link": "https://www.githubstatus.com/incidents/smtdswd1h2w4",
-          "excerpt": "GitHub's Status Page - Incident with Pull Requests, Git Operations and Issues.",
-          "source": "githubstatus.com via Hacker News",
+          "title": "Debian apt security update (man-in-the-middle)",
+          "link": "https://lists.debian.org/debian-security-announce/2026/msg00526.html?pow_referer=",
+          "excerpt": "30 points · 3 comments",
+          "source": "lists.debian.org via Hacker News",
           "date": "Nov 04",
-          "image": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png",
-          "icon": "https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/36420/akacZEQQfOBdc7ftyxJt",
-          "domain": "githubstatus.com",
-          "hn": "103 points · 49 comments",
-          "score": 3.986,
+          "image": null,
+          "icon": "https://lists.debian.org/favicon.ico",
+          "domain": "lists.debian.org",
+          "hn": "30 points · 3 comments",
+          "score": 3.391,
+          "coverage": 1
+        },
+        {
+          "title": "Guerrilla Bike Lanes: San Francisco Makes Illicit Infrastructure Permanent",
+          "link": "https://99percentinvisible.org/article/guerrilla-bike-lanes-san-francisco-makes-illicit-infrastructure-permanent/",
+          "excerpt": "When two cyclists were tragically killed in hit-and-run collisions this past summer, a group of anonymous urban activists known as the San Francisco Transformation Agency erected a set of protected bike lanes using traffic cones. Usually such guerrilla interventions are temporary. They raise…",
+          "source": "99percentinvisible.org via Hacker News",
+          "date": "Nov 04",
+          "image": "https://99percentinvisible.org/wp-content/uploads/2016/10/guerrilla-bicycle-lane-728x410.jpg",
+          "icon": "https://99percentinvisible.org/wp-content/uploads/2016/06/cropped-favicon_512-180x180.png",
+          "domain": "99percentinvisible.org",
+          "hn": "31 points · 3 comments",
+          "score": 3.402,
+          "coverage": 1
+        },
+        {
+          "title": "US voters roundly reject data centers in ballot measures",
+          "link": "https://www.semafor.com/article/11/04/2026/us-voters-roundly-reject-data-centers-in-ballot-measures",
+          "excerpt": "Residents in more than 30 localities across nine states voted for moratoriums, outright bans, and other measures, some in direct response to specific projects underway.",
+          "source": "semafor.com via Hacker News",
+          "date": "Nov 04",
+          "image": "https://img.semafor.com/3539e9f8436bba6661848f82fb4f45f4c0ffc41e-6500x4333.jpg?rect=0,461,6500,3413&w=1200&h=630&q=75&auto=format",
+          "icon": "https://www.semafor.com/apple-touch-icon.png",
+          "domain": "semafor.com",
+          "hn": "177 points · 259 comments",
+          "score": 5.154,
           "coverage": 1
         }
       ]
