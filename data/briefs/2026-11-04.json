@@ -13,7 +13,7 @@
     "note": null,
     "labels": [
       "AI Agents & Agent Security",
-      "4h ago"
+      "6h ago"
     ],
     "also": []
   },
@@ -25,7 +25,7 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 1k points · 345 comments · 8h ago",
+      "meta": "Hacker News · 1.1k points · 362 comments · 10h ago",
       "also": [],
       "image": "https://opengraph.githubassets.com/34bafa214176245a7aed2cca85da459d50b384e27aecc138da1c372cf988d83d/postmanlabs/postman-app-support/issues/14370",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
@@ -37,7 +37,7 @@
       "link_domain": "nytimes.com",
       "source": "Hacker News",
       "domain": "nytimes.com",
-      "meta": "Hacker News · 561 points · 409 comments · 10h ago",
+      "meta": "Hacker News · 576 points · 420 comments · 12h ago",
       "also": [],
       "image": null,
       "icon": "https://www.nytimes.com/favicon.ico"
@@ -49,10 +49,22 @@
       "link_domain": "",
       "source": "Hacker News",
       "domain": "Hacker News",
-      "meta": "Hacker News · 435 points · 136 comments · 11h ago",
+      "meta": "Hacker News · 447 points · 141 comments · 13h ago",
       "also": [],
       "image": null,
       "icon": null
+    },
+    {
+      "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+      "thread": "https://news.ycombinator.com/item?id=50358422",
+      "link": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+      "link_domain": "asia.nikkei.com",
+      "source": "Hacker News",
+      "domain": "asia.nikkei.com",
+      "meta": "Hacker News · 304 points · 131 comments · 6h ago",
+      "also": [],
+      "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F1%2F3%2F4%2F13394319-2-eng-GB%2Faad3b104a912-photo_SXM2026103100004660.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+      "icon": "https://asia.nikkei.com/images/frontend/favicons/144x144.png"
     },
     {
       "title": "Just a little AI resistance, as a treat",
@@ -61,7 +73,7 @@
       "link_domain": "shkspr.mobi",
       "source": "Hacker News",
       "domain": "shkspr.mobi",
-      "meta": "Hacker News · 171 points · 105 comments · 11h ago",
+      "meta": "Hacker News · 172 points · 106 comments · 13h ago",
       "also": [],
       "image": "https://shkspr.mobi/blog/wp-content/uploads/2017/11/Confused-Robot.jpg",
       "icon": "https://shkspr.mobi/blog/wp-content/uploads/2023/07/cropped-avatar-180x180.jpeg"
@@ -73,7 +85,7 @@
       "link_domain": "",
       "source": "Hacker News",
       "domain": "Hacker News",
-      "meta": "Hacker News · 144 points · 35 comments · 9h ago",
+      "meta": "Hacker News · 147 points · 35 comments · 11h ago",
       "also": [],
       "image": null,
       "icon": null
@@ -85,10 +97,34 @@
       "link_domain": "lordtoots.bearblog.dev",
       "source": "Hacker News",
       "domain": "lordtoots.bearblog.dev",
-      "meta": "Hacker News · 119 points · 110 comments · 10h ago",
+      "meta": "Hacker News · 120 points · 110 comments · 12h ago",
       "also": [],
       "image": "https://bearblog.dev/static/og-image.png",
       "icon": "https://lordtoots.bearblog.dev/favicon.ico"
+    },
+    {
+      "title": "Observations from Running stealmybitcoin.com",
+      "thread": "https://lobste.rs/s/fgucra/observations_from_running",
+      "link": "https://pavursec.com/blog/stealmybitcoin/",
+      "link_domain": "pavursec.com",
+      "source": "Lobsters",
+      "domain": "pavursec.com",
+      "meta": "Lobsters · 18 points · 0 comments · 4h ago",
+      "also": [],
+      "image": "https://pavursec.com/media/logo.svg",
+      "icon": "https://pavursec.com/media/icon_hu9a38971af2c2beba5807cd7db08d44b5_22339_180x180_fill_lanczos_center_3.png"
+    },
+    {
+      "title": "How I use AI (Oct 2026)",
+      "thread": "https://news.ycombinator.com/item?id=50355767",
+      "link": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
+      "link_domain": "ben.stolovitz.com",
+      "source": "Hacker News",
+      "domain": "ben.stolovitz.com",
+      "meta": "Hacker News · 107 points · 97 comments · 9h ago",
+      "also": [],
+      "image": "https://ben.stolovitz.com/_astro/og.jsHy_xv-_2lnd7v.png",
+      "icon": "https://ben.stolovitz.com/_astro/apple-touch-icon.CBaaKE1V.png"
     }
   ],
   "sections": [
@@ -105,7 +141,7 @@
           "icon": null,
           "domain": "newsletter.pragmaticengineer.com",
           "hn": null,
-          "score": 0.852,
+          "score": 0.778,
           "coverage": 1
         },
         {
@@ -118,7 +154,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.864,
+          "score": 0.788,
           "coverage": 1
         },
         {
@@ -131,7 +167,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.837,
+          "score": 0.766,
           "coverage": 1
         }
       ],
@@ -146,7 +182,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.833,
+          "score": 0.762,
           "coverage": 1
         },
         {
@@ -159,7 +195,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.472,
+          "score": 0.449,
           "coverage": 1
         }
       ]
@@ -177,7 +213,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 2.996,
+          "score": 2.782,
           "coverage": 1
         },
         {
@@ -190,7 +226,7 @@
           "icon": "https://www.daytona.io/apple-touch-icon.png",
           "domain": "daytona.io",
           "hn": null,
-          "score": 0.394,
+          "score": 0.374,
           "coverage": 1
         },
         {
@@ -203,7 +239,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.623,
+          "score": 0.584,
           "coverage": 1
         }
       ],
@@ -218,7 +254,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.492,
+          "score": 0.468,
           "coverage": 1
         },
         {
@@ -231,7 +267,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.575,
+          "score": 0.534,
           "coverage": 1
         }
       ]
@@ -249,7 +285,7 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.684,
+          "score": 0.627,
           "coverage": 1
         },
         {
@@ -262,7 +298,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.394,
+          "score": 0.374,
           "coverage": 1
         },
         {
@@ -275,7 +311,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.394,
+          "score": 0.374,
           "coverage": 1
         }
       ],
@@ -294,7 +330,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 3.014,
+          "score": 2.776,
           "coverage": 1
         },
         {
@@ -307,7 +343,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 1.778,
+          "score": 1.689,
           "coverage": 1
         },
         {
@@ -320,7 +356,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 1.778,
+          "score": 1.689,
           "coverage": 1
         }
       ],
@@ -335,7 +371,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 1.575,
+          "score": 1.496,
           "coverage": 1
         },
         {
@@ -348,7 +384,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.452,
+          "score": 0.413,
           "coverage": 1
         },
         {
@@ -361,7 +397,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.41,
+          "score": 0.378,
           "coverage": 1
         },
         {
@@ -374,7 +410,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.402,
+          "score": 0.371,
           "coverage": 1
         },
         {
@@ -387,7 +423,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.402,
+          "score": 0.371,
           "coverage": 1
         }
       ]
@@ -405,7 +441,7 @@
           "icon": "https://www.hashicorp.com/favicon.ico",
           "domain": "hashicorp.com",
           "hn": null,
-          "score": 2.811,
+          "score": 2.636,
           "coverage": 1
         },
         {
@@ -418,7 +454,7 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 3.041,
+          "score": 2.788,
           "coverage": 1
         }
       ],
@@ -437,7 +473,7 @@
           "icon": null,
           "domain": "openssf.org",
           "hn": null,
-          "score": 0.64,
+          "score": 0.578,
           "coverage": 1
         }
       ],
@@ -456,7 +492,7 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 2.738,
+          "score": 2.471,
           "coverage": 1
         },
         {
@@ -469,8 +505,8 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.329,
-          "coverage": 2
+          "score": 0.422,
+          "coverage": 1
         },
         {
           "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
@@ -482,7 +518,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 3.177,
+          "score": 2.886,
           "coverage": 1
         }
       ],
@@ -497,7 +533,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.425,
+          "score": 0.388,
           "coverage": 1
         },
         {
@@ -510,7 +546,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.035,
+          "score": 1.866,
           "coverage": 2
         },
         {
@@ -523,7 +559,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.338,
+          "score": 2.117,
           "coverage": 2
         },
         {
@@ -536,7 +572,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.394,
+          "score": 0.362,
           "coverage": 1
         },
         {
@@ -549,7 +585,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 2.674,
+          "score": 2.465,
           "coverage": 1
         }
       ]
@@ -567,7 +603,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 3.004,
+          "score": 2.817,
           "coverage": 1
         },
         {
@@ -580,7 +616,7 @@
           "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 4.231,
+          "score": 3.864,
           "coverage": 1
         },
         {
@@ -593,7 +629,7 @@
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
           "hn": null,
-          "score": 1.984,
+          "score": 1.885,
           "coverage": 1
         }
       ],
@@ -608,7 +644,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.286,
+          "score": 2.143,
           "coverage": 1
         },
         {
@@ -621,7 +657,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.239,
+          "score": 2.036,
           "coverage": 1
         },
         {
@@ -634,7 +670,7 @@
           "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
           "domain": "grafana.com",
           "hn": null,
-          "score": 2.717,
+          "score": 2.424,
           "coverage": 1
         },
         {
@@ -647,7 +683,7 @@
           "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
           "domain": "grafana.com",
           "hn": null,
-          "score": 1.955,
+          "score": 1.799,
           "coverage": 1
         },
         {
@@ -660,7 +696,7 @@
           "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
           "domain": "github.blog",
           "hn": null,
-          "score": 2.123,
+          "score": 1.946,
           "coverage": 1
         }
       ]
@@ -677,8 +713,8 @@
           "image": "https://opengraph.githubassets.com/c8823305f432189cd23ed2dd098cc620a5ecb657ac31fe09aa9c709da1b18cd3/finic-ai/kairos",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "61 points · 7 comments",
-          "score": 2.964,
+          "hn": "72 points · 12 comments",
+          "score": 2.759,
           "coverage": 1
         },
         {
@@ -691,7 +727,7 @@
           "icon": null,
           "domain": "spectrum.ieee.org",
           "hn": null,
-          "score": 3.299,
+          "score": 2.985,
           "coverage": 1
         },
         {
@@ -704,22 +740,48 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 2.341,
+          "score": 2.081,
           "coverage": 1
         }
       ],
       "more": [
         {
+          "title": "Giant canyon on Mars is still tectonically active",
+          "link": "https://lamont.columbia.edu/news/giant-canyon-mars-still-tectonically-active-today",
+          "excerpt": "28 points · 0 comments",
+          "source": "lamont.columbia.edu via Hacker News",
+          "date": "Nov 04",
+          "image": null,
+          "icon": "https://lamont.columbia.edu/favicon.ico",
+          "domain": "lamont.columbia.edu",
+          "hn": "28 points · 0 comments",
+          "score": 2.857,
+          "coverage": 1
+        },
+        {
+          "title": "C++26 Disapproved",
+          "link": "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/",
+          "excerpt": "On October 23, 2026, the unthinkable happened. It was supposed to be a mere formality: C++26 was up for a vote by the ISO National Bodi...",
+          "source": "andreasfertig.com via Hacker News",
+          "date": "Nov 04",
+          "image": "https://andreasfertig.com/img/2026-11-03-cpp26-failed-li.png",
+          "icon": "https://andreasfertig.com/apple-touch-icon.png",
+          "domain": "andreasfertig.com",
+          "hn": "79 points · 20 comments",
+          "score": 3.444,
+          "coverage": 1
+        },
+        {
           "title": "The Internals of PostgreSQL",
           "link": "https://www.interdb.jp/pg/index.html",
-          "excerpt": "112 points · 2 comments",
+          "excerpt": "172 points · 10 comments",
           "source": "interdb.jp via Hacker News",
           "date": "Nov 03",
           "image": null,
           "icon": "https://www.interdb.jp/favicon.ico",
           "domain": "interdb.jp",
-          "hn": "112 points · 2 comments",
-          "score": 3.382,
+          "hn": "172 points · 10 comments",
+          "score": 3.264,
           "coverage": 1
         },
         {
@@ -731,8 +793,8 @@
           "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
           "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png",
           "domain": "arxiv.org",
-          "hn": "232 points · 37 comments",
-          "score": 3.865,
+          "hn": "264 points · 47 comments",
+          "score": 3.522,
           "coverage": 1
         },
         {
@@ -744,34 +806,8 @@
           "image": "https://webkit.org/wp-content/uploads/Demo-of-Adaptive-Dark-Mode_light.png",
           "icon": "https://webkit.org/apple-touch-icon.png",
           "domain": "webkit.org",
-          "hn": "291 points · 187 comments",
-          "score": 4.205,
-          "coverage": 1
-        },
-        {
-          "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
-          "link": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
-          "excerpt": "Google, Meta, others' commitments and obligations reach 80% of assets",
-          "source": "asia.nikkei.com via Hacker News",
-          "date": "Nov 03",
-          "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F1%2F3%2F4%2F13394319-2-eng-GB%2Faad3b104a912-photo_SXM2026103100004660.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-          "icon": "https://asia.nikkei.com/images/frontend/favicons/144x144.png",
-          "domain": "asia.nikkei.com",
-          "hn": "240 points · 107 comments",
-          "score": 3.962,
-          "coverage": 1
-        },
-        {
-          "title": "Pratt parsing is a black box",
-          "link": "https://vinipsmaker.github.io/blog/article/pratt-parsing-is-a-black-box/",
-          "excerpt": "It caught my attention that most of Pratt parsing tutorials that I've stumbled on spend almost all of their time explaining Pratt's algorithm and none explaining the properties behind Pratt that actually matter.",
-          "source": "vinipsmaker.github.io via Hacker News",
-          "date": "Nov 03",
-          "image": "https://vinipsmaker.github.io/blog-heading.webp",
-          "icon": "https://vinipsmaker.github.io/blog/favicon.svg",
-          "domain": "vinipsmaker.github.io",
-          "hn": "38 points · 17 comments",
-          "score": 2.658,
+          "hn": "339 points · 191 comments",
+          "score": 3.804,
           "coverage": 1
         }
       ]

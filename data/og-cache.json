@@ -77,6 +77,12 @@
   "icon": "https://cdn.synaps.media/alsterrunde/content/images/size/w256h256/format/png/2026/05/alsterrunde.webp",
   "image": "https://cdn.synaps.media/alsterrunde/content/images/size/w1200/2026/10/IMG_2755.jpeg"
  },
+ "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/": {
+  "description": "On October 23, 2026, the unthinkable happened. It was supposed to be a mere formality: C++26 was up for a vote by the ISO National Bodi...",
+  "fetched": "2026-11-04",
+  "icon": "https://andreasfertig.com/apple-touch-icon.png",
+  "image": "https://andreasfertig.com/img/2026-11-03-cpp26-failed-li.png"
+ },
  "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8": {
   "description": null,
   "fetched": "2026-10-30",
@@ -184,6 +190,12 @@
   "fetched": "2026-11-01",
   "icon": "https://bbrouter.com/apple-touch-icon.png",
   "image": "https://bbrouter.com/api/public/bbrouter/Ben-Eater-SAP-1/picture?card&r=27"
+ },
+ "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/": {
+  "description": "I document how I use AI, one year after my first writeup. Everything's completely different.",
+  "fetched": "2026-11-04",
+  "icon": "https://ben.stolovitz.com/_astro/apple-touch-icon.CBaaKE1V.png",
+  "image": "https://ben.stolovitz.com/_astro/og.jsHy_xv-_2lnd7v.png"
  },
  "https://blocks.manifold3d.ch/": {
   "description": "41'285 kmÂ², ein Block pro Meter, aus swisstopo-Daten.",
@@ -1127,6 +1139,12 @@
   "icon": "https://labs.ycombinator.com/favicon.png?v=black2",
   "image": "https://labs.ycombinator.com/og.png"
  },
+ "https://lamont.columbia.edu/news/giant-canyon-mars-still-tectonically-active-today": {
+  "description": null,
+  "fetched": "2026-11-04",
+  "icon": null,
+  "image": null
+ },
  "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/": {
   "description": "Since coding is solved, why code for the job?",
   "fetched": "2026-10-28",
@@ -1588,6 +1606,12 @@
   "fetched": "2026-11-02",
   "icon": null,
   "image": null
+ },
+ "https://pavursec.com/blog/stealmybitcoin/": {
+  "description": "Last week, I saw an article on the front page of the New York Times website reporting that a critical vulnerability in PHP had been found. The article, and others like it, claimed any attacker could achieve arbitrary remote code execution on any of the millions of running PHP services worldwide simply by sending a few unauthenticated web requests that exploited the PHP2Shell vulnerability.",
+  "fetched": "2026-11-04",
+  "icon": "https://pavursec.com/media/icon_hu9a38971af2c2beba5807cd7db08d44b5_22339_180x180_fill_lanczos_center_3.png",
+  "image": "https://pavursec.com/media/logo.svg"
  },
  "https://philipotoole.com/twelve-years-of-distributed-sqlite/": {
   "description": "In September 2014 I published a short post announcing rqlite. The idea was simple: take SQLite, put a Raft log in front of it, and replicate every write to a cluster so that the loss of a node did not mean the loss of the data. The source went on GitHub that same weekend. As…",
