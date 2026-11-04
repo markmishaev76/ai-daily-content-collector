@@ -1,18 +1,18 @@
 {
   "date": "2026-11-04",
   "lead": {
-    "title": "Docker Urges Isolation and Governance for AI Agent Security",
-    "link": "https://www.infoq.com/news/2026/11/docker-ai-agent-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-    "excerpt": "Docker has published a guide to five security risks that arise when AI agents are allowed to browse, run code and call tools with limited human oversight. They argue that the autonomy that makes agents useful also makes conventional application security controls insufficient. The company positions…",
-    "source": "InfoQ",
+    "title": "When Cultures Collide in Crisis",
+    "link": "https://sloanreview.mit.edu/article/when-cultures-collide-in-crisis/",
+    "excerpt": "Sergio Ingravalle/Ikon Images High-stakes disruptions test businesses’ cultural agility as well as their operational resilience. As supply chains stretch across continents and leadership teams span time zones, cultural agility becomes a business essential. Many crises now unfold across cultures as…",
+    "source": "MIT Sloan Management Review",
     "date": "Nov 04",
-    "image": "https://res.infoq.com/news/2026/11/docker-ai-agent-security/en/headerimage/generatedHeaderImage-1793733720293.jpg",
+    "image": "https://sloanreview.mit.edu/wp-content/uploads/2026/10/Somer_Collide-1290x860-1.jpg",
     "image_credit": null,
-    "section": "Platform, Cloud & Reliability",
+    "section": "Leadership",
     "pinned": false,
     "note": null,
     "labels": [
-      "Platform, Cloud & Reliability",
+      "Leadership",
       "under 1h ago"
     ],
     "also": []
@@ -25,7 +25,7 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 1.3k points · 415 comments · 15h ago",
+      "meta": "Hacker News · 1.3k points · 453 comments · 19h ago",
       "also": [],
       "image": "https://opengraph.githubassets.com/34bafa214176245a7aed2cca85da459d50b384e27aecc138da1c372cf988d83d/postmanlabs/postman-app-support/issues/14370",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
@@ -37,7 +37,7 @@
       "link_domain": "nytimes.com",
       "source": "Hacker News",
       "domain": "nytimes.com",
-      "meta": "Hacker News · 613 points · 431 comments · 17h ago",
+      "meta": "Hacker News · 630 points · 434 comments · 21h ago",
       "also": [],
       "image": null,
       "icon": "https://www.nytimes.com/favicon.ico"
@@ -49,10 +49,22 @@
       "link_domain": "",
       "source": "Hacker News",
       "domain": "Hacker News",
-      "meta": "Hacker News · 476 points · 144 comments · 18h ago",
+      "meta": "Hacker News · 491 points · 148 comments · 21h ago",
       "also": [],
       "image": null,
       "icon": null
+    },
+    {
+      "title": "Observations from Running stealmybitcoin.com",
+      "thread": "https://lobste.rs/s/fgucra/observations_from_running",
+      "link": "https://pavursec.com/blog/stealmybitcoin/",
+      "link_domain": "pavursec.com",
+      "source": "Lobsters",
+      "domain": "pavursec.com",
+      "meta": "Lobsters · 61 points · 0 comments · 12h ago",
+      "also": [],
+      "image": "https://pavursec.com/media/logo.svg",
+      "icon": "https://pavursec.com/media/icon_hu9a38971af2c2beba5807cd7db08d44b5_22339_180x180_fill_lanczos_center_3.png"
     },
     {
       "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
@@ -61,7 +73,7 @@
       "link_domain": "asia.nikkei.com",
       "source": "Hacker News",
       "domain": "asia.nikkei.com",
-      "meta": "Hacker News · 349 points · 144 comments · 11h ago",
+      "meta": "Hacker News · 367 points · 153 comments · 15h ago",
       "also": [],
       "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F1%2F3%2F4%2F13394319-2-eng-GB%2Faad3b104a912-photo_SXM2026103100004660.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
       "icon": "https://asia.nikkei.com/images/frontend/favicons/144x144.png"
@@ -73,34 +85,10 @@
       "link_domain": "arxiv.org",
       "source": "Hacker News",
       "domain": "arxiv.org",
-      "meta": "Hacker News · 334 points · 51 comments · 11h ago",
+      "meta": "Hacker News · 357 points · 56 comments · 14h ago",
       "also": [],
       "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png"
-    },
-    {
-      "title": "Observations from Running stealmybitcoin.com",
-      "thread": "https://lobste.rs/s/fgucra/observations_from_running",
-      "link": "https://pavursec.com/blog/stealmybitcoin/",
-      "link_domain": "pavursec.com",
-      "source": "Lobsters",
-      "domain": "pavursec.com",
-      "meta": "Lobsters · 40 points · 0 comments · 9h ago",
-      "also": [],
-      "image": "https://pavursec.com/media/logo.svg",
-      "icon": "https://pavursec.com/media/icon_hu9a38971af2c2beba5807cd7db08d44b5_22339_180x180_fill_lanczos_center_3.png"
-    },
-    {
-      "title": "Just a little AI resistance, as a treat",
-      "thread": "https://news.ycombinator.com/item?id=50352257",
-      "link": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat/",
-      "link_domain": "shkspr.mobi",
-      "source": "Hacker News",
-      "domain": "shkspr.mobi",
-      "meta": "Hacker News · 173 points · 108 comments · 19h ago",
-      "also": [],
-      "image": "https://shkspr.mobi/blog/wp-content/uploads/2017/11/Confused-Robot.jpg",
-      "icon": "https://shkspr.mobi/blog/wp-content/uploads/2023/07/cropped-avatar-180x180.jpeg"
     },
     {
       "title": "How I use AI (Oct 2026)",
@@ -109,10 +97,22 @@
       "link_domain": "ben.stolovitz.com",
       "source": "Hacker News",
       "domain": "ben.stolovitz.com",
-      "meta": "Hacker News · 168 points · 154 comments · 15h ago",
+      "meta": "Hacker News · 192 points · 229 comments · 18h ago",
       "also": [],
       "image": "https://ben.stolovitz.com/_astro/og.jsHy_xv-_2lnd7v.png",
       "icon": "https://ben.stolovitz.com/_astro/apple-touch-icon.CBaaKE1V.png"
+    },
+    {
+      "title": "Just a little AI resistance, as a treat",
+      "thread": "https://news.ycombinator.com/item?id=50352257",
+      "link": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat/",
+      "link_domain": "shkspr.mobi",
+      "source": "Hacker News",
+      "domain": "shkspr.mobi",
+      "meta": "Hacker News · 175 points · 108 comments · 22h ago",
+      "also": [],
+      "image": "https://shkspr.mobi/blog/wp-content/uploads/2017/11/Confused-Robot.jpg",
+      "icon": "https://shkspr.mobi/blog/wp-content/uploads/2023/07/cropped-avatar-180x180.jpeg"
     },
     {
       "title": "Gitbook Breached",
@@ -121,7 +121,7 @@
       "link_domain": "",
       "source": "Hacker News",
       "domain": "Hacker News",
-      "meta": "Hacker News · 155 points · 36 comments · 16h ago",
+      "meta": "Hacker News · 161 points · 37 comments · 19h ago",
       "also": [],
       "image": null,
       "icon": null
@@ -133,7 +133,7 @@
       "link_domain": "lordtoots.bearblog.dev",
       "source": "Hacker News",
       "domain": "lordtoots.bearblog.dev",
-      "meta": "Hacker News · 123 points · 115 comments · 17h ago",
+      "meta": "Hacker News · 124 points · 116 comments · 20h ago",
       "also": [],
       "image": "https://bearblog.dev/static/og-image.png",
       "icon": "https://lordtoots.bearblog.dev/favicon.ico"
@@ -153,7 +153,20 @@
           "icon": null,
           "domain": "newsletter.pragmaticengineer.com",
           "hn": null,
-          "score": 0.636,
+          "score": 0.571,
+          "coverage": 1
+        },
+        {
+          "title": "Why DORA wasn’t enough, and what came next",
+          "link": "https://newsletter.getdx.com/p/why-dora-wasnt-enough-and-what-came",
+          "excerpt": "Part II: The evolution of developer measurement",
+          "source": "DX",
+          "date": "Nov 04",
+          "image": "https://substack-post-media.s3.amazonaws.com/public/images/d4098e51-4ca6-433d-8248-884d32c7f033_2400x1260.png",
+          "icon": null,
+          "domain": "newsletter.getdx.com",
+          "hn": null,
+          "score": 1.339,
           "coverage": 1
         },
         {
@@ -166,20 +179,7 @@
           "icon": null,
           "domain": "leaddev.com",
           "hn": null,
-          "score": 1.401,
-          "coverage": 1
-        },
-        {
-          "title": "StateBench: Testing how language models track state changes over long documents",
-          "link": "https://huggingface.co/blog/allenai/statebench",
-          "excerpt": "A Blog post by Ai2 on Hugging Face",
-          "source": "Hugging Face",
-          "date": "Nov 03",
-          "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/5g9HfQLFFaQE0fslWrxh0.png",
-          "icon": "https://huggingface.co/favicon.ico",
-          "domain": "huggingface.co",
-          "hn": null,
-          "score": 0.643,
+          "score": 1.119,
           "coverage": 1
         }
       ],
@@ -194,7 +194,20 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.626,
+          "score": 0.562,
+          "coverage": 1
+        },
+        {
+          "title": "StateBench: Testing how language models track state changes over long documents",
+          "link": "https://huggingface.co/blog/allenai/statebench",
+          "excerpt": "A Blog post by Ai2 on Hugging Face",
+          "source": "Hugging Face",
+          "date": "Nov 03",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/5g9HfQLFFaQE0fslWrxh0.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null,
+          "score": 0.576,
           "coverage": 1
         },
         {
@@ -207,7 +220,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.628,
+          "score": 0.564,
           "coverage": 1
         },
         {
@@ -220,7 +233,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.398,
+          "score": 0.371,
           "coverage": 1
         }
       ]
@@ -238,7 +251,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 2.351,
+          "score": 2.142,
           "coverage": 1
         },
         {
@@ -251,24 +264,9 @@
           "icon": "https://www.daytona.io/apple-touch-icon.png",
           "domain": "daytona.io",
           "hn": null,
-          "score": 0.331,
+          "score": 0.309,
           "coverage": 1
         },
-        {
-          "title": "Kitty 0.50",
-          "link": "https://sw.kovidgoyal.net/kitty/changelog/#",
-          "excerpt": "kitty is a feature-rich, cross-platform, fast, GPU based terminal. To update kitty, follow the instructions. Recent major new features: Docked windows [0.50]: kitty windows can now be docked to an ...",
-          "source": "sw.kovidgoyal.net via Hacker News",
-          "date": "Nov 04",
-          "image": "https://sw.kovidgoyal.net/kitty/_images/social_previews/summary_changelog_3a0c7623.png",
-          "icon": "https://sw.kovidgoyal.net/kitty/_static/kitty.svg",
-          "domain": "sw.kovidgoyal.net",
-          "hn": "23 points · 6 comments",
-          "score": 5.628,
-          "coverage": 1
-        }
-      ],
-      "more": [
         {
           "title": "How Cisco defends at machine speed with OpenAI",
           "link": "https://openai.com/index/cisco-cyber",
@@ -279,9 +277,11 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.503,
+          "score": 0.463,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
           "link": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
@@ -292,7 +292,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.414,
+          "score": 0.387,
           "coverage": 1
         },
         {
@@ -305,7 +305,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.451,
+          "score": 0.411,
           "coverage": 1
         }
       ]
@@ -323,9 +323,37 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.516,
+          "score": 0.464,
           "coverage": 1
         },
+        {
+          "title": "AI on the Ballot",
+          "link": "https://stratechery.com/2026/ai-on-the-ballot/",
+          "excerpt": "Data Centers were on the ballot, and they lost in a major way; what does it mean if American opposition to building is permanent?",
+          "source": "Stratechery by Ben Thompson",
+          "date": "Nov 04",
+          "image": "https://i0.wp.com/stratechery.com/wp-content/uploads/2025/03/nvdia-gts-1.png?resize=1330%2C738&ssl=1",
+          "icon": null,
+          "domain": "stratechery.com",
+          "hn": null,
+          "score": 1.111,
+          "coverage": 1
+        },
+        {
+          "title": "The AI-enabled risk function of the future",
+          "link": "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/the-ai-enabled-risk-function-of-the-future",
+          "excerpt": "AI is reshaping how banks manage risk. The next challenge is scaling AI capabilities through a redesigned risk operating model.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 04",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.612,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "The 1 percent wake-up call for life insurers",
           "link": "https://www.mckinsey.com/industries/financial-services/our-insights/the-1-percent-wake-up-call-for-life-insurers",
@@ -336,7 +364,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.331,
+          "score": 0.309,
           "coverage": 1
         },
         {
@@ -349,11 +377,10 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.331,
+          "score": 0.309,
           "coverage": 1
         }
-      ],
-      "more": []
+      ]
     },
     {
       "name": "Agent Identity & Authorization",
@@ -368,7 +395,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 2.307,
+          "score": 2.086,
           "coverage": 1
         },
         {
@@ -381,7 +408,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 1.496,
+          "score": 1.396,
           "coverage": 1
         },
         {
@@ -394,7 +421,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 1.496,
+          "score": 1.396,
           "coverage": 1
         }
       ],
@@ -409,7 +436,33 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 1.326,
+          "score": 1.237,
+          "coverage": 1
+        },
+        {
+          "title": "Send your own AuthKit emails: Invitations, Magic Auth, verification and password reset",
+          "link": "https://workos.com/blog/authkit-custom-emails",
+          "excerpt": "Turning off AuthKit's default emails is one setting. The work is the four flows you then own: invitations, Magic Auth, email verification and password reset.",
+          "source": "WorkOS Blog",
+          "date": "Nov 04",
+          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9f3515f5f8e8df56ac828_authkit-custom-emails-og.webp",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null,
+          "score": 0.392,
+          "coverage": 1
+        },
+        {
+          "title": "Evaluate feature flags locally in Node with the WorkOS runtime client",
+          "link": "https://workos.com/blog/workos-feature-flags-node-runtime-client",
+          "excerpt": "The WorkOS Node SDK ships a feature flags runtime client that keeps flag configuration in memory, so a flag check on a hot path never waits on a request.",
+          "source": "WorkOS Blog",
+          "date": "Nov 04",
+          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9f329ebb0e4b50da60281_workos-feature-flags-node-runtime-client-og.webp",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null,
+          "score": 0.392,
           "coverage": 1
         },
         {
@@ -422,7 +475,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.452,
+          "score": 0.392,
           "coverage": 1
         },
         {
@@ -435,33 +488,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.452,
-          "coverage": 1
-        },
-        {
-          "title": "SSO just-in-time provisioning: How to match a login to an existing user safely",
-          "link": "https://workos.com/blog/sso-jit-provisioning-account-matching",
-          "excerpt": "Just-in-time provisioning is a resolution order in your SSO callback. Here is the order, the condition that makes the email match safe, and what to store.",
-          "source": "WorkOS Blog",
-          "date": "Nov 04",
-          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9f2f17fee77bc69bfbe5b_sso-jit-provisioning-account-matching-og.webp",
-          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
-          "domain": "workos.com",
-          "hn": null,
-          "score": 0.452,
-          "coverage": 1
-        },
-        {
-          "title": "GitHub App installation tokens are now 520 characters: What to check before November 30",
-          "link": "https://workos.com/blog/github-app-installation-token-format-change",
-          "excerpt": "GitHub App installation tokens are now about 520 characters instead of 40. What to audit before the override header is deprecated on November 30, 2026.",
-          "source": "WorkOS Blog",
-          "date": "Nov 04",
-          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6aea10af7192b41670f10da3_github-app-installation-token-format-change-og.webp",
-          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
-          "domain": "workos.com",
-          "hn": null,
-          "score": 0.452,
+          "score": 0.392,
           "coverage": 1
         }
       ]
@@ -479,7 +506,7 @@
           "icon": "https://www.hashicorp.com/favicon.ico",
           "domain": "hashicorp.com",
           "hn": null,
-          "score": 2.271,
+          "score": 2.089,
           "coverage": 1
         },
         {
@@ -492,7 +519,7 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 2.297,
+          "score": 2.068,
           "coverage": 1
         }
       ],
@@ -511,7 +538,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 5.478,
+          "score": 4.822,
           "coverage": 1
         },
         {
@@ -524,7 +551,7 @@
           "icon": null,
           "domain": "openssf.org",
           "hn": null,
-          "score": 0.463,
+          "score": 0.412,
           "coverage": 1
         }
       ],
@@ -533,6 +560,32 @@
     {
       "name": "Security & AppSec",
       "cards": [
+        {
+          "title": "Malicious cPGuard Updates Served in OpsShield Supply Chain Attack",
+          "link": "https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/",
+          "excerpt": "Using compromised credentials, the attackers accessed OpsShield’s update servers and poisoned multiple cPGuard versions. The post Malicious cPGuard Updates Served in OpsShield Supply Chain Attack appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 04",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/06/supply-chain-threat.webp",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 5.063,
+          "coverage": 1
+        },
+        {
+          "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
+          "link": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
+          "excerpt": "Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kind of agent, the kind whose traffic passes through a gateway the enterprise owns. Most agents never touch one. One recent case shows what that gap looks like…",
+          "source": "The Hacker News",
+          "date": "Nov 04",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQqFIm3V3DsL6rHtjhkN8qVT2sU-caHUEuPgeepdZ6lLsIJ-09GFg_HVVBgeHP36W0abqUeCuaNuAOIheSGYB9hxmHbQGcgREBBxStEFLijgx-Cd8C8Z8wLuxgFFu75O8hAAOcdjAxgCZ-iYoBvYS09AcITdqMnmLZOn2JdGaEp04SPrgYkgQ14dl1S0JS/s1600/reco.gif",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 4.295,
+          "coverage": 1
+        },
         {
           "title": "AI policy wonks declare 'sovereign agents' a threat to civilization",
           "link": "https://www.theregister.com/security/2026/11/03/ai-policy-wonks-declare-sovereign-agents-a-threat-to-civilization/5307354",
@@ -543,7 +596,48 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 1.976,
+          "score": 1.755,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
+          "link": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+          "excerpt": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in an advisory and fixed it in versions 8.1.4.1 and 8.0.5.2. The…",
+          "source": "The Hacker News",
+          "date": "Nov 04",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaJWnScdkMx0R5_Zt00NtYVNjNavBR7IMrLzJM_tZGMTpZtAvV7uNWt6BQbBrlUzH-aBoj_ZmMEOG__aTA8VmfTeiHUR9gfqNe2eYf9fSM-sYQkmCOg10qZ3ZaKyM_RS1QUQhm8s5NMw-xnYaWMDgDakmFyp9tbJgQ4hOZTf0cxe9E6x7uWt3JeN6bS3k/s1600/ruby-rails.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.727,
+          "coverage": 1
+        },
+        {
+          "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
+          "link": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+          "excerpt": "Two flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, including dom0. Dom0 is the VM that, by default, has full permissions and manages the others. Patches are out, and there is no known mitigation, the Xen Project…",
+          "source": "The Hacker News",
+          "date": "Nov 04",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAVPXiuTBfhBnpwaZHMfSDWymKJrXbS88kOEO1Xuh5t11qAnwSKeFTHGQy6ZG9Sr2N-wRYrJg58x3lKFbybvU9p1a85lxaCHfBa61vO1DfjEhUi5Yzf6bQS1eN7Mu-s_sUwkE-JGc-UznJ1p0qfmwMDusXFzWawXKXMt6jj-vENxyQG12uAUDUe0p0gtg/s1600/xen.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.707,
+          "coverage": 1
+        },
+        {
+          "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+          "link": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+          "excerpt": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called DarkVigil (aka FDMTP).…",
+          "source": "The Hacker News",
+          "date": "Nov 04",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMawvNNOvRYRm-k7ii9yDdw214v4kwQ7h5fAfOaUVkvMetNwArral8qumlObtaftjOcBsibL9vkqM1UT0-9l9jYPjj3M3C9NcPfg5pdIuENUfdKlK7lyseCS30AVhgLLs6a-2fdXlSDymSVeyIziO7IC13HFCaOf1v4sjbgmkeKfewWNsbTJCJ0WR2zLBZ/s1600/key.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.687,
           "coverage": 1
         },
         {
@@ -556,7 +650,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.694,
+          "score": 0.555,
           "coverage": 1
         },
         {
@@ -569,74 +663,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 3.336,
-          "coverage": 2
-        }
-      ],
-      "more": [
-        {
-          "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
-          "link": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
-          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The high-severity vulnerability, tracked as CVE-2026-119977 (CVSS score: 8.1), is a case of…",
-          "source": "The Hacker News",
-          "date": "Nov 04",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9IgE0BWDAvYzjY8wFSMADIRn69AMLYxUa-oPoOISNBOpPbxwBNoWrbXWzI6P0deiU6WDqitiIZx1gFXSAlR8xX9rj56BuU48veMEPJAGSsmQTbVPirFOCuyMc_KQxtbPfc841GZGZ-3HSYYHCGbHnzrihtwQUaMlXrT3leLzI2USh00hc9OBw4k1SCJt4/s1600/wp-exploit.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.579,
-          "coverage": 1
-        },
-        {
-          "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
-          "link": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
-          "excerpt": "Customers of the mSecure password manager are being urged to act now to protect the confidential information they store in it, possibly by changing passwords, resetting two-factor authentication (2FA), and removing passkeys. The warning came in an email sent on November 3 in the name of developer…",
-          "source": "The Hacker News",
-          "date": "Nov 03",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtvbYhodewxI1TOMjVp0GKUmMdudVKH27My8auvMEvDbCkd_JBzdJjjBb99j2a2a9R1wgkOaTdLcM_9FEmpyweVquFetLeyfzSC5UgpukK8Ukw7keJb5HwmTnPP1qWT2QzVX3FKLtBKLDFnuMrzmfgW5dwYf6SJHZHqSDj_eYGdap3ECOMMI1Em6_oS_0/s1600/msecure.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 1.699,
-          "coverage": 2
-        },
-        {
-          "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
-          "link": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
-          "excerpt": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure. The incident is assessed to be part of a large-scale, artificial intelligence (AI)-powered attack…",
-          "source": "The Hacker News",
-          "date": "Nov 03",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMgLc61q6cTompbBY4lS-pqinmS1_3vYBYH7OVnnFTmOZfMk8R7houuqUmnMhUs-gTI-55HwieAaPuCI_zhc0XNw74PhfZVbCjWexPUUugMc1crPvP6uQsic7o3GDy5KXbYJE8LtXqdban8cTcfnn9AxRgOkR0w5_bQx-pHTR1A5-ttEHcpqGkgYajjSiA/s1600/chainstack.png",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 2.335,
-          "coverage": 1
-        },
-        {
-          "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
-          "link": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
-          "excerpt": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and recruitment-themed social engineering attack…",
-          "source": "The Hacker News",
-          "date": "Nov 03",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZCMCR8h3YCPcfY8Fbe54ckYKh_YUt_Yd7v82dAHobZtMNlQl_JVKWUX4OUPwR0dEmYsLNfeKsW6rUthk8pYRVhIddbPXx86sHCcNBRL9E-9LJTPrYSYwJ_V66EwGJNFeoWgDPbjcGfeJ4w2qn_gfTjXBoNAnfWq4GZ8rq7VOhnqt4QlItYEBr3Zar7XL1/s1600/bin.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.318,
-          "coverage": 1
-        },
-        {
-          "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
-          "link": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
-          "excerpt": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device. The vulnerabilities, a pre-authentication authorization bypass vulnerability and a command…",
-          "source": "The Hacker News",
-          "date": "Nov 03",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCvGJCkYjldhAvsjMo47UqxGOTfVY1zCcjZQzgebkO8j1__fa0cFOn3CAV1jPTUpzwDDISQKPQP5eVGOl9BzRLBX7KlWuU2HMpzuHRWV2wyaItDwYgPu0X7m3qE5V1kgFzKZ1QYcRBcZyDqkUTFberiOWXBfV_-suYC1QQWq_TwBMeyme4F0FsOZnpijhC/s1600/barracuda.png",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 1.537,
+          "score": 2.69,
           "coverage": 2
         }
       ]
@@ -654,7 +681,20 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.427,
+          "score": 2.233,
+          "coverage": 1
+        },
+        {
+          "title": "Docker Urges Isolation and Governance for AI Agent Security",
+          "link": "https://www.infoq.com/news/2026/11/docker-ai-agent-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Docker has published a guide to five security risks that arise when AI agents are allowed to browse, run code and call tools with limited human oversight. They argue that the autonomy that makes agents useful also makes conventional application security controls insufficient. The company positions…",
+          "source": "InfoQ",
+          "date": "Nov 04",
+          "image": "https://res.infoq.com/news/2026/11/docker-ai-agent-security/en/headerimage/generatedHeaderImage-1793733720293.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 5.833,
           "coverage": 1
         },
         {
@@ -667,9 +707,11 @@
           "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 3.159,
+          "score": 2.834,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Evaluate your AI agents with Fireworks AI models in Datadog Agent Observability",
           "link": "https://www.datadoghq.com/blog/fireworks-ai-integration/",
@@ -680,11 +722,9 @@
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
           "hn": null,
-          "score": 1.671,
+          "score": 1.559,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Introducing Physical-Engineering’s Last Exam for agents",
           "link": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-physical-engineerings-last-exam-for-agents/",
@@ -695,7 +735,33 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.846,
+          "score": 1.699,
+          "coverage": 1
+        },
+        {
+          "title": "OpenShell on Kubernetes: A guide for platform engineers",
+          "link": "https://www.cncf.io/blog/2026/11/04/openshell-on-kubernetes-a-guide-for-platform-engineers/",
+          "excerpt": "What OpenShell is AI agents do more than call APIs. They run shells, install packages, read files, and open network connections. Often they act on text they pulled from the internet a minute earlier. So every...",
+          "source": "Blog – Cloud Native Computing Foundation",
+          "date": "Nov 04",
+          "image": "https://www.cncf.io/wp-content/uploads/2026/10/image-41.png",
+          "icon": null,
+          "domain": "cncf.io",
+          "hn": null,
+          "score": 4.063,
+          "coverage": 1
+        },
+        {
+          "title": "Presentation: Panel: Who Builds the Frontend Now? (And What Breaks When They Do)",
+          "link": "https://www.infoq.com/presentations/panel-ai-frontend-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "The panelists explain how AI tools and vibe coding reshape frontend and mobile engineering. They share insights on evolving junior developer roles, managing AI-generated code review fatigue, designing systems for autonomous agents, enforcing architectural guardrails, and navigating economic shifts…",
+          "source": "InfoQ",
+          "date": "Nov 04",
+          "image": "https://res.infoq.com/presentations/panel-ai-frontend-architecture/en/mediumimage/medium-1792133520845.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 3.762,
           "coverage": 1
         },
         {
@@ -708,33 +774,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.651,
-          "coverage": 1
-        },
-        {
-          "title": "Bridging Alloy and OpenTelemetry: the OTel engine is now in Public Preview",
-          "link": "https://grafana.com/blog/bridging-alloy-and-opentelemetry-the-otel-engine-is-now-in-public-preview/",
-          "excerpt": "Many Grafana Cloud customers love what Alloy offers them, but we're also seeing a growing base of users who feel the same way about the OpenTelemetry Collector. We want to make it easy for customers to make the decision that makes the most sense, regardless of their preference.When we introduced…",
-          "source": "Grafana Labs blog on Grafana Labs",
-          "date": "Nov 03",
-          "image": "https://a-us.storyblok.com/f/1022730/1200x630/4fb347aef4/otel-engine-preview-meta.jpeg/m/1200x630/filters:quality(80)/",
-          "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
-          "domain": "grafana.com",
-          "hn": null,
-          "score": 1.897,
-          "coverage": 1
-        },
-        {
-          "title": "Trace linkage: connect the dots between your app traces and database queries",
-          "link": "https://grafana.com/blog/trace-linkage-connect-the-dots-between-your-app-traces-and-database-queries/",
-          "excerpt": "When an application request slows down, a trace can show a database call. Finding the database query behind it can be tedious, requiring you to switch between traces and database telemetry, as well as match timestamps or query text by hand. In Grafana Cloud, the Database Observability app already…",
-          "source": "Grafana Labs blog on Grafana Labs",
-          "date": "Nov 03",
-          "image": "https://a-us.storyblok.com/f/1022730/1200x630/70ad706ff3/62fde979-5ae8-429c-96b0-2d539aeb6b5d.jpeg/m/1200x630/filters:quality(80)/",
-          "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
-          "domain": "grafana.com",
-          "hn": null,
-          "score": 1.491,
+          "score": 1.475,
           "coverage": 1
         }
       ]
@@ -752,7 +792,7 @@
           "icon": null,
           "domain": "spectrum.ieee.org",
           "hn": null,
-          "score": 2.399,
+          "score": 2.136,
           "coverage": 1
         },
         {
@@ -765,87 +805,87 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 1.618,
+          "score": 1.42,
           "coverage": 1
         },
         {
-          "title": "AI stocks slide as Texas governor result raises data center risks",
-          "link": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
-          "excerpt": "Tech stocks were down in overnight trading, and grew more severe as the night wore on, as the likelihood of a blue wave grew.",
-          "source": "cnbc.com via Hacker News",
+          "title": "Hackers hit French national blood bank",
+          "link": "https://www.telegraph.co.uk/world-news/2026/11/04/hackers-hit-french-blood-bank/",
+          "excerpt": "Cold storage facilities affected during attack targeting refrigeration systems throughout Europe",
+          "source": "telegraph.co.uk via Hacker News",
           "date": "Nov 04",
-          "image": "https://image.cnbcfm.com/api/v1/image/108511091-1793714895762-gettyimages-2302880756-US_MIDTERMS.jpeg?v=1793714928&w=1920&h=1080",
-          "icon": "https://fm.cnbc.com/applications/cnbc.com/resources/img/CNBC_LOGO_FAVICON_1C_KO_RGB.ico",
-          "domain": "cnbc.com",
-          "hn": "25 points · 14 comments",
-          "score": 3.116,
+          "image": "https://www.telegraph.co.uk/content/dam/world-news/2026/11/04/TELEMMGLPICT000510367521_17937907750130_trans_NvBQzQNjv4Bq8jWyxvP9pmIYP_osKFfWzygOoV7jtqb1rQ6_6TwBR2U.jpeg?impolicy=OG-Standard",
+          "icon": "https://www.telegraph.co.uk/etc.clientlibs/settings/wcm/designs/telegraph/core/clientlibs/core/resources/icons/apple-touch-icon-180x180.png",
+          "domain": "telegraph.co.uk",
+          "hn": "11 points · 4 comments",
+          "score": 2.855,
           "coverage": 1
         }
       ],
       "more": [
         {
-          "title": "The lost malloc()",
-          "link": "https://napcakes.nekoweb.org/posts/malloc/",
-          "excerpt": "20 points · 3 comments",
-          "source": "napcakes.nekoweb.org via Hacker News",
+          "title": "AI is forcing us to pay off 40 years of technical debt",
+          "link": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+          "excerpt": "AI is forcing us to pay off 40 years of technical debt",
+          "source": "spectrum.ieee.org via Hacker News",
           "date": "Nov 04",
-          "image": null,
-          "icon": "https://napcakes.nekoweb.org/favicon.ico",
-          "domain": "napcakes.nekoweb.org",
-          "hn": "20 points · 3 comments",
-          "score": 2.885,
+          "image": "https://spectrum.ieee.org/media-library/image.jpg?id=68544156&width=1200&height=600&coordinates=0%2C312%2C0%2C313",
+          "icon": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNjU5NjY0OS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTg0ODgxODUwNn0.1LlzHtxZSVXyzapxWjeSrRIRu5qo3CeB8FaWpd2tl_o/img.png?width=192&height=192",
+          "domain": "spectrum.ieee.org",
+          "hn": "62 points · 13 comments",
+          "score": 4.023,
           "coverage": 1
         },
         {
-          "title": "Jelly Sheet",
-          "link": "https://mrdoob.github.io/codevember-2026/01/",
-          "excerpt": "223 points · 58 comments",
-          "source": "mrdoob.github.io via Hacker News",
+          "title": "Synaptics Appears to Use Legal Threats to Block Open-Source DisplayLink Driver",
+          "link": "https://www.phoronix.com/news/Synaptics-Blocks-Vino-Driver",
+          "excerpt": "From earlier in the year you may recall a new experimental open-source Linux driver for modern DisplayLink hardware",
+          "source": "phoronix.com via Hacker News",
           "date": "Nov 04",
-          "image": null,
-          "icon": "https://mrdoob.github.io/favicon.ico",
-          "domain": "mrdoob.github.io",
-          "hn": "223 points · 58 comments",
-          "score": 3.634,
+          "image": "https://www.phoronix.net/image.php?id=2026&image=no_vino",
+          "icon": "https://www.phoronix.com/apple-touch-icon-57x57.png",
+          "domain": "phoronix.com",
+          "hn": "10 points · 1 comments",
+          "score": 2.444,
           "coverage": 1
         },
         {
-          "title": "Distinct cellular and genetic differences in colorectal cancer in young patients",
-          "link": "https://www.dana-farber.org/newsroom/news-releases/2026/study-reveals-distinct-cellular-and-genetic-differences-in-colorectal-cancer-in-younger-patients",
-          "excerpt": "Dana-Farber Cancer Institute researchers, along with Mass General Brigham researchers from the Gene Lay Institute of Immunology and Inflammation, and the Broad Institute, have uncovered biological clues to why colorectal cancer can behave more aggressively in younger people. Published today in…",
-          "source": "dana-farber.org via Hacker News",
+          "title": "Geoffrey Hinton: it might turn out we were better off without AI",
+          "link": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+          "excerpt": "Nobel winner warns the tech could be near to triggering major incident such as power or banking shutdown",
+          "source": "theguardian.com via Hacker News",
           "date": "Nov 04",
-          "image": null,
-          "icon": "https://www.dana-farber.org/sites/default/files/favicon.ico",
-          "domain": "dana-farber.org",
-          "hn": "65 points · 12 comments",
-          "score": 2.85,
+          "image": "https://i.guim.co.uk/img/media/2874e862dc2a0fc34d651f70e5ecffd542d947a6/543_22_2658_2128/master/2658.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ae0638cdbc3daea6b3a154d41c73dad9",
+          "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg",
+          "domain": "theguardian.com",
+          "hn": "80 points · 48 comments",
+          "score": 3.976,
           "coverage": 1
         },
         {
-          "title": "Arrows to arrows, categories to queries (2025)",
-          "link": "https://reasonablypolymorphic.com/blog/arrows-to-arrows/",
-          "excerpt": "45 points · 2 comments",
-          "source": "reasonablypolymorphic.com via Hacker News",
+          "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+          "link": "https://news.ycombinator.com/item?id=50363461",
+          "excerpt": "98 points · 33 comments",
+          "source": "Hacker News",
           "date": "Nov 04",
           "image": null,
-          "icon": "https://reasonablypolymorphic.com/favicon.ico",
-          "domain": "reasonablypolymorphic.com",
-          "hn": "45 points · 2 comments",
-          "score": 2.559,
+          "icon": null,
+          "domain": "news.ycombinator.com",
+          "hn": "98 points · 33 comments",
+          "score": 3.931,
           "coverage": 1
         },
         {
-          "title": "Giant canyon on Mars is still tectonically active",
-          "link": "https://lamont.columbia.edu/news/giant-canyon-mars-still-tectonically-active-today",
-          "excerpt": "79 points · 9 comments",
-          "source": "lamont.columbia.edu via Hacker News",
+          "title": "Incident with Pull Requests, Git Operations and Issues",
+          "link": "https://www.githubstatus.com/incidents/smtdswd1h2w4",
+          "excerpt": "GitHub's Status Page - Incident with Pull Requests, Git Operations and Issues.",
+          "source": "githubstatus.com via Hacker News",
           "date": "Nov 04",
-          "image": null,
-          "icon": "https://lamont.columbia.edu/favicon.ico",
-          "domain": "lamont.columbia.edu",
-          "hn": "79 points · 9 comments",
-          "score": 2.676,
+          "image": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png",
+          "icon": "https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/36420/akacZEQQfOBdc7ftyxJt",
+          "domain": "githubstatus.com",
+          "hn": "103 points · 49 comments",
+          "score": 3.986,
           "coverage": 1
         }
       ]

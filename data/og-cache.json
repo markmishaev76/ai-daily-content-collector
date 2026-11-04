@@ -1847,6 +1847,12 @@
   "icon": null,
   "image": null
  },
+ "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability": {
+  "description": "AI is forcing us to pay off 40 years of technical debt",
+  "fetched": "2026-11-04",
+  "icon": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNjU5NjY0OS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTg0ODgxODUwNn0.1LlzHtxZSVXyzapxWjeSrRIRu5qo3CeB8FaWpd2tl_o/img.png?width=192&height=192",
+  "image": "https://spectrum.ieee.org/media-library/image.jpg?id=68544156&width=1200&height=600&coordinates=0%2C312%2C0%2C313"
+ },
  "https://spectrum.ieee.org/early-electric-vehicles": {
   "description": "Early carmakers decided women wanted cars that were quiet, clean, and easy to start",
   "fetched": "2026-11-01",
@@ -2297,6 +2303,12 @@
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae3a508953fd3d0e6dd22ac_authkit-branding-per-application-og.webp"
  },
+ "https://workos.com/blog/authkit-custom-emails": {
+  "description": "Turning off AuthKit's default emails is one setting. The work is the four flows you then own: invitations, Magic Auth, email verification and password reset.",
+  "fetched": "2026-11-04",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9f3515f5f8e8df56ac828_authkit-custom-emails-og.webp"
+ },
  "https://workos.com/blog/authkit-test-email-domains-deliverability-check": {
   "description": "AuthKit rejects sign-ups and invitations at domains that can't receive mail. The reserved test domains that keep seeded environments and CI suites green.",
   "fetched": "2026-10-28",
@@ -2416,6 +2428,12 @@
   "fetched": "2026-10-29",
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://images.workoscdn.com/images/cc6bebaf-e25f-40f4-9321-2f7da4c98b9e.png?auto=format&fit=clip&q=80"
+ },
+ "https://workos.com/blog/workos-feature-flags-node-runtime-client": {
+  "description": "The WorkOS Node SDK ships a feature flags runtime client that keeps flag configuration in memory, so a flag check on a hot path never waits on a request.",
+  "fetched": "2026-11-04",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9f329ebb0e4b50da60281_workos-feature-flags-node-runtime-client-og.webp"
  },
  "https://workos.com/blog/zeabur-breach-customer-secrets": {
   "description": "A cluster admin token created in 2024 and never rotated led to 3.2 million customer environment variables being read. What that means if your product stores credentials for your customers.",
@@ -2933,6 +2951,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.githubstatus.com/incidents/smtdswd1h2w4": {
+  "description": "GitHub's Status Page - Incident with Pull Requests, Git Operations and Issues.",
+  "fetched": "2026-11-04",
+  "icon": "https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/36420/akacZEQQfOBdc7ftyxJt",
+  "image": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+ },
  "https://www.gregoryalexander.com/blog/2026/10/23/is-php-quietly-running-on-your-coldfusion-server-how-to-check-and-remove-it": {
   "description": null,
   "fetched": "2026-10-27",
@@ -3020,6 +3044,12 @@
  "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/critical-infrastructure-is-under-threat-are-organizations-prepared": {
   "description": null,
   "fetched": "2026-11-02",
+  "icon": null,
+  "image": null
+ },
+ "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/the-ai-enabled-risk-function-of-the-future": {
+  "description": null,
+  "fetched": "2026-11-04",
   "icon": null,
   "image": null
  },
@@ -3220,6 +3250,12 @@
   "fetched": "2026-10-30",
   "icon": "https://www.penligent.ai/hackinglabs/wp-content/uploads/2025/12/cropped-penligent1-scaled-1-180x180.png",
   "image": "https://www.penligent.ai/hackinglabs/wp-content/uploads/2026/10/clipboard-285.png"
+ },
+ "https://www.phoronix.com/news/Synaptics-Blocks-Vino-Driver": {
+  "description": "From earlier in the year you may recall a new experimental open-source Linux driver for modern DisplayLink hardware",
+  "fetched": "2026-11-04",
+  "icon": "https://www.phoronix.com/apple-touch-icon-57x57.png",
+  "image": "https://www.phoronix.net/image.php?id=2026&image=no_vino"
  },
  "https://www.plagiarismtoday.com/2026/10/26/ai-is-ruining-haunted-attractions/": {
   "description": "Increasingly, it feels like AI-generated content is everywhere. But while it’s often disappointing, it’s outright ruining the haunted attraction industry.",
@@ -3527,6 +3563,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/10/supply-chain-attack.jpeg"
  },
+ "https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/": {
+  "description": "Attackers compromised OpsShield’s update process and pushed multiple cPGuard updates containing malicious code.",
+  "fetched": "2026-11-04",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/06/supply-chain-threat.webp"
+ },
  "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/": {
   "description": "Hackers exploited CVE-2026-97229, a max-severity code execution vulnerability in GitLab, against Alpine Linux’s instance.",
   "fetched": "2026-11-01",
@@ -3713,6 +3755,12 @@
   "icon": "https://www.techspot.com/images/ts3mobile-badge.png",
   "image": "https://www.techspot.com/images2/news/bigimage/2026/11/2026-11-03-image-7.jpg"
  },
+ "https://www.telegraph.co.uk/world-news/2026/11/04/hackers-hit-french-blood-bank/": {
+  "description": "Cold storage facilities affected during attack targeting refrigeration systems throughout Europe",
+  "fetched": "2026-11-04",
+  "icon": "https://www.telegraph.co.uk/etc.clientlibs/settings/wcm/designs/telegraph/core/clientlibs/core/resources/icons/apple-touch-icon-180x180.png",
+  "image": "https://www.telegraph.co.uk/content/dam/world-news/2026/11/04/TELEMMGLPICT000510367521_17937907750130_trans_NvBQzQNjv4Bq8jWyxvP9pmIYP_osKFfWzygOoV7jtqb1rQ6_6TwBR2U.jpeg?impolicy=OG-Standard"
+ },
  "https://www.theatlantic.com/science/2026/10/candy-corn-bug-shellac/689213/": {
   "description": null,
   "fetched": "2026-10-30",
@@ -3730,6 +3778,12 @@
   "fetched": "2026-10-30",
   "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg",
   "image": "https://i.guim.co.uk/img/media/c88d8154f76fef59b24c916cab7348652d9f113c/481_0_4070_3256/master/4070.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=10860848b9ed5bb27829c20d7b32815d"
+ },
+ "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai": {
+  "description": "Nobel winner warns the tech could be near to triggering major incident such as power or banking shutdown",
+  "fetched": "2026-11-04",
+  "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg",
+  "image": "https://i.guim.co.uk/img/media/2874e862dc2a0fc34d651f70e5ecffd542d947a6/543_22_2658_2128/master/2658.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ae0638cdbc3daea6b3a154d41c73dad9"
  },
  "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack": {
   "description": "Chains in Sweden, Belgium and Luxembourg say fridge temperatures rose overnight, similar to hack of French stores",
