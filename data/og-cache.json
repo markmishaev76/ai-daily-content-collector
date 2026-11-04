@@ -131,6 +131,12 @@
   "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png",
   "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
  },
+ "https://arxiv.org/abs/2605.29713": {
+  "description": "This book provides a compact, derivation-oriented introduction to the mathematical foundations of modern generative artificial intelligence. Rather than surveying every recent architecture or implementation detail, it develops a coherent route through the ideas connecting major families of generative models, from PCA, probabilistic PCA, variational autoencoders, and diffusion models to normalising flows, autoregressive factorisations, GANs, Wasserstein GANs, and energy-based models. The aim is to make the structure of generative modelling more accessible without removing the mathematical substance needed to understand how these models are derived and related. The book is intended as a foundation-building primer for mathematically curious researchers, practitioners, and students.",
+  "fetched": "2026-11-04",
+  "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png",
+  "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+ },
  "https://arxiv.org/abs/2608.25820": {
   "description": "Open-source implementations of the fifth generation (5G) Radio Access Network (RAN), such as OpenAirInterface (OAI) and srsRAN, have become increasingly relevant for industry and academic research, rapid prototyping, and low-cost private 5G deployments. The state of the art presents different evaluation scenarios for both platforms; however, these are often limited to individual testbed evaluations, end-to-end studies, or partial comparisons between them. In particular, there is a lack of evaluations considering different Software-Defined Radios (SDRs), RAN configurations, user applications, and numbers of real UEs. To address this gap, this paper presents a comparative evaluation of OAI and srsRAN. The study includes a qualitative assessment of supported features and deployment flexibility, followed by a quantitative performance analysis covering radio resource control setup procedures, compliance with theoretical data rates, and real application workloads with diverse quality of service requirements. Specifically, we consider Video on Demand (VoD) for data rate evaluation, Live Streaming (LS) and Cloud Gaming (CG) as latency-sensitive applications. These workloads provide a comprehensive view of each platform capability.",
   "fetched": "2026-11-03",
@@ -148,6 +154,12 @@
   "fetched": "2026-11-01",
   "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png",
   "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+ },
+ "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months": {
+  "description": "Google, Meta, others' commitments and obligations reach 80% of assets",
+  "fetched": "2026-11-04",
+  "icon": "https://asia.nikkei.com/images/frontend/favicons/144x144.png",
+  "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F1%2F3%2F4%2F13394319-2-eng-GB%2Faad3b104a912-photo_SXM2026103100004660.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630"
  },
  "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf": {
   "description": "CVE-2026-98432 is a CVSS 9.8 remote use-after-free in Linux's IPv4 TCP handshake, fixed upstream Oct 15. Ubuntu and RHEL haven't shipped a fixed kernel yet.",
@@ -316,6 +328,12 @@
   "fetched": "2026-10-28",
   "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
   "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/17_-_Security__Identity_NrORvDT.max-2600x2600.jpg"
+ },
+ "https://cloud.google.com/blog/topics/consulting/lessons-for-adopting-ai-agents/": {
+  "description": "Based on our work at Google Cloud Consulting, we’ve put together five practical lessons for guiding organizations through an agentic shift.",
+  "fetched": "2026-11-04",
+  "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
+  "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Google_Cloud_Consulting.max-2500x2500.jpg"
  },
  "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model": {
   "description": "Discover how untrusted open-weight AI models can potentially leak data, even when self-hosted. Learn the security risks and how to protect your enterprise.",
@@ -743,6 +761,12 @@
   "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
   "image": "https://github.blog/wp-content/uploads/2026/10/og-image.png"
  },
+ "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/": {
+  "description": "Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone.",
+  "fetched": "2026-11-04",
+  "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
+  "image": "https://github.blog/wp-content/uploads/2026/11/692880266-19c28791-dea3-4df2-beab-3916036a4d0b.png?fit=1280%2C720"
+ },
  "https://github.com/FrigadeHQ/hob": {
   "description": "An easier way to use AI on your own computer. A free, open-source alternative to Claude and ChatGPT that runs open-weight models like Gemma and gpt-oss locally on Mac, Windows and Linux. Private, a...",
   "fetched": "2026-10-27",
@@ -790,6 +814,12 @@
   "fetched": "2026-10-29",
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://repository-images.githubusercontent.com/349134426/ad5d8e71-d4a8-496c-a54b-c4c0042eb88b"
+ },
+ "https://github.com/finic-ai/kairos": {
+  "description": "Real time event intelligence, fraud and risk decisioning for financial behavior. - finic-ai/kairos",
+  "fetched": "2026-11-04",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://opengraph.githubassets.com/c8823305f432189cd23ed2dd098cc620a5ecb657ac31fe09aa9c709da1b18cd3/finic-ai/kairos"
  },
  "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve": {
   "description": "A lightweight coding and automation agent in one CLI binary. Run locally or over SSH, optimize token use, and automate CI and cron with durable workflows. - guregodevo/memdoor",
@@ -857,6 +887,12 @@
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://opengraph.githubassets.com/3a6d74ffc646cd0aef45becc597592b9912ffb260ae8ee5d318d49d43eb92f14/picocss/pico/discussions/754"
  },
+ "https://github.com/postmanlabs/postman-app-support/issues/14370": {
+  "description": "Is there an existing issue for this? I have searched the tracker for existing similar issues and I know that duplicates will be closed Describe the Issue Opening Postman on my Mac was followed by u...",
+  "fetched": "2026-11-04",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://opengraph.githubassets.com/34bafa214176245a7aed2cca85da459d50b384e27aecc138da1c372cf988d83d/postmanlabs/postman-app-support/issues/14370"
+ },
  "https://github.com/slee-persis/GVS5H": {
   "description": "GVS5H: Five Qwen3.8-27B Models Match Claude Fable 5 on LiveCodeBench Hard | Fable 5 Level Coding for a Fifth the Price - or on a Single GPU - slee-persis/GVS5H",
   "fetched": "2026-10-25",
@@ -893,6 +929,12 @@
   "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
   "image": "https://a-us.storyblok.com/f/1022730/1200x630/d88c896117/agent-o11y-faq-meta.jpeg/m/1200x630/filters:quality(80)/"
  },
+ "https://grafana.com/blog/bridging-alloy-and-opentelemetry-the-otel-engine-is-now-in-public-preview/": {
+  "description": "We're giving teams a way to run native OTLP pipelines in Grafana Cloud without giving up the power and flexibility Alloy is known for.",
+  "fetched": "2026-11-04",
+  "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
+  "image": "https://a-us.storyblok.com/f/1022730/1200x630/4fb347aef4/otel-engine-preview-meta.jpeg/m/1200x630/filters:quality(80)/"
+ },
  "https://grafana.com/blog/evaluate-ai-models-for-observability-o11y-bench-joins-fireworks-specialized-intelligence-index-and-reaches-v1-1/": {
   "description": "Our open benchmark is joining Fireworks' Specialized Intelligence Index with updates that make evaluating AI models on observability tasks more reliable and reproducible.",
   "fetched": "2026-10-29",
@@ -904,6 +946,12 @@
   "fetched": "2026-10-31",
   "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
   "image": "https://a-us.storyblok.com/f/1022730/1200x628/3abe40dd0c/grafana-13-3-meta-image.png/m/1200x630/filters:quality(80)/"
+ },
+ "https://grafana.com/blog/trace-linkage-connect-the-dots-between-your-app-traces-and-database-queries/": {
+  "description": "Use Database Observability in Grafana Cloud to connect OpenTelemetry-instrumented applications and database telemetry—without having to tediously piece together timestamps and logs.",
+  "fetched": "2026-11-04",
+  "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
+  "image": "https://a-us.storyblok.com/f/1022730/1200x630/70ad706ff3/62fde979-5ae8-429c-96b0-2d539aeb6b5d.jpeg/m/1200x630/filters:quality(80)/"
  },
  "https://hackerbooks.org": {
   "description": "A bookshelf of the books Hacker News readers mention most, 2007â2026.",
@@ -947,6 +995,12 @@
   "icon": null,
   "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/ZrKpGOLkSf0LmAf3bnJIX.png"
  },
+ "https://huggingface.co/blog/allenai/statebench": {
+  "description": "A Blog post by Ai2 on Hugging Face",
+  "fetched": "2026-11-04",
+  "icon": null,
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/5g9HfQLFFaQE0fslWrxh0.png"
+ },
  "https://huggingface.co/blog/announcing-project-protostar": {
   "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
   "fetched": "2026-10-30",
@@ -959,6 +1013,12 @@
   "icon": null,
   "image": "https://huggingface.co/blog/assets/anydecisionmodel/banner.png"
  },
+ "https://huggingface.co/blog/cwe-bench": {
+  "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+  "fetched": "2026-11-04",
+  "icon": null,
+  "image": "https://huggingface.co/blog/assets/cwe-bench/thumbnail.jpg"
+ },
  "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1": {
   "description": "A Blog post by IBM Granite on Hugging Face",
   "fetched": "2026-10-29",
@@ -970,6 +1030,12 @@
   "fetched": "2026-10-23",
   "icon": null,
   "image": "https://cdn-uploads.huggingface.co/production/uploads/6806091ee92bd22fd8ce9719/P6P8ZzHR8yL7GOOO4hQOg.png"
+ },
+ "https://huggingface.co/blog/ibm-research/palette-deck-building": {
+  "description": "A Blog post by IBM Research on Hugging Face",
+  "fetched": "2026-11-04",
+  "icon": null,
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/63890e3843d8b0797a0ad606/5pHD09UHuAK-6OyKGKimD.png"
  },
  "https://huggingface.co/blog/microsoft/thinkingbox-training": {
   "description": "A Blog post by Microsoft on Hugging Face",
@@ -1102,6 +1168,12 @@
   "fetched": "2026-11-02",
   "icon": "https://s3plus.meituan.net/aigc-media-resources/longcat/yeqian-logo.svg",
   "image": "https://s3plus.meituan.net/aigc-media-resources/longcat/big-cat-logo.png"
+ },
+ "https://lordtoots.bearblog.dev/ai-is-destroying-my-cs-degree/": {
+  "description": "I am a computer science student. I got a scholarship to study computer science and AI last year and I love it! It's something that I wanted to do since I was...",
+  "fetched": "2026-11-04",
+  "icon": null,
+  "image": "https://bearblog.dev/static/og-image.png"
  },
  "https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices/": {
   "description": "Cloning, designing and blending voices with Qwen3-TTS.",
@@ -1259,6 +1331,12 @@
   "icon": "https://oioannou.com/favicon.ico",
   "image": "https://oioannou.com/img/blog-by-orestis.jpg"
  },
+ "https://openai.com/index/accelerating-engineering-for-the-physical-world": {
+  "description": null,
+  "fetched": "2026-11-04",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/building-scientific-understanding-with-academic-communities": {
   "description": null,
   "fetched": "2026-10-27",
@@ -1280,6 +1358,12 @@
  "https://openai.com/index/check-point-daybreak": {
   "description": null,
   "fetched": "2026-10-28",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/cisco-cyber": {
+  "description": null,
+  "fetched": "2026-11-04",
   "icon": null,
   "image": null
  },
@@ -1352,6 +1436,12 @@
  "https://openai.com/index/introducing-gpt-6-1-terra/": {
   "description": null,
   "fetched": "2026-10-27",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer": {
+  "description": null,
+  "fetched": "2026-11-04",
   "icon": null,
   "image": null
  },
@@ -1622,6 +1712,12 @@
  "https://simonwillison.net/2026/Nov/3/october-newsletter/": {
   "description": "I sent out the October edition of my sponsors-only monthly newsletter. If you are a sponsor (or start a sponsorship now) you can access it here. This month: The October …",
   "fetched": "2026-11-03",
+  "icon": null,
+  "image": null
+ },
+ "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/": {
+  "description": "Yesterday’s hot paper was Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, …",
+  "fetched": "2026-11-04",
   "icon": null,
   "image": null
  },
@@ -2069,11 +2165,23 @@
   "icon": "https://v12.sh/apple-touch-icon.png",
   "image": "https://v12.sh/static/opengraph-image.png"
  },
+ "https://vinipsmaker.github.io/blog/article/pratt-parsing-is-a-black-box/": {
+  "description": "It caught my attention that most of Pratt parsing tutorials that I've stumbled on spend almost all of their time explaining Pratt's algorithm and none explaining the properties behind Pratt that actually matter.",
+  "fetched": "2026-11-04",
+  "icon": "https://vinipsmaker.github.io/blog/favicon.svg",
+  "image": "https://vinipsmaker.github.io/blog-heading.webp"
+ },
  "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html": {
   "description": null,
   "fetched": "2026-10-31",
   "icon": null,
   "image": null
+ },
+ "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/": {
+  "description": "We’re excited to announce Adaptive Dark Mode in Safari 27.3 beta.",
+  "fetched": "2026-11-04",
+  "icon": "https://webkit.org/apple-touch-icon.png",
+  "image": "https://webkit.org/wp-content/uploads/Demo-of-Adaptive-Dark-Mode_light.png"
  },
  "https://wikihack.netlify.app": {
   "description": "The Wikipedia articles Hacker News keeps linking to, ranked by how many different commenters linked them.",
@@ -2153,11 +2261,23 @@
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://images.workoscdn.com/images/5d480dfa-2b71-47eb-b8d0-4cb0444e6de7.png?auto=format&fit=clip&q=80"
  },
+ "https://workos.com/blog/organization-scoped-custom-roles": {
+  "description": "Environment roles apply to every organization. A custom role belongs to one, so you can give a customer the role they asked for without touching the rest.",
+  "fetched": "2026-11-04",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9f2c8eeef851541e6f836_organization-scoped-custom-roles-og.webp"
+ },
  "https://workos.com/blog/owasp-top-10-a07-authentication-failures": {
   "description": "A practical walkthrough of OWASP A07:2025, the weaknesses it lists, the fix for each one, and which of them your auth layer should be handling already.",
   "fetched": "2026-11-02",
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae4d0323ba1bc5ec6194215_owasp-top-10-a07-authentication-failures-og.webp"
+ },
+ "https://workos.com/blog/password-spraying-attack-detection": {
+  "description": "Password spraying tries a few common passwords across many accounts, slipping under per-account lockouts. The signals it leaves and what stops it.",
+  "fetched": "2026-11-04",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9ebd28e73b339403ae04d_password-spraying-attack-detection-og.webp"
  },
  "https://workos.com/blog/public-tls-certificates-client-authentication-mtls": {
   "description": "Public CAs and Chrome are removing clientAuth from TLS certificates by 2027. The dates per CA, what fails at renewal, and where mTLS should go next.",
@@ -2165,11 +2285,23 @@
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae47bbc5ed0687ad546f1b1_public-tls-certificates-lose-client-auth-eku-og.webp"
  },
+ "https://workos.com/blog/revoke-ai-agent-sessions": {
+  "description": "Agent sessions in WorkOS Agent Auth can be listed and revoked. Here is the removal routine, what a revoke stops, and how fast it takes effect in your API.",
+  "fetched": "2026-11-04",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9f2f66456e3ee2faec215_revoke-ai-agent-sessions-og.webp"
+ },
  "https://workos.com/blog/scim-manager-attribute-approval-workflows": {
   "description": "Directory Sync maps manager_id, manager_name and manager_email from the IdP. Where they land, how to key approval chains on them, and the no-manager fallback.",
   "fetched": "2026-10-23",
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6adb809b719bc71151f7203f_directory-manager-attributes-approval-workflows-og.webp"
+ },
+ "https://workos.com/blog/security-questions-nist-800-63b-4-account-recovery": {
+  "description": "NIST no longer accepts security questions for account recovery. The four methods SP 800-63B-4 recognizes, and how to migrate your product onto them.",
+  "fetched": "2026-11-04",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9eb9f171ac3e95f93b2ee_security-questions-nist-800-63b-4-account-recovery-og.webp"
  },
  "https://workos.com/blog/session-length-access-token-duration-inactivity-timeout": {
   "description": "Maximum session length, access token duration, and inactivity timeout each run a different clock in AuthKit. What each one controls, and how to choose it.",
@@ -2182,6 +2314,12 @@
   "fetched": "2026-10-27",
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6adf875135a6faaa6ea211c6_sign-in-with-microsoft-vs-entra-sso-og.webp"
+ },
+ "https://workos.com/blog/users-management-widget-customer-admins": {
+  "description": "Drop the WorkOS UsersManagement widget into your B2B app so your customers' own IT admins can invite members, remove them, and change roles without a ticket.",
+  "fetched": "2026-11-04",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9f2d57974c1a33199e505_users-management-widget-customer-admins-og.webp"
  },
  "https://workos.com/blog/what-is-account-takeover": {
   "description": "Account takeover is the outcome. Credential stuffing, phishing, SIM swapping and session theft are the methods. Here are the four ways in and how to close them.",
@@ -2543,6 +2681,12 @@
   "icon": null,
   "image": "https://images.ctfassets.net/l47ir7rfykkn/dIgD5IKWIPDGBXSVRf7iC/e4be1c0ffa021c16b57ee2ce5ce7ebb8/Building_Guarded_Entrypoint_image.png"
  },
+ "https://www.chainguard.dev/unchained/every-manual-page-in-chainguard-os-now-readable-by-your-agent": {
+  "description": "AI coding agents need accurate documentation. See how Chainguard makes Linux manual pages searchable, version-specific, and accessible through MCP.",
+  "fetched": "2026-11-04",
+  "icon": null,
+  "image": "https://images.ctfassets.net/l47ir7rfykkn/1fqlfI0OllKxt0jJpZPReP/c8a305d367b6512b17205c2f4ab2e135/Every_manual_page_in_Chainguard_OS__now_readable_by_your_agent.png"
+ },
  "https://www.chainguard.dev/unchained/rebuild-the-planet": {
   "description": "Patching can't keep pace with AI-discovered vulnerabilities. See how Chainguard plans to eliminate entire classes of security bugs by design.",
   "fetched": "2026-10-30",
@@ -2609,6 +2753,12 @@
   "icon": null,
   "image": "https://web-assets.dd-static.net/42588/1793283002-dandelion-hero-image.jpg"
  },
+ "https://www.datadoghq.com/blog/fireworks-ai-integration/": {
+  "description": "Learn how you can evaluate your AI agents and compare models in the Playground by using Fireworks AI models in Datadog Agent Observability.",
+  "fetched": "2026-11-04",
+  "icon": null,
+  "image": "https://web-assets.dd-static.net/42588/1793739235-1-logo-1.png"
+ },
  "https://www.datadoghq.com/blog/improving-insights-agent-observability/": {
   "description": "Learn how Datadog uses Insights in Agent Observability to identify cost and reliability problems in its own AI agent and prepare fixes.",
   "fetched": "2026-10-31",
@@ -2626,6 +2776,12 @@
   "fetched": "2026-10-30",
   "icon": null,
   "image": "https://web-assets.dd-static.net/42588/1793301334-run-ai-agents-on-serverless.jpg"
+ },
+ "https://www.daytona.io/dotfiles/1m-to-100m-run-rate-in-4-quarters": {
+  "description": "Daytona goes from 1M to $100M run rate in 4 quarters.",
+  "fetched": "2026-11-04",
+  "icon": "https://www.daytona.io/apple-touch-icon.png",
+  "image": "https://www.datocms-assets.com/103916/1793611967-quarters-from-1m-to-100m-dark-1.png?auto=compress%2Cformat&fit=crop&h=1260&w=2520"
  },
  "https://www.daytona.io/dotfiles/daytona-runs-the-code-notte-runs-the-browser": {
   "description": "Agents in Daytona sandboxes can run Chromium beside their code or use a Notte browser for bot checks, captchas and logins. A Daytona guide shows how.",
@@ -2687,6 +2843,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.hashicorp.com/blog/introducing-ibm-cloud-secrets-manager-vault-dedicated": {
+  "description": null,
+  "fetched": "2026-11-04",
+  "icon": null,
+  "image": null
+ },
  "https://www.ifixit.com/News/119895/iphone-duo-teardown": {
   "description": "We took the Duo all the way down to the gears, followed glowing dust into its hinge, and put its crease-hiding nano-texture under the microscope.",
   "fetched": "2026-10-26",
@@ -2698,6 +2860,12 @@
   "fetched": "2026-10-31",
   "icon": "https://akm-img-a-in.tosshub.com/indiatoday/images/misc/IT-logo-180.png",
   "image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202610/anthropic--cathedral-263559161-16x9_0.png?VersionId=hngQNnOgez44Zv0vMDM35oEeCVLPJGZC"
+ },
+ "https://www.interdb.jp/pg/index.html": {
+  "description": null,
+  "fetched": "2026-11-04",
+  "icon": null,
+  "image": null
  },
  "https://www.jefftk.com/p/air-purifiers-as-white-noise-machines": {
   "description": "White noise machines are widely used for sound masking, increasing privacy in offices and helping people sleep. The classic approach is a fan in a box, though in the past ten years people have mostly switched over to electronic ones. But a fan is really a great approach; you just need to put it to better use: have the fan clean the air. Instead of spinning a fan in free air to make noise, you ca",
@@ -2771,6 +2939,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/how-frontier-ai-is-rewriting-software-security-rules": {
+  "description": null,
+  "fetched": "2026-11-04",
+  "icon": null,
+  "image": null
+ },
  "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-rise-of-the-agentic-coworker-a-banking-cios-guide-to-the-next-wave-of-ai": {
   "description": null,
   "fetched": "2026-10-26",
@@ -2828,6 +3002,12 @@
  "https://www.mckinsey.com/industries/financial-services/our-insights/rewiring-securities-services-for-a-new-era-of-competition-and-growth": {
   "description": null,
   "fetched": "2026-10-29",
+  "icon": null,
+  "image": null
+ },
+ "https://www.mckinsey.com/industries/financial-services/our-insights/the-1-percent-wake-up-call-for-life-insurers": {
+  "description": null,
+  "fetched": "2026-11-04",
   "icon": null,
   "image": null
  },
@@ -2900,6 +3080,12 @@
  "https://www.nytimes.com/2026/10/28/us/politics/alaska-dan-sullivan-conspiracy-peltola.html": {
   "description": null,
   "fetched": "2026-11-01",
+  "icon": null,
+  "image": null
+ },
+ "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html": {
+  "description": null,
+  "fetched": "2026-11-04",
   "icon": null,
   "image": null
  },
@@ -3041,6 +3227,12 @@
   "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
   "image": null
  },
+ "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html": {
+  "description": "In both a 2021 essay and my 2022 book, A Hacker’s Mind, I talk about AIs finding vulnerabilities and exploits—hacking—the legal system. Here’s some demonstrations of this from Germany: Legal systems encode the foundations of social order in natural language. Similar to computer systems, the written law can contain vulnerabilities that invite exploitation.1 Courts absorb most exploits through interpretation, and such vulnerabilities rarely surface in the first place. With highly capable AI systems enabling the discovery of vulnerabilities at unprecedented scale, we believe the latter could change...",
+  "fetched": "2026-11-04",
+  "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+  "image": null
+ },
  "https://www.science.org/content/article/bones-may-release-proteins-slow-aging-and-extend-life-span": {
   "description": null,
   "fetched": "2026-11-02",
@@ -3172,6 +3364,12 @@
   "fetched": "2026-11-01",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2024/08/WordPress.jpeg"
+ },
+ "https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/": {
+  "description": "Hackers stole the personal information of over 1.3 million students and school district staff in a data breach at Frontline Education.",
+  "fetched": "2026-11-04",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2024/08/data-breach.jpeg"
  },
  "https://www.securityweek.com/google-dismantles-xcpe-botnet-of-1-3-million-android-devices/": {
   "description": "Google has dismantled the 1.3 million-strong XCPE botnet, created and operated by Videostrong Technology, an Android OEM/ODM.",

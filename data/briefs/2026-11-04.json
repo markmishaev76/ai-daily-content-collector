@@ -1,0 +1,780 @@
+{
+  "date": "2026-11-04",
+  "lead": {
+    "title": "Show HN: An MCP Server for Manpages",
+    "link": "https://www.chainguard.dev/unchained/every-manual-page-in-chainguard-os-now-readable-by-your-agent",
+    "excerpt": "AI coding agents need accurate documentation. See how Chainguard makes Linux manual pages searchable, version-specific, and accessible through MCP.",
+    "source": "chainguard.dev via Hacker News",
+    "date": "Nov 03",
+    "image": "https://images.ctfassets.net/l47ir7rfykkn/1fqlfI0OllKxt0jJpZPReP/c8a305d367b6512b17205c2f4ab2e135/Every_manual_page_in_Chainguard_OS__now_readable_by_your_agent.png",
+    "image_credit": null,
+    "section": "AI Agents & Agent Security",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "AI Agents & Agent Security",
+      "4h ago"
+    ],
+    "also": []
+  },
+  "pulse": [
+    {
+      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "thread": "https://news.ycombinator.com/item?id=50354960",
+      "link": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "link_domain": "github.com",
+      "source": "Hacker News",
+      "domain": "github.com",
+      "meta": "Hacker News · 1k points · 345 comments · 8h ago",
+      "also": [],
+      "image": "https://opengraph.githubassets.com/34bafa214176245a7aed2cca85da459d50b384e27aecc138da1c372cf988d83d/postmanlabs/postman-app-support/issues/14370",
+      "icon": "https://github.githubassets.com/favicons/favicon.svg"
+    },
+    {
+      "title": "Google will turn off search for schools that reject AI",
+      "thread": "https://news.ycombinator.com/item?id=50353192",
+      "link": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+      "link_domain": "nytimes.com",
+      "source": "Hacker News",
+      "domain": "nytimes.com",
+      "meta": "Hacker News · 561 points · 409 comments · 10h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.nytimes.com/favicon.ico"
+    },
+    {
+      "title": "OpenAI seems to be silently re-enabling model training on Codex chats",
+      "thread": "https://news.ycombinator.com/item?id=50352757",
+      "link": null,
+      "link_domain": "",
+      "source": "Hacker News",
+      "domain": "Hacker News",
+      "meta": "Hacker News · 435 points · 136 comments · 11h ago",
+      "also": [],
+      "image": null,
+      "icon": null
+    },
+    {
+      "title": "Just a little AI resistance, as a treat",
+      "thread": "https://news.ycombinator.com/item?id=50352257",
+      "link": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat/",
+      "link_domain": "shkspr.mobi",
+      "source": "Hacker News",
+      "domain": "shkspr.mobi",
+      "meta": "Hacker News · 171 points · 105 comments · 11h ago",
+      "also": [],
+      "image": "https://shkspr.mobi/blog/wp-content/uploads/2017/11/Confused-Robot.jpg",
+      "icon": "https://shkspr.mobi/blog/wp-content/uploads/2023/07/cropped-avatar-180x180.jpeg"
+    },
+    {
+      "title": "Gitbook Breached",
+      "thread": "https://news.ycombinator.com/item?id=50354336",
+      "link": null,
+      "link_domain": "",
+      "source": "Hacker News",
+      "domain": "Hacker News",
+      "meta": "Hacker News · 144 points · 35 comments · 9h ago",
+      "also": [],
+      "image": null,
+      "icon": null
+    },
+    {
+      "title": "AI is destroying my CS degree",
+      "thread": "https://news.ycombinator.com/item?id=50353300",
+      "link": "https://lordtoots.bearblog.dev/ai-is-destroying-my-cs-degree/",
+      "link_domain": "lordtoots.bearblog.dev",
+      "source": "Hacker News",
+      "domain": "lordtoots.bearblog.dev",
+      "meta": "Hacker News · 119 points · 110 comments · 10h ago",
+      "also": [],
+      "image": "https://bearblog.dev/static/og-image.png",
+      "icon": "https://lordtoots.bearblog.dev/favicon.ico"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI-Assisted Engineering",
+      "cards": [
+        {
+          "title": "How software engineering is changing: a tale of two eras",
+          "link": "https://newsletter.pragmaticengineer.com/p/how-software-engineering-is-changing",
+          "excerpt": "We invited readers to write about how building software changed, in an essay challenge. Many of you took part, and today we’re sharing the winning piece from a strong set of entries",
+          "source": "The Pragmatic Engineer",
+          "date": "Nov 03",
+          "image": "https://substackcdn.com/image/fetch/$s_!WYGs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25c874c2-9b02-4a24-9046-879cb1500023_1920x899.png",
+          "icon": null,
+          "domain": "newsletter.pragmaticengineer.com",
+          "hn": null,
+          "score": 0.852,
+          "coverage": 1
+        },
+        {
+          "title": "StateBench: Testing how language models track state changes over long documents",
+          "link": "https://huggingface.co/blog/allenai/statebench",
+          "excerpt": "A Blog post by Ai2 on Hugging Face",
+          "source": "Hugging Face",
+          "date": "Nov 03",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/5g9HfQLFFaQE0fslWrxh0.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null,
+          "score": 0.864,
+          "coverage": 1
+        },
+        {
+          "title": "Palette: teaching a small model to build decks in your design language",
+          "link": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+          "excerpt": "A Blog post by IBM Research on Hugging Face",
+          "source": "Hugging Face",
+          "date": "Nov 03",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/63890e3843d8b0797a0ad606/5pHD09UHuAK-6OyKGKimD.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null,
+          "score": 0.837,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+          "link": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+          "excerpt": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a \"blog post\", but it's paper-shaped) found that frontier models, in particular…",
+          "source": "Simon Willison",
+          "date": "Nov 03",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.833,
+          "coverage": 1
+        },
+        {
+          "title": "CWE-bench v2: More coverage, quality, and transparency",
+          "link": "https://huggingface.co/blog/cwe-bench",
+          "excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "source": "Hugging Face",
+          "date": "Nov 03",
+          "image": "https://huggingface.co/blog/assets/cwe-bench/thumbnail.jpg",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null,
+          "score": 0.472,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "AI Agents & Agent Security",
+      "cards": [
+        {
+          "title": "Accelerating engineering for the physical world",
+          "link": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+          "excerpt": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+          "source": "OpenAI News",
+          "date": "Nov 03",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 2.996,
+          "coverage": 1
+        },
+        {
+          "title": "1M to $100M Run Rate in 4 Quarters",
+          "link": "https://www.daytona.io/dotfiles/1m-to-100m-run-rate-in-4-quarters",
+          "excerpt": "Daytona goes from 1M to $100M run rate in 4 quarters.",
+          "source": "Daytona",
+          "date": "Nov 03",
+          "image": "https://www.datocms-assets.com/103916/1793611967-quarters-from-1m-to-100m-dark-1.png?auto=compress%2Cformat&fit=crop&h=1260&w=2520",
+          "icon": "https://www.daytona.io/apple-touch-icon.png",
+          "domain": "daytona.io",
+          "hn": null,
+          "score": 0.394,
+          "coverage": 1
+        },
+        {
+          "title": "How Cisco defends at machine speed with OpenAI",
+          "link": "https://openai.com/index/cisco-cyber",
+          "excerpt": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+          "source": "OpenAI News",
+          "date": "Nov 03",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.623,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+          "link": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+          "excerpt": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+          "source": "OpenAI News",
+          "date": "Nov 03",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.492,
+          "coverage": 1
+        },
+        {
+          "title": "AIs Hacking the Law",
+          "link": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
+          "excerpt": "In both a 2021 essay and my 2022 book, A Hacker’s Mind, I talk about AIs finding vulnerabilities and exploits—hacking—the legal system. Here’s some demonstrations of this from Germany: Legal systems encode the foundations of social order in natural language. Similar to computer systems, the…",
+          "source": "Schneier on Security",
+          "date": "Nov 03",
+          "image": null,
+          "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+          "domain": "schneier.com",
+          "hn": null,
+          "score": 0.575,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Leadership",
+      "cards": [
+        {
+          "title": "Ask Rands",
+          "link": "https://randsinrepose.com/archives/ask-rands/",
+          "excerpt": "I continue to avidly build with the robots on a daily basis. One of the more continually helpful use cases is summarization. Plop in the long, useless marketing email from United Airlines and figure out if there’s something useful in my endless quest for airline status. The answer: it usually…",
+          "source": "Rands in Repose",
+          "date": "Nov 03",
+          "image": "https://randsinrepose.com/wp-content/uploads/2026/11/ask-rands-1024x535.png",
+          "icon": null,
+          "domain": "randsinrepose.com",
+          "hn": null,
+          "score": 0.684,
+          "coverage": 1
+        },
+        {
+          "title": "The 1 percent wake-up call for life insurers",
+          "link": "https://www.mckinsey.com/industries/financial-services/our-insights/the-1-percent-wake-up-call-for-life-insurers",
+          "excerpt": "Germany’s pension reform is the most explicit expression of an accelerating trend. Across Europe, the moat around fee-based accumulation is disappearing. Life insurers have a choice to make.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 03",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.394,
+          "coverage": 1
+        },
+        {
+          "title": "How frontier AI is rewriting software security rules",
+          "link": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/how-frontier-ai-is-rewriting-software-security-rules",
+          "excerpt": "As AI makes it easier and faster for cyberattackers to discover and exploit vulnerabilities in software, companies must change their approach to safeguarding their digital assets and infrastructure.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 03",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.394,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Agent Identity & Authorization",
+      "cards": [
+        {
+          "title": "How to revoke an AI agent's access: Ending agent sessions in an organization",
+          "link": "https://workos.com/blog/revoke-ai-agent-sessions",
+          "excerpt": "Agent sessions in WorkOS Agent Auth can be listed and revoked. Here is the removal routine, what a revoke stops, and how fast it takes effect in your API.",
+          "source": "WorkOS Blog",
+          "date": "Nov 03",
+          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9f2f66456e3ee2faec215_revoke-ai-agent-sessions-og.webp",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null,
+          "score": 3.014,
+          "coverage": 1
+        },
+        {
+          "title": "Moving Quickly Without Breaking Things",
+          "link": "https://auth0.com/blog/moving-quickly-without-breaking-things/",
+          "excerpt": "As AI agents evolve from answering questions to taking action, customer identity enables the trust and transparency Europe’s consumers and regulators demand.",
+          "source": "Auth0 Blog",
+          "date": "Nov 03",
+          "image": "https://images.ctfassets.net/23aumh6u8s0i/4P2nszZaNhtbrvaKrSOVHF/07d75fcc088b5c310079366da1b59ccc/EMEA-Cover-1200x912.jpg",
+          "icon": null,
+          "domain": "auth0.com",
+          "hn": null,
+          "score": 1.778,
+          "coverage": 1
+        },
+        {
+          "title": "Who Will Consumers Trust to Act, Shop, and Pay on Their Behalf?",
+          "link": "https://auth0.com/blog/who-will-consumers-trust-to-act-shop-pay-on-their-behalf/",
+          "excerpt": "As AI agents evolve from answering questions to taking action, retailers need to deliver seamless experiences that are both convenient and secure.",
+          "source": "Auth0 Blog",
+          "date": "Nov 03",
+          "image": "https://images.ctfassets.net/23aumh6u8s0i/6d6jX5HjtTBt2PhniGnkHp/b0aaafae2f36e8d2fee7a59a263c88ce/AGENTIC-RETAIL-Cover-1200x912.jpg",
+          "icon": null,
+          "domain": "auth0.com",
+          "hn": null,
+          "score": 1.778,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "AI ambitions are blocked by identity debt",
+          "link": "https://auth0.com/blog/ai-ambitions-are-blocked-by-identity-debt/",
+          "excerpt": "Japanese brands’ identity infrastructure is stalling rollout of agentic systems",
+          "source": "Auth0 Blog",
+          "date": "Nov 03",
+          "image": "https://images.ctfassets.net/23aumh6u8s0i/7G36PjJDDOOt4VTEd3ZxID/6118fd9aa6482c0e3973f44c1c2a02dc/APJ-JAPAN-Cover-1200x912.jpg",
+          "icon": null,
+          "domain": "auth0.com",
+          "hn": null,
+          "score": 1.575,
+          "coverage": 1
+        },
+        {
+          "title": "Let your customer's IT admin manage team members inside your app",
+          "link": "https://workos.com/blog/users-management-widget-customer-admins",
+          "excerpt": "Drop the WorkOS UsersManagement widget into your B2B app so your customers' own IT admins can invite members, remove them, and change roles without a ticket.",
+          "source": "WorkOS Blog",
+          "date": "Nov 03",
+          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9f2d57974c1a33199e505_users-management-widget-customer-admins-og.webp",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null,
+          "score": 0.452,
+          "coverage": 1
+        },
+        {
+          "title": "One customer needs a role nobody else has: organization-scoped custom roles",
+          "link": "https://workos.com/blog/organization-scoped-custom-roles",
+          "excerpt": "Environment roles apply to every organization. A custom role belongs to one, so you can give a customer the role they asked for without touching the rest.",
+          "source": "WorkOS Blog",
+          "date": "Nov 03",
+          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9f2c8eeef851541e6f836_organization-scoped-custom-roles-og.webp",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null,
+          "score": 0.41,
+          "coverage": 1
+        },
+        {
+          "title": "Password spraying: The low-and-slow attack that per-account lockouts miss",
+          "link": "https://workos.com/blog/password-spraying-attack-detection",
+          "excerpt": "Password spraying tries a few common passwords across many accounts, slipping under per-account lockouts. The signals it leaves and what stops it.",
+          "source": "WorkOS Blog",
+          "date": "Nov 03",
+          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9ebd28e73b339403ae04d_password-spraying-attack-detection-og.webp",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null,
+          "score": 0.402,
+          "coverage": 1
+        },
+        {
+          "title": "Security questions are dead: What NIST 800-63B-4 allows instead",
+          "link": "https://workos.com/blog/security-questions-nist-800-63b-4-account-recovery",
+          "excerpt": "NIST no longer accepts security questions for account recovery. The four methods SP 800-63B-4 recognizes, and how to migrate your product onto them.",
+          "source": "WorkOS Blog",
+          "date": "Nov 03",
+          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9eb9f171ac3e95f93b2ee_security-questions-nist-800-63b-4-account-recovery-og.webp",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null,
+          "score": 0.402,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Secrets & NHI",
+      "cards": [
+        {
+          "title": "Introducing IBM Cloud Secrets Manager Vault Dedicated: HashiCorp Vault Enterprise, managed by IBM",
+          "link": "https://www.hashicorp.com/blog/introducing-ibm-cloud-secrets-manager-vault-dedicated",
+          "excerpt": "A new way for IBM Cloud® customers to consume HashiCorp® Vault® Enterprise on dedicated infrastructure without the operational burden of running it themselves.",
+          "source": "HashiCorp",
+          "date": "Nov 03",
+          "image": null,
+          "icon": "https://www.hashicorp.com/favicon.ico",
+          "domain": "hashicorp.com",
+          "hn": null,
+          "score": 2.811,
+          "coverage": 1
+        },
+        {
+          "title": "What Is a High-Impact Leak? How to Rank Compromised Credentials by Real Risk",
+          "link": "https://blog.gitguardian.com/high-impact-leak/",
+          "excerpt": "Validation-only triage misses 46% of critical secrets because they can’t be verified automatically. Here’s how to rank compromised credentials by what they can actually reach, and which leaks need containing the same day.",
+          "source": "GitGuardian",
+          "date": "Nov 03",
+          "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/11/Five-factors-to-rank-compromised-credentials-by-real-risk.png",
+          "icon": null,
+          "domain": "blog.gitguardian.com",
+          "hn": null,
+          "score": 3.041,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Supply Chain & Builds",
+      "cards": [
+        {
+          "title": "The PHP Security Wake-Up Call: Fixes Are Only the Beginning",
+          "link": "https://openssf.org/blog/2026/11/03/the-php-security-wake-up-call-fixes-are-only-the-beginning/",
+          "excerpt": "",
+          "source": "Open Source Security Foundation",
+          "date": "Nov 03",
+          "image": "https://openssf.org/wp-content/uploads/2026/11/mike-150x150.png",
+          "icon": null,
+          "domain": "openssf.org",
+          "hn": null,
+          "score": 0.64,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "AI policy wonks declare 'sovereign agents' a threat to civilization",
+          "link": "https://www.theregister.com/security/2026/11/03/ai-policy-wonks-declare-sovereign-agents-a-threat-to-civilization/5307354",
+          "excerpt": "These are AI agents that operate outside of human control and 'pursue open-ended, evolving survival'",
+          "source": "The Register",
+          "date": "Nov 03",
+          "image": "https://image.theregister.com/?imageId=260126&width=800",
+          "icon": null,
+          "domain": "theregister.com",
+          "hn": null,
+          "score": 2.738,
+          "coverage": 1
+        },
+        {
+          "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
+          "link": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
+          "excerpt": "Customers of the mSecure password manager are being urged to act now to protect the confidential information they store in it, possibly by changing passwords, resetting two-factor authentication (2FA), and removing passkeys. The warning came in an email sent on November 3 in the name of developer…",
+          "source": "The Hacker News",
+          "date": "Nov 03",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtvbYhodewxI1TOMjVp0GKUmMdudVKH27My8auvMEvDbCkd_JBzdJjjBb99j2a2a9R1wgkOaTdLcM_9FEmpyweVquFetLeyfzSC5UgpukK8Ukw7keJb5HwmTnPP1qWT2QzVX3FKLtBKLDFnuMrzmfgW5dwYf6SJHZHqSDj_eYGdap3ECOMMI1Em6_oS_0/s1600/msecure.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 2.329,
+          "coverage": 2
+        },
+        {
+          "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+          "link": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+          "excerpt": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure. The incident is assessed to be part of a large-scale, artificial intelligence (AI)-powered attack…",
+          "source": "The Hacker News",
+          "date": "Nov 03",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMgLc61q6cTompbBY4lS-pqinmS1_3vYBYH7OVnnFTmOZfMk8R7houuqUmnMhUs-gTI-55HwieAaPuCI_zhc0XNw74PhfZVbCjWexPUUugMc1crPvP6uQsic7o3GDy5KXbYJE8LtXqdban8cTcfnn9AxRgOkR0w5_bQx-pHTR1A5-ttEHcpqGkgYajjSiA/s1600/chainstack.png",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 3.177,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
+          "link": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+          "excerpt": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and recruitment-themed social engineering attack…",
+          "source": "The Hacker News",
+          "date": "Nov 03",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZCMCR8h3YCPcfY8Fbe54ckYKh_YUt_Yd7v82dAHobZtMNlQl_JVKWUX4OUPwR0dEmYsLNfeKsW6rUthk8pYRVhIddbPXx86sHCcNBRL9E-9LJTPrYSYwJ_V66EwGJNFeoWgDPbjcGfeJ4w2qn_gfTjXBoNAnfWq4GZ8rq7VOhnqt4QlItYEBr3Zar7XL1/s1600/bin.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.425,
+          "coverage": 1
+        },
+        {
+          "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
+          "link": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+          "excerpt": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device. The vulnerabilities, a pre-authentication authorization bypass vulnerability and a command…",
+          "source": "The Hacker News",
+          "date": "Nov 03",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCvGJCkYjldhAvsjMo47UqxGOTfVY1zCcjZQzgebkO8j1__fa0cFOn3CAV1jPTUpzwDDISQKPQP5eVGOl9BzRLBX7KlWuU2HMpzuHRWV2wyaItDwYgPu0X7m3qE5V1kgFzKZ1QYcRBcZyDqkUTFberiOWXBfV_-suYC1QQWq_TwBMeyme4F0FsOZnpijhC/s1600/barracuda.png",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 2.035,
+          "coverage": 2
+        },
+        {
+          "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+          "link": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+          "excerpt": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services. The tactic is called LLMjacking, a form of resource hijacking adapted for the LLM era, where an attacker obtains an API…",
+          "source": "The Hacker News",
+          "date": "Nov 03",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvqwPJPXsflyvqykVK3Pd1lLXLzEJ6vpLudxQUyYbWkS4nQ0dr9dhcSlMCPwgqfAkyadPSj28XReqkeiymKG5RAZMWpx5Hqhg_XI0HNp3jRMRpaO-wVIRbyJyS8MaaqDNOxXvk8aUENx_aiNMqrqm9SWjtJVpXR2uaP-LNp5deG4U_4YvSxpPKtdJLRNoh/s1600/llmjacking.png",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 2.338,
+          "coverage": 2
+        },
+        {
+          "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
+          "link": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+          "excerpt": "An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers. The script installed a backdoor and collected password hashes and other sensitive files from servers that ran it, cPGuard maker OPSSHIELD said in…",
+          "source": "The Hacker News",
+          "date": "Nov 03",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtc3HOtWwxZPk7V8yva9o6Oe5lWAPX8KZsWHG27ohycqrb04wAKSDSSdk6ta6y284N9gT6Ab6QKIWwTPss2bBK4PtS3Fm7gSI9QG5kec2AvEgQPjQnc0YlhlUQx0uZKt2ygn576BQ3aburL-IhrMRFVm1vEpTR5ol06R0BtjySvifD05Q_dQGUPvyPLxs/s1600/cpgaurd.png",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.394,
+          "coverage": 1
+        },
+        {
+          "title": "Frontline Education Data Breach Impacts Over 1.3 Million",
+          "link": "https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/",
+          "excerpt": "Hackers exploited a flaw in third-party software and stole the personal information of school district staff and students. The post Frontline Education Data Breach Impacts Over 1.3 Million appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 03",
+          "image": "https://www.securityweek.com/wp-content/uploads/2024/08/data-breach.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 2.674,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "Five rules for evaluating agent skills before they bloat your context window",
+          "link": "https://cloud.google.com/blog/topics/developers-practitioners/evaluate-agent-skills-before-they-bloat-your-context-window/",
+          "excerpt": "You’re probably hearing more about SKILL.md files, and you’ll see that a lot of people test them the same way: paste a prompt into chat, watch it pass once on a laptop, and merge to main. But when you paste three pages of CLI docs into a markdown file without an evaluation loop, you are just as…",
+          "source": "Cloud Blog",
+          "date": "Nov 03",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1_dRIBHtV.max-1000x1000.jpg",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 3.004,
+          "coverage": 1
+        },
+        {
+          "title": "Leading in the agentic era: How to put people first as you adopt AI agents",
+          "link": "https://cloud.google.com/blog/topics/consulting/lessons-for-adopting-ai-agents/",
+          "excerpt": "Over the past few years, our Google Cloud Consulting team has partnered with many companies to introduce AI into their daily operations. In that time, we’ve seen the focus shift from generative AI that answers questions to agentic systems that fully carry out the work. These agents can create…",
+          "source": "Cloud Blog",
+          "date": "Nov 03",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Google_Cloud_Consulting.max-2500x2500.jpg",
+          "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 4.231,
+          "coverage": 1
+        },
+        {
+          "title": "Evaluate your AI agents with Fireworks AI models in Datadog Agent Observability",
+          "link": "https://www.datadoghq.com/blog/fireworks-ai-integration/",
+          "excerpt": "Learn how you can evaluate your AI agents and compare models in the Playground by using Fireworks AI models in Datadog Agent Observability.",
+          "source": "Datadog | The Monitor blog",
+          "date": "Nov 03",
+          "image": "https://web-assets.dd-static.net/42588/1793739235-1-logo-1.png",
+          "icon": "https://www.datadoghq.com/favicon.ico",
+          "domain": "datadoghq.com",
+          "hn": null,
+          "score": 1.984,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Introducing Physical-Engineering’s Last Exam for agents",
+          "link": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-physical-engineerings-last-exam-for-agents/",
+          "excerpt": "Authors: Burak Gokturk, VP Research & Development; Rujun Han, Research Scientist; George Lee, Product Manager. Today, the Google AI & Infrastructure team is announcing Physical-Engineering's Last Exam (PLE), a new benchmark and open competition, developed in collaboration with Mercor, and built to…",
+          "source": "Cloud Blog",
+          "date": "Nov 03",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/PLE_Kaggle_-_ple_disciplines_description.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 2.286,
+          "coverage": 1
+        },
+        {
+          "title": "How Nammu21 automates syndicated loans on Google Cloud Universal Ledger",
+          "link": "https://cloud.google.com/blog/topics/financial-services/how-nammu21-automates-syndicated-loans-on-google-cloud-universal-ledger/",
+          "excerpt": "The syndicated loan and private credit markets, both critical components of corporate finance, have long been constrained by manual processes, leading to multi-week settlements, valuation opacity, and trade friction. To solve these long-standing challenges, fintech innovator Nammu21 partnered with…",
+          "source": "Cloud Blog",
+          "date": "Nov 03",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/nammu21-automating-sydicated-loans-header.max-600x600.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 2.239,
+          "coverage": 1
+        },
+        {
+          "title": "Bridging Alloy and OpenTelemetry: the OTel engine is now in Public Preview",
+          "link": "https://grafana.com/blog/bridging-alloy-and-opentelemetry-the-otel-engine-is-now-in-public-preview/",
+          "excerpt": "Many Grafana Cloud customers love what Alloy offers them, but we're also seeing a growing base of users who feel the same way about the OpenTelemetry Collector. We want to make it easy for customers to make the decision that makes the most sense, regardless of their preference.When we introduced…",
+          "source": "Grafana Labs blog on Grafana Labs",
+          "date": "Nov 03",
+          "image": "https://a-us.storyblok.com/f/1022730/1200x630/4fb347aef4/otel-engine-preview-meta.jpeg/m/1200x630/filters:quality(80)/",
+          "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
+          "domain": "grafana.com",
+          "hn": null,
+          "score": 2.717,
+          "coverage": 1
+        },
+        {
+          "title": "Trace linkage: connect the dots between your app traces and database queries",
+          "link": "https://grafana.com/blog/trace-linkage-connect-the-dots-between-your-app-traces-and-database-queries/",
+          "excerpt": "When an application request slows down, a trace can show a database call. Finding the database query behind it can be tedious, requiring you to switch between traces and database telemetry, as well as match timestamps or query text by hand. In Grafana Cloud, the Database Observability app already…",
+          "source": "Grafana Labs blog on Grafana Labs",
+          "date": "Nov 03",
+          "image": "https://a-us.storyblok.com/f/1022730/1200x630/70ad706ff3/62fde979-5ae8-429c-96b0-2d539aeb6b5d.jpeg/m/1200x630/filters:quality(80)/",
+          "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
+          "domain": "grafana.com",
+          "hn": null,
+          "score": 1.955,
+          "coverage": 1
+        },
+        {
+          "title": "Arnis turns any place on Earth into a Minecraft world",
+          "link": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/",
+          "excerpt": "Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone. The post Arnis turns any place on Earth into a Minecraft world appeared first on The GitHub Blog.",
+          "source": "The GitHub Blog",
+          "date": "Nov 03",
+          "image": "https://github.blog/wp-content/uploads/2026/11/692880266-19c28791-dea3-4df2-beab-3916036a4d0b.png?fit=1280%2C720",
+          "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
+          "domain": "github.blog",
+          "hn": null,
+          "score": 2.123,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "Show HN: Kairos – Open-source risk and fraud decisioning platform",
+          "link": "https://github.com/finic-ai/kairos",
+          "excerpt": "Real time event intelligence, fraud and risk decisioning for financial behavior. - finic-ai/kairos",
+          "source": "github.com via Hacker News",
+          "date": "Nov 03",
+          "image": "https://opengraph.githubassets.com/c8823305f432189cd23ed2dd098cc620a5ecb657ac31fe09aa9c709da1b18cd3/finic-ai/kairos",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "61 points · 7 comments",
+          "score": 2.964,
+          "coverage": 1
+        },
+        {
+          "title": "IEEE Computer Society Chapter Offers Webinars With Industry Experts",
+          "link": "https://spectrum.ieee.org/ieee-industry-experts-webinar",
+          "excerpt": "To help engineers keep up with emerging technologies such as AI, cloud computing, and sustainable infrastructure, and learn how they can be applied in practice, the IEEE Computer Society’s Central Indiana Chapter recently launched its Tech Talk Series.The live webinar series connects IEEE members,…",
+          "source": "IEEE Spectrum",
+          "date": "Nov 03",
+          "image": "https://spectrum.ieee.org/media-library/illustration-of-people-reaching-out-of-their-computers-to-interact-with-each-other-during-a-video-meeting.jpg?id=68577162&width=980",
+          "icon": null,
+          "domain": "spectrum.ieee.org",
+          "hn": null,
+          "score": 3.299,
+          "coverage": 1
+        },
+        {
+          "title": "Binance says hackers used fake job interviews and an internal AI tool to pull off the $6.3 billion heist",
+          "link": "https://www.theverge.com/news/1025576/binance-cyrpto-theft-explained",
+          "excerpt": "The largest crypto theft to date was pulled off by combining some well-known hacking techniques over the course of a few months, according to Binance. A postmortem from the company says the process started in June with one developer downloading a tampered installer apparently spread by a malicious…",
+          "source": "The Verge",
+          "date": "Nov 03",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23932848/acastro_STK018__02.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "icon": null,
+          "domain": "theverge.com",
+          "hn": null,
+          "score": 2.341,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "The Internals of PostgreSQL",
+          "link": "https://www.interdb.jp/pg/index.html",
+          "excerpt": "112 points · 2 comments",
+          "source": "interdb.jp via Hacker News",
+          "date": "Nov 03",
+          "image": null,
+          "icon": "https://www.interdb.jp/favicon.ico",
+          "domain": "interdb.jp",
+          "hn": "112 points · 2 comments",
+          "score": 3.382,
+          "coverage": 1
+        },
+        {
+          "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+          "link": "https://arxiv.org/abs/2605.29713",
+          "excerpt": "This book provides a compact, derivation-oriented introduction to the mathematical foundations of modern generative artificial intelligence. Rather than surveying every recent architecture or implementation detail, it develops a coherent route through the ideas connecting major families of…",
+          "source": "arxiv.org via Hacker News",
+          "date": "Nov 03",
+          "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+          "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png",
+          "domain": "arxiv.org",
+          "hn": "232 points · 37 comments",
+          "score": 3.865,
+          "coverage": 1
+        },
+        {
+          "title": "Safari introduces Adaptive Dark Mode in 27.3",
+          "link": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+          "excerpt": "We’re excited to announce Adaptive Dark Mode in Safari 27.3 beta.",
+          "source": "webkit.org via Hacker News",
+          "date": "Nov 03",
+          "image": "https://webkit.org/wp-content/uploads/Demo-of-Adaptive-Dark-Mode_light.png",
+          "icon": "https://webkit.org/apple-touch-icon.png",
+          "domain": "webkit.org",
+          "hn": "291 points · 187 comments",
+          "score": 4.205,
+          "coverage": 1
+        },
+        {
+          "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+          "link": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+          "excerpt": "Google, Meta, others' commitments and obligations reach 80% of assets",
+          "source": "asia.nikkei.com via Hacker News",
+          "date": "Nov 03",
+          "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F1%2F3%2F4%2F13394319-2-eng-GB%2Faad3b104a912-photo_SXM2026103100004660.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+          "icon": "https://asia.nikkei.com/images/frontend/favicons/144x144.png",
+          "domain": "asia.nikkei.com",
+          "hn": "240 points · 107 comments",
+          "score": 3.962,
+          "coverage": 1
+        },
+        {
+          "title": "Pratt parsing is a black box",
+          "link": "https://vinipsmaker.github.io/blog/article/pratt-parsing-is-a-black-box/",
+          "excerpt": "It caught my attention that most of Pratt parsing tutorials that I've stumbled on spend almost all of their time explaining Pratt's algorithm and none explaining the properties behind Pratt that actually matter.",
+          "source": "vinipsmaker.github.io via Hacker News",
+          "date": "Nov 03",
+          "image": "https://vinipsmaker.github.io/blog-heading.webp",
+          "icon": "https://vinipsmaker.github.io/blog/favicon.svg",
+          "domain": "vinipsmaker.github.io",
+          "hn": "38 points · 17 comments",
+          "score": 2.658,
+          "coverage": 1
+        }
+      ]
+    }
+  ]
+}
