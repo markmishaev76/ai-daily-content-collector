@@ -1,0 +1,698 @@
+{
+  "date": "2026-11-05",
+  "lead": {
+    "title": "Helping you build and defend at machine-speed in the agentic era",
+    "link": "https://cloud.google.com/blog/products/identity-security/helping-you-build-and-defend-at-machine-speed-in-the-agentic-era/",
+    "excerpt": "As both a frontier lab and the operator of the world's most comprehensive threat intelligence network, Google occupies a unique vantage point: We see exactly how Large Language Models are engineered, and how adversaries are targeting them in the wild. Passive defense is no longer viable. Allowing…",
+    "source": "Security & Identity",
+    "date": "Nov 04",
+    "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Security__Identity.max-2500x2500.jpg",
+    "image_credit": null,
+    "section": "Agent Identity & Authorization",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "Agent Identity & Authorization",
+      "9h ago"
+    ],
+    "also": []
+  },
+  "pulse": [
+    {
+      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "thread": "https://news.ycombinator.com/item?id=50364336",
+      "link": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "link_domain": "spectrum.ieee.org",
+      "source": "Hacker News",
+      "domain": "spectrum.ieee.org",
+      "meta": "Hacker News · 1.1k points · 638 comments · 14h ago",
+      "also": [],
+      "image": "https://spectrum.ieee.org/media-library/image.jpg?id=68544156&width=1200&height=600&coordinates=0%2C312%2C0%2C313",
+      "icon": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNjU5NjY0OS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTg0ODgxODUwNn0.1LlzHtxZSVXyzapxWjeSrRIRu5qo3CeB8FaWpd2tl_o/img.png?width=192&height=192"
+    },
+    {
+      "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+      "thread": "https://news.ycombinator.com/item?id=50363461",
+      "link": null,
+      "link_domain": "",
+      "source": "Hacker News",
+      "domain": "Hacker News",
+      "meta": "Hacker News · 628 points · 164 comments · 15h ago",
+      "also": [],
+      "image": null,
+      "icon": null
+    },
+    {
+      "title": "Your Cryptography Conspiracy Theory Is Wrong",
+      "thread": "https://lobste.rs/s/bqllfe/your_cryptography_conspiracy_theory_is",
+      "link": "https://soatok.blog/2026/10/29/your-cryptography-conspiracy-theory-is-wrong/",
+      "link_domain": "soatok.blog",
+      "source": "Lobsters",
+      "domain": "soatok.blog",
+      "meta": "Lobsters · 48 points · 6 comments · 11h ago",
+      "also": [],
+      "image": "https://i0.wp.com/soatok.blog/wp-content/uploads/2026/10/BlogHeader-2026-ConspiracyTheories-1.png?fit=1200%2C675&ssl=1",
+      "icon": "https://i0.wp.com/soatok.blog/wp-content/uploads/2021/11/cropped-cropped-soatok-johis-responsive.jpg?fit=180%2C180&ssl=1"
+    },
+    {
+      "title": "Geoffrey Hinton: it might turn out we were better off without AI",
+      "thread": "https://news.ycombinator.com/item?id=50363554",
+      "link": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+      "link_domain": "theguardian.com",
+      "source": "Hacker News",
+      "domain": "theguardian.com",
+      "meta": "Hacker News · 297 points · 295 comments · 15h ago",
+      "also": [],
+      "image": "https://i.guim.co.uk/img/media/2874e862dc2a0fc34d651f70e5ecffd542d947a6/543_22_2658_2128/master/2658.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ae0638cdbc3daea6b3a154d41c73dad9",
+      "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg"
+    },
+    {
+      "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+      "thread": "https://news.ycombinator.com/item?id=50369925",
+      "link": "https://www.ricursive.com/ripple",
+      "link_domain": "ricursive.com",
+      "source": "Hacker News",
+      "domain": "ricursive.com",
+      "meta": "Hacker News · 224 points · 79 comments · 7h ago",
+      "also": [],
+      "image": "https://framerusercontent.com/images/u4OXzV0utwAtaPgcVxQtTXmkg.png",
+      "icon": "https://framerusercontent.com/images/k7EC5Z8igoBuqxxVYd3EdHxX2C0.png"
+    },
+    {
+      "title": "Man-in-the-middle arbitrary code execution in Debian’s apt",
+      "thread": "https://lobste.rs/s/h7bvma/man_middle_arbitrary_code_execution",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00526.html",
+      "link_domain": "lists.debian.org",
+      "source": "Lobsters",
+      "domain": "lists.debian.org",
+      "meta": "Lobsters · 28 points · 3 comments · 12h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://lists.debian.org/favicon.ico"
+    },
+    {
+      "title": "OpenAI to acquire Pierre Computer Company",
+      "thread": "https://news.ycombinator.com/item?id=50366863",
+      "link": "https://openai.com/index/openai-to-acquire-pierre/",
+      "link_domain": "openai.com",
+      "source": "Hacker News",
+      "domain": "openai.com",
+      "meta": "Hacker News · 185 points · 62 comments · 10h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://openai.com/favicon.ico"
+    },
+    {
+      "title": "Progress on provable inference for large language models",
+      "thread": "https://news.ycombinator.com/item?id=50368626",
+      "link": "https://www.anthropic.com/research/provable-inference",
+      "link_domain": "anthropic.com",
+      "source": "Hacker News",
+      "domain": "anthropic.com",
+      "meta": "Hacker News · 174 points · 84 comments · 8h ago",
+      "also": [],
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/2eba335a28661a8253187053fa36add230af728b-2000x1125.jpg",
+      "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png"
+    },
+    {
+      "title": "Debian apt security update (man-in-the-middle)",
+      "thread": "https://news.ycombinator.com/item?id=50366575",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00526.html?pow_referer=",
+      "link_domain": "lists.debian.org",
+      "source": "Hacker News",
+      "domain": "lists.debian.org",
+      "meta": "Hacker News · 136 points · 29 comments · 11h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://lists.debian.org/favicon.ico"
+    },
+    {
+      "title": "Everything is an AI scam now",
+      "thread": "https://news.ycombinator.com/item?id=50371508",
+      "link": "https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/",
+      "link_domain": "davidralphlewis.co.uk",
+      "source": "Hacker News",
+      "domain": "davidralphlewis.co.uk",
+      "meta": "Hacker News · 129 points · 43 comments · 5h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.davidralphlewis.co.uk/favicon.ico"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI-Assisted Engineering",
+      "cards": [
+        {
+          "title": "Joules-to-GDP: Measuring the economic value of AI per unit of energy",
+          "link": "https://s46486.pcdn.co/blog/joules-to-gdp-measuring-the-economic-value-of-ai-per-unit-of-energy/",
+          "excerpt": "The model that produces the most valuable work isn’t always the best use of your energy. This is one of the interesting findings in Joules-to-GDP, a paper released today by researchers at Stanford, UC Berkeley and UT Austin. Of the five models they tested, GLM 5.2 delivered the most net value per…",
+          "source": "Snorkel AI",
+          "date": "Nov 05",
+          "image": "https://s46486.pcdn.co/wp-content/uploads/2026/11/joules-to-gdp-figure-5.png",
+          "icon": null,
+          "domain": "s46486.pcdn.co",
+          "hn": null,
+          "score": 1.352,
+          "coverage": 1
+        },
+        {
+          "title": "Checking the Rubrics: RIFT Results on Five Public Benchmarks",
+          "link": "https://snorkel.ai/blog/checking-the-rubrics-rift-results-on-five-public-benchmarks/",
+          "excerpt": "Rubric-based evaluation is now a common way to score the outputs of language models and agents (Hashemi et al., 2024; Wei et al., 2025), and rubrics also serve as the source of reward signals in training (Gunjal et al., 2025; Liu et al., 2026; Ding, 2026). In both uses the rubric is the…",
+          "source": "Snorkel AI",
+          "date": "Nov 02",
+          "image": "https://s46486.pcdn.co/wp-content/uploads/2026/11/RIFT-BLOG-scaled.png",
+          "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
+          "domain": "snorkel.ai",
+          "hn": null,
+          "score": 0.228,
+          "coverage": 1
+        },
+        {
+          "title": "Agile Deliberation: How AI helps humans define the gray areas",
+          "link": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/",
+          "excerpt": "Data Mining & Modeling",
+          "source": "Google Research",
+          "date": "Nov 04",
+          "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/AgileDeliberation1_Thumbnail.png",
+          "icon": null,
+          "domain": "research.google",
+          "hn": null,
+          "score": 0.901,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "datasette-llm 0.1a10",
+          "link": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+          "excerpt": "Release: datasette-llm 0.1a10 Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration. Tags: datasette, llm",
+          "source": "Simon Willison",
+          "date": "Nov 04",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.794,
+          "coverage": 1
+        },
+        {
+          "title": "datasette-apps 0.3a0",
+          "link": "https://simonwillison.net/2026/Nov/4/datasette-apps/",
+          "excerpt": "Release: datasette-apps 0.3a0 Datasette Apps adds support for hosting and editing custom HTML applications inside of Datasette. These can be created by hand, but it's easier to create them using LLMs via Datasette Agent. This release improves that integration: Apps can now be tagged in Datasette…",
+          "source": "Simon Willison",
+          "date": "Nov 04",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.479,
+          "coverage": 1
+        },
+        {
+          "title": "datasette-agent 0.5a0",
+          "link": "https://simonwillison.net/2026/Nov/3/datasette-agent/",
+          "excerpt": "Release: datasette-agent 0.5a0 This is a significant release of Datasette Agent. The most notable new feature is called the panel - it lets the agent chat open and then sit next to pages from Datasette, for example a table or query page. When combined with datasette-apps this means you can prompt…",
+          "source": "Simon Willison",
+          "date": "Nov 03",
+          "image": "https://static.simonwillison.net/static/2026/datasette-agent-panel.webp",
+          "icon": null,
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.463,
+          "coverage": 1
+        },
+        {
+          "title": "llm 0.37.1",
+          "link": "https://simonwillison.net/2026/Nov/3/llm/",
+          "excerpt": "Release: llm 0.37.1 A bugfix release for LLM, with contributions from Steven Huang, Tao An, Arjan Mossel, and XQ. Tags: llm",
+          "source": "Simon Willison",
+          "date": "Nov 03",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.445,
+          "coverage": 1
+        },
+        {
+          "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+          "link": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+          "excerpt": "A Blog post by Dharma-AI on Hugging Face",
+          "source": "Hugging Face",
+          "date": "Nov 04",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/c1ik58RednXjcqrx5s2Fo.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null,
+          "score": 0.888,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "AI Agents & Agent Security",
+      "cards": [
+        {
+          "title": "Letting users trust their own MCP clients, without opening a phishing hole",
+          "link": "https://streamvessel.com/blog/mcp-trusted-redirect-uris",
+          "excerpt": "Why MCP servers either refuse custom clients or open a phishing hole, and how per-user trusted redirect URIs, decided at sign-in, give you both.",
+          "source": "streamvessel.com via Hacker News",
+          "date": "Nov 04",
+          "image": "https://streamvessel.com/images/blog/mcp-trusted-redirect-uris/social.png",
+          "icon": "https://streamvessel.com/favicon.ico",
+          "domain": "streamvessel.com",
+          "hn": "32 points · 5 comments",
+          "score": 5.456,
+          "coverage": 1
+        },
+        {
+          "title": "Introducing Images 2.6",
+          "link": "https://openai.com/index/introducing-images-2-6",
+          "excerpt": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+          "source": "OpenAI News",
+          "date": "Nov 04",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 1.642,
+          "coverage": 1
+        },
+        {
+          "title": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
+          "link": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/",
+          "excerpt": "November 3, 2026 — A quiet day lets us share some behind the senes.",
+          "source": "Latent Space",
+          "date": "Nov 04",
+          "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/3f11140f-17d7-4e20-bda5-a8bfffa6738a/ChatGPT_Image_Nov_4__2026__11_17_02_AM.png?t=1793819847",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null,
+          "score": 0.638,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "A thousand fewer paths to root",
+          "link": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+          "excerpt": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+          "source": "OpenAI News",
+          "date": "Nov 04",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.498,
+          "coverage": 1
+        },
+        {
+          "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+          "link": "https://openai.com/index/devrev-enterprise-self-service",
+          "excerpt": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+          "source": "OpenAI News",
+          "date": "Nov 04",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.394,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Leadership",
+      "cards": [
+        {
+          "title": "Why growth and specialization matter more than ever in private equity",
+          "link": "https://www.mckinsey.com/industries/private-capital/our-insights/why-growth-and-specialization-matter-more-than-ever-in-private-equity",
+          "excerpt": "Creating value in private equity increasingly depends on transforming businesses, growing them profitably, and building operational excellence, as Providence Equity Partners has learned firsthand.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 04",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.394,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Secrets & NHI",
+      "cards": [
+        {
+          "title": "Aembit Now Secures OpenAI Dots Personal Agents",
+          "link": "https://aembit.io/blog/aembit-now-secures-openai-dots-personal-agents/",
+          "excerpt": "3 min readPersonal AI agents have moved from demos to daily use in a matter of weeks. Meta launched Muse, and OpenAI followed with Dots at DevDay. Employees are putting these agents to work on both personal tasks and business workflows. OpenAI Dots joins a growing roster of workforce, coding and…",
+          "source": "Aembit",
+          "date": "Nov 04",
+          "image": "https://aembit.io/wp-content/uploads/2026/11/Dots-1.jpg",
+          "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
+          "domain": "aembit.io",
+          "hn": null,
+          "score": 2.621,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
+          "link": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
+          "excerpt": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway. The phenomenon has been codenamed prompt adware by Check Point…",
+          "source": "The Hacker News",
+          "date": "Nov 04",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO7-xs-0dO1uqFLbfphgPbe8T7cbCLkrab6XhAjlNPVo-bLQOFw4mkcArqglQOvhuIYif4ohTAub-TNWlket6iguifshMRo3zBrYvM4G_IwFTtbh8ifIqh1Vuf8GuNmqDg_PB2Roy7yzYuTFhRrFM8wxOo8HVwfG9Y2eqJnq82LGYHnAKI5S6TuvZ_Q95A/s1600/ai-adware.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 3.439,
+          "coverage": 1
+        },
+        {
+          "title": "Snyk Named a Leader in The Forrester Wave™: Agentic Development Security Tools, Q4 2026",
+          "link": "https://snyk.io/blog/snyk-named-leader-forrester-wave-agentic-development-security-tools-q4-2026/",
+          "excerpt": "Snyk is a Leader in The Forrester Wave™: Agentic Development Security Tools, Q4 2026, with the highest score in the strategy category.",
+          "source": "Blog RSS Feed | Snyk",
+          "date": "Nov 04",
+          "image": "https://res.cloudinary.com/snyk/image/upload/v1793724771/ForresterWave2026-pr_thwo3s.png",
+          "icon": null,
+          "domain": "snyk.io",
+          "hn": null,
+          "score": 2.017,
+          "coverage": 1
+        },
+        {
+          "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+          "link": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+          "excerpt": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own. The attacker's code then runs as root, according to advisories that Debian, Ubuntu, and APT's developers published on November 4. The attack needs…",
+          "source": "The Hacker News",
+          "date": "Nov 04",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUPaNgRQEg3TU6-9BBgKse77CGVpbBFbn48cBnN1aanKvaMzk_mT74RxyWZA3_NbcrYe0UnRAQlELRYKGiGNrLUDcBMSKXFgRNxaND7RoaVFOs1Q7rkFFtlpoAzYQ7C8i6RAY4bNNTarEMUI-iFR4A_IfjIkFE9vpyQjG-0QFngy5cRE8f2GhGfTltkaI/s1600/linux-apt.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.427,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+          "link": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+          "excerpt": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below - CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file…",
+          "source": "The Hacker News",
+          "date": "Nov 04",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgME1T4MkjI8UEzzSmlLgbPG6a__VNQNoKkhuxiaW5zF5fnHLPmsTdkGoIL06JTeER1jcOMH-WLuNYyva_sSW_8DnZojbMC8ikgNME3ZPUAdkij-9nVm8joHHdaZRoLNbVgcSVLNSc6Tt7UJ3YPhQmea3OtQwg-H2UzUPIgWq7nFwoEQcMsGCKf-0fImEvd/s1600/sonic.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 2.134,
+          "coverage": 2
+        },
+        {
+          "title": "Barracuda ESG Authentication Bypass Flaw Opens Path to Root",
+          "link": "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/",
+          "excerpt": "An authentication bypass and a command injection flaw can be chained for root access on Barracuda’s Email Security Gateway appliances. The post Barracuda ESG Authentication Bypass Flaw Opens Path to Root appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 04",
+          "image": "https://www.securityweek.com/wp-content/uploads/2023/08/Email-Security.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.38,
+          "coverage": 1
+        },
+        {
+          "title": "AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks",
+          "link": "https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/",
+          "excerpt": "Hackers have been harvesting AI access tokens and have been using AI-assisted offensive tools to automate attacks. The post AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 04",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/09/AI-artificial-intelligence.webp",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 2.483,
+          "coverage": 1
+        },
+        {
+          "title": "Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers",
+          "link": "https://www.securityweek.com/canadian-extradited-to-us-over-cryptomining-hacks-on-university-supercomputers/",
+          "excerpt": "A federal grand jury indicted two Canadian men for hijacking university supercomputers to secretly mine Electroneum cryptocurrency. The post Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 04",
+          "image": "https://www.securityweek.com/wp-content/uploads/2024/01/cryptocurrency.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 1.809,
+          "coverage": 2
+        },
+        {
+          "title": "Chrome 157 Rolls Out With 213 Security Fixes, Seven Rated Critical",
+          "link": "https://www.securityweek.com/chrome-157-rolls-out-with-213-security-fixes-seven-rated-critical/",
+          "excerpt": "The browser update resolves dozens of memory safety bugs and incorrect/missing authorization issues. The post Chrome 157 Rolls Out With 213 Security Fixes, Seven Rated Critical appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 04",
+          "image": "https://www.securityweek.com/wp-content/uploads/2023/04/Chrome-Zero-Day-exploits.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.328,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "Compare AI agent changes with Online Experiments in Agent Observability",
+          "link": "https://www.datadoghq.com/blog/online-experiments-agent-observability/",
+          "excerpt": "Learn how Datadog Online Experiments, available through Agent Observability, enables you to test AI agent changes against real production traffic so you can compare response quality, cost, latency, and errors.",
+          "source": "Datadog | The Monitor blog",
+          "date": "Nov 04",
+          "image": "https://web-assets.dd-static.net/42588/1793808833-online-experiments-hero-v2.png",
+          "icon": "https://www.datadoghq.com/favicon.ico",
+          "domain": "datadoghq.com",
+          "hn": null,
+          "score": 1.984,
+          "coverage": 1
+        },
+        {
+          "title": "See the agents, set the terms: new visibility and control for personal agents",
+          "link": "https://blog.cloudflare.com/personal-agents-visibility-control/",
+          "excerpt": "Personal AI agents have changed how users interact with the web, blurring the lines between automated and human traffic. Learn how Cloudflare gives site owners visibility and control to manage personal agent access.",
+          "source": "Cloudflare Blog",
+          "date": "Nov 04",
+          "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M6HZ1ZE3ZTGF9NEGGPF8SZNS.png",
+          "icon": null,
+          "domain": "blog.cloudflare.com",
+          "hn": null,
+          "score": 2.635,
+          "coverage": 1
+        },
+        {
+          "title": "Highlights and reflections from Google Public Sector Summit: Where mission meets moonshot",
+          "link": "https://cloud.google.com/blog/topics/public-sector/highlights-and-reflections-from-google-public-sector-summit-where-mission-meets-moonshot/",
+          "excerpt": "Over 2,700 government leaders, innovators, and industry partners convened across two-days at our Google Public Sector Summit in Washington D.C. where we explored the theme, “Where mission meets moonshot.” We were honored to bring together leaders who are driving impact in the agentic era and…",
+          "source": "Cloud Blog",
+          "date": "Nov 04",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/GPS2026_1020_153905-6308_ALIVE.max-600x600.jpg",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 2.133,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Chrome Enterprise Premium drives 50%+ projected cost reduction for Mercari",
+          "link": "https://cloud.google.com/blog/products/chrome-enterprise/chrome-enterprise-premium-drives-50-projected-cost-reduction-for-mercari/",
+          "excerpt": "Editor's Note: Today's post is by Yu Susaki, Manager of Enterprise Security at Mercari, a leading consumer-to-consumer (C2C) marketplace with more than 20 million monthly active users. Mercari selected Chrome Enterprise Premium and Chromebooks to secure its highly sensitive customer service (CS)…",
+          "source": "Cloud Blog",
+          "date": "Nov 04",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Mercari_Blog_header_2436x1200px-2.max-600x600.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 1.546,
+          "coverage": 1
+        },
+        {
+          "title": "Introducing Compute Engine API multi-versioning: Predictable evolution without breaking production",
+          "link": "https://cloud.google.com/blog/topics/developers-practitioners/introducing-compute-engine-api-multi-versioning-predictable-evolution-without-breaking-production/",
+          "excerpt": "Ready to modernize your infrastructure without risking production stability? API multi-versioning for Compute Engine, now in general availability, helps you do just that. With date-based API versions, Compute Engine can now regularly deliver modern API semantics, stronger resilience defaults, and…",
+          "source": "Cloud Blog",
+          "date": "Nov 04",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/compute-engine-multi-version-hero.max-600x600.jpg",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 0.407,
+          "coverage": 1
+        },
+        {
+          "title": "Amazon S3 Tables now offer managed migration of Apache Hive tables to Apache Iceberg",
+          "link": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-offer-managed-migration-of-apache-hive-tables-to-apache-iceberg/",
+          "excerpt": "You can now migrate existing Apache Hive datasets in Amazon S3 to fully managed Apache Iceberg tables in Amazon S3 Tables, with no pipelines to build or compute to provision, while production workloads keep running.",
+          "source": "AWS News Blog",
+          "date": "Nov 04",
+          "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/09/20/2026-s3-tables-hive-to-iceberg-1.jpg",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 0.62,
+          "coverage": 1
+        },
+        {
+          "title": "OpenKruise Agents v0.6.0: Leaping ahead in agent Sandbox security and automation",
+          "link": "https://www.cncf.io/blog/2026/11/03/openkruise-agents-v0-6-0-leaping-ahead-in-agent-sandbox-security-and-automation/",
+          "excerpt": "About OpenKruise Agents OpenKruise Agents is a sub-project of OpenKruise, the CNCF open-source application automation and workload orchestration project. It provides full lifecycle management for Agent Sandboxes running at scale on Kubernetes, together with a complete...",
+          "source": "Blog – Cloud Native Computing Foundation",
+          "date": "Nov 03",
+          "image": "https://www.cncf.io/wp-content/uploads/2026/10/image-37.png",
+          "icon": null,
+          "domain": "cncf.io",
+          "hn": null,
+          "score": 0.18,
+          "coverage": 1
+        },
+        {
+          "title": "Cost per task: Using cheap classifiers to route across Gemini models and thinking levels",
+          "link": "https://developers.googleblog.com/cost-per-task-using-cheap-classifiers-to-route-across-gemini-models-and-thinking-levels/",
+          "excerpt": "Per-token API prices keep falling, yet engineering bills for autonomous coding agents keep climbing....",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image3_1.2e16d0ba.fill-1200x600.jpg",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null,
+          "score": 0.25,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "Almost no one uses AI agents to book their Uber, company says",
+          "link": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+          "excerpt": "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent.",
+          "source": "TechCrunch",
+          "date": "Nov 04",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/07/uber-getty.jpg?resize=1200,800",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
+          "hn": null,
+          "score": 4.677,
+          "coverage": 1
+        },
+        {
+          "title": "You'll need nerves of steel to work with AI agents",
+          "link": "https://orchidfiles.com/youll-need-nerves-of-steel-to-work-with-ai-agents/",
+          "excerpt": "This post will focus mainly on Composer 2.5 in Cursor. These problems may not be present in opus-5.5 or gpt-6.1-sol-pro-max-ultra-thinking-fast. But gpt-6.1-luna, for example, has all the problems listed here. I’ve also encountered many of these problems before in gpt-5.5 and opus-4.6. I",
+          "source": "orchidfiles.com via Hacker News",
+          "date": "Nov 05",
+          "image": "https://orchidfiles.com/content/images/2026/03/avatar-1.png",
+          "icon": "https://orchidfiles.com/content/images/size/w256h256/2026/03/avatar-1.png",
+          "domain": "orchidfiles.com",
+          "hn": "20 points · 12 comments",
+          "score": 6.466,
+          "coverage": 1
+        },
+        {
+          "title": "Investigating vault particles with Claude",
+          "link": "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
+          "excerpt": "We’re sharing another finding from Anthropic’s biology research lab: the first 3D structure of a vault particle found in prokaryotic cells. Here, we describe how Claude helped at each step of this research.",
+          "source": "Anthropic Research",
+          "date": "Nov 04",
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/99ce1c2ac2d0649d677f097132829da2ab3c4e18-1280x1280.jpg",
+          "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+          "domain": "anthropic.com",
+          "hn": null,
+          "score": 1.953,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Show HN: Gauge – Open-Source CLI to recursively improve your docs",
+          "link": "https://github.com/gauge-sh/gauge-cli",
+          "excerpt": ":dog: The open-source Gauge CLI. Hillclimb your Skills, CLI, SDK, MCP, API, or Docs to make something agents want. - gauge-sh/gauge-cli",
+          "source": "github.com via Hacker News",
+          "date": "Nov 04",
+          "image": "https://opengraph.githubassets.com/c41a21bb3267a8b8d4e5603ef1670b8c94ba3d9db8fb85ac48a6bad87eeb9a1a/gauge-sh/gauge-cli",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "16 points · 3 comments",
+          "score": 2.134,
+          "coverage": 1
+        },
+        {
+          "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+          "link": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+          "excerpt": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for governor…",
+          "source": "MIT Technology Review",
+          "date": "Nov 04",
+          "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/GettyImages-2303431102.jpg?resize=1200,600",
+          "icon": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/static/media/favicon.1cfcdb44759a0f93ddf5feb5405dd4cc.ico",
+          "domain": "technologyreview.com",
+          "hn": null,
+          "score": 2.338,
+          "coverage": 1
+        },
+        {
+          "title": "Starfall – Affordable, routine access to microgravity",
+          "link": "https://www.spacex.com/starfall",
+          "excerpt": "SpaceX designs, manufactures and launches advanced rockets and spacecraft.",
+          "source": "spacex.com via Hacker News",
+          "date": "Nov 05",
+          "image": "https://www.spacex.com/assets/images/share.jpg",
+          "icon": "https://www.spacex.com/assets/favicon-spacex.ico",
+          "domain": "spacex.com",
+          "hn": "59 points · 24 comments",
+          "score": 3.756,
+          "coverage": 1
+        },
+        {
+          "title": "Images 2.6",
+          "link": "https://openai.com/index/introducing-images-2-6/",
+          "excerpt": "92 points · 78 comments",
+          "source": "openai.com via Hacker News",
+          "date": "Nov 04",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": "92 points · 78 comments",
+          "score": 5.972,
+          "coverage": 1
+        },
+        {
+          "title": "A thousand fewer paths to root",
+          "link": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+          "excerpt": "92 points · 61 comments",
+          "source": "openai.com via Hacker News",
+          "date": "Nov 04",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": "92 points · 61 comments",
+          "score": 5.849,
+          "coverage": 1
+        }
+      ]
+    }
+  ]
+}

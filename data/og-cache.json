@@ -47,6 +47,12 @@
   "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
   "image": "https://aembit.io/wp-content/uploads/2025/10/2-Legged-vs-3-Legged-OAuth-1-1024x535.jpg"
  },
+ "https://aembit.io/blog/aembit-now-secures-openai-dots-personal-agents/": {
+  "description": "Secure OpenAI Dots with Aembit’s MCP Identity Gateway for policy-controlled access, short-lived credentials, tool-level permissions and centralized audit logs.",
+  "fetched": "2026-11-05",
+  "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
+  "image": "https://aembit.io/wp-content/uploads/2026/11/Dots-1.jpg"
+ },
  "https://aembit.io/blog/aembit-now-supports-spiffe-x-509-svid-and-jwt-svid-without-spire/": {
   "description": "Aembit now issues SPIFFE X.509-SVID certificates and JWT-SVID tokens for AI agents and workloads, no SPIRE deployment required. See how.",
   "fetched": "2026-11-01",
@@ -353,6 +359,12 @@
   "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
   "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/10_-_Databases.max-2600x2600.jpg"
  },
+ "https://cloud.google.com/blog/products/identity-security/helping-you-build-and-defend-at-machine-speed-in-the-agentic-era/": {
+  "description": "At Security Summit 2026, we are sharing updates on how organizations can build securely, secure systems, and defend at machine speed in the agentic era.",
+  "fetched": "2026-11-05",
+  "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
+  "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Security__Identity.max-2500x2500.jpg"
+ },
  "https://cloud.google.com/blog/products/identity-security/scale-agents-securely-with-iam-helper-agent-skills-and-mcp-tools/": {
   "description": "Today we’re introducing IAM Helper, a suite of intelligent, agent-facing building blocks that can automate complex, end-to-end IAM workflows.",
   "fetched": "2026-10-28",
@@ -574,6 +586,12 @@
   "fetched": "2026-11-01",
   "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
   "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/cui_banner_light_1600x900_1791294.2e16d0ba.fill-1200x600.jpg"
+ },
+ "https://developers.googleblog.com/cost-per-task-using-cheap-classifiers-to-route-across-gemini-models-and-thinking-levels/": {
+  "description": "Per-token API prices keep falling, yet engineering bills for autonomous coding agents keep climbing....",
+  "fetched": "2026-11-05",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image3_1.2e16d0ba.fill-1200x600.jpg"
  },
  "https://developers.googleblog.com/devfest-is-back/": {
   "description": "Join DevFest 2026! Connect with local Google Developer Groups from October 1 to December 31 to build, secure, and scale with AI, Cloud, Android, and Web tech.",
@@ -851,6 +869,12 @@
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://opengraph.githubassets.com/c8823305f432189cd23ed2dd098cc620a5ecb657ac31fe09aa9c709da1b18cd3/finic-ai/kairos"
  },
+ "https://github.com/gauge-sh/gauge-cli": {
+  "description": ":dog: The open-source Gauge CLI. Hillclimb your Skills, CLI, SDK, MCP, API, or Docs to make something agents want. - gauge-sh/gauge-cli",
+  "fetched": "2026-11-05",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://opengraph.githubassets.com/c41a21bb3267a8b8d4e5603ef1670b8c94ba3d9db8fb85ac48a6bad87eeb9a1a/gauge-sh/gauge-cli"
+ },
  "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve": {
   "description": "A lightweight coding and automation agent in one CLI binary. Run locally or over SSH, optimize token use, and automate CI and cron with durable workflows. - guregodevo/memdoor",
   "fetched": "2026-11-01",
@@ -1006,6 +1030,12 @@
   "fetched": "2026-10-25",
   "icon": null,
   "image": null
+ },
+ "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor": {
+  "description": "A Blog post by Dharma-AI on Hugging Face",
+  "fetched": "2026-11-05",
+  "icon": null,
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/c1ik58RednXjcqrx5s2Fo.png"
  },
  "https://huggingface.co/blog/LiquidAI/lfm3": {
   "description": "A Blog post by Liquid AI on Hugging Face",
@@ -1199,6 +1229,12 @@
   "icon": null,
   "image": null
  },
+ "https://lists.debian.org/debian-security-announce/2026/msg00526.html": {
+  "description": null,
+  "fetched": "2026-11-05",
+  "icon": null,
+  "image": null
+ },
  "https://lists.debian.org/debian-security-announce/2026/msg00526.html?pow_referer=": {
   "description": null,
   "fetched": "2026-11-04",
@@ -1385,6 +1421,18 @@
   "icon": "https://oioannou.com/favicon.ico",
   "image": "https://oioannou.com/img/blog-by-orestis.jpg"
  },
+ "https://openai.com/index/a-thousand-fewer-paths-to-root": {
+  "description": null,
+  "fetched": "2026-11-05",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/a-thousand-fewer-paths-to-root/": {
+  "description": null,
+  "fetched": "2026-11-05",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/accelerating-engineering-for-the-physical-world": {
   "description": null,
   "fetched": "2026-11-04",
@@ -1436,6 +1484,12 @@
  "https://openai.com/index/daybreak-red-aws-govcloud": {
   "description": null,
   "fetched": "2026-11-04",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/devrev-enterprise-self-service": {
+  "description": null,
+  "fetched": "2026-11-05",
   "icon": null,
   "image": null
  },
@@ -1499,6 +1553,18 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/index/introducing-images-2-6": {
+  "description": null,
+  "fetched": "2026-11-05",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/introducing-images-2-6/": {
+  "description": null,
+  "fetched": "2026-11-05",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer": {
   "description": null,
   "fetched": "2026-11-04",
@@ -1544,6 +1610,12 @@
  "https://openai.com/index/openai-to-acquire-pierre": {
   "description": null,
   "fetched": "2026-11-04",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/openai-to-acquire-pierre/": {
+  "description": null,
+  "fetched": "2026-11-05",
   "icon": null,
   "image": null
  },
@@ -1642,6 +1714,12 @@
   "fetched": "2026-10-31",
   "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
   "image": null
+ },
+ "https://orchidfiles.com/youll-need-nerves-of-steel-to-work-with-ai-agents/": {
+  "description": "This post will focus mainly on Composer 2.5 in Cursor. These problems may not be present in opus-5.5 or gpt-6.1-sol-pro-max-ultra-thinking-fast. But gpt-6.1-luna, for example, has all the problems listed here. I’ve also encountered many of these problems before in gpt-5.5 and opus-4.6. I",
+  "fetched": "2026-11-05",
+  "icon": "https://orchidfiles.com/content/images/size/w256h256/2026/03/avatar-1.png",
+  "image": "https://orchidfiles.com/content/images/2026/03/avatar-1.png"
  },
  "https://p.migdal.pl/warsaw-vibe-voxel/": {
   "description": "Central Warsaw in 1 m voxels, built from OpenStreetMap, LiDAR and the city's tree database. Walk around the Palace of Culture, change the date, hour and weather, or possess a pedestrian. Inspired by Minecraft, MagicaVoxel and Dungeon Keeper.",
@@ -1787,6 +1865,12 @@
   "icon": null,
   "image": null
  },
+ "https://simonwillison.net/2026/Nov/3/llm/": {
+  "description": "Access large language models from the command-line",
+  "fetched": "2026-11-05",
+  "icon": null,
+  "image": null
+ },
  "https://simonwillison.net/2026/Nov/3/october-newsletter/": {
   "description": "I sent out the October edition of my sponsors-only monthly newsletter. If you are a sponsor (or start a sponsorship now) you can access it here. This month: The October …",
   "fetched": "2026-11-03",
@@ -1796,6 +1880,18 @@
  "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/": {
   "description": "Yesterday’s hot paper was Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, …",
   "fetched": "2026-11-04",
+  "icon": null,
+  "image": null
+ },
+ "https://simonwillison.net/2026/Nov/4/datasette-apps/": {
+  "description": "Apps that live inside Datasette",
+  "fetched": "2026-11-05",
+  "icon": null,
+  "image": null
+ },
+ "https://simonwillison.net/2026/Nov/4/datasette-llm/": {
+  "description": "LLM integration plugin for other plugins to depend on",
+  "fetched": "2026-11-05",
   "icon": null,
   "image": null
  },
@@ -1876,6 +1972,18 @@
   "fetched": "2026-10-29",
   "icon": null,
   "image": null
+ },
+ "https://snorkel.ai/blog/checking-the-rubrics-rift-results-on-five-public-benchmarks/": {
+  "description": "Missing and misaligned criteria hit about half of 147 benchmark tasks; atomicity problems were rare. RIFT results on rubric quality in five domains.",
+  "fetched": "2026-11-05",
+  "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
+  "image": "https://s46486.pcdn.co/wp-content/uploads/2026/11/RIFT-BLOG-scaled.png"
+ },
+ "https://soatok.blog/2026/10/29/your-cryptography-conspiracy-theory-is-wrong/": {
+  "description": "This conversation plays out hundreds of times a day, but (thankfully) only a handful of those involve me: Person: “I have [problem].” Cryptography nerd: “Oh, you probably want to …",
+  "fetched": "2026-11-05",
+  "icon": "https://i0.wp.com/soatok.blog/wp-content/uploads/2021/11/cropped-cropped-soatok-johis-responsive.jpg?fit=180%2C180&ssl=1",
+  "image": "https://i0.wp.com/soatok.blog/wp-content/uploads/2026/10/BlogHeader-2026-ConspiracyTheories-1.png?fit=1200%2C675&ssl=1"
  },
  "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability": {
   "description": "AI is forcing us to pay off 40 years of technical debt",
@@ -2021,6 +2129,12 @@
   "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
   "image": "https://i0.wp.com/stratechery.com/wp-content/uploads/2026/10/Sharp-Tech-Sponsor-Transparent-scaled.png?fit=1200%2C1200&ssl=1"
  },
+ "https://streamvessel.com/blog/mcp-trusted-redirect-uris": {
+  "description": "Why MCP servers either refuse custom clients or open a phishing hole, and how per-user trusted redirect URIs, decided at sign-in, give you both.",
+  "fetched": "2026-11-05",
+  "icon": "https://streamvessel.com/favicon.ico",
+  "image": "https://streamvessel.com/images/blog/mcp-trusted-redirect-uris/social.png"
+ },
  "https://support.apple.com/en-us/149555": {
   "description": "Apple is blocking the compromised certificates automatically. Mac administrators can take optional steps for some command-line tools.",
   "fetched": "2026-10-27",
@@ -2128,6 +2242,12 @@
   "fetched": "2026-11-03",
   "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
   "image": "https://techcrunch.com/wp-content/uploads/2026/03/garry-tan-sxsw-getty.jpg?resize=1200,801"
+ },
+ "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/": {
+  "description": "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent.",
+  "fetched": "2026-11-05",
+  "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/07/uber-getty.jpg?resize=1200,800"
  },
  "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/": {
   "description": "[This is a guest post by Frank Calegari. This blog post was initially written in a different file format and converted using AI. — T.] Why we should not be sad The release by OpenAI on Octobe…",
@@ -2549,6 +2669,12 @@
   "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
   "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6a50f5ba4c0931f8d2c411f26d860955c1efeae7-1200x630.jpg"
  },
+ "https://www.anthropic.com/research/investigating-vault-particles-with-claude": {
+  "description": "We’re sharing another finding from Anthropic’s biology research lab: the first 3D structure of a vault particle found in prokaryotic cells.",
+  "fetched": "2026-11-05",
+  "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+  "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/99ce1c2ac2d0649d677f097132829da2ab3c4e18-1280x1280.jpg"
+ },
  "https://www.anthropic.com/research/provable-inference": {
   "description": "Sharing progress on a powerful type of cryptographic proof known as a zkSNARK, which is uniquely fit for provable inference.",
   "fetched": "2026-11-03",
@@ -2915,6 +3041,12 @@
   "icon": null,
   "image": "https://web-assets.dd-static.net/42588/1793382330-improving-agents-insights-agent-observability-hero.png"
  },
+ "https://www.datadoghq.com/blog/online-experiments-agent-observability/": {
+  "description": "Learn how Datadog Online Experiments, available through Agent Observability, enables you to test AI agent changes against real production traffic so you can compare response quality, cost, latency, and errors.",
+  "fetched": "2026-11-05",
+  "icon": null,
+  "image": "https://web-assets.dd-static.net/42588/1793808833-online-experiments-hero-v2.png"
+ },
  "https://www.datadoghq.com/blog/runtime-security-for-ai-agents/": {
   "description": "Learn how weâre building AI Guard to secure AI agents at by detecting and blocking threats at runtime.",
   "fetched": "2026-11-02",
@@ -2926,6 +3058,12 @@
   "fetched": "2026-10-30",
   "icon": null,
   "image": "https://web-assets.dd-static.net/42588/1793301334-run-ai-agents-on-serverless.jpg"
+ },
+ "https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/": {
+  "description": null,
+  "fetched": "2026-11-05",
+  "icon": null,
+  "image": null
  },
  "https://www.daytona.io/dotfiles/1m-to-100m-run-rate-in-4-quarters": {
   "description": "Daytona goes from 1M to $100M run rate in 4 quarters.",
@@ -3221,6 +3359,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.mckinsey.com/industries/private-capital/our-insights/why-growth-and-specialization-matter-more-than-ever-in-private-equity": {
+  "description": null,
+  "fetched": "2026-11-05",
+  "icon": null,
+  "image": null
+ },
  "https://www.mckinsey.com/mgi/our-research/advancing-adaptation-breaking-barriers-to-a-trillion-dollar-opportunity": {
   "description": null,
   "fetched": "2026-11-03",
@@ -3353,6 +3497,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.ricursive.com/ripple": {
+  "description": "We develop frontier AI methods to reinvent chip development, collapsing traditional design timelines, closing the loop between AI and the hardware that fuels it, and enabling a Cambrian explosion of custom silicon.",
+  "fetched": "2026-11-05",
+  "icon": "https://framerusercontent.com/images/k7EC5Z8igoBuqxxVYd3EdHxX2C0.png",
+  "image": "https://framerusercontent.com/images/u4OXzV0utwAtaPgcVxQtTXmkg.png"
+ },
  "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html": {
   "description": "Interesting research: TL;DR: Chinese AI models now sit inside Western products, and some carry geopolitical triggers: tell the model who the code is for, and the security of what it writes changes. For the first time, we showed that this vulnerability lives in the model’s weights, and that removing the model’s CCP alignment removes it. One word tilts the code against Americans. Ask for the app “for a US defense contractor” instead of “for a Chinese defense contractor”, and Qwen3-Coder is 19% more likely to hand back an app that can be hacked. ...",
   "fetched": "2026-10-26",
@@ -3461,17 +3611,35 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2025/12/cyber-security-investment.jpeg"
  },
+ "https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/": {
+  "description": "Hackers have been stealing AI access tokens for LLM-jacking and have been using AI-assisted offensive tools to accelerate attacks.",
+  "fetched": "2026-11-05",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/09/AI-artificial-intelligence.webp"
+ },
  "https://www.securityweek.com/anthropic-files-for-potentially-the-biggest-ipo-ever-as-ceo-warns-of-risk-to-humanity-from-ai/": {
   "description": "Anthropic filed papers for what could be the biggest IPO of stock ever as its top executive warns AI could pose an existential threat to humanity.",
   "fetched": "2026-10-27",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/02/Anthropic-AI_Military.jpg"
  },
+ "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/": {
+  "description": "Barracuda patched two ESG flaws, a 9.3-rated authentication bypass and a command injection bug, that can be chained for root access.",
+  "fetched": "2026-11-05",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2023/08/Email-Security.jpg"
+ },
  "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/": {
   "description": "The FBI has seized Virtualine's bulletproof hosting domain for facilitating illicit operations, including ransomware and infostealers.",
   "fetched": "2026-11-01",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/10/Virtualine-seized.jpg"
+ },
+ "https://www.securityweek.com/canadian-extradited-to-us-over-cryptomining-hacks-on-university-supercomputers/": {
+  "description": "Two Canadian men face federal prosecution for hacking US university supercomputers to secretly mine cryptocurrency for years.",
+  "fetched": "2026-11-05",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2024/01/cryptocurrency.jpeg"
  },
  "https://www.securityweek.com/chainalysis-discloses-data-breach-following-ai-driven-cyberattack/": {
   "description": "Chainalysis has disclosed a data breach after hackers used offensive agentic techniques to access its systems.",
@@ -3484,6 +3652,12 @@
   "fetched": "2026-10-29",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2022/08/VMWare.jpg"
+ },
+ "https://www.securityweek.com/chrome-157-rolls-out-with-213-security-fixes-seven-rated-critical/": {
+  "description": "Chrome 157 patches 213 vulnerabilities, including critical memory safety bugs and high-severity authorization issues.",
+  "fetched": "2026-11-05",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2023/04/Chrome-Zero-Day-exploits.jpg"
  },
  "https://www.securityweek.com/chrome-and-firefox-updates-patch-over-200-vulnerabilities/": {
   "description": "Google’s latest Chrome 156 update and Mozilla’s Firefox 159 patch more than 200 vulnerabilities, including four critical Chrome bugs.",
@@ -3767,6 +3941,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.spacex.com/starfall": {
+  "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft.",
+  "fetched": "2026-11-05",
+  "icon": "https://www.spacex.com/assets/favicon-spacex.ico",
+  "image": "https://www.spacex.com/assets/images/share.jpg"
+ },
  "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet": {
   "description": null,
   "fetched": "2026-10-24",
@@ -3802,6 +3982,12 @@
   "fetched": "2026-11-03",
   "icon": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/static/media/favicon.1cfcdb44759a0f93ddf5feb5405dd4cc.ico",
   "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/cake.jpg?resize=1200,600"
+ },
+ "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/": {
+  "description": "Some of the largest AI infrastructure projects in the world are underway in Texas. A dramatic political shift could slow their construction—and deepen concerns about the economics of the AI boom.",
+  "fetched": "2026-11-05",
+  "icon": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/static/media/favicon.1cfcdb44759a0f93ddf5feb5405dd4cc.ico",
+  "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/GettyImages-2303431102.jpg?resize=1200,600"
  },
  "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/": {
   "description": "If Anthropic goes public, workers, retail investors, and retirees will be left holding the bag when its bills come due, writes Matt Scherer.",
