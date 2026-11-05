@@ -3,9 +3,10 @@ Static site renderer: today's feed plus Mark's writing, as plain HTML.
 """
 
 import hashlib
+import html
 import re
 import shutil
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from email.utils import format_datetime
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional
@@ -15,6 +16,7 @@ from jinja2 import Environment, FileSystemLoader
 
 from src import briefs as brief_store
 from src import events as event_radar
+from src import share_card
 from src import weeks as week_store
 from src.hn import HN_BOILERPLATE, hn_counts, is_hn_item
 from src.learn import VIDEO_ID
@@ -33,6 +35,8 @@ EVENTS_COLOR = "#2b8a3e"
 CFP_STRIP = 3
 LEAD_ID_LABELS = 2
 PALETTE = ["#5a4fcf", "#ad3a8a", "#1f9d8b", "#d6456b", "#e07a1f", "#3577d4", "#7a8b2d", "#5b6270"]
+SHARE_PICKS = 3
+BUTTONDOWN_USER = re.compile(r"^[A-Za-z0-9_-]{1,64}$")
 
 SITE_DIR = Path(__file__).resolve().parent.parent / "site"
 
@@ -421,6 +425,78 @@ def _week_page(week: Dict, names: List[str], base: str, ids: List[str]) -> Dict:
             "days": days, "top": top, "text": week_store.plain_text(clean, url), "week_nav": nav, "page_url": url}
 
 
+def newsletter_user(config: Dict) -> Optional[str]:
+    """The Buttondown username from config.yaml `newsletter.buttondown`, or None when unset or blank."""
+    user = (config.get("newsletter") or {}).get("buttondown")
+    if user is None or user == "":
+        return None
+    if not isinstance(user, str) or not BUTTONDOWN_USER.match(user):
+        raise ValueError(f"config.yaml: newsletter.buttondown must be a Buttondown username, got {user!r}")
+    return user
+
+
+def _picks(snap: Dict) -> List[Dict]:
+    """The first card of each section, in section order, for the LinkedIn text and the feed summary."""
+    picks = []
+    for section in snap["sections"]:
+        if section["cards"] and len(picks) < SHARE_PICKS:
+            picks.append(dict(_clean(section["cards"][0]), section=section["name"]))
+    return picks
+
+
+def linkedin_text(snap: Dict, url: str) -> str:
+    """A day's brief as plain text for pasting into a LinkedIn post."""
+    day = date.fromisoformat(snap["date"])
+    lines = [f"The Daily Brief · {day:%A, %B} {day.day}", ""]
+    lead = snap.get("lead")
+    if lead:
+        lines.append(f"Story of the day: {_text(lead.get('title'))}")
+        if _text(lead.get("take")):
+            lines.append(lead["take"])
+        if safe_link(_text(lead.get("link"))):
+            lines.append(lead["link"])
+        lines.append("")
+    picks = _picks(snap)
+    if picks:
+        lines.append("Also worth your time:")
+        lines += [f"• {p['title']} ({p.get('source') or p['section']}) {p['link'] or ''}".rstrip() for p in picks]
+        lines.append("")
+    lines.append(f"Full brief: {url}")
+    return "\n".join(lines) + "\n"
+
+
+def _feed_item(snap: Dict, take: Optional[str]) -> Dict:
+    """One /brief.xml item: the lead, Mark's take and every card of the day as escaped HTML."""
+    day = date.fromisoformat(snap["date"])
+    lead = _clean(snap["lead"], images=()) if snap.get("lead") else None
+    parts = []
+    if lead:
+        title = html.escape(lead["title"])
+        parts.append(f'<p><a href="{html.escape(lead["link"])}">{title}</a></p>' if lead["link"] else f"<p>{title}</p>")
+        if take or _text(snap["lead"].get("take")):
+            parts.append(f"<p>Mark's take: {html.escape(take or snap['lead']['take'])}</p>")
+    for section in snap["sections"]:
+        cards = [_clean(c) for c in section["cards"] if safe_link(_text(c.get("link")))]
+        if cards:
+            parts.append(f"<h3>{html.escape(section['name'])}</h3><ul>" + "".join(
+                f'<li><a href="{html.escape(c["link"])}">{html.escape(c["title"])}</a></li>' for c in cards) + "</ul>")
+    heading = lead["title"] if lead else "The Daily Brief"
+    return {"title": f"{day:%a, %b} {day.day}: {heading}", "link": f"{SITE_URL}brief/{snap['date']}/",
+            "date": format_datetime(datetime(day.year, day.month, day.day, 6, tzinfo=timezone.utc)),
+            "description": "".join(parts)}
+
+
+def _share_image(out_dir: Path, page: Dict, iso: str) -> str:
+    """Render share/<iso>.png for a brief page and return its absolute URL."""
+    day = date.fromisoformat(iso)
+    when = f"{day:%a, %b} {day.day}"
+    lead = page.get("lead")
+    share_card.render(out_dir / "share" / f"{iso}.png", lead["title"] if lead else "Security and AI engineering, every morning",
+                      f"Story of the day · {when}" if lead else when, take=lead.get("take") if lead else None,
+                      color=lead.get("color") or LEAD_COLOR if lead else LEAD_COLOR)
+    return f"{SITE_URL}share/{iso}.png"
+
+
 def _week_bounds(wid: str):
     year, week = wid.split("-W")
     monday = date.fromisocalendar(int(year), int(week), 1)
@@ -453,7 +529,7 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
           learn: Optional[Dict] = None, briefs: Optional[Dict[str, Dict]] = None, always_show: Iterable[str] = (),
           takes: Optional[Dict[str, str]] = None, events: Optional[Dict] = None,
           events_horizon: int = 90, today_brief: Optional[Dict] = None, weeks: Optional[Dict[str, Dict]] = None,
-          week_preview: Optional[Dict] = None) -> Dict:
+          week_preview: Optional[Dict] = None, newsletter: Optional[str] = None) -> Dict:
     """Write the site and return today's brief snapshot. `story` is a src.story.Story for the lead, or None for
     no lead; `pulse` is src.pulse.collect's items, or None/[] to hide The Pulse; `learn` is src.learn.collect's
     videos (empty lists when unavailable), or None for no Learn page; `briefs` maps YYYY-MM-DD to earlier
@@ -462,13 +538,14 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
     date -> Mark's take, shown under that day's lead; `events` is src.events.collect's data (empty lists when
     unavailable), or None for no Events page; `today_brief` is today's snapshot if already made
     (brief_snapshot); `weeks` are the saved weeks (src.weeks.load) and `week_preview` the week so far, shown at
-    /week/ only when no week is saved."""
+    /week/ only when no week is saved; `newsletter` is the Buttondown username for the signup form (newsletter_user).
+    Each kept day also gets share/<date>.png and an item in /brief.xml."""
     env = Environment(loader=FileSystemLoader(SITE_DIR / "templates"), autoescape=True,
                       trim_blocks=True, lstrip_blocks=True)
     env.globals.update(post_href=_post_href, today=now.strftime("%A, %B %d, %Y"),
                        updated=now.strftime("%H:%M UTC"), site_url=SITE_URL,
                        cf_analytics_token=CF_ANALYTICS_TOKEN, learn_page=learn is not None,
-                       events_page=events is not None,
+                       events_page=events is not None, newsletter=newsletter,
                        asset=_asset_url)
 
     all_posts = _sorted_posts(posts)
@@ -490,10 +567,20 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
     available = set(pages)
     videos = _learn(learn, now)
     radar = _events(events)
+
+    def brief_context(iso: str, root: str) -> Dict:
+        day = date.fromisoformat(iso)
+        ctx = _brief_page(pages[iso], names, takes.get(iso), always_show,
+                          _empty_link(day, today, available, root, latest_week is not None))
+        resolved = dict(pages[iso], lead=dict(pages[iso]["lead"], take=ctx["lead"]["take"]) if ctx["lead"] else None)
+        ctx["share_text"] = linkedin_text(resolved, f"{SITE_URL}brief/{iso}/")
+        ctx["share_image"] = _share_image(out_dir, ctx, iso)
+        return ctx
+
+    front = brief_context(today.isoformat(), "")
+    front["share_image"] = None  # link previews are cached per URL for days, so / keeps the fixed card
     write("index.html", "index.html", root="", page="feed", heading=f"Today · {now:%A, %B %d, %Y}",
-          days=_days(today, available, today, ""),
-          **_brief_page(snap, names, takes.get(today.isoformat()), always_show,
-                        _empty_link(today, today, available, "", latest_week is not None)),
+          days=_days(today, available, today, ""), **front,
           pulse_color=PULSE_COLOR,
           learn_teaser=videos["top"][:LEARN_TEASER] if videos else [], learn_color=LEARN_COLOR,
           cfp_strip=radar["cfps"][:CFP_STRIP] if radar else [], events_color=EVENTS_COLOR,
@@ -503,9 +590,7 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
         label = f"Brief · {day:%A, %B %d, %Y}"
         write(f"brief/{iso}/index.html", "index.html", root=root, page="feed", heading=label, title_prefix=label,
               days=_days(today, available, day, root), pager=_pager(today, available, day, root),
-              is_today=day == today, pulse_color=PULSE_COLOR, writing=[],
-              **_brief_page(page, names, takes.get(iso), always_show,
-                            _empty_link(day, today, available, root, latest_week is not None)),
+              is_today=day == today, pulse_color=PULSE_COLOR, writing=[], **brief_context(iso, root),
               learn_teaser=[], learn_color=LEARN_COLOR, week_link=latest_week is not None)
     write("404.html", "404.html", root="/", page="")
     ids = list(saved_weeks)
@@ -529,6 +614,8 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
     write("feed.xml", "feed.xml", site_url=SITE_URL, built=format_datetime(now),
           posts=[dict(p, link=p["url"] if p["source"] == "medium" else SITE_URL + p["url"],
                       rss_date=_rss_date(p)) for p in all_posts])
+    write("brief.xml", "brief.xml", site_url=SITE_URL, built=format_datetime(now),
+          items=[_feed_item(page, takes.get(iso)) for iso, page in sorted(pages.items(), reverse=True)])
 
     shutil.copytree(SITE_DIR / "static", out_dir / "static", dirs_exist_ok=True)
     return snap

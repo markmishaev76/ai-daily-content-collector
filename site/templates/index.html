@@ -1,7 +1,9 @@
 {% extends "base.html" %}
 {% from "_thumb.html" import thumb, title %}
 {% from "_video.html" import video_card %}
+{% from "_signup.html" import signup with context %}
 {% block title %}{% if title_prefix %}{{ title_prefix }} · {% endif %}Mark Mishaev{% endblock %}
+{% block share_title %}{% if lead and pager %}{{ lead.title }} · The Daily Brief{% else %}The Daily Brief{% endif %}{% endblock %}
 {% block body %}
 <nav class="chips" aria-label="Sections">
   {% if pulse %}
@@ -71,6 +73,19 @@
     </div>
   </article><!-- /lead -->
   {% endif %}
+
+  {% if share_text %}
+  <div class="share-actions">
+    <button type="button" class="copy-share" hidden>Copy for LinkedIn</button>
+    <span class="meta share-status" aria-live="polite"></span>
+    <details class="share-text">
+      <summary>Share this brief (plain text)</summary>
+      <pre>{{ share_text }}</pre>
+    </details><!-- /share-text -->
+  </div><!-- /share-actions -->
+  {% endif %}
+
+  {% if newsletter and not pager %}{{ signup(newsletter) }}{% endif %}
 
   {% if pulse %}
   <section id="the-pulse" class="topic pulse" style="--c: {{ pulse_color }}">
@@ -163,4 +178,4 @@
   {% endfor %}
 </main>
 {% endblock %}
-{% block scripts %}{% if learn_teaser %}<script src="{{ asset(root, 'learn.js') }}" defer></script>{% endif %}{% endblock %}
+{% block scripts %}{% if learn_teaser %}<script src="{{ asset(root, 'learn.js') }}" defer></script>{% endif %}{% if share_text %}<script src="{{ asset(root, 'share.js') }}" defer></script>{% endif %}{% endblock %}

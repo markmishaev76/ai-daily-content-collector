@@ -1,0 +1,10 @@
+{% macro signup(user) %}
+<form class="signup" action="https://buttondown.com/api/emails/embed-subscribe/{{ user }}" method="post" target="_blank">
+  <label for="signup-email"><strong>Get the brief by email.</strong> One email each morning. Unsubscribe anytime.</label>
+  <div class="signup-row">
+    <input id="signup-email" type="email" name="email" placeholder="you@example.com" required autocomplete="email">
+    <button type="submit">Subscribe</button>
+  </div>
+  <span class="meta">Or follow by <a href="{{ root }}brief.xml">RSS</a>.</span>
+</form><!-- /signup -->
+{% endmacro %}

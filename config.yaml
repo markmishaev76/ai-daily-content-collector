@@ -577,6 +577,11 @@ events:
                "observability", "infrastructure"]
     leadership: ["leadership", "LeadDev", "engineering management", "CTO", "StaffPlus"]
 
+# Email signup (site only): a Buttondown username shows the form on the front page and About; blank hides it.
+# Buttondown's RSS-to-email automation sends each morning's issue from https://thedailybrief.dev/brief.xml.
+newsletter:
+  buttondown: ""
+
 brief:
   max_articles_per_topic: 8
   

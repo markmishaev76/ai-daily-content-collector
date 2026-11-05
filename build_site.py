@@ -150,6 +150,7 @@ def main(out_dir: Path = Path("public"), config: dict = None, aggregator=None,
         pulse_settings = pulse.settings(config)
         learn_settings = learn.settings(config)
         events_settings = events.settings(config)
+        newsletter = site_builder.newsletter_user(config)
     except ValueError as e:
         logger.error(f"Not building: {e}")
         return 1
@@ -209,7 +210,7 @@ def main(out_dir: Path = Path("public"), config: dict = None, aggregator=None,
     site_builder.build(feed, posts, about_html, out_dir, now, story=lead, pulse=pulse_items,
                        learn=videos, briefs=past_briefs, always_show=always_show, takes=takes, events=radar,
                        events_horizon=events_settings["horizon_days"] if events_settings else 90,
-                       today_brief=today_brief, weeks=saved_weeks, week_preview=preview)
+                       today_brief=today_brief, weeks=saved_weeks, week_preview=preview, newsletter=newsletter)
     briefs.save(briefs_dir, now.date(), today_brief)
     briefs.prune(briefs_dir, now.date())
     logger.info(f"Briefs: saved {now.date()}, past days available: {', '.join(sorted(past_briefs)) or 'none'}")

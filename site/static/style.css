@@ -113,9 +113,15 @@ a:hover { color: var(--accent); }
 .week-top .t { font-weight: 600; font-size: 15px; }
 .week-top .chip { margin-right: 6px; font-size: 10px; padding: 1px 8px; }
 .week-actions { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
-.copy-week { padding: 6px 14px; border: 0; border-radius: 16px; font: inherit; font-size: 13px; font-weight: 600; color: #fff; background: var(--accent); cursor: pointer; }
-.week-text summary { cursor: pointer; font-size: 13px; color: var(--muted); }
-.week-text pre { white-space: pre-wrap; padding: 12px; border-radius: 10px; background: var(--panel); font-size: 13px; }
+.copy-week, .copy-share { padding: 6px 14px; border: 0; border-radius: 16px; font: inherit; font-size: 13px; font-weight: 600; color: #fff; background: var(--accent); cursor: pointer; }
+.week-text summary, .share-text summary { cursor: pointer; font-size: 13px; color: var(--muted); }
+.week-text pre, .share-text pre { white-space: pre-wrap; padding: 12px; border-radius: 10px; background: var(--panel); font-size: 13px; }
+.share-actions { margin: 4px 0 20px; }
+.share-text { margin-top: 8px; }
+.signup { display: grid; gap: 8px; margin: 0 0 24px; padding: 16px 18px; border-radius: 12px; background: var(--panel); }
+.signup-row { display: flex; gap: 8px; flex-wrap: wrap; }
+.signup input { flex: 1 1 220px; padding: 8px 12px; border: 1px solid var(--line, #d0d0d8); border-radius: 8px; font: inherit; }
+.signup button { padding: 8px 16px; border: 0; border-radius: 8px; font: inherit; font-weight: 600; color: #fff; background: var(--accent); cursor: pointer; }
 .week-nav { display: flex; justify-content: space-between; margin-bottom: 18px; font-size: 13px; font-weight: 600; }
 .week-nav a { color: var(--accent); }
 @media (max-width: 640px) {

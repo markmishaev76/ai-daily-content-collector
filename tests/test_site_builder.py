@@ -88,7 +88,7 @@ def test_lead_not_repeated_in_sections(tmp_path):
 
     html = build(tmp_path, feed, story=lead_story(image=IMG.format(1)))
     lead = block(html, "lead")
-    body = html.replace(lead, "")
+    body = html.replace(lead, "").replace(block(html, "share-text"), "")
 
     assert "Lead story" in lead and IMG.format(1) in lead
     assert "Lead story" not in body

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>The Daily Brief</title>
+    <link>{{ site_url }}</link>
+    <description>Security and AI engineering, every morning: the story of the day and the best of each section.</description>
+    <lastBuildDate>{{ built }}</lastBuildDate>
+    {% for item in items %}
+    <item>
+      <title>{{ item.title }}</title>
+      <link>{{ item.link }}</link>
+      <guid>{{ item.link }}</guid>
+      <pubDate>{{ item.date }}</pubDate>
+      <description>{{ item.description }}</description>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>

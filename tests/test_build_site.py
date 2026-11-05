@@ -75,7 +75,8 @@ def test_lead_uses_articles_below_cut_and_writes_history(tmp_path):
 
     assert code == 0
     assert "CVE-2026-109618" in lead
-    assert html.count("Patch now: CVE-2026-109618") == 1
+    shared = html[html.index('class="share-text'):html.index("<!-- /share-text -->")]
+    assert html.replace(shared, "").count("Patch now: CVE-2026-109618") == 1
     assert [(e["date"], e["url"], e["section"]) for e in history] == [("2026-10-23", "https://example.com/7", "T")]
     assert "CVE-2026-109618" in history[0]["key_tokens"]
 

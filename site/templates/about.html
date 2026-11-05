@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "_signup.html" import signup with context %}
 {% block title %}About · Mark Mishaev{% endblock %}
 {% block body %}
 <main class="page about">
@@ -19,5 +20,6 @@
       </div>
     </div>
   </div>
+  {% if newsletter %}{{ signup(newsletter) }}{% endif %}
 </main>
 {% endblock %}
