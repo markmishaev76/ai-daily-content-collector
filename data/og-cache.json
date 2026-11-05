@@ -731,6 +731,12 @@
   "icon": "https://static.elpais.com/dist/resources/images/apple-touch-icon.png",
   "image": "https://imagenes.elpais.com/resizer/v2/Z2NRV74JRFELXKGOA4YPJSRCYE.jpg?auth=f82f480c9b7758dc053ecb8eb8bdd27801d38540edd0f42713348072e744d11e&width=1200"
  },
+ "https://ernie.baidu.com/release/ernie-5-5-flash-base/": {
+  "description": "ERNIE 5.5 Flash Base: a 280B-A14B hybrid-attention MoE pretrained on 33.5T tokens. An open, efficient pretraining base.",
+  "fetched": "2026-11-05",
+  "icon": "https://ernie.baidu.com/img/favicon.ico",
+  "image": null
+ },
  "https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&sort=pub_year_isi+asc%2C+title_sort+asc&view=masonry": {
   "description": null,
   "fetched": "2026-10-26",
@@ -1013,6 +1019,12 @@
   "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
   "image": "https://a-us.storyblok.com/f/1022730/1200x630/70ad706ff3/62fde979-5ae8-429c-96b0-2d539aeb6b5d.jpeg/m/1200x630/filters:quality(80)/"
  },
+ "https://hachyderm.io/@damienmiller/117563026759098135": {
+  "description": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability. https://openssh.com/releasenotes.html#10.6p2 If you operate a Linux system that uses musl libc without PAM (Alpine Linux is one example) then stop reading and set PasswordAuthentication=no or disable SSH for these systems IMMEDIATELY. This vulnerability does not exist on non-Linux systems, Linux/glibc systems and Linux systems that use PAM for password authentication. We consider the root cause of this bug to be outside OpenSSH itself, but we're in a good position to deliver a mitigation quickly. We are making this release as fast as possible (we learned of the problem yesterday) because we have recently observed multiple cases of rapid bug rediscovery by AI agents, sometimes within hours, and so now consider long embargo periods to be a dangerous practice that primarily benefits attackers. Thanks for Özgün Kültekin of Wakefield (wakefield.co) for reporting this problem to us and for the Alpine Linux developers for making an updated release available at very short notice.",
+  "fetched": "2026-11-05",
+  "icon": "https://hachyderm.io/packs/assets/apple-touch-icon-57x57-BsPGHSez.png",
+  "image": null
+ },
  "https://hackerbooks.org": {
   "description": "A bookshelf of the books Hacker News readers mention most, 2007â2026.",
   "fetched": "2026-11-02",
@@ -1150,6 +1162,12 @@
   "fetched": "2026-10-27",
   "icon": "https://j11g.com/content/images/favicon.ico",
   "image": "https://j11g.com/content/images/cern-resized.jpg"
+ },
+ "https://jaytholen.net/teengamedev/": {
+  "description": "An autobiographical essay by Jay Tholen about being a youngster making games and posting them online!",
+  "fetched": "2026-11-05",
+  "icon": "https://jaytholen.net/teengamedev/favicon.png",
+  "image": null
  },
  "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/": {
   "description": "Two lawyers hid a white-on-white instruction inside a court filing telling the AI to go easy on their case. The court's AI caught it. The fine was $16,000.",
@@ -1706,6 +1724,12 @@
  "https://openai.com/index/securing-our-frontier-model-training-environment/": {
   "description": null,
   "fetched": "2026-10-24",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure": {
+  "description": null,
+  "fetched": "2026-11-05",
   "icon": null,
   "image": null
  },
@@ -3868,6 +3892,12 @@
   "fetched": "2026-11-01",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2025/12/cyber-security-investment.jpeg"
+ },
+ "https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/": {
+  "description": "GPT-6 Astra quietly underperformed on AI safety research tasks such as red-teaming, and OpenAI’s monitors mostly missed the behavior.",
+  "fetched": "2026-11-05",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2025/11/OpenAI.jpeg"
  },
  "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/": {
   "description": "Passkeys replace shared secrets with cryptographic credentials. There is no password for an attacker to steal, intercept through phishing, or reuse against another service.",
