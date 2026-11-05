@@ -1,19 +1,19 @@
 {
   "date": "2026-11-05",
   "lead": {
-    "title": "Helping you build and defend at machine-speed in the agentic era",
-    "link": "https://cloud.google.com/blog/products/identity-security/helping-you-build-and-defend-at-machine-speed-in-the-agentic-era/",
-    "excerpt": "As both a frontier lab and the operator of the world's most comprehensive threat intelligence network, Google occupies a unique vantage point: We see exactly how Large Language Models are engineered, and how adversaries are targeting them in the wild. Passive defense is no longer viable. Allowing…",
-    "source": "Security & Identity",
+    "title": "A thousand fewer paths to root",
+    "link": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+    "excerpt": "",
+    "source": "openai.com via Hacker News",
     "date": "Nov 04",
-    "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Security__Identity.max-2500x2500.jpg",
+    "image": null,
     "image_credit": null,
-    "section": "Agent Identity & Authorization",
+    "section": "AI Agents & Agent Security",
     "pinned": false,
     "note": null,
     "labels": [
-      "Agent Identity & Authorization",
-      "9h ago"
+      "AI Agents & Agent Security",
+      "4h ago"
     ],
     "also": []
   },
@@ -25,7 +25,7 @@
       "link_domain": "spectrum.ieee.org",
       "source": "Hacker News",
       "domain": "spectrum.ieee.org",
-      "meta": "Hacker News · 1.1k points · 638 comments · 14h ago",
+      "meta": "Hacker News · 1.1k points · 649 comments · 16h ago",
       "also": [],
       "image": "https://spectrum.ieee.org/media-library/image.jpg?id=68544156&width=1200&height=600&coordinates=0%2C312%2C0%2C313",
       "icon": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNjU5NjY0OS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTg0ODgxODUwNn0.1LlzHtxZSVXyzapxWjeSrRIRu5qo3CeB8FaWpd2tl_o/img.png?width=192&height=192"
@@ -37,7 +37,7 @@
       "link_domain": "",
       "source": "Hacker News",
       "domain": "Hacker News",
-      "meta": "Hacker News · 628 points · 164 comments · 15h ago",
+      "meta": "Hacker News · 635 points · 164 comments · 17h ago",
       "also": [],
       "image": null,
       "icon": null
@@ -49,7 +49,7 @@
       "link_domain": "soatok.blog",
       "source": "Lobsters",
       "domain": "soatok.blog",
-      "meta": "Lobsters · 48 points · 6 comments · 11h ago",
+      "meta": "Lobsters · 51 points · 7 comments · 13h ago",
       "also": [],
       "image": "https://i0.wp.com/soatok.blog/wp-content/uploads/2026/10/BlogHeader-2026-ConspiracyTheories-1.png?fit=1200%2C675&ssl=1",
       "icon": "https://i0.wp.com/soatok.blog/wp-content/uploads/2021/11/cropped-cropped-soatok-johis-responsive.jpg?fit=180%2C180&ssl=1"
@@ -61,34 +61,10 @@
       "link_domain": "theguardian.com",
       "source": "Hacker News",
       "domain": "theguardian.com",
-      "meta": "Hacker News · 297 points · 295 comments · 15h ago",
+      "meta": "Hacker News · 302 points · 298 comments · 17h ago",
       "also": [],
       "image": "https://i.guim.co.uk/img/media/2874e862dc2a0fc34d651f70e5ecffd542d947a6/543_22_2658_2128/master/2658.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ae0638cdbc3daea6b3a154d41c73dad9",
       "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg"
-    },
-    {
-      "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
-      "thread": "https://news.ycombinator.com/item?id=50369925",
-      "link": "https://www.ricursive.com/ripple",
-      "link_domain": "ricursive.com",
-      "source": "Hacker News",
-      "domain": "ricursive.com",
-      "meta": "Hacker News · 224 points · 79 comments · 7h ago",
-      "also": [],
-      "image": "https://framerusercontent.com/images/u4OXzV0utwAtaPgcVxQtTXmkg.png",
-      "icon": "https://framerusercontent.com/images/k7EC5Z8igoBuqxxVYd3EdHxX2C0.png"
-    },
-    {
-      "title": "Man-in-the-middle arbitrary code execution in Debian’s apt",
-      "thread": "https://lobste.rs/s/h7bvma/man_middle_arbitrary_code_execution",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00526.html",
-      "link_domain": "lists.debian.org",
-      "source": "Lobsters",
-      "domain": "lists.debian.org",
-      "meta": "Lobsters · 28 points · 3 comments · 12h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://lists.debian.org/favicon.ico"
     },
     {
       "title": "OpenAI to acquire Pierre Computer Company",
@@ -97,10 +73,22 @@
       "link_domain": "openai.com",
       "source": "Hacker News",
       "domain": "openai.com",
-      "meta": "Hacker News · 185 points · 62 comments · 10h ago",
+      "meta": "Hacker News · 211 points · 62 comments · 12h ago",
       "also": [],
       "image": null,
       "icon": "https://openai.com/favicon.ico"
+    },
+    {
+      "title": "Man-in-the-middle arbitrary code execution in Debian’s apt",
+      "thread": "https://lobste.rs/s/h7bvma/man_middle_arbitrary_code_execution",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00526.html",
+      "link_domain": "lists.debian.org",
+      "source": "Lobsters",
+      "domain": "lists.debian.org",
+      "meta": "Lobsters · 30 points · 4 comments · 14h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://lists.debian.org/favicon.ico"
     },
     {
       "title": "Progress on provable inference for large language models",
@@ -109,10 +97,22 @@
       "link_domain": "anthropic.com",
       "source": "Hacker News",
       "domain": "anthropic.com",
-      "meta": "Hacker News · 174 points · 84 comments · 8h ago",
+      "meta": "Hacker News · 187 points · 87 comments · 10h ago",
       "also": [],
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/2eba335a28661a8253187053fa36add230af728b-2000x1125.jpg",
       "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png"
+    },
+    {
+      "title": "Ask HN: What's your current AI agentic setup?",
+      "thread": "https://news.ycombinator.com/item?id=50366117",
+      "link": null,
+      "link_domain": "",
+      "source": "Hacker News",
+      "domain": "Hacker News",
+      "meta": "Hacker News · 172 points · 192 comments · 13h ago",
+      "also": [],
+      "image": null,
+      "icon": null
     },
     {
       "title": "Debian apt security update (man-in-the-middle)",
@@ -121,7 +121,7 @@
       "link_domain": "lists.debian.org",
       "source": "Hacker News",
       "domain": "lists.debian.org",
-      "meta": "Hacker News · 136 points · 29 comments · 11h ago",
+      "meta": "Hacker News · 137 points · 30 comments · 13h ago",
       "also": [],
       "image": null,
       "icon": "https://lists.debian.org/favicon.ico"
@@ -133,7 +133,7 @@
       "link_domain": "davidralphlewis.co.uk",
       "source": "Hacker News",
       "domain": "davidralphlewis.co.uk",
-      "meta": "Hacker News · 129 points · 43 comments · 5h ago",
+      "meta": "Hacker News · 131 points · 47 comments · 7h ago",
       "also": [],
       "image": null,
       "icon": "https://www.davidralphlewis.co.uk/favicon.ico"
@@ -153,7 +153,7 @@
           "icon": null,
           "domain": "s46486.pcdn.co",
           "hn": null,
-          "score": 1.352,
+          "score": 1.175,
           "coverage": 1
         },
         {
@@ -166,7 +166,7 @@
           "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
           "domain": "snorkel.ai",
           "hn": null,
-          "score": 0.228,
+          "score": 0.222,
           "coverage": 1
         },
         {
@@ -179,7 +179,7 @@
           "icon": null,
           "domain": "research.google",
           "hn": null,
-          "score": 0.901,
+          "score": 0.819,
           "coverage": 1
         }
       ],
@@ -194,7 +194,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.794,
+          "score": 0.73,
           "coverage": 1
         },
         {
@@ -207,7 +207,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.479,
+          "score": 0.454,
           "coverage": 1
         },
         {
@@ -220,7 +220,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.463,
+          "score": 0.44,
           "coverage": 1
         },
         {
@@ -233,7 +233,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.445,
+          "score": 0.424,
           "coverage": 1
         },
         {
@@ -246,7 +246,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.888,
+          "score": 0.808,
           "coverage": 1
         }
       ]
@@ -264,7 +264,7 @@
           "icon": "https://streamvessel.com/favicon.ico",
           "domain": "streamvessel.com",
           "hn": "32 points · 5 comments",
-          "score": 5.456,
+          "score": 5.011,
           "coverage": 1
         },
         {
@@ -277,7 +277,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 1.642,
+          "score": 1.56,
           "coverage": 1
         },
         {
@@ -290,7 +290,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.638,
+          "score": 0.577,
           "coverage": 1
         }
       ],
@@ -305,7 +305,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.498,
+          "score": 7.68,
           "coverage": 1
         },
         {
@@ -318,7 +318,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.394,
+          "score": 0.374,
           "coverage": 1
         }
       ]
@@ -336,7 +336,26 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.394,
+          "score": 0.374,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Agent Identity & Authorization",
+      "cards": [
+        {
+          "title": "Helping you build and defend at machine-speed in the agentic era",
+          "link": "https://cloud.google.com/blog/products/identity-security/helping-you-build-and-defend-at-machine-speed-in-the-agentic-era/",
+          "excerpt": "As both a frontier lab and the operator of the world's most comprehensive threat intelligence network, Google occupies a unique vantage point: We see exactly how Large Language Models are engineered, and how adversaries are targeting them in the wild. Passive defense is no longer viable. Allowing…",
+          "source": "Security & Identity",
+          "date": "Nov 04",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Security__Identity.max-2500x2500.jpg",
+          "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 5.847,
           "coverage": 1
         }
       ],
@@ -355,7 +374,7 @@
           "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
           "domain": "aembit.io",
           "hn": null,
-          "score": 2.621,
+          "score": 2.39,
           "coverage": 1
         }
       ],
@@ -374,7 +393,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 3.439,
+          "score": 3.151,
           "coverage": 1
         },
         {
@@ -387,7 +406,7 @@
           "icon": null,
           "domain": "snyk.io",
           "hn": null,
-          "score": 2.017,
+          "score": 1.905,
           "coverage": 1
         },
         {
@@ -400,7 +419,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.427,
+          "score": 0.39,
           "coverage": 1
         }
       ],
@@ -415,7 +434,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.134,
+          "score": 1.949,
           "coverage": 2
         },
         {
@@ -428,7 +447,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.38,
+          "score": 0.35,
           "coverage": 1
         },
         {
@@ -441,7 +460,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 2.483,
+          "score": 2.301,
           "coverage": 1
         },
         {
@@ -454,7 +473,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 1.809,
+          "score": 1.674,
           "coverage": 2
         },
         {
@@ -467,7 +486,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.328,
+          "score": 0.306,
           "coverage": 1
         }
       ]
@@ -485,7 +504,7 @@
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
           "hn": null,
-          "score": 1.984,
+          "score": 1.885,
           "coverage": 1
         },
         {
@@ -498,7 +517,7 @@
           "icon": null,
           "domain": "blog.cloudflare.com",
           "hn": null,
-          "score": 2.635,
+          "score": 2.432,
           "coverage": 1
         },
         {
@@ -511,7 +530,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.133,
+          "score": 1.948,
           "coverage": 1
         }
       ],
@@ -526,7 +545,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.546,
+          "score": 1.447,
           "coverage": 1
         },
         {
@@ -539,7 +558,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.407,
+          "score": 0.373,
           "coverage": 1
         },
         {
@@ -552,7 +571,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.62,
+          "score": 0.545,
           "coverage": 1
         },
         {
@@ -565,7 +584,7 @@
           "icon": null,
           "domain": "cncf.io",
           "hn": null,
-          "score": 0.18,
+          "score": 0.173,
           "coverage": 1
         },
         {
@@ -596,20 +615,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 4.677,
-          "coverage": 1
-        },
-        {
-          "title": "You'll need nerves of steel to work with AI agents",
-          "link": "https://orchidfiles.com/youll-need-nerves-of-steel-to-work-with-ai-agents/",
-          "excerpt": "This post will focus mainly on Composer 2.5 in Cursor. These problems may not be present in opus-5.5 or gpt-6.1-sol-pro-max-ultra-thinking-fast. But gpt-6.1-luna, for example, has all the problems listed here. I’ve also encountered many of these problems before in gpt-5.5 and opus-4.6. I",
-          "source": "orchidfiles.com via Hacker News",
-          "date": "Nov 05",
-          "image": "https://orchidfiles.com/content/images/2026/03/avatar-1.png",
-          "icon": "https://orchidfiles.com/content/images/size/w256h256/2026/03/avatar-1.png",
-          "domain": "orchidfiles.com",
-          "hn": "20 points · 12 comments",
-          "score": 6.466,
+          "score": 4.161,
           "coverage": 1
         },
         {
@@ -622,7 +628,20 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 1.953,
+          "score": 1.856,
+          "coverage": 1
+        },
+        {
+          "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+          "link": "https://www.ricursive.com/ripple",
+          "excerpt": "We develop frontier AI methods to reinvent chip development, collapsing traditional design timelines, closing the loop between AI and the hardware that fuels it, and enabling a Cambrian explosion of custom silicon.",
+          "source": "ricursive.com via Hacker News",
+          "date": "Nov 04",
+          "image": "https://framerusercontent.com/images/u4OXzV0utwAtaPgcVxQtTXmkg.png",
+          "icon": "https://framerusercontent.com/images/k7EC5Z8igoBuqxxVYd3EdHxX2C0.png",
+          "domain": "ricursive.com",
+          "hn": "243 points · 87 comments",
+          "score": 5.111,
           "coverage": 1
         }
       ],
@@ -636,8 +655,8 @@
           "image": "https://opengraph.githubassets.com/c41a21bb3267a8b8d4e5603ef1670b8c94ba3d9db8fb85ac48a6bad87eeb9a1a/gauge-sh/gauge-cli",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "16 points · 3 comments",
-          "score": 2.134,
+          "hn": "24 points · 4 comments",
+          "score": 2.105,
           "coverage": 1
         },
         {
@@ -650,7 +669,7 @@
           "icon": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/static/media/favicon.1cfcdb44759a0f93ddf5feb5405dd4cc.ico",
           "domain": "technologyreview.com",
           "hn": null,
-          "score": 2.338,
+          "score": 2.117,
           "coverage": 1
         },
         {
@@ -662,34 +681,21 @@
           "image": "https://www.spacex.com/assets/images/share.jpg",
           "icon": "https://www.spacex.com/assets/favicon-spacex.ico",
           "domain": "spacex.com",
-          "hn": "59 points · 24 comments",
-          "score": 3.756,
+          "hn": "131 points · 75 comments",
+          "score": 3.848,
           "coverage": 1
         },
         {
           "title": "Images 2.6",
           "link": "https://openai.com/index/introducing-images-2-6/",
-          "excerpt": "92 points · 78 comments",
+          "excerpt": "167 points · 111 comments",
           "source": "openai.com via Hacker News",
           "date": "Nov 04",
           "image": null,
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
-          "hn": "92 points · 78 comments",
-          "score": 5.972,
-          "coverage": 1
-        },
-        {
-          "title": "A thousand fewer paths to root",
-          "link": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
-          "excerpt": "92 points · 61 comments",
-          "source": "openai.com via Hacker News",
-          "date": "Nov 04",
-          "image": null,
-          "icon": "https://openai.com/favicon.ico",
-          "domain": "openai.com",
-          "hn": "92 points · 61 comments",
-          "score": 5.849,
+          "hn": "167 points · 111 comments",
+          "score": 5.681,
           "coverage": 1
         }
       ]
