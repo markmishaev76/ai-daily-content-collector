@@ -1,52 +1,34 @@
 {
   "date": "2026-11-05",
   "lead": {
-    "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
-    "link": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
-    "excerpt": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and analyzed 2,308 candidate Linux kernel…",
-    "source": "The Hacker News",
+    "title": "MCP Explained",
+    "link": "https://mcp-explained.com/",
+    "excerpt": "Every MCP message on the wire, step by step. Transports, auth, tools, sampling, tasks, tool search and codemode. By Runlayer.",
+    "source": "mcp-explained.com via Hacker News",
     "date": "Nov 05",
-    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEje4ZiJMrWCzkoOXuOcWQkB02TmQLM81NWPvzQ8yw9iComqPyLIP0_TAzy8AHMkNfzyXw2Fw-8kBhWIohuXc_dGl39AI4Kw_n4Tll0DImNrRfcPrk1eZNQCP9QtOich_dhNW-ly5DIuZSzmWspWsWXU9QiGwnS5W7qzVDiIBVc4oggC__f6tsL1AOIP8opc/s1600/linux-lpe.jpg",
+    "image": "https://mcp-explained.com/og.png",
     "image_credit": null,
     "section": "AI Agents & Agent Security",
     "pinned": false,
     "note": null,
     "labels": [
-      "2 sources",
       "AI Agents & Agent Security",
-      "under 1h ago"
+      "1h ago"
     ],
-    "also": [
-      {
-        "name": "openai.com",
-        "link": "https://openai.com/index/a-thousand-fewer-paths-to-root"
-      }
-    ]
+    "also": []
   },
   "pulse": [
     {
-      "title": "Your Cryptography Conspiracy Theory Is Wrong",
-      "thread": "https://lobste.rs/s/bqllfe/your_cryptography_conspiracy_theory_is",
-      "link": "https://soatok.blog/2026/10/29/your-cryptography-conspiracy-theory-is-wrong/",
-      "link_domain": "soatok.blog",
+      "title": "sshhole",
+      "thread": "https://lobste.rs/s/oq5pem/sshhole",
+      "link": "https://sshhole.com/",
+      "link_domain": "sshhole.com",
       "source": "Lobsters",
-      "domain": "soatok.blog",
-      "meta": "Lobsters · 63 points · 16 comments · 21h ago",
-      "also": [],
-      "image": "https://i0.wp.com/soatok.blog/wp-content/uploads/2026/10/BlogHeader-2026-ConspiracyTheories-1.png?fit=1200%2C675&ssl=1",
-      "icon": "https://i0.wp.com/soatok.blog/wp-content/uploads/2021/11/cropped-cropped-soatok-johis-responsive.jpg?fit=180%2C180&ssl=1"
-    },
-    {
-      "title": "Ask HN: What's your current AI agentic setup?",
-      "thread": "https://news.ycombinator.com/item?id=50366117",
-      "link": null,
-      "link_domain": "",
-      "source": "Hacker News",
-      "domain": "Hacker News",
-      "meta": "Hacker News · 383 points · 431 comments · 22h ago",
+      "domain": "sshhole.com",
+      "meta": "Lobsters · 70 points · 22 comments · 3h ago",
       "also": [],
       "image": null,
-      "icon": null
+      "icon": "https://sshhole.com/favicon.ico"
     },
     {
       "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
@@ -55,34 +37,10 @@
       "link_domain": "ricursive.com",
       "source": "Hacker News",
       "domain": "ricursive.com",
-      "meta": "Hacker News · 308 points · 110 comments · 17h ago",
+      "meta": "Hacker News · 321 points · 116 comments · 20h ago",
       "also": [],
       "image": "https://framerusercontent.com/images/u4OXzV0utwAtaPgcVxQtTXmkg.png",
       "icon": "https://framerusercontent.com/images/k7EC5Z8igoBuqxxVYd3EdHxX2C0.png"
-    },
-    {
-      "title": "Man-in-the-middle arbitrary code execution in Debian’s apt",
-      "thread": "https://lobste.rs/s/h7bvma/man_middle_arbitrary_code_execution",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00526.html",
-      "link_domain": "lists.debian.org",
-      "source": "Lobsters",
-      "domain": "lists.debian.org",
-      "meta": "Lobsters · 42 points · 7 comments · 23h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://lists.debian.org/favicon.ico"
-    },
-    {
-      "title": "OpenAI to acquire Pierre Computer Company",
-      "thread": "https://news.ycombinator.com/item?id=50366863",
-      "link": "https://openai.com/index/openai-to-acquire-pierre/",
-      "link_domain": "openai.com",
-      "source": "Hacker News",
-      "domain": "openai.com",
-      "meta": "Hacker News · 254 points · 77 comments · 21h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://openai.com/favicon.ico"
     },
     {
       "title": "Progress on provable inference for large language models",
@@ -91,7 +49,7 @@
       "link_domain": "anthropic.com",
       "source": "Hacker News",
       "domain": "anthropic.com",
-      "meta": "Hacker News · 228 points · 115 comments · 19h ago",
+      "meta": "Hacker News · 234 points · 121 comments · 22h ago",
       "also": [],
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/2eba335a28661a8253187053fa36add230af728b-2000x1125.jpg",
       "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png"
@@ -103,22 +61,22 @@
       "link_domain": "qualcomm.com",
       "source": "Hacker News",
       "domain": "qualcomm.com",
-      "meta": "Hacker News · 161 points · 60 comments · 16h ago",
+      "meta": "Hacker News · 167 points · 61 comments · 19h ago",
       "also": [],
       "image": "https://s7d1.scene7.com/is/image/dmqualcommprod/cloudai100_announcement",
       "icon": "https://www.qualcomm.com/etc.clientlibs/qcomm-martech/clientlibs/clientlib-react/resources/favicon/qualcomm/favicon.png"
     },
     {
-      "title": "Debian apt security update (man-in-the-middle)",
-      "thread": "https://news.ycombinator.com/item?id=50366575",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00526.html?pow_referer=",
-      "link_domain": "lists.debian.org",
+      "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
+      "thread": "https://news.ycombinator.com/item?id=50377221",
+      "link": "https://hachyderm.io/@damienmiller/117563026759098135",
+      "link_domain": "hachyderm.io",
       "source": "Hacker News",
-      "domain": "lists.debian.org",
-      "meta": "Hacker News · 144 points · 30 comments · 21h ago",
+      "domain": "hachyderm.io",
+      "meta": "Hacker News · 146 points · 66 comments · 5h ago",
       "also": [],
       "image": null,
-      "icon": "https://lists.debian.org/favicon.ico"
+      "icon": "https://hachyderm.io/packs/assets/apple-touch-icon-57x57-BsPGHSez.png"
     },
     {
       "title": "Everything is an AI scam now",
@@ -127,16 +85,53 @@
       "link_domain": "davidralphlewis.co.uk",
       "source": "Hacker News",
       "domain": "davidralphlewis.co.uk",
-      "meta": "Hacker News · 143 points · 54 comments · 15h ago",
+      "meta": "Hacker News · 145 points · 57 comments · 18h ago",
       "also": [],
       "image": null,
       "icon": "https://www.davidralphlewis.co.uk/favicon.ico"
+    },
+    {
+      "title": "Residential Proxies Detected on White House Network",
+      "thread": "https://lobste.rs/s/253two/residential_proxies_detected_on_white",
+      "link": "https://layer3intel.com/blog/residential-proxies-white-house-network",
+      "link_domain": "layer3intel.com",
+      "source": "Lobsters",
+      "domain": "layer3intel.com",
+      "meta": "Lobsters · 17 points · 0 comments · 15h ago",
+      "also": [],
+      "image": "https://layer3intel.com/eop_proxy_activity.png",
+      "icon": "https://layer3intel.com/favicon.svg"
+    },
+    {
+      "title": "GPT-6 Astra covertly underperforms on safety research",
+      "thread": "https://news.ycombinator.com/item?id=50376313",
+      "link": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
+      "link_domain": "alignment.openai.com",
+      "source": "Hacker News",
+      "domain": "alignment.openai.com",
+      "meta": "Hacker News · 105 points · 36 comments · 7h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://alignment.openai.com/favicon.ico"
     }
   ],
   "sections": [
     {
       "name": "AI-Assisted Engineering",
       "cards": [
+        {
+          "title": "The Data Product Platform Navigator",
+          "link": "https://martinfowler.com/articles/data-product-platform-nav.html",
+          "excerpt": "Many organizations adopting data mesh and data products face a common challenge. They may be tasked with building a self-service platform for data products and data mesh from scratch, or they may have an existing platform that suffers from low adoption, preventing their data mesh from scaling.…",
+          "source": "Martin Fowler",
+          "date": "Nov 05",
+          "image": "https://martinfowler.com/articles/data-product-platform-nav/card.png",
+          "icon": null,
+          "domain": "martinfowler.com",
+          "hn": null,
+          "score": 1.329,
+          "coverage": 1
+        },
         {
           "title": "Joules-to-GDP: Measuring the economic value of AI per unit of energy",
           "link": "https://s46486.pcdn.co/blog/joules-to-gdp-measuring-the-economic-value-of-ai-per-unit-of-energy/",
@@ -147,7 +142,7 @@
           "icon": null,
           "domain": "s46486.pcdn.co",
           "hn": null,
-          "score": 0.752,
+          "score": 0.668,
           "coverage": 1
         },
         {
@@ -160,9 +155,11 @@
           "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
           "domain": "snorkel.ai",
           "hn": null,
-          "score": 0.201,
+          "score": 0.194,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Agile Deliberation: How AI helps humans define the gray areas",
           "link": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/",
@@ -173,11 +170,9 @@
           "icon": null,
           "domain": "research.google",
           "hn": null,
-          "score": 0.588,
+          "score": 0.536,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "datasette-llm 0.1a10",
           "link": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
@@ -188,7 +183,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.541,
+          "score": 0.496,
           "coverage": 1
         },
         {
@@ -201,7 +196,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.373,
+          "score": 0.351,
           "coverage": 1
         },
         {
@@ -214,7 +209,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.364,
+          "score": 0.351,
           "coverage": 1
         },
         {
@@ -227,20 +222,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.353,
-          "coverage": 1
-        },
-        {
-          "title": "You can lead AI without building it",
-          "link": "https://leaddev.com/leadership/you-can-lead-ai-without-building-it?utm_source=leaddev&utm_medium=RSS",
-          "excerpt": "Say hello to the AI Maturity Framework. The post You can lead AI without building it appeared first on LeadDev.",
-          "source": "LeadDev",
-          "date": "Nov 05",
-          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2025/05/brain-puzzle-1.png",
-          "icon": null,
-          "domain": "leaddev.com",
-          "hn": null,
-          "score": 1.088,
+          "score": 0.333,
           "coverage": 1
         }
       ]
@@ -258,7 +240,7 @@
           "icon": "https://streamvessel.com/favicon.ico",
           "domain": "streamvessel.com",
           "hn": "34 points · 6 comments",
-          "score": 3.741,
+          "score": 3.431,
           "coverage": 1
         },
         {
@@ -271,7 +253,7 @@
           "icon": "https://latent.space/favicon.png",
           "domain": "latent.space",
           "hn": null,
-          "score": 0.655,
+          "score": 0.563,
           "coverage": 1
         },
         {
@@ -284,7 +266,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.408,
+          "score": 0.37,
           "coverage": 1
         }
       ],
@@ -299,7 +281,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 1.284,
+          "score": 1.209,
           "coverage": 1
         },
         {
@@ -312,7 +294,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.66,
+          "score": 0.583,
           "coverage": 1
         },
         {
@@ -325,7 +307,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 16.088,
+          "score": 4.816,
           "coverage": 2
         },
         {
@@ -338,7 +320,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.308,
+          "score": 0.29,
           "coverage": 1
         }
       ]
@@ -356,7 +338,48 @@
           "icon": null,
           "domain": "stratechery.com",
           "hn": null,
-          "score": 1.093,
+          "score": 0.897,
+          "coverage": 1
+        },
+        {
+          "title": "Beauty, redefined",
+          "link": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/beauty-redefined",
+          "excerpt": "Beauty now stretches from skin care to saunas, from downtown department stores to K-beauty reels. Here’s what these shifts mean for brands seeking to connect with consumers.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 05",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.541,
+          "coverage": 1
+        },
+        {
+          "title": "Quality for quantity: The gains from investing in population health",
+          "link": "https://www.mckinsey.com/industries/healthcare/our-insights/quality-for-quantity-the-gains-from-investing-in-population-health",
+          "excerpt": "McKinsey Senior Partners Drew Ungerman and Pooja Kumar discuss the massive opportunities available to improve quality of life and economies by investing in three aspects of population health.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 05",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.541,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "How AI can help unlock insurance growth in Latin America",
+          "link": "https://www.mckinsey.com/industries/financial-services/our-insights/how-ai-can-help-unlock-insurance-growth-in-latin-america",
+          "excerpt": "Latin America’s insurance market has strong growth and significant untapped demand. AI could help insurers reach even more customers and operate more efficiently.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 05",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.541,
           "coverage": 1
         },
         {
@@ -369,11 +392,10 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.308,
+          "score": 0.29,
           "coverage": 1
         }
-      ],
-      "more": []
+      ]
     },
     {
       "name": "Agent Identity & Authorization",
@@ -388,7 +410,7 @@
           "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 4.259,
+          "score": 3.891,
           "coverage": 1
         },
         {
@@ -401,7 +423,7 @@
           "icon": null,
           "domain": "cerbos.dev",
           "hn": null,
-          "score": 2.571,
+          "score": 2.383,
           "coverage": 1
         },
         {
@@ -414,7 +436,7 @@
           "icon": null,
           "domain": "openid.net",
           "hn": null,
-          "score": 1.056,
+          "score": 0.872,
           "coverage": 1
         }
       ],
@@ -429,7 +451,7 @@
           "icon": null,
           "domain": "cerbos.dev",
           "hn": null,
-          "score": 0.811,
+          "score": 0.675,
           "coverage": 1
         }
       ]
@@ -447,7 +469,7 @@
           "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
           "domain": "aembit.io",
           "hn": null,
-          "score": 1.731,
+          "score": 1.58,
           "coverage": 1
         },
         {
@@ -460,7 +482,7 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 0.327,
+          "score": 0.297,
           "coverage": 1
         }
       ],
@@ -479,20 +501,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 5.754,
-          "coverage": 1
-        },
-        {
-          "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
-          "link": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
-          "excerpt": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway. The phenomenon has been codenamed prompt adware by Check Point…",
-          "source": "The Hacker News",
-          "date": "Nov 04",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO7-xs-0dO1uqFLbfphgPbe8T7cbCLkrab6XhAjlNPVo-bLQOFw4mkcArqglQOvhuIYif4ohTAub-TNWlket6iguifshMRo3zBrYvM4G_IwFTtbh8ifIqh1Vuf8GuNmqDg_PB2Roy7yzYuTFhRrFM8wxOo8HVwfG9Y2eqJnq82LGYHnAKI5S6TuvZ_Q95A/s1600/ai-adware.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 2.318,
+          "score": 4.707,
           "coverage": 1
         },
         {
@@ -505,11 +514,9 @@
           "icon": null,
           "domain": "snyk.io",
           "hn": null,
-          "score": 1.538,
+          "score": 1.442,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks",
           "link": "https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/",
@@ -520,8 +527,49 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 3.063,
+          "score": 2.544,
           "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
+          "link": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+          "excerpt": "How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file copy can reach places it shouldn't. And while new tools are helping find security holes faster,…",
+          "source": "The Hacker News",
+          "date": "Nov 05",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj37A8QMI4tUKrluDLCSgawVjQQeZ6c6NrfWLMLUjrI6vRhpt8Tlw4PNnfF49ZlOTtW28Cfb035jo-j22auCrWauuE-JpHfKMFSVfIQtUZjn1eETLFhQEev0FFafFlGz8W6r-96FPmTWlFGTR3RhV869PbcYkO4YPi5nD-zQVGHSZ8d39OmhecF693dj4-x/s1600/tds.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 4.833,
+          "coverage": 1
+        },
+        {
+          "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
+          "link": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
+          "excerpt": "A critical finding can move through several security tools and still leave the organization exposed. The vulnerability has a severity score, and a ticket has reached the queue. Progress then depends on information the finding may lack: who owns the system, whether attackers can reach it, what…",
+          "source": "The Hacker News",
+          "date": "Nov 05",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTqhUSejDKMWiBuqakycpFyce33qmRAlEPU4FbfKnzSRZmIlOQia8YXyU8bdvYFN6ldGMqz2vxPZn-s9524oTPZithSzMiO5ejngh_UMdp8jEbSG8znPLj-0husv1pxRF0dW2qES9dz4oR56dk67YJ8zePlgnVFSbHSIKHAU_7VqK0-pwSVeYEsOYM7u8/s1600/exposure.png",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.588,
+          "coverage": 1
+        },
+        {
+          "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+          "link": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+          "excerpt": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and analyzed 2,308 candidate Linux kernel…",
+          "source": "The Hacker News",
+          "date": "Nov 05",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEje4ZiJMrWCzkoOXuOcWQkB02TmQLM81NWPvzQ8yw9iComqPyLIP0_TAzy8AHMkNfzyXw2Fw-8kBhWIohuXc_dGl39AI4Kw_n4Tll0DImNrRfcPrk1eZNQCP9QtOich_dhNW-ly5DIuZSzmWspWsWXU9QiGwnS5W7qzVDiIBVc4oggC__f6tsL1AOIP8opc/s1600/linux-lpe.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 4.816,
+          "coverage": 2
         },
         {
           "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
@@ -533,7 +581,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.616,
+          "score": 0.511,
           "coverage": 1
         },
         {
@@ -546,21 +594,8 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.903,
+          "score": 2.433,
           "coverage": 2
-        },
-        {
-          "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
-          "link": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
-          "excerpt": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services, and Insurance (BFSI) sectors in the country. Describing the threat as active and…",
-          "source": "The Hacker News",
-          "date": "Nov 05",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA5xlxteigxw9PDEVogRmGjD3vyPuJRyKCuIAOmURy0CY-OLXfYOjC93BPb_gvifLUiVoUk9JcjmxtsGpkT-cYhlrTwXS6yodTv-WwHnPUKvahU67tc5R841Sb_hkIIsUkzNzne5Fzo0h6BUpzEW1770YFBayYksyjSc9pKOV3VsHfoHcPfu3mYAFOQW4K/s1600/docker-ai.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.562,
-          "coverage": 1
         }
       ]
     },
@@ -577,7 +612,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 6.626,
+          "score": 5.321,
           "coverage": 1
         },
         {
@@ -590,7 +625,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 5.78,
+          "score": 4.743,
           "coverage": 1
         },
         {
@@ -603,7 +638,7 @@
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
           "hn": null,
-          "score": 1.552,
+          "score": 1.462,
           "coverage": 1
         }
       ],
@@ -618,7 +653,7 @@
           "icon": null,
           "domain": "blog.cloudflare.com",
           "hn": null,
-          "score": 1.829,
+          "score": 1.683,
           "coverage": 1
         },
         {
@@ -631,7 +666,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.418,
+          "score": 1.296,
           "coverage": 1
         },
         {
@@ -644,7 +679,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.133,
+          "score": 1.053,
           "coverage": 1
         },
         {
@@ -657,7 +692,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.275,
+          "score": 0.252,
           "coverage": 1
         },
         {
@@ -679,18 +714,46 @@
       "name": "News & Research",
       "cards": [
         {
-          "title": "Almost no one uses AI agents to book their Uber, company says",
-          "link": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
-          "excerpt": "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent.",
+          "title": "The hidden supply chain costs of the AI boom",
+          "link": "https://www.theverge.com/podcast/1024438/willy-shih-supply-chain-ai-chips-ram-where-does-my-stuff-come-from-book",
+          "excerpt": "Today, I’m talking with Willy Shih, an economist, a professor of management practice at Harvard Business School, and the author of the upcoming book, Where Does My Stuff Come From? The Powerful Economics Behind Global Supply Chains. Willy is one of my all-time favorite Decoder guests — his way of…",
+          "source": "The Verge",
+          "date": "Nov 05",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24792604/The_Verge_Decoder_Tileart.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "icon": null,
+          "domain": "theverge.com",
+          "hn": null,
+          "score": 5.407,
+          "coverage": 1
+        },
+        {
+          "title": "Aina’s smart ring has a screen, a joystick and a mic so you can talk to AI agents",
+          "link": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
+          "excerpt": "Aina's ring can also take calls and help you dictate notes on your Mac.",
           "source": "TechCrunch",
-          "date": "Nov 04",
-          "image": "https://techcrunch.com/wp-content/uploads/2026/07/uber-getty.jpg?resize=1200,800",
+          "date": "Nov 05",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/Aina-Ring-Hands.jpeg?resize=1200,805",
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 2.822,
+          "score": 5.073,
           "coverage": 1
         },
+        {
+          "title": "You can edit your videos with AI on Instagram&#8217;s new desktop Edits app",
+          "link": "https://www.theverge.com/tech/1027444/instagram-edits-desktop-ai-agents-muse-mcp",
+          "excerpt": "Instagram's standalone video editing app is now available on macOS, where you can plug in your AI agent of choice to assemble your videos. Instagram's Matthew Simari, head of product management for Edits, said in an interview with The Verge, \"One of the things we're releasing with Edits Desktop is…",
+          "source": "The Verge",
+          "date": "Nov 05",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/instagram-edits-desktop-timeline-1.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "icon": null,
+          "domain": "theverge.com",
+          "hn": null,
+          "score": 5.192,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "Investigating vault particles with Claude",
           "link": "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
@@ -701,7 +764,33 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 1.527,
+          "score": 1.439,
+          "coverage": 1
+        },
+        {
+          "title": "AI for scientific discovery: How researchers use Claude",
+          "link": "https://www.anthropic.com/research/how-researchers-use-claude",
+          "excerpt": "In this report, we use privacy-preserving infrastructure to study the scientific use of Claude, Claude Code, and Claude Science. We document how usage varies across scientific fields and research tasks, identify what explains these usage patterns, and outline scenarios for how AI could accelerate…",
+          "source": "Anthropic Research",
+          "date": "Nov 05",
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/0c1a04cc7042949252ee54565755780fe21d5ecf-1200x630.jpg",
+          "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+          "domain": "anthropic.com",
+          "hn": null,
+          "score": 2.029,
+          "coverage": 1
+        },
+        {
+          "title": "Why a Mathematician Is Chasing Eclipses With Algorithms and Cameras",
+          "link": "https://spectrum.ieee.org/2026-solar-eclipse",
+          "excerpt": "The sun hangs low over the plains of Castile and León, in the north-central region of Spain. But from a slope of the mountain Pico Trigaza, it appears that a few puffy white clouds have started to block the sun. That’s vexing.A group of researchers, some wearing cardboard eclipse glasses, is…",
+          "source": "IEEE Spectrum",
+          "date": "Nov 05",
+          "image": "https://spectrum.ieee.org/media-library/a-black-disk-is-surrounded-by-the-solar-corona-which-appears-in-the-image-as-hairlike-white-strands-extending-far-out-into-a-su.jpg?id=68586921&width=980",
+          "icon": null,
+          "domain": "spectrum.ieee.org",
+          "hn": null,
+          "score": 3.279,
           "coverage": 1
         },
         {
@@ -714,74 +803,20 @@
           "icon": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/static/media/favicon.1cfcdb44759a0f93ddf5feb5405dd4cc.ico",
           "domain": "technologyreview.com",
           "hn": null,
-          "score": 1.506,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "Sshole",
-          "link": "https://sshhole.com",
-          "excerpt": "openssh on musl linux has been letting people into password-less accounts since 2016.",
-          "source": "sshhole.com via Hacker News",
-          "date": "Nov 05",
-          "image": null,
-          "icon": "https://sshhole.com/favicon.ico",
-          "domain": "sshhole.com",
-          "hn": "19 points · 1 comments",
-          "score": 3.062,
+          "score": 1.369,
           "coverage": 1
         },
         {
-          "title": "Awesome repositories are no longer awesome",
-          "link": "https://erikgahner.github.io/posts/2026/awesome-repositories-are-no-longer-awesome/",
-          "excerpt": "Erik Gahner Larsen",
-          "source": "erikgahner.github.io via Hacker News",
+          "title": "Image of Our Satellite-Choked Night Skies",
+          "link": "https://kottke.org/26/11/stunning-image-of-our-satellite-choked-night-skies",
+          "excerpt": "To create this composite image, photographer Brendan Larsen captured almost 600 photographs over a two-hour period and then manually stitched them together. Thi",
+          "source": "kottke.org via Hacker News",
           "date": "Nov 05",
           "image": null,
-          "icon": "https://erikgahner.github.io/img/apple-touch-icon.png",
-          "domain": "erikgahner.github.io",
-          "hn": "55 points · 22 comments",
-          "score": 3.799,
-          "coverage": 1
-        },
-        {
-          "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
-          "link": "https://hachyderm.io/@damienmiller/117563026759098135",
-          "excerpt": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability. https://openssh.com/releasenotes.html#10.6p2 If you operate a Linux system that uses musl libc without PAM (Alpine Linux is one example) then stop reading and set PasswordAuthentication=no or disable SSH for these…",
-          "source": "hachyderm.io via Hacker News",
-          "date": "Nov 05",
-          "image": null,
-          "icon": "https://hachyderm.io/packs/assets/apple-touch-icon-57x57-BsPGHSez.png",
-          "domain": "hachyderm.io",
-          "hn": "49 points · 19 comments",
-          "score": 3.334,
-          "coverage": 1
-        },
-        {
-          "title": "Baidu released ERNIE 5.5 Flash Base",
-          "link": "https://ernie.baidu.com/release/ernie-5-5-flash-base/",
-          "excerpt": "ERNIE 5.5 Flash Base: a 280B-A14B hybrid-attention MoE pretrained on 33.5T tokens. An open, efficient pretraining base.",
-          "source": "ernie.baidu.com via Hacker News",
-          "date": "Nov 05",
-          "image": null,
-          "icon": "https://ernie.baidu.com/img/favicon.ico",
-          "domain": "ernie.baidu.com",
-          "hn": "81 points · 34 comments",
-          "score": 6.624,
-          "coverage": 1
-        },
-        {
-          "title": "Being a kid making games in the early 2000s",
-          "link": "https://jaytholen.net/teengamedev/",
-          "excerpt": "An autobiographical essay by Jay Tholen about being a youngster making games and posting them online!",
-          "source": "jaytholen.net via Hacker News",
-          "date": "Nov 05",
-          "image": null,
-          "icon": "https://jaytholen.net/teengamedev/favicon.png",
-          "domain": "jaytholen.net",
-          "hn": "42 points · 10 comments",
-          "score": 2.508,
+          "icon": "https://kottke.org/images/2024/icons/57x57.png",
+          "domain": "kottke.org",
+          "hn": "43 points · 33 comments",
+          "score": 3.948,
           "coverage": 1
         }
       ]
