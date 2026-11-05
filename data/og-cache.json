@@ -2069,6 +2069,12 @@
   "icon": "https://sreweekly.com/wp-content/uploads/2015/12/cropped-sreweekly-logo-axes-180x180.png",
   "image": null
  },
+ "https://sshhole.com": {
+  "description": "openssh on musl linux has been letting people into password-less accounts since 2016.",
+  "fetched": "2026-11-05",
+  "icon": null,
+  "image": null
+ },
  "https://stackoverflow.blog/2026/10/22/the-regression-tests-nobody-writes-capturing-how-software-actually-behaves/": {
   "description": "Founded in 2008, Stack Overflow’s public platform is used by nearly everyone who codes to learn, share their knowledge, collaborate, and build their careers.",
   "fetched": "2026-10-24",
@@ -3958,6 +3964,12 @@
   "fetched": "2026-11-01",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2024/06/Teamviewer.jpeg"
+ },
+ "https://www.securityweek.com/the-agent-smith-dilemma-governing-agentic-identities/": {
+  "description": "Governing non-human, agentic identity is no longer an edge-case. It is an emerging and growing attack surface.",
+  "fetched": "2026-11-05",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg"
  },
  "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/": {
   "description": "Ukrainian national Artem Stryzhak was sentenced to 70 months in US prison for deploying Nefilim and Hive ransomware against victims.",
