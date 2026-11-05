@@ -14,7 +14,7 @@
     "labels": [
       "2 sources",
       "AI Agents & Agent Security",
-      "1h ago"
+      "4h ago"
     ],
     "also": [
       {
@@ -31,7 +31,7 @@
       "link_domain": "spectrum.ieee.org",
       "source": "Hacker News",
       "domain": "spectrum.ieee.org",
-      "meta": "Hacker News · 1.1k points · 662 comments · 18h ago",
+      "meta": "Hacker News · 1.2k points · 684 comments · 21h ago",
       "also": [],
       "image": "https://spectrum.ieee.org/media-library/image.jpg?id=68544156&width=1200&height=600&coordinates=0%2C312%2C0%2C313",
       "icon": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNjU5NjY0OS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTg0ODgxODUwNn0.1LlzHtxZSVXyzapxWjeSrRIRu5qo3CeB8FaWpd2tl_o/img.png?width=192&height=192"
@@ -43,7 +43,7 @@
       "link_domain": "",
       "source": "Hacker News",
       "domain": "Hacker News",
-      "meta": "Hacker News · 650 points · 168 comments · 19h ago",
+      "meta": "Hacker News · 665 points · 171 comments · 22h ago",
       "also": [],
       "image": null,
       "icon": null
@@ -55,22 +55,10 @@
       "link_domain": "soatok.blog",
       "source": "Lobsters",
       "domain": "soatok.blog",
-      "meta": "Lobsters · 54 points · 10 comments · 15h ago",
+      "meta": "Lobsters · 58 points · 11 comments · 18h ago",
       "also": [],
       "image": "https://i0.wp.com/soatok.blog/wp-content/uploads/2026/10/BlogHeader-2026-ConspiracyTheories-1.png?fit=1200%2C675&ssl=1",
       "icon": "https://i0.wp.com/soatok.blog/wp-content/uploads/2021/11/cropped-cropped-soatok-johis-responsive.jpg?fit=180%2C180&ssl=1"
-    },
-    {
-      "title": "Geoffrey Hinton: it might turn out we were better off without AI",
-      "thread": "https://news.ycombinator.com/item?id=50363554",
-      "link": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
-      "link_domain": "theguardian.com",
-      "source": "Hacker News",
-      "domain": "theguardian.com",
-      "meta": "Hacker News · 303 points · 303 comments · 19h ago",
-      "also": [],
-      "image": "https://i.guim.co.uk/img/media/2874e862dc2a0fc34d651f70e5ecffd542d947a6/543_22_2658_2128/master/2658.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ae0638cdbc3daea6b3a154d41c73dad9",
-      "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg"
     },
     {
       "title": "Ask HN: What's your current AI agentic setup?",
@@ -79,10 +67,34 @@
       "link_domain": "",
       "source": "Hacker News",
       "domain": "Hacker News",
-      "meta": "Hacker News · 240 points · 230 comments · 15h ago",
+      "meta": "Hacker News · 313 points · 332 comments · 18h ago",
       "also": [],
       "image": null,
       "icon": null
+    },
+    {
+      "title": "Geoffrey Hinton: it might turn out we were better off without AI",
+      "thread": "https://news.ycombinator.com/item?id=50363554",
+      "link": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+      "link_domain": "theguardian.com",
+      "source": "Hacker News",
+      "domain": "theguardian.com",
+      "meta": "Hacker News · 306 points · 303 comments · 22h ago",
+      "also": [],
+      "image": "https://i.guim.co.uk/img/media/2874e862dc2a0fc34d651f70e5ecffd542d947a6/543_22_2658_2128/master/2658.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ae0638cdbc3daea6b3a154d41c73dad9",
+      "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg"
+    },
+    {
+      "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+      "thread": "https://news.ycombinator.com/item?id=50369925",
+      "link": "https://www.ricursive.com/ripple",
+      "link_domain": "ricursive.com",
+      "source": "Hacker News",
+      "domain": "ricursive.com",
+      "meta": "Hacker News · 287 points · 103 comments · 14h ago",
+      "also": [],
+      "image": "https://framerusercontent.com/images/u4OXzV0utwAtaPgcVxQtTXmkg.png",
+      "icon": "https://framerusercontent.com/images/k7EC5Z8igoBuqxxVYd3EdHxX2C0.png"
     },
     {
       "title": "Man-in-the-middle arbitrary code execution in Debian’s apt",
@@ -91,7 +103,7 @@
       "link_domain": "lists.debian.org",
       "source": "Lobsters",
       "domain": "lists.debian.org",
-      "meta": "Lobsters · 34 points · 4 comments · 16h ago",
+      "meta": "Lobsters · 36 points · 5 comments · 19h ago",
       "also": [],
       "image": null,
       "icon": "https://lists.debian.org/favicon.ico"
@@ -103,7 +115,7 @@
       "link_domain": "openai.com",
       "source": "Hacker News",
       "domain": "openai.com",
-      "meta": "Hacker News · 220 points · 69 comments · 14h ago",
+      "meta": "Hacker News · 237 points · 72 comments · 17h ago",
       "also": [],
       "image": null,
       "icon": "https://openai.com/favicon.ico"
@@ -115,7 +127,7 @@
       "link_domain": "anthropic.com",
       "source": "Hacker News",
       "domain": "anthropic.com",
-      "meta": "Hacker News · 201 points · 88 comments · 12h ago",
+      "meta": "Hacker News · 215 points · 99 comments · 15h ago",
       "also": [],
       "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/2eba335a28661a8253187053fa36add230af728b-2000x1125.jpg",
       "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png"
@@ -127,22 +139,10 @@
       "link_domain": "lists.debian.org",
       "source": "Hacker News",
       "domain": "lists.debian.org",
-      "meta": "Hacker News · 140 points · 30 comments · 15h ago",
+      "meta": "Hacker News · 143 points · 30 comments · 18h ago",
       "also": [],
       "image": null,
       "icon": "https://lists.debian.org/favicon.ico"
-    },
-    {
-      "title": "Everything is an AI scam now",
-      "thread": "https://news.ycombinator.com/item?id=50371508",
-      "link": "https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/",
-      "link_domain": "davidralphlewis.co.uk",
-      "source": "Hacker News",
-      "domain": "davidralphlewis.co.uk",
-      "meta": "Hacker News · 134 points · 50 comments · 9h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://www.davidralphlewis.co.uk/favicon.ico"
     }
   ],
   "sections": [
@@ -159,7 +159,7 @@
           "icon": null,
           "domain": "s46486.pcdn.co",
           "hn": null,
-          "score": 1.039,
+          "score": 0.884,
           "coverage": 1
         },
         {
@@ -172,7 +172,7 @@
           "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
           "domain": "snorkel.ai",
           "hn": null,
-          "score": 0.217,
+          "score": 0.209,
           "coverage": 1
         },
         {
@@ -185,7 +185,7 @@
           "icon": null,
           "domain": "research.google",
           "hn": null,
-          "score": 0.75,
+          "score": 0.666,
           "coverage": 1
         }
       ],
@@ -200,7 +200,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.675,
+          "score": 0.606,
           "coverage": 1
         },
         {
@@ -213,7 +213,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.433,
+          "score": 0.403,
           "coverage": 1
         },
         {
@@ -226,7 +226,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.42,
+          "score": 0.403,
           "coverage": 1
         },
         {
@@ -239,20 +239,20 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.405,
+          "score": 0.379,
           "coverage": 1
         },
         {
-          "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
-          "link": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
-          "excerpt": "A Blog post by Dharma-AI on Hugging Face",
-          "source": "Hugging Face",
-          "date": "Nov 04",
-          "image": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/c1ik58RednXjcqrx5s2Fo.png",
-          "icon": "https://huggingface.co/favicon.ico",
-          "domain": "huggingface.co",
+          "title": "You can lead AI without building it",
+          "link": "https://leaddev.com/leadership/you-can-lead-ai-without-building-it?utm_source=leaddev&utm_medium=RSS",
+          "excerpt": "Say hello to the AI Maturity Framework. The post You can lead AI without building it appeared first on LeadDev.",
+          "source": "LeadDev",
+          "date": "Nov 05",
+          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2025/05/brain-puzzle-1.png",
+          "icon": null,
+          "domain": "leaddev.com",
           "hn": null,
-          "score": 0.742,
+          "score": 1.389,
           "coverage": 1
         }
       ]
@@ -269,21 +269,21 @@
           "image": "https://streamvessel.com/images/blog/mcp-trusted-redirect-uris/social.png",
           "icon": "https://streamvessel.com/favicon.ico",
           "domain": "streamvessel.com",
-          "hn": "32 points · 5 comments",
-          "score": 4.634,
+          "hn": "34 points · 6 comments",
+          "score": 4.193,
           "coverage": 1
         },
         {
-          "title": "Introducing Images 2.6",
-          "link": "https://openai.com/index/introducing-images-2-6",
-          "excerpt": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
-          "source": "OpenAI News",
-          "date": "Nov 04",
-          "image": null,
-          "icon": "https://openai.com/favicon.ico",
-          "domain": "openai.com",
+          "title": "[AINews] It's Swapping Season",
+          "link": "https://latent.space/p/ainews-it-s-swapping-season/",
+          "excerpt": "November 4, 2026 — OpenAI’s Linux kernel security work, Kimi K3.1 Pro’s open weights, and Ricursive’s Ripple-65B.",
+          "source": "Latent Space",
+          "date": "Nov 05",
+          "image": "https://latent.space/og/card/post/ainews-it-s-swapping-season/efe7d0a1e2a39ea0481b4a1bba789d599c143dede92092e1dacb89175201e4c4.png",
+          "icon": "https://latent.space/favicon.png",
+          "domain": "latent.space",
           "hn": null,
-          "score": 1.486,
+          "score": 0.814,
           "coverage": 1
         },
         {
@@ -296,11 +296,24 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.526,
+          "score": 0.464,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "Introducing Images 2.6",
+          "link": "https://openai.com/index/introducing-images-2-6",
+          "excerpt": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+          "source": "OpenAI News",
+          "date": "Nov 04",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 1.386,
+          "coverage": 1
+        },
         {
           "title": "A thousand fewer paths to root",
           "link": "https://openai.com/index/a-thousand-fewer-paths-to-root",
@@ -311,7 +324,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 14.088,
+          "score": 11.889,
           "coverage": 2
         },
         {
@@ -324,7 +337,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.356,
+          "score": 0.332,
           "coverage": 1
         }
       ]
@@ -342,7 +355,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.356,
+          "score": 0.332,
           "coverage": 1
         }
       ],
@@ -361,7 +374,7 @@
           "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 5.382,
+          "score": 4.8,
           "coverage": 1
         }
       ],
@@ -370,6 +383,19 @@
     {
       "name": "Secrets & NHI",
       "cards": [
+        {
+          "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
+          "link": "https://news.ycombinator.com/item?id=50368804",
+          "excerpt": "87 points · 33 comments",
+          "source": "Hacker News",
+          "date": "Nov 04",
+          "image": null,
+          "icon": null,
+          "domain": "news.ycombinator.com",
+          "hn": "87 points · 33 comments",
+          "score": 2.142,
+          "coverage": 1
+        },
         {
           "title": "Aembit Now Secures OpenAI Dots Personal Agents",
           "link": "https://aembit.io/blog/aembit-now-secures-openai-dots-personal-agents/",
@@ -380,7 +406,20 @@
           "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
           "domain": "aembit.io",
           "hn": null,
-          "score": 2.196,
+          "score": 1.955,
+          "coverage": 1
+        },
+        {
+          "title": "Show HN: GPUWorks – A 40 MB GPU cluster manager for vLLM/SGLang, no K8s needed",
+          "link": "https://github.com/flitai-io/gpuworks",
+          "excerpt": "25 points · 4 comments",
+          "source": "github.com via Hacker News",
+          "date": "Nov 04",
+          "image": null,
+          "icon": "https://github.com/favicon.ico",
+          "domain": "github.com",
+          "hn": "25 points · 4 comments",
+          "score": 1.529,
           "coverage": 1
         }
       ],
@@ -399,7 +438,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.909,
+          "score": 2.604,
           "coverage": 1
         },
         {
@@ -412,7 +451,35 @@
           "icon": null,
           "domain": "snyk.io",
           "hn": null,
-          "score": 1.805,
+          "score": 1.672,
+          "coverage": 1
+        },
+        {
+          "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
+          "link": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
+          "excerpt": "Zyxel GS1900 network switches that received the vendor's earlier fix for an actively exploited flaw are still open to the exploit attackers used, researchers at Binarly found. The exploit lets anyone who can reach a switch's web management interface run commands on it without logging in. Zyxel has…",
+          "source": "The Hacker News",
+          "date": "Nov 05",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaF7lULSp8hpZx_WSDcDsJxD9TzTOH5Oo5dkFteUVQqQMOXc7ZyytOxbNgL01vkV43Kx0V0sDzJvKGrZvPwjos_-g9djk8jVAqSN04CIhGoiWWUMLdyKQH32ES8ghi-6ilZbnbGi_WIRi8hvzik6ztrin-MZEK1QI2CKR3Lk1sUg3yVYuhGvsX0pC85Qg/s1600/zyxel-hacker.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 4.489,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+          "link": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability in question is…",
+          "source": "The Hacker News",
+          "date": "Nov 05",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkv0B0acGnMDLnCJQYXNCkpzSeKKr_1m4-a10Q2Iy6DZOorGLb35YDD9vw3iQQA9fZTi7QGIZYlSsvTSmxc8w0UbgN_Xtl-QPyTngA9qhOuoryee3Z8X8CZRnHiUAY3wuIXG_UIO1DyDnjnfS5cOilt3WPzRnYYqFDZ1NHbXS0OVAsrVYHSeFuc7zglZw5/s1600/apple-0day.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.567,
           "coverage": 1
         },
         {
@@ -425,11 +492,9 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.359,
+          "score": 0.32,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
           "link": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
@@ -440,7 +505,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 1.793,
+          "score": 1.6,
           "coverage": 2
         },
         {
@@ -453,34 +518,8 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.325,
+          "score": 0.293,
           "coverage": 1
-        },
-        {
-          "title": "AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks",
-          "link": "https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/",
-          "excerpt": "Hackers have been harvesting AI access tokens and have been using AI-assisted offensive tools to automate attacks. The post AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 04",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/09/AI-artificial-intelligence.webp",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 2.144,
-          "coverage": 1
-        },
-        {
-          "title": "Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers",
-          "link": "https://www.securityweek.com/canadian-extradited-to-us-over-cryptomining-hacks-on-university-supercomputers/",
-          "excerpt": "A federal grand jury indicted two Canadian men for hijacking university supercomputers to secretly mine Electroneum cryptocurrency. The post Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 04",
-          "image": "https://www.securityweek.com/wp-content/uploads/2024/01/cryptocurrency.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 1.558,
-          "coverage": 2
         }
       ]
     },
@@ -497,7 +536,7 @@
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
           "hn": null,
-          "score": 1.796,
+          "score": 1.675,
           "coverage": 1
         },
         {
@@ -510,7 +549,7 @@
           "icon": null,
           "domain": "blog.cloudflare.com",
           "hn": null,
-          "score": 2.259,
+          "score": 2.039,
           "coverage": 1
         },
         {
@@ -523,7 +562,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.793,
+          "score": 1.599,
           "coverage": 1
         }
       ],
@@ -538,7 +577,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.359,
+          "score": 1.245,
           "coverage": 1
         },
         {
@@ -551,7 +590,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.345,
+          "score": 0.309,
           "coverage": 1
         },
         {
@@ -564,7 +603,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.486,
+          "score": 0.417,
           "coverage": 1
         },
         {
@@ -577,7 +616,7 @@
           "icon": null,
           "domain": "cncf.io",
           "hn": null,
-          "score": 0.166,
+          "score": 0.157,
           "coverage": 1
         },
         {
@@ -608,7 +647,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 3.749,
+          "score": 3.257,
           "coverage": 1
         },
         {
@@ -621,24 +660,9 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 1.767,
+          "score": 3.671,
           "coverage": 1
         },
-        {
-          "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
-          "link": "https://www.ricursive.com/ripple",
-          "excerpt": "We develop frontier AI methods to reinvent chip development, collapsing traditional design timelines, closing the loop between AI and the hardware that fuels it, and enabling a Cambrian explosion of custom silicon.",
-          "source": "ricursive.com via Hacker News",
-          "date": "Nov 04",
-          "image": "https://framerusercontent.com/images/u4OXzV0utwAtaPgcVxQtTXmkg.png",
-          "icon": "https://framerusercontent.com/images/k7EC5Z8igoBuqxxVYd3EdHxX2C0.png",
-          "domain": "ricursive.com",
-          "hn": "267 points · 97 comments",
-          "score": 4.713,
-          "coverage": 1
-        }
-      ],
-      "more": [
         {
           "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
           "link": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
@@ -649,20 +673,48 @@
           "icon": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/static/media/favicon.1cfcdb44759a0f93ddf5feb5405dd4cc.ico",
           "domain": "technologyreview.com",
           "hn": null,
-          "score": 1.935,
+          "score": 1.711,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Want to Rent an Internet Address at the White House?",
+          "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+          "excerpt": "37 points · 2 comments",
+          "source": "krebsonsecurity.com via Hacker News",
+          "date": "Nov 05",
+          "image": null,
+          "icon": "https://krebsonsecurity.com/favicon.ico",
+          "domain": "krebsonsecurity.com",
+          "hn": "37 points · 2 comments",
+          "score": 3.159,
+          "coverage": 1
+        },
+        {
+          "title": "Altera Announces Agilex 2X, a Complete FPGA and SoC Portfolio",
+          "link": "https://www.altera.com/newsroom/agilex-2x",
+          "excerpt": "21 points · 9 comments",
+          "source": "altera.com via Hacker News",
+          "date": "Nov 05",
+          "image": null,
+          "icon": "https://www.altera.com/favicon.ico",
+          "domain": "altera.com",
+          "hn": "21 points · 9 comments",
+          "score": 2.727,
           "coverage": 1
         },
         {
           "title": "Lemmings CSS Animation",
           "link": "https://markblah.github.io/lemmings/",
-          "excerpt": "13 points · 2 comments",
+          "excerpt": "140 points · 28 comments",
           "source": "markblah.github.io via Hacker News",
           "date": "Nov 05",
           "image": null,
           "icon": "https://markblah.github.io/favicon.ico",
           "domain": "markblah.github.io",
-          "hn": "13 points · 2 comments",
-          "score": 2.673,
+          "hn": "140 points · 28 comments",
+          "score": 3.619,
           "coverage": 1
         },
         {
@@ -674,35 +726,22 @@
           "image": "https://www.spacex.com/assets/images/share.jpg",
           "icon": "https://www.spacex.com/assets/favicon-spacex.ico",
           "domain": "spacex.com",
-          "hn": "178 points · 110 comments",
-          "score": 3.603,
+          "hn": "210 points · 146 comments",
+          "score": 3.178,
           "coverage": 1
         },
         {
           "title": "Images 2.6",
           "link": "https://openai.com/index/introducing-images-2-6/",
-          "excerpt": "211 points · 137 comments",
+          "excerpt": "277 points · 167 comments",
           "source": "openai.com via Hacker News",
           "date": "Nov 04",
           "image": null,
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
-          "hn": "211 points · 137 comments",
-          "score": 5.245,
+          "hn": "277 points · 167 comments",
+          "score": 4.67,
           "coverage": 1
-        },
-        {
-          "title": "A thousand fewer paths to root",
-          "link": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
-          "excerpt": "245 points · 139 comments",
-          "source": "openai.com via Hacker News",
-          "date": "Nov 04",
-          "image": null,
-          "icon": "https://openai.com/favicon.ico",
-          "domain": "openai.com",
-          "hn": "245 points · 139 comments",
-          "score": 14.088,
-          "coverage": 2
         }
       ]
     }
