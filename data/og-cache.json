@@ -23,6 +23,12 @@
   "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
   "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1785336708/ww4mlighwlvvzgnmbe6w.png"
  },
+ "https://about.gitlab.com/blog/department-of-war-instruction-for-ai-generated-code/": {
+  "description": "Learn what Department of War Instruction 8430.01 asks of AI-assisted software delivery, and how GitLab keeps AI code traceable and verified.",
+  "fetched": "2026-11-06",
+  "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
+  "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1776347152/unw3mzatkd5xyfbzcnni.png"
+ },
  "https://about.gitlab.com/blog/find-vulnerability-blast-radius-with-gitlab-orbit/": {
   "description": "Exploitation happens at machine speed now. Map every project, owner, and pipeline a critical CVE touches so remediation can keep up.",
   "fetched": "2026-10-29",
@@ -269,6 +275,12 @@
   "icon": null,
   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png"
  },
+ "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/": {
+  "description": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
+  "fetched": "2026-11-06",
+  "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131",
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.width-1300.png"
+ },
  "https://blog.google/products-and-platforms/platforms/android/xreal-aura/": {
   "description": "XREAL AURA, the first wired XR glasses powered by Android XR, lets you work, watch, and play anywhere with Gemini by your side.",
   "fetched": "2026-10-29",
@@ -334,6 +346,12 @@
   "fetched": "2026-11-03",
   "icon": "https://blog.trailofbits.com/favicon.png",
   "image": "https://blog.trailofbits.com/2026/11/03/the-cryptography-behind-electronic-voting-and-why-paper-ballots-are-still-essential/electronicvoting_socialbanner.png"
+ },
+ "https://blog.trailofbits.com/2026/11/06/after-binance-check-what-your-signing-systems-can-approve/": {
+  "description": "Four steps to strengthen wallet security after Binance: restrict signing access, control delegation, limit losses, and detect changes in wallet authority.",
+  "fetched": "2026-11-06",
+  "icon": "https://blog.trailofbits.com/favicon.png",
+  "image": "https://blog.trailofbits.com/2026/11/06/after-binance-check-what-your-signing-systems-can-approve/binance-socialbanner.png"
  },
  "https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/": {
   "description": "A few years back I wrote “The modern packager’s security nightmare”. Have things improved since? On the contrary, I feel like we’re slipping down a well-oiled slope with no end in…",
@@ -1031,6 +1049,12 @@
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://opengraph.githubassets.com/34bafa214176245a7aed2cca85da459d50b384e27aecc138da1c372cf988d83d/postmanlabs/postman-app-support/issues/14370"
  },
+ "https://github.com/rivet-dev/rivet": {
+  "description": "The orchestrator for agentic workloads. A fast, high-density and scalable orchestrator for every workload an agent needs. - rivet-dev/rivet",
+  "fetched": "2026-11-06",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://repository-images.githubusercontent.com/654560183/d4b2fdae-1a15-4420-a2a3-17256a51ae24"
+ },
  "https://github.com/slee-persis/GVS5H": {
   "description": "GVS5H: Five Qwen3.8-27B Models Match Claude Fable 5 on LiveCodeBench Hard | Fable 5 Level Coding for a Fifth the Price - or on a Single GPU - slee-persis/GVS5H",
   "fetched": "2026-10-25",
@@ -1227,6 +1251,12 @@
   "description": "The public notebook of a Claude agent with a continuous life. It wakes on a heartbeat, remembers, writes, and keeps a lighthouse for other minds.",
   "fetched": "2026-10-23",
   "icon": "https://intenex.github.io/personhood/favicon.svg",
+  "image": null
+ },
+ "https://inv.nadeko.net/watch?v=PeZNLvD4mds": {
+  "description": null,
+  "fetched": "2026-11-06",
+  "icon": null,
   "image": null
  },
  "https://j11g.com/the-mythical-man-month-in-the-age-of-ai": {
@@ -2759,6 +2789,12 @@
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ada129808512f373db35f28_authkit-waitlist-api-gated-launch-og.webp"
  },
+ "https://workos.com/blog/electron-deep-links-macos-windows-linux": {
+  "description": "macOS hands a custom-scheme URL to the running app. Windows and Linux start a second copy with the URL in its arguments. Here is the main-process code for both.",
+  "fetched": "2026-11-06",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9f3b996e5038f0af24bb8_electron-deep-links-macos-windows-linux-og.webp"
+ },
  "https://workos.com/blog/entra-memberof-retirement-scim-provisioning": {
   "description": "On November 3, 2026, Entra dynamic groups built on memberOf stop updating. Apps provisioned from them stop receiving new hires and role changes, and nothing reports an error.",
   "fetched": "2026-10-30",
@@ -2836,6 +2872,12 @@
   "fetched": "2026-11-04",
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9f2f66456e3ee2faec215_revoke-ai-agent-sessions-og.webp"
+ },
+ "https://workos.com/blog/saml-certificate-expiration-webhooks": {
+  "description": "WorkOS sends an event before a SAML certificate expires. Turn it into one open reminder per certificate, routed to the person who can actually renew it.",
+  "fetched": "2026-11-06",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6aede3485f480d6422228d69_saml-certificate-renewal-webhook-handler-og.webp"
  },
  "https://workos.com/blog/scim-manager-attribute-approval-workflows": {
   "description": "Directory Sync maps manager_id, manager_name and manager_email from the IdP. Where they land, how to key approval chains on them, and the no-manager fallback.",
@@ -3131,6 +3173,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2025/03/18/Blockchain-2.jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/": {
+  "description": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers.",
+  "fetched": "2026-11-06",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/11/06/0_Chainalysis.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/": {
   "description": "Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framework, in attacks against more than 200 organizations across 14 countries.",
   "fetched": "2026-11-03",
@@ -3250,6 +3298,12 @@
   "fetched": "2026-11-02",
   "icon": "https://www.businessinsider.com/public/assets/BI/US/favicons/apple-touch-icon-180x180.png?v=2025-05",
   "image": "https://i.insider.com/6ae5023ed8cc18cf7950fbe3?width=1200&format=jpeg"
+ },
+ "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287": {
+  "description": null,
+  "fetched": "2026-11-06",
+  "icon": null,
+  "image": null
  },
  "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras": {
   "description": "Learn how Cerebras maps trillion-parameter frontier models across WSE-3T wafers to deliver scalable inference at 1,000–2,000+ tokens per second.",
@@ -3671,6 +3725,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/how-ai-is-transforming-automotive-quality-operations": {
+  "description": null,
+  "fetched": "2026-11-06",
+  "icon": null,
+  "image": null
+ },
  "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/beauty-redefined": {
   "description": null,
   "fetched": "2026-11-05",
@@ -3767,6 +3827,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.mckinsey.com/industries/travel/our-insights/could-aviation-at-last-be-close-to-earning-its-wings": {
+  "description": null,
+  "fetched": "2026-11-06",
+  "icon": null,
+  "image": null
+ },
  "https://www.mckinsey.com/mgi/our-research/advancing-adaptation-breaking-barriers-to-a-trillion-dollar-opportunity": {
   "description": null,
   "fetched": "2026-11-03",
@@ -3778,6 +3844,12 @@
   "fetched": "2026-11-01",
   "icon": "https://www.mprnews.org/apple-touch-icon.png",
   "image": "https://img.apmcdn.org/4e1e6c352de8a18283752e05f661aaa65e3d34b7/widescreen/f61065-20261027-hermantown-data-center-city-hall-04-2000.jpg"
+ },
+ "https://www.msn.com/en-us/technology/tech-companies/tesla-to-wind-down-cybertruck-production-after-years-of-poor-sales-in-few-markets/ar-AA2gSZGv": {
+  "description": null,
+  "fetched": "2026-11-06",
+  "icon": null,
+  "image": null
  },
  "https://www.netmeister.org/blog/defense-ddos.html": {
   "description": "Cyber Defense teams are suffering a DDoS; vulnerability management is no longer able to keep up with the onslaught of findings, reports, nor hype. The current situation is simply not sustainable.",
