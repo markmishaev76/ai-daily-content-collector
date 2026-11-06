@@ -1,19 +1,19 @@
 {
   "date": "2026-11-06",
   "lead": {
-    "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
-    "link": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
-    "excerpt": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users. \"While we investigated, we removed access to Reactor and Data Solutions,\" the company…",
-    "source": "The Hacker News",
+    "title": "GitLab 19.5 Makes Agentic Development a Governed Part of the DevOps Platform",
+    "link": "https://www.infoq.com/news/2026/11/gitlab-19-5-agentic-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "excerpt": "GitLab 19.5, released on October 15, puts agentic software development and governance at the centre of the platform, making its GitLab MCP server generally available while expanding how external AI agents can interact with GitLab. By Craig Risi",
+    "source": "InfoQ",
     "date": "Nov 06",
-    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoSpb8lu1ytakNne4rJ58nWfLFrYtdR7MCyZ2prSaLKiAb2Bt_upvfAHl-slDTt_3h7zxFdhbPcLwzAkcHDjnvu2TNcVp6JsgJU6GI5GMvZrrmzZTUZDyeOhS0GnFV-YtazzzcgMFnUvkqKmpSr9FBrCXQhlyPZM9E8c7LPSxACwPhfJ4nFzIANqdaVXUd/s1600/chain-breach.jpg",
+    "image": "https://res.infoq.com/news/2026/11/gitlab-19-5-agentic-platform/en/headerimage/generatedHeaderImage-1793095997884.jpg",
     "image_credit": null,
-    "section": "Security & AppSec",
+    "section": "Platform, Cloud & Reliability",
     "pinned": false,
     "note": null,
     "labels": [
-      "Security & AppSec",
-      "1h ago"
+      "Platform, Cloud & Reliability",
+      "under 1h ago"
     ],
     "also": []
   },
@@ -25,22 +25,10 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 1.1k points · 339 comments · 11h ago",
+      "meta": "Hacker News · 1.2k points · 395 comments · 14h ago",
       "also": [],
       "image": "https://opengraph.githubassets.com/7bf683895feb965f16b7d6eac90bbb663a14b3a24488b13762a102291609a8b3/anthropics/claude-code/issues/107757",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
-    },
-    {
-      "title": "sshhole",
-      "thread": "https://lobste.rs/s/oq5pem/sshhole",
-      "link": "https://sshhole.com/",
-      "link_domain": "sshhole.com",
-      "source": "Lobsters",
-      "domain": "sshhole.com",
-      "meta": "Lobsters · 150 points · 37 comments · 21h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://sshhole.com/favicon.ico"
     },
     {
       "title": "Alpine Linux Security Advisory: OpenSSH-server password authentication bypass",
@@ -49,7 +37,7 @@
       "link_domain": "alpinelinux.org",
       "source": "Hacker News",
       "domain": "alpinelinux.org",
-      "meta": "Hacker News · 622 points · 2 comments · 18h ago",
+      "meta": "Hacker News · 622 points · 2 comments · 21h ago",
       "also": [],
       "image": null,
       "icon": "https://alpinelinux.org/alpine-logo.ico"
@@ -61,7 +49,7 @@
       "link_domain": "cve.org",
       "source": "Hacker News",
       "domain": "cve.org",
-      "meta": "Hacker News · 537 points · 193 comments · 12h ago",
+      "meta": "Hacker News · 574 points · 209 comments · 15h ago",
       "also": [],
       "image": null,
       "icon": "https://www.cve.org/cvePurpleVFavicon.svg"
@@ -73,7 +61,7 @@
       "link_domain": "finance.yahoo.com",
       "source": "Hacker News",
       "domain": "finance.yahoo.com",
-      "meta": "Hacker News · 318 points · 152 comments · 10h ago",
+      "meta": "Hacker News · 382 points · 181 comments · 13h ago",
       "also": [],
       "image": "https://s.yimg.com/lo/mysterio/api/c7b9e208fd6dff01b9115dea6cf00d560e269c36a6987f309be6e79d843e306b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmoneywise_327%2F892777675c4b84ce45a666a8bfe1fb93.jpg",
       "icon": "https://s.yimg.com/cv/apiv2/default/finance/favicon-180x180.png"
@@ -85,7 +73,7 @@
       "link_domain": "mcp-explained.com",
       "source": "Hacker News",
       "domain": "mcp-explained.com",
-      "meta": "Hacker News · 294 points · 123 comments · 19h ago",
+      "meta": "Hacker News · 310 points · 130 comments · 22h ago",
       "also": [],
       "image": "https://mcp-explained.com/og.png",
       "icon": "https://mcp-explained.com/favicon.svg"
@@ -97,7 +85,7 @@
       "link_domain": "blog.arusekk.pl",
       "source": "Lobsters",
       "domain": "blog.arusekk.pl",
-      "meta": "Lobsters · 38 points · 1 comments · 14h ago",
+      "meta": "Lobsters · 44 points · 1 comments · 17h ago",
       "also": [],
       "image": null,
       "icon": "https://blog.arusekk.pl/apple-touch-icon.png"
@@ -109,22 +97,10 @@
       "link_domain": "euronews.com",
       "source": "Hacker News",
       "domain": "euronews.com",
-      "meta": "Hacker News · 208 points · 61 comments · 14h ago",
+      "meta": "Hacker News · 216 points · 65 comments · 17h ago",
       "also": [],
       "image": "https://images.euronews.com/articles/stories/09/97/91/63/1200x675_cmsv2_e5035729-271a-5b7b-a596-fa27657ccada-9979163.jpg",
       "icon": "https://www.euronews.com/apple-touch-icon.png"
-    },
-    {
-      "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
-      "thread": "https://news.ycombinator.com/item?id=50377221",
-      "link": "https://hachyderm.io/@damienmiller/117563026759098135",
-      "link_domain": "hachyderm.io",
-      "source": "Hacker News",
-      "domain": "hachyderm.io",
-      "meta": "Hacker News · 180 points · 223 comments · 23h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://hachyderm.io/packs/assets/apple-touch-icon-57x57-BsPGHSez.png"
     },
     {
       "title": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election",
@@ -133,10 +109,34 @@
       "link_domain": "wsj.com",
       "source": "Hacker News",
       "domain": "wsj.com",
-      "meta": "Hacker News · 160 points · 190 comments · 15h ago",
+      "meta": "Hacker News · 160 points · 190 comments · 18h ago",
       "also": [],
       "image": null,
       "icon": "https://www.wsj.com/favicon.ico"
+    },
+    {
+      "title": "I struggle to believe that AI R&D is ingenious",
+      "thread": "https://news.ycombinator.com/item?id=50388513",
+      "link": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
+      "link_domain": "lesswrong.com",
+      "source": "Hacker News",
+      "domain": "lesswrong.com",
+      "meta": "Hacker News · 135 points · 112 comments · 7h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://res.cloudinary.com/lesswrong-2-0/image/upload/v1497915096/favicon_lncumn.ico"
+    },
+    {
+      "title": "Reflections on Rust in the LLM Age — Bryan Cantrill | Rust NYC",
+      "thread": "https://lobste.rs/s/yomksa/reflections_on_rust_llm_age_bryan",
+      "link": "https://www.youtube.com/watch?v=5D7QPOIZ7gY",
+      "link_domain": "youtube.com",
+      "source": "Lobsters",
+      "domain": "youtube.com",
+      "meta": "Lobsters · 17 points · 0 comments · 18h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.youtube.com/s/desktop/92ead095/img/favicon_32x32.png"
     }
   ],
   "sections": [
@@ -153,7 +153,7 @@
           "icon": null,
           "domain": "metr.org",
           "hn": null,
-          "score": 4.325,
+          "score": 4.005,
           "coverage": 1
         },
         {
@@ -166,7 +166,7 @@
           "icon": "https://cursor.com/marketing-static/apple-touch-icon-light.png",
           "domain": "cursor.com",
           "hn": null,
-          "score": 0.396,
+          "score": 0.371,
           "coverage": 1
         },
         {
@@ -179,7 +179,7 @@
           "icon": "https://metr.org/assets/images/favicon/apple-touch-icon.png",
           "domain": "metr.org",
           "hn": null,
-          "score": 4.325,
+          "score": 4.005,
           "coverage": 1
         }
       ],
@@ -194,7 +194,7 @@
           "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
           "domain": "s46486.pcdn.co",
           "hn": null,
-          "score": 0.631,
+          "score": 0.571,
           "coverage": 1
         },
         {
@@ -207,7 +207,7 @@
           "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
           "domain": "snorkel.ai",
           "hn": null,
-          "score": 0.616,
+          "score": 0.559,
           "coverage": 1
         },
         {
@@ -220,7 +220,7 @@
           "icon": null,
           "domain": "snorkel.ai",
           "hn": null,
-          "score": 0.403,
+          "score": 0.378,
           "coverage": 1
         },
         {
@@ -233,7 +233,7 @@
           "icon": null,
           "domain": "research.google",
           "hn": null,
-          "score": 0.611,
+          "score": 0.555,
           "coverage": 1
         },
         {
@@ -246,7 +246,7 @@
           "icon": null,
           "domain": "newsletter.pragmaticengineer.com",
           "hn": null,
-          "score": 0.61,
+          "score": 0.554,
           "coverage": 1
         }
       ]
@@ -264,7 +264,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 3.897,
+          "score": 3.487,
           "coverage": 1
         },
         {
@@ -277,9 +277,24 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 1.67,
+          "score": 1.546,
           "coverage": 1
         },
+        {
+          "title": "[AINews] Inkling 2 Small: 17A-594B trained in 68 hours on 12T tokens, beating Muse Spark",
+          "link": "https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/",
+          "excerpt": "November 5, 2026 — Inside Inkling 2 Small’s training run and METR’s study of AI research at Anthropic.",
+          "source": "Latent Space",
+          "date": "Nov 06",
+          "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/0b4283eb-1bca-4f20-a474-648eae34f704/Smol_Screenshot_2026-11-06_02.26.38-7ec1786ced3a658a.png?t=1793961438",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null,
+          "score": 0.866,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "Australian universities are creating AI-native graduates",
           "link": "https://openai.com/index/australian-universities-ai-native-graduates",
@@ -290,11 +305,9 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.527,
+          "score": 0.477,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
           "link": "https://openai.com/index/introducing-gpt-6-cyber",
@@ -305,7 +318,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.411,
+          "score": 0.38,
           "coverage": 1
         },
         {
@@ -318,7 +331,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.336,
+          "score": 0.314,
           "coverage": 1
         },
         {
@@ -331,7 +344,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.33,
+          "score": 0.31,
           "coverage": 1
         }
       ]
@@ -339,6 +352,19 @@
     {
       "name": "Leadership",
       "cards": [
+        {
+          "title": "Sharp Tech on Video: The U.S. Votes on Data Centers, Implications for Big Tech, Google’s Response to AI",
+          "link": "https://stratechery.com/2026/sharp-tech-on-video-the-u-s-votes-on-data-centers-implications-for-big-tech-googles-response-to-ai/",
+          "excerpt": "Sharp Tech is, for the first time, available on video. You have two ways to consume it: YouTube, and here on Stratechery",
+          "source": "Stratechery by Ben Thompson",
+          "date": "Nov 06",
+          "image": "https://i0.wp.com/stratechery.com/wp-content/uploads/2026/11/20261105_Sharp_Tech299-JM-Edit_00_09_5128-scaled.jpg?fit=1200%2C675&ssl=1",
+          "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
+          "domain": "stratechery.com",
+          "hn": null,
+          "score": 1.115,
+          "coverage": 1
+        },
         {
           "title": "Suomen suuryritysten kasvumahdollisuus: välikatsaus",
           "link": "https://www.mckinsey.com/fi/our-insights/suomen-suuryritysten-kasvumahdollisuus-valikatsaus",
@@ -349,7 +375,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.699,
+          "score": 0.613,
           "coverage": 1
         },
         {
@@ -362,9 +388,11 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.699,
+          "score": 0.613,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Reinventing the channel: How can your partner ecosystem fuel AI growth?",
           "link": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/reinventing-the-channel-how-can-your-partner-ecosystem-fuel-ai-growth",
@@ -375,11 +403,9 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.33,
+          "score": 0.31,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "The spirit of the leader",
           "link": "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/the-spirit-of-the-leader",
@@ -390,7 +416,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.33,
+          "score": 0.31,
           "coverage": 1
         }
       ]
@@ -408,7 +434,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.264,
+          "score": 0.248,
           "coverage": 1
         },
         {
@@ -421,7 +447,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.264,
+          "score": 0.248,
           "coverage": 1
         },
         {
@@ -434,7 +460,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.264,
+          "score": 0.248,
           "coverage": 1
         }
       ],
@@ -449,7 +475,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.264,
+          "score": 0.248,
           "coverage": 1
         }
       ]
@@ -467,7 +493,7 @@
           "icon": null,
           "domain": "aembit.io",
           "hn": null,
-          "score": 2.968,
+          "score": 2.684,
           "coverage": 1
         },
         {
@@ -480,7 +506,7 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 0.407,
+          "score": 0.37,
           "coverage": 1
         },
         {
@@ -493,7 +519,7 @@
           "icon": "https://www.theregister.com/view-resources/dachser2/public/theregister/favicons/apple-touch-icon.png",
           "domain": "theregister.com",
           "hn": "16 points · 0 comments",
-          "score": 1.657,
+          "score": 1.501,
           "coverage": 1
         }
       ],
@@ -501,14 +527,14 @@
         {
           "title": "Hardcoded credentials and other issues in Tata Motors App",
           "link": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0537",
-          "excerpt": "12 points · 5 comments",
+          "excerpt": "45 points · 8 comments",
           "source": "cert-in.org.in via Hacker News",
           "date": "Nov 06",
           "image": null,
           "icon": "https://www.cert-in.org.in/favicon.ico",
           "domain": "cert-in.org.in",
-          "hn": "12 points · 5 comments",
-          "score": 3.477,
+          "hn": "45 points · 8 comments",
+          "score": 3.724,
           "coverage": 1
         }
       ]
@@ -526,7 +552,7 @@
           "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
           "domain": "openssf.org",
           "hn": null,
-          "score": 0.454,
+          "score": 0.408,
           "coverage": 1
         },
         {
@@ -539,7 +565,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.211,
+          "score": 0.198,
           "coverage": 1
         }
       ],
@@ -558,7 +584,20 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 2.708,
+          "score": 2.446,
+          "coverage": 1
+        },
+        {
+          "title": "UK ministers seek powers to investigate when AI agents are let off the leash",
+          "link": "https://www.theregister.com/ai-and-ml/2026/11/06/uk-ministers-seek-powers-to-investigate-when-ai-agents-are-let-off-the-leash/5307889",
+          "excerpt": "Cyber Security and Resilience Bill could pave way for searches, seizures, and inspections when operators lose control of automated systems",
+          "source": "The Register",
+          "date": "Nov 06",
+          "image": "https://image.theregister.com/?imageId=2918046&width=800",
+          "icon": null,
+          "domain": "theregister.com",
+          "hn": null,
+          "score": 4.911,
           "coverage": 1
         },
         {
@@ -571,9 +610,11 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 3.877,
+          "score": 3.298,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
           "link": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
@@ -584,11 +625,22 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 1.767,
+          "score": 1.6,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
+        {
+          "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+          "link": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+          "excerpt": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users. \"While we investigated, we removed access to Reactor and Data Solutions,\" the company…",
+          "source": "The Hacker News",
+          "date": "Nov 06",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoSpb8lu1ytakNne4rJ58nWfLFrYtdR7MCyZ2prSaLKiAb2Bt_upvfAHl-slDTt_3h7zxFdhbPcLwzAkcHDjnvu2TNcVp6JsgJU6GI5GMvZrrmzZTUZDyeOhS0GnFV-YtazzzcgMFnUvkqKmpSr9FBrCXQhlyPZM9E8c7LPSxACwPhfJ4nFzIANqdaVXUd/s1600/chain-breach.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 6.047,
+          "coverage": 1
+        },
         {
           "title": "October crypto-tracker hack: Access cracked, law enforcement tokens packed",
           "link": "https://www.theregister.com/cyber-crime/2026/11/05/october-crypto-tracker-hack-access-cracked-law-enforcement-tokens-packed/5307852",
@@ -599,7 +651,20 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 1.642,
+          "score": 1.48,
+          "coverage": 1
+        },
+        {
+          "title": "The Flood is Coming And The Pipes Were Already Full",
+          "link": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
+          "excerpt": "An update on Athena, and some unsolicited predictions on what's coming next On Saturday, Dario Amodei published We Must Pace the Frontier. I agree with him. Go read it if you haven't. I've spent the summer looking at what these models find, and the gap he describes between what they can do and…",
+          "source": "The Hacker News",
+          "date": "Nov 06",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhRlCxdfW4sb5-1zEBHpFyJfxetSva89fr67wc8zSfvidW5W4KQKckoTrRxOAUbjM94U2ydFjiXybLJPrp6pm1V-WUuC4IpkJjhIT56OG8go8E_8fR8cK-llV0UtXdRIxZS5XxuVwEbRj1G_zAErMjpkMHVdzkGBQrB46VErPyE7MBaW6sj0N64pRd3_A/s1600/FLOOD.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.695,
           "coverage": 1
         },
         {
@@ -612,34 +677,8 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.907,
+          "score": 2.436,
           "coverage": 2
-        },
-        {
-          "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
-          "link": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
-          "excerpt": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required. The company released patches on Monday, and the security firm watchTowr detailed the attack chain on Thursday. One flaw,…",
-          "source": "The Hacker News",
-          "date": "Nov 06",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh59LXthjD6N50867w2v7T4JyVUCOlVAmz1MJcZHKBFFaSnKDabB0FmdedrbvWRkp9XONe9Pz2RV1MQ-9QpJ8d85XE3w54EmMLKgaf1ygKD2e0y2X9mA7VsfyyB-8l1KFi-F5Gj9Q2vdsusmAl2khvXHNyOzWB_l7bj6NkOHkUgDYW-vENOowt0L8qM4kM/s1600/bar.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.569,
-          "coverage": 1
-        },
-        {
-          "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
-          "link": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
-          "excerpt": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long. OpenSSH, which rates the flaw…",
-          "source": "The Hacker News",
-          "date": "Nov 05",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieaHvS5baW_XG1eAsBsoSp9qRzV179f0WwXoj9k6rUeX4Qa4sxpi3hvpGkgkYNMPzZQH0mvvVAoTooEAgl1G3SyFksmhqNEbDEIEWM83RH47u8qvNyIYclA7z7GUdPJGx8WfJd556iCvvtvsitAYp9M-T46OvuwkaSWwnyhlynEpYax2qyTCACsPbtQLw/s1600/ssh-linux.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.313,
-          "coverage": 1
         }
       ]
     },
@@ -656,7 +695,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 5.959,
+          "score": 4.987,
           "coverage": 1
         },
         {
@@ -669,7 +708,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 6.966,
+          "score": 5.617,
           "coverage": 1
         },
         {
@@ -682,7 +721,7 @@
           "icon": null,
           "domain": "docker.com",
           "hn": null,
-          "score": 3.635,
+          "score": 3.121,
           "coverage": 1
         }
       ],
@@ -697,7 +736,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 2.795,
+          "score": 2.451,
           "coverage": 1
         },
         {
@@ -710,7 +749,7 @@
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
           "hn": null,
-          "score": 1.117,
+          "score": 1.048,
           "coverage": 1
         },
         {
@@ -723,7 +762,7 @@
           "icon": null,
           "domain": "blog.cloudflare.com",
           "hn": null,
-          "score": 2.235,
+          "score": 2.022,
           "coverage": 1
         },
         {
@@ -736,20 +775,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 4.077,
-          "coverage": 1
-        },
-        {
-          "title": "Semantic aggregation over millions of rows in BigQuery with AI.AGG",
-          "link": "https://cloud.google.com/blog/products/data-analytics/semantic-data-aggregation-with-bigquery-and-ai-agg/",
-          "excerpt": "For more than a decade, BigQuery has helped set standards for structured data aggregation, calculating financial sums, counting active users, and computing historical averages at a petabyte scale in seconds. But as modern enterprises become inundated with unstructured data — application logs,…",
-          "source": "Cloud Blog",
-          "date": "Nov 05",
-          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1_xGJBEhT.max-1000x1000.jpg",
-          "icon": null,
-          "domain": "cloud.google.com",
-          "hn": null,
-          "score": 1.581,
+          "score": 3.287,
           "coverage": 1
         }
       ]
@@ -767,7 +793,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 5.704,
+          "score": 4.754,
           "coverage": 1
         },
         {
@@ -780,7 +806,7 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 3.286,
+          "score": 2.907,
           "coverage": 1
         },
         {
@@ -793,7 +819,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 2.23,
+          "score": 1.971,
           "coverage": 1
         }
       ],
@@ -808,7 +834,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 1.98,
+          "score": 1.773,
           "coverage": 1
         },
         {
@@ -821,46 +847,46 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 2.378,
+          "score": 2.086,
           "coverage": 1
         },
         {
-          "title": "Muse has a voice mode now",
-          "link": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
-          "excerpt": "Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today. The feature has been rolled out to me, and I gave it a spin on the iOS app while writing this article. As you chat with your Muse agent, the avatar at the top of […]",
-          "source": "The Verge",
-          "date": "Nov 05",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&strip=all&crop=0,0,100,100",
-          "icon": null,
-          "domain": "theverge.com",
-          "hn": null,
-          "score": 1.923,
-          "coverage": 1
-        },
-        {
-          "title": "App Store 2026 in numbers: AI, pricing, abandoned apps",
-          "link": "https://obelisk.club/research/app-store-2026",
-          "excerpt": "178,637 apps from the App Store top charts: how many mention AI, how many sell in-app purchases, how many are no longer updated…",
-          "source": "obelisk.club via Hacker News",
+          "title": "We've built an open-source feature flag server for 11 years",
+          "link": "https://github.com/Unleash/unleash",
+          "excerpt": "Open-source feature management platform. Contribute to Unleash/unleash development by creating an account on GitHub.",
+          "source": "github.com via Hacker News",
           "date": "Nov 06",
-          "image": "https://obelisk.club/opengraph-image",
-          "icon": "https://obelisk.club/apple-icon?c5ccfec79d77a8d3",
-          "domain": "obelisk.club",
-          "hn": "19 points · 10 comments",
-          "score": 3.084,
+          "image": "https://repository-images.githubusercontent.com/24594933/0ee96080-d406-11eb-856d-7df51ff2efbb",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "11 points · 2 comments",
+          "score": 2.656,
           "coverage": 1
         },
         {
-          "title": "Multiplayer tanks that demolish real buildings from OpenStreetMap",
-          "link": "https://worldstrike.fun/",
-          "excerpt": "Drive a tank through any real city, flatten buildings with other players, and leave your mark. Destruction is permanent for everyone.",
-          "source": "worldstrike.fun via Hacker News",
+          "title": "Living beyond the limits of survival: wood ants trapped in a gigantic pitfall (2016)",
+          "link": "https://jhr.pensoft.net/articles.php?id=9096",
+          "excerpt": "A unique accumulation of workers (‘colony’) of the wood ant Formica polyctena Först., trapped within an old bunker for storing nuclear weapons, is described. The source of the ‘colony’ is a large colony nesting outdoors, on top of the bunker. Individuals that have fallen down through a ventilation…",
+          "source": "jhr.pensoft.net via Hacker News",
           "date": "Nov 06",
-          "image": "https://worldstrike.fun/og.jpg",
-          "icon": "https://worldstrike.fun/favicon.svg",
-          "domain": "worldstrike.fun",
-          "hn": "28 points · 7 comments",
-          "score": 3.205,
+          "image": "https://jhr.pensoft.net/showimg/d200x_100890.jpg",
+          "icon": "https://jhr.pensoft.net/i/ico/jhr.ico",
+          "domain": "jhr.pensoft.net",
+          "hn": "50 points · 16 comments",
+          "score": 3.515,
+          "coverage": 1
+        },
+        {
+          "title": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
+          "link": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
+          "excerpt": "Is there an existing issue for this? I have searched the existing issues App name ASN Bank Link to app https://play.google.com/store/apps/details?id=nl.devolksbank.asn.bankieren App version 2.40.2 ...",
+          "source": "github.com via Hacker News",
+          "date": "Nov 06",
+          "image": "https://opengraph.githubassets.com/2af11e0d859cfb0fd11d73827c8dca67bd0920b0f5e8c33ca2e00ab4c873be86/PrivSec-dev/banking-apps-compat-report/issues/105",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "176 points · 117 comments",
+          "score": 4.287,
           "coverage": 1
         }
       ]
