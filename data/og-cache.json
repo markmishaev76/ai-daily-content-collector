@@ -275,6 +275,12 @@
   "icon": null,
   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ManinOffice_V2.width-1300.png"
  },
+ "https://blog.grainulation.org/verify-then-vote/": {
+  "description": "We gave five small local models the same questions and checked their sources before picking an answer. Our first paper reports what got better, a safety test that failed and how we can rerun decisions without asking the models again.",
+  "fetched": "2026-11-06",
+  "icon": "https://blog.grainulation.org/favicon.png",
+  "image": "https://blog.grainulation.org/social.png"
+ },
  "https://blog.habets.se/2026/10/Attention-people-who-think-UB-is-fine.html": {
   "description": "After my post on undefined behavior in C some people insisted that itâs demonstrably fine, we know what the code will do, and at worst weâll get a segfault.",
   "fetched": "2026-10-25",
@@ -797,6 +803,12 @@
   "icon": "https://s.yimg.com/cv/apiv2/default/finance/favicon-180x180.png",
   "image": "https://s.yimg.com/lo/mysterio/api/20c071d47e1d29b6bcb68516712316fd79f4afbe9817d204b091e7acdade2c1f/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F1b2b2cbf-96e4-452f-9ea7-7917f40a6da2"
  },
+ "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html": {
+  "description": "Cuban says he has been seeing his own face in scammy AI-generated ads for nonexistent diabetes cures.",
+  "fetched": "2026-11-06",
+  "icon": "https://s.yimg.com/cv/apiv2/default/finance/favicon-180x180.png",
+  "image": "https://s.yimg.com/lo/mysterio/api/c7b9e208fd6dff01b9115dea6cf00d560e269c36a6987f309be6e79d843e306b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmoneywise_327%2F892777675c4b84ce45a666a8bfe1fb93.jpg"
+ },
  "https://fishbowl.pastiche.org/2026/10/26/ai-skills": {
   "description": "And yet, in five years, Iâm sure there will be old heads doggedly adding âyou are an experienced software developer, make no mistakesâ to their custom instructions.",
   "fetched": "2026-10-26",
@@ -910,6 +922,12 @@
   "fetched": "2026-11-06",
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://opengraph.githubassets.com/7bf683895feb965f16b7d6eac90bbb663a14b3a24488b13762a102291609a8b3/anthropics/claude-code/issues/107757"
+ },
+ "https://github.com/dsx-ai-factory/nvke": {
+  "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal. - dsx-ai-factory/nvke",
+  "fetched": "2026-11-06",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://opengraph.githubassets.com/3e92c70483fe1072d93df09ac42d1ddd9d37a696863c28d24b79566338955a39/dsx-ai-factory/nvke"
  },
  "https://github.com/finic-ai/kairos": {
   "description": "Real time event intelligence, fraud and risk decisioning for financial behavior. - finic-ai/kairos",
@@ -1556,6 +1574,12 @@
  "https://openai.com/index/accelerating-engineering-for-the-physical-world": {
   "description": null,
   "fetched": "2026-11-04",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/australian-universities-ai-native-graduates": {
+  "description": null,
+  "fetched": "2026-11-06",
   "icon": null,
   "image": null
  },
@@ -3922,6 +3946,12 @@
   "fetched": "2026-10-30",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Polymarket.webp"
+ },
+ "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/": {
+  "description": "Three people accused of using AI to impersonate corporate executives and attorneys to steal about $129 million have been indicted.",
+  "fetched": "2026-11-06",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg"
  },
  "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/": {
   "description": "Hackers moved over $6 billion out of Binance wallets, and TRM Labs and Chainalysis attribute the attack to North Korea’s TraderTraitor.",

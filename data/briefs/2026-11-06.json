@@ -14,7 +14,7 @@
     "labels": [
       "2 sources",
       "AI-Assisted Engineering",
-      "9h ago"
+      "11h ago"
     ],
     "also": [
       {
@@ -31,7 +31,7 @@
       "link_domain": "sshhole.com",
       "source": "Lobsters",
       "domain": "sshhole.com",
-      "meta": "Lobsters · 130 points · 31 comments · 13h ago",
+      "meta": "Lobsters · 136 points · 33 comments · 15h ago",
       "also": [],
       "image": null,
       "icon": "https://sshhole.com/favicon.ico"
@@ -43,7 +43,7 @@
       "link_domain": "alpinelinux.org",
       "source": "Hacker News",
       "domain": "alpinelinux.org",
-      "meta": "Hacker News · 589 points · 125 comments · 11h ago",
+      "meta": "Hacker News · 613 points · 2 comments · 13h ago",
       "also": [],
       "image": null,
       "icon": "https://alpinelinux.org/alpine-logo.ico"
@@ -55,7 +55,7 @@
       "link_domain": "cve.org",
       "source": "Hacker News",
       "domain": "cve.org",
-      "meta": "Hacker News · 326 points · 112 comments · 5h ago",
+      "meta": "Hacker News · 377 points · 140 comments · 7h ago",
       "also": [],
       "image": null,
       "icon": "https://www.cve.org/cvePurpleVFavicon.svg"
@@ -67,22 +67,10 @@
       "link_domain": "alignment.openai.com",
       "source": "Hacker News",
       "domain": "alignment.openai.com",
-      "meta": "Hacker News · 302 points · 156 comments · 18h ago",
+      "meta": "Hacker News · 313 points · 170 comments · 20h ago",
       "also": [],
       "image": null,
       "icon": "https://alignment.openai.com/favicon.ico"
-    },
-    {
-      "title": "MCP Explained",
-      "thread": "https://news.ycombinator.com/item?id=50379249",
-      "link": "https://mcp-explained.com/",
-      "link_domain": "mcp-explained.com",
-      "source": "Hacker News",
-      "domain": "mcp-explained.com",
-      "meta": "Hacker News · 249 points · 112 comments · 11h ago",
-      "also": [],
-      "image": "https://mcp-explained.com/og.png",
-      "icon": "https://mcp-explained.com/favicon.svg"
     },
     {
       "title": "Software Line Specialist",
@@ -91,22 +79,22 @@
       "link_domain": "lovro-bikic.github.io",
       "source": "Lobsters",
       "domain": "lovro-bikic.github.io",
-      "meta": "Lobsters · 36 points · 4 comments · 9h ago",
+      "meta": "Lobsters · 40 points · 5 comments · 11h ago",
       "also": [],
       "image": null,
       "icon": "https://lovro-bikic.github.io/apple-touch-icon.png"
     },
     {
-      "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
-      "thread": "https://news.ycombinator.com/item?id=50377221",
-      "link": "https://hachyderm.io/@damienmiller/117563026759098135",
-      "link_domain": "hachyderm.io",
+      "title": "MCP Explained",
+      "thread": "https://news.ycombinator.com/item?id=50379249",
+      "link": "https://mcp-explained.com/",
+      "link_domain": "mcp-explained.com",
       "source": "Hacker News",
-      "domain": "hachyderm.io",
-      "meta": "Hacker News · 175 points · 82 comments · 16h ago",
+      "domain": "mcp-explained.com",
+      "meta": "Hacker News · 263 points · 116 comments · 13h ago",
       "also": [],
-      "image": null,
-      "icon": "https://hachyderm.io/packs/assets/apple-touch-icon-57x57-BsPGHSez.png"
+      "image": "https://mcp-explained.com/og.png",
+      "icon": "https://mcp-explained.com/favicon.svg"
     },
     {
       "title": "Hungary: Communist-era files released, up to 60k former agents revealed",
@@ -115,22 +103,34 @@
       "link_domain": "euronews.com",
       "source": "Hacker News",
       "domain": "euronews.com",
-      "meta": "Hacker News · 161 points · 36 comments · 6h ago",
+      "meta": "Hacker News · 177 points · 41 comments · 8h ago",
       "also": [],
       "image": "https://images.euronews.com/articles/stories/09/97/91/63/1200x675_cmsv2_e5035729-271a-5b7b-a596-fa27657ccada-9979163.jpg",
       "icon": "https://www.euronews.com/apple-touch-icon.png"
     },
     {
-      "title": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election",
-      "thread": "https://news.ycombinator.com/item?id=50382179",
-      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
-      "link_domain": "wsj.com",
+      "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
+      "thread": "https://news.ycombinator.com/item?id=50377221",
+      "link": "https://hachyderm.io/@damienmiller/117563026759098135",
+      "link_domain": "hachyderm.io",
       "source": "Hacker News",
-      "domain": "wsj.com",
-      "meta": "Hacker News · 149 points · 184 comments · 8h ago",
+      "domain": "hachyderm.io",
+      "meta": "Hacker News · 176 points · 220 comments · 18h ago",
       "also": [],
       "image": null,
-      "icon": "https://www.wsj.com/favicon.ico"
+      "icon": "https://hachyderm.io/packs/assets/apple-touch-icon-57x57-BsPGHSez.png"
+    },
+    {
+      "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+      "thread": "https://news.ycombinator.com/item?id=50385870",
+      "link": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+      "link_domain": "finance.yahoo.com",
+      "source": "Hacker News",
+      "domain": "finance.yahoo.com",
+      "meta": "Hacker News · 173 points · 86 comments · 4h ago",
+      "also": [],
+      "image": "https://s.yimg.com/lo/mysterio/api/c7b9e208fd6dff01b9115dea6cf00d560e269c36a6987f309be6e79d843e306b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmoneywise_327%2F892777675c4b84ce45a666a8bfe1fb93.jpg",
+      "icon": "https://s.yimg.com/cv/apiv2/default/finance/favicon-180x180.png"
     },
     {
       "title": "SourceHut disabled registration bypass | CVE-2026-121728",
@@ -139,7 +139,7 @@
       "link_domain": "blog.arusekk.pl",
       "source": "Lobsters",
       "domain": "blog.arusekk.pl",
-      "meta": "Lobsters · 22 points · 0 comments · 7h ago",
+      "meta": "Lobsters · 25 points · 0 comments · 9h ago",
       "also": [],
       "image": null,
       "icon": "https://blog.arusekk.pl/apple-touch-icon.png"
@@ -159,7 +159,7 @@
           "icon": null,
           "domain": "metr.org",
           "hn": null,
-          "score": 5.381,
+          "score": 5.045,
           "coverage": 1
         },
         {
@@ -172,7 +172,7 @@
           "icon": "https://cursor.com/marketing-static/apple-touch-icon-light.png",
           "domain": "cursor.com",
           "hn": null,
-          "score": 0.472,
+          "score": 0.449,
           "coverage": 1
         },
         {
@@ -185,7 +185,7 @@
           "icon": "https://metr.org/assets/images/favicon/apple-touch-icon.png",
           "domain": "metr.org",
           "hn": null,
-          "score": 5.381,
+          "score": 5.045,
           "coverage": 1
         }
       ],
@@ -200,7 +200,7 @@
           "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
           "domain": "s46486.pcdn.co",
           "hn": null,
-          "score": 0.85,
+          "score": 0.777,
           "coverage": 1
         },
         {
@@ -213,7 +213,7 @@
           "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
           "domain": "snorkel.ai",
           "hn": null,
-          "score": 0.823,
+          "score": 0.754,
           "coverage": 1
         },
         {
@@ -226,7 +226,7 @@
           "icon": null,
           "domain": "snorkel.ai",
           "hn": null,
-          "score": 0.482,
+          "score": 0.458,
           "coverage": 1
         },
         {
@@ -239,7 +239,7 @@
           "icon": null,
           "domain": "research.google",
           "hn": null,
-          "score": 0.815,
+          "score": 0.747,
           "coverage": 1
         },
         {
@@ -252,7 +252,7 @@
           "icon": null,
           "domain": "newsletter.pragmaticengineer.com",
           "hn": null,
-          "score": 0.813,
+          "score": 0.746,
           "coverage": 1
         }
       ]
@@ -270,7 +270,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 5.481,
+          "score": 4.934,
           "coverage": 1
         },
         {
@@ -283,37 +283,24 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 2.078,
+          "score": 1.948,
           "coverage": 1
         },
         {
-          "title": "Investors wipe $2.5T off Nasdaq as blue tsunami prompts AI fears",
-          "link": "https://www.reuters.com/legal/transactional/ai-data-center-stocks-slip-democratic-sweep-clouds-expansion-plans-2026-11-05/",
-          "excerpt": "21 points · 1 comments",
-          "source": "reuters.com via Hacker News",
-          "date": "Nov 06",
+          "title": "Australian universities are creating AI-native graduates",
+          "link": "https://openai.com/index/australian-universities-ai-native-graduates",
+          "excerpt": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+          "source": "OpenAI News",
+          "date": "Nov 05",
           "image": null,
-          "icon": "https://www.reuters.com/favicon.ico",
-          "domain": "reuters.com",
-          "hn": "21 points · 1 comments",
-          "score": 4.018,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.649,
           "coverage": 1
         }
       ],
       "more": [
-        {
-          "title": "Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5T Valuation",
-          "link": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b’",
-          "excerpt": "31 points · 19 comments",
-          "source": "wsj.com via Hacker News",
-          "date": "Nov 06",
-          "image": null,
-          "icon": "https://www.wsj.com/favicon.ico",
-          "domain": "wsj.com",
-          "hn": "31 points · 19 comments",
-          "score": 4.597,
-          "coverage": 1
-        },
         {
           "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
           "link": "https://openai.com/index/introducing-gpt-6-cyber",
@@ -324,7 +311,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.515,
+          "score": 0.482,
           "coverage": 1
         },
         {
@@ -337,7 +324,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.402,
+          "score": 0.381,
           "coverage": 1
         },
         {
@@ -350,7 +337,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.394,
+          "score": 0.374,
           "coverage": 1
         }
       ]
@@ -368,7 +355,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 1.064,
+          "score": 0.931,
           "coverage": 1
         },
         {
@@ -381,7 +368,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 1.064,
+          "score": 0.931,
           "coverage": 1
         },
         {
@@ -394,7 +381,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.394,
+          "score": 0.374,
           "coverage": 1
         }
       ],
@@ -409,7 +396,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.394,
+          "score": 0.374,
           "coverage": 1
         }
       ]
@@ -427,7 +414,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.315,
+          "score": 0.299,
           "coverage": 1
         },
         {
@@ -440,7 +427,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.315,
+          "score": 0.299,
           "coverage": 1
         },
         {
@@ -453,7 +440,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.315,
+          "score": 0.299,
           "coverage": 1
         }
       ],
@@ -468,7 +455,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.315,
+          "score": 0.299,
           "coverage": 1
         }
       ]
@@ -486,7 +473,7 @@
           "icon": null,
           "domain": "aembit.io",
           "hn": null,
-          "score": 4.01,
+          "score": 3.66,
           "coverage": 1
         },
         {
@@ -499,7 +486,7 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 0.543,
+          "score": 0.498,
           "coverage": 1
         },
         {
@@ -512,7 +499,7 @@
           "icon": "https://www.theregister.com/view-resources/dachser2/public/theregister/favicons/apple-touch-icon.png",
           "domain": "theregister.com",
           "hn": "16 points · 0 comments",
-          "score": 2.222,
+          "score": 2.033,
           "coverage": 1
         }
       ],
@@ -526,8 +513,8 @@
           "image": "https://cdn.prod.website-files.com/68dac009699a76c0c70f4c43/6ae4d81fcdfd8ef31bbb5b1e_OCAP-Bounded-Authority-Full-1000x5002x.png",
           "icon": "https://cdn.prod.website-files.com/68dac009699a76c0c70f4c30/6a04c0cf8e8dad2fe9faa78f_Favicon_Square.png",
           "domain": "edera.dev",
-          "hn": "28 points · 2 comments",
-          "score": 2.529,
+          "hn": "29 points · 2 comments",
+          "score": 2.336,
           "coverage": 1
         }
       ]
@@ -545,7 +532,7 @@
           "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
           "domain": "openssf.org",
           "hn": null,
-          "score": 0.63,
+          "score": 0.57,
           "coverage": 1
         },
         {
@@ -558,7 +545,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.252,
+          "score": 0.239,
           "coverage": 1
         }
       ],
@@ -577,7 +564,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 3.677,
+          "score": 3.351,
           "coverage": 1
         },
         {
@@ -590,7 +577,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.374,
+          "score": 2.171,
           "coverage": 1
         },
         {
@@ -603,7 +590,7 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 2.244,
+          "score": 2.04,
           "coverage": 1
         }
       ],
@@ -618,7 +605,20 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.421,
+          "score": 0.385,
+          "coverage": 1
+        },
+        {
+          "title": "3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million",
+          "link": "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/",
+          "excerpt": "The trio, who have nicknames that include “Rocky Balboa,” “Superman Cash” and “Fat Boy,” often targeted the companies’ accounting departments. The post 3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 06",
+          "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.69,
           "coverage": 1
         },
         {
@@ -631,7 +631,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.364,
+          "score": 0.337,
           "coverage": 1
         },
         {
@@ -644,7 +644,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 2.507,
+          "score": 2.322,
           "coverage": 1
         },
         {
@@ -657,20 +657,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.352,
-          "coverage": 1
-        },
-        {
-          "title": "CISO Conversations: Ryan Davis – The Unknown Is Where Security Meets Reality",
-          "link": "https://www.securityweek.com/ciso-conversations-ryan-davis-the-unknown-is-where-security-meets-reality/",
-          "excerpt": "Ryan Davis went from hacking his school’s network to running security at New Charter Technologies. What worries him now is shadow AI. The post CISO Conversations: Ryan Davis – The Unknown Is Where Security Meets Reality appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 05",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/CISO-Ryan-Davis.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.332,
+          "score": 0.327,
           "coverage": 1
         }
       ]
@@ -678,6 +665,19 @@
     {
       "name": "Platform, Cloud & Reliability",
       "cards": [
+        {
+          "title": "Docker Sandboxes vs. Containers: Choosing the Right Isolation for AI Agents",
+          "link": "https://www.docker.com/blog/docker-sandboxes-vs-containers/",
+          "excerpt": "A container shares the host kernel. Docker Sandboxes are microVMs with their own kernel and private Docker Engine. See how they differ and when to use each.",
+          "source": "Docker",
+          "date": "Nov 06",
+          "image": "https://www.docker.com/app/uploads/2026/11/docker_sandboxes-vs-containers_110226_v1_DARK-2320x1218.jpg",
+          "icon": null,
+          "domain": "docker.com",
+          "hn": null,
+          "score": 5.151,
+          "coverage": 1
+        },
         {
           "title": "How OrderServ achieved up to 64% cost savings with multi-tenant ECS",
           "link": "https://aws.amazon.com/blogs/architecture/how-orderserv-achieved-up-to-64-cost-savings-with-multi-tenant-ecs/",
@@ -688,7 +688,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 4.27,
+          "score": 3.733,
           "coverage": 1
         },
         {
@@ -701,9 +701,11 @@
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
           "hn": null,
-          "score": 1.333,
+          "score": 1.266,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Agents aren’t humans (but they kinda are)",
           "link": "https://blog.cloudflare.com/trusted-agent-delegation/",
@@ -714,11 +716,9 @@
           "icon": null,
           "domain": "blog.cloudflare.com",
           "hn": null,
-          "score": 3.016,
+          "score": 2.754,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Semantic aggregation over millions of rows in BigQuery with AI.AGG",
           "link": "https://cloud.google.com/blog/products/data-analytics/semantic-data-aggregation-with-bigquery-and-ai-agg/",
@@ -729,7 +729,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.132,
+          "score": 1.947,
           "coverage": 1
         },
         {
@@ -742,7 +742,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.426,
+          "score": 0.389,
           "coverage": 1
         },
         {
@@ -755,7 +755,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 9.382,
+          "score": 8.568,
           "coverage": 2
         },
         {
@@ -768,20 +768,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.6,
-          "coverage": 1
-        },
-        {
-          "title": "How TUI scales threat modeling for 100+ teams with Amazon Bedrock",
-          "link": "https://aws.amazon.com/blogs/architecture/how-tui-scales-threat-modeling-for-100-teams-with-amazon-bedrock/",
-          "excerpt": "Learn how TUI, the world's leading tourism group, built an AI-powered threat modeling system on Amazon Bedrock and Amazon Bedrock AgentCore to scale security assessments across more than 100 product teams, cutting threat modeling time by up to 70% while applying security standards consistently.",
-          "source": "AWS Architecture Blog",
-          "date": "Nov 05",
-          "image": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/02/ARCHBLOG-1463-1.png",
-          "icon": null,
-          "domain": "aws.amazon.com",
-          "hn": null,
-          "score": 0.465,
+          "score": 0.542,
           "coverage": 1
         }
       ]
@@ -799,7 +786,7 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 4.829,
+          "score": 4.281,
           "coverage": 1
         },
         {
@@ -811,8 +798,8 @@
           "image": "https://opengraph.githubassets.com/7bf683895feb965f16b7d6eac90bbb663a14b3a24488b13762a102291609a8b3/anthropics/claude-code/issues/107757",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "507 points · 172 comments",
-          "score": 7.31,
+          "hn": "674 points · 230 comments",
+          "score": 6.647,
           "coverage": 1
         },
         {
@@ -825,7 +812,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 3.294,
+          "score": 2.915,
           "coverage": 1
         }
       ],
@@ -840,7 +827,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 2.776,
+          "score": 2.502,
           "coverage": 1
         },
         {
@@ -853,7 +840,7 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 3.628,
+          "score": 3.173,
           "coverage": 1
         },
         {
@@ -866,33 +853,33 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 2.666,
+          "score": 2.412,
           "coverage": 1
         },
         {
-          "title": "Inkling 2 Small",
-          "link": "https://thinkingmachines.ai/news/inkling-2-small/",
-          "excerpt": "Today we are introducing the second generation of Inkling models with the release of Inkling 2 Small.",
-          "source": "thinkingmachines.ai via Hacker News",
+          "title": "Nvidia Kubernetes Engine (NVKE)",
+          "link": "https://github.com/dsx-ai-factory/nvke",
+          "excerpt": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal. - dsx-ai-factory/nvke",
+          "source": "github.com via Hacker News",
           "date": "Nov 06",
-          "image": "https://thinkingmachines.ai/news/inkling-2-small/images/cover-social.png",
-          "icon": "https://thinkingmachines.ai/images/apple-touch-icon.png",
-          "domain": "thinkingmachines.ai",
-          "hn": "55 points · 22 comments",
-          "score": 3.623,
+          "image": "https://opengraph.githubassets.com/3e92c70483fe1072d93df09ac42d1ddd9d37a696863c28d24b79566338955a39/dsx-ai-factory/nvke",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "12 points · 1 comments",
+          "score": 2.645,
           "coverage": 1
         },
         {
-          "title": "Brazilian Credit Guarantor Fund Data Breach Affecting PII and Payout Data",
-          "link": "https://www.fgc.org.br/comunicado",
-          "excerpt": "17 points · 2 comments",
-          "source": "fgc.org.br via Hacker News",
-          "date": "Nov 05",
-          "image": null,
-          "icon": "https://www.fgc.org.br/documents/32230/48686/logofgc/ca56aadf-be4d-6356-0f38-b4b59d7bca4c",
-          "domain": "fgc.org.br",
-          "hn": "17 points · 2 comments",
-          "score": 5.728,
+          "title": "Claude was faster and cheaper. We took the scenic route anyway",
+          "link": "https://blog.grainulation.org/verify-then-vote/",
+          "excerpt": "We gave five small local models the same questions and checked their sources before picking an answer. Our first paper reports what got better, a safety test that failed and how we can rerun decisions without asking the models again.",
+          "source": "blog.grainulation.org via Hacker News",
+          "date": "Nov 06",
+          "image": "https://blog.grainulation.org/social.png",
+          "icon": "https://blog.grainulation.org/favicon.png",
+          "domain": "blog.grainulation.org",
+          "hn": "10 points · 1 comments",
+          "score": 2.472,
           "coverage": 1
         }
       ]
