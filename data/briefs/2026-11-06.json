@@ -1,29 +1,35 @@
 {
   "date": "2026-11-06",
   "lead": {
-    "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-    "excerpt": "Text \"Gemini Introducing Gemini Omni 1.2 Flash\" surroudned by images of a beehive, animals in conversation, a squid, and a woman walking down a street",
-    "source": "Google AI",
-    "date": "Nov 05",
-    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.max-600x600.format-webp.webp",
+    "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+    "link": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+    "excerpt": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users. \"While we investigated, we removed access to Reactor and Data Solutions,\" the company…",
+    "source": "The Hacker News",
+    "date": "Nov 06",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoSpb8lu1ytakNne4rJ58nWfLFrYtdR7MCyZ2prSaLKiAb2Bt_upvfAHl-slDTt_3h7zxFdhbPcLwzAkcHDjnvu2TNcVp6JsgJU6GI5GMvZrrmzZTUZDyeOhS0GnFV-YtazzzcgMFnUvkqKmpSr9FBrCXQhlyPZM9E8c7LPSxACwPhfJ4nFzIANqdaVXUd/s1600/chain-breach.jpg",
     "image_credit": null,
-    "section": "AI-Assisted Engineering",
+    "section": "Security & AppSec",
     "pinned": false,
     "note": null,
     "labels": [
-      "2 sources",
-      "AI-Assisted Engineering",
-      "13h ago"
+      "Security & AppSec",
+      "1h ago"
     ],
-    "also": [
-      {
-        "name": "cloud.google.com",
-        "link": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-omni-1-2-flash-generally-available/"
-      }
-    ]
+    "also": []
   },
   "pulse": [
+    {
+      "title": "Claude Code sends your email address to websites",
+      "thread": "https://news.ycombinator.com/item?id=50385272",
+      "link": "https://github.com/anthropics/claude-code/issues/107757",
+      "link_domain": "github.com",
+      "source": "Hacker News",
+      "domain": "github.com",
+      "meta": "Hacker News · 1.1k points · 339 comments · 11h ago",
+      "also": [],
+      "image": "https://opengraph.githubassets.com/7bf683895feb965f16b7d6eac90bbb663a14b3a24488b13762a102291609a8b3/anthropics/claude-code/issues/107757",
+      "icon": "https://github.githubassets.com/favicons/favicon.svg"
+    },
     {
       "title": "sshhole",
       "thread": "https://lobste.rs/s/oq5pem/sshhole",
@@ -31,7 +37,7 @@
       "link_domain": "sshhole.com",
       "source": "Lobsters",
       "domain": "sshhole.com",
-      "meta": "Lobsters · 141 points · 33 comments · 17h ago",
+      "meta": "Lobsters · 150 points · 37 comments · 21h ago",
       "also": [],
       "image": null,
       "icon": "https://sshhole.com/favicon.ico"
@@ -43,7 +49,7 @@
       "link_domain": "alpinelinux.org",
       "source": "Hacker News",
       "domain": "alpinelinux.org",
-      "meta": "Hacker News · 618 points · 2 comments · 15h ago",
+      "meta": "Hacker News · 622 points · 2 comments · 18h ago",
       "also": [],
       "image": null,
       "icon": "https://alpinelinux.org/alpine-logo.ico"
@@ -55,34 +61,10 @@
       "link_domain": "cve.org",
       "source": "Hacker News",
       "domain": "cve.org",
-      "meta": "Hacker News · 431 points · 160 comments · 9h ago",
+      "meta": "Hacker News · 537 points · 193 comments · 12h ago",
       "also": [],
       "image": null,
       "icon": "https://www.cve.org/cvePurpleVFavicon.svg"
-    },
-    {
-      "title": "GPT-6 Astra covertly underperforms on safety research",
-      "thread": "https://news.ycombinator.com/item?id=50376313",
-      "link": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
-      "link_domain": "alignment.openai.com",
-      "source": "Hacker News",
-      "domain": "alignment.openai.com",
-      "meta": "Hacker News · 316 points · 173 comments · 22h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://alignment.openai.com/favicon.ico"
-    },
-    {
-      "title": "MCP Explained",
-      "thread": "https://news.ycombinator.com/item?id=50379249",
-      "link": "https://mcp-explained.com/",
-      "link_domain": "mcp-explained.com",
-      "source": "Hacker News",
-      "domain": "mcp-explained.com",
-      "meta": "Hacker News · 279 points · 118 comments · 15h ago",
-      "also": [],
-      "image": "https://mcp-explained.com/og.png",
-      "icon": "https://mcp-explained.com/favicon.svg"
     },
     {
       "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
@@ -91,22 +73,22 @@
       "link_domain": "finance.yahoo.com",
       "source": "Hacker News",
       "domain": "finance.yahoo.com",
-      "meta": "Hacker News · 232 points · 105 comments · 6h ago",
+      "meta": "Hacker News · 318 points · 152 comments · 10h ago",
       "also": [],
       "image": "https://s.yimg.com/lo/mysterio/api/c7b9e208fd6dff01b9115dea6cf00d560e269c36a6987f309be6e79d843e306b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmoneywise_327%2F892777675c4b84ce45a666a8bfe1fb93.jpg",
       "icon": "https://s.yimg.com/cv/apiv2/default/finance/favicon-180x180.png"
     },
     {
-      "title": "Hungary: Communist-era files released, up to 60k former agents revealed",
-      "thread": "https://news.ycombinator.com/item?id=50383163",
-      "link": "https://www.euronews.com/2026/11/04/hungary-communist-era-files-opened-up-to-60000-former-agents-revealed",
-      "link_domain": "euronews.com",
+      "title": "MCP Explained",
+      "thread": "https://news.ycombinator.com/item?id=50379249",
+      "link": "https://mcp-explained.com/",
+      "link_domain": "mcp-explained.com",
       "source": "Hacker News",
-      "domain": "euronews.com",
-      "meta": "Hacker News · 196 points · 46 comments · 10h ago",
+      "domain": "mcp-explained.com",
+      "meta": "Hacker News · 294 points · 123 comments · 19h ago",
       "also": [],
-      "image": "https://images.euronews.com/articles/stories/09/97/91/63/1200x675_cmsv2_e5035729-271a-5b7b-a596-fa27657ccada-9979163.jpg",
-      "icon": "https://www.euronews.com/apple-touch-icon.png"
+      "image": "https://mcp-explained.com/og.png",
+      "icon": "https://mcp-explained.com/favicon.svg"
     },
     {
       "title": "SourceHut disabled registration bypass | CVE-2026-121728",
@@ -115,10 +97,22 @@
       "link_domain": "blog.arusekk.pl",
       "source": "Lobsters",
       "domain": "blog.arusekk.pl",
-      "meta": "Lobsters · 27 points · 0 comments · 11h ago",
+      "meta": "Lobsters · 38 points · 1 comments · 14h ago",
       "also": [],
       "image": null,
       "icon": "https://blog.arusekk.pl/apple-touch-icon.png"
+    },
+    {
+      "title": "Hungary: Communist-era files released, up to 60k former agents revealed",
+      "thread": "https://news.ycombinator.com/item?id=50383163",
+      "link": "https://www.euronews.com/2026/11/04/hungary-communist-era-files-opened-up-to-60000-former-agents-revealed",
+      "link_domain": "euronews.com",
+      "source": "Hacker News",
+      "domain": "euronews.com",
+      "meta": "Hacker News · 208 points · 61 comments · 14h ago",
+      "also": [],
+      "image": "https://images.euronews.com/articles/stories/09/97/91/63/1200x675_cmsv2_e5035729-271a-5b7b-a596-fa27657ccada-9979163.jpg",
+      "icon": "https://www.euronews.com/apple-touch-icon.png"
     },
     {
       "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
@@ -127,7 +121,7 @@
       "link_domain": "hachyderm.io",
       "source": "Hacker News",
       "domain": "hachyderm.io",
-      "meta": "Hacker News · 179 points · 220 comments · 20h ago",
+      "meta": "Hacker News · 180 points · 223 comments · 23h ago",
       "also": [],
       "image": null,
       "icon": "https://hachyderm.io/packs/assets/apple-touch-icon-57x57-BsPGHSez.png"
@@ -139,7 +133,7 @@
       "link_domain": "wsj.com",
       "source": "Hacker News",
       "domain": "wsj.com",
-      "meta": "Hacker News · 156 points · 188 comments · 12h ago",
+      "meta": "Hacker News · 160 points · 190 comments · 15h ago",
       "also": [],
       "image": null,
       "icon": "https://www.wsj.com/favicon.ico"
@@ -159,7 +153,7 @@
           "icon": null,
           "domain": "metr.org",
           "hn": null,
-          "score": 4.75,
+          "score": 4.325,
           "coverage": 1
         },
         {
@@ -172,7 +166,7 @@
           "icon": "https://cursor.com/marketing-static/apple-touch-icon-light.png",
           "domain": "cursor.com",
           "hn": null,
-          "score": 0.428,
+          "score": 0.396,
           "coverage": 1
         },
         {
@@ -185,7 +179,7 @@
           "icon": "https://metr.org/assets/images/favicon/apple-touch-icon.png",
           "domain": "metr.org",
           "hn": null,
-          "score": 4.75,
+          "score": 4.325,
           "coverage": 1
         }
       ],
@@ -200,7 +194,7 @@
           "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
           "domain": "s46486.pcdn.co",
           "hn": null,
-          "score": 0.715,
+          "score": 0.631,
           "coverage": 1
         },
         {
@@ -213,7 +207,7 @@
           "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
           "domain": "snorkel.ai",
           "hn": null,
-          "score": 0.696,
+          "score": 0.616,
           "coverage": 1
         },
         {
@@ -226,7 +220,7 @@
           "icon": null,
           "domain": "snorkel.ai",
           "hn": null,
-          "score": 0.436,
+          "score": 0.403,
           "coverage": 1
         },
         {
@@ -239,7 +233,7 @@
           "icon": null,
           "domain": "research.google",
           "hn": null,
-          "score": 0.69,
+          "score": 0.611,
           "coverage": 1
         },
         {
@@ -252,7 +246,7 @@
           "icon": null,
           "domain": "newsletter.pragmaticengineer.com",
           "hn": null,
-          "score": 0.689,
+          "score": 0.61,
           "coverage": 1
         }
       ]
@@ -270,7 +264,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 4.489,
+          "score": 3.897,
           "coverage": 1
         },
         {
@@ -283,24 +277,9 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 1.834,
+          "score": 1.67,
           "coverage": 1
         },
-        {
-          "title": "How accurately did science fiction stories predict AI?",
-          "link": "https://jamesyu.org/science-fiction-predictions-of-ai/",
-          "excerpt": "Stories, novels, and films scored on how well they predicted the advent of AI.",
-          "source": "jamesyu.org via Hacker News",
-          "date": "Nov 06",
-          "image": "https://www.jamesyu.org/images/science-fiction-predictions-of-ai.png",
-          "icon": "https://jamesyu.org/favicon.ico",
-          "domain": "jamesyu.org",
-          "hn": "11 points · 6 comments",
-          "score": 3.601,
-          "coverage": 1
-        }
-      ],
-      "more": [
         {
           "title": "Australian universities are creating AI-native graduates",
           "link": "https://openai.com/index/australian-universities-ai-native-graduates",
@@ -311,9 +290,11 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.597,
+          "score": 0.527,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
           "link": "https://openai.com/index/introducing-gpt-6-cyber",
@@ -324,7 +305,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.453,
+          "score": 0.411,
           "coverage": 1
         },
         {
@@ -337,7 +318,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.363,
+          "score": 0.336,
           "coverage": 1
         },
         {
@@ -350,7 +331,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.356,
+          "score": 0.33,
           "coverage": 1
         }
       ]
@@ -368,7 +349,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.828,
+          "score": 0.699,
           "coverage": 1
         },
         {
@@ -381,7 +362,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.828,
+          "score": 0.699,
           "coverage": 1
         },
         {
@@ -394,7 +375,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.356,
+          "score": 0.33,
           "coverage": 1
         }
       ],
@@ -409,7 +390,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.356,
+          "score": 0.33,
           "coverage": 1
         }
       ]
@@ -427,7 +408,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.285,
+          "score": 0.264,
           "coverage": 1
         },
         {
@@ -440,7 +421,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.285,
+          "score": 0.264,
           "coverage": 1
         },
         {
@@ -453,7 +434,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.285,
+          "score": 0.264,
           "coverage": 1
         }
       ],
@@ -468,7 +449,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.285,
+          "score": 0.264,
           "coverage": 1
         }
       ]
@@ -486,7 +467,7 @@
           "icon": null,
           "domain": "aembit.io",
           "hn": null,
-          "score": 3.367,
+          "score": 2.968,
           "coverage": 1
         },
         {
@@ -499,7 +480,7 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 0.46,
+          "score": 0.407,
           "coverage": 1
         },
         {
@@ -512,22 +493,22 @@
           "icon": "https://www.theregister.com/view-resources/dachser2/public/theregister/favicons/apple-touch-icon.png",
           "domain": "theregister.com",
           "hn": "16 points · 0 comments",
-          "score": 1.874,
+          "score": 1.657,
           "coverage": 1
         }
       ],
       "more": [
         {
-          "title": "OCAP Bounded Authority: Edera's Managed Approach to Object Capabilities",
-          "link": "https://edera.dev/stories/ocap-bounded-authority",
-          "excerpt": "How Edera uses object-capability security and bounded authority to give AI agents only the access they need, so a compromise stays contained.",
-          "source": "edera.dev via Hacker News",
-          "date": "Nov 05",
-          "image": "https://cdn.prod.website-files.com/68dac009699a76c0c70f4c43/6ae4d81fcdfd8ef31bbb5b1e_OCAP-Bounded-Authority-Full-1000x5002x.png",
-          "icon": "https://cdn.prod.website-files.com/68dac009699a76c0c70f4c30/6a04c0cf8e8dad2fe9faa78f_Favicon_Square.png",
-          "domain": "edera.dev",
-          "hn": "29 points · 2 comments",
-          "score": 2.157,
+          "title": "Hardcoded credentials and other issues in Tata Motors App",
+          "link": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0537",
+          "excerpt": "12 points · 5 comments",
+          "source": "cert-in.org.in via Hacker News",
+          "date": "Nov 06",
+          "image": null,
+          "icon": "https://www.cert-in.org.in/favicon.ico",
+          "domain": "cert-in.org.in",
+          "hn": "12 points · 5 comments",
+          "score": 3.477,
           "coverage": 1
         }
       ]
@@ -545,7 +526,7 @@
           "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
           "domain": "openssf.org",
           "hn": null,
-          "score": 0.52,
+          "score": 0.454,
           "coverage": 1
         },
         {
@@ -558,7 +539,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.228,
+          "score": 0.211,
           "coverage": 1
         }
       ],
@@ -577,11 +558,11 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 3.078,
+          "score": 2.708,
           "coverage": 1
         },
         {
-          "title": "AI agents are a ‘bane’ for some website operators, says Cloudflare",
+          "title": "AI agents are a 'bane' for some website operators, says Cloudflare",
           "link": "https://www.theregister.com/networks/2026/11/06/ai-agents-are-a-bane-for-some-website-operators-says-cloudflare/5308022",
           "excerpt": "CEO says sovereigns probably exploited PHP2SHELL ages ago, and suggests containers are dead",
           "source": "The Register",
@@ -590,7 +571,7 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 4.827,
+          "score": 3.877,
           "coverage": 1
         },
         {
@@ -603,7 +584,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.0,
+          "score": 1.767,
           "coverage": 1
         }
       ],
@@ -618,7 +599,33 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 1.871,
+          "score": 1.642,
+          "coverage": 1
+        },
+        {
+          "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+          "link": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+          "excerpt": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week. The backdoored web server executes commands that attackers send via web requests, and those requests never appear in…",
+          "source": "The Hacker News",
+          "date": "Nov 06",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsAMxBevh2cmz1buKWukyP6JgUHrIPcr9zrJjAs1OwDoP1wMjn_s_WKHeUAdSwVzTImUsDE0C3SLGEpciaLk9H8CGvqiYugQWASsflB1a5zA9Wyr4RbroT3Z3JlOeak1AEinAy7Brf9N0BRDuGFWdZC23nCrOq4VuSMQQuDFYBYC6YCEm2ncPhHOv3KXs/s1600/cwp.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 2.907,
+          "coverage": 2
+        },
+        {
+          "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
+          "link": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
+          "excerpt": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required. The company released patches on Monday, and the security firm watchTowr detailed the attack chain on Thursday. One flaw,…",
+          "source": "The Hacker News",
+          "date": "Nov 06",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh59LXthjD6N50867w2v7T4JyVUCOlVAmz1MJcZHKBFFaSnKDabB0FmdedrbvWRkp9XONe9Pz2RV1MQ-9QpJ8d85XE3w54EmMLKgaf1ygKD2e0y2X9mA7VsfyyB-8l1KFi-F5Gj9Q2vdsusmAl2khvXHNyOzWB_l7bj6NkOHkUgDYW-vENOowt0L8qM4kM/s1600/bar.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.569,
           "coverage": 1
         },
         {
@@ -631,46 +638,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.354,
-          "coverage": 1
-        },
-        {
-          "title": "3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million",
-          "link": "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/",
-          "excerpt": "The trio, who have nicknames that include “Rocky Balboa,” “Superman Cash” and “Fat Boy,” often targeted the companies’ accounting departments. The post 3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 06",
-          "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.598,
-          "coverage": 1
-        },
-        {
-          "title": "Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns",
-          "link": "https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/",
-          "excerpt": "More than 200 sites were seen serving phishing content to first-time visitors but not to those who revisit. The post Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 05",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/07/corporate-bank-fraud.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
           "score": 0.313,
-          "coverage": 1
-        },
-        {
-          "title": "Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised",
-          "link": "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/",
-          "excerpt": "The incident comes after supermarkets in a number of European countries reported this week that their fridges and freezers warmed up after they were remotely hacked. The post Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 05",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/blood.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 2.163,
           "coverage": 1
         }
       ]
@@ -678,6 +646,32 @@
     {
       "name": "Platform, Cloud & Reliability",
       "cards": [
+        {
+          "title": "Edera's Object Capability Bounded Authority Promises to Isolate Credentials From AI Agent Workloads",
+          "link": "https://www.infoq.com/news/2026/11/ai-credentials-isolation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Edera announced Object Capability Bounded Authority, a security model that separates an AI agent's or MCP server's required authority from the credentials behind it. Hypervisor-enforced capabilities limit agents to specific actions without storing secrets in the workload. Initial releases cover…",
+          "source": "InfoQ",
+          "date": "Nov 06",
+          "image": "https://res.infoq.com/news/2026/11/ai-credentials-isolation/en/headerimage/generatedHeaderImage-1793853184587.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 5.959,
+          "coverage": 1
+        },
+        {
+          "title": "Vault Fork OpenBao Adds External Keys and Quantum-Ready TLS",
+          "link": "https://www.infoq.com/news/2026/11/vault-fork-openbao-27/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "OpenBao has released version 2.7, adding read scaling for PostgreSQL-backed deployments, support for external hardware security module (HSM) and key management service (KMS) keys, and post-quantum cryptographic algorithms. The release also introduces control groups for human review of sensitive…",
+          "source": "InfoQ",
+          "date": "Nov 06",
+          "image": "https://res.infoq.com/news/2026/11/vault-fork-openbao-27/en/headerimage/generatedHeaderImage-1793734932785.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 6.966,
+          "coverage": 1
+        },
         {
           "title": "Docker Sandboxes vs. Containers: Choosing the Right Isolation for AI Agents",
           "link": "https://www.docker.com/blog/docker-sandboxes-vs-containers/",
@@ -688,9 +682,11 @@
           "icon": null,
           "domain": "docker.com",
           "hn": null,
-          "score": 4.457,
+          "score": 3.635,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "How OrderServ achieved up to 64% cost savings with multi-tenant ECS",
           "link": "https://aws.amazon.com/blogs/architecture/how-orderserv-achieved-up-to-64-cost-savings-with-multi-tenant-ecs/",
@@ -701,7 +697,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 3.318,
+          "score": 2.795,
           "coverage": 1
         },
         {
@@ -714,11 +710,9 @@
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
           "hn": null,
-          "score": 1.206,
+          "score": 1.117,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Agents aren’t humans (but they kinda are)",
           "link": "https://blog.cloudflare.com/trusted-agent-delegation/",
@@ -729,7 +723,20 @@
           "icon": null,
           "domain": "blog.cloudflare.com",
           "hn": null,
-          "score": 2.534,
+          "score": 2.235,
+          "coverage": 1
+        },
+        {
+          "title": "Article: Identity as an Architectural Concern: Enterprise IAM Beyond Authentication",
+          "link": "https://www.infoq.com/articles/identity-as-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "The way you design your identities will drive your data models, your service scope, and your revocation policies; enterprise identity management is thus an architectural problem, not an afterthought. Based on our experience in service account governance, this article touches upon graph vs. RBAC,…",
+          "source": "InfoQ",
+          "date": "Nov 06",
+          "image": "https://res.infoq.com/articles/identity-as-architecture/en/headerimage/identity-as-architecture-header-1793629959196.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 4.077,
           "coverage": 1
         },
         {
@@ -742,46 +749,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.792,
-          "coverage": 1
-        },
-        {
-          "title": "Gemini Omni 1.2 Flash: Fast, cost-effective, and reliable video generation and editing now generally available",
-          "link": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-omni-1-2-flash-generally-available/",
-          "excerpt": "Today, Gemini Omni 1.2 Flash is generally available on Google Cloud. Built for the everyday videos businesses make in volume — like product videos, virtual try-ons, and ads — this model is fast, cost-effective, and follows your image, video and audio references more closely than before. Business…",
-          "source": "Cloud Blog",
-          "date": "Nov 05",
-          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/gemini-omni.max-600x600.jpg",
-          "icon": null,
-          "domain": "cloud.google.com",
-          "hn": null,
-          "score": 7.887,
-          "coverage": 2
-        },
-        {
-          "title": "Building an agent skill optimizer with AlphaEvolve, Harbor and Gemini 4 Argon",
-          "link": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-build-an-agent-skill-optimizer-with-alphaevolve-and-harbor/",
-          "excerpt": "Every day, more and more people are using coding agents like Google Antigravity and OpenCode to complete software engineering tasks. But those tools need instructions to operate and their output is only as good as the inputs they get. By utilizing agent skills that direct the agents through…",
-          "source": "Cloud Blog",
-          "date": "Nov 05",
-          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1_-_Hero_tsgSDxO.max-600x600.jpg",
-          "icon": null,
-          "domain": "cloud.google.com",
-          "hn": null,
-          "score": 0.358,
-          "coverage": 1
-        },
-        {
-          "title": "Introducing AWS account access manager: IAM role flexibility with centralized workforce access",
-          "link": "https://aws.amazon.com/blogs/security/introducing-aws-account-access-manager-iam-role-flexibility-with-centralized-workforce-access/",
-          "excerpt": "AWS Identity and Access Management (IAM) is introducing account access manager, a flexible new way to manage workforce access to your Amazon Web Services (AWS) accounts. This combines the IAM role flexibility your teams already rely on, delivered through the centralized federation of AWS IAM…",
-          "source": "AWS Security Blog",
-          "date": "Nov 05",
-          "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/05/Introducing-AWS-account-access-manager-Figure-1.png",
-          "icon": null,
-          "domain": "aws.amazon.com",
-          "hn": null,
-          "score": 0.495,
+          "score": 1.581,
           "coverage": 1
         }
       ]
@@ -789,6 +757,19 @@
     {
       "name": "News & Research",
       "cards": [
+        {
+          "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+          "link": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+          "excerpt": "Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, according to a source.",
+          "source": "TechCrunch",
+          "date": "Nov 06",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2215666246.jpg?resize=1200,800",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
+          "hn": null,
+          "score": 5.704,
+          "coverage": 1
+        },
         {
           "title": "Perplexity launches its own take on AI agents for work",
           "link": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
@@ -799,20 +780,7 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 3.846,
-          "coverage": 1
-        },
-        {
-          "title": "Claude Code sends your email address to websites",
-          "link": "https://github.com/anthropics/claude-code/issues/107757",
-          "excerpt": "Bug Description I receive dozens of scam emails per day because claude code divulged my email to arbitrary 3rd parties in the User-Agent request header while conducting web searches without my perm...",
-          "source": "github.com via Hacker News",
-          "date": "Nov 05",
-          "image": "https://opengraph.githubassets.com/7bf683895feb965f16b7d6eac90bbb663a14b3a24488b13762a102291609a8b3/anthropics/claude-code/issues/107757",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "813 points · 273 comments",
-          "score": 6.07,
+          "score": 3.286,
           "coverage": 1
         },
         {
@@ -825,7 +793,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 2.615,
+          "score": 2.23,
           "coverage": 1
         }
       ],
@@ -840,7 +808,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 2.278,
+          "score": 1.98,
           "coverage": 1
         },
         {
@@ -853,7 +821,7 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 2.822,
+          "score": 2.378,
           "coverage": 1
         },
         {
@@ -866,33 +834,33 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 2.203,
+          "score": 1.923,
           "coverage": 1
         },
         {
-          "title": "Pwn.college",
-          "link": "https://pwn.college/",
-          "excerpt": "Learn to Hack!",
-          "source": "pwn.college via Hacker News",
+          "title": "App Store 2026 in numbers: AI, pricing, abandoned apps",
+          "link": "https://obelisk.club/research/app-store-2026",
+          "excerpt": "178,637 apps from the App Store top charts: how many mention AI, how many sell in-app purchases, how many are no longer updated…",
+          "source": "obelisk.club via Hacker News",
           "date": "Nov 06",
-          "image": "https://pwn.college/themes/dojo_theme/static/img/dojo/ninja.png",
-          "icon": "https://pwn.college/themes/dojo_theme/static/img/favicon.png",
-          "domain": "pwn.college",
-          "hn": "57 points · 6 comments",
-          "score": 3.351,
+          "image": "https://obelisk.club/opengraph-image",
+          "icon": "https://obelisk.club/apple-icon?c5ccfec79d77a8d3",
+          "domain": "obelisk.club",
+          "hn": "19 points · 10 comments",
+          "score": 3.084,
           "coverage": 1
         },
         {
-          "title": "Nvidia Kubernetes Engine (NVKE)",
-          "link": "https://github.com/dsx-ai-factory/nvke",
-          "excerpt": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal. - dsx-ai-factory/nvke",
-          "source": "github.com via Hacker News",
+          "title": "Multiplayer tanks that demolish real buildings from OpenStreetMap",
+          "link": "https://worldstrike.fun/",
+          "excerpt": "Drive a tank through any real city, flatten buildings with other players, and leave your mark. Destruction is permanent for everyone.",
+          "source": "worldstrike.fun via Hacker News",
           "date": "Nov 06",
-          "image": "https://opengraph.githubassets.com/3e92c70483fe1072d93df09ac42d1ddd9d37a696863c28d24b79566338955a39/dsx-ai-factory/nvke",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "42 points · 14 comments",
-          "score": 3.233,
+          "image": "https://worldstrike.fun/og.jpg",
+          "icon": "https://worldstrike.fun/favicon.svg",
+          "domain": "worldstrike.fun",
+          "hn": "28 points · 7 comments",
+          "score": 3.205,
           "coverage": 1
         }
       ]
