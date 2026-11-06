@@ -83,6 +83,12 @@
   "icon": "https://allmodels.io/assets/favicon.png",
   "image": "https://allmodels.io/assets/og/llm-abliterated-pixels-v1.png"
  },
+ "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/": {
+  "description": "Alpine Linux",
+  "fetched": "2026-11-06",
+  "icon": "https://alpinelinux.org/alpine-logo.ico",
+  "image": null
+ },
  "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html": {
   "description": "Alpine Linux",
   "fetched": "2026-10-29",
@@ -232,6 +238,12 @@
   "fetched": "2026-10-28",
   "icon": "https://cdn.hashnode.com/uploads/favicons/69b44e3d6e27dd07d92bbf57/8a84d0e2-5b45-470c-949f-3c5402886a45.png",
   "image": "https://cdn.hashnode.com/uploads/og-images/69b44e3d6e27dd07d92bbf57/3a278202-0f64-4cf0-9a32-bfd202f3a073.png"
+ },
+ "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/": {
+  "description": "You could register accounts on SourceHut instances who disabled registration",
+  "fetched": "2026-11-06",
+  "icon": "https://blog.arusekk.pl/apple-touch-icon.png",
+  "image": null
  },
  "https://blog.calif.io/p/iphone": {
   "description": "Today, we hacked what we'd set out to hack: the iPhone.",
@@ -424,6 +436,12 @@
   "fetched": "2026-10-29",
   "icon": "https://cursor.com/marketing-static/apple-touch-icon-light.png",
   "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/OG%20Images/agent-sdk-blog-og-WlJMIsDgzkUUfvyf1R9PJSIfytr7Sx.png"
+ },
+ "https://cursor.com/changelog/build-live-apps": {
+  "description": "Build and deploy web apps directly in Cursor with cloud agents handling hosting, database, auth, and deployment.",
+  "fetched": "2026-11-06",
+  "icon": "https://cursor.com/marketing-static/apple-touch-icon-light.png",
+  "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/changelog/opengraph-changelog-11-05-26.png"
  },
  "https://cve.0xosprey.com/": {
   "description": "Live count of published CVE records, rebuilt daily from the official CVE list.",
@@ -707,6 +725,12 @@
   "icon": "https://ec.ltn.com.tw/assets/images/1200_ec.png",
   "image": "https://img.ltn.com.tw/Upload/business/page/800/2026/10/26/php8U0QbL.jpg"
  },
+ "https://edera.dev/stories/ocap-bounded-authority": {
+  "description": "How Edera uses object-capability security and bounded authority to give AI agents only the access they need, so a compromise stays contained.",
+  "fetched": "2026-11-06",
+  "icon": "https://cdn.prod.website-files.com/68dac009699a76c0c70f4c30/6a04c0cf8e8dad2fe9faa78f_Favicon_Square.png",
+  "image": "https://cdn.prod.website-files.com/68dac009699a76c0c70f4c43/6ae4d81fcdfd8ef31bbb5b1e_OCAP-Bounded-Authority-Full-1000x5002x.png"
+ },
  "https://eliasfarhan.ch/graphics/cpp/2026/01/27/why-i-teach-opengles.html": {
   "description": null,
   "fetched": "2026-10-27",
@@ -880,6 +904,12 @@
   "fetched": "2026-10-29",
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://repository-images.githubusercontent.com/349134426/ad5d8e71-d4a8-496c-a54b-c4c0042eb88b"
+ },
+ "https://github.com/anthropics/claude-code/issues/107757": {
+  "description": "Bug Description I receive dozens of scam emails per day because claude code divulged my email to arbitrary 3rd parties in the User-Agent request header while conducting web searches without my perm...",
+  "fetched": "2026-11-06",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://opengraph.githubassets.com/7bf683895feb965f16b7d6eac90bbb663a14b3a24488b13762a102291609a8b3/anthropics/claude-code/issues/107757"
  },
  "https://github.com/finic-ai/kairos": {
   "description": "Real time event intelligence, fraud and risk decisioning for financial behavior. - finic-ai/kairos",
@@ -1313,6 +1343,12 @@
   "icon": null,
   "image": "https://bearblog.dev/static/og-image.png"
  },
+ "https://lovro-bikic.github.io/software-line-specialist/": {
+  "description": "Hybrid · 3 weeks ago · 42 people clicked apply",
+  "fetched": "2026-11-06",
+  "icon": "https://lovro-bikic.github.io/apple-touch-icon.png",
+  "image": null
+ },
  "https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices/": {
   "description": "Cloning, designing and blending voices with Qwen3-TTS.",
   "fetched": "2026-11-01",
@@ -1394,6 +1430,12 @@
  "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/": {
   "description": "A METR employee and a Redwood Research employee spent three weeks stress-testing OpenAI's internal misalignment monitoring system, discovering a number of novel vulnerabilities.",
   "fetched": "2026-10-23",
+  "icon": "https://metr.org/assets/images/favicon/apple-touch-icon.png",
+  "image": "https://metr.org/assets/images/logo/og-image-logo.png"
+ },
+ "https://metr.org/blog/2026-11-05-rd-section-anthropic-risk-report-august-2026-review/": {
+  "description": "External review from METR of the \"Risks from automated R&D\" section in Anthropic's August 2026 Risk Report",
+  "fetched": "2026-11-06",
   "icon": "https://metr.org/assets/images/favicon/apple-touch-icon.png",
   "image": "https://metr.org/assets/images/logo/og-image-logo.png"
  },
@@ -1493,6 +1535,12 @@
   "icon": "https://oioannou.com/favicon.ico",
   "image": "https://oioannou.com/img/blog-by-orestis.jpg"
  },
+ "https://openai.com/ads/customers/flipsnack": {
+  "description": null,
+  "fetched": "2026-11-06",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/a-thousand-fewer-paths-to-root": {
   "description": null,
   "fetched": "2026-11-05",
@@ -1547,6 +1595,12 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/index/cultfit-builds-with-codex": {
+  "description": null,
+  "fetched": "2026-11-06",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/dan-driscoll-joins-openai": {
   "description": null,
   "fetched": "2026-11-03",
@@ -1574,6 +1628,12 @@
  "https://openai.com/index/fanatics-streamline-fan-experience": {
   "description": null,
   "fetched": "2026-10-26",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/franklin-templeton": {
+  "description": null,
+  "fetched": "2026-11-06",
   "icon": null,
   "image": null
  },
@@ -1625,6 +1685,12 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/index/introducing-gpt-6-cyber": {
+  "description": null,
+  "fetched": "2026-11-06",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/introducing-images-2-6": {
   "description": null,
   "fetched": "2026-11-05",
@@ -1658,6 +1724,12 @@
  "https://openai.com/index/lifeval": {
   "description": null,
   "fetched": "2026-11-03",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/merge-builds-with-openai": {
+  "description": null,
+  "fetched": "2026-11-06",
   "icon": null,
   "image": null
  },
@@ -1781,6 +1853,12 @@
   "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
   "image": null
  },
+ "https://openssf.org/blog/2026/11/05/case-study-kubescape-completes-all-six-security-slam-badges-with-openssf/": {
+  "description": "Discover how Kubescape completed all six OpenSSF Security Slam badges, integrating Security Insights, OSPS Baseline controls, and automated checks across 12+ repositories.",
+  "fetched": "2026-11-06",
+  "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
+  "image": null
+ },
  "https://openssf.org/podcast/2026/11/03/whats-in-the-soss-podcast-77-s3e29-baking-security-into-the-toolchain-accurate-swift-sboms-with-apples-ev-cheng-and-sam-khouri/": {
   "description": "Join Apple engineers Ev Cheng and Sam Khouri on the OpenSSF podcast to explore native Swift SBOM generation, SE-0509, and the future of supply chain security.",
   "fetched": "2026-11-03",
@@ -1894,6 +1972,12 @@
   "fetched": "2026-10-23",
   "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
   "image": "https://s46486.pcdn.co/wp-content/uploads/2026/10/Precision_in_a_Shifting_Grid.png"
+ },
+ "https://s46486.pcdn.co/blog/intelligence-per-watt-reading-group/": {
+  "description": "Intelligence per Watt shows how much AI can move from the cloud to your laptop: local AI efficiency rose 5.3x from 2023 to 2025. Read the full talk transcript.",
+  "fetched": "2026-11-06",
+  "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
+  "image": "https://s46486.pcdn.co/wp-content/uploads/2026/11/IPW-reading-grouo.png"
  },
  "https://security.apple.com/research-device/": {
   "description": "Get an iPhone dedicated to security research through the Apple Security Research Device program. Learn how to apply.",
@@ -2056,6 +2140,12 @@
   "fetched": "2026-11-05",
   "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
   "image": "https://s46486.pcdn.co/wp-content/uploads/2026/11/RIFT-BLOG-scaled.png"
+ },
+ "https://snorkel.ai/blog/reward-hacking-coding-agents-peek-or-ask/": {
+  "description": "Coding agents checked in with users 70% of the time by default, but peeked at a tempting grader far more when no user was available. See the results.",
+  "fetched": "2026-11-06",
+  "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
+  "image": "https://s46486.pcdn.co/wp-content/uploads/2026/11/ping-or-peek-cover.png"
  },
  "https://soatok.blog/2026/10/29/your-cryptography-conspiracy-theory-is-wrong/": {
   "description": "This conversation plays out hundreds of times a day, but (thankfully) only a handful of those involve me: Person: “I have [problem].” Cryptography nerd: “Oh, you probably want to …",
@@ -2345,6 +2435,18 @@
   "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Aina-Ring-Hands.jpeg?resize=1200,805"
  },
+ "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/": {
+  "description": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
+  "fetched": "2026-11-06",
+  "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/05/Airbnb-Summer-feat.jpg?resize=1200,675"
+ },
+ "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/": {
+  "description": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life.",
+  "fetched": "2026-11-06",
+  "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200"
+ },
  "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/": {
   "description": "[This is a guest post by Frank Calegari. This blog post was initially written in a different file format and converted using AI. — T.] Why we should not be sad The release by OpenAI on Octobe…",
   "fetched": "2026-11-02",
@@ -2362,6 +2464,12 @@
   "fetched": "2026-10-28",
   "icon": "https://thenumb.at/icon.ico",
   "image": null
+ },
+ "https://thinkingmachines.ai/news/inkling-2-small/": {
+  "description": "Today we are introducing the second generation of Inkling models with the release of Inkling 2 Small.",
+  "fetched": "2026-11-06",
+  "icon": "https://thinkingmachines.ai/images/apple-touch-icon.png",
+  "image": "https://thinkingmachines.ai/news/inkling-2-small/images/cover-social.png"
  },
  "https://titleart.dvy.io/": {
   "description": "Every classic WordArt style, shape and 3-D effect, in your browser.",
@@ -2549,6 +2657,12 @@
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6adf902d0ea92c0983ee290c_workos-user-groups-role-assignment-og.webp"
  },
+ "https://workos.com/blog/audit-log-streaming-snowflake": {
+  "description": "Each audit event lands as a row in your customer's own Snowflake table, with key-pair auth, a fixed schema, grants up front, and a freshness check.",
+  "fetched": "2026-11-06",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9f38e214e80cadb63a7e4_audit-log-streaming-snowflake-og.webp"
+ },
  "https://workos.com/blog/authkit-branding-per-application": {
   "description": "Give each product its own AuthKit sign-in pages and emails while users keep one account. How inheritance works, and what stays environment-wide.",
   "fetched": "2026-10-30",
@@ -2578,6 +2692,12 @@
   "fetched": "2026-10-30",
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae389c954bd3c640b44bbda_entra-memberof-retirement-scim-provisioning-og.webp"
+ },
+ "https://workos.com/blog/feature-flag-targets-api": {
+  "description": "Use the WorkOS Feature Flags targeting endpoints to add and remove organizations and users from your own systems, and learn what removing a target really does.",
+  "fetched": "2026-11-06",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9f2f1db8886db0f1b3807_feature-flag-targets-api-og.webp"
  },
  "https://workos.com/blog/github-app-installation-token-format-change": {
   "description": "GitHub App installation tokens are now about 520 characters instead of 40. What to audit before the override header is deprecated on November 30, 2026.",
@@ -2621,11 +2741,23 @@
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9ebd28e73b339403ae04d_password-spraying-attack-detection-og.webp"
  },
+ "https://workos.com/blog/pipes-bring-your-own-oauth-app": {
+  "description": "When a provider needs each customer's own OAuth app, the Pipes Admin widget lets their admin register it, rotate the secret and retire it without your help.",
+  "fetched": "2026-11-06",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://images.workoscdn.com/images/47e96f06-5154-4f15-bb7b-694e2afedd06.png?auto=format&fit=clip&q=80"
+ },
  "https://workos.com/blog/public-tls-certificates-client-authentication-mtls": {
   "description": "Public CAs and Chrome are removing clientAuth from TLS certificates by 2027. The dates per CA, what fails at renewal, and where mTLS should go next.",
   "fetched": "2026-10-30",
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae47bbc5ed0687ad546f1b1_public-tls-certificates-lose-client-auth-eku-og.webp"
+ },
+ "https://workos.com/blog/resource-scoped-custom-roles": {
+  "description": "Organization roles give a member the same access everywhere. Scope a WorkOS role to a resource type and one person can edit one workspace and view another.",
+  "fetched": "2026-11-06",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9f437524ce4e8899f7e1f_resource-scoped-custom-roles-og.webp"
  },
  "https://workos.com/blog/revoke-ai-agent-sessions": {
   "description": "Agent sessions in WorkOS Agent Auth can be listed and revoked. Here is the removal routine, what a revoke stops, and how fast it takes effect in your API.",
@@ -3053,6 +3185,12 @@
   "icon": null,
   "image": "https://images.ctfassets.net/l47ir7rfykkn/dIgD5IKWIPDGBXSVRf7iC/e4be1c0ffa021c16b57ee2ce5ce7ebb8/Building_Guarded_Entrypoint_image.png"
  },
+ "https://www.chainguard.dev/unchained/chainguard-endpoints-now-handle-breaking-changes": {
+  "description": "Balance security and stability with Athena's new cgb endpoint, giving teams access to critical vulnerability fixes that introduce breaking changes.",
+  "fetched": "2026-11-06",
+  "icon": null,
+  "image": "https://images.ctfassets.net/l47ir7rfykkn/6KCKomOVkGVOQsC9UNfPGC/a5d2a170ad730fbec8509f9d7e784457/Chainguard_endpoints_now_handle_breaking_changes.png"
+ },
  "https://www.chainguard.dev/unchained/every-manual-page-in-chainguard-os-now-readable-by-your-agent": {
   "description": "AI coding agents need accurate documentation. See how Chainguard makes Linux manual pages searchable, version-specific, and accessible through MCP.",
   "fetched": "2026-11-04",
@@ -3107,6 +3245,12 @@
   "icon": "https://www.computerworld.dk/images/favicon/apple-touch-icon.png",
   "image": "https://www.computerworld.dk/fil/223423?width=1200&height=630&focus=1"
  },
+ "https://www.cve.org/CVERecord?id=CVE-2026-83844": {
+  "description": null,
+  "fetched": "2026-11-06",
+  "icon": "https://www.cve.org/cvePurpleVFavicon.svg",
+  "image": null
+ },
  "https://www.da.vidbuchanan.co.uk/blog/c2pa-four.html": {
   "description": null,
   "fetched": "2026-10-30",
@@ -3142,6 +3286,12 @@
   "fetched": "2026-11-04",
   "icon": null,
   "image": "https://web-assets.dd-static.net/42588/1793739235-1-logo-1.png"
+ },
+ "https://www.datadoghq.com/blog/highlights-from-oracle-ai-world-2026/": {
+  "description": "A recap from Oracle AI World 2026, covering AI agents, multi-cloud databases, and Datadogâs support for monitoring Oracle environments.",
+  "fetched": "2026-11-06",
+  "icon": null,
+  "image": "https://web-assets.dd-static.net/42588/1793894867-oracle-ai-world-2026-recap-hero.jpeg"
  },
  "https://www.datadoghq.com/blog/improving-insights-agent-observability/": {
   "description": "Learn how Datadog uses Insights in Agent Observability to identify cost and reliability problems in its own AI agent and prepare fixes.",
@@ -3220,6 +3370,18 @@
   "fetched": "2026-11-02",
   "icon": "https://www.eurogamer.net/static/04100a5b6f176ab1e59b5a1d25dcfd37/icon/apple-touch-icon-152x152.png",
   "image": "https://assetsio.gnwcdn.com/gamedb-wiki-header.png?width=1200&height=630&fit=crop&enable=upscale&auto=webp"
+ },
+ "https://www.euronews.com/2026/11/04/hungary-communist-era-files-opened-up-to-60000-former-agents-revealed": {
+  "description": "Hungary released communist-era secret police files Wednesday, identifying up to 60,000 informants, a path for Hungary in reckoning with its repressive past. #EuropeNews",
+  "fetched": "2026-11-06",
+  "icon": "https://www.euronews.com/apple-touch-icon.png",
+  "image": "https://images.euronews.com/articles/stories/09/97/91/63/1200x675_cmsv2_e5035729-271a-5b7b-a596-fa27657ccada-9979163.jpg"
+ },
+ "https://www.fgc.org.br/comunicado": {
+  "description": null,
+  "fetched": "2026-11-06",
+  "icon": "https://www.fgc.org.br/documents/32230/48686/logofgc/ca56aadf-be4d-6356-0f38-b4b59d7bca4c",
+  "image": null
  },
  "https://www.firezone.dev/blog/introducing-sanstun": {
   "description": "Our sans-IO WireGuard implementation in Rust, optimized for ease of use, security and performance through a parallel-friendly and idiomatic API.",
@@ -3305,6 +3467,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/the-spirit-of-the-leader": {
+  "description": null,
+  "fetched": "2026-11-06",
+  "icon": null,
+  "image": null
+ },
  "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/what-ai-cant-replace-and-why-it-matters-for-value": {
   "description": null,
   "fetched": "2026-10-28",
@@ -3338,6 +3506,12 @@
  "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/the-ai-enabled-risk-function-of-the-future": {
   "description": null,
   "fetched": "2026-11-04",
+  "icon": null,
+  "image": null
+ },
+ "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/assessing-the-growth-trajectory-of-finlands-largest-companies": {
+  "description": null,
+  "fetched": "2026-11-06",
   "icon": null,
   "image": null
  },
@@ -3392,6 +3566,12 @@
  "https://www.mckinsey.com/featured-insights/mckinsey-on-books/author-talks-why-you-cant-separate-strategy-from-value-and-vice-versa": {
   "description": null,
   "fetched": "2026-10-31",
+  "icon": null,
+  "image": null
+ },
+ "https://www.mckinsey.com/fi/our-insights/suomen-suuryritysten-kasvumahdollisuus-valikatsaus": {
+  "description": null,
+  "fetched": "2026-11-06",
   "icon": null,
   "image": null
  },
@@ -3488,6 +3668,12 @@
  "https://www.mckinsey.com/industries/private-capital/our-insights/why-growth-and-specialization-matter-more-than-ever-in-private-equity": {
   "description": null,
   "fetched": "2026-11-05",
+  "icon": null,
+  "image": null
+ },
+ "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/reinventing-the-channel-how-can-your-partner-ecosystem-fuel-ai-growth": {
+  "description": null,
+  "fetched": "2026-11-06",
   "icon": null,
   "image": null
  },
@@ -3623,6 +3809,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.reuters.com/legal/transactional/ai-data-center-stocks-slip-democratic-sweep-clouds-expansion-plans-2026-11-05/": {
+  "description": null,
+  "fetched": "2026-11-06",
+  "icon": null,
+  "image": null
+ },
  "https://www.reuters.com/live/brazil-election-live-lula-bolsonaro-face-off-presidential-runoff-2026-10-25/": {
   "description": null,
   "fetched": "2026-10-26",
@@ -3743,6 +3935,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2025/12/cyber-security-investment.jpeg"
  },
+ "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/": {
+  "description": "OpenAI’s AI agents built working root exploits for 948 unique Linux kernel flaws in one scan, at roughly $1,280 per vulnerability.",
+  "fetched": "2026-11-06",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Linux-vulnerability-malware.jpeg"
+ },
  "https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/": {
   "description": "Hackers have been stealing AI access tokens for LLM-jacking and have been using AI-assisted offensive tools to accelerate attacks.",
   "fetched": "2026-11-05",
@@ -3754,6 +3952,12 @@
   "fetched": "2026-10-27",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/02/Anthropic-AI_Military.jpg"
+ },
+ "https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/": {
+  "description": "A threat actor has been serving fake ‘suspended account’ notices to users revisiting its bank phishing pages.",
+  "fetched": "2026-11-06",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/07/corporate-bank-fraud.jpeg"
  },
  "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/": {
   "description": "Barracuda patched two ESG flaws, a 9.3-rated authentication bypass and a command injection bug, that can be chained for root access.",
@@ -3803,6 +4007,18 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/09/AI-artificial-intelligence-training.jpeg"
  },
+ "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/": {
+  "description": "Cisco and WatchGuard released patches for several vulnerabilities, and SonicWall warned of two flaws in GMS, which has reached EOL.",
+  "fetched": "2026-11-06",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2025/07/software-vulnerability-patch-update.jpg"
+ },
+ "https://www.securityweek.com/ciso-conversations-ryan-davis-the-unknown-is-where-security-meets-reality/": {
+  "description": "New Charter Technologies CISO Ryan Davis on his start as a teenage hacker, the diplomacy the job demands, and burnout he lived through.",
+  "fetched": "2026-11-06",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/11/CISO-Ryan-Davis.jpeg"
+ },
  "https://www.securityweek.com/critical-node-red-flaw-exploited-in-attacks/": {
   "description": "Hackers are exploiting CVE-2026-58115, a critical-severity Node-RED vulnerability, to deploy various payloads.",
   "fetched": "2026-11-03",
@@ -3814,6 +4030,12 @@
   "fetched": "2026-11-03",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/02/MA-merger-acquisition.webp"
+ },
+ "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/": {
+  "description": "A cyberattack on several blood banks tried to raise temperatures to extremely high levels but was thwarted before it could do any damage.",
+  "fetched": "2026-11-06",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/11/blood.jpeg"
  },
  "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/": {
   "description": "A cybersecurity incident at the University of New Mexico Health System forced it to send ambulances to other hospitals.",
@@ -4187,6 +4409,12 @@
   "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg",
   "image": "https://i.guim.co.uk/img/media/4b71e9b955055d1a0eb5f597da100556359fa09b/1184_0_6400_5120/master/6400.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a69f8f68954a7702d519049973a8be9f"
  },
+ "https://www.theregister.com/security/2026/11/05/tobacco-company-got-smoked-by-leaving-secret-recipes-on-a-file-share/5307704": {
+  "description": "They denied the data was real...then removed it",
+  "fetched": "2026-11-06",
+  "icon": "https://www.theregister.com/view-resources/dachser2/public/theregister/favicons/apple-touch-icon.png",
+  "image": "https://image.theregister.com/5307708.jpg?imageId=5307708&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683"
+ },
  "https://www.theregister.com/software/2026/11/02/microsofts-canada-timezone-troubles-leave-admins-fixing-calendars-pretending-theyre-in-bogota/5306934": {
   "description": "Canadian regions stop turning back the clocks, Microsoft wishes it could",
   "fetched": "2026-11-03",
@@ -4274,6 +4502,18 @@
  "https://www.wkyc.com/article/news/investigations/flock-camera-searches-fall-95-percent-highland-heights-dispatcher-misconduct-caught/95-94b18f33-60e2-4bc7-a00f-d71d1e1fdd5e": {
   "description": null,
   "fetched": "2026-10-31",
+  "icon": null,
+  "image": null
+ },
+ "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b’": {
+  "description": null,
+  "fetched": "2026-11-06",
+  "icon": null,
+  "image": null
+ },
+ "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026": {
+  "description": null,
+  "fetched": "2026-11-06",
   "icon": null,
   "image": null
  },
