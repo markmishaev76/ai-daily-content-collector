@@ -13,23 +13,11 @@
     "note": null,
     "labels": [
       "AI-Assisted Engineering",
-      "13h ago"
+      "16h ago"
     ],
     "also": []
   },
   "pulse": [
-    {
-      "title": "Gemini Omni 1.2 Flash",
-      "thread": "https://news.ycombinator.com/item?id=50392118",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "link_domain": "blog.google",
-      "source": "Hacker News",
-      "domain": "blog.google",
-      "meta": "Hacker News · 340 points · 231 comments · 21h ago",
-      "also": [],
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.width-1300.png",
-      "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131"
-    },
     {
       "title": "AI is dramatically accelerating AI research",
       "thread": "https://news.ycombinator.com/item?id=50397994",
@@ -37,7 +25,7 @@
       "link_domain": "planned-obsolescence.org",
       "source": "Hacker News",
       "domain": "planned-obsolescence.org",
-      "meta": "Hacker News · 316 points · 270 comments · 14h ago",
+      "meta": "Hacker News · 335 points · 305 comments · 17h ago",
       "also": [],
       "image": "https://substackcdn.com/image/fetch/$s_!u_X_!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd74ff70-df26-4e1a-be31-4fc3543bada8_2048x1072.png",
       "icon": "https://substackcdn.com/image/fetch/$s_!_IzS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13b5091b-67d3-4df8-971d-cff16f144398%2Fapple-touch-icon-57x57.png"
@@ -49,7 +37,7 @@
       "link_domain": "bloomberg.com",
       "source": "Hacker News",
       "domain": "bloomberg.com",
-      "meta": "Hacker News · 283 points · 566 comments · 18h ago",
+      "meta": "Hacker News · 287 points · 578 comments · 21h ago",
       "also": [],
       "image": null,
       "icon": "https://www.bloomberg.com/favicon.ico"
@@ -61,7 +49,7 @@
       "link_domain": "github.blog",
       "source": "Hacker News",
       "domain": "github.blog",
-      "meta": "Hacker News · 152 points · 34 comments · 15h ago",
+      "meta": "Hacker News · 171 points · 39 comments · 18h ago",
       "also": [
         {
           "source": "Lobsters",
@@ -72,16 +60,16 @@
       "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180"
     },
     {
-      "title": "University libraries are being swarmed by AI bots, putting public access at risk",
-      "thread": "https://news.ycombinator.com/item?id=50392499",
-      "link": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
-      "link_domain": "cbc.ca",
-      "source": "Hacker News",
-      "domain": "cbc.ca",
-      "meta": "Hacker News · 129 points · 59 comments · 21h ago",
+      "title": "How are you dealing with all the negative side effects of AI on the web?",
+      "thread": "https://lobste.rs/s/ipplhe/how_are_you_dealing_with_all_negative_side",
+      "link": null,
+      "link_domain": "",
+      "source": "Lobsters",
+      "domain": "Lobsters",
+      "meta": "Lobsters · 20 points · 24 comments · 4h ago",
       "also": [],
       "image": null,
-      "icon": "https://www.cbc.ca/favicon.ico"
+      "icon": null
     },
     {
       "title": "Hacking the meta ray-ban smartglasses",
@@ -90,22 +78,10 @@
       "link_domain": "p0pcycle.com",
       "source": "Lobsters",
       "domain": "p0pcycle.com",
-      "meta": "Lobsters · 18 points · 1 comments · 14h ago",
+      "meta": "Lobsters · 19 points · 1 comments · 17h ago",
       "also": [],
       "image": "https://p0pcycle.com/wp-content/uploads/2026/11/image-3.png",
       "icon": "https://i0.wp.com/p0pcycle.com/wp-content/uploads/2024/03/ice-cream-7984778_640-1.webp?fit=180%2C180&ssl=1"
-    },
-    {
-      "title": "Pushing the Limits with getaddrinfo",
-      "thread": "https://lobste.rs/s/5cwnpu/pushing_limits_with_getaddrinfo",
-      "link": "https://acid.vegas/blog/pushing-the-limits-with-getaddrinfo/",
-      "link_domain": "acid.vegas",
-      "source": "Lobsters",
-      "domain": "acid.vegas",
-      "meta": "Lobsters · 16 points · 0 comments · 20h ago",
-      "also": [],
-      "image": "https://acid.vegas/blog/pushing-the-limits-with-getaddrinfo/social-card.png",
-      "icon": "https://acid.vegas/assets/apple-touch-icon.png"
     },
     {
       "title": "Memorilla: Latent Semantic Memory for LLMs",
@@ -114,10 +90,34 @@
       "link_domain": "arxiv.org",
       "source": "Hacker News",
       "domain": "arxiv.org",
-      "meta": "Hacker News · 105 points · 13 comments · 17h ago",
+      "meta": "Hacker News · 110 points · 13 comments · 20h ago",
       "also": [],
       "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png"
+    },
+    {
+      "title": "Pushing the Limits with getaddrinfo",
+      "thread": "https://lobste.rs/s/5cwnpu/pushing_limits_with_getaddrinfo",
+      "link": "https://acid.vegas/blog/pushing-the-limits-with-getaddrinfo/",
+      "link_domain": "acid.vegas",
+      "source": "Lobsters",
+      "domain": "acid.vegas",
+      "meta": "Lobsters · 16 points · 0 comments · 23h ago",
+      "also": [],
+      "image": "https://acid.vegas/blog/pushing-the-limits-with-getaddrinfo/social-card.png",
+      "icon": "https://acid.vegas/assets/apple-touch-icon.png"
+    },
+    {
+      "title": "Microsoft is winding down Oracle deal to rent AI cloud capacity",
+      "thread": "https://news.ycombinator.com/item?id=50395933",
+      "link": "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/",
+      "link_domain": "reuters.com",
+      "source": "Hacker News",
+      "domain": "reuters.com",
+      "meta": "Hacker News · 102 points · 18 comments · 20h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.reuters.com/favicon.ico"
     }
   ],
   "sections": [
@@ -134,7 +134,7 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 0.475,
+          "score": 0.447,
           "coverage": 1
         },
         {
@@ -147,7 +147,7 @@
           "icon": "https://cursor.com/marketing-static/apple-touch-icon-light.png",
           "domain": "cursor.com",
           "hn": null,
-          "score": 0.38,
+          "score": 0.358,
           "coverage": 1
         },
         {
@@ -160,7 +160,7 @@
           "icon": null,
           "domain": "newsletter.pragmaticengineer.com",
           "hn": null,
-          "score": 0.651,
+          "score": 0.588,
           "coverage": 1
         }
       ],
@@ -175,7 +175,7 @@
           "icon": "https://mitchellh.com/static/favicons/apple-touch-icon.png",
           "domain": "mitchellh.com",
           "hn": null,
-          "score": 3.691,
+          "score": 3.541,
           "coverage": 1
         },
         {
@@ -188,7 +188,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.598,
+          "score": 0.544,
           "coverage": 1
         },
         {
@@ -201,7 +201,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.335,
+          "score": 0.317,
           "coverage": 1
         },
         {
@@ -214,7 +214,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.54,
+          "score": 0.496,
           "coverage": 1
         }
       ]
@@ -232,7 +232,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 2.663,
+          "score": 2.506,
           "coverage": 1
         },
         {
@@ -245,7 +245,7 @@
           "icon": "https://latent.space/favicon.png",
           "domain": "latent.space",
           "hn": null,
-          "score": 0.593,
+          "score": 0.517,
           "coverage": 1
         },
         {
@@ -258,7 +258,7 @@
           "icon": null,
           "domain": "sentinelone.com",
           "hn": null,
-          "score": 0.417,
+          "score": 0.378,
           "coverage": 1
         }
       ],
@@ -273,7 +273,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.381,
+          "score": 0.355,
           "coverage": 1
         },
         {
@@ -286,7 +286,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.476,
+          "score": 0.425,
           "coverage": 1
         },
         {
@@ -299,7 +299,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.371,
+          "score": 0.34,
           "coverage": 1
         }
       ]
@@ -317,7 +317,7 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.603,
+          "score": 0.538,
           "coverage": 1
         },
         {
@@ -330,7 +330,7 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.487,
+          "score": 0.445,
           "coverage": 1
         },
         {
@@ -343,7 +343,26 @@
           "icon": null,
           "domain": "stratechery.com",
           "hn": null,
-          "score": 0.516,
+          "score": 0.468,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Agent Identity & Authorization",
+      "cards": [
+        {
+          "title": "Show HN: Agentic Identity Broker, OAuth Delegation for AI Agents",
+          "link": "https://github.com/zalando-incubator/agentic-identity-broker",
+          "excerpt": "Identity broker for AI agents with OAuth2 delegation and consent management - zalando-incubator/agentic-identity-broker",
+          "source": "github.com via Hacker News",
+          "date": "Nov 06",
+          "image": "https://repository-images.githubusercontent.com/1295060661/bc15dfb3-27b6-410b-ab72-cdbe13fe9c03",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "22 points · 3 comments",
+          "score": 3.788,
           "coverage": 1
         }
       ],
@@ -362,7 +381,7 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 2.293,
+          "score": 2.059,
           "coverage": 1
         }
       ],
@@ -381,7 +400,7 @@
           "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
           "domain": "openssf.org",
           "hn": null,
-          "score": 2.924,
+          "score": 2.62,
           "coverage": 1
         },
         {
@@ -394,7 +413,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.254,
+          "score": 0.239,
           "coverage": 1
         }
       ],
@@ -413,7 +432,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 3.319,
+          "score": 2.815,
           "coverage": 1
         },
         {
@@ -426,7 +445,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.231,
+          "score": 0.211,
           "coverage": 1
         },
         {
@@ -439,7 +458,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.225,
+          "score": 0.206,
           "coverage": 1
         }
       ],
@@ -454,7 +473,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 1.338,
+          "score": 1.205,
           "coverage": 2
         },
         {
@@ -467,7 +486,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 3.863,
+          "score": 3.146,
           "coverage": 1
         },
         {
@@ -480,7 +499,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.25,
+          "score": 0.226,
           "coverage": 1
         },
         {
@@ -493,7 +512,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.221,
+          "score": 0.202,
           "coverage": 1
         },
         {
@@ -506,7 +525,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 1.513,
+          "score": 1.389,
           "coverage": 1
         }
       ]
@@ -524,7 +543,7 @@
           "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
           "domain": "grafana.com",
           "hn": null,
-          "score": 3.391,
+          "score": 3.073,
           "coverage": 1
         },
         {
@@ -537,7 +556,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.74,
+          "score": 1.639,
           "coverage": 1
         },
         {
@@ -550,7 +569,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.269,
+          "score": 2.066,
           "coverage": 1
         }
       ],
@@ -565,7 +584,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 2.373,
+          "score": 2.153,
           "coverage": 1
         },
         {
@@ -578,7 +597,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 2.843,
+          "score": 2.553,
           "coverage": 1
         },
         {
@@ -591,7 +610,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.484,
+          "score": 1.352,
           "coverage": 1
         },
         {
@@ -604,7 +623,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 1.29,
+          "score": 1.17,
           "coverage": 1
         },
         {
@@ -617,7 +636,7 @@
           "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.229,
+          "score": 0.213,
           "coverage": 1
         }
       ]
@@ -635,7 +654,20 @@
           "icon": null,
           "domain": "arstechnica.com",
           "hn": null,
-          "score": 1.926,
+          "score": 1.731,
+          "coverage": 1
+        },
+        {
+          "title": "Why a new report on Anthropic automating AI development is alarming researchers",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+          "excerpt": "Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research…",
+          "source": "The Verge",
+          "date": "Nov 07",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2280291125.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "icon": null,
+          "domain": "theverge.com",
+          "hn": null,
+          "score": 3.263,
           "coverage": 1
         },
         {
@@ -648,7 +680,35 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 0.238,
+          "score": 0.224,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Every Windows 11 app should kill Electron, and Discord just showed why",
+          "link": "https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why-no-starting-screen-and-70-less-ram-even-with-two-accounts-signed-in/",
+          "excerpt": "Discord’s Rust client opens before the Electron app finishes loading, skips the Starting screen and uses 290MB of RAM with two accounts.",
+          "source": "windowslatest.com via Hacker News",
+          "date": "Nov 07",
+          "image": "https://www.windowslatest.com/wp-content/uploads/2026/11/Discords-current-Electron-client-and-its-new-Rust-client-launching-side-by-side-on-two-Lenovo-ThinkPads-running-Windows-11.jpg",
+          "icon": "https://www.windowslatest.com/wp-content/uploads/2023/11/WL-favi-152x152-1.png",
+          "domain": "windowslatest.com",
+          "hn": "60 points · 68 comments",
+          "score": 3.713,
+          "coverage": 1
+        },
+        {
+          "title": "Upload Your RAM",
+          "link": "https://uploadyourram.org",
+          "excerpt": "191 points · 148 comments",
+          "source": "uploadyourram.org via Hacker News",
+          "date": "Nov 07",
+          "image": null,
+          "icon": "https://uploadyourram.org/favicon.ico",
+          "domain": "uploadyourram.org",
+          "hn": "191 points · 148 comments",
+          "score": 4.1,
           "coverage": 1
         },
         {
@@ -660,75 +720,34 @@
           "image": "https://8rank.ai/og-apple-intelligence-personal-knowledge-graph.png",
           "icon": "https://8rank.ai/favicon.ico",
           "domain": "8rank.ai",
-          "hn": "41 points · 9 comments",
-          "score": 3.456,
+          "hn": "239 points · 119 comments",
+          "score": 4.012,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
-          "title": "Upload Your RAM",
-          "link": "https://uploadyourram.org",
-          "excerpt": "43 points · 21 comments",
-          "source": "uploadyourram.org via Hacker News",
+          "title": "Running a law firm on Free software",
+          "link": "https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/",
+          "excerpt": "39 points · 4 comments",
+          "source": "decoded.legal via Hacker News",
+          "date": "Nov 07",
+          "image": "https://decoded.legal/blog/content/images/decoded.legal_logo.png",
+          "icon": "https://decoded.legal/favicon.ico",
+          "domain": "decoded.legal",
+          "hn": "39 points · 4 comments",
+          "score": 2.726,
+          "coverage": 1
+        },
+        {
+          "title": "Port 0: The Port That Does Not Exist",
+          "link": "https://acid.vegas/blog/the-port-that-does-not-exist/",
+          "excerpt": "24 points · 5 comments",
+          "source": "acid.vegas via Hacker News",
           "date": "Nov 07",
           "image": null,
-          "icon": "https://uploadyourram.org/favicon.ico",
-          "domain": "uploadyourram.org",
-          "hn": "43 points · 21 comments",
-          "score": 3.77,
-          "coverage": 1
-        },
-        {
-          "title": "Need for Speed Underground 2 online in the browser",
-          "link": "https://nfsu2.xyz/",
-          "excerpt": "Play Need for Speed: Underground 2 (2004) in Chrome and Firefox with WebGPU graphics, Web Audio, up to 120 fps widescreen, controller support, free roam and Online races with friends. Fan project, not affiliated with Electronic Arts.",
-          "source": "nfsu2.xyz via Hacker News",
-          "date": "Nov 07",
-          "image": null,
-          "icon": "https://nfsu2.xyz/icon-180.png",
-          "domain": "nfsu2.xyz",
-          "hn": "23 points · 4 comments",
-          "score": 2.98,
-          "coverage": 1
-        },
-        {
-          "title": "Asahi Linux Progress Linux 7.3",
-          "link": "https://asahilinux.org/2026/11/progress-report-7-3/",
-          "excerpt": "Porting Linux to Apple Silicon",
-          "source": "asahilinux.org via Hacker News",
-          "date": "Nov 07",
-          "image": "https://asahilinux.org/img/AsahiLinux_logomark_256px.png",
-          "icon": "https://asahilinux.org/img/AsahiLinux_logomark_32px.png",
-          "domain": "asahilinux.org",
-          "hn": "193 points · 150 comments",
-          "score": 3.663,
-          "coverage": 1
-        },
-        {
-          "title": "A barbarian tribe's mythic origin story is true, ancient DNA reveals",
-          "link": "https://www.science.org/content/article/barbarian-tribe-s-mythic-origin-story-true-ancient-dna-reveals",
-          "excerpt": "117 points · 80 comments",
-          "source": "science.org via Hacker News",
-          "date": "Nov 07",
-          "image": null,
-          "icon": "https://www.science.org/favicon.ico",
-          "domain": "science.org",
-          "hn": "117 points · 80 comments",
-          "score": 3.278,
-          "coverage": 1
-        },
-        {
-          "title": "I toured Unitree's factory. I'm more bullish on the West",
-          "link": "https://josef.cn/blog/unitree",
-          "excerpt": "Everyone thinks China's robot factories are automated. They aren't. The robots are Chinese; the robots that make robots will be Western.",
-          "source": "josef.cn via Hacker News",
-          "date": "Nov 07",
-          "image": "https://josef.cn/blog/unitree/social.png",
-          "icon": "https://josef.cn/apple-icon.png?apple-icon.0l78mcuih00cf.png?dpl=dpl_5nvA1HZpQ4KEkENEQcLeedM4nkUV",
-          "domain": "josef.cn",
-          "hn": "132 points · 86 comments",
-          "score": 2.76,
+          "icon": "https://acid.vegas/favicon.ico",
+          "domain": "acid.vegas",
+          "hn": "24 points · 5 comments",
+          "score": 2.495,
           "coverage": 1
         }
       ]

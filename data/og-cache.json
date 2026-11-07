@@ -59,6 +59,12 @@
   "icon": "https://acid.vegas/assets/apple-touch-icon.png",
   "image": "https://acid.vegas/blog/pushing-the-limits-with-getaddrinfo/social-card.png"
  },
+ "https://acid.vegas/blog/the-port-that-does-not-exist/": {
+  "description": null,
+  "fetched": "2026-11-07",
+  "icon": null,
+  "image": null
+ },
  "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/": {
   "description": "EPFL researchers have developed an implantable neural chip that tracks communication across brain regions, identifying cognitive and emotional states in real time.",
   "fetched": "2026-10-24",
@@ -658,6 +664,12 @@
   "fetched": "2026-10-24",
   "icon": null,
   "image": null
+ },
+ "https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/": {
+  "description": null,
+  "fetched": "2026-11-07",
+  "icon": null,
+  "image": "https://decoded.legal/blog/content/images/decoded.legal_logo.png"
  },
  "https://developers.googleblog.com/announcing-dpop-support-for-google-oauth-securing-refresh-tokens/": {
   "description": "Learn how Google OAuth supports DPoP to cryptographically bind refresh tokens, preventing token theft while maintaining high API performance.",
@@ -4187,6 +4199,12 @@
   "icon": "https://substackcdn.com/image/fetch/$s_!tkec!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5db19a6c-793d-4d76-94b0-4f748cf8134f%2Fapple-touch-icon-57x57.png",
   "image": "https://substackcdn.com/image/fetch/$s_!qfl2!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68ef8665-4279-4a1d-b5d6-447d33f93edd_1206x748.png"
  },
+ "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/": {
+  "description": null,
+  "fetched": "2026-11-07",
+  "icon": null,
+  "image": null
+ },
  "https://www.reuters.com/legal/government/zillow-pay-2125-million-settle-class-action-over-failed-real-estate-venture-2026-10-28/": {
   "description": null,
   "fetched": "2026-10-29",
@@ -4924,6 +4942,12 @@
   "fetched": "2026-10-29",
   "icon": "https://www.vox.com/static-assets/icons/apple-touch-icon.png",
   "image": "https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/10036067/Screen_Shot_2014-11-12_at_10.58.40_AM.0.0.0.png?quality=90&strip=all&crop=0,29.913082161311,100,40.173835677377"
+ },
+ "https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why-no-starting-screen-and-70-less-ram-even-with-two-accounts-signed-in/": {
+  "description": "Discord’s Rust client opens before the Electron app finishes loading, skips the Starting screen and uses 290MB of RAM with two accounts.",
+  "fetched": "2026-11-07",
+  "icon": "https://www.windowslatest.com/wp-content/uploads/2023/11/WL-favi-152x152-1.png",
+  "image": "https://www.windowslatest.com/wp-content/uploads/2026/11/Discords-current-Electron-client-and-its-new-Rust-client-launching-side-by-side-on-two-Lenovo-ThinkPads-running-Windows-11.jpg"
  },
  "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/": {
   "description": "Sources tell WIRED that an Accenture employee’s personal Claude agent ran on a DOD network for two months before it was identified and the vulnerability could be patched.",
