@@ -13,7 +13,7 @@
     "note": null,
     "labels": [
       "AI-Assisted Engineering",
-      "10h ago"
+      "13h ago"
     ],
     "also": []
   },
@@ -25,10 +25,22 @@
       "link_domain": "blog.google",
       "source": "Hacker News",
       "domain": "blog.google",
-      "meta": "Hacker News · 327 points · 227 comments · 19h ago",
+      "meta": "Hacker News · 340 points · 231 comments · 21h ago",
       "also": [],
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.width-1300.png",
       "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131"
+    },
+    {
+      "title": "AI is dramatically accelerating AI research",
+      "thread": "https://news.ycombinator.com/item?id=50397994",
+      "link": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+      "link_domain": "planned-obsolescence.org",
+      "source": "Hacker News",
+      "domain": "planned-obsolescence.org",
+      "meta": "Hacker News · 316 points · 270 comments · 14h ago",
+      "also": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!u_X_!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd74ff70-df26-4e1a-be31-4fc3543bada8_2048x1072.png",
+      "icon": "https://substackcdn.com/image/fetch/$s_!_IzS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13b5091b-67d3-4df8-971d-cff16f144398%2Fapple-touch-icon-57x57.png"
     },
     {
       "title": "Anthropic IPO buyers see valuation as low as $1.1T",
@@ -37,23 +49,23 @@
       "link_domain": "bloomberg.com",
       "source": "Hacker News",
       "domain": "bloomberg.com",
-      "meta": "Hacker News · 275 points · 547 comments · 15h ago",
+      "meta": "Hacker News · 283 points · 566 comments · 18h ago",
       "also": [],
       "image": null,
       "icon": "https://www.bloomberg.com/favicon.ico"
     },
     {
-      "title": "Inside GitHub's new Git storage architecture",
-      "thread": "https://lobste.rs/s/y3hvme/inside_github_s_new_git_storage",
+      "title": "GitHub's new Git storage architecture",
+      "thread": "https://news.ycombinator.com/item?id=50397099",
       "link": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
       "link_domain": "github.blog",
-      "source": "Lobsters",
+      "source": "Hacker News",
       "domain": "github.blog",
-      "meta": "Lobsters · 20 points · 6 comments · 14h ago",
+      "meta": "Hacker News · 152 points · 34 comments · 15h ago",
       "also": [
         {
-          "source": "Hacker News",
-          "thread": "https://news.ycombinator.com/item?id=50397099"
+          "source": "Lobsters",
+          "thread": "https://lobste.rs/s/y3hvme/inside_github_s_new_git_storage"
         }
       ],
       "image": "https://github.blog/wp-content/uploads/2026/01/4ba0cd42388a255e04c78e5143548f22e577d68e0f15f68e6a3c76c18b927981-1920x1080-1.png",
@@ -66,10 +78,22 @@
       "link_domain": "cbc.ca",
       "source": "Hacker News",
       "domain": "cbc.ca",
-      "meta": "Hacker News · 128 points · 58 comments · 18h ago",
+      "meta": "Hacker News · 129 points · 59 comments · 21h ago",
       "also": [],
       "image": null,
       "icon": "https://www.cbc.ca/favicon.ico"
+    },
+    {
+      "title": "Hacking the meta ray-ban smartglasses",
+      "thread": "https://lobste.rs/s/xhrab6/hacking_meta_ray_ban_smartglasses",
+      "link": "https://p0pcycle.com/2026/11/06/hacking-the-meta-ray-ban-smartglasses/",
+      "link_domain": "p0pcycle.com",
+      "source": "Lobsters",
+      "domain": "p0pcycle.com",
+      "meta": "Lobsters · 18 points · 1 comments · 14h ago",
+      "also": [],
+      "image": "https://p0pcycle.com/wp-content/uploads/2026/11/image-3.png",
+      "icon": "https://i0.wp.com/p0pcycle.com/wp-content/uploads/2024/03/ice-cream-7984778_640-1.webp?fit=180%2C180&ssl=1"
     },
     {
       "title": "Pushing the Limits with getaddrinfo",
@@ -78,7 +102,7 @@
       "link_domain": "acid.vegas",
       "source": "Lobsters",
       "domain": "acid.vegas",
-      "meta": "Lobsters · 16 points · 0 comments · 18h ago",
+      "meta": "Lobsters · 16 points · 0 comments · 20h ago",
       "also": [],
       "image": "https://acid.vegas/blog/pushing-the-limits-with-getaddrinfo/social-card.png",
       "icon": "https://acid.vegas/assets/apple-touch-icon.png"
@@ -90,22 +114,10 @@
       "link_domain": "arxiv.org",
       "source": "Hacker News",
       "domain": "arxiv.org",
-      "meta": "Hacker News · 104 points · 12 comments · 14h ago",
+      "meta": "Hacker News · 105 points · 13 comments · 17h ago",
       "also": [],
       "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png"
-    },
-    {
-      "title": "Hacking the meta ray-ban smartglasses",
-      "thread": "https://lobste.rs/s/xhrab6/hacking_meta_ray_ban_smartglasses",
-      "link": "https://p0pcycle.com/2026/11/06/hacking-the-meta-ray-ban-smartglasses/",
-      "link_domain": "p0pcycle.com",
-      "source": "Lobsters",
-      "domain": "p0pcycle.com",
-      "meta": "Lobsters · 15 points · 1 comments · 11h ago",
-      "also": [],
-      "image": "https://p0pcycle.com/wp-content/uploads/2026/11/image-3.png",
-      "icon": "https://i0.wp.com/p0pcycle.com/wp-content/uploads/2024/03/ice-cream-7984778_640-1.webp?fit=180%2C180&ssl=1"
     }
   ],
   "sections": [
@@ -122,7 +134,7 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 2.681,
+          "score": 0.475,
           "coverage": 1
         },
         {
@@ -135,7 +147,7 @@
           "icon": "https://cursor.com/marketing-static/apple-touch-icon-light.png",
           "domain": "cursor.com",
           "hn": null,
-          "score": 0.402,
+          "score": 0.38,
           "coverage": 1
         },
         {
@@ -148,7 +160,7 @@
           "icon": null,
           "domain": "newsletter.pragmaticengineer.com",
           "hn": null,
-          "score": 0.715,
+          "score": 0.651,
           "coverage": 1
         }
       ],
@@ -163,7 +175,7 @@
           "icon": "https://mitchellh.com/static/favicons/apple-touch-icon.png",
           "domain": "mitchellh.com",
           "hn": null,
-          "score": 3.797,
+          "score": 3.691,
           "coverage": 1
         },
         {
@@ -176,7 +188,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.652,
+          "score": 0.598,
           "coverage": 1
         },
         {
@@ -189,7 +201,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.351,
+          "score": 0.335,
           "coverage": 1
         },
         {
@@ -202,7 +214,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.584,
+          "score": 0.54,
           "coverage": 1
         }
       ]
@@ -220,7 +232,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 2.811,
+          "score": 2.663,
           "coverage": 1
         },
         {
@@ -233,7 +245,7 @@
           "icon": "https://latent.space/favicon.png",
           "domain": "latent.space",
           "hn": null,
-          "score": 0.676,
+          "score": 0.593,
           "coverage": 1
         },
         {
@@ -246,7 +258,7 @@
           "icon": null,
           "domain": "sentinelone.com",
           "hn": null,
-          "score": 0.456,
+          "score": 0.417,
           "coverage": 1
         }
       ],
@@ -261,7 +273,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.407,
+          "score": 0.381,
           "coverage": 1
         },
         {
@@ -274,7 +286,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.528,
+          "score": 0.476,
           "coverage": 1
         },
         {
@@ -287,7 +299,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.402,
+          "score": 0.371,
           "coverage": 1
         }
       ]
@@ -305,7 +317,7 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.67,
+          "score": 0.603,
           "coverage": 1
         },
         {
@@ -318,7 +330,7 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.53,
+          "score": 0.487,
           "coverage": 1
         },
         {
@@ -331,7 +343,7 @@
           "icon": null,
           "domain": "stratechery.com",
           "hn": null,
-          "score": 0.564,
+          "score": 0.516,
           "coverage": 1
         }
       ],
@@ -350,7 +362,7 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 2.535,
+          "score": 2.293,
           "coverage": 1
         }
       ],
@@ -369,7 +381,7 @@
           "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
           "domain": "openssf.org",
           "hn": null,
-          "score": 3.239,
+          "score": 2.924,
           "coverage": 1
         },
         {
@@ -382,7 +394,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.268,
+          "score": 0.254,
           "coverage": 1
         }
       ],
@@ -401,7 +413,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 3.907,
+          "score": 3.319,
           "coverage": 1
         },
         {
@@ -414,7 +426,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.251,
+          "score": 0.231,
           "coverage": 1
         },
         {
@@ -427,7 +439,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.244,
+          "score": 0.225,
           "coverage": 1
         }
       ],
@@ -442,8 +454,21 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 1.474,
+          "score": 1.338,
           "coverage": 2
+        },
+        {
+          "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+          "link": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+          "excerpt": "CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA. The post SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 07",
+          "image": "https://www.securityweek.com/wp-content/uploads/2025/08/SonicWall.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 3.863,
+          "coverage": 1
         },
         {
           "title": "Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks",
@@ -455,7 +480,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.273,
+          "score": 0.25,
           "coverage": 1
         },
         {
@@ -468,7 +493,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.239,
+          "score": 0.221,
           "coverage": 1
         },
         {
@@ -481,20 +506,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 1.635,
-          "coverage": 1
-        },
-        {
-          "title": "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line",
-          "link": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/",
-          "excerpt": "Rated Critical for cybersecurity, OpenAI’s new model beats GPT-5.6 Cyber at exploitation while staying in scope more reliably. The post OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 06",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/OpenAI-GPT.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.229,
+          "score": 1.513,
           "coverage": 1
         }
       ]
@@ -512,7 +524,7 @@
           "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
           "domain": "grafana.com",
           "hn": null,
-          "score": 3.714,
+          "score": 3.391,
           "coverage": 1
         },
         {
@@ -525,7 +537,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.834,
+          "score": 1.74,
           "coverage": 1
         },
         {
@@ -538,7 +550,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.473,
+          "score": 2.269,
           "coverage": 1
         }
       ],
@@ -553,7 +565,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 2.597,
+          "score": 2.373,
           "coverage": 1
         },
         {
@@ -566,7 +578,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 3.143,
+          "score": 2.843,
           "coverage": 1
         },
         {
@@ -579,7 +591,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.617,
+          "score": 1.484,
           "coverage": 1
         },
         {
@@ -592,7 +604,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 1.411,
+          "score": 1.29,
           "coverage": 1
         },
         {
@@ -605,7 +617,7 @@
           "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.244,
+          "score": 0.229,
           "coverage": 1
         }
       ]
@@ -623,7 +635,7 @@
           "icon": null,
           "domain": "arstechnica.com",
           "hn": null,
-          "score": 2.127,
+          "score": 1.926,
           "coverage": 1
         },
         {
@@ -636,7 +648,48 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 0.251,
+          "score": 0.238,
+          "coverage": 1
+        },
+        {
+          "title": "Every Mac comes with an (undocumented) family member classifier",
+          "link": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+          "excerpt": "Every Mac since macOS 13 (2022) ships a pair of daemons whose only purpose in life is to build a graph about who you are, who you know, how those people are related to you and to each other, how you communicate with them, where you go, what you do and when. In this post, we look into how this…",
+          "source": "8rank.ai via Hacker News",
+          "date": "Nov 07",
+          "image": "https://8rank.ai/og-apple-intelligence-personal-knowledge-graph.png",
+          "icon": "https://8rank.ai/favicon.ico",
+          "domain": "8rank.ai",
+          "hn": "41 points · 9 comments",
+          "score": 3.456,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Upload Your RAM",
+          "link": "https://uploadyourram.org",
+          "excerpt": "43 points · 21 comments",
+          "source": "uploadyourram.org via Hacker News",
+          "date": "Nov 07",
+          "image": null,
+          "icon": "https://uploadyourram.org/favicon.ico",
+          "domain": "uploadyourram.org",
+          "hn": "43 points · 21 comments",
+          "score": 3.77,
+          "coverage": 1
+        },
+        {
+          "title": "Need for Speed Underground 2 online in the browser",
+          "link": "https://nfsu2.xyz/",
+          "excerpt": "Play Need for Speed: Underground 2 (2004) in Chrome and Firefox with WebGPU graphics, Web Audio, up to 120 fps widescreen, controller support, free roam and Online races with friends. Fan project, not affiliated with Electronic Arts.",
+          "source": "nfsu2.xyz via Hacker News",
+          "date": "Nov 07",
+          "image": null,
+          "icon": "https://nfsu2.xyz/icon-180.png",
+          "domain": "nfsu2.xyz",
+          "hn": "23 points · 4 comments",
+          "score": 2.98,
           "coverage": 1
         },
         {
@@ -648,23 +701,21 @@
           "image": "https://asahilinux.org/img/AsahiLinux_logomark_256px.png",
           "icon": "https://asahilinux.org/img/AsahiLinux_logomark_32px.png",
           "domain": "asahilinux.org",
-          "hn": "140 points · 90 comments",
-          "score": 3.997,
+          "hn": "193 points · 150 comments",
+          "score": 3.663,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "A barbarian tribe's mythic origin story is true, ancient DNA reveals",
           "link": "https://www.science.org/content/article/barbarian-tribe-s-mythic-origin-story-true-ancient-dna-reveals",
-          "excerpt": "75 points · 34 comments",
+          "excerpt": "117 points · 80 comments",
           "source": "science.org via Hacker News",
           "date": "Nov 07",
           "image": null,
           "icon": "https://www.science.org/favicon.ico",
           "domain": "science.org",
-          "hn": "75 points · 34 comments",
-          "score": 3.425,
+          "hn": "117 points · 80 comments",
+          "score": 3.278,
           "coverage": 1
         },
         {
@@ -676,47 +727,8 @@
           "image": "https://josef.cn/blog/unitree/social.png",
           "icon": "https://josef.cn/apple-icon.png?apple-icon.0l78mcuih00cf.png?dpl=dpl_5nvA1HZpQ4KEkENEQcLeedM4nkUV",
           "domain": "josef.cn",
-          "hn": "108 points · 69 comments",
-          "score": 3.005,
-          "coverage": 1
-        },
-        {
-          "title": "RealPage rent-pricing case wraps with nearly $360M to renters",
-          "link": "https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/",
-          "excerpt": "113 points · 53 comments",
-          "source": "multifamilydive.com via Hacker News",
-          "date": "Nov 06",
-          "image": null,
-          "icon": "https://www.multifamilydive.com/favicon.ico",
-          "domain": "multifamilydive.com",
-          "hn": "113 points · 53 comments",
-          "score": 2.767,
-          "coverage": 1
-        },
-        {
-          "title": "Sodium-ion batteries approach cost parity with LFP",
-          "link": "https://www.pv-magazine.com/2026/11/06/sodium-ion-batteries-approach-cost-parity-with-lfp-with-70-gwh-covered-by-supply-agreements/",
-          "excerpt": "Sodium-ion batteries are approaching cell-level cost parity with LFP technology, with supply agreements exceeding 70 GWh worldwide. Despite higher upfront costs, they could offer a 21% lower total cost of ownership over 20 years, according to Wood Mackenzie.",
-          "source": "pv-magazine.com via Hacker News",
-          "date": "Nov 06",
-          "image": "https://www.pv-magazine.com/wp-content/uploads/2025/03/Singeng-Sodium-ion-project-in-Hubei.jpg",
-          "icon": "https://www.pv-magazine.com/wp-content/themes/pvmagazine-international/resources/favicons/apple-icon-57x57.png",
-          "domain": "pv-magazine.com",
-          "hn": "182 points · 81 comments",
-          "score": 2.899,
-          "coverage": 1
-        },
-        {
-          "title": "AI is dramatically accelerating AI research",
-          "link": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-          "excerpt": "If acceleration compounds, the naive extrapolation implies superintelligence within a year",
-          "source": "planned-obsolescence.org via Hacker News",
-          "date": "Nov 06",
-          "image": "https://substackcdn.com/image/fetch/$s_!u_X_!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd74ff70-df26-4e1a-be31-4fc3543bada8_2048x1072.png",
-          "icon": "https://substackcdn.com/image/fetch/$s_!_IzS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13b5091b-67d3-4df8-971d-cff16f144398%2Fapple-touch-icon-57x57.png",
-          "domain": "planned-obsolescence.org",
-          "hn": "288 points · 226 comments",
-          "score": 2.868,
+          "hn": "132 points · 86 comments",
+          "score": 2.76,
           "coverage": 1
         }
       ]
