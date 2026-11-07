@@ -47,6 +47,12 @@
   "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
   "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1772195014/ooezwusxjl1f7ijfmbvj.png"
  },
+ "https://acid.vegas/blog/pushing-the-limits-with-getaddrinfo/": {
+  "description": "An IPv4 address is just a 32-bit number, and glibc will accept it in forms you would never recognize. â°ðâ´5ï¼ð¯°ï¼âãâµââð²ð¯¶ is one of them. Anything that judges an address by how it looks can be walked around.",
+  "fetched": "2026-11-07",
+  "icon": "https://acid.vegas/assets/apple-touch-icon.png",
+  "image": "https://acid.vegas/blog/pushing-the-limits-with-getaddrinfo/social-card.png"
+ },
  "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/": {
   "description": "EPFL researchers have developed an implantable neural chip that tracks communication across brain regions, identifying cognitive and emotional states in real time.",
   "fetched": "2026-10-24",
@@ -125,6 +131,12 @@
   "icon": null,
   "image": null
  },
+ "https://app.artifactbin.dev/@vivek/AQTt2H-did-prediction-markets-predict-the-midterms": {
+  "description": null,
+  "fetched": "2026-11-07",
+  "icon": "https://app.artifactbin.dev/favicon.ico",
+  "image": "https://app.artifactbin.dev/a/AQTt2H/export?mode=card&v=94&r=3"
+ },
  "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8": {
   "description": null,
   "fetched": "2026-10-30",
@@ -188,6 +200,12 @@
  "https://arxiv.org/abs/2608.25820": {
   "description": "Open-source implementations of the fifth generation (5G) Radio Access Network (RAN), such as OpenAirInterface (OAI) and srsRAN, have become increasingly relevant for industry and academic research, rapid prototyping, and low-cost private 5G deployments. The state of the art presents different evaluation scenarios for both platforms; however, these are often limited to individual testbed evaluations, end-to-end studies, or partial comparisons between them. In particular, there is a lack of evaluations considering different Software-Defined Radios (SDRs), RAN configurations, user applications, and numbers of real UEs. To address this gap, this paper presents a comparative evaluation of OAI and srsRAN. The study includes a qualitative assessment of supported features and deployment flexibility, followed by a quantitative performance analysis covering radio resource control setup procedures, compliance with theoretical data rates, and real application workloads with diverse quality of service requirements. Specifically, we consider Video on Demand (VoD) for data rate evaluation, Live Streaming (LS) and Cloud Gaming (CG) as latency-sensitive applications. These workloads provide a comprehensive view of each platform capability.",
   "fetched": "2026-11-03",
+  "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png",
+  "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+ },
+ "https://arxiv.org/abs/2610.21375": {
+  "description": "Memory enables large language models (LLMs) to use information beyond their parameters, such as past user conversations, long documents, or an agent's earlier actions. For a frozen LLM, access to this accumulated knowledge is limited to what a memory system places in its context window. However, gathering and combining relevant information needed for each query while keeping the model's context short remains challenging for existing systems. Here we introduce Memorilla, a memory system that gathers information from an entire document collection into a fixed number of query-dependent 'memory tokens' for a frozen LLM. Memorilla encodes documents (such as user chats, book chapters) once into reusable embeddings, then learns to retrieve and place query-specific information in the LLM's input embedding space. Using only 16 memory tokens, Memorilla achieves the best performance against baselines including Mem0 and MemoRAG on five of eight benchmarks spanning personalization, long-document and knowledge-intensive question answering. Notably, on FactKG, it reaches 84.33% accuracy versus 80.43% with full-context inference, while using 108x fewer tokens to represent the source documents. Furthermore, Memorilla can facilitate continual learning in agentic systems where the document count (the agent's past turns) increases throughout the trajectory. In a TextWorld environment, we show that Memorilla reduces the agent's tendency to wander between rooms it has already explored, and improves its average success rate from 18.6% with full-history in-context learning to 24.2%. Overall, Memorilla aids frozen LLMs in accumulating and using knowledge effectively across long-context interactions and takes a step towards building continually learning AI systems.",
+  "fetched": "2026-11-07",
   "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png",
   "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
  },
@@ -442,6 +460,12 @@
   "fetched": "2026-11-07",
   "icon": "https://us1.discourse-cdn.com/openai1/optimized/4X/e/5/d/e5d0db747b8673d263cea6db3e4736ae59f34731_2_180x180.png",
   "image": "https://us1.discourse-cdn.com/openai1/original/4X/0/4/c/04c8546833f0824a49d21f50e2b08dd44bfd3d05.png"
+ },
+ "https://computer.rip/2026-10-25-searchlights.html": {
+  "description": null,
+  "fetched": "2026-11-07",
+  "icon": "https://computer.rip/static/cubes.svg",
+  "image": "https://computer.rip/static/img/searchlight/1.png"
  },
  "https://contraptions.venkateshrao.com/p/cognitive-mercantilism": {
   "description": "AI panic weirdly resembles the anxiety that accompanied early capitalism",
@@ -2068,6 +2092,12 @@
   "fetched": "2026-11-02",
   "icon": null,
   "image": "https://p.migdal.pl/warsaw-vibe-voxel/preview.jpg?v=5"
+ },
+ "https://p0pcycle.com/2026/11/06/hacking-the-meta-ray-ban-smartglasses/": {
+  "description": "Back in July I wanted to check out the pwn2own targets for 2026. Since the rules hadn’t been released yet, I decided I would check last year’s targets in the hope that it would be simil…",
+  "fetched": "2026-11-07",
+  "icon": "https://i0.wp.com/p0pcycle.com/wp-content/uploads/2024/03/ice-cream-7984778_640-1.webp?fit=180%2C180&ssl=1",
+  "image": "https://p0pcycle.com/wp-content/uploads/2026/11/image-3.png"
  },
  "https://paulfwalsh.substack.com/p/metas-muse-ai-agent-is-a-commercial": {
   "description": null,
@@ -4227,6 +4257,12 @@
   "description": "This is fascinating: The video describes a technique that can reveal where an otherwise unidentifiable recording was made by analyzing its audio for the faint sounds of passing aircraft. The technique is both fascinating and frightening. It works by looking at Doppler curves, which plot the way a plane’s sound changes as it passes overhead because of the Doppler effect. This is the same familiar Doppler effect that causes the frequency of a siren to rise as it approaches and then fall as it passes by and moves away. More generally, it’s the phenomenon whereby the frequency of a wave perceived by an observer changes when the observer and the source of the wave are moving in relation to one another...",
   "fetched": "2026-11-07",
   "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+  "image": null
+ },
+ "https://www.science.org/content/article/barbarian-tribe-s-mythic-origin-story-true-ancient-dna-reveals": {
+  "description": null,
+  "fetched": "2026-11-07",
+  "icon": null,
   "image": null
  },
  "https://www.science.org/content/article/bones-may-release-proteins-slow-aging-and-extend-life-span": {

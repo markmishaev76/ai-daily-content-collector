@@ -13,7 +13,7 @@
     "note": null,
     "labels": [
       "AI-Assisted Engineering",
-      "5h ago"
+      "7h ago"
     ],
     "also": []
   },
@@ -25,7 +25,7 @@
       "link_domain": "blog.google",
       "source": "Hacker News",
       "domain": "blog.google",
-      "meta": "Hacker News · 306 points · 220 comments · 14h ago",
+      "meta": "Hacker News · 311 points · 225 comments · 16h ago",
       "also": [],
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.width-1300.png",
       "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131"
@@ -37,22 +37,22 @@
       "link_domain": "bloomberg.com",
       "source": "Hacker News",
       "domain": "bloomberg.com",
-      "meta": "Hacker News · 256 points · 514 comments · 11h ago",
+      "meta": "Hacker News · 265 points · 530 comments · 13h ago",
       "also": [],
       "image": null,
       "icon": "https://www.bloomberg.com/favicon.ico"
     },
     {
-      "title": "I struggle to believe that AI R&D is ingenious",
-      "thread": "https://news.ycombinator.com/item?id=50388513",
-      "link": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
-      "link_domain": "lesswrong.com",
+      "title": "AI is dramatically accelerating AI research",
+      "thread": "https://news.ycombinator.com/item?id=50397994",
+      "link": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+      "link_domain": "planned-obsolescence.org",
       "source": "Hacker News",
-      "domain": "lesswrong.com",
-      "meta": "Hacker News · 184 points · 188 comments · 22h ago",
+      "domain": "planned-obsolescence.org",
+      "meta": "Hacker News · 254 points · 206 comments · 9h ago",
       "also": [],
-      "image": null,
-      "icon": "https://res.cloudinary.com/lesswrong-2-0/image/upload/v1497915096/favicon_lncumn.ico"
+      "image": "https://substackcdn.com/image/fetch/$s_!u_X_!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd74ff70-df26-4e1a-be31-4fc3543bada8_2048x1072.png",
+      "icon": "https://substackcdn.com/image/fetch/$s_!_IzS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13b5091b-67d3-4df8-971d-cff16f144398%2Fapple-touch-icon-57x57.png"
     },
     {
       "title": "University libraries are being swarmed by AI bots, putting public access at risk",
@@ -61,7 +61,7 @@
       "link_domain": "cbc.ca",
       "source": "Hacker News",
       "domain": "cbc.ca",
-      "meta": "Hacker News · 127 points · 57 comments · 13h ago",
+      "meta": "Hacker News · 128 points · 58 comments · 15h ago",
       "also": [],
       "image": null,
       "icon": "https://www.cbc.ca/favicon.ico"
@@ -73,10 +73,51 @@
       "link_domain": "github.blog",
       "source": "Lobsters",
       "domain": "github.blog",
-      "meta": "Lobsters · 15 points · 4 comments · 10h ago",
-      "also": [],
+      "meta": "Lobsters · 17 points · 4 comments · 12h ago",
+      "also": [
+        {
+          "source": "Hacker News",
+          "thread": "https://news.ycombinator.com/item?id=50397099"
+        }
+      ],
       "image": "https://github.blog/wp-content/uploads/2026/01/4ba0cd42388a255e04c78e5143548f22e577d68e0f15f68e6a3c76c18b927981-1920x1080-1.png",
       "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180"
+    },
+    {
+      "title": "Memorilla: Latent Semantic Memory for LLMs",
+      "thread": "https://news.ycombinator.com/item?id=50395919",
+      "link": "https://arxiv.org/abs/2610.21375",
+      "link_domain": "arxiv.org",
+      "source": "Hacker News",
+      "domain": "arxiv.org",
+      "meta": "Hacker News · 101 points · 11 comments · 12h ago",
+      "also": [],
+      "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png"
+    },
+    {
+      "title": "Hacking the meta ray-ban smartglasses",
+      "thread": "https://lobste.rs/s/xhrab6/hacking_meta_ray_ban_smartglasses",
+      "link": "https://p0pcycle.com/2026/11/06/hacking-the-meta-ray-ban-smartglasses/",
+      "link_domain": "p0pcycle.com",
+      "source": "Lobsters",
+      "domain": "p0pcycle.com",
+      "meta": "Lobsters · 15 points · 1 comments · 9h ago",
+      "also": [],
+      "image": "https://p0pcycle.com/wp-content/uploads/2026/11/image-3.png",
+      "icon": "https://i0.wp.com/p0pcycle.com/wp-content/uploads/2024/03/ice-cream-7984778_640-1.webp?fit=180%2C180&ssl=1"
+    },
+    {
+      "title": "Pushing the Limits with getaddrinfo",
+      "thread": "https://lobste.rs/s/5cwnpu/pushing_limits_with_getaddrinfo",
+      "link": "https://acid.vegas/blog/pushing-the-limits-with-getaddrinfo/",
+      "link_domain": "acid.vegas",
+      "source": "Lobsters",
+      "domain": "acid.vegas",
+      "meta": "Lobsters · 15 points · 0 comments · 15h ago",
+      "also": [],
+      "image": "https://acid.vegas/blog/pushing-the-limits-with-getaddrinfo/social-card.png",
+      "icon": "https://acid.vegas/assets/apple-touch-icon.png"
     }
   ],
   "sections": [
@@ -93,7 +134,7 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 0.561,
+          "score": 0.534,
           "coverage": 1
         },
         {
@@ -106,7 +147,7 @@
           "icon": "https://cursor.com/marketing-static/apple-touch-icon-light.png",
           "domain": "cursor.com",
           "hn": null,
-          "score": 0.449,
+          "score": 0.427,
           "coverage": 1
         },
         {
@@ -119,7 +160,7 @@
           "icon": null,
           "domain": "newsletter.pragmaticengineer.com",
           "hn": null,
-          "score": 0.88,
+          "score": 0.802,
           "coverage": 1
         }
       ],
@@ -134,7 +175,7 @@
           "icon": "https://mitchellh.com/static/favicons/apple-touch-icon.png",
           "domain": "mitchellh.com",
           "hn": null,
-          "score": 3.928,
+          "score": 3.902,
           "coverage": 1
         },
         {
@@ -147,7 +188,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.786,
+          "score": 0.723,
           "coverage": 1
         },
         {
@@ -160,7 +201,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.387,
+          "score": 0.371,
           "coverage": 1
         },
         {
@@ -173,7 +214,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.69,
+          "score": 0.641,
           "coverage": 1
         }
       ]
@@ -181,6 +222,19 @@
     {
       "name": "AI Agents & Agent Security",
       "cards": [
+        {
+          "title": "Measuring how AI agents handle everyday wet-lab science",
+          "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+          "excerpt": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+          "source": "OpenAI News",
+          "date": "Nov 06",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 2.993,
+          "coverage": 1
+        },
         {
           "title": "[AINews] Anthropic IPO: Whither Now?",
           "link": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
@@ -191,20 +245,7 @@
           "icon": "https://latent.space/favicon.png",
           "domain": "latent.space",
           "hn": null,
-          "score": 0.921,
-          "coverage": 1
-        },
-        {
-          "title": "The AI sell-off compared to well-known stock market crashes",
-          "link": "https://www.kadoa.com/companies/insights/ai-selloff-perspective",
-          "excerpt": "The S&P 500 fell 4.4% on 5 Nov 2026, its worst day since April 2025, and is 6% below its 6 Oct record. Charted day by day against 1987, 2008, Covid and other falls since 1950.",
-          "source": "kadoa.com via Hacker News",
-          "date": "Nov 07",
-          "image": "https://www.kadoa.com/companies/og/insights/ai-selloff-perspective.png",
-          "icon": "https://www.kadoa.com/companies/favicon.svg",
-          "domain": "kadoa.com",
-          "hn": "10 points · 1 comments",
-          "score": 3.138,
+          "score": 0.799,
           "coverage": 1
         },
         {
@@ -217,24 +258,11 @@
           "icon": null,
           "domain": "sentinelone.com",
           "hn": null,
-          "score": 0.556,
+          "score": 0.509,
           "coverage": 1
         }
       ],
       "more": [
-        {
-          "title": "Measuring how AI agents handle everyday wet-lab science",
-          "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-          "excerpt": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
-          "source": "OpenAI News",
-          "date": "Nov 06",
-          "image": null,
-          "icon": "https://openai.com/favicon.ico",
-          "domain": "openai.com",
-          "hn": null,
-          "score": 3.142,
-          "coverage": 1
-        },
         {
           "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
           "link": "https://openai.com/index/partnering-with-hacktron",
@@ -245,7 +273,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.467,
+          "score": 0.44,
           "coverage": 1
         },
         {
@@ -258,7 +286,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.666,
+          "score": 0.599,
           "coverage": 1
         },
         {
@@ -271,7 +299,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.477,
+          "score": 0.442,
           "coverage": 1
         }
       ]
@@ -289,7 +317,7 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.849,
+          "score": 0.762,
           "coverage": 1
         },
         {
@@ -302,7 +330,7 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.637,
+          "score": 0.587,
           "coverage": 1
         },
         {
@@ -315,26 +343,7 @@
           "icon": null,
           "domain": "stratechery.com",
           "hn": null,
-          "score": 0.686,
-          "coverage": 1
-        }
-      ],
-      "more": []
-    },
-    {
-      "name": "Agent Identity & Authorization",
-      "cards": [
-        {
-          "title": "Show HN: Agentic Identity Broker, OAuth Delegation for AI Agents",
-          "link": "https://github.com/zalando-incubator/agentic-identity-broker",
-          "excerpt": "Identity broker for AI agents with OAuth2 delegation and consent management - zalando-incubator/agentic-identity-broker",
-          "source": "github.com via Hacker News",
-          "date": "Nov 06",
-          "image": "https://repository-images.githubusercontent.com/1295060661/bc15dfb3-27b6-410b-ab72-cdbe13fe9c03",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "21 points · 3 comments",
-          "score": 5.312,
+          "score": 0.629,
           "coverage": 1
         }
       ],
@@ -353,7 +362,7 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 3.165,
+          "score": 2.863,
           "coverage": 1
         }
       ],
@@ -372,7 +381,7 @@
           "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
           "domain": "openssf.org",
           "hn": null,
-          "score": 4.068,
+          "score": 3.67,
           "coverage": 1
         },
         {
@@ -385,7 +394,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.299,
+          "score": 0.285,
           "coverage": 1
         }
       ],
@@ -404,7 +413,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.3,
+          "score": 0.277,
           "coverage": 1
         },
         {
@@ -417,7 +426,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.291,
+          "score": 0.269,
           "coverage": 1
         },
         {
@@ -430,7 +439,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 1.827,
+          "score": 1.659,
           "coverage": 2
         }
       ],
@@ -445,7 +454,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.333,
+          "score": 0.305,
           "coverage": 1
         },
         {
@@ -458,7 +467,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.283,
+          "score": 0.262,
           "coverage": 1
         },
         {
@@ -471,7 +480,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 1.931,
+          "score": 1.793,
           "coverage": 1
         },
         {
@@ -484,7 +493,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.269,
+          "score": 0.25,
           "coverage": 1
         },
         {
@@ -497,7 +506,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.266,
+          "score": 0.248,
           "coverage": 1
         }
       ]
@@ -515,7 +524,7 @@
           "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
           "domain": "grafana.com",
           "hn": null,
-          "score": 4.529,
+          "score": 4.143,
           "coverage": 1
         },
         {
@@ -528,7 +537,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.045,
+          "score": 1.95,
           "coverage": 1
         },
         {
@@ -541,7 +550,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.977,
+          "score": 2.74,
           "coverage": 1
         }
       ],
@@ -556,7 +565,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 3.16,
+          "score": 2.894,
           "coverage": 1
         },
         {
@@ -569,7 +578,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 3.925,
+          "score": 3.55,
           "coverage": 1
         },
         {
@@ -582,7 +591,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.947,
+          "score": 1.792,
           "coverage": 1
         },
         {
@@ -595,7 +604,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 1.715,
+          "score": 1.571,
           "coverage": 1
         },
         {
@@ -608,7 +617,7 @@
           "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.28,
+          "score": 0.264,
           "coverage": 1
         }
       ]
@@ -626,7 +635,7 @@
           "icon": null,
           "domain": "arstechnica.com",
           "hn": null,
-          "score": 2.651,
+          "score": 2.4,
           "coverage": 1
         },
         {
@@ -639,11 +648,65 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 0.28,
+          "score": 0.267,
           "coverage": 1
         },
         {
-          "title": "I Toured Unitree's Factory. I'm More Bullish on the West",
+          "title": "Show HN: Did prediction markets do any predicting this midterms?",
+          "link": "https://app.artifactbin.dev/@vivek/AQTt2H-did-prediction-markets-predict-the-midterms",
+          "excerpt": "19 points · 8 comments",
+          "source": "app.artifactbin.dev via Hacker News",
+          "date": "Nov 07",
+          "image": "https://app.artifactbin.dev/a/AQTt2H/export?mode=card&v=94&r=3",
+          "icon": "https://app.artifactbin.dev/favicon.ico",
+          "domain": "app.artifactbin.dev",
+          "hn": "19 points · 8 comments",
+          "score": 2.863,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "A barbarian tribe's mythic origin story is true, ancient DNA reveals",
+          "link": "https://www.science.org/content/article/barbarian-tribe-s-mythic-origin-story-true-ancient-dna-reveals",
+          "excerpt": "13 points · 1 comments",
+          "source": "science.org via Hacker News",
+          "date": "Nov 07",
+          "image": null,
+          "icon": "https://www.science.org/favicon.ico",
+          "domain": "science.org",
+          "hn": "13 points · 1 comments",
+          "score": 2.624,
+          "coverage": 1
+        },
+        {
+          "title": "Lighting the Skies",
+          "link": "https://computer.rip/2026-10-25-searchlights.html",
+          "excerpt": "11 points · 1 comments",
+          "source": "computer.rip via Hacker News",
+          "date": "Nov 07",
+          "image": "https://computer.rip/static/img/searchlight/1.png",
+          "icon": "https://computer.rip/static/cubes.svg",
+          "domain": "computer.rip",
+          "hn": "11 points · 1 comments",
+          "score": 2.301,
+          "coverage": 1
+        },
+        {
+          "title": "The AI sell-off compared to well-known stock market crashes",
+          "link": "https://www.kadoa.com/companies/insights/ai-selloff-perspective",
+          "excerpt": "The S&P 500 fell 4.4% on 5 Nov 2026, its worst day since April 2025, and is 6% below its 6 Oct record. Charted day by day against 1987, 2008, Covid and other falls since 1950.",
+          "source": "kadoa.com via Hacker News",
+          "date": "Nov 07",
+          "image": "https://www.kadoa.com/companies/og/insights/ai-selloff-perspective.png",
+          "icon": "https://www.kadoa.com/companies/favicon.svg",
+          "domain": "kadoa.com",
+          "hn": "39 points · 27 comments",
+          "score": 3.142,
+          "coverage": 1
+        },
+        {
+          "title": "I toured Unitree's factory. I'm more bullish on the West",
           "link": "https://josef.cn/blog/unitree",
           "excerpt": "Everyone thinks China's robot factories are automated. They aren't. The robots are Chinese; the robots that make robots will be Western.",
           "source": "josef.cn via Hacker News",
@@ -651,75 +714,21 @@
           "image": "https://josef.cn/blog/unitree/social.png",
           "icon": "https://josef.cn/apple-icon.png?apple-icon.0l78mcuih00cf.png?dpl=dpl_5nvA1HZpQ4KEkENEQcLeedM4nkUV",
           "domain": "josef.cn",
-          "hn": "56 points · 33 comments",
-          "score": 3.495,
+          "hn": "87 points · 55 comments",
+          "score": 3.355,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "RealPage rent-pricing case wraps with nearly $360M to renters",
           "link": "https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/",
-          "excerpt": "55 points · 18 comments",
+          "excerpt": "77 points · 33 comments",
           "source": "multifamilydive.com via Hacker News",
           "date": "Nov 06",
           "image": null,
           "icon": "https://www.multifamilydive.com/favicon.ico",
           "domain": "multifamilydive.com",
-          "hn": "55 points · 18 comments",
-          "score": 3.066,
-          "coverage": 1
-        },
-        {
-          "title": "Sodium-ion batteries approach cost parity with LFP",
-          "link": "https://www.pv-magazine.com/2026/11/06/sodium-ion-batteries-approach-cost-parity-with-lfp-with-70-gwh-covered-by-supply-agreements/",
-          "excerpt": "Sodium-ion batteries are approaching cell-level cost parity with LFP technology, with supply agreements exceeding 70 GWh worldwide. Despite higher upfront costs, they could offer a 21% lower total cost of ownership over 20 years, according to Wood Mackenzie.",
-          "source": "pv-magazine.com via Hacker News",
-          "date": "Nov 06",
-          "image": "https://www.pv-magazine.com/wp-content/uploads/2025/03/Singeng-Sodium-ion-project-in-Hubei.jpg",
-          "icon": "https://www.pv-magazine.com/wp-content/themes/pvmagazine-international/resources/favicons/apple-icon-57x57.png",
-          "domain": "pv-magazine.com",
-          "hn": "148 points · 66 comments",
-          "score": 3.579,
-          "coverage": 1
-        },
-        {
-          "title": "AI is dramatically accelerating AI research",
-          "link": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-          "excerpt": "If acceleration compounds, the naive extrapolation implies superintelligence within a year",
-          "source": "planned-obsolescence.org via Hacker News",
-          "date": "Nov 06",
-          "image": "https://substackcdn.com/image/fetch/$s_!u_X_!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd74ff70-df26-4e1a-be31-4fc3543bada8_2048x1072.png",
-          "icon": "https://substackcdn.com/image/fetch/$s_!_IzS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13b5091b-67d3-4df8-971d-cff16f144398%2Fapple-touch-icon-57x57.png",
-          "domain": "planned-obsolescence.org",
-          "hn": "229 points · 173 comments",
-          "score": 3.432,
-          "coverage": 1
-        },
-        {
-          "title": "Google has acquired Crusoe's data center site in southeast Wyoming",
-          "link": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
-          "excerpt": "Google has acquired Crusoe’s southeast Wyoming data center site after Crusoe completed site selection, approvals, and power strategy for the campus.",
-          "source": "crusoe.ai via Hacker News",
-          "date": "Nov 06",
-          "image": "https://cdn.prod.website-files.com/6863cc86499b79ce3ab28f8b/6aee19ec970f4b7e8614bcdb_6abaa3170b66e6fbd57379d2_Crusoe%20X%20Google-p-1080.jpg",
-          "icon": "https://cdn.prod.website-files.com/6855c1aa175582ee23e0aa19/68934b7ef165ad996914d921_Webclip.png",
-          "domain": "crusoe.ai",
-          "hn": "50 points · 8 comments",
-          "score": 6.43,
-          "coverage": 2
-        },
-        {
-          "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
-          "link": "https://hightouch.com/blog/llm-judges-identity-resolution",
-          "excerpt": "We tested Jev and GPT-6 Luna as judges for identity resolution. A hybrid of Jev and Claude Opus matched frontier accuracy at over 4x lower cost.",
-          "source": "hightouch.com via Hacker News",
-          "date": "Nov 06",
-          "image": "https://cdn.sanity.io/images/pwmfmi47/production/9a5d7191d614c824c822ec90672adaf424699d3d-2400x1256.png?w=1200",
-          "icon": "https://hightouch.com/favicon.ico?v=3",
-          "domain": "hightouch.com",
-          "hn": "375 points · 84 comments",
-          "score": 3.388,
+          "hn": "77 points · 33 comments",
+          "score": 2.953,
           "coverage": 1
         }
       ]
