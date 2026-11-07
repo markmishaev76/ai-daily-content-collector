@@ -11,6 +11,12 @@
   "icon": "https://99percentinvisible.org/wp-content/uploads/2016/06/cropped-favicon_512-180x180.png",
   "image": "https://99percentinvisible.org/wp-content/uploads/2016/10/guerrilla-bicycle-lane-728x410.jpg"
  },
+ "https://a90.com/experiments/88x31/": {
+  "description": "30 web buttons. Take one.",
+  "fetched": "2026-11-07",
+  "icon": "https://a90.com/apple-touch-icon.png",
+  "image": "https://a90.com/experiments/88x31/card.png"
+ },
  "https://aaronparecki.com/2026/10/30/19/oauth-id-jag-draft-06": {
   "description": "We've just published draft -06 of the Identity Assertion JWT Authorization Grant (ID-JAG):",
   "fetched": "2026-10-31",
@@ -389,6 +395,12 @@
   "icon": "https://claremontreviewofbooks.com/wp-content/uploads/2019/11/favcion.png",
   "image": "https://claremontreviewofbooks.com/wp-content/uploads/2026/09/CRB_FA26_Wolfson-573x400.png"
  },
+ "https://cloud.google.com/blog/products/data-analytics/bigquery-ai-functions-in-pandas/": {
+  "description": "Scale machine learning directly in Pandas and boost productivity using enterprise-grade BigQuery AI functions without leaving your DataFrame.",
+  "fetched": "2026-11-07",
+  "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
+  "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Data_Analytics_JooYPJr.max-2500x2500.jpg"
+ },
  "https://cloud.google.com/blog/products/databases/introducing-alloydb-express-for-rapid-testing-and-prototyping/": {
   "description": "Developer-first PostgreSQL environment that offers sub-2-second instant provisioning, scale-to-zero pause & resume, and 1–2 vCPUs and 20GB of storage.",
   "fetched": "2026-11-04",
@@ -424,6 +436,12 @@
   "fetched": "2026-10-27",
   "icon": "https://cohere.com/apple-touch-icon.png",
   "image": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/658e160a6519a049e260213d409551e67399113a-1352x754.png?rect=0,22,1352,710&w=1200&h=630&q=80&fit=crop&auto=format"
+ },
+ "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053": {
+  "description": "In a conversation with two connectors enabled, ChatGPT made a follow-up tool call through a different connector than the one that started the flow. The user was not told about the switch. The call carried a one-time confirmation code from the first connector’s widget. Setup - One ChatGPT account with two connectors enabled that point to the same MCP server. - Connector A is a custom connector added in developer mode. - Connector B is the published app from the app directory. - Each connecto...",
+  "fetched": "2026-11-07",
+  "icon": "https://us1.discourse-cdn.com/openai1/optimized/4X/e/5/d/e5d0db747b8673d263cea6db3e4736ae59f34731_2_180x180.png",
+  "image": "https://us1.discourse-cdn.com/openai1/original/4X/0/4/c/04c8546833f0824a49d21f50e2b08dd44bfd3d05.png"
  },
  "https://contraptions.venkateshrao.com/p/cognitive-mercantilism": {
   "description": "AI panic weirdly resembles the anxiety that accompanied early capitalism",
@@ -466,6 +484,12 @@
   "fetched": "2026-11-06",
   "icon": "https://cursor.com/marketing-static/apple-touch-icon-light.png",
   "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/changelog/opengraph-changelog-11-05-26.png"
+ },
+ "https://cursor.com/changelog/voice-chat": {
+  "description": "Talk with your agents in a realtime voice call on desktop, web, and iOS.",
+  "fetched": "2026-11-07",
+  "icon": "https://cursor.com/marketing-static/apple-touch-icon-light.png",
+  "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/og/opengraph-default.png"
  },
  "https://cve.0xosprey.com/": {
   "description": "Live count of published CVE records, rebuilt daily from the official CVE list.",
@@ -707,6 +731,12 @@
   "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
   "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog-header-image.2e16d0ba.fill-1200x600.jpg"
  },
+ "https://developers.openai.com/api/docs/guides/voice-sip": {
+  "description": "Connect phone calls to OpenAI with SIP.",
+  "fetched": "2026-11-07",
+  "icon": "https://developers.openai.com/favicon.png",
+  "image": "https://developers.openai.com/og/api/docs/guides/voice-sip.png"
+ },
  "https://divagr.com/blog/qwenputer": {
   "description": "I compiled a RISC-V CPU into Qwen 3.5 4B's weights, using its Gated DeltaNet layers as RAM. It runs C and MicroPython inside the forward passes, and Qwen uses it for exact arithmetic.",
   "fetched": "2026-10-29",
@@ -874,6 +904,18 @@
   "fetched": "2026-10-29",
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png"
+ },
+ "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/": {
+  "description": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot.",
+  "fetched": "2026-11-07",
+  "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
+  "image": "https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe.png"
+ },
+ "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/": {
+  "description": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works.",
+  "fetched": "2026-11-07",
+  "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
+  "image": "https://github.blog/wp-content/uploads/2026/01/4ba0cd42388a255e04c78e5143548f22e577d68e0f15f68e6a3c76c18b927981-1920x1080-1.png"
  },
  "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/": {
   "description": "GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT.",
@@ -1067,6 +1109,12 @@
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://opengraph.githubassets.com/6ca5ca5347933d3b5b69c1d06228df76a2c5e79dc8eff3a0aa86bc1c06402795/thomasunise/casecite"
  },
+ "https://github.com/zalando-incubator/agentic-identity-broker": {
+  "description": "Identity broker for AI agents with OAuth2 delegation and consent management - zalando-incubator/agentic-identity-broker",
+  "fetched": "2026-11-07",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://repository-images.githubusercontent.com/1295060661/bc15dfb3-27b6-410b-ab72-cdbe13fe9c03"
+ },
  "https://gizmodo.com/el-nino-is-already-flooding-californias-coasts-and-the-years-highest-tides-havent-arrived-2000832574": {
   "description": null,
   "fetched": "2026-10-30",
@@ -1090,6 +1138,12 @@
   "fetched": "2026-10-28",
   "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
   "image": "https://a-us.storyblok.com/f/1022730/1200x630/d88c896117/agent-o11y-faq-meta.jpeg/m/1200x630/filters:quality(80)/"
+ },
+ "https://grafana.com/blog/any-agent-anywhere-how-to-use-grafana-cloud-with-claude-cursor-and-any-other-ai-agent/": {
+  "description": "Learn how any agent—whether it's Grafana Assistant, a coding agent in your IDE, or a tool you’ve built yourself—can interact with Grafana Cloud and use your observability data to find root causes faster.",
+  "fetched": "2026-11-07",
+  "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
+  "image": "https://a-us.storyblok.com/f/1022730/1200x630/e9473d72b7/any-agent-anywhere-in-grafana-cloud_meta-image.jfif/m/1200x630/filters:quality(80)/"
  },
  "https://grafana.com/blog/bridging-alloy-and-opentelemetry-the-otel-engine-is-now-in-public-preview/": {
   "description": "We're giving teams a way to run native OTLP pipelines in Grafana Cloud without giving up the power and flexibility Alloy is known for.",
@@ -1174,6 +1228,12 @@
   "fetched": "2026-11-04",
   "icon": null,
   "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/5g9HfQLFFaQE0fslWrxh0.png"
+ },
+ "https://huggingface.co/blog/allenai/toyblocks": {
+  "description": "A Blog post by Ai2 on Hugging Face",
+  "fetched": "2026-11-07",
+  "icon": null,
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/OAJMu2jr7i5jVAbmsKdZW.jpeg"
  },
  "https://huggingface.co/blog/announcing-project-protostar": {
   "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
@@ -1523,6 +1583,12 @@
   "icon": null,
   "image": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp"
  },
+ "https://mitchellh.com/writing/libghostty-1-0": {
+  "description": null,
+  "fetched": "2026-11-07",
+  "icon": "https://mitchellh.com/static/favicons/apple-touch-icon.png",
+  "image": null
+ },
  "https://momentic.ai/": {
   "description": "Mo is an AI QA engineer that bug bashes your app. 117,010 bugs caught, with repro steps and evidence. Plain-English tests agents execute and maintain.",
   "fetched": "2026-11-02",
@@ -1811,6 +1877,12 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science": {
+  "description": null,
+  "fetched": "2026-11-07",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/merge-builds-with-openai": {
   "description": null,
   "fetched": "2026-11-06",
@@ -1850,6 +1922,12 @@
  "https://openai.com/index/oracle-apps-in-chatgpt": {
   "description": null,
   "fetched": "2026-10-28",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/partnering-with-hacktron": {
+  "description": null,
+  "fetched": "2026-11-07",
   "icon": null,
   "image": null
  },
@@ -1940,6 +2018,12 @@
  "https://openssf.org/blog/2026/11/05/case-study-kubescape-completes-all-six-security-slam-badges-with-openssf/": {
   "description": "Discover how Kubescape completed all six OpenSSF Security Slam badges, integrating Security Insights, OSPS Baseline controls, and automated checks across 12+ repositories.",
   "fetched": "2026-11-06",
+  "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
+  "image": null
+ },
+ "https://openssf.org/blog/2026/11/06/openssf-community-day-europe-2026-driving-systemic-security-and-operational-resilience-in-open-source/": {
+  "description": null,
+  "fetched": "2026-11-07",
   "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
   "image": null
  },
@@ -2144,6 +2228,18 @@
  "https://simonwillison.net/2026/Nov/4/datasette-llm/": {
   "description": "LLM integration plugin for other plugins to depend on",
   "fetched": "2026-11-05",
+  "icon": null,
+  "image": null
+ },
+ "https://simonwillison.net/2026/Nov/5/paul-ford/": {
+  "description": "The web browser is very, very, very powerful software for applications, and the cost of accessing that power is going down seemingly every day.",
+  "fetched": "2026-11-07",
+  "icon": null,
+  "image": null
+ },
+ "https://simonwillison.net/2026/Nov/6/nilay-patel/": {
+  "description": "The products aren't good enough to sell people on the costs. You cannot tell people that you have to listen to the whine of a data center in their backyard …",
+  "fetched": "2026-11-07",
   "icon": null,
   "image": null
  },
@@ -3017,6 +3113,12 @@
   "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
   "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/97d61b79f99af31d2596eced7533e6d5e3ef7731-2000x1125.jpg"
  },
+ "https://www.anthropic.com/research/components-of-agent-memory": {
+  "description": "For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next. Here’s how “dreaming” helps it organize memory and correct mistakes.",
+  "fetched": "2026-11-07",
+  "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+  "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6ab2663a2c0bd6a41409d90136a59a5d72995ea5-1200x630.jpg"
+ },
  "https://www.anthropic.com/research/early-progress-drug-development": {
   "description": "Over the past several months, we’ve partnered with six organizations to accelerate curing disease. We’ve also started drug discovery efforts of our own, including programs for rare childhood forms of muscular dystrophy. In this post, we provide an update on our progress.",
   "fetched": "2026-10-28",
@@ -3040,6 +3142,12 @@
   "fetched": "2026-11-03",
   "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
   "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/2eba335a28661a8253187053fa36add230af728b-2000x1125.jpg"
+ },
+ "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models": {
+  "description": "AI for Science grantees Jakob Macke, Daniel Gedon, and Stefan Wahl on how AI is starting to change how scientific models are built and interpreted.",
+  "fetched": "2026-11-07",
+  "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+  "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/ef92f028259401d07c41e3ea51f5ec32b958584d-2000x1125.jpg"
  },
  "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector": {
   "description": "Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech. Subscribe for daily updates.",
@@ -3269,6 +3377,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/posts/2026/10/21/ai-email.jpg"
  },
+ "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout": {
+  "description": null,
+  "fetched": "2026-11-07",
+  "icon": null,
+  "image": null
+ },
  "https://www.bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near": {
   "description": null,
   "fetched": "2026-11-03",
@@ -3335,6 +3449,12 @@
   "icon": null,
   "image": "https://images.ctfassets.net/l47ir7rfykkn/1fqlfI0OllKxt0jJpZPReP/c8a305d367b6512b17205c2f4ab2e135/Every_manual_page_in_Chainguard_OS__now_readable_by_your_agent.png"
  },
+ "https://www.chainguard.dev/unchained/github-actions-down-no-problem-green-with-chainguard-checks": {
+  "description": "GitHub Actions outages were slowing Chainguard down. Learn how we built and migrated to Chainguard Checks for faster, more resilient CI.",
+  "fetched": "2026-11-07",
+  "icon": null,
+  "image": "https://images.ctfassets.net/l47ir7rfykkn/1aRb9ODcl00Aa2hKN46DlJ/afd2ca9db1e59b93cc1b4adc09d47acb/Chainguard_Checks_Secure_and_reliable_CI.png"
+ },
  "https://www.chainguard.dev/unchained/rebuild-the-planet": {
   "description": "Patching can't keep pace with AI-discovered vulnerabilities. See how Chainguard plans to eliminate entire classes of security bugs by design.",
   "fetched": "2026-10-30",
@@ -3382,6 +3502,12 @@
   "fetched": "2026-10-24",
   "icon": "https://www.computerworld.dk/images/favicon/apple-touch-icon.png",
   "image": "https://www.computerworld.dk/fil/223423?width=1200&height=630&focus=1"
+ },
+ "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update": {
+  "description": "Google has acquired Crusoe’s southeast Wyoming data center site after Crusoe completed site selection, approvals, and power strategy for the campus.",
+  "fetched": "2026-11-07",
+  "icon": "https://cdn.prod.website-files.com/6855c1aa175582ee23e0aa19/68934b7ef165ad996914d921_Webclip.png",
+  "image": "https://cdn.prod.website-files.com/6863cc86499b79ce3ab28f8b/6aee19ec970f4b7e8614bcdb_6abaa3170b66e6fbd57379d2_Crusoe%20X%20Google-p-1080.jpg"
  },
  "https://www.cve.org/CVERecord?id=CVE-2026-83844": {
   "description": null,
@@ -3929,6 +4055,18 @@
   "icon": "https://www.plagiarismtoday.com/wp-content/uploads/2020/11/cropped-ptlogosquare512-180x180.png",
   "image": "https://www.plagiarismtoday.com/wp-content/uploads/2026/10/AIruinshaunts-675-sized.png"
  },
+ "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai": {
+  "description": "If acceleration compounds, the naive extrapolation implies superintelligence within a year",
+  "fetched": "2026-11-07",
+  "icon": "https://substackcdn.com/image/fetch/$s_!_IzS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13b5091b-67d3-4df8-971d-cff16f144398%2Fapple-touch-icon-57x57.png",
+  "image": "https://substackcdn.com/image/fetch/$s_!u_X_!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd74ff70-df26-4e1a-be31-4fc3543bada8_2048x1072.png"
+ },
+ "https://www.pv-magazine.com/2026/11/06/sodium-ion-batteries-approach-cost-parity-with-lfp-with-70-gwh-covered-by-supply-agreements/": {
+  "description": "Sodium-ion batteries are approaching cell-level cost parity with LFP technology, with supply agreements exceeding 70 GWh worldwide. Despite higher upfront costs, they could offer a 21% lower total cost of ownership over 20 years, according to Wood Mackenzie.",
+  "fetched": "2026-11-07",
+  "icon": "https://www.pv-magazine.com/wp-content/themes/pvmagazine-international/resources/favicons/apple-icon-57x57.png",
+  "image": "https://www.pv-magazine.com/wp-content/uploads/2025/03/Singeng-Sodium-ion-project-in-Hubei.jpg"
+ },
  "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra": {
   "description": "Qualcomm Cloud AI 100 Ultra accelerates generative AI. Discover cost-optimized solutions and explore our products. Contact us today.",
   "fetched": "2026-11-05",
@@ -4046,6 +4184,18 @@
  "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html": {
   "description": "In both a 2021 essay and my 2022 book, A Hacker’s Mind, I talk about AIs finding vulnerabilities and exploits—hacking—the legal system. Here’s some demonstrations of this from Germany: Legal systems encode the foundations of social order in natural language. Similar to computer systems, the written law can contain vulnerabilities that invite exploitation.1 Courts absorb most exploits through interpretation, and such vulnerabilities rarely surface in the first place. With highly capable AI systems enabling the discovery of vulnerabilities at unprecedented scale, we believe the latter could change...",
   "fetched": "2026-11-04",
+  "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+  "image": null
+ },
+ "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-new-jurassic-squid-predecessors.html": {
+  "description": "News story: “Scientists discover a bizarre Jurassic ‘squid’ unlike anything ever seen.” Scientists have identified the “fattest” belemnite ever discovered, a bizarre, barrel-shaped squid relative that lived in Wyoming’s ancient seas 160 million years ago. The exceptionally rare fossils reveal a creature unlike anything previously known, potentially a predator of smaller squid-like animals and a surprising survivor of a supposedly vanished family. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered...",
+  "fetched": "2026-11-07",
+  "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+  "image": null
+ },
+ "https://www.schneier.com/blog/archives/2026/11/pinpointing-location-of-videos-from-background-airplane-sounds.html": {
+  "description": "This is fascinating: The video describes a technique that can reveal where an otherwise unidentifiable recording was made by analyzing its audio for the faint sounds of passing aircraft. The technique is both fascinating and frightening. It works by looking at Doppler curves, which plot the way a plane’s sound changes as it passes overhead because of the Doppler effect. This is the same familiar Doppler effect that causes the frequency of a siren to rise as it approaches and then fall as it passes by and moves away. More generally, it’s the phenomenon whereby the frequency of a wave perceived by an observer changes when the observer and the source of the wave are moving in relation to one another...",
+  "fetched": "2026-11-07",
   "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
   "image": null
  },
@@ -4217,6 +4367,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/02/MA-mergers-and-acquisitions.jpeg"
  },
+ "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/": {
+  "description": "DigiCert says hackers accessed archived data containing business contact information, including names, emails, and phone numbers.",
+  "fetched": "2026-11-07",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/05/DigiCert.jpeg"
+ },
  "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/": {
   "description": "Drupal has patched CVE-2026-118539, an exploited Commerce Core access bypass that may financially impact online store owners.",
   "fetched": "2026-11-01",
@@ -4289,6 +4445,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg"
  },
+ "https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days/": {
+  "description": "A reported Trezor wallet implant, LLMJacking bills reaching $1 million, and SAP flaws weaponized within days of patches.",
+  "fetched": "2026-11-07",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg"
+ },
  "https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/": {
   "description": "Apple’s iOS and macOS 27.2 updates fix 286 flaws, and iOS 18.7.11 brings the fix for exploited CVE-2026-86950 to older devices.",
   "fetched": "2026-10-28",
@@ -4300,6 +4462,12 @@
   "fetched": "2026-11-02",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2024/02/Ivanti-Risks-Exploits.jpg"
+ },
+ "https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/": {
+  "description": "Japan on announced an emergency cybersecurity package after a wave of massive data breaches hit major companies and government agencies.",
+  "fetched": "2026-11-07",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2025/11/Geopolitics-Cybersecurity.jpg"
  },
  "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/": {
   "description": "Malicious LiteLLM packages were served on PyPI and Docker after hackers compromised GitHub CLI OAuth tokens.",
@@ -4360,6 +4528,12 @@
   "fetched": "2026-11-05",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2025/11/OpenAI.jpeg"
+ },
+ "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/": {
+  "description": "GPT-6 Cyber scored 48.5% on ExploitGym, found 81 high-severity Firefox flaws and stayed in scope 99.93% of the time in OpenAI’s tests.",
+  "fetched": "2026-11-07",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/11/OpenAI-GPT.jpeg"
  },
  "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/": {
   "description": "Passkeys replace shared secrets with cryptographic credentials. There is no password for an attacker to steal, intercept through phishing, or reuse against another service.",
@@ -4438,6 +4612,12 @@
   "fetched": "2026-10-29",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg"
+ },
+ "https://www.securityweek.com/us-agencies-urge-organizations-to-harden-refrigeration-controllers/": {
+  "description": "The US urges refrigeration monitoring system hardening amid attacks against European supermarkets and blood banks.",
+  "fetched": "2026-11-07",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/11/freezer-refrigeration.jpeg"
  },
  "https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/": {
   "description": "Denver Health Medical Plan says the information of 238,000 people may have been exposed in a data breach involving SquareML.",
