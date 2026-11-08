@@ -1,19 +1,19 @@
 {
   "date": "2026-11-08",
   "lead": {
-    "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
-    "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-    "excerpt": "Secure everything coding agents build, use, and ship - prevent risk before code exists, AutoFix the backlog, and protect the coding agents and supply chain.",
-    "source": "apiiro.com via Hacker News",
-    "date": "Nov 07",
-    "image": null,
+    "title": "GitHub Down Again?",
+    "link": "https://github.com/torvalds/linux",
+    "excerpt": "Linux kernel source tree. Contribute to torvalds/linux development by creating an account on GitHub.",
+    "source": "github.com via Hacker News",
+    "date": "Nov 08",
+    "image": "https://opengraph.githubassets.com/c033760b2e097954d1261c513d64f9c00df731752131704494768a8f858daec6/torvalds/linux",
     "image_credit": null,
     "section": "News & Research",
     "pinned": false,
     "note": null,
     "labels": [
       "News & Research",
-      "12h ago"
+      "1h ago"
     ],
     "also": []
   },
@@ -25,34 +25,34 @@
       "link_domain": "hunch.net",
       "source": "Hacker News",
       "domain": "hunch.net",
-      "meta": "Hacker News · 453 points · 270 comments · 14h ago",
+      "meta": "Hacker News · 464 points · 277 comments · 17h ago",
       "also": [],
       "image": null,
       "icon": "https://hunch.net/favicon.ico"
     },
     {
-      "title": "How are you dealing with all the negative side effects of AI on the web?",
-      "thread": "https://lobste.rs/s/ipplhe/how_are_you_dealing_with_all_negative_side",
-      "link": null,
-      "link_domain": "",
-      "source": "Lobsters",
-      "domain": "Lobsters",
-      "meta": "Lobsters · 66 points · 61 comments · 23h ago",
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "thread": "https://news.ycombinator.com/item?id=50407882",
+      "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "link_domain": "apiiro.com",
+      "source": "Hacker News",
+      "domain": "apiiro.com",
+      "meta": "Hacker News · 422 points · 287 comments · 14h ago",
       "also": [],
       "image": null,
-      "icon": null
+      "icon": "https://apiiro.com/functions/favicon?size=300"
     },
     {
-      "title": "*sshole, or when are we finally going to get rid of C?",
-      "thread": "https://lobste.rs/s/owsnms/sshole_when_are_we_finally_going_get_rid_c",
-      "link": "https://sunshowers.io/posts/sshole/",
-      "link_domain": "sunshowers.io",
-      "source": "Lobsters",
-      "domain": "sunshowers.io",
-      "meta": "Lobsters · 35 points · 53 comments · 11h ago",
+      "title": "GitHub New pull request overview page in public preview",
+      "thread": "https://news.ycombinator.com/item?id=50408931",
+      "link": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+      "link_domain": "github.blog",
+      "source": "Hacker News",
+      "domain": "github.blog",
+      "meta": "Hacker News · 148 points · 96 comments · 12h ago",
       "also": [],
-      "image": "https://sunshowers.io/images/4-aaaaaa-card.jpg",
-      "icon": "https://sunshowers.io/img/apple-touch-icon-144-precomposed.png"
+      "image": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg",
+      "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180"
     },
     {
       "title": "OpenBSD top(1) adds flag to show chroot, pledge and unveil status",
@@ -61,10 +61,34 @@
       "link_domain": "undeadly.org",
       "source": "Lobsters",
       "domain": "undeadly.org",
-      "meta": "Lobsters · 22 points · 1 comments · 14h ago",
+      "meta": "Lobsters · 22 points · 1 comments · 16h ago",
       "also": [],
       "image": null,
       "icon": "https://undeadly.org/favicon.ico"
+    },
+    {
+      "title": "Dear Open Source Developers: It's OK not to embargo",
+      "thread": "https://lobste.rs/s/lhovnm/dear_open_source_developers_it_s_ok_not",
+      "link": "https://opensourcesecurity.io/2026/10-embargo/",
+      "link_domain": "opensourcesecurity.io",
+      "source": "Lobsters",
+      "domain": "opensourcesecurity.io",
+      "meta": "Lobsters · 19 points · 2 comments · 11h ago",
+      "also": [],
+      "image": "https://opensourcesecurity.io/images/wide-sun-dial.jpg",
+      "icon": "https://opensourcesecurity.io/apple-touch-icon.png"
+    },
+    {
+      "title": "I’m not a fan of Deno’s security model (2024)",
+      "thread": "https://lobste.rs/s/sh62d1/i_m_not_fan_deno_s_security_model_2024",
+      "link": "https://goldstein.lol/posts/deno-security/",
+      "link_domain": "goldstein.lol",
+      "source": "Lobsters",
+      "domain": "goldstein.lol",
+      "meta": "Lobsters · 18 points · 5 comments · 12h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://goldstein.lol/favicon.svg"
     }
   ],
   "sections": [
@@ -81,7 +105,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.683,
+          "score": 0.612,
           "coverage": 1
         }
       ],
@@ -100,7 +124,7 @@
           "icon": null,
           "domain": "arstechnica.com",
           "hn": null,
-          "score": 0.515,
+          "score": 0.474,
           "coverage": 1
         }
       ],
@@ -119,7 +143,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.128,
+          "score": 0.123,
           "coverage": 1
         },
         {
@@ -132,7 +156,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.127,
+          "score": 0.122,
           "coverage": 1
         },
         {
@@ -145,24 +169,11 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.127,
+          "score": 0.121,
           "coverage": 1
         }
       ],
       "more": [
-        {
-          "title": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
-          "link": "https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/",
-          "excerpt": "After its sandbox proxy failed, an internal OpenAI model crafted raw packets and probed AWS services trying to reach the internet. The post OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 06",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/08/rogue-AI-artificial-intelligence.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.121,
-          "coverage": 1
-        },
         {
           "title": "Hackers pull off $133 million French bank heist via service provider",
           "link": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
@@ -173,7 +184,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.243,
+          "score": 0.224,
           "coverage": 1
         },
         {
@@ -186,7 +197,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.233,
+          "score": 0.216,
           "coverage": 1
         },
         {
@@ -199,7 +210,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.16,
+          "score": 0.152,
           "coverage": 1
         },
         {
@@ -212,7 +223,20 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 1.082,
+          "score": 1.028,
+          "coverage": 1
+        },
+        {
+          "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
+          "link": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+          "excerpt": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 06",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/07/29/openai-escape-sandbox.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.141,
           "coverage": 1
         }
       ]
@@ -220,6 +244,19 @@
     {
       "name": "Platform, Cloud & Reliability",
       "cards": [
+        {
+          "title": "Entire's Git Forge Rethinks Git Collaboration for Coding Agents",
+          "link": "https://www.infoq.com/news/2026/11/entire-git-forge-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Entire is a Git forge designed specifically for collaboration between human developers and AI coding agents. Its premise is that traditional software development infrastructure, particularly the pull request (PR) model, is not well suited to an environment where AI agents generate, review, and…",
+          "source": "InfoQ",
+          "date": "Nov 08",
+          "image": "https://res.infoq.com/news/2026/11/entire-git-forge-coding-agents/en/headerimage/entire-git-forge-agents-1794134163813.jpeg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 4.062,
+          "coverage": 1
+        },
         {
           "title": "We organized Sustainability Month. Here’s what we learned. 🌱",
           "link": "https://www.cncf.io/blog/2026/11/07/we-organized-sustainability-month-heres-what-we-learned-%f0%9f%8c%b1/",
@@ -230,7 +267,7 @@
           "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
           "domain": "cncf.io",
           "hn": null,
-          "score": 0.277,
+          "score": 0.257,
           "coverage": 1
         },
         {
@@ -243,9 +280,11 @@
           "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
           "domain": "cncf.io",
           "hn": null,
-          "score": 0.158,
+          "score": 0.151,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "The post-quantum future of web privacy",
           "link": "https://blog.cloudflare.com/vole-mole/",
@@ -256,11 +295,9 @@
           "icon": null,
           "domain": "blog.cloudflare.com",
           "hn": null,
-          "score": 0.204,
+          "score": 0.196,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Google Cloud Adds Self-Managed VMware Cloud Foundation on Bare Metal",
           "link": "https://www.infoq.com/news/2026/11/google-cloud-self-managed-vmware/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -271,7 +308,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.654,
+          "score": 0.554,
           "coverage": 1
         },
         {
@@ -284,7 +321,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.622,
+          "score": 0.531,
           "coverage": 1
         },
         {
@@ -297,20 +334,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.264,
-          "coverage": 1
-        },
-        {
-          "title": "Open Source pg_vectorsearch Brings More Scalable Vector Search to PostgreSQL",
-          "link": "https://www.infoq.com/news/2026/11/postgresql-vector-search/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "Tiger Data has released pg_vectorsearch, an open source PostgreSQL extension for vector similarity search, currently in alpha. Its PRISM index uses data partitioning and compression instead of the graph-based approach used by pgvector’s HNSW index, reducing memory requirements and index build…",
-          "source": "InfoQ",
-          "date": "Nov 07",
-          "image": "https://res.infoq.com/news/2026/11/postgresql-vector-search/en/headerimage/generatedHeaderImage-1792331528868.jpg",
-          "icon": null,
-          "domain": "infoq.com",
-          "hn": null,
-          "score": 0.256,
+          "score": 0.247,
           "coverage": 1
         },
         {
@@ -332,42 +356,42 @@
       "name": "News & Research",
       "cards": [
         {
-          "title": "ZapFast: A fast, native WhatsApp client in Rust and egui",
-          "link": "https://github.com/crmne/zapfast",
-          "excerpt": "ZapFast: a fast, native WhatsApp client in Rust and egui - crmne/zapfast",
+          "title": "I'm Rewriting IBM SPSS Statistics in 100% Safe Rust, Alone",
+          "link": "https://github.com/kobaltgit/StatCraft",
+          "excerpt": "High-performance, memory-safe, and open-source statistical analysis package in 100% pure Safe Rust - kobaltgit/StatCraft",
           "source": "github.com via Hacker News",
           "date": "Nov 08",
-          "image": "https://repository-images.githubusercontent.com/1350713137/51d132b5-ac5f-4382-ad0a-2720c41f2a60",
+          "image": "https://repository-images.githubusercontent.com/1437291090/5c9c199b-f76c-42d6-ae7e-cdc0b29ca55c",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "67 points · 44 comments",
-          "score": 2.879,
+          "hn": "12 points · 11 comments",
+          "score": 2.692,
           "coverage": 1
         },
         {
-          "title": "Commodore PET – The Worlds First Personal Computer",
-          "link": "https://www.commodore.ca/commodore-products/commodore-pet-the-worlds-first-personal-computer/",
-          "excerpt": "Discover the history and features of the Commodore PET, the groundbreaking personal computer that changed technology forever.",
-          "source": "commodore.ca via Hacker News",
-          "date": "Nov 07",
-          "image": "https://i0.wp.com/www.commodore.ca/wp-content/uploads/2013/04/first-commodore-pet-2001_display-1977.jpg",
-          "icon": "https://i0.wp.com/www.commodore.ca/wp-content/uploads/2013/01/cropped-placeholder-commodore-logo_sm.png?fit=180%2C180&ssl=1",
-          "domain": "commodore.ca",
-          "hn": "52 points · 17 comments",
-          "score": 2.296,
+          "title": "Agent memory needs its OpenTelemetry moment",
+          "link": "https://www.lorekit.io/blog/open-agent-memory-format",
+          "excerpt": "Every agent tool stores memory in its own shape, and every week someone builds another one. None of them can read the others. Observability had the same problem until OpenTelemetry gave everyone one data model to share. A tour of today's memory formats, the proposals that already exist, and what a…",
+          "source": "lorekit.io via Hacker News",
+          "date": "Nov 08",
+          "image": null,
+          "icon": "https://www.lorekit.io/icons/icon-192.png",
+          "domain": "lorekit.io",
+          "hn": "52 points · 41 comments",
+          "score": 3.569,
           "coverage": 1
         },
         {
-          "title": "GitHub New pull request overview page in public preview",
-          "link": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
-          "excerpt": "On a long pull request, checking what’s blocking often means scrolling past dozens of comments and timeline events just to reach the merge box. And once you’re there, you still…",
-          "source": "github.blog via Hacker News",
-          "date": "Nov 07",
-          "image": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg",
-          "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
-          "domain": "github.blog",
-          "hn": "134 points · 84 comments",
-          "score": 4.126,
+          "title": "WaveDudeNext 2D Wave Simulator",
+          "link": "https://github.com/graealex/WaveDudeNext",
+          "excerpt": "Interactive 2D wave optics simulator. Turn any image into a refractive scene, add sources, watch waves refract, diffract and interfere. Probes, intensity maps, video export. - graealex/WaveDudeNext",
+          "source": "github.com via Hacker News",
+          "date": "Nov 08",
+          "image": "https://opengraph.githubassets.com/1c7822b4b7e77ff6cdd98e18062b6e8a6810768482bcdd7530f522840b6e59e5/graealex/WaveDudeNext",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "19 points · 4 comments",
+          "score": 2.404,
           "coverage": 1
         }
       ],
@@ -375,53 +399,53 @@
         {
           "title": "Kirlian Photography: Building Your Own Equipment",
           "link": "https://imagesco.com/articles/kirlian/kirlian-photography.html",
-          "excerpt": "34 points · 5 comments",
+          "excerpt": "52 points · 10 comments",
           "source": "imagesco.com via Hacker News",
           "date": "Nov 08",
           "image": null,
           "icon": "https://imagesco.com/favicon.ico",
           "domain": "imagesco.com",
-          "hn": "34 points · 5 comments",
-          "score": 2.644,
+          "hn": "52 points · 10 comments",
+          "score": 2.54,
           "coverage": 1
         },
         {
           "title": "ISponsorBlockTV: SponsorBlock client for all YouTube TV clients",
           "link": "https://github.com/dmunozv04/isponsorblocktv",
-          "excerpt": "26 points · 2 comments",
+          "excerpt": "51 points · 10 comments",
           "source": "github.com via Hacker News",
           "date": "Nov 08",
           "image": null,
           "icon": "https://github.com/favicon.ico",
           "domain": "github.com",
-          "hn": "26 points · 2 comments",
-          "score": 2.39,
+          "hn": "51 points · 10 comments",
+          "score": 2.474,
           "coverage": 1
         },
         {
           "title": "Goodbye Claude, Hello Pi",
           "link": "https://caleb.software/posts/claude-to-pi.html",
-          "excerpt": "247 points · 141 comments",
+          "excerpt": "349 points · 213 comments",
           "source": "caleb.software via Hacker News",
           "date": "Nov 08",
           "image": null,
           "icon": "https://caleb.software/favicon.svg",
           "domain": "caleb.software",
-          "hn": "247 points · 141 comments",
-          "score": 3.761,
+          "hn": "349 points · 213 comments",
+          "score": 3.485,
           "coverage": 1
         },
         {
           "title": "Consumer brain wave headsets threaten privacy",
           "link": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F",
-          "excerpt": "36 points · 12 comments",
+          "excerpt": "62 points · 28 comments",
           "source": "science.org via Hacker News",
           "date": "Nov 08",
           "image": null,
           "icon": "https://www.science.org/favicon.ico",
           "domain": "science.org",
-          "hn": "36 points · 12 comments",
-          "score": 2.446,
+          "hn": "62 points · 28 comments",
+          "score": 2.451,
           "coverage": 1
         }
       ]

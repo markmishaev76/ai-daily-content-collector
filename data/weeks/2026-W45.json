@@ -61,9 +61,9 @@
     {
       "date": "2026-11-08",
       "lead": {
-        "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
-        "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-        "source": "apiiro.com via Hacker News",
+        "title": "GitHub Down Again?",
+        "link": "https://github.com/torvalds/linux",
+        "source": "github.com via Hacker News",
         "section": "News & Research"
       }
     }
@@ -75,7 +75,7 @@
       "source": "OpenAI News",
       "section": "AI Agents & Agent Security",
       "date": "2026-11-05",
-      "coverage": 3,
+      "coverage": 4,
       "score": 4.816
     },
     {
@@ -133,15 +133,6 @@
       "score": 1.905
     },
     {
-      "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
-      "link": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
-      "source": "The Hacker News",
-      "section": "Security & AppSec",
-      "date": "2026-11-07",
-      "coverage": 2,
-      "score": 1.205
-    },
-    {
       "title": "Joules-to-GDP: Measuring the economic value of AI per unit of energy",
       "link": "https://s46486.pcdn.co/blog/joules-to-gdp-measuring-the-economic-value-of-ai-per-unit-of-energy/",
       "source": "Snorkel AI",
@@ -158,6 +149,15 @@
       "date": "2026-11-06",
       "coverage": 1,
       "score": 8.754
+    },
+    {
+      "title": "The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
+      "link": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/",
+      "source": "Cloud Blog",
+      "section": "Platform, Cloud & Reliability",
+      "date": "2026-11-02",
+      "coverage": 1,
+      "score": 8.675
     }
   ]
 }

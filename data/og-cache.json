@@ -1121,6 +1121,12 @@
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://opengraph.githubassets.com/c41a21bb3267a8b8d4e5603ef1670b8c94ba3d9db8fb85ac48a6bad87eeb9a1a/gauge-sh/gauge-cli"
  },
+ "https://github.com/graealex/WaveDudeNext": {
+  "description": "Interactive 2D wave optics simulator. Turn any image into a refractive scene, add sources, watch waves refract, diffract and interfere. Probes, intensity maps, video export. - graealex/WaveDudeNext",
+  "fetched": "2026-11-08",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://opengraph.githubassets.com/1c7822b4b7e77ff6cdd98e18062b6e8a6810768482bcdd7530f522840b6e59e5/graealex/WaveDudeNext"
+ },
  "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve": {
   "description": "A lightweight coding and automation agent in one CLI binary. Run locally or over SSH, optimize token use, and automate CI and cron with durable workflows. - guregodevo/memdoor",
   "fetched": "2026-11-01",
@@ -1144,6 +1150,12 @@
   "fetched": "2026-10-27",
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://opengraph.githubassets.com/2829e1517a39ef301b05bfb7cb714018c72c86e37c1bc194e6a37925c6d46914/indexable-inc/blaze"
+ },
+ "https://github.com/kobaltgit/StatCraft": {
+  "description": "High-performance, memory-safe, and open-source statistical analysis package in 100% pure Safe Rust - kobaltgit/StatCraft",
+  "fetched": "2026-11-08",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://repository-images.githubusercontent.com/1437291090/5c9c199b-f76c-42d6-ae7e-cdc0b29ca55c"
  },
  "https://github.com/maharmstone/moxnox": {
   "description": "NT-like POSIX-compatible operating system. Contribute to maharmstone/moxnox development by creating an account on GitHub.",
@@ -1211,6 +1223,12 @@
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://opengraph.githubassets.com/6ca5ca5347933d3b5b69c1d06228df76a2c5e79dc8eff3a0aa86bc1c06402795/thomasunise/casecite"
  },
+ "https://github.com/torvalds/linux": {
+  "description": "Linux kernel source tree. Contribute to torvalds/linux development by creating an account on GitHub.",
+  "fetched": "2026-11-08",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://opengraph.githubassets.com/c033760b2e097954d1261c513d64f9c00df731752131704494768a8f858daec6/torvalds/linux"
+ },
  "https://github.com/zalando-incubator/agentic-identity-broker": {
   "description": "Identity broker for AI agents with OAuth2 delegation and consent management - zalando-incubator/agentic-identity-broker",
   "fetched": "2026-11-07",
@@ -1227,6 +1245,12 @@
   "description": null,
   "fetched": "2026-10-28",
   "icon": null,
+  "image": null
+ },
+ "https://goldstein.lol/posts/deno-security/": {
+  "description": null,
+  "fetched": "2026-11-08",
+  "icon": "https://goldstein.lol/favicon.svg",
   "image": null
  },
  "https://gopher.muffinlabs.com/sdf.org/users/nervtoji/phlog/001.txt": {
@@ -2152,6 +2176,12 @@
   "fetched": "2026-10-30",
   "icon": null,
   "image": null
+ },
+ "https://opensourcesecurity.io/2026/10-embargo/": {
+  "description": "Something really important just happened with vulnerability disclosure and open source. No, it’s not PHP and that dumpster fire of a week. I speak of something Curl just did that probably won’t make the news anywhere because to most people it won’t really make sense. Curl just announced that all low and medium security reports should go into the public issue tracker instead of being privately reported curl vulnerability disclosure policy",
+  "fetched": "2026-11-08",
+  "icon": "https://opensourcesecurity.io/apple-touch-icon.png",
+  "image": "https://opensourcesecurity.io/images/wide-sun-dial.jpg"
  },
  "https://openssf.org/blog/2026/10/23/new-openssf-tech-talk-how-upstream-contribution-minimizes-technical-debt-streamlines-cra-reporting/": {
   "description": null,
@@ -3551,6 +3581,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2026/10/31/northflank-header.jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/": {
+  "description": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws.",
+  "fetched": "2026-11-08",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/07/29/openai-escape-sandbox.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/": {
   "description": "Reddit announced in a post by co-founder Steve Huffman that the site will gradually become a \"logged-in service,\" offering limited access to visitors without accounts.",
   "fetched": "2026-11-02",
@@ -3951,6 +3987,12 @@
   "description": null,
   "fetched": "2026-11-06",
   "icon": "https://res.cloudinary.com/lesswrong-2-0/image/upload/v1497915096/favicon_lncumn.ico",
+  "image": null
+ },
+ "https://www.lorekit.io/blog/open-agent-memory-format": {
+  "description": "Every agent tool stores memory in its own shape, and every week someone builds another one. None of them can read the others. Observability had the same problem until OpenTelemetry gave everyone one data model to share. A tour of today's memory formats, the proposals that already exist, and what a shared spec could look like.",
+  "fetched": "2026-11-08",
+  "icon": "https://www.lorekit.io/icons/icon-192.png",
   "image": null
  },
  "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/rethinking-growth-with-ai-a-conversation-with-slack-cmo-ryan-gavin": {
