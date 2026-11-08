@@ -13,7 +13,7 @@
     "note": null,
     "labels": [
       "News & Research",
-      "9h ago"
+      "12h ago"
     ],
     "also": []
   },
@@ -25,7 +25,7 @@
       "link_domain": "hunch.net",
       "source": "Hacker News",
       "domain": "hunch.net",
-      "meta": "Hacker News · 432 points · 258 comments · 12h ago",
+      "meta": "Hacker News · 453 points · 270 comments · 14h ago",
       "also": [],
       "image": null,
       "icon": "https://hunch.net/favicon.ico"
@@ -37,7 +37,7 @@
       "link_domain": "",
       "source": "Lobsters",
       "domain": "Lobsters",
-      "meta": "Lobsters · 61 points · 58 comments · 20h ago",
+      "meta": "Lobsters · 66 points · 61 comments · 23h ago",
       "also": [],
       "image": null,
       "icon": null
@@ -49,22 +49,10 @@
       "link_domain": "sunshowers.io",
       "source": "Lobsters",
       "domain": "sunshowers.io",
-      "meta": "Lobsters · 31 points · 42 comments · 9h ago",
+      "meta": "Lobsters · 35 points · 53 comments · 11h ago",
       "also": [],
       "image": "https://sunshowers.io/images/4-aaaaaa-card.jpg",
       "icon": "https://sunshowers.io/img/apple-touch-icon-144-precomposed.png"
-    },
-    {
-      "title": "The Components of Agent Memory",
-      "thread": "https://news.ycombinator.com/item?id=50402212",
-      "link": "https://www.anthropic.com/research/components-of-agent-memory",
-      "link_domain": "anthropic.com",
-      "source": "Hacker News",
-      "domain": "anthropic.com",
-      "meta": "Hacker News · 155 points · 86 comments · 23h ago",
-      "also": [],
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6ab2663a2c0bd6a41409d90136a59a5d72995ea5-1200x630.jpg",
-      "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png"
     },
     {
       "title": "OpenBSD top(1) adds flag to show chroot, pledge and unveil status",
@@ -73,7 +61,7 @@
       "link_domain": "undeadly.org",
       "source": "Lobsters",
       "domain": "undeadly.org",
-      "meta": "Lobsters · 20 points · 1 comments · 11h ago",
+      "meta": "Lobsters · 22 points · 1 comments · 14h ago",
       "also": [],
       "image": null,
       "icon": "https://undeadly.org/favicon.ico"
@@ -93,20 +81,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.794,
-          "coverage": 1
-        },
-        {
-          "title": "Welcome to life in the chip age",
-          "link": "https://stackoverflow.blog/2026/11/06/welcome-to-life-in-the-chip-age/",
-          "excerpt": "Ryan sits down with Rakesh Kumar, professor of computer engineering at the University of Illinois Urbana-Champaign, about the astounding complexity of manufacturing modern semiconductors, the massive environmental and geopolitical footprint of AI data centers, and how AI models are rapidly…",
-          "source": "Stack Overflow Blog",
-          "date": "Nov 06",
-          "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format",
-          "icon": "https://stackoverflow.blog/apple-touch-icon.png",
-          "domain": "stackoverflow.blog",
-          "hn": null,
-          "score": 0.251,
+          "score": 0.683,
           "coverage": 1
         }
       ],
@@ -125,7 +100,7 @@
           "icon": null,
           "domain": "arstechnica.com",
           "hn": null,
-          "score": 0.572,
+          "score": 0.515,
           "coverage": 1
         }
       ],
@@ -144,7 +119,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.135,
+          "score": 0.128,
           "coverage": 1
         },
         {
@@ -157,7 +132,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.134,
+          "score": 0.127,
           "coverage": 1
         },
         {
@@ -170,7 +145,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.133,
+          "score": 0.127,
           "coverage": 1
         }
       ],
@@ -185,7 +160,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.127,
+          "score": 0.121,
           "coverage": 1
         },
         {
@@ -198,7 +173,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.27,
+          "score": 0.243,
           "coverage": 1
         },
         {
@@ -211,7 +186,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.258,
+          "score": 0.233,
           "coverage": 1
         },
         {
@@ -224,7 +199,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.171,
+          "score": 0.16,
           "coverage": 1
         },
         {
@@ -237,7 +212,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 1.155,
+          "score": 1.082,
           "coverage": 1
         }
       ]
@@ -255,7 +230,7 @@
           "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
           "domain": "cncf.io",
           "hn": null,
-          "score": 0.304,
+          "score": 0.277,
           "coverage": 1
         },
         {
@@ -268,7 +243,7 @@
           "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
           "domain": "cncf.io",
           "hn": null,
-          "score": 0.166,
+          "score": 0.158,
           "coverage": 1
         },
         {
@@ -281,11 +256,37 @@
           "icon": null,
           "domain": "blog.cloudflare.com",
           "hn": null,
-          "score": 0.216,
+          "score": 0.204,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "Google Cloud Adds Self-Managed VMware Cloud Foundation on Bare Metal",
+          "link": "https://www.infoq.com/news/2026/11/google-cloud-self-managed-vmware/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Google Cloud has made a self-managed VMware solution generally available, running VMware Cloud Foundation 9.x on dedicated Z3 bare metal with root access across ESXi, vCenter and NSX in 22 regions. It sits beside the Google-managed VMware Engine and matches customer-operated offerings from AWS and…",
+          "source": "InfoQ",
+          "date": "Nov 08",
+          "image": "https://res.infoq.com/news/2026/11/google-cloud-self-managed-vmware/en/headerimage/generatedHeaderImage-1793604325753.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.654,
+          "coverage": 1
+        },
+        {
+          "title": "Cloudflare Scales D1 Control Plane to Millions of Databases",
+          "link": "https://www.infoq.com/news/2026/11/cloudflare-d1-control-plane/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "In a recent article, Cloudflare shared the redesign of the control plane of its D1 serverless SQL database to support millions of databases, avoiding centralized bottlenecks, implementing retries and idempotency, and using eventual consistency. By Renato Losio",
+          "source": "InfoQ",
+          "date": "Nov 08",
+          "image": "https://res.infoq.com/news/2026/11/cloudflare-d1-control-plane/en/headerimage/generatedHeaderImage-1792577891694.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.622,
+          "coverage": 1
+        },
         {
           "title": "How Grab Improved Mobile App Stability by Safely Handling Surge in AI-Generated Code Changes",
           "link": "https://www.infoq.com/news/2026/11/grab-ai-generated-code-safety/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -296,7 +297,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.289,
+          "score": 0.264,
           "coverage": 1
         },
         {
@@ -309,33 +310,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.279,
-          "coverage": 1
-        },
-        {
-          "title": "Varlock Releases Bumpy: A File-Based Versioning Alternative to Changesets",
-          "link": "https://www.infoq.com/news/2026/11/bumpy-changesets-alternative/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "Bumpy is an MIT-licensed, TypeScript tool for version management and changelogs in monorepos. It follows the changesets workflow, using markdown bump files, and adds support for workspace and catalog protocols, custom publish commands, and branch-based prereleases. Changesets v3, released in…",
-          "source": "InfoQ",
-          "date": "Nov 07",
-          "image": "https://res.infoq.com/news/2026/11/bumpy-changesets-alternative/en/headerimage/generatedHeaderImage-1793973539308.jpg",
-          "icon": null,
-          "domain": "infoq.com",
-          "hn": null,
           "score": 0.256,
-          "coverage": 1
-        },
-        {
-          "title": "Yelp Combines Native and Server-Driven UI for Its AI Assistant",
-          "link": "https://www.infoq.com/news/2026/11/yelp-assistant-hybrid-ui/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "Yelp combines native mobile controls with server-driven conversation rendering in its AI Assistant using the CHAOS framework. The architecture separates view configuration from conversation data, supports backend-driven chat interactions, and enables faster UI updates without new app releases.…",
-          "source": "InfoQ",
-          "date": "Nov 06",
-          "image": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
-          "icon": null,
-          "domain": "infoq.com",
-          "hn": null,
-          "score": 0.174,
           "coverage": 1
         },
         {
@@ -365,8 +340,8 @@
           "image": "https://repository-images.githubusercontent.com/1350713137/51d132b5-ac5f-4382-ad0a-2720c41f2a60",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "34 points · 16 comments",
-          "score": 2.915,
+          "hn": "67 points · 44 comments",
+          "score": 2.879,
           "coverage": 1
         },
         {
@@ -378,8 +353,8 @@
           "image": "https://i0.wp.com/www.commodore.ca/wp-content/uploads/2013/04/first-commodore-pet-2001_display-1977.jpg",
           "icon": "https://i0.wp.com/www.commodore.ca/wp-content/uploads/2013/01/cropped-placeholder-commodore-logo_sm.png?fit=180%2C180&ssl=1",
           "domain": "commodore.ca",
-          "hn": "40 points · 14 comments",
-          "score": 2.525,
+          "hn": "52 points · 17 comments",
+          "score": 2.296,
           "coverage": 1
         },
         {
@@ -391,8 +366,8 @@
           "image": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg",
           "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
           "domain": "github.blog",
-          "hn": "107 points · 75 comments",
-          "score": 4.624,
+          "hn": "134 points · 84 comments",
+          "score": 4.126,
           "coverage": 1
         }
       ],
@@ -400,53 +375,53 @@
         {
           "title": "Kirlian Photography: Building Your Own Equipment",
           "link": "https://imagesco.com/articles/kirlian/kirlian-photography.html",
-          "excerpt": "11 points · 2 comments",
+          "excerpt": "34 points · 5 comments",
           "source": "imagesco.com via Hacker News",
           "date": "Nov 08",
           "image": null,
           "icon": "https://imagesco.com/favicon.ico",
           "domain": "imagesco.com",
-          "hn": "11 points · 2 comments",
-          "score": 2.448,
+          "hn": "34 points · 5 comments",
+          "score": 2.644,
+          "coverage": 1
+        },
+        {
+          "title": "ISponsorBlockTV: SponsorBlock client for all YouTube TV clients",
+          "link": "https://github.com/dmunozv04/isponsorblocktv",
+          "excerpt": "26 points · 2 comments",
+          "source": "github.com via Hacker News",
+          "date": "Nov 08",
+          "image": null,
+          "icon": "https://github.com/favicon.ico",
+          "domain": "github.com",
+          "hn": "26 points · 2 comments",
+          "score": 2.39,
           "coverage": 1
         },
         {
           "title": "Goodbye Claude, Hello Pi",
           "link": "https://caleb.software/posts/claude-to-pi.html",
-          "excerpt": "82 points · 41 comments",
+          "excerpt": "247 points · 141 comments",
           "source": "caleb.software via Hacker News",
           "date": "Nov 08",
           "image": null,
           "icon": "https://caleb.software/favicon.svg",
           "domain": "caleb.software",
-          "hn": "82 points · 41 comments",
-          "score": 3.735,
+          "hn": "247 points · 141 comments",
+          "score": 3.761,
           "coverage": 1
         },
         {
           "title": "Consumer brain wave headsets threaten privacy",
           "link": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F",
-          "excerpt": "13 points · 3 comments",
+          "excerpt": "36 points · 12 comments",
           "source": "science.org via Hacker News",
           "date": "Nov 08",
           "image": null,
           "icon": "https://www.science.org/favicon.ico",
           "domain": "science.org",
-          "hn": "13 points · 3 comments",
-          "score": 2.234,
-          "coverage": 1
-        },
-        {
-          "title": "IRA Velinsky – Commodore's Industrial Designer",
-          "link": "https://www.commodore.ca/commodore-history/ira-velinsky-commodores-amazing-industrial-designer/",
-          "excerpt": "Explore Ira Velinsky's impact on Commodore computers from C64 to PET, highlighting his contributions to 8-bit PC design history.",
-          "source": "commodore.ca via Hacker News",
-          "date": "Nov 07",
-          "image": "https://i0.wp.com/www.commodore.ca/wp-content/uploads/2026/04/Ira-Velinsky-Commodore-Computer-Industrial-Designer-Gets-Credit-For-New-NYC-Bus-Stop-Signage-in-1974.jpg",
-          "icon": "https://i0.wp.com/www.commodore.ca/wp-content/uploads/2013/01/cropped-placeholder-commodore-logo_sm.png?fit=180%2C180&ssl=1",
-          "domain": "commodore.ca",
-          "hn": "26 points · 1 comments",
-          "score": 2.112,
+          "hn": "36 points · 12 comments",
+          "score": 2.446,
           "coverage": 1
         }
       ]
