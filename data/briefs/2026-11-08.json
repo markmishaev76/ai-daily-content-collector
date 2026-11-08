@@ -1,19 +1,19 @@
 {
   "date": "2026-11-08",
   "lead": {
-    "title": "GitHub Down Again?",
-    "link": "https://github.com/torvalds/linux",
-    "excerpt": "Linux kernel source tree. Contribute to torvalds/linux development by creating an account on GitHub.",
-    "source": "github.com via Hacker News",
+    "title": "Person of Interest",
+    "link": "https://krthr.co/person-of-interest/",
+    "excerpt": "A few days ago, I started watching Person of Interest, and I haven’t been able to stop. Aside from the fact that the show feels even more relevant today than...",
+    "source": "krthr.co via Hacker News",
     "date": "Nov 08",
-    "image": "https://opengraph.githubassets.com/c033760b2e097954d1261c513d64f9c00df731752131704494768a8f858daec6/torvalds/linux",
+    "image": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/krthr/474167074_9348806235164701_1627609488563106497_n.webp",
     "image_credit": null,
     "section": "News & Research",
     "pinned": false,
     "note": null,
     "labels": [
       "News & Research",
-      "1h ago"
+      "3h ago"
     ],
     "also": []
   },
@@ -25,7 +25,7 @@
       "link_domain": "hunch.net",
       "source": "Hacker News",
       "domain": "hunch.net",
-      "meta": "Hacker News · 464 points · 277 comments · 17h ago",
+      "meta": "Hacker News · 477 points · 290 comments · 20h ago",
       "also": [],
       "image": null,
       "icon": "https://hunch.net/favicon.ico"
@@ -37,34 +37,22 @@
       "link_domain": "apiiro.com",
       "source": "Hacker News",
       "domain": "apiiro.com",
-      "meta": "Hacker News · 422 points · 287 comments · 14h ago",
+      "meta": "Hacker News · 464 points · 327 comments · 17h ago",
       "also": [],
       "image": null,
       "icon": "https://apiiro.com/functions/favicon?size=300"
     },
     {
-      "title": "GitHub New pull request overview page in public preview",
-      "thread": "https://news.ycombinator.com/item?id=50408931",
-      "link": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
-      "link_domain": "github.blog",
+      "title": "Goodbye Claude, Hello Pi",
+      "thread": "https://news.ycombinator.com/item?id=50410107",
+      "link": "https://caleb.software/posts/claude-to-pi.html",
+      "link_domain": "caleb.software",
       "source": "Hacker News",
-      "domain": "github.blog",
-      "meta": "Hacker News · 148 points · 96 comments · 12h ago",
-      "also": [],
-      "image": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg",
-      "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180"
-    },
-    {
-      "title": "OpenBSD top(1) adds flag to show chroot, pledge and unveil status",
-      "thread": "https://lobste.rs/s/tfywf1/openbsd_top_1_adds_flag_show_chroot_pledge",
-      "link": "https://undeadly.org/cgi?action=article;sid=20261106104957",
-      "link_domain": "undeadly.org",
-      "source": "Lobsters",
-      "domain": "undeadly.org",
-      "meta": "Lobsters · 22 points · 1 comments · 16h ago",
+      "domain": "caleb.software",
+      "meta": "Hacker News · 450 points · 292 comments · 11h ago",
       "also": [],
       "image": null,
-      "icon": "https://undeadly.org/favicon.ico"
+      "icon": "https://caleb.software/favicon.svg"
     },
     {
       "title": "Dear Open Source Developers: It's OK not to embargo",
@@ -73,10 +61,34 @@
       "link_domain": "opensourcesecurity.io",
       "source": "Lobsters",
       "domain": "opensourcesecurity.io",
-      "meta": "Lobsters · 19 points · 2 comments · 11h ago",
+      "meta": "Lobsters · 25 points · 2 comments · 14h ago",
       "also": [],
       "image": "https://opensourcesecurity.io/images/wide-sun-dial.jpg",
       "icon": "https://opensourcesecurity.io/apple-touch-icon.png"
+    },
+    {
+      "title": "OpenBSD top(1) adds flag to show chroot, pledge and unveil status",
+      "thread": "https://lobste.rs/s/tfywf1/openbsd_top_1_adds_flag_show_chroot_pledge",
+      "link": "https://undeadly.org/cgi?action=article;sid=20261106104957",
+      "link_domain": "undeadly.org",
+      "source": "Lobsters",
+      "domain": "undeadly.org",
+      "meta": "Lobsters · 25 points · 1 comments · 19h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://undeadly.org/favicon.ico"
+    },
+    {
+      "title": "GitHub New pull request overview page in public preview",
+      "thread": "https://news.ycombinator.com/item?id=50408931",
+      "link": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+      "link_domain": "github.blog",
+      "source": "Hacker News",
+      "domain": "github.blog",
+      "meta": "Hacker News · 157 points · 108 comments · 15h ago",
+      "also": [],
+      "image": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg",
+      "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180"
     },
     {
       "title": "I’m not a fan of Deno’s security model (2024)",
@@ -85,7 +97,7 @@
       "link_domain": "goldstein.lol",
       "source": "Lobsters",
       "domain": "goldstein.lol",
-      "meta": "Lobsters · 18 points · 5 comments · 12h ago",
+      "meta": "Lobsters · 21 points · 6 comments · 15h ago",
       "also": [],
       "image": null,
       "icon": "https://goldstein.lol/favicon.svg"
@@ -105,7 +117,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.612,
+          "score": 0.543,
           "coverage": 1
         }
       ],
@@ -124,7 +136,7 @@
           "icon": null,
           "domain": "arstechnica.com",
           "hn": null,
-          "score": 0.474,
+          "score": 0.434,
           "coverage": 1
         }
       ],
@@ -134,46 +146,18 @@
       "name": "Security & AppSec",
       "cards": [
         {
-          "title": "Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack",
-          "link": "https://www.securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack/",
-          "excerpt": "The October incident will cut fourth-quarter sales by up to €250 million and has led Ahold Delhaize to lower its 2026 outlook. The post Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack appeared first on SecurityWeek.",
+          "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
+          "link": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
+          "excerpt": "Its multi-agent AI platform generates the telemetry an attack would produce to fix gaps in enterprise defenses. The post Brava Security Emerges From Stealth With $15 Million in Funding appeared first on SecurityWeek.",
           "source": "SecurityWeek",
-          "date": "Nov 06",
-          "image": "https://www.securityweek.com/wp-content/uploads/2024/11/Ahold-Delhaize-cyberattack.jpeg",
+          "date": "Nov 08",
+          "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.123,
+          "score": 0.506,
           "coverage": 1
         },
-        {
-          "title": "Researchers Find Residential Proxies on White House Network",
-          "link": "https://www.securityweek.com/researchers-find-residential-proxies-on-white-house-network/",
-          "excerpt": "In a month, 28 residential proxy services used 6 addresses, mainly between 5 p.m. and midnight, Eastern Time. The post Researchers Find Residential Proxies on White House Network appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 06",
-          "image": "https://www.securityweek.com/wp-content/uploads/2025/01/Whitehouse-Cybersecurity.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.122,
-          "coverage": 1
-        },
-        {
-          "title": "OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass",
-          "link": "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/",
-          "excerpt": "On Linux distributions using musl libc without PAM, some accounts accept any password between 257 and 1024 characters. The post OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 06",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/SSH.webp",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.121,
-          "coverage": 1
-        }
-      ],
-      "more": [
         {
           "title": "Hackers pull off $133 million French bank heist via service provider",
           "link": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
@@ -184,7 +168,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.224,
+          "score": 0.205,
           "coverage": 1
         },
         {
@@ -197,9 +181,11 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.216,
+          "score": 0.198,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
           "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
@@ -210,7 +196,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.152,
+          "score": 0.143,
           "coverage": 1
         },
         {
@@ -223,7 +209,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 1.028,
+          "score": 0.969,
           "coverage": 1
         },
         {
@@ -236,7 +222,33 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.141,
+          "score": 0.133,
+          "coverage": 1
+        },
+        {
+          "title": "Fake security tools on GitHub push backdoors and infostealers",
+          "link": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+          "excerpt": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 06",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/06/github.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.129,
+          "coverage": 1
+        },
+        {
+          "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
+          "excerpt": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 06",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/06/QNAP.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.125,
           "coverage": 1
         }
       ]
@@ -254,7 +266,20 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 4.062,
+          "score": 3.284,
+          "coverage": 1
+        },
+        {
+          "title": "Lima v2.3: Native on Windows, VMnet on Linux, and menu TUI",
+          "link": "https://www.cncf.io/blog/2026/11/08/lima-v2-3-native-on-windows-vmnet-on-linux-and-menu-tui/",
+          "excerpt": "Back in July with v2.2, we added support for Windows guests. On November 6, we shipped v2.3 of Lima and now it runs without extra dependencies on Windows: VMs start through the same Host Compute System...",
+          "source": "Blog – Cloud Native Computing Foundation",
+          "date": "Nov 08",
+          "image": "https://www.cncf.io/wp-content/uploads/2026/11/image-5.jpg",
+          "icon": null,
+          "domain": "cncf.io",
+          "hn": null,
+          "score": 0.644,
           "coverage": 1
         },
         {
@@ -267,37 +292,11 @@
           "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
           "domain": "cncf.io",
           "hn": null,
-          "score": 0.257,
-          "coverage": 1
-        },
-        {
-          "title": "Faster LLM inference startup: What you need to know",
-          "link": "https://www.cncf.io/blog/2026/11/06/faster-llm-inference-startup-what-you-need-to-know/",
-          "excerpt": "Adding an inference replica creates capacity only after the new instance can serve requests. Between starting a process and generating a response, an LLM server may need to load weights, initialize GPU resources, compile kernels, capture...",
-          "source": "Blog – Cloud Native Computing Foundation",
-          "date": "Nov 06",
-          "image": "https://www.cncf.io/wp-content/uploads/2026/11/Faster-LLM-inference-startup-What-you-need-to-know.jpg",
-          "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
-          "domain": "cncf.io",
-          "hn": null,
-          "score": 0.151,
+          "score": 0.237,
           "coverage": 1
         }
       ],
       "more": [
-        {
-          "title": "The post-quantum future of web privacy",
-          "link": "https://blog.cloudflare.com/vole-mole/",
-          "excerpt": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cryptography that may help close the gap.",
-          "source": "Cloudflare Blog",
-          "date": "Nov 06",
-          "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M6RNKQ9RKEJ9CKY6DGNF44RV.01M6RNKRJAQTN05BV66646AM7Z.png",
-          "icon": null,
-          "domain": "blog.cloudflare.com",
-          "hn": null,
-          "score": 0.196,
-          "coverage": 1
-        },
         {
           "title": "Google Cloud Adds Self-Managed VMware Cloud Foundation on Bare Metal",
           "link": "https://www.infoq.com/news/2026/11/google-cloud-self-managed-vmware/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -308,7 +307,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.554,
+          "score": 0.469,
           "coverage": 1
         },
         {
@@ -321,7 +320,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.531,
+          "score": 0.452,
           "coverage": 1
         },
         {
@@ -334,7 +333,20 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.247,
+          "score": 0.228,
+          "coverage": 1
+        },
+        {
+          "title": "Open Source pg_vectorsearch Brings More Scalable Vector Search to PostgreSQL",
+          "link": "https://www.infoq.com/news/2026/11/postgresql-vector-search/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Tiger Data has released pg_vectorsearch, an open source PostgreSQL extension for vector similarity search, currently in alpha. Its PRISM index uses data partitioning and compression instead of the graph-based approach used by pgvector’s HNSW index, reducing memory requirements and index build…",
+          "source": "InfoQ",
+          "date": "Nov 07",
+          "image": "https://res.infoq.com/news/2026/11/postgresql-vector-search/en/headerimage/generatedHeaderImage-1792331528868.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.221,
           "coverage": 1
         },
         {
@@ -356,29 +368,29 @@
       "name": "News & Research",
       "cards": [
         {
-          "title": "I'm Rewriting IBM SPSS Statistics in 100% Safe Rust, Alone",
-          "link": "https://github.com/kobaltgit/StatCraft",
-          "excerpt": "High-performance, memory-safe, and open-source statistical analysis package in 100% pure Safe Rust - kobaltgit/StatCraft",
+          "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+          "link": "https://github.com/synchopate/llama-modchip",
+          "excerpt": "🐋 Run 284B DeepSeek-V4-Flash (&lt;59GiB RAM, 44.4 tok/s pp, 9.1-14.7 tok/s) &amp; 30B MoEs (25-111 tok/s) on a pure 64GB CPU at 256K ctx (0 GPUs). SwiGLU-H2, Stockfish-PVS L3 &amp; 13ms Claude Code...",
           "source": "github.com via Hacker News",
           "date": "Nov 08",
-          "image": "https://repository-images.githubusercontent.com/1437291090/5c9c199b-f76c-42d6-ae7e-cdc0b29ca55c",
+          "image": "https://opengraph.githubassets.com/6ce6b5285a34bc404af499bb098a744493d1e12ea0584e110485db6346d9e3b1/synchopate/llama-modchip",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "12 points · 11 comments",
-          "score": 2.692,
+          "hn": "63 points · 28 comments",
+          "score": 3.275,
           "coverage": 1
         },
         {
-          "title": "Agent memory needs its OpenTelemetry moment",
-          "link": "https://www.lorekit.io/blog/open-agent-memory-format",
-          "excerpt": "Every agent tool stores memory in its own shape, and every week someone builds another one. None of them can read the others. Observability had the same problem until OpenTelemetry gave everyone one data model to share. A tour of today's memory formats, the proposals that already exist, and what a…",
-          "source": "lorekit.io via Hacker News",
+          "title": "Petered (what happens after the Peter Principle)",
+          "link": "https://aworkinglibrary.com/writing/petered",
+          "excerpt": "We’re looking in the wrong place for the imposters among us.",
+          "source": "aworkinglibrary.com via Hacker News",
           "date": "Nov 08",
-          "image": null,
-          "icon": "https://www.lorekit.io/icons/icon-192.png",
-          "domain": "lorekit.io",
-          "hn": "52 points · 41 comments",
-          "score": 3.569,
+          "image": "https://aworkinglibrary.com/img/social-2026.png",
+          "icon": "https://aworkinglibrary.com/favicon.ico",
+          "domain": "aworkinglibrary.com",
+          "hn": "84 points · 46 comments",
+          "score": 3.623,
           "coverage": 1
         },
         {
@@ -390,62 +402,62 @@
           "image": "https://opengraph.githubassets.com/1c7822b4b7e77ff6cdd98e18062b6e8a6810768482bcdd7530f522840b6e59e5/graealex/WaveDudeNext",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "19 points · 4 comments",
-          "score": 2.404,
+          "hn": "33 points · 8 comments",
+          "score": 2.325,
           "coverage": 1
         }
       ],
       "more": [
         {
+          "title": "JIT bitmap text rendering for microcontrollers",
+          "link": "https://linebender.org/blog/jit-bitmap-text/",
+          "excerpt": "JIT bitmap text rendering for microcontrollers",
+          "source": "linebender.org via Hacker News",
+          "date": "Nov 08",
+          "image": null,
+          "icon": "https://linebender.org/favicon.ico",
+          "domain": "linebender.org",
+          "hn": "43 points · 6 comments",
+          "score": 2.959,
+          "coverage": 1
+        },
+        {
+          "title": "Agent memory needs its OpenTelemetry moment",
+          "link": "https://www.lorekit.io/blog/open-agent-memory-format",
+          "excerpt": "Every agent tool stores memory in its own shape, and every week someone builds another one. None of them can read the others. Observability had the same problem until OpenTelemetry gave everyone one data model to share. A tour of today's memory formats, the proposals that already exist, and what a…",
+          "source": "lorekit.io via Hacker News",
+          "date": "Nov 08",
+          "image": null,
+          "icon": "https://www.lorekit.io/icons/icon-192.png",
+          "domain": "lorekit.io",
+          "hn": "86 points · 72 comments",
+          "score": 3.269,
+          "coverage": 1
+        },
+        {
           "title": "Kirlian Photography: Building Your Own Equipment",
           "link": "https://imagesco.com/articles/kirlian/kirlian-photography.html",
-          "excerpt": "52 points · 10 comments",
+          "excerpt": "60 points · 16 comments",
           "source": "imagesco.com via Hacker News",
           "date": "Nov 08",
           "image": null,
           "icon": "https://imagesco.com/favicon.ico",
           "domain": "imagesco.com",
-          "hn": "52 points · 10 comments",
-          "score": 2.54,
+          "hn": "60 points · 16 comments",
+          "score": 2.292,
           "coverage": 1
         },
         {
           "title": "ISponsorBlockTV: SponsorBlock client for all YouTube TV clients",
           "link": "https://github.com/dmunozv04/isponsorblocktv",
-          "excerpt": "51 points · 10 comments",
+          "excerpt": "75 points · 30 comments",
           "source": "github.com via Hacker News",
           "date": "Nov 08",
           "image": null,
           "icon": "https://github.com/favicon.ico",
           "domain": "github.com",
-          "hn": "51 points · 10 comments",
-          "score": 2.474,
-          "coverage": 1
-        },
-        {
-          "title": "Goodbye Claude, Hello Pi",
-          "link": "https://caleb.software/posts/claude-to-pi.html",
-          "excerpt": "349 points · 213 comments",
-          "source": "caleb.software via Hacker News",
-          "date": "Nov 08",
-          "image": null,
-          "icon": "https://caleb.software/favicon.svg",
-          "domain": "caleb.software",
-          "hn": "349 points · 213 comments",
-          "score": 3.485,
-          "coverage": 1
-        },
-        {
-          "title": "Consumer brain wave headsets threaten privacy",
-          "link": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F",
-          "excerpt": "62 points · 28 comments",
-          "source": "science.org via Hacker News",
-          "date": "Nov 08",
-          "image": null,
-          "icon": "https://www.science.org/favicon.ico",
-          "domain": "science.org",
-          "hn": "62 points · 28 comments",
-          "score": 2.451,
+          "hn": "75 points · 30 comments",
+          "score": 2.387,
           "coverage": 1
         }
       ]

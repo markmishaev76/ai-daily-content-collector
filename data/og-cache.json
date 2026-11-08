@@ -257,6 +257,12 @@
   "icon": "https://atlasum.net/favicon/apple-touch-icon.png",
   "image": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf/opengraph-image"
  },
+ "https://aworkinglibrary.com/writing/petered": {
+  "description": "We’re looking in the wrong place for the imposters among us.",
+  "fetched": "2026-11-08",
+  "icon": null,
+  "image": "https://aworkinglibrary.com/img/social-2026.png"
+ },
  "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-1-terra-on-bedrock-step-functions-as-agent-tools-and-more-november-2-2026/": {
   "description": "The agentic launches that stayed with me last week had nothing to do with how capable a model is. They were about reach. AWS Step Functions, which already orchestrates over 220 AWS services, can now be handed to an agent as a tool, so workflows teams already trust became callable without a rewrite. In the […]",
   "fetched": "2026-11-02",
@@ -1217,6 +1223,12 @@
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://opengraph.githubassets.com/5546c725e6f55d20e5d531b4c03c68d12107551386f66a2da9f905ee4d3c2f72/slee-persis/GVS5H"
  },
+ "https://github.com/synchopate/llama-modchip": {
+  "description": "🐋 Run 284B DeepSeek-V4-Flash (&lt;59GiB RAM, 44.4 tok/s pp, 9.1-14.7 tok/s) &amp; 30B MoEs (25-111 tok/s) on a pure 64GB CPU at 256K ctx (0 GPUs). SwiGLU-H2, Stockfish-PVS L3 &amp; 13ms Claude Code...",
+  "fetched": "2026-11-08",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://opengraph.githubassets.com/6ce6b5285a34bc404af499bb098a744493d1e12ea0584e110485db6346d9e3b1/synchopate/llama-modchip"
+ },
  "https://github.com/thomasunise/casecite": {
   "description": "CaseCite is a source-available, self-hosted legal RAG caselaw research & document analysis platform. - thomasunise/casecite",
   "fetched": "2026-10-28",
@@ -1535,6 +1547,12 @@
   "icon": null,
   "image": null
  },
+ "https://krthr.co/person-of-interest/": {
+  "description": "A few days ago, I started watching Person of Interest, and I haven’t been able to stop. Aside from the fact that the show feels even more relevant today than...",
+  "fetched": "2026-11-08",
+  "icon": null,
+  "image": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/krthr/474167074_9348806235164701_1627609488563106497_n.webp"
+ },
  "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/": {
   "description": "China’s First Frontier AI Export Controls: MOFCOM Announcement No. 48 Key Takeaways On October 16, 2026, China’s Ministry of Commerce (MOFCOM) and Ministry of Science and Technology (MO…",
   "fetched": "2026-11-02",
@@ -1600,6 +1618,12 @@
   "fetched": "2026-10-28",
   "icon": "https://lexifina.com/apple-touch-icon.png?v=20261017b",
   "image": "https://lexifina.com/social-preview-v3.png?v=20261018"
+ },
+ "https://linebender.org/blog/jit-bitmap-text/": {
+  "description": "JIT bitmap text rendering for microcontrollers",
+  "fetched": "2026-11-08",
+  "icon": null,
+  "image": null
  },
  "https://lists.debian.org/debian-devel/2026/10/msg00263.html": {
   "description": null,
@@ -3521,6 +3545,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/posts/2026/10/27/green-pumpkin.jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/": {
+  "description": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware.",
+  "fetched": "2026-11-08",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/11/06/github.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/": {
   "description": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record.",
   "fetched": "2026-11-02",
@@ -3586,6 +3616,12 @@
   "fetched": "2026-11-08",
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2026/07/29/openai-escape-sandbox.jpg"
+ },
+ "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/": {
+  "description": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain.",
+  "fetched": "2026-11-08",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/11/06/QNAP.jpg"
  },
  "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/": {
   "description": "Reddit announced in a post by co-founder Steve Huffman that the site will gradually become a \"logged-in service,\" offering limited access to visitors without accounts.",
@@ -4588,6 +4624,12 @@
   "fetched": "2026-11-05",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2023/08/Email-Security.jpg"
+ },
+ "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/": {
+  "description": "Brava Security has emerged from stealth mode with $15 million in funding to close defense gaps using AI-generated attack telemetry.",
+  "fetched": "2026-11-08",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg"
  },
  "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/": {
   "description": "The FBI has seized Virtualine's bulletproof hosting domain for facilitating illicit operations, including ransomware and infostealers.",
