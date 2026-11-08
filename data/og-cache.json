@@ -425,6 +425,12 @@
   "icon": null,
   "image": null
  },
+ "https://caleb.software/posts/claude-to-pi.html": {
+  "description": null,
+  "fetched": "2026-11-08",
+  "icon": "https://caleb.software/favicon.svg",
+  "image": null
+ },
  "https://captnemo.in/blog/2026/10/23/emsign-revoked-gov-in/": {
   "description": "On 17th October, eight eMudhra intermediate CAs chaining to emSign ECC Root CA - G3 were found to have trivially recoverable private keys. They were revoked the next day, and Mozilla and Chrome are now distrusting the G3 root. Separately, on 19th October eMudhra revoked 9,356 certificates on its unaffected RSA hierarchy (emSign Root CA - G1) with the reason “Superseded”. That batch matches every unexpired certificate missing a certificate-type policy OID required by emSign’s own CP/CPS (Bug 2082782).",
   "fetched": "2026-10-24",
@@ -1079,6 +1085,12 @@
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://opengraph.githubassets.com/7bf683895feb965f16b7d6eac90bbb663a14b3a24488b13762a102291609a8b3/anthropics/claude-code/issues/107757"
  },
+ "https://github.com/crmne/zapfast": {
+  "description": "ZapFast: a fast, native WhatsApp client in Rust and egui - crmne/zapfast",
+  "fetched": "2026-11-08",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://repository-images.githubusercontent.com/1350713137/51d132b5-ac5f-4382-ad0a-2720c41f2a60"
+ },
  "https://github.com/dsx-ai-factory/nvke": {
   "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal. - dsx-ai-factory/nvke",
   "fetched": "2026-11-06",
@@ -1398,6 +1410,12 @@
   "image": "https://huggingface.co/blog/assets/transformers-mic/mic-logo.png"
  },
  "https://hunch.net/?p=13764006": {
+  "description": null,
+  "fetched": "2026-11-08",
+  "icon": null,
+  "image": null
+ },
+ "https://imagesco.com/articles/kirlian/kirlian-photography.html": {
   "description": null,
   "fetched": "2026-11-08",
   "icon": null,
@@ -4436,6 +4454,12 @@
  "https://www.science.org/content/article/bones-may-release-proteins-slow-aging-and-extend-life-span": {
   "description": null,
   "fetched": "2026-11-02",
+  "icon": null,
+  "image": null
+ },
+ "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F": {
+  "description": null,
+  "fetched": "2026-11-08",
   "icon": null,
   "image": null
  },
