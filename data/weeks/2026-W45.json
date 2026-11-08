@@ -1,0 +1,163 @@
+{
+  "week": "2026-W45",
+  "start": "2026-11-02",
+  "end": "2026-11-08",
+  "preview": false,
+  "days": [
+    {
+      "date": "2026-11-02",
+      "lead": {
+        "title": "Your Leaked Secrets Now Show Up in Wiz",
+        "link": "https://blog.gitguardian.com/gitguardian-wiz-integration/",
+        "source": "GitGuardian",
+        "section": "Secrets & NHI"
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "lead": {
+        "title": "What’s in the SOSS? Podcast #77 – S3E29 Baking Security into the Toolchain: Accurate Swift SBOMs with Apple’s Ev Cheng and Sam Khouri",
+        "link": "https://openssf.org/podcast/2026/11/03/whats-in-the-soss-podcast-77-s3e29-baking-security-into-the-toolchain-accurate-swift-sboms-with-apples-ev-cheng-and-sam-khouri/",
+        "source": "Open Source Security Foundation",
+        "section": "Supply Chain & Builds"
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "lead": {
+        "title": "Pierre Computer is being acquired by OpenAI",
+        "link": "https://twitter.com/pierrecomputer/status/2117999036175188183",
+        "source": "twitter.com via Hacker News",
+        "section": "AI Agents & Agent Security"
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "lead": {
+        "title": "MCP Explained",
+        "link": "https://mcp-explained.com/",
+        "source": "mcp-explained.com via Hacker News",
+        "section": "AI Agents & Agent Security"
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "lead": {
+        "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+        "link": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+        "source": "The Hacker News",
+        "section": "Security & AppSec"
+      }
+    },
+    {
+      "date": "2026-11-07",
+      "lead": {
+        "title": "Beyond code generation: A developer’s guide to agentic engineering",
+        "link": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+        "source": "GitHub AI & ML",
+        "section": "AI-Assisted Engineering"
+      }
+    },
+    {
+      "date": "2026-11-08",
+      "lead": {
+        "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+        "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+        "source": "apiiro.com via Hacker News",
+        "section": "News & Research"
+      }
+    }
+  ],
+  "top": [
+    {
+      "title": "A thousand fewer paths to root",
+      "link": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "source": "OpenAI News",
+      "section": "AI Agents & Agent Security",
+      "date": "2026-11-05",
+      "coverage": 3,
+      "score": 4.816
+    },
+    {
+      "title": "Gemini Omni 1.2 Flash",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "source": "blog.google via Hacker News",
+      "section": "News & Research",
+      "date": "2026-11-06",
+      "coverage": 2,
+      "score": 9.257
+    },
+    {
+      "title": "Anthropic's Mythos-class model allegedly leaked on Hugging Face",
+      "link": "https://news.ycombinator.com/item?id=50326727",
+      "source": "Hacker News",
+      "section": "Secrets & NHI",
+      "date": "2026-11-02",
+      "coverage": 2,
+      "score": 8.456
+    },
+    {
+      "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+      "link": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+      "source": "The Hacker News",
+      "section": "Security & AppSec",
+      "date": "2026-11-04",
+      "coverage": 2,
+      "score": 6.123
+    },
+    {
+      "title": "A playable version of Portal prequel F-Stop leaked",
+      "link": "https://www.theverge.com/games/1024206/playable-portal-prequel-f-stop-leak",
+      "source": "theverge.com via Hacker News",
+      "section": "Secrets & NHI",
+      "date": "2026-11-02",
+      "coverage": 2,
+      "score": 4.628
+    },
+    {
+      "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
+      "link": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
+      "source": "The Hacker News",
+      "section": "Security & AppSec",
+      "date": "2026-11-05",
+      "coverage": 2,
+      "score": 2.433
+    },
+    {
+      "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+      "source": "The Hacker News",
+      "section": "Security & AppSec",
+      "date": "2026-11-03",
+      "coverage": 2,
+      "score": 1.905
+    },
+    {
+      "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
+      "link": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+      "source": "The Hacker News",
+      "section": "Security & AppSec",
+      "date": "2026-11-07",
+      "coverage": 2,
+      "score": 1.205
+    },
+    {
+      "title": "Joules-to-GDP: Measuring the economic value of AI per unit of energy",
+      "link": "https://s46486.pcdn.co/blog/joules-to-gdp-measuring-the-economic-value-of-ai-per-unit-of-energy/",
+      "source": "Snorkel AI",
+      "section": "AI-Assisted Engineering",
+      "date": "2026-11-05",
+      "coverage": 2,
+      "score": 0.668
+    },
+    {
+      "title": "From Sigstore to CRA readiness: Sylva’s journey with OpenSSF",
+      "link": "https://openssf.org/blog/2026/11/06/from-sigstore-to-cra-readiness-sylvas-journey-with-openssf/",
+      "source": "Open Source Security Foundation",
+      "section": "Supply Chain & Builds",
+      "date": "2026-11-06",
+      "coverage": 1,
+      "score": 8.754
+    }
+  ]
+}

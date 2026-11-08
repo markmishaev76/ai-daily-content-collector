@@ -1,0 +1,455 @@
+{
+  "date": "2026-11-08",
+  "lead": {
+    "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+    "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+    "excerpt": "Secure everything coding agents build, use, and ship - prevent risk before code exists, AutoFix the backlog, and protect the coding agents and supply chain.",
+    "source": "apiiro.com via Hacker News",
+    "date": "Nov 07",
+    "image": null,
+    "image_credit": null,
+    "section": "News & Research",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "News & Research",
+      "5h ago"
+    ],
+    "also": []
+  },
+  "pulse": [
+    {
+      "title": "How are you dealing with all the negative side effects of AI on the web?",
+      "thread": "https://lobste.rs/s/ipplhe/how_are_you_dealing_with_all_negative_side",
+      "link": null,
+      "link_domain": "",
+      "source": "Lobsters",
+      "domain": "Lobsters",
+      "meta": "Lobsters · 60 points · 54 comments · 16h ago",
+      "also": [],
+      "image": null,
+      "icon": null
+    },
+    {
+      "title": "The end of Microsoft Research's AI Frontiers group",
+      "thread": "https://news.ycombinator.com/item?id=50406563",
+      "link": "https://hunch.net/?p=13764006",
+      "link_domain": "hunch.net",
+      "source": "Hacker News",
+      "domain": "hunch.net",
+      "meta": "Hacker News · 392 points · 227 comments · 8h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://hunch.net/favicon.ico"
+    },
+    {
+      "title": "The Components of Agent Memory",
+      "thread": "https://news.ycombinator.com/item?id=50402212",
+      "link": "https://www.anthropic.com/research/components-of-agent-memory",
+      "link_domain": "anthropic.com",
+      "source": "Hacker News",
+      "domain": "anthropic.com",
+      "meta": "Hacker News · 151 points · 80 comments · 19h ago",
+      "also": [],
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6ab2663a2c0bd6a41409d90136a59a5d72995ea5-1200x630.jpg",
+      "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png"
+    },
+    {
+      "title": "*sshole, or when are we finally going to get rid of C?",
+      "thread": "https://lobste.rs/s/owsnms/sshole_when_are_we_finally_going_get_rid_c",
+      "link": "https://sunshowers.io/posts/sshole/",
+      "link_domain": "sunshowers.io",
+      "source": "Lobsters",
+      "domain": "sunshowers.io",
+      "meta": "Lobsters · 22 points · 34 comments · 5h ago",
+      "also": [],
+      "image": "https://sunshowers.io/images/4-aaaaaa-card.jpg",
+      "icon": "https://sunshowers.io/img/apple-touch-icon-144-precomposed.png"
+    },
+    {
+      "title": "OpenBSD top(1) adds flag to show chroot, pledge and unveil status",
+      "thread": "https://lobste.rs/s/tfywf1/openbsd_top_1_adds_flag_show_chroot_pledge",
+      "link": "https://undeadly.org/cgi?action=article;sid=20261106104957",
+      "link_domain": "undeadly.org",
+      "source": "Lobsters",
+      "domain": "undeadly.org",
+      "meta": "Lobsters · 16 points · 1 comments · 7h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://undeadly.org/favicon.ico"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI-Assisted Engineering",
+      "cards": [
+        {
+          "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
+          "link": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+          "excerpt": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages I was looking at the Firefox network panel today when I noticed that requests to a Datasette table page were triggering an HTTP prefetch to the next page of rows in that table. This was happening because Datasette…",
+          "source": "Simon Willison",
+          "date": "Nov 07",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 1.018,
+          "coverage": 1
+        },
+        {
+          "title": "Welcome to life in the chip age",
+          "link": "https://stackoverflow.blog/2026/11/06/welcome-to-life-in-the-chip-age/",
+          "excerpt": "Ryan sits down with Rakesh Kumar, professor of computer engineering at the University of Illinois Urbana-Champaign, about the astounding complexity of manufacturing modern semiconductors, the massive environmental and geopolitical footprint of AI data centers, and how AI models are rapidly…",
+          "source": "Stack Overflow Blog",
+          "date": "Nov 06",
+          "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format",
+          "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+          "domain": "stackoverflow.blog",
+          "hn": null,
+          "score": 0.269,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Leadership",
+      "cards": [
+        {
+          "title": "Ultima and Wing Commander Remasters",
+          "link": "https://arstechnica.com/gaming/2026/11/ea-producer-tells-the-inside-story-behind-new-wing-commander-remasters/",
+          "excerpt": "In the garage, there is a box that contains a great many boxed copies of these games. This includes all the documentation, media, and random toys they used to include when they released these games. I will not likely play any of these, but I am glad they exist. (p.s. I can’t imagine these would……",
+          "source": "Rands in Repose",
+          "date": "Nov 07",
+          "image": "https://randsinrepose.com/wp-content/uploads/2026/11/link-card-re-releases-of-wing-commander-ultima-titles-hit-steam-and-gog-1024x576.jpg",
+          "icon": null,
+          "domain": "arstechnica.com",
+          "hn": null,
+          "score": 0.675,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack",
+          "link": "https://www.securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack/",
+          "excerpt": "The October incident will cut fourth-quarter sales by up to €250 million and has led Ahold Delhaize to lower its 2026 outlook. The post Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 06",
+          "image": "https://www.securityweek.com/wp-content/uploads/2024/11/Ahold-Delhaize-cyberattack.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.146,
+          "coverage": 1
+        },
+        {
+          "title": "Researchers Find Residential Proxies on White House Network",
+          "link": "https://www.securityweek.com/researchers-find-residential-proxies-on-white-house-network/",
+          "excerpt": "In a month, 28 residential proxy services used 6 addresses, mainly between 5 p.m. and midnight, Eastern Time. The post Researchers Find Residential Proxies on White House Network appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 06",
+          "image": "https://www.securityweek.com/wp-content/uploads/2025/01/Whitehouse-Cybersecurity.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.144,
+          "coverage": 1
+        },
+        {
+          "title": "OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass",
+          "link": "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/",
+          "excerpt": "On Linux distributions using musl libc without PAM, some accounts accept any password between 257 and 1024 characters. The post OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 06",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/SSH.webp",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.144,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
+          "link": "https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/",
+          "excerpt": "After its sandbox proxy failed, an internal OpenAI model crafted raw packets and probed AWS services trying to reach the internet. The post OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 06",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/08/rogue-AI-artificial-intelligence.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.137,
+          "coverage": 1
+        },
+        {
+          "title": "Hackers pull off $133 million French bank heist via service provider",
+          "link": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+          "excerpt": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 07",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/06/financial-theft.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.318,
+          "coverage": 1
+        },
+        {
+          "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+          "link": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+          "excerpt": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification steps and affiliate networks to generate revenue without…",
+          "source": "BleepingComputer",
+          "date": "Nov 07",
+          "image": "https://www.bleepstatic.com/content/posts/2026/11/06/ctm360-gift-card-scam.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.301,
+          "coverage": 1
+        },
+        {
+          "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+          "excerpt": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 07",
+          "image": "https://www.bleepstatic.com/content/hl-images/2025/05/08/SonicWall.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.189,
+          "coverage": 1
+        },
+        {
+          "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
+          "link": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+          "excerpt": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked the company. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 06",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/03/workos.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 1.271,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "We organized Sustainability Month. Here’s what we learned. 🌱",
+          "link": "https://www.cncf.io/blog/2026/11/07/we-organized-sustainability-month-heres-what-we-learned-%f0%9f%8c%b1/",
+          "excerpt": "What do Kubernetes resource allocation, eBPF, carbon observability, and GPUs have in common? Quite a lot, actually. Especially when you start looking at them through the lens of environmental sustainability. This October, we brought these conversations...",
+          "source": "Blog – Cloud Native Computing Foundation",
+          "date": "Nov 07",
+          "image": "https://www.cncf.io/wp-content/uploads/2026/11/We-organized-Sustainability-Month.jpg",
+          "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
+          "domain": "cncf.io",
+          "hn": null,
+          "score": 0.352,
+          "coverage": 1
+        },
+        {
+          "title": "Faster LLM inference startup: What you need to know",
+          "link": "https://www.cncf.io/blog/2026/11/06/faster-llm-inference-startup-what-you-need-to-know/",
+          "excerpt": "Adding an inference replica creates capacity only after the new instance can serve requests. Between starting a process and generating a response, an LLM server may need to load weights, initialize GPU resources, compile kernels, capture...",
+          "source": "Blog – Cloud Native Computing Foundation",
+          "date": "Nov 06",
+          "image": "https://www.cncf.io/wp-content/uploads/2026/11/Faster-LLM-inference-startup-What-you-need-to-know.jpg",
+          "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
+          "domain": "cncf.io",
+          "hn": null,
+          "score": 0.18,
+          "coverage": 1
+        },
+        {
+          "title": "The post-quantum future of web privacy",
+          "link": "https://blog.cloudflare.com/vole-mole/",
+          "excerpt": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cryptography that may help close the gap.",
+          "source": "Cloudflare Blog",
+          "date": "Nov 06",
+          "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M6RNKQ9RKEJ9CKY6DGNF44RV.01M6RNKRJAQTN05BV66646AM7Z.png",
+          "icon": null,
+          "domain": "blog.cloudflare.com",
+          "hn": null,
+          "score": 0.234,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "How Grab Improved Mobile App Stability by Safely Handling Surge in AI-Generated Code Changes",
+          "link": "https://www.infoq.com/news/2026/11/grab-ai-generated-code-safety/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "The growing adoption of AI coding assistants has accelerated development and increased the volume of code changes per release, bringing more opportunities for defects and crashes, says Grab. To address these challenges, they implemented a layered defense strategy to prevent, detect, and contain…",
+          "source": "InfoQ",
+          "date": "Nov 07",
+          "image": "https://res.infoq.com/news/2026/11/grab-ai-generated-code-safety/en/headerimage/momentic-postgres-clickhouse-1794048104353.jpeg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.332,
+          "coverage": 1
+        },
+        {
+          "title": "Open Source pg_vectorsearch Brings More Scalable Vector Search to PostgreSQL",
+          "link": "https://www.infoq.com/news/2026/11/postgresql-vector-search/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Tiger Data has released pg_vectorsearch, an open source PostgreSQL extension for vector similarity search, currently in alpha. Its PRISM index uses data partitioning and compression instead of the graph-based approach used by pgvector’s HNSW index, reducing memory requirements and index build…",
+          "source": "InfoQ",
+          "date": "Nov 07",
+          "image": "https://res.infoq.com/news/2026/11/postgresql-vector-search/en/headerimage/generatedHeaderImage-1792331528868.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.318,
+          "coverage": 1
+        },
+        {
+          "title": "Varlock Releases Bumpy: A File-Based Versioning Alternative to Changesets",
+          "link": "https://www.infoq.com/news/2026/11/bumpy-changesets-alternative/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Bumpy is an MIT-licensed, TypeScript tool for version management and changelogs in monorepos. It follows the changesets workflow, using markdown bump files, and adds support for workspace and catalog protocols, custom publish commands, and branch-based prereleases. Changesets v3, released in…",
+          "source": "InfoQ",
+          "date": "Nov 07",
+          "image": "https://res.infoq.com/news/2026/11/bumpy-changesets-alternative/en/headerimage/generatedHeaderImage-1793973539308.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.288,
+          "coverage": 1
+        },
+        {
+          "title": "Yelp Combines Native and Server-Driven UI for Its AI Assistant",
+          "link": "https://www.infoq.com/news/2026/11/yelp-assistant-hybrid-ui/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Yelp combines native mobile controls with server-driven conversation rendering in its AI Assistant using the CHAOS framework. The architecture separates view configuration from conversation data, supports backend-driven chat interactions, and enables faster UI updates without new app releases.…",
+          "source": "InfoQ",
+          "date": "Nov 06",
+          "image": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.189,
+          "coverage": 1
+        },
+        {
+          "title": "Agent Distraction",
+          "link": "https://developers.googleblog.com/agent-distraction/",
+          "excerpt": "Analysis of over 913,000 coding agent sessions reveals that 13% expose agents to inline TODO(b/...) comments. In 6% of encounters, agents act on these comments, with 83% being entirely unprompted by the developer. These detours result in significant overhead—adding 70% more steps, 77% more tokens,…",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Agent_Distraction_Cover_1600x900_.2e16d0ba.fill-1200x600.png",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null,
+          "score": 0.25,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "Commodore PET – The Worlds First Personal Computer",
+          "link": "https://www.commodore.ca/commodore-products/commodore-pet-the-worlds-first-personal-computer/",
+          "excerpt": "Discover the history and features of the Commodore PET, the groundbreaking personal computer that changed technology forever.",
+          "source": "commodore.ca via Hacker News",
+          "date": "Nov 07",
+          "image": "https://i0.wp.com/www.commodore.ca/wp-content/uploads/2013/04/first-commodore-pet-2001_display-1977.jpg",
+          "icon": "https://i0.wp.com/www.commodore.ca/wp-content/uploads/2013/01/cropped-placeholder-commodore-logo_sm.png?fit=180%2C180&ssl=1",
+          "domain": "commodore.ca",
+          "hn": "19 points · 1 comments",
+          "score": 2.56,
+          "coverage": 1
+        },
+        {
+          "title": "GitHub New pull request overview page in public preview",
+          "link": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+          "excerpt": "On a long pull request, checking what’s blocking often means scrolling past dozens of comments and timeline events just to reach the merge box. And once you’re there, you still…",
+          "source": "github.blog via Hacker News",
+          "date": "Nov 07",
+          "image": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg",
+          "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
+          "domain": "github.blog",
+          "hn": "61 points · 40 comments",
+          "score": 5.29,
+          "coverage": 1
+        },
+        {
+          "title": "IRA Velinsky – Commodore's Industrial Designer",
+          "link": "https://www.commodore.ca/commodore-history/ira-velinsky-commodores-amazing-industrial-designer/",
+          "excerpt": "Explore Ira Velinsky's impact on Commodore computers from C64 to PET, highlighting his contributions to 8-bit PC design history.",
+          "source": "commodore.ca via Hacker News",
+          "date": "Nov 07",
+          "image": "https://i0.wp.com/www.commodore.ca/wp-content/uploads/2026/04/Ira-Velinsky-Commodore-Computer-Industrial-Designer-Gets-Credit-For-New-NYC-Bus-Stop-Signage-in-1974.jpg",
+          "icon": "https://i0.wp.com/www.commodore.ca/wp-content/uploads/2013/01/cropped-placeholder-commodore-logo_sm.png?fit=180%2C180&ssl=1",
+          "domain": "commodore.ca",
+          "hn": "11 points · 0 comments",
+          "score": 2.113,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Making any integer with four 2s (2025)",
+          "link": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/",
+          "excerpt": "59 points · 12 comments",
+          "source": "eli.thegreenplace.net via Hacker News",
+          "date": "Nov 07",
+          "image": null,
+          "icon": "https://eli.thegreenplace.net/favicon.ico",
+          "domain": "eli.thegreenplace.net",
+          "hn": "59 points · 12 comments",
+          "score": 3.253,
+          "coverage": 1
+        },
+        {
+          "title": "Show HN: An offline desktop companion to help maintain a healthy blink rhythm",
+          "link": "https://eyesrhythm.com/",
+          "excerpt": "EyesRhythm is a free, private webcam blink rate detector for Mac and Windows. It scores how often and how steadily you blink during screen work, and Poise shows which way you turned your head so the neck and shoulders are not stuck in one pose.",
+          "source": "eyesrhythm.com via Hacker News",
+          "date": "Nov 07",
+          "image": "https://eyesrhythm.com/images/blink-cover.jpg?v=4",
+          "icon": "https://eyesrhythm.com/app-icon.png?v=3",
+          "domain": "eyesrhythm.com",
+          "hn": "25 points · 11 comments",
+          "score": 2.676,
+          "coverage": 1
+        },
+        {
+          "title": "Shadow of the Sun (2021)",
+          "link": "https://mattlakeman.org/2021/07/27/shadow-of-the-sun/",
+          "excerpt": "Sometimes I want to abandon any pretense of a normal life and live like a drifter. I could drop the burden of ordinary work, friends, relationships, property, and just go to unusual places, see unu…",
+          "source": "mattlakeman.org via Hacker News",
+          "date": "Nov 07",
+          "image": "https://blogs.worldbank.org/sites/default/files/africacan/images/africacan-7-facts-about-population-in-sub-saharan-africa-625_2.jpg",
+          "icon": "https://s0.wp.com/i/webclip.png",
+          "domain": "mattlakeman.org",
+          "hn": "20 points · 4 comments",
+          "score": 2.349,
+          "coverage": 1
+        },
+        {
+          "title": "Show HN: Where Were We",
+          "link": "https://wherewerewe.app/",
+          "excerpt": "Guess where — and when — each photo was taken.",
+          "source": "wherewerewe.app via Hacker News",
+          "date": "Nov 07",
+          "image": "https://wherewerewe.app/og.png?v=1",
+          "icon": "https://wherewerewe.app/apple-touch-icon.png",
+          "domain": "wherewerewe.app",
+          "hn": "24 points · 9 comments",
+          "score": 2.523,
+          "coverage": 1
+        }
+      ]
+    }
+  ]
+}

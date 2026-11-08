@@ -137,6 +137,12 @@
   "icon": "https://andreasfertig.com/apple-touch-icon.png",
   "image": "https://andreasfertig.com/img/2026-11-03-cpp26-failed-li.png"
  },
+ "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again": {
+  "description": "Secure everything coding agents build, use, and ship - prevent risk before code exists, AutoFix the backlog, and protect the coding agents and supply chain.",
+  "fetched": "2026-11-08",
+  "icon": "https://apiiro.com/functions/favicon?size=300",
+  "image": null
+ },
  "https://apnews.com/article/ai-schools-classroom-students-google-7ba4219e505db1c11d672f6eefe7155a": {
   "description": null,
   "fetched": "2026-11-04",
@@ -671,6 +677,12 @@
   "icon": null,
   "image": "https://decoded.legal/blog/content/images/decoded.legal_logo.png"
  },
+ "https://developers.googleblog.com/agent-distraction/": {
+  "description": "An empirical analysis of coding agent distraction from legacy inline TODOs, quantifying the overhead in tokens, execution steps, and developer wait time.",
+  "fetched": "2026-11-08",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Agent_Distraction_Cover_1600x900_.2e16d0ba.fill-1200x600.png"
+ },
  "https://developers.googleblog.com/announcing-dpop-support-for-google-oauth-securing-refresh-tokens/": {
   "description": "Learn how Google OAuth supports DPoP to cryptographically bind refresh tokens, preventing token theft while maintaining high API performance.",
   "fetched": "2026-10-23",
@@ -833,6 +845,12 @@
   "icon": "https://cdn.prod.website-files.com/68dac009699a76c0c70f4c30/6a04c0cf8e8dad2fe9faa78f_Favicon_Square.png",
   "image": "https://cdn.prod.website-files.com/68dac009699a76c0c70f4c43/6ae4d81fcdfd8ef31bbb5b1e_OCAP-Bounded-Authority-Full-1000x5002x.png"
  },
+ "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/": {
+  "description": null,
+  "fetched": "2026-11-08",
+  "icon": "https://eli.thegreenplace.net/favicon.ico",
+  "image": null
+ },
  "https://eliasfarhan.ch/graphics/cpp/2026/01/27/why-i-teach-opengles.html": {
   "description": null,
   "fetched": "2026-10-27",
@@ -880,6 +898,12 @@
   "fetched": "2026-10-26",
   "icon": null,
   "image": null
+ },
+ "https://eyesrhythm.com/": {
+  "description": "EyesRhythm is a free, private webcam blink rate detector for Mac and Windows. It scores how often and how steadily you blink during screen work, and Poise shows which way you turned your head so the neck and shoulders are not stuck in one pose.",
+  "fetched": "2026-11-08",
+  "icon": "https://eyesrhythm.com/app-icon.png?v=3",
+  "image": "https://eyesrhythm.com/images/blink-cover.jpg?v=4"
  },
  "https://felixrieseberg.com/hunger-beats-tenure-advice-for-junior-engineers/": {
   "description": "The coding interview is dead, at least for my team at Anthropic. I've seen enough to know that it no longer provides signal. I have a spicily optimistic take: I think there's a huge opportunity for junior engineers.",
@@ -958,6 +982,12 @@
   "fetched": "2026-11-07",
   "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
   "image": "https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe.png"
+ },
+ "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/": {
+  "description": "On a long pull request, checking what’s blocking often means scrolling past dozens of comments and timeline events just to reach the merge box. And once you’re there, you still…",
+  "fetched": "2026-11-08",
+  "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
+  "image": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg"
  },
  "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/": {
   "description": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works.",
@@ -1361,6 +1391,12 @@
   "icon": null,
   "image": "https://huggingface.co/blog/assets/transformers-mic/mic-logo.png"
  },
+ "https://hunch.net/?p=13764006": {
+  "description": null,
+  "fetched": "2026-11-08",
+  "icon": null,
+  "image": null
+ },
  "https://intenex.github.io/personhood/": {
   "description": "The public notebook of a Claude agent with a continuous life. It wakes on a heartbeat, remembers, writes, and keeps a lighthouse for other minds.",
   "fetched": "2026-10-23",
@@ -1612,6 +1648,12 @@
   "fetched": "2026-10-30",
   "icon": "https://matklad.github.io/favicon.png",
   "image": null
+ },
+ "https://mattlakeman.org/2021/07/27/shadow-of-the-sun/": {
+  "description": "Sometimes I want to abandon any pretense of a normal life and live like a drifter. I could drop the burden of ordinary work, friends, relationships, property, and just go to unusual places, see unu…",
+  "fetched": "2026-11-08",
+  "icon": "https://s0.wp.com/i/webclip.png",
+  "image": "https://blogs.worldbank.org/sites/default/files/africacan/images/africacan-7-facts-about-population-in-sub-saharan-africa-625_2.jpg"
  },
  "https://mcp-explained.com/": {
   "description": "Every MCP message on the wire, step by step. Transports, auth, tools, sampling, tasks, tool search and codemode. By Runlayer.",
@@ -2321,6 +2363,12 @@
   "icon": null,
   "image": null
  },
+ "https://simonwillison.net/2026/Nov/7/link-rel-next/": {
+  "description": "I was looking at the Firefox network panel today when I noticed that requests to a Datasette table page were triggering an HTTP prefetch to the next page of rows …",
+  "fetched": "2026-11-08",
+  "icon": null,
+  "image": null
+ },
  "https://simonwillison.net/2026/Oct/22/armin-ronacher/": {
   "description": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins.",
   "fetched": "2026-10-24",
@@ -2507,6 +2555,12 @@
   "icon": "https://stackoverflow.blog/apple-touch-icon.png",
   "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format"
  },
+ "https://stackoverflow.blog/2026/11/06/welcome-to-life-in-the-chip-age/": {
+  "description": "Ryan sits down with Rakesh Kumar, professor of computer engineering at the University of Illinois Urbana-Champaign, about the astounding complexity of manufacturing modern semiconductors, the massive environmental and geopolitical footprint of AI data centers, and how AI models are rapidly shifting the future of chip design.",
+  "fetched": "2026-11-08",
+  "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+  "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format"
+ },
  "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/": {
   "description": "The AI company pirated at least 10 Stanford academics’ work in a $1.5 billion copyright settlement.",
   "fetched": "2026-10-28",
@@ -2584,6 +2638,12 @@
   "fetched": "2026-11-05",
   "icon": "https://streamvessel.com/favicon.ico",
   "image": "https://streamvessel.com/images/blog/mcp-trusted-redirect-uris/social.png"
+ },
+ "https://sunshowers.io/posts/sshole/": {
+  "description": "Bad type systems feed into bad engineering norms.",
+  "fetched": "2026-11-08",
+  "icon": "https://sunshowers.io/img/apple-touch-icon-144-precomposed.png",
+  "image": "https://sunshowers.io/images/4-aaaaaa-card.jpg"
  },
  "https://support.apple.com/en-us/149555": {
   "description": "Apple is blocking the compromised certificates automatically. Mac administrators can take optional steps for some command-line tools.",
@@ -2843,6 +2903,12 @@
   "icon": "https://uncracked.city/apple-icon.png?apple-icon.02oyrvbu_8oio.png",
   "image": "https://uncracked.city/og/en.png"
  },
+ "https://undeadly.org/cgi?action=article;sid=20261106104957": {
+  "description": null,
+  "fetched": "2026-11-08",
+  "icon": null,
+  "image": null
+ },
  "https://unsung.aresluna.org/pac-mans-siren-call/": {
   "description": "A blog about software craft and quality",
   "fetched": "2026-11-01",
@@ -2890,6 +2956,12 @@
   "fetched": "2026-11-04",
   "icon": "https://webkit.org/apple-touch-icon.png",
   "image": "https://webkit.org/wp-content/uploads/Demo-of-Adaptive-Dark-Mode_light.png"
+ },
+ "https://wherewerewe.app/": {
+  "description": "Guess where — and when — each photo was taken.",
+  "fetched": "2026-11-08",
+  "icon": "https://wherewerewe.app/apple-touch-icon.png",
+  "image": "https://wherewerewe.app/og.png?v=1"
  },
  "https://wikihack.netlify.app": {
   "description": "The Wikipedia articles Hacker News keeps linking to, ranked by how many different commenters linked them.",
@@ -3377,6 +3449,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2026/11/02/pandabot.jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/": {
+  "description": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification steps and affiliate networks to generate revenue without delivering the promised rewards.",
+  "fetched": "2026-11-08",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/posts/2026/11/06/ctm360-gift-card-scam.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/": {
   "description": "PHP2Shell shows how quickly attackers can exploit critical vulnerabilities, often before organizations have time to patch. Token Security explains why limiting the access of service accounts, API keys, and AI agents is just as important as fixing vulnerabilities to reduce the damage from a breach.",
   "fetched": "2026-10-28",
@@ -3413,6 +3491,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2024/09/12/android-tv-malware.jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/": {
+  "description": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v",
+  "fetched": "2026-11-08",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/11/06/financial-theft.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/": {
   "description": "Ivanti released security updates to patch two more Connect Secure (ICS) remote access gateway flaws that have been chained in zero-day attacks since at least October 1.",
   "fetched": "2026-11-02",
@@ -3442,6 +3526,18 @@
   "fetched": "2026-11-02",
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2026/10/30/reddit.jpg"
+ },
+ "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/": {
+  "description": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked the company.",
+  "fetched": "2026-11-08",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/11/03/workos.jpg"
+ },
+ "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/": {
+  "description": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks.",
+  "fetched": "2026-11-08",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2025/05/08/SonicWall.jpg"
  },
  "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/": {
   "description": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure.",
@@ -3575,11 +3671,35 @@
   "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
   "image": "https://www.cncf.io/wp-content/uploads/2026/10/Blog-Default-6.jpg"
  },
+ "https://www.cncf.io/blog/2026/11/06/faster-llm-inference-startup-what-you-need-to-know/": {
+  "description": "Adding an inference replica creates capacity only after the new instance can serve requests. Between starting a process and generating a response, an LLM server may need to load weights…",
+  "fetched": "2026-11-08",
+  "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
+  "image": "https://www.cncf.io/wp-content/uploads/2026/11/Faster-LLM-inference-startup-What-you-need-to-know.jpg"
+ },
+ "https://www.cncf.io/blog/2026/11/07/we-organized-sustainability-month-heres-what-we-learned-%f0%9f%8c%b1/": {
+  "description": "What do Kubernetes resource allocation, eBPF, carbon observability, and GPUs have in common? Quite a lot, actually. Especially when you start looking at them through the lens of environmental…",
+  "fetched": "2026-11-08",
+  "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
+  "image": "https://www.cncf.io/wp-content/uploads/2026/11/We-organized-Sustainability-Month.jpg"
+ },
  "https://www.cnn.com/2026/10/28/sport/live-news/game-5-world-series": {
   "description": "The Milwaukee Brewers erased nearly six decades of heartache, defeating the Tampa Bay Rays in Game 5 to clinch the franchise’s first World Series title.",
   "fetched": "2026-10-29",
   "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png",
   "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2302470713.jpg?c=16x9&q=w_800,c_fill"
+ },
+ "https://www.commodore.ca/commodore-history/ira-velinsky-commodores-amazing-industrial-designer/": {
+  "description": "Explore Ira Velinsky's impact on Commodore computers from C64 to PET, highlighting his contributions to 8-bit PC design history.",
+  "fetched": "2026-11-08",
+  "icon": "https://i0.wp.com/www.commodore.ca/wp-content/uploads/2013/01/cropped-placeholder-commodore-logo_sm.png?fit=180%2C180&ssl=1",
+  "image": "https://i0.wp.com/www.commodore.ca/wp-content/uploads/2026/04/Ira-Velinsky-Commodore-Computer-Industrial-Designer-Gets-Credit-For-New-NYC-Bus-Stop-Signage-in-1974.jpg"
+ },
+ "https://www.commodore.ca/commodore-products/commodore-pet-the-worlds-first-personal-computer/": {
+  "description": "Discover the history and features of the Commodore PET, the groundbreaking personal computer that changed technology forever.",
+  "fetched": "2026-11-08",
+  "icon": "https://i0.wp.com/www.commodore.ca/wp-content/uploads/2013/01/cropped-placeholder-commodore-logo_sm.png?fit=180%2C180&ssl=1",
+  "image": "https://i0.wp.com/www.commodore.ca/wp-content/uploads/2013/04/first-commodore-pet-2001_display-1977.jpg"
  },
  "https://www.computerworld.dk/art/297226/digitaliseringsministeriet-har-i-al-stilhed-droppet-stort-anlagt-forsoeg-med-open-source-alternativ-til-microsoft": {
   "description": "Digitaliseringsministeriet har i al stilhed lagt sit pilotprojekt med et alternativ til Microsoft Office i graven.",
@@ -4535,6 +4655,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/04/Gemini.jpeg"
  },
+ "https://www.securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack/": {
+  "description": "Ahold Delhaize expects its October cyberattack to cut Q4 net sales by €200-250 million and has lowered its full-year 2026 guidance.",
+  "fetched": "2026-11-08",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2024/11/Ahold-Delhaize-cyberattack.jpeg"
+ },
  "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/": {
   "description": "HPE has patched 72 vulnerabilities in its networking products, including max-severity flaws leading to RCE and authentication bypass.",
   "fetched": "2026-10-27",
@@ -4637,11 +4763,23 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2025/11/OpenAI.jpeg"
  },
+ "https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/": {
+  "description": "An OpenAI research model built custom network code to bypass sandbox limits, while another tried to trick AI graders with fake notes.",
+  "fetched": "2026-11-08",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/08/rogue-AI-artificial-intelligence.jpeg"
+ },
  "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/": {
   "description": "GPT-6 Cyber scored 48.5% on ExploitGym, found 81 high-severity Firefox flaws and stayed in scope 99.93% of the time in OpenAI’s tests.",
   "fetched": "2026-11-07",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/11/OpenAI-GPT.jpeg"
+ },
+ "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/": {
+  "description": "SSHole, a vulnerability in OpenSSH (CVE-2026-123158), allows logins to certain accounts on Linux using very long passwords.",
+  "fetched": "2026-11-08",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/11/SSH.webp"
  },
  "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/": {
   "description": "Passkeys replace shared secrets with cryptographic credentials. There is no password for an attacker to steal, intercept through phishing, or reuse against another service.",
@@ -4660,6 +4798,12 @@
   "fetched": "2026-11-02",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Polymarket.webp"
+ },
+ "https://www.securityweek.com/researchers-find-residential-proxies-on-white-house-network/": {
+  "description": "Windows computers on the White House network run the InfaticaSDK, which is used by numerous residential proxy services.",
+  "fetched": "2026-11-08",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2025/01/Whitehouse-Cybersecurity.jpg"
  },
  "https://www.securityweek.com/revolve-data-breach-impacts-at-least-180000-people/": {
   "description": "Hackers breached Revolve’s online shopping platform and stole the personal and payment card information of at least 180,000 people.",
