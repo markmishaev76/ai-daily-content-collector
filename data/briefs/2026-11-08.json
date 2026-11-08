@@ -13,23 +13,11 @@
     "note": null,
     "labels": [
       "News & Research",
-      "5h ago"
+      "7h ago"
     ],
     "also": []
   },
   "pulse": [
-    {
-      "title": "How are you dealing with all the negative side effects of AI on the web?",
-      "thread": "https://lobste.rs/s/ipplhe/how_are_you_dealing_with_all_negative_side",
-      "link": null,
-      "link_domain": "",
-      "source": "Lobsters",
-      "domain": "Lobsters",
-      "meta": "Lobsters · 60 points · 54 comments · 16h ago",
-      "also": [],
-      "image": null,
-      "icon": null
-    },
     {
       "title": "The end of Microsoft Research's AI Frontiers group",
       "thread": "https://news.ycombinator.com/item?id=50406563",
@@ -37,22 +25,22 @@
       "link_domain": "hunch.net",
       "source": "Hacker News",
       "domain": "hunch.net",
-      "meta": "Hacker News · 392 points · 227 comments · 8h ago",
+      "meta": "Hacker News · 423 points · 247 comments · 10h ago",
       "also": [],
       "image": null,
       "icon": "https://hunch.net/favicon.ico"
     },
     {
-      "title": "The Components of Agent Memory",
-      "thread": "https://news.ycombinator.com/item?id=50402212",
-      "link": "https://www.anthropic.com/research/components-of-agent-memory",
-      "link_domain": "anthropic.com",
-      "source": "Hacker News",
-      "domain": "anthropic.com",
-      "meta": "Hacker News · 151 points · 80 comments · 19h ago",
+      "title": "How are you dealing with all the negative side effects of AI on the web?",
+      "thread": "https://lobste.rs/s/ipplhe/how_are_you_dealing_with_all_negative_side",
+      "link": null,
+      "link_domain": "",
+      "source": "Lobsters",
+      "domain": "Lobsters",
+      "meta": "Lobsters · 60 points · 55 comments · 18h ago",
       "also": [],
-      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6ab2663a2c0bd6a41409d90136a59a5d72995ea5-1200x630.jpg",
-      "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png"
+      "image": null,
+      "icon": null
     },
     {
       "title": "*sshole, or when are we finally going to get rid of C?",
@@ -61,10 +49,22 @@
       "link_domain": "sunshowers.io",
       "source": "Lobsters",
       "domain": "sunshowers.io",
-      "meta": "Lobsters · 22 points · 34 comments · 5h ago",
+      "meta": "Lobsters · 26 points · 37 comments · 7h ago",
       "also": [],
       "image": "https://sunshowers.io/images/4-aaaaaa-card.jpg",
       "icon": "https://sunshowers.io/img/apple-touch-icon-144-precomposed.png"
+    },
+    {
+      "title": "The Components of Agent Memory",
+      "thread": "https://news.ycombinator.com/item?id=50402212",
+      "link": "https://www.anthropic.com/research/components-of-agent-memory",
+      "link_domain": "anthropic.com",
+      "source": "Hacker News",
+      "domain": "anthropic.com",
+      "meta": "Hacker News · 154 points · 81 comments · 21h ago",
+      "also": [],
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6ab2663a2c0bd6a41409d90136a59a5d72995ea5-1200x630.jpg",
+      "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png"
     },
     {
       "title": "OpenBSD top(1) adds flag to show chroot, pledge and unveil status",
@@ -73,7 +73,7 @@
       "link_domain": "undeadly.org",
       "source": "Lobsters",
       "domain": "undeadly.org",
-      "meta": "Lobsters · 16 points · 1 comments · 7h ago",
+      "meta": "Lobsters · 18 points · 1 comments · 9h ago",
       "also": [],
       "image": null,
       "icon": "https://undeadly.org/favicon.ico"
@@ -93,7 +93,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 1.018,
+          "score": 0.892,
           "coverage": 1
         },
         {
@@ -106,7 +106,7 @@
           "icon": "https://stackoverflow.blog/apple-touch-icon.png",
           "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 0.269,
+          "score": 0.26,
           "coverage": 1
         }
       ],
@@ -125,7 +125,7 @@
           "icon": null,
           "domain": "arstechnica.com",
           "hn": null,
-          "score": 0.675,
+          "score": 0.619,
           "coverage": 1
         }
       ],
@@ -144,7 +144,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.146,
+          "score": 0.14,
           "coverage": 1
         },
         {
@@ -157,7 +157,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.144,
+          "score": 0.139,
           "coverage": 1
         },
         {
@@ -170,7 +170,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.144,
+          "score": 0.139,
           "coverage": 1
         }
       ],
@@ -185,7 +185,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.137,
+          "score": 0.132,
           "coverage": 1
         },
         {
@@ -198,7 +198,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.318,
+          "score": 0.292,
           "coverage": 1
         },
         {
@@ -211,7 +211,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.301,
+          "score": 0.278,
           "coverage": 1
         },
         {
@@ -224,7 +224,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.189,
+          "score": 0.18,
           "coverage": 1
         },
         {
@@ -237,7 +237,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 1.271,
+          "score": 1.21,
           "coverage": 1
         }
       ]
@@ -255,7 +255,7 @@
           "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
           "domain": "cncf.io",
           "hn": null,
-          "score": 0.352,
+          "score": 0.326,
           "coverage": 1
         },
         {
@@ -268,7 +268,7 @@
           "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
           "domain": "cncf.io",
           "hn": null,
-          "score": 0.18,
+          "score": 0.173,
           "coverage": 1
         },
         {
@@ -281,7 +281,7 @@
           "icon": null,
           "domain": "blog.cloudflare.com",
           "hn": null,
-          "score": 0.234,
+          "score": 0.225,
           "coverage": 1
         }
       ],
@@ -296,7 +296,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.332,
+          "score": 0.309,
           "coverage": 1
         },
         {
@@ -309,7 +309,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.318,
+          "score": 0.297,
           "coverage": 1
         },
         {
@@ -322,7 +322,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.288,
+          "score": 0.271,
           "coverage": 1
         },
         {
@@ -335,7 +335,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.189,
+          "score": 0.181,
           "coverage": 1
         },
         {
@@ -365,8 +365,8 @@
           "image": "https://i0.wp.com/www.commodore.ca/wp-content/uploads/2013/04/first-commodore-pet-2001_display-1977.jpg",
           "icon": "https://i0.wp.com/www.commodore.ca/wp-content/uploads/2013/01/cropped-placeholder-commodore-logo_sm.png?fit=180%2C180&ssl=1",
           "domain": "commodore.ca",
-          "hn": "19 points · 1 comments",
-          "score": 2.56,
+          "hn": "26 points · 8 comments",
+          "score": 2.557,
           "coverage": 1
         },
         {
@@ -378,8 +378,8 @@
           "image": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg",
           "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
           "domain": "github.blog",
-          "hn": "61 points · 40 comments",
-          "score": 5.29,
+          "hn": "87 points · 61 comments",
+          "score": 4.991,
           "coverage": 1
         },
         {
@@ -391,8 +391,8 @@
           "image": "https://i0.wp.com/www.commodore.ca/wp-content/uploads/2026/04/Ira-Velinsky-Commodore-Computer-Industrial-Designer-Gets-Credit-For-New-NYC-Bus-Stop-Signage-in-1974.jpg",
           "icon": "https://i0.wp.com/www.commodore.ca/wp-content/uploads/2013/01/cropped-placeholder-commodore-logo_sm.png?fit=180%2C180&ssl=1",
           "domain": "commodore.ca",
-          "hn": "11 points · 0 comments",
-          "score": 2.113,
+          "hn": "18 points · 1 comments",
+          "score": 2.162,
           "coverage": 1
         }
       ],
@@ -400,14 +400,14 @@
         {
           "title": "Making any integer with four 2s (2025)",
           "link": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/",
-          "excerpt": "59 points · 12 comments",
+          "excerpt": "78 points · 21 comments",
           "source": "eli.thegreenplace.net via Hacker News",
           "date": "Nov 07",
           "image": null,
           "icon": "https://eli.thegreenplace.net/favicon.ico",
           "domain": "eli.thegreenplace.net",
-          "hn": "59 points · 12 comments",
-          "score": 3.253,
+          "hn": "78 points · 21 comments",
+          "score": 3.067,
           "coverage": 1
         },
         {
@@ -419,21 +419,8 @@
           "image": "https://eyesrhythm.com/images/blink-cover.jpg?v=4",
           "icon": "https://eyesrhythm.com/app-icon.png?v=3",
           "domain": "eyesrhythm.com",
-          "hn": "25 points · 11 comments",
-          "score": 2.676,
-          "coverage": 1
-        },
-        {
-          "title": "Shadow of the Sun (2021)",
-          "link": "https://mattlakeman.org/2021/07/27/shadow-of-the-sun/",
-          "excerpt": "Sometimes I want to abandon any pretense of a normal life and live like a drifter. I could drop the burden of ordinary work, friends, relationships, property, and just go to unusual places, see unu…",
-          "source": "mattlakeman.org via Hacker News",
-          "date": "Nov 07",
-          "image": "https://blogs.worldbank.org/sites/default/files/africacan/images/africacan-7-facts-about-population-in-sub-saharan-africa-625_2.jpg",
-          "icon": "https://s0.wp.com/i/webclip.png",
-          "domain": "mattlakeman.org",
-          "hn": "20 points · 4 comments",
-          "score": 2.349,
+          "hn": "28 points · 14 comments",
+          "score": 2.465,
           "coverage": 1
         },
         {
@@ -445,8 +432,21 @@
           "image": "https://wherewerewe.app/og.png?v=1",
           "icon": "https://wherewerewe.app/apple-touch-icon.png",
           "domain": "wherewerewe.app",
-          "hn": "24 points · 9 comments",
-          "score": 2.523,
+          "hn": "33 points · 11 comments",
+          "score": 2.404,
+          "coverage": 1
+        },
+        {
+          "title": "What I run on my $10 USD OpenStick homelab",
+          "link": "https://blog.bosscher.ch/posts/openstick/",
+          "excerpt": "What I run on my $10 USD OpenStick homelab",
+          "source": "blog.bosscher.ch via Hacker News",
+          "date": "Nov 07",
+          "image": "https://blog.bosscher.ch/posts/openstick/index.png",
+          "icon": "https://blog.bosscher.ch/favicon.svg",
+          "domain": "blog.bosscher.ch",
+          "hn": "413 points · 94 comments",
+          "score": 3.184,
           "coverage": 1
         }
       ]
