@@ -1,21 +1,31 @@
 {
   "date": "2026-11-09",
   "lead": {
-    "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
-    "link": "https://duxlabs.dev/",
-    "excerpt": "A modern Linux desktop suite with beautiful widgets and powerful monitoring - optimized for niri, Hyprland, mangowm, Sway, and Miracle WM.",
-    "source": "duxlabs.dev via Hacker News",
-    "date": "Nov 08",
-    "image": "https://duxlabs.dev/preview-images/8695bf88f0423ca0736bf25344b0082cffedcca7.png",
+    "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+    "link": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+    "excerpt": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
+    "source": "TechCrunch",
+    "date": "Nov 09",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800",
     "image_credit": null,
-    "section": "Secrets & NHI",
+    "section": "News & Research",
     "pinned": false,
     "note": null,
     "labels": [
-      "Secrets & NHI",
-      "8h ago"
+      "3 sources",
+      "News & Research",
+      "under 1h ago"
     ],
-    "also": []
+    "also": [
+      {
+        "name": "nvidianews.nvidia.com",
+        "link": "https://nvidianews.nvidia.com/news/a-message-to-our-company"
+      },
+      {
+        "name": "theverge.com",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia"
+      }
+    ]
   },
   "pulse": [
     {
@@ -25,7 +35,7 @@
       "link_domain": "thestateofai.com",
       "source": "Hacker News",
       "domain": "thestateofai.com",
-      "meta": "Hacker News · 660 points · 381 comments · 9h ago",
+      "meta": "Hacker News · 692 points · 384 comments · 11h ago",
       "also": [],
       "image": "https://www.thestateofai.com/media/uploads/33f913ce812c4074d207c01b6df1858a692e6bc3229dadbfcd4f56b61722a538.png",
       "icon": "https://www.thestateofai.com/media/uploads/2026/09/da5c9ca7-soai-256x256.png"
@@ -37,7 +47,7 @@
       "link_domain": "sergeykuhne.com",
       "source": "Hacker News",
       "domain": "sergeykuhne.com",
-      "meta": "Hacker News · 183 points · 144 comments · 8h ago",
+      "meta": "Hacker News · 203 points · 158 comments · 10h ago",
       "also": [],
       "image": null,
       "icon": "https://sergeykuhne.com/favicon.svg"
@@ -49,7 +59,7 @@
       "link_domain": "247wallst.com",
       "source": "Hacker News",
       "domain": "247wallst.com",
-      "meta": "Hacker News · 183 points · 203 comments · 13h ago",
+      "meta": "Hacker News · 185 points · 204 comments · 15h ago",
       "also": [],
       "image": "https://247wallst.com/wp-content/uploads/2026/11/openai-just-raised-11-billion-at-a-1-25-trillion-v-featured-1794023504517-scaled.webp",
       "icon": "https://247wallst.com/favicon.ico"
@@ -61,7 +71,7 @@
       "link_domain": "lorekit.io",
       "source": "Hacker News",
       "domain": "lorekit.io",
-      "meta": "Hacker News · 177 points · 103 comments · 19h ago",
+      "meta": "Hacker News · 177 points · 105 comments · 21h ago",
       "also": [],
       "image": null,
       "icon": "https://www.lorekit.io/icons/icon-192.png"
@@ -73,7 +83,7 @@
       "link_domain": "",
       "source": "Lobsters",
       "domain": "Lobsters",
-      "meta": "Lobsters · 19 points · 28 comments · 11h ago",
+      "meta": "Lobsters · 22 points · 31 comments · 13h ago",
       "also": [],
       "image": null,
       "icon": null
@@ -85,7 +95,7 @@
       "link_domain": "polso.info",
       "source": "Hacker News",
       "domain": "polso.info",
-      "meta": "Hacker News · 108 points · 225 comments · 15h ago",
+      "meta": "Hacker News · 111 points · 226 comments · 17h ago",
       "also": [],
       "image": null,
       "icon": "https://www.polso.info/favicon.ico"
@@ -96,6 +106,32 @@
       "name": "AI-Assisted Engineering",
       "cards": [
         {
+          "title": "Hide your slop PR descriptions behind <details><summary>",
+          "link": "https://simonwillison.net/2026/Nov/9/details-summary/",
+          "excerpt": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today's…",
+          "source": "Simon Willison",
+          "date": "Nov 09",
+          "image": "https://static.simonwillison.net/static/2026/details-summary-pr.gif",
+          "icon": null,
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 6.49,
+          "coverage": 1
+        },
+        {
+          "title": "The Web Is More Than Enough, by Paul Ford",
+          "link": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
+          "excerpt": "My comment on The Web Is More Than Enough, by Paul Ford — Hacker News.OK, this comment convinced me to give that a shot. Here's a thing I made in Three.js this morning - a Nudibranch themed Faberge Egg: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (77KB) I just asked Claude…",
+          "source": "Simon Willison",
+          "date": "Nov 09",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 1.062,
+          "coverage": 1
+        },
+        {
           "title": "parse_number() as a SQLite extension: C vs Rust",
           "link": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
           "excerpt": "Research: parse_number() as a SQLite extension: C vs Rust I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning strings like -$1,234.56 or '12.5%' into numeric values that could be summed and…",
@@ -105,11 +141,25 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.815,
+          "score": 0.732,
           "coverage": 1
         }
       ],
-      "more": []
+      "more": [
+        {
+          "title": "Terry Pratchett's Study",
+          "link": "https://simonwillison.net/2026/Nov/7/hn-50407316/",
+          "excerpt": "My comment on Terry Pratchett's Study — Hacker News.Terry Pratchett once wrote about the concept of \"horizontal wealth\". Vertical wealth is where you spend money on rich people stuff - yachts and suchlike. Horizontal wealth is where you spend more money on the things you liked before you got rich:…",
+          "source": "Simon Willison",
+          "date": "Nov 07",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.309,
+          "coverage": 1
+        }
+      ]
     },
     {
       "name": "AI Agents & Agent Security",
@@ -124,7 +174,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.815,
+          "score": 0.735,
           "coverage": 1
         },
         {
@@ -137,26 +187,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.815,
-          "coverage": 1
-        }
-      ],
-      "more": []
-    },
-    {
-      "name": "Secrets & NHI",
-      "cards": [
-        {
-          "title": "Leaked documents show Cisco doubled down on Israeli military deals",
-          "link": "https://www.theguardian.com/world/2026/nov/07/israel-intelligence-cisco-gaza-palestine",
-          "excerpt": "Tech giant leaped to shore up relationship even as company was roiled by worker protest over its role in the war",
-          "source": "theguardian.com via Hacker News",
-          "date": "Nov 07",
-          "image": "https://i.guim.co.uk/img/media/60a84798eb17356220e1eb8ab76f14087a8cd747/0_0_3000_2400/master/3000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0face194e288757b7375dcecfc089f9d",
-          "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg",
-          "domain": "theguardian.com",
-          "hn": "10 points · 0 comments",
-          "score": 2.345,
+          "score": 0.735,
           "coverage": 1
         }
       ],
@@ -165,6 +196,19 @@
     {
       "name": "Security & AppSec",
       "cards": [
+        {
+          "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+          "link": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports that it said may have been exploited in real-world attacks. The vulnerability, tracked as…",
+          "source": "The Hacker News",
+          "date": "Nov 09",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjILYvlBWd-cPdnYJiX5gpFUBvDeq0nZYHWard5V4B8oEx7r_-4lUxcIan0_5l4EHxun-KbEHOJTj1p8qTuORzAaKalwqmlz1ajVuBmS-KTBJB0-rBSrhHGgHUkY0I3GTMSEbIy5fkP4vDyITtkZvbkqreMTACQjDS3OBRmnZE4U7pVZLjgId53L259b5Qj/s1600/sonicss.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.599,
+          "coverage": 1
+        },
         {
           "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
           "link": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
@@ -175,9 +219,24 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 2.067,
+          "score": 1.91,
           "coverage": 1
         },
+        {
+          "title": "Linus Torvalds sees signs AI-prompted patch flood has peaked",
+          "link": "https://www.theregister.com/security/2026/11/09/linus-torvalds-sees-signs-ai-prompted-patch-flood-has-peaked/5308345",
+          "excerpt": "Fixes are arriving faster than new bug reports for one major Linux project",
+          "source": "The Register",
+          "date": "Nov 09",
+          "image": "https://image.theregister.com/?imageId=5241522&width=800",
+          "icon": null,
+          "domain": "theregister.com",
+          "hn": null,
+          "score": 0.545,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "Huawei says it’s made a 100 percent Chinese PC",
           "link": "https://www.theregister.com/systems/2026/11/09/huawei-says-its-made-a-100-percent-chinese-pc/5308335",
@@ -188,7 +247,7 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 0.519,
+          "score": 0.454,
           "coverage": 1
         },
         {
@@ -201,11 +260,10 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 0.94,
+          "score": 0.906,
           "coverage": 1
         }
-      ],
-      "more": []
+      ]
     },
     {
       "name": "Platform, Cloud & Reliability",
@@ -220,7 +278,7 @@
           "icon": "https://sreweekly.com/wp-content/uploads/2015/12/cropped-sreweekly-logo-axes-180x180.png",
           "domain": "sreweekly.com",
           "hn": null,
-          "score": 2.485,
+          "score": 2.264,
           "coverage": 1
         },
         {
@@ -252,48 +310,87 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 2.741,
+          "score": 2.5,
           "coverage": 1
         },
         {
-          "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
-          "link": "https://ketchup3d.github.io/app/",
-          "excerpt": "Free, open-source 3D modeling for woodworking and furniture design. Plan shelves, tables, and cabinets with precise dimensions on Windows, macOS, Linux, or in your browser.",
-          "source": "ketchup3d.github.io via Hacker News",
+          "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+          "link": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+          "excerpt": "I owe my family and all of you an apology. I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did. I am deeply sorry. Throughout my life, my ...",
+          "source": "nvidianews.nvidia.com via Hacker News",
           "date": "Nov 08",
-          "image": "https://ketchup3d.github.io/app/assets/screenshots/ketchup.jpg?v=0.6.5-r2",
-          "icon": "https://ketchup3d.github.io/app/assets/branding/apple-touch-icon.png",
-          "domain": "ketchup3d.github.io",
-          "hn": "296 points · 84 comments",
-          "score": 3.055,
-          "coverage": 1
+          "image": "https://iprsoftwaremedia.com/219/files/202512/692f56983d6332f89cbbc58b_nvidia-logo-horiz-wht-16x9/nvidia-logo-horiz-wht-16x9_44a60e3f-c4e5-4d8a-879f-ec5121ad6f4b-prv.png?v=44a60e3f-c4e5-4d8a-879f-ec5121ad6f4b",
+          "icon": "https://nvidianews.nvidia.com/media/sites/219/images/itouch.png",
+          "domain": "nvidianews.nvidia.com",
+          "hn": "479 points · 514 comments",
+          "score": 10.227,
+          "coverage": 3
         },
         {
-          "title": "The Web Is More Than Enough, by Paul Ford",
-          "link": "https://ftrain.com/aboard-the-web-is-more-than-enough",
-          "excerpt": "Web browsers enable incredibly rich app development—and that’s radically easier than it used to be.",
-          "source": "ftrain.com via Hacker News",
+          "title": "I'm not convinced the AI bubble exists",
+          "link": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+          "excerpt": "The AI bubble is a speculative concept that the AI industry is extremely over-valued. If true, the value of most companies involved in AI (several of whom are worth well over a trillion dollars) will collapse, devastating the entire economy. If you check any online discussion about the financial…",
+          "source": "matteoraso.github.io via Hacker News",
           "date": "Nov 08",
-          "image": "https://ftrain.com/art/uploads/aboard-newsletter/the-web-is-more-than-enough-header.png",
-          "icon": "https://ftrain.com/apple-touch-icon.png",
-          "domain": "ftrain.com",
-          "hn": "99 points · 52 comments",
-          "score": 2.275,
+          "image": "https://matteoraso.github.io/images/profile.jpg",
+          "icon": "https://matteoraso.github.io/images/profile.jpg",
+          "domain": "matteoraso.github.io",
+          "hn": "130 points · 177 comments",
+          "score": 2.821,
           "coverage": 1
         }
       ],
       "more": [
         {
+          "title": "A Critique of GPUI",
+          "link": "https://blog.zortax.de/posts/a-critique-of-gpui",
+          "excerpt": "Personal Notes",
+          "source": "blog.zortax.de via Hacker News",
+          "date": "Nov 09",
+          "image": null,
+          "icon": "https://blog.zortax.de/favicon.svg",
+          "domain": "blog.zortax.de",
+          "hn": "48 points · 17 comments",
+          "score": 2.773,
+          "coverage": 1
+        },
+        {
+          "title": "The Qlobe: Rotating Quine (2010)",
+          "link": "http://mamememo.blogspot.com/2010/09/qlobe.html",
+          "excerpt": "13 points · 0 comments",
+          "source": "mamememo.blogspot.com via Hacker News",
+          "date": "Nov 09",
+          "image": null,
+          "icon": null,
+          "domain": "mamememo.blogspot.com",
+          "hn": "13 points · 0 comments",
+          "score": 1.829,
+          "coverage": 1
+        },
+        {
+          "title": "A Bit about Email",
+          "link": "https://maurycyz.com/misc/email/",
+          "excerpt": "16 points · 2 comments",
+          "source": "maurycyz.com via Hacker News",
+          "date": "Nov 09",
+          "image": null,
+          "icon": "https://maurycyz.com/favicon.svg",
+          "domain": "maurycyz.com",
+          "hn": "16 points · 2 comments",
+          "score": 1.93,
+          "coverage": 1
+        },
+        {
           "title": "RIP, Harvest",
           "link": "https://aphyr.com/posts/427-rip-harvest",
-          "excerpt": "76 points · 24 comments",
+          "excerpt": "226 points · 66 comments",
           "source": "aphyr.com via Hacker News",
           "date": "Nov 09",
           "image": null,
           "icon": "https://aphyr.com/favicon.ico",
           "domain": "aphyr.com",
-          "hn": "76 points · 24 comments",
-          "score": 3.036,
+          "hn": "226 points · 66 comments",
+          "score": 3.186,
           "coverage": 1
         },
         {
@@ -305,47 +402,8 @@
           "image": null,
           "icon": "https://shubs.io/content/images/size/w256h256/2025/01/android-chrome-512x512.png",
           "domain": "shubs.io",
-          "hn": "140 points · 48 comments",
-          "score": 3.008,
-          "coverage": 1
-        },
-        {
-          "title": "Herb Sutter: When a language's creator and its owners strongly disagree [pdf]",
-          "link": "https://isocpp.org/files/papers/P4454R0.pdf",
-          "excerpt": "91 points · 72 comments",
-          "source": "isocpp.org via Hacker News",
-          "date": "Nov 08",
-          "image": null,
-          "icon": "https://isocpp.org/favicon.ico",
-          "domain": "isocpp.org",
-          "hn": "91 points · 72 comments",
+          "hn": "190 points · 67 comments",
           "score": 2.811,
-          "coverage": 1
-        },
-        {
-          "title": "Chimera Vocal Synth",
-          "link": "https://chimera-vocal-synth.vercel.app/",
-          "excerpt": "CHIMERA: a physically modelled voice synthesizer. Every sound comes from a simulated airway.",
-          "source": "chimera-vocal-synth.vercel.app via Hacker News",
-          "date": "Nov 08",
-          "image": null,
-          "icon": "https://chimera-vocal-synth.vercel.app/favicon.ico",
-          "domain": "chimera-vocal-synth.vercel.app",
-          "hn": "137 points · 21 comments",
-          "score": 2.658,
-          "coverage": 1
-        },
-        {
-          "title": "Ask HN: What are you working on? (November 2026)",
-          "link": "https://news.ycombinator.com/item?id=50417407",
-          "excerpt": "163 points · 553 comments",
-          "source": "Hacker News",
-          "date": "Nov 08",
-          "image": null,
-          "icon": null,
-          "domain": "news.ycombinator.com",
-          "hn": "163 points · 553 comments",
-          "score": 3.119,
           "coverage": 1
         }
       ]

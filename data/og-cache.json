@@ -1,4 +1,10 @@
 {
+ "http://mamememo.blogspot.com/2010/09/qlobe.html": {
+  "description": null,
+  "fetched": "2026-11-09",
+  "icon": null,
+  "image": null
+ },
  "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html": {
   "description": "Over the past decade, the timing of PostgreSQL major releases has become very predictable: no earlier than the middle of September, and no l...",
   "fetched": "2026-11-02",
@@ -424,6 +430,12 @@
   "fetched": "2026-11-06",
   "icon": "https://blog.trailofbits.com/favicon.png",
   "image": "https://blog.trailofbits.com/2026/11/06/after-binance-check-what-your-signing-systems-can-approve/binance-socialbanner.png"
+ },
+ "https://blog.zortax.de/posts/a-critique-of-gpui": {
+  "description": "Personal Notes",
+  "fetched": "2026-11-09",
+  "icon": "https://blog.zortax.de/favicon.svg",
+  "image": null
  },
  "https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/": {
   "description": "A few years back I wrote “The modern packager’s security nightmare”. Have things improved since? On the contrary, I feel like we’re slipping down a well-oiled slope with no end in…",
@@ -1781,6 +1793,12 @@
   "icon": "https://s0.wp.com/i/webclip.png",
   "image": "https://blogs.worldbank.org/sites/default/files/africacan/images/africacan-7-facts-about-population-in-sub-saharan-africa-625_2.jpg"
  },
+ "https://maurycyz.com/misc/email/": {
+  "description": null,
+  "fetched": "2026-11-09",
+  "icon": "https://maurycyz.com/favicon.svg",
+  "image": null
+ },
  "https://mcp-explained.com/": {
   "description": "Every MCP message on the wire, step by step. Transports, auth, tools, sampling, tasks, tool search and codemode. By Runlayer.",
   "fetched": "2026-11-05",
@@ -1900,6 +1918,12 @@
   "fetched": "2026-10-29",
   "icon": null,
   "image": null
+ },
+ "https://nvidianews.nvidia.com/news/a-message-to-our-company": {
+  "description": "I owe my family and all of you an apology. I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did. I am deeply sorry. Throughout my life, my ...",
+  "fetched": "2026-11-09",
+  "icon": "https://nvidianews.nvidia.com/media/sites/219/images/itouch.png",
+  "image": "https://iprsoftwaremedia.com/219/files/202512/692f56983d6332f89cbbc58b_nvidia-logo-horiz-wht-16x9/nvidia-logo-horiz-wht-16x9_44a60e3f-c4e5-4d8a-879f-ec5121ad6f4b-prv.png?v=44a60e3f-c4e5-4d8a-879f-ec5121ad6f4b"
  },
  "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors": {
   "description": "The NVIDIA Board is initiating an independent investigation in light of recent reporting that founder and CEO Jensen Huang has been the target of a foreign intelligence effort. A committee of ...",
@@ -2513,6 +2537,12 @@
   "icon": null,
   "image": null
  },
+ "https://simonwillison.net/2026/Nov/7/hn-50407316/": {
+  "description": "Terry Pratchett's Study",
+  "fetched": "2026-11-09",
+  "icon": null,
+  "image": null
+ },
  "https://simonwillison.net/2026/Nov/7/link-rel-next/": {
   "description": "I was looking at the Firefox network panel today when I noticed that requests to a Datasette table page were triggering an HTTP prefetch to the next page of rows …",
   "fetched": "2026-11-08",
@@ -2521,6 +2551,12 @@
  },
  "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/": {
   "description": "Four SQLite extensions implement the same `parse_number()` behavior in C and Rust, with tests covering type preservation, parsing rules, and floating-point accuracy. The optimized C implementation was fastest at 16–19 …",
+  "fetched": "2026-11-09",
+  "icon": null,
+  "image": null
+ },
+ "https://simonwillison.net/2026/Nov/9/hn-50421091/": {
+  "description": "The Web Is More Than Enough, by Paul Ford",
   "fetched": "2026-11-09",
   "icon": null,
   "image": null
@@ -2944,6 +2980,12 @@
   "fetched": "2026-11-06",
   "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
   "image": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2215666246.jpg?resize=1200,800"
+ },
+ "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/": {
+  "description": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
+  "fetched": "2026-11-09",
+  "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800"
  },
  "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/": {
   "description": "In a memo to the company, Huang admitted that he had an affair.",
