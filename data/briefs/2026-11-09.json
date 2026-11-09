@@ -1,19 +1,19 @@
 {
   "date": "2026-11-09",
   "lead": {
-    "title": "Stop measuring developer productivity",
-    "link": "https://leaddev.com/reporting/stop-measuring-developer-productivity?utm_source=leaddev&utm_medium=RSS",
-    "excerpt": "Start measuring friction instead. The post Stop measuring developer productivity appeared first on LeadDev.",
-    "source": "LeadDev",
+    "title": "Our newest TPUs: 8tx and 8i Max, built for the agentic era",
+    "link": "https://cloud.google.com/blog/topics/ai-infrastructure/tpu-8tx-and-tpu-8i-max/",
+    "excerpt": "Editor’s note: This blog was originally published on News from Google. We first designed TPUs more than a decade ago motivated by Google’s internal demands, including voice recognition and language translation. Eight generations of TPUs later, the use cases have exploded, covering: i) training and…",
+    "source": "Cloud Blog",
     "date": "Nov 09",
-    "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2026/10/Metrics_still_dont_earn_trust_shifted_v2.png",
+    "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/TPUs_8tx_and_8i_Max.max-600x600.png",
     "image_credit": null,
-    "section": "AI-Assisted Engineering",
+    "section": "Platform, Cloud & Reliability",
     "pinned": false,
     "note": null,
     "labels": [
-      "AI-Assisted Engineering",
-      "3h ago"
+      "Platform, Cloud & Reliability",
+      "under 1h ago"
     ],
     "also": []
   },
@@ -25,7 +25,7 @@
       "link_domain": "thestateofai.com",
       "source": "Hacker News",
       "domain": "thestateofai.com",
-      "meta": "Hacker News · 776 points · 412 comments · 15h ago",
+      "meta": "Hacker News · 812 points · 431 comments · 19h ago",
       "also": [],
       "image": "https://www.thestateofai.com/media/uploads/33f913ce812c4074d207c01b6df1858a692e6bc3229dadbfcd4f56b61722a538.png",
       "icon": "https://www.thestateofai.com/media/uploads/2026/09/da5c9ca7-soai-256x256.png"
@@ -37,10 +37,22 @@
       "link_domain": "matteoraso.github.io",
       "source": "Hacker News",
       "domain": "matteoraso.github.io",
-      "meta": "Hacker News · 278 points · 464 comments · 10h ago",
+      "meta": "Hacker News · 376 points · 641 comments · 13h ago",
       "also": [],
       "image": "https://matteoraso.github.io/images/profile.jpg",
       "icon": "https://matteoraso.github.io/images/profile.jpg"
+    },
+    {
+      "title": "unlocking any car from X brand in most of the world",
+      "thread": "https://lobste.rs/s/kbrpx3/unlocking_any_car_from_x_brand_most_world",
+      "link": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
+      "link_domain": "shubs.io",
+      "source": "Lobsters",
+      "domain": "shubs.io",
+      "meta": "Lobsters · 45 points · 1 comments · 8h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://shubs.io/content/images/size/w256h256/2025/01/android-chrome-512x512.png"
     },
     {
       "title": "How I Fight AI Brain Fry",
@@ -49,7 +61,7 @@
       "link_domain": "sergeykuhne.com",
       "source": "Hacker News",
       "domain": "sergeykuhne.com",
-      "meta": "Hacker News · 247 points · 171 comments · 14h ago",
+      "meta": "Hacker News · 275 points · 191 comments · 17h ago",
       "also": [],
       "image": null,
       "icon": "https://sergeykuhne.com/favicon.svg"
@@ -61,7 +73,7 @@
       "link_domain": "247wallst.com",
       "source": "Hacker News",
       "domain": "247wallst.com",
-      "meta": "Hacker News · 187 points · 206 comments · 19h ago",
+      "meta": "Hacker News · 188 points · 209 comments · 22h ago",
       "also": [],
       "image": "https://247wallst.com/wp-content/uploads/2026/11/openai-just-raised-11-billion-at-a-1-25-trillion-v-featured-1794023504517-scaled.webp",
       "icon": "https://247wallst.com/favicon.ico"
@@ -73,34 +85,10 @@
       "link_domain": "",
       "source": "Lobsters",
       "domain": "Lobsters",
-      "meta": "Lobsters · 21 points · 31 comments · 17h ago",
+      "meta": "Lobsters · 25 points · 35 comments · 20h ago",
       "also": [],
       "image": null,
       "icon": null
-    },
-    {
-      "title": "unlocking any car from X brand in most of the world",
-      "thread": "https://lobste.rs/s/kbrpx3/unlocking_any_car_from_x_brand_most_world",
-      "link": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
-      "link_domain": "shubs.io",
-      "source": "Lobsters",
-      "domain": "shubs.io",
-      "meta": "Lobsters · 20 points · 0 comments · 5h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://shubs.io/content/images/size/w256h256/2025/01/android-chrome-512x512.png"
-    },
-    {
-      "title": "Why I will not be using LLMs in my coding",
-      "thread": "https://news.ycombinator.com/item?id=50412591",
-      "link": "https://www.polso.info/why-i-will-not-be-using-llms-coding",
-      "link_domain": "polso.info",
-      "source": "Hacker News",
-      "domain": "polso.info",
-      "meta": "Hacker News · 115 points · 231 comments · 21h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://www.polso.info/favicon.ico"
     },
     {
       "title": "Unattended reboots with encrypted disks",
@@ -109,7 +97,7 @@
       "link_domain": "jmmv.dev",
       "source": "Lobsters",
       "domain": "jmmv.dev",
-      "meta": "Lobsters · 17 points · 11 comments · 16h ago",
+      "meta": "Lobsters · 23 points · 13 comments · 20h ago",
       "also": [],
       "image": "https://jmmv.dev/images/2026-10-04-zkeys-hdd-lock.jpg",
       "icon": "https://jmmv.dev/images/favicons/favicon-16x16.png"
@@ -121,7 +109,7 @@
       "link_domain": "",
       "source": "Lobsters",
       "domain": "Lobsters",
-      "meta": "Lobsters · 15 points · 7 comments · 16h ago",
+      "meta": "Lobsters · 17 points · 9 comments · 20h ago",
       "also": [],
       "image": null,
       "icon": null
@@ -132,6 +120,19 @@
       "name": "AI-Assisted Engineering",
       "cards": [
         {
+          "title": "Stop measuring developer productivity",
+          "link": "https://leaddev.com/reporting/stop-measuring-developer-productivity?utm_source=leaddev&utm_medium=RSS",
+          "excerpt": "Start measuring friction instead. The post Stop measuring developer productivity appeared first on LeadDev.",
+          "source": "LeadDev",
+          "date": "Nov 09",
+          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2026/10/Metrics_still_dont_earn_trust_shifted_v2.png",
+          "icon": null,
+          "domain": "leaddev.com",
+          "hn": null,
+          "score": 4.971,
+          "coverage": 1
+        },
+        {
           "title": "Hide your slop PR descriptions behind <details><summary>",
           "link": "https://simonwillison.net/2026/Nov/9/details-summary/",
           "excerpt": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today's…",
@@ -141,9 +142,24 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 5.1,
+          "score": 4.245,
           "coverage": 1
         },
+        {
+          "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+          "link": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+          "excerpt": "A Blog post by Amazon on Hugging Face",
+          "source": "Hugging Face",
+          "date": "Nov 09",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/6ab2f79bd8000a811c648a32/xZT8tg4be3bgZIx2EQS_m.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null,
+          "score": 1.127,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "The Web Is More Than Enough, by Paul Ford",
           "link": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
@@ -154,7 +170,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.833,
+          "score": 0.692,
           "coverage": 1
         },
         {
@@ -167,11 +183,9 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.615,
+          "score": 0.535,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Terry Pratchett's Study",
           "link": "https://simonwillison.net/2026/Nov/7/hn-50407316/",
@@ -182,7 +196,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.286,
+          "score": 0.268,
           "coverage": 1
         }
       ]
@@ -200,7 +214,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.621,
+          "score": 0.542,
           "coverage": 1
         },
         {
@@ -213,7 +227,20 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.621,
+          "score": 0.542,
+          "coverage": 1
+        },
+        {
+          "title": "AI Security",
+          "link": "https://www.schneier.com/blog/archives/2026/11/ai-security.html",
+          "excerpt": "Two weeks ago, I attended the [un]prompted AI security conference in San Francisco. It was an excellent event: three days of very dense talks about all aspects of AI security. (My talk was about integrous AI, and I will post it when it is online.) AI security can be divided into three broad…",
+          "source": "Schneier on Security",
+          "date": "Nov 09",
+          "image": null,
+          "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+          "domain": "schneier.com",
+          "hn": null,
+          "score": 1.132,
           "coverage": 1
         }
       ],
@@ -222,6 +249,32 @@
     {
       "name": "Leadership",
       "cards": [
+        {
+          "title": "Jensen Huang’s Affair, The Culper Report, Huang’s Righteousness",
+          "link": "https://stratechery.com/2026/jensen-huangs-affair-the-culper-report-huangs-righteousness/",
+          "excerpt": "Nvidia CEO Jensen Huang admitted to an affair with a Chinese spy, and that might not be the end of his troubles. I hope he survives, but his influence will never be the same.",
+          "source": "Stratechery by Ben Thompson",
+          "date": "Nov 09",
+          "image": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9zdHJhdGVjaGVyeS5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMThcLzAzXC9jcm9wcGVkLWFuZHJvaWQtY2hyb21lLTUxMng1MTItMS5wbmc_Zml0PTUxMiUyQzUxMiZzc2w9MSIsInR4dCI6IlN0cmF0ZWNoZXJ5IGJ5IEJlbiBUaG9tcHNvbiIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxODgwNDM0MTV9.5VWck4PcKPWCTPe_HVznn3n3xsgn-G0b3d2OeiNNC7cMQ",
+          "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
+          "domain": "stratechery.com",
+          "hn": null,
+          "score": 4.516,
+          "coverage": 3
+        },
+        {
+          "title": "Do More With Sustainability Data",
+          "link": "https://sloanreview.mit.edu/article/do-more-with-sustainability-data/",
+          "excerpt": "Maria Bloom/Ikon Images Many large companies have invested significant amounts of time and capital into sustainability reporting. In 2022, the European Union’s ambitious sustainability reporting framework, the Corporate Sustainability Reporting Directive, was projected to generate approximately…",
+          "source": "MIT Sloan Management Review",
+          "date": "Nov 09",
+          "image": "https://sloanreview.mit.edu/wp-content/uploads/2026/10/Teracino_Sustainability-1290x860-1.jpg",
+          "icon": null,
+          "domain": "sloanreview.mit.edu",
+          "hn": null,
+          "score": 1.125,
+          "coverage": 1
+        },
         {
           "title": "How CFOs can make AI pay off",
           "link": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/how-cfos-can-make-ai-pay-off",
@@ -232,7 +285,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.687,
+          "score": 0.592,
           "coverage": 1
         }
       ],
@@ -241,6 +294,32 @@
     {
       "name": "Agent Identity & Authorization",
       "cards": [
+        {
+          "title": "How to add authentication to a Rust axum app with WorkOS AuthKit",
+          "link": "https://workos.com/blog/rust-axum-authentication-authkit",
+          "excerpt": "Use the WorkOS Rust SDK to sign users in with AuthKit, verify their session on every request, and check webhook signatures in an axum service.",
+          "source": "WorkOS Blog",
+          "date": "Nov 09",
+          "image": "https://images.workoscdn.com/images/b7af6d45-583c-4559-a76f-99b598a1c738.png?auto=format&fit=clip&q=80",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null,
+          "score": 0.473,
+          "coverage": 1
+        },
+        {
+          "title": "Black October 2026: How AI sped up bug hunting and attacks",
+          "link": "https://workos.com/blog/black-october-2026-ai-security",
+          "excerpt": "Critical flaws in PHP, Node.js and GitLab, a poisoned LiteLLM release and weak CA keys all hit in October 2026. Here's what AI had to do with it.",
+          "source": "WorkOS Blog",
+          "date": "Nov 09",
+          "image": "https://images.workoscdn.com/images/e5ae769a-4b09-48e5-97f3-0b7e8ec8070f.png?auto=format&fit=clip&q=80",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null,
+          "score": 0.473,
+          "coverage": 1
+        },
         {
           "title": "How to add authentication to Next.js without creating an account",
           "link": "https://workos.com/blog/add-authentication-nextjs-without-account",
@@ -251,7 +330,40 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.549,
+          "score": 0.473,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Authentication and Authorization: What's New in .NET 11",
+          "link": "https://auth0.com/blog/authentication-and-authorization-what-s-new-in-net-11/",
+          "excerpt": "Learn what’s new in .NET 11 regarding authentication and authorization.",
+          "source": "Auth0 Blog",
+          "date": "Nov 09",
+          "image": "https://images.ctfassets.net/23aumh6u8s0i/5qsAo7jIYvClWYLYPFaMPS/d1ef0c663cda250b166218ed66bfe4a4/NET.png",
+          "icon": null,
+          "domain": "auth0.com",
+          "hn": null,
+          "score": 0.592,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Secrets & NHI",
+      "cards": [
+        {
+          "title": "Claude Code settings.local.json Secrets: 17 months of exposure on GitHub, & Docker Hub",
+          "link": "https://blog.gitguardian.com/claude-code-settings-local-json-secrets-docker-hub/",
+          "excerpt": "31,088 secrets in Claude Code’s .claude/settings.local.json on public GitHub, 5,343 valid at detection, 23,276 repositories. 613 more in Docker Hub images, 99 valid. Validity, timeline, Docker Hub, who is affected.",
+          "source": "GitGuardian",
+          "date": "Nov 09",
+          "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/11/Claude-Code-settings.local.json--31-088-Secrets-on-GitHub--Copies-in-Docker-Hub.png",
+          "icon": null,
+          "domain": "blog.gitguardian.com",
+          "hn": null,
+          "score": 6.417,
           "coverage": 1
         }
       ],
@@ -270,7 +382,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 4.722,
+          "score": 3.707,
           "coverage": 1
         },
         {
@@ -283,7 +395,48 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 4.568,
+          "score": 3.611,
+          "coverage": 1
+        },
+        {
+          "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
+          "link": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
+          "excerpt": "The login systems behind two car brands' mobile apps could be taken over completely, two security researchers found, allowing them to access any customer's account and, for an owner with a connected car, unlock the doors and start the engine. Both apps signed customers in through ForgeRock, an…",
+          "source": "The Hacker News",
+          "date": "Nov 09",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiI85M0pHHPiXe5ar2VpaGsBVRzxoYfZhpQTKgWqd8YGjK9Nyaca-z6XrGT3jT0lqh41qe-cAjb33_r7JErd7rB1CfuWkgTP_z-_IJkpQPWebz1GeEvSu9QpE5XYWRMOfhYTHmzhbkFB07hzSuV1FYARdaIWjfB_mUoX1_eMjl_3dOaSUFpTQvjt-34eQo/s1600/login-car.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.519,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety",
+          "link": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
+          "excerpt": "Some people who set up a Keplr crypto wallet with their Google or Apple account have had money stolen by an attacker. Keplr uses a company called Web3Auth to run that Google and Apple sign-in. The attacker used a security flaw at that company to reach the wallets, both companies said late last…",
+          "source": "The Hacker News",
+          "date": "Nov 09",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJtevfYXrRQrcU5FKn33bfyWpqN9O6FlI2b1eWOTjNWWslLIM1wwUfpzedZdMvdw6BXqmYqM1PwO-8GH3_IpKOGa15uoiXx5yDTkAal7JOFSKisSYOAHBdRk9XImTowXaCyJlTwX-chPd7uJFCDEq8u9sKY7jW6UYxorQKUSyuH9pF3szdwejvN_HGhno/s1600/kep.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.5,
+          "coverage": 1
+        },
+        {
+          "title": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks",
+          "link": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
+          "excerpt": "Everyone running LNbits, a free, open-source Bitcoin Lightning wallet system, should shut down their servers now because of a wave of attacks, the project said yesterday. It has several security fixes to release and asked operators to be careful until they are out. One operator said new accounts…",
+          "source": "The Hacker News",
+          "date": "Nov 09",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPZfiSS8v6cUfSW1R2sbPNNfjluB-GvnXCxcAW_G6pKRNzYU2Be89Qyu9Zx0mnY7voaGpLXFtsajKS9tqYp74Qo05wPzzELg9ZpbVcoWa5l9AKhf4SmmNbnIvjOUrm4LsB9V-tGBxU-V0NxHzAoV2Cnlz6tHlcPewPh2ir8ipqn6Kj-phVDm5zraXs9ss/s1600/crypto-bits.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.47,
           "coverage": 1
         },
         {
@@ -296,11 +449,9 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.488,
+          "score": 0.394,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
           "link": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
@@ -311,7 +462,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.462,
+          "score": 0.377,
           "coverage": 1
         },
         {
@@ -324,46 +475,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.457,
-          "coverage": 1
-        },
-        {
-          "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
-          "link": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
-          "excerpt": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service the company used. [...]",
-          "source": "BleepingComputer",
-          "date": "Nov 08",
-          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/06/iris.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
-          "hn": null,
-          "score": 1.673,
-          "coverage": 1
-        },
-        {
-          "title": "Linus Torvalds sees signs AI-prompted patch flood has peaked",
-          "link": "https://www.theregister.com/security/2026/11/09/linus-torvalds-sees-signs-ai-prompted-patch-flood-has-peaked/5308345",
-          "excerpt": "Fixes are arriving faster than new bug reports for one major Linux project",
-          "source": "The Register",
-          "date": "Nov 09",
-          "image": "https://image.theregister.com/?imageId=5241522&width=800",
-          "icon": null,
-          "domain": "theregister.com",
-          "hn": null,
-          "score": 0.425,
-          "coverage": 1
-        },
-        {
-          "title": "Huawei says it’s made a 100 percent Chinese PC",
-          "link": "https://www.theregister.com/systems/2026/11/09/huawei-says-its-made-a-100-percent-chinese-pc/5308335",
-          "excerpt": "PLUS: Japan declares infosec emergency; Apple’s makes biggest school Mac sale, ever, anywhere, in the Philippines; And more!",
-          "source": "The Register",
-          "date": "Nov 09",
-          "image": "https://image.theregister.com/?imageId=5308342&width=800",
-          "icon": null,
-          "domain": "theregister.com",
-          "hn": null,
-          "score": 0.367,
+          "score": 0.374,
           "coverage": 1
         }
       ]
@@ -372,42 +484,42 @@
       "name": "Platform, Cloud & Reliability",
       "cards": [
         {
-          "title": "Pinterest Replaces Journey Clustering with 4B Qwen3 LLM, Reports Improved Engagement",
-          "link": "https://www.infoq.com/news/2026/11/pinterest-journey/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "Pinterest has moved its user-journey inference system from a multi-stage clustering pipeline to a fine-tuned 4-billion-parameter language model, reporting a 1.1% improvement in email click-through and 1.3% higher push opens. By Matt Foster",
+          "title": "Article: Agentic AI Architecture: Current Challenges and Future Opportunities",
+          "link": "https://www.infoq.com/articles/agentic-ai-architecture-challenges-opportunities/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Agentic AI architecture extends microservices and cloud-native architectures with AI agents that work with context, memory, and protocols such as MCP and A2A. The article covers bounded-context integration, task-dependent coordination strategies, new security risks, and observability needs. It…",
           "source": "InfoQ",
           "date": "Nov 09",
-          "image": "https://res.infoq.com/news/2026/11/pinterest-journey/en/headerimage/generatedHeaderImage-1793998579474.jpg",
+          "image": "https://res.infoq.com/articles/agentic-ai-architecture-challenges-opportunities/en/headerimage/agentic-ai-architecture-challenges-opportunities-header-1793709540690.jpg",
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.624,
+          "score": 5.804,
           "coverage": 1
         },
         {
-          "title": "Tokio Releases Topcoat: A Batteries-Included Full-Stack Rust Framework",
-          "link": "https://www.infoq.com/news/2026/11/topcoat-rust-framework/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "Topcoat is an open-source, server-rendered full-stack web framework for Rust from the Tokio team, now public at version 0.9. It uses Rust expressions translated to JavaScript for reactivity instead of WebAssembly. It targets typical database-driven apps. Releases are unstable, and authentication…",
-          "source": "InfoQ",
+          "title": "Introducing TPU Sync: Fast KV cache and weight transfer for inference and RL on TPU",
+          "link": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-tpu-sync-fast-kv-cache-and-weight-transfer-on-tpu/",
+          "excerpt": "As frontier AI evolves from stateless single-turn prompts to million-token agents, disaggregated serving, and continuous reinforcement learning (RL), the primary bottleneck in AI infrastructure has shifted from raw compute to orchestrating live model state — both the contextual state held in…",
+          "source": "Cloud Blog",
           "date": "Nov 09",
-          "image": "https://res.infoq.com/news/2026/11/topcoat-rust-framework/en/headerimage/generatedHeaderImage-1793983973654.jpg",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1-architecture_6N0ck5s.max-1000x1000.png",
           "icon": null,
-          "domain": "infoq.com",
+          "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.594,
+          "score": 5.101,
           "coverage": 1
         },
         {
-          "title": "Architecting Governed, Self-Evolving AI Agents on Google Cloud",
-          "link": "https://developers.googleblog.com/architecting-governed-self-evolving-ai-agents-on-gemini-agent-platform/",
-          "excerpt": "Learn how Project Chrysalis combines Google Cloud's Gemini Enterprise Agent Platform, Agent Development Kit (ADK), BigQuery, and a four-gate defense-in-depth security stack (Model Armor, Cloud KMS, Binary Authorization, and OPA) to build governed, self-evolving AI agents that remediate live…",
-          "source": "Google Developers Blog",
-          "date": null,
-          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_g9d0nag9d0.2e16d0ba.fill-1200x600.jpg",
-          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
-          "domain": "developers.googleblog.com",
+          "title": "Run Linux applications in hypervisor-isolated micro-VMs with Hyperlight",
+          "link": "https://www.cncf.io/blog/2026/11/09/run-linux-applications-in-hypervisor-isolated-micro-vms-with-hyperlight/",
+          "excerpt": "More and more cloud native systems run code nobody on the team wrote: the Python an AI agent generated a second ago, or a plugin a customer just uploaded. Each of them needs a boundary between...",
+          "source": "Blog – Cloud Native Computing Foundation",
+          "date": "Nov 09",
+          "image": "https://www.cncf.io/wp-content/uploads/2026/11/image-3.png",
+          "icon": null,
+          "domain": "cncf.io",
           "hn": null,
-          "score": 2.25,
+          "score": 3.805,
           "coverage": 1
         }
       ],
@@ -422,7 +534,46 @@
           "icon": "https://sreweekly.com/wp-content/uploads/2015/12/cropped-sreweekly-logo-axes-180x180.png",
           "domain": "sreweekly.com",
           "hn": null,
-          "score": 1.941,
+          "score": 1.712,
+          "coverage": 1
+        },
+        {
+          "title": "Now generally available: GKE dynamic slicing for higher resilience, and efficiency for TPUs",
+          "link": "https://cloud.google.com/blog/products/containers-kubernetes/gke-dynamic-slicing-on-tpus/",
+          "excerpt": "Running large-scale AI workloads on TPU and Google Kubernetes Engine (GKE) requires infrastructure that adapts as fast as your models change. Dynamic Slicing is generally available on GKE, which decouples logical TPU slice formation from physical nodepool provisioning. Compared to creating a…",
+          "source": "Cloud Blog",
+          "date": "Nov 09",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/original_images/1._SUperSliceVisualizer_compressed.gif",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 3.039,
+          "coverage": 1
+        },
+        {
+          "title": "Cloud Pathways, a distributed ML runtime for massive accelerator fleets, now GA",
+          "link": "https://cloud.google.com/blog/topics/ai-infrastructure/cloud-pathways-a-distributed-ml-runtime-is-ga/",
+          "excerpt": "Today, we are thrilled to announce the general availability (GA) of Cloud Pathways (Pathways on Cloud) on Google Kubernetes Engine (GKE) as a core runtime pillar of the Google Cloud AI Hypercomputer. Originally engineered by Google DeepMind to train and serve Google's frontier models — including…",
+          "source": "Cloud Blog",
+          "date": "Nov 09",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1-header.max-600x600.jpg",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 0.729,
+          "coverage": 1
+        },
+        {
+          "title": "What is Pathways? Single-controller training for large models",
+          "link": "https://developers.googleblog.com/what-is-pathways-single-controller-training-for-large-models/",
+          "excerpt": "Pathways is a single-controller distributed training system designed to coordinate large-scale model training across multiple accelerator groups by representing computations as a global dataflow graph. Unlike traditional SPMD models like DDP and FSDP that rely on synchronous collectives, Pathways…",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner-1600x900_1.2e16d0ba.fill-1200x600.png",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null,
+          "score": 0.25,
           "coverage": 1
         }
       ]
@@ -440,100 +591,100 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 2.149,
+          "score": 1.898,
           "coverage": 1
         },
         {
-          "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
-          "link": "https://arxiv.org/abs/2610.14162",
-          "excerpt": "Diffusion language models (DLMs) offer parallel sampling for faster generation than autoregressive models, an increasingly important advantage as inference becomes a dominant computational workload. However, DLMs degrade quickly with fewer sampling steps, process the full sequence at every step,…",
-          "source": "arxiv.org via Hacker News",
+          "title": "Fold Epic Paper Airplanes",
+          "link": "https://www.foldableflight.com",
+          "excerpt": "The world's largest database of paper airplanes with easy, step-by- step video tutorials for folding each plane!",
+          "source": "foldableflight.com via Hacker News",
           "date": "Nov 09",
-          "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-          "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png",
-          "domain": "arxiv.org",
-          "hn": "64 points · 6 comments",
-          "score": 2.767,
+          "image": "https://static.wixstatic.com/media/0641fb_4ff6a49def494e379b4f3b585c4ac4a8%7Emv2_d_2482_1412_s_2.jpg/v1/fit/w_2500,h_1330,al_c/0641fb_4ff6a49def494e379b4f3b585c4ac4a8%7Emv2_d_2482_1412_s_2.jpg",
+          "icon": "https://static.wixstatic.com/media/3132ac_65e025518ab8461e870f7fbedd828714%7Emv2.jpg/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/3132ac_65e025518ab8461e870f7fbedd828714%7Emv2.jpg",
+          "domain": "foldableflight.com",
+          "hn": "109 points · 23 comments",
+          "score": 3.463,
           "coverage": 1
         },
         {
-          "title": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
-          "link": "https://twitter.com/shanemelaugh/status/2119192075505893695",
-          "excerpt": "is Opus 5.5 nerfed? I just had Gemini 4 Argon analyze 1,400 Claude Code sessions and it found that on November 3, something definitely happened. the model name didn't change, but the way it does reasoning took a sharp turn.",
-          "source": "twitter.com via Hacker News",
+          "title": "Hours of YouTube and 85 handtyped pages of notes on LLM Inference – Start here",
+          "link": "https://github.com/samir-sarwar/samir-vllm",
+          "excerpt": "small LLM inference engine from scratch, w/ 6+ hours of youtube tutorials & 85+ pages of handwritten notes included - samir-sarwar/samir-vllm",
+          "source": "github.com via Hacker News",
           "date": "Nov 09",
-          "image": "https://pbs.twimg.com/media/HWjhsqYWMAALhKb?format=webp&name=large",
-          "icon": "https://x.com/apple-touch-icon.png",
-          "domain": "twitter.com",
-          "hn": "105 points · 58 comments",
-          "score": 3.168,
+          "image": "https://opengraph.githubassets.com/1dbe83a2d6946b49772d681693beb5a2e168469a2ced76ca15b5b28db6ece3c7/samir-sarwar/samir-vllm",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "20 points · 1 comments",
+          "score": 2.24,
           "coverage": 1
         }
       ],
       "more": [
         {
-          "title": "PixelOS",
-          "link": "https://pixelos.net/",
-          "excerpt": "PixelOS is an AOSP based ROM, with Google apps included and all Pixel goodies. We aim to provide an experience similar to Google Pixel phones with numerous performance enhancements and a small amount of useful additional features.",
-          "source": "pixelos.net via Hacker News",
-          "date": "Nov 09",
-          "image": null,
-          "icon": "https://pixelos.net/favicon.ico?favicon.3v9zsinqchi1n.ico",
-          "domain": "pixelos.net",
-          "hn": "18 points · 10 comments",
-          "score": 2.303,
-          "coverage": 1
-        },
-        {
-          "title": "Show HN: Flide: Make Jev-like decision models up to 9.5x faster",
-          "link": "https://github.com/OmniJev/Flide",
-          "excerpt": "🔥🔥 The fastest inference engine for decision model - OmniJev/Flide",
-          "source": "github.com via Hacker News",
-          "date": "Nov 09",
-          "image": "https://opengraph.githubassets.com/eac0a844d024acd8252f8eb879a11f1065b9cb2c737290cb7e8726a08c9c6a20/OmniJev/Flide",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "27 points · 5 comments",
-          "score": 1.986,
-          "coverage": 1
-        },
-        {
-          "title": "A Critique of GPUI",
-          "link": "https://blog.zortax.de/posts/a-critique-of-gpui",
-          "excerpt": "Personal Notes",
-          "source": "blog.zortax.de via Hacker News",
-          "date": "Nov 09",
-          "image": null,
-          "icon": "https://blog.zortax.de/favicon.svg",
-          "domain": "blog.zortax.de",
-          "hn": "95 points · 57 comments",
-          "score": 2.57,
-          "coverage": 1
-        },
-        {
-          "title": "The Qlobe: Rotating Quine (2010)",
-          "link": "http://mamememo.blogspot.com/2010/09/qlobe.html",
-          "excerpt": "28 points · 0 comments",
-          "source": "mamememo.blogspot.com via Hacker News",
+          "title": "ChatGPT Desktop forwards your SSH agent to remote machines",
+          "link": "https://news.ycombinator.com/item?id=50422628",
+          "excerpt": "75 points · 16 comments",
+          "source": "Hacker News",
           "date": "Nov 09",
           "image": null,
           "icon": null,
-          "domain": "mamememo.blogspot.com",
-          "hn": "28 points · 0 comments",
-          "score": 1.774,
+          "domain": "news.ycombinator.com",
+          "hn": "75 points · 16 comments",
+          "score": 2.473,
           "coverage": 1
         },
         {
-          "title": "RIP, Harvest",
-          "link": "https://aphyr.com/posts/427-rip-harvest",
-          "excerpt": "346 points · 102 comments",
-          "source": "aphyr.com via Hacker News",
+          "title": "Humans will never again create a project like Wikipedia",
+          "link": "https://www.economist.com/culture/2026/10/29/humans-will-never-again-create-a-project-quite-like-wikipedia",
+          "excerpt": "60 points · 41 comments",
+          "source": "economist.com via Hacker News",
           "date": "Nov 09",
           "image": null,
-          "icon": "https://aphyr.com/favicon.ico",
-          "domain": "aphyr.com",
-          "hn": "346 points · 102 comments",
-          "score": 2.759,
+          "icon": "https://www.economist.com/favicon.ico",
+          "domain": "economist.com",
+          "hn": "60 points · 41 comments",
+          "score": 3.348,
+          "coverage": 1
+        },
+        {
+          "title": "Try Gleam",
+          "link": "https://nchagnet.eu/blog/you-should-try-gleam",
+          "excerpt": "Why a Rust developer might feel at home in Gleam, and where the BEAM is a different world.",
+          "source": "nchagnet.eu via Hacker News",
+          "date": "Nov 09",
+          "image": null,
+          "icon": "https://nchagnet.eu/favicon.ico",
+          "domain": "nchagnet.eu",
+          "hn": "42 points · 31 comments",
+          "score": 3.011,
+          "coverage": 1
+        },
+        {
+          "title": "What is malloc doing, anyway?",
+          "link": "https://benmandrew.com/articles/what-is-malloc-doing-anyway",
+          "excerpt": "malloc has a very nice and simple interface: you ask for a certain amount of memory, and you’re given a void pointer to your block of contiguous bytes that’s been magicked into existence. Once you’re done with it, you call free with the same pointer and the memory disappears into the ether.",
+          "source": "benmandrew.com via Hacker News",
+          "date": "Nov 09",
+          "image": "https://benmandrew.com/assets/headers/malloc-card.png",
+          "icon": "https://benmandrew.com/favicon/apple-touch-icon.png",
+          "domain": "benmandrew.com",
+          "hn": "23 points · 2 comments",
+          "score": 2.321,
+          "coverage": 1
+        },
+        {
+          "title": "Fun things to do with your VM/370 CE machine – Fun with big computers",
+          "link": "https://rbanffy.github.io/fun-with-big-computers/fun-with-vm370/",
+          "excerpt": "Fun things to do with big computers",
+          "source": "rbanffy.github.io via Hacker News",
+          "date": "Nov 09",
+          "image": null,
+          "icon": "https://rbanffy.github.io/favicon.ico",
+          "domain": "rbanffy.github.io",
+          "hn": "57 points · 4 comments",
+          "score": 2.576,
           "coverage": 1
         }
       ]

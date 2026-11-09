@@ -311,6 +311,12 @@
   "icon": "https://ben.stolovitz.com/_astro/apple-touch-icon.CBaaKE1V.png",
   "image": "https://ben.stolovitz.com/_astro/og.jsHy_xv-_2lnd7v.png"
  },
+ "https://benmandrew.com/articles/what-is-malloc-doing-anyway": {
+  "description": "malloc has a very nice and simple interface: you ask for a certain amount of memory, and you’re given a void pointer to your block of contiguous bytes that’s been magicked into existence. Once you’re done with it, you call free with the same pointer and the memory disappears into the ether.",
+  "fetched": "2026-11-09",
+  "icon": "https://benmandrew.com/favicon/apple-touch-icon.png",
+  "image": "https://benmandrew.com/assets/headers/malloc-card.png"
+ },
  "https://blocks.manifold3d.ch/": {
   "description": "41'285 kmÂ², ein Block pro Meter, aus swisstopo-Daten.",
   "fetched": "2026-10-26",
@@ -845,6 +851,12 @@
   "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
   "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog-header-image.2e16d0ba.fill-1200x600.jpg"
  },
+ "https://developers.googleblog.com/what-is-pathways-single-controller-training-for-large-models/": {
+  "description": "Discover how Pathways on Google Cloud enables single-client distributed training for large AI models, addressing scaling and coordination challenges across TPU clusters.",
+  "fetched": "2026-11-09",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner-1600x900_1.2e16d0ba.fill-1200x600.png"
+ },
  "https://developers.openai.com/api/docs/guides/voice-sip": {
   "description": "Connect phone calls to OpenAI with SIP.",
   "fetched": "2026-11-07",
@@ -1271,6 +1283,12 @@
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://repository-images.githubusercontent.com/654560183/d4b2fdae-1a15-4420-a2a3-17256a51ae24"
  },
+ "https://github.com/samir-sarwar/samir-vllm": {
+  "description": "small LLM inference engine from scratch, w/ 6+ hours of youtube tutorials & 85+ pages of handwritten notes included - samir-sarwar/samir-vllm",
+  "fetched": "2026-11-09",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://opengraph.githubassets.com/1dbe83a2d6946b49772d681693beb5a2e168469a2ced76ca15b5b28db6ece3c7/samir-sarwar/samir-vllm"
+ },
  "https://github.com/slee-persis/GVS5H": {
   "description": "GVS5H: Five Qwen3.8-27B Models Match Claude Fable 5 on LiveCodeBench Hard | Fable 5 Level Coding for a Fifth the Price - or on a Single GPU - slee-persis/GVS5H",
   "fetched": "2026-10-25",
@@ -1432,6 +1450,12 @@
   "fetched": "2026-11-07",
   "icon": null,
   "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/OAJMu2jr7i5jVAbmsKdZW.jpeg"
+ },
+ "https://huggingface.co/blog/amazon/higher-order-pruning-experts": {
+  "description": "A Blog post by Amazon on Hugging Face",
+  "fetched": "2026-11-09",
+  "icon": null,
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/6ab2f79bd8000a811c648a32/xZT8tg4be3bgZIx2EQS_m.png"
  },
  "https://huggingface.co/blog/announcing-project-protostar": {
   "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
@@ -1875,6 +1899,12 @@
   "description": null,
   "fetched": "2026-11-04",
   "icon": null,
+  "image": null
+ },
+ "https://nchagnet.eu/blog/you-should-try-gleam": {
+  "description": "Why a Rust developer might feel at home in Gleam, and where the BEAM is a different world.",
+  "fetched": "2026-11-09",
+  "icon": "https://nchagnet.eu/favicon.ico",
   "image": null
  },
  "https://newsletter.getdx.com/p/robloxs-approach-to-tripling-ai-code": {
@@ -2417,6 +2447,12 @@
   "icon": "https://ratfactor.com/apple-touch-icon.png",
   "image": null
  },
+ "https://rbanffy.github.io/fun-with-big-computers/fun-with-vm370/": {
+  "description": "Fun things to do with big computers",
+  "fetched": "2026-11-09",
+  "icon": null,
+  "image": null
+ },
  "https://reasonablypolymorphic.com/blog/arrows-to-arrows/": {
   "description": null,
   "fetched": "2026-11-04",
@@ -2828,6 +2864,12 @@
  "https://stratechery.com/2026/google-earnings-facebook-deja-vu-the-agent-play/": {
   "description": "Google’s earnings miss looks a lot like Facebook’s, and that’s a credit to Google. The company is being more aggressive than they get credit for.",
   "fetched": "2026-11-02",
+  "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
+  "image": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9zdHJhdGVjaGVyeS5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMThcLzAzXC9jcm9wcGVkLWFuZHJvaWQtY2hyb21lLTUxMng1MTItMS5wbmc_Zml0PTUxMiUyQzUxMiZzc2w9MSIsInR4dCI6IlN0cmF0ZWNoZXJ5IGJ5IEJlbiBUaG9tcHNvbiIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxODgwNDM0MTV9.5VWck4PcKPWCTPe_HVznn3n3xsgn-G0b3d2OeiNNC7cMQ"
+ },
+ "https://stratechery.com/2026/jensen-huangs-affair-the-culper-report-huangs-righteousness/": {
+  "description": "Nvidia CEO Jensen Huang admitted to an affair with a Chinese spy, and that might not be the end of his troubles. I hope he survives, but his influence will never be the same.",
+  "fetched": "2026-11-09",
   "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
   "image": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9zdHJhdGVjaGVyeS5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMThcLzAzXC9jcm9wcGVkLWFuZHJvaWQtY2hyb21lLTUxMng1MTItMS5wbmc_Zml0PTUxMiUyQzUxMiZzc2w9MSIsInR4dCI6IlN0cmF0ZWNoZXJ5IGJ5IEJlbiBUaG9tcHNvbiIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxODgwNDM0MTV9.5VWck4PcKPWCTPe_HVznn3n3xsgn-G0b3d2OeiNNC7cMQ"
  },
@@ -3287,6 +3329,12 @@
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ada129808512f373db35f28_authkit-waitlist-api-gated-launch-og.webp"
  },
+ "https://workos.com/blog/black-october-2026-ai-security": {
+  "description": "Critical flaws in PHP, Node.js and GitLab, a poisoned LiteLLM release and weak CA keys all hit in October 2026. Here's what AI had to do with it.",
+  "fetched": "2026-11-09",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://images.workoscdn.com/images/e5ae769a-4b09-48e5-97f3-0b7e8ec8070f.png?auto=format&fit=clip&q=80"
+ },
  "https://workos.com/blog/electron-deep-links-macos-windows-linux": {
   "description": "macOS hands a custom-scheme URL to the running app. Windows and Linux start a second copy with the URL in its arguments. Here is the main-process code for both.",
   "fetched": "2026-11-06",
@@ -3370,6 +3418,12 @@
   "fetched": "2026-11-04",
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9f2f66456e3ee2faec215_revoke-ai-agent-sessions-og.webp"
+ },
+ "https://workos.com/blog/rust-axum-authentication-authkit": {
+  "description": "Use the WorkOS Rust SDK to sign users in with AuthKit, verify their session on every request, and check webhook signatures in an axum service.",
+  "fetched": "2026-11-09",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://images.workoscdn.com/images/b7af6d45-583c-4559-a76f-99b598a1c738.png?auto=format&fit=clip&q=80"
  },
  "https://workos.com/blog/saml-certificate-expiration-webhooks": {
   "description": "WorkOS sends an event before a SAML certificate expires. Turn it into one open reminder per certificate, routed to the person who can actually renew it.",
@@ -4109,6 +4163,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.economist.com/culture/2026/10/29/humans-will-never-again-create-a-project-quite-like-wikipedia": {
+  "description": null,
+  "fetched": "2026-11-09",
+  "icon": null,
+  "image": null
+ },
  "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture": {
   "description": "LLM-powered wikis, often full of inaccurate or irrelevant information, are starting to take over, leaving fans sidelined and publishers playing whack-a-mole.",
   "fetched": "2026-11-02",
@@ -4132,6 +4192,12 @@
   "fetched": "2026-10-31",
   "icon": "https://www.firezone.dev/apple-icon.png?apple-icon.1et4512dm-met.png",
   "image": "https://www.firezone.dev/blog/opengraph-image?dc0a4d310bb2b9d5"
+ },
+ "https://www.foldableflight.com": {
+  "description": "The world's largest database of paper airplanes with easy, step-by- step video tutorials for folding each plane!",
+  "fetched": "2026-11-09",
+  "icon": "https://static.wixstatic.com/media/3132ac_65e025518ab8461e870f7fbedd828714%7Emv2.jpg/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/3132ac_65e025518ab8461e870f7fbedd828714%7Emv2.jpg",
+  "image": "https://static.wixstatic.com/media/0641fb_4ff6a49def494e379b4f3b585c4ac4a8%7Emv2_d_2482_1412_s_2.jpg/v1/fit/w_2500,h_1330,al_c/0641fb_4ff6a49def494e379b4f3b585c4ac4a8%7Emv2_d_2482_1412_s_2.jpg"
  },
  "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f": {
   "description": null,
@@ -4688,6 +4754,12 @@
  "https://www.schneier.com/blog/archives/2026/10/studying-fraudulent-north-korean-it-workers.html": {
   "description": "Researchers set up a fake start-up company to study fraudulent North Korean IT workers.",
   "fetched": "2026-10-29",
+  "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+  "image": null
+ },
+ "https://www.schneier.com/blog/archives/2026/11/ai-security.html": {
+  "description": "Two weeks ago, I attended the [un]prompted AI security conference in San Francisco. It was an excellent event: three days of very dense talks about all aspects of AI security. (My talk was about integrous AI, and I will post it when it is online.) AI security can be divided into three broad topics. It’s important for researchers to understand which one they are working on. And it’s important for us as a community to work on them all. They are: security of AI, security with AI, and security from AI. [un]prompted had good talks about all three...",
+  "fetched": "2026-11-09",
   "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
   "image": null
  },
