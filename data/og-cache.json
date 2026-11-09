@@ -5,6 +5,12 @@
   "icon": null,
   "image": null
  },
+ "http://pigshell.com/v/0.6.4/": {
+  "description": null,
+  "fetched": "2026-11-09",
+  "icon": null,
+  "image": null
+ },
  "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html": {
   "description": "Over the past decade, the timing of PostgreSQL major releases has become very predictable: no earlier than the middle of September, and no l...",
   "fetched": "2026-11-02",
@@ -58,6 +64,12 @@
   "fetched": "2026-10-29",
   "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
   "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1780996524/sd1vpl8empy26wizarqj.png"
+ },
+ "https://about.gitlab.com/blog/how-to-develop-a-decision-grade-ai-pilot/": {
+  "description": "A practical framework for deciding when agentic AI can safely act in your software lifecycle, using workflow evidence, risk-based thresholds, and governance.",
+  "fetched": "2026-11-09",
+  "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
+  "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1774957323/xfnzvlwc4c2vhal3v3jv.png"
  },
  "https://about.gitlab.com/blog/security-at-machine-speed/": {
   "description": "AI is changing how quickly vulnerabilities can be discovered and exploited. The next challenge is bringing that same speed to remediation and prevention",
@@ -1163,6 +1175,12 @@
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://repository-images.githubusercontent.com/1350713137/51d132b5-ac5f-4382-ad0a-2720c41f2a60"
  },
+ "https://github.com/datareceipts/data-receipts/tree/main/109-gpu-pricing": {
+  "description": "Contribute to datareceipts/data-receipts development by creating an account on GitHub.",
+  "fetched": "2026-11-09",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://opengraph.githubassets.com/7f691567e9faa77175f013709116dd5bee73f141b6d247175c8e0f12f7b0a2df/datareceipts/data-receipts"
+ },
  "https://github.com/dmunozv04/isponsorblocktv": {
   "description": null,
   "fetched": "2026-11-08",
@@ -1216,6 +1234,12 @@
   "fetched": "2026-10-25",
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://repository-images.githubusercontent.com/205404938/bc5eed00-069a-11eb-80e0-094a5698cab5"
+ },
+ "https://github.com/ikey4u/zebkit": {
+  "description": "A slim cross-platform browser engine for applications - ikey4u/zebkit",
+  "fetched": "2026-11-09",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://opengraph.githubassets.com/b13637d6cf83b6cbddef1e48ae9fca3d9d1ee45b76a1be0c65ccb163b2f859ea/ikey4u/zebkit"
  },
  "https://github.com/indexable-inc/blaze": {
   "description": "Incremental rust builds up to 92x faster than cargo/rustc - indexable-inc/blaze",
@@ -1601,6 +1625,12 @@
   "icon": "https://josef.cn/apple-icon.png?apple-icon.0l78mcuih00cf.png?dpl=dpl_5nvA1HZpQ4KEkENEQcLeedM4nkUV",
   "image": "https://josef.cn/blog/unitree/social.png"
  },
+ "https://joshstrange.com/2026/11/09/i-saw-your-hn-comment/": {
+  "description": "I used to love getting emails from people in response to things Iâve written online, blog posts or Hacker News comments, but in the last 2 years itâs changed from mostly signal to mostly noise. Iâve â¦",
+  "fetched": "2026-11-09",
+  "icon": "https://joshstrange.com/img/avatar_hu_b7c660f9ba64dd22.webp",
+  "image": "https://joshstrange.com/2026/11/09/i-saw-your-hn-comment/hero_hu_358929660eb06ed6.jpg"
+ },
  "https://journal.animationstudies.org/article/id/66/": {
   "description": null,
   "fetched": "2026-10-30",
@@ -1763,6 +1793,12 @@
   "icon": "https://lucumr.pocoo.org/static/avatar-small.jpg",
   "image": "https://lucumr.pocoo.org/social/2026-10-29-qwen3-custom-voices-social.png"
  },
+ "https://lucumr.pocoo.org/2026/11/9/irontown/": {
+  "description": "Thoughts on reconciling incompatible needs.",
+  "fetched": "2026-11-09",
+  "icon": "https://lucumr.pocoo.org/static/avatar-small.jpg",
+  "image": "https://lucumr.pocoo.org/social/2026-11-09-irontown-social.png"
+ },
  "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/": {
   "description": "Python's experimental just-in-time (JIT) compiler, which was added to CPython in 2024 for the 3 [...]",
   "fetched": "2026-10-27",
@@ -1841,6 +1877,12 @@
   "icon": "https://maurycyz.com/favicon.svg",
   "image": null
  },
+ "https://maurycyz.com/projects/badcert/": {
+  "description": null,
+  "fetched": "2026-11-09",
+  "icon": "https://maurycyz.com/favicon.svg",
+  "image": null
+ },
  "https://mcp-explained.com/": {
   "description": "Every MCP message on the wire, step by step. Transports, auth, tools, sampling, tasks, tool search and codemode. By Runlayer.",
   "fetched": "2026-11-05",
@@ -1912,6 +1954,12 @@
   "fetched": "2026-10-31",
   "icon": "https://substackcdn.com/image/fetch/$s_!6g5W!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6135d637-27c9-4440-ba74-f9747a16267f%2Fapple-touch-icon-57x57.png",
   "image": "https://substackcdn.com/image/fetch/$s_!YwUQ!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b404a84-d74c-49cf-8317-c98d7fdb6482_2560x1440.png"
+ },
+ "https://newsletter.kentbeck.com/p/thinkie-what-fact": {
+  "description": "“When you have eliminated the impossible, whatever remains, however improbable, must be the truth.”",
+  "fetched": "2026-11-09",
+  "icon": "https://substackcdn.com/icons/substack/apple-touch-icon.png",
+  "image": "https://substackcdn.com/image/fetch/$s_!glPN!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Ftidyfirst.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D1077263058%26version%3D9"
  },
  "https://newsletter.kentbeck.com/p/trust-is-the-binding-constraint": {
   "description": "Teams accumulate code faster than they accumulate trust.",
@@ -2363,6 +2411,12 @@
   "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
   "image": null
  },
+ "https://openssf.org/press-release/2026/11/09/openssf-welcomes-new-members-and-expands-ai-security-resources/": {
+  "description": "Discover how OpenSSF is expanding AI security resources, welcoming new members, and helping developers secure software in the age of AI.",
+  "fetched": "2026-11-09",
+  "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
+  "image": null
+ },
  "https://orchidfiles.com/youll-need-nerves-of-steel-to-work-with-ai-agents/": {
   "description": "This post will focus mainly on Composer 2.5 in Cursor. These problems may not be present in opus-5.5 or gpt-6.1-sol-pro-max-ultra-thinking-fast. But gpt-6.1-luna, for example, has all the problems listed here. I’ve also encountered many of these problems before in gpt-5.5 and opus-4.6. I",
   "fetched": "2026-11-05",
@@ -2494,6 +2548,12 @@
   "fetched": "2026-11-06",
   "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
   "image": "https://s46486.pcdn.co/wp-content/uploads/2026/11/IPW-reading-grouo.png"
+ },
+ "https://sebastianraschka.com/blog/2026/open-october-llm-architecture-releases.html": {
+  "description": "A roundup of ten open-weight LLM architecture releases from October 2026, covering attention mechanisms, hybrid layers, and MoE designs.",
+  "fetched": "2026-11-09",
+  "icon": "https://sebastianraschka.com/images/favicons/favicon-32x32.png",
+  "image": "https://sebastianraschka.com/images/blog/2026/open-october-llm-architecture-releases/open-october-architectures.webp"
  },
  "https://security.apple.com/research-device/": {
   "description": "Get an iPhone dedicated to security research through the Apple Security Research Device program. Learn how to apply.",
@@ -3059,6 +3119,12 @@
   "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
   "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294936867.jpg?resize=1200,800"
  },
+ "https://terminal2shell.com/": {
+  "description": "Researchers disclose a 55-year-old vulnerability affecting macOS, Windows and Linux. Exploitation is trivial and requires no special tools. No patch exists.",
+  "fetched": "2026-11-09",
+  "icon": "https://terminal2shell.com/apple-touch-icon.png",
+  "image": "https://terminal2shell.com/og.png"
+ },
  "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/": {
   "description": "[This is a guest post by Frank Calegari. This blog post was initially written in a different file format and converted using AI. — T.] Why we should not be sad The release by OpenAI on Octobe…",
   "fetched": "2026-11-02",
@@ -3082,6 +3148,12 @@
   "fetched": "2026-11-06",
   "icon": "https://thinkingmachines.ai/images/apple-touch-icon.png",
   "image": "https://thinkingmachines.ai/news/inkling-2-small/images/cover-social.png"
+ },
+ "https://tisiphone.net/2026/11/08/lets-talk-about-why-all-this-ot-stuff-is-connected/": {
+  "description": "It’s been a really bad month (and year) for OT cybersecurity. From a wave of new, high-impact vulnerabilities, to attacks on supermarket refrigerators, to attacks on blood banks, we’ve …",
+  "fetched": "2026-11-09",
+  "icon": "https://tisiphone.net/wp-content/uploads/2016/09/cropped-cropped-header12-1.png?w=180",
+  "image": "https://i0.wp.com/tisiphone.net/wp-content/uploads/2026/11/pexels-photo-17546504.jpeg?fit=818%2C1200&ssl=1"
  },
  "https://titleart.dvy.io/": {
   "description": "Every classic WordArt style, shape and 3-D effect, in your browser.",
@@ -3454,6 +3526,12 @@
   "fetched": "2026-10-27",
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6adf875135a6faaa6ea211c6_sign-in-with-microsoft-vs-entra-sso-og.webp"
+ },
+ "https://workos.com/blog/sso-broken-session-log": {
+  "description": "Every WorkOS SSO attempt records its status, origin and the IdP's response. Read it in five minutes and know whether the fix is yours or the customer's.",
+  "fetched": "2026-11-09",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://images.workoscdn.com/images/8aa97f0a-05d2-4f49-a845-397d69f889c9.png?auto=format&fit=clip&q=80"
  },
  "https://workos.com/blog/sso-jit-provisioning-account-matching": {
   "description": "Just-in-time provisioning is a resolution order in your SSO callback. Here is the order, the condition that makes the email match safe, and what to store.",
@@ -3869,6 +3947,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2025/05/08/SonicWall.jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/": {
+  "description": "AI agents are taking over routine governance, risk, and compliance tasks, forcing GRC professionals to rethink the skills needed to stay relevant. Anecdotes examines three essential skills for the AI-driven GRC workplace: data literacy, agent governance, and communication.",
+  "fetched": "2026-11-09",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/posts/2026/11/09/dont-dumb-down-your-ai.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/": {
   "description": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure.",
   "fetched": "2026-10-28",
@@ -4097,6 +4181,12 @@
   "icon": null,
   "image": "https://web-assets.dd-static.net/42588/1793382330-improving-agents-insights-agent-observability-hero.png"
  },
+ "https://www.datadoghq.com/blog/kubernetes-processes-datadog-mcp-server/": {
+  "description": "Use Datadog MCP Server tools and skills to investigate Kubernetes control plane health, search running processes, and analyze process metrics with AI agents.",
+  "fetched": "2026-11-09",
+  "icon": null,
+  "image": "https://web-assets.dd-static.net/42588/1794233987-kubernetes-processes-mcp-hero.png"
+ },
  "https://www.datadoghq.com/blog/online-experiments-agent-observability/": {
   "description": "Learn how Datadog Online Experiments, available through Agent Observability, enables you to test AI agent changes against real production traffic so you can compare response quality, cost, latency, and errors.",
   "fetched": "2026-11-05",
@@ -4138,6 +4228,12 @@
   "fetched": "2026-10-30",
   "icon": "https://www.daytona.io/apple-touch-icon.png",
   "image": "https://www.datocms-assets.com/103916/1793303267-daytona2-agent-infrastructure-requires-more-than-kubernetes-dark.png?auto=compress%2Cformat&fit=crop&h=1260&w=2520"
+ },
+ "https://www.denverpost.com/2026/11/06/ethereum-suicide-pledge-lawsuit-mandate-boulder-crypto/": {
+  "description": "On a Friday in March, employees at an international technology foundation received a 38-page document outlining leadership’s vision for the foundation for the next 1,000 years.",
+  "fetched": "2026-11-09",
+  "icon": "https://www.denverpost.com/wp-content/uploads/2016/05/cropped-DP_bug_denverpost.jpg?w=180",
+  "image": "https://www.denverpost.com/wp-content/uploads/2026/11/TDP-Z-GettyImages-1243256258.jpg?w=5093&h=3395"
  },
  "https://www.designboom.com/technology/electronic-fibers-touchscreen-sleeve-machine-washing-national-university-singapore-nus-tural-khudiyev/": {
   "description": "researchers at the national university of singapore (NUS) develop a washable textile touchscreen that displays video and responds to touch.",
@@ -4481,6 +4577,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.mckinsey.com/industries/healthcare/our-insights/the-future-of-healthcare": {
+  "description": null,
+  "fetched": "2026-11-09",
+  "icon": null,
+  "image": null
+ },
  "https://www.mckinsey.com/industries/industrials/our-insights/wartsila-ceo-hakan-agnevall-focus-flexibility-and-the-next-wave-of-growth": {
   "description": null,
   "fetched": "2026-10-30",
@@ -4606,6 +4708,12 @@
   "fetched": "2026-10-31",
   "icon": "https://www.parameter.ai/apple-icon.png",
   "image": "https://www.parameter.ai/opengraph-image.png"
+ },
+ "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy": {
+  "description": "The new system will enable participating financial service providers to clear and settle payments in real time, providing a made-in-Canada platform for future innovation and prosperity.",
+  "fetched": "2026-11-09",
+  "icon": "https://www.payments.ca/themes/custom/strapped/favicon.ico",
+  "image": "https://www.payments.ca/sites/default/files/2026-11/CanadaLightsUp.png"
  },
  "https://www.penligent.ai/hackinglabs/cve-2026-98432/": {
   "description": "CVE-2026-98432 is a Linux IPv4 TCP use-after-free. Understand the 9.8 versus 5.9 ratings, MPTCP lab RCE evidence, exposure checks, patches, and safe validation.",
@@ -4796,6 +4904,12 @@
  "https://www.science.org/content/article/bones-may-release-proteins-slow-aging-and-extend-life-span": {
   "description": null,
   "fetched": "2026-11-02",
+  "icon": null,
+  "image": null
+ },
+ "https://www.science.org/content/article/castration-extends-life-span-surprising-way-mouse-study-suggests": {
+  "description": null,
+  "fetched": "2026-11-09",
   "icon": null,
   "image": null
  },
@@ -5302,6 +5416,12 @@
   "fetched": "2026-11-05",
   "icon": "https://www.spacex.com/assets/favicon-spacex.ico",
   "image": "https://www.spacex.com/assets/images/share.jpg"
+ },
+ "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget#story-1": {
+  "description": null,
+  "fetched": "2026-11-09",
+  "icon": null,
+  "image": null
  },
  "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet": {
   "description": null,
