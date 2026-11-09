@@ -1,49 +1,23 @@
 {
   "date": "2026-11-09",
   "lead": {
-    "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
-    "excerpt": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the…",
-    "source": "The Verge",
+    "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
+    "link": "https://duxlabs.dev/",
+    "excerpt": "A modern Linux desktop suite with beautiful widgets and powerful monitoring - optimized for niri, Hyprland, mangowm, Sway, and Miracle WM.",
+    "source": "duxlabs.dev via Hacker News",
     "date": "Nov 08",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2285784039.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "image": "https://duxlabs.dev/preview-images/8695bf88f0423ca0736bf25344b0082cffedcca7.png",
     "image_credit": null,
-    "section": "News & Research",
+    "section": "Secrets & NHI",
     "pinned": false,
     "note": null,
     "labels": [
-      "4 sources",
-      "News & Research",
-      "3h ago"
+      "Secrets & NHI",
+      "8h ago"
     ],
-    "also": [
-      {
-        "name": "axios.com",
-        "link": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company"
-      },
-      {
-        "name": "nvidianews.nvidia.com",
-        "link": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
-      },
-      {
-        "name": "techcrunch.com",
-        "link": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/"
-      }
-    ]
+    "also": []
   },
   "pulse": [
-    {
-      "title": "Goodbye Claude, hello Pi",
-      "thread": "https://news.ycombinator.com/item?id=50410107",
-      "link": "https://caleb.software/posts/claude-to-pi.html",
-      "link_domain": "caleb.software",
-      "source": "Hacker News",
-      "domain": "caleb.software",
-      "meta": "Hacker News · 703 points · 435 comments · 22h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://caleb.software/favicon.svg"
-    },
     {
       "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
       "thread": "https://news.ycombinator.com/item?id=50415628",
@@ -51,10 +25,22 @@
       "link_domain": "thestateofai.com",
       "source": "Hacker News",
       "domain": "thestateofai.com",
-      "meta": "Hacker News · 609 points · 359 comments · 7h ago",
+      "meta": "Hacker News · 660 points · 381 comments · 9h ago",
       "also": [],
       "image": "https://www.thestateofai.com/media/uploads/33f913ce812c4074d207c01b6df1858a692e6bc3229dadbfcd4f56b61722a538.png",
       "icon": "https://www.thestateofai.com/media/uploads/2026/09/da5c9ca7-soai-256x256.png"
+    },
+    {
+      "title": "How I Fight AI Brain Fry",
+      "thread": "https://news.ycombinator.com/item?id=50416363",
+      "link": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+      "link_domain": "sergeykuhne.com",
+      "source": "Hacker News",
+      "domain": "sergeykuhne.com",
+      "meta": "Hacker News · 183 points · 144 comments · 8h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://sergeykuhne.com/favicon.svg"
     },
     {
       "title": "OpenAI raises $11B at a $1.25T valuation",
@@ -63,7 +49,7 @@
       "link_domain": "247wallst.com",
       "source": "Hacker News",
       "domain": "247wallst.com",
-      "meta": "Hacker News · 181 points · 202 comments · 11h ago",
+      "meta": "Hacker News · 183 points · 203 comments · 13h ago",
       "also": [],
       "image": "https://247wallst.com/wp-content/uploads/2026/11/openai-just-raised-11-billion-at-a-1-25-trillion-v-featured-1794023504517-scaled.webp",
       "icon": "https://247wallst.com/favicon.ico"
@@ -75,22 +61,10 @@
       "link_domain": "lorekit.io",
       "source": "Hacker News",
       "domain": "lorekit.io",
-      "meta": "Hacker News · 175 points · 103 comments · 17h ago",
+      "meta": "Hacker News · 177 points · 103 comments · 19h ago",
       "also": [],
       "image": null,
       "icon": "https://www.lorekit.io/icons/icon-192.png"
-    },
-    {
-      "title": "How I Fight AI Brain Fry",
-      "thread": "https://news.ycombinator.com/item?id=50416363",
-      "link": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
-      "link_domain": "sergeykuhne.com",
-      "source": "Hacker News",
-      "domain": "sergeykuhne.com",
-      "meta": "Hacker News · 156 points · 130 comments · 6h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://sergeykuhne.com/favicon.svg"
     },
     {
       "title": "Who wants to crowdsource LLM scans of articles submitted to Lobste.rs?",
@@ -99,7 +73,7 @@
       "link_domain": "",
       "source": "Lobsters",
       "domain": "Lobsters",
-      "meta": "Lobsters · 18 points · 27 comments · 9h ago",
+      "meta": "Lobsters · 19 points · 28 comments · 11h ago",
       "also": [],
       "image": null,
       "icon": null
@@ -111,7 +85,7 @@
       "link_domain": "polso.info",
       "source": "Hacker News",
       "domain": "polso.info",
-      "meta": "Hacker News · 108 points · 220 comments · 13h ago",
+      "meta": "Hacker News · 108 points · 225 comments · 15h ago",
       "also": [],
       "image": null,
       "icon": "https://www.polso.info/favicon.ico"
@@ -131,7 +105,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.919,
+          "score": 0.815,
           "coverage": 1
         }
       ],
@@ -150,7 +124,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.914,
+          "score": 0.815,
           "coverage": 1
         },
         {
@@ -163,7 +137,26 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.914,
+          "score": 0.815,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Secrets & NHI",
+      "cards": [
+        {
+          "title": "Leaked documents show Cisco doubled down on Israeli military deals",
+          "link": "https://www.theguardian.com/world/2026/nov/07/israel-intelligence-cisco-gaza-palestine",
+          "excerpt": "Tech giant leaped to shore up relationship even as company was roiled by worker protest over its role in the war",
+          "source": "theguardian.com via Hacker News",
+          "date": "Nov 07",
+          "image": "https://i.guim.co.uk/img/media/60a84798eb17356220e1eb8ab76f14087a8cd747/0_0_3000_2400/master/3000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0face194e288757b7375dcecfc089f9d",
+          "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg",
+          "domain": "theguardian.com",
+          "hn": "10 points · 0 comments",
+          "score": 2.345,
           "coverage": 1
         }
       ],
@@ -182,7 +175,20 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 2.251,
+          "score": 2.067,
+          "coverage": 1
+        },
+        {
+          "title": "Huawei says it’s made a 100 percent Chinese PC",
+          "link": "https://www.theregister.com/systems/2026/11/09/huawei-says-its-made-a-100-percent-chinese-pc/5308335",
+          "excerpt": "PLUS: Japan declares infosec emergency; Apple’s makes biggest school Mac sale, ever, anywhere, in the Philippines; And more!",
+          "source": "The Register",
+          "date": "Nov 09",
+          "image": "https://image.theregister.com/?imageId=5308342&width=800",
+          "icon": null,
+          "domain": "theregister.com",
+          "hn": null,
+          "score": 0.519,
           "coverage": 1
         },
         {
@@ -195,7 +201,7 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 0.977,
+          "score": 0.94,
           "coverage": 1
         }
       ],
@@ -214,7 +220,20 @@
           "icon": "https://sreweekly.com/wp-content/uploads/2015/12/cropped-sreweekly-logo-axes-180x180.png",
           "domain": "sreweekly.com",
           "hn": null,
-          "score": 2.756,
+          "score": 2.485,
+          "coverage": 1
+        },
+        {
+          "title": "Architecting Governed, Self-Evolving AI Agents on Google Cloud",
+          "link": "https://developers.googleblog.com/architecting-governed-self-evolving-ai-agents-on-gemini-agent-platform/",
+          "excerpt": "Learn how Project Chrysalis combines Google Cloud's Gemini Enterprise Agent Platform, Agent Development Kit (ADK), BigQuery, and a four-gate defense-in-depth security stack (Model Armor, Cloud KMS, Binary Authorization, and OPA) to build governed, self-evolving AI agents that remediate live…",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_g9d0nag9d0.2e16d0ba.fill-1200x600.jpg",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null,
+          "score": 2.25,
           "coverage": 1
         }
       ],
@@ -233,20 +252,7 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 3.033,
-          "coverage": 1
-        },
-        {
-          "title": "I'm Not Convinced the AI Bubble Exists",
-          "link": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
-          "excerpt": "The AI bubble is a speculative concept that the AI industry is extremely over-valued. If true, the value of most companies involved in AI (several of whom are worth well over a trillion dollars) will collapse, devastating the entire economy. If you check any online discussion about the financial…",
-          "source": "matteoraso.github.io via Hacker News",
-          "date": "Nov 08",
-          "image": "https://matteoraso.github.io/images/profile.jpg",
-          "icon": "https://matteoraso.github.io/images/profile.jpg",
-          "domain": "matteoraso.github.io",
-          "hn": "19 points · 6 comments",
-          "score": 2.235,
+          "score": 2.741,
           "coverage": 1
         },
         {
@@ -258,12 +264,38 @@
           "image": "https://ketchup3d.github.io/app/assets/screenshots/ketchup.jpg?v=0.6.5-r2",
           "icon": "https://ketchup3d.github.io/app/assets/branding/apple-touch-icon.png",
           "domain": "ketchup3d.github.io",
-          "hn": "202 points · 50 comments",
-          "score": 3.239,
+          "hn": "296 points · 84 comments",
+          "score": 3.055,
+          "coverage": 1
+        },
+        {
+          "title": "The Web Is More Than Enough, by Paul Ford",
+          "link": "https://ftrain.com/aboard-the-web-is-more-than-enough",
+          "excerpt": "Web browsers enable incredibly rich app development—and that’s radically easier than it used to be.",
+          "source": "ftrain.com via Hacker News",
+          "date": "Nov 08",
+          "image": "https://ftrain.com/art/uploads/aboard-newsletter/the-web-is-more-than-enough-header.png",
+          "icon": "https://ftrain.com/apple-touch-icon.png",
+          "domain": "ftrain.com",
+          "hn": "99 points · 52 comments",
+          "score": 2.275,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "RIP, Harvest",
+          "link": "https://aphyr.com/posts/427-rip-harvest",
+          "excerpt": "76 points · 24 comments",
+          "source": "aphyr.com via Hacker News",
+          "date": "Nov 09",
+          "image": null,
+          "icon": "https://aphyr.com/favicon.ico",
+          "domain": "aphyr.com",
+          "hn": "76 points · 24 comments",
+          "score": 3.036,
+          "coverage": 1
+        },
         {
           "title": "Unlocking any car from X brand in most of the world",
           "link": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
@@ -273,21 +305,21 @@
           "image": null,
           "icon": "https://shubs.io/content/images/size/w256h256/2025/01/android-chrome-512x512.png",
           "domain": "shubs.io",
-          "hn": "53 points · 22 comments",
-          "score": 2.92,
+          "hn": "140 points · 48 comments",
+          "score": 3.008,
           "coverage": 1
         },
         {
           "title": "Herb Sutter: When a language's creator and its owners strongly disagree [pdf]",
           "link": "https://isocpp.org/files/papers/P4454R0.pdf",
-          "excerpt": "62 points · 41 comments",
+          "excerpt": "91 points · 72 comments",
           "source": "isocpp.org via Hacker News",
           "date": "Nov 08",
           "image": null,
           "icon": "https://isocpp.org/favicon.ico",
           "domain": "isocpp.org",
-          "hn": "62 points · 41 comments",
-          "score": 2.948,
+          "hn": "91 points · 72 comments",
+          "score": 2.811,
           "coverage": 1
         },
         {
@@ -299,34 +331,21 @@
           "image": null,
           "icon": "https://chimera-vocal-synth.vercel.app/favicon.ico",
           "domain": "chimera-vocal-synth.vercel.app",
-          "hn": "88 points · 14 comments",
-          "score": 2.778,
+          "hn": "137 points · 21 comments",
+          "score": 2.658,
           "coverage": 1
-        },
-        {
-          "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
-          "link": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company",
-          "excerpt": "351 points · 368 comments",
-          "source": "axios.com via Hacker News",
-          "date": "Nov 08",
-          "image": null,
-          "icon": "https://www.axios.com/favicon.ico",
-          "domain": "axios.com",
-          "hn": "351 points · 368 comments",
-          "score": 10.225,
-          "coverage": 4
         },
         {
           "title": "Ask HN: What are you working on? (November 2026)",
           "link": "https://news.ycombinator.com/item?id=50417407",
-          "excerpt": "127 points · 472 comments",
+          "excerpt": "163 points · 553 comments",
           "source": "Hacker News",
           "date": "Nov 08",
           "image": null,
           "icon": null,
           "domain": "news.ycombinator.com",
-          "hn": "127 points · 472 comments",
-          "score": 3.407,
+          "hn": "163 points · 553 comments",
+          "score": 3.119,
           "coverage": 1
         }
       ]
