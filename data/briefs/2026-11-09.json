@@ -1,31 +1,21 @@
 {
   "date": "2026-11-09",
   "lead": {
-    "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
-    "link": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
-    "excerpt": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
-    "source": "TechCrunch",
+    "title": "Stop measuring developer productivity",
+    "link": "https://leaddev.com/reporting/stop-measuring-developer-productivity?utm_source=leaddev&utm_medium=RSS",
+    "excerpt": "Start measuring friction instead. The post Stop measuring developer productivity appeared first on LeadDev.",
+    "source": "LeadDev",
     "date": "Nov 09",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800",
+    "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2026/10/Metrics_still_dont_earn_trust_shifted_v2.png",
     "image_credit": null,
-    "section": "News & Research",
+    "section": "AI-Assisted Engineering",
     "pinned": false,
     "note": null,
     "labels": [
-      "3 sources",
-      "News & Research",
-      "under 1h ago"
+      "AI-Assisted Engineering",
+      "3h ago"
     ],
-    "also": [
-      {
-        "name": "nvidianews.nvidia.com",
-        "link": "https://nvidianews.nvidia.com/news/a-message-to-our-company"
-      },
-      {
-        "name": "theverge.com",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia"
-      }
-    ]
+    "also": []
   },
   "pulse": [
     {
@@ -35,10 +25,22 @@
       "link_domain": "thestateofai.com",
       "source": "Hacker News",
       "domain": "thestateofai.com",
-      "meta": "Hacker News · 692 points · 384 comments · 11h ago",
+      "meta": "Hacker News · 776 points · 412 comments · 15h ago",
       "also": [],
       "image": "https://www.thestateofai.com/media/uploads/33f913ce812c4074d207c01b6df1858a692e6bc3229dadbfcd4f56b61722a538.png",
       "icon": "https://www.thestateofai.com/media/uploads/2026/09/da5c9ca7-soai-256x256.png"
+    },
+    {
+      "title": "I'm not convinced the AI bubble exists",
+      "thread": "https://news.ycombinator.com/item?id=50418975",
+      "link": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+      "link_domain": "matteoraso.github.io",
+      "source": "Hacker News",
+      "domain": "matteoraso.github.io",
+      "meta": "Hacker News · 278 points · 464 comments · 10h ago",
+      "also": [],
+      "image": "https://matteoraso.github.io/images/profile.jpg",
+      "icon": "https://matteoraso.github.io/images/profile.jpg"
     },
     {
       "title": "How I Fight AI Brain Fry",
@@ -47,7 +49,7 @@
       "link_domain": "sergeykuhne.com",
       "source": "Hacker News",
       "domain": "sergeykuhne.com",
-      "meta": "Hacker News · 203 points · 158 comments · 10h ago",
+      "meta": "Hacker News · 247 points · 171 comments · 14h ago",
       "also": [],
       "image": null,
       "icon": "https://sergeykuhne.com/favicon.svg"
@@ -59,22 +61,10 @@
       "link_domain": "247wallst.com",
       "source": "Hacker News",
       "domain": "247wallst.com",
-      "meta": "Hacker News · 185 points · 204 comments · 15h ago",
+      "meta": "Hacker News · 187 points · 206 comments · 19h ago",
       "also": [],
       "image": "https://247wallst.com/wp-content/uploads/2026/11/openai-just-raised-11-billion-at-a-1-25-trillion-v-featured-1794023504517-scaled.webp",
       "icon": "https://247wallst.com/favicon.ico"
-    },
-    {
-      "title": "Agent memory needs its OpenTelemetry moment",
-      "thread": "https://news.ycombinator.com/item?id=50411467",
-      "link": "https://www.lorekit.io/blog/open-agent-memory-format",
-      "link_domain": "lorekit.io",
-      "source": "Hacker News",
-      "domain": "lorekit.io",
-      "meta": "Hacker News · 177 points · 105 comments · 21h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://www.lorekit.io/icons/icon-192.png"
     },
     {
       "title": "Who wants to crowdsource LLM scans of articles submitted to Lobste.rs?",
@@ -83,10 +73,22 @@
       "link_domain": "",
       "source": "Lobsters",
       "domain": "Lobsters",
-      "meta": "Lobsters · 22 points · 31 comments · 13h ago",
+      "meta": "Lobsters · 21 points · 31 comments · 17h ago",
       "also": [],
       "image": null,
       "icon": null
+    },
+    {
+      "title": "unlocking any car from X brand in most of the world",
+      "thread": "https://lobste.rs/s/kbrpx3/unlocking_any_car_from_x_brand_most_world",
+      "link": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
+      "link_domain": "shubs.io",
+      "source": "Lobsters",
+      "domain": "shubs.io",
+      "meta": "Lobsters · 20 points · 0 comments · 5h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://shubs.io/content/images/size/w256h256/2025/01/android-chrome-512x512.png"
     },
     {
       "title": "Why I will not be using LLMs in my coding",
@@ -95,10 +97,34 @@
       "link_domain": "polso.info",
       "source": "Hacker News",
       "domain": "polso.info",
-      "meta": "Hacker News · 111 points · 226 comments · 17h ago",
+      "meta": "Hacker News · 115 points · 231 comments · 21h ago",
       "also": [],
       "image": null,
       "icon": "https://www.polso.info/favicon.ico"
+    },
+    {
+      "title": "Unattended reboots with encrypted disks",
+      "thread": "https://lobste.rs/s/urg4yu/unattended_reboots_with_encrypted_disks",
+      "link": "https://jmmv.dev/2026/11/zkeys-intro.html",
+      "link_domain": "jmmv.dev",
+      "source": "Lobsters",
+      "domain": "jmmv.dev",
+      "meta": "Lobsters · 17 points · 11 comments · 16h ago",
+      "also": [],
+      "image": "https://jmmv.dev/images/2026-10-04-zkeys-hdd-lock.jpg",
+      "icon": "https://jmmv.dev/images/favicons/favicon-16x16.png"
+    },
+    {
+      "title": "What can I realistically do with local AI on a Mac mini M5 Pro (48GB)?",
+      "thread": "https://lobste.rs/s/umsitb/what_can_i_realistically_do_with_local_ai",
+      "link": null,
+      "link_domain": "",
+      "source": "Lobsters",
+      "domain": "Lobsters",
+      "meta": "Lobsters · 15 points · 7 comments · 16h ago",
+      "also": [],
+      "image": null,
+      "icon": null
     }
   ],
   "sections": [
@@ -115,7 +141,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 6.49,
+          "score": 5.1,
           "coverage": 1
         },
         {
@@ -128,7 +154,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 1.062,
+          "score": 0.833,
           "coverage": 1
         },
         {
@@ -141,7 +167,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.732,
+          "score": 0.615,
           "coverage": 1
         }
       ],
@@ -156,7 +182,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.309,
+          "score": 0.286,
           "coverage": 1
         }
       ]
@@ -174,7 +200,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.735,
+          "score": 0.621,
           "coverage": 1
         },
         {
@@ -187,7 +213,45 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.735,
+          "score": 0.621,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Leadership",
+      "cards": [
+        {
+          "title": "How CFOs can make AI pay off",
+          "link": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/how-cfos-can-make-ai-pay-off",
+          "excerpt": "Creating value from AI in finance—and beyond—requires setting measurable targets and redesigning processes. Here’s how.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 09",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.687,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Agent Identity & Authorization",
+      "cards": [
+        {
+          "title": "How to add authentication to Next.js without creating an account",
+          "link": "https://workos.com/blog/add-authentication-nextjs-without-account",
+          "excerpt": "Run one command to add sign-in to a Next.js app. The WorkOS CLI creates a temporary environment and writes your keys. Claim it when you want to keep it.",
+          "source": "WorkOS Blog",
+          "date": "Nov 09",
+          "image": "https://images.workoscdn.com/images/7995aae8-fa9c-45d6-8113-49906603777b.png?auto=format&fit=clip&q=80",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null,
+          "score": 0.549,
           "coverage": 1
         }
       ],
@@ -196,6 +260,60 @@
     {
       "name": "Security & AppSec",
       "cards": [
+        {
+          "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
+          "link": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
+          "excerpt": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week. The agents also found a Taipei fire department platform exposing patient data from 2018, including ECG readings and ambulance video…",
+          "source": "The Hacker News",
+          "date": "Nov 09",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhd53Ql49F0iuQEtdvfoxOLNTuQnYM5oGQkqnQ3ym4aIW-HVZuHtOqzyi0IdwUxpFj5qU_jbUEKzPXG4Wx7Uj7g2-UKDotvOh0_AlNlkEIpgLbEBDuQxDkuxDFlukNKKbWXXZv1xCeHEtoOQ_Z1XQUshkJmlBaOmGQzMbryg6KHbOdt8IR7MNQ5oADM-GM/s1600/CYBER-AI.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 4.722,
+          "coverage": 1
+        },
+        {
+          "title": "Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack",
+          "link": "https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/",
+          "excerpt": "Working with cryptographers, DeepMind’s AI agents cut the cost of forging RSA-1024 signatures and found a cheaper way to factor keys. The post Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 09",
+          "image": "https://www.securityweek.com/wp-content/uploads/2025/07/Encryption-Chaos-Theory.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 4.568,
+          "coverage": 1
+        },
+        {
+          "title": "Former OpenAI Engineer Pleads Not Guilty to Planting Covert Device in Executive Meeting Room",
+          "link": "https://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html",
+          "excerpt": "The OpenAI engineer who was arrested and charged last month for planting a covert audio recording device in the company's office has pleaded not guilty. According to reports from Bloomberg and CNBC, Saudi national Abdulrahman Alfozan made an appearance in San Francisco federal court on Friday,…",
+          "source": "The Hacker News",
+          "date": "Nov 09",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9MuMJQQRaLilGnzYMqgighbIcm726E965P9JqACVPbah4ID7WePGRjwdlaYG3BUIUPB3vkX9Xzs7sXIEuU9ZoEcPo-2N__SwxcCk_IhbrH-9IhJjeW0Go2d9TGw2ZJcqMLquHLOfQVn0JCQhDrKsZujSFFsenYB28oTBnFyUWBQNmS_DVmjaxUWxXxgjT/s1600/openai.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.488,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
+          "link": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
+          "excerpt": "U.S. government agencies have warned that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems globally with an aim to cause service disruptions, fire hazards, and loss of inventory. \"The actors may exploit vulnerabilities or weaknesses in unpatched or…",
+          "source": "The Hacker News",
+          "date": "Nov 09",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKryTkTZPSm_Pvf-PEvYRFle3Bp0jQaXScE21oOsMfwir63sr355bqHInvPRm5zynq2sYfLswRNEeywDHo7p2snw5sQmlIrWIONBq4AoYFEGXvdgy5gNLMESgjL5zwnhbqYIwdKLRaolb18pKz1sqFynmSjWn2IT_BxlEb-0av9vDfp-oEzp23_cwOIoik/s1600/ref.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.462,
+          "coverage": 1
+        },
         {
           "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
           "link": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
@@ -206,7 +324,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.599,
+          "score": 0.457,
           "coverage": 1
         },
         {
@@ -219,7 +337,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 1.91,
+          "score": 1.673,
           "coverage": 1
         },
         {
@@ -232,11 +350,9 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 0.545,
+          "score": 0.425,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Huawei says it’s made a 100 percent Chinese PC",
           "link": "https://www.theregister.com/systems/2026/11/09/huawei-says-its-made-a-100-percent-chinese-pc/5308335",
@@ -247,20 +363,7 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 0.454,
-          "coverage": 1
-        },
-        {
-          "title": "NHS breach helpline left staff carrying a 'significant emotional burden'",
-          "link": "https://www.theregister.com/security/2026/11/07/nhs-breach-helpline-left-staff-carrying-a-significant-emotional-burden/5308201",
-          "excerpt": "Team given a day's notice faced distressed callers, safeguarding decisions during project that stretched from 2 weeks to 11",
-          "source": "The Register",
-          "date": "Nov 07",
-          "image": "https://image.theregister.com/?imageId=5240357&width=800",
-          "icon": null,
-          "domain": "theregister.com",
-          "hn": null,
-          "score": 0.906,
+          "score": 0.367,
           "coverage": 1
         }
       ]
@@ -269,16 +372,29 @@
       "name": "Platform, Cloud & Reliability",
       "cards": [
         {
-          "title": "SRE Weekly Issue #542",
-          "link": "https://sreweekly.com/sre-weekly-issue-542/",
-          "excerpt": "View on sreweekly.com A message from our sponsor, Archestra: AI chaos in your org? Archestra is an open-source enterprise AI platform used by Fortune 50s that organizes your AI: LLM proxy, MCP gateway, skill catalog, feature factory, governance, observability and deterministic guardrails. ⇨ Book a…",
-          "source": "SRE WEEKLY",
-          "date": "Nov 08",
-          "image": null,
-          "icon": "https://sreweekly.com/wp-content/uploads/2015/12/cropped-sreweekly-logo-axes-180x180.png",
-          "domain": "sreweekly.com",
+          "title": "Pinterest Replaces Journey Clustering with 4B Qwen3 LLM, Reports Improved Engagement",
+          "link": "https://www.infoq.com/news/2026/11/pinterest-journey/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Pinterest has moved its user-journey inference system from a multi-stage clustering pipeline to a fine-tuned 4-billion-parameter language model, reporting a 1.1% improvement in email click-through and 1.3% higher push opens. By Matt Foster",
+          "source": "InfoQ",
+          "date": "Nov 09",
+          "image": "https://res.infoq.com/news/2026/11/pinterest-journey/en/headerimage/generatedHeaderImage-1793998579474.jpg",
+          "icon": null,
+          "domain": "infoq.com",
           "hn": null,
-          "score": 2.264,
+          "score": 0.624,
+          "coverage": 1
+        },
+        {
+          "title": "Tokio Releases Topcoat: A Batteries-Included Full-Stack Rust Framework",
+          "link": "https://www.infoq.com/news/2026/11/topcoat-rust-framework/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Topcoat is an open-source, server-rendered full-stack web framework for Rust from the Tokio team, now public at version 0.9. It uses Rust expressions translated to JavaScript for reactivity instead of WebAssembly. It targets typical database-driven apps. Releases are unstable, and authentication…",
+          "source": "InfoQ",
+          "date": "Nov 09",
+          "image": "https://res.infoq.com/news/2026/11/topcoat-rust-framework/en/headerimage/generatedHeaderImage-1793983973654.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.594,
           "coverage": 1
         },
         {
@@ -295,7 +411,21 @@
           "coverage": 1
         }
       ],
-      "more": []
+      "more": [
+        {
+          "title": "SRE Weekly Issue #542",
+          "link": "https://sreweekly.com/sre-weekly-issue-542/",
+          "excerpt": "View on sreweekly.com A message from our sponsor, Archestra: AI chaos in your org? Archestra is an open-source enterprise AI platform used by Fortune 50s that organizes your AI: LLM proxy, MCP gateway, skill catalog, feature factory, governance, observability and deterministic guardrails. ⇨ Book a…",
+          "source": "SRE WEEKLY",
+          "date": "Nov 08",
+          "image": null,
+          "icon": "https://sreweekly.com/wp-content/uploads/2015/12/cropped-sreweekly-logo-axes-180x180.png",
+          "domain": "sreweekly.com",
+          "hn": null,
+          "score": 1.941,
+          "coverage": 1
+        }
+      ]
     },
     {
       "name": "News & Research",
@@ -310,37 +440,63 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 2.5,
+          "score": 2.149,
           "coverage": 1
         },
         {
-          "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
-          "link": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
-          "excerpt": "I owe my family and all of you an apology. I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did. I am deeply sorry. Throughout my life, my ...",
-          "source": "nvidianews.nvidia.com via Hacker News",
-          "date": "Nov 08",
-          "image": "https://iprsoftwaremedia.com/219/files/202512/692f56983d6332f89cbbc58b_nvidia-logo-horiz-wht-16x9/nvidia-logo-horiz-wht-16x9_44a60e3f-c4e5-4d8a-879f-ec5121ad6f4b-prv.png?v=44a60e3f-c4e5-4d8a-879f-ec5121ad6f4b",
-          "icon": "https://nvidianews.nvidia.com/media/sites/219/images/itouch.png",
-          "domain": "nvidianews.nvidia.com",
-          "hn": "479 points · 514 comments",
-          "score": 10.227,
-          "coverage": 3
+          "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
+          "link": "https://arxiv.org/abs/2610.14162",
+          "excerpt": "Diffusion language models (DLMs) offer parallel sampling for faster generation than autoregressive models, an increasingly important advantage as inference becomes a dominant computational workload. However, DLMs degrade quickly with fewer sampling steps, process the full sequence at every step,…",
+          "source": "arxiv.org via Hacker News",
+          "date": "Nov 09",
+          "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+          "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png",
+          "domain": "arxiv.org",
+          "hn": "64 points · 6 comments",
+          "score": 2.767,
+          "coverage": 1
         },
         {
-          "title": "I'm not convinced the AI bubble exists",
-          "link": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
-          "excerpt": "The AI bubble is a speculative concept that the AI industry is extremely over-valued. If true, the value of most companies involved in AI (several of whom are worth well over a trillion dollars) will collapse, devastating the entire economy. If you check any online discussion about the financial…",
-          "source": "matteoraso.github.io via Hacker News",
-          "date": "Nov 08",
-          "image": "https://matteoraso.github.io/images/profile.jpg",
-          "icon": "https://matteoraso.github.io/images/profile.jpg",
-          "domain": "matteoraso.github.io",
-          "hn": "130 points · 177 comments",
-          "score": 2.821,
+          "title": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
+          "link": "https://twitter.com/shanemelaugh/status/2119192075505893695",
+          "excerpt": "is Opus 5.5 nerfed? I just had Gemini 4 Argon analyze 1,400 Claude Code sessions and it found that on November 3, something definitely happened. the model name didn't change, but the way it does reasoning took a sharp turn.",
+          "source": "twitter.com via Hacker News",
+          "date": "Nov 09",
+          "image": "https://pbs.twimg.com/media/HWjhsqYWMAALhKb?format=webp&name=large",
+          "icon": "https://x.com/apple-touch-icon.png",
+          "domain": "twitter.com",
+          "hn": "105 points · 58 comments",
+          "score": 3.168,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "PixelOS",
+          "link": "https://pixelos.net/",
+          "excerpt": "PixelOS is an AOSP based ROM, with Google apps included and all Pixel goodies. We aim to provide an experience similar to Google Pixel phones with numerous performance enhancements and a small amount of useful additional features.",
+          "source": "pixelos.net via Hacker News",
+          "date": "Nov 09",
+          "image": null,
+          "icon": "https://pixelos.net/favicon.ico?favicon.3v9zsinqchi1n.ico",
+          "domain": "pixelos.net",
+          "hn": "18 points · 10 comments",
+          "score": 2.303,
+          "coverage": 1
+        },
+        {
+          "title": "Show HN: Flide: Make Jev-like decision models up to 9.5x faster",
+          "link": "https://github.com/OmniJev/Flide",
+          "excerpt": "🔥🔥 The fastest inference engine for decision model - OmniJev/Flide",
+          "source": "github.com via Hacker News",
+          "date": "Nov 09",
+          "image": "https://opengraph.githubassets.com/eac0a844d024acd8252f8eb879a11f1065b9cb2c737290cb7e8726a08c9c6a20/OmniJev/Flide",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "27 points · 5 comments",
+          "score": 1.986,
+          "coverage": 1
+        },
         {
           "title": "A Critique of GPUI",
           "link": "https://blog.zortax.de/posts/a-critique-of-gpui",
@@ -350,60 +506,34 @@
           "image": null,
           "icon": "https://blog.zortax.de/favicon.svg",
           "domain": "blog.zortax.de",
-          "hn": "48 points · 17 comments",
-          "score": 2.773,
+          "hn": "95 points · 57 comments",
+          "score": 2.57,
           "coverage": 1
         },
         {
           "title": "The Qlobe: Rotating Quine (2010)",
           "link": "http://mamememo.blogspot.com/2010/09/qlobe.html",
-          "excerpt": "13 points · 0 comments",
+          "excerpt": "28 points · 0 comments",
           "source": "mamememo.blogspot.com via Hacker News",
           "date": "Nov 09",
           "image": null,
           "icon": null,
           "domain": "mamememo.blogspot.com",
-          "hn": "13 points · 0 comments",
-          "score": 1.829,
-          "coverage": 1
-        },
-        {
-          "title": "A Bit about Email",
-          "link": "https://maurycyz.com/misc/email/",
-          "excerpt": "16 points · 2 comments",
-          "source": "maurycyz.com via Hacker News",
-          "date": "Nov 09",
-          "image": null,
-          "icon": "https://maurycyz.com/favicon.svg",
-          "domain": "maurycyz.com",
-          "hn": "16 points · 2 comments",
-          "score": 1.93,
+          "hn": "28 points · 0 comments",
+          "score": 1.774,
           "coverage": 1
         },
         {
           "title": "RIP, Harvest",
           "link": "https://aphyr.com/posts/427-rip-harvest",
-          "excerpt": "226 points · 66 comments",
+          "excerpt": "346 points · 102 comments",
           "source": "aphyr.com via Hacker News",
           "date": "Nov 09",
           "image": null,
           "icon": "https://aphyr.com/favicon.ico",
           "domain": "aphyr.com",
-          "hn": "226 points · 66 comments",
-          "score": 3.186,
-          "coverage": 1
-        },
-        {
-          "title": "Unlocking any car from X brand in most of the world",
-          "link": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
-          "excerpt": "I've always had a soft spot for this particular car brand. Our family has owned a few of them over the years, and they've served us incredibly well. In 2023, I bought a new four wheel drive/SUV from them, and it was the first time I had",
-          "source": "shubs.io via Hacker News",
-          "date": "Nov 09",
-          "image": null,
-          "icon": "https://shubs.io/content/images/size/w256h256/2025/01/android-chrome-512x512.png",
-          "domain": "shubs.io",
-          "hn": "190 points · 67 comments",
-          "score": 2.811,
+          "hn": "346 points · 102 comments",
+          "score": 2.759,
           "coverage": 1
         }
       ]

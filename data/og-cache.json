@@ -239,6 +239,12 @@
   "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png",
   "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
  },
+ "https://arxiv.org/abs/2610.14162": {
+  "description": "Diffusion language models (DLMs) offer parallel sampling for faster generation than autoregressive models, an increasingly important advantage as inference becomes a dominant computational workload. However, DLMs degrade quickly with fewer sampling steps, process the full sequence at every step, and require many passes over the dataset to reach good quality. We introduce Next-Concept Modeling (NCM), a two-stage, coarse-to-fine framework: a multiscale residual VQ-VAE encodes text into a hierarchy of discrete codes, and a transformer generates one level at a time, predicting all codes within a level in parallel. At matched parameter scales, NCM achieves better generative perplexity than the strongest DLM baseline on LM1B while running $21\\times$ faster. On OpenWebText, NCM is competitive with the strongest DLM while running $10\\times$ faster; on XSum, it matches the strongest DLM's ROUGE-L while being $31\\times$ faster. On the reasoning task of Sudoku, NCM outperforms autoregressive and diffusion baselines across all difficulty levels, using fewer function evaluations. On the reasoning task of Sudoku, NCM outperforms autoregressive and diffusion baselines across all difficulty levels, using fewer function evaluations.",
+  "fetched": "2026-11-09",
+  "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png",
+  "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+ },
  "https://arxiv.org/abs/2610.21375": {
   "description": "Memory enables large language models (LLMs) to use information beyond their parameters, such as past user conversations, long documents, or an agent's earlier actions. For a frozen LLM, access to this accumulated knowledge is limited to what a memory system places in its context window. However, gathering and combining relevant information needed for each query while keeping the model's context short remains challenging for existing systems. Here we introduce Memorilla, a memory system that gathers information from an entire document collection into a fixed number of query-dependent 'memory tokens' for a frozen LLM. Memorilla encodes documents (such as user chats, book chapters) once into reusable embeddings, then learns to retrieve and place query-specific information in the LLM's input embedding space. Using only 16 memory tokens, Memorilla achieves the best performance against baselines including Mem0 and MemoRAG on five of eight benchmarks spanning personalization, long-document and knowledge-intensive question answering. Notably, on FactKG, it reaches 84.33% accuracy versus 80.43% with full-context inference, while using 108x fewer tokens to represent the source documents. Furthermore, Memorilla can facilitate continual learning in agentic systems where the document count (the agent's past turns) increases throughout the trajectory. In a TextWorld environment, we show that Memorilla reduces the agent's tendency to wander between rooms it has already explored, and improves its average success rate from 18.6% with full-history in-context learning to 24.2%. Overall, Memorilla aids frozen LLMs in accumulating and using knowledge effectively across long-context interactions and takes a step towards building continually learning AI systems.",
   "fetched": "2026-11-07",
@@ -1109,6 +1115,12 @@
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://opengraph.githubassets.com/8108c6219efbbe64ce3503ffe172d95068f9e8a66a35ee07f302edda79be6935/NVIDIA/auto-ontology"
  },
+ "https://github.com/OmniJev/Flide": {
+  "description": "🔥🔥 The fastest inference engine for decision model - OmniJev/Flide",
+  "fetched": "2026-11-09",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://opengraph.githubassets.com/eac0a844d024acd8252f8eb879a11f1065b9cb2c737290cb7e8726a08c9c6a20/OmniJev/Flide"
+ },
  "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105": {
   "description": "Is there an existing issue for this? I have searched the existing issues App name ASN Bank Link to app https://play.google.com/store/apps/details?id=nl.devolksbank.asn.bankieren App version 2.40.2 ...",
   "fetched": "2026-11-06",
@@ -1552,6 +1564,12 @@
   "fetched": "2026-11-06",
   "icon": "https://jhr.pensoft.net/i/ico/jhr.ico",
   "image": "https://jhr.pensoft.net/showimg/d200x_100890.jpg"
+ },
+ "https://jmmv.dev/2026/11/zkeys-intro.html": {
+  "description": "Do you run a small home server or NAS holding your precious photos and sensitive documents? If so, I suppose the drives are encrypted, right? But then… can you reboot the machine without manually entering a passphrase before being able to access your files again? If you answered yes to the questions above—which is common for convenience—that implies the encryption keys live in the machine which… kinda defeats the purpose of disk encryption, doesn’t it? A thief can break into your house, lift the whole box (they are small these days, huh), plug it in elsewhere, and gain free rein over your files. So, which one is it? Simplicity and reliability by allowing automatic reboots or data protection by keeping the key in your head? With ZKeys—a little new project I’m launching today—you can have your cake and eat it too.",
+  "fetched": "2026-11-09",
+  "icon": "https://jmmv.dev/images/favicons/favicon-16x16.png",
+  "image": "https://jmmv.dev/images/2026-10-04-zkeys-hdd-lock.jpg"
  },
  "https://josef.cn/blog/unitree": {
   "description": "Everyone thinks China's robot factories are automated. They aren't. The robots are Chinese; the robots that make robots will be Western.",
@@ -2357,6 +2375,12 @@
   "icon": "https://phorion.io/images/apple-touch-icon.png",
   "image": "https://phorion.io/images/default-social-card.png"
  },
+ "https://pixelos.net/": {
+  "description": "PixelOS is an AOSP based ROM, with Google apps included and all Pixel goodies. We aim to provide an experience similar to Google Pixel phones with numerous performance enhancements and a small amount of useful additional features.",
+  "fetched": "2026-11-09",
+  "icon": "https://pixelos.net/favicon.ico?favicon.3v9zsinqchi1n.ico",
+  "image": null
+ },
  "https://progressives.house.gov/2026/10/reps-casar-waters-lead-democratic-resolution-opposing-a-i-bubble-bailout-for-big-tech-commit-to-protecting-american-people-instead": {
   "description": null,
   "fetched": "2026-10-30",
@@ -3101,6 +3125,12 @@
   "icon": "https://x.com/apple-touch-icon.png",
   "image": "https://pbs.twimg.com/amplify_video_thumb/2111935302277439488/img/5vojPR3nncikM-MD?format=webp&name=large"
  },
+ "https://twitter.com/shanemelaugh/status/2119192075505893695": {
+  "description": "is Opus 5.5 nerfed? I just had Gemini 4 Argon analyze 1,400 Claude Code sessions and it found that on November 3, something definitely happened. the model name didn't change, but the way it does reasoning took a sharp turn.",
+  "fetched": "2026-11-09",
+  "icon": "https://x.com/apple-touch-icon.png",
+  "image": "https://pbs.twimg.com/media/HWjhsqYWMAALhKb?format=webp&name=large"
+ },
  "https://typemill.net/knowledge-hub/tasks-as-code": {
   "description": "AI coding agents work from your repository, so why keep tasks in Jira? Learn how Tasks as Code stores them as Markdown in Git, next to code and docs.",
   "fetched": "2026-10-26",
@@ -3190,6 +3220,12 @@
   "fetched": "2026-11-02",
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae4cf9a70975930686d334c_account-takeover-b2b-saas-og.webp"
+ },
+ "https://workos.com/blog/add-authentication-nextjs-without-account": {
+  "description": "Run one command to add sign-in to a Next.js app. The WorkOS CLI creates a temporary environment and writes your keys. Claim it when you want to keep it.",
+  "fetched": "2026-11-09",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://images.workoscdn.com/images/7995aae8-fa9c-45d6-8113-49906603777b.png?auto=format&fit=clip&q=80"
  },
  "https://workos.com/blog/add-enterprise-sso-scim-better-auth-app": {
   "description": "Keep Better Auth for sign-in and sessions, and let WorkOS handle SAML, OIDC and directory sync for the customers who need them.",
@@ -4247,6 +4283,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/how-cfos-can-make-ai-pay-off": {
+  "description": null,
+  "fetched": "2026-11-09",
+  "icon": null,
+  "image": null
+ },
  "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/turning-executive-judgment-into-organizational-intelligence-leveraging-ai-in-ceo-leadership": {
   "description": null,
   "fetched": "2026-11-02",
@@ -4900,6 +4942,12 @@
   "fetched": "2026-11-04",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2024/08/data-breach.jpeg"
+ },
+ "https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/": {
+  "description": "Google DeepMind AI agents found two ways to make attacks on legacy 1024-bit RSA cheaper, while 2048-bit and larger keys remain secure.",
+  "fetched": "2026-11-09",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2025/07/Encryption-Chaos-Theory.jpg"
  },
  "https://www.securityweek.com/google-dismantles-xcpe-botnet-of-1-3-million-android-devices/": {
   "description": "Google has dismantled the 1.3 million-strong XCPE botnet, created and operated by Videostrong Technology, an Android OEM/ODM.",
