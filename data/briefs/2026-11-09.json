@@ -1,0 +1,335 @@
+{
+  "date": "2026-11-09",
+  "lead": {
+    "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+    "excerpt": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the…",
+    "source": "The Verge",
+    "date": "Nov 08",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2285784039.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "image_credit": null,
+    "section": "News & Research",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "4 sources",
+      "News & Research",
+      "3h ago"
+    ],
+    "also": [
+      {
+        "name": "axios.com",
+        "link": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company"
+      },
+      {
+        "name": "nvidianews.nvidia.com",
+        "link": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+      },
+      {
+        "name": "techcrunch.com",
+        "link": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/"
+      }
+    ]
+  },
+  "pulse": [
+    {
+      "title": "Goodbye Claude, hello Pi",
+      "thread": "https://news.ycombinator.com/item?id=50410107",
+      "link": "https://caleb.software/posts/claude-to-pi.html",
+      "link_domain": "caleb.software",
+      "source": "Hacker News",
+      "domain": "caleb.software",
+      "meta": "Hacker News · 703 points · 435 comments · 22h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://caleb.software/favicon.svg"
+    },
+    {
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "thread": "https://news.ycombinator.com/item?id=50415628",
+      "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "link_domain": "thestateofai.com",
+      "source": "Hacker News",
+      "domain": "thestateofai.com",
+      "meta": "Hacker News · 609 points · 359 comments · 7h ago",
+      "also": [],
+      "image": "https://www.thestateofai.com/media/uploads/33f913ce812c4074d207c01b6df1858a692e6bc3229dadbfcd4f56b61722a538.png",
+      "icon": "https://www.thestateofai.com/media/uploads/2026/09/da5c9ca7-soai-256x256.png"
+    },
+    {
+      "title": "OpenAI raises $11B at a $1.25T valuation",
+      "thread": "https://news.ycombinator.com/item?id=50413822",
+      "link": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
+      "link_domain": "247wallst.com",
+      "source": "Hacker News",
+      "domain": "247wallst.com",
+      "meta": "Hacker News · 181 points · 202 comments · 11h ago",
+      "also": [],
+      "image": "https://247wallst.com/wp-content/uploads/2026/11/openai-just-raised-11-billion-at-a-1-25-trillion-v-featured-1794023504517-scaled.webp",
+      "icon": "https://247wallst.com/favicon.ico"
+    },
+    {
+      "title": "Agent memory needs its OpenTelemetry moment",
+      "thread": "https://news.ycombinator.com/item?id=50411467",
+      "link": "https://www.lorekit.io/blog/open-agent-memory-format",
+      "link_domain": "lorekit.io",
+      "source": "Hacker News",
+      "domain": "lorekit.io",
+      "meta": "Hacker News · 175 points · 103 comments · 17h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.lorekit.io/icons/icon-192.png"
+    },
+    {
+      "title": "How I Fight AI Brain Fry",
+      "thread": "https://news.ycombinator.com/item?id=50416363",
+      "link": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+      "link_domain": "sergeykuhne.com",
+      "source": "Hacker News",
+      "domain": "sergeykuhne.com",
+      "meta": "Hacker News · 156 points · 130 comments · 6h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://sergeykuhne.com/favicon.svg"
+    },
+    {
+      "title": "Who wants to crowdsource LLM scans of articles submitted to Lobste.rs?",
+      "thread": "https://lobste.rs/s/jbdtim/who_wants_crowdsource_llm_scans_articles",
+      "link": null,
+      "link_domain": "",
+      "source": "Lobsters",
+      "domain": "Lobsters",
+      "meta": "Lobsters · 18 points · 27 comments · 9h ago",
+      "also": [],
+      "image": null,
+      "icon": null
+    },
+    {
+      "title": "Why I will not be using LLMs in my coding",
+      "thread": "https://news.ycombinator.com/item?id=50412591",
+      "link": "https://www.polso.info/why-i-will-not-be-using-llms-coding",
+      "link_domain": "polso.info",
+      "source": "Hacker News",
+      "domain": "polso.info",
+      "meta": "Hacker News · 108 points · 220 comments · 13h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.polso.info/favicon.ico"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI-Assisted Engineering",
+      "cards": [
+        {
+          "title": "parse_number() as a SQLite extension: C vs Rust",
+          "link": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+          "excerpt": "Research: parse_number() as a SQLite extension: C vs Rust I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning strings like -$1,234.56 or '12.5%' into numeric values that could be summed and…",
+          "source": "Simon Willison",
+          "date": "Nov 08",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.919,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "AI Agents & Agent Security",
+      "cards": [
+        {
+          "title": "How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+          "link": "https://latent.space/p/cs146s/",
+          "excerpt": "What happens when students can one-shot last year’s homework? Inside CS146S and the engineering team at Monaco.",
+          "source": "Latent Space",
+          "date": "Nov 08",
+          "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/515ad474-e013-48a0-b40f-739bca031d85/A.jpg?t=1794172002",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null,
+          "score": 0.914,
+          "coverage": 1
+        },
+        {
+          "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+          "link": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+          "excerpt": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have to learn an unfamiliar repo, propose a change, and ...",
+          "source": "Latent Space",
+          "date": "Nov 08",
+          "image": "https://i.ytimg.com/vi/dpY7YzZo4kE/maxresdefault.jpg",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null,
+          "score": 0.914,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+          "link": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+          "excerpt": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service the company used. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 08",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/06/iris.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 2.251,
+          "coverage": 1
+        },
+        {
+          "title": "NHS breach helpline left staff carrying a 'significant emotional burden'",
+          "link": "https://www.theregister.com/security/2026/11/07/nhs-breach-helpline-left-staff-carrying-a-significant-emotional-burden/5308201",
+          "excerpt": "Team given a day's notice faced distressed callers, safeguarding decisions during project that stretched from 2 weeks to 11",
+          "source": "The Register",
+          "date": "Nov 07",
+          "image": "https://image.theregister.com/?imageId=5240357&width=800",
+          "icon": null,
+          "domain": "theregister.com",
+          "hn": null,
+          "score": 0.977,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "SRE Weekly Issue #542",
+          "link": "https://sreweekly.com/sre-weekly-issue-542/",
+          "excerpt": "View on sreweekly.com A message from our sponsor, Archestra: AI chaos in your org? Archestra is an open-source enterprise AI platform used by Fortune 50s that organizes your AI: LLM proxy, MCP gateway, skill catalog, feature factory, governance, observability and deterministic guardrails. ⇨ Book a…",
+          "source": "SRE WEEKLY",
+          "date": "Nov 08",
+          "image": null,
+          "icon": "https://sreweekly.com/wp-content/uploads/2015/12/cropped-sreweekly-logo-axes-180x180.png",
+          "domain": "sreweekly.com",
+          "hn": null,
+          "score": 2.756,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "Apple is racing to make Siri more agentic",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+          "excerpt": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional version of Siri AI on an incredibly short timeline, the…",
+          "source": "The Verge",
+          "date": "Nov 08",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Siri-AI-Being-invoked-3.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "icon": null,
+          "domain": "theverge.com",
+          "hn": null,
+          "score": 3.033,
+          "coverage": 1
+        },
+        {
+          "title": "I'm Not Convinced the AI Bubble Exists",
+          "link": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+          "excerpt": "The AI bubble is a speculative concept that the AI industry is extremely over-valued. If true, the value of most companies involved in AI (several of whom are worth well over a trillion dollars) will collapse, devastating the entire economy. If you check any online discussion about the financial…",
+          "source": "matteoraso.github.io via Hacker News",
+          "date": "Nov 08",
+          "image": "https://matteoraso.github.io/images/profile.jpg",
+          "icon": "https://matteoraso.github.io/images/profile.jpg",
+          "domain": "matteoraso.github.io",
+          "hn": "19 points · 6 comments",
+          "score": 2.235,
+          "coverage": 1
+        },
+        {
+          "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
+          "link": "https://ketchup3d.github.io/app/",
+          "excerpt": "Free, open-source 3D modeling for woodworking and furniture design. Plan shelves, tables, and cabinets with precise dimensions on Windows, macOS, Linux, or in your browser.",
+          "source": "ketchup3d.github.io via Hacker News",
+          "date": "Nov 08",
+          "image": "https://ketchup3d.github.io/app/assets/screenshots/ketchup.jpg?v=0.6.5-r2",
+          "icon": "https://ketchup3d.github.io/app/assets/branding/apple-touch-icon.png",
+          "domain": "ketchup3d.github.io",
+          "hn": "202 points · 50 comments",
+          "score": 3.239,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Unlocking any car from X brand in most of the world",
+          "link": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
+          "excerpt": "I've always had a soft spot for this particular car brand. Our family has owned a few of them over the years, and they've served us incredibly well. In 2023, I bought a new four wheel drive/SUV from them, and it was the first time I had",
+          "source": "shubs.io via Hacker News",
+          "date": "Nov 09",
+          "image": null,
+          "icon": "https://shubs.io/content/images/size/w256h256/2025/01/android-chrome-512x512.png",
+          "domain": "shubs.io",
+          "hn": "53 points · 22 comments",
+          "score": 2.92,
+          "coverage": 1
+        },
+        {
+          "title": "Herb Sutter: When a language's creator and its owners strongly disagree [pdf]",
+          "link": "https://isocpp.org/files/papers/P4454R0.pdf",
+          "excerpt": "62 points · 41 comments",
+          "source": "isocpp.org via Hacker News",
+          "date": "Nov 08",
+          "image": null,
+          "icon": "https://isocpp.org/favicon.ico",
+          "domain": "isocpp.org",
+          "hn": "62 points · 41 comments",
+          "score": 2.948,
+          "coverage": 1
+        },
+        {
+          "title": "Chimera Vocal Synth",
+          "link": "https://chimera-vocal-synth.vercel.app/",
+          "excerpt": "CHIMERA: a physically modelled voice synthesizer. Every sound comes from a simulated airway.",
+          "source": "chimera-vocal-synth.vercel.app via Hacker News",
+          "date": "Nov 08",
+          "image": null,
+          "icon": "https://chimera-vocal-synth.vercel.app/favicon.ico",
+          "domain": "chimera-vocal-synth.vercel.app",
+          "hn": "88 points · 14 comments",
+          "score": 2.778,
+          "coverage": 1
+        },
+        {
+          "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+          "link": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company",
+          "excerpt": "351 points · 368 comments",
+          "source": "axios.com via Hacker News",
+          "date": "Nov 08",
+          "image": null,
+          "icon": "https://www.axios.com/favicon.ico",
+          "domain": "axios.com",
+          "hn": "351 points · 368 comments",
+          "score": 10.225,
+          "coverage": 4
+        },
+        {
+          "title": "Ask HN: What are you working on? (November 2026)",
+          "link": "https://news.ycombinator.com/item?id=50417407",
+          "excerpt": "127 points · 472 comments",
+          "source": "Hacker News",
+          "date": "Nov 08",
+          "image": null,
+          "icon": null,
+          "domain": "news.ycombinator.com",
+          "hn": "127 points · 472 comments",
+          "score": 3.407,
+          "coverage": 1
+        }
+      ]
+    }
+  ]
+}
