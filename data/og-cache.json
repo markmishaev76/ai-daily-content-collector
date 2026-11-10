@@ -785,6 +785,12 @@
   "icon": null,
   "image": "https://decoded.legal/blog/content/images/decoded.legal_logo.png"
  },
+ "https://deepmind.google/blog/introducing-alphaproof-code/": {
+  "description": "AlphaProof Code agents wrote over three million lines of machine-checked proof in Lean to verify the core cryptographic protections in Signal down to machine instructions.",
+  "fetched": "2026-11-10",
+  "icon": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/icons/google_deepmind_2x_96dp.png",
+  "image": "https://lh3.googleusercontent.com/hn6AiI6lYFo6chi1mL6uJ9nOW9UXfsAKnSyOApiie2urHNU2tmSPUmGn0hNfWyYLRcsWCGjCIrBZSCt1ihZmvW-LDJPfyolsr5w-yvzlknZVzmaH=w1200-h630-n-nu-rw"
+ },
  "https://developers.googleblog.com/agent-distraction/": {
   "description": "An empirical analysis of coding agent distraction from legacy inline TODOs, quantifying the overhead in tokens, execution steps, and developer wait time.",
   "fetched": "2026-11-08",
@@ -1024,6 +1030,12 @@
   "fetched": "2026-11-05",
   "icon": "https://ernie.baidu.com/img/favicon.ico",
   "image": null
+ },
+ "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/": {
+  "description": null,
+  "fetched": "2026-11-10",
+  "icon": null,
+  "image": "https://www.evanxmerz.com/images/ai-codebases-are-a-house-of-cards.jpg"
  },
  "https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&sort=pub_year_isi+asc%2C+title_sort+asc&view=masonry": {
   "description": null,
@@ -1432,6 +1444,24 @@
   "fetched": "2026-10-25",
   "icon": null,
   "image": null
+ },
+ "https://goteleport.com/blog/announcing-beam-init/": {
+  "description": "Introducing beam-init, a lightweight Rust init process and service manager for containers, microVMs, and agentic workflows.",
+  "fetched": "2026-11-10",
+  "icon": "https://goteleport.com/blog/static/apple.png",
+  "image": "https://goteleport.com/blog/static/og-image.png"
+ },
+ "https://goteleport.com/blog/phases-git-for-container-filesystems/": {
+  "description": "Buildpacks co-founder Stephen Levine introduces Phases for Beams: forkable filesystem snapshots, automatic dependency updates, and editable build pipelines.",
+  "fetched": "2026-11-10",
+  "icon": "https://goteleport.com/blog/static/apple.png",
+  "image": "https://goteleport.com/blog/static/og-image.png"
+ },
+ "https://goteleport.com/blog/teleport-beams-secure-ai-agents-production/": {
+  "description": "Teleport Beams is a trusted runtime for AI agents in production: isolated micro-VMs, delegated X.509 identity, JIT access, and full audit of every action.",
+  "fetched": "2026-11-10",
+  "icon": "https://goteleport.com/blog/static/apple.png",
+  "image": "https://goteleport.com/blog/_next/static/media/beams-runtime-infographic.80051341.png"
  },
  "https://grafana.com/blog/agent-observability-faq-understand-the-value-of-monitoring-evaluating-and-improving-your-ai-agents/": {
   "description": "Get answers to your questions about Agent Observability and learn how Grafana Cloud can help you monitor and improve your agents.",
@@ -2285,6 +2315,12 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life": {
+  "description": null,
+  "fetched": "2026-11-10",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/helping-websites-express-ai-training-preferences": {
   "description": null,
   "fetched": "2026-10-31",
@@ -3107,6 +3143,12 @@
   "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
   "image": "https://i0.wp.com/stratechery.com/wp-content/uploads/2026/11/20261105_Sharp_Tech299-JM-Edit_00_09_5128-scaled.jpg?fit=1200%2C675&ssl=1"
  },
+ "https://stratechery.com/2026/the-jensen-huang-story-gets-worse-washington-vs-new-york-silicon-valley/": {
+  "description": "The Jensen Huang story got worse for him on Monday; the real risk for Huang is governance, even more than national security. Who benefits?",
+  "fetched": "2026-11-10",
+  "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
+  "image": "https://i0.wp.com/stratechery.com/wp-content/uploads/2026/11/huang-worse-1.png?fit=600%2C450&ssl=1"
+ },
  "https://streamvessel.com/blog/mcp-trusted-redirect-uris": {
   "description": "Why MCP servers either refuse custom clients or open a phishing hole, and how per-user trusted redirect URIs, decided at sign-in, give you both.",
   "fetched": "2026-11-05",
@@ -3790,6 +3832,12 @@
   "fetched": "2026-10-28",
   "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
   "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4e3bfa972a8ec391977288fa36de3da1ecd78232-1920x1080.webp"
+ },
+ "https://www.anthropic.com/news/roadshow-launch": {
+  "description": "Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.",
+  "fetched": "2026-11-10",
+  "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+  "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
  },
  "https://www.anthropic.com/news/s1-sec": {
   "description": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
@@ -4811,6 +4859,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.mckinsey.com/industries/retail/our-insights/the-new-realities-of-grocery-retail-in-the-americas-and-europe": {
+  "description": null,
+  "fetched": "2026-11-10",
+  "icon": null,
+  "image": null
+ },
  "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/reinventing-the-channel-how-can-your-partner-ecosystem-fuel-ai-growth": {
   "description": null,
   "fetched": "2026-11-06",
@@ -5752,6 +5806,12 @@
   "fetched": "2026-11-04",
   "icon": "https://www.telegraph.co.uk/etc.clientlibs/settings/wcm/designs/telegraph/core/clientlibs/core/resources/icons/apple-touch-icon-180x180.png",
   "image": "https://www.telegraph.co.uk/content/dam/world-news/2026/11/04/TELEMMGLPICT000510367521_17937907750130_trans_NvBQzQNjv4Bq8jWyxvP9pmIYP_osKFfWzygOoV7jtqb1rQ6_6TwBR2U.jpeg?impolicy=OG-Standard"
+ },
+ "https://www.theatlantic.com/magazine/2026/12/location-tracking-apps-parental-surveillance/689031/": {
+  "description": null,
+  "fetched": "2026-11-10",
+  "icon": null,
+  "image": null
  },
  "https://www.theatlantic.com/science/2026/10/candy-corn-bug-shellac/689213/": {
   "description": null,

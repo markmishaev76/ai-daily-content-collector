@@ -14,7 +14,7 @@
     "labels": [
       "3 sources",
       "Security & AppSec",
-      "1h ago"
+      "4h ago"
     ],
     "also": [
       {
@@ -35,22 +35,10 @@
       "link_domain": "terminal2shell.com",
       "source": "Lobsters",
       "domain": "terminal2shell.com",
-      "meta": "Lobsters · 106 points · 28 comments · 18h ago",
+      "meta": "Lobsters · 123 points · 28 comments · 21h ago",
       "also": [],
       "image": "https://terminal2shell.com/og.png",
       "icon": "https://terminal2shell.com/apple-touch-icon.png"
-    },
-    {
-      "title": "Horrible public key tricks",
-      "thread": "https://lobste.rs/s/txkq8s/horrible_public_key_tricks",
-      "link": "https://maurycyz.com/projects/badcert/",
-      "link_domain": "maurycyz.com",
-      "source": "Lobsters",
-      "domain": "maurycyz.com",
-      "meta": "Lobsters · 95 points · 10 comments · 20h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://maurycyz.com/favicon.svg"
     },
     {
       "title": "Google Gemini routes personal Drive files and emails to human annotators",
@@ -59,7 +47,7 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 600 points · 129 comments · 15h ago",
+      "meta": "Hacker News · 649 points · 139 comments · 18h ago",
       "also": [],
       "image": "https://opengraph.githubassets.com/df2c6748e762ec7e9a87bb17fb2ec8d9c0f667e9b1f18f7200fff642e51cfeee/thisisme6598/gemini_files",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
@@ -71,7 +59,7 @@
       "link_domain": "artificialanalysis.ai",
       "source": "Hacker News",
       "domain": "artificialanalysis.ai",
-      "meta": "Hacker News · 344 points · 246 comments · 13h ago",
+      "meta": "Hacker News · 355 points · 255 comments · 16h ago",
       "also": [],
       "image": "https://artificialanalysis.ai/en/models/claude-fable-5-2/opengraph-image?65781a17af1a7936",
       "icon": "https://artificialanalysis.ai/favicon.ico"
@@ -83,22 +71,10 @@
       "link_domain": "news.ycombinator.com",
       "source": "Hacker News",
       "domain": "news.ycombinator.com",
-      "meta": "Hacker News · 327 points · 192 comments · 16h ago",
+      "meta": "Hacker News · 330 points · 196 comments · 19h ago",
       "also": [],
       "image": null,
       "icon": null
-    },
-    {
-      "title": "Let’s Talk About Why all This OT Stuff is Connected",
-      "thread": "https://lobste.rs/s/jxigk6/let_s_talk_about_why_all_this_ot_stuff_is",
-      "link": "https://tisiphone.net/2026/11/08/lets-talk-about-why-all-this-ot-stuff-is-connected/",
-      "link_domain": "tisiphone.net",
-      "source": "Lobsters",
-      "domain": "tisiphone.net",
-      "meta": "Lobsters · 44 points · 25 comments · 21h ago",
-      "also": [],
-      "image": "https://i0.wp.com/tisiphone.net/wp-content/uploads/2026/11/pexels-photo-17546504.jpeg?fit=818%2C1200&ssl=1",
-      "icon": "https://tisiphone.net/wp-content/uploads/2016/09/cropped-cropped-header12-1.png?w=180"
     },
     {
       "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
@@ -107,7 +83,7 @@
       "link_domain": "cnbc.com",
       "source": "Hacker News",
       "domain": "cnbc.com",
-      "meta": "Hacker News · 146 points · 105 comments · 6h ago",
+      "meta": "Hacker News · 175 points · 153 comments · 9h ago",
       "also": [],
       "image": "https://image.cnbcfm.com/api/v1/image/108410034-1792003128025-gettyimages-2245498775-raa-coreweav251110_npfn0.jpeg?v=1792003201&w=1920&h=1080",
       "icon": "https://fm.cnbc.com/applications/cnbc.com/resources/img/CNBC_LOGO_FAVICON_1C_KO_RGB.ico"
@@ -119,10 +95,22 @@
       "link_domain": "reddit.com",
       "source": "Hacker News",
       "domain": "reddit.com",
-      "meta": "Hacker News · 126 points · 161 comments · 11h ago",
+      "meta": "Hacker News · 133 points · 168 comments · 14h ago",
       "also": [],
       "image": null,
       "icon": "https://www.reddit.com/favicon.ico"
+    },
+    {
+      "title": "AI usage generates a fragile codebase",
+      "thread": "https://news.ycombinator.com/item?id=50438318",
+      "link": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+      "link_domain": "evanxmerz.com",
+      "source": "Hacker News",
+      "domain": "evanxmerz.com",
+      "meta": "Hacker News · 104 points · 124 comments · 2h ago",
+      "also": [],
+      "image": "https://www.evanxmerz.com/images/ai-codebases-are-a-house-of-cards.jpg",
+      "icon": "https://evanxmerz.com/favicon.ico"
     }
   ],
   "sections": [
@@ -139,7 +127,7 @@
           "icon": null,
           "domain": "leaddev.com",
           "hn": null,
-          "score": 7.155,
+          "score": 5.963,
           "coverage": 1
         },
         {
@@ -152,7 +140,7 @@
           "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
           "domain": "s46486.pcdn.co",
           "hn": null,
-          "score": 3.587,
+          "score": 3.159,
           "coverage": 1
         },
         {
@@ -165,7 +153,7 @@
           "icon": "https://stackoverflow.blog/apple-touch-icon.png",
           "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 6.147,
+          "score": 4.988,
           "coverage": 1
         }
       ],
@@ -180,7 +168,7 @@
           "icon": null,
           "domain": "bair.berkeley.edu",
           "hn": null,
-          "score": 2.984,
+          "score": 2.754,
           "coverage": 1
         },
         {
@@ -193,7 +181,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 8.066,
+          "score": 2.879,
           "coverage": 1
         },
         {
@@ -206,7 +194,7 @@
           "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
           "domain": "snorkel.ai",
           "hn": null,
-          "score": 0.115,
+          "score": 0.112,
           "coverage": 1
         },
         {
@@ -219,7 +207,7 @@
           "icon": null,
           "domain": "research.google",
           "hn": null,
-          "score": 0.567,
+          "score": 0.506,
           "coverage": 1
         },
         {
@@ -232,7 +220,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.999,
+          "score": 0.823,
           "coverage": 1
         }
       ]
@@ -250,7 +238,7 @@
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
           "hn": "11 points · 3 comments",
-          "score": 6.509,
+          "score": 5.775,
           "coverage": 1
         },
         {
@@ -263,7 +251,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 3.632,
+          "score": 3.36,
           "coverage": 1
         },
         {
@@ -276,22 +264,35 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.98,
+          "score": 0.816,
           "coverage": 1
         }
       ],
       "more": [
         {
-          "title": "Closing the AI guidance gap in education",
-          "link": "https://openai.com/index/closing-ai-guidance-gap-education",
-          "excerpt": "Lessons from OpenAI’s EMEA education partnerships and new ThinkYoung research. Supporting teachers, AI literacy and independent learning.",
+          "title": "Helping caregivers use AI in everyday life",
+          "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+          "excerpt": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
           "source": "OpenAI News",
           "date": "Nov 10",
           "image": null,
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 1.455,
+          "score": 1.447,
+          "coverage": 1
+        },
+        {
+          "title": "Closing the AI guidance gap in education",
+          "link": "https://openai.com/index/closing-ai-guidance-gap-education",
+          "excerpt": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+          "source": "OpenAI News",
+          "date": "Nov 10",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 1.175,
           "coverage": 1
         },
         {
@@ -304,7 +305,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.697,
+          "score": 0.626,
           "coverage": 1
         },
         {
@@ -317,7 +318,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.57,
+          "score": 0.521,
           "coverage": 1
         },
         {
@@ -330,7 +331,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.495,
+          "score": 0.458,
           "coverage": 1
         }
       ]
@@ -348,9 +349,37 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.708,
+          "score": 0.618,
           "coverage": 1
         },
+        {
+          "title": "The Jensen Huang Story Gets Worse, Washington vs. New York, Silicon Valley",
+          "link": "https://stratechery.com/2026/the-jensen-huang-story-gets-worse-washington-vs-new-york-silicon-valley/",
+          "excerpt": "The Jensen Huang story got worse for him on Monday; the real risk for Huang is governance, even more than national security. Who benefits?",
+          "source": "Stratechery by Ben Thompson",
+          "date": "Nov 10",
+          "image": "https://i0.wp.com/stratechery.com/wp-content/uploads/2026/11/huang-worse-1.png?fit=600%2C450&ssl=1",
+          "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
+          "domain": "stratechery.com",
+          "hn": null,
+          "score": 1.074,
+          "coverage": 1
+        },
+        {
+          "title": "The new realities of grocery retail in the Americas and Europe",
+          "link": "https://www.mckinsey.com/industries/retail/our-insights/the-new-realities-of-grocery-retail-in-the-americas-and-europe",
+          "excerpt": "From AI and private brands to premium products and wellness-focused shopping, grocery retailers face new opportunities—and hard choices.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 10",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.601,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "Beyond agency boundaries: Building a statewide approach to customer experience",
           "link": "https://www.mckinsey.com/industries/public-sector/our-insights/beyond-agency-boundaries-building-a-statewide-approach-to-customer-experience",
@@ -361,7 +390,51 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.327,
+          "score": 0.306,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Agent Identity & Authorization",
+      "cards": [
+        {
+          "title": "Introducing Teleport Beams: A Trusted Runtime for Securing Agents in Production Infrastructure",
+          "link": "https://goteleport.com/blog/teleport-beams-secure-ai-agents-production/",
+          "excerpt": "Teleport Beams is a trusted runtime for AI agents in production: isolated micro-VMs, delegated X.509 identity, JIT access, and full audit of every action.",
+          "source": "The Teleport Blog",
+          "date": "Nov 10",
+          "image": "https://goteleport.com/blog/_next/static/media/beams-runtime-infographic.80051341.png",
+          "icon": "https://goteleport.com/blog/static/apple.png",
+          "domain": "goteleport.com",
+          "hn": null,
+          "score": 2.171,
+          "coverage": 1
+        },
+        {
+          "title": "Announcing beam-init - a Rust init process for agents",
+          "link": "https://goteleport.com/blog/announcing-beam-init/",
+          "excerpt": "Introducing beam-init, a lightweight Rust init process and service manager for containers, microVMs, and agentic workflows.",
+          "source": "The Teleport Blog",
+          "date": "Nov 10",
+          "image": "https://goteleport.com/blog/static/og-image.png",
+          "icon": "https://goteleport.com/blog/static/apple.png",
+          "domain": "goteleport.com",
+          "hn": null,
+          "score": 1.923,
+          "coverage": 1
+        },
+        {
+          "title": "Phases: Git for container filesystems, or, what I built after leaving CNCF buildpacks.io",
+          "link": "https://goteleport.com/blog/phases-git-for-container-filesystems/",
+          "excerpt": "Buildpacks co-founder Stephen Levine introduces Phases for Beams: forkable filesystem snapshots, automatic dependency updates, and editable build pipelines.",
+          "source": "The Teleport Blog",
+          "date": "Nov 10",
+          "image": "https://goteleport.com/blog/static/og-image.png",
+          "icon": "https://goteleport.com/blog/static/apple.png",
+          "domain": "goteleport.com",
+          "hn": null,
+          "score": 0.385,
           "coverage": 1
         }
       ],
@@ -380,7 +453,7 @@
           "icon": null,
           "domain": "aembit.io",
           "hn": null,
-          "score": 2.38,
+          "score": 2.121,
           "coverage": 1
         }
       ],
@@ -389,6 +462,86 @@
     {
       "name": "Security & AppSec",
       "cards": [
+        {
+          "title": "Google DeepMind melds humans and AI agents to vet Signal's secure messaging techniques",
+          "link": "https://www.theregister.com/ai-and-ml/2026/11/10/google-deepmind-melds-humans-and-ai-agents-to-vet-signals-secure-messaging-techniques/5308625",
+          "excerpt": "Post-quantum handshake and Triple Ratchet get a formal security check",
+          "source": "The Register",
+          "date": "Nov 10",
+          "image": "https://image.theregister.com/?imageId=5308629&width=800",
+          "icon": null,
+          "domain": "theregister.com",
+          "hn": null,
+          "score": 5.097,
+          "coverage": 1
+        },
+        {
+          "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
+          "link": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+          "excerpt": "An iOS sandbox escape published on GitHub lets an app read other apps' files on iPhones running iOS 26 and 27. That puts seed phrases, private keys, and login credentials at risk of exposure to malicious apps, Binance warned today. Apple's updates for iOS 26 and 27, released yesterday, do not list…",
+          "source": "The Hacker News",
+          "date": "Nov 10",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikVWFDhEAWo-q-_JsRneE91hAsf7Ho4XXGI51_q0V6XaCrBl7COWgs81b8KLYtdO0XaRMjP5JbJs80iC103U16Mr7GU05znwtx3CvvMnJMR1ywArpKJj4AdVd9HaLv0U65k59BBY706XjRtU8bx9q-fnLlozVb63XJ43QDKm3FbJUmrSwcB9TvwJpyP64/s1600/ios-jail.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.709,
+          "coverage": 1
+        },
+        {
+          "title": "Beyond the Alert: The Case for Rich Network Data",
+          "link": "https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html",
+          "excerpt": "At some point your security will fail. This isn’t pessimism. It’s not because your team and tools aren’t sophisticated enough. It’s the reason we have detections in the first place. And, it’s why once we accept that prevention has its limits, we arrive at an interdiction strategy: finding and…",
+          "source": "The Hacker News",
+          "date": "Nov 10",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2keP-LKMaj66fcb6TF9mNwdN01ndHv16r6WcnXbXwTwCNvUJXDxuyG_WacuYRt2DNFA7Fy_Hb4cyDvXeRsWrUWrql4RyMK4dD9s2adlVOnPWyR04wDmPu5jUlZL3-kGiDgPY2NU8yptKV1o21Wsuyu6IOSxico18zjLqDNLoA1bkl_DheKZevChrO6ZE/s1600/Corelights.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.675,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
+          "link": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
+          "excerpt": "An iMessage flaw could let a remote attacker join a group chat and receive its messages, Apple said yesterday, and it released updates to fix it. The updates also fix a separate iMessage flaw that could let someone added to a group access messages sent before they joined. As of today, other…",
+          "source": "The Hacker News",
+          "date": "Nov 10",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUM6RGvSNUqube0TIXYpzHhs7uSvT0k28f2Q8s-GVOexnCI4T5mzFMUs3Lz4_aS6gNuS71DSTvtfOO-tfVFXvVu82pBmj5gO5_jO5g1ndVQQX8xjBY8A_IDAVNkO7oE1s5FRyEsxXQ_HEM_5_KI4g9VWN8BLgCmQTS1DaFt6lRlfgEJMsxyC5bxQW1qhM/s1600/apple-patch.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.613,
+          "coverage": 1
+        },
+        {
+          "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
+          "link": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
+          "excerpt": "The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exchange servers with an aim to surreptitiously collect emails. According to an ESET report shared…",
+          "source": "The Hacker News",
+          "date": "Nov 10",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5658vTd_mkm0NXhB4ueRe7z7purQPsvIa5Ik8qqEMo0dN5DU5bTpprIJeXFEj7XKLIOP3ykE4ZlNnixosysJ8YmGXzuRqEA1YoDvaQUFUgdXGfX2gj4f3hgUzop1wizxyv9olPYRDIb6CBW09bFVYAVqvpJk1zRqp3N5QCDBdfXTeoJuGCRkgy227_TgN/s1600/russian-emails.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 3.033,
+          "coverage": 2
+        },
+        {
+          "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
+          "link": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
+          "excerpt": "Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day—the vendor rates all four 10.0, the maximum CVSS score. Three are in the SAP NetWeaver application server, the software SAP systems run on, and one is in the Web Dispatcher,…",
+          "source": "The Hacker News",
+          "date": "Nov 10",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgo4snqwJ4uD_sRDyI8zs23mcfFTWfZoSrn9n1hbUrsHbyWy-1VFL8amxqQnLb7LSTPkuSwnsPofUJT6anObg-nU4Q5e01WBb3IixN_PdL-1MJ2nOip4qSTEoVDmePRlOgjSVjvtbH8vFlQgxtGuKuqmuHWLyzIavw2Sj4VtZBlTYhUqeySbQcDMEr4Wns/s1600/sap-flaws.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.603,
+          "coverage": 1
+        },
         {
           "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
           "link": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html",
@@ -399,7 +552,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.706,
+          "score": 0.569,
           "coverage": 1
         },
         {
@@ -412,87 +565,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.661,
-          "coverage": 1
-        },
-        {
-          "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
-          "link": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-          "excerpt": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), has been described as a use-after-free bug in the XML…",
-          "source": "The Hacker News",
-          "date": "Nov 10",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjk5S9J891bQS8W6TgyoiEPQ7geGia8FqqWjckFlo9qMH2wXIXv-7gyod1XKUpI9BfgcliN2Re8A85rJ121jxqgfnw1LsjYBvAYtX7694GVgMF7B94G0n5MzqMaKqLAbr-No1nqrN0gyF8MFR_bYQIYlqiTh_FzobmWrq4NOCLbcW_78uEMMW5FE4eqJoo/s1600/chrome-0day.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 10.36,
-          "coverage": 3
-        }
-      ],
-      "more": [
-        {
-          "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
-          "link": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
-          "excerpt": "N-able said it has taken N-central Hosted Environments offline and is urging on-premises customers to shut down their servers until further notice following the public disclosure of over 30 vulnerabilities collectively tracked as Able2Shell. \"As a precautionary measure, we are temporarily taking…",
-          "source": "The Hacker News",
-          "date": "Nov 10",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-DkzHcZpJVVEU3e3wmGB2DiyRsnWXkf_2bfT1fiDJG4Wn92cartbhyphenhyphenqZHOjXGasigHqJAyXM0kjOlYipgEkahrCi9KGa1s8gpINVT-oFldgOc1bZMUQ-nmFqsSMNwIe6463fXOxSqX1dNroXgwn9MwsmCx41jvPdtdygITxfKyTRDUWKS19YVTFTZY8sr/s1600/n-able.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 2.971,
-          "coverage": 2
-        },
-        {
-          "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
-          "link": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
-          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added four security flaws impacting GPUStack, SignalWire FreeSwitch, OpenBSD OpenSSH, and IBM Aspera Faspex to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities…",
-          "source": "The Hacker News",
-          "date": "Nov 10",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVAsrcYxVs8sJe7IiSD6WkTC4yPv0eLfup7dwcsS0NLcAAgoY__wyC3UFCR90PL2ziKCEW-vMNIEQXES-8uAG-MxuXlyIDdQGeNREm8yFv3tbvsCVXXRyRGT4ORirvcVKP_uD62XHYy9w3x_P0o7XzkguJPwq_1vV2jPxxnZWbhAHHUJ3YJ6HbTlXb0shyphenhyphen/s1600/openssh.png",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.586,
-          "coverage": 1
-        },
-        {
-          "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
-          "link": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
-          "excerpt": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today. The attacker used credentials for an AWS account that Qubole's platform uses to reach those customers. How the…",
-          "source": "The Hacker News",
-          "date": "Nov 09",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjj3p_1P-Ko_l_HuUr2Doq9kJOQa3Y5dCrkiVWqjJXzvQfYgKvgJXyvdBqLH2hp7s_ZY2kk-hhaCQhjf_v9SdjSbNpaDV2Eohk6-NEFUZp_ROjMJf_Q1xUSKcrqNj-Dd5ZrfjV6uP1blo579IaZ6hgHxOFAUhyJVgdGop-KVIWCjWQIYOKku3iN1N1EIUk/s1600/aws-hacked.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 2.247,
-          "coverage": 1
-        },
-        {
-          "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
-          "link": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
-          "excerpt": "Attackers used the Ethersphere project's own release automation to publish malicious versions of two of its tools for the Swarm decentralized storage network: bee-js 13.3.0 and Swarm Desktop 0.56.2. Both releases download and run code built to steal the wallet key that Swarm Desktop keeps for its…",
-          "source": "The Hacker News",
-          "date": "Nov 09",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4ZFiesBwDTk8fRRfKfNIw0lLkhqF6ZAExRxuuRtfRCWrxs6Rg7M5UdSIcJqH2zstViFreL30JMmdebYTlMOKvg4D6GvaS70XPdembzyIZoX2KBj_S3kxKWmBjJll4exWUYXrap9IDW_ugXHOux5jZXk44_v5xac1mxFouywezDcsGeMdLrGd1sJStMoo/s1600/bees.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.318,
-          "coverage": 1
-        },
-        {
-          "title": "IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks",
-          "link": "https://www.securityweek.com/ibm-aspera-faspex-signalwire-freeswitch-vulnerabilities-exploited-in-attacks/",
-          "excerpt": "CISA has added CVE-2026-123218 and CVE-2026-116779 to KEV, urging federal agencies to patch them within three days. The post IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 10",
-          "image": "https://www.securityweek.com/wp-content/uploads/2025/07/CISA-KEV.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 5.172,
+          "score": 0.539,
           "coverage": 1
         }
       ]
@@ -510,7 +583,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 3.878,
+          "score": 3.38,
           "coverage": 1
         },
         {
@@ -523,7 +596,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 2.718,
+          "score": 2.424,
           "coverage": 1
         },
         {
@@ -536,11 +609,24 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 2.37,
+          "score": 2.126,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "Presentation: Batch Intelligence at Scale: Cost-Efficient Multi-Agent LLM Workflows with Built-In Resilience",
+          "link": "https://www.infoq.com/presentations/scaling-multi-agent-llm-batch/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Aditya Mulik explains how Walmart Global Tech deployed multi-agent LLM workflows across 4,700 stores for nightly batch inventory forecasting. He discusses tackling production hurdles - schema violations, cross-department data mismatches, and network drops - via MCP grounding and loop agents, while…",
+          "source": "InfoQ",
+          "date": "Nov 10",
+          "image": "https://res.infoq.com/presentations/scaling-multi-agent-llm-batch/en/mediumimage/AdityaMulik-medium-1793278766506.jpeg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 3.638,
+          "coverage": 1
+        },
         {
           "title": "Run cost-effective, always-on agents to monitor your environment: the engineering behind Watchers",
           "link": "https://grafana.com/blog/run-cost-effective-always-on-agents-to-monitor-your-environment-the-engineering-behind-watchers/",
@@ -551,7 +637,7 @@
           "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
           "domain": "grafana.com",
           "hn": null,
-          "score": 1.532,
+          "score": 1.387,
           "coverage": 1
         },
         {
@@ -564,20 +650,7 @@
           "icon": "https://a0.awsstatic.com/main/images/site/touch-icon-iphone-114-smile.png",
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.322,
-          "coverage": 1
-        },
-        {
-          "title": "Simplify cross-partition access with AWS IAM outbound identity federation",
-          "link": "https://aws.amazon.com/blogs/security/simplify-cross-partition-access-with-aws-iam-outbound-identity-federation/",
-          "excerpt": "You can now use tokens from AWS Identity and Access Management (IAM) outbound federation to assume roles in other Amazon Web Services (AWS) partitions. When your workloads run across AWS partitions such as Commercial, China, GovCloud (US), and European Sovereign Cloud, a workload in one partition…",
-          "source": "AWS Security Blog",
-          "date": "Nov 09",
-          "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/03/crosspartitionidentityfederation-Figure-1.png",
-          "icon": null,
-          "domain": "aws.amazon.com",
-          "hn": null,
-          "score": 0.378,
+          "score": 0.29,
           "coverage": 1
         },
         {
@@ -621,7 +694,7 @@
           "icon": null,
           "domain": "spectrum.ieee.org",
           "hn": null,
-          "score": 2.282,
+          "score": 2.066,
           "coverage": 1
         },
         {
@@ -634,7 +707,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 3.052,
+          "score": 2.592,
           "coverage": 1
         },
         {
@@ -647,7 +720,7 @@
           "icon": null,
           "domain": "arstechnica.com",
           "hn": null,
-          "score": 1.672,
+          "score": 1.509,
           "coverage": 1
         }
       ],
@@ -662,7 +735,20 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 0.196,
+          "score": 0.184,
+          "coverage": 1
+        },
+        {
+          "title": "Anthropic launches roadshow for proposed initial public offering",
+          "link": "https://www.anthropic.com/news/roadshow-launch",
+          "excerpt": "Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.",
+          "source": "Anthropic",
+          "date": "Nov 10",
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+          "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+          "domain": "anthropic.com",
+          "hn": null,
+          "score": 0.361,
           "coverage": 1
         },
         {
@@ -675,46 +761,33 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 6.162,
+          "score": 5.404,
           "coverage": 3
         },
         {
-          "title": "Queens Public library under ransomware attack e-borrowing suspended",
-          "link": "https://connect.queenslibrary.org/",
-          "excerpt": "13 points · 2 comments",
-          "source": "connect.queenslibrary.org via Hacker News",
+          "title": "AlphaProof Code",
+          "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
+          "excerpt": "AlphaProof Code agents wrote over three million lines of machine-checked proof in Lean to verify the core cryptographic protections in Signal down to machine instructions.",
+          "source": "deepmind.google via Hacker News",
+          "date": "Nov 10",
+          "image": "https://lh3.googleusercontent.com/hn6AiI6lYFo6chi1mL6uJ9nOW9UXfsAKnSyOApiie2urHNU2tmSPUmGn0hNfWyYLRcsWCGjCIrBZSCt1ihZmvW-LDJPfyolsr5w-yvzlknZVzmaH=w1200-h630-n-nu-rw",
+          "icon": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/icons/google_deepmind_2x_96dp.png",
+          "domain": "deepmind.google",
+          "hn": "75 points · 26 comments",
+          "score": 3.366,
+          "coverage": 1
+        },
+        {
+          "title": "What Constant Surveillance Is Doing to Children",
+          "link": "https://www.theatlantic.com/magazine/2026/12/location-tracking-apps-parental-surveillance/689031/",
+          "excerpt": "35 points · 22 comments",
+          "source": "theatlantic.com via Hacker News",
           "date": "Nov 10",
           "image": null,
-          "icon": "https://connect.queenslibrary.org/images/favicon/queens/QPL_favicon_01.png",
-          "domain": "connect.queenslibrary.org",
-          "hn": "13 points · 2 comments",
-          "score": 5.07,
-          "coverage": 1
-        },
-        {
-          "title": "M John Harrison becomes first science fiction author to win the Booker prize",
-          "link": "https://www.theguardian.com/books/2026/nov/09/m-john-harrison-the-end-of-everything-wins-2026-booker-prize",
-          "excerpt": "The 81-year-old’s postapocalyptic novel The End of Everything takes home the £50,000 award",
-          "source": "theguardian.com via Hacker News",
-          "date": "Nov 10",
-          "image": "https://i.guim.co.uk/img/media/f88eb30da8765416e5de2380d70ed0056788cab0/691_0_6776_5421/master/6776.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b6b46f05da72b59cef6ac1bfe8fd0f1d",
-          "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg",
-          "domain": "theguardian.com",
-          "hn": "47 points · 15 comments",
-          "score": 2.756,
-          "coverage": 1
-        },
-        {
-          "title": "Fireworks AI security breach impacts Notion and their customers",
-          "link": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
-          "excerpt": "A tool that connects everyday work into one space. It gives you and your teams AI tools—search, writing, note-taking—inside an all-in-one, flexible workspace.",
-          "source": "notion.com via Hacker News",
-          "date": "Nov 10",
-          "image": "https://www.notion.com/front-static/meta/help-center.png",
-          "icon": "https://www.notion.com/front-static/logo-ios.png",
-          "domain": "notion.com",
-          "hn": "27 points · 6 comments",
-          "score": 4.873,
+          "icon": "https://www.theatlantic.com/favicon.ico",
+          "domain": "theatlantic.com",
+          "hn": "35 points · 22 comments",
+          "score": 2.716,
           "coverage": 1
         }
       ]
