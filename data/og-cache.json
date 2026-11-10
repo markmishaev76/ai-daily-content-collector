@@ -593,6 +593,12 @@
   "icon": "https://computer.rip/static/cubes.svg",
   "image": "https://computer.rip/static/img/searchlight/1.png"
  },
+ "https://connect.queenslibrary.org/": {
+  "description": null,
+  "fetched": "2026-11-10",
+  "icon": "https://connect.queenslibrary.org/images/favicon/queens/QPL_favicon_01.png",
+  "image": null
+ },
  "https://contraptions.venkateshrao.com/p/cognitive-mercantilism": {
   "description": "AI panic weirdly resembles the anxiety that accompanied early capitalism",
   "fetched": "2026-10-26",
@@ -2189,6 +2195,12 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/index/closing-ai-guidance-gap-education": {
+  "description": null,
+  "fetched": "2026-11-10",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/coderabbit-codex-daybreak": {
   "description": null,
   "fetched": "2026-11-10",
@@ -3010,6 +3022,12 @@
   "fetched": "2026-11-10",
   "icon": "https://stackoverflow.blog/apple-touch-icon.png",
   "image": null
+ },
+ "https://stackoverflow.blog/2026/11/10/customer-support-is-the-gnarliest-ai-problem/": {
+  "description": "Ryan chats with Ahmad Al-Dahle, CTO at Airbnb, about deploying multi-party AI agents to tackle the uniquely gnarly problem of customer support, how a moving target of rigorous evaluations helps engineers balance latency against accuracy, and the ways in which AI coding tools demand an even higher level of judgment from software engineering teams.",
+  "fetched": "2026-11-10",
+  "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+  "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format"
  },
  "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/": {
   "description": "The AI company pirated at least 10 Stanford academics’ work in a $1.5 billion copyright settlement.",
@@ -4031,6 +4049,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2024/09/12/android-tv-malware.jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/": {
+  "description": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year.",
+  "fetched": "2026-11-10",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/11/10/Chrome.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/": {
   "description": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v",
   "fetched": "2026-11-08",
@@ -4841,6 +4865,12 @@
   "icon": "https://www.nist.gov/themes/custom/nist_www/favicon.ico",
   "image": "https://www.nist.gov/sites/default/files/styles/social/public/images/2026/04/29/shutterstock_2477030163.jpg?itok=7zzPE_fG"
  },
+ "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor": {
+  "description": "A tool that connects everyday work into one space. It gives you and your teams AI tools—search, writing, note-taking—inside an all-in-one, flexible workspace.",
+  "fetched": "2026-11-10",
+  "icon": "https://www.notion.com/front-static/logo-ios.png",
+  "image": "https://www.notion.com/front-static/meta/help-center.png"
+ },
  "https://www.nytimes.com/2026/10/28/us/politics/alaska-dan-sullivan-conspiracy-peltola.html": {
   "description": null,
   "fetched": "2026-11-01",
@@ -5225,6 +5255,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2025/01/Chrome-Firefox.jpeg"
  },
+ "https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/": {
+  "description": "Google has patched CVE-2026-125350, the eighth exploited Chrome zero-day of 2026, along with eight other flaws in Chrome 157 updates.",
+  "fetched": "2026-11-10",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2024/06/Chrome.jpeg"
+ },
  "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps/": {
   "description": "Cisco’s Quarry combines ML judgment and exact rules to spot malicious intent hidden across a series of harmless AI agent steps.",
   "fetched": "2026-10-29",
@@ -5356,6 +5392,12 @@
   "fetched": "2026-10-27",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/10/HPE-Aruba.jpeg"
+ },
+ "https://www.securityweek.com/ibm-aspera-faspex-signalwire-freeswitch-vulnerabilities-exploited-in-attacks/": {
+  "description": "CISA warns of exploited IBM Aspera Faspex (CVE-2026-123218) and SignalWire FreeSwitch (CVE-2026-116779) vulnerabilities.",
+  "fetched": "2026-11-10",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2025/07/CISA-KEV.jpg"
  },
  "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/": {
   "description": "Anthropic disputes the scope of an ex-DOGE startup’s intrusion, a UEFI flaw affects most servers, and Cloudflare fixes an AI data leak.",
@@ -5722,6 +5764,12 @@
   "fetched": "2026-10-31",
   "icon": "https://substackcdn.com/image/fetch/$s_!foQf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb98ab605-be40-4612-8493-dd79bce9c716%2Fapple-touch-icon-57x57.png",
   "image": "https://substackcdn.com/image/fetch/$s_!ZgR_!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F37133ce1-424f-47a3-a941-9ca5017b2df7_1694x490.png"
+ },
+ "https://www.theguardian.com/books/2026/nov/09/m-john-harrison-the-end-of-everything-wins-2026-booker-prize": {
+  "description": "The 81-year-old’s postapocalyptic novel The End of Everything takes home the £50,000 award",
+  "fetched": "2026-11-10",
+  "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg",
+  "image": "https://i.guim.co.uk/img/media/f88eb30da8765416e5de2380d70ed0056788cab0/691_0_6776_5421/master/6776.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b6b46f05da72b59cef6ac1bfe8fd0f1d"
  },
  "https://www.theguardian.com/business/live/2026/oct/30/uk-house-price-growth-crypto-industry-6bn-binance-hack-eurozone-france-gdp-latest-news-updates": {
   "description": "Blockchain intelligence firm TRM says North Korea’s TraderTraitor hacking unit is responsible for the largest crypto theft on record",

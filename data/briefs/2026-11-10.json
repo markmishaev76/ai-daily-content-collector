@@ -1,21 +1,31 @@
 {
   "date": "2026-11-10",
   "lead": {
-    "title": "Locating the source of a mysterious beep with Claude",
-    "link": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
-    "excerpt": "Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping. The beeps were far enough apart that standing in the room and trying to determine the source of the noise was frustrating, and I…",
-    "source": "Simon Willison",
-    "date": "Nov 09",
-    "image": "https://static.simonwillison.net/static/2026/beep-locator-ui.webp",
+    "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
+    "link": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+    "excerpt": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]",
+    "source": "BleepingComputer",
+    "date": "Nov 10",
+    "image": "https://www.bleepstatic.com/content/hl-images/2026/11/10/Chrome.jpg",
     "image_credit": null,
-    "section": "AI-Assisted Engineering",
+    "section": "Security & AppSec",
     "pinned": false,
     "note": null,
     "labels": [
-      "AI-Assisted Engineering",
-      "6h ago"
+      "3 sources",
+      "Security & AppSec",
+      "1h ago"
     ],
-    "also": []
+    "also": [
+      {
+        "name": "thehackernews.com",
+        "link": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"
+      },
+      {
+        "name": "securityweek.com",
+        "link": "https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/"
+      }
+    ]
   },
   "pulse": [
     {
@@ -25,7 +35,7 @@
       "link_domain": "terminal2shell.com",
       "source": "Lobsters",
       "domain": "terminal2shell.com",
-      "meta": "Lobsters · 89 points · 26 comments · 14h ago",
+      "meta": "Lobsters · 106 points · 28 comments · 18h ago",
       "also": [],
       "image": "https://terminal2shell.com/og.png",
       "icon": "https://terminal2shell.com/apple-touch-icon.png"
@@ -37,7 +47,7 @@
       "link_domain": "maurycyz.com",
       "source": "Lobsters",
       "domain": "maurycyz.com",
-      "meta": "Lobsters · 82 points · 9 comments · 17h ago",
+      "meta": "Lobsters · 95 points · 10 comments · 20h ago",
       "also": [],
       "image": null,
       "icon": "https://maurycyz.com/favicon.svg"
@@ -49,7 +59,7 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 514 points · 118 comments · 11h ago",
+      "meta": "Hacker News · 600 points · 129 comments · 15h ago",
       "also": [],
       "image": "https://opengraph.githubassets.com/df2c6748e762ec7e9a87bb17fb2ec8d9c0f667e9b1f18f7200fff642e51cfeee/thisisme6598/gemini_files",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
@@ -61,7 +71,7 @@
       "link_domain": "artificialanalysis.ai",
       "source": "Hacker News",
       "domain": "artificialanalysis.ai",
-      "meta": "Hacker News · 327 points · 232 comments · 10h ago",
+      "meta": "Hacker News · 344 points · 246 comments · 13h ago",
       "also": [],
       "image": "https://artificialanalysis.ai/en/models/claude-fable-5-2/opengraph-image?65781a17af1a7936",
       "icon": "https://artificialanalysis.ai/favicon.ico"
@@ -73,7 +83,7 @@
       "link_domain": "news.ycombinator.com",
       "source": "Hacker News",
       "domain": "news.ycombinator.com",
-      "meta": "Hacker News · 314 points · 187 comments · 12h ago",
+      "meta": "Hacker News · 327 points · 192 comments · 16h ago",
       "also": [],
       "image": null,
       "icon": null
@@ -85,22 +95,22 @@
       "link_domain": "tisiphone.net",
       "source": "Lobsters",
       "domain": "tisiphone.net",
-      "meta": "Lobsters · 42 points · 22 comments · 17h ago",
+      "meta": "Lobsters · 44 points · 25 comments · 21h ago",
       "also": [],
       "image": "https://i0.wp.com/tisiphone.net/wp-content/uploads/2026/11/pexels-photo-17546504.jpeg?fit=818%2C1200&ssl=1",
       "icon": "https://tisiphone.net/wp-content/uploads/2016/09/cropped-cropped-header12-1.png?w=180"
     },
     {
-      "title": "ChatGPT Desktop forwards your SSH agent to remote machines",
-      "thread": "https://news.ycombinator.com/item?id=50422628",
-      "link": null,
-      "link_domain": "",
+      "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
+      "thread": "https://news.ycombinator.com/item?id=50435660",
+      "link": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+      "link_domain": "cnbc.com",
       "source": "Hacker News",
-      "domain": "Hacker News",
-      "meta": "Hacker News · 207 points · 73 comments · 21h ago",
+      "domain": "cnbc.com",
+      "meta": "Hacker News · 146 points · 105 comments · 6h ago",
       "also": [],
-      "image": null,
-      "icon": null
+      "image": "https://image.cnbcfm.com/api/v1/image/108410034-1792003128025-gettyimages-2245498775-raa-coreweav251110_npfn0.jpeg?v=1792003201&w=1920&h=1080",
+      "icon": "https://fm.cnbc.com/applications/cnbc.com/resources/img/CNBC_LOGO_FAVICON_1C_KO_RGB.ico"
     },
     {
       "title": "A year after the 100% AI mandate nobody understands our code",
@@ -109,7 +119,7 @@
       "link_domain": "reddit.com",
       "source": "Hacker News",
       "domain": "reddit.com",
-      "meta": "Hacker News · 119 points · 152 comments · 7h ago",
+      "meta": "Hacker News · 126 points · 161 comments · 11h ago",
       "also": [],
       "image": null,
       "icon": "https://www.reddit.com/favicon.ico"
@@ -120,6 +130,19 @@
       "name": "AI-Assisted Engineering",
       "cards": [
         {
+          "title": "3 agentic AI questions engineering leaders must answer",
+          "link": "https://leaddev.com/ai/3-questions-engineering-leaders-should-ask-about-agentic-ai?utm_source=leaddev&utm_medium=RSS",
+          "excerpt": "Measure AI’s impact on your teams and SDLC. The post 3 agentic AI questions engineering leaders must answer appeared first on LeadDev.",
+          "source": "LeadDev",
+          "date": "Nov 10",
+          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_6000,h_3375/next/2024/11/question-mark-bright-blue.png",
+          "icon": null,
+          "domain": "leaddev.com",
+          "hn": null,
+          "score": 7.155,
+          "coverage": 1
+        },
+        {
           "title": "Terminal-Bench 4.1 hardens the verifiers behind the scores",
           "link": "https://s46486.pcdn.co/blog/terminal-bench-4-1-hardens-the-verifiers-behind-the-scores/",
           "excerpt": "Terminal-Bench 4.1 is now available. Snorkel AI contributes to Terminal-Bench as a task author, a data partner, and a supporter through the Open Benchmarks Grants program. The release keeps the same 66 tasks, with verifier fixes, reproducibility improvements, hardening against reward hacking, and…",
@@ -129,33 +152,20 @@
           "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
           "domain": "s46486.pcdn.co",
           "hn": null,
-          "score": 4.306,
+          "score": 3.587,
           "coverage": 1
         },
         {
-          "title": "Intelligence per Watt: Measuring Local AI Efficiency",
-          "link": "https://snorkel.ai/blog/intelligence-per-watt-reading-group/",
-          "excerpt": "Jon Saad-Falcon and Avanika Narayan (Stanford, Hazy Research) present Intelligence per Watt, a metric that divides task accuracy by power draw to compare local AI models and hardware, and show it improved 5.3x from 2023 to 2025. The post Intelligence per Watt: Measuring Local AI Efficiency…",
-          "source": "Snorkel AI",
-          "date": "Nov 05",
-          "image": "https://s46486.pcdn.co/wp-content/uploads/2026/11/IPW-reading-grouo.png",
-          "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
-          "domain": "snorkel.ai",
+          "title": "Customer support is the gnarliest AI problem",
+          "link": "https://stackoverflow.blog/2026/11/10/customer-support-is-the-gnarliest-ai-problem/",
+          "excerpt": "Ryan chats with Ahmad Al-Dahle, CTO at Airbnb, about deploying multi-party AI agents to tackle the uniquely gnarly problem of customer support, how a moving target of rigorous evaluations helps engineers balance latency against accuracy, and the ways in which AI coding tools demand an even higher…",
+          "source": "Stack Overflow Blog",
+          "date": "Nov 10",
+          "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format",
+          "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+          "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 0.119,
-          "coverage": 1
-        },
-        {
-          "title": "Exploring the world's languages with Language Explorer",
-          "link": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer/",
-          "excerpt": "Natural Language Processing",
-          "source": "Google Research",
-          "date": "Nov 09",
-          "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/LanguageExplorer-hero.png",
-          "icon": null,
-          "domain": "research.google",
-          "hn": null,
-          "score": 0.666,
+          "score": 6.147,
           "coverage": 1
         }
       ],
@@ -170,46 +180,59 @@
           "icon": null,
           "domain": "bair.berkeley.edu",
           "hn": null,
-          "score": 3.325,
+          "score": 2.984,
           "coverage": 1
         },
         {
-          "title": "Quoting Prompting Claude Fable 5.2",
-          "link": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
-          "excerpt": "Claude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic’s testing on small coding tasks, when a prompt said nothing about ownership or presented the code base as someone else’s, the model tended to add to the existing structure, even when that…",
-          "source": "Simon Willison",
-          "date": "Nov 10",
-          "image": null,
-          "icon": "https://simonwillison.net/favicon.ico",
-          "domain": "simonwillison.net",
-          "hn": null,
-          "score": 1.149,
-          "coverage": 1
-        },
-        {
-          "title": "llm-anthropic 0.31",
-          "link": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
-          "excerpt": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. Fable 5.2 is currently ranked first on Artificial Analysis. Anthropic say it \"solved two open problems in the physics of black holes\", so clearly their internal benchmarks have become more ambitious! I've added the new…",
+          "title": "Locating the source of a mysterious beep with Claude",
+          "link": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+          "excerpt": "Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping. The beeps were far enough apart that standing in the room and trying to determine the source of the noise was frustrating, and I…",
           "source": "Simon Willison",
           "date": "Nov 09",
-          "image": "https://static.simonwillison.net/static/2026/fable-5.2-xhigh.avif",
+          "image": "https://static.simonwillison.net/static/2026/beep-locator-ui.webp",
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 7.447,
-          "coverage": 3
+          "score": 8.066,
+          "coverage": 1
         },
         {
-          "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
-          "link": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
-          "excerpt": "A Blog post by NVIDIA on Hugging Face",
-          "source": "Hugging Face",
-          "date": "Nov 09",
-          "image": "https://cdn-uploads.huggingface.co/production/uploads/604ad59e2fad27aca4515dab/-hyd03JaQoRhMbmlw9-uJ.jpeg",
-          "icon": "https://huggingface.co/favicon.ico",
-          "domain": "huggingface.co",
+          "title": "Intelligence per Watt: Measuring Local AI Efficiency",
+          "link": "https://snorkel.ai/blog/intelligence-per-watt-reading-group/",
+          "excerpt": "Jon Saad-Falcon and Avanika Narayan (Stanford, Hazy Research) present Intelligence per Watt, a metric that divides task accuracy by power draw to compare local AI models and hardware, and show it improved 5.3x from 2023 to 2025. The post Intelligence per Watt: Measuring Local AI Efficiency…",
+          "source": "Snorkel AI",
+          "date": "Nov 05",
+          "image": "https://s46486.pcdn.co/wp-content/uploads/2026/11/IPW-reading-grouo.png",
+          "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
+          "domain": "snorkel.ai",
           "hn": null,
-          "score": 0.533,
+          "score": 0.115,
+          "coverage": 1
+        },
+        {
+          "title": "Exploring the world's languages with Language Explorer",
+          "link": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer/",
+          "excerpt": "Natural Language Processing",
+          "source": "Google Research",
+          "date": "Nov 09",
+          "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/LanguageExplorer-hero.png",
+          "icon": null,
+          "domain": "research.google",
+          "hn": null,
+          "score": 0.567,
+          "coverage": 1
+        },
+        {
+          "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+          "link": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+          "excerpt": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat all day: tool…",
+          "source": "Simon Willison",
+          "date": "Nov 10",
+          "image": "https://static.simonwillison.net/static/2026/artificial-analysis-haiku-class.webp",
+          "icon": null,
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.999,
           "coverage": 1
         }
       ]
@@ -226,8 +249,8 @@
           "image": "https://opengraph.githubassets.com/003b24b4631e8c2960ce0e715da05f2ba6772ae0bab7cf45f63964ed66c0c05c/PeepSick/usbplus",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "10 points · 2 comments",
-          "score": 7.6,
+          "hn": "11 points · 3 comments",
+          "score": 6.509,
           "coverage": 1
         },
         {
@@ -240,7 +263,35 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 4.035,
+          "score": 3.632,
+          "coverage": 1
+        },
+        {
+          "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
+          "link": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
+          "excerpt": "November 9, 2026 — Claude Fable 5.2 and Mythos 5.2 arrive on Anthropic’s IPO roadshow day. How much thinking is worth paying for?",
+          "source": "Latent Space",
+          "date": "Nov 10",
+          "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/1431029c-65fe-48ed-8eb2-798c3c5c22f4/image.png?t=1794292162",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null,
+          "score": 0.98,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Closing the AI guidance gap in education",
+          "link": "https://openai.com/index/closing-ai-guidance-gap-education",
+          "excerpt": "Lessons from OpenAI’s EMEA education partnerships and new ThinkYoung research. Supporting teachers, AI literacy and independent learning.",
+          "source": "OpenAI News",
+          "date": "Nov 10",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 1.455,
           "coverage": 1
         },
         {
@@ -253,11 +304,9 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.811,
+          "score": 0.697,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
           "link": "https://openai.com/index/control-room",
@@ -268,7 +317,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.644,
+          "score": 0.57,
           "coverage": 1
         },
         {
@@ -281,7 +330,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.55,
+          "score": 0.495,
           "coverage": 1
         }
       ]
@@ -299,7 +348,7 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.862,
+          "score": 0.708,
           "coverage": 1
         },
         {
@@ -312,7 +361,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.356,
+          "score": 0.327,
           "coverage": 1
         }
       ],
@@ -331,7 +380,7 @@
           "icon": null,
           "domain": "aembit.io",
           "hn": null,
-          "score": 2.8,
+          "score": 2.38,
           "coverage": 1
         }
       ],
@@ -340,6 +389,73 @@
     {
       "name": "Security & AppSec",
       "cards": [
+        {
+          "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
+          "link": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html",
+          "excerpt": "An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yesterday. The attackers broke into controllers on the night of October 11 and changed their defrost…",
+          "source": "The Hacker News",
+          "date": "Nov 10",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQkt0P-pw4g1CSZvboG35E5WMLU_vea9rR2DLZ4X0lK5NyipbooRyXkRXcRb7X-ddRbVCygF1OkhW6a3j_8sCsBA_GhHAtOF8dISlx4Q2H74fnLJTm5ZOoEBlsbES0hPZutw60wjcAcMZEZcmx4NCLAM-pqVJCfw9yLhoQV2U_QFRX5h1k0zKPzgioICw/s1600/iran-france.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.706,
+          "coverage": 1
+        },
+        {
+          "title": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
+          "link": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
+          "excerpt": "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the large language models (LLMs) helped its engineers \"complete otherwise-infeasible software migrations, designed three…",
+          "source": "The Hacker News",
+          "date": "Nov 10",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgogipF_6VgFSzsnZ_UFUM5FfzGyk1MOv5SRi3PSivRHjxs6IsO0fmOdDjQsDJHiKcnxJ8T89NMMYiqo_NEEtv0EoQsafjOFuZ-Te6famJBJKegqDnf1b63Hdzkls7IO1JOtSNjb5Hatb4Ny8Zu46mggCXYKvHf3Ne9Qc4ZRfLBmLnZ7omPEHAjDfJRQEKu/s1600/fable.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.661,
+          "coverage": 1
+        },
+        {
+          "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
+          "link": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+          "excerpt": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), has been described as a use-after-free bug in the XML…",
+          "source": "The Hacker News",
+          "date": "Nov 10",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjk5S9J891bQS8W6TgyoiEPQ7geGia8FqqWjckFlo9qMH2wXIXv-7gyod1XKUpI9BfgcliN2Re8A85rJ121jxqgfnw1LsjYBvAYtX7694GVgMF7B94G0n5MzqMaKqLAbr-No1nqrN0gyF8MFR_bYQIYlqiTh_FzobmWrq4NOCLbcW_78uEMMW5FE4eqJoo/s1600/chrome-0day.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 10.36,
+          "coverage": 3
+        }
+      ],
+      "more": [
+        {
+          "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
+          "link": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
+          "excerpt": "N-able said it has taken N-central Hosted Environments offline and is urging on-premises customers to shut down their servers until further notice following the public disclosure of over 30 vulnerabilities collectively tracked as Able2Shell. \"As a precautionary measure, we are temporarily taking…",
+          "source": "The Hacker News",
+          "date": "Nov 10",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-DkzHcZpJVVEU3e3wmGB2DiyRsnWXkf_2bfT1fiDJG4Wn92cartbhyphenhyphenqZHOjXGasigHqJAyXM0kjOlYipgEkahrCi9KGa1s8gpINVT-oFldgOc1bZMUQ-nmFqsSMNwIe6463fXOxSqX1dNroXgwn9MwsmCx41jvPdtdygITxfKyTRDUWKS19YVTFTZY8sr/s1600/n-able.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 2.971,
+          "coverage": 2
+        },
+        {
+          "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
+          "link": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
+          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added four security flaws impacting GPUStack, SignalWire FreeSwitch, OpenBSD OpenSSH, and IBM Aspera Faspex to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities…",
+          "source": "The Hacker News",
+          "date": "Nov 10",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVAsrcYxVs8sJe7IiSD6WkTC4yPv0eLfup7dwcsS0NLcAAgoY__wyC3UFCR90PL2ziKCEW-vMNIEQXES-8uAG-MxuXlyIDdQGeNREm8yFv3tbvsCVXXRyRGT4ORirvcVKP_uD62XHYy9w3x_P0o7XzkguJPwq_1vV2jPxxnZWbhAHHUJ3YJ6HbTlXb0shyphenhyphen/s1600/openssh.png",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.586,
+          "coverage": 1
+        },
         {
           "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
           "link": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
@@ -350,7 +466,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.598,
+          "score": 2.247,
           "coverage": 1
         },
         {
@@ -363,87 +479,20 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.367,
+          "score": 0.318,
           "coverage": 1
         },
         {
-          "title": "Revolve Puts Data Breach Victim Count at 1.5 Million",
-          "link": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
-          "excerpt": "Online fashion retailer Revolve has told regulators that the September cyberattack affected more than 1.5 million individuals. The post Revolve Puts Data Breach Victim Count at 1.5 Million appeared first on SecurityWeek.",
+          "title": "IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks",
+          "link": "https://www.securityweek.com/ibm-aspera-faspex-signalwire-freeswitch-vulnerabilities-exploited-in-attacks/",
+          "excerpt": "CISA has added CVE-2026-123218 and CVE-2026-116779 to KEV, urging federal agencies to patch them within three days. The post IBM Aspera Faspex, SignalWire FreeSwitch Vulnerabilities Exploited in Attacks appeared first on SecurityWeek.",
           "source": "SecurityWeek",
-          "date": "Nov 09",
-          "image": "https://www.securityweek.com/wp-content/uploads/2025/07/data-breach-healthcare-medical.jpg",
+          "date": "Nov 10",
+          "image": "https://www.securityweek.com/wp-content/uploads/2025/07/CISA-KEV.jpg",
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 2.252,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "Plex2Shell Exploited Against QNAP NAS Users",
-          "link": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/",
-          "excerpt": "Threat actors are exploiting the four-flaw chain to hack the Plex Media Server application on QNAP NAS devices. The post Plex2Shell Exploited Against QNAP NAS Users appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 09",
-          "image": "https://www.securityweek.com/wp-content/uploads/2024/12/QNAP.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.312,
-          "coverage": 1
-        },
-        {
-          "title": "Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers",
-          "link": "https://www.securityweek.com/iris-plaza-breach-may-have-exposed-data-of-7-7-million-customers/",
-          "excerpt": "Hackers compromised an external cloud service used by the shopping platform and may have stolen personal information from it. The post Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 09",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/Iris-Plaza.webp",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 2.142,
-          "coverage": 1
-        },
-        {
-          "title": "Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web",
-          "link": "https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/",
-          "excerpt": "Italian Foreign Minister Antonio Tajani said Saturday that his personal data had been disseminated on the dark web. The post Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 09",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/09/data-leak.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.303,
-          "coverage": 1
-        },
-        {
-          "title": "Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH",
-          "link": "https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/",
-          "excerpt": "The initial exploitation attempts are attributed to botnets and crypto miners, but other threat actors are expected to follow suit. The post Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 09",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/SSH.webp",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.301,
-          "coverage": 1
-        },
-        {
-          "title": "Amplifon Americas Data Breach Impacts 1.3 Million",
-          "link": "https://www.securityweek.com/amplifon-americas-data-breach-impacts-1-3-million/",
-          "excerpt": "Hackers stole personal, health, and insurance information, including Social Security numbers, from the company’s internal systems. The post Amplifon Americas Data Breach Impacts 1.3 Million appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 09",
-          "image": "https://www.securityweek.com/wp-content/uploads/2025/10/bank-finance-lender-credit-union-hack.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 2.047,
+          "score": 5.172,
           "coverage": 1
         }
       ]
@@ -461,7 +510,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 4.735,
+          "score": 3.878,
           "coverage": 1
         },
         {
@@ -474,7 +523,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 3.195,
+          "score": 2.718,
           "coverage": 1
         },
         {
@@ -487,7 +536,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 2.76,
+          "score": 2.37,
           "coverage": 1
         }
       ],
@@ -502,7 +551,7 @@
           "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
           "domain": "grafana.com",
           "hn": null,
-          "score": 1.758,
+          "score": 1.532,
           "coverage": 1
         },
         {
@@ -515,7 +564,7 @@
           "icon": "https://a0.awsstatic.com/main/images/site/touch-icon-iphone-114-smile.png",
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.372,
+          "score": 0.322,
           "coverage": 1
         },
         {
@@ -528,7 +577,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.433,
+          "score": 0.378,
           "coverage": 1
         },
         {
@@ -572,7 +621,7 @@
           "icon": null,
           "domain": "spectrum.ieee.org",
           "hn": null,
-          "score": 2.618,
+          "score": 2.282,
           "coverage": 1
         },
         {
@@ -585,7 +634,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 3.904,
+          "score": 3.052,
           "coverage": 1
         },
         {
@@ -598,7 +647,7 @@
           "icon": null,
           "domain": "arstechnica.com",
           "hn": null,
-          "score": 1.928,
+          "score": 1.672,
           "coverage": 1
         }
       ],
@@ -613,7 +662,7 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 0.214,
+          "score": 0.196,
           "coverage": 1
         },
         {
@@ -626,46 +675,46 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 7.447,
+          "score": 6.162,
           "coverage": 3
         },
         {
-          "title": "Ultorg: The User Interface for Relational Databases",
-          "link": "https://www.ultorg.com/",
-          "excerpt": "Ultorg is an efficient, spreadsheet-like user interface for relational databases. Query and edit data across tables and relationships, without SQL.",
-          "source": "ultorg.com via Hacker News",
+          "title": "Queens Public library under ransomware attack e-borrowing suspended",
+          "link": "https://connect.queenslibrary.org/",
+          "excerpt": "13 points · 2 comments",
+          "source": "connect.queenslibrary.org via Hacker News",
           "date": "Nov 10",
-          "image": "https://www.ultorg.com/images/og_image_white.png",
-          "icon": "https://www.ultorg.com/images/ultorg_icon_illum_180.png",
-          "domain": "ultorg.com",
-          "hn": "12 points · 0 comments",
-          "score": 1.883,
+          "image": null,
+          "icon": "https://connect.queenslibrary.org/images/favicon/queens/QPL_favicon_01.png",
+          "domain": "connect.queenslibrary.org",
+          "hn": "13 points · 2 comments",
+          "score": 5.07,
           "coverage": 1
         },
         {
-          "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
-          "link": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
-          "excerpt": "Coreweave's steep yields reflect stress in the AI debt markets as investors worry about a data center slowdown. What comes next.",
-          "source": "cnbc.com via Hacker News",
+          "title": "M John Harrison becomes first science fiction author to win the Booker prize",
+          "link": "https://www.theguardian.com/books/2026/nov/09/m-john-harrison-the-end-of-everything-wins-2026-booker-prize",
+          "excerpt": "The 81-year-old’s postapocalyptic novel The End of Everything takes home the £50,000 award",
+          "source": "theguardian.com via Hacker News",
           "date": "Nov 10",
-          "image": "https://image.cnbcfm.com/api/v1/image/108410034-1792003128025-gettyimages-2245498775-raa-coreweav251110_npfn0.jpeg?v=1792003201&w=1920&h=1080",
-          "icon": "https://fm.cnbc.com/applications/cnbc.com/resources/img/CNBC_LOGO_FAVICON_1C_KO_RGB.ico",
-          "domain": "cnbc.com",
-          "hn": "74 points · 32 comments",
-          "score": 2.937,
+          "image": "https://i.guim.co.uk/img/media/f88eb30da8765416e5de2380d70ed0056788cab0/691_0_6776_5421/master/6776.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b6b46f05da72b59cef6ac1bfe8fd0f1d",
+          "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg",
+          "domain": "theguardian.com",
+          "hn": "47 points · 15 comments",
+          "score": 2.756,
           "coverage": 1
         },
         {
-          "title": "Formalizing CPython",
-          "link": "https://broyojo.com/python-formalization/",
-          "excerpt": "AI agents wrote 613,318 lines of Lean that copy Python's internals, tested every piece against real Python, and turned up 418 bug reports along the way.",
-          "source": "broyojo.com via Hacker News",
+          "title": "Fireworks AI security breach impacts Notion and their customers",
+          "link": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+          "excerpt": "A tool that connects everyday work into one space. It gives you and your teams AI tools—search, writing, note-taking—inside an all-in-one, flexible workspace.",
+          "source": "notion.com via Hacker News",
           "date": "Nov 10",
-          "image": "https://broyojo.com/python-formalization/og.png",
-          "icon": "https://broyojo.com/favicon.ico",
-          "domain": "broyojo.com",
-          "hn": "20 points · 7 comments",
-          "score": 2.023,
+          "image": "https://www.notion.com/front-static/meta/help-center.png",
+          "icon": "https://www.notion.com/front-static/logo-ios.png",
+          "domain": "notion.com",
+          "hn": "27 points · 6 comments",
+          "score": 4.873,
           "coverage": 1
         }
       ]
