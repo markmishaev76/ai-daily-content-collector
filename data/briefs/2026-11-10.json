@@ -1,0 +1,723 @@
+{
+  "date": "2026-11-10",
+  "lead": {
+    "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+    "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "excerpt": "Our most capable models for daunting technical work, Claude Fable 5.2 and Claude Mythos 5.2 set a new bar in coding, finance, and the sciences.",
+    "source": "Anthropic",
+    "date": "Nov 09",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "image_credit": "The Verge",
+    "section": "News & Research",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "3 sources",
+      "News & Research",
+      "2h ago"
+    ],
+    "also": [
+      {
+        "name": "simonwillison.net",
+        "link": "https://simonwillison.net/2026/Nov/9/llm-anthropic/"
+      },
+      {
+        "name": "theverge.com",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2"
+      }
+    ]
+  },
+  "pulse": [
+    {
+      "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
+      "thread": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
+      "link": "https://terminal2shell.com/",
+      "link_domain": "terminal2shell.com",
+      "source": "Lobsters",
+      "domain": "terminal2shell.com",
+      "meta": "Lobsters · 79 points · 22 comments · 10h ago",
+      "also": [],
+      "image": "https://terminal2shell.com/og.png",
+      "icon": "https://terminal2shell.com/apple-touch-icon.png"
+    },
+    {
+      "title": "unlocking any car from X brand in most of the world",
+      "thread": "https://lobste.rs/s/kbrpx3/unlocking_any_car_from_x_brand_most_world",
+      "link": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
+      "link_domain": "shubs.io",
+      "source": "Lobsters",
+      "domain": "shubs.io",
+      "meta": "Lobsters · 79 points · 25 comments · 21h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://shubs.io/content/images/size/w256h256/2025/01/android-chrome-512x512.png"
+    },
+    {
+      "title": "Google Gemini routes personal Drive files and emails to human annotators",
+      "thread": "https://news.ycombinator.com/item?id=50429426",
+      "link": "https://github.com/thisisme6598/gemini_files/",
+      "link_domain": "github.com",
+      "source": "Hacker News",
+      "domain": "github.com",
+      "meta": "Hacker News · 425 points · 104 comments · 7h ago",
+      "also": [],
+      "image": "https://opengraph.githubassets.com/df2c6748e762ec7e9a87bb17fb2ec8d9c0f667e9b1f18f7200fff642e51cfeee/thisisme6598/gemini_files",
+      "icon": "https://github.githubassets.com/favicons/favicon.svg"
+    },
+    {
+      "title": "Going back two years on Hacker News is like entering another, better universe",
+      "thread": "https://news.ycombinator.com/item?id=50428724",
+      "link": "https://news.ycombinator.com/front?day=2024-11-08",
+      "link_domain": "news.ycombinator.com",
+      "source": "Hacker News",
+      "domain": "news.ycombinator.com",
+      "meta": "Hacker News · 301 points · 183 comments · 8h ago",
+      "also": [],
+      "image": null,
+      "icon": null
+    },
+    {
+      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "thread": "https://news.ycombinator.com/item?id=50431144",
+      "link": "https://artificialanalysis.ai/models/claude-fable-5-2",
+      "link_domain": "artificialanalysis.ai",
+      "source": "Hacker News",
+      "domain": "artificialanalysis.ai",
+      "meta": "Hacker News · 291 points · 207 comments · 6h ago",
+      "also": [],
+      "image": "https://artificialanalysis.ai/en/models/claude-fable-5-2/opengraph-image?65781a17af1a7936",
+      "icon": "https://artificialanalysis.ai/favicon.ico"
+    },
+    {
+      "title": "Let’s Talk About Why all This OT Stuff is Connected",
+      "thread": "https://lobste.rs/s/jxigk6/let_s_talk_about_why_all_this_ot_stuff_is",
+      "link": "https://tisiphone.net/2026/11/08/lets-talk-about-why-all-this-ot-stuff-is-connected/",
+      "link_domain": "tisiphone.net",
+      "source": "Lobsters",
+      "domain": "tisiphone.net",
+      "meta": "Lobsters · 36 points · 18 comments · 13h ago",
+      "also": [],
+      "image": "https://i0.wp.com/tisiphone.net/wp-content/uploads/2026/11/pexels-photo-17546504.jpeg?fit=818%2C1200&ssl=1",
+      "icon": "https://tisiphone.net/wp-content/uploads/2016/09/cropped-cropped-header12-1.png?w=180"
+    },
+    {
+      "title": "ChatGPT Desktop forwards your SSH agent to remote machines",
+      "thread": "https://news.ycombinator.com/item?id=50422628",
+      "link": null,
+      "link_domain": "",
+      "source": "Hacker News",
+      "domain": "Hacker News",
+      "meta": "Hacker News · 206 points · 71 comments · 17h ago",
+      "also": [],
+      "image": null,
+      "icon": null
+    },
+    {
+      "title": "Apple capped engineers at a $200 daily AI budget",
+      "thread": "https://news.ycombinator.com/item?id=50421426",
+      "link": "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget",
+      "link_domain": "stork.ai",
+      "source": "Hacker News",
+      "domain": "stork.ai",
+      "meta": "Hacker News · 112 points · 121 comments · 20h ago",
+      "also": [],
+      "image": "https://expert-egret-407.convex.cloud/api/storage/302186b8-d1df-4ba5-b340-4c55f62f94dc",
+      "icon": "https://www.stork.ai/apple-touch-icon.png"
+    },
+    {
+      "title": "A year after the 100% AI mandate nobody understands our code",
+      "thread": "https://news.ycombinator.com/item?id=50433079",
+      "link": "https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody/",
+      "link_domain": "reddit.com",
+      "source": "Hacker News",
+      "domain": "reddit.com",
+      "meta": "Hacker News · 110 points · 130 comments · 3h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.reddit.com/favicon.ico"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI-Assisted Engineering",
+      "cards": [
+        {
+          "title": "Terminal-Bench 4.1 hardens the verifiers behind the scores",
+          "link": "https://s46486.pcdn.co/blog/terminal-bench-4-1-hardens-the-verifiers-behind-the-scores/",
+          "excerpt": "Terminal-Bench 4.1 is now available. Snorkel AI contributes to Terminal-Bench as a task author, a data partner, and a supporter through the Open Benchmarks Grants program. The release keeps the same 66 tasks, with verifier fixes, reproducibility improvements, hardening against reward hacking, and…",
+          "source": "Snorkel AI",
+          "date": "Nov 09",
+          "image": "https://s46486.pcdn.co/wp-content/uploads/2026/11/TB-4-1-1-1024x576.png",
+          "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
+          "domain": "s46486.pcdn.co",
+          "hn": null,
+          "score": 5.464,
+          "coverage": 1
+        },
+        {
+          "title": "Locating the source of a mysterious beep with Claude",
+          "link": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+          "excerpt": "Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping. The beeps were far enough apart that standing in the room and trying to determine the source of the noise was frustrating, and I…",
+          "source": "Simon Willison",
+          "date": "Nov 09",
+          "image": "https://static.simonwillison.net/static/2026/beep-locator-ui.webp",
+          "icon": null,
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 7.847,
+          "coverage": 1
+        },
+        {
+          "title": "Intelligence per Watt: Measuring Local AI Efficiency",
+          "link": "https://snorkel.ai/blog/intelligence-per-watt-reading-group/",
+          "excerpt": "Jon Saad-Falcon and Avanika Narayan (Stanford, Hazy Research) present Intelligence per Watt, a metric that divides task accuracy by power draw to compare local AI models and hardware, and show it improved 5.3x from 2023 to 2025. The post Intelligence per Watt: Measuring Local AI Efficiency…",
+          "source": "Snorkel AI",
+          "date": "Nov 05",
+          "image": "https://s46486.pcdn.co/wp-content/uploads/2026/11/IPW-reading-grouo.png",
+          "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
+          "domain": "snorkel.ai",
+          "hn": null,
+          "score": 0.123,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "BAIR at CoRL 2026",
+          "link": "http://bair.berkeley.edu/blog/2026/11/09/bair-at-corl-2026/",
+          "excerpt": "The Conference on Robot Learning (CoRL) takes place November 9–12, 2026, in Austin, Texas. BAIR faculty, postdocs and students will be presenting research at various sessions, including an Early Career Keynote from Professor Negar Mehr. See below for the full schedule of sessions with BAIR…",
+          "source": "BAIR",
+          "date": "Nov 09",
+          "image": null,
+          "icon": null,
+          "domain": "bair.berkeley.edu",
+          "hn": null,
+          "score": 3.782,
+          "coverage": 1
+        },
+        {
+          "title": "Exploring the world's languages with Language Explorer",
+          "link": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer/",
+          "excerpt": "Natural Language Processing",
+          "source": "Google Research",
+          "date": "Nov 09",
+          "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/LanguageExplorer-hero.png",
+          "icon": null,
+          "domain": "research.google",
+          "hn": null,
+          "score": 0.818,
+          "coverage": 1
+        },
+        {
+          "title": "llm-anthropic 0.31",
+          "link": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+          "excerpt": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. I've added them to llm-anthropic, so you can now run prompts through Fable 5.2 like this: uv tool install llm llm install llm-anthropic llm keys set anthropic # paste key here llm -m claude-fable-5.2 \"Generate an SVG of…",
+          "source": "Simon Willison",
+          "date": "Nov 09",
+          "image": "https://static.simonwillison.net/static/2026/fable-5.2-xhigh.avif",
+          "icon": null,
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 9.558,
+          "coverage": 3
+        },
+        {
+          "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+          "link": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+          "excerpt": "A Blog post by NVIDIA on Hugging Face",
+          "source": "Hugging Face",
+          "date": "Nov 09",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/604ad59e2fad27aca4515dab/-hyd03JaQoRhMbmlw9-uJ.jpeg",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null,
+          "score": 0.626,
+          "coverage": 1
+        },
+        {
+          "title": "Never Share Your Password Again — The OAuth 2.0 Solution",
+          "link": "https://stackoverflow.blog/2026/11/09/never-share-your-password-again-the-oauth-2-0-solution/",
+          "excerpt": "Founded in 2008, Stack Overflow’s public platform is used by nearly everyone who codes to learn, share their knowledge, collaborate, and build their careers.",
+          "source": "Stack Overflow Blog",
+          "date": "Nov 09",
+          "image": null,
+          "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+          "domain": "stackoverflow.blog",
+          "hn": null,
+          "score": 0.834,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "AI Agents & Agent Security",
+      "cards": [
+        {
+          "title": "CodeRabbit scales agentic software development and ships 20x more",
+          "link": "https://openai.com/index/coderabbit-codex-daybreak",
+          "excerpt": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+          "source": "OpenAI News",
+          "date": "Nov 09",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 4.572,
+          "coverage": 1
+        },
+        {
+          "title": "ChatGPT Enterprise now available in AWS Marketplace",
+          "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+          "excerpt": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+          "source": "OpenAI News",
+          "date": "Nov 09",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.981,
+          "coverage": 1
+        },
+        {
+          "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+          "link": "https://openai.com/index/control-room",
+          "excerpt": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+          "source": "OpenAI News",
+          "date": "Nov 09",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.747,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Kuken Industries searches 70 years of drawings in minutes",
+          "link": "https://openai.com/index/kuken",
+          "excerpt": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+          "source": "OpenAI News",
+          "date": "Nov 09",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.623,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Leadership",
+      "cards": [
+        {
+          "title": "The Walled Garden Escape",
+          "link": "https://randsinrepose.com/archives/the-walled-garden-escape/",
+          "excerpt": "In our 102nd episode, Lyle moves his mail, contacts, and calendar off Google and finds madness on the other side of the walled garden — Fastmail, two contact lists, a calendar his wife can’t see, Rands’s robot discovering royalties he was never paid, and why none of these services play nicely…",
+          "source": "Rands in Repose",
+          "date": "Nov 10",
+          "image": "https://randsinrepose.com/wp-content/uploads/2026/11/walled-garden-escape-800.png",
+          "icon": null,
+          "domain": "randsinrepose.com",
+          "hn": null,
+          "score": 1.12,
+          "coverage": 1
+        },
+        {
+          "title": "Beyond agency boundaries: Building a statewide approach to customer experience",
+          "link": "https://www.mckinsey.com/industries/public-sector/our-insights/beyond-agency-boundaries-building-a-statewide-approach-to-customer-experience",
+          "excerpt": "As expectations for government evolve, three opportunities can help US states strengthen customer experience and service delivery to better meet residents’ needs.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 09",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.394,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Secrets & NHI",
+      "cards": [
+        {
+          "title": "Aembit Now Secures Google Antigravity Agents",
+          "link": "https://aembit.io/blog/aembit-now-secures-google-antigravity-agents/",
+          "excerpt": "3 min readAntigravity, if the name is new to you, is Google’s agentic development platform. If you’ve been using Gemini CLI, you’ll recognize familiar features in Antigravity CLI, its newer terminal tool. Another Google product name to remember. We’re used to it by now. The Access Gap Between…",
+          "source": "Aembit",
+          "date": "Nov 09",
+          "image": "https://aembit.io/wp-content/uploads/2026/11/image1-4-1024x696.png",
+          "icon": null,
+          "domain": "aembit.io",
+          "hn": null,
+          "score": 3.443,
+          "coverage": 1
+        },
+        {
+          "title": "The secret retreat being built for the ultra-rich in the Arctic wilderness",
+          "link": "https://www.cnn.com/travel/octola-three-arctic-finland-secret-retreat",
+          "excerpt": "It doesn’t appear on maps — or booking sites — but this “private wilderness” in Finland has a magic ingredient that the uber-wealthy will pay big money for.",
+          "source": "cnn.com via Hacker News",
+          "date": "Nov 09",
+          "image": "https://media.cnn.com/api/v1/images/stellar/prod/luxuryactionauroraradarstation8.jpg?c=16x9&q=w_800,c_fill",
+          "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png",
+          "domain": "cnn.com",
+          "hn": "29 points · 2 comments",
+          "score": 2.802,
+          "coverage": 1
+        },
+        {
+          "title": "EU to blacklist ten manipulative online design 'traps', leaked draft shows",
+          "link": "https://www.euronews.com/2026/11/09/eu-to-blacklist-ten-manipulative-online-design-traps-leaked-draft-shows",
+          "excerpt": "From fake notifications to free trials that quietly turn into paid subscriptions, the Commission’s long-awaited Digital Fairness Act would name and ban the traps that keep users clicking, spending and subscribed.",
+          "source": "euronews.com via Hacker News",
+          "date": "Nov 09",
+          "image": "https://images.euronews.com/articles/stories/09/98/57/87/1200x675_cmsv2_fcb95d20-5f38-5a6e-917e-be39a88aecb9-9985787.jpg",
+          "icon": "https://www.euronews.com/apple-touch-icon.png",
+          "domain": "euronews.com",
+          "hn": "17 points · 1 comments",
+          "score": 5.479,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "More than 400k Russians killed fighting in Ukraine war, leaked data suggests",
+          "link": "https://www.theguardian.com/world/2026/nov/09/russians-killed-ukraine-war-leaked-data",
+          "excerpt": "Death records reveal losses since full-scale invasion that are unprecedented in Russia’s modern history",
+          "source": "theguardian.com via Hacker News",
+          "date": "Nov 09",
+          "image": "https://i.guim.co.uk/img/media/24647b12c6b5f7d2477ff2402684e3352901f5e9/0_0_4997_4000/master/4997.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=90e65de0ae233dafbe2ef0aeb8b5dd4f",
+          "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg",
+          "domain": "theguardian.com",
+          "hn": "50 points · 7 comments",
+          "score": 5.719,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+          "link": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+          "excerpt": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today. The attacker used credentials for an AWS account that Qubole's platform uses to reach those customers. How the…",
+          "source": "The Hacker News",
+          "date": "Nov 09",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjj3p_1P-Ko_l_HuUr2Doq9kJOQa3Y5dCrkiVWqjJXzvQfYgKvgJXyvdBqLH2hp7s_ZY2kk-hhaCQhjf_v9SdjSbNpaDV2Eohk6-NEFUZp_ROjMJf_Q1xUSKcrqNj-Dd5ZrfjV6uP1blo579IaZ6hgHxOFAUhyJVgdGop-KVIWCjWQIYOKku3iN1N1EIUk/s1600/aws-hacked.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 3.111,
+          "coverage": 1
+        },
+        {
+          "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
+          "link": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
+          "excerpt": "Attackers used the Ethersphere project's own release automation to publish malicious versions of two of its tools for the Swarm decentralized storage network: bee-js 13.3.0 and Swarm Desktop 0.56.2. Both releases download and run code built to steal the wallet key that Swarm Desktop keeps for its…",
+          "source": "The Hacker News",
+          "date": "Nov 09",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4ZFiesBwDTk8fRRfKfNIw0lLkhqF6ZAExRxuuRtfRCWrxs6Rg7M5UdSIcJqH2zstViFreL30JMmdebYTlMOKvg4D6GvaS70XPdembzyIZoX2KBj_S3kxKWmBjJll4exWUYXrap9IDW_ugXHOux5jZXk44_v5xac1mxFouywezDcsGeMdLrGd1sJStMoo/s1600/bees.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.439,
+          "coverage": 1
+        },
+        {
+          "title": "Revolve Puts Data Breach Victim Count at 1.5 Million",
+          "link": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
+          "excerpt": "Online fashion retailer Revolve has told regulators that the September cyberattack affected more than 1.5 million individuals. The post Revolve Puts Data Breach Victim Count at 1.5 Million appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 09",
+          "image": "https://www.securityweek.com/wp-content/uploads/2025/07/data-breach-healthcare-medical.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 2.628,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Plex2Shell Exploited Against QNAP NAS Users",
+          "link": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/",
+          "excerpt": "Threat actors are exploiting the four-flaw chain to hack the Plex Media Server application on QNAP NAS devices. The post Plex2Shell Exploited Against QNAP NAS Users appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 09",
+          "image": "https://www.securityweek.com/wp-content/uploads/2024/12/QNAP.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.362,
+          "coverage": 1
+        },
+        {
+          "title": "Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers",
+          "link": "https://www.securityweek.com/iris-plaza-breach-may-have-exposed-data-of-7-7-million-customers/",
+          "excerpt": "Hackers compromised an external cloud service used by the shopping platform and may have stolen personal information from it. The post Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 09",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/Iris-Plaza.webp",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 2.479,
+          "coverage": 1
+        },
+        {
+          "title": "Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web",
+          "link": "https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/",
+          "excerpt": "Italian Foreign Minister Antonio Tajani said Saturday that his personal data had been disseminated on the dark web. The post Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 09",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/09/data-leak.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.35,
+          "coverage": 1
+        },
+        {
+          "title": "Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH",
+          "link": "https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/",
+          "excerpt": "The initial exploitation attempts are attributed to botnets and crypto miners, but other threat actors are expected to follow suit. The post Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 09",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/SSH.webp",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.348,
+          "coverage": 1
+        },
+        {
+          "title": "Amplifon Americas Data Breach Impacts 1.3 Million",
+          "link": "https://www.securityweek.com/amplifon-americas-data-breach-impacts-1-3-million/",
+          "excerpt": "Hackers stole personal, health, and insurance information, including Social Security numbers, from the company’s internal systems. The post Amplifon Americas Data Breach Impacts 1.3 Million appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 09",
+          "image": "https://www.securityweek.com/wp-content/uploads/2025/10/bank-finance-lender-credit-union-hack.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 2.354,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "The open AI-native stack on Kubernetes: From open models to distributed inference and agents",
+          "link": "https://cloud.google.com/blog/topics/developers-practitioners/the-open-ai-native-stack-on-kubernetes-from-open-models-to-distributed-inference-and-agents/",
+          "excerpt": "Over the past decade, Kubernetes established itself as the standard for orchestrating microservices and containerized applications. Today, we're witnessing the next major architectural shift in distributed computing: AI workloads moving from isolated research prototypes into large-scale,…",
+          "source": "Cloud Blog",
+          "date": "Nov 10",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/kubena26-hero.max-600x600.jpg",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 6.182,
+          "coverage": 1
+        },
+        {
+          "title": "Transforming fleet analytics for Novus Hi-Tech through agentic AI",
+          "link": "https://aws.amazon.com/blogs/architecture/transforming-fleet-analytics-for-novus-hi-tech-through-agentic-ai/",
+          "excerpt": "Learn how Novus Hi-Tech, with the AWS Prototyping and AI Customer Engineering (PACE) team, built FleetGPT, an agentic AI solution on Amazon Bedrock that turns fleet IoT data into real-time safety interventions through natural language querying, automated investigation, and AI-powered driver voice…",
+          "source": "AWS Architecture Blog",
+          "date": "Nov 09",
+          "image": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/10/14/ARCHBLOG-1388-1-1.png",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 3.925,
+          "coverage": 1
+        },
+        {
+          "title": "Help defend against memory poisoning in Amazon Bedrock AgentCore with multi-layer write validation",
+          "link": "https://aws.amazon.com/blogs/security/help-defend-against-memory-poisoning-in-amazon-bedrock-agentcore-with-multi-layer-write-validation/",
+          "excerpt": "Amazon Bedrock AgentCore Memory helps AI agents maintain context across sessions through persistent short-term and long-term memory. Because memory content is automatically retrieved and injected into future conversations, the integrity of what gets written to memory directly shapes future agent…",
+          "source": "AWS Security Blog",
+          "date": "Nov 09",
+          "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/10/29/figure1-memorypoisoning.png",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 3.341,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Run cost-effective, always-on agents to monitor your environment: the engineering behind Watchers",
+          "link": "https://grafana.com/blog/run-cost-effective-always-on-agents-to-monitor-your-environment-the-engineering-behind-watchers/",
+          "excerpt": "Alert rules are great for the failures you can predict, but they fall short on the ones you can't. With the advent of modern AI, you might think the solution is to swarm your stack with agents that monitor every last detail, but that can quickly lead to astronomical bills.And those are the gaps…",
+          "source": "Grafana Labs blog on Grafana Labs",
+          "date": "Nov 09",
+          "image": "https://a-us.storyblok.com/f/1022730/1200x630/4e3dcaa8df/watchers-meta.jpeg/m/1200x630/filters:quality(80)/",
+          "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
+          "domain": "grafana.com",
+          "hn": null,
+          "score": 2.084,
+          "coverage": 1
+        },
+        {
+          "title": "AWS Weekly Roundup: AgentCore Runtime V2, Amazon DynamoDB bulk put items, and more (November 9, 2026)",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-agentcore-runtime-v2-amazon-dynamodb-bulk-put-items-and-more-november-9-2026/",
+          "excerpt": "Most of the cost of adopting something new isn’t the new thing, it’s the move. Moving a Hive table to Apache Iceberg has typically meant weeks of engineering work. Last week, Amazon S3 Tables turned that into three steps: start, sync as often as you need, complete. The source stays writable except…",
+          "source": "AWS News Blog",
+          "date": "Nov 09",
+          "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png",
+          "icon": "https://a0.awsstatic.com/main/images/site/touch-icon-iphone-114-smile.png",
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 0.446,
+          "coverage": 1
+        },
+        {
+          "title": "Simplify cross-partition access with AWS IAM outbound identity federation",
+          "link": "https://aws.amazon.com/blogs/security/simplify-cross-partition-access-with-aws-iam-outbound-identity-federation/",
+          "excerpt": "You can now use tokens from AWS Identity and Access Management (IAM) outbound federation to assume roles in other Amazon Web Services (AWS) partitions. When your workloads run across AWS partitions such as Commercial, China, GovCloud (US), and European Sovereign Cloud, a workload in one partition…",
+          "source": "AWS Security Blog",
+          "date": "Nov 09",
+          "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/03/crosspartitionidentityfederation-Figure-1.png",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 0.512,
+          "coverage": 1
+        },
+        {
+          "title": "From prompt to app: Build with Google Maps in AI Studio",
+          "link": "https://developers.googleblog.com/from-prompt-to-app-build-with-google-maps-in-ai-studio/",
+          "excerpt": "Developers can now build applications powered by Google Maps Platform directly within Google AI Studio by prompting Gemini with real-world geospatial concepts. The integration eliminates traditional configuration hurdles by providing one-click demo keys that generate instantly without requiring…",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/BlogHeader.2e16d0ba.fill-1200x600.png",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null,
+          "score": 0.25,
+          "coverage": 1
+        },
+        {
+          "title": "Announcing Long-Context Training on TPUs with MaxText Context Parallelism",
+          "link": "https://developers.googleblog.com/announcing-long-context-training-on-tpus-with-maxtext-context-parallelism/",
+          "excerpt": "Google Cloud's MaxText framework now supports long-context training up to 14 million tokens on Cloud TPUs by implementing four context-parallel strategies: All-gather, A2A, P2P, and USP. Powered by the Tokamax Splash Attention kernel, these strategies effectively manage attention compute and…",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_1v7191v719.2e16d0ba.fill-1200x600_dXFZafA.jpg",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null,
+          "score": 0.25,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "AI Agents Are Testing the Limits of Zero-Trust Security",
+          "link": "https://spectrum.ieee.org/zero-trust-agentic-ai-architecture",
+          "excerpt": "This article is brought to you by Queen’s University Belfast.Several teams around the globe are leveraging AI by creating a task force of agents managed by an orchestrator and creating applications to support risk assessment, client profiling, match making, and information yield with a slight…",
+          "source": "IEEE Spectrum",
+          "date": "Nov 09",
+          "image": "https://spectrum.ieee.org/media-library/collage-of-indoor-drone-flight-phone-controls-and-operator-at-computer-workstation.jpg?id=68578379&width=980",
+          "icon": null,
+          "domain": "spectrum.ieee.org",
+          "hn": null,
+          "score": 3.101,
+          "coverage": 1
+        },
+        {
+          "title": "Claude Code is accidentally exposing secrets all over GitHub",
+          "link": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
+          "excerpt": "\"Do not ask again\" prompt leads to passwords, API keys, and more being shared.",
+          "source": "Ars Technica - All content",
+          "date": "Nov 09",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/claude-github-leaks-500x500.jpg",
+          "icon": null,
+          "domain": "arstechnica.com",
+          "hn": null,
+          "score": 2.301,
+          "coverage": 1
+        },
+        {
+          "title": "Testing Claude on real-world electronics design",
+          "link": "https://www.anthropic.com/research/claude-electronics-design",
+          "excerpt": "We asked Claude Fable 5.2 to design three electronic devices from short prompts: a speakerphone, a voice-assistant hub, and a handheld virtual pet. Diode Computers built working prototypes from its files.",
+          "source": "Anthropic Research",
+          "date": "Nov 09",
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b953cc611ebe78f0b84e996dd54a614efd38b3f4-2000x1125.jpg",
+          "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+          "domain": "anthropic.com",
+          "hn": null,
+          "score": 0.236,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Horible public key tricks",
+          "link": "https://maurycyz.com/projects/badcert/",
+          "excerpt": "28 points · 11 comments",
+          "source": "maurycyz.com via Hacker News",
+          "date": "Nov 10",
+          "image": null,
+          "icon": "https://maurycyz.com/favicon.svg",
+          "domain": "maurycyz.com",
+          "hn": "28 points · 11 comments",
+          "score": 2.541,
+          "coverage": 1
+        },
+        {
+          "title": "Fable 5.2 one-shotted my nephew's dream game",
+          "link": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game",
+          "excerpt": "LLMs can make complete multi-level games that are fun.",
+          "source": "notesbylex.com via Hacker News",
+          "date": "Nov 09",
+          "image": "https://notesbylex.com/_media/aidens-revenge/title.jpg",
+          "icon": "https://notesbylex.com/favicon.ico",
+          "domain": "notesbylex.com",
+          "hn": "140 points · 104 comments",
+          "score": 3.34,
+          "coverage": 1
+        },
+        {
+          "title": "Exact – a new cross platform UI framework by the Expo team",
+          "link": "https://github.com/expo/exact",
+          "excerpt": "Contribute to expo/exact development by creating an account on GitHub.",
+          "source": "github.com via Hacker News",
+          "date": "Nov 09",
+          "image": "https://opengraph.githubassets.com/8cc7c74c8232cf809ead4a927c7e9f748afcc5a458eadcb3512abac3ac9e1420/expo/exact",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "40 points · 23 comments",
+          "score": 2.599,
+          "coverage": 1
+        },
+        {
+          "title": "TPU 8tx and TPU 8i Max",
+          "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+          "excerpt": "We’ve expanded our eighth generation TPU portfolio with TPU 8tx and TPU 8i Max, marking four new TPU systems in a single year.",
+          "source": "blog.google via Hacker News",
+          "date": "Nov 09",
+          "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/TPU-8tx_and_8i-Max.width-1300.png",
+          "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131",
+          "domain": "blog.google",
+          "hn": "206 points · 51 comments",
+          "score": 3.12,
+          "coverage": 1
+        }
+      ]
+    }
+  ]
+}
