@@ -1,31 +1,21 @@
 {
   "date": "2026-11-10",
   "lead": {
-    "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
-    "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-    "excerpt": "Our most capable models for daunting technical work, Claude Fable 5.2 and Claude Mythos 5.2 set a new bar in coding, finance, and the sciences.",
-    "source": "Anthropic",
+    "title": "Locating the source of a mysterious beep with Claude",
+    "link": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+    "excerpt": "Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping. The beeps were far enough apart that standing in the room and trying to determine the source of the noise was frustrating, and I…",
+    "source": "Simon Willison",
     "date": "Nov 09",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_B.jpg?quality=90&strip=all&crop=0,0,100,100",
-    "image_credit": "The Verge",
-    "section": "News & Research",
+    "image": "https://static.simonwillison.net/static/2026/beep-locator-ui.webp",
+    "image_credit": null,
+    "section": "AI-Assisted Engineering",
     "pinned": false,
     "note": null,
     "labels": [
-      "3 sources",
-      "News & Research",
-      "2h ago"
+      "AI-Assisted Engineering",
+      "4h ago"
     ],
-    "also": [
-      {
-        "name": "simonwillison.net",
-        "link": "https://simonwillison.net/2026/Nov/9/llm-anthropic/"
-      },
-      {
-        "name": "theverge.com",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2"
-      }
-    ]
+    "also": []
   },
   "pulse": [
     {
@@ -35,7 +25,7 @@
       "link_domain": "terminal2shell.com",
       "source": "Lobsters",
       "domain": "terminal2shell.com",
-      "meta": "Lobsters · 79 points · 22 comments · 10h ago",
+      "meta": "Lobsters · 82 points · 23 comments · 12h ago",
       "also": [],
       "image": "https://terminal2shell.com/og.png",
       "icon": "https://terminal2shell.com/apple-touch-icon.png"
@@ -47,7 +37,7 @@
       "link_domain": "shubs.io",
       "source": "Lobsters",
       "domain": "shubs.io",
-      "meta": "Lobsters · 79 points · 25 comments · 21h ago",
+      "meta": "Lobsters · 79 points · 26 comments · 23h ago",
       "also": [],
       "image": null,
       "icon": "https://shubs.io/content/images/size/w256h256/2025/01/android-chrome-512x512.png"
@@ -59,7 +49,7 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 425 points · 104 comments · 7h ago",
+      "meta": "Hacker News · 472 points · 113 comments · 9h ago",
       "also": [],
       "image": "https://opengraph.githubassets.com/df2c6748e762ec7e9a87bb17fb2ec8d9c0f667e9b1f18f7200fff642e51cfeee/thisisme6598/gemini_files",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
@@ -71,19 +61,19 @@
       "link_domain": "news.ycombinator.com",
       "source": "Hacker News",
       "domain": "news.ycombinator.com",
-      "meta": "Hacker News · 301 points · 183 comments · 8h ago",
+      "meta": "Hacker News · 309 points · 187 comments · 10h ago",
       "also": [],
       "image": null,
       "icon": null
     },
     {
-      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
       "thread": "https://news.ycombinator.com/item?id=50431144",
       "link": "https://artificialanalysis.ai/models/claude-fable-5-2",
       "link_domain": "artificialanalysis.ai",
       "source": "Hacker News",
       "domain": "artificialanalysis.ai",
-      "meta": "Hacker News · 291 points · 207 comments · 6h ago",
+      "meta": "Hacker News · 306 points · 229 comments · 8h ago",
       "also": [],
       "image": "https://artificialanalysis.ai/en/models/claude-fable-5-2/opengraph-image?65781a17af1a7936",
       "icon": "https://artificialanalysis.ai/favicon.ico"
@@ -95,7 +85,7 @@
       "link_domain": "tisiphone.net",
       "source": "Lobsters",
       "domain": "tisiphone.net",
-      "meta": "Lobsters · 36 points · 18 comments · 13h ago",
+      "meta": "Lobsters · 38 points · 22 comments · 15h ago",
       "also": [],
       "image": "https://i0.wp.com/tisiphone.net/wp-content/uploads/2026/11/pexels-photo-17546504.jpeg?fit=818%2C1200&ssl=1",
       "icon": "https://tisiphone.net/wp-content/uploads/2016/09/cropped-cropped-header12-1.png?w=180"
@@ -107,22 +97,10 @@
       "link_domain": "",
       "source": "Hacker News",
       "domain": "Hacker News",
-      "meta": "Hacker News · 206 points · 71 comments · 17h ago",
+      "meta": "Hacker News · 206 points · 72 comments · 19h ago",
       "also": [],
       "image": null,
       "icon": null
-    },
-    {
-      "title": "Apple capped engineers at a $200 daily AI budget",
-      "thread": "https://news.ycombinator.com/item?id=50421426",
-      "link": "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget",
-      "link_domain": "stork.ai",
-      "source": "Hacker News",
-      "domain": "stork.ai",
-      "meta": "Hacker News · 112 points · 121 comments · 20h ago",
-      "also": [],
-      "image": "https://expert-egret-407.convex.cloud/api/storage/302186b8-d1df-4ba5-b340-4c55f62f94dc",
-      "icon": "https://www.stork.ai/apple-touch-icon.png"
     },
     {
       "title": "A year after the 100% AI mandate nobody understands our code",
@@ -131,10 +109,22 @@
       "link_domain": "reddit.com",
       "source": "Hacker News",
       "domain": "reddit.com",
-      "meta": "Hacker News · 110 points · 130 comments · 3h ago",
+      "meta": "Hacker News · 116 points · 141 comments · 5h ago",
       "also": [],
       "image": null,
       "icon": "https://www.reddit.com/favicon.ico"
+    },
+    {
+      "title": "Apple capped engineers at a $200 daily AI budget",
+      "thread": "https://news.ycombinator.com/item?id=50421426",
+      "link": "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget",
+      "link_domain": "stork.ai",
+      "source": "Hacker News",
+      "domain": "stork.ai",
+      "meta": "Hacker News · 113 points · 121 comments · 22h ago",
+      "also": [],
+      "image": "https://expert-egret-407.convex.cloud/api/storage/302186b8-d1df-4ba5-b340-4c55f62f94dc",
+      "icon": "https://www.stork.ai/apple-touch-icon.png"
     }
   ],
   "sections": [
@@ -151,20 +141,7 @@
           "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
           "domain": "s46486.pcdn.co",
           "hn": null,
-          "score": 5.464,
-          "coverage": 1
-        },
-        {
-          "title": "Locating the source of a mysterious beep with Claude",
-          "link": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
-          "excerpt": "Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping. The beeps were far enough apart that standing in the room and trying to determine the source of the noise was frustrating, and I…",
-          "source": "Simon Willison",
-          "date": "Nov 09",
-          "image": "https://static.simonwillison.net/static/2026/beep-locator-ui.webp",
-          "icon": null,
-          "domain": "simonwillison.net",
-          "hn": null,
-          "score": 7.847,
+          "score": 4.816,
           "coverage": 1
         },
         {
@@ -177,7 +154,20 @@
           "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
           "domain": "snorkel.ai",
           "hn": null,
-          "score": 0.123,
+          "score": 0.121,
+          "coverage": 1
+        },
+        {
+          "title": "Exploring the world's languages with Language Explorer",
+          "link": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer/",
+          "excerpt": "Natural Language Processing",
+          "source": "Google Research",
+          "date": "Nov 09",
+          "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/LanguageExplorer-hero.png",
+          "icon": null,
+          "domain": "research.google",
+          "hn": null,
+          "score": 0.734,
           "coverage": 1
         }
       ],
@@ -192,20 +182,7 @@
           "icon": null,
           "domain": "bair.berkeley.edu",
           "hn": null,
-          "score": 3.782,
-          "coverage": 1
-        },
-        {
-          "title": "Exploring the world's languages with Language Explorer",
-          "link": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer/",
-          "excerpt": "Natural Language Processing",
-          "source": "Google Research",
-          "date": "Nov 09",
-          "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/LanguageExplorer-hero.png",
-          "icon": null,
-          "domain": "research.google",
-          "hn": null,
-          "score": 0.818,
+          "score": 3.538,
           "coverage": 1
         },
         {
@@ -218,7 +195,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 9.558,
+          "score": 8.37,
           "coverage": 3
         },
         {
@@ -231,7 +208,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.626,
+          "score": 0.576,
           "coverage": 1
         },
         {
@@ -244,7 +221,7 @@
           "icon": "https://stackoverflow.blog/apple-touch-icon.png",
           "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 0.834,
+          "score": 0.748,
           "coverage": 1
         }
       ]
@@ -262,7 +239,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 4.572,
+          "score": 4.286,
           "coverage": 1
         },
         {
@@ -275,7 +252,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.981,
+          "score": 0.888,
           "coverage": 1
         },
         {
@@ -288,7 +265,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.747,
+          "score": 0.692,
           "coverage": 1
         }
       ],
@@ -303,7 +280,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.623,
+          "score": 0.584,
           "coverage": 1
         }
       ]
@@ -321,7 +298,7 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 1.12,
+          "score": 0.974,
           "coverage": 1
         },
         {
@@ -334,7 +311,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.394,
+          "score": 0.374,
           "coverage": 1
         }
       ],
@@ -353,51 +330,11 @@
           "icon": null,
           "domain": "aembit.io",
           "hn": null,
-          "score": 3.443,
-          "coverage": 1
-        },
-        {
-          "title": "The secret retreat being built for the ultra-rich in the Arctic wilderness",
-          "link": "https://www.cnn.com/travel/octola-three-arctic-finland-secret-retreat",
-          "excerpt": "It doesn’t appear on maps — or booking sites — but this “private wilderness” in Finland has a magic ingredient that the uber-wealthy will pay big money for.",
-          "source": "cnn.com via Hacker News",
-          "date": "Nov 09",
-          "image": "https://media.cnn.com/api/v1/images/stellar/prod/luxuryactionauroraradarstation8.jpg?c=16x9&q=w_800,c_fill",
-          "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png",
-          "domain": "cnn.com",
-          "hn": "29 points · 2 comments",
-          "score": 2.802,
-          "coverage": 1
-        },
-        {
-          "title": "EU to blacklist ten manipulative online design 'traps', leaked draft shows",
-          "link": "https://www.euronews.com/2026/11/09/eu-to-blacklist-ten-manipulative-online-design-traps-leaked-draft-shows",
-          "excerpt": "From fake notifications to free trials that quietly turn into paid subscriptions, the Commission’s long-awaited Digital Fairness Act would name and ban the traps that keep users clicking, spending and subscribed.",
-          "source": "euronews.com via Hacker News",
-          "date": "Nov 09",
-          "image": "https://images.euronews.com/articles/stories/09/98/57/87/1200x675_cmsv2_fcb95d20-5f38-5a6e-917e-be39a88aecb9-9985787.jpg",
-          "icon": "https://www.euronews.com/apple-touch-icon.png",
-          "domain": "euronews.com",
-          "hn": "17 points · 1 comments",
-          "score": 5.479,
+          "score": 3.088,
           "coverage": 1
         }
       ],
-      "more": [
-        {
-          "title": "More than 400k Russians killed fighting in Ukraine war, leaked data suggests",
-          "link": "https://www.theguardian.com/world/2026/nov/09/russians-killed-ukraine-war-leaked-data",
-          "excerpt": "Death records reveal losses since full-scale invasion that are unprecedented in Russia’s modern history",
-          "source": "theguardian.com via Hacker News",
-          "date": "Nov 09",
-          "image": "https://i.guim.co.uk/img/media/24647b12c6b5f7d2477ff2402684e3352901f5e9/0_0_4997_4000/master/4997.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=90e65de0ae233dafbe2ef0aeb8b5dd4f",
-          "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg",
-          "domain": "theguardian.com",
-          "hn": "50 points · 7 comments",
-          "score": 5.719,
-          "coverage": 1
-        }
-      ]
+      "more": []
     },
     {
       "name": "Security & AppSec",
@@ -412,7 +349,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 3.111,
+          "score": 2.831,
           "coverage": 1
         },
         {
@@ -425,7 +362,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.439,
+          "score": 0.4,
           "coverage": 1
         },
         {
@@ -438,7 +375,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 2.628,
+          "score": 2.426,
           "coverage": 1
         }
       ],
@@ -453,7 +390,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.362,
+          "score": 0.335,
           "coverage": 1
         },
         {
@@ -466,7 +403,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 2.479,
+          "score": 2.298,
           "coverage": 1
         },
         {
@@ -479,7 +416,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.35,
+          "score": 0.324,
           "coverage": 1
         },
         {
@@ -492,7 +429,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.348,
+          "score": 0.323,
           "coverage": 1
         },
         {
@@ -505,7 +442,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 2.354,
+          "score": 2.19,
           "coverage": 1
         }
       ]
@@ -523,7 +460,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 6.182,
+          "score": 5.361,
           "coverage": 1
         },
         {
@@ -536,7 +473,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 3.925,
+          "score": 3.522,
           "coverage": 1
         },
         {
@@ -549,7 +486,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 3.341,
+          "score": 3.022,
           "coverage": 1
         }
       ],
@@ -564,7 +501,7 @@
           "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
           "domain": "grafana.com",
           "hn": null,
-          "score": 2.084,
+          "score": 1.907,
           "coverage": 1
         },
         {
@@ -577,7 +514,7 @@
           "icon": "https://a0.awsstatic.com/main/images/site/touch-icon-iphone-114-smile.png",
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.446,
+          "score": 0.406,
           "coverage": 1
         },
         {
@@ -590,7 +527,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.512,
+          "score": 0.469,
           "coverage": 1
         },
         {
@@ -634,7 +571,7 @@
           "icon": null,
           "domain": "spectrum.ieee.org",
           "hn": null,
-          "score": 3.101,
+          "score": 2.839,
           "coverage": 1
         },
         {
@@ -647,7 +584,7 @@
           "icon": null,
           "domain": "arstechnica.com",
           "hn": null,
-          "score": 2.301,
+          "score": 2.098,
           "coverage": 1
         },
         {
@@ -660,22 +597,48 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 0.236,
+          "score": 0.224,
           "coverage": 1
         }
       ],
       "more": [
         {
+          "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+          "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "excerpt": "Our most capable models for daunting technical work, Claude Fable 5.2 and Claude Mythos 5.2 set a new bar in coding, finance, and the sciences.",
+          "source": "Anthropic",
+          "date": "Nov 09",
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b2dab182c77b4ccfd36423470106915b20f676ae-1200x630.jpg",
+          "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+          "domain": "anthropic.com",
+          "hn": null,
+          "score": 8.37,
+          "coverage": 3
+        },
+        {
+          "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
+          "link": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+          "excerpt": "Coreweave's steep yields reflect stress in the AI debt markets as investors worry about a data center slowdown. What comes next.",
+          "source": "cnbc.com via Hacker News",
+          "date": "Nov 10",
+          "image": "https://image.cnbcfm.com/api/v1/image/108410034-1792003128025-gettyimages-2245498775-raa-coreweav251110_npfn0.jpeg?v=1792003201&w=1920&h=1080",
+          "icon": "https://fm.cnbc.com/applications/cnbc.com/resources/img/CNBC_LOGO_FAVICON_1C_KO_RGB.ico",
+          "domain": "cnbc.com",
+          "hn": "23 points · 0 comments",
+          "score": 2.463,
+          "coverage": 1
+        },
+        {
           "title": "Horible public key tricks",
           "link": "https://maurycyz.com/projects/badcert/",
-          "excerpt": "28 points · 11 comments",
+          "excerpt": "54 points · 23 comments",
           "source": "maurycyz.com via Hacker News",
           "date": "Nov 10",
           "image": null,
           "icon": "https://maurycyz.com/favicon.svg",
           "domain": "maurycyz.com",
-          "hn": "28 points · 11 comments",
-          "score": 2.541,
+          "hn": "54 points · 23 comments",
+          "score": 2.556,
           "coverage": 1
         },
         {
@@ -687,12 +650,12 @@
           "image": "https://notesbylex.com/_media/aidens-revenge/title.jpg",
           "icon": "https://notesbylex.com/favicon.ico",
           "domain": "notesbylex.com",
-          "hn": "140 points · 104 comments",
-          "score": 3.34,
+          "hn": "237 points · 159 comments",
+          "score": 3.172,
           "coverage": 1
         },
         {
-          "title": "Exact – a new cross platform UI framework by the Expo team",
+          "title": "Exact – a new cross platform UI framework",
           "link": "https://github.com/expo/exact",
           "excerpt": "Contribute to expo/exact development by creating an account on GitHub.",
           "source": "github.com via Hacker News",
@@ -700,21 +663,8 @@
           "image": "https://opengraph.githubassets.com/8cc7c74c8232cf809ead4a927c7e9f748afcc5a458eadcb3512abac3ac9e1420/expo/exact",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "40 points · 23 comments",
-          "score": 2.599,
-          "coverage": 1
-        },
-        {
-          "title": "TPU 8tx and TPU 8i Max",
-          "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
-          "excerpt": "We’ve expanded our eighth generation TPU portfolio with TPU 8tx and TPU 8i Max, marking four new TPU systems in a single year.",
-          "source": "blog.google via Hacker News",
-          "date": "Nov 09",
-          "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/TPU-8tx_and_8i-Max.width-1300.png",
-          "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131",
-          "domain": "blog.google",
-          "hn": "206 points · 51 comments",
-          "score": 3.12,
+          "hn": "76 points · 35 comments",
+          "score": 2.555,
           "coverage": 1
         }
       ]
