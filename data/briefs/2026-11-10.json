@@ -1,45 +1,23 @@
 {
   "date": "2026-11-10",
   "lead": {
-    "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
-    "link": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
-    "excerpt": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]",
-    "source": "BleepingComputer",
+    "title": "Software correctness & supply chain security, with Sean Allen",
+    "link": "https://newsletter.pragmaticengineer.com/p/software-correctness",
+    "excerpt": "A deep conversation on the biggest challenges of developing with AI – while trying not to mention the phrase “AI” once. Why? To dig up the fundamentals that are as important as ever",
+    "source": "The Pragmatic Engineer",
     "date": "Nov 10",
-    "image": "https://www.bleepstatic.com/content/hl-images/2026/11/10/Chrome.jpg",
+    "image": "https://substackcdn.com/image/youtube/w_728,c_limit/OrXKvOjR-vI",
     "image_credit": null,
-    "section": "Security & AppSec",
+    "section": "AI-Assisted Engineering",
     "pinned": false,
     "note": null,
     "labels": [
-      "3 sources",
-      "Security & AppSec",
-      "4h ago"
+      "AI-Assisted Engineering",
+      "under 1h ago"
     ],
-    "also": [
-      {
-        "name": "thehackernews.com",
-        "link": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"
-      },
-      {
-        "name": "securityweek.com",
-        "link": "https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/"
-      }
-    ]
+    "also": []
   },
   "pulse": [
-    {
-      "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
-      "thread": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-      "link": "https://terminal2shell.com/",
-      "link_domain": "terminal2shell.com",
-      "source": "Lobsters",
-      "domain": "terminal2shell.com",
-      "meta": "Lobsters · 123 points · 28 comments · 21h ago",
-      "also": [],
-      "image": "https://terminal2shell.com/og.png",
-      "icon": "https://terminal2shell.com/apple-touch-icon.png"
-    },
     {
       "title": "Google Gemini routes personal Drive files and emails to human annotators",
       "thread": "https://news.ycombinator.com/item?id=50429426",
@@ -47,7 +25,7 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 649 points · 139 comments · 18h ago",
+      "meta": "Hacker News · 684 points · 143 comments · 21h ago",
       "also": [],
       "image": "https://opengraph.githubassets.com/df2c6748e762ec7e9a87bb17fb2ec8d9c0f667e9b1f18f7200fff642e51cfeee/thisisme6598/gemini_files",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
@@ -59,7 +37,7 @@
       "link_domain": "artificialanalysis.ai",
       "source": "Hacker News",
       "domain": "artificialanalysis.ai",
-      "meta": "Hacker News · 355 points · 255 comments · 16h ago",
+      "meta": "Hacker News · 359 points · 261 comments · 19h ago",
       "also": [],
       "image": "https://artificialanalysis.ai/en/models/claude-fable-5-2/opengraph-image?65781a17af1a7936",
       "icon": "https://artificialanalysis.ai/favicon.ico"
@@ -71,7 +49,7 @@
       "link_domain": "news.ycombinator.com",
       "source": "Hacker News",
       "domain": "news.ycombinator.com",
-      "meta": "Hacker News · 330 points · 196 comments · 19h ago",
+      "meta": "Hacker News · 337 points · 200 comments · 22h ago",
       "also": [],
       "image": null,
       "icon": null
@@ -83,7 +61,7 @@
       "link_domain": "cnbc.com",
       "source": "Hacker News",
       "domain": "cnbc.com",
-      "meta": "Hacker News · 175 points · 153 comments · 9h ago",
+      "meta": "Hacker News · 183 points · 171 comments · 12h ago",
       "also": [],
       "image": "https://image.cnbcfm.com/api/v1/image/108410034-1792003128025-gettyimages-2245498775-raa-coreweav251110_npfn0.jpeg?v=1792003201&w=1920&h=1080",
       "icon": "https://fm.cnbc.com/applications/cnbc.com/resources/img/CNBC_LOGO_FAVICON_1C_KO_RGB.ico"
@@ -95,7 +73,7 @@
       "link_domain": "reddit.com",
       "source": "Hacker News",
       "domain": "reddit.com",
-      "meta": "Hacker News · 133 points · 168 comments · 14h ago",
+      "meta": "Hacker News · 140 points · 178 comments · 17h ago",
       "also": [],
       "image": null,
       "icon": "https://www.reddit.com/favicon.ico"
@@ -107,10 +85,46 @@
       "link_domain": "evanxmerz.com",
       "source": "Hacker News",
       "domain": "evanxmerz.com",
-      "meta": "Hacker News · 104 points · 124 comments · 2h ago",
+      "meta": "Hacker News · 126 points · 158 comments · 5h ago",
       "also": [],
       "image": "https://www.evanxmerz.com/images/ai-codebases-are-a-house-of-cards.jpg",
       "icon": "https://evanxmerz.com/favicon.ico"
+    },
+    {
+      "title": "Fireworks AI security breach impacts Notion and their customers",
+      "thread": "https://news.ycombinator.com/item?id=50437106",
+      "link": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+      "link_domain": "notion.com",
+      "source": "Hacker News",
+      "domain": "notion.com",
+      "meta": "Hacker News · 119 points · 40 comments · 8h ago",
+      "also": [],
+      "image": "https://www.notion.com/front-static/meta/help-center.png",
+      "icon": "https://www.notion.com/front-static/logo-ios.png"
+    },
+    {
+      "title": "Queens Public library under ransomware attack e-borrowing suspended",
+      "thread": "https://news.ycombinator.com/item?id=50437790",
+      "link": "https://connect.queenslibrary.org/",
+      "link_domain": "connect.queenslibrary.org",
+      "source": "Hacker News",
+      "domain": "connect.queenslibrary.org",
+      "meta": "Hacker News · 115 points · 80 comments · 6h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://connect.queenslibrary.org/images/favicon/queens/QPL_favicon_01.png"
+    },
+    {
+      "title": "Show HN: STE80 Humanizer – de-AI text by writing 80% of the way to ASD-STE100",
+      "thread": "https://news.ycombinator.com/item?id=50429144",
+      "link": "https://github.com/Dodaios/ste80-humanizer",
+      "link_domain": "github.com",
+      "source": "Hacker News",
+      "domain": "github.com",
+      "meta": "Hacker News · 100 points · 36 comments · 21h ago",
+      "also": [],
+      "image": "https://opengraph.githubassets.com/287e75d2c2608bb33319f12549fde18eb6320117fa2a640b8547dc56acbb4085/Dodaios/ste80-humanizer",
+      "icon": "https://github.githubassets.com/favicons/favicon.svg"
     }
   ],
   "sections": [
@@ -127,7 +141,7 @@
           "icon": null,
           "domain": "leaddev.com",
           "hn": null,
-          "score": 5.963,
+          "score": 5.185,
           "coverage": 1
         },
         {
@@ -140,7 +154,7 @@
           "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
           "domain": "s46486.pcdn.co",
           "hn": null,
-          "score": 3.159,
+          "score": 2.851,
           "coverage": 1
         },
         {
@@ -153,7 +167,7 @@
           "icon": "https://stackoverflow.blog/apple-touch-icon.png",
           "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 4.988,
+          "score": 4.262,
           "coverage": 1
         }
       ],
@@ -168,7 +182,20 @@
           "icon": null,
           "domain": "bair.berkeley.edu",
           "hn": null,
-          "score": 2.754,
+          "score": 2.576,
+          "coverage": 1
+        },
+        {
+          "title": "Fragments: November 10",
+          "link": "https://martinfowler.com/fragments/2026-11-10.html",
+          "excerpt": "It’s that time of the year when the November Thoughtworks Technology Radar appears. Again my colleagues have taken a sweep of the technologies that our teams have used in the field, and pulled together a summary of what’s popped up in the last six months. It’s been a busy half-year, one that again…",
+          "source": "Martin Fowler",
+          "date": "Nov 10",
+          "image": "https://martinfowler.com/fragments/fragments-thumb.png",
+          "icon": "https://martinfowler.com/favicon.ico",
+          "domain": "martinfowler.com",
+          "hn": null,
+          "score": 5.441,
           "coverage": 1
         },
         {
@@ -181,46 +208,20 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 2.879,
+          "score": 2.592,
           "coverage": 1
         },
         {
-          "title": "Intelligence per Watt: Measuring Local AI Efficiency",
-          "link": "https://snorkel.ai/blog/intelligence-per-watt-reading-group/",
-          "excerpt": "Jon Saad-Falcon and Avanika Narayan (Stanford, Hazy Research) present Intelligence per Watt, a metric that divides task accuracy by power draw to compare local AI models and hardware, and show it improved 5.3x from 2023 to 2025. The post Intelligence per Watt: Measuring Local AI Efficiency…",
-          "source": "Snorkel AI",
-          "date": "Nov 05",
-          "image": "https://s46486.pcdn.co/wp-content/uploads/2026/11/IPW-reading-grouo.png",
-          "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
-          "domain": "snorkel.ai",
-          "hn": null,
-          "score": 0.112,
-          "coverage": 1
-        },
-        {
-          "title": "Exploring the world's languages with Language Explorer",
-          "link": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer/",
-          "excerpt": "Natural Language Processing",
-          "source": "Google Research",
-          "date": "Nov 09",
-          "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/LanguageExplorer-hero.png",
-          "icon": null,
-          "domain": "research.google",
-          "hn": null,
-          "score": 0.506,
-          "coverage": 1
-        },
-        {
-          "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
-          "link": "https://simonwillison.net/2026/Nov/10/muse-ember/",
-          "excerpt": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat all day: tool…",
-          "source": "Simon Willison",
+          "title": "Long-horizon agents and durable execution",
+          "link": "https://martinfowler.com/articles/durable-execution-agents.html",
+          "excerpt": "Long-horizon agents can automate complex tasks that take days or weeks to complete and involve multiple exchanges with people and external systems. Many things can go wrong during this time, including process crashes, network failures, and unanticipated real-world behavior. Kiran Prakash explains…",
+          "source": "Martin Fowler",
           "date": "Nov 10",
-          "image": "https://static.simonwillison.net/static/2026/artificial-analysis-haiku-class.webp",
+          "image": "https://martinfowler.com/articles/durable-execution-agents/card.png",
           "icon": null,
-          "domain": "simonwillison.net",
+          "domain": "martinfowler.com",
           "hn": null,
-          "score": 0.823,
+          "score": 1.061,
           "coverage": 1
         }
       ]
@@ -238,7 +239,7 @@
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
           "hn": "11 points · 3 comments",
-          "score": 5.775,
+          "score": 5.242,
           "coverage": 1
         },
         {
@@ -251,7 +252,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 3.36,
+          "score": 3.147,
           "coverage": 1
         },
         {
@@ -264,7 +265,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.816,
+          "score": 0.709,
           "coverage": 1
         }
       ],
@@ -279,7 +280,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 1.447,
+          "score": 1.192,
           "coverage": 1
         },
         {
@@ -292,7 +293,20 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 1.175,
+          "score": 1.001,
+          "coverage": 1
+        },
+        {
+          "title": "Work at the Frontier: AI’s effect on freelance work",
+          "link": "https://openai.com/index/ai-effect-on-freelance-work",
+          "excerpt": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+          "source": "OpenAI News",
+          "date": "Nov 10",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.904,
           "coverage": 1
         },
         {
@@ -305,7 +319,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.626,
+          "score": 0.573,
           "coverage": 1
         },
         {
@@ -318,20 +332,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.521,
-          "coverage": 1
-        },
-        {
-          "title": "Kuken Industries searches 70 years of drawings in minutes",
-          "link": "https://openai.com/index/kuken",
-          "excerpt": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
-          "source": "OpenAI News",
-          "date": "Nov 09",
-          "image": null,
-          "icon": "https://openai.com/favicon.ico",
-          "domain": "openai.com",
-          "hn": null,
-          "score": 0.458,
+          "score": 0.484,
           "coverage": 1
         }
       ]
@@ -349,7 +350,7 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.618,
+          "score": 0.555,
           "coverage": 1
         },
         {
@@ -362,9 +363,24 @@
           "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
           "domain": "stratechery.com",
           "hn": null,
-          "score": 1.074,
+          "score": 0.896,
           "coverage": 1
         },
+        {
+          "title": "System advantage: The new source of value in chemicals",
+          "link": "https://www.mckinsey.com/industries/chemicals/our-insights/system-advantage-the-new-source-of-value-in-chemicals",
+          "excerpt": "As the favorable conditions that long supported the chemicals industry fade, advantage is being redefined around where companies compete and how they operate, innovate, and deploy their cash.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 10",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.541,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "The new realities of grocery retail in the Americas and Europe",
           "link": "https://www.mckinsey.com/industries/retail/our-insights/the-new-realities-of-grocery-retail-in-the-americas-and-europe",
@@ -375,11 +391,22 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.601,
+          "score": 0.541,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
+        {
+          "title": "Global Banking Annual Review 2026: The AI disruption dividend",
+          "link": "https://www.mckinsey.com/industries/financial-services/our-insights/global-banking-annual-review",
+          "excerpt": "Banking outdid itself—again—earning a record $1.3 trillion in profits in 2025. Now the AI disruption dividend is up for grabs, and it will go to the banks that move with precision and speed. This time, there is no grace period.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 10",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.541,
+          "coverage": 1
+        },
         {
           "title": "Beyond agency boundaries: Building a statewide approach to customer experience",
           "link": "https://www.mckinsey.com/industries/public-sector/our-insights/beyond-agency-boundaries-building-a-statewide-approach-to-customer-experience",
@@ -390,7 +417,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.306,
+          "score": 0.29,
           "coverage": 1
         }
       ]
@@ -408,7 +435,7 @@
           "icon": "https://goteleport.com/blog/static/apple.png",
           "domain": "goteleport.com",
           "hn": null,
-          "score": 2.171,
+          "score": 1.954,
           "coverage": 1
         },
         {
@@ -421,7 +448,7 @@
           "icon": "https://goteleport.com/blog/static/apple.png",
           "domain": "goteleport.com",
           "hn": null,
-          "score": 1.923,
+          "score": 1.731,
           "coverage": 1
         },
         {
@@ -434,7 +461,7 @@
           "icon": "https://goteleport.com/blog/static/apple.png",
           "domain": "goteleport.com",
           "hn": null,
-          "score": 0.385,
+          "score": 0.346,
           "coverage": 1
         }
       ],
@@ -453,15 +480,68 @@
           "icon": null,
           "domain": "aembit.io",
           "hn": null,
-          "score": 2.121,
+          "score": 1.932,
+          "coverage": 1
+        },
+        {
+          "title": "The secret retreat being built for the ultra-rich in the Arctic wilderness",
+          "link": "https://www.cnn.com/travel/octola-three-arctic-finland-secret-retreat",
+          "excerpt": "It doesn’t appear on maps — or booking sites — but this “private wilderness” in Finland has a magic ingredient that the uber-wealthy will pay big money for.",
+          "source": "cnn.com via Hacker News",
+          "date": "Nov 09",
+          "image": "https://media.cnn.com/api/v1/images/stellar/prod/luxuryactionauroraradarstation8.jpg?c=16x9&q=w_800,c_fill",
+          "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png",
+          "domain": "cnn.com",
+          "hn": "34 points · 3 comments",
+          "score": 1.737,
+          "coverage": 1
+        },
+        {
+          "title": "EU to blacklist ten manipulative online design 'traps', leaked draft shows",
+          "link": "https://www.euronews.com/2026/11/09/eu-to-blacklist-ten-manipulative-online-design-traps-leaked-draft-shows",
+          "excerpt": "From fake notifications to free trials that quietly turn into paid subscriptions, the Commission’s long-awaited Digital Fairness Act would name and ban the traps that keep users clicking, spending and subscribed.",
+          "source": "euronews.com via Hacker News",
+          "date": "Nov 09",
+          "image": "https://images.euronews.com/articles/stories/09/98/57/87/1200x675_cmsv2_fcb95d20-5f38-5a6e-917e-be39a88aecb9-9985787.jpg",
+          "icon": "https://www.euronews.com/apple-touch-icon.png",
+          "domain": "euronews.com",
+          "hn": "17 points · 1 comments",
+          "score": 3.27,
           "coverage": 1
         }
       ],
-      "more": []
+      "more": [
+        {
+          "title": "More than 400k Russians killed fighting in Ukraine war, leaked data suggests",
+          "link": "https://www.theguardian.com/world/2026/nov/09/russians-killed-ukraine-war-leaked-data",
+          "excerpt": "Death records reveal losses since full-scale invasion that are unprecedented in Russia’s modern history",
+          "source": "theguardian.com via Hacker News",
+          "date": "Nov 09",
+          "image": "https://i.guim.co.uk/img/media/24647b12c6b5f7d2477ff2402684e3352901f5e9/0_0_4997_4000/master/4997.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=90e65de0ae233dafbe2ef0aeb8b5dd4f",
+          "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg",
+          "domain": "theguardian.com",
+          "hn": "56 points · 11 comments",
+          "score": 3.586,
+          "coverage": 1
+        }
+      ]
     },
     {
       "name": "Security & AppSec",
       "cards": [
+        {
+          "title": "Over a Dozen Organizations Hit in Qubole Supply Chain Attack",
+          "link": "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/",
+          "excerpt": "Hackers used compromised Qubole IAM credentials to steal customer files, secrets, keys, environment variables, and credentials. The post Over a Dozen Organizations Hit in Qubole Supply Chain Attack appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 10",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/10/supply-chain-attack.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 4.82,
+          "coverage": 1
+        },
         {
           "title": "Google DeepMind melds humans and AI agents to vet Signal's secure messaging techniques",
           "link": "https://www.theregister.com/ai-and-ml/2026/11/10/google-deepmind-melds-humans-and-ai-agents-to-vet-signals-secure-messaging-techniques/5308625",
@@ -472,9 +552,24 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 5.097,
+          "score": 4.198,
           "coverage": 1
         },
+        {
+          "title": "WhiteMatter Raises $20 Million in Series A Funding",
+          "link": "https://www.securityweek.com/whitematter-raises-20-million-in-series-a-funding/",
+          "excerpt": "The cybersecurity startup deploys a dedicated guardian agent for every AI agent in an organization’s environment. The post WhiteMatter Raises $20 Million in Series A Funding appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 10",
+          "image": "https://www.securityweek.com/wp-content/uploads/2025/01/funding-investment.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 3.98,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
           "link": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
@@ -485,7 +580,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.709,
+          "score": 0.582,
           "coverage": 1
         },
         {
@@ -498,11 +593,9 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.675,
+          "score": 0.559,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
           "link": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
@@ -513,7 +606,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.613,
+          "score": 0.516,
           "coverage": 1
         },
         {
@@ -526,7 +619,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 3.033,
+          "score": 2.555,
           "coverage": 2
         },
         {
@@ -539,33 +632,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.603,
-          "coverage": 1
-        },
-        {
-          "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
-          "link": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html",
-          "excerpt": "An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yesterday. The attackers broke into controllers on the night of October 11 and changed their defrost…",
-          "source": "The Hacker News",
-          "date": "Nov 10",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQkt0P-pw4g1CSZvboG35E5WMLU_vea9rR2DLZ4X0lK5NyipbooRyXkRXcRb7X-ddRbVCygF1OkhW6a3j_8sCsBA_GhHAtOF8dISlx4Q2H74fnLJTm5ZOoEBlsbES0hPZutw60wjcAcMZEZcmx4NCLAM-pqVJCfw9yLhoQV2U_QFRX5h1k0zKPzgioICw/s1600/iran-france.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.569,
-          "coverage": 1
-        },
-        {
-          "title": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
-          "link": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
-          "excerpt": "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the large language models (LLMs) helped its engineers \"complete otherwise-infeasible software migrations, designed three…",
-          "source": "The Hacker News",
-          "date": "Nov 10",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgogipF_6VgFSzsnZ_UFUM5FfzGyk1MOv5SRi3PSivRHjxs6IsO0fmOdDjQsDJHiKcnxJ8T89NMMYiqo_NEEtv0EoQsafjOFuZ-Te6famJBJKegqDnf1b63Hdzkls7IO1JOtSNjb5Hatb4Ny8Zu46mggCXYKvHf3Ne9Qc4ZRfLBmLnZ7omPEHAjDfJRQEKu/s1600/fable.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.539,
+          "score": 0.509,
           "coverage": 1
         }
       ]
@@ -573,6 +640,19 @@
     {
       "name": "Platform, Cloud & Reliability",
       "cards": [
+        {
+          "title": "Introducing Gemini for healthcare",
+          "link": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-healthcare/",
+          "excerpt": "Every healthcare organization is working to deliver great care to more people at a lower cost. However, a general AI model is not enough to solve this challenge. Today, healthcare runs on fragmented data. Patient records, coverage policies, and clinical evidence remain trapped across disconnected…",
+          "source": "Cloud Blog",
+          "date": "Nov 10",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Industry_headers.max-600x600.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 5.674,
+          "coverage": 1
+        },
         {
           "title": "The open AI-native stack on Kubernetes: From open models to distributed inference and agents",
           "link": "https://cloud.google.com/blog/topics/developers-practitioners/the-open-ai-native-stack-on-kubernetes-from-open-models-to-distributed-inference-and-agents/",
@@ -583,7 +663,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 3.38,
+          "score": 3.03,
           "coverage": 1
         },
         {
@@ -596,9 +676,11 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 2.424,
+          "score": 2.208,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Help defend against memory poisoning in Amazon Bedrock AgentCore with multi-layer write validation",
           "link": "https://aws.amazon.com/blogs/security/help-defend-against-memory-poisoning-in-amazon-bedrock-agentcore-with-multi-layer-write-validation/",
@@ -609,11 +691,9 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 2.126,
+          "score": 1.945,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Presentation: Batch Intelligence at Scale: Cost-Efficient Multi-Agent LLM Workflows with Built-In Resilience",
           "link": "https://www.infoq.com/presentations/scaling-multi-agent-llm-batch/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -624,7 +704,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 3.638,
+          "score": 3.035,
           "coverage": 1
         },
         {
@@ -637,20 +717,7 @@
           "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
           "domain": "grafana.com",
           "hn": null,
-          "score": 1.387,
-          "coverage": 1
-        },
-        {
-          "title": "AWS Weekly Roundup: AgentCore Runtime V2, Amazon DynamoDB bulk put items, and more (November 9, 2026)",
-          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-agentcore-runtime-v2-amazon-dynamodb-bulk-put-items-and-more-november-9-2026/",
-          "excerpt": "Most of the cost of adopting something new isn’t the new thing, it’s the move. Moving a Hive table to Apache Iceberg has typically meant weeks of engineering work. Last week, Amazon S3 Tables turned that into three steps: start, sync as often as you need, complete. The source stays writable except…",
-          "source": "AWS News Blog",
-          "date": "Nov 09",
-          "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png",
-          "icon": "https://a0.awsstatic.com/main/images/site/touch-icon-iphone-114-smile.png",
-          "domain": "aws.amazon.com",
-          "hn": null,
-          "score": 0.29,
+          "score": 1.277,
           "coverage": 1
         },
         {
@@ -694,37 +761,63 @@
           "icon": null,
           "domain": "spectrum.ieee.org",
           "hn": null,
-          "score": 2.066,
+          "score": 1.904,
           "coverage": 1
         },
         {
-          "title": "Jensen Huang’s alleged honeypot scandal has inspired some top-notch memes",
-          "link": "https://techcrunch.com/2026/11/09/jensen-huangs-alleged-honeypot-scandal-has-inspired-some-top-notch-memes/",
-          "excerpt": "The internet is having a field day with Nvidia's Jensen Huang's alleged honeypot scandal.",
+          "title": "Adobe is going all in on agentic AI",
+          "link": "https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates",
+          "excerpt": "Adobe is committing itself to the notion that chatbots and AI agents could be your next design assistant, or even automate creative workflows and repetitive tasks on your behalf. Some of the tools and features announced today at Adobe's Max conference in Miami, Florida, include allowing your…",
+          "source": "The Verge",
+          "date": "Nov 10",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/FF-AIA-No-Logo-4.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "icon": null,
+          "domain": "theverge.com",
+          "hn": null,
+          "score": 4.151,
+          "coverage": 1
+        },
+        {
+          "title": "Meta’s AI agent Muse lands on Apple Watch and Android Wear OS",
+          "link": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
+          "excerpt": "Users can now interact with Meta’s AI assistant through voice calls, text messages, or dictation on their Apple Watch.",
           "source": "TechCrunch",
           "date": "Nov 10",
-          "image": "https://techcrunch.com/wp-content/uploads/2026/11/bortonia-getty.jpg?resize=1200,1200",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/11/MuseCharm.png?w=1200",
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 2.592,
-          "coverage": 1
-        },
-        {
-          "title": "Claude Code is accidentally exposing secrets all over GitHub",
-          "link": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
-          "excerpt": "\"Do not ask again\" prompt leads to passwords, API keys, and more being shared.",
-          "source": "Ars Technica - All content",
-          "date": "Nov 09",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/claude-github-leaks-500x500.jpg",
-          "icon": null,
-          "domain": "arstechnica.com",
-          "hn": null,
-          "score": 1.509,
+          "score": 4.317,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
+          "link": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+          "excerpt": "Adobe is taking on Figma with a new prototype builder tool in Firefly.",
+          "source": "TechCrunch",
+          "date": "Nov 10",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/FF-AIA-PlanMode-No-Logo-4.jpg?resize=1200,675",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
+          "hn": null,
+          "score": 3.872,
+          "coverage": 1
+        },
+        {
+          "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
+          "link": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
+          "excerpt": "The new model is up to twice as successful at some tasks.",
+          "source": "Ars Technica - All content",
+          "date": "Nov 10",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Credit_-Apptronik_-Mercedes-Benz-Apollo-2-using-Gemini-Robotics-2.5-to-autonomously-perform-automotive-kitting-at-a-Mercedes-Benz-factory-500x500-1794257853.jpg",
+          "icon": null,
+          "domain": "arstechnica.com",
+          "hn": null,
+          "score": 3.194,
+          "coverage": 1
+        },
         {
           "title": "Testing Claude on real-world electronics design",
           "link": "https://www.anthropic.com/research/claude-electronics-design",
@@ -735,7 +828,7 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 0.184,
+          "score": 0.174,
           "coverage": 1
         },
         {
@@ -748,7 +841,7 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 0.361,
+          "score": 0.325,
           "coverage": 1
         },
         {
@@ -761,33 +854,7 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 5.404,
-          "coverage": 3
-        },
-        {
-          "title": "AlphaProof Code",
-          "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
-          "excerpt": "AlphaProof Code agents wrote over three million lines of machine-checked proof in Lean to verify the core cryptographic protections in Signal down to machine instructions.",
-          "source": "deepmind.google via Hacker News",
-          "date": "Nov 10",
-          "image": "https://lh3.googleusercontent.com/hn6AiI6lYFo6chi1mL6uJ9nOW9UXfsAKnSyOApiie2urHNU2tmSPUmGn0hNfWyYLRcsWCGjCIrBZSCt1ihZmvW-LDJPfyolsr5w-yvzlknZVzmaH=w1200-h630-n-nu-rw",
-          "icon": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/icons/google_deepmind_2x_96dp.png",
-          "domain": "deepmind.google",
-          "hn": "75 points · 26 comments",
-          "score": 3.366,
-          "coverage": 1
-        },
-        {
-          "title": "What Constant Surveillance Is Doing to Children",
-          "link": "https://www.theatlantic.com/magazine/2026/12/location-tracking-apps-parental-surveillance/689031/",
-          "excerpt": "35 points · 22 comments",
-          "source": "theatlantic.com via Hacker News",
-          "date": "Nov 10",
-          "image": null,
-          "icon": "https://www.theatlantic.com/favicon.ico",
-          "domain": "theatlantic.com",
-          "hn": "35 points · 22 comments",
-          "score": 2.716,
+          "score": 0.174,
           "coverage": 1
         }
       ]
