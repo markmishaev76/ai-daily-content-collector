@@ -1,19 +1,19 @@
 {
   "date": "2026-11-11",
   "lead": {
-    "title": "Designing for Agents — Zeno Rocha, Resend",
-    "link": "https://latent.space/p/resend/",
-    "excerpt": "Where does answer engine optimization (AEO) end and agent experience begin? Inside Resend, from the docs that help Claude Code pick an email API to the tools it uses to send.",
+    "title": "AI Engineer Code Summit: OpenAI on New Ways of Working With Codex",
+    "link": "https://latent.space/p/codex-work/",
+    "excerpt": "On the first day of AIE Code Summit, OpenAI showed how developers can steer Codex by voice, hand off work to the cloud, and make use of dots.",
     "source": "Latent Space",
-    "date": "Nov 10",
-    "image": "https://i.ytimg.com/vi/bdIoODXsu8k/maxresdefault.jpg",
+    "date": "Nov 11",
+    "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/27ce2150-3717-4122-ac3a-37dd0e8ce18f/openai-aiecode-feature.png?t=1794370546",
     "image_credit": null,
     "section": "AI Agents & Agent Security",
     "pinned": false,
     "note": null,
     "labels": [
       "AI Agents & Agent Security",
-      "8h ago"
+      "1h ago"
     ],
     "also": []
   },
@@ -25,10 +25,22 @@
       "link_domain": "evanxmerz.com",
       "source": "Hacker News",
       "domain": "evanxmerz.com",
-      "meta": "Hacker News · 424 points · 432 comments · 17h ago",
+      "meta": "Hacker News · 462 points · 454 comments · 19h ago",
       "also": [],
       "image": "https://www.evanxmerz.com/images/ai-codebases-are-a-house-of-cards.jpg",
       "icon": "https://evanxmerz.com/favicon.ico"
+    },
+    {
+      "title": "Tracking Anthropic-discovered vulnerabilities",
+      "thread": "https://news.ycombinator.com/item?id=50447074",
+      "link": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+      "link_domain": "vulncheck.com",
+      "source": "Hacker News",
+      "domain": "vulncheck.com",
+      "meta": "Hacker News · 368 points · 168 comments · 7h ago",
+      "also": [],
+      "image": "https://www.vulncheck.com/_og/s/o_6eba28d38c5a4083.png",
+      "icon": "https://www.vulncheck.com/apple-touch-icon.png"
     },
     {
       "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
@@ -37,7 +49,7 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 300 points · 90 comments · 10h ago",
+      "meta": "Hacker News · 324 points · 100 comments · 12h ago",
       "also": [],
       "image": "https://opengraph.githubassets.com/5e92c316fbf4fb9036896bd28561aa1026e4017cb768ab9dc572b16f6b0d7b04/GoogleChrome/modern-web-guidance",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
@@ -49,7 +61,7 @@
       "link_domain": "blog.google",
       "source": "Hacker News",
       "domain": "blog.google",
-      "meta": "Hacker News · 281 points · 150 comments · 11h ago",
+      "meta": "Hacker News · 282 points · 155 comments · 13h ago",
       "also": [],
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_key_art_16-9_lockup.width-1300.jpg",
       "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131"
@@ -61,7 +73,7 @@
       "link_domain": "connect.queenslibrary.org",
       "source": "Hacker News",
       "domain": "connect.queenslibrary.org",
-      "meta": "Hacker News · 194 points · 107 comments · 19h ago",
+      "meta": "Hacker News · 195 points · 108 comments · 21h ago",
       "also": [],
       "image": null,
       "icon": "https://connect.queenslibrary.org/images/favicon/queens/QPL_favicon_01.png"
@@ -73,7 +85,7 @@
       "link_domain": "claude.com",
       "source": "Hacker News",
       "domain": "claude.com",
-      "meta": "Hacker News · 164 points · 137 comments · 10h ago",
+      "meta": "Hacker News · 167 points · 137 comments · 12h ago",
       "also": [],
       "image": "https://claude.com/resources/articles/sheets-whiteboards-data/opengraph-image/og",
       "icon": "https://claude.com/icon.png"
@@ -85,7 +97,7 @@
       "link_domain": "notion.com",
       "source": "Hacker News",
       "domain": "notion.com",
-      "meta": "Hacker News · 160 points · 61 comments · 20h ago",
+      "meta": "Hacker News · 161 points · 63 comments · 22h ago",
       "also": [],
       "image": "https://www.notion.com/front-static/meta/help-center.png",
       "icon": "https://www.notion.com/front-static/logo-ios.png"
@@ -97,7 +109,7 @@
       "link_domain": "blog.infected.systems",
       "source": "Lobsters",
       "domain": "blog.infected.systems",
-      "meta": "Lobsters · 21 points · 2 comments · 7h ago",
+      "meta": "Lobsters · 23 points · 3 comments · 9h ago",
       "also": [],
       "image": null,
       "icon": "https://blog.infected.systems/apple-touch-icon.png"
@@ -109,7 +121,7 @@
       "link_domain": "9to5mac.com",
       "source": "Hacker News",
       "domain": "9to5mac.com",
-      "meta": "Hacker News · 117 points · 96 comments · 6h ago",
+      "meta": "Hacker News · 126 points · 97 comments · 8h ago",
       "also": [],
       "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/Mac-mini.jpg?quality=82&strip=all&resize=1200,628",
       "icon": "https://9to5mac.com/wp-content/uploads/sites/6/2019/10/cropped-cropped-mac1-1.png?w=180"
@@ -120,6 +132,19 @@
       "name": "AI-Assisted Engineering",
       "cards": [
         {
+          "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+          "link": "https://huggingface.co/blog/qvac/botpsy",
+          "excerpt": "A Blog post by QVAC on Hugging Face",
+          "source": "Hugging Face",
+          "date": "Nov 11",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/6468b319b2321e47d3267049/Emr86qw6NAueYLdIEiTTD.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null,
+          "score": 7.279,
+          "coverage": 1
+        },
+        {
           "title": "From Full to Hybrid Attention in LLMs",
           "link": "https://sebastianraschka.com/blog/2026/full-to-hybrid-attention.html",
           "excerpt": "How open-weight LLMs are shifting from full attention to hybrid and sparse designs, and what that means for long-context compute and memory.",
@@ -129,7 +154,7 @@
           "icon": "https://sebastianraschka.com/images/favicons/favicon-32x32.png",
           "domain": "sebastianraschka.com",
           "hn": null,
-          "score": 0.611,
+          "score": 0.563,
           "coverage": 1
         },
         {
@@ -142,9 +167,11 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.722,
+          "score": 0.656,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Yonkers Rises",
           "link": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
@@ -155,11 +182,9 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.398,
+          "score": 0.377,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Pay for Hugging Face Hub with your Google Cloud Account",
           "link": "https://huggingface.co/blog/hub-gcp-marketplace",
@@ -170,7 +195,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.359,
+          "score": 0.342,
           "coverage": 1
         },
         {
@@ -183,7 +208,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.359,
+          "score": 0.342,
           "coverage": 1
         },
         {
@@ -196,7 +221,7 @@
           "icon": null,
           "domain": "blog.google",
           "hn": null,
-          "score": 0.682,
+          "score": 0.623,
           "coverage": 1
         },
         {
@@ -209,20 +234,7 @@
           "icon": null,
           "domain": "blog.google",
           "hn": null,
-          "score": 0.552,
-          "coverage": 1
-        },
-        {
-          "title": "Google Cloud launches Gemini for healthcare.",
-          "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
-          "excerpt": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
-          "source": "Google AI",
-          "date": "Nov 10",
-          "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/social_share_NWQpgus.max-600x600.format-webp.webp",
-          "icon": null,
-          "domain": "blog.google",
-          "hn": null,
-          "score": 0.531,
+          "score": 0.512,
           "coverage": 1
         }
       ]
@@ -230,6 +242,19 @@
     {
       "name": "AI Agents & Agent Security",
       "cards": [
+        {
+          "title": "Designing for Agents — Zeno Rocha, Resend",
+          "link": "https://latent.space/p/resend/",
+          "excerpt": "Where does answer engine optimization (AEO) end and agent experience begin? Inside Resend, from the docs that help Claude Code pick an email API to the tools it uses to send.",
+          "source": "Latent Space",
+          "date": "Nov 10",
+          "image": "https://i.ytimg.com/vi/bdIoODXsu8k/maxresdefault.jpg",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null,
+          "score": 5.0,
+          "coverage": 1
+        },
         {
           "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
           "link": "https://latent.space/p/naiveai/",
@@ -240,7 +265,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.709,
+          "score": 0.648,
           "coverage": 1
         },
         {
@@ -249,6 +274,21 @@
           "excerpt": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
           "source": "OpenAI News",
           "date": "Nov 12",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 1.562,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "ChatGPT Plus for veterans and servicemembers",
+          "link": "https://openai.com/index/chatgpt-plus-for-veterans",
+          "excerpt": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+          "source": "OpenAI News",
+          "date": "Nov 11",
           "image": null,
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
@@ -266,11 +306,22 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.623,
+          "score": 0.584,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
+        {
+          "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+          "link": "https://openai.com/index/cogent-security",
+          "excerpt": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+          "source": "OpenAI News",
+          "date": "Nov 10",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.445,
+          "coverage": 1
+        },
         {
           "title": "New OpenSSH Vulnerability",
           "link": "https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html",
@@ -281,7 +332,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.534,
+          "score": 0.499,
           "coverage": 1
         }
       ]
@@ -299,7 +350,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 2.961,
+          "score": 2.821,
           "coverage": 1
         },
         {
@@ -312,7 +363,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.374,
+          "score": 0.356,
           "coverage": 1
         }
       ],
@@ -331,7 +382,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 3.49,
+          "score": 3.212,
           "coverage": 1
         },
         {
@@ -344,7 +395,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.403,
+          "score": 0.371,
           "coverage": 1
         },
         {
@@ -357,7 +408,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.239,
+          "score": 0.228,
           "coverage": 1
         }
       ],
@@ -376,7 +427,7 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 0.627,
+          "score": 0.567,
           "coverage": 1
         },
         {
@@ -389,7 +440,7 @@
           "icon": null,
           "domain": "aembit.io",
           "hn": null,
-          "score": 0.534,
+          "score": 0.49,
           "coverage": 1
         }
       ],
@@ -408,7 +459,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 3.237,
+          "score": 2.982,
           "coverage": 1
         },
         {
@@ -421,7 +472,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 3.23,
+          "score": 2.976,
           "coverage": 1
         },
         {
@@ -434,7 +485,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.434,
+          "score": 0.396,
           "coverage": 1
         }
       ],
@@ -449,7 +500,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 3.031,
+          "score": 2.766,
           "coverage": 1
         },
         {
@@ -462,7 +513,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.054,
+          "score": 1.883,
           "coverage": 2
         },
         {
@@ -475,7 +526,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.402,
+          "score": 0.369,
           "coverage": 1
         },
         {
@@ -488,7 +539,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.374,
+          "score": 0.345,
           "coverage": 1
         },
         {
@@ -501,7 +552,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.373,
+          "score": 0.344,
           "coverage": 1
         }
       ]
@@ -519,7 +570,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 4.385,
+          "score": 4.036,
           "coverage": 1
         },
         {
@@ -532,7 +583,7 @@
           "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
           "domain": "cncf.io",
           "hn": null,
-          "score": 2.956,
+          "score": 2.73,
           "coverage": 1
         },
         {
@@ -545,7 +596,7 @@
           "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
           "domain": "cncf.io",
           "hn": null,
-          "score": 2.956,
+          "score": 2.73,
           "coverage": 1
         }
       ],
@@ -560,7 +611,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.35,
+          "score": 2.194,
           "coverage": 1
         },
         {
@@ -573,7 +624,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.726,
+          "score": 2.509,
           "coverage": 1
         },
         {
@@ -586,7 +637,7 @@
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
           "hn": null,
-          "score": 1.484,
+          "score": 1.414,
           "coverage": 1
         },
         {
@@ -599,7 +650,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.303,
+          "score": 2.127,
           "coverage": 1
         },
         {
@@ -612,7 +663,7 @@
           "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
           "domain": "cncf.io",
           "hn": null,
-          "score": 2.107,
+          "score": 1.946,
           "coverage": 1
         }
       ]
@@ -630,7 +681,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 2.861,
+          "score": 2.591,
           "coverage": 1
         },
         {
@@ -643,35 +694,74 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 1.932,
+          "score": 1.712,
           "coverage": 1
         },
         {
-          "title": "Hooked on Tuna",
-          "link": "https://blue-continuum.com/hooked-on-tuna",
-          "excerpt": "People have been harvesting these ocean predators for 44,000 years.",
-          "source": "blue-continuum.com via Hacker News",
+          "title": "Greg Kurtzer's Ginux is now a userspace kernel",
+          "link": "https://github.com/gmkurtzer/ginux",
+          "excerpt": "Contribute to gmkurtzer/ginux development by creating an account on GitHub.",
+          "source": "github.com via Hacker News",
           "date": "Nov 11",
-          "image": "https://blue-continuum.com/__l5e/assets-v1/e8058cfa-2abb-48eb-83ec-61f214049623/hooked-on-tuna-hero.jpg",
-          "icon": "https://blue-continuum.com/favicon-192.png",
-          "domain": "blue-continuum.com",
-          "hn": "10 points · 0 comments",
-          "score": 1.84,
+          "image": "https://opengraph.githubassets.com/42448569c70a9c93c9ecb206eec94ef3e1edb619f14a979d930107881bd3214d/gmkurtzer/ginux",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "12 points · 0 comments",
+          "score": 2.096,
           "coverage": 1
         }
       ],
       "more": [
         {
+          "title": "Protecting SSH Keys with macOS Secure Enclave",
+          "link": "https://gatezh.com/posts/macos-secure-enclave-ssh-keys/",
+          "excerpt": "How to keep SSH keys in the macOS Secure Enclave, with Touch ID on every use and no third-party apps.",
+          "source": "gatezh.com via Hacker News",
+          "date": "Nov 11",
+          "image": "https://gatezh.com/brand/share.381cc582d58a3410686473b92c1d944fbc83dc59a7e926952aeb6c5c0d8a6ef0.png",
+          "icon": "https://gatezh.com/brand/apple-touch-icon.d2d201c76e9b56fe57ad335c3b2e61afbebd035c740d1d7a0bc1679d6afec283.png",
+          "domain": "gatezh.com",
+          "hn": "53 points · 11 comments",
+          "score": 2.892,
+          "coverage": 1
+        },
+        {
+          "title": "To deter bioterrorism, U.S. imposes new rules on ordering synthetic DNA",
+          "link": "https://www.science.org/content/article/deter-bioterrorism-u-s-imposes-new-rules-ordering-synthetic-dna",
+          "excerpt": "47 points · 20 comments",
+          "source": "science.org via Hacker News",
+          "date": "Nov 11",
+          "image": null,
+          "icon": "https://www.science.org/favicon.ico",
+          "domain": "science.org",
+          "hn": "47 points · 20 comments",
+          "score": 2.624,
+          "coverage": 1
+        },
+        {
+          "title": "Hooked on Tuna",
+          "link": "https://theconversation.com/hooked-on-tuna-people-have-been-harvesting-these-ocean-predators-for-44-000-years-292428",
+          "excerpt": "Bones in archaeological sites, ancient rock art, paintings on frescos and vases, written historical records and ethnographic accounts all helped researchers recreate a deep history of people and tuna.",
+          "source": "theconversation.com via Hacker News",
+          "date": "Nov 11",
+          "image": "https://images.theconversation.com/files/765306/original/file-20261009-50-7ar5dc.jpg?ixlib=rb-4.1.1&rect=0%2C400%2C5184%2C2592&q=45&auto=format&w=1356&h=668&fit=crop",
+          "icon": "https://images.theconversation.com/files/581997/original/9275d5c0-7dd5-4ddf-b50b-98d537e016f4.png",
+          "domain": "theconversation.com",
+          "hn": "22 points · 1 comments",
+          "score": 2.002,
+          "coverage": 1
+        },
+        {
           "title": "A great old-timey game-programming hack (2013)",
           "link": "https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html",
-          "excerpt": "47 points · 8 comments",
+          "excerpt": "86 points · 14 comments",
           "source": "blog.moertel.com via Hacker News",
           "date": "Nov 11",
           "image": null,
           "icon": "https://blog.moertel.com/apple-touch-icon.png",
           "domain": "blog.moertel.com",
-          "hn": "47 points · 8 comments",
-          "score": 2.697,
+          "hn": "86 points · 14 comments",
+          "score": 2.655,
           "coverage": 1
         },
         {
@@ -683,47 +773,8 @@
           "image": "https://tis-100.wincon.dev/assets/og-tis100.png?v=aec5b0d1",
           "icon": "https://tis-100.wincon.dev/apple-touch-icon.png",
           "domain": "tis-100.wincon.dev",
-          "hn": "20 points · 2 comments",
-          "score": 2.009,
-          "coverage": 1
-        },
-        {
-          "title": "AI is an information gateway. Audiences still don't want it making their news",
-          "link": "https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/",
-          "excerpt": "An average of 24% of respondents across nine countries said they'd seen a label noting that content was made with AI in the last week, and 20% had seen a bullet-point AI news summary.",
-          "source": "niemanlab.org via Hacker News",
-          "date": "Nov 11",
-          "image": "https://www.niemanlab.org/images/MarcinWilkowski-DatifiedRelations-better-images-of-ai.jpg",
-          "icon": "https://www.niemanlab.org/favicon.ico",
-          "domain": "niemanlab.org",
-          "hn": "20 points · 10 comments",
-          "score": 2.114,
-          "coverage": 1
-        },
-        {
-          "title": "After 7 months, Glasswing overwelms maintainers with underwhelming findings",
-          "link": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
-          "excerpt": "Seven months into Project Glasswing, VulnCheck has tracked 442 CVEs attributable to Anthropic, roughly 0.5% of all CVEs published this year, with only two identified as exploited in the wild. Of Anthropicâs 37,966 reported findings, only 7,349 (19.4%) have been made public and just 217 have been…",
-          "source": "vulncheck.com via Hacker News",
-          "date": "Nov 10",
-          "image": "https://www.vulncheck.com/_og/s/o_6eba28d38c5a4083.png",
-          "icon": "https://www.vulncheck.com/apple-touch-icon.png",
-          "domain": "vulncheck.com",
-          "hn": "328 points · 147 comments",
-          "score": 3.104,
-          "coverage": 1
-        },
-        {
-          "title": "$30M Raised to Redo the CPU",
-          "link": "https://tendrils.co/blog/2026-11-10/30m-raised",
-          "excerpt": "45 points · 33 comments",
-          "source": "tendrils.co via Hacker News",
-          "date": "Nov 10",
-          "image": null,
-          "icon": "https://tendrils.co/apple-touch-icon-57x57.png",
-          "domain": "tendrils.co",
-          "hn": "45 points · 33 comments",
-          "score": 2.291,
+          "hn": "34 points · 4 comments",
+          "score": 2.02,
           "coverage": 1
         }
       ]
