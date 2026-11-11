@@ -6,8 +6,8 @@
     "excerpt": "Amazon calls its home security drone and business patrol bot 'proactive protection'",
     "source": "The Register",
     "date": "Nov 10",
-    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ring-Drone-1152x648.jpeg",
-    "image_credit": "Hacker News - Newest: \"\"Devin\" \"Factory.ai\" \"Replit\" \"agent\"\"",
+    "image": "https://image.theregister.com/?imageId=5308936&width=800",
+    "image_credit": null,
     "section": "AI Agents & Agent Security",
     "pinned": false,
     "note": null,
@@ -18,12 +18,24 @@
     ],
     "also": [
       {
-        "name": "arstechnica.com",
-        "link": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/"
+        "name": "petapixel.com",
+        "link": "https://petapixel.com/2026/11/10/rings-ai-powered-drone-automatically-patrols-inside-your-home/"
       }
     ]
   },
   "pulse": [
+    {
+      "title": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
+      "thread": "https://news.ycombinator.com/item?id=50452455",
+      "link": "https://pietromiotti.com/latest/maya-site/?maya",
+      "link_domain": "pietromiotti.com",
+      "source": "Hacker News",
+      "domain": "pietromiotti.com",
+      "meta": "Hacker News · 493 points · 193 comments · 3h ago",
+      "also": [],
+      "image": "https://pietromiotti.com/latest/maya-site/forest-vs-lidar.jpg",
+      "icon": "https://pietromiotti.com/favicon.ico"
+    },
     {
       "title": "Tracking Anthropic-discovered vulnerabilities",
       "thread": "https://news.ycombinator.com/item?id=50447074",
@@ -31,7 +43,7 @@
       "link_domain": "vulncheck.com",
       "source": "Hacker News",
       "domain": "vulncheck.com",
-      "meta": "Hacker News · 413 points · 198 comments · 13h ago",
+      "meta": "Hacker News · 437 points · 207 comments · 17h ago",
       "also": [],
       "image": "https://www.vulncheck.com/_og/s/o_6eba28d38c5a4083.png",
       "icon": "https://www.vulncheck.com/apple-touch-icon.png"
@@ -43,7 +55,7 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 386 points · 121 comments · 18h ago",
+      "meta": "Hacker News · 414 points · 136 comments · 21h ago",
       "also": [],
       "image": "https://opengraph.githubassets.com/5e92c316fbf4fb9036896bd28561aa1026e4017cb768ab9dc572b16f6b0d7b04/GoogleChrome/modern-web-guidance",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
@@ -55,22 +67,10 @@
       "link_domain": "9to5mac.com",
       "source": "Hacker News",
       "domain": "9to5mac.com",
-      "meta": "Hacker News · 297 points · 272 comments · 14h ago",
+      "meta": "Hacker News · 410 points · 426 comments · 18h ago",
       "also": [],
       "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/Mac-mini.jpg?quality=82&strip=all&resize=1200,628",
       "icon": "https://9to5mac.com/wp-content/uploads/sites/6/2019/10/cropped-cropped-mac1-1.png?w=180"
-    },
-    {
-      "title": "Gemini 4 Carbon is now available",
-      "thread": "https://news.ycombinator.com/item?id=50442303",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
-      "link_domain": "blog.google",
-      "source": "Hacker News",
-      "domain": "blog.google",
-      "meta": "Hacker News · 287 points · 159 comments · 20h ago",
-      "also": [],
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_key_art_16-9_lockup.width-1300.jpg",
-      "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131"
     },
     {
       "title": "I deleted all my SSH keys",
@@ -79,10 +79,22 @@
       "link_domain": "blog.infected.systems",
       "source": "Lobsters",
       "domain": "blog.infected.systems",
-      "meta": "Lobsters · 39 points · 15 comments · 15h ago",
+      "meta": "Lobsters · 48 points · 17 comments · 18h ago",
       "also": [],
       "image": null,
       "icon": "https://blog.infected.systems/apple-touch-icon.png"
+    },
+    {
+      "title": "Gemini 4 Carbon is now available",
+      "thread": "https://news.ycombinator.com/item?id=50442303",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "link_domain": "blog.google",
+      "source": "Hacker News",
+      "domain": "blog.google",
+      "meta": "Hacker News · 288 points · 159 comments · 23h ago",
+      "also": [],
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_key_art_16-9_lockup.width-1300.jpg",
+      "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131"
     },
     {
       "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
@@ -91,10 +103,34 @@
       "link_domain": "claude.com",
       "source": "Hacker News",
       "domain": "claude.com",
-      "meta": "Hacker News · 243 points · 174 comments · 18h ago",
+      "meta": "Hacker News · 265 points · 201 comments · 21h ago",
       "also": [],
       "image": "https://claude.com/resources/articles/sheets-whiteboards-data/opengraph-image/og",
       "icon": "https://claude.com/icon.png"
+    },
+    {
+      "title": "How do you actually self-host securely?",
+      "thread": "https://lobste.rs/s/m43bas/how_do_you_actually_self_host_securely",
+      "link": null,
+      "link_domain": "",
+      "source": "Lobsters",
+      "domain": "Lobsters",
+      "meta": "Lobsters · 36 points · 18 comments · 3h ago",
+      "also": [],
+      "image": null,
+      "icon": null
+    },
+    {
+      "title": "What are some \"No AI\" apps/companies/resources you know of?",
+      "thread": "https://lobste.rs/s/nld6x3/what_are_some_no_ai_apps_companies",
+      "link": null,
+      "link_domain": "",
+      "source": "Lobsters",
+      "domain": "Lobsters",
+      "meta": "Lobsters · 25 points · 12 comments · 2h ago",
+      "also": [],
+      "image": null,
+      "icon": null
     },
     {
       "title": "Life on Claude Nine",
@@ -103,7 +139,7 @@
       "link_domain": "babuschk.in",
       "source": "Hacker News",
       "domain": "babuschk.in",
-      "meta": "Hacker News · 110 points · 73 comments · 18h ago",
+      "meta": "Hacker News · 121 points · 80 comments · 21h ago",
       "also": [],
       "image": "https://babuschk.in/images/social-card.png",
       "icon": "https://babuschk.in/favicon.ico"
@@ -123,7 +159,20 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 4.982,
+          "score": 4.231,
+          "coverage": 1
+        },
+        {
+          "title": "Tests as data: ensuring AI-generated code does what we want",
+          "link": "https://martinfowler.com/articles/tests-as-data.html",
+          "excerpt": "Automated testing in the age of AI coding assistants is problematic: when AI agents write both production and test code, developers risk losing the assurance that automated tests protect against functional errors. Matteo Vaccari makes three claims: (1) when AI writes the code, developers become…",
+          "source": "Martin Fowler",
+          "date": "Nov 11",
+          "image": "https://martinfowler.com/articles/tests-as-data/card.png",
+          "icon": null,
+          "domain": "martinfowler.com",
+          "hn": null,
+          "score": 6.634,
           "coverage": 1
         },
         {
@@ -136,7 +185,22 @@
           "icon": "https://sebastianraschka.com/images/favicons/favicon-32x32.png",
           "domain": "sebastianraschka.com",
           "hn": null,
-          "score": 0.456,
+          "score": 0.411,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Anthropic's IPO roadshow video",
+          "link": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+          "excerpt": "Anthropic's IPO roadshow video Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on \"Approach to compute\" with co-founder Tom Brown is particularly interesting, describing how Anthropic…",
+          "source": "Simon Willison",
+          "date": "Nov 11",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 4.868,
           "coverage": 1
         },
         {
@@ -149,11 +213,9 @@
           "icon": null,
           "domain": "newsletter.getdx.com",
           "hn": null,
-          "score": 1.106,
+          "score": 0.877,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "llm-gemini 0.36",
           "link": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
@@ -164,7 +226,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.515,
+          "score": 0.459,
           "coverage": 1
         },
         {
@@ -177,7 +239,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.325,
+          "score": 0.302,
           "coverage": 1
         },
         {
@@ -190,33 +252,7 @@
           "icon": null,
           "domain": "leaddev.com",
           "hn": null,
-          "score": 0.843,
-          "coverage": 1
-        },
-        {
-          "title": "Pay for Hugging Face Hub with your Google Cloud Account",
-          "link": "https://huggingface.co/blog/hub-gcp-marketplace",
-          "excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "source": "Hugging Face",
-          "date": "Nov 10",
-          "image": "https://huggingface.co/blog/assets/hub-gcp-marketplace/thumbnail.jpg",
-          "icon": "https://huggingface.co/favicon.ico",
-          "domain": "huggingface.co",
-          "hn": null,
-          "score": 0.299,
-          "coverage": 1
-        },
-        {
-          "title": "Decision Models in Hugging Face",
-          "link": "https://huggingface.co/blog/decision",
-          "excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "source": "Hugging Face",
-          "date": "Nov 10",
-          "image": "https://huggingface.co/blog/assets/decision/thumbnail.png",
-          "icon": "https://huggingface.co/favicon.ico",
-          "domain": "huggingface.co",
-          "hn": null,
-          "score": 0.299,
+          "score": 0.703,
           "coverage": 1
         }
       ]
@@ -234,7 +270,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 3.925,
+          "score": 3.501,
           "coverage": 1
         },
         {
@@ -247,7 +283,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 5.138,
+          "score": 4.37,
           "coverage": 1
         },
         {
@@ -260,7 +296,7 @@
           "icon": "https://latent.space/favicon.png",
           "domain": "latent.space",
           "hn": null,
-          "score": 1.03,
+          "score": 0.835,
           "coverage": 1
         }
       ],
@@ -275,7 +311,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.514,
+          "score": 0.46,
           "coverage": 1
         },
         {
@@ -301,7 +337,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 1.162,
+          "score": 0.96,
           "coverage": 1
         },
         {
@@ -314,7 +350,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.492,
+          "score": 0.451,
           "coverage": 1
         },
         {
@@ -327,7 +363,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.467,
+          "score": 0.431,
           "coverage": 1
         }
       ]
@@ -345,7 +381,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 2.467,
+          "score": 2.305,
           "coverage": 1
         },
         {
@@ -358,7 +394,7 @@
           "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
           "domain": "stratechery.com",
           "hn": null,
-          "score": 1.141,
+          "score": 0.907,
           "coverage": 1
         },
         {
@@ -371,7 +407,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.312,
+          "score": 0.291,
           "coverage": 1
         }
       ],
@@ -390,7 +426,7 @@
           "icon": null,
           "domain": "blog.modelcontextprotocol.io",
           "hn": null,
-          "score": 3.0,
+          "score": 2.76,
           "coverage": 1
         },
         {
@@ -403,7 +439,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.59,
+          "score": 2.335,
           "coverage": 1
         },
         {
@@ -416,7 +452,7 @@
           "icon": null,
           "domain": "openid.net",
           "hn": null,
-          "score": 0.837,
+          "score": 0.677,
           "coverage": 1
         }
       ],
@@ -431,7 +467,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.301,
+          "score": 0.272,
           "coverage": 1
         },
         {
@@ -444,7 +480,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.199,
+          "score": 0.186,
           "coverage": 1
         }
       ]
@@ -462,7 +498,7 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 0.441,
+          "score": 0.392,
           "coverage": 1
         },
         {
@@ -475,7 +511,20 @@
           "icon": null,
           "domain": "aembit.io",
           "hn": null,
-          "score": 0.393,
+          "score": 0.354,
+          "coverage": 1
+        },
+        {
+          "title": "From insight to action: improving infrastructure risk posture with Terraform and Concert",
+          "link": "https://www.hashicorp.com/blog/from-insight-to-action-improving-infrastructure-risk-posture-with-terraform-and-c",
+          "excerpt": "Learn how Terraform and IBM Concert connect trusted infrastructure context, policy-driven governance, and vulnerability management to improve risk posture across the infrastructure lifecycle.",
+          "source": "HashiCorp",
+          "date": "Nov 10",
+          "image": null,
+          "icon": "https://www.hashicorp.com/favicon.ico",
+          "domain": "hashicorp.com",
+          "hn": null,
+          "score": 0.347,
           "coverage": 1
         }
       ],
@@ -494,20 +543,20 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 5.981,
+          "score": 4.715,
           "coverage": 1
         },
         {
-          "title": "Software Transparency Is Changing: Allan Friedman on SBOM, AI BOMs and What Comes Next",
-          "link": "https://www.securityweek.com/software-transparency-is-changing-allan-friedman-on-sbom-ai-boms-and-what-comes-next/",
-          "excerpt": "SBOM pioneer Allan Friedman joined the SecurityWeek Podcast to discuss why knowing what is inside software is only the beginning, how AI is complicating software supply chain visibility, and what organizations should be doing with SBOM data once they have it. The post Software Transparency Is…",
-          "source": "SecurityWeek",
-          "date": "Nov 10",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/Allan-Friedman_SBOM-Podcast.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
+          "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
+          "excerpt": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 11",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/10/09/robot-hacker.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 2.409,
+          "score": 5.969,
           "coverage": 1
         },
         {
@@ -520,7 +569,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 3.935,
+          "score": 3.273,
           "coverage": 1
         }
       ],
@@ -535,8 +584,34 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 4.195,
+          "score": 3.277,
           "coverage": 1
+        },
+        {
+          "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+          "link": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+          "excerpt": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's CyOps and Research teams said they identified the suspicious activity in October 2026 against several E.U.-based…",
+          "source": "The Hacker News",
+          "date": "Nov 11",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5L1m-CqPOrgk9otByC4blBWuqDylovaSyHYhirRHQvzjjSUB0DBWbxnF_8cNIsONC6yoL3h-ydX61vmnsctKr_IbcnvmwRLAMqch16Ru5oMVuDWy1bilEt6EAgEerB7mUxICRgck1NkoJeA7Y2lvV0oqLkw12-f1xMhC7Dw5F1aK35NhVf3oZwj4WbfOT/s1600/qliksense.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.666,
+          "coverage": 1
+        },
+        {
+          "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+          "link": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
+          "excerpt": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday. They included 24 apps built by staff at the social network X and at SpaceXSI, the company that makes the Grok AI assistant. Most of the open apps…",
+          "source": "The Hacker News",
+          "date": "Nov 11",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh54t26Pk-bNbcIXgu8KrKpT_zN1KxEov16xTFlJ8kiPJ3-btXjGUE1lb0ZpamQU5jUHwmxzxHpYLsAQfiaHQUu3gxCIUw2gsEYNwMjL6nRm_jWm6t_VdHJkz6xj3fAsmTZKP8Bbax1qdT98a_PY4ynv81njiDyPXvIIihl4dqXxxC9pMMf8-Mn9dziy_A/s1600/grokai.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 2.959,
+          "coverage": 2
         },
         {
           "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
@@ -548,7 +623,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.742,
+          "score": 0.58,
           "coverage": 1
         },
         {
@@ -561,33 +636,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.568,
-          "coverage": 1
-        },
-        {
-          "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
-          "link": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
-          "excerpt": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI provider will not refund them. The company…",
-          "source": "The Hacker News",
-          "date": "Nov 11",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheDP-YSdactqjEqKJOJEJulSVt5fmo134ko3-hE9dbQrLkrcIuhIkAOQDPe4eGS8WR6mLJs3urGqLpdi9erHsuLMAQ1t2saYXZAhnIRNqzliU3reOp2uPoKCRlpWBj8JQcyRIwo9eqK4AuSFcsB5XhIdLFzNYudzLlW_eHiZ094cCzg_gjihMTAZufcCc/s1600/railway-ai.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 6.065,
-          "coverage": 2
-        },
-        {
-          "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
-          "link": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
-          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Details of the vulnerabilities…",
-          "source": "The Hacker News",
-          "date": "Nov 11",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4aXykaOroazGO_7IuXugse9ynGpt1PkKJDM8lKL4by93ixX28cs23KAZZRF2dCN2cogu1ti8q5kmqfqSBLmOXWkVi7ZGWmwYMkeCOUXsOXwLoF07FbzmVnlr9DoeqtCboI_9LKWgohgWi2jIB1TzGO6uEkp5lsMnq5fSVqrN-NZGJjAQE2kIUyHsdkw6J/s1600/cisa-cisco.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 3.486,
+          "score": 0.468,
           "coverage": 1
         }
       ]
@@ -605,7 +654,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 3.254,
+          "score": 2.934,
           "coverage": 1
         },
         {
@@ -618,7 +667,7 @@
           "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
           "domain": "cncf.io",
           "hn": null,
-          "score": 2.217,
+          "score": 2.006,
           "coverage": 1
         },
         {
@@ -631,7 +680,7 @@
           "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
           "domain": "cncf.io",
           "hn": null,
-          "score": 2.217,
+          "score": 2.006,
           "coverage": 1
         }
       ],
@@ -646,7 +695,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.828,
+          "score": 1.671,
           "coverage": 1
         },
         {
@@ -659,7 +708,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.023,
+          "score": 1.824,
           "coverage": 1
         },
         {
@@ -672,7 +721,7 @@
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
           "hn": null,
-          "score": 1.237,
+          "score": 1.155,
           "coverage": 1
         },
         {
@@ -685,7 +734,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.728,
+          "score": 1.563,
           "coverage": 1
         },
         {
@@ -698,7 +747,7 @@
           "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
           "domain": "cncf.io",
           "hn": null,
-          "score": 1.58,
+          "score": 1.429,
           "coverage": 1
         }
       ]
@@ -706,6 +755,19 @@
     {
       "name": "News & Research",
       "cards": [
+        {
+          "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
+          "link": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+          "excerpt": "Like the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredictable environments.",
+          "source": "TechCrunch",
+          "date": "Nov 11",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/Plurai-team-photo.-Credit-Guy-Hamoy.jpg?resize=1200,800",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
+          "hn": null,
+          "score": 4.469,
+          "coverage": 1
+        },
         {
           "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
           "link": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
@@ -716,100 +778,87 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 2.018,
+          "score": 1.795,
           "coverage": 1
         },
         {
-          "title": "Microsoft’s DLSS competitor is out for the Xbox Ally X and works in handheld mode",
-          "link": "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling",
-          "excerpt": "Microsoft is now rolling out Automatic Super Resolution (Auto SR), an upscaling technology that competes with Nvidia's DLSS, for the Xbox Ally X, Xbox Ally X20, and select Windows Copilot Plus PCs, the company announced today. Auto SR is also getting some new features alongside this official…",
-          "source": "The Verge",
+          "title": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
+          "link": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
+          "excerpt": "At 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to. He uses Databricks' newly revised Genie agent for that.",
+          "source": "TechCrunch",
           "date": "Nov 11",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/257996_ROG_Xbox_Ally_and_Xbox_Ally_X_AKrales_0073.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "icon": null,
-          "domain": "theverge.com",
+          "image": "https://techcrunch.com/wp-content/uploads/2021/04/Ali_Ghodsi.jpg?resize=1200,1200",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
           "hn": null,
-          "score": 1.274,
-          "coverage": 1
-        },
-        {
-          "title": "Greg Kurtzer's Ginux is now a userspace kernel",
-          "link": "https://github.com/gmkurtzer/ginux",
-          "excerpt": "Contribute to gmkurtzer/ginux development by creating an account on GitHub.",
-          "source": "github.com via Hacker News",
-          "date": "Nov 11",
-          "image": "https://opengraph.githubassets.com/42448569c70a9c93c9ecb206eec94ef3e1edb619f14a979d930107881bd3214d/gmkurtzer/ginux",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "83 points · 40 comments",
-          "score": 2.381,
+          "score": 4.216,
           "coverage": 1
         }
       ],
       "more": [
         {
-          "title": "Show HN: Black Ops II statically recompiled to native ARM64 macOS",
-          "link": "https://github.com/adrbn/bo2-mac",
-          "excerpt": "Call of Duty: Black Ops II statically recompiled from 32-bit x86 Windows to native ARM64 macOS: Remill → LLVM IR, a hand-written Win32 runtime, Direct3D 11 drawn by Metal. No Wine, no game files. -...",
-          "source": "github.com via Hacker News",
+          "title": "Serve Robotics wants to democratize sidewalk delivery robots",
+          "link": "https://www.theverge.com/transportation/1030902/serve-robotics-open-developer-api-sidewalk-delivery",
+          "excerpt": "Serve Robotics is opening up its platform to make its autonomous last-mile delivery robots available to anyone who wants to use them. The company is launching a new AV Delivery Developer Portal, enabling third-party software engineers, independent businesses, and even autonomous AI agents to…",
+          "source": "The Verge",
           "date": "Nov 11",
-          "image": "https://opengraph.githubassets.com/090555d5c0abb5e4093d75a06c3f20ac50e011b542a65ebededcca2f108bd129/adrbn/bo2-mac",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "40 points · 5 comments",
-          "score": 1.909,
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2231498899.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "icon": null,
+          "domain": "theverge.com",
+          "hn": null,
+          "score": 2.703,
           "coverage": 1
         },
         {
-          "title": "Protecting SSH Keys with macOS Secure Enclave",
-          "link": "https://gatezh.com/posts/macos-secure-enclave-ssh-keys/",
-          "excerpt": "How to keep SSH keys in the macOS Secure Enclave, with Touch ID on every use and no third-party apps.",
-          "source": "gatezh.com via Hacker News",
-          "date": "Nov 11",
-          "image": "https://gatezh.com/brand/share.381cc582d58a3410686473b92c1d944fbc83dc59a7e926952aeb6c5c0d8a6ef0.png",
-          "icon": "https://gatezh.com/brand/apple-touch-icon.d2d201c76e9b56fe57ad335c3b2e61afbebd035c740d1d7a0bc1679d6afec283.png",
-          "domain": "gatezh.com",
-          "hn": "233 points · 86 comments",
-          "score": 2.651,
-          "coverage": 1
-        },
-        {
-          "title": "To deter bioterrorism, U.S. imposes new rules on ordering synthetic DNA",
-          "link": "https://www.science.org/content/article/deter-bioterrorism-u-s-imposes-new-rules-ordering-synthetic-dna",
-          "excerpt": "116 points · 80 comments",
-          "source": "science.org via Hacker News",
+          "title": "Pharo in the Browser with WebAssembly",
+          "link": "https://massimo-nocentini.github.io/pharo-vm/world.html",
+          "excerpt": "The Pharo world, the Smalltalk environment, running in your browser on WebAssembly.",
+          "source": "massimo-nocentini.github.io via Hacker News",
           "date": "Nov 11",
           "image": null,
-          "icon": "https://www.science.org/favicon.ico",
-          "domain": "science.org",
-          "hn": "116 points · 80 comments",
-          "score": 2.277,
+          "icon": "https://massimo-nocentini.github.io/pharo-vm/favicon.png?v=457ece6d3-ac4940f7f271",
+          "domain": "massimo-nocentini.github.io",
+          "hn": "29 points · 6 comments",
+          "score": 2.633,
           "coverage": 1
         },
         {
-          "title": "A great old-timey game-programming hack (2013)",
-          "link": "https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html",
-          "excerpt": "190 points · 40 comments",
-          "source": "blog.moertel.com via Hacker News",
+          "title": "Atuin Threads: All your agent sessions on every machine",
+          "link": "https://blog.atuin.sh/threads-agent-sessions/",
+          "excerpt": "Atuin Threads: one searchable, synced history for every agent session, on every machine Start a task in Claude Code, then resume it in Codex",
+          "source": "blog.atuin.sh via Hacker News",
           "date": "Nov 11",
           "image": null,
-          "icon": "https://blog.moertel.com/apple-touch-icon.png",
-          "domain": "blog.moertel.com",
-          "hn": "190 points · 40 comments",
-          "score": 2.231,
+          "icon": "https://storage.ghost.io/c/66/46/6646b777-02d8-44b3-9d01-dd721730b905/content/images/size/w256h256/2024/01/Atuin_Mascot-_01_square.png",
+          "domain": "blog.atuin.sh",
+          "hn": "22 points · 11 comments",
+          "score": 2.564,
           "coverage": 1
         },
         {
-          "title": "LLMs Play Zachtronics' TIS-100",
-          "link": "https://tis-100.wincon.dev/",
-          "excerpt": "16 LLMs took on TIS-100's community leaderboard and found 133 new frontier points on 18 of 55 puzzles, including 3 outright cycle records.",
-          "source": "tis-100.wincon.dev via Hacker News",
+          "title": "Apple is killing its Support Community forum next week",
+          "link": "https://www.theverge.com/tech/1031507/apple-community-support-forum-shutting-down",
+          "excerpt": "The Apple Support Community platform is now read-only, and will permanently close on November 20th.﻿",
+          "source": "theverge.com via Hacker News",
           "date": "Nov 11",
-          "image": "https://tis-100.wincon.dev/assets/og-tis100.png?v=aec5b0d1",
-          "icon": "https://tis-100.wincon.dev/apple-touch-icon.png",
-          "domain": "tis-100.wincon.dev",
-          "hn": "76 points · 15 comments",
-          "score": 1.793,
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Apple-Support-Community-forum.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "icon": "https://www.theverge.com/static-assets/icons/apple-touch-icon.png",
+          "domain": "theverge.com",
+          "hn": "47 points · 20 comments",
+          "score": 2.946,
+          "coverage": 1
+        },
+        {
+          "title": "I asked every TV manufacturer 17 questions about how they spy on you",
+          "link": "https://www.theverge.com/tech/1012372/tv-privacy-acr-questions",
+          "excerpt": "We asked 11 companies these 17 questions, and only a few answered them all.",
+          "source": "theverge.com via Hacker News",
+          "date": "Nov 11",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268797_What_data_are_your_TVs_collecting_and_is_it_protected__CVirginia.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "icon": "https://www.theverge.com/static-assets/icons/apple-touch-icon.png",
+          "domain": "theverge.com",
+          "hn": "82 points · 31 comments",
+          "score": 3.227,
           "coverage": 1
         }
       ]

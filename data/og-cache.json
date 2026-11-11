@@ -383,6 +383,12 @@
   "icon": "https://blog.arusekk.pl/apple-touch-icon.png",
   "image": null
  },
+ "https://blog.atuin.sh/threads-agent-sessions/": {
+  "description": "Atuin Threads: one searchable, synced history for every agent session, on every machine Start a task in Claude Code, then resume it in Codex",
+  "fetched": "2026-11-11",
+  "icon": "https://storage.ghost.io/c/66/46/6646b777-02d8-44b3-9d01-dd721730b905/content/images/size/w256h256/2024/01/Atuin_Mascot-_01_square.png",
+  "image": null
+ },
  "https://blog.bosscher.ch/posts/openstick/": {
   "description": "What I run on my $10 USD OpenStick homelab",
   "fetched": "2026-11-08",
@@ -2075,6 +2081,12 @@
   "icon": "https://massie.house.gov/images/favicon.png",
   "image": "https://massie.house.gov/images/facebook-meta-23.jpg"
  },
+ "https://massimo-nocentini.github.io/pharo-vm/world.html": {
+  "description": "The Pharo world, the Smalltalk environment, running in your browser on WebAssembly.",
+  "fetched": "2026-11-11",
+  "icon": "https://massimo-nocentini.github.io/pharo-vm/favicon.png?v=457ece6d3-ac4940f7f271",
+  "image": null
+ },
  "https://matklad.github.io/2026/10/29/pub-calls-pub.html": {
   "description": "A small-scale rule of thumb. This article will land much better with a concrete example, but I am drawing a blank here, so you gotta just blindly trust my say so!",
   "fetched": "2026-10-30",
@@ -2747,6 +2759,12 @@
   "icon": "https://pavursec.com/media/icon_hu9a38971af2c2beba5807cd7db08d44b5_22339_180x180_fill_lanczos_center_3.png",
   "image": "https://pavursec.com/media/logo.svg"
  },
+ "https://petapixel.com/2026/11/10/rings-ai-powered-drone-automatically-patrols-inside-your-home/": {
+  "description": "Ring Drone Cam keeps an eye on the inside of your home from the air.",
+  "fetched": "2026-11-11",
+  "icon": "https://petapixel.com/assets/img/apple-touch-icon-180x180.png?ver=2.2.1752",
+  "image": "https://petapixel.com/assets/uploads/2026/11/ring_dronecam_lifestyle_close-up-product-shot_1500x1500.jpg"
+ },
  "https://philipotoole.com/twelve-years-of-distributed-sqlite/": {
   "description": "In September 2014 I published a short post announcing rqlite. The idea was simple: take SQLite, put a Raft log in front of it, and replicate every write to a cluster so that the loss of a node did not mean the loss of the data. The source went on GitHub that same weekend. As…",
   "fetched": "2026-10-24",
@@ -2758,6 +2776,12 @@
   "fetched": "2026-10-31",
   "icon": "https://phorion.io/images/apple-touch-icon.png",
   "image": "https://phorion.io/images/default-social-card.png"
+ },
+ "https://pietromiotti.com/latest/maya-site/?maya": {
+  "description": "AI agents analyzed NASA lidar data overnight and found a Maya site under the jungle that isn't on any map. Less than 72 hours later, Mexico's INAH replied.",
+  "fetched": "2026-11-11",
+  "icon": null,
+  "image": "https://pietromiotti.com/latest/maya-site/forest-vs-lidar.jpg"
  },
  "https://pixelos.net/": {
   "description": "PixelOS is an AOSP based ROM, with Google apps included and all Pixel goodies. We aim to provide an experience similar to Google Pixel phones with numerous performance enhancements and a small amount of useful additional features.",
@@ -2926,6 +2950,12 @@
   "fetched": "2026-11-11",
   "icon": null,
   "image": "https://static.simonwillison.net/static/2026/yonkers.webp"
+ },
+ "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/": {
+  "description": "Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on \"Approach to compute\" with co-founder Tom …",
+  "fetched": "2026-11-11",
+  "icon": null,
+  "image": null
  },
  "https://simonwillison.net/2026/Nov/2/llm/": {
   "description": "Access large language models from the command-line",
@@ -3502,6 +3532,18 @@
   "fetched": "2026-11-11",
   "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
   "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2302996653.jpg?w=1024"
+ },
+ "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/": {
+  "description": "At 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to. He uses Databricks' newly revised Genie agent for that.",
+  "fetched": "2026-11-11",
+  "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+  "image": "https://techcrunch.com/wp-content/uploads/2021/04/Ali_Ghodsi.jpg?resize=1200,1200"
+ },
+ "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/": {
+  "description": "Like the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredictable environments.",
+  "fetched": "2026-11-11",
+  "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/Plurai-team-photo.-Credit-Guy-Hamoy.jpg?resize=1200,800"
  },
  "https://tendrils.co/blog/2026-11-10/30m-raised": {
   "description": null,
@@ -4343,6 +4385,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2026/11/06/financial-theft.jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/": {
+  "description": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments.",
+  "fetched": "2026-11-11",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/10/09/robot-hacker.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/": {
   "description": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service the company used.",
   "fetched": "2026-11-09",
@@ -4808,6 +4856,12 @@
  "https://www.gregoryalexander.com/blog/2026/10/23/is-php-quietly-running-on-your-coldfusion-server-how-to-check-and-remove-it": {
   "description": null,
   "fetched": "2026-10-27",
+  "icon": null,
+  "image": null
+ },
+ "https://www.hashicorp.com/blog/from-insight-to-action-improving-infrastructure-risk-posture-with-terraform-and-c": {
+  "description": null,
+  "fetched": "2026-11-11",
   "icon": null,
   "image": null
  },
@@ -6232,6 +6286,18 @@
   "fetched": "2026-11-02",
   "icon": "https://www.theverge.com/static-assets/icons/apple-touch-icon.png",
   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/11/STKB376_VALVE_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+ },
+ "https://www.theverge.com/tech/1012372/tv-privacy-acr-questions": {
+  "description": "We asked 11 companies these 17 questions, and only a few answered them all.",
+  "fetched": "2026-11-11",
+  "icon": "https://www.theverge.com/static-assets/icons/apple-touch-icon.png",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268797_What_data_are_your_TVs_collecting_and_is_it_protected__CVirginia.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+ },
+ "https://www.theverge.com/tech/1031507/apple-community-support-forum-shutting-down": {
+  "description": "The Apple Support Community platform is now read-only, and will permanently close on November 20th.﻿",
+  "fetched": "2026-11-11",
+  "icon": "https://www.theverge.com/static-assets/icons/apple-touch-icon.png",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Apple-Support-Community-forum.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
  },
  "https://www.timeanddate.com/news/time/cuba-keeps-dst-until-nov-2027.html": {
   "description": null,
