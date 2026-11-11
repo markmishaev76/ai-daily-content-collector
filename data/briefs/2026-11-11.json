@@ -1,0 +1,732 @@
+{
+  "date": "2026-11-11",
+  "lead": {
+    "title": "Designing for Agents — Zeno Rocha, Resend",
+    "link": "https://latent.space/p/resend/",
+    "excerpt": "Where does answer engine optimization (AEO) end and agent experience begin? Inside Resend, from the docs that help Claude Code pick an email API to the tools it uses to send.",
+    "source": "Latent Space",
+    "date": "Nov 10",
+    "image": "https://i.ytimg.com/vi/bdIoODXsu8k/maxresdefault.jpg",
+    "image_credit": null,
+    "section": "AI Agents & Agent Security",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "AI Agents & Agent Security",
+      "6h ago"
+    ],
+    "also": []
+  },
+  "pulse": [
+    {
+      "title": "AI usage generates a fragile codebase",
+      "thread": "https://news.ycombinator.com/item?id=50438318",
+      "link": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+      "link_domain": "evanxmerz.com",
+      "source": "Hacker News",
+      "domain": "evanxmerz.com",
+      "meta": "Hacker News · 384 points · 409 comments · 15h ago",
+      "also": [],
+      "image": "https://www.evanxmerz.com/images/ai-codebases-are-a-house-of-cards.jpg",
+      "icon": "https://evanxmerz.com/favicon.ico"
+    },
+    {
+      "title": "Gemini 4 Carbon is now available",
+      "thread": "https://news.ycombinator.com/item?id=50442303",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "link_domain": "blog.google",
+      "source": "Hacker News",
+      "domain": "blog.google",
+      "meta": "Hacker News · 275 points · 149 comments · 9h ago",
+      "also": [],
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_key_art_16-9_lockup.width-1300.jpg",
+      "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131"
+    },
+    {
+      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "thread": "https://news.ycombinator.com/item?id=50443812",
+      "link": "https://github.com/GoogleChrome/modern-web-guidance",
+      "link_domain": "github.com",
+      "source": "Hacker News",
+      "domain": "github.com",
+      "meta": "Hacker News · 264 points · 77 comments · 8h ago",
+      "also": [],
+      "image": "https://opengraph.githubassets.com/5e92c316fbf4fb9036896bd28561aa1026e4017cb768ab9dc572b16f6b0d7b04/GoogleChrome/modern-web-guidance",
+      "icon": "https://github.githubassets.com/favicons/favicon.svg"
+    },
+    {
+      "title": "Queens Public Library under ransomware attack",
+      "thread": "https://news.ycombinator.com/item?id=50437790",
+      "link": "https://connect.queenslibrary.org/",
+      "link_domain": "connect.queenslibrary.org",
+      "source": "Hacker News",
+      "domain": "connect.queenslibrary.org",
+      "meta": "Hacker News · 192 points · 107 comments · 17h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://connect.queenslibrary.org/images/favicon/queens/QPL_favicon_01.png"
+    },
+    {
+      "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
+      "thread": "https://news.ycombinator.com/item?id=50435660",
+      "link": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+      "link_domain": "cnbc.com",
+      "source": "Hacker News",
+      "domain": "cnbc.com",
+      "meta": "Hacker News · 191 points · 186 comments · 22h ago",
+      "also": [],
+      "image": "https://image.cnbcfm.com/api/v1/image/108410034-1792003128025-gettyimages-2245498775-raa-coreweav251110_npfn0.jpeg?v=1792003201&w=1920&h=1080",
+      "icon": "https://fm.cnbc.com/applications/cnbc.com/resources/img/CNBC_LOGO_FAVICON_1C_KO_RGB.ico"
+    },
+    {
+      "title": "Fireworks AI security breach impacts Notion and their customers",
+      "thread": "https://news.ycombinator.com/item?id=50437106",
+      "link": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+      "link_domain": "notion.com",
+      "source": "Hacker News",
+      "domain": "notion.com",
+      "meta": "Hacker News · 159 points · 60 comments · 18h ago",
+      "also": [],
+      "image": "https://www.notion.com/front-static/meta/help-center.png",
+      "icon": "https://www.notion.com/front-static/logo-ios.png"
+    },
+    {
+      "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
+      "thread": "https://news.ycombinator.com/item?id=50443716",
+      "link": "https://claude.com/resources/articles/sheets-whiteboards-data",
+      "link_domain": "claude.com",
+      "source": "Hacker News",
+      "domain": "claude.com",
+      "meta": "Hacker News · 158 points · 132 comments · 8h ago",
+      "also": [],
+      "image": "https://claude.com/resources/articles/sheets-whiteboards-data/opengraph-image/og",
+      "icon": "https://claude.com/icon.png"
+    },
+    {
+      "title": "Apple has new Mac app coming to make running local AI models easy",
+      "thread": "https://news.ycombinator.com/item?id=50446520",
+      "link": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+      "link_domain": "9to5mac.com",
+      "source": "Hacker News",
+      "domain": "9to5mac.com",
+      "meta": "Hacker News · 108 points · 90 comments · 4h ago",
+      "also": [],
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/Mac-mini.jpg?quality=82&strip=all&resize=1200,628",
+      "icon": "https://9to5mac.com/wp-content/uploads/sites/6/2019/10/cropped-cropped-mac1-1.png?w=180"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI-Assisted Engineering",
+      "cards": [
+        {
+          "title": "From Full to Hybrid Attention in LLMs",
+          "link": "https://sebastianraschka.com/blog/2026/full-to-hybrid-attention.html",
+          "excerpt": "How open-weight LLMs are shifting from full attention to hybrid and sparse designs, and what that means for long-context compute and memory.",
+          "source": "Sebastian Raschka",
+          "date": "Nov 10",
+          "image": "https://sebastianraschka.com/images/blog/2026/full-to-hybrid-attention/full-to-hybrid-attention.webp",
+          "icon": "https://sebastianraschka.com/images/favicons/favicon-32x32.png",
+          "domain": "sebastianraschka.com",
+          "hn": null,
+          "score": 0.667,
+          "coverage": 1
+        },
+        {
+          "title": "llm-gemini 0.36",
+          "link": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+          "excerpt": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else. This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5.5 prices) but…",
+          "source": "Simon Willison",
+          "date": "Nov 10",
+          "image": "https://static.simonwillison.net/static/2026/carbon-pelican.webp",
+          "icon": null,
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.803,
+          "coverage": 1
+        },
+        {
+          "title": "Yonkers Rises",
+          "link": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
+          "excerpt": "Tool: Yonkers Rises I realized I didn't know where Yonkers was, so I looked it up on Google Maps and then, to help embed its location and shape in my head (and to try out Claude Fable 5.2's 3D modeling and animation skills), I prompted Fable 5.2 Medium to: Make a three js animation where yonkers…",
+          "source": "Simon Willison",
+          "date": "Nov 10",
+          "image": "https://static.simonwillison.net/static/2026/yonkers.webp",
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.421,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+          "link": "https://huggingface.co/blog/hub-gcp-marketplace",
+          "excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "source": "Hugging Face",
+          "date": "Nov 10",
+          "image": "https://huggingface.co/blog/assets/hub-gcp-marketplace/thumbnail.jpg",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null,
+          "score": 0.378,
+          "coverage": 1
+        },
+        {
+          "title": "Decision Models in Hugging Face",
+          "link": "https://huggingface.co/blog/decision",
+          "excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "source": "Hugging Face",
+          "date": "Nov 10",
+          "image": "https://huggingface.co/blog/assets/decision/thumbnail.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null,
+          "score": 0.378,
+          "coverage": 1
+        },
+        {
+          "title": "Gemini Intelligence: New features, on more devices",
+          "link": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+          "excerpt": "A man speaks into a phone. Text on the screen reads 'Gemini Intelligence'",
+          "source": "Google AI",
+          "date": "Nov 10",
+          "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Intelligence_Signature27.max-600x600.format-webp.webp",
+          "icon": null,
+          "domain": "blog.google",
+          "hn": null,
+          "score": 0.754,
+          "coverage": 1
+        },
+        {
+          "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+          "link": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+          "excerpt": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
+          "source": "Google AI",
+          "date": "Nov 10",
+          "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Adobe_snippet_hero.max-600x600.format-webp.webp",
+          "icon": null,
+          "domain": "blog.google",
+          "hn": null,
+          "score": 0.597,
+          "coverage": 1
+        },
+        {
+          "title": "Google Cloud launches Gemini for healthcare.",
+          "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+          "excerpt": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
+          "source": "Google AI",
+          "date": "Nov 10",
+          "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/social_share_NWQpgus.max-600x600.format-webp.webp",
+          "icon": null,
+          "domain": "blog.google",
+          "hn": null,
+          "score": 0.574,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "AI Agents & Agent Security",
+      "cards": [
+        {
+          "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
+          "link": "https://latent.space/p/naiveai/",
+          "excerpt": "NaiveAI could potentially top Artificial Analysis’s speed rankings. Our hands-on test suggests its coding quality holds up against DeepSeek.",
+          "source": "Latent Space",
+          "date": "Nov 10",
+          "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/f3b4fd9f-a330-4090-a922-a912d25dcd7c/naiveai-feature2.png?t=1793721927",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null,
+          "score": 0.783,
+          "coverage": 1
+        },
+        {
+          "title": "Gilbert + Tobin rethinks the business of law with AI",
+          "link": "https://openai.com/index/gilbert-tobin-sam-nickless",
+          "excerpt": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+          "source": "OpenAI News",
+          "date": "Nov 12",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 1.562,
+          "coverage": 1
+        },
+        {
+          "title": "Introducing Businesses in ChatGPT",
+          "link": "https://openai.com/index/introducing-businesses-chatgpt",
+          "excerpt": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+          "source": "OpenAI News",
+          "date": "Nov 10",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.667,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "New OpenSSH Vulnerability",
+          "link": "https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html",
+          "excerpt": "It’s a bad one, and it’s been in the code for a decade: A newly disclosed flaw involving OpenSSH and musl, dubbed “*sshole,” allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts configured to block password authentication simply by entering an oversized password.…",
+          "source": "Schneier on Security",
+          "date": "Nov 10",
+          "image": null,
+          "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+          "domain": "schneier.com",
+          "hn": null,
+          "score": 0.576,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Leadership",
+      "cards": [
+        {
+          "title": "Reinventing business planning with agentic AI",
+          "link": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/reinventing-business-planning-with-agentic-ai",
+          "excerpt": "Combining better forecasting with AI agents will turn planning into a more continuous, intelligent, and responsive decision-making system—and reduce the manual work required to turn forecasts into action.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 10",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 3.117,
+          "coverage": 1
+        },
+        {
+          "title": "Brilliant Moves: Coffee with The Coca-Cola Company CEO Henrique Braun",
+          "link": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/brilliant-moves-coffee-with-the-coca-cola-company-ceo-henrique-braun",
+          "excerpt": "The Coca-Cola Company’s Henrique Braun and McKinsey’s Vik Malhotra discuss how an enduring institution keeps moving forward, and why staying constructively discontented may be the secret to staying relevant.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 10",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.394,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Agent Identity & Authorization",
+      "cards": [
+        {
+          "title": "Don't just flag it, fix it: How to run CodeMender in your pull requests",
+          "link": "https://cloud.google.com/blog/products/identity-security/how-to-run-codemender-in-your-pull-requests/",
+          "excerpt": "As many developers use agentic tools to create more code faster than ever before, the code has gotten more complex and they’re taking longer to find and fix software flaws. Helping to address that pressure is a key concern at Google. We know that software development velocity is increasing, as…",
+          "source": "Security & Identity",
+          "date": "Nov 10",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/figure-1a.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 3.821,
+          "coverage": 1
+        },
+        {
+          "title": "SSO sign-in consent screen: What it is and how to handle denials",
+          "link": "https://workos.com/blog/sso-sign-in-consent-screen",
+          "excerpt": "The sign-in consent screen shows users their email and identity provider before SSO completes. When it appears, how to handle a denial, and what to brand.",
+          "source": "WorkOS Blog",
+          "date": "Nov 10",
+          "image": "https://images.workoscdn.com/images/b8ecd087-45b0-4195-aa0c-462a049bf9c1.png?auto=format&fit=clip&q=80",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null,
+          "score": 0.439,
+          "coverage": 1
+        },
+        {
+          "title": "WorkOS security review: SOC 2, data stored and IPs to allow",
+          "link": "https://workos.com/blog/workos-security-review",
+          "excerpt": "What WorkOS stores, which IPs to allow, where data lives and what it is certified for. A security review answer sheet for IT teams approving SSO with WorkOS.",
+          "source": "WorkOS Blog",
+          "date": "Nov 10",
+          "image": "https://images.workoscdn.com/images/895e5f66-737f-4a80-9793-40a35a6b3ee9.png?auto=format&fit=clip&q=80",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null,
+          "score": 0.252,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Secrets & NHI",
+      "cards": [
+        {
+          "title": "An ARTEX build ships no secret scanner. In our lab, it found the secrets anyway",
+          "link": "https://blog.gitguardian.com/an-artex-build-ships-no-secret-scanner-in-our-lab-it-found-the-secrets-anyway/",
+          "excerpt": "An ARTEX build ships no secret scanner. In our lab, it found 8 of 9 planted secrets in seconds, even when asked only to assess the repo.",
+          "source": "GitGuardian",
+          "date": "Nov 10",
+          "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/11/artex-lab-test-thumbnail-2.png",
+          "icon": null,
+          "domain": "blog.gitguardian.com",
+          "hn": null,
+          "score": 0.7,
+          "coverage": 1
+        },
+        {
+          "title": "3 Ways to Reduce Token Consumption When Using LLMs",
+          "link": "https://aembit.io/blog/3-ways-to-reduce-token-consumption-when-using-llms/",
+          "excerpt": "13 min readAs large language models become more important for companies, the overall cost of enterprise models is skyrocketing. An inefficient call from an employee might not seem too dangerous, but multiply that by the number of prompts per month and the number of employees in your company. In…",
+          "source": "Aembit",
+          "date": "Nov 10",
+          "image": "https://aembit.io/wp-content/uploads/2026/11/llm-1024x269.png",
+          "icon": null,
+          "domain": "aembit.io",
+          "hn": null,
+          "score": 0.586,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "Software Transparency Is Changing: Allan Friedman on SBOM, AI BOMs and What Comes Next",
+          "link": "https://www.securityweek.com/software-transparency-is-changing-allan-friedman-on-sbom-ai-boms-and-what-comes-next/",
+          "excerpt": "SBOM pioneer Allan Friedman joined the SecurityWeek Podcast to discuss why knowing what is inside software is only the beginning, how AI is complicating software supply chain visibility, and what organizations should be doing with SBOM data once they have it. The post Software Transparency Is…",
+          "source": "SecurityWeek",
+          "date": "Nov 10",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/Allan-Friedman_SBOM-Podcast.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 3.54,
+          "coverage": 1
+        },
+        {
+          "title": "Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code",
+          "link": "https://www.securityweek.com/google-widens-gemini-4-carbon-access-after-ai-agents-verify-signal-code/",
+          "excerpt": "Google opened Carbon to paying developers and businesses as DeepMind used agents built on it to prove libsignal security guarantees. The post Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 10",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/10/Signal-telegram-messaging.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 3.532,
+          "coverage": 1
+        },
+        {
+          "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
+          "link": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+          "excerpt": "A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for the 2.50 through 2.55 series in 2.50.2, 2.51.3, 2.52.1, 2.53.1, 2.54.1 and 2.55.1.…",
+          "source": "The Hacker News",
+          "date": "Nov 10",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipoPlLYj_xfJ8bsfRTONwa3estE9I2un_9OBx2fVuxEp-zoiADgipn-gGOeU4TqqyjqjrCpoGXC4jmuF7o1e_PUMbr-QoHDdPZEDWavb4VbjtWbOxMfmz-E9fIPT2DHEXYCN53l2jtiJGVfEFjHsR8gaHeyF59Yii0oTnP73vaslLWPzuideEGxTy6S9U/s1600/gits.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.481,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+          "link": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+          "excerpt": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could also have seen requests being processed on that server that day, including requests sent in confidential mode, the…",
+          "source": "The Hacker News",
+          "date": "Nov 10",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifQOwa1ngLZRATbbZyg_iud4SNx-9ugjo2iOG6crnJzatc_uS9FjGScBnNUy-uNIuOEE3Y6kJTpUVMVtOR1bW5sse_pRNJA1SQALCGjshDx6-CF1t8HXlUI2CCb6yp7Uepz6uk3ctMLUlSx4Q36Q7pZcx1nb9wPgbYAZqvd6CnSJ6WM6Kn_ZENtHpESoM/s1600/nearai.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 3.355,
+          "coverage": 1
+        },
+        {
+          "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+          "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+          "excerpt": "French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild. The authentication bypass flaw, which does not yet have a CVE identifier, is tracked as VSA-2026-062. \"REST cookie parsing turns…",
+          "source": "The Hacker News",
+          "date": "Nov 10",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMH_u7t-U3KIejAItsfC_js20xJgxT2ITYLsR0DAxzfcwDvPrzBHkpZlDuALWPnACOoknX2IALwHIUxIzfhbA24M7e8cGWTZpBMWqpX-wn6xqe8_U3fAtnR-9RsRdFHMCjvNnBsMXrEUKhVYS5bbTGL3B50UMO0aydtHIomY89s2iDAQMq0jXJJ3vh4Nvi/s1600/XEN-attack.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 2.261,
+          "coverage": 2
+        },
+        {
+          "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
+          "link": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+          "excerpt": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institutions, and critical infrastructure across Latin America, Asia, and Europe over…",
+          "source": "The Hacker News",
+          "date": "Nov 10",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJzh3KQXtsNe_Hb53sMmMSiGIRHL-ybly73FQY1F-RNeFR181cAeiYkvBDi80Upvlea0WqHLNW6ydto2DhfeD3PlISviNhaTUtVBdQMziXOtKybeWLKj7O3UmmeKP0vGX5ufVBkf1dbShyphenhyphenXgawm2sMttXPfbTTDtmYxbXo7Lw0jkGXtt-E-X7W7PtNxfD-/s1600/chinese-telecom.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.442,
+          "coverage": 1
+        },
+        {
+          "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+          "link": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+          "excerpt": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant. The activity, observed by Huntress in early October 2026, involves the exploitation of a chain comprising CVE-2026-105133 and CVE-2026-105134…",
+          "source": "The Hacker News",
+          "date": "Nov 10",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgT-Z8hFA8uMe4HXLf_4QRk4Z4VLuUCDRL89LcgpXfsj9YAwLsLHIZL46pn2SLz0BBhCKPUKBhChDRRsKYPSkZPwmsDIhozGQ-4YemxOSol0AiwBEgtGX9OSZ_L3SQZVoebBX1fWGkh8TQ_hNVYHho0eCrBQzLlhnjPhhymXqcWePyuhdQDCMb6KJi6pmIe/s1600/cbs.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.407,
+          "coverage": 1
+        },
+        {
+          "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
+          "link": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+          "excerpt": "The threat actor known as Blind Eagle has resurfaced with a new campaign targeting organizations in Latin America through judicial and administrative-themed phishing lures to deliver a remote access trojan (RAT) that shares its lineage with AsyncRAT and DCRat. \"The campaign uses Portuguese and…",
+          "source": "The Hacker News",
+          "date": "Nov 10",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhs4UHnKTj_NJCPa7Jqdntj8tEvZ2PgaY7s9kKK8_X2bxehTUcJeZPFfguJzvW_D0H9XD_q-qLZV2Qq6hqRYDQRYMXpyAzw-6T2yDjFjIY7zhGRLPDPjOalASUgX_Z-M2cEsNqiuys_4QjQ8vY_xl0fnWi2Y_9tT9aAH0WQOAB3D6uDf8yZY8VuphL4TRFG/s1600/court-phish.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.407,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "Inside the Gemini factory: Accelerating partner solutions",
+          "link": "https://cloud.google.com/blog/topics/partners/inside-the-gemini-factory-accelerating-partner-solutions/",
+          "excerpt": "With the new unified Gemini experience, enterprises can bring third-party partner capabilities directly in Gemini through standardized connectors (spanning Model Context Protocol (MCP), Agent-to-Agent (A2A) runtimes, and REST APIs), alongside emerging declarative skills and plugins. For…",
+          "source": "Cloud Blog",
+          "date": "Nov 10",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1_-_Accelerated_Partner_Development_Pipeli.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 4.801,
+          "coverage": 1
+        },
+        {
+          "title": "Welcoming OpenShell to the CNCF: Open Governance to Secure Agentic AI",
+          "link": "https://www.cncf.io/blog/2026/11/10/welcoming-openshell-to-the-cncf-open-governance-to-secure-agentic-ai/",
+          "excerpt": "Today at KubeCon + CloudNativeCon North America, the Cloud Native Computing Foundation (CNCF) welcomes OpenShell as a Sandbox project. NVIDIA has contributed OpenShell, an open source runtime for securing and governing autonomous AI agents, to the...",
+          "source": "Blog – Cloud Native Computing Foundation",
+          "date": "Nov 10",
+          "image": "https://www.cncf.io/wp-content/uploads/2026/11/HAProxy-Technologies-5.jpg",
+          "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
+          "domain": "cncf.io",
+          "hn": null,
+          "score": 3.224,
+          "coverage": 1
+        },
+        {
+          "title": "Istio Enables Global Availability for All Workloads — Traditional, Agentic and Beyond",
+          "link": "https://www.cncf.io/blog/2026/11/10/istio-enables-global-availability-for-all-workloads-traditional-agentic-and-beyond/",
+          "excerpt": "AI agent deployment alongside traditional cloud native applications is rising, and securing and managing network traffic across various workloads has become more complex. Platform operators need consistent security, visibility and control without introducing additional operational overhead....",
+          "source": "Blog – Cloud Native Computing Foundation",
+          "date": "Nov 10",
+          "image": "https://www.cncf.io/wp-content/uploads/2026/11/Blog-Default.jpg",
+          "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
+          "domain": "cncf.io",
+          "hn": null,
+          "score": 3.224,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "The Blueprint: How Authentic Brands Group expands creativity with AuthOS",
+          "link": "https://cloud.google.com/blog/topics/retail/the-blueprint-how-authentic-brands-group-expands-creativity-with-authos/",
+          "excerpt": "Welcome to The Blueprint, a new feature where we highlight how Google Cloud customers are tackling unique and common challenges across industries using the latest AI and cloud technologies. We hope to inspire others looking to innovate in their work.Authentic Brands Group, a global lifestyle and…",
+          "source": "Cloud Blog",
+          "date": "Nov 10",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/ABG-Autho-OS-hero.max-600x600.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 2.53,
+          "coverage": 1
+        },
+        {
+          "title": "BigQuery measures is now GA: Unifying BI metrics and knowledge graphs for AI accuracy",
+          "link": "https://cloud.google.com/blog/products/data-analytics/bigquery-measures-ga-unifying-bi-metrics-and-knowledge-graphs/",
+          "excerpt": "To answer a complex business question, an AI agent must understand two things: what happened, and why. The what is a governed metric, like revenue at risk; the why is the network of relationships that produced it. Because metric definitions, a.k.a. measures, traditionally live in business…",
+          "source": "Cloud Blog",
+          "date": "Nov 10",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Figure_1_Unified_Model_BI_and_Graphs.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 2.985,
+          "coverage": 1
+        },
+        {
+          "title": "Monitor OpenAI Codex usage and impact with Datadog",
+          "link": "https://www.datadoghq.com/blog/monitor-openai-codex-with-datadog/",
+          "excerpt": "Track OpenAI Codex adoption, token consumption, code contributions, and review activity, and connect usage to software delivery performance.",
+          "source": "Datadog | The Monitor blog",
+          "date": "Nov 10",
+          "image": "https://web-assets.dd-static.net/42588/1794333734-codex-integration-announcement-hero-image.png",
+          "icon": "https://www.datadoghq.com/favicon.ico",
+          "domain": "datadoghq.com",
+          "hn": null,
+          "score": 1.562,
+          "coverage": 1
+        },
+        {
+          "title": "Experimenting with ClusterNetworkPolicy in GKE",
+          "link": "https://cloud.google.com/blog/topics/developers-practitioners/experimenting-with-clusternetworkpolicy-in-gke/",
+          "excerpt": "Standard Network Policies limit you to applying policies at the namespace level, but ClusterNetworkPolicy (CNP) lets you apply granular networking policies across an entire cluster. When you use CNP, you can easily scale security and governance policies. Recently, I experimented with this…",
+          "source": "Cloud Blog",
+          "date": "Nov 10",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/clusternetworkpolicy-hero_TEG7Wrh.max-600x600.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 2.512,
+          "coverage": 1
+        },
+        {
+          "title": "Jaeger Previews AI-Assisted Troubleshooting and GenAI Observability for OpenTelemetry Traces at KubeCon",
+          "link": "https://www.cncf.io/blog/2026/11/10/jaeger-previews-ai-assisted-troubleshooting-and-genai-observability-for-opentelemetry-traces-at-kubecon/",
+          "excerpt": "New experimental capabilities bring natural-language troubleshooting, native MCP tools and GenAI-aware trace visualization to Jaeger As AI applications move into production, developers and platform teams face new challenges in understanding how complex distributed systems behave. Traditional...",
+          "source": "Blog – Cloud Native Computing Foundation",
+          "date": "Nov 10",
+          "image": "https://www.cncf.io/wp-content/uploads/2026/11/Blog-Default-2.jpg",
+          "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
+          "domain": "cncf.io",
+          "hn": null,
+          "score": 2.298,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+          "link": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+          "excerpt": "New York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to register, disclose safety practices, and report critical incidents or face fines.",
+          "source": "TechCrunch",
+          "date": "Nov 10",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2302996653.jpg?w=1024",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
+          "hn": null,
+          "score": 3.193,
+          "coverage": 1
+        },
+        {
+          "title": "Microsoft’s DLSS competitor is out for the Xbox Ally X and works in handheld mode",
+          "link": "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling",
+          "excerpt": "Microsoft is now rolling out Automatic Super Resolution (Auto SR), an upscaling technology that competes with Nvidia's DLSS, for the Xbox Ally X, Xbox Ally X20, and select Windows Copilot Plus PCs, the company announced today. Auto SR is also getting some new features alongside this official…",
+          "source": "The Verge",
+          "date": "Nov 11",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/257996_ROG_Xbox_Ally_and_Xbox_Ally_X_AKrales_0073.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "icon": null,
+          "domain": "theverge.com",
+          "hn": null,
+          "score": 2.219,
+          "coverage": 1
+        },
+        {
+          "title": "The DRAM interface and the PHY (why a DDR3+ interface must be tuned at boot)",
+          "link": "https://github.com/enjoy-digital/litedram/blob/master/doc/manual/03_dram_interface.md",
+          "excerpt": "Small footprint and configurable DRAM core. Contribute to enjoy-digital/litedram development by creating an account on GitHub.",
+          "source": "github.com via Hacker News",
+          "date": "Nov 10",
+          "image": "https://opengraph.githubassets.com/db5463d4e14b58443c86d769113c55000b7ea78cc0d84667410b4cece7625b23/enjoy-digital/litedram",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "15 points · 1 comments",
+          "score": 1.992,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "After 7 months, Glasswing overwelms maintainers with underwhelming findings",
+          "link": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+          "excerpt": "Seven months into Project Glasswing, VulnCheck has tracked 442 CVEs attributable to Anthropic, roughly 0.5% of all CVEs published this year, with only two identified as exploited in the wild. Of Anthropicâs 37,966 reported findings, only 7,349 (19.4%) have been made public and just 217 have been…",
+          "source": "vulncheck.com via Hacker News",
+          "date": "Nov 10",
+          "image": "https://www.vulncheck.com/_og/s/o_6eba28d38c5a4083.png",
+          "icon": "https://www.vulncheck.com/apple-touch-icon.png",
+          "domain": "vulncheck.com",
+          "hn": "221 points · 85 comments",
+          "score": 3.276,
+          "coverage": 1
+        },
+        {
+          "title": "$30M Raised to Redo the CPU",
+          "link": "https://tendrils.co/blog/2026-11-10/30m-raised",
+          "excerpt": "29 points · 15 comments",
+          "source": "tendrils.co via Hacker News",
+          "date": "Nov 10",
+          "image": null,
+          "icon": "https://tendrils.co/apple-touch-icon-57x57.png",
+          "domain": "tendrils.co",
+          "hn": "29 points · 15 comments",
+          "score": 2.298,
+          "coverage": 1
+        },
+        {
+          "title": "Six Math Essentials by Terence Tao",
+          "link": "https://teorth.github.io/tao-web/six-math-essentials.html",
+          "excerpt": "127 points · 25 comments",
+          "source": "teorth.github.io via Hacker News",
+          "date": "Nov 10",
+          "image": null,
+          "icon": "https://teorth.github.io/favicon.ico",
+          "domain": "teorth.github.io",
+          "hn": "127 points · 25 comments",
+          "score": 2.699,
+          "coverage": 1
+        },
+        {
+          "title": "Sherman Anti-Trust Act (1890)",
+          "link": "https://www.archives.gov/milestone-documents/sherman-anti-trust-act",
+          "excerpt": "EnlargeDownload Link Citation: Act of July 2, 1890(Sherman Anti-Trust Act), July 2, 1890; Enrolled Acts and Resolutions of Congress, 1789-1992; General Records of the United States Government; Record Group 11; National Archives. View All Pages in the National Archives Catalog View Transcript…",
+          "source": "archives.gov via Hacker News",
+          "date": "Nov 10",
+          "image": "https://www.archives.gov/sites/all/themes/nara/images/naralogo-og.png",
+          "icon": "https://www.archives.gov/files/apple-icon.png",
+          "domain": "archives.gov",
+          "hn": "72 points · 44 comments",
+          "score": 2.568,
+          "coverage": 1
+        },
+        {
+          "title": "Scion is back and is going to sell a kei truck in America",
+          "link": "https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/",
+          "excerpt": "Toyota's Scion is back and this time it's weird. The new Scion is going to sell a Kei truck in America, plus a bike and a hybrid side-by-side",
+          "source": "theautopian.com via Hacker News",
+          "date": "Nov 10",
+          "image": "https://images-stag.jazelc.com/uploads/theautopian-m2en/20261110110448/ScionByToyota_Family_TS3.jpg",
+          "icon": "https://images-stag.jazelc.com/uploads/theautopian-m2en/autopianfavicon.png",
+          "domain": "theautopian.com",
+          "hn": "325 points · 248 comments",
+          "score": 3.109,
+          "coverage": 1
+        }
+      ]
+    }
+  ]
+}
