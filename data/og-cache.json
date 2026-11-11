@@ -335,6 +335,12 @@
   "icon": "https://ayoships.com/ayo.jpg",
   "image": "https://ayoships.com/breakdowns/block-blast/og.jpg?v=3"
  },
+ "https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html": {
+  "description": "It started with automating his emails.",
+  "fetched": "2026-11-11",
+  "icon": null,
+  "image": "https://babuschk.in/images/social-card.png"
+ },
  "https://bbrouter.com/bbrouter/ben-eater-sap-1": {
   "description": "A project by @bbrouter on BBRouter, the 3D breadboard editor and simulator: open it to look around and run it.",
   "fetched": "2026-11-01",
@@ -1282,6 +1288,12 @@
   "fetched": "2026-10-29",
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://repository-images.githubusercontent.com/349134426/ad5d8e71-d4a8-496c-a54b-c4c0042eb88b"
+ },
+ "https://github.com/adrbn/bo2-mac": {
+  "description": "Call of Duty: Black Ops II statically recompiled from 32-bit x86 Windows to native ARM64 macOS: Remill → LLVM IR, a hand-written Win32 runtime, Direct3D 11 drawn by Metal. No Wine, no game files. -...",
+  "fetched": "2026-11-11",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://opengraph.githubassets.com/090555d5c0abb5e4093d75a06c3f20ac50e011b542a65ebededcca2f108bd129/adrbn/bo2-mac"
  },
  "https://github.com/anthropics/claude-code/issues/107757": {
   "description": "Bug Description I receive dozens of scam emails per day because claude code divulged my email to arbitrary 3rd parties in the User-Agent request header while conducting web searches without my perm...",
@@ -2630,6 +2642,12 @@
  "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure": {
   "description": null,
   "fetched": "2026-11-05",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/singapore-airlines-travel-work": {
+  "description": null,
+  "fetched": "2026-11-11",
   "icon": null,
   "image": null
  },
@@ -4168,6 +4186,12 @@
   "fetched": "2026-10-25",
   "icon": null,
   "image": "https://static.blast-info.fr/stories/2026/open_graph-information-exclusive-blast-le-premier-ministre-a-prepare-la-coupure-des-reseaux-sociaux-pour-le-24-octobre-9D8cgrU5S5iiW14Sb9nMzQ.jpg"
+ },
+ "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/": {
+  "description": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately $740,000 in fraudulent AI usage, potentially exposing credentials for up to 100,000 workspaces.",
+  "fetched": "2026-11-11",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/10/22/railway.jpg"
  },
  "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/": {
   "description": "OpenAI has launched GPT-6.1 Terra, a new model focused on computer use, visual reasoning, coding, and everyday work, while costing significantly less than its larger models.",
