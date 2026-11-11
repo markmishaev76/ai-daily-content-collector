@@ -13,7 +13,7 @@
     "note": null,
     "labels": [
       "AI Agents & Agent Security",
-      "6h ago"
+      "8h ago"
     ],
     "also": []
   },
@@ -25,22 +25,10 @@
       "link_domain": "evanxmerz.com",
       "source": "Hacker News",
       "domain": "evanxmerz.com",
-      "meta": "Hacker News · 384 points · 409 comments · 15h ago",
+      "meta": "Hacker News · 424 points · 432 comments · 17h ago",
       "also": [],
       "image": "https://www.evanxmerz.com/images/ai-codebases-are-a-house-of-cards.jpg",
       "icon": "https://evanxmerz.com/favicon.ico"
-    },
-    {
-      "title": "Gemini 4 Carbon is now available",
-      "thread": "https://news.ycombinator.com/item?id=50442303",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
-      "link_domain": "blog.google",
-      "source": "Hacker News",
-      "domain": "blog.google",
-      "meta": "Hacker News · 275 points · 149 comments · 9h ago",
-      "also": [],
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_key_art_16-9_lockup.width-1300.jpg",
-      "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131"
     },
     {
       "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
@@ -49,10 +37,22 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 264 points · 77 comments · 8h ago",
+      "meta": "Hacker News · 300 points · 90 comments · 10h ago",
       "also": [],
       "image": "https://opengraph.githubassets.com/5e92c316fbf4fb9036896bd28561aa1026e4017cb768ab9dc572b16f6b0d7b04/GoogleChrome/modern-web-guidance",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
+    },
+    {
+      "title": "Gemini 4 Carbon is now available",
+      "thread": "https://news.ycombinator.com/item?id=50442303",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "link_domain": "blog.google",
+      "source": "Hacker News",
+      "domain": "blog.google",
+      "meta": "Hacker News · 281 points · 150 comments · 11h ago",
+      "also": [],
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_key_art_16-9_lockup.width-1300.jpg",
+      "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131"
     },
     {
       "title": "Queens Public Library under ransomware attack",
@@ -61,34 +61,10 @@
       "link_domain": "connect.queenslibrary.org",
       "source": "Hacker News",
       "domain": "connect.queenslibrary.org",
-      "meta": "Hacker News · 192 points · 107 comments · 17h ago",
+      "meta": "Hacker News · 194 points · 107 comments · 19h ago",
       "also": [],
       "image": null,
       "icon": "https://connect.queenslibrary.org/images/favicon/queens/QPL_favicon_01.png"
-    },
-    {
-      "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
-      "thread": "https://news.ycombinator.com/item?id=50435660",
-      "link": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
-      "link_domain": "cnbc.com",
-      "source": "Hacker News",
-      "domain": "cnbc.com",
-      "meta": "Hacker News · 191 points · 186 comments · 22h ago",
-      "also": [],
-      "image": "https://image.cnbcfm.com/api/v1/image/108410034-1792003128025-gettyimages-2245498775-raa-coreweav251110_npfn0.jpeg?v=1792003201&w=1920&h=1080",
-      "icon": "https://fm.cnbc.com/applications/cnbc.com/resources/img/CNBC_LOGO_FAVICON_1C_KO_RGB.ico"
-    },
-    {
-      "title": "Fireworks AI security breach impacts Notion and their customers",
-      "thread": "https://news.ycombinator.com/item?id=50437106",
-      "link": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
-      "link_domain": "notion.com",
-      "source": "Hacker News",
-      "domain": "notion.com",
-      "meta": "Hacker News · 159 points · 60 comments · 18h ago",
-      "also": [],
-      "image": "https://www.notion.com/front-static/meta/help-center.png",
-      "icon": "https://www.notion.com/front-static/logo-ios.png"
     },
     {
       "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
@@ -97,10 +73,34 @@
       "link_domain": "claude.com",
       "source": "Hacker News",
       "domain": "claude.com",
-      "meta": "Hacker News · 158 points · 132 comments · 8h ago",
+      "meta": "Hacker News · 164 points · 137 comments · 10h ago",
       "also": [],
       "image": "https://claude.com/resources/articles/sheets-whiteboards-data/opengraph-image/og",
       "icon": "https://claude.com/icon.png"
+    },
+    {
+      "title": "Fireworks AI security breach impacts Notion and their customers",
+      "thread": "https://news.ycombinator.com/item?id=50437106",
+      "link": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+      "link_domain": "notion.com",
+      "source": "Hacker News",
+      "domain": "notion.com",
+      "meta": "Hacker News · 160 points · 61 comments · 20h ago",
+      "also": [],
+      "image": "https://www.notion.com/front-static/meta/help-center.png",
+      "icon": "https://www.notion.com/front-static/logo-ios.png"
+    },
+    {
+      "title": "I deleted all my SSH keys",
+      "thread": "https://lobste.rs/s/sdtcvv/i_deleted_all_my_ssh_keys",
+      "link": "https://blog.infected.systems/posts/2026-11-03-i-deleted-all-my-ssh-keys/",
+      "link_domain": "blog.infected.systems",
+      "source": "Lobsters",
+      "domain": "blog.infected.systems",
+      "meta": "Lobsters · 21 points · 2 comments · 7h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://blog.infected.systems/apple-touch-icon.png"
     },
     {
       "title": "Apple has new Mac app coming to make running local AI models easy",
@@ -109,7 +109,7 @@
       "link_domain": "9to5mac.com",
       "source": "Hacker News",
       "domain": "9to5mac.com",
-      "meta": "Hacker News · 108 points · 90 comments · 4h ago",
+      "meta": "Hacker News · 117 points · 96 comments · 6h ago",
       "also": [],
       "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/Mac-mini.jpg?quality=82&strip=all&resize=1200,628",
       "icon": "https://9to5mac.com/wp-content/uploads/sites/6/2019/10/cropped-cropped-mac1-1.png?w=180"
@@ -129,7 +129,7 @@
           "icon": "https://sebastianraschka.com/images/favicons/favicon-32x32.png",
           "domain": "sebastianraschka.com",
           "hn": null,
-          "score": 0.667,
+          "score": 0.611,
           "coverage": 1
         },
         {
@@ -142,7 +142,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.803,
+          "score": 0.722,
           "coverage": 1
         },
         {
@@ -155,7 +155,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.421,
+          "score": 0.398,
           "coverage": 1
         }
       ],
@@ -170,7 +170,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.378,
+          "score": 0.359,
           "coverage": 1
         },
         {
@@ -183,7 +183,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.378,
+          "score": 0.359,
           "coverage": 1
         },
         {
@@ -196,7 +196,7 @@
           "icon": null,
           "domain": "blog.google",
           "hn": null,
-          "score": 0.754,
+          "score": 0.682,
           "coverage": 1
         },
         {
@@ -209,7 +209,7 @@
           "icon": null,
           "domain": "blog.google",
           "hn": null,
-          "score": 0.597,
+          "score": 0.552,
           "coverage": 1
         },
         {
@@ -222,7 +222,7 @@
           "icon": null,
           "domain": "blog.google",
           "hn": null,
-          "score": 0.574,
+          "score": 0.531,
           "coverage": 1
         }
       ]
@@ -240,7 +240,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.783,
+          "score": 0.709,
           "coverage": 1
         },
         {
@@ -266,7 +266,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.667,
+          "score": 0.623,
           "coverage": 1
         }
       ],
@@ -281,7 +281,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.576,
+          "score": 0.534,
           "coverage": 1
         }
       ]
@@ -299,7 +299,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 3.117,
+          "score": 2.961,
           "coverage": 1
         },
         {
@@ -312,7 +312,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.394,
+          "score": 0.374,
           "coverage": 1
         }
       ],
@@ -331,7 +331,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 3.821,
+          "score": 3.49,
           "coverage": 1
         },
         {
@@ -344,7 +344,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.439,
+          "score": 0.403,
           "coverage": 1
         },
         {
@@ -357,7 +357,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.252,
+          "score": 0.239,
           "coverage": 1
         }
       ],
@@ -376,7 +376,7 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 0.7,
+          "score": 0.627,
           "coverage": 1
         },
         {
@@ -389,7 +389,7 @@
           "icon": null,
           "domain": "aembit.io",
           "hn": null,
-          "score": 0.586,
+          "score": 0.534,
           "coverage": 1
         }
       ],
@@ -408,7 +408,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 3.54,
+          "score": 3.237,
           "coverage": 1
         },
         {
@@ -421,7 +421,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 3.532,
+          "score": 3.23,
           "coverage": 1
         },
         {
@@ -434,7 +434,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.481,
+          "score": 0.434,
           "coverage": 1
         }
       ],
@@ -449,7 +449,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 3.355,
+          "score": 3.031,
           "coverage": 1
         },
         {
@@ -462,7 +462,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.261,
+          "score": 2.054,
           "coverage": 2
         },
         {
@@ -475,7 +475,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.442,
+          "score": 0.402,
           "coverage": 1
         },
         {
@@ -488,7 +488,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.407,
+          "score": 0.374,
           "coverage": 1
         },
         {
@@ -501,7 +501,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.407,
+          "score": 0.373,
           "coverage": 1
         }
       ]
@@ -519,7 +519,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 4.801,
+          "score": 4.385,
           "coverage": 1
         },
         {
@@ -532,7 +532,7 @@
           "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
           "domain": "cncf.io",
           "hn": null,
-          "score": 3.224,
+          "score": 2.956,
           "coverage": 1
         },
         {
@@ -545,7 +545,7 @@
           "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
           "domain": "cncf.io",
           "hn": null,
-          "score": 3.224,
+          "score": 2.956,
           "coverage": 1
         }
       ],
@@ -560,7 +560,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.53,
+          "score": 2.35,
           "coverage": 1
         },
         {
@@ -573,7 +573,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.985,
+          "score": 2.726,
           "coverage": 1
         },
         {
@@ -586,7 +586,7 @@
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
           "hn": null,
-          "score": 1.562,
+          "score": 1.484,
           "coverage": 1
         },
         {
@@ -599,7 +599,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.512,
+          "score": 2.303,
           "coverage": 1
         },
         {
@@ -612,7 +612,7 @@
           "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
           "domain": "cncf.io",
           "hn": null,
-          "score": 2.298,
+          "score": 2.107,
           "coverage": 1
         }
       ]
@@ -630,7 +630,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 3.193,
+          "score": 2.861,
           "coverage": 1
         },
         {
@@ -643,24 +643,63 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 2.219,
+          "score": 1.932,
           "coverage": 1
         },
         {
-          "title": "The DRAM interface and the PHY (why a DDR3+ interface must be tuned at boot)",
-          "link": "https://github.com/enjoy-digital/litedram/blob/master/doc/manual/03_dram_interface.md",
-          "excerpt": "Small footprint and configurable DRAM core. Contribute to enjoy-digital/litedram development by creating an account on GitHub.",
-          "source": "github.com via Hacker News",
-          "date": "Nov 10",
-          "image": "https://opengraph.githubassets.com/db5463d4e14b58443c86d769113c55000b7ea78cc0d84667410b4cece7625b23/enjoy-digital/litedram",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "15 points · 1 comments",
-          "score": 1.992,
+          "title": "Hooked on Tuna",
+          "link": "https://blue-continuum.com/hooked-on-tuna",
+          "excerpt": "People have been harvesting these ocean predators for 44,000 years.",
+          "source": "blue-continuum.com via Hacker News",
+          "date": "Nov 11",
+          "image": "https://blue-continuum.com/__l5e/assets-v1/e8058cfa-2abb-48eb-83ec-61f214049623/hooked-on-tuna-hero.jpg",
+          "icon": "https://blue-continuum.com/favicon-192.png",
+          "domain": "blue-continuum.com",
+          "hn": "10 points · 0 comments",
+          "score": 1.84,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "A great old-timey game-programming hack (2013)",
+          "link": "https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html",
+          "excerpt": "47 points · 8 comments",
+          "source": "blog.moertel.com via Hacker News",
+          "date": "Nov 11",
+          "image": null,
+          "icon": "https://blog.moertel.com/apple-touch-icon.png",
+          "domain": "blog.moertel.com",
+          "hn": "47 points · 8 comments",
+          "score": 2.697,
+          "coverage": 1
+        },
+        {
+          "title": "LLMs Play Zachtronics' TIS-100",
+          "link": "https://tis-100.wincon.dev/",
+          "excerpt": "16 LLMs took on TIS-100's community leaderboard and found 133 new frontier points on 18 of 55 puzzles, including 3 outright cycle records.",
+          "source": "tis-100.wincon.dev via Hacker News",
+          "date": "Nov 11",
+          "image": "https://tis-100.wincon.dev/assets/og-tis100.png?v=aec5b0d1",
+          "icon": "https://tis-100.wincon.dev/apple-touch-icon.png",
+          "domain": "tis-100.wincon.dev",
+          "hn": "20 points · 2 comments",
+          "score": 2.009,
+          "coverage": 1
+        },
+        {
+          "title": "AI is an information gateway. Audiences still don't want it making their news",
+          "link": "https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/",
+          "excerpt": "An average of 24% of respondents across nine countries said they'd seen a label noting that content was made with AI in the last week, and 20% had seen a bullet-point AI news summary.",
+          "source": "niemanlab.org via Hacker News",
+          "date": "Nov 11",
+          "image": "https://www.niemanlab.org/images/MarcinWilkowski-DatifiedRelations-better-images-of-ai.jpg",
+          "icon": "https://www.niemanlab.org/favicon.ico",
+          "domain": "niemanlab.org",
+          "hn": "20 points · 10 comments",
+          "score": 2.114,
+          "coverage": 1
+        },
         {
           "title": "After 7 months, Glasswing overwelms maintainers with underwhelming findings",
           "link": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
@@ -670,60 +709,21 @@
           "image": "https://www.vulncheck.com/_og/s/o_6eba28d38c5a4083.png",
           "icon": "https://www.vulncheck.com/apple-touch-icon.png",
           "domain": "vulncheck.com",
-          "hn": "221 points · 85 comments",
-          "score": 3.276,
+          "hn": "328 points · 147 comments",
+          "score": 3.104,
           "coverage": 1
         },
         {
           "title": "$30M Raised to Redo the CPU",
           "link": "https://tendrils.co/blog/2026-11-10/30m-raised",
-          "excerpt": "29 points · 15 comments",
+          "excerpt": "45 points · 33 comments",
           "source": "tendrils.co via Hacker News",
           "date": "Nov 10",
           "image": null,
           "icon": "https://tendrils.co/apple-touch-icon-57x57.png",
           "domain": "tendrils.co",
-          "hn": "29 points · 15 comments",
-          "score": 2.298,
-          "coverage": 1
-        },
-        {
-          "title": "Six Math Essentials by Terence Tao",
-          "link": "https://teorth.github.io/tao-web/six-math-essentials.html",
-          "excerpt": "127 points · 25 comments",
-          "source": "teorth.github.io via Hacker News",
-          "date": "Nov 10",
-          "image": null,
-          "icon": "https://teorth.github.io/favicon.ico",
-          "domain": "teorth.github.io",
-          "hn": "127 points · 25 comments",
-          "score": 2.699,
-          "coverage": 1
-        },
-        {
-          "title": "Sherman Anti-Trust Act (1890)",
-          "link": "https://www.archives.gov/milestone-documents/sherman-anti-trust-act",
-          "excerpt": "EnlargeDownload Link Citation: Act of July 2, 1890(Sherman Anti-Trust Act), July 2, 1890; Enrolled Acts and Resolutions of Congress, 1789-1992; General Records of the United States Government; Record Group 11; National Archives. View All Pages in the National Archives Catalog View Transcript…",
-          "source": "archives.gov via Hacker News",
-          "date": "Nov 10",
-          "image": "https://www.archives.gov/sites/all/themes/nara/images/naralogo-og.png",
-          "icon": "https://www.archives.gov/files/apple-icon.png",
-          "domain": "archives.gov",
-          "hn": "72 points · 44 comments",
-          "score": 2.568,
-          "coverage": 1
-        },
-        {
-          "title": "Scion is back and is going to sell a kei truck in America",
-          "link": "https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/",
-          "excerpt": "Toyota's Scion is back and this time it's weird. The new Scion is going to sell a Kei truck in America, plus a bike and a hybrid side-by-side",
-          "source": "theautopian.com via Hacker News",
-          "date": "Nov 10",
-          "image": "https://images-stag.jazelc.com/uploads/theautopian-m2en/20261110110448/ScionByToyota_Family_TS3.jpg",
-          "icon": "https://images-stag.jazelc.com/uploads/theautopian-m2en/autopianfavicon.png",
-          "domain": "theautopian.com",
-          "hn": "325 points · 248 comments",
-          "score": 3.109,
+          "hn": "45 points · 33 comments",
+          "score": 2.291,
           "coverage": 1
         }
       ]
