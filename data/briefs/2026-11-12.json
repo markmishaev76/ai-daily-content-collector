@@ -1,47 +1,29 @@
 {
   "date": "2026-11-12",
   "lead": {
-    "title": "AI adoption has left strategy behind",
-    "link": "https://leaddev.com/ai/ai-adoption-has-left-strategy-behind?utm_source=leaddev&utm_medium=RSS",
-    "excerpt": "Nearly everyone uses AI. Few plan it. The post AI adoption has left strategy behind appeared first on LeadDev.",
-    "source": "LeadDev",
+    "title": "Notion Customer Data Compromised in Fireworks AI Hack",
+    "link": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/",
+    "excerpt": "The attackers accessed chat transcripts for fewer than 1% of Notion workspaces. Most transcripts were unattributable. The post Notion Customer Data Compromised in Fireworks AI Hack appeared first on SecurityWeek.",
+    "source": "SecurityWeek",
     "date": "Nov 12",
-    "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2024/10/Resize-for-website-2.png",
+    "image": "https://www.securityweek.com/wp-content/uploads/2025/10/bank-finance-lender-credit-union-hack.jpeg",
     "image_credit": null,
-    "section": "AI-Assisted Engineering",
+    "section": "Security & AppSec",
     "pinned": false,
     "note": null,
     "labels": [
-      "AI-Assisted Engineering",
-      "1h ago"
+      "2 sources",
+      "Security & AppSec",
+      "2h ago"
     ],
-    "also": []
+    "also": [
+      {
+        "name": "bleepingcomputer.com",
+        "link": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/"
+      }
+    ]
   },
   "pulse": [
-    {
-      "title": "My AI agents found an unmapped Maya site?",
-      "thread": "https://news.ycombinator.com/item?id=50452455",
-      "link": "https://pietromiotti.com/latest/maya-site",
-      "link_domain": "pietromiotti.com",
-      "source": "Hacker News",
-      "domain": "pietromiotti.com",
-      "meta": "Hacker News · 990 points · 359 comments · 21h ago",
-      "also": [],
-      "image": "https://pietromiotti.com/latest/maya-site/forest-vs-lidar.jpg",
-      "icon": "https://pietromiotti.com/favicon.ico"
-    },
-    {
-      "title": "How do you actually self-host securely?",
-      "thread": "https://lobste.rs/s/m43bas/how_do_you_actually_self_host_securely",
-      "link": null,
-      "link_domain": "",
-      "source": "Lobsters",
-      "domain": "Lobsters",
-      "meta": "Lobsters · 109 points · 60 comments · 21h ago",
-      "also": [],
-      "image": null,
-      "icon": null
-    },
     {
       "title": "How I accidentally became a millionaire",
       "thread": "https://lobste.rs/s/lnau2d/how_i_accidentally_became_millionaire",
@@ -49,22 +31,10 @@
       "link_domain": "lyra.horse",
       "source": "Lobsters",
       "domain": "lyra.horse",
-      "meta": "Lobsters · 106 points · 10 comments · 11h ago",
+      "meta": "Lobsters · 140 points · 20 comments · 15h ago",
       "also": [],
       "image": null,
       "icon": "https://lyra.horse/favicon.ico"
-    },
-    {
-      "title": "What are some \"No AI\" apps/companies/resources you know of?",
-      "thread": "https://lobste.rs/s/nld6x3/what_are_some_no_ai_apps_companies",
-      "link": null,
-      "link_domain": "",
-      "source": "Lobsters",
-      "domain": "Lobsters",
-      "meta": "Lobsters · 79 points · 34 comments · 20h ago",
-      "also": [],
-      "image": null,
-      "icon": null
     },
     {
       "title": "How a false smoke alarm almost drowned Jane Street's only NYC datacenter",
@@ -73,7 +43,7 @@
       "link_domain": "michael.bacarella.com",
       "source": "Lobsters",
       "domain": "michael.bacarella.com",
-      "meta": "Lobsters · 57 points · 6 comments · 17h ago",
+      "meta": "Lobsters · 64 points · 7 comments · 20h ago",
       "also": [],
       "image": "https://michael.bacarella.com/assets/mbacface.jpg",
       "icon": "https://michael.bacarella.com/apple-touch-icon.png"
@@ -85,7 +55,7 @@
       "link_domain": "forums.spacebattles.com",
       "source": "Hacker News",
       "domain": "forums.spacebattles.com",
-      "meta": "Hacker News · 278 points · 155 comments · 2h ago",
+      "meta": "Hacker News · 307 points · 185 comments · 6h ago",
       "also": [],
       "image": null,
       "icon": "https://forums.spacebattles.com/favicon.ico"
@@ -97,7 +67,7 @@
       "link_domain": "blog.atuin.sh",
       "source": "Hacker News",
       "domain": "blog.atuin.sh",
-      "meta": "Hacker News · 217 points · 79 comments · 19h ago",
+      "meta": "Hacker News · 225 points · 80 comments · 23h ago",
       "also": [],
       "image": null,
       "icon": "https://storage.ghost.io/c/66/46/6646b777-02d8-44b3-9d01-dd721730b905/content/images/size/w256h256/2024/01/Atuin_Mascot-_01_square.png"
@@ -109,7 +79,7 @@
       "link_domain": "lpeproject.org",
       "source": "Hacker News",
       "domain": "lpeproject.org",
-      "meta": "Hacker News · 156 points · 165 comments · 14h ago",
+      "meta": "Hacker News · 160 points · 172 comments · 18h ago",
       "also": [],
       "image": "https://lpeproject.org/wp-content/uploads/2020/08/cropped-Screen-Shot-2020-08-13-at-6.04.41-PM.png",
       "icon": "https://lpeproject.org/wp-content/uploads/2020/08/cropped-LPE_Favicon_512px_BlackBG-450x450.png"
@@ -121,7 +91,7 @@
       "link_domain": "hugovk.dev",
       "source": "Lobsters",
       "domain": "hugovk.dev",
-      "meta": "Lobsters · 21 points · 5 comments · 15h ago",
+      "meta": "Lobsters · 21 points · 6 comments · 18h ago",
       "also": [],
       "image": "https://hugovk.dev/blog/2026/lock-github-actions/feature.jpg",
       "icon": "https://hugovk.dev/favicon.png"
@@ -133,16 +103,53 @@
       "link_domain": "danbooru.donmai.us",
       "source": "Lobsters",
       "domain": "danbooru.donmai.us",
-      "meta": "Lobsters · 18 points · 6 comments · 16h ago",
+      "meta": "Lobsters · 20 points · 7 comments · 20h ago",
       "also": [],
       "image": null,
       "icon": "https://danbooru.donmai.us/favicon.ico"
+    },
+    {
+      "title": "AI, activity, and outcomes in software engineering",
+      "thread": "https://news.ycombinator.com/item?id=50455332",
+      "link": "https://cabird.com/talks/shipping-faster/",
+      "link_domain": "cabird.com",
+      "source": "Hacker News",
+      "domain": "cabird.com",
+      "meta": "Hacker News · 119 points · 109 comments · 20h ago",
+      "also": [],
+      "image": "https://cabird.com/talks/shipping-faster/title.jpg",
+      "icon": "https://cabird.com/favicon.ico"
+    },
+    {
+      "title": "AWS Emulator and the engineer's job when agents write the code",
+      "thread": "https://news.ycombinator.com/item?id=50456740",
+      "link": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
+      "link_domain": "allthingsdistributed.com",
+      "source": "Hacker News",
+      "domain": "allthingsdistributed.com",
+      "meta": "Hacker News · 111 points · 2 comments · 18h ago",
+      "also": [],
+      "image": "https://www.allthingsdistributed.com/images/aws-emulator-header.jpg",
+      "icon": "https://www.allthingsdistributed.com/favicon.ico"
     }
   ],
   "sections": [
     {
       "name": "AI-Assisted Engineering",
       "cards": [
+        {
+          "title": "AI adoption has left strategy behind",
+          "link": "https://leaddev.com/ai/ai-adoption-has-left-strategy-behind?utm_source=leaddev&utm_medium=RSS",
+          "excerpt": "Nearly everyone uses AI. Few plan it. The post AI adoption has left strategy behind appeared first on LeadDev.",
+          "source": "LeadDev",
+          "date": "Nov 12",
+          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2024/10/Resize-for-website-2.png",
+          "icon": null,
+          "domain": "leaddev.com",
+          "hn": null,
+          "score": 6.384,
+          "coverage": 1
+        },
         {
           "title": "Using wearables to enable cardiovascular-kidney-metabolic (CKM) risk profiling for personalized coaching",
           "link": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/",
@@ -153,7 +160,7 @@
           "icon": null,
           "domain": "research.google",
           "hn": null,
-          "score": 0.554,
+          "score": 0.491,
           "coverage": 1
         },
         {
@@ -166,20 +173,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.53,
-          "coverage": 1
-        },
-        {
-          "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
-          "link": "https://huggingface.co/blog/token-pooling",
-          "excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "source": "Hugging Face",
-          "date": "Nov 11",
-          "image": "https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png",
-          "icon": "https://huggingface.co/favicon.ico",
-          "domain": "huggingface.co",
-          "hn": null,
-          "score": 0.314,
+          "score": 0.472,
           "coverage": 1
         }
       ],
@@ -194,7 +188,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 2.931,
+          "score": 2.578,
           "coverage": 1
         },
         {
@@ -207,7 +201,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.605,
+          "score": 0.53,
           "coverage": 1
         },
         {
@@ -220,7 +214,20 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.505,
+          "score": 0.451,
+          "coverage": 1
+        },
+        {
+          "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+          "link": "https://huggingface.co/blog/token-pooling",
+          "excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "source": "Hugging Face",
+          "date": "Nov 11",
+          "image": "https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null,
+          "score": 0.292,
           "coverage": 1
         },
         {
@@ -233,7 +240,7 @@
           "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131",
           "domain": "blog.google",
           "hn": null,
-          "score": 0.517,
+          "score": 0.461,
           "coverage": 1
         }
       ]
@@ -244,14 +251,14 @@
         {
           "title": "Launch HN: Pomerado (YC F26) – Turn any website into an MCP for agents",
           "link": "https://news.ycombinator.com/item?id=50455811",
-          "excerpt": "55 points · 43 comments",
+          "excerpt": "56 points · 45 comments",
           "source": "Hacker News",
           "date": "Nov 11",
           "image": null,
           "icon": null,
           "domain": "news.ycombinator.com",
-          "hn": "55 points · 43 comments",
-          "score": 4.741,
+          "hn": "56 points · 45 comments",
+          "score": 4.255,
           "coverage": 1
         },
         {
@@ -264,7 +271,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.731,
+          "score": 0.606,
           "coverage": 1
         },
         {
@@ -277,11 +284,37 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.717,
+          "score": 0.597,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "Holiday Extras is rethinking what it can build with Codex",
+          "link": "https://openai.com/business/customer-stories/holidays-extras-codex",
+          "excerpt": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+          "source": "OpenAI News",
+          "date": "Nov 12",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 6.304,
+          "coverage": 1
+        },
+        {
+          "title": "Supporting research on AI and children’s safety",
+          "link": "https://openai.com/index/children-first-declaration",
+          "excerpt": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+          "source": "OpenAI News",
+          "date": "Nov 12",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.594,
+          "coverage": 1
+        },
         {
           "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
           "link": "https://openai.com/index/jiostar-vijay-seshadri",
@@ -292,7 +325,20 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.327,
+          "score": 0.305,
+          "coverage": 1
+        },
+        {
+          "title": "Another Way Police Are Locating People from Their Smartphones",
+          "link": "https://www.schneier.com/blog/archives/2026/11/another-way-police-are-locating-people-from-their-smartphones.html",
+          "excerpt": "Penlink’s Webloc is an application that locates people using information from the weather, gaming, email, and religious apps on their phone. It’s sold to the police. The tool collects vast quantities of location data from smartphones via commonly used weather, gaming, email and religious apps. It…",
+          "source": "Schneier on Security",
+          "date": "Nov 12",
+          "image": null,
+          "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+          "domain": "schneier.com",
+          "hn": null,
+          "score": 0.91,
           "coverage": 1
         },
         {
@@ -305,7 +351,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.355,
+          "score": 0.323,
           "coverage": 1
         }
       ]
@@ -323,7 +369,7 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.662,
+          "score": 0.576,
           "coverage": 1
         },
         {
@@ -336,7 +382,35 @@
           "icon": null,
           "domain": "open.spotify.com",
           "hn": null,
-          "score": 0.517,
+          "score": 0.463,
+          "coverage": 1
+        },
+        {
+          "title": "An Interview With Roblox CEO David Baszucki About Aggregating Play",
+          "link": "https://stratechery.com/2026/an-interview-with-roblox-ceo-david-baszucki-about-aggregating-play/",
+          "excerpt": "An interview with Roblox CEO David Baszucki about how AI is transforming game creation, and why that opens up huge opportunities to both enable developers and make Roblox both an Aggregator and a platform.",
+          "source": "Stratechery by Ben Thompson",
+          "date": "Nov 12",
+          "image": "https://i0.wp.com/stratechery.com/wp-content/uploads/2026/10/Stripe-wordmark-Blurple-Small.png?resize=330%2C138&ssl=1",
+          "icon": null,
+          "domain": "stratechery.com",
+          "hn": null,
+          "score": 1.053,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Lessons From Tech’s Diversity Disclosures",
+          "link": "https://sloanreview.mit.edu/article/lessons-from-techs-diversity-disclosures/",
+          "excerpt": "Aron Vellekoop León/Ikon Images Transparency can be a powerful lever, yet it is also combustible. When businesses raise visibility faster than they build the capacity to deliver on what they’ve disclosed, transparency produces resistance and often backlash from multiple directions, even from those…",
+          "source": "MIT Sloan Management Review",
+          "date": "Nov 12",
+          "image": "https://sloanreview.mit.edu/wp-content/uploads/2026/11/Marsh_Report-1290x860-1.jpg",
+          "icon": null,
+          "domain": "sloanreview.mit.edu",
+          "hn": null,
+          "score": 1.133,
           "coverage": 1
         },
         {
@@ -349,11 +423,9 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.686,
+          "score": 0.594,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Rural healthcare and America’s $340 billion workforce earnings opportunity",
           "link": "https://www.mckinsey.com/institute-for-economic-mobility/our-insights/rural-healthcare-and-americas-340-billion-dollar-workforce-earnings-opportunity",
@@ -364,7 +436,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.686,
+          "score": 0.594,
           "coverage": 1
         },
         {
@@ -377,7 +449,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.686,
+          "score": 0.594,
           "coverage": 1
         }
       ]
@@ -395,7 +467,7 @@
           "icon": null,
           "domain": "blog.modelcontextprotocol.io",
           "hn": null,
-          "score": 2.734,
+          "score": 2.505,
           "coverage": 1
         }
       ],
@@ -414,7 +486,7 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 3.563,
+          "score": 3.175,
           "coverage": 1
         }
       ],
@@ -424,16 +496,70 @@
       "name": "Security & AppSec",
       "cards": [
         {
-          "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
-          "link": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
-          "excerpt": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments. \"In several recently observed intrusions, Alibaba…",
+          "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
+          "link": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
+          "excerpt": "Security teams have more alerts, logs, and monitoring tools than ever. Yet when an attack happens, one simple question can still take too long to answer: Who or what is behind this activity, and what can they access? A suspicious login might belong to an employee. An unusual API call could come…",
           "source": "The Hacker News",
-          "date": "Nov 11",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi08pEbJ7-HNwC0kJf517wnB6y8HwgKhMU-vxbhnCEh9KpWk1kmIjp_bb71k7GYfiTZNep3bcejvN7RmriF9_0RJnGGe9T5WB_nihCgxiDYOMl8mgDmI0Pm6ZFmPzf8HulQUxHjX3TncwmvqJIDPLyZBoHZpOahcMl7fehtwvT-oCxLzPec-KRtiScHT7wk/s1600/aws-secrets.jpg",
+          "date": "Nov 12",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj765JyAl658UR5d1raKFLJmZpxXuof0-wBCobeJwnWjWZROTa4wtMyPvTTjBr4-ccE0cmKpIyGT1BetlqUPkPS_omcKVWz7RcCv6sUl2h6KxXrem_X26kzrp7kwq8bSezUsYMa6h2JNh-rPglsuNnRzt6i3IdzBjkLFNBNy5-Y0jId2B6Zhyir_jdm8O4/s1600/sails.jpg",
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 1.485,
+          "score": 3.85,
+          "coverage": 1
+        },
+        {
+          "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
+          "link": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+          "excerpt": "Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week. The company has already applied mitigations against attacks between VMs, and between VMs and the host. Inside a VM, the flaws may let an attacker…",
+          "source": "The Hacker News",
+          "date": "Nov 12",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikEkIc_eg4_tE5XE6CQrLFl74Gk0QwxcqaGXBnDAlitVIbzreq8faf57QtAqFh8rEn7HgTJzvGUZl2yNBhWVKOKo9KqnJHfduQfoT_HqUTlKhE-FzshzDrpIskiMQ3_Lz2hImNMbt9VdCj0O725_WyZsDXDB91phFceXh6Y_qzHgv1nJPMNjv8a7AU52c/s1600/amd.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.688,
+          "coverage": 1
+        },
+        {
+          "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
+          "link": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
+          "excerpt": "N-able on Thursday said it's investigating a new public disclosure containing claims of additional vulnerabilities in on-premise versions of N-central running version 2026.4.1 HF2. \"Based on our initial review, the server issue described depends on a non-default configuration in which the Legacy…",
+          "source": "The Hacker News",
+          "date": "Nov 12",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhR4KdRS0v77uQIdhC0i5aopa8XIAZIRnTzVCVqto7dEdfUH2QyWgrAy1EKu-hARXS4pxNGQQEFroRHOtwSq_9Q8b92tmgw_97JMJoBfC72sl8pOcUYM9nU6YCJht4yD7ALWfERwhUwLsN8wo9t8YnKyIWzHhEAux5ox5WV4wvxe6l1cUmf58P1md2Ekziy/s1600/nable.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.673,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
+          "link": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
+          "excerpt": "Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator designed it that way on purpose. The Threat Research team at Material Security spotted the campaign and…",
+          "source": "The Hacker News",
+          "date": "Nov 12",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhf8YVgw9hIWEYN0_qgaD6MVIZad0fOCu_J5Z4Cn2CDuMzcV7HOQ9Xt4E08l1nOo7uMjAyYqYP-bUy5zHisRW8cfeSVmJcCKYgCTI2y1MpRUwsM1I2cs0MsuoAy7VSGLyTPzonhKITzWPU1hTADZnFt5VTZhlt4eJohVas2tzhl47AOV3Cp53LC_uhlpVY/s1600/mt.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.673,
+          "coverage": 1
+        },
+        {
+          "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
+          "link": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+          "excerpt": "PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution. The security flaw, tracked as CVE-2026-126325, carries a CVSS v4 score of 9.2 out of a maximum of 10.0. It has been described…",
+          "source": "The Hacker News",
+          "date": "Nov 12",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi01pvi78xYUtyxbtWQ4L5ddMr1yT2-WBSbAnp3wKXa-bpagXqtyQdxPqA43I1NxJGNLk4He30PS-GYUcd1sOaErtMAtNWL-qQUGfD0Y7wSxAzeYJXRf2lA5yFuznu8m2zRgf2llXMiR3w1H6YOOte5qs_DvRxcv0aPeOxWeIDybl1n58VlpuZPUJ0icWDL/s1600/ptc-flaw.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.658,
           "coverage": 1
         },
         {
@@ -446,7 +572,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 5.057,
+          "score": 3.981,
           "coverage": 1
         },
         {
@@ -459,11 +585,9 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.665,
+          "score": 0.533,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
           "link": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
@@ -474,59 +598,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.594,
-          "coverage": 1
-        },
-        {
-          "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
-          "link": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
-          "excerpt": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday. Only servers with HTTP/2 enabled are affected, according to…",
-          "source": "The Hacker News",
-          "date": "Nov 12",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLpi_uN6PmG2Gn1agNMsOrsCp324eH-utKkDl_SPe32ggjcWFPjxZSyeA1KvAtvI9SQ4VAN_zssvdJLJ59IXE8_-MatPOyFXY-FcwtL7HtfKyW3MtsKwglIe2X62WBOcUkPMv-klM1h8T2EBMWFOWyPG89bfbAHS5byyfXATXN_lUUJWmUGWChekyWxTQ/s1600/apache-http.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 6.657,
-          "coverage": 2
-        },
-        {
-          "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
-          "link": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
-          "excerpt": "ConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access. In an advisory posted on its site, the company said there is no evidence that the incident involves a compromise of its infrastructure or a…",
-          "source": "The Hacker News",
-          "date": "Nov 12",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEfz7InYm8UO-p35K6B4j009BxA-MO7DdZ2x1d-xhyphenhyphenPxNnVs848IlgAGelmuW-sPbEZbE8-L9_KWEYNH_M5HaTMy14MFd87A7YkqHAzDKaamKOdpZKR9owL3nK3gbqAngvWa6A4NC1KK1l0ie9FK731LfKPI0lguiGQ1b71sHIZj2kR2H3I-GJjSPY4kJU/s1600/screenconnect-hack.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.523,
-          "coverage": 1
-        },
-        {
-          "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
-          "link": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
-          "excerpt": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems. The vulnerabilities are listed below - CVE-2026-108186 (CVSS score: 9.6) - An improper input validation…",
-          "source": "The Hacker News",
-          "date": "Nov 11",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhox0GUms6IXvet2jPVoQ5VlUIZ_V7C3iT4HI3qV-Pi7_KRybDyGKGlb2S0Z4uvih4ERjjnGOn9Prav0HpvqNNR3_HVs7W5o0wM0-XsTdp6ploM2Optp5ls97C0JU5DIqubY-lNcLvLia25Z2c__IZt8Ws1OjX0tGavbyvb_dXrltSKj-HJHijQJ9AdDxEB/s1600/zoom-prv.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.303,
-          "coverage": 1
-        },
-        {
-          "title": "Hackers Target N-central Zero-Days as N-able Rushes Patches",
-          "link": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/",
-          "excerpt": "The malicious activity started shortly after a researcher dropped over 30 zero-days. N-able patched the unauthenticated ones. The post Hackers Target N-central Zero-Days as N-able Rushes Patches appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 12",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/08/N-Able.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.737,
+          "score": 0.486,
           "coverage": 1
         }
       ]
@@ -544,7 +616,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.619,
+          "score": 2.345,
           "coverage": 1
         },
         {
@@ -557,7 +629,7 @@
           "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
           "domain": "about.gitlab.com",
           "hn": null,
-          "score": 2.06,
+          "score": 1.919,
           "coverage": 1
         },
         {
@@ -570,7 +642,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.383,
+          "score": 2.134,
           "coverage": 1
         }
       ],
@@ -585,7 +657,20 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 2.383,
+          "score": 2.134,
+          "coverage": 1
+        },
+        {
+          "title": "Presentation: Opening the Black Box: Critical Explainability for AI Agent Tool Selection with Kiji Inspector",
+          "link": "https://www.infoq.com/presentations/explainable-ai-llm-agent-decisions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Hannes Hapke shares how Dataiku’s open-source Kiji Inspector applies Sparse Autoencoders (SAEs) directly to decision tokens to expose why agents pick specific tools. Moving past superficial chain-of-thought narratives, he discusses causal ablation, layer activation extraction via patched vLLM…",
+          "source": "InfoQ",
+          "date": "Nov 12",
+          "image": "https://res.infoq.com/presentations/explainable-ai-llm-agent-decisions/en/mediumimage/HannesHapke-medium-1793278895069.jpeg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 4.639,
           "coverage": 1
         },
         {
@@ -598,7 +683,7 @@
           "icon": null,
           "domain": "cncf.io",
           "hn": null,
-          "score": 1.691,
+          "score": 1.521,
           "coverage": 1
         },
         {
@@ -611,7 +696,7 @@
           "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.559,
+          "score": 1.396,
           "coverage": 1
         },
         {
@@ -625,19 +710,6 @@
           "domain": "developers.googleblog.com",
           "hn": null,
           "score": 1.98,
-          "coverage": 1
-        },
-        {
-          "title": "On-Device Speech Recognition and Text-to-Speech in Google AI Edge Gallery",
-          "link": "https://developers.googleblog.com/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/",
-          "excerpt": "Google AI Edge Gallery now supports on-device, offline Automatic Speech Recognition (ASR) and Text-to-Speech (TTS) capabilities for building developer-friendly voice applications. Developers can leverage ML Kit for optimized Android performance, or use MediaPipe Tasks and LiteRT for cross-platform…",
-          "source": "Google Developers Blog",
-          "date": null,
-          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_yd9gceyd9g.2e16d0ba.fill-1200x600.jpg",
-          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
-          "domain": "developers.googleblog.com",
-          "hn": null,
-          "score": 0.25,
           "coverage": 1
         }
       ]
@@ -655,7 +727,7 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 3.155,
+          "score": 2.766,
           "coverage": 1
         },
         {
@@ -667,62 +739,62 @@
           "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/11/abfecdbe-5571-42df-95f8-6c22131067aa/thumbnail/1200x630/526b47f241e8e11c31cb47bc82f1f68c/gettyimages-2296986024-1.jpg",
           "icon": "https://www.cbsnews.com/fly/bundles/cbsnewscore/icons/icon-192x192.png",
           "domain": "cbsnews.com",
-          "hn": "551 points · 546 comments",
-          "score": 5.148,
+          "hn": "579 points · 604 comments",
+          "score": 4.552,
           "coverage": 1
         },
         {
-          "title": "Lean Grimoire",
-          "link": "https://terrytao.wordpress.com/2026/11/11/lean-grimoire/",
-          "excerpt": "Back in July, I started experimenting with using modern coding agents to build a number of mathematical visualization applets. With the extremely hectic events of the last few months, I had to set …",
-          "source": "terrytao.wordpress.com via Hacker News",
+          "title": "Anthropic IPO",
+          "link": "https://ipo.anthropic.com/us/",
+          "excerpt": "Anthropic has filed to become a public company. Read the Foundersâ letter and other relevant information.",
+          "source": "ipo.anthropic.com via Hacker News",
           "date": "Nov 12",
-          "image": "https://terrytao.wordpress.com/wp-content/uploads/2026/11/image.png",
-          "icon": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=114",
-          "domain": "terrytao.wordpress.com",
-          "hn": "34 points · 5 comments",
-          "score": 2.306,
+          "image": "https://ipo.anthropic.com/assets/share-image-eAr8nJRP.jpg",
+          "icon": "https://ipo.anthropic.com/assets/apple-touch-icon-uPxZX-J4.png",
+          "domain": "ipo.anthropic.com",
+          "hn": "136 points · 144 comments",
+          "score": 6.975,
           "coverage": 1
         }
       ],
       "more": [
         {
+          "title": "Researchers discover rare star system that emits radio signals every 8 minutes",
+          "link": "https://www.curtin.edu.au/news/media-release/researchers-discover-rare-star-system-that-emits-radio-signals-every-eight-minutes/",
+          "excerpt": "Scientists at the Curtin University node of the International Centre for Radio Astronomy Research (ICRAR) have linked mysterious radio pulses to an unusual ...",
+          "source": "curtin.edu.au via Hacker News",
+          "date": "Nov 12",
+          "image": "https://www.curtin.edu.au/news/wp-content/uploads/2026/11/for-web-LPT_HD_Still_3.png",
+          "icon": "https://www.curtin.edu.au/news/wp-content/uploads/2022/11/cropped-apple-touch-icon-152x152-1-180x180.png",
+          "domain": "curtin.edu.au",
+          "hn": "11 points · 0 comments",
+          "score": 2.241,
+          "coverage": 1
+        },
+        {
+          "title": "Why Writing Correct Software Is Hard",
+          "link": "https://pron.github.io/posts/correctness-and-complexity",
+          "excerpt": "We try to understand the relationship between programs and correctness, and in particular, why writing correct programs must be hard. We will review results from computability theory and complexity theory, and see that programs and complete understanding – which is required for correctness – are…",
+          "source": "pron.github.io via Hacker News",
+          "date": "Nov 12",
+          "image": "https://www.gravatar.com/avatar/c69557151e2f8331f6b1865469b694dd?s=200",
+          "icon": "https://pron.github.io/fav/favicon-152.png",
+          "domain": "pron.github.io",
+          "hn": "98 points · 42 comments",
+          "score": 3.858,
+          "coverage": 1
+        },
+        {
           "title": "I'm Working on a FOSS Linux Pinbal Simulation Engine",
           "link": "https://www.getlazarus.org/forums/topic/17/",
-          "excerpt": "37 points · 9 comments",
+          "excerpt": "67 points · 27 comments",
           "source": "getlazarus.org via Hacker News",
           "date": "Nov 12",
           "image": null,
           "icon": "https://cache.getlazarus.org/favicon.png",
           "domain": "getlazarus.org",
-          "hn": "37 points · 9 comments",
-          "score": 2.868,
-          "coverage": 1
-        },
-        {
-          "title": "Darling Development Update – Q4 2026",
-          "link": "https://blog.darlinghq.org/2026/11/08/development-update-q4-2026/",
-          "excerpt": "It's been a while since our last progress report, and a lot has changed. This update covers the biggest shifts in the project: our new policy on AI-assisted contributions, initial ARM64 support, and what we plan to work on next.",
-          "source": "blog.darlinghq.org via Hacker News",
-          "date": "Nov 12",
-          "image": null,
-          "icon": "https://blog.darlinghq.org/img/favicon.ico",
-          "domain": "blog.darlinghq.org",
-          "hn": "26 points · 5 comments",
-          "score": 2.434,
-          "coverage": 1
-        },
-        {
-          "title": "Bad ideas that aren't bad anymore",
-          "link": "https://devonestes.com/bad-ideas-that-arent-bad-anymore",
-          "excerpt": "Devon C. Estes",
-          "source": "devonestes.com via Hacker News",
-          "date": "Nov 12",
-          "image": null,
-          "icon": "https://devonestes.com/favicon-0d2f8f78a0f8a4964e72f592d9b7b03b.ico?vsn=d",
-          "domain": "devonestes.com",
-          "hn": "61 points · 44 comments",
-          "score": 2.915,
+          "hn": "67 points · 27 comments",
+          "score": 2.732,
           "coverage": 1
         },
         {
@@ -734,8 +806,8 @@
           "image": "https://www.datocms-assets.com/75231/1794425853-threat-update-kics-alert_custom.jpeg?fm=webp",
           "icon": "https://www.wiz.io/favicon.png",
           "domain": "wiz.io",
-          "hn": "193 points · 83 comments",
-          "score": 6.657,
+          "hn": "256 points · 123 comments",
+          "score": 5.723,
           "coverage": 2
         },
         {
@@ -747,8 +819,8 @@
           "image": "https://opengraph.githubassets.com/22097660764a8c6d56c0b4542607a80357256a3234c0d39c6db4ae40eb997cd2/tylertms/Stela",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "105 points · 43 comments",
-          "score": 2.52,
+          "hn": "118 points · 47 comments",
+          "score": 2.237,
           "coverage": 1
         }
       ]
