@@ -419,6 +419,12 @@
   "icon": "https://blog.cloudflare.com/favicon.ico",
   "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M5X2YJT16K16BFFJGEMCAXRS.01M5X2YM62P3YQRBGRP96FS4P6.png"
  },
+ "https://blog.darlinghq.org/2026/11/08/development-update-q4-2026/": {
+  "description": "It's been a while since our last progress report, and a lot has changed. This update covers the biggest shifts in the project: our new policy on AI-assisted contributions, initial ARM64 support, and what we plan to work on next.",
+  "fetched": "2026-11-12",
+  "icon": "https://blog.darlinghq.org/img/favicon.ico",
+  "image": null
+ },
  "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/": {
   "description": "We’ve expanded our eighth generation TPU portfolio with TPU 8tx and TPU 8i Max, marking four new TPU systems in a single year.",
   "fetched": "2026-11-10",
@@ -1031,6 +1037,12 @@
   "icon": "https://developers.openai.com/favicon.png",
   "image": "https://developers.openai.com/og/api/docs/guides/voice-sip.png"
  },
+ "https://devonestes.com/bad-ideas-that-arent-bad-anymore": {
+  "description": "Devon C. Estes",
+  "fetched": "2026-11-12",
+  "icon": "https://devonestes.com/favicon-0d2f8f78a0f8a4964e72f592d9b7b03b.ico?vsn=d",
+  "image": null
+ },
  "https://divagr.com/blog/qwenputer": {
   "description": "I compiled a RISC-V CPU into Qwen 3.5 4B's weights, using its Gated DeltaNet layers as RAM. It runs C and MicroPython inside the forward passes, and Qwen uses it for exact arithmetic.",
   "fetched": "2026-10-29",
@@ -1192,6 +1204,12 @@
   "fetched": "2026-10-31",
   "icon": "https://fortune.com/apple-touch-icon.png",
   "image": "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-2270629609-e1793295597735.jpg?resize=1200,600"
+ },
+ "https://forums.spacebattles.com/threads/humble-bundle-just-completely-killed-most-of-their-security-through-vibecoding.1346295/": {
+  "description": null,
+  "fetched": "2026-11-12",
+  "icon": null,
+  "image": null
  },
  "https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/": {
   "description": "From Pascal and ex tapes to a VAX system: Bill Joy handles BSD distribution and debugging, then joins Ozalp Babaoglu to bring virtual memory to Unix.",
@@ -4985,6 +5003,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.getlazarus.org/forums/topic/17/": {
+  "description": null,
+  "fetched": "2026-11-12",
+  "icon": "https://cache.getlazarus.org/favicon.png",
+  "image": null
+ },
  "https://www.githubstatus.com/incidents/smtdswd1h2w4": {
   "description": "GitHub's Status Page - Incident with Pull Requests, Git Operations and Issues.",
   "fetched": "2026-11-04",
@@ -6010,6 +6034,12 @@
   "fetched": "2026-11-10",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/11/SSH.webp"
+ },
+ "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/": {
+  "description": "N-able has patched several CVEs in N-central dropped as zero-days over the weekend and already targeted in the wild.",
+  "fetched": "2026-11-12",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/08/N-Able.jpeg"
  },
  "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/": {
   "description": "HPE has patched 72 vulnerabilities in its networking products, including max-severity flaws leading to RCE and authentication bypass.",

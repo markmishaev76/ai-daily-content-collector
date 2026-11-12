@@ -1,27 +1,21 @@
 {
   "date": "2026-11-12",
   "lead": {
-    "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
-    "link": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
-    "excerpt": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday. Only servers with HTTP/2 enabled are affected, according to…",
-    "source": "The Hacker News",
+    "title": "AI adoption has left strategy behind",
+    "link": "https://leaddev.com/ai/ai-adoption-has-left-strategy-behind?utm_source=leaddev&utm_medium=RSS",
+    "excerpt": "Nearly everyone uses AI. Few plan it. The post AI adoption has left strategy behind appeared first on LeadDev.",
+    "source": "LeadDev",
     "date": "Nov 12",
-    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLpi_uN6PmG2Gn1agNMsOrsCp324eH-utKkDl_SPe32ggjcWFPjxZSyeA1KvAtvI9SQ4VAN_zssvdJLJ59IXE8_-MatPOyFXY-FcwtL7HtfKyW3MtsKwglIe2X62WBOcUkPMv-klM1h8T2EBMWFOWyPG89bfbAHS5byyfXATXN_lUUJWmUGWChekyWxTQ/s1600/apache-http.jpg",
+    "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2024/10/Resize-for-website-2.png",
     "image_credit": null,
-    "section": "Security & AppSec",
+    "section": "AI-Assisted Engineering",
     "pinned": false,
     "note": null,
     "labels": [
-      "2 sources",
-      "Security & AppSec",
-      "under 1h ago"
+      "AI-Assisted Engineering",
+      "1h ago"
     ],
-    "also": [
-      {
-        "name": "wiz.io",
-        "link": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability"
-      }
-    ]
+    "also": []
   },
   "pulse": [
     {
@@ -31,7 +25,7 @@
       "link_domain": "pietromiotti.com",
       "source": "Hacker News",
       "domain": "pietromiotti.com",
-      "meta": "Hacker News · 959 points · 351 comments · 18h ago",
+      "meta": "Hacker News · 990 points · 359 comments · 21h ago",
       "also": [],
       "image": "https://pietromiotti.com/latest/maya-site/forest-vs-lidar.jpg",
       "icon": "https://pietromiotti.com/favicon.ico"
@@ -43,19 +37,7 @@
       "link_domain": "",
       "source": "Lobsters",
       "domain": "Lobsters",
-      "meta": "Lobsters · 99 points · 57 comments · 18h ago",
-      "also": [],
-      "image": null,
-      "icon": null
-    },
-    {
-      "title": "What are some \"No AI\" apps/companies/resources you know of?",
-      "thread": "https://lobste.rs/s/nld6x3/what_are_some_no_ai_apps_companies",
-      "link": null,
-      "link_domain": "",
-      "source": "Lobsters",
-      "domain": "Lobsters",
-      "meta": "Lobsters · 73 points · 29 comments · 16h ago",
+      "meta": "Lobsters · 109 points · 60 comments · 21h ago",
       "also": [],
       "image": null,
       "icon": null
@@ -67,10 +49,22 @@
       "link_domain": "lyra.horse",
       "source": "Lobsters",
       "domain": "lyra.horse",
-      "meta": "Lobsters · 64 points · 6 comments · 8h ago",
+      "meta": "Lobsters · 106 points · 10 comments · 11h ago",
       "also": [],
       "image": null,
       "icon": "https://lyra.horse/favicon.ico"
+    },
+    {
+      "title": "What are some \"No AI\" apps/companies/resources you know of?",
+      "thread": "https://lobste.rs/s/nld6x3/what_are_some_no_ai_apps_companies",
+      "link": null,
+      "link_domain": "",
+      "source": "Lobsters",
+      "domain": "Lobsters",
+      "meta": "Lobsters · 79 points · 34 comments · 20h ago",
+      "also": [],
+      "image": null,
+      "icon": null
     },
     {
       "title": "How a false smoke alarm almost drowned Jane Street's only NYC datacenter",
@@ -79,10 +73,22 @@
       "link_domain": "michael.bacarella.com",
       "source": "Lobsters",
       "domain": "michael.bacarella.com",
-      "meta": "Lobsters · 51 points · 6 comments · 13h ago",
+      "meta": "Lobsters · 57 points · 6 comments · 17h ago",
       "also": [],
       "image": "https://michael.bacarella.com/assets/mbacface.jpg",
       "icon": "https://michael.bacarella.com/apple-touch-icon.png"
+    },
+    {
+      "title": "Humble Bundle just killed most of their security through vibecoding",
+      "thread": "https://news.ycombinator.com/item?id=50463899",
+      "link": "https://forums.spacebattles.com/threads/humble-bundle-just-completely-killed-most-of-their-security-through-vibecoding.1346295/",
+      "link_domain": "forums.spacebattles.com",
+      "source": "Hacker News",
+      "domain": "forums.spacebattles.com",
+      "meta": "Hacker News · 278 points · 155 comments · 2h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://forums.spacebattles.com/favicon.ico"
     },
     {
       "title": "Atuin Threads: All your agent sessions on every machine",
@@ -91,7 +97,7 @@
       "link_domain": "blog.atuin.sh",
       "source": "Hacker News",
       "domain": "blog.atuin.sh",
-      "meta": "Hacker News · 208 points · 78 comments · 15h ago",
+      "meta": "Hacker News · 217 points · 79 comments · 19h ago",
       "also": [],
       "image": null,
       "icon": "https://storage.ghost.io/c/66/46/6646b777-02d8-44b3-9d01-dd721730b905/content/images/size/w256h256/2024/01/Atuin_Mascot-_01_square.png"
@@ -103,10 +109,22 @@
       "link_domain": "lpeproject.org",
       "source": "Hacker News",
       "domain": "lpeproject.org",
-      "meta": "Hacker News · 150 points · 149 comments · 10h ago",
+      "meta": "Hacker News · 156 points · 165 comments · 14h ago",
       "also": [],
       "image": "https://lpeproject.org/wp-content/uploads/2020/08/cropped-Screen-Shot-2020-08-13-at-6.04.41-PM.png",
       "icon": "https://lpeproject.org/wp-content/uploads/2020/08/cropped-LPE_Favicon_512px_BlackBG-450x450.png"
+    },
+    {
+      "title": "Lock your GitHub Actions",
+      "thread": "https://lobste.rs/s/v3uidx/lock_your_github_actions",
+      "link": "https://hugovk.dev/blog/2026/lock-github-actions/",
+      "link_domain": "hugovk.dev",
+      "source": "Lobsters",
+      "domain": "hugovk.dev",
+      "meta": "Lobsters · 21 points · 5 comments · 15h ago",
+      "also": [],
+      "image": "https://hugovk.dev/blog/2026/lock-github-actions/feature.jpg",
+      "icon": "https://hugovk.dev/favicon.png"
     },
     {
       "title": "About the downtime and security incident",
@@ -115,34 +133,10 @@
       "link_domain": "danbooru.donmai.us",
       "source": "Lobsters",
       "domain": "danbooru.donmai.us",
-      "meta": "Lobsters · 17 points · 6 comments · 13h ago",
+      "meta": "Lobsters · 18 points · 6 comments · 16h ago",
       "also": [],
       "image": null,
       "icon": "https://danbooru.donmai.us/favicon.ico"
-    },
-    {
-      "title": "AI, activity, and outcomes in software engineering",
-      "thread": "https://news.ycombinator.com/item?id=50455332",
-      "link": "https://cabird.com/talks/shipping-faster/",
-      "link_domain": "cabird.com",
-      "source": "Hacker News",
-      "domain": "cabird.com",
-      "meta": "Hacker News · 112 points · 103 comments · 13h ago",
-      "also": [],
-      "image": "https://cabird.com/talks/shipping-faster/title.jpg",
-      "icon": "https://cabird.com/favicon.ico"
-    },
-    {
-      "title": "AWS Emulator and the engineer's job when agents write the code",
-      "thread": "https://news.ycombinator.com/item?id=50456740",
-      "link": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
-      "link_domain": "allthingsdistributed.com",
-      "source": "Hacker News",
-      "domain": "allthingsdistributed.com",
-      "meta": "Hacker News · 111 points · 2 comments · 11h ago",
-      "also": [],
-      "image": "https://www.allthingsdistributed.com/images/aws-emulator-header.jpg",
-      "icon": "https://www.allthingsdistributed.com/favicon.ico"
     }
   ],
   "sections": [
@@ -159,7 +153,7 @@
           "icon": null,
           "domain": "research.google",
           "hn": null,
-          "score": 0.648,
+          "score": 0.554,
           "coverage": 1
         },
         {
@@ -172,7 +166,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.616,
+          "score": 0.53,
           "coverage": 1
         },
         {
@@ -185,7 +179,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.342,
+          "score": 0.314,
           "coverage": 1
         }
       ],
@@ -200,7 +194,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 3.462,
+          "score": 2.931,
           "coverage": 1
         },
         {
@@ -213,7 +207,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.718,
+          "score": 0.605,
           "coverage": 1
         },
         {
@@ -226,7 +220,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.581,
+          "score": 0.505,
           "coverage": 1
         },
         {
@@ -239,20 +233,7 @@
           "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131",
           "domain": "blog.google",
           "hn": null,
-          "score": 0.597,
-          "coverage": 1
-        },
-        {
-          "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-          "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
-          "excerpt": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
-          "source": "Google AI",
-          "date": "Nov 11",
-          "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp",
-          "icon": null,
-          "domain": "blog.google",
-          "hn": null,
-          "score": 0.552,
+          "score": 0.517,
           "coverage": 1
         }
       ]
@@ -263,14 +244,14 @@
         {
           "title": "Launch HN: Pomerado (YC F26) – Turn any website into an MCP for agents",
           "link": "https://news.ycombinator.com/item?id=50455811",
-          "excerpt": "53 points · 41 comments",
+          "excerpt": "55 points · 43 comments",
           "source": "Hacker News",
           "date": "Nov 11",
           "image": null,
           "icon": null,
           "domain": "news.ycombinator.com",
-          "hn": "53 points · 41 comments",
-          "score": 5.435,
+          "hn": "55 points · 43 comments",
+          "score": 4.741,
           "coverage": 1
         },
         {
@@ -283,7 +264,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.948,
+          "score": 0.731,
           "coverage": 1
         },
         {
@@ -296,7 +277,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.925,
+          "score": 0.717,
           "coverage": 1
         }
       ],
@@ -311,7 +292,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.356,
+          "score": 0.327,
           "coverage": 1
         },
         {
@@ -324,7 +305,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.4,
+          "score": 0.355,
           "coverage": 1
         }
       ]
@@ -342,7 +323,7 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.794,
+          "score": 0.662,
           "coverage": 1
         },
         {
@@ -355,7 +336,7 @@
           "icon": null,
           "domain": "open.spotify.com",
           "hn": null,
-          "score": 0.594,
+          "score": 0.517,
           "coverage": 1
         },
         {
@@ -368,7 +349,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.828,
+          "score": 0.686,
           "coverage": 1
         }
       ],
@@ -383,7 +364,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.828,
+          "score": 0.686,
           "coverage": 1
         },
         {
@@ -396,7 +377,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.828,
+          "score": 0.686,
           "coverage": 1
         }
       ]
@@ -414,7 +395,7 @@
           "icon": null,
           "domain": "blog.modelcontextprotocol.io",
           "hn": null,
-          "score": 3.045,
+          "score": 2.734,
           "coverage": 1
         }
       ],
@@ -433,20 +414,7 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 4.128,
-          "coverage": 1
-        },
-        {
-          "title": "Huawei releases MACaQ, its internal quantizer for local inference",
-          "link": "https://github.com/huawei-csl/MACaQ",
-          "excerpt": "SOTA model-agnostic quantization for GGUF, local inference and beyond. Quantize and run text, image, video and audio models with llama.cpp, vLLM, Diffusers and PyTorch. - huawei-csl/MACaQ",
-          "source": "github.com via Hacker News",
-          "date": "Nov 11",
-          "image": "https://repository-images.githubusercontent.com/1452417816/74bc9106-306c-4e93-96da-77dcff2e0d77",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "81 points · 23 comments",
-          "score": 3.319,
+          "score": 3.563,
           "coverage": 1
         }
       ],
@@ -465,8 +433,62 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 1.696,
+          "score": 1.485,
           "coverage": 1
+        },
+        {
+          "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
+          "link": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
+          "excerpt": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later chosen to take over as the main server while it still lacks some recent changes. MongoDB, the company that makes the…",
+          "source": "The Hacker News",
+          "date": "Nov 12",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6RJLDSM13MwenwxG4xnZ-Td2_zmnya-Y39FLHlNk-7P3hZ5w1qGjG3XFqT-4gaeZIxSepWWNM53bKTIkZBNA-X_tVKsrgWbw8u81mjLzL6dXvTtvKfKeT-FkwSz4CsdMoHNza2NRFy0PJzzmaMROCr3D7e6AKT5UR3Lh4zFb_1w9HMmXXKKvATVWHU-E/s1600/mongo-poc.gif",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 5.057,
+          "coverage": 1
+        },
+        {
+          "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
+          "link": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
+          "excerpt": "A flaw fixed in Node.js this week lets unauthenticated clients crash servers that use the runtime's built-in HTTP/2 support on the 24.x and 26.x release lines. A second HTTP/2 flaw can cause a server to send a client pieces of its memory, including responses intended for other connections. Fixed…",
+          "source": "The Hacker News",
+          "date": "Nov 12",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD-9bYYTxb5WmvOmftwsTAe5hDcHyjm12YlQj320OhT6WqICBOe0D6nQf-PPslE-I0c0r8xvZdTAXfyPwGQxHWRiQ5HSIPEZGEiNrE15ygDNZCRzzVvGugdRlIq6IARQf38iJG-MN-uo7MvdXXcA0wXIGDm0-olouPSw_SbBm2-2CYGHb4uHgtREv2ycI/s1600/nodeks.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.665,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
+          "link": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+          "excerpt": "Starting Tuesday, an attacker used stolen credentials for 4,837 GitHub accounts to plant a secret stealer in repositories those accounts could write to, according to Aikido Security, a security software company. The stealer is built to take the secrets and cloud credentials that a repository's CI…",
+          "source": "The Hacker News",
+          "date": "Nov 12",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1-4OiOkGLcK3fAr2HdhALOfc_BqR21440TsjUIuCNzv4YL0lWRC3lvUjE1vu2RdVfjunxi80gMQyGpjvUdWzMRtthW8_-hFOJ79YhFzJrNGgoKDPYXm2OaWOsN8kgBELqOPs5s9QKL4qzQzu_3NEEqHygpfQzKYxDRIQeFgMHj24oyPyaslUemke-loU/s1600/github.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.594,
+          "coverage": 1
+        },
+        {
+          "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+          "link": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+          "excerpt": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday. Only servers with HTTP/2 enabled are affected, according to…",
+          "source": "The Hacker News",
+          "date": "Nov 12",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLpi_uN6PmG2Gn1agNMsOrsCp324eH-utKkDl_SPe32ggjcWFPjxZSyeA1KvAtvI9SQ4VAN_zssvdJLJ59IXE8_-MatPOyFXY-FcwtL7HtfKyW3MtsKwglIe2X62WBOcUkPMv-klM1h8T2EBMWFOWyPG89bfbAHS5byyfXATXN_lUUJWmUGWChekyWxTQ/s1600/apache-http.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 6.657,
+          "coverage": 2
         },
         {
           "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
@@ -478,7 +500,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.669,
+          "score": 0.523,
           "coverage": 1
         },
         {
@@ -491,61 +513,20 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.348,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "Today: CISO Forum Virtual Summit 2026 Day 2 – Join Cybersecurity Leaders Online",
-          "link": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
-          "excerpt": "Designed for cybersecurity leaders, this immersive two-day virtual event is your premier destination to discuss, share, and learn innovative risk management and defense strategies defining the modern enterprise. The post Today: CISO Forum Virtual Summit 2026 Day 2 – Join Cybersecurity Leaders…",
-          "source": "SecurityWeek",
-          "date": "Nov 11",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/CISO-Virtual-Conference.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.351,
+          "score": 0.303,
           "coverage": 1
         },
         {
-          "title": "Critical Xen Orchestra Flaws Exploited in Attacks",
-          "link": "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/",
-          "excerpt": "A critical authentication bypass allows attackers to execute arbitrary code as admin and take over XCP-ng nodes. The post Critical Xen Orchestra Flaws Exploited in Attacks appeared first on SecurityWeek.",
+          "title": "Hackers Target N-central Zero-Days as N-able Rushes Patches",
+          "link": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/",
+          "excerpt": "The malicious activity started shortly after a researcher dropped over 30 zero-days. N-able patched the unauthenticated ones. The post Hackers Target N-central Zero-Days as N-able Rushes Patches appeared first on SecurityWeek.",
           "source": "SecurityWeek",
-          "date": "Nov 11",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/01/Veeam-backup-cloud-storage.jpeg",
+          "date": "Nov 12",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/08/N-Able.jpeg",
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.341,
-          "coverage": 1
-        },
-        {
-          "title": "Asus, Zoom Release Security Patches",
-          "link": "https://www.securityweek.com/asus-zoom-release-security-patches/",
-          "excerpt": "Attackers could exploit them for command execution, memory overwrites, and privilege escalation. The post Asus, Zoom Release Security Patches appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 11",
-          "image": "https://www.securityweek.com/wp-content/uploads/2023/06/ASUS-Vulnerabillities.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.32,
-          "coverage": 1
-        },
-        {
-          "title": "Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities",
-          "link": "https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/",
-          "excerpt": "Attackers could exploit the bugs to tamper with certificate entries, achieve remote code execution, and compromise hosts. The post Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 11",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/08/Citrix-vulnerability.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.316,
+          "score": 0.737,
           "coverage": 1
         }
       ]
@@ -563,7 +544,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 3.011,
+          "score": 2.619,
           "coverage": 1
         },
         {
@@ -576,7 +557,7 @@
           "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
           "domain": "about.gitlab.com",
           "hn": null,
-          "score": 2.245,
+          "score": 2.06,
           "coverage": 1
         },
         {
@@ -589,7 +570,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.74,
+          "score": 2.383,
           "coverage": 1
         }
       ],
@@ -604,7 +585,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 2.74,
+          "score": 2.383,
           "coverage": 1
         },
         {
@@ -617,7 +598,7 @@
           "icon": null,
           "domain": "cncf.io",
           "hn": null,
-          "score": 1.934,
+          "score": 1.691,
           "coverage": 1
         },
         {
@@ -630,7 +611,7 @@
           "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.792,
+          "score": 1.559,
           "coverage": 1
         },
         {
@@ -674,7 +655,7 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 3.743,
+          "score": 3.155,
           "coverage": 1
         },
         {
@@ -686,8 +667,8 @@
           "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/11/abfecdbe-5571-42df-95f8-6c22131067aa/thumbnail/1200x630/526b47f241e8e11c31cb47bc82f1f68c/gettyimages-2296986024-1.jpg",
           "icon": "https://www.cbsnews.com/fly/bundles/cbsnewscore/icons/icon-192x192.png",
           "domain": "cbsnews.com",
-          "hn": "493 points · 476 comments",
-          "score": 6.025,
+          "hn": "551 points · 546 comments",
+          "score": 5.148,
           "coverage": 1
         },
         {
@@ -699,12 +680,51 @@
           "image": "https://terrytao.wordpress.com/wp-content/uploads/2026/11/image.png",
           "icon": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=114",
           "domain": "terrytao.wordpress.com",
-          "hn": "26 points · 4 comments",
-          "score": 2.703,
+          "hn": "34 points · 5 comments",
+          "score": 2.306,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "I'm Working on a FOSS Linux Pinbal Simulation Engine",
+          "link": "https://www.getlazarus.org/forums/topic/17/",
+          "excerpt": "37 points · 9 comments",
+          "source": "getlazarus.org via Hacker News",
+          "date": "Nov 12",
+          "image": null,
+          "icon": "https://cache.getlazarus.org/favicon.png",
+          "domain": "getlazarus.org",
+          "hn": "37 points · 9 comments",
+          "score": 2.868,
+          "coverage": 1
+        },
+        {
+          "title": "Darling Development Update – Q4 2026",
+          "link": "https://blog.darlinghq.org/2026/11/08/development-update-q4-2026/",
+          "excerpt": "It's been a while since our last progress report, and a lot has changed. This update covers the biggest shifts in the project: our new policy on AI-assisted contributions, initial ARM64 support, and what we plan to work on next.",
+          "source": "blog.darlinghq.org via Hacker News",
+          "date": "Nov 12",
+          "image": null,
+          "icon": "https://blog.darlinghq.org/img/favicon.ico",
+          "domain": "blog.darlinghq.org",
+          "hn": "26 points · 5 comments",
+          "score": 2.434,
+          "coverage": 1
+        },
+        {
+          "title": "Bad ideas that aren't bad anymore",
+          "link": "https://devonestes.com/bad-ideas-that-arent-bad-anymore",
+          "excerpt": "Devon C. Estes",
+          "source": "devonestes.com via Hacker News",
+          "date": "Nov 12",
+          "image": null,
+          "icon": "https://devonestes.com/favicon-0d2f8f78a0f8a4964e72f592d9b7b03b.ico?vsn=d",
+          "domain": "devonestes.com",
+          "hn": "61 points · 44 comments",
+          "score": 2.915,
+          "coverage": 1
+        },
         {
           "title": "Critical RCE Vulnerability in Apache HTTP Server",
           "link": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
@@ -714,8 +734,8 @@
           "image": "https://www.datocms-assets.com/75231/1794425853-threat-update-kics-alert_custom.jpeg?fm=webp",
           "icon": "https://www.wiz.io/favicon.png",
           "domain": "wiz.io",
-          "hn": "85 points · 34 comments",
-          "score": 7.84,
+          "hn": "193 points · 83 comments",
+          "score": 6.657,
           "coverage": 2
         },
         {
@@ -727,47 +747,8 @@
           "image": "https://opengraph.githubassets.com/22097660764a8c6d56c0b4542607a80357256a3234c0d39c6db4ae40eb997cd2/tylertms/Stela",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "85 points · 34 comments",
-          "score": 2.904,
-          "coverage": 1
-        },
-        {
-          "title": "93% of paint splatters are valid Perl programs (2019)",
-          "link": "https://www.mcmillen.dev/sigbovik/",
-          "excerpt": "TLDR: read the paper and view the gallery of pretty Perl programs. In this paper, we aim to answer a long-standing open problem in the programming languages community: is it possible to smear paint on the wall without creating valid Perl?",
-          "source": "mcmillen.dev via Hacker News",
-          "date": "Nov 11",
-          "image": null,
-          "icon": "https://www.mcmillen.dev/favicon.ico",
-          "domain": "mcmillen.dev",
-          "hn": "305 points · 42 comments",
-          "score": 3.378,
-          "coverage": 1
-        },
-        {
-          "title": "Nvidia is preparing to oust Jensen Huang",
-          "link": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
-          "excerpt": "790 points · 1127 comments",
-          "source": "wsj.com via Hacker News",
-          "date": "Nov 11",
-          "image": null,
-          "icon": "https://www.wsj.com/favicon.ico",
-          "domain": "wsj.com",
-          "hn": "790 points · 1127 comments",
-          "score": 4.237,
-          "coverage": 1
-        },
-        {
-          "title": "Lock Your GitHub Actions",
-          "link": "https://hugovk.dev/blog/2026/lock-github-actions/",
-          "excerpt": "193 points · 35 comments",
-          "source": "hugovk.dev via Hacker News",
-          "date": "Nov 11",
-          "image": "https://hugovk.dev/blog/2026/lock-github-actions/feature.jpg",
-          "icon": "https://hugovk.dev/favicon.png",
-          "domain": "hugovk.dev",
-          "hn": "193 points · 35 comments",
-          "score": 3.117,
+          "hn": "105 points · 43 comments",
+          "score": 2.52,
           "coverage": 1
         }
       ]
