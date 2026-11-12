@@ -83,6 +83,12 @@
   "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
   "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1774957323/xfnzvlwc4c2vhal3v3jv.png"
  },
+ "https://about.gitlab.com/blog/prevent-leaks-from-claude-code-dont-ask-again-file/": {
+  "description": "Secrets typed into Claude Code commands are being committed to repositories in .claude/settings.local.json. Learn how to check your GitLab projects, mitigate risk, and block the file.",
+  "fetched": "2026-11-12",
+  "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
+  "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1782237704/cj50chkvprjthczevmog.png"
+ },
  "https://about.gitlab.com/blog/security-at-machine-speed/": {
   "description": "AI is changing how quickly vulnerabilities can be discovered and exploited. The next challenge is bringing that same speed to remediation and prevention",
   "fetched": "2026-10-29",
@@ -431,6 +437,12 @@
   "icon": null,
   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png"
  },
+ "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/": {
+  "description": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+  "fetched": "2026-11-12",
+  "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131",
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini__decisions__blog-header_2784x1566.width-1300.png"
+ },
  "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/": {
   "description": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
   "fetched": "2026-11-06",
@@ -557,6 +569,12 @@
   "icon": null,
   "image": null
  },
+ "https://cabird.com/talks/shipping-faster/": {
+  "description": "AI, activity, and outcomes in software engineering. A talk at UC Irvine, October 2026. Video and slides.",
+  "fetched": "2026-11-12",
+  "icon": null,
+  "image": "https://cabird.com/talks/shipping-faster/title.jpg"
+ },
  "https://caleb.software/posts/claude-to-pi.html": {
   "description": null,
   "fetched": "2026-11-08",
@@ -599,6 +617,12 @@
   "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
   "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Data_Analytics_JooYPJr.max-2500x2500.jpg"
  },
+ "https://cloud.google.com/blog/products/databases/ai-classify-and-ai-extract-functions-in-alloydb-ai/": {
+  "description": "New ai.classify and ai.extract functions in AlloyDB AI let you run text classification and structured data extraction inside PostgreSQL.",
+  "fetched": "2026-11-12",
+  "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
+  "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/cloud_databases_channel_hero_option1_2436x.max-2500x2500.png"
+ },
  "https://cloud.google.com/blog/products/databases/introducing-alloydb-express-for-rapid-testing-and-prototyping/": {
   "description": "Developer-first PostgreSQL environment that offers sub-2-second instant provisioning, scale-to-zero pause & resume, and 1–2 vCPUs and 20GB of storage.",
   "fetched": "2026-11-04",
@@ -634,6 +658,12 @@
   "fetched": "2026-10-27",
   "icon": "https://cohere.com/apple-touch-icon.png",
   "image": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/658e160a6519a049e260213d409551e67399113a-1352x754.png?rect=0,22,1352,710&w=1200&h=630&q=80&fit=crop&auto=format"
+ },
+ "https://commandlinesystems.com/magic.txt": {
+  "description": null,
+  "fetched": "2026-11-12",
+  "icon": null,
+  "image": null
  },
  "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053": {
   "description": "In a conversation with two connectors enabled, ChatGPT made a follow-up tool call through a different connector than the one that started the flow. The user was not told about the switch. The call carried a one-time confirmation code from the first connector’s widget. Setup - One ChatGPT account with two connectors enabled that point to the same MCP server. - Connector A is a custom connector added in developer mode. - Connector B is the published app from the app directory. - Each connecto...",
@@ -845,6 +875,12 @@
   "icon": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/icons/google_deepmind_2x_96dp.png",
   "image": "https://lh3.googleusercontent.com/hn6AiI6lYFo6chi1mL6uJ9nOW9UXfsAKnSyOApiie2urHNU2tmSPUmGn0hNfWyYLRcsWCGjCIrBZSCt1ihZmvW-LDJPfyolsr5w-yvzlknZVzmaH=w1200-h630-n-nu-rw"
  },
+ "https://developers.googleblog.com/a2ui-10-build-delightful-fast-reliable-agentic-experiences/": {
+  "description": "Discover A2UI 1.0, an open protocol for generative UI enabling AI agents to respond with rich, interactive, and native screens across web, mobile, and desktop platforms.",
+  "fetched": "2026-11-12",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_iu9r44iu9r.2e16d0ba.fill-1200x600.jpg"
+ },
  "https://developers.googleblog.com/agent-distraction/": {
   "description": "An empirical analysis of coding agent distraction from legacy inline TODOs, quantifying the overhead in tokens, execution steps, and developer wait time.",
   "fetched": "2026-11-08",
@@ -934,6 +970,12 @@
   "fetched": "2026-10-26",
   "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
   "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_bguxwvbgux.2e16d0ba.fill-1200x600.jpg"
+ },
+ "https://developers.googleblog.com/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/": {
+  "description": "Discover how to add offline, on-device speech recognition and text-to-speech to your mobile and cross-platform apps using ML Kit, MediaPipe Tasks, and LiteRT.",
+  "fetched": "2026-11-12",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_yd9gceyd9g.2e16d0ba.fill-1200x600.jpg"
  },
  "https://developers.googleblog.com/powering-the-agent-development-lifecycle-with-any-framework-from-adk-to-langchain-and-beyond/": {
   "description": "Learn how the Agents CLI Extension System lets you integrate any framework, like LangChain, into a unified development lifecycle.",
@@ -1391,6 +1433,12 @@
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://opengraph.githubassets.com/c69dbc1fa5bf868b60cccd6dab8afd1f7bd0ab88c6cd3f063986658ef11248e6/herdrdev/herdr-app"
  },
+ "https://github.com/huawei-csl/MACaQ": {
+  "description": "SOTA model-agnostic quantization for GGUF, local inference and beyond. Quantize and run text, image, video and audio models with llama.cpp, vLLM, Diffusers and PyTorch. - huawei-csl/MACaQ",
+  "fetched": "2026-11-12",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://repository-images.githubusercontent.com/1452417816/74bc9106-306c-4e93-96da-77dcff2e0d77"
+ },
  "https://github.com/ihhub/fheroes2": {
   "description": "fheroes2 is a recreation of Heroes of Might and Magic II game engine - ihhub/fheroes2",
   "fetched": "2026-10-25",
@@ -1504,6 +1552,12 @@
   "fetched": "2026-11-08",
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://opengraph.githubassets.com/c033760b2e097954d1261c513d64f9c00df731752131704494768a8f858daec6/torvalds/linux"
+ },
+ "https://github.com/tylertms/Stela": {
+  "description": "A general purpose Apple Silicon layer for x86-64 PCs - tylertms/Stela",
+  "fetched": "2026-11-12",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://opengraph.githubassets.com/22097660764a8c6d56c0b4542607a80357256a3234c0d39c6db4ae40eb997cd2/tylertms/Stela"
  },
  "https://github.com/zalando-incubator/agentic-identity-broker": {
   "description": "Identity broker for AI agents with OAuth2 delegation and consent management - zalando-incubator/agentic-identity-broker",
@@ -1757,6 +1811,12 @@
   "icon": null,
   "image": "https://cdn-uploads.huggingface.co/production/uploads/6468b319b2321e47d3267049/Emr86qw6NAueYLdIEiTTD.png"
  },
+ "https://huggingface.co/blog/token-pooling": {
+  "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+  "fetched": "2026-11-12",
+  "icon": null,
+  "image": "https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png"
+ },
  "https://huggingface.co/blog/torch-neuronx-model-support": {
   "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
   "fetched": "2026-10-23",
@@ -1768,6 +1828,12 @@
   "fetched": "2026-11-03",
   "icon": null,
   "image": "https://huggingface.co/blog/assets/transformers-mic/mic-logo.png"
+ },
+ "https://hugovk.dev/blog/2026/lock-github-actions/": {
+  "description": null,
+  "fetched": "2026-11-12",
+  "icon": "https://hugovk.dev/favicon.png",
+  "image": "https://hugovk.dev/blog/2026/lock-github-actions/feature.jpg"
  },
  "https://hunch.net/?p=13764006": {
   "description": null,
@@ -2009,6 +2075,12 @@
   "icon": "https://lovro-bikic.github.io/apple-touch-icon.png",
   "image": null
  },
+ "https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/": {
+  "description": "Americans overwhelming oppose the AI data center buildout. Their retirement accounts are funding it anyway.",
+  "fetched": "2026-11-12",
+  "icon": "https://lpeproject.org/wp-content/uploads/2020/08/cropped-LPE_Favicon_512px_BlackBG-450x450.png",
+  "image": "https://lpeproject.org/wp-content/uploads/2020/08/cropped-Screen-Shot-2020-08-13-at-6.04.41-PM.png"
+ },
  "https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices/": {
   "description": "Cloning, designing and blending voices with Qwen3-TTS.",
   "fetched": "2026-11-01",
@@ -2031,6 +2103,12 @@
   "description": "I am a dermatologist. I tested the ability of GPT-6 Astra and Claude Fable 5.1 to diagnosis skin cancer and found that they were less accurate than I expected. I compared to a 10-year old CNN and to my surprise found that this was superior.",
   "fetched": "2026-10-26",
   "icon": "https://lynchlab.net/static/ico/lynchlab-favicon.ico",
+  "image": null
+ },
+ "https://lyra.horse/blog/2026/11/disinformation-machine/": {
+  "description": "A story about a tweet thrown into the disinformation machine.",
+  "fetched": "2026-11-12",
+  "icon": null,
   "image": null
  },
  "https://magazine.sebastianraschka.com/p/building-reasoning-models": {
@@ -2140,6 +2218,12 @@
   "fetched": "2026-11-06",
   "icon": "https://metr.org/assets/images/favicon/apple-touch-icon.png",
   "image": "https://metr.org/assets/images/logo/og-image-logo.png"
+ },
+ "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/": {
+  "description": "A war story from Jane Streetâs systems team: a false smoke alarm, a datacenter with no cooling, and a sprint to pull every power cord before the sprinklers went off",
+  "fetched": "2026-11-12",
+  "icon": "https://michael.bacarella.com/apple-touch-icon.png",
+  "image": "https://michael.bacarella.com/assets/mbacface.jpg"
  },
  "https://minimaxir.com/2026/10/cheap-llms/": {
   "description": "What is “the true cost of a token”?",
@@ -2525,6 +2609,12 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/index/jiostar-vijay-seshadri": {
+  "description": null,
+  "fetched": "2026-11-12",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/kuken": {
   "description": null,
   "fetched": "2026-11-10",
@@ -2777,6 +2867,12 @@
   "icon": "https://phorion.io/images/apple-touch-icon.png",
   "image": "https://phorion.io/images/default-social-card.png"
  },
+ "https://pietromiotti.com/latest/maya-site": {
+  "description": "AI agents analyzed public lidar data overnight and found a Maya site under the jungle. It turned out archaeologists had mapped it already, but it wasn't in Mexico's official register yet.",
+  "fetched": "2026-11-12",
+  "icon": null,
+  "image": "https://pietromiotti.com/latest/maya-site/forest-vs-lidar.jpg"
+ },
  "https://pietromiotti.com/latest/maya-site/?maya": {
   "description": "AI agents analyzed NASA lidar data overnight and found a Maya site under the jungle that isn't on any map. Less than 72 hours later, Mexico's INAH replied.",
   "fetched": "2026-11-11",
@@ -2954,6 +3050,24 @@
  "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/": {
   "description": "Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on \"Approach to compute\" with co-founder Tom …",
   "fetched": "2026-11-11",
+  "icon": null,
+  "image": null
+ },
+ "https://simonwillison.net/2026/Nov/11/aws-emulator/": {
+  "description": "Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It's …",
+  "fetched": "2026-11-12",
+  "icon": null,
+  "image": null
+ },
+ "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/": {
+  "description": "Google join Jev and OpenAI in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of …",
+  "fetched": "2026-11-12",
+  "icon": null,
+  "image": null
+ },
+ "https://simonwillison.net/2026/Nov/11/llm/": {
+  "description": "Access large language models from the command-line",
+  "fetched": "2026-11-12",
   "icon": null,
   "image": null
  },
@@ -4073,6 +4187,12 @@
   "icon": "https://www.aljazeera.com/favicon_aje.ico",
   "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ac6960557e6-1791399429.jpg?resize=1920%2C1440"
  },
+ "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html": {
+  "description": "AWS Emulator, launched today and written and tested entirely by agents, gives you a local copy of more than 200 AWS services to test against. Swami Sivasubramanian recalls the high-fidelity simulation his team built to test one of Amazon's earliest distributed systems, and writes about how the engineer's work changes when agents write the code.",
+  "fetched": "2026-11-12",
+  "icon": "https://www.allthingsdistributed.com/favicon.ico",
+  "image": "https://www.allthingsdistributed.com/images/aws-emulator-header.jpg"
+ },
  "https://www.altera.com/newsroom/agilex-2x": {
   "description": null,
   "fetched": "2026-11-05",
@@ -4516,6 +4636,12 @@
   "fetched": "2026-11-06",
   "icon": null,
   "image": null
+ },
+ "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/": {
+  "description": "Using an artificial intelligence agent to make flight reservations poses security risks and could violate federal rules, according to United.",
+  "fetched": "2026-11-12",
+  "icon": "https://www.cbsnews.com/fly/bundles/cbsnewscore/icons/icon-192x192.png",
+  "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/11/abfecdbe-5571-42df-95f8-6c22131067aa/thumbnail/1200x630/526b47f241e8e11c31cb47bc82f1f68c/gettyimages-2296986024-1.jpg"
  },
  "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras": {
   "description": "Learn how Cerebras maps trillion-parameter frontier models across WSE-3T wafers to deliver scalable inference at 1,000–2,000+ tokens per second.",
@@ -5009,6 +5135,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/programmatic-m-and-a-in-australia-the-most-reliable-way-to-unlock-value": {
+  "description": null,
+  "fetched": "2026-11-12",
+  "icon": null,
+  "image": null
+ },
  "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/turning-executive-judgment-into-organizational-intelligence-leveraging-ai-in-ceo-leadership": {
   "description": null,
   "fetched": "2026-11-02",
@@ -5219,6 +5351,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.mcmillen.dev/sigbovik/": {
+  "description": "TLDR: read the paper and view the gallery of pretty Perl programs. In this paper, we aim to answer a long-standing open problem in the programming languages community: is it possible to smear paint on the wall without creating valid Perl?",
+  "fetched": "2026-11-12",
+  "icon": "https://www.mcmillen.dev/favicon.ico",
+  "image": null
+ },
  "https://www.mprnews.org/story/2026/10/31/hermantown-approves-controversial-google-data-center-during-late-night-meeting": {
   "description": "The Hermantown City Council unanimously approved six key measures Friday night allowing a Google data center to move forward in a rural area just outside Duluth. The proposal still faces three outstanding lawsuits.",
   "fetched": "2026-11-01",
@@ -5276,6 +5414,12 @@
  "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html": {
   "description": null,
   "fetched": "2026-11-04",
+  "icon": null,
+  "image": null
+ },
+ "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html": {
+  "description": null,
+  "fetched": "2026-11-12",
   "icon": null,
   "image": null
  },
@@ -5507,6 +5651,12 @@
   "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
   "image": null
  },
+ "https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html": {
+  "description": "It’s hard to believe how lucrative this crime can be: According to a press release from the United States attorney’s office for the southern district of New York, three men ­ Jacob Soall, Sharon Hazan, and Guy Sheetrit ­ were arrested for using AI to alter and impersonate the voices and images of executives and attorneys at various companies in order to convince employees to send over large payments. Soall and Hazan were arrested in Spain over the summer, while Sheetrit was arrested in the United Kingdom in September. The alleged fraud took place between 2024 and 2026...",
+  "fetched": "2026-11-12",
+  "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+  "image": null
+ },
  "https://www.science.org/content/article/barbarian-tribe-s-mythic-origin-story-true-ancient-dna-reveals": {
   "description": null,
   "fetched": "2026-11-07",
@@ -5609,6 +5759,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/02/Anthropic-AI_Military.jpg"
  },
+ "https://www.securityweek.com/asus-zoom-release-security-patches/": {
+  "description": "Asus and Zoom have released security patches for critical- and high-severity vulnerabilities across their products.",
+  "fetched": "2026-11-12",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2023/06/ASUS-Vulnerabillities.jpg"
+ },
  "https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/": {
   "description": "A threat actor has been serving fake ‘suspended account’ notices to users revisiting its bank phishing pages.",
   "fetched": "2026-11-06",
@@ -5693,11 +5849,23 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/11/CISO-Ryan-Davis.jpeg"
  },
+ "https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/": {
+  "description": "Citrix and Ivanti have released patches for 19 vulnerabilities across their products, including remote code execution flaws.",
+  "fetched": "2026-11-12",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/08/Citrix-vulnerability.jpeg"
+ },
  "https://www.securityweek.com/critical-node-red-flaw-exploited-in-attacks/": {
   "description": "Hackers are exploiting CVE-2026-58115, a critical-severity Node-RED vulnerability, to deploy various payloads.",
   "fetched": "2026-11-03",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2025/12/industrial-AI-OT-security.jpeg"
+ },
+ "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/": {
+  "description": "A threat actor has exploited a critical authentication bypass and a zero-day in Xen Orchestra to gain admin rights and compromise hosts.",
+  "fetched": "2026-11-12",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/01/Veeam-backup-cloud-storage.jpeg"
  },
  "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/": {
   "description": "CrowdStrike will reportedly pay $400 million for Fiddler AI and $95 million for Dreadnode to secure and monitor enterprise AI agents.",
@@ -5741,6 +5909,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg"
  },
+ "https://www.securityweek.com/finite-state-raises-27-million-to-secure-software-and-firmware-in-connected-devices/": {
+  "description": "Finite State has raised $27 million in Series C funding to expand its AI-driven product security platform for device makers.",
+  "fetched": "2026-11-12",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2025/12/funding-round.jpeg"
+ },
  "https://www.securityweek.com/florida-student-aid-website-hack-puts-data-of-4-9-million-people-at-risk/": {
   "description": "Florida’s education department says a hack of its financial aid website may have exposed SSNs and other data of 4.9 million people.",
   "fetched": "2026-11-03",
@@ -5752,6 +5926,12 @@
   "fetched": "2026-10-25",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2025/11/funding-investment-market-3.jpeg"
+ },
+ "https://www.securityweek.com/fortinet-patches-nearly-100-vulnerabilities/": {
+  "description": "Fortinet has released patches for 100 vulnerabilities, including many discovered with the help of frontier AI models.",
+  "fetched": "2026-11-12",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2023/06/fortinet-e1737023333411.jpg"
  },
  "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/": {
   "description": "Hackers are targeting a newly patched high-severity unauthenticated remote code execution vulnerability in WordPress.",
@@ -6040,6 +6220,12 @@
   "fetched": "2026-11-05",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg"
+ },
+ "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/": {
+  "description": "The CISO Forum Virtual Summit is the destination to discuss, share, and learn innovative risk management and cyber defense strategies.",
+  "fetched": "2026-11-12",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/11/CISO-Virtual-Conference.jpg"
  },
  "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/": {
   "description": "Ukrainian national Artem Stryzhak was sentenced to 70 months in US prison for deploying Nefilim and Hive ransomware against victims.",
@@ -6380,6 +6566,12 @@
  "https://www.wkyc.com/article/news/investigations/flock-camera-searches-fall-95-percent-highland-heights-dispatcher-misconduct-caught/95-94b18f33-60e2-4bc7-a00f-d71d1e1fdd5e": {
   "description": null,
   "fetched": "2026-10-31",
+  "icon": null,
+  "image": null
+ },
+ "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad": {
+  "description": null,
+  "fetched": "2026-11-12",
   "icon": null,
   "image": null
  },
