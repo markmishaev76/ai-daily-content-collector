@@ -1,27 +1,21 @@
 {
   "date": "2026-11-12",
   "lead": {
-    "title": "Notion Customer Data Compromised in Fireworks AI Hack",
-    "link": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/",
-    "excerpt": "The attackers accessed chat transcripts for fewer than 1% of Notion workspaces. Most transcripts were unattributable. The post Notion Customer Data Compromised in Fireworks AI Hack appeared first on SecurityWeek.",
-    "source": "SecurityWeek",
+    "title": "Coding Agent Security for AppSec Leaders: Start With What Agents Can Reach",
+    "link": "https://blog.gitguardian.com/coding-agent-security-appsec/",
+    "excerpt": "AI coding agents can read files, call tools, and use credentials that never appear in a pull request. For AppSec teams, securing the code is only part of the job.",
+    "source": "GitGuardian",
     "date": "Nov 12",
-    "image": "https://www.securityweek.com/wp-content/uploads/2025/10/bank-finance-lender-credit-union-hack.jpeg",
+    "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/11/Coding-Agent-Security-for-AppSec-Leaders--Start-With-What-Agents-Can-Reach.png",
     "image_credit": null,
-    "section": "Security & AppSec",
+    "section": "Secrets & NHI",
     "pinned": false,
     "note": null,
     "labels": [
-      "2 sources",
-      "Security & AppSec",
-      "2h ago"
+      "Secrets & NHI",
+      "under 1h ago"
     ],
-    "also": [
-      {
-        "name": "bleepingcomputer.com",
-        "link": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/"
-      }
-    ]
+    "also": []
   },
   "pulse": [
     {
@@ -31,10 +25,34 @@
       "link_domain": "lyra.horse",
       "source": "Lobsters",
       "domain": "lyra.horse",
-      "meta": "Lobsters · 140 points · 20 comments · 15h ago",
+      "meta": "Lobsters · 172 points · 25 comments · 18h ago",
       "also": [],
       "image": null,
       "icon": "https://lyra.horse/favicon.ico"
+    },
+    {
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "thread": "https://news.ycombinator.com/item?id=50458900",
+      "link": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "link_domain": "cbsnews.com",
+      "source": "Hacker News",
+      "domain": "cbsnews.com",
+      "meta": "Hacker News · 633 points · 656 comments · 18h ago",
+      "also": [],
+      "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/11/abfecdbe-5571-42df-95f8-6c22131067aa/thumbnail/1200x630/526b47f241e8e11c31cb47bc82f1f68c/gettyimages-2296986024-1.jpg",
+      "icon": "https://www.cbsnews.com/fly/bundles/cbsnewscore/icons/icon-192x192.png"
+    },
+    {
+      "title": "Gemini Decisions API",
+      "thread": "https://news.ycombinator.com/item?id=50456791",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "link_domain": "blog.google",
+      "source": "Hacker News",
+      "domain": "blog.google",
+      "meta": "Hacker News · 517 points · 149 comments · 21h ago",
+      "also": [],
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini__decisions__blog-header_2784x1566.width-1300.png",
+      "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131"
     },
     {
       "title": "How a false smoke alarm almost drowned Jane Street's only NYC datacenter",
@@ -43,10 +61,22 @@
       "link_domain": "michael.bacarella.com",
       "source": "Lobsters",
       "domain": "michael.bacarella.com",
-      "meta": "Lobsters · 64 points · 7 comments · 20h ago",
+      "meta": "Lobsters · 71 points · 11 comments · 23h ago",
       "also": [],
       "image": "https://michael.bacarella.com/assets/mbacface.jpg",
       "icon": "https://michael.bacarella.com/apple-touch-icon.png"
+    },
+    {
+      "title": "Anthropic IPO",
+      "thread": "https://news.ycombinator.com/item?id=50465829",
+      "link": "https://ipo.anthropic.com/us/",
+      "link_domain": "ipo.anthropic.com",
+      "source": "Hacker News",
+      "domain": "ipo.anthropic.com",
+      "meta": "Hacker News · 365 points · 386 comments · 4h ago",
+      "also": [],
+      "image": "https://ipo.anthropic.com/assets/share-image-eAr8nJRP.jpg",
+      "icon": "https://ipo.anthropic.com/assets/apple-touch-icon-uPxZX-J4.png"
     },
     {
       "title": "Humble Bundle just killed most of their security through vibecoding",
@@ -55,22 +85,22 @@
       "link_domain": "forums.spacebattles.com",
       "source": "Hacker News",
       "domain": "forums.spacebattles.com",
-      "meta": "Hacker News · 307 points · 185 comments · 6h ago",
+      "meta": "Hacker News · 325 points · 199 comments · 9h ago",
       "also": [],
       "image": null,
       "icon": "https://forums.spacebattles.com/favicon.ico"
     },
     {
-      "title": "Atuin Threads: All your agent sessions on every machine",
-      "thread": "https://news.ycombinator.com/item?id=50453637",
-      "link": "https://blog.atuin.sh/threads-agent-sessions/",
-      "link_domain": "blog.atuin.sh",
+      "title": "Critical RCE Vulnerability in Apache HTTP Server",
+      "thread": "https://news.ycombinator.com/item?id=50462177",
+      "link": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+      "link_domain": "wiz.io",
       "source": "Hacker News",
-      "domain": "blog.atuin.sh",
-      "meta": "Hacker News · 225 points · 80 comments · 23h ago",
+      "domain": "wiz.io",
+      "meta": "Hacker News · 313 points · 158 comments · 13h ago",
       "also": [],
-      "image": null,
-      "icon": "https://storage.ghost.io/c/66/46/6646b777-02d8-44b3-9d01-dd721730b905/content/images/size/w256h256/2024/01/Atuin_Mascot-_01_square.png"
+      "image": "https://www.datocms-assets.com/75231/1794425853-threat-update-kics-alert_custom.jpeg?fm=webp",
+      "icon": "https://www.wiz.io/favicon.png"
     },
     {
       "title": "Retirement Savings Are Fueling the AI Bubble",
@@ -79,7 +109,7 @@
       "link_domain": "lpeproject.org",
       "source": "Hacker News",
       "domain": "lpeproject.org",
-      "meta": "Hacker News · 160 points · 172 comments · 18h ago",
+      "meta": "Hacker News · 163 points · 181 comments · 21h ago",
       "also": [],
       "image": "https://lpeproject.org/wp-content/uploads/2020/08/cropped-Screen-Shot-2020-08-13-at-6.04.41-PM.png",
       "icon": "https://lpeproject.org/wp-content/uploads/2020/08/cropped-LPE_Favicon_512px_BlackBG-450x450.png"
@@ -91,7 +121,7 @@
       "link_domain": "hugovk.dev",
       "source": "Lobsters",
       "domain": "hugovk.dev",
-      "meta": "Lobsters · 21 points · 6 comments · 18h ago",
+      "meta": "Lobsters · 24 points · 7 comments · 21h ago",
       "also": [],
       "image": "https://hugovk.dev/blog/2026/lock-github-actions/feature.jpg",
       "icon": "https://hugovk.dev/favicon.png"
@@ -103,34 +133,10 @@
       "link_domain": "danbooru.donmai.us",
       "source": "Lobsters",
       "domain": "danbooru.donmai.us",
-      "meta": "Lobsters · 20 points · 7 comments · 20h ago",
+      "meta": "Lobsters · 21 points · 9 comments · 23h ago",
       "also": [],
       "image": null,
       "icon": "https://danbooru.donmai.us/favicon.ico"
-    },
-    {
-      "title": "AI, activity, and outcomes in software engineering",
-      "thread": "https://news.ycombinator.com/item?id=50455332",
-      "link": "https://cabird.com/talks/shipping-faster/",
-      "link_domain": "cabird.com",
-      "source": "Hacker News",
-      "domain": "cabird.com",
-      "meta": "Hacker News · 119 points · 109 comments · 20h ago",
-      "also": [],
-      "image": "https://cabird.com/talks/shipping-faster/title.jpg",
-      "icon": "https://cabird.com/favicon.ico"
-    },
-    {
-      "title": "AWS Emulator and the engineer's job when agents write the code",
-      "thread": "https://news.ycombinator.com/item?id=50456740",
-      "link": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
-      "link_domain": "allthingsdistributed.com",
-      "source": "Hacker News",
-      "domain": "allthingsdistributed.com",
-      "meta": "Hacker News · 111 points · 2 comments · 18h ago",
-      "also": [],
-      "image": "https://www.allthingsdistributed.com/images/aws-emulator-header.jpg",
-      "icon": "https://www.allthingsdistributed.com/favicon.ico"
     }
   ],
   "sections": [
@@ -147,33 +153,33 @@
           "icon": null,
           "domain": "leaddev.com",
           "hn": null,
-          "score": 6.384,
+          "score": 5.463,
           "coverage": 1
         },
         {
-          "title": "Using wearables to enable cardiovascular-kidney-metabolic (CKM) risk profiling for personalized coaching",
-          "link": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/",
-          "excerpt": "Health & Bioscience",
-          "source": "Google Research",
-          "date": "Nov 11",
-          "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/CKMHealthHero.png",
-          "icon": null,
-          "domain": "research.google",
+          "title": "Bliki: Generated Glossary",
+          "link": "https://martinfowler.com/bliki/GeneratedGlossary.html",
+          "excerpt": "When we use LLMs in a specialized domain, such as the operations of any reasonably-large organization, there is a lot of specialized vocabulary. Such words and specialized meanings will be foreign to an LLM because they aren't in its training set, making it harder for the LLM to be effective when…",
+          "source": "Martin Fowler",
+          "date": "Nov 12",
+          "image": "https://martinfowler.com/logo-sq.png",
+          "icon": "https://martinfowler.com/favicon.ico",
+          "domain": "martinfowler.com",
           "hn": null,
-          "score": 0.491,
+          "score": 7.253,
           "coverage": 1
         },
         {
-          "title": "Browse tools.simonwillison.net by tag",
-          "link": "https://simonwillison.net/2026/Nov/11/tools-tags/",
-          "excerpt": "Browse tools.simonwillison.net by tag I've been wanting a better way to browse my collection of vibe-coded tools (244 and counting) for a while. I had a few Fable 5.2 credits left over before my weekly reset so I set it to work using tree-sitter to analyze the code for JavaScript APIs, libraries,…",
-          "source": "Simon Willison",
-          "date": "Nov 11",
-          "image": "https://static.simonwillison.net/static/2026/tools-tag-cloud.webp",
-          "icon": null,
-          "domain": "simonwillison.net",
+          "title": "“Toil” is Contextual",
+          "link": "https://newsletter.kentbeck.com/p/toil-is-contextual",
+          "excerpt": "While my kids were growing up they were all in 4-H.",
+          "source": "Kent Beck",
+          "date": "Nov 12",
+          "image": "https://substackcdn.com/image/fetch/$s_!glPN!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Ftidyfirst.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D1077263058%26version%3D9",
+          "icon": "https://substackcdn.com/icons/substack/apple-touch-icon.png",
+          "domain": "newsletter.kentbeck.com",
           "hn": null,
-          "score": 0.472,
+          "score": 1.023,
           "coverage": 1
         }
       ],
@@ -188,7 +194,20 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 2.578,
+          "score": 2.335,
+          "coverage": 1
+        },
+        {
+          "title": "Using wearables to enable cardiovascular-kidney-metabolic (CKM) risk profiling for personalized coaching",
+          "link": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/",
+          "excerpt": "Health & Bioscience",
+          "source": "Google Research",
+          "date": "Nov 11",
+          "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/CKMHealthHero.png",
+          "icon": null,
+          "domain": "research.google",
+          "hn": null,
+          "score": 0.447,
           "coverage": 1
         },
         {
@@ -201,7 +220,20 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.53,
+          "score": 0.479,
+          "coverage": 1
+        },
+        {
+          "title": "Browse tools.simonwillison.net by tag",
+          "link": "https://simonwillison.net/2026/Nov/11/tools-tags/",
+          "excerpt": "Browse tools.simonwillison.net by tag I've been wanting a better way to browse my collection of vibe-coded tools (244 and counting) for a while. I had a few Fable 5.2 credits left over before my weekly reset so I set it to work using tree-sitter to analyze the code for JavaScript APIs, libraries,…",
+          "source": "Simon Willison",
+          "date": "Nov 11",
+          "image": "https://static.simonwillison.net/static/2026/tools-tag-cloud.webp",
+          "icon": null,
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.431,
           "coverage": 1
         },
         {
@@ -214,33 +246,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.451,
-          "coverage": 1
-        },
-        {
-          "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
-          "link": "https://huggingface.co/blog/token-pooling",
-          "excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "source": "Hugging Face",
-          "date": "Nov 11",
-          "image": "https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png",
-          "icon": "https://huggingface.co/favicon.ico",
-          "domain": "huggingface.co",
-          "hn": null,
-          "score": 0.292,
-          "coverage": 1
-        },
-        {
-          "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-          "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-          "excerpt": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
-          "source": "Google AI",
-          "date": "Nov 11",
-          "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini__decisions__blog-header_2784x1566.width-1300.png",
-          "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131",
-          "domain": "blog.google",
-          "hn": null,
-          "score": 0.461,
+          "score": 0.414,
           "coverage": 1
         }
       ]
@@ -251,14 +257,14 @@
         {
           "title": "Launch HN: Pomerado (YC F26) – Turn any website into an MCP for agents",
           "link": "https://news.ycombinator.com/item?id=50455811",
-          "excerpt": "56 points · 45 comments",
+          "excerpt": "57 points · 47 comments",
           "source": "Hacker News",
           "date": "Nov 11",
           "image": null,
           "icon": null,
           "domain": "news.ycombinator.com",
-          "hn": "56 points · 45 comments",
-          "score": 4.255,
+          "hn": "57 points · 47 comments",
+          "score": 3.912,
           "coverage": 1
         },
         {
@@ -271,7 +277,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.606,
+          "score": 0.529,
           "coverage": 1
         },
         {
@@ -284,7 +290,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.597,
+          "score": 0.522,
           "coverage": 1
         }
       ],
@@ -299,7 +305,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 6.304,
+          "score": 5.321,
           "coverage": 1
         },
         {
@@ -312,7 +318,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.594,
+          "score": 0.533,
           "coverage": 1
         },
         {
@@ -325,7 +331,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.305,
+          "score": 0.288,
           "coverage": 1
         },
         {
@@ -338,7 +344,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.91,
+          "score": 0.745,
           "coverage": 1
         },
         {
@@ -351,7 +357,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.323,
+          "score": 0.3,
           "coverage": 1
         }
       ]
@@ -369,7 +375,7 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.576,
+          "score": 0.518,
           "coverage": 1
         },
         {
@@ -382,7 +388,7 @@
           "icon": null,
           "domain": "open.spotify.com",
           "hn": null,
-          "score": 0.463,
+          "score": 0.425,
           "coverage": 1
         },
         {
@@ -395,7 +401,7 @@
           "icon": null,
           "domain": "stratechery.com",
           "hn": null,
-          "score": 1.053,
+          "score": 0.875,
           "coverage": 1
         }
       ],
@@ -410,7 +416,7 @@
           "icon": null,
           "domain": "sloanreview.mit.edu",
           "hn": null,
-          "score": 1.133,
+          "score": 0.929,
           "coverage": 1
         },
         {
@@ -423,7 +429,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.594,
+          "score": 0.533,
           "coverage": 1
         },
         {
@@ -436,7 +442,20 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.594,
+          "score": 0.533,
+          "coverage": 1
+        },
+        {
+          "title": "Proving AI’s business value: Views from PayPal Ads SVP and GM Mark Grether",
+          "link": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/proving-ais-business-value-views-from-paypal-ads-svp-and-gm-mark-grether",
+          "excerpt": "PayPal Ads’ Mark Grether describes how marketers connect technology investment to measurable outcomes by using proprietary transaction data, CMO–CFO alignment, and changes to customer journeys.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 12",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.533,
           "coverage": 1
         },
         {
@@ -449,7 +468,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.594,
+          "score": 0.533,
           "coverage": 1
         }
       ]
@@ -467,7 +486,20 @@
           "icon": null,
           "domain": "blog.modelcontextprotocol.io",
           "hn": null,
-          "score": 2.505,
+          "score": 2.336,
+          "coverage": 1
+        },
+        {
+          "title": "SCIM: Let your customers debug your integrations",
+          "link": "https://workos.com/blog/customer-facing-scim-integration-logs",
+          "excerpt": "When the person who can fix an integration can't see it, every failure becomes a support ticket. Why integration logs belong in front of the customer, and what we learned building them for SCIM.",
+          "source": "WorkOS Blog",
+          "date": "Nov 12",
+          "image": "https://images.workoscdn.com/images/192c2345-0277-4b38-9eb3-21cf611dcac9.png?auto=format&fit=clip&q=80",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null,
+          "score": 2.607,
           "coverage": 1
         }
       ],
@@ -486,7 +518,7 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 3.175,
+          "score": 2.902,
           "coverage": 1
         }
       ],
@@ -505,8 +537,49 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 3.85,
+          "score": 3.155,
           "coverage": 1
+        },
+        {
+          "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+          "link": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
+          "excerpt": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass. The critical vulnerabilities that impact NetScaler ADC and NetScaler Gateway are listed…",
+          "source": "The Hacker News",
+          "date": "Nov 12",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDDv_B4B-cVtvwKyLiGQsL804yGC7_xHF7y3yD5_C284fRXBVRAn5Ashy2apgJr-jaoBHRa3ujgXv1jskM53EvP_pFt41CTazYqFT-tQdcukNBeOTzVIpZXVDsdgtup4MJOEdNNZP9SP0FAdIpG1Cnfgo0YgBXzmI_boLV4qSAsVrmYn5wA3GxnPuj21JO/s1600/citrix.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.72,
+          "coverage": 1
+        },
+        {
+          "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
+          "link": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
+          "excerpt": "Cybersecurity researchers have found that lookalike domains masquerading as artificial intelligence (AI) tools are being used to serve ClickFix-style lures, browser-hijacking malware, and a set of extensions that hijack user searches. This delivery pattern has been codenamed TypoPrompting by…",
+          "source": "The Hacker News",
+          "date": "Nov 12",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirJnc36Fxj4oKOmKhcPvspB_xQpv3VgpXjYnu29SOv8NbVJHeaGNKT26851QIPQbHozxeF5vmq5otdRbJBKEaN9557MtuxLwp5fxX-pQVDVKwvZJtPR9ayT2Njx83svW7TVsVkVpFUOt5JHqhdSkSI7uV0d4dxlf5pWAmHISttTHWjURyOpuuy0CzVCSmK/s1600/lauce.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.698,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
+          "link": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+          "excerpt": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged. Blackpoint Cyber's Adversary Pursuit Group (APG), which shared the details with The…",
+          "source": "The Hacker News",
+          "date": "Nov 12",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4r5n0I6Rd7yb3jS6hfXTyM5foZU5uEiCD1I2Kgth1qgf_pzohrD9jPeDesEopB6Gjo0VaQZF2XesdqU6W32eFADzI3_xhBF4026h6uGqn6eExdfS_A29SvYA3cdIJkhWmPG-k15_DdsGGcqFfWS-E3cgyKkdEQ3Sxa9gayFkkMXggVJpkeH7DoLNLZxm9/s1600/screen.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 6.597,
+          "coverage": 2
         },
         {
           "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
@@ -518,7 +591,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.688,
+          "score": 0.563,
           "coverage": 1
         },
         {
@@ -531,11 +604,9 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.673,
+          "score": 0.553,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
           "link": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
@@ -546,7 +617,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.673,
+          "score": 0.553,
           "coverage": 1
         },
         {
@@ -559,46 +630,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.658,
-          "coverage": 1
-        },
-        {
-          "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
-          "link": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
-          "excerpt": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later chosen to take over as the main server while it still lacks some recent changes. MongoDB, the company that makes the…",
-          "source": "The Hacker News",
-          "date": "Nov 12",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6RJLDSM13MwenwxG4xnZ-Td2_zmnya-Y39FLHlNk-7P3hZ5w1qGjG3XFqT-4gaeZIxSepWWNM53bKTIkZBNA-X_tVKsrgWbw8u81mjLzL6dXvTtvKfKeT-FkwSz4CsdMoHNza2NRFy0PJzzmaMROCr3D7e6AKT5UR3Lh4zFb_1w9HMmXXKKvATVWHU-E/s1600/mongo-poc.gif",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 3.981,
-          "coverage": 1
-        },
-        {
-          "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
-          "link": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
-          "excerpt": "A flaw fixed in Node.js this week lets unauthenticated clients crash servers that use the runtime's built-in HTTP/2 support on the 24.x and 26.x release lines. A second HTTP/2 flaw can cause a server to send a client pieces of its memory, including responses intended for other connections. Fixed…",
-          "source": "The Hacker News",
-          "date": "Nov 12",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD-9bYYTxb5WmvOmftwsTAe5hDcHyjm12YlQj320OhT6WqICBOe0D6nQf-PPslE-I0c0r8xvZdTAXfyPwGQxHWRiQ5HSIPEZGEiNrE15ygDNZCRzzVvGugdRlIq6IARQf38iJG-MN-uo7MvdXXcA0wXIGDm0-olouPSw_SbBm2-2CYGHb4uHgtREv2ycI/s1600/nodeks.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.533,
-          "coverage": 1
-        },
-        {
-          "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
-          "link": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
-          "excerpt": "Starting Tuesday, an attacker used stolen credentials for 4,837 GitHub accounts to plant a secret stealer in repositories those accounts could write to, according to Aikido Security, a security software company. The stealer is built to take the secrets and cloud credentials that a repository's CI…",
-          "source": "The Hacker News",
-          "date": "Nov 12",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1-4OiOkGLcK3fAr2HdhALOfc_BqR21440TsjUIuCNzv4YL0lWRC3lvUjE1vu2RdVfjunxi80gMQyGpjvUdWzMRtthW8_-hFOJ79YhFzJrNGgoKDPYXm2OaWOsN8kgBELqOPs5s9QKL4qzQzu_3NEEqHygpfQzKYxDRIQeFgMHj24oyPyaslUemke-loU/s1600/github.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.486,
+          "score": 0.542,
           "coverage": 1
         }
       ]
@@ -606,6 +638,32 @@
     {
       "name": "Platform, Cloud & Reliability",
       "cards": [
+        {
+          "title": "Google named the furthest in vision for the Gartner Magic Quadrant for Data Lakehouse Platforms",
+          "link": "https://cloud.google.com/blog/products/data-analytics/google-is-a-leader-in-the-gartner-magic-quadrant-for-data-lakehouse-platforms/",
+          "excerpt": "Gartner has named Google Cloud a Leader, positioned furthest in vision, in its first-ever Magic Quadrant for Lakehouse Platforms. In our opinion, this recognition validates a fundamental shift our customers are experiencing every day: In the agentic era, the enterprise lakehouse is no longer a…",
+          "source": "Cloud Blog",
+          "date": "Nov 12",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_ivcdeyQ.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 7.249,
+          "coverage": 1
+        },
+        {
+          "title": "Turn Jira tickets into GitLab merge requests with Duo Agent Platform",
+          "link": "https://about.gitlab.com/blog/jira-ticket-to-gitlab-mr-with-duo-agent-platform/",
+          "excerpt": "Many teams plan in Jira and ship in GitLab. Even if you already use GitLab Duo Agent Platform, you still open Jira to read each ticket, copy it into an agent for implementation, and report the merge request back.This tutorial shows you how to remove that handoff. You add a Jira agent to Duo…",
+          "source": "GitLab",
+          "date": "Nov 12",
+          "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1793712865/xg2fqhk9ipivr4qn0bll.jpg",
+          "icon": null,
+          "domain": "about.gitlab.com",
+          "hn": null,
+          "score": 3.597,
+          "coverage": 1
+        },
         {
           "title": "How lemonflow built real-time agents for EV charging using Gemma and TPUs",
           "link": "https://cloud.google.com/blog/topics/startups/building-real-time-agents-for-ev-charging-using-gemma-and-tpus/",
@@ -616,9 +674,11 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.345,
+          "score": 2.151,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "How to prevent leaks from Claude Code's 'Don't ask again' file",
           "link": "https://about.gitlab.com/blog/prevent-leaks-from-claude-code-dont-ask-again-file/",
@@ -629,7 +689,7 @@
           "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
           "domain": "about.gitlab.com",
           "hn": null,
-          "score": 1.919,
+          "score": 1.812,
           "coverage": 1
         },
         {
@@ -642,11 +702,9 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.134,
+          "score": 1.957,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "GitHub Makes Agentic Workflows Generally Available with Isolation and Budget Controls",
           "link": "https://www.infoq.com/news/2026/11/github-agentic-workflows-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -657,7 +715,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 2.134,
+          "score": 1.957,
           "coverage": 1
         },
         {
@@ -670,33 +728,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 4.639,
-          "coverage": 1
-        },
-        {
-          "title": "OpenShell on Kubernetes: A guide for platform engineers",
-          "link": "https://www.cncf.io/blog/2026/11/11/openshell-on-kubernetes-a-guide-for-platform-engineers/",
-          "excerpt": "What OpenShell is AI agents do more than call APIs. They run shells, install packages, read files, and open network connections. Often they act on text they pulled from the internet a minute earlier. So every...",
-          "source": "Blog – Cloud Native Computing Foundation",
-          "date": "Nov 11",
-          "image": "https://www.cncf.io/wp-content/uploads/2026/10/image-41.png",
-          "icon": null,
-          "domain": "cncf.io",
-          "hn": null,
-          "score": 1.521,
-          "coverage": 1
-        },
-        {
-          "title": "Introducing new AI functions for AlloyDB: ai.classify and ai.extract",
-          "link": "https://cloud.google.com/blog/products/databases/ai-classify-and-ai-extract-functions-in-alloydb-ai/",
-          "excerpt": "Transactional databases store vast amounts of unstructured text — clinical notes, customer reviews, support tickets, invoices, and property descriptions. Historically, working with this text meant building complex application code: You had to export data from the database, call external model…",
-          "source": "Cloud Blog",
-          "date": "Nov 11",
-          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/cloud_databases_channel_hero_option1_2436x.max-2500x2500.png",
-          "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
-          "domain": "cloud.google.com",
-          "hn": null,
-          "score": 1.396,
+          "score": 3.852,
           "coverage": 1
         },
         {
@@ -718,109 +750,109 @@
       "name": "News & Research",
       "cards": [
         {
-          "title": "United won’t let your AI agent book your flight",
-          "link": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
-          "excerpt": "United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns. The company says it hasn't yet seen many people try to use AI agents to book their flights, The Wall Street Journal reports, in line with observations from other businesses…",
-          "source": "The Verge",
-          "date": "Nov 11",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23176430/1237621702.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "icon": null,
-          "domain": "theverge.com",
-          "hn": null,
-          "score": 2.766,
-          "coverage": 1
-        },
-        {
-          "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
-          "link": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
-          "excerpt": "Using an artificial intelligence agent to make flight reservations poses security risks and could violate federal rules, according to United.",
-          "source": "cbsnews.com via Hacker News",
-          "date": "Nov 11",
-          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/11/abfecdbe-5571-42df-95f8-6c22131067aa/thumbnail/1200x630/526b47f241e8e11c31cb47bc82f1f68c/gettyimages-2296986024-1.jpg",
-          "icon": "https://www.cbsnews.com/fly/bundles/cbsnewscore/icons/icon-192x192.png",
-          "domain": "cbsnews.com",
-          "hn": "579 points · 604 comments",
-          "score": 4.552,
-          "coverage": 1
-        },
-        {
-          "title": "Anthropic IPO",
-          "link": "https://ipo.anthropic.com/us/",
-          "excerpt": "Anthropic has filed to become a public company. Read the Foundersâ letter and other relevant information.",
-          "source": "ipo.anthropic.com via Hacker News",
+          "title": "PostgreSQL 18.7, 17.12, 16.16, 15.20, 14.25, and 19 RC 2 Released",
+          "link": "https://www.postgresql.org/about/news/postgresql-187-1712-1616-1520-1425-and-19-rc-2-released-3442/",
+          "excerpt": "The PostgreSQL Global Development Group has released an update to all supported versions of PostgreSQL, including 18.7, 17.12, 16.16, 15.20, …",
+          "source": "postgresql.org via Hacker News",
           "date": "Nov 12",
-          "image": "https://ipo.anthropic.com/assets/share-image-eAr8nJRP.jpg",
-          "icon": "https://ipo.anthropic.com/assets/apple-touch-icon-uPxZX-J4.png",
-          "domain": "ipo.anthropic.com",
-          "hn": "136 points · 144 comments",
-          "score": 6.975,
+          "image": "https://www.postgresql.org/media/img/about/press/elephant.png",
+          "icon": "https://www.postgresql.org/favicon.ico",
+          "domain": "postgresql.org",
+          "hn": "39 points · 2 comments",
+          "score": 6.616,
+          "coverage": 1
+        },
+        {
+          "title": "Abandoned Quake 4 expansion finished by modders and now playable",
+          "link": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
+          "excerpt": "openQ4 0.14.1, the Awakening Edition: play the recovered Quake 4 expansion beside the original campaign, with stable shadow mapping, a new interface, Vulkan on Windows, smarter bots and an experimental Android app.",
+          "source": "moddb.com via Hacker News",
+          "date": "Nov 12",
+          "image": "https://media.moddb.com/images/downloads/1/322/321570/moddb-release-0.14.1-awakening-p.jpg",
+          "icon": "https://www.moddb.com/apple-touch-icon.png",
+          "domain": "moddb.com",
+          "hn": "69 points · 24 comments",
+          "score": 3.826,
+          "coverage": 1
+        },
+        {
+          "title": "Talking Zen 6 with Mike Clark at AMD In-Depth",
+          "link": "https://chipsandcheese.com/p/talking-zen-6-with-mike-clark-at",
+          "excerpt": "Hello you fine Internet folks,",
+          "source": "chipsandcheese.com via Hacker News",
+          "date": "Nov 12",
+          "image": "https://substackcdn.com/image/youtube/w_728,c_limit/AdyPoLBp4No",
+          "icon": "https://substackcdn.com/image/fetch/$s_!2gTG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6d6ceac7-3196-46ce-837d-21e5b40021ae%2Fapple-touch-icon-57x57.png",
+          "domain": "chipsandcheese.com",
+          "hn": "68 points · 0 comments",
+          "score": 3.577,
           "coverage": 1
         }
       ],
       "more": [
         {
-          "title": "Researchers discover rare star system that emits radio signals every 8 minutes",
-          "link": "https://www.curtin.edu.au/news/media-release/researchers-discover-rare-star-system-that-emits-radio-signals-every-eight-minutes/",
-          "excerpt": "Scientists at the Curtin University node of the International Centre for Radio Astronomy Research (ICRAR) have linked mysterious radio pulses to an unusual ...",
-          "source": "curtin.edu.au via Hacker News",
+          "title": "Libreagi – Save OSS Models",
+          "link": "https://libreagi.com/",
+          "excerpt": "A private BitTorrent tracker where members keep copies of the open models most likely to disappear.",
+          "source": "libreagi.com via Hacker News",
           "date": "Nov 12",
-          "image": "https://www.curtin.edu.au/news/wp-content/uploads/2026/11/for-web-LPT_HD_Still_3.png",
-          "icon": "https://www.curtin.edu.au/news/wp-content/uploads/2022/11/cropped-apple-touch-icon-152x152-1-180x180.png",
-          "domain": "curtin.edu.au",
-          "hn": "11 points · 0 comments",
-          "score": 2.241,
+          "image": "https://libreagi.com/og.png",
+          "icon": "https://libreagi.com/favicon.svg",
+          "domain": "libreagi.com",
+          "hn": "35 points · 14 comments",
+          "score": 3.344,
           "coverage": 1
         },
         {
-          "title": "Why Writing Correct Software Is Hard",
-          "link": "https://pron.github.io/posts/correctness-and-complexity",
-          "excerpt": "We try to understand the relationship between programs and correctness, and in particular, why writing correct programs must be hard. We will review results from computability theory and complexity theory, and see that programs and complete understanding – which is required for correctness – are…",
-          "source": "pron.github.io via Hacker News",
+          "title": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
+          "link": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
+          "excerpt": "The first Gemini smartglasses are a collab between Google, Samsung, Gentle Monster, and Warby Parker.",
+          "source": "Ars Technica",
           "date": "Nov 12",
-          "image": "https://www.gravatar.com/avatar/c69557151e2f8331f6b1865469b694dd?s=200",
-          "icon": "https://pron.github.io/fav/favicon-152.png",
-          "domain": "pron.github.io",
-          "hn": "98 points · 42 comments",
-          "score": 3.858,
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/WP_ALDEN-Carousel_Lifestyle-copy-500x500.jpg",
+          "icon": null,
+          "domain": "arstechnica.com",
+          "hn": null,
+          "score": 0.676,
           "coverage": 1
         },
         {
-          "title": "I'm Working on a FOSS Linux Pinbal Simulation Engine",
-          "link": "https://www.getlazarus.org/forums/topic/17/",
-          "excerpt": "67 points · 27 comments",
-          "source": "getlazarus.org via Hacker News",
+          "title": "Nvidia CEO Jensen Huang has resigned",
+          "link": "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/",
+          "excerpt": "The FBI is investigating as Nvidia’s board holds urgent talks over Huang’s future.",
+          "source": "Ars Technica",
           "date": "Nov 12",
-          "image": null,
-          "icon": "https://cache.getlazarus.org/favicon.png",
-          "domain": "getlazarus.org",
-          "hn": "67 points · 27 comments",
-          "score": 2.732,
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2296993009-500x500.jpg",
+          "icon": null,
+          "domain": "arstechnica.com",
+          "hn": null,
+          "score": 0.64,
           "coverage": 1
         },
         {
-          "title": "Critical RCE Vulnerability in Apache HTTP Server",
-          "link": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
-          "excerpt": "Detect and mitigate CVE-2026-119618, a critical RCE vulnerability in Apache HTTP Server. According to Wiz data, 64% of cloud environments have resources vulnerable to CVE-2026-119618. Immediate patching is advised.",
-          "source": "wiz.io via Hacker News",
+          "title": "Hundreds of streaming services and nothing to watch",
+          "link": "https://arstechnica.com/gadgets/2026/11/hundreds-of-streaming-services-and-nothing-to-watch/",
+          "excerpt": "Most viewers wish there was a TV Guide for streaming.",
+          "source": "Ars Technica",
           "date": "Nov 12",
-          "image": "https://www.datocms-assets.com/75231/1794425853-threat-update-kics-alert_custom.jpeg?fm=webp",
-          "icon": "https://www.wiz.io/favicon.png",
-          "domain": "wiz.io",
-          "hn": "256 points · 123 comments",
-          "score": 5.723,
-          "coverage": 2
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2230766677-500x500.jpg",
+          "icon": null,
+          "domain": "arstechnica.com",
+          "hn": null,
+          "score": 0.636,
+          "coverage": 1
         },
         {
-          "title": "A general purpose Apple Silicon layer for x86-64 PCs",
-          "link": "https://github.com/tylertms/Stela",
-          "excerpt": "A general purpose Apple Silicon layer for x86-64 PCs - tylertms/Stela",
-          "source": "github.com via Hacker News",
-          "date": "Nov 11",
-          "image": "https://opengraph.githubassets.com/22097660764a8c6d56c0b4542607a80357256a3234c0d39c6db4ae40eb997cd2/tylertms/Stela",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "118 points · 47 comments",
-          "score": 2.237,
+          "title": "Review: Apple's M6 iMac is pricey, but it's still a good choice for a clean desk",
+          "link": "https://arstechnica.com/features/2026/11/review-apples-m6-imac-is-pricey-but-its-still-a-good-choice-for-a-clean-desk/",
+          "excerpt": "Apple's M6 keeps the iMac current without shaking things up much.",
+          "source": "Ars Technica",
+          "date": "Nov 12",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/IMG_9812-500x500.jpeg",
+          "icon": null,
+          "domain": "arstechnica.com",
+          "hn": null,
+          "score": 0.558,
           "coverage": 1
         }
       ]
