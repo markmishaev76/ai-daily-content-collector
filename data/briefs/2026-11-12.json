@@ -1,21 +1,27 @@
 {
   "date": "2026-11-12",
   "lead": {
-    "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
-    "link": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
-    "excerpt": "Using an artificial intelligence agent to make flight reservations poses security risks and could violate federal rules, according to United.",
-    "source": "cbsnews.com via Hacker News",
-    "date": "Nov 11",
-    "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/11/abfecdbe-5571-42df-95f8-6c22131067aa/thumbnail/1200x630/526b47f241e8e11c31cb47bc82f1f68c/gettyimages-2296986024-1.jpg",
+    "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+    "link": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+    "excerpt": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday. Only servers with HTTP/2 enabled are affected, according to…",
+    "source": "The Hacker News",
+    "date": "Nov 12",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLpi_uN6PmG2Gn1agNMsOrsCp324eH-utKkDl_SPe32ggjcWFPjxZSyeA1KvAtvI9SQ4VAN_zssvdJLJ59IXE8_-MatPOyFXY-FcwtL7HtfKyW3MtsKwglIe2X62WBOcUkPMv-klM1h8T2EBMWFOWyPG89bfbAHS5byyfXATXN_lUUJWmUGWChekyWxTQ/s1600/apache-http.jpg",
     "image_credit": null,
-    "section": "News & Research",
+    "section": "Security & AppSec",
     "pinned": false,
     "note": null,
     "labels": [
-      "News & Research",
-      "6h ago"
+      "2 sources",
+      "Security & AppSec",
+      "under 1h ago"
     ],
-    "also": []
+    "also": [
+      {
+        "name": "wiz.io",
+        "link": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability"
+      }
+    ]
   },
   "pulse": [
     {
@@ -25,7 +31,7 @@
       "link_domain": "pietromiotti.com",
       "source": "Hacker News",
       "domain": "pietromiotti.com",
-      "meta": "Hacker News · 947 points · 343 comments · 16h ago",
+      "meta": "Hacker News · 959 points · 351 comments · 18h ago",
       "also": [],
       "image": "https://pietromiotti.com/latest/maya-site/forest-vs-lidar.jpg",
       "icon": "https://pietromiotti.com/favicon.ico"
@@ -37,7 +43,7 @@
       "link_domain": "",
       "source": "Lobsters",
       "domain": "Lobsters",
-      "meta": "Lobsters · 96 points · 57 comments · 16h ago",
+      "meta": "Lobsters · 99 points · 57 comments · 18h ago",
       "also": [],
       "image": null,
       "icon": null
@@ -49,7 +55,7 @@
       "link_domain": "",
       "source": "Lobsters",
       "domain": "Lobsters",
-      "meta": "Lobsters · 71 points · 29 comments · 14h ago",
+      "meta": "Lobsters · 73 points · 29 comments · 16h ago",
       "also": [],
       "image": null,
       "icon": null
@@ -61,7 +67,7 @@
       "link_domain": "lyra.horse",
       "source": "Lobsters",
       "domain": "lyra.horse",
-      "meta": "Lobsters · 50 points · 6 comments · 6h ago",
+      "meta": "Lobsters · 64 points · 6 comments · 8h ago",
       "also": [],
       "image": null,
       "icon": "https://lyra.horse/favicon.ico"
@@ -73,7 +79,7 @@
       "link_domain": "michael.bacarella.com",
       "source": "Lobsters",
       "domain": "michael.bacarella.com",
-      "meta": "Lobsters · 48 points · 4 comments · 11h ago",
+      "meta": "Lobsters · 51 points · 6 comments · 13h ago",
       "also": [],
       "image": "https://michael.bacarella.com/assets/mbacface.jpg",
       "icon": "https://michael.bacarella.com/apple-touch-icon.png"
@@ -85,7 +91,7 @@
       "link_domain": "blog.atuin.sh",
       "source": "Hacker News",
       "domain": "blog.atuin.sh",
-      "meta": "Hacker News · 199 points · 77 comments · 13h ago",
+      "meta": "Hacker News · 208 points · 78 comments · 15h ago",
       "also": [],
       "image": null,
       "icon": "https://storage.ghost.io/c/66/46/6646b777-02d8-44b3-9d01-dd721730b905/content/images/size/w256h256/2024/01/Atuin_Mascot-_01_square.png"
@@ -97,34 +103,10 @@
       "link_domain": "lpeproject.org",
       "source": "Hacker News",
       "domain": "lpeproject.org",
-      "meta": "Hacker News · 144 points · 148 comments · 8h ago",
+      "meta": "Hacker News · 150 points · 149 comments · 10h ago",
       "also": [],
       "image": "https://lpeproject.org/wp-content/uploads/2020/08/cropped-Screen-Shot-2020-08-13-at-6.04.41-PM.png",
       "icon": "https://lpeproject.org/wp-content/uploads/2020/08/cropped-LPE_Favicon_512px_BlackBG-450x450.png"
-    },
-    {
-      "title": "AWS Emulator and the engineer's job when agents write the code",
-      "thread": "https://news.ycombinator.com/item?id=50456740",
-      "link": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
-      "link_domain": "allthingsdistributed.com",
-      "source": "Hacker News",
-      "domain": "allthingsdistributed.com",
-      "meta": "Hacker News · 111 points · 2 comments · 9h ago",
-      "also": [],
-      "image": "https://www.allthingsdistributed.com/images/aws-emulator-header.jpg",
-      "icon": "https://www.allthingsdistributed.com/favicon.ico"
-    },
-    {
-      "title": "AI, activity, and outcomes in software engineering",
-      "thread": "https://news.ycombinator.com/item?id=50455332",
-      "link": "https://cabird.com/talks/shipping-faster/",
-      "link_domain": "cabird.com",
-      "source": "Hacker News",
-      "domain": "cabird.com",
-      "meta": "Hacker News · 110 points · 102 comments · 11h ago",
-      "also": [],
-      "image": "https://cabird.com/talks/shipping-faster/title.jpg",
-      "icon": "https://cabird.com/favicon.ico"
     },
     {
       "title": "About the downtime and security incident",
@@ -133,10 +115,34 @@
       "link_domain": "danbooru.donmai.us",
       "source": "Lobsters",
       "domain": "danbooru.donmai.us",
-      "meta": "Lobsters · 16 points · 6 comments · 11h ago",
+      "meta": "Lobsters · 17 points · 6 comments · 13h ago",
       "also": [],
       "image": null,
       "icon": "https://danbooru.donmai.us/favicon.ico"
+    },
+    {
+      "title": "AI, activity, and outcomes in software engineering",
+      "thread": "https://news.ycombinator.com/item?id=50455332",
+      "link": "https://cabird.com/talks/shipping-faster/",
+      "link_domain": "cabird.com",
+      "source": "Hacker News",
+      "domain": "cabird.com",
+      "meta": "Hacker News · 112 points · 103 comments · 13h ago",
+      "also": [],
+      "image": "https://cabird.com/talks/shipping-faster/title.jpg",
+      "icon": "https://cabird.com/favicon.ico"
+    },
+    {
+      "title": "AWS Emulator and the engineer's job when agents write the code",
+      "thread": "https://news.ycombinator.com/item?id=50456740",
+      "link": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
+      "link_domain": "allthingsdistributed.com",
+      "source": "Hacker News",
+      "domain": "allthingsdistributed.com",
+      "meta": "Hacker News · 111 points · 2 comments · 11h ago",
+      "also": [],
+      "image": "https://www.allthingsdistributed.com/images/aws-emulator-header.jpg",
+      "icon": "https://www.allthingsdistributed.com/favicon.ico"
     }
   ],
   "sections": [
@@ -153,7 +159,7 @@
           "icon": null,
           "domain": "research.google",
           "hn": null,
-          "score": 0.713,
+          "score": 0.648,
           "coverage": 1
         },
         {
@@ -166,7 +172,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.673,
+          "score": 0.616,
           "coverage": 1
         },
         {
@@ -179,7 +185,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.359,
+          "score": 0.342,
           "coverage": 1
         }
       ],
@@ -194,7 +200,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 3.83,
+          "score": 3.462,
           "coverage": 1
         },
         {
@@ -207,7 +213,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.798,
+          "score": 0.718,
           "coverage": 1
         },
         {
@@ -220,7 +226,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.632,
+          "score": 0.581,
           "coverage": 1
         },
         {
@@ -233,7 +239,7 @@
           "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131",
           "domain": "blog.google",
           "hn": null,
-          "score": 0.651,
+          "score": 0.597,
           "coverage": 1
         },
         {
@@ -246,7 +252,7 @@
           "icon": null,
           "domain": "blog.google",
           "hn": null,
-          "score": 0.597,
+          "score": 0.552,
           "coverage": 1
         }
       ]
@@ -257,16 +263,44 @@
         {
           "title": "Launch HN: Pomerado (YC F26) – Turn any website into an MCP for agents",
           "link": "https://news.ycombinator.com/item?id=50455811",
-          "excerpt": "51 points · 40 comments",
+          "excerpt": "53 points · 41 comments",
           "source": "Hacker News",
           "date": "Nov 11",
           "image": null,
           "icon": null,
           "domain": "news.ycombinator.com",
-          "hn": "51 points · 40 comments",
-          "score": 5.891,
+          "hn": "53 points · 41 comments",
+          "score": 5.435,
           "coverage": 1
         },
+        {
+          "title": "[AINews] D-Day (Decision Models Day)",
+          "link": "https://latent.space/p/ainews-d-day-decision-models-day/",
+          "excerpt": "November 11, 2026 — Google enters the decision model market. At AI Engineer, Cloudflare showed which parts of a build failure a classifier could handle. TypeSafe AI showed off their production customers.",
+          "source": "Latent Space",
+          "date": "Nov 12",
+          "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/b8ccf47f-9414-4c90-bbb5-0fcb2b0ac850/image.png?t=1794461003",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null,
+          "score": 0.948,
+          "coverage": 1
+        },
+        {
+          "title": "The Jev Revolution: What Engineers Are Already Building with System One Models",
+          "link": "https://latent.space/p/jev-revolution/",
+          "excerpt": "At AI Engineer Code Summit, lead Jev creator Diogo Almeida called on developers to automate everything. Also, Glean and others showed how they’re using Jev.",
+          "source": "Latent Space",
+          "date": "Nov 12",
+          "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/b4181d5a-0460-4828-b350-07feca728023/jevalution-feature.jpg?t=1794458692",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null,
+          "score": 0.925,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
           "link": "https://openai.com/index/jiostar-vijay-seshadri",
@@ -277,7 +311,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.374,
+          "score": 0.356,
           "coverage": 1
         },
         {
@@ -290,11 +324,10 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.428,
+          "score": 0.4,
           "coverage": 1
         }
-      ],
-      "more": []
+      ]
     },
     {
       "name": "Leadership",
@@ -309,7 +342,7 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.888,
+          "score": 0.794,
           "coverage": 1
         },
         {
@@ -322,7 +355,7 @@
           "icon": null,
           "domain": "open.spotify.com",
           "hn": null,
-          "score": 0.645,
+          "score": 0.594,
           "coverage": 1
         },
         {
@@ -335,11 +368,38 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.931,
+          "score": 0.828,
           "coverage": 1
         }
       ],
-      "more": []
+      "more": [
+        {
+          "title": "Rural healthcare and America’s $340 billion workforce earnings opportunity",
+          "link": "https://www.mckinsey.com/institute-for-economic-mobility/our-insights/rural-healthcare-and-americas-340-billion-dollar-workforce-earnings-opportunity",
+          "excerpt": "Rural facilities are closing as staffing shortages worsen. Yet 38 million “bridge workers”—nearly 100 times the national workforce shortage—could move into nursing and allied health roles and gain economic mobility.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 12",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.828,
+          "coverage": 1
+        },
+        {
+          "title": "The Achilles’ heel of global trade: Building resilience where it matters most",
+          "link": "https://www.mckinsey.com/mgi/our-research/the-achilles-heel-of-global-trade-building-resilience-where-it-matters-most",
+          "excerpt": "International trade has been resilient, but important vulnerabilities lurk beneath the surface. Identifying and managing these Achilles’ heels could help unlock new markets, products, and economic growth.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 12",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.828,
+          "coverage": 1
+        }
+      ]
     },
     {
       "name": "Agent Identity & Authorization",
@@ -354,7 +414,7 @@
           "icon": null,
           "domain": "blog.modelcontextprotocol.io",
           "hn": null,
-          "score": 3.241,
+          "score": 3.045,
           "coverage": 1
         }
       ],
@@ -373,7 +433,20 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 4.508,
+          "score": 4.128,
+          "coverage": 1
+        },
+        {
+          "title": "Huawei releases MACaQ, its internal quantizer for local inference",
+          "link": "https://github.com/huawei-csl/MACaQ",
+          "excerpt": "SOTA model-agnostic quantization for GGUF, local inference and beyond. Quantize and run text, image, video and audio models with llama.cpp, vLLM, Diffusers and PyTorch. - huawei-csl/MACaQ",
+          "source": "github.com via Hacker News",
+          "date": "Nov 11",
+          "image": "https://repository-images.githubusercontent.com/1452417816/74bc9106-306c-4e93-96da-77dcff2e0d77",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "81 points · 23 comments",
+          "score": 3.319,
           "coverage": 1
         }
       ],
@@ -392,7 +465,20 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 1.834,
+          "score": 1.696,
+          "coverage": 1
+        },
+        {
+          "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
+          "link": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+          "excerpt": "ConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access. In an advisory posted on its site, the company said there is no evidence that the incident involves a compromise of its infrastructure or a…",
+          "source": "The Hacker News",
+          "date": "Nov 12",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEfz7InYm8UO-p35K6B4j009BxA-MO7DdZ2x1d-xhyphenhyphenPxNnVs848IlgAGelmuW-sPbEZbE8-L9_KWEYNH_M5HaTMy14MFd87A7YkqHAzDKaamKOdpZKR9owL3nK3gbqAngvWa6A4NC1KK1l0ie9FK731LfKPI0lguiGQ1b71sHIZj2kR2H3I-GJjSPY4kJU/s1600/screenconnect-hack.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.669,
           "coverage": 1
         },
         {
@@ -405,9 +491,11 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.377,
+          "score": 0.348,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Today: CISO Forum Virtual Summit 2026 Day 2 – Join Cybersecurity Leaders Online",
           "link": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
@@ -418,11 +506,9 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.381,
+          "score": 0.351,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Critical Xen Orchestra Flaws Exploited in Attacks",
           "link": "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/",
@@ -433,7 +519,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.369,
+          "score": 0.341,
           "coverage": 1
         },
         {
@@ -446,7 +532,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.344,
+          "score": 0.32,
           "coverage": 1
         },
         {
@@ -459,33 +545,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.34,
-          "coverage": 1
-        },
-        {
-          "title": "Finite State Raises $27 Million to Secure Software and Firmware in Connected Devices",
-          "link": "https://www.securityweek.com/finite-state-raises-27-million-to-secure-software-and-firmware-in-connected-devices/",
-          "excerpt": "The Series C round will fund international expansion and more autonomous features for the firm’s device security platform. The post Finite State Raises $27 Million to Secure Software and Firmware in Connected Devices appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 11",
-          "image": "https://www.securityweek.com/wp-content/uploads/2025/12/funding-round.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.325,
-          "coverage": 1
-        },
-        {
-          "title": "Fortinet Patches Nearly 100 Vulnerabilities",
-          "link": "https://www.securityweek.com/fortinet-patches-nearly-100-vulnerabilities/",
-          "excerpt": "The massive drop comes after the company integrated frontier AI models into its product security testing. The post Fortinet Patches Nearly 100 Vulnerabilities appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 11",
-          "image": "https://www.securityweek.com/wp-content/uploads/2023/06/fortinet-e1737023333411.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.322,
+          "score": 0.316,
           "coverage": 1
         }
       ]
@@ -503,7 +563,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 3.272,
+          "score": 3.011,
           "coverage": 1
         },
         {
@@ -516,7 +576,7 @@
           "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
           "domain": "about.gitlab.com",
           "hn": null,
-          "score": 2.356,
+          "score": 2.245,
           "coverage": 1
         },
         {
@@ -529,7 +589,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.977,
+          "score": 2.74,
           "coverage": 1
         }
       ],
@@ -544,7 +604,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 2.977,
+          "score": 2.74,
           "coverage": 1
         },
         {
@@ -557,7 +617,7 @@
           "icon": null,
           "domain": "cncf.io",
           "hn": null,
-          "score": 2.093,
+          "score": 1.934,
           "coverage": 1
         },
         {
@@ -570,7 +630,7 @@
           "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.947,
+          "score": 1.792,
           "coverage": 1
         },
         {
@@ -614,7 +674,20 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 4.154,
+          "score": 3.743,
+          "coverage": 1
+        },
+        {
+          "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+          "link": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+          "excerpt": "Using an artificial intelligence agent to make flight reservations poses security risks and could violate federal rules, according to United.",
+          "source": "cbsnews.com via Hacker News",
+          "date": "Nov 11",
+          "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/11/abfecdbe-5571-42df-95f8-6c22131067aa/thumbnail/1200x630/526b47f241e8e11c31cb47bc82f1f68c/gettyimages-2296986024-1.jpg",
+          "icon": "https://www.cbsnews.com/fly/bundles/cbsnewscore/icons/icon-192x192.png",
+          "domain": "cbsnews.com",
+          "hn": "493 points · 476 comments",
+          "score": 6.025,
           "coverage": 1
         },
         {
@@ -626,10 +699,12 @@
           "image": "https://terrytao.wordpress.com/wp-content/uploads/2026/11/image.png",
           "icon": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=114",
           "domain": "terrytao.wordpress.com",
-          "hn": "12 points · 1 comments",
-          "score": 2.516,
+          "hn": "26 points · 4 comments",
+          "score": 2.703,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Critical RCE Vulnerability in Apache HTTP Server",
           "link": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
@@ -639,12 +714,10 @@
           "image": "https://www.datocms-assets.com/75231/1794425853-threat-update-kics-alert_custom.jpeg?fm=webp",
           "icon": "https://www.wiz.io/favicon.png",
           "domain": "wiz.io",
-          "hn": "33 points · 17 comments",
-          "score": 3.364,
-          "coverage": 1
-        }
-      ],
-      "more": [
+          "hn": "85 points · 34 comments",
+          "score": 7.84,
+          "coverage": 2
+        },
         {
           "title": "A general purpose Apple Silicon layer for x86-64 PCs",
           "link": "https://github.com/tylertms/Stela",
@@ -654,8 +727,8 @@
           "image": "https://opengraph.githubassets.com/22097660764a8c6d56c0b4542607a80357256a3234c0d39c6db4ae40eb997cd2/tylertms/Stela",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "74 points · 30 comments",
-          "score": 3.167,
+          "hn": "85 points · 34 comments",
+          "score": 2.904,
           "coverage": 1
         },
         {
@@ -667,34 +740,34 @@
           "image": null,
           "icon": "https://www.mcmillen.dev/favicon.ico",
           "domain": "mcmillen.dev",
-          "hn": "233 points · 34 comments",
-          "score": 3.614,
+          "hn": "305 points · 42 comments",
+          "score": 3.378,
           "coverage": 1
         },
         {
           "title": "Nvidia is preparing to oust Jensen Huang",
           "link": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
-          "excerpt": "680 points · 947 comments",
+          "excerpt": "790 points · 1127 comments",
           "source": "wsj.com via Hacker News",
           "date": "Nov 11",
           "image": null,
           "icon": "https://www.wsj.com/favicon.ico",
           "domain": "wsj.com",
-          "hn": "680 points · 947 comments",
-          "score": 4.625,
+          "hn": "790 points · 1127 comments",
+          "score": 4.237,
           "coverage": 1
         },
         {
           "title": "Lock Your GitHub Actions",
           "link": "https://hugovk.dev/blog/2026/lock-github-actions/",
-          "excerpt": "171 points · 30 comments",
+          "excerpt": "193 points · 35 comments",
           "source": "hugovk.dev via Hacker News",
           "date": "Nov 11",
           "image": "https://hugovk.dev/blog/2026/lock-github-actions/feature.jpg",
           "icon": "https://hugovk.dev/favicon.png",
           "domain": "hugovk.dev",
-          "hn": "171 points · 30 comments",
-          "score": 3.396,
+          "hn": "193 points · 35 comments",
+          "score": 3.117,
           "coverage": 1
         }
       ]
