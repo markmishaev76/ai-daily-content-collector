@@ -1,35 +1,21 @@
 {
   "date": "2026-11-13",
   "lead": {
-    "title": "wfx-loot: Stolen GitHub tokens pushed a CI secret stealer into 60,000+ repositories (November 2026)",
-    "link": "https://www.chainguard.dev/unchained/wfx-loot-stolen-github-tokens-pushed-a-ci-secret-stealer-into-60-000-repositories-november-2026",
-    "excerpt": "The wfx supply chain attack compromised thousands of GitHub repositories. See how it works, what credentials it steals, and how to stay protected.",
-    "source": "Chainguard: Unchained",
-    "date": "Nov 12",
-    "image": "https://www.bleepstatic.com/content/hl-images/2026/10/08/github.jpg",
-    "image_credit": "BleepingComputer",
-    "section": "Security & AppSec",
+    "title": "Agentic search doesn't find pages, it assembles answers",
+    "link": "https://stackoverflow.blog/2026/11/13/agentic-doesn-t-find-pages-it-assembles-answers/",
+    "excerpt": "Ryan sits down with Jeff Wang, co-founder at EXA, to talk about the huge scale required to support trillions of agentic searches, the technical complexities of building custom embeddings and performant vector databases from scratch, and the need to dedupe the massive amounts of redundant content…",
+    "source": "Stack Overflow Blog",
+    "date": "Nov 13",
+    "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format",
+    "image_credit": null,
+    "section": "AI-Assisted Engineering",
     "pinned": false,
     "note": null,
     "labels": [
-      "4 sources",
-      "Security & AppSec",
-      "5h ago"
+      "AI-Assisted Engineering",
+      "under 1h ago"
     ],
-    "also": [
-      {
-        "name": "aikido.dev",
-        "link": "https://www.aikido.dev/blog/compromised-github-accounts-push-ci-secret-stealer-to-tens-of-thousands-of-repositories"
-      },
-      {
-        "name": "securityweek.com",
-        "link": "https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/"
-      },
-      {
-        "name": "bleepingcomputer.com",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/"
-      }
-    ]
+    "also": []
   },
   "pulse": [
     {
@@ -39,7 +25,7 @@
       "link_domain": "ipo.anthropic.com",
       "source": "Hacker News",
       "domain": "ipo.anthropic.com",
-      "meta": "Hacker News · 851 points · 824 comments · 16h ago",
+      "meta": "Hacker News · 882 points · 844 comments · 18h ago",
       "also": [],
       "image": "https://ipo.anthropic.com/assets/share-image-eAr8nJRP.jpg",
       "icon": "https://ipo.anthropic.com/assets/apple-touch-icon-uPxZX-J4.png"
@@ -51,7 +37,7 @@
       "link_domain": "blog.google",
       "source": "Hacker News",
       "domain": "blog.google",
-      "meta": "Hacker News · 485 points · 305 comments · 10h ago",
+      "meta": "Hacker News · 502 points · 320 comments · 12h ago",
       "also": [],
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-hydrogen__key-art__lockup__16-9.width-1300.jpg",
       "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131"
@@ -63,7 +49,7 @@
       "link_domain": "",
       "source": "Hacker News",
       "domain": "Hacker News",
-      "meta": "Hacker News · 401 points · 1 comments · 9h ago",
+      "meta": "Hacker News · 401 points · 1 comments · 11h ago",
       "also": [],
       "image": null,
       "icon": null
@@ -75,7 +61,7 @@
       "link_domain": "forums.spacebattles.com",
       "source": "Hacker News",
       "domain": "forums.spacebattles.com",
-      "meta": "Hacker News · 373 points · 222 comments · 21h ago",
+      "meta": "Hacker News · 376 points · 222 comments · 23h ago",
       "also": [],
       "image": null,
       "icon": "https://forums.spacebattles.com/favicon.ico"
@@ -87,7 +73,7 @@
       "link_domain": "antigravity.google",
       "source": "Hacker News",
       "domain": "antigravity.google",
-      "meta": "Hacker News · 343 points · 90 comments · 9h ago",
+      "meta": "Hacker News · 370 points · 101 comments · 11h ago",
       "also": [],
       "image": "https://antigravity.google/assets/image/blog/4-Hydrogen---Wide.png",
       "icon": "https://antigravity.google/apple-touch-icon.png"
@@ -99,7 +85,7 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 298 points · 102 comments · 12h ago",
+      "meta": "Hacker News · 323 points · 115 comments · 14h ago",
       "also": [],
       "image": "https://opengraph.githubassets.com/d5a77cd3f9b14ddf281b9835a4d2f6e1e205089c667db3cd5d16ce2446ad764e/hyperionaidev/smolmaxxing",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
@@ -111,7 +97,7 @@
       "link_domain": "ploum.net",
       "source": "Lobsters",
       "domain": "ploum.net",
-      "meta": "Lobsters · 28 points · 14 comments · 11h ago",
+      "meta": "Lobsters · 29 points · 17 comments · 13h ago",
       "also": [],
       "image": "https://ploum.net/files/bikepunk_logo_petit.png",
       "icon": "https://ploum.net/files/favicon.ico"
@@ -123,10 +109,22 @@
       "link_domain": "mehmetince.net",
       "source": "Hacker News",
       "domain": "mehmetince.net",
-      "meta": "Hacker News · 155 points · 25 comments · 9h ago",
+      "meta": "Hacker News · 164 points · 30 comments · 11h ago",
       "also": [],
       "image": "https://mehmetince.net/wp-content/uploads/2026/11/postgresql-composite-type-confusion-primitive-rce-cve-2026-6460.png",
       "icon": "https://mehmetince.net/wp-content/uploads/2025/12/cropped-1710238943164-180x180.jpg"
+    },
+    {
+      "title": "AI is turning Apple's app review process into a nightmare for synth developers",
+      "thread": "https://news.ycombinator.com/item?id=50474311",
+      "link": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
+      "link_domain": "synthanatomy.com",
+      "source": "Hacker News",
+      "domain": "synthanatomy.com",
+      "meta": "Hacker News · 146 points · 135 comments · 8h ago",
+      "also": [],
+      "image": "https://synthanatomy.com/wp-content/uploads/2026/11/AI-Apple-App-review.jpg",
+      "icon": "https://synthanatomy.com/wp-content/uploads/2017/06/Synth_Anatomy_Icon_1.png"
     }
   ],
   "sections": [
@@ -143,7 +141,7 @@
           "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
           "domain": "snorkel.ai",
           "hn": null,
-          "score": 0.914,
+          "score": 0.894,
           "coverage": 1
         },
         {
@@ -156,7 +154,7 @@
           "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
           "domain": "github.blog",
           "hn": null,
-          "score": 1.047,
+          "score": 0.938,
           "coverage": 1
         },
         {
@@ -169,7 +167,7 @@
           "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
           "domain": "s46486.pcdn.co",
           "hn": null,
-          "score": 0.631,
+          "score": 0.58,
           "coverage": 1
         }
       ],
@@ -184,7 +182,7 @@
           "icon": null,
           "domain": "newsletter.pragmaticengineer.com",
           "hn": null,
-          "score": 0.679,
+          "score": 0.62,
           "coverage": 1
         },
         {
@@ -197,7 +195,7 @@
           "icon": "https://substackcdn.com/image/fetch/$s_!6g5W!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6135d637-27c9-4440-ba74-f9747a16267f%2Fapple-touch-icon-57x57.png",
           "domain": "newsletter.getdx.com",
           "hn": null,
-          "score": 0.618,
+          "score": 0.569,
           "coverage": 1
         },
         {
@@ -210,7 +208,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.838,
+          "score": 0.751,
           "coverage": 1
         },
         {
@@ -223,20 +221,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.686,
-          "coverage": 1
-        },
-        {
-          "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
-          "link": "https://huggingface.co/blog/3d-lora-finetuning",
-          "excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "source": "Hugging Face",
-          "date": "Nov 12",
-          "image": "https://huggingface.co/blog/assets/3d-lora-finetuning/thumbnail.gif",
-          "icon": "https://huggingface.co/favicon.ico",
-          "domain": "huggingface.co",
-          "hn": null,
-          "score": 0.359,
+          "score": 0.627,
           "coverage": 1
         }
       ]
@@ -245,16 +230,16 @@
       "name": "AI Agents & Agent Security",
       "cards": [
         {
-          "title": "Gondola doubles revenue as its team builds more with Codex",
-          "link": "https://openai.com/business/customer-stories/gondola",
-          "excerpt": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
-          "source": "OpenAI News",
-          "date": "Nov 12",
-          "image": null,
-          "icon": "https://openai.com/favicon.ico",
-          "domain": "openai.com",
+          "title": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
+          "link": "https://latent.space/p/artcraft/",
+          "excerpt": "ArtCraft used AI to rewrite Photoshop as open source software. For CEO Brandon Thomas, the vision is even bigger: to take back the internet!",
+          "source": "Latent Space",
+          "date": "Nov 13",
+          "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/e61b607b-f9a5-4a6d-846b-f8792dd0a549/take-back-internet2.jpg?t=1794543381",
+          "icon": null,
+          "domain": "latent.space",
           "hn": null,
-          "score": 3.53,
+          "score": 0.869,
           "coverage": 1
         },
         {
@@ -267,7 +252,7 @@
           "icon": null,
           "domain": "paloaltonetworks.com",
           "hn": null,
-          "score": 0.439,
+          "score": 0.41,
           "coverage": 1
         },
         {
@@ -280,11 +265,37 @@
           "icon": null,
           "domain": "paloaltonetworks.com",
           "hn": null,
-          "score": 0.214,
+          "score": 0.207,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "Gondola doubles revenue as its team builds more with Codex",
+          "link": "https://openai.com/business/customer-stories/gondola",
+          "excerpt": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+          "source": "OpenAI News",
+          "date": "Nov 12",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 3.296,
+          "coverage": 1
+        },
+        {
+          "title": "The average cost for a new vehicle in the U.S. hits a record high: over $51,000",
+          "link": "https://www.npr.org/2026/11/10/nx-s1-6026659/average-vehicle-price-record-high",
+          "excerpt": "10 points · 1 comments",
+          "source": "npr.org via Hacker News",
+          "date": "Nov 13",
+          "image": null,
+          "icon": "https://www.npr.org/favicon.ico",
+          "domain": "npr.org",
+          "hn": "10 points · 1 comments",
+          "score": 3.343,
+          "coverage": 1
+        },
         {
           "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
           "link": "https://openai.com/business/customer-stories/amplitude",
@@ -295,7 +306,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.746,
+          "score": 0.679,
           "coverage": 1
         }
       ]
@@ -313,7 +324,7 @@
           "icon": null,
           "domain": "blog.pragmaticengineer.com",
           "hn": null,
-          "score": 0.711,
+          "score": 0.649,
           "coverage": 1
         },
         {
@@ -326,7 +337,7 @@
           "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
           "domain": "stratechery.com",
           "hn": null,
-          "score": 1.219,
+          "score": 1.048,
           "coverage": 1
         },
         {
@@ -339,7 +350,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.374,
+          "score": 0.356,
           "coverage": 1
         }
       ],
@@ -354,7 +365,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.374,
+          "score": 0.356,
           "coverage": 1
         }
       ]
@@ -372,7 +383,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 5.218,
+          "score": 4.802,
           "coverage": 1
         },
         {
@@ -385,7 +396,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.597,
+          "score": 2.39,
           "coverage": 1
         }
       ],
@@ -404,20 +415,7 @@
           "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
           "domain": "aembit.io",
           "hn": null,
-          "score": 4.489,
-          "coverage": 1
-        },
-        {
-          "title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
-          "link": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
-          "excerpt": "AgentRun is an open-source platform that supercharges your agents. It adds self-improvement, durable execution and a control plane on top of your favorite agent harness. Your agents become smarter,...",
-          "source": "github.com via Hacker News",
-          "date": "Nov 12",
-          "image": "https://opengraph.githubassets.com/4818df1ac8d7d5b06d55a0e76e69be2e6b613abdb8901cb6b0f6508b97558de9/Parcha-ai/agentrun",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "86 points · 21 comments",
-          "score": 2.652,
+          "score": 4.049,
           "coverage": 1
         }
       ],
@@ -426,6 +424,19 @@
     {
       "name": "Supply Chain & Builds",
       "cards": [
+        {
+          "title": "wfx-loot: Stolen GitHub tokens pushed a CI secret stealer into 60,000+ repositories (November 2026)",
+          "link": "https://www.chainguard.dev/unchained/wfx-loot-stolen-github-tokens-pushed-a-ci-secret-stealer-into-60-000-repositories-november-2026",
+          "excerpt": "The wfx supply chain attack compromised thousands of GitHub repositories. See how it works, what credentials it steals, and how to stay protected.",
+          "source": "Chainguard: Unchained",
+          "date": "Nov 12",
+          "image": "https://images.ctfassets.net/l47ir7rfykkn/2CclEViehQP9SgGQ5NYwIV/c196e8036db08e79bd06453256b0ae09/wfx-loot.png",
+          "icon": "https://www.chainguard.dev/favicon.ico",
+          "domain": "chainguard.dev",
+          "hn": null,
+          "score": 5.945,
+          "coverage": 3
+        },
         {
           "title": "Athena's second wave",
           "link": "https://www.chainguard.dev/unchained/athenas-second-wave",
@@ -436,7 +447,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.299,
+          "score": 0.285,
           "coverage": 1
         }
       ],
@@ -455,8 +466,21 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 4.98,
+          "score": 4.51,
           "coverage": 2
+        },
+        {
+          "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
+          "link": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
+          "excerpt": "N-able on Thursday said it's taking additional precautions in the wake of public disclosure of a new set of flaws tracked as 4EverAble2Shell and Agent2Shell. \"We are restricting certain N-central features and integrations,\" the company said in a Thursday update. \"These measures may affect some…",
+          "source": "The Hacker News",
+          "date": "Nov 13",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA4jxlXpPBPhD5o3IHy80Fn7fSHUtcqH3iXQlU-jDUL5C3zJcf1_Zb-GAYxuW6P6q647p9JAT_opImlj-v-USDNhZ_z83mYC3ISKtN72pe_3XLwf5EyMRuK4OdXCFnYxGMhOAvN_i4UFqk5vJLriRnkbRRwILuT5JUpExx9Tm74sXSCQ0g7jjsOzWV1cqk/s1600/nable-hacks.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.727,
+          "coverage": 1
         },
         {
           "title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
@@ -468,9 +492,11 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.408,
+          "score": 0.374,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
           "link": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
@@ -481,11 +507,9 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 4.446,
+          "score": 4.08,
           "coverage": 2
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
           "link": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
@@ -496,7 +520,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 1.902,
+          "score": 1.754,
           "coverage": 2
         },
         {
@@ -509,8 +533,8 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 7.31,
-          "coverage": 2
+          "score": 0.576,
+          "coverage": 1
         },
         {
           "title": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams",
@@ -522,7 +546,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 4.98,
+          "score": 4.51,
           "coverage": 2
         },
         {
@@ -535,21 +559,8 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 4.739,
+          "score": 4.325,
           "coverage": 2
-        },
-        {
-          "title": "Chrome, Firefox Updates Patch Over 180 Vulnerabilities",
-          "link": "https://www.securityweek.com/chrome-firefox-updates-patch-180-vulnerabilities/",
-          "excerpt": "Google fixed 83 flaws with a new Chrome 157 release, and Mozilla addressed 99 bugs in Firefox 160. The post Chrome, Firefox Updates Patch Over 180 Vulnerabilities appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 12",
-          "image": "https://www.securityweek.com/wp-content/uploads/2025/01/Chrome-Firefox.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.341,
-          "coverage": 1
         }
       ]
     },
@@ -566,7 +577,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 3.673,
+          "score": 3.348,
           "coverage": 1
         },
         {
@@ -579,7 +590,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 2.573,
+          "score": 2.355,
           "coverage": 1
         },
         {
@@ -592,7 +603,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.397,
+          "score": 2.19,
           "coverage": 1
         }
       ],
@@ -607,7 +618,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.198,
+          "score": 2.023,
           "coverage": 1
         },
         {
@@ -620,7 +631,7 @@
           "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
           "domain": "grafana.com",
           "hn": null,
-          "score": 1.95,
+          "score": 1.794,
           "coverage": 1
         },
         {
@@ -633,7 +644,7 @@
           "icon": "https://a0.awsstatic.com/main/images/site/touch-icon-iphone-114-smile.png",
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.2,
+          "score": 0.191,
           "coverage": 1
         },
         {
@@ -677,7 +688,20 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 3.614,
+          "score": 3.298,
+          "coverage": 1
+        },
+        {
+          "title": "Brave Search API now accepts agentic payments via the x402 protocol",
+          "link": "https://brave.com/blog/search-api-agentic-payments/",
+          "excerpt": "Developers and AI agents can now pay for the Brave Search API on demand with USDC via the open x402 protocol, settling each query in real time without an account or API key.",
+          "source": "brave.com via Hacker News",
+          "date": "Nov 13",
+          "image": "https://brave.com/blog/search-api-agentic-payments/images/featured.jpg",
+          "icon": "https://brave.com/static-assets/images/cropped-brave_appicon_release-180x180.png",
+          "domain": "brave.com",
+          "hn": "27 points · 9 comments",
+          "score": 5.784,
           "coverage": 1
         },
         {
@@ -689,36 +713,36 @@
           "image": "https://media.wired.com/photos/6af6533dc5d481da1362b330/191:100/w_1280,c_limit/Petition-Bring-Back-Jensen-Business-2299493060.jpg",
           "icon": "https://www.wired.com/verso/static/wired-us/assets/favicon.ico",
           "domain": "wired.com",
-          "hn": "187 points · 124 comments",
-          "score": 8.121,
+          "hn": "327 points · 253 comments",
+          "score": 7.556,
           "coverage": 2
-        },
-        {
-          "title": "NYC Council passes ban on 'surveillance pricing'",
-          "link": "https://gothamist.com/news/nyc-council-passes-ban-on-surveillance-pricing-that-relies-on-personal-data",
-          "excerpt": "“It's a practice that worsens the affordability crisis,\" Speaker Julie Menin said.",
-          "source": "gothamist.com via Hacker News",
-          "date": "Nov 13",
-          "image": "https://api-prod.gothamist.com/images/362447/fill-1200x650|format-webp|webpquality-85/",
-          "icon": "https://gothamist.com/favicon.ico",
-          "domain": "gothamist.com",
-          "hn": "26 points · 5 comments",
-          "score": 3.007,
-          "coverage": 1
         }
       ],
       "more": [
         {
-          "title": "Africa's solar revolution is vast and speedy",
-          "link": "https://www.economist.com/middle-east-and-africa/2026/11/12/africas-solar-revolution-is-vast-and-speedy",
-          "excerpt": "96 points · 30 comments",
-          "source": "economist.com via Hacker News",
+          "title": "IceWM",
+          "link": "https://ice-wm.org/",
+          "excerpt": "Window Manager",
+          "source": "ice-wm.org via Hacker News",
           "date": "Nov 13",
           "image": null,
-          "icon": "https://www.economist.com/favicon.ico",
-          "domain": "economist.com",
-          "hn": "96 points · 30 comments",
-          "score": 4.102,
+          "icon": "https://ice-wm.org/favicon.ico",
+          "domain": "ice-wm.org",
+          "hn": "34 points · 12 comments",
+          "score": 3.489,
+          "coverage": 1
+        },
+        {
+          "title": "Switcher (2004)",
+          "link": "https://folklore.org/Switcher.html",
+          "excerpt": "70 points · 14 comments",
+          "source": "folklore.org via Hacker News",
+          "date": "Nov 13",
+          "image": null,
+          "icon": "https://folklore.org/images/macfavicon.ico?v=1",
+          "domain": "folklore.org",
+          "hn": "70 points · 14 comments",
+          "score": 3.496,
           "coverage": 1
         },
         {
@@ -730,8 +754,8 @@
           "image": "https://cdn.hashnode.com/uploads/covers/6aea03219fa4aa99923b5acf/de5ebdea-3436-4b9a-b3f2-e9910f3a0abc.png",
           "icon": "https://edge0.ai/favicon.ico?favicon.cc52f713.ico",
           "domain": "edge0.ai",
-          "hn": "110 points · 24 comments",
-          "score": 3.326,
+          "hn": "169 points · 39 comments",
+          "score": 3.205,
           "coverage": 1
         },
         {
@@ -743,34 +767,21 @@
           "image": "https://unemploymentlabs.com/checkpoint-forensics-og.png?v=4",
           "icon": "https://unemploymentlabs.com/favicon.svg",
           "domain": "unemploymentlabs.com",
-          "hn": "208 points · 56 comments",
-          "score": 3.482,
+          "hn": "242 points · 63 comments",
+          "score": 3.208,
           "coverage": 1
         },
         {
-          "title": "Foundation Models framework",
-          "link": "https://developer.apple.com/foundation-models-framework/",
-          "excerpt": "The Foundation Models framework is a native Swift API for integrating any large language model into your app.",
-          "source": "developer.apple.com via Hacker News",
+          "title": "Show HN: RealtimeVAD – trading false positives for 110ms earlier end-of-speech",
+          "link": "https://github.com/KoljaB/RealtimeVAD",
+          "excerpt": "Faster speech off signals for spec gen voice pipelines - KoljaB/RealtimeVAD",
+          "source": "github.com via Hacker News",
           "date": "Nov 12",
-          "image": "https://developer.apple.com/news/images/og/foundation-models-framework-og.png",
-          "icon": "https://developer.apple.com/favicon.ico",
-          "domain": "developer.apple.com",
-          "hn": "158 points · 22 comments",
-          "score": 3.149,
-          "coverage": 1
-        },
-        {
-          "title": "AI is turning Apple's app review process into a nightmare for synth developers",
-          "link": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
-          "excerpt": "The surge of AI and AI-generated apps is overwhelming Apple’s app review process, leaving developers caught in the crossfire – two examples!",
-          "source": "synthanatomy.com via Hacker News",
-          "date": "Nov 12",
-          "image": "https://synthanatomy.com/wp-content/uploads/2026/11/AI-Apple-App-review.jpg",
-          "icon": "https://synthanatomy.com/wp-content/uploads/2017/06/Synth_Anatomy_Icon_1.png",
-          "domain": "synthanatomy.com",
-          "hn": "126 points · 116 comments",
-          "score": 3.294,
+          "image": "https://opengraph.githubassets.com/010f2a6c4ad65e83064bca1e185a66da44ad54c4dbcf88064e03060508bb2082/KoljaB/RealtimeVAD",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "13 points · 1 comments",
+          "score": 1.682,
           "coverage": 1
         }
       ]
