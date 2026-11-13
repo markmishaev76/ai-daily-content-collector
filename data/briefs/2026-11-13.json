@@ -12,11 +12,15 @@
     "pinned": false,
     "note": null,
     "labels": [
-      "3 sources",
+      "4 sources",
       "Security & AppSec",
-      "3h ago"
+      "5h ago"
     ],
     "also": [
+      {
+        "name": "aikido.dev",
+        "link": "https://www.aikido.dev/blog/compromised-github-accounts-push-ci-secret-stealer-to-tens-of-thousands-of-repositories"
+      },
       {
         "name": "securityweek.com",
         "link": "https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/"
@@ -35,7 +39,7 @@
       "link_domain": "ipo.anthropic.com",
       "source": "Hacker News",
       "domain": "ipo.anthropic.com",
-      "meta": "Hacker News · 825 points · 806 comments · 14h ago",
+      "meta": "Hacker News · 851 points · 824 comments · 16h ago",
       "also": [],
       "image": "https://ipo.anthropic.com/assets/share-image-eAr8nJRP.jpg",
       "icon": "https://ipo.anthropic.com/assets/apple-touch-icon-uPxZX-J4.png"
@@ -47,7 +51,7 @@
       "link_domain": "blog.google",
       "source": "Hacker News",
       "domain": "blog.google",
-      "meta": "Hacker News · 469 points · 299 comments · 8h ago",
+      "meta": "Hacker News · 485 points · 305 comments · 10h ago",
       "also": [],
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-hydrogen__key-art__lockup__16-9.width-1300.jpg",
       "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131"
@@ -59,7 +63,7 @@
       "link_domain": "",
       "source": "Hacker News",
       "domain": "Hacker News",
-      "meta": "Hacker News · 401 points · 1 comments · 7h ago",
+      "meta": "Hacker News · 401 points · 1 comments · 9h ago",
       "also": [],
       "image": null,
       "icon": null
@@ -71,22 +75,10 @@
       "link_domain": "forums.spacebattles.com",
       "source": "Hacker News",
       "domain": "forums.spacebattles.com",
-      "meta": "Hacker News · 370 points · 220 comments · 19h ago",
+      "meta": "Hacker News · 373 points · 222 comments · 21h ago",
       "also": [],
       "image": null,
       "icon": "https://forums.spacebattles.com/favicon.ico"
-    },
-    {
-      "title": "Critical RCE Vulnerability in Apache HTTP Server",
-      "thread": "https://news.ycombinator.com/item?id=50462177",
-      "link": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
-      "link_domain": "wiz.io",
-      "source": "Hacker News",
-      "domain": "wiz.io",
-      "meta": "Hacker News · 355 points · 191 comments · 23h ago",
-      "also": [],
-      "image": "https://www.datocms-assets.com/75231/1794425853-threat-update-kics-alert_custom.jpeg?fm=webp",
-      "icon": "https://www.wiz.io/favicon.png"
     },
     {
       "title": "Gemini 4 Hydrogen and Orchestrator",
@@ -95,7 +87,7 @@
       "link_domain": "antigravity.google",
       "source": "Hacker News",
       "domain": "antigravity.google",
-      "meta": "Hacker News · 310 points · 73 comments · 7h ago",
+      "meta": "Hacker News · 343 points · 90 comments · 9h ago",
       "also": [],
       "image": "https://antigravity.google/assets/image/blog/4-Hydrogen---Wide.png",
       "icon": "https://antigravity.google/apple-touch-icon.png"
@@ -107,7 +99,7 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 281 points · 95 comments · 10h ago",
+      "meta": "Hacker News · 298 points · 102 comments · 12h ago",
       "also": [],
       "image": "https://opengraph.githubassets.com/d5a77cd3f9b14ddf281b9835a4d2f6e1e205089c667db3cd5d16ce2446ad764e/hyperionaidev/smolmaxxing",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
@@ -119,7 +111,7 @@
       "link_domain": "ploum.net",
       "source": "Lobsters",
       "domain": "ploum.net",
-      "meta": "Lobsters · 25 points · 12 comments · 9h ago",
+      "meta": "Lobsters · 28 points · 14 comments · 11h ago",
       "also": [],
       "image": "https://ploum.net/files/bikepunk_logo_petit.png",
       "icon": "https://ploum.net/files/favicon.ico"
@@ -131,7 +123,7 @@
       "link_domain": "mehmetince.net",
       "source": "Hacker News",
       "domain": "mehmetince.net",
-      "meta": "Hacker News · 146 points · 21 comments · 7h ago",
+      "meta": "Hacker News · 155 points · 25 comments · 9h ago",
       "also": [],
       "image": "https://mehmetince.net/wp-content/uploads/2026/11/postgresql-composite-type-confusion-primitive-rce-cve-2026-6460.png",
       "icon": "https://mehmetince.net/wp-content/uploads/2025/12/cropped-1710238943164-180x180.jpg"
@@ -151,7 +143,7 @@
           "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
           "domain": "snorkel.ai",
           "hn": null,
-          "score": 0.936,
+          "score": 0.914,
           "coverage": 1
         },
         {
@@ -164,7 +156,7 @@
           "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
           "domain": "github.blog",
           "hn": null,
-          "score": 1.185,
+          "score": 1.047,
           "coverage": 1
         },
         {
@@ -177,7 +169,7 @@
           "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
           "domain": "s46486.pcdn.co",
           "hn": null,
-          "score": 0.691,
+          "score": 0.631,
           "coverage": 1
         }
       ],
@@ -192,7 +184,7 @@
           "icon": null,
           "domain": "newsletter.pragmaticengineer.com",
           "hn": null,
-          "score": 0.749,
+          "score": 0.679,
           "coverage": 1
         },
         {
@@ -205,7 +197,7 @@
           "icon": "https://substackcdn.com/image/fetch/$s_!6g5W!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6135d637-27c9-4440-ba74-f9747a16267f%2Fapple-touch-icon-57x57.png",
           "domain": "newsletter.getdx.com",
           "hn": null,
-          "score": 0.676,
+          "score": 0.618,
           "coverage": 1
         },
         {
@@ -218,7 +210,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.948,
+          "score": 0.838,
           "coverage": 1
         },
         {
@@ -231,7 +223,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.759,
+          "score": 0.686,
           "coverage": 1
         },
         {
@@ -244,7 +236,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.378,
+          "score": 0.359,
           "coverage": 1
         }
       ]
@@ -262,7 +254,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 3.801,
+          "score": 3.53,
           "coverage": 1
         },
         {
@@ -275,7 +267,7 @@
           "icon": null,
           "domain": "paloaltonetworks.com",
           "hn": null,
-          "score": 0.474,
+          "score": 0.439,
           "coverage": 1
         },
         {
@@ -288,7 +280,7 @@
           "icon": null,
           "domain": "paloaltonetworks.com",
           "hn": null,
-          "score": 0.222,
+          "score": 0.214,
           "coverage": 1
         }
       ],
@@ -303,7 +295,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.829,
+          "score": 0.746,
           "coverage": 1
         }
       ]
@@ -321,7 +313,20 @@
           "icon": null,
           "domain": "blog.pragmaticengineer.com",
           "hn": null,
-          "score": 0.785,
+          "score": 0.711,
+          "coverage": 1
+        },
+        {
+          "title": "Sharp Tech on Video: Nvidia After Jensen Huang, Ominous News for American AI, D.C. Gets Its Revenge",
+          "link": "https://stratechery.com/2026/sharp-tech-on-video-nvidia-after-jensen-huang-ominous-news-for-american-ai-d-c-gets-its-revenge/",
+          "excerpt": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery",
+          "source": "Stratechery by Ben Thompson",
+          "date": "Nov 13",
+          "image": "https://i0.wp.com/stratechery.com/wp-content/uploads/2026/11/20261112_Sharp_Tech300-Edit-JM_13_32_2426.jpg?fit=1200%2C675&ssl=1",
+          "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
+          "domain": "stratechery.com",
+          "hn": null,
+          "score": 1.219,
           "coverage": 1
         },
         {
@@ -334,9 +339,11 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.394,
+          "score": 0.374,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Shaping the intelligent age: How Europe can thrive",
           "link": "https://www.mckinsey.com/featured-insights/insights-on-europe/shaping-the-intelligent-age-how-europe-can-thrive",
@@ -347,11 +354,10 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.394,
+          "score": 0.374,
           "coverage": 1
         }
-      ],
-      "more": []
+      ]
     },
     {
       "name": "Agent Identity & Authorization",
@@ -366,7 +372,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 5.713,
+          "score": 5.218,
           "coverage": 1
         },
         {
@@ -379,7 +385,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.843,
+          "score": 2.597,
           "coverage": 1
         }
       ],
@@ -398,7 +404,20 @@
           "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
           "domain": "aembit.io",
           "hn": null,
-          "score": 5.036,
+          "score": 4.489,
+          "coverage": 1
+        },
+        {
+          "title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
+          "link": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+          "excerpt": "AgentRun is an open-source platform that supercharges your agents. It adds self-improvement, durable execution and a control plane on top of your favorite agent harness. Your agents become smarter,...",
+          "source": "github.com via Hacker News",
+          "date": "Nov 12",
+          "image": "https://opengraph.githubassets.com/4818df1ac8d7d5b06d55a0e76e69be2e6b613abdb8901cb6b0f6508b97558de9/Parcha-ai/agentrun",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "86 points · 21 comments",
+          "score": 2.652,
           "coverage": 1
         }
       ],
@@ -417,7 +436,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.315,
+          "score": 0.299,
           "coverage": 1
         }
       ],
@@ -436,7 +455,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 5.561,
+          "score": 4.98,
           "coverage": 2
         },
         {
@@ -449,7 +468,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.449,
+          "score": 0.408,
           "coverage": 1
         },
         {
@@ -462,7 +481,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 4.886,
+          "score": 4.446,
           "coverage": 2
         }
       ],
@@ -477,7 +496,20 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.078,
+          "score": 1.902,
+          "coverage": 2
+        },
+        {
+          "title": "FBI Says US Seized $1.2 Billion Worth of Cryptocurrency Stolen From Binance",
+          "link": "https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance/",
+          "excerpt": "Also Thursday, the FBI blamed North Korea for a separate social engineering scheme that officials say resulted in the theft of $400 million worth of cryptocurrency. The post FBI Says US Seized $1.2 Billion Worth of Cryptocurrency Stolen From Binance appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 13",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/10/Binance-hacked.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 7.31,
           "coverage": 2
         },
         {
@@ -490,7 +522,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 5.561,
+          "score": 4.98,
           "coverage": 2
         },
         {
@@ -503,7 +535,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 5.241,
+          "score": 4.739,
           "coverage": 2
         },
         {
@@ -516,21 +548,8 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.369,
+          "score": 0.341,
           "coverage": 1
-        },
-        {
-          "title": "Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign",
-          "link": "https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/",
-          "excerpt": "Using thousands of hijacked accounts, the wfx-loot campaign planted a CI secret stealer that ran in over 1,800 GitHub repositories. The post Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 12",
-          "image": "https://www.securityweek.com/wp-content/uploads/2023/04/Low-Code-No-Code-Security.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 7.462,
-          "coverage": 3
         }
       ]
     },
@@ -547,7 +566,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 4.069,
+          "score": 3.673,
           "coverage": 1
         },
         {
@@ -560,7 +579,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 2.836,
+          "score": 2.573,
           "coverage": 1
         },
         {
@@ -573,7 +592,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.647,
+          "score": 2.397,
           "coverage": 1
         }
       ],
@@ -588,7 +607,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.407,
+          "score": 2.198,
           "coverage": 1
         },
         {
@@ -601,7 +620,7 @@
           "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
           "domain": "grafana.com",
           "hn": null,
-          "score": 2.135,
+          "score": 1.95,
           "coverage": 1
         },
         {
@@ -614,7 +633,7 @@
           "icon": "https://a0.awsstatic.com/main/images/site/touch-icon-iphone-114-smile.png",
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.209,
+          "score": 0.2,
           "coverage": 1
         },
         {
@@ -658,20 +677,48 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 3.996,
+          "score": 3.614,
           "coverage": 1
         },
         {
-          "title": "Chicago schools to Google – we'd rather lose Search than be forced to accept AI",
-          "link": "https://www.techspot.com/news/114532-chicago-schools-tell-google-they-can-live-without.html",
-          "excerpt": "At the start of November, Chris Phillips, Google's vice president and general manager for education, said K-12 schools will soon have to accept the company's AI services...",
-          "source": "techspot.com via Hacker News",
+          "title": "Nvidia employees petition to bring back Jensen Huang",
+          "link": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+          "excerpt": "An internal post urging the board to consider employee sentiment about Nvidia’s former CEO has drawn more than 1,600 comments, the majority in full support of reinstalling him.",
+          "source": "wired.com via Hacker News",
           "date": "Nov 13",
-          "image": "https://www.techspot.com/images2/news/bigimage/2026/11/2026-11-12-image-7.jpg",
-          "icon": "https://www.techspot.com/images/ts3mobile-badge.png",
-          "domain": "techspot.com",
-          "hn": "27 points · 4 comments",
-          "score": 3.135,
+          "image": "https://media.wired.com/photos/6af6533dc5d481da1362b330/191:100/w_1280,c_limit/Petition-Bring-Back-Jensen-Business-2299493060.jpg",
+          "icon": "https://www.wired.com/verso/static/wired-us/assets/favicon.ico",
+          "domain": "wired.com",
+          "hn": "187 points · 124 comments",
+          "score": 8.121,
+          "coverage": 2
+        },
+        {
+          "title": "NYC Council passes ban on 'surveillance pricing'",
+          "link": "https://gothamist.com/news/nyc-council-passes-ban-on-surveillance-pricing-that-relies-on-personal-data",
+          "excerpt": "“It's a practice that worsens the affordability crisis,\" Speaker Julie Menin said.",
+          "source": "gothamist.com via Hacker News",
+          "date": "Nov 13",
+          "image": "https://api-prod.gothamist.com/images/362447/fill-1200x650|format-webp|webpquality-85/",
+          "icon": "https://gothamist.com/favicon.ico",
+          "domain": "gothamist.com",
+          "hn": "26 points · 5 comments",
+          "score": 3.007,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Africa's solar revolution is vast and speedy",
+          "link": "https://www.economist.com/middle-east-and-africa/2026/11/12/africas-solar-revolution-is-vast-and-speedy",
+          "excerpt": "96 points · 30 comments",
+          "source": "economist.com via Hacker News",
+          "date": "Nov 13",
+          "image": null,
+          "icon": "https://www.economist.com/favicon.ico",
+          "domain": "economist.com",
+          "hn": "96 points · 30 comments",
+          "score": 4.102,
           "coverage": 1
         },
         {
@@ -683,23 +730,8 @@
           "image": "https://cdn.hashnode.com/uploads/covers/6aea03219fa4aa99923b5acf/de5ebdea-3436-4b9a-b3f2-e9910f3a0abc.png",
           "icon": "https://edge0.ai/favicon.ico?favicon.cc52f713.ico",
           "domain": "edge0.ai",
-          "hn": "48 points · 13 comments",
-          "score": 3.252,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
-          "link": "https://www.nytimes.com/2026/11/12/us/politics/trump-jensen-huang-nvidia.html",
-          "excerpt": "12 points · 1 comments",
-          "source": "nytimes.com via Hacker News",
-          "date": "Nov 13",
-          "image": null,
-          "icon": "https://www.nytimes.com/favicon.ico",
-          "domain": "nytimes.com",
-          "hn": "12 points · 1 comments",
-          "score": 2.744,
+          "hn": "110 points · 24 comments",
+          "score": 3.326,
           "coverage": 1
         },
         {
@@ -711,8 +743,8 @@
           "image": "https://unemploymentlabs.com/checkpoint-forensics-og.png?v=4",
           "icon": "https://unemploymentlabs.com/favicon.svg",
           "domain": "unemploymentlabs.com",
-          "hn": "171 points · 47 comments",
-          "score": 3.795,
+          "hn": "208 points · 56 comments",
+          "score": 3.482,
           "coverage": 1
         },
         {
@@ -724,8 +756,8 @@
           "image": "https://developer.apple.com/news/images/og/foundation-models-framework-og.png",
           "icon": "https://developer.apple.com/favicon.ico",
           "domain": "developer.apple.com",
-          "hn": "128 points · 16 comments",
-          "score": 3.392,
+          "hn": "158 points · 22 comments",
+          "score": 3.149,
           "coverage": 1
         },
         {
@@ -737,21 +769,8 @@
           "image": "https://synthanatomy.com/wp-content/uploads/2026/11/AI-Apple-App-review.jpg",
           "icon": "https://synthanatomy.com/wp-content/uploads/2017/06/Synth_Anatomy_Icon_1.png",
           "domain": "synthanatomy.com",
-          "hn": "97 points · 89 comments",
-          "score": 3.529,
-          "coverage": 1
-        },
-        {
-          "title": "Distributed Ray Tracer",
-          "link": "https://ray.hatchet.run",
-          "excerpt": "A Rust-based distributed ray tracer: describe a scene, and every tile is traced in parallel on Cloudflare Workers, orchestrated by Hatchet.",
-          "source": "ray.hatchet.run via Hacker News",
-          "date": "Nov 12",
-          "image": "https://ray.hatchet.run/og.png",
-          "icon": "https://ray.hatchet.run/apple-touch-icon.png",
-          "domain": "ray.hatchet.run",
-          "hn": "36 points · 12 comments",
-          "score": 2.444,
+          "hn": "126 points · 116 comments",
+          "score": 3.294,
           "coverage": 1
         }
       ]
