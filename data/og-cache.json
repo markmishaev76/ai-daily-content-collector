@@ -2159,6 +2159,12 @@
   "icon": "https://latent.space/favicon.png",
   "image": "https://latent.space/og/card/post/ainews-it-s-swapping-season/efe7d0a1e2a39ea0481b4a1bba789d599c143dede92092e1dacb89175201e4c4.png"
  },
+ "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/": {
+  "description": "November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?",
+  "fetched": "2026-11-13",
+  "icon": "https://latent.space/favicon.png",
+  "image": "https://latent.space/og/card/post/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/00b682fceec70ac5a963728725400ee392556ea7e0495837c1282ebea0220b21.png"
+ },
  "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/": {
   "description": "November 10, 2026 — Google GA's Gemini 4 Carbon.",
   "fetched": "2026-11-11",
@@ -4025,6 +4031,12 @@
   "icon": null,
   "image": "https://trigger.dev/blog/generic/incident-report-generic.png"
  },
+ "https://twitter.com/MSFT365Status/status/2121079061774491735": {
+  "description": "We’ve monitored the status of the changes applied to improve serviceability and confirmed they're not taking as expected. We’re identifying alternate workstreams that can be applied to increase capacity in the face of sustained traffic management imbalances. More info under EX1550543 and MO1550821…",
+  "fetched": "2026-11-13",
+  "icon": "https://x.com/apple-touch-icon.png",
+  "image": "https://pbs.twimg.com/profile_images/1040007539088211968/f9H6EzjO_400x400.jpg"
+ },
  "https://twitter.com/OcanaSantero/status/2115442964574908902": {
   "description": "Last night an AI agent performed brain surgery on a mouse. We gave it 19 gene therapy vectors in a spreadsheet, a mouse model of epilepsy, access to a motorize surgery rig with cameras and one goal: reduce seizures. It picked the drug. It picked the brain region. It derived the coordinates from t…",
   "fetched": "2026-11-03",
@@ -4829,6 +4841,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2024/01/31/image_(2).jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/": {
+  "description": "Security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) has released a new Windows zero-day exploit that can let attackers gain SYSTEM privileges.",
+  "fetched": "2026-11-13",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/11/12/0_Windows-headpic.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/": {
   "description": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys.",
   "fetched": "2026-11-01",
@@ -5068,6 +5086,12 @@
   "fetched": "2026-10-29",
   "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png",
   "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2302470713.jpg?c=16x9&q=w_800,c_fill"
+ },
+ "https://www.cnn.com/2026/11/12/business/live-news/microsoft-global-outage-intl-hnk": {
+  "description": "A massive Microsoft outage has left millions around the world without access to Outlook email, Teams meeting tools and other staples of modern office life. Follow for live updates",
+  "fetched": "2026-11-13",
+  "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png",
+  "image": "https://media.cnn.com/api/v1/images/stellar/prod/ap26313845581210.jpg?c=16x9&q=w_800,c_fill"
  },
  "https://www.cnn.com/travel/octola-three-arctic-finland-secret-retreat": {
   "description": "It doesn’t appear on maps — or booking sites — but this “private wilderness” in Finland has a magic ingredient that the uber-wealthy will pay big money for.",
@@ -6089,6 +6113,12 @@
   "icon": null,
   "image": "https://www.sciencedaily.com/images/1920/sleep-man-brain-spine-nervous-system.webp"
  },
+ "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm": {
+  "description": null,
+  "fetched": "2026-11-13",
+  "icon": null,
+  "image": null
+ },
  "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm": {
   "description": null,
   "fetched": "2026-10-26",
@@ -6515,6 +6545,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/11/NATO-Crossed-Swords-2026.jpeg"
  },
+ "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop/": {
+  "description": "Nightmare Eclipse has dropped SignDrop, a Windows zero-day exploit that abuses CLFS and Defender to gain System privileges.",
+  "fetched": "2026-11-13",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/11/Nightmare-Eclipse.webp"
+ },
  "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages/": {
   "description": "Microsoft, Node.js, and Python package maintainers have patched Node2Shell (CVE-2026-111497), a critical Brotli decoder flaw.",
   "fetched": "2026-10-26",
@@ -6550,6 +6586,12 @@
   "fetched": "2026-11-07",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/11/OpenAI-GPT.jpeg"
+ },
+ "https://www.securityweek.com/openai-unveils-daybreak-red-team-defense-factory-security-tools/": {
+  "description": "OpenAI has launched Daybreak Red Team and Daybreak Defense Factory, which use AI agents to find web app flaws and help develop fixes.",
+  "fetched": "2026-11-13",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2025/11/OpenAI.jpeg"
  },
  "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/": {
   "description": "SSHole, a vulnerability in OpenSSH (CVE-2026-123158), allows logins to certain accounts on Linux using very long passwords.",

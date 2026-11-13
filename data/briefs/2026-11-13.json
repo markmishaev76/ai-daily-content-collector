@@ -1,21 +1,31 @@
 {
   "date": "2026-11-13",
   "lead": {
-    "title": "Agentic search doesn't find pages, it assembles answers",
-    "link": "https://stackoverflow.blog/2026/11/13/agentic-doesn-t-find-pages-it-assembles-answers/",
-    "excerpt": "Ryan sits down with Jeff Wang, co-founder at EXA, to talk about the huge scale required to support trillions of agentic searches, the technical complexities of building custom embeddings and performant vector databases from scratch, and the need to dedupe the massive amounts of redundant content…",
-    "source": "Stack Overflow Blog",
+    "title": "Nightmare Eclipse Drops Windows Zero-Day Exploit ‘SignDrop’",
+    "link": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop/",
+    "excerpt": "It abuses CLFS and Windows Defender to trigger arbitrary file creation in the context of the antimalware process. The post Nightmare Eclipse Drops Windows Zero-Day Exploit ‘SignDrop’ appeared first on SecurityWeek.",
+    "source": "SecurityWeek",
     "date": "Nov 13",
-    "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format",
+    "image": "https://www.securityweek.com/wp-content/uploads/2026/11/Nightmare-Eclipse.webp",
     "image_credit": null,
-    "section": "AI-Assisted Engineering",
+    "section": "Security & AppSec",
     "pinned": false,
     "note": null,
     "labels": [
-      "AI-Assisted Engineering",
+      "3 sources",
+      "Security & AppSec",
       "under 1h ago"
     ],
-    "also": []
+    "also": [
+      {
+        "name": "thehackernews.com",
+        "link": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html"
+      },
+      {
+        "name": "bleepingcomputer.com",
+        "link": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/"
+      }
+    ]
   },
   "pulse": [
     {
@@ -25,7 +35,7 @@
       "link_domain": "ipo.anthropic.com",
       "source": "Hacker News",
       "domain": "ipo.anthropic.com",
-      "meta": "Hacker News · 882 points · 844 comments · 18h ago",
+      "meta": "Hacker News · 924 points · 863 comments · 21h ago",
       "also": [],
       "image": "https://ipo.anthropic.com/assets/share-image-eAr8nJRP.jpg",
       "icon": "https://ipo.anthropic.com/assets/apple-touch-icon-uPxZX-J4.png"
@@ -37,34 +47,10 @@
       "link_domain": "blog.google",
       "source": "Hacker News",
       "domain": "blog.google",
-      "meta": "Hacker News · 502 points · 320 comments · 12h ago",
+      "meta": "Hacker News · 527 points · 330 comments · 15h ago",
       "also": [],
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-hydrogen__key-art__lockup__16-9.width-1300.jpg",
       "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131"
-    },
-    {
-      "title": "Ask HN: Microsoft/Azure Outage?",
-      "thread": "https://news.ycombinator.com/item?id=50471668",
-      "link": null,
-      "link_domain": "",
-      "source": "Hacker News",
-      "domain": "Hacker News",
-      "meta": "Hacker News · 401 points · 1 comments · 11h ago",
-      "also": [],
-      "image": null,
-      "icon": null
-    },
-    {
-      "title": "\"Humble Bundle just killed most of their security through vibecoding\"",
-      "thread": "https://news.ycombinator.com/item?id=50463899",
-      "link": "https://forums.spacebattles.com/threads/humble-bundle-just-completely-killed-most-of-their-security-through-vibecoding.1346295/",
-      "link_domain": "forums.spacebattles.com",
-      "source": "Hacker News",
-      "domain": "forums.spacebattles.com",
-      "meta": "Hacker News · 376 points · 222 comments · 23h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://forums.spacebattles.com/favicon.ico"
     },
     {
       "title": "Gemini 4 Hydrogen and Orchestrator",
@@ -73,10 +59,22 @@
       "link_domain": "antigravity.google",
       "source": "Hacker News",
       "domain": "antigravity.google",
-      "meta": "Hacker News · 370 points · 101 comments · 11h ago",
+      "meta": "Hacker News · 413 points · 111 comments · 14h ago",
       "also": [],
       "image": "https://antigravity.google/assets/image/blog/4-Hydrogen---Wide.png",
       "icon": "https://antigravity.google/apple-touch-icon.png"
+    },
+    {
+      "title": "Ask HN: Microsoft/Azure Outage?",
+      "thread": "https://news.ycombinator.com/item?id=50471668",
+      "link": null,
+      "link_domain": "",
+      "source": "Hacker News",
+      "domain": "Hacker News",
+      "meta": "Hacker News · 402 points · 1 comments · 15h ago",
+      "also": [],
+      "image": null,
+      "icon": null
     },
     {
       "title": "I'm making LLMs work on small and old devices",
@@ -85,10 +83,34 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 323 points · 115 comments · 14h ago",
+      "meta": "Hacker News · 362 points · 129 comments · 18h ago",
       "also": [],
       "image": "https://opengraph.githubassets.com/d5a77cd3f9b14ddf281b9835a4d2f6e1e205089c667db3cd5d16ce2446ad764e/hyperionaidev/smolmaxxing",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
+    },
+    {
+      "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+      "thread": "https://news.ycombinator.com/item?id=50474883",
+      "link": "https://unemploymentlabs.com/checkpoint-forensics",
+      "link_domain": "unemploymentlabs.com",
+      "source": "Hacker News",
+      "domain": "unemploymentlabs.com",
+      "meta": "Hacker News · 293 points · 98 comments · 11h ago",
+      "also": [],
+      "image": "https://unemploymentlabs.com/checkpoint-forensics-og.png?v=4",
+      "icon": "https://unemploymentlabs.com/favicon.svg"
+    },
+    {
+      "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+      "thread": "https://news.ycombinator.com/item?id=50475713",
+      "link": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+      "link_domain": "edge0.ai",
+      "source": "Hacker News",
+      "domain": "edge0.ai",
+      "meta": "Hacker News · 236 points · 70 comments · 10h ago",
+      "also": [],
+      "image": "https://cdn.hashnode.com/uploads/covers/6aea03219fa4aa99923b5acf/de5ebdea-3436-4b9a-b3f2-e9910f3a0abc.png",
+      "icon": "https://edge0.ai/favicon.ico?favicon.cc52f713.ico"
     },
     {
       "title": "The anti-marketing aspect of the Gemini network",
@@ -97,7 +119,7 @@
       "link_domain": "ploum.net",
       "source": "Lobsters",
       "domain": "ploum.net",
-      "meta": "Lobsters · 29 points · 17 comments · 13h ago",
+      "meta": "Lobsters · 35 points · 23 comments · 17h ago",
       "also": [],
       "image": "https://ploum.net/files/bikepunk_logo_petit.png",
       "icon": "https://ploum.net/files/favicon.ico"
@@ -109,7 +131,7 @@
       "link_domain": "mehmetince.net",
       "source": "Hacker News",
       "domain": "mehmetince.net",
-      "meta": "Hacker News · 164 points · 30 comments · 11h ago",
+      "meta": "Hacker News · 193 points · 36 comments · 15h ago",
       "also": [],
       "image": "https://mehmetince.net/wp-content/uploads/2026/11/postgresql-composite-type-confusion-primitive-rce-cve-2026-6460.png",
       "icon": "https://mehmetince.net/wp-content/uploads/2025/12/cropped-1710238943164-180x180.jpg"
@@ -121,7 +143,7 @@
       "link_domain": "synthanatomy.com",
       "source": "Hacker News",
       "domain": "synthanatomy.com",
-      "meta": "Hacker News · 146 points · 135 comments · 8h ago",
+      "meta": "Hacker News · 171 points · 188 comments · 12h ago",
       "also": [],
       "image": "https://synthanatomy.com/wp-content/uploads/2026/11/AI-Apple-App-review.jpg",
       "icon": "https://synthanatomy.com/wp-content/uploads/2017/06/Synth_Anatomy_Icon_1.png"
@@ -132,6 +154,19 @@
       "name": "AI-Assisted Engineering",
       "cards": [
         {
+          "title": "Agentic search doesn't find pages, it assembles answers",
+          "link": "https://stackoverflow.blog/2026/11/13/agentic-doesn-t-find-pages-it-assembles-answers/",
+          "excerpt": "Ryan sits down with Jeff Wang, co-founder at EXA, to talk about the huge scale required to support trillions of agentic searches, the technical complexities of building custom embeddings and performant vector databases from scratch, and the need to dedupe the massive amounts of redundant content…",
+          "source": "Stack Overflow Blog",
+          "date": "Nov 13",
+          "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format",
+          "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+          "domain": "stackoverflow.blog",
+          "hn": null,
+          "score": 8.533,
+          "coverage": 1
+        },
+        {
           "title": "Terminal-Bench 4.1 hardens the verifiers behind the scores",
           "link": "https://snorkel.ai/blog/terminal-bench-4-1-hardens-the-verifiers-behind-the-scores/",
           "excerpt": "Terminal-Bench 4.1 is now available. Snorkel AI contributes to Terminal-Bench as a task author, a data partner, and a supporter through the Open Benchmarks Grants program. The release keeps the same 66 tasks, with verifier fixes, reproducibility improvements, hardening against reward hacking, and…",
@@ -141,7 +176,7 @@
           "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
           "domain": "snorkel.ai",
           "hn": null,
-          "score": 0.894,
+          "score": 0.862,
           "coverage": 1
         },
         {
@@ -154,9 +189,11 @@
           "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
           "domain": "github.blog",
           "hn": null,
-          "score": 0.938,
+          "score": 0.795,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Fable 5.2 vs Fable 5.1: Coding Benchmark Results",
           "link": "https://s46486.pcdn.co/blog/fable-5-2-vs-fable-5-1-coding-benchmark/",
@@ -167,11 +204,9 @@
           "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
           "domain": "s46486.pcdn.co",
           "hn": null,
-          "score": 0.58,
+          "score": 0.509,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "The Pulse: What can we learn from the Railway hack?",
           "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-what-can-we-learn-from-114",
@@ -182,7 +217,7 @@
           "icon": null,
           "domain": "newsletter.pragmaticengineer.com",
           "hn": null,
-          "score": 0.62,
+          "score": 0.54,
           "coverage": 1
         },
         {
@@ -195,7 +230,7 @@
           "icon": "https://substackcdn.com/image/fetch/$s_!6g5W!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6135d637-27c9-4440-ba74-f9747a16267f%2Fapple-touch-icon-57x57.png",
           "domain": "newsletter.getdx.com",
           "hn": null,
-          "score": 0.569,
+          "score": 0.501,
           "coverage": 1
         },
         {
@@ -208,7 +243,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.751,
+          "score": 0.636,
           "coverage": 1
         },
         {
@@ -221,7 +256,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.627,
+          "score": 0.545,
           "coverage": 1
         }
       ]
@@ -229,6 +264,19 @@
     {
       "name": "AI Agents & Agent Security",
       "cards": [
+        {
+          "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+          "link": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+          "excerpt": "November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?",
+          "source": "Latent Space",
+          "date": "Nov 13",
+          "image": "https://latent.space/og/card/post/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/00b682fceec70ac5a963728725400ee392556ea7e0495837c1282ebea0220b21.png",
+          "icon": "https://latent.space/favicon.png",
+          "domain": "latent.space",
+          "hn": null,
+          "score": 0.96,
+          "coverage": 1
+        },
         {
           "title": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
           "link": "https://latent.space/p/artcraft/",
@@ -239,7 +287,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.869,
+          "score": 0.695,
           "coverage": 1
         },
         {
@@ -252,20 +300,7 @@
           "icon": null,
           "domain": "paloaltonetworks.com",
           "hn": null,
-          "score": 0.41,
-          "coverage": 1
-        },
-        {
-          "title": "The SASE “Trilemma”: How Regulated Enterprises are Navigating Digital Sovereignty, Resilience, and Global Cyber Threat Intelligence",
-          "link": "https://www.paloaltonetworks.com/blog/2026/11/the-sase-trilemma-how-regulated-enterprises-are-navigating-digital-sovereignty-resilience-and-global-cyber-threat-intelligence/",
-          "excerpt": "Modern enterprise architecture faces a critical tension: architecting a Secure Access Service Edge (SASE) deployment where data sovereignty, operational resilience, and global cybersecurity are perceived to be fundamentally at odds. To address … The post The SASE “Trilemma”: How Regulated…",
-          "source": "Palo Alto Networks Blog",
-          "date": "Nov 11",
-          "image": "https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/11/Gemini_Generated_Image_kpbpmzkpbpmzkpbp-scaled.jpeg",
-          "icon": null,
-          "domain": "paloaltonetworks.com",
-          "hn": null,
-          "score": 0.207,
+          "score": 0.366,
           "coverage": 1
         }
       ],
@@ -280,20 +315,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 3.296,
-          "coverage": 1
-        },
-        {
-          "title": "The average cost for a new vehicle in the U.S. hits a record high: over $51,000",
-          "link": "https://www.npr.org/2026/11/10/nx-s1-6026659/average-vehicle-price-record-high",
-          "excerpt": "10 points · 1 comments",
-          "source": "npr.org via Hacker News",
-          "date": "Nov 13",
-          "image": null,
-          "icon": "https://www.npr.org/favicon.ico",
-          "domain": "npr.org",
-          "hn": "10 points · 1 comments",
-          "score": 3.343,
+          "score": 2.956,
           "coverage": 1
         },
         {
@@ -306,7 +328,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.679,
+          "score": 0.587,
           "coverage": 1
         }
       ]
@@ -324,7 +346,7 @@
           "icon": null,
           "domain": "blog.pragmaticengineer.com",
           "hn": null,
-          "score": 0.649,
+          "score": 0.565,
           "coverage": 1
         },
         {
@@ -337,7 +359,7 @@
           "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
           "domain": "stratechery.com",
           "hn": null,
-          "score": 1.048,
+          "score": 0.844,
           "coverage": 1
         },
         {
@@ -350,7 +372,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.356,
+          "score": 0.329,
           "coverage": 1
         }
       ],
@@ -365,7 +387,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.356,
+          "score": 0.329,
           "coverage": 1
         }
       ]
@@ -383,7 +405,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 4.802,
+          "score": 4.221,
           "coverage": 1
         },
         {
@@ -396,7 +418,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.39,
+          "score": 2.1,
           "coverage": 1
         }
       ],
@@ -415,7 +437,7 @@
           "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
           "domain": "aembit.io",
           "hn": null,
-          "score": 4.049,
+          "score": 3.463,
           "coverage": 1
         }
       ],
@@ -434,7 +456,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 5.945,
+          "score": 5.056,
           "coverage": 3
         },
         {
@@ -447,7 +469,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.285,
+          "score": 0.263,
           "coverage": 1
         }
       ],
@@ -456,6 +478,19 @@
     {
       "name": "Security & AppSec",
       "cards": [
+        {
+          "title": "OpenAI Unveils Daybreak Red Team, Defense Factory Security Tools",
+          "link": "https://www.securityweek.com/openai-unveils-daybreak-red-team-defense-factory-security-tools/",
+          "excerpt": "Daybreak Red Team pentests web applications with AI agents, while Defense Factory investigates security findings and prepares patches. The post OpenAI Unveils Daybreak Red Team, Defense Factory Security Tools appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 13",
+          "image": "https://www.securityweek.com/wp-content/uploads/2025/11/OpenAI.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 5.834,
+          "coverage": 1
+        },
         {
           "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
           "link": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
@@ -466,9 +501,24 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 4.51,
+          "score": 3.877,
           "coverage": 2
         },
+        {
+          "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+          "link": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+          "excerpt": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege escalation flaw in Gaia OS to deploy a backdoor called TSGA. The activity, detailed by Check…",
+          "source": "The Hacker News",
+          "date": "Nov 13",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjP3B9ZQG1BXlSPUWzwVJ5qgwh899Ngm9u2GAbWiX5HDqhhT6q6gsmva9-TR2upR0fepas2i0k53VUxh1CH21LeUUv1Ipczl9huExytcqNdlqIoHP64CRYJuGyHe-OgLoov-JR6GziUT4JDJ92Ne83CshfWn9pr9Bt2HPKkv4phQJ2esJHcV6eZqzRretVu/s1600/php.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.668,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
           "link": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
@@ -479,7 +529,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.727,
+          "score": 0.568,
           "coverage": 1
         },
         {
@@ -492,11 +542,9 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.374,
+          "score": 0.327,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
           "link": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
@@ -507,8 +555,8 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 4.08,
-          "coverage": 2
+          "score": 10.611,
+          "coverage": 3
         },
         {
           "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
@@ -520,47 +568,8 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 1.754,
-          "coverage": 2
-        },
-        {
-          "title": "FBI Says US Seized $1.2 Billion Worth of Cryptocurrency Stolen From Binance",
-          "link": "https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance/",
-          "excerpt": "Also Thursday, the FBI blamed North Korea for a separate social engineering scheme that officials say resulted in the theft of $400 million worth of cryptocurrency. The post FBI Says US Seized $1.2 Billion Worth of Cryptocurrency Stolen From Binance appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 13",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/10/Binance-hacked.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.576,
+          "score": 0.309,
           "coverage": 1
-        },
-        {
-          "title": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams",
-          "link": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/",
-          "excerpt": "Microsoft says failed server health checks disrupted Outlook and other Microsoft 365 services. The company is still investigating the cause and has disclosed no evidence of a cyberattack. The post Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 12",
-          "image": "https://www.securityweek.com/wp-content/uploads/2023/06/Microsoft-DDoS-Attack.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 4.51,
-          "coverage": 2
-        },
-        {
-          "title": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
-          "link": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
-          "excerpt": "The mod_http2 race condition, CVE-2026-119618, could let unauthenticated attackers execute code on servers with HTTP/2 enabled. The post Apache Patches Critical HTTP Server RCE Found by Anthropic, Google appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 12",
-          "image": "https://www.securityweek.com/wp-content/uploads/2023/12/Apache-exploit-scaled-e1724835583910.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 4.325,
-          "coverage": 2
         }
       ]
     },
@@ -577,7 +586,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 3.348,
+          "score": 2.903,
           "coverage": 1
         },
         {
@@ -590,7 +599,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 2.355,
+          "score": 2.053,
           "coverage": 1
         },
         {
@@ -603,7 +612,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.19,
+          "score": 1.906,
           "coverage": 1
         }
       ],
@@ -618,7 +627,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.023,
+          "score": 1.778,
           "coverage": 1
         },
         {
@@ -631,7 +640,7 @@
           "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
           "domain": "grafana.com",
           "hn": null,
-          "score": 1.794,
+          "score": 1.577,
           "coverage": 1
         },
         {
@@ -644,7 +653,7 @@
           "icon": "https://a0.awsstatic.com/main/images/site/touch-icon-iphone-114-smile.png",
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.191,
+          "score": 0.178,
           "coverage": 1
         },
         {
@@ -688,7 +697,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 3.298,
+          "score": 2.866,
           "coverage": 1
         },
         {
@@ -700,8 +709,75 @@
           "image": "https://brave.com/blog/search-api-agentic-payments/images/featured.jpg",
           "icon": "https://brave.com/static-assets/images/cropped-brave_appicon_release-180x180.png",
           "domain": "brave.com",
-          "hn": "27 points · 9 comments",
-          "score": 5.784,
+          "hn": "92 points · 56 comments",
+          "score": 5.452,
+          "coverage": 1
+        },
+        {
+          "title": "Global Microsoft Outage",
+          "link": "https://www.cnn.com/2026/11/12/business/live-news/microsoft-global-outage-intl-hnk",
+          "excerpt": "A massive Microsoft outage has left millions around the world without access to Outlook email, Teams meeting tools and other staples of modern office life. Follow for live updates",
+          "source": "cnn.com via Hacker News",
+          "date": "Nov 13",
+          "image": "https://media.cnn.com/api/v1/images/stellar/prod/ap26313845581210.jpg?c=16x9&q=w_800,c_fill",
+          "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png",
+          "domain": "cnn.com",
+          "hn": "71 points · 12 comments",
+          "score": 3.395,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "TSMC Hacked",
+          "link": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm",
+          "excerpt": "19 points · 3 comments",
+          "source": "sec.gov via Hacker News",
+          "date": "Nov 13",
+          "image": null,
+          "icon": "https://www.sec.gov/favicon.ico",
+          "domain": "sec.gov",
+          "hn": "19 points · 3 comments",
+          "score": 6.1,
+          "coverage": 1
+        },
+        {
+          "title": "Microsoft Outlook/365 still down after 12 hours",
+          "link": "https://twitter.com/MSFT365Status/status/2121079061774491735",
+          "excerpt": "We’ve monitored the status of the changes applied to improve serviceability and confirmed they're not taking as expected. We’re identifying alternate workstreams that can be applied to increase capacity in the face of sustained traffic management imbalances. More info under EX1550543 and MO1550821…",
+          "source": "twitter.com via Hacker News",
+          "date": "Nov 13",
+          "image": "https://pbs.twimg.com/profile_images/1040007539088211968/f9H6EzjO_400x400.jpg",
+          "icon": "https://x.com/apple-touch-icon.png",
+          "domain": "twitter.com",
+          "hn": "191 points · 103 comments",
+          "score": 3.916,
+          "coverage": 1
+        },
+        {
+          "title": "IceWM",
+          "link": "https://ice-wm.org/",
+          "excerpt": "Window Manager",
+          "source": "ice-wm.org via Hacker News",
+          "date": "Nov 13",
+          "image": null,
+          "icon": "https://ice-wm.org/favicon.ico",
+          "domain": "ice-wm.org",
+          "hn": "151 points · 81 comments",
+          "score": 3.722,
+          "coverage": 1
+        },
+        {
+          "title": "Switcher (2004)",
+          "link": "https://folklore.org/Switcher.html",
+          "excerpt": "93 points · 26 comments",
+          "source": "folklore.org via Hacker News",
+          "date": "Nov 13",
+          "image": null,
+          "icon": "https://folklore.org/images/macfavicon.ico?v=1",
+          "domain": "folklore.org",
+          "hn": "93 points · 26 comments",
+          "score": 3.023,
           "coverage": 1
         },
         {
@@ -713,76 +789,9 @@
           "image": "https://media.wired.com/photos/6af6533dc5d481da1362b330/191:100/w_1280,c_limit/Petition-Bring-Back-Jensen-Business-2299493060.jpg",
           "icon": "https://www.wired.com/verso/static/wired-us/assets/favicon.ico",
           "domain": "wired.com",
-          "hn": "327 points · 253 comments",
-          "score": 7.556,
+          "hn": "560 points · 398 comments",
+          "score": 6.505,
           "coverage": 2
-        }
-      ],
-      "more": [
-        {
-          "title": "IceWM",
-          "link": "https://ice-wm.org/",
-          "excerpt": "Window Manager",
-          "source": "ice-wm.org via Hacker News",
-          "date": "Nov 13",
-          "image": null,
-          "icon": "https://ice-wm.org/favicon.ico",
-          "domain": "ice-wm.org",
-          "hn": "34 points · 12 comments",
-          "score": 3.489,
-          "coverage": 1
-        },
-        {
-          "title": "Switcher (2004)",
-          "link": "https://folklore.org/Switcher.html",
-          "excerpt": "70 points · 14 comments",
-          "source": "folklore.org via Hacker News",
-          "date": "Nov 13",
-          "image": null,
-          "icon": "https://folklore.org/images/macfavicon.ico?v=1",
-          "domain": "folklore.org",
-          "hn": "70 points · 14 comments",
-          "score": 3.496,
-          "coverage": 1
-        },
-        {
-          "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
-          "link": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
-          "excerpt": "Meet Edge0-145B, an open-source 145B model for local coding, reasoning, and agent tasks, with no cloud-model token fees for local inference.",
-          "source": "edge0.ai via Hacker News",
-          "date": "Nov 12",
-          "image": "https://cdn.hashnode.com/uploads/covers/6aea03219fa4aa99923b5acf/de5ebdea-3436-4b9a-b3f2-e9910f3a0abc.png",
-          "icon": "https://edge0.ai/favicon.ico?favicon.cc52f713.ico",
-          "domain": "edge0.ai",
-          "hn": "169 points · 39 comments",
-          "score": 3.205,
-          "coverage": 1
-        },
-        {
-          "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
-          "link": "https://unemploymentlabs.com/checkpoint-forensics",
-          "excerpt": "Our forensic analysis of publicly released AI models finds evidence that DeepSeek, Moonshot AI, MiniMax and Ant Group have gained access to NVIDIA’s Blackwell GPUs, despite restrictions on exporting these chips to China, and are using that hardware to create their AI models.",
-          "source": "unemploymentlabs.com via Hacker News",
-          "date": "Nov 12",
-          "image": "https://unemploymentlabs.com/checkpoint-forensics-og.png?v=4",
-          "icon": "https://unemploymentlabs.com/favicon.svg",
-          "domain": "unemploymentlabs.com",
-          "hn": "242 points · 63 comments",
-          "score": 3.208,
-          "coverage": 1
-        },
-        {
-          "title": "Show HN: RealtimeVAD – trading false positives for 110ms earlier end-of-speech",
-          "link": "https://github.com/KoljaB/RealtimeVAD",
-          "excerpt": "Faster speech off signals for spec gen voice pipelines - KoljaB/RealtimeVAD",
-          "source": "github.com via Hacker News",
-          "date": "Nov 12",
-          "image": "https://opengraph.githubassets.com/010f2a6c4ad65e83064bca1e185a66da44ad54c4dbcf88064e03060508bb2082/KoljaB/RealtimeVAD",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "13 points · 1 comments",
-          "score": 1.682,
-          "coverage": 1
         }
       ]
     }
