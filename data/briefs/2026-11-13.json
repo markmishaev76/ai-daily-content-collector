@@ -1,29 +1,29 @@
 {
   "date": "2026-11-13",
   "lead": {
-    "title": "Nightmare Eclipse Drops Windows Zero-Day Exploit ‘SignDrop’",
-    "link": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop/",
-    "excerpt": "It abuses CLFS and Windows Defender to trigger arbitrary file creation in the context of the antimalware process. The post Nightmare Eclipse Drops Windows Zero-Day Exploit ‘SignDrop’ appeared first on SecurityWeek.",
-    "source": "SecurityWeek",
-    "date": "Nov 13",
-    "image": "https://www.securityweek.com/wp-content/uploads/2026/11/Nightmare-Eclipse.webp",
-    "image_credit": null,
-    "section": "Security & AppSec",
+    "title": "wfx-loot: Stolen GitHub tokens pushed a CI secret stealer into 60,000+ repositories (November 2026)",
+    "link": "https://www.chainguard.dev/unchained/wfx-loot-stolen-github-tokens-pushed-a-ci-secret-stealer-into-60-000-repositories-november-2026",
+    "excerpt": "The wfx supply chain attack compromised thousands of GitHub repositories. See how it works, what credentials it steals, and how to stay protected.",
+    "source": "Chainguard: Unchained",
+    "date": "Nov 12",
+    "image": "https://www.bleepstatic.com/content/hl-images/2026/10/08/github.jpg",
+    "image_credit": "BleepingComputer",
+    "section": "Secrets & NHI",
     "pinned": false,
     "note": null,
     "labels": [
       "3 sources",
-      "Security & AppSec",
-      "3h ago"
+      "Secrets & NHI",
+      "under 1h ago"
     ],
     "also": [
       {
-        "name": "thehackernews.com",
-        "link": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html"
+        "name": "blog.gitguardian.com",
+        "link": "https://blog.gitguardian.com/wfx-loot-a-ci-secret-stealer-pushed-with-stolen-github-credentials/"
       },
       {
         "name": "bleepingcomputer.com",
-        "link": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/"
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/"
       }
     ]
   },
@@ -35,7 +35,7 @@
       "link_domain": "blog.google",
       "source": "Hacker News",
       "domain": "blog.google",
-      "meta": "Hacker News · 541 points · 338 comments · 18h ago",
+      "meta": "Hacker News · 553 points · 343 comments · 21h ago",
       "also": [],
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-hydrogen__key-art__lockup__16-9.width-1300.jpg",
       "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131"
@@ -47,7 +47,7 @@
       "link_domain": "antigravity.google",
       "source": "Hacker News",
       "domain": "antigravity.google",
-      "meta": "Hacker News · 434 points · 126 comments · 17h ago",
+      "meta": "Hacker News · 467 points · 142 comments · 20h ago",
       "also": [],
       "image": "https://antigravity.google/assets/image/blog/4-Hydrogen---Wide.png",
       "icon": "https://antigravity.google/apple-touch-icon.png"
@@ -59,22 +59,22 @@
       "link_domain": "",
       "source": "Hacker News",
       "domain": "Hacker News",
-      "meta": "Hacker News · 402 points · 1 comments · 18h ago",
+      "meta": "Hacker News · 402 points · 1 comments · 21h ago",
       "also": [],
       "image": null,
       "icon": null
     },
     {
-      "title": "I'm making LLMs work on small and old devices",
-      "thread": "https://news.ycombinator.com/item?id=50468888",
-      "link": "https://github.com/hyperionaidev/smolmaxxing/",
-      "link_domain": "github.com",
+      "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+      "thread": "https://news.ycombinator.com/item?id=50481187",
+      "link": "https://status.claude.com/incidents/nn11wk485zfn",
+      "link_domain": "status.claude.com",
       "source": "Hacker News",
-      "domain": "github.com",
-      "meta": "Hacker News · 393 points · 147 comments · 21h ago",
+      "domain": "status.claude.com",
+      "meta": "Hacker News · 387 points · 326 comments · 5h ago",
       "also": [],
-      "image": "https://opengraph.githubassets.com/d5a77cd3f9b14ddf281b9835a4d2f6e1e205089c667db3cd5d16ce2446ad764e/hyperionaidev/smolmaxxing",
-      "icon": "https://github.githubassets.com/favicons/favicon.svg"
+      "image": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
+      "icon": "https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/362807/NEW_spark-96-96-2225c423-f16f-42a4-b9d1-c58c10b998cb.png"
     },
     {
       "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
@@ -83,7 +83,7 @@
       "link_domain": "unemploymentlabs.com",
       "source": "Hacker News",
       "domain": "unemploymentlabs.com",
-      "meta": "Hacker News · 308 points · 114 comments · 14h ago",
+      "meta": "Hacker News · 329 points · 133 comments · 17h ago",
       "also": [],
       "image": "https://unemploymentlabs.com/checkpoint-forensics-og.png?v=4",
       "icon": "https://unemploymentlabs.com/favicon.svg"
@@ -95,7 +95,7 @@
       "link_domain": "edge0.ai",
       "source": "Hacker News",
       "domain": "edge0.ai",
-      "meta": "Hacker News · 280 points · 82 comments · 13h ago",
+      "meta": "Hacker News · 305 points · 91 comments · 16h ago",
       "also": [],
       "image": "https://cdn.hashnode.com/uploads/covers/6aea03219fa4aa99923b5acf/de5ebdea-3436-4b9a-b3f2-e9910f3a0abc.png",
       "icon": "https://edge0.ai/favicon.ico?favicon.cc52f713.ico"
@@ -107,10 +107,22 @@
       "link_domain": "ploum.net",
       "source": "Lobsters",
       "domain": "ploum.net",
-      "meta": "Lobsters · 41 points · 27 comments · 20h ago",
+      "meta": "Lobsters · 45 points · 29 comments · 23h ago",
       "also": [],
       "image": "https://ploum.net/files/bikepunk_logo_petit.png",
       "icon": "https://ploum.net/files/favicon.ico"
+    },
+    {
+      "title": "Global Microsoft Outage",
+      "thread": "https://news.ycombinator.com/item?id=50479098",
+      "link": "https://www.cnn.com/2026/11/12/business/live-news/microsoft-global-outage-intl-hnk",
+      "link_domain": "cnn.com",
+      "source": "Hacker News",
+      "domain": "cnn.com",
+      "meta": "Hacker News · 255 points · 156 comments · 9h ago",
+      "also": [],
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/ap26313845581210.jpg?c=16x9&q=w_800,c_fill",
+      "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png"
     },
     {
       "title": "Turning a 22-year-old Postgres type-confusion primitive into RCE",
@@ -119,22 +131,10 @@
       "link_domain": "mehmetince.net",
       "source": "Hacker News",
       "domain": "mehmetince.net",
-      "meta": "Hacker News · 207 points · 39 comments · 18h ago",
+      "meta": "Hacker News · 222 points · 40 comments · 21h ago",
       "also": [],
       "image": "https://mehmetince.net/wp-content/uploads/2026/11/postgresql-composite-type-confusion-primitive-rce-cve-2026-6460.png",
       "icon": "https://mehmetince.net/wp-content/uploads/2025/12/cropped-1710238943164-180x180.jpg"
-    },
-    {
-      "title": "AI is turning Apple's app review process into a nightmare for synth developers",
-      "thread": "https://news.ycombinator.com/item?id=50474311",
-      "link": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
-      "link_domain": "synthanatomy.com",
-      "source": "Hacker News",
-      "domain": "synthanatomy.com",
-      "meta": "Hacker News · 181 points · 205 comments · 15h ago",
-      "also": [],
-      "image": "https://synthanatomy.com/wp-content/uploads/2026/11/AI-Apple-App-review.jpg",
-      "icon": "https://synthanatomy.com/wp-content/uploads/2017/06/Synth_Anatomy_Icon_1.png"
     },
     {
       "title": "Brave Search API now accepts agentic payments via the x402 protocol",
@@ -143,7 +143,7 @@
       "link_domain": "brave.com",
       "source": "Hacker News",
       "domain": "brave.com",
-      "meta": "Hacker News · 148 points · 82 comments · 9h ago",
+      "meta": "Hacker News · 199 points · 110 comments · 12h ago",
       "also": [],
       "image": "https://brave.com/blog/search-api-agentic-payments/images/featured.jpg",
       "icon": "https://brave.com/static-assets/images/cropped-brave_appicon_release-180x180.png"
@@ -163,7 +163,7 @@
           "icon": "https://stackoverflow.blog/apple-touch-icon.png",
           "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 6.908,
+          "score": 5.805,
           "coverage": 1
         },
         {
@@ -176,7 +176,7 @@
           "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
           "domain": "snorkel.ai",
           "hn": null,
-          "score": 0.835,
+          "score": 0.809,
           "coverage": 1
         },
         {
@@ -189,7 +189,7 @@
           "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
           "domain": "github.blog",
           "hn": null,
-          "score": 0.701,
+          "score": 0.627,
           "coverage": 1
         }
       ],
@@ -204,7 +204,7 @@
           "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
           "domain": "s46486.pcdn.co",
           "hn": null,
-          "score": 0.46,
+          "score": 0.419,
           "coverage": 1
         },
         {
@@ -217,7 +217,7 @@
           "icon": null,
           "domain": "newsletter.pragmaticengineer.com",
           "hn": null,
-          "score": 0.485,
+          "score": 0.44,
           "coverage": 1
         },
         {
@@ -230,7 +230,7 @@
           "icon": "https://substackcdn.com/image/fetch/$s_!6g5W!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6135d637-27c9-4440-ba74-f9747a16267f%2Fapple-touch-icon-57x57.png",
           "domain": "newsletter.getdx.com",
           "hn": null,
-          "score": 0.453,
+          "score": 0.414,
           "coverage": 1
         },
         {
@@ -243,20 +243,20 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.561,
+          "score": 0.502,
           "coverage": 1
         },
         {
-          "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
-          "link": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-          "excerpt": "A Blog post by IBM Granite on Hugging Face",
+          "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+          "link": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+          "excerpt": "A Blog post by ggml-org on Hugging Face",
           "source": "Hugging Face",
-          "date": "Nov 12",
-          "image": "https://cdn-uploads.huggingface.co/production/uploads/6484ca4d5ff9a3d2ee52a83b/6KFZDHIJkxpICiErHLqAw.gif",
+          "date": "Nov 13",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/63148d3b996c52bf0142cdbe/2PgU1GxpJX_LVORaP2RRy.png",
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.489,
+          "score": 1.064,
           "coverage": 1
         }
       ]
@@ -274,7 +274,7 @@
           "icon": "https://latent.space/favicon.png",
           "domain": "latent.space",
           "hn": null,
-          "score": 0.773,
+          "score": 0.647,
           "coverage": 1
         },
         {
@@ -287,7 +287,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.591,
+          "score": 0.514,
           "coverage": 1
         },
         {
@@ -300,7 +300,7 @@
           "icon": null,
           "domain": "paloaltonetworks.com",
           "hn": null,
-          "score": 0.335,
+          "score": 0.309,
           "coverage": 1
         }
       ],
@@ -315,20 +315,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 2.711,
-          "coverage": 1
-        },
-        {
-          "title": "Doomsday: Friday, 13 November, A.D. 2026 (1960)",
-          "link": "https://www.science.org/doi/10.1126/science.132.3436.1291",
-          "excerpt": "23 points · 2 comments",
-          "source": "science.org via Hacker News",
-          "date": "Nov 13",
-          "image": null,
-          "icon": "https://www.science.org/favicon.ico",
-          "domain": "science.org",
-          "hn": "23 points · 2 comments",
-          "score": 4.305,
+          "score": 2.504,
           "coverage": 1
         },
         {
@@ -341,7 +328,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.524,
+          "score": 0.474,
           "coverage": 1
         },
         {
@@ -354,7 +341,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.957,
+          "score": 0.771,
           "coverage": 1
         }
       ]
@@ -372,7 +359,7 @@
           "icon": null,
           "domain": "blog.pragmaticengineer.com",
           "hn": null,
-          "score": 0.507,
+          "score": 0.46,
           "coverage": 1
         },
         {
@@ -385,9 +372,24 @@
           "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
           "domain": "stratechery.com",
           "hn": null,
-          "score": 0.721,
+          "score": 0.629,
           "coverage": 1
         },
+        {
+          "title": "Prenuvo’s Andrew Lacy on making healthcare proactive",
+          "link": "https://www.mckinsey.com/featured-insights/prenuvos-andrew-lacy-on-making-healthcare-proactive",
+          "excerpt": "The founder of the whole-body MRI company explains why disease is a process, not binary, and how data and coaching can change a patient’s health trajectory.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 13",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.543,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "Separating signal from noise: The always-on finance intelligence layer",
           "link": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/separating-signal-from-noise-the-always-on-finance-intelligence-layer",
@@ -398,11 +400,9 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.61,
+          "score": 0.543,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Beyond delivery: The human and economic toll of preeclampsia in the US",
           "link": "https://www.mckinsey.com/mhi/our-insights/beyond-delivery-the-human-and-economic-toll-of-preeclampsia-in-the-us",
@@ -413,7 +413,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.309,
+          "score": 0.291,
           "coverage": 1
         },
         {
@@ -426,7 +426,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.309,
+          "score": 0.291,
           "coverage": 1
         }
       ]
@@ -444,7 +444,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 3.815,
+          "score": 3.482,
           "coverage": 1
         },
         {
@@ -457,7 +457,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.899,
+          "score": 1.733,
           "coverage": 1
         }
       ],
@@ -476,8 +476,21 @@
           "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
           "domain": "aembit.io",
           "hn": null,
-          "score": 3.072,
+          "score": 2.762,
           "coverage": 1
+        },
+        {
+          "title": "wfx-loot: A CI Secret Stealer Pushed With Stolen GitHub Credentials",
+          "link": "https://blog.gitguardian.com/wfx-loot-a-ci-secret-stealer-pushed-with-stolen-github-credentials/",
+          "excerpt": "A threat actor used stolen GitHub credentials to push a CI secret stealer into more than 17,000 public repositories. GitHub held the malicious workflows. An npm hook got past the hold and ran. Here is how the bypass worked and what to rotate if you were hit.",
+          "source": "GitGuardian",
+          "date": "Nov 13",
+          "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/11/wfx-loot-blog-header.png",
+          "icon": null,
+          "domain": "blog.gitguardian.com",
+          "hn": null,
+          "score": 9.699,
+          "coverage": 3
         }
       ],
       "more": []
@@ -485,19 +498,6 @@
     {
       "name": "Supply Chain & Builds",
       "cards": [
-        {
-          "title": "wfx-loot: Stolen GitHub tokens pushed a CI secret stealer into 60,000+ repositories (November 2026)",
-          "link": "https://www.chainguard.dev/unchained/wfx-loot-stolen-github-tokens-pushed-a-ci-secret-stealer-into-60-000-repositories-november-2026",
-          "excerpt": "The wfx supply chain attack compromised thousands of GitHub repositories. See how it works, what credentials it steals, and how to stay protected.",
-          "source": "Chainguard: Unchained",
-          "date": "Nov 12",
-          "image": "https://images.ctfassets.net/l47ir7rfykkn/2CclEViehQP9SgGQ5NYwIV/c196e8036db08e79bd06453256b0ae09/wfx-loot.png",
-          "icon": "https://www.chainguard.dev/favicon.ico",
-          "domain": "chainguard.dev",
-          "hn": null,
-          "score": 1.235,
-          "coverage": 1
-        },
         {
           "title": "Athena's second wave",
           "link": "https://www.chainguard.dev/unchained/athenas-second-wave",
@@ -508,7 +508,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.247,
+          "score": 0.232,
           "coverage": 1
         }
       ],
@@ -517,6 +517,19 @@
     {
       "name": "Security & AppSec",
       "cards": [
+        {
+          "title": "How one AI agent exposed five critical enterprise security gaps",
+          "link": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
+          "excerpt": "An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditional security alerts. Token Security examines five critical AI agent security gaps and shares practical guidance from industry security…",
+          "source": "BleepingComputer",
+          "date": "Nov 13",
+          "image": "https://www.bleepstatic.com/content/posts/2026/11/12/agentic-universe.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 6.667,
+          "coverage": 1
+        },
         {
           "title": "When an AI Agent Goes Wrong, Can You Stop It?",
           "link": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
@@ -527,7 +540,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 5.941,
+          "score": 4.799,
           "coverage": 1
         },
         {
@@ -540,9 +553,11 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 4.673,
+          "score": 3.899,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
           "link": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
@@ -553,11 +568,48 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 3.452,
+          "score": 7.87,
           "coverage": 2
-        }
-      ],
-      "more": [
+        },
+        {
+          "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
+          "link": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
+          "excerpt": "Noteworthy stories that might have slipped under the radar: Siemens details security advisory policy, OpenAI Codex backdoor risk, Microsoft warns of model weight backdoors. The post In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach appeared first on…",
+          "source": "SecurityWeek",
+          "date": "Nov 13",
+          "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 7.444,
+          "coverage": 1
+        },
+        {
+          "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+          "link": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+          "excerpt": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as part of a social engineering scheme codenamed FaceStealer in the last 18 months.…",
+          "source": "The Hacker News",
+          "date": "Nov 13",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDmjJA-t4vvigohRIfUR6JExYEPR0Dohh29eooVagQOvRyRDgdisxAy3wSWni5iFHjf2Dk8X2BavSeGO8hJ-wCTbDuffsdtamOuqj1PVTb75EWNF5vNe3tCsS6pyS_pSzNhEELOVU0DxHdmGx4Kt8KNqwz8YheAM9kEoVmpnHeVV1qsofLCBYDEt0E2IqX/s1600/flash.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.685,
+          "coverage": 1
+        },
+        {
+          "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
+          "link": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
+          "excerpt": "Three Trezor Safe 5 wallets bought from the reseller CryptoBilis contain an implant, an extra circuit board that can copy their recovery phrases, hardware wallet maker Trezor said yesterday. The implant reads the phrase from the wallet's screen and sends it over the mobile network to a server…",
+          "source": "The Hacker News",
+          "date": "Nov 13",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivDE4uIn_bV4GUrsw0LjzqBnnNaQM_0lzJhrSy89nrShmwNlFcsVucCFpzzZ2LMkkSMF-XMb8rp0e7_Maemyj5sypkVIf4s2Wx5pbJXkOwf0vMkG9ThBQAHhvJ_mKWHq78f_iJYhAM2l1Hp_Zk3VtB_bVvYFmZTX4WakIpC_Zib0rlFnDG-H674JSP5Mg/s1600/implant.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.656,
+          "coverage": 1
+        },
         {
           "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
           "link": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
@@ -568,59 +620,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.67,
-          "coverage": 1
-        },
-        {
-          "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
-          "link": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
-          "excerpt": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks. Police also seized about 6.4 million stolen logins belonging to more than…",
-          "source": "The Hacker News",
-          "date": "Nov 13",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsu6ZFyYFr1dxp2XHIaG_pyTwkoH58ICgyXLuTthkuYSJVcqAwX_O_bEJYfheyxpYmI7nnok1xrj97q7s-9l8JHFt1ogBAOJAEUqM8_vf6H3a8eYPKzB34d6XrvnkRu8zGaoKMgSJqWsE6u2zYXLdJKTtcDvk3beN6_o40ygJ4MVSMomS3Q1aEFV_jSq8/s1600/gootloader.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 3.288,
-          "coverage": 2
-        },
-        {
-          "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
-          "link": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
-          "excerpt": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege escalation flaw in Gaia OS to deploy a backdoor called TSGA. The activity, detailed by Check…",
-          "source": "The Hacker News",
-          "date": "Nov 13",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjP3B9ZQG1BXlSPUWzwVJ5qgwh899Ngm9u2GAbWiX5HDqhhT6q6gsmva9-TR2upR0fepas2i0k53VUxh1CH21LeUUv1Ipczl9huExytcqNdlqIoHP64CRYJuGyHe-OgLoov-JR6GziUT4JDJ92Ne83CshfWn9pr9Bt2HPKkv4phQJ2esJHcV6eZqzRretVu/s1600/php.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.545,
-          "coverage": 1
-        },
-        {
-          "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
-          "link": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
-          "excerpt": "N-able on Thursday said it's taking additional precautions in the wake of public disclosure of a new set of flaws tracked as 4EverAble2Shell and Agent2Shell. \"We are restricting certain N-central features and integrations,\" the company said in a Thursday update. \"These measures may affect some…",
-          "source": "The Hacker News",
-          "date": "Nov 13",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA4jxlXpPBPhD5o3IHy80Fn7fSHUtcqH3iXQlU-jDUL5C3zJcf1_Zb-GAYxuW6P6q647p9JAT_opImlj-v-USDNhZ_z83mYC3ISKtN72pe_3XLwf5EyMRuK4OdXCFnYxGMhOAvN_i4UFqk5vJLriRnkbRRwILuT5JUpExx9Tm74sXSCQ0g7jjsOzWV1cqk/s1600/nable-hacks.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.477,
-          "coverage": 1
-        },
-        {
-          "title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
-          "link": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
-          "excerpt": "A search result isn't always safe. An access request isn't always harmless. And a familiar account doesn't always mean a familiar person is using it. Simple things to remember. Yet a surprising amount of this week's trouble starts right there. Attackers are using fake websites, stolen access, and…",
-          "source": "The Hacker News",
-          "date": "Nov 12",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpHFMwpmKB3Mn6eMpEHMAX_8gqnyi4xwTCuYj7NTrCcTMWAsSZtaUsHYUa1kvi3jQf92A5pR_Qz7kzgTarHmo6q6YsXVeVSJEkkx0JkioCXa6GbKJzG9eZz0dkotf9QEpdcRMy94hoYhGfIoEk7pPOFUSgTY5ciU7_wkSOJc7kgXcS1GS3qGC-Ql7kMrks/s1600/thd.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.295,
+          "score": 0.547,
           "coverage": 1
         }
       ]
@@ -638,7 +638,20 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 2.6,
+          "score": 2.355,
+          "coverage": 1
+        },
+        {
+          "title": "Google Open Sources Ambient Quality Agent (AQuA) to Diagnose Production AI Agent Failures",
+          "link": "https://www.infoq.com/news/2026/11/google-ambient-agent-prod/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Google has open-sourced AQuA, a reference implementation that analyzes production AI agent sessions, verifies recurring failure patterns, and investigates root causes against deployed source snapshots. In a 32-session replay, developers reduced seat selection bypasses from 15 sessions to two and…",
+          "source": "InfoQ",
+          "date": "Nov 13",
+          "image": "https://res.infoq.com/news/2026/11/google-ambient-agent-prod/en/headerimage/generatedHeaderImage-1792894383462.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 5.501,
           "coverage": 1
         },
         {
@@ -651,9 +664,11 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 1.846,
+          "score": 1.677,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Chrome Enterprise brings more protections to healthcare technologies",
           "link": "https://cloud.google.com/blog/products/chrome-enterprise/chrome-enterprise-brings-more-protections-to-healthcare-technologies/",
@@ -664,11 +679,9 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.711,
+          "score": 1.553,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Simplifying last mile cloud connectivity with Lumen and partner Cross-Cloud Interconnect",
           "link": "https://cloud.google.com/blog/products/networking/partner-cross-cloud-interconnect-for-last-mile-delivered-by-lumen/",
@@ -679,7 +692,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.607,
+          "score": 1.467,
           "coverage": 1
         },
         {
@@ -692,7 +705,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 4.031,
+          "score": 3.25,
           "coverage": 1
         },
         {
@@ -705,7 +718,7 @@
           "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
           "domain": "grafana.com",
           "hn": null,
-          "score": 1.425,
+          "score": 1.301,
           "coverage": 1
         },
         {
@@ -720,19 +733,6 @@
           "hn": null,
           "score": 1.75,
           "coverage": 1
-        },
-        {
-          "title": "Catch Go bugs that fuzzing misses with Gemini and a constraint solver",
-          "link": "https://developers.googleblog.com/catch-go-bugs-that-fuzzing-misses-with-gemini-and-a-constraint-solver/",
-          "excerpt": "How pairing Go's surviving compiler bounds-check traps with Gemini 4 Argon and the Z3 constraint solver catches latent out-of-bounds panics in Go code and uncovers a slice-capacity blind spot in go test -fuzz.",
-          "source": "Google Developers Blog",
-          "date": null,
-          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/title-image.2e16d0ba.fill-1200x600.png",
-          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
-          "domain": "developers.googleblog.com",
-          "hn": null,
-          "score": 0.25,
-          "coverage": 1
         }
       ]
     },
@@ -740,109 +740,109 @@
       "name": "News & Research",
       "cards": [
         {
-          "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
-          "link": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
-          "excerpt": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
-          "source": "TechCrunch",
-          "date": "Nov 12",
-          "image": "https://techcrunch.com/wp-content/uploads/2023/10/misbahfarah-together.jpg?resize=1200,676",
-          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
-          "domain": "techcrunch.com",
+          "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+          "excerpt": "Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's been an interesting…",
+          "source": "The Verge",
+          "date": "Nov 13",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DSC04398_processed.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "icon": null,
+          "domain": "theverge.com",
           "hn": null,
-          "score": 2.57,
+          "score": 3.727,
           "coverage": 1
         },
         {
-          "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
-          "link": "https://status.claude.com/incidents/nn11wk485zfn",
-          "excerpt": "Claude's Status Page - Elevated errors on claude.ai, Claude Code, and platform.claude.com.",
-          "source": "status.claude.com via Hacker News",
+          "title": "A technical vision for the Haskell ecosystem",
+          "link": "https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078",
+          "excerpt": "Hi all, the technical leadership committee of the Haskell Foundation has been successfully bootstrapped! We have spent the last few weeks discussing our vision and strategy and are now fully operational. We’re going to actively develop initiatives and proposals that we believe need funding and…",
+          "source": "discourse.haskell.org via Hacker News",
           "date": "Nov 13",
-          "image": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
-          "icon": "https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/362807/NEW_spark-96-96-2225c423-f16f-42a4-b9d1-c58c10b998cb.png",
-          "domain": "status.claude.com",
-          "hn": "260 points · 191 comments",
-          "score": 7.801,
+          "image": "https://us1.discourse-cdn.com/flex002/uploads/haskell/original/1X/89166504e40f4869ea825dd70048017861ec8578.png",
+          "icon": "https://us1.discourse-cdn.com/flex002/uploads/haskell/optimized/1X/8df5f8aba60b473c9ac204abffa76879e8c09229_2_180x180.png",
+          "domain": "discourse.haskell.org",
+          "hn": "15 points · 1 comments",
+          "score": 2.78,
           "coverage": 1
         },
         {
-          "title": "Europe's electric car sales jump 49% as global EV sales grow",
-          "link": "https://electrek.co/2026/11/11/europes-electric-car-sales-jump-49-as-global-ev-sales-grow/",
-          "excerpt": "Global EV sales hit 2.09 million in October as Europe surged, but North America's return to growth comes with an important caveat.",
-          "source": "electrek.co via Hacker News",
+          "title": "Amodei Says AI Will Cure Cancer in a Decade. Doctors Are Skeptical",
+          "link": "https://www.businessinsider.com/dario-amodei-anthropic-cancer-cure-ipo-roadshow-backlash-doctors-2026-11",
+          "excerpt": "Some in the medical community aren't so certain that AI will cure cancer and Alzheimer's in the next decade, as Anthropic CEO Dario Amodei predicted.",
+          "source": "businessinsider.com via Hacker News",
           "date": "Nov 13",
-          "image": "https://electrek.co/wp-content/uploads/sites/3/2026/11/BYD-new-Seal-07-EV.jpeg?quality=82&strip=all&resize=1200,628",
-          "icon": "https://electrek.co/wp-content/uploads/sites/3/2017/03/electrek.png?w=180",
-          "domain": "electrek.co",
-          "hn": "53 points · 40 comments",
-          "score": 4.063,
+          "image": "https://i.insider.com/6af486880cc3ffba8779beeb?width=1200&format=jpeg",
+          "icon": "https://www.businessinsider.com/public/assets/BI/US/favicons/apple-touch-icon-180x180.png?v=2025-05",
+          "domain": "businessinsider.com",
+          "hn": "23 points · 34 comments",
+          "score": 3.685,
           "coverage": 1
         }
       ],
       "more": [
         {
-          "title": "Claude Is Down",
-          "link": "https://status.claude.com/history",
-          "excerpt": "Claude's Incident and Scheduled Maintenance History",
-          "source": "status.claude.com via Hacker News",
+          "title": "U.S. October PPI Rises 6.5% YoY, Highest in Nearly Four Years",
+          "link": "https://news.ycombinator.com/item?id=50484421",
+          "excerpt": "23 points · 2 comments",
+          "source": "Hacker News",
           "date": "Nov 13",
           "image": null,
-          "icon": "https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/362807/NEW_spark-96-96-2225c423-f16f-42a4-b9d1-c58c10b998cb.png",
-          "domain": "status.claude.com",
-          "hn": "126 points · 111 comments",
-          "score": 4.36,
+          "icon": null,
+          "domain": "news.ycombinator.com",
+          "hn": "23 points · 2 comments",
+          "score": 3.15,
           "coverage": 1
         },
         {
-          "title": "The Dawn of the Data Intelligence Engineer",
-          "link": "https://motherduck.com/blog/the-data-intelligence-engineer/",
-          "excerpt": "For Data Teams, AI has changed everything. The traditional work can be run by agents, leaving folks wondering \"what's next\"? In this blog, MotherDuck CEO Jordan Tigani unpacks the possibilities. | Reading time: 12 min read",
-          "source": "motherduck.com via Hacker News",
+          "title": "The 42-Year Journey to Bring 'Neuromancer' to the Screen",
+          "link": "https://www.wired.com/story/exclusive-apple-tv-neuromancer-creator-interviews/",
+          "excerpt": "William Gibson released his seminal novel Neuromancer in 1984. WIRED has an exclusive look at how it eventually made its way to Apple TV—thanks in no small part to Drake.",
+          "source": "wired.com via Hacker News",
           "date": "Nov 13",
-          "image": "https://motherduck-com-web-prod.s3.us-east-1.amazonaws.com/assets/img/dawn_ticker_b_3a1d920b4d.png",
-          "icon": "https://motherduck.com/apple-touch-icon.png",
-          "domain": "motherduck.com",
-          "hn": "60 points · 44 comments",
-          "score": 3.494,
-          "coverage": 1
-        },
-        {
-          "title": "Global Microsoft Outage",
-          "link": "https://www.cnn.com/2026/11/12/business/live-news/microsoft-global-outage-intl-hnk",
-          "excerpt": "A massive Microsoft outage has left millions around the world without access to Outlook email, Teams meeting tools and other staples of modern office life. Follow for live updates",
-          "source": "cnn.com via Hacker News",
-          "date": "Nov 13",
-          "image": "https://media.cnn.com/api/v1/images/stellar/prod/ap26313845581210.jpg?c=16x9&q=w_800,c_fill",
-          "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png",
-          "domain": "cnn.com",
-          "hn": "172 points · 96 comments",
+          "image": "https://media.wired.com/photos/6aee55c49c22209c9f013e23/191:100/w_1280,c_limit/Neuromancer-BTS-Culture_102_18753F.jpg",
+          "icon": "https://www.wired.com/verso/static/wired-us/assets/favicon.ico",
+          "domain": "wired.com",
+          "hn": "33 points · 11 comments",
           "score": 3.466,
           "coverage": 1
         },
         {
-          "title": "Microsoft Outlook/365 still down after 12 hours",
-          "link": "https://twitter.com/MSFT365Status/status/2121079061774491735",
-          "excerpt": "We’ve monitored the status of the changes applied to improve serviceability and confirmed they're not taking as expected. We’re identifying alternate workstreams that can be applied to increase capacity in the face of sustained traffic management imbalances. More info under EX1550543 and MO1550821…",
-          "source": "twitter.com via Hacker News",
+          "title": "US university students tell surveillance cameras to Flock off",
+          "link": "https://www.theguardian.com/technology/ng-interactive/2026/nov/13/universities-drop-flock-camera-contracts",
+          "excerpt": "The privacy issues over the company’s surveillance cameras cause momentum in schools all over the country",
+          "source": "theguardian.com via Hacker News",
           "date": "Nov 13",
-          "image": "https://pbs.twimg.com/profile_images/1040007539088211968/f9H6EzjO_400x400.jpg",
-          "icon": "https://x.com/apple-touch-icon.png",
-          "domain": "twitter.com",
-          "hn": "365 points · 260 comments",
-          "score": 3.691,
+          "image": "https://i.guim.co.uk/img/media/07a6c4559866de14de7f2016c808aef3574e0c2c/23_622_4031_3223/master/4031.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5239e4f6026466fed8c975b3146ed484",
+          "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg",
+          "domain": "theguardian.com",
+          "hn": "15 points · 0 comments",
+          "score": 2.627,
           "coverage": 1
         },
         {
-          "title": "IceWM",
-          "link": "https://ice-wm.org/",
-          "excerpt": "Window Manager",
-          "source": "ice-wm.org via Hacker News",
+          "title": "Why Zig over C for Systems Programming",
+          "link": "https://www.mtsoukalos.eu/2026/11/why-zig-over-c-for-systems-programming/",
+          "excerpt": "After I wrote Why Zig Over Rust for Systems Programming, the obvious next question was C. The Rust question was about safety and how much ceremony I was willing to accept for it. The C question is different, because Zig and C want the same things. Both are small languages without a Garbage…",
+          "source": "mtsoukalos.eu via Hacker News",
           "date": "Nov 13",
           "image": null,
-          "icon": "https://ice-wm.org/favicon.ico",
-          "domain": "ice-wm.org",
-          "hn": "229 points · 111 comments",
-          "score": 3.341,
+          "icon": "https://www.mtsoukalos.eu/images/apple-touch-icon.png",
+          "domain": "mtsoukalos.eu",
+          "hn": "62 points · 14 comments",
+          "score": 3.744,
+          "coverage": 1
+        },
+        {
+          "title": "US test reactor cleared for operations",
+          "link": "https://www.world-nuclear-news.org/articles/us-test-reactor-cleared-for-operations",
+          "excerpt": "Oklo&#39;s Groves Isotope Test Reactor has been cleared for unrestricted operations by the US Department of Energy. &nbsp;;",
+          "source": "world-nuclear-news.org via Hacker News",
+          "date": "Nov 13",
+          "image": "https://world-nuclear-news.org/images/articles/GrovesIsotopeReactorbuilding(Oklo)_89955.jpg",
+          "icon": "https://www.world-nuclear-news.org/favicon.ico",
+          "domain": "world-nuclear-news.org",
+          "hn": "21 points · 5 comments",
+          "score": 2.953,
           "coverage": 1
         }
       ]
