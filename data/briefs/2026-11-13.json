@@ -14,7 +14,7 @@
     "labels": [
       "3 sources",
       "Security & AppSec",
-      "under 1h ago"
+      "3h ago"
     ],
     "also": [
       {
@@ -29,25 +29,13 @@
   },
   "pulse": [
     {
-      "title": "Anthropic IPO",
-      "thread": "https://news.ycombinator.com/item?id=50465829",
-      "link": "https://ipo.anthropic.com/us/",
-      "link_domain": "ipo.anthropic.com",
-      "source": "Hacker News",
-      "domain": "ipo.anthropic.com",
-      "meta": "Hacker News · 924 points · 863 comments · 21h ago",
-      "also": [],
-      "image": "https://ipo.anthropic.com/assets/share-image-eAr8nJRP.jpg",
-      "icon": "https://ipo.anthropic.com/assets/apple-touch-icon-uPxZX-J4.png"
-    },
-    {
       "title": "Gemini 4 Hydrogen",
       "thread": "https://news.ycombinator.com/item?id=50471431",
       "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
       "link_domain": "blog.google",
       "source": "Hacker News",
       "domain": "blog.google",
-      "meta": "Hacker News · 527 points · 330 comments · 15h ago",
+      "meta": "Hacker News · 541 points · 338 comments · 18h ago",
       "also": [],
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-hydrogen__key-art__lockup__16-9.width-1300.jpg",
       "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131"
@@ -59,7 +47,7 @@
       "link_domain": "antigravity.google",
       "source": "Hacker News",
       "domain": "antigravity.google",
-      "meta": "Hacker News · 413 points · 111 comments · 14h ago",
+      "meta": "Hacker News · 434 points · 126 comments · 17h ago",
       "also": [],
       "image": "https://antigravity.google/assets/image/blog/4-Hydrogen---Wide.png",
       "icon": "https://antigravity.google/apple-touch-icon.png"
@@ -71,7 +59,7 @@
       "link_domain": "",
       "source": "Hacker News",
       "domain": "Hacker News",
-      "meta": "Hacker News · 402 points · 1 comments · 15h ago",
+      "meta": "Hacker News · 402 points · 1 comments · 18h ago",
       "also": [],
       "image": null,
       "icon": null
@@ -83,7 +71,7 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 362 points · 129 comments · 18h ago",
+      "meta": "Hacker News · 393 points · 147 comments · 21h ago",
       "also": [],
       "image": "https://opengraph.githubassets.com/d5a77cd3f9b14ddf281b9835a4d2f6e1e205089c667db3cd5d16ce2446ad764e/hyperionaidev/smolmaxxing",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
@@ -95,7 +83,7 @@
       "link_domain": "unemploymentlabs.com",
       "source": "Hacker News",
       "domain": "unemploymentlabs.com",
-      "meta": "Hacker News · 293 points · 98 comments · 11h ago",
+      "meta": "Hacker News · 308 points · 114 comments · 14h ago",
       "also": [],
       "image": "https://unemploymentlabs.com/checkpoint-forensics-og.png?v=4",
       "icon": "https://unemploymentlabs.com/favicon.svg"
@@ -107,7 +95,7 @@
       "link_domain": "edge0.ai",
       "source": "Hacker News",
       "domain": "edge0.ai",
-      "meta": "Hacker News · 236 points · 70 comments · 10h ago",
+      "meta": "Hacker News · 280 points · 82 comments · 13h ago",
       "also": [],
       "image": "https://cdn.hashnode.com/uploads/covers/6aea03219fa4aa99923b5acf/de5ebdea-3436-4b9a-b3f2-e9910f3a0abc.png",
       "icon": "https://edge0.ai/favicon.ico?favicon.cc52f713.ico"
@@ -119,7 +107,7 @@
       "link_domain": "ploum.net",
       "source": "Lobsters",
       "domain": "ploum.net",
-      "meta": "Lobsters · 35 points · 23 comments · 17h ago",
+      "meta": "Lobsters · 41 points · 27 comments · 20h ago",
       "also": [],
       "image": "https://ploum.net/files/bikepunk_logo_petit.png",
       "icon": "https://ploum.net/files/favicon.ico"
@@ -131,7 +119,7 @@
       "link_domain": "mehmetince.net",
       "source": "Hacker News",
       "domain": "mehmetince.net",
-      "meta": "Hacker News · 193 points · 36 comments · 15h ago",
+      "meta": "Hacker News · 207 points · 39 comments · 18h ago",
       "also": [],
       "image": "https://mehmetince.net/wp-content/uploads/2026/11/postgresql-composite-type-confusion-primitive-rce-cve-2026-6460.png",
       "icon": "https://mehmetince.net/wp-content/uploads/2025/12/cropped-1710238943164-180x180.jpg"
@@ -143,10 +131,22 @@
       "link_domain": "synthanatomy.com",
       "source": "Hacker News",
       "domain": "synthanatomy.com",
-      "meta": "Hacker News · 171 points · 188 comments · 12h ago",
+      "meta": "Hacker News · 181 points · 205 comments · 15h ago",
       "also": [],
       "image": "https://synthanatomy.com/wp-content/uploads/2026/11/AI-Apple-App-review.jpg",
       "icon": "https://synthanatomy.com/wp-content/uploads/2017/06/Synth_Anatomy_Icon_1.png"
+    },
+    {
+      "title": "Brave Search API now accepts agentic payments via the x402 protocol",
+      "thread": "https://news.ycombinator.com/item?id=50477649",
+      "link": "https://brave.com/blog/search-api-agentic-payments/",
+      "link_domain": "brave.com",
+      "source": "Hacker News",
+      "domain": "brave.com",
+      "meta": "Hacker News · 148 points · 82 comments · 9h ago",
+      "also": [],
+      "image": "https://brave.com/blog/search-api-agentic-payments/images/featured.jpg",
+      "icon": "https://brave.com/static-assets/images/cropped-brave_appicon_release-180x180.png"
     }
   ],
   "sections": [
@@ -163,7 +163,7 @@
           "icon": "https://stackoverflow.blog/apple-touch-icon.png",
           "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 8.533,
+          "score": 6.908,
           "coverage": 1
         },
         {
@@ -176,7 +176,7 @@
           "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
           "domain": "snorkel.ai",
           "hn": null,
-          "score": 0.862,
+          "score": 0.835,
           "coverage": 1
         },
         {
@@ -189,7 +189,7 @@
           "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
           "domain": "github.blog",
           "hn": null,
-          "score": 0.795,
+          "score": 0.701,
           "coverage": 1
         }
       ],
@@ -204,7 +204,7 @@
           "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
           "domain": "s46486.pcdn.co",
           "hn": null,
-          "score": 0.509,
+          "score": 0.46,
           "coverage": 1
         },
         {
@@ -217,7 +217,7 @@
           "icon": null,
           "domain": "newsletter.pragmaticengineer.com",
           "hn": null,
-          "score": 0.54,
+          "score": 0.485,
           "coverage": 1
         },
         {
@@ -230,7 +230,7 @@
           "icon": "https://substackcdn.com/image/fetch/$s_!6g5W!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6135d637-27c9-4440-ba74-f9747a16267f%2Fapple-touch-icon-57x57.png",
           "domain": "newsletter.getdx.com",
           "hn": null,
-          "score": 0.501,
+          "score": 0.453,
           "coverage": 1
         },
         {
@@ -243,7 +243,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.636,
+          "score": 0.561,
           "coverage": 1
         },
         {
@@ -256,7 +256,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.545,
+          "score": 0.489,
           "coverage": 1
         }
       ]
@@ -274,7 +274,7 @@
           "icon": "https://latent.space/favicon.png",
           "domain": "latent.space",
           "hn": null,
-          "score": 0.96,
+          "score": 0.773,
           "coverage": 1
         },
         {
@@ -287,7 +287,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.695,
+          "score": 0.591,
           "coverage": 1
         },
         {
@@ -300,7 +300,7 @@
           "icon": null,
           "domain": "paloaltonetworks.com",
           "hn": null,
-          "score": 0.366,
+          "score": 0.335,
           "coverage": 1
         }
       ],
@@ -315,7 +315,20 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 2.956,
+          "score": 2.711,
+          "coverage": 1
+        },
+        {
+          "title": "Doomsday: Friday, 13 November, A.D. 2026 (1960)",
+          "link": "https://www.science.org/doi/10.1126/science.132.3436.1291",
+          "excerpt": "23 points · 2 comments",
+          "source": "science.org via Hacker News",
+          "date": "Nov 13",
+          "image": null,
+          "icon": "https://www.science.org/favicon.ico",
+          "domain": "science.org",
+          "hn": "23 points · 2 comments",
+          "score": 4.305,
           "coverage": 1
         },
         {
@@ -328,7 +341,20 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.587,
+          "score": 0.524,
+          "coverage": 1
+        },
+        {
+          "title": "AI Doesn’t Have to Go Rogue to Break the World",
+          "link": "https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html",
+          "excerpt": "This essay is adapted from a keynote speech delivered at the DEF CON 34 conference in Las Vegas on August 7, 2026. The essay originally appeared in CyberScoop. I want to talk about AI hacking. There are three aspects: people hacking AI systems, people using AI to hack other systems, and AIs…",
+          "source": "Schneier on Security",
+          "date": "Nov 13",
+          "image": null,
+          "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+          "domain": "schneier.com",
+          "hn": null,
+          "score": 0.957,
           "coverage": 1
         }
       ]
@@ -346,7 +372,7 @@
           "icon": null,
           "domain": "blog.pragmaticengineer.com",
           "hn": null,
-          "score": 0.565,
+          "score": 0.507,
           "coverage": 1
         },
         {
@@ -359,9 +385,24 @@
           "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
           "domain": "stratechery.com",
           "hn": null,
-          "score": 0.844,
+          "score": 0.721,
           "coverage": 1
         },
+        {
+          "title": "Separating signal from noise: The always-on finance intelligence layer",
+          "link": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/separating-signal-from-noise-the-always-on-finance-intelligence-layer",
+          "excerpt": "A suite of AI-powered tools can be integrated into finance functions to dramatically improve decision-making. Here’s how.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 13",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.61,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "Beyond delivery: The human and economic toll of preeclampsia in the US",
           "link": "https://www.mckinsey.com/mhi/our-insights/beyond-delivery-the-human-and-economic-toll-of-preeclampsia-in-the-us",
@@ -372,11 +413,9 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.329,
+          "score": 0.309,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Shaping the intelligent age: How Europe can thrive",
           "link": "https://www.mckinsey.com/featured-insights/insights-on-europe/shaping-the-intelligent-age-how-europe-can-thrive",
@@ -387,7 +426,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.329,
+          "score": 0.309,
           "coverage": 1
         }
       ]
@@ -405,7 +444,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 4.221,
+          "score": 3.815,
           "coverage": 1
         },
         {
@@ -418,7 +457,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.1,
+          "score": 1.899,
           "coverage": 1
         }
       ],
@@ -437,7 +476,7 @@
           "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
           "domain": "aembit.io",
           "hn": null,
-          "score": 3.463,
+          "score": 3.072,
           "coverage": 1
         }
       ],
@@ -456,8 +495,8 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 5.056,
-          "coverage": 3
+          "score": 1.235,
+          "coverage": 1
         },
         {
           "title": "Athena's second wave",
@@ -469,7 +508,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.263,
+          "score": 0.247,
           "coverage": 1
         }
       ],
@@ -478,6 +517,19 @@
     {
       "name": "Security & AppSec",
       "cards": [
+        {
+          "title": "When an AI Agent Goes Wrong, Can You Stop It?",
+          "link": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
+          "excerpt": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has access to the records and its connected tools allow the…",
+          "source": "The Hacker News",
+          "date": "Nov 13",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXkpxeEuWVGmGvK8wGnGdzjVbMHRyNOYd3GFjgzJZZN7TL2yyLt5Jof4gsujMYS9WfZnxUjFFs3mxFaejShy46vuXK38l_5R3RvospJ6J8IunrLPSDnI0sJgGtvNiNkc89XMR_KDDHWEOxAk800C2fKhwiOLMy433M3ASErPk_jMwoexS_5-1kpdJ8emE/s1600/Keeper.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 5.941,
+          "coverage": 1
+        },
         {
           "title": "OpenAI Unveils Daybreak Red Team, Defense Factory Security Tools",
           "link": "https://www.securityweek.com/openai-unveils-daybreak-red-team-defense-factory-security-tools/",
@@ -488,7 +540,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 5.834,
+          "score": 4.673,
           "coverage": 1
         },
         {
@@ -501,7 +553,35 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 3.877,
+          "score": 3.452,
+          "coverage": 2
+        }
+      ],
+      "more": [
+        {
+          "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+          "link": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
+          "excerpt": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan. Enea, a telecom and cybersecurity software company based in Stockholm, found the group's attack sources in at least six Asian countries and…",
+          "source": "The Hacker News",
+          "date": "Nov 13",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjskRPNlV_kYE1N2eF2J_J0fBvF_nQxnvtaS78Grj04KqkEauvr-R5jO-ynD9nm51SgF2XtCCAsWUbJrHU0wGRnXC9yHmblhNCF8Jt9NdVahMju3voR2z9xb2uqoSi7Nc085UqDBelqg4XDRdjJ2lsF7EeN28rjq7oBc_NpBUWRqLWXiOh9FBRIH28teHM/s1600/telecom-hack.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.67,
+          "coverage": 1
+        },
+        {
+          "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+          "link": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+          "excerpt": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks. Police also seized about 6.4 million stolen logins belonging to more than…",
+          "source": "The Hacker News",
+          "date": "Nov 13",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsu6ZFyYFr1dxp2XHIaG_pyTwkoH58ICgyXLuTthkuYSJVcqAwX_O_bEJYfheyxpYmI7nnok1xrj97q7s-9l8JHFt1ogBAOJAEUqM8_vf6H3a8eYPKzB34d6XrvnkRu8zGaoKMgSJqWsE6u2zYXLdJKTtcDvk3beN6_o40ygJ4MVSMomS3Q1aEFV_jSq8/s1600/gootloader.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 3.288,
           "coverage": 2
         },
         {
@@ -514,11 +594,9 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.668,
+          "score": 0.545,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
           "link": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
@@ -529,7 +607,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.568,
+          "score": 0.477,
           "coverage": 1
         },
         {
@@ -542,33 +620,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.327,
-          "coverage": 1
-        },
-        {
-          "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
-          "link": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
-          "excerpt": "Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion…",
-          "source": "The Hacker News",
-          "date": "Nov 12",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-9BW-gpid0fJ4GJSsWoqjYl5qF_EdYchTcxeNjFfMV-MCcvSRTs-rAmiHKNX3M2dr66bJcfUelNR5CR9g-JLKPkMrROsqrM6hf563hIMklj5v08uYDtEp7pdYPcs5Y5TEGxgTWTHDG_Q-L8Tbq12yo57xp0GOlYk8g05nU3peuA_kedIXtggnakiiCGM/s1600/signdrop.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 10.611,
-          "coverage": 3
-        },
-        {
-          "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
-          "link": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
-          "excerpt": "A critical flaw in Red Hat Quay allows an attacker who can access a Quay registry to read and overwrite private container images in every repository. Quay enables anonymous access by default, and while it is enabled, the attacker needs no account. When it is off, anyone with a valid account can…",
-          "source": "The Hacker News",
-          "date": "Nov 12",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtLHm05FB2LmoHZMLAD5nDmfo_G2tdIqO4URdUwukuooBCVwIJhKC2rUDbDNtsGB8_lwium1MEUD1CxYcix4WMVpCoS58DJivMBSmb9LcIGswQu0nKUNE_sbfH8EsgFfhPrKEgEY7MJHWKyhFqX61ne-AOFKnTNuqIkWez1bec-kq-3Cz8BFbPLrgiV8k/s1600/redhat.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.309,
+          "score": 0.295,
           "coverage": 1
         }
       ]
@@ -586,7 +638,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 2.903,
+          "score": 2.6,
           "coverage": 1
         },
         {
@@ -599,7 +651,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 2.053,
+          "score": 1.846,
           "coverage": 1
         },
         {
@@ -612,7 +664,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.906,
+          "score": 1.711,
           "coverage": 1
         }
       ],
@@ -627,7 +679,20 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.778,
+          "score": 1.607,
+          "coverage": 1
+        },
+        {
+          "title": "Netflix Turns Operational Data Into a Knowledge Graph for AI-Driven Observability",
+          "link": "https://www.infoq.com/news/2026/11/netflix-ai-driven-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Netflix is developing an ontology-driven knowledge graph to accelerate production investigations and provide AI agents with a shared understanding of its operational environment. By Craig Risi",
+          "source": "InfoQ",
+          "date": "Nov 13",
+          "image": "https://res.infoq.com/news/2026/11/netflix-ai-driven-observability/en/headerimage/generatedHeaderImage-1793693699423.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 4.031,
           "coverage": 1
         },
         {
@@ -640,20 +705,7 @@
           "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
           "domain": "grafana.com",
           "hn": null,
-          "score": 1.577,
-          "coverage": 1
-        },
-        {
-          "title": "Test your applications against AWS locally with AWS Emulator",
-          "link": "https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator/",
-          "excerpt": "AWS Emulator is a free, open-source local emulator in Rust that lets developers test applications against nearly every AWS service on their own machine using the same CLI and SDK commands, with fidelity measured against real AWS behavior.",
-          "source": "AWS News Blog",
-          "date": "Nov 11",
-          "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/11/11/Header-A-dark-gradient-1-1260x630.png",
-          "icon": "https://a0.awsstatic.com/main/images/site/touch-icon-iphone-114-smile.png",
-          "domain": "aws.amazon.com",
-          "hn": null,
-          "score": 0.178,
+          "score": 1.425,
           "coverage": 1
         },
         {
@@ -697,20 +749,61 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 2.866,
+          "score": 2.57,
           "coverage": 1
         },
         {
-          "title": "Brave Search API now accepts agentic payments via the x402 protocol",
-          "link": "https://brave.com/blog/search-api-agentic-payments/",
-          "excerpt": "Developers and AI agents can now pay for the Brave Search API on demand with USDC via the open x402 protocol, settling each query in real time without an account or API key.",
-          "source": "brave.com via Hacker News",
+          "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+          "link": "https://status.claude.com/incidents/nn11wk485zfn",
+          "excerpt": "Claude's Status Page - Elevated errors on claude.ai, Claude Code, and platform.claude.com.",
+          "source": "status.claude.com via Hacker News",
           "date": "Nov 13",
-          "image": "https://brave.com/blog/search-api-agentic-payments/images/featured.jpg",
-          "icon": "https://brave.com/static-assets/images/cropped-brave_appicon_release-180x180.png",
-          "domain": "brave.com",
-          "hn": "92 points · 56 comments",
-          "score": 5.452,
+          "image": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
+          "icon": "https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/362807/NEW_spark-96-96-2225c423-f16f-42a4-b9d1-c58c10b998cb.png",
+          "domain": "status.claude.com",
+          "hn": "260 points · 191 comments",
+          "score": 7.801,
+          "coverage": 1
+        },
+        {
+          "title": "Europe's electric car sales jump 49% as global EV sales grow",
+          "link": "https://electrek.co/2026/11/11/europes-electric-car-sales-jump-49-as-global-ev-sales-grow/",
+          "excerpt": "Global EV sales hit 2.09 million in October as Europe surged, but North America's return to growth comes with an important caveat.",
+          "source": "electrek.co via Hacker News",
+          "date": "Nov 13",
+          "image": "https://electrek.co/wp-content/uploads/sites/3/2026/11/BYD-new-Seal-07-EV.jpeg?quality=82&strip=all&resize=1200,628",
+          "icon": "https://electrek.co/wp-content/uploads/sites/3/2017/03/electrek.png?w=180",
+          "domain": "electrek.co",
+          "hn": "53 points · 40 comments",
+          "score": 4.063,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Claude Is Down",
+          "link": "https://status.claude.com/history",
+          "excerpt": "Claude's Incident and Scheduled Maintenance History",
+          "source": "status.claude.com via Hacker News",
+          "date": "Nov 13",
+          "image": null,
+          "icon": "https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/362807/NEW_spark-96-96-2225c423-f16f-42a4-b9d1-c58c10b998cb.png",
+          "domain": "status.claude.com",
+          "hn": "126 points · 111 comments",
+          "score": 4.36,
+          "coverage": 1
+        },
+        {
+          "title": "The Dawn of the Data Intelligence Engineer",
+          "link": "https://motherduck.com/blog/the-data-intelligence-engineer/",
+          "excerpt": "For Data Teams, AI has changed everything. The traditional work can be run by agents, leaving folks wondering \"what's next\"? In this blog, MotherDuck CEO Jordan Tigani unpacks the possibilities. | Reading time: 12 min read",
+          "source": "motherduck.com via Hacker News",
+          "date": "Nov 13",
+          "image": "https://motherduck-com-web-prod.s3.us-east-1.amazonaws.com/assets/img/dawn_ticker_b_3a1d920b4d.png",
+          "icon": "https://motherduck.com/apple-touch-icon.png",
+          "domain": "motherduck.com",
+          "hn": "60 points · 44 comments",
+          "score": 3.494,
           "coverage": 1
         },
         {
@@ -722,23 +815,8 @@
           "image": "https://media.cnn.com/api/v1/images/stellar/prod/ap26313845581210.jpg?c=16x9&q=w_800,c_fill",
           "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png",
           "domain": "cnn.com",
-          "hn": "71 points · 12 comments",
-          "score": 3.395,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "TSMC Hacked",
-          "link": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm",
-          "excerpt": "19 points · 3 comments",
-          "source": "sec.gov via Hacker News",
-          "date": "Nov 13",
-          "image": null,
-          "icon": "https://www.sec.gov/favicon.ico",
-          "domain": "sec.gov",
-          "hn": "19 points · 3 comments",
-          "score": 6.1,
+          "hn": "172 points · 96 comments",
+          "score": 3.466,
           "coverage": 1
         },
         {
@@ -750,8 +828,8 @@
           "image": "https://pbs.twimg.com/profile_images/1040007539088211968/f9H6EzjO_400x400.jpg",
           "icon": "https://x.com/apple-touch-icon.png",
           "domain": "twitter.com",
-          "hn": "191 points · 103 comments",
-          "score": 3.916,
+          "hn": "365 points · 260 comments",
+          "score": 3.691,
           "coverage": 1
         },
         {
@@ -763,35 +841,9 @@
           "image": null,
           "icon": "https://ice-wm.org/favicon.ico",
           "domain": "ice-wm.org",
-          "hn": "151 points · 81 comments",
-          "score": 3.722,
+          "hn": "229 points · 111 comments",
+          "score": 3.341,
           "coverage": 1
-        },
-        {
-          "title": "Switcher (2004)",
-          "link": "https://folklore.org/Switcher.html",
-          "excerpt": "93 points · 26 comments",
-          "source": "folklore.org via Hacker News",
-          "date": "Nov 13",
-          "image": null,
-          "icon": "https://folklore.org/images/macfavicon.ico?v=1",
-          "domain": "folklore.org",
-          "hn": "93 points · 26 comments",
-          "score": 3.023,
-          "coverage": 1
-        },
-        {
-          "title": "Nvidia employees petition to bring back Jensen Huang",
-          "link": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
-          "excerpt": "An internal post urging the board to consider employee sentiment about Nvidia’s former CEO has drawn more than 1,600 comments, the majority in full support of reinstalling him.",
-          "source": "wired.com via Hacker News",
-          "date": "Nov 13",
-          "image": "https://media.wired.com/photos/6af6533dc5d481da1362b330/191:100/w_1280,c_limit/Petition-Bring-Back-Jensen-Business-2299493060.jpg",
-          "icon": "https://www.wired.com/verso/static/wired-us/assets/favicon.ico",
-          "domain": "wired.com",
-          "hn": "560 points · 398 comments",
-          "score": 6.505,
-          "coverage": 2
         }
       ]
     }
