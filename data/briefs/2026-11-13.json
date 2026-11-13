@@ -1,0 +1,760 @@
+{
+  "date": "2026-11-13",
+  "lead": {
+    "title": "wfx-loot: Stolen GitHub tokens pushed a CI secret stealer into 60,000+ repositories (November 2026)",
+    "link": "https://www.chainguard.dev/unchained/wfx-loot-stolen-github-tokens-pushed-a-ci-secret-stealer-into-60-000-repositories-november-2026",
+    "excerpt": "The wfx supply chain attack compromised thousands of GitHub repositories. See how it works, what credentials it steals, and how to stay protected.",
+    "source": "Chainguard: Unchained",
+    "date": "Nov 12",
+    "image": "https://www.bleepstatic.com/content/hl-images/2026/10/08/github.jpg",
+    "image_credit": "BleepingComputer",
+    "section": "Security & AppSec",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "3 sources",
+      "Security & AppSec",
+      "3h ago"
+    ],
+    "also": [
+      {
+        "name": "securityweek.com",
+        "link": "https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/"
+      },
+      {
+        "name": "bleepingcomputer.com",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/"
+      }
+    ]
+  },
+  "pulse": [
+    {
+      "title": "Anthropic IPO",
+      "thread": "https://news.ycombinator.com/item?id=50465829",
+      "link": "https://ipo.anthropic.com/us/",
+      "link_domain": "ipo.anthropic.com",
+      "source": "Hacker News",
+      "domain": "ipo.anthropic.com",
+      "meta": "Hacker News · 825 points · 806 comments · 14h ago",
+      "also": [],
+      "image": "https://ipo.anthropic.com/assets/share-image-eAr8nJRP.jpg",
+      "icon": "https://ipo.anthropic.com/assets/apple-touch-icon-uPxZX-J4.png"
+    },
+    {
+      "title": "Gemini 4 Hydrogen",
+      "thread": "https://news.ycombinator.com/item?id=50471431",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "link_domain": "blog.google",
+      "source": "Hacker News",
+      "domain": "blog.google",
+      "meta": "Hacker News · 469 points · 299 comments · 8h ago",
+      "also": [],
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-hydrogen__key-art__lockup__16-9.width-1300.jpg",
+      "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131"
+    },
+    {
+      "title": "Ask HN: Microsoft/Azure Outage?",
+      "thread": "https://news.ycombinator.com/item?id=50471668",
+      "link": null,
+      "link_domain": "",
+      "source": "Hacker News",
+      "domain": "Hacker News",
+      "meta": "Hacker News · 401 points · 1 comments · 7h ago",
+      "also": [],
+      "image": null,
+      "icon": null
+    },
+    {
+      "title": "\"Humble Bundle just killed most of their security through vibecoding\"",
+      "thread": "https://news.ycombinator.com/item?id=50463899",
+      "link": "https://forums.spacebattles.com/threads/humble-bundle-just-completely-killed-most-of-their-security-through-vibecoding.1346295/",
+      "link_domain": "forums.spacebattles.com",
+      "source": "Hacker News",
+      "domain": "forums.spacebattles.com",
+      "meta": "Hacker News · 370 points · 220 comments · 19h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://forums.spacebattles.com/favicon.ico"
+    },
+    {
+      "title": "Critical RCE Vulnerability in Apache HTTP Server",
+      "thread": "https://news.ycombinator.com/item?id=50462177",
+      "link": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+      "link_domain": "wiz.io",
+      "source": "Hacker News",
+      "domain": "wiz.io",
+      "meta": "Hacker News · 355 points · 191 comments · 23h ago",
+      "also": [],
+      "image": "https://www.datocms-assets.com/75231/1794425853-threat-update-kics-alert_custom.jpeg?fm=webp",
+      "icon": "https://www.wiz.io/favicon.png"
+    },
+    {
+      "title": "Gemini 4 Hydrogen and Orchestrator",
+      "thread": "https://news.ycombinator.com/item?id=50472260",
+      "link": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+      "link_domain": "antigravity.google",
+      "source": "Hacker News",
+      "domain": "antigravity.google",
+      "meta": "Hacker News · 310 points · 73 comments · 7h ago",
+      "also": [],
+      "image": "https://antigravity.google/assets/image/blog/4-Hydrogen---Wide.png",
+      "icon": "https://antigravity.google/apple-touch-icon.png"
+    },
+    {
+      "title": "I'm making LLMs work on small and old devices",
+      "thread": "https://news.ycombinator.com/item?id=50468888",
+      "link": "https://github.com/hyperionaidev/smolmaxxing/",
+      "link_domain": "github.com",
+      "source": "Hacker News",
+      "domain": "github.com",
+      "meta": "Hacker News · 281 points · 95 comments · 10h ago",
+      "also": [],
+      "image": "https://opengraph.githubassets.com/d5a77cd3f9b14ddf281b9835a4d2f6e1e205089c667db3cd5d16ce2446ad764e/hyperionaidev/smolmaxxing",
+      "icon": "https://github.githubassets.com/favicons/favicon.svg"
+    },
+    {
+      "title": "The anti-marketing aspect of the Gemini network",
+      "thread": "https://lobste.rs/s/pty8pn/anti_marketing_aspect_gemini_network",
+      "link": "https://ploum.net/2026-11-12-anti-marketing-gemini.html",
+      "link_domain": "ploum.net",
+      "source": "Lobsters",
+      "domain": "ploum.net",
+      "meta": "Lobsters · 25 points · 12 comments · 9h ago",
+      "also": [],
+      "image": "https://ploum.net/files/bikepunk_logo_petit.png",
+      "icon": "https://ploum.net/files/favicon.ico"
+    },
+    {
+      "title": "Turning a 22-year-old Postgres type-confusion primitive into RCE",
+      "thread": "https://news.ycombinator.com/item?id=50471761",
+      "link": "https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460/",
+      "link_domain": "mehmetince.net",
+      "source": "Hacker News",
+      "domain": "mehmetince.net",
+      "meta": "Hacker News · 146 points · 21 comments · 7h ago",
+      "also": [],
+      "image": "https://mehmetince.net/wp-content/uploads/2026/11/postgresql-composite-type-confusion-primitive-rce-cve-2026-6460.png",
+      "icon": "https://mehmetince.net/wp-content/uploads/2025/12/cropped-1710238943164-180x180.jpg"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI-Assisted Engineering",
+      "cards": [
+        {
+          "title": "Terminal-Bench 4.1 hardens the verifiers behind the scores",
+          "link": "https://snorkel.ai/blog/terminal-bench-4-1-hardens-the-verifiers-behind-the-scores/",
+          "excerpt": "Terminal-Bench 4.1 is now available. Snorkel AI contributes to Terminal-Bench as a task author, a data partner, and a supporter through the Open Benchmarks Grants program. The release keeps the same 66 tasks, with verifier fixes, reproducibility improvements, hardening against reward hacking, and…",
+          "source": "Snorkel AI",
+          "date": "Nov 09",
+          "image": "https://s46486.pcdn.co/wp-content/uploads/2026/11/TB-4-1-1-1024x576.png",
+          "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
+          "domain": "snorkel.ai",
+          "hn": null,
+          "score": 0.936,
+          "coverage": 1
+        },
+        {
+          "title": "Build once, run on any agent: A practical guide to agent skills",
+          "link": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+          "excerpt": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub Blog.",
+          "source": "GitHub AI & ML",
+          "date": "Nov 12",
+          "image": "https://github.blog/wp-content/uploads/2026/11/5b5fed0ce69f241f469053d4f178383688adb2fb7ef44dff82c1a2dd6a626fa1-1920x1080-1.png",
+          "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
+          "domain": "github.blog",
+          "hn": null,
+          "score": 1.185,
+          "coverage": 1
+        },
+        {
+          "title": "Fable 5.2 vs Fable 5.1: Coding Benchmark Results",
+          "link": "https://s46486.pcdn.co/blog/fable-5-2-vs-fable-5-1-coding-benchmark/",
+          "excerpt": "Fable 5.2 pass@1 score lands at 71% compared to Fable 5.1 score of 53% on a set of 26 frontier coding tasks. The mid-run terminal failures that appeared in the analysis of Fable 5.1 nearly disappear when examining Fable 5.2. The post Fable 5.2 vs Fable 5.1: Coding Benchmark Results appeared first…",
+          "source": "Snorkel AI",
+          "date": "Nov 12",
+          "image": "https://s46486.pcdn.co/wp-content/uploads/2022/01/Cover-Claude_Fable52-1_-_USE-1024x576.png",
+          "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
+          "domain": "s46486.pcdn.co",
+          "hn": null,
+          "score": 0.691,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "The Pulse: What can we learn from the Railway hack?",
+          "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-what-can-we-learn-from-114",
+          "excerpt": "Also: native mobile and frontend jobs are disappearing, how trust helps an “AI-native” engineering team to succeed, Carta starts selling a coding harness, and more",
+          "source": "The Pragmatic Engineer",
+          "date": "Nov 12",
+          "image": "https://substackcdn.com/image/fetch/$s_!qBog!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7cde86f6-c46b-4000-9c17-7754eab47daa_1330x1418.png",
+          "icon": null,
+          "domain": "newsletter.pragmaticengineer.com",
+          "hn": null,
+          "score": 0.749,
+          "coverage": 1
+        },
+        {
+          "title": "Inside the DevEx Metrics Compass with André Meyer",
+          "link": "https://newsletter.getdx.com/p/inside-the-devex-metrics-compass",
+          "excerpt": "Researcher André Meyer shares how teams can measure AI’s impact beyond adoption, choose meaningful productivity metrics, and understand what makes developers’ work rewarding.",
+          "source": "DX",
+          "date": "Nov 12",
+          "image": "https://substackcdn.com/image/youtube/w_728,c_limit/vt-ZB-i3d34",
+          "icon": "https://substackcdn.com/image/fetch/$s_!6g5W!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6135d637-27c9-4440-ba74-f9747a16267f%2Fapple-touch-icon-57x57.png",
+          "domain": "newsletter.getdx.com",
+          "hn": null,
+          "score": 0.676,
+          "coverage": 1
+        },
+        {
+          "title": "llm-gemini 0.37",
+          "link": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+          "excerpt": "Release: llm-gemini 0.37 Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing really confusing. Here's the pricing scheme: Model Dates Input…",
+          "source": "Simon Willison",
+          "date": "Nov 12",
+          "image": "https://static.simonwillison.net/static/2026/gemini-4-pelicans.webp",
+          "icon": null,
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.948,
+          "coverage": 1
+        },
+        {
+          "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+          "link": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+          "excerpt": "A Blog post by IBM Granite on Hugging Face",
+          "source": "Hugging Face",
+          "date": "Nov 12",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/6484ca4d5ff9a3d2ee52a83b/6KFZDHIJkxpICiErHLqAw.gif",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null,
+          "score": 0.759,
+          "coverage": 1
+        },
+        {
+          "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+          "link": "https://huggingface.co/blog/3d-lora-finetuning",
+          "excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "source": "Hugging Face",
+          "date": "Nov 12",
+          "image": "https://huggingface.co/blog/assets/3d-lora-finetuning/thumbnail.gif",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null,
+          "score": 0.378,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "AI Agents & Agent Security",
+      "cards": [
+        {
+          "title": "Gondola doubles revenue as its team builds more with Codex",
+          "link": "https://openai.com/business/customer-stories/gondola",
+          "excerpt": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+          "source": "OpenAI News",
+          "date": "Nov 12",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 3.801,
+          "coverage": 1
+        },
+        {
+          "title": "Europe Is Setting the Global Standard for Sovereignty. Here Is Where We Stand.",
+          "link": "https://www.paloaltonetworks.com/blog/2026/11/europe-is-setting-the-global-standard-for-sovereignty-here-is-where-we-stand/",
+          "excerpt": "It has been a few months since I last wrote about sovereignty. In that time, the conversations I have had with organizations across Europe have become more specific and more urgent. A … The post Europe Is Setting the Global Standard for Sovereignty. Here Is Where We Stand. appeared first on Palo…",
+          "source": "Palo Alto Networks Blog",
+          "date": "Nov 12",
+          "image": "https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/11/5-1.png",
+          "icon": null,
+          "domain": "paloaltonetworks.com",
+          "hn": null,
+          "score": 0.474,
+          "coverage": 1
+        },
+        {
+          "title": "The SASE “Trilemma”: How Regulated Enterprises are Navigating Digital Sovereignty, Resilience, and Global Cyber Threat Intelligence",
+          "link": "https://www.paloaltonetworks.com/blog/2026/11/the-sase-trilemma-how-regulated-enterprises-are-navigating-digital-sovereignty-resilience-and-global-cyber-threat-intelligence/",
+          "excerpt": "Modern enterprise architecture faces a critical tension: architecting a Secure Access Service Edge (SASE) deployment where data sovereignty, operational resilience, and global cybersecurity are perceived to be fundamentally at odds. To address … The post The SASE “Trilemma”: How Regulated…",
+          "source": "Palo Alto Networks Blog",
+          "date": "Nov 11",
+          "image": "https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/11/Gemini_Generated_Image_kpbpmzkpbpmzkpbp-scaled.jpeg",
+          "icon": null,
+          "domain": "paloaltonetworks.com",
+          "hn": null,
+          "score": 0.222,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+          "link": "https://openai.com/business/customer-stories/amplitude",
+          "excerpt": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+          "source": "OpenAI News",
+          "date": "Nov 12",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.829,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Leadership",
+      "cards": [
+        {
+          "title": "The Pulse: Details of incident.io’s AI spend",
+          "link": "https://blog.pragmaticengineer.com/the-pulse-details-of-incident-ios-ai-spend/",
+          "excerpt": "The resiliency startup has slashed the amount it spends on AI; down from $4,500 per dev, per month, in August, to $1,600 now.",
+          "source": "The Pragmatic Engineer",
+          "date": "Nov 12",
+          "image": "https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/2026/11/image.png",
+          "icon": null,
+          "domain": "blog.pragmaticengineer.com",
+          "hn": null,
+          "score": 0.785,
+          "coverage": 1
+        },
+        {
+          "title": "Beyond delivery: The human and economic toll of preeclampsia in the US",
+          "link": "https://www.mckinsey.com/mhi/our-insights/beyond-delivery-the-human-and-economic-toll-of-preeclampsia-in-the-us",
+          "excerpt": "Preeclampsia affects about one in 11 births a year in the United States, causing complications for mothers and babies and contributing to $28 billion in costs. More innovation and investment could help.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 12",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.394,
+          "coverage": 1
+        },
+        {
+          "title": "Shaping the intelligent age: How Europe can thrive",
+          "link": "https://www.mckinsey.com/featured-insights/insights-on-europe/shaping-the-intelligent-age-how-europe-can-thrive",
+          "excerpt": "Europe has been one of the winners of the industrial age, but it cannot win the intelligent age on cost alone; it must win on innovation and scale.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 12",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.394,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Agent Identity & Authorization",
+      "cards": [
+        {
+          "title": "Powering agentic cloud governance: What's new in Organization Policy",
+          "link": "https://cloud.google.com/blog/products/identity-security/ai-powered-cloud-governance-whats-new-in-organization-policy/",
+          "excerpt": "Even as sophisticated, new zero-day exploits continue to emerge, most cybersecurity incidents still start from the same common sources: an attacker locating and exploiting a fundamental, easily preventable cloud misconfiguration. Organization Policy Service can help you secure resource…",
+          "source": "Security & Identity",
+          "date": "Nov 12",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1-OrgPolicy_audit_dashboard_using_MCP.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 5.713,
+          "coverage": 1
+        },
+        {
+          "title": "Autonomous defense at cloud speed with SentinelOne and Google Security Operations",
+          "link": "https://cloud.google.com/blog/topics/partners/autonomous-defense-at-cloud-speed-with-sentinelone-and-google-security-operations/",
+          "excerpt": "Modern security operations centers (SOCs) face an ongoing pipeline dilemma. While ingesting comprehensive endpoint telemetry is non-negotiable for defense, conventional delivery paths often drive up transfer overhead and alert latency. As attackers operate at machine speed, any unnecessary…",
+          "source": "Security & Identity",
+          "date": "Nov 12",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_smdkA5c.max-600x600.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 2.843,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Secrets & NHI",
+      "cards": [
+        {
+          "title": "6 Agentic AI Guardrail Solutions Compared for 2026",
+          "link": "https://aembit.io/blog/6-agentic-ai-guardrail-solutions-compared-for-2026/",
+          "excerpt": "6 min readAI agents read untrusted content, decide which tools to call and act on enterprise systems with whatever access they hold. Guardrails are the controls that keep that activity inside the intended boundaries. In a reported July 2025 incident, Replit’s coding agent deleted database records…",
+          "source": "Aembit",
+          "date": "Nov 12",
+          "image": "https://aembit.io/wp-content/uploads/2026/11/AI-Guardrail.jpg",
+          "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
+          "domain": "aembit.io",
+          "hn": null,
+          "score": 5.036,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Supply Chain & Builds",
+      "cards": [
+        {
+          "title": "Athena's second wave",
+          "link": "https://www.chainguard.dev/unchained/athenas-second-wave",
+          "excerpt": "Chainguard reveals 12 previously undisclosed Java vulnerabilities and explains how Athena helps organizations identify and remediate hidden risks.",
+          "source": "Chainguard: Unchained",
+          "date": "Nov 12",
+          "image": "https://images.ctfassets.net/l47ir7rfykkn/7DWEeIynFrjIJKOoSU2HfD/038571b5a359d5fa2087cbfc4297d2a0/Athena-s_second_wave_v2.png",
+          "icon": "https://www.chainguard.dev/favicon.ico",
+          "domain": "chainguard.dev",
+          "hn": null,
+          "score": 0.315,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+          "excerpt": "Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot, as users report connectivity problems worldwide. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 12",
+          "image": "https://www.bleepstatic.com/content/hl-images/2025/07/25/Microsoft-365.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 5.561,
+          "coverage": 2
+        },
+        {
+          "title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
+          "link": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
+          "excerpt": "A search result isn't always safe. An access request isn't always harmless. And a familiar account doesn't always mean a familiar person is using it. Simple things to remember. Yet a surprising amount of this week's trouble starts right there. Attackers are using fake websites, stolen access, and…",
+          "source": "The Hacker News",
+          "date": "Nov 12",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpHFMwpmKB3Mn6eMpEHMAX_8gqnyi4xwTCuYj7NTrCcTMWAsSZtaUsHYUa1kvi3jQf92A5pR_Qz7kzgTarHmo6q6YsXVeVSJEkkx0JkioCXa6GbKJzG9eZz0dkotf9QEpdcRMy94hoYhGfIoEk7pPOFUSgTY5ciU7_wkSOJc7kgXcS1GS3qGC-Ql7kMrks/s1600/thd.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.449,
+          "coverage": 1
+        },
+        {
+          "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
+          "link": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
+          "excerpt": "Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion…",
+          "source": "The Hacker News",
+          "date": "Nov 12",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-9BW-gpid0fJ4GJSsWoqjYl5qF_EdYchTcxeNjFfMV-MCcvSRTs-rAmiHKNX3M2dr66bJcfUelNR5CR9g-JLKPkMrROsqrM6hf563hIMklj5v08uYDtEp7pdYPcs5Y5TEGxgTWTHDG_Q-L8Tbq12yo57xp0GOlYk8g05nU3peuA_kedIXtggnakiiCGM/s1600/signdrop.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 4.886,
+          "coverage": 2
+        }
+      ],
+      "more": [
+        {
+          "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
+          "link": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
+          "excerpt": "A critical flaw in Red Hat Quay allows an attacker who can access a Quay registry to read and overwrite private container images in every repository. Quay enables anonymous access by default, and while it is enabled, the attacker needs no account. When it is off, anyone with a valid account can…",
+          "source": "The Hacker News",
+          "date": "Nov 12",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtLHm05FB2LmoHZMLAD5nDmfo_G2tdIqO4URdUwukuooBCVwIJhKC2rUDbDNtsGB8_lwium1MEUD1CxYcix4WMVpCoS58DJivMBSmb9LcIGswQu0nKUNE_sbfH8EsgFfhPrKEgEY7MJHWKyhFqX61ne-AOFKnTNuqIkWez1bec-kq-3Cz8BFbPLrgiV8k/s1600/redhat.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 2.078,
+          "coverage": 2
+        },
+        {
+          "title": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams",
+          "link": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/",
+          "excerpt": "Microsoft says failed server health checks disrupted Outlook and other Microsoft 365 services. The company is still investigating the cause and has disclosed no evidence of a cyberattack. The post Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 12",
+          "image": "https://www.securityweek.com/wp-content/uploads/2023/06/Microsoft-DDoS-Attack.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 5.561,
+          "coverage": 2
+        },
+        {
+          "title": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
+          "link": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
+          "excerpt": "The mod_http2 race condition, CVE-2026-119618, could let unauthenticated attackers execute code on servers with HTTP/2 enabled. The post Apache Patches Critical HTTP Server RCE Found by Anthropic, Google appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 12",
+          "image": "https://www.securityweek.com/wp-content/uploads/2023/12/Apache-exploit-scaled-e1724835583910.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 5.241,
+          "coverage": 2
+        },
+        {
+          "title": "Chrome, Firefox Updates Patch Over 180 Vulnerabilities",
+          "link": "https://www.securityweek.com/chrome-firefox-updates-patch-180-vulnerabilities/",
+          "excerpt": "Google fixed 83 flaws with a new Chrome 157 release, and Mozilla addressed 99 bugs in Firefox 160. The post Chrome, Firefox Updates Patch Over 180 Vulnerabilities appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 12",
+          "image": "https://www.securityweek.com/wp-content/uploads/2025/01/Chrome-Firefox.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.369,
+          "coverage": 1
+        },
+        {
+          "title": "Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign",
+          "link": "https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/",
+          "excerpt": "Using thousands of hijacked accounts, the wfx-loot campaign planted a CI secret stealer that ran in over 1,800 GitHub repositories. The post Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 12",
+          "image": "https://www.securityweek.com/wp-content/uploads/2023/04/Low-Code-No-Code-Security.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 7.462,
+          "coverage": 3
+        }
+      ]
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "Inside an enterprise AI agent: A governed, observable loop architecture",
+          "link": "https://aws.amazon.com/blogs/architecture/inside-an-enterprise-ai-agent-a-governed-observable-loop-architecture/",
+          "excerpt": "This post lays out a five-layer reference architecture for governed, observable enterprise AI agents on AWS: an API gateway, a five-phase agent runtime, a knowledge and state tier, platform services, and a cross-cutting trust and control framework. Each layer maps to managed AWS services, with the…",
+          "source": "AWS Architecture Blog",
+          "date": "Nov 12",
+          "image": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/11/10/1711-1.png",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 4.069,
+          "coverage": 1
+        },
+        {
+          "title": "A coordination framework for formal proof development with Kiro",
+          "link": "https://aws.amazon.com/blogs/devops/a-coordination-framework-for-formal-proof-development-with-kiro/",
+          "excerpt": "MAESTRO is a prover harness in Kiro CLI that gives large language models a coordination framework for exploring, decomposing, and making structured progress on difficult proofs. It solves more hard theorems than Codex and Claude Code, including all six 2026 IMO problems in 1 hour 46 minutes.",
+          "source": "AWS DevOps & Developer Productivity Blog",
+          "date": "Nov 12",
+          "image": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2026/11/11/devops-25301-effort_sweep.png",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 2.836,
+          "coverage": 1
+        },
+        {
+          "title": "Chrome Enterprise brings more protections to healthcare technologies",
+          "link": "https://cloud.google.com/blog/products/chrome-enterprise/chrome-enterprise-brings-more-protections-to-healthcare-technologies/",
+          "excerpt": "Healthcare is adopting AI quickly, and it's moving beyond chat. Clinical teams are starting to use AI agents that draft documentation, summarize charts, navigate web apps, and complete multi-step tasks on a clinician's behalf. Many of these agents work in the same place—the browser. As electronic…",
+          "source": "Cloud Blog",
+          "date": "Nov 12",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Gemini_Generated_Image_xay3nkxay3nkxay3.max-600x600.jpg",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 2.647,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Simplifying last mile cloud connectivity with Lumen and partner Cross-Cloud Interconnect",
+          "link": "https://cloud.google.com/blog/products/networking/partner-cross-cloud-interconnect-for-last-mile-delivered-by-lumen/",
+          "excerpt": "Cross-Cloud Interconnect is expanding to connect to more of your workloads. We designed Google Cloud's Cross-Cloud Network to simplify and optimize how organizations connect and secure applications across cloud and on-premises environments. Last year, we launched partner Cross-Cloud Interconnect…",
+          "source": "Cloud Blog",
+          "date": "Nov 12",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_lRomlkZ.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 2.407,
+          "coverage": 1
+        },
+        {
+          "title": "An early look at the Grafana UI refresh: Building a clearer, more consistent user experience",
+          "link": "https://grafana.com/blog/an-early-look-at-the-grafana-ui-refresh-building-a-clearer-more-consistent-user-experience/",
+          "excerpt": "Whether you’re investigating an incident or just exploring your data, a clear, consistent UI helps you move between workflows and find what matters faster. As Grafana has grown to support more use cases, we’ve seen opportunities to improve on that experience. That’s why, as part of the Grafana…",
+          "source": "Grafana Labs blog on Grafana Labs",
+          "date": "Nov 12",
+          "image": "https://a-us.storyblok.com/f/1022730/1200x630/54782c781f/grafana-ui-refresh-meta-2.jfif",
+          "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
+          "domain": "grafana.com",
+          "hn": null,
+          "score": 2.135,
+          "coverage": 1
+        },
+        {
+          "title": "Test your applications against AWS locally with AWS Emulator",
+          "link": "https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator/",
+          "excerpt": "AWS Emulator is a free, open-source local emulator in Rust that lets developers test applications against nearly every AWS service on their own machine using the same CLI and SDK commands, with fidelity measured against real AWS behavior.",
+          "source": "AWS News Blog",
+          "date": "Nov 11",
+          "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/11/11/Header-A-dark-gradient-1-1260x630.png",
+          "icon": "https://a0.awsstatic.com/main/images/site/touch-icon-iphone-114-smile.png",
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 0.209,
+          "coverage": 1
+        },
+        {
+          "title": "How Agent Anomaly Detection scores on benchmarks we didn't write",
+          "link": "https://developers.googleblog.com/how-agent-anomaly-detection-scores-on-benchmarks-we-didnt-write/",
+          "excerpt": "Agent Anomaly Detection (AAD) provides asynchronous, low-latency monitoring for AI agents by analyzing OpenTelemetry traces and logs to flag goal hijacks and tool misuse. Tested across five public security benchmarks, AAD successfully caught 87% of harmful instructions carried out by agents…",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Banner_-_1600x900.2e16d0ba.fill-1200x600.png",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null,
+          "score": 1.75,
+          "coverage": 1
+        },
+        {
+          "title": "Catch Go bugs that fuzzing misses with Gemini and a constraint solver",
+          "link": "https://developers.googleblog.com/catch-go-bugs-that-fuzzing-misses-with-gemini-and-a-constraint-solver/",
+          "excerpt": "How pairing Go's surviving compiler bounds-check traps with Gemini 4 Argon and the Z3 constraint solver catches latent out-of-bounds panics in Go code and uncovers a slice-capacity blind spot in go test -fuzz.",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/title-image.2e16d0ba.fill-1200x600.png",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null,
+          "score": 0.25,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+          "link": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+          "excerpt": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
+          "source": "TechCrunch",
+          "date": "Nov 12",
+          "image": "https://techcrunch.com/wp-content/uploads/2023/10/misbahfarah-together.jpg?resize=1200,676",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
+          "hn": null,
+          "score": 3.996,
+          "coverage": 1
+        },
+        {
+          "title": "Chicago schools to Google – we'd rather lose Search than be forced to accept AI",
+          "link": "https://www.techspot.com/news/114532-chicago-schools-tell-google-they-can-live-without.html",
+          "excerpt": "At the start of November, Chris Phillips, Google's vice president and general manager for education, said K-12 schools will soon have to accept the company's AI services...",
+          "source": "techspot.com via Hacker News",
+          "date": "Nov 13",
+          "image": "https://www.techspot.com/images2/news/bigimage/2026/11/2026-11-12-image-7.jpg",
+          "icon": "https://www.techspot.com/images/ts3mobile-badge.png",
+          "domain": "techspot.com",
+          "hn": "27 points · 4 comments",
+          "score": 3.135,
+          "coverage": 1
+        },
+        {
+          "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+          "link": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+          "excerpt": "Meet Edge0-145B, an open-source 145B model for local coding, reasoning, and agent tasks, with no cloud-model token fees for local inference.",
+          "source": "edge0.ai via Hacker News",
+          "date": "Nov 12",
+          "image": "https://cdn.hashnode.com/uploads/covers/6aea03219fa4aa99923b5acf/de5ebdea-3436-4b9a-b3f2-e9910f3a0abc.png",
+          "icon": "https://edge0.ai/favicon.ico?favicon.cc52f713.ico",
+          "domain": "edge0.ai",
+          "hn": "48 points · 13 comments",
+          "score": 3.252,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job",
+          "link": "https://www.nytimes.com/2026/11/12/us/politics/trump-jensen-huang-nvidia.html",
+          "excerpt": "12 points · 1 comments",
+          "source": "nytimes.com via Hacker News",
+          "date": "Nov 13",
+          "image": null,
+          "icon": "https://www.nytimes.com/favicon.ico",
+          "domain": "nytimes.com",
+          "hn": "12 points · 1 comments",
+          "score": 2.744,
+          "coverage": 1
+        },
+        {
+          "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+          "link": "https://unemploymentlabs.com/checkpoint-forensics",
+          "excerpt": "Our forensic analysis of publicly released AI models finds evidence that DeepSeek, Moonshot AI, MiniMax and Ant Group have gained access to NVIDIA’s Blackwell GPUs, despite restrictions on exporting these chips to China, and are using that hardware to create their AI models.",
+          "source": "unemploymentlabs.com via Hacker News",
+          "date": "Nov 12",
+          "image": "https://unemploymentlabs.com/checkpoint-forensics-og.png?v=4",
+          "icon": "https://unemploymentlabs.com/favicon.svg",
+          "domain": "unemploymentlabs.com",
+          "hn": "171 points · 47 comments",
+          "score": 3.795,
+          "coverage": 1
+        },
+        {
+          "title": "Foundation Models framework",
+          "link": "https://developer.apple.com/foundation-models-framework/",
+          "excerpt": "The Foundation Models framework is a native Swift API for integrating any large language model into your app.",
+          "source": "developer.apple.com via Hacker News",
+          "date": "Nov 12",
+          "image": "https://developer.apple.com/news/images/og/foundation-models-framework-og.png",
+          "icon": "https://developer.apple.com/favicon.ico",
+          "domain": "developer.apple.com",
+          "hn": "128 points · 16 comments",
+          "score": 3.392,
+          "coverage": 1
+        },
+        {
+          "title": "AI is turning Apple's app review process into a nightmare for synth developers",
+          "link": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
+          "excerpt": "The surge of AI and AI-generated apps is overwhelming Apple’s app review process, leaving developers caught in the crossfire – two examples!",
+          "source": "synthanatomy.com via Hacker News",
+          "date": "Nov 12",
+          "image": "https://synthanatomy.com/wp-content/uploads/2026/11/AI-Apple-App-review.jpg",
+          "icon": "https://synthanatomy.com/wp-content/uploads/2017/06/Synth_Anatomy_Icon_1.png",
+          "domain": "synthanatomy.com",
+          "hn": "97 points · 89 comments",
+          "score": 3.529,
+          "coverage": 1
+        },
+        {
+          "title": "Distributed Ray Tracer",
+          "link": "https://ray.hatchet.run",
+          "excerpt": "A Rust-based distributed ray tracer: describe a scene, and every tile is traced in parallel on Cloudflare Workers, orchestrated by Hatchet.",
+          "source": "ray.hatchet.run via Hacker News",
+          "date": "Nov 12",
+          "image": "https://ray.hatchet.run/og.png",
+          "icon": "https://ray.hatchet.run/apple-touch-icon.png",
+          "domain": "ray.hatchet.run",
+          "hn": "36 points · 12 comments",
+          "score": 2.444,
+          "coverage": 1
+        }
+      ]
+    }
+  ]
+}
