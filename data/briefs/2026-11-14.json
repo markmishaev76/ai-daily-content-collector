@@ -1,35 +1,21 @@
 {
   "date": "2026-11-14",
   "lead": {
-    "title": "FAA orders third nationwide ground stop in its history",
-    "link": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
-    "excerpt": "Rare nationwide ground stop could go on for awhile as FAA troubleshoots.",
-    "source": "Ars Technica",
+    "title": "Reproducible Builds in October 2026",
+    "link": "https://reproducible-builds.org/reports/2026-10/",
+    "excerpt": "Welcome to the October 2026 report from the Reproducible Builds project! In our reports, we try to outline the most important things that we have been up to over the past month. As a quick recap about what problem our project intends to solve, whilst anyone may inspect the source code of free…",
+    "source": "reproducible-builds.org",
     "date": "Nov 13",
-    "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/10/air-traffic-500x500.jpg",
+    "image": null,
     "image_credit": null,
-    "section": "News & Research",
+    "section": "Supply Chain & Builds",
     "pinned": false,
     "note": null,
     "labels": [
-      "4 sources",
-      "News & Research",
-      "under 1h ago"
+      "Supply Chain & Builds",
+      "6h ago"
     ],
-    "also": [
-      {
-        "name": "fly.faa.gov",
-        "link": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11142026&advn=5"
-      },
-      {
-        "name": "fox5dc.com",
-        "link": "https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026"
-      },
-      {
-        "name": "grounds.top",
-        "link": "https://grounds.top/"
-      }
-    ]
+    "also": []
   },
   "pulse": [
     {
@@ -39,7 +25,7 @@
       "link_domain": "status.claude.com",
       "source": "Hacker News",
       "domain": "status.claude.com",
-      "meta": "Hacker News · 484 points · 383 comments · 15h ago",
+      "meta": "Hacker News · 488 points · 383 comments · 17h ago",
       "also": [],
       "image": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
       "icon": "https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/362807/NEW_spark-96-96-2225c423-f16f-42a4-b9d1-c58c10b998cb.png"
@@ -51,22 +37,10 @@
       "link_domain": "theguardian.com",
       "source": "Hacker News",
       "domain": "theguardian.com",
-      "meta": "Hacker News · 334 points · 92 comments · 8h ago",
+      "meta": "Hacker News · 349 points · 94 comments · 10h ago",
       "also": [],
       "image": "https://i.guim.co.uk/img/media/6eeccf216579fe2181ae737d30f31abd7590125c/210_58_1759_1407/master/1759.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=334efc63d7472a97d72be0ffd23af8bb",
       "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg"
-    },
-    {
-      "title": "Contra \"Glue work considered harmful\"",
-      "thread": "https://lobste.rs/s/f6u0cg/contra_glue_work_considered_harmful",
-      "link": "https://sunshowers.io/posts/glue-work/",
-      "link_domain": "sunshowers.io",
-      "source": "Lobsters",
-      "domain": "sunshowers.io",
-      "meta": "Lobsters · 48 points · 16 comments · 23h ago",
-      "also": [],
-      "image": "https://sunshowers.io/images/og-image.png",
-      "icon": "https://sunshowers.io/img/apple-touch-icon-144-precomposed.png"
     },
     {
       "title": "AI is destroying the trust between writers and readers",
@@ -75,7 +49,7 @@
       "link_domain": "theatlantic.com",
       "source": "Hacker News",
       "domain": "theatlantic.com",
-      "meta": "Hacker News · 312 points · 195 comments · 14h ago",
+      "meta": "Hacker News · 321 points · 196 comments · 16h ago",
       "also": [],
       "image": null,
       "icon": "https://www.theatlantic.com/favicon.ico"
@@ -87,34 +61,10 @@
       "link_domain": "cnn.com",
       "source": "Hacker News",
       "domain": "cnn.com",
-      "meta": "Hacker News · 285 points · 181 comments · 19h ago",
+      "meta": "Hacker News · 287 points · 181 comments · 21h ago",
       "also": [],
       "image": "https://media.cnn.com/api/v1/images/stellar/prod/ap26313845581210.jpg?c=16x9&q=w_800,c_fill",
       "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png"
-    },
-    {
-      "title": "Brave Search API now accepts agentic payments via the x402 protocol",
-      "thread": "https://news.ycombinator.com/item?id=50477649",
-      "link": "https://brave.com/blog/search-api-agentic-payments/",
-      "link_domain": "brave.com",
-      "source": "Hacker News",
-      "domain": "brave.com",
-      "meta": "Hacker News · 256 points · 148 comments · 22h ago",
-      "also": [],
-      "image": "https://brave.com/blog/search-api-agentic-payments/images/featured.jpg",
-      "icon": "https://brave.com/static-assets/images/cropped-brave_appicon_release-180x180.png"
-    },
-    {
-      "title": "Claude Is Down",
-      "thread": "https://news.ycombinator.com/item?id=50481220",
-      "link": "https://status.claude.com/history",
-      "link_domain": "status.claude.com",
-      "source": "Hacker News",
-      "domain": "status.claude.com",
-      "meta": "Hacker News · 197 points · 172 comments · 15h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/362807/NEW_spark-96-96-2225c423-f16f-42a4-b9d1-c58c10b998cb.png"
     },
     {
       "title": "Running a law firm on Free software (2026 edition)",
@@ -123,10 +73,22 @@
       "link_domain": "decoded.legal",
       "source": "Lobsters",
       "domain": "decoded.legal",
-      "meta": "Lobsters · 28 points · 1 comments · 14h ago",
+      "meta": "Lobsters · 30 points · 1 comments · 16h ago",
       "also": [],
       "image": "https://decoded.legal/blog/content/images/decoded.legal_logo.png",
       "icon": "https://decoded.legal/favicon.ico"
+    },
+    {
+      "title": "Claude Is Down",
+      "thread": "https://news.ycombinator.com/item?id=50481220",
+      "link": "https://status.claude.com/history",
+      "link_domain": "status.claude.com",
+      "source": "Hacker News",
+      "domain": "status.claude.com",
+      "meta": "Hacker News · 198 points · 175 comments · 17h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/362807/NEW_spark-96-96-2225c423-f16f-42a4-b9d1-c58c10b998cb.png"
     },
     {
       "title": "No AI Slop: A Manifesto",
@@ -135,10 +97,22 @@
       "link_domain": "slopmanifesto.com",
       "source": "Hacker News",
       "domain": "slopmanifesto.com",
-      "meta": "Hacker News · 185 points · 106 comments · 6h ago",
+      "meta": "Hacker News · 189 points · 109 comments · 8h ago",
       "also": [],
       "image": null,
       "icon": "https://www.slopmanifesto.com/favicon.ico"
+    },
+    {
+      "title": "Why is Google cutting off Search from AI-free schools? Here are some theories",
+      "thread": "https://news.ycombinator.com/item?id=50484960",
+      "link": "https://text.npr.org/nx-s1-6029408",
+      "link_domain": "text.npr.org",
+      "source": "Hacker News",
+      "domain": "text.npr.org",
+      "meta": "Hacker News · 171 points · 170 comments · 12h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://text.npr.org/favicon.ico"
     },
     {
       "title": "ML Modules for Mere Mortals",
@@ -147,10 +121,22 @@
       "link_domain": "thunderseethe.dev",
       "source": "Lobsters",
       "domain": "thunderseethe.dev",
-      "meta": "Lobsters · 25 points · 5 comments · 14h ago",
+      "meta": "Lobsters · 25 points · 5 comments · 16h ago",
       "also": [],
       "image": null,
       "icon": "https://thunderseethe.dev/images/apple-touch-icon.png"
+    },
+    {
+      "title": "Brazil's Caixa insurer breach exposes names and tax IDs of all 7.6M customers",
+      "thread": "https://news.ycombinator.com/item?id=50485295",
+      "link": "https://filemanager-cdn.mziq.com/published/3972906b-e50b-4f74-ab74-4d0d32125d11/9567a559-d20a-486e-a7ae-5c6bbc030c5e",
+      "link_domain": "filemanager-cdn.mziq.com",
+      "source": "Hacker News",
+      "domain": "filemanager-cdn.mziq.com",
+      "meta": "Hacker News · 163 points · 72 comments · 12h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://filemanager-cdn.mziq.com/favicon.ico"
     }
   ],
   "sections": [
@@ -167,7 +153,7 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 0.59,
+          "score": 0.561,
           "coverage": 1
         },
         {
@@ -180,7 +166,7 @@
           "icon": null,
           "domain": "research.google",
           "hn": null,
-          "score": 1.039,
+          "score": 0.932,
           "coverage": 1
         },
         {
@@ -193,7 +179,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 1.195,
+          "score": 1.055,
           "coverage": 1
         }
       ],
@@ -208,7 +194,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 1.155,
+          "score": 1.023,
           "coverage": 1
         },
         {
@@ -221,7 +207,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.896,
+          "score": 0.815,
           "coverage": 1
         },
         {
@@ -234,7 +220,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.855,
+          "score": 0.78,
           "coverage": 1
         },
         {
@@ -247,7 +233,7 @@
           "icon": "https://stackoverflow.blog/apple-touch-icon.png",
           "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 0.872,
+          "score": 0.795,
           "coverage": 1
         },
         {
@@ -260,7 +246,7 @@
           "icon": "https://stackoverflow.blog/apple-touch-icon.png",
           "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 0.393,
+          "score": 0.376,
           "coverage": 1
         }
       ]
@@ -278,7 +264,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 2.707,
+          "score": 2.491,
           "coverage": 1
         },
         {
@@ -291,7 +277,7 @@
           "icon": null,
           "domain": "sentinelone.com",
           "hn": null,
-          "score": 0.718,
+          "score": 0.641,
           "coverage": 1
         },
         {
@@ -304,7 +290,7 @@
           "icon": null,
           "domain": "sentinelone.com",
           "hn": null,
-          "score": 0.59,
+          "score": 0.538,
           "coverage": 1
         }
       ],
@@ -319,7 +305,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.498,
+          "score": 0.467,
           "coverage": 1
         },
         {
@@ -332,7 +318,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.746,
+          "score": 0.663,
           "coverage": 1
         }
       ]
@@ -350,7 +336,7 @@
           "icon": null,
           "domain": "stratechery.com",
           "hn": null,
-          "score": 0.746,
+          "score": 0.679,
           "coverage": 1
         },
         {
@@ -363,7 +349,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.394,
+          "score": 0.374,
           "coverage": 1
         }
       ],
@@ -382,7 +368,7 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 3.04,
+          "score": 2.788,
           "coverage": 1
         }
       ],
@@ -401,7 +387,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 1.777,
+          "score": 1.689,
           "coverage": 1
         },
         {
@@ -414,7 +400,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 1.575,
+          "score": 1.496,
           "coverage": 1
         },
         {
@@ -427,25 +413,11 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.315,
+          "score": 0.299,
           "coverage": 1
         }
       ],
-      "more": [
-        {
-          "title": "Reproducible Builds in October 2026",
-          "link": "https://reproducible-builds.org/reports/2026-10/",
-          "excerpt": "Welcome to the October 2026 report from the Reproducible Builds project! In our reports, we try to outline the most important things that we have been up to over the past month. As a quick recap about what problem our project intends to solve, whilst anyone may inspect the source code of free…",
-          "source": "reproducible-builds.org",
-          "date": "Nov 13",
-          "image": null,
-          "icon": "https://reproducible-builds.org/assets/images/favicon.png",
-          "domain": "reproducible-builds.org",
-          "hn": null,
-          "score": 7.282,
-          "coverage": 1
-        }
-      ]
+      "more": []
     },
     {
       "name": "Security & AppSec",
@@ -460,7 +432,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.424,
+          "score": 0.388,
           "coverage": 1
         },
         {
@@ -473,7 +445,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.397,
+          "score": 0.365,
           "coverage": 1
         },
         {
@@ -486,7 +458,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.544,
+          "score": 0.485,
           "coverage": 1
         }
       ],
@@ -501,7 +473,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.37,
+          "score": 0.342,
           "coverage": 1
         },
         {
@@ -514,7 +486,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.354,
+          "score": 0.328,
           "coverage": 1
         },
         {
@@ -527,7 +499,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.349,
+          "score": 0.324,
           "coverage": 1
         },
         {
@@ -540,7 +512,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.33,
+          "score": 0.307,
           "coverage": 1
         },
         {
@@ -553,7 +525,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.316,
+          "score": 0.295,
           "coverage": 1
         }
       ]
@@ -561,6 +533,19 @@
     {
       "name": "Platform, Cloud & Reliability",
       "cards": [
+        {
+          "title": "What’s new with Google Data Cloud",
+          "link": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/",
+          "excerpt": "November 9 - November 13 Bringing conversational analytics to Gemini with Data Cloud connectors: Data Cloud connectors in Gemini are now in preview, enabling knowledge workers to query live enterprise data using natural language directly within tools like Google Docs, Gmail, and Google Slides. The…",
+          "source": "Cloud Blog",
+          "date": "Nov 12",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Whats_new_data_cloud.max-600x600.jpg",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 2.119,
+          "coverage": 1
+        },
         {
           "title": "New AI agent observability and governance across BigQuery and Looker",
           "link": "https://cloud.google.com/blog/products/data-analytics/enterprise-ai-agent-observability-with-bigquery-and-looker/",
@@ -571,7 +556,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 4.113,
+          "score": 3.756,
           "coverage": 1
         },
         {
@@ -584,9 +569,11 @@
           "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
           "domain": "grafana.com",
           "hn": null,
-          "score": 4.029,
+          "score": 3.676,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Amazon Threat Intelligence observes threat actors running cybercrime campaigns with ARTEX AI agents",
           "link": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents/",
@@ -597,11 +584,9 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 5.733,
+          "score": 5.15,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Where supercomputing meets agentic AI: What’s new in Google Cloud HPC and AI at SC26",
           "link": "https://cloud.google.com/blog/topics/hpc/whats-new-in-hpc-and-ai-at-sc26/",
@@ -612,7 +597,7 @@
           "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 3.583,
+          "score": 3.272,
           "coverage": 1
         },
         {
@@ -625,7 +610,7 @@
           "icon": null,
           "domain": "blog.cloudflare.com",
           "hn": null,
-          "score": 3.574,
+          "score": 3.212,
           "coverage": 1
         },
         {
@@ -638,7 +623,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.426,
+          "score": 0.39,
           "coverage": 1
         },
         {
@@ -651,20 +636,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.51,
-          "coverage": 1
-        },
-        {
-          "title": "Modular regression testing framework built on AWS for large-scale systems",
-          "link": "https://aws.amazon.com/blogs/architecture/modular-regression-testing-framework-built-on-aws-for-large-scale-systems/",
-          "excerpt": "Regression testing must catch behavior changes before they reach production, yet synthetic tests miss real-world edge cases. This post walks through a modular framework, built on AWS, that replays a sample of production traffic against new code and automatically gates deployments on the fraction…",
-          "source": "AWS Architecture Blog",
-          "date": "Nov 12",
-          "image": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/11/11/ARCHBLOG-1397-1.png",
-          "icon": null,
-          "domain": "aws.amazon.com",
-          "hn": null,
-          "score": 0.224,
+          "score": 0.458,
           "coverage": 1
         }
       ]
@@ -682,7 +654,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 3.421,
+          "score": 3.137,
           "coverage": 1
         },
         {
@@ -695,7 +667,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 3.576,
+          "score": 3.227,
           "coverage": 1
         },
         {
@@ -707,8 +679,8 @@
           "image": "https://api.alphasignal.ai/api/news/preview/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free/v2/card.jpg",
           "icon": "https://alphasignal.ai/apple-icon.png?1826b84d5c6eda38",
           "domain": "alphasignal.ai",
-          "hn": "22 points · 4 comments",
-          "score": 6.121,
+          "hn": "62 points · 45 comments",
+          "score": 6.221,
           "coverage": 1
         }
       ],
@@ -723,7 +695,7 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 2.927,
+          "score": 2.625,
           "coverage": 1
         },
         {
@@ -736,47 +708,47 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 2.627,
+          "score": 2.304,
           "coverage": 1
         },
         {
-          "title": "FAA lifted National Ground Stop at 0119Z",
-          "link": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11142026&advn=5",
-          "excerpt": "FAA - Advisories Database",
-          "source": "fly.faa.gov via Hacker News",
+          "title": "Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its GPUs",
+          "link": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+          "excerpt": "44 points · 10 comments",
+          "source": "techpowerup.com via Hacker News",
           "date": "Nov 14",
           "image": null,
-          "icon": "https://www.fly.faa.gov/favicon.ico",
-          "domain": "fly.faa.gov",
-          "hn": "74 points · 34 comments",
-          "score": 13.832,
-          "coverage": 4
-        },
-        {
-          "title": "Ukraine knocks out 36% of Russia's oil refining capacity in under two weeks",
-          "link": "https://english.nv.ua/nation/thirteen-day-drone-blitz-paralyzes-36-of-moscow-s-oil-50658616.html",
-          "excerpt": "Ukrainian drone strikes knocked out 36% of Russia’s total oil refining capacity in less than two weeks, hitting at least nine major refineries between Oct. 30 and Nov. 11, defense manufacturer Fire Point reported on Nov. 12.",
-          "source": "english.nv.ua via Hacker News",
-          "date": "Nov 14",
-          "image": "https://static.nv.ua/shared/system/Article/posters/003/400/667/original/641dcb95ac384dd3b9c9b9adde85bff0.png?q=85&stamp=20261112140909&f=webp",
-          "icon": "https://english.nv.ua/favicon/apple-touch-icon.png?new",
-          "domain": "english.nv.ua",
-          "hn": "85 points · 17 comments",
-          "score": 4.164,
+          "icon": "https://www.techpowerup.com/favicon.ico",
+          "domain": "techpowerup.com",
+          "hn": "44 points · 10 comments",
+          "score": 3.599,
           "coverage": 1
         },
         {
-          "title": "Amtrak booking system experiencing major issues amid nationwide FAA ground stop",
-          "link": "https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026",
-          "excerpt": "102 points · 30 comments",
-          "source": "fox5dc.com via Hacker News",
+          "title": "Ggml v1.0.0",
+          "link": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+          "excerpt": "Overview ggml 1.0.0 prunes the deprecated public API and the legacy DIAG_MASK ops, adds configurable YaRN truncation and FP8 support, and brings broad performance work across backends: few-row quan...",
+          "source": "github.com via Hacker News",
           "date": "Nov 14",
-          "image": "https://images.foxtv.com/static.fox5dc.com/www.fox5dc.com/content/uploads/2026/11/1200/630/gettyimages-2296656867.jpg?ve=1&tl=1",
-          "icon": "https://static.foxtv.com/static/orion/img/wttg/favicons/apple-touch-icon-57x57.png",
-          "domain": "fox5dc.com",
-          "hn": "102 points · 30 comments",
-          "score": 13.832,
-          "coverage": 4
+          "image": "https://opengraph.githubassets.com/398ed72e9316d12d32e3371787d19fb096c1afc67fd25fc61f9c70d69c03087c/ggml-org/ggml/releases/tag/v1.0.0",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "40 points · 1 comments",
+          "score": 3.294,
+          "coverage": 1
+        },
+        {
+          "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
+          "excerpt": "Huang stepped down as CEO after reports of a second extramarital relationship with Nvidia executive Kimberly Powell emerged.",
+          "source": "finance.yahoo.com via Hacker News",
+          "date": "Nov 14",
+          "image": "https://s.yimg.com/lo/mysterio/api/ea33872456927e6c60fd6ae873cc248800ea9558f19ac095dc5ea2367757e23b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmoneywise_327%2F03f97ac29476948d659ef4eba662dfa9.jpg",
+          "icon": "https://s.yimg.com/cv/apiv2/default/finance/favicon-180x180.png",
+          "domain": "finance.yahoo.com",
+          "hn": "49 points · 18 comments",
+          "score": 3.616,
+          "coverage": 1
         }
       ]
     }

@@ -1265,11 +1265,23 @@
   "icon": "https://fig.blue/favicon.svg",
   "image": null
  },
+ "https://filemanager-cdn.mziq.com/published/3972906b-e50b-4f74-ab74-4d0d32125d11/9567a559-d20a-486e-a7ae-5c6bbc030c5e": {
+  "description": null,
+  "fetched": "2026-11-14",
+  "icon": null,
+  "image": null
+ },
  "https://finance.yahoo.com/markets/article/the-intel-stock-collapse-is-getting-worse--and-the-37-trillion-chip-rout-is-spreading-212154947.html": {
   "description": "Intel's slide spread through memory and storage stocks Monday as most of Wall Street moved on from last week's tech sell-off.",
   "fetched": "2026-11-03",
   "icon": "https://s.yimg.com/cv/apiv2/default/finance/favicon-180x180.png",
   "image": "https://s.yimg.com/lo/mysterio/api/20c071d47e1d29b6bcb68516712316fd79f4afbe9817d204b091e7acdade2c1f/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F1b2b2cbf-96e4-452f-9ea7-7917f40a6da2"
+ },
+ "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html": {
+  "description": "Huang stepped down as CEO after reports of a second extramarital relationship with Nvidia executive Kimberly Powell emerged.",
+  "fetched": "2026-11-14",
+  "icon": "https://s.yimg.com/cv/apiv2/default/finance/favicon-180x180.png",
+  "image": "https://s.yimg.com/lo/mysterio/api/ea33872456927e6c60fd6ae873cc248800ea9558f19ac095dc5ea2367757e23b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmoneywise_327%2F03f97ac29476948d659ef4eba662dfa9.jpg"
  },
  "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html": {
   "description": "Cuban says he has been seeing his own face in scammy AI-generated ads for nonexistent diabetes cures.",
@@ -1546,6 +1558,12 @@
   "fetched": "2026-11-05",
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://opengraph.githubassets.com/c41a21bb3267a8b8d4e5603ef1670b8c94ba3d9db8fb85ac48a6bad87eeb9a1a/gauge-sh/gauge-cli"
+ },
+ "https://github.com/ggml-org/ggml/releases/tag/v1.0.0": {
+  "description": "Overview ggml 1.0.0 prunes the deprecated public API and the legacy DIAG_MASK ops, adds configurable YaRN truncation and FP8 support, and brings broad performance work across backends: few-row quan...",
+  "fetched": "2026-11-14",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://opengraph.githubassets.com/398ed72e9316d12d32e3371787d19fb096c1afc67fd25fc61f9c70d69c03087c/ggml-org/ggml/releases/tag/v1.0.0"
  },
  "https://github.com/gmkurtzer/ginux": {
   "description": "Contribute to gmkurtzer/ginux development by creating an account on GitHub.",
@@ -4088,6 +4106,12 @@
  "https://text.npr.org/nx-s1-6021497": {
   "description": null,
   "fetched": "2026-10-29",
+  "icon": null,
+  "image": null
+ },
+ "https://text.npr.org/nx-s1-6029408": {
+  "description": null,
+  "fetched": "2026-11-14",
   "icon": null,
   "image": null
  },
@@ -7108,6 +7132,12 @@
   "fetched": "2026-11-03",
   "icon": "https://cdn.sanity.io/images/3tzzh18d/production/9a2224d300c1699fc1b87235aac36318e2c76cec-867x867.png",
   "image": "https://cdn.sanity.io/images/3tzzh18d/production/07bfadd5db5c963aa461d36b3f5bfa4a34c6f335-1200x675.png"
+ },
+ "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus": {
+  "description": null,
+  "fetched": "2026-11-14",
+  "icon": null,
+  "image": null
  },
  "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html": {
   "description": "Nikon's 16th annual Small World in Motion contest is open to any movie or digital time-lapse photography taken through the microscope.",
