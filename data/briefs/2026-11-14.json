@@ -1,0 +1,784 @@
+{
+  "date": "2026-11-14",
+  "lead": {
+    "title": "FAA orders third nationwide ground stop in its history",
+    "link": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
+    "excerpt": "Rare nationwide ground stop could go on for awhile as FAA troubleshoots.",
+    "source": "Ars Technica",
+    "date": "Nov 13",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/10/air-traffic-500x500.jpg",
+    "image_credit": null,
+    "section": "News & Research",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "4 sources",
+      "News & Research",
+      "under 1h ago"
+    ],
+    "also": [
+      {
+        "name": "fly.faa.gov",
+        "link": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11142026&advn=5"
+      },
+      {
+        "name": "fox5dc.com",
+        "link": "https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026"
+      },
+      {
+        "name": "grounds.top",
+        "link": "https://grounds.top/"
+      }
+    ]
+  },
+  "pulse": [
+    {
+      "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+      "thread": "https://news.ycombinator.com/item?id=50481187",
+      "link": "https://status.claude.com/incidents/nn11wk485zfn",
+      "link_domain": "status.claude.com",
+      "source": "Hacker News",
+      "domain": "status.claude.com",
+      "meta": "Hacker News · 484 points · 383 comments · 15h ago",
+      "also": [],
+      "image": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
+      "icon": "https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/362807/NEW_spark-96-96-2225c423-f16f-42a4-b9d1-c58c10b998cb.png"
+    },
+    {
+      "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+      "thread": "https://news.ycombinator.com/item?id=50486748",
+      "link": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+      "link_domain": "theguardian.com",
+      "source": "Hacker News",
+      "domain": "theguardian.com",
+      "meta": "Hacker News · 334 points · 92 comments · 8h ago",
+      "also": [],
+      "image": "https://i.guim.co.uk/img/media/6eeccf216579fe2181ae737d30f31abd7590125c/210_58_1759_1407/master/1759.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=334efc63d7472a97d72be0ffd23af8bb",
+      "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg"
+    },
+    {
+      "title": "Contra \"Glue work considered harmful\"",
+      "thread": "https://lobste.rs/s/f6u0cg/contra_glue_work_considered_harmful",
+      "link": "https://sunshowers.io/posts/glue-work/",
+      "link_domain": "sunshowers.io",
+      "source": "Lobsters",
+      "domain": "sunshowers.io",
+      "meta": "Lobsters · 48 points · 16 comments · 23h ago",
+      "also": [],
+      "image": "https://sunshowers.io/images/og-image.png",
+      "icon": "https://sunshowers.io/img/apple-touch-icon-144-precomposed.png"
+    },
+    {
+      "title": "AI is destroying the trust between writers and readers",
+      "thread": "https://news.ycombinator.com/item?id=50481870",
+      "link": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
+      "link_domain": "theatlantic.com",
+      "source": "Hacker News",
+      "domain": "theatlantic.com",
+      "meta": "Hacker News · 312 points · 195 comments · 14h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.theatlantic.com/favicon.ico"
+    },
+    {
+      "title": "Global Microsoft Outage",
+      "thread": "https://news.ycombinator.com/item?id=50479098",
+      "link": "https://www.cnn.com/2026/11/12/business/live-news/microsoft-global-outage-intl-hnk",
+      "link_domain": "cnn.com",
+      "source": "Hacker News",
+      "domain": "cnn.com",
+      "meta": "Hacker News · 285 points · 181 comments · 19h ago",
+      "also": [],
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/ap26313845581210.jpg?c=16x9&q=w_800,c_fill",
+      "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png"
+    },
+    {
+      "title": "Brave Search API now accepts agentic payments via the x402 protocol",
+      "thread": "https://news.ycombinator.com/item?id=50477649",
+      "link": "https://brave.com/blog/search-api-agentic-payments/",
+      "link_domain": "brave.com",
+      "source": "Hacker News",
+      "domain": "brave.com",
+      "meta": "Hacker News · 256 points · 148 comments · 22h ago",
+      "also": [],
+      "image": "https://brave.com/blog/search-api-agentic-payments/images/featured.jpg",
+      "icon": "https://brave.com/static-assets/images/cropped-brave_appicon_release-180x180.png"
+    },
+    {
+      "title": "Claude Is Down",
+      "thread": "https://news.ycombinator.com/item?id=50481220",
+      "link": "https://status.claude.com/history",
+      "link_domain": "status.claude.com",
+      "source": "Hacker News",
+      "domain": "status.claude.com",
+      "meta": "Hacker News · 197 points · 172 comments · 15h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/362807/NEW_spark-96-96-2225c423-f16f-42a4-b9d1-c58c10b998cb.png"
+    },
+    {
+      "title": "Running a law firm on Free software (2026 edition)",
+      "thread": "https://lobste.rs/s/ezl1sa/running_law_firm_on_free_software_2026",
+      "link": "https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/",
+      "link_domain": "decoded.legal",
+      "source": "Lobsters",
+      "domain": "decoded.legal",
+      "meta": "Lobsters · 28 points · 1 comments · 14h ago",
+      "also": [],
+      "image": "https://decoded.legal/blog/content/images/decoded.legal_logo.png",
+      "icon": "https://decoded.legal/favicon.ico"
+    },
+    {
+      "title": "No AI Slop: A Manifesto",
+      "thread": "https://news.ycombinator.com/item?id=50488769",
+      "link": "https://www.slopmanifesto.com/",
+      "link_domain": "slopmanifesto.com",
+      "source": "Hacker News",
+      "domain": "slopmanifesto.com",
+      "meta": "Hacker News · 185 points · 106 comments · 6h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.slopmanifesto.com/favicon.ico"
+    },
+    {
+      "title": "ML Modules for Mere Mortals",
+      "thread": "https://lobste.rs/s/mgiv0i/ml_modules_for_mere_mortals",
+      "link": "https://thunderseethe.dev/posts/ml-modules-for-mere-mortals/intro/",
+      "link_domain": "thunderseethe.dev",
+      "source": "Lobsters",
+      "domain": "thunderseethe.dev",
+      "meta": "Lobsters · 25 points · 5 comments · 14h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://thunderseethe.dev/images/apple-touch-icon.png"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI-Assisted Engineering",
+      "cards": [
+        {
+          "title": "Building strong safety evaluations",
+          "link": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+          "excerpt": "Recommendations for designing, running, and reporting safety evaluations, based on our own experiences.",
+          "source": "Anthropic Engineering",
+          "date": "Nov 13",
+          "image": "https://assets.claude.com/04a298be2efa241bd5a4a810b97c62bb8ef257dc.jpg",
+          "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+          "domain": "anthropic.com",
+          "hn": null,
+          "score": 0.59,
+          "coverage": 1
+        },
+        {
+          "title": "Advancing science & engineering with Antigravity’s /teamwork",
+          "link": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+          "excerpt": "Education Innovation",
+          "source": "Google Research",
+          "date": "Nov 13",
+          "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/AntigravityTeamwork_HeroFinal.jpg",
+          "icon": null,
+          "domain": "research.google",
+          "hn": null,
+          "score": 1.039,
+          "coverage": 1
+        },
+        {
+          "title": "datasette-cluster-map 0.19",
+          "link": "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/",
+          "excerpt": "Release: datasette-cluster-map 0.19 One of the oldest Datasette plugins, and still one of my favorites. It now works with Datasette 1.0a42, and depends on the new datasette-leaflet to ensure OpenStreetMap tiles are requested with a referrer header. Here's a map of power plants owned by…",
+          "source": "Simon Willison",
+          "date": "Nov 13",
+          "image": "https://static.simonwillison.net/static/2026/power-plants-pge.webp",
+          "icon": null,
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 1.195,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "datasette-leaflet 0.3",
+          "link": "https://simonwillison.net/2026/Nov/13/datasette-leaflet/",
+          "excerpt": "Release: datasette-leaflet 0.3 OpenStreetMap have a very reasonable policy that hits to their hosted tile server should send a referrer header. Datasette table pages used the Referrer-Policy: no-referrer HTTP header, causing plugins that loaded tiles from OpenStreetMap to violate that policy.…",
+          "source": "Simon Willison",
+          "date": "Nov 13",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 1.155,
+          "coverage": 1
+        },
+        {
+          "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+          "link": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+          "excerpt": "A Blog post by NVIDIA on Hugging Face",
+          "source": "Hugging Face",
+          "date": "Nov 13",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/6abfe9e7d7cf09a9b38ef308/HFZWtQ2i9VN_agjeUw2HB.gif",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null,
+          "score": 0.896,
+          "coverage": 1
+        },
+        {
+          "title": "XYBench: Helping with the problem behind the question",
+          "link": "https://huggingface.co/blog/allenai/xybench",
+          "excerpt": "A Blog post by Ai2 on Hugging Face",
+          "source": "Hugging Face",
+          "date": "Nov 13",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/aOWdQgZ8ioJcx9Eii4iob.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null,
+          "score": 0.855,
+          "coverage": 1
+        },
+        {
+          "title": "Your coding agent shouldn't grade its own homework",
+          "link": "https://stackoverflow.blog/2026/11/13/your-coding-agent-shouldn-t-grade-its-own-homework/",
+          "excerpt": "AI coding agents can now write design docs, mock up frontends, and implement entire projects end to end. But can they be trusted to verify that their own code actually works?",
+          "source": "Stack Overflow Blog",
+          "date": "Nov 13",
+          "image": null,
+          "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+          "domain": "stackoverflow.blog",
+          "hn": null,
+          "score": 0.872,
+          "coverage": 1
+        },
+        {
+          "title": "How do you hire a human? Q&A with Tom Harvey, Stack Overflow technical recruiter",
+          "link": "https://stackoverflow.blog/2026/11/12/how-do-you-hire-a-human-q-and-a-with-tom-harvey-stack-overflow-technical-recruiter/",
+          "excerpt": "Everybody's resume is perfect now, so how do you find the perfect teammate?",
+          "source": "Stack Overflow Blog",
+          "date": "Nov 12",
+          "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/751dae65e9dfa3fa920e2e69dd68f6a3b9970f5b-12000x6293.jpg?rect=7,0,11987,6293&w=1200&h=630&auto=format",
+          "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+          "domain": "stackoverflow.blog",
+          "hn": null,
+          "score": 0.393,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "AI Agents & Agent Security",
+      "cards": [
+        {
+          "title": "Introducing ChatGPT Wallet",
+          "link": "https://openai.com/index/introducing-chatgpt-wallet",
+          "excerpt": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+          "source": "OpenAI News",
+          "date": "Nov 13",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 2.707,
+          "coverage": 1
+        },
+        {
+          "title": "ARTEX Unmasked | The Rise of AI-Powered ARTEX in Cybercrime & Espionage",
+          "link": "https://www.sentinelone.com/blog/artex-unmasked-the-rise-of-ai-powered-artex-in-cybercrime-espionage/",
+          "excerpt": "Learn how SentinelOne Behavioral AI, Singularity AI SIEM, and Purple AI detect and stop autonomous ARTEX attacks across cloud, identity, and endpoints.",
+          "source": "SentinelOne",
+          "date": "Nov 13",
+          "image": "https://images.contentstack.io/v3/assets/blt53c99b43892c2378/bltc73e4c876c2b79c4/6af77b55a2c08e789b706300/Blog_ARTEX_Unmasked_1680x520.jpg",
+          "icon": null,
+          "domain": "sentinelone.com",
+          "hn": null,
+          "score": 0.718,
+          "coverage": 1
+        },
+        {
+          "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 46 (2026)",
+          "link": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-46-8",
+          "excerpt": "Authorities dismantle crypto scams and seize malware ops, Turla deploys Cereal to spy on governments, and attackers breach Railway to steal AI secrets.",
+          "source": "SentinelOne",
+          "date": "Nov 13",
+          "image": "https://images.contentstack.io/v3/assets/blt53c99b43892c2378/blta12d80f8121fef98/6af74c72956eb6b1fc88c3c8/GBU_week46_2026.jpg",
+          "icon": null,
+          "domain": "sentinelone.com",
+          "hn": null,
+          "score": 0.59,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+          "link": "https://openai.com/business/customer-stories/shield",
+          "excerpt": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+          "source": "OpenAI News",
+          "date": "Nov 13",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.498,
+          "coverage": 1
+        },
+        {
+          "title": "Friday Squid Blogging: Pacific Flying Squid Populations Dropping in Korean Waters",
+          "link": "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-pacific-flying-squid-populations-dropping-in-korean-waters.html",
+          "excerpt": "Climate change is the issue. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.",
+          "source": "Schneier on Security",
+          "date": "Nov 13",
+          "image": null,
+          "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+          "domain": "schneier.com",
+          "hn": null,
+          "score": 0.746,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Leadership",
+      "cards": [
+        {
+          "title": "2026.46: The End of Jensen",
+          "link": "https://stratechery.com/2026/the-end-of-jensen/",
+          "excerpt": "The best Stratechery content from the week of November 9, 2026, including the shocking demise of Jensen Huang; enterprise, consumer and Intel; and professional basketbal.",
+          "source": "Stratechery by Ben Thompson",
+          "date": "Nov 13",
+          "image": "https://i0.wp.com/stratechery.com/wp-content/uploads/2026/11/GettyImages-2266460767-blog.jpg?resize=1600%2C1066&ssl=1",
+          "icon": null,
+          "domain": "stratechery.com",
+          "hn": null,
+          "score": 0.746,
+          "coverage": 1
+        },
+        {
+          "title": "Always orbiting: How consumers plan travel experiences now",
+          "link": "https://www.mckinsey.com/industries/travel/our-insights/always-orbiting-how-consumers-plan-travel-experiences-now",
+          "excerpt": "Most travelers keep researching after they book a trip. The travel industry needs to spark interest early, stay engaged with customers, and give them reasons to stick with their original choices.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 13",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.394,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Secrets & NHI",
+      "cards": [
+        {
+          "title": "A Valid Signature Isn’t Enough: Attributing and Validating Leaked JWTs",
+          "link": "https://blog.gitguardian.com/a-valid-signature-isnt-enough-attributing-and-validating-leaked-jwts/",
+          "excerpt": "During a six-month internship with the GitGuardian security research team, Florent Leroy built the attribution rules and live checkers described in this post. Since Aug. 5, they run in production.",
+          "source": "GitGuardian",
+          "date": "Nov 13",
+          "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/11/A-Valid-Signature-Isn---t-Enough-Attributing-and-Validating-Leaked-JWTs.png",
+          "icon": null,
+          "domain": "blog.gitguardian.com",
+          "hn": null,
+          "score": 3.04,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Supply Chain & Builds",
+      "cards": [
+        {
+          "title": "Help! I need somebody! --help, not just anybody! Every tool that never had a manual page",
+          "link": "https://www.chainguard.dev/unchained/help-every-tool-that-never-had-a-manual-page",
+          "excerpt": "AI coding agents need accurate CLI documentation. See how Chainguard makes command-line help searchable, version-specific, and accessible through MCP.",
+          "source": "Chainguard: Unchained",
+          "date": "Nov 13",
+          "image": "https://images.ctfassets.net/l47ir7rfykkn/2iMprcE7ORQF6WPLjxmary/8d49e23ae362c81f8c64980b2edfd7f2/--help_for_every_tool_that_never_had_a_manual_page.png",
+          "icon": "https://www.chainguard.dev/favicon.ico",
+          "domain": "chainguard.dev",
+          "hn": null,
+          "score": 1.777,
+          "coverage": 1
+        },
+        {
+          "title": "Run GitLab-certified hardened images for GitLab Enterprise Edition with the security of Chainguard",
+          "link": "https://www.chainguard.dev/unchained/run-gitlab-certified-hardened-images-for-gitlab-enterprise-edition-with-the-security-of-chainguard",
+          "excerpt": "Secure GitLab Enterprise Edition with Chainguard's certified hardened container images, featuring minimal CVEs, signed SBOMs, and FIPS-ready options.",
+          "source": "Chainguard: Unchained",
+          "date": "Nov 13",
+          "image": "https://images.ctfassets.net/l47ir7rfykkn/6zNTXpKMy75FEbPMYDdASS/55b7cc12c09ebc983367ef1aa8d6960c/Run_GitLab-certified_hardened_images_for_GitLab_Enterprise_Edition_with_the_security_of_Chainguard.png",
+          "icon": "https://www.chainguard.dev/favicon.ico",
+          "domain": "chainguard.dev",
+          "hn": null,
+          "score": 1.575,
+          "coverage": 1
+        },
+        {
+          "title": "Introducing Project Theseus, starting with challoc",
+          "link": "https://www.chainguard.dev/unchained/introducing-project-theseus-starting-with-challoc",
+          "excerpt": "Chainguard launches Project Theseus to move beyond reactive patching with safer open source components, starting with the Rust-based challoc allocator.",
+          "source": "Chainguard: Unchained",
+          "date": "Nov 13",
+          "image": "https://images.ctfassets.net/l47ir7rfykkn/1ZYE7BoVOqRzXuMDf28B2m/bbd079e4fa17b86be5702aa5c4535fbe/Project_Theseus_-_Dark.png",
+          "icon": "https://www.chainguard.dev/favicon.ico",
+          "domain": "chainguard.dev",
+          "hn": null,
+          "score": 0.315,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Reproducible Builds in October 2026",
+          "link": "https://reproducible-builds.org/reports/2026-10/",
+          "excerpt": "Welcome to the October 2026 report from the Reproducible Builds project! In our reports, we try to outline the most important things that we have been up to over the past month. As a quick recap about what problem our project intends to solve, whilst anyone may inspect the source code of free…",
+          "source": "reproducible-builds.org",
+          "date": "Nov 13",
+          "image": null,
+          "icon": "https://reproducible-builds.org/assets/images/favicon.png",
+          "domain": "reproducible-builds.org",
+          "hn": null,
+          "score": 7.282,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+          "link": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+          "excerpt": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server. The flaw,…",
+          "source": "The Hacker News",
+          "date": "Nov 13",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj8XOS7IKEt2ZhrwwdlDSpQ5hAyI46wHZpPkTQ3_hA6yUtMQpzaM50fm2v9x0O7NCt5z9vdrTsYM3iPOmu9fmmMTQDViu-rQjCfSxfCQhwZQazr4ZYayvEn5MQfUdTBVODtAay6RIaTqJGUj-HVzbtMqNPdNFiQHExhO9sitJX0GrvTx_EhWmslA-87ds/s1600/postgresql.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.424,
+          "coverage": 1
+        },
+        {
+          "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+          "link": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+          "excerpt": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out. One of them, Mior, can also modify a VM's memory and fake the signed report confirming which software it runs. Both need…",
+          "source": "The Hacker News",
+          "date": "Nov 13",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi28SrA-dW0l0kreAg1vMHHOgBRMM7lzxv5qg2FT2HzRxReJ96pxZP4Fjpm15fYWDDgWpbBI8iC119aE37t_kmQ4guoA70NUlJsdiA4hFvTg8fflx9fsKqUsGuoB-S9VS5pPd38EBVYRGmvKIT5EylE3IwEK8bBCp5CkLrdTwhbyUA2xWN_0iOynP33yE8/s1600/amd-flaws.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.397,
+          "coverage": 1
+        },
+        {
+          "title": "FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’",
+          "link": "https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/",
+          "excerpt": "Federal officials have yet to say what caused the communications disruption or whether they are investigating a possible cyberattack. The post FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’ appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 13",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/FAA_Cyberattack-Ground-Stop.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.544,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Microsoft Struggles to Restore Email and Other Services in a Global Outage",
+          "link": "https://www.securityweek.com/microsoft-struggles-to-restore-email-and-other-services-in-a-global-outage/",
+          "excerpt": "Microsoft is trying different ways to identify the cause of the problem and get its servers back online, using “a measured approach to identify and repair affected infrastructure.” The post Microsoft Struggles to Restore Email and Other Services in a Global Outage appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 13",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Android-Microsoft_Apps-Flaw.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.37,
+          "coverage": 1
+        },
+        {
+          "title": "Apify Confirms Customer Data Accessed in Cyberattack",
+          "link": "https://www.securityweek.com/apify-confirms-customer-data-accessed-in-cyberattack/",
+          "excerpt": "The web scraping company says an intruder accessed customer accounts and obtained personal information or stored data. The post Apify Confirms Customer Data Accessed in Cyberattack appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 13",
+          "image": "https://www.securityweek.com/wp-content/uploads/2025/02/data_breach.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.354,
+          "coverage": 1
+        },
+        {
+          "title": "SilentAir Hackers Intercept Calls, SMS From Inside Mobile Networks",
+          "link": "https://www.securityweek.com/silentair-hackers-intercept-calls-sms-from-inside-mobile-networks/",
+          "excerpt": "Enea says SilentAir hijacked mobile network nodes to intercept calls and messages, with Taiwanese subscribers the primary targets. The post SilentAir Hackers Intercept Calls, SMS From Inside Mobile Networks appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 13",
+          "image": "https://www.securityweek.com/wp-content/uploads/2024/12/telecoms-communications.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.349,
+          "coverage": 1
+        },
+        {
+          "title": "Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure",
+          "link": "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/",
+          "excerpt": "Investigators seized 235 servers and 257 domains, along with 6.4 million victim credentials as part of Operation Endgame. The post Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 13",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/Gootloader-seized.webp",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.33,
+          "coverage": 1
+        },
+        {
+          "title": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
+          "link": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/",
+          "excerpt": "Successful exploitation could lead to unexpected behavior or denial-of-service (DoS) conditions. The post Citrix Patches 10 Critical NetScaler Vulnerabilities appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 13",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/08/Citrix-vulnerability.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.316,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "New AI agent observability and governance across BigQuery and Looker",
+          "link": "https://cloud.google.com/blog/products/data-analytics/enterprise-ai-agent-observability-with-bigquery-and-looker/",
+          "excerpt": "As enterprises move AI agents from experimental prototypes into production, data and platform teams are discovering that deploying an agent is only half the battle — you also need to see how it reasons, which data it touches, and what it costs to run. Today, we are announcing expanded AI agent…",
+          "source": "Cloud Blog",
+          "date": "Nov 13",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1_-_Unified_Agent_Observability_Framework_.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 4.113,
+          "coverage": 1
+        },
+        {
+          "title": "What's new in Pyroscope: profile more of your workflows, troubleshoot with AI agents, and more",
+          "link": "https://grafana.com/blog/whats-new-in-pyroscope-profile-more-of-your-workflows-troubleshoot-with-ai-agents-and-more/",
+          "excerpt": "When an application slows down or memory usage keeps climbing, knowing which code is responsible can help you find a fix faster. Continuous profiling gives you that visibility, so you can see where your application spends resources such as CPU time and memory.We’ve made updates to Pyroscope, our…",
+          "source": "Grafana Labs blog on Grafana Labs",
+          "date": "Nov 13",
+          "image": "https://a-us.storyblok.com/f/1022730/1200x630/053442e11a/pyroscope-updates-meta.jfif",
+          "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
+          "domain": "grafana.com",
+          "hn": null,
+          "score": 4.029,
+          "coverage": 1
+        },
+        {
+          "title": "Amazon Threat Intelligence observes threat actors running cybercrime campaigns with ARTEX AI agents",
+          "link": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents/",
+          "excerpt": "From Oct. 3 to Nov. 5, 2026, Amazon’s MadPot, a globally distributed network of decoy threat sensors, captured requests from AI agents that included operating memory from offensive campaigns that threat actors ran on ARTEX, an open-source agentic AI penetration testing framework. The ARTEX agents…",
+          "source": "AWS Security Blog",
+          "date": "Nov 13",
+          "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2022/05/24/CJ_Moses.jpeg",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 5.733,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Where supercomputing meets agentic AI: What’s new in Google Cloud HPC and AI at SC26",
+          "link": "https://cloud.google.com/blog/topics/hpc/whats-new-in-hpc-and-ai-at-sc26/",
+          "excerpt": "Computational scientists and HPC engineers have always been among the earliest adopters of new computing paradigms, and agents are no exception. Today, research and engineering teams use AI models and agents for things such as ingesting dense scientific literature, optimizing code, and…",
+          "source": "Cloud Blog",
+          "date": "Nov 13",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/High_Performance_Computing.max-2500x2500.jpg",
+          "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 3.583,
+          "coverage": 1
+        },
+        {
+          "title": "Kitesurf is now open source",
+          "link": "https://blog.cloudflare.com/kitesurf-open-source/",
+          "excerpt": "Kitesurf, our experimental browser engine for AI agents, is now open source. Inspect the code, run it locally, or deploy your own instance on Cloudflare Workers.",
+          "source": "Cloudflare Blog",
+          "date": "Nov 13",
+          "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7B8M53647Q1KNRABY8VM2G7.png",
+          "icon": null,
+          "domain": "blog.cloudflare.com",
+          "hn": null,
+          "score": 3.574,
+          "coverage": 1
+        },
+        {
+          "title": "From OLAP to OLTP: How Copel Simplified Reverse ETL Using BigQuery's Native Export to AlloyDB",
+          "link": "https://cloud.google.com/blog/products/data-analytics/reverse-etl-bigquery-exports-to-alloydb/",
+          "excerpt": "Bridging the gap between analytical systems (OLAP) and transactional databases (OLTP) is notoriously complex. Synchronizing data between the two systems, often called Reverse ETL (Extract, Transform, Load), traditionally requires heavy middleware, staging buckets, and complex orchestration,…",
+          "source": "Cloud Blog",
+          "date": "Nov 13",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/From_OLAP_to_OLTP_-_Image_1.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 0.426,
+          "coverage": 1
+        },
+        {
+          "title": "How Thermo Fisher Scientific built AI-powered patient matching on AWS",
+          "link": "https://aws.amazon.com/blogs/architecture/how-thermo-fisher-scientific-built-ai-powered-patient-matching-on-aws/",
+          "excerpt": "Learn how Thermo Fisher Scientific built an AI-powered patient-matching platform on AWS, modernizing its clinical trial recruitment data foundation and using AWS Countdown Premium to de-risk the production launch.",
+          "source": "AWS Architecture Blog",
+          "date": "Nov 13",
+          "image": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/11/10/ARCHBLOG-1669-1.png",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 0.51,
+          "coverage": 1
+        },
+        {
+          "title": "Modular regression testing framework built on AWS for large-scale systems",
+          "link": "https://aws.amazon.com/blogs/architecture/modular-regression-testing-framework-built-on-aws-for-large-scale-systems/",
+          "excerpt": "Regression testing must catch behavior changes before they reach production, yet synthetic tests miss real-world edge cases. This post walks through a modular framework, built on AWS, that replays a sample of production traffic against new code and automatically gates deployments on the fraction…",
+          "source": "AWS Architecture Blog",
+          "date": "Nov 12",
+          "image": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/11/11/ARCHBLOG-1397-1.png",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 0.224,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+          "link": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+          "excerpt": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
+          "source": "TechCrunch",
+          "date": "Nov 13",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/chatgpt-wallet.jpg?resize=1200,729",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
+          "hn": null,
+          "score": 3.421,
+          "coverage": 1
+        },
+        {
+          "title": "AI agent startup LangChain hits $3B valuation",
+          "link": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+          "excerpt": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
+          "source": "TechCrunch",
+          "date": "Nov 13",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/Raising-money.jpg?resize=1200,829",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
+          "hn": null,
+          "score": 3.576,
+          "coverage": 1
+        },
+        {
+          "title": "Anthropic Upgrades Claude Code Projects to Run Parallel AI Workers Hands-Free",
+          "link": "https://alphasignal.ai/news/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free",
+          "excerpt": "Claude Code Projects coordinator is now proactive, answering questions and pushing thread status updates in chat.",
+          "source": "alphasignal.ai via Hacker News",
+          "date": "Nov 14",
+          "image": "https://api.alphasignal.ai/api/news/preview/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free/v2/card.jpg",
+          "icon": "https://alphasignal.ai/apple-icon.png?1826b84d5c6eda38",
+          "domain": "alphasignal.ai",
+          "hn": "22 points · 4 comments",
+          "score": 6.121,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+          "excerpt": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard…",
+          "source": "The Verge",
+          "date": "Nov 13",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS539_AI_AGENTS_SHOPPING_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "icon": null,
+          "domain": "theverge.com",
+          "hn": null,
+          "score": 2.927,
+          "coverage": 1
+        },
+        {
+          "title": "Amazon has a plan to index the world’s online shopping data",
+          "link": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+          "excerpt": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers…",
+          "source": "The Verge",
+          "date": "Nov 13",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/acastro_STK103__03.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "icon": null,
+          "domain": "theverge.com",
+          "hn": null,
+          "score": 2.627,
+          "coverage": 1
+        },
+        {
+          "title": "FAA lifted National Ground Stop at 0119Z",
+          "link": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11142026&advn=5",
+          "excerpt": "FAA - Advisories Database",
+          "source": "fly.faa.gov via Hacker News",
+          "date": "Nov 14",
+          "image": null,
+          "icon": "https://www.fly.faa.gov/favicon.ico",
+          "domain": "fly.faa.gov",
+          "hn": "74 points · 34 comments",
+          "score": 13.832,
+          "coverage": 4
+        },
+        {
+          "title": "Ukraine knocks out 36% of Russia's oil refining capacity in under two weeks",
+          "link": "https://english.nv.ua/nation/thirteen-day-drone-blitz-paralyzes-36-of-moscow-s-oil-50658616.html",
+          "excerpt": "Ukrainian drone strikes knocked out 36% of Russia’s total oil refining capacity in less than two weeks, hitting at least nine major refineries between Oct. 30 and Nov. 11, defense manufacturer Fire Point reported on Nov. 12.",
+          "source": "english.nv.ua via Hacker News",
+          "date": "Nov 14",
+          "image": "https://static.nv.ua/shared/system/Article/posters/003/400/667/original/641dcb95ac384dd3b9c9b9adde85bff0.png?q=85&stamp=20261112140909&f=webp",
+          "icon": "https://english.nv.ua/favicon/apple-touch-icon.png?new",
+          "domain": "english.nv.ua",
+          "hn": "85 points · 17 comments",
+          "score": 4.164,
+          "coverage": 1
+        },
+        {
+          "title": "Amtrak booking system experiencing major issues amid nationwide FAA ground stop",
+          "link": "https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026",
+          "excerpt": "102 points · 30 comments",
+          "source": "fox5dc.com via Hacker News",
+          "date": "Nov 14",
+          "image": "https://images.foxtv.com/static.fox5dc.com/www.fox5dc.com/content/uploads/2026/11/1200/630/gettyimages-2296656867.jpg?ve=1&tl=1",
+          "icon": "https://static.foxtv.com/static/orion/img/wttg/favicons/apple-touch-icon-57x57.png",
+          "domain": "fox5dc.com",
+          "hn": "102 points · 30 comments",
+          "score": 13.832,
+          "coverage": 4
+        }
+      ]
+    }
+  ]
+}

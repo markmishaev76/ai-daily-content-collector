@@ -161,6 +161,12 @@
   "icon": "https://allmodels.io/assets/favicon.png",
   "image": "https://allmodels.io/assets/og/llm-abliterated-pixels-v1.png"
  },
+ "https://alphasignal.ai/news/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free": {
+  "description": "Claude Code Projects coordinator is now proactive, answering questions and pushing thread status updates in chat.",
+  "fetched": "2026-11-14",
+  "icon": "https://alphasignal.ai/apple-icon.png?1826b84d5c6eda38",
+  "image": "https://api.alphasignal.ai/api/news/preview/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free/v2/card.jpg"
+ },
  "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/": {
   "description": "Alpine Linux",
   "fetched": "2026-11-06",
@@ -695,6 +701,12 @@
   "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
   "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Google_Cloud_Consulting.max-2500x2500.jpg"
  },
+ "https://cloud.google.com/blog/topics/hpc/whats-new-in-hpc-and-ai-at-sc26/": {
+  "description": "Learn about how Google Cloud is bringing agentic HPC to life at SC26 with reusable skills to build and run HPC workloads.",
+  "fetched": "2026-11-14",
+  "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
+  "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/High_Performance_Computing.max-2500x2500.jpg"
+ },
  "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model": {
   "description": "Discover how untrusted open-weight AI models can potentially leak data, even when self-hosted. Learn the security risks and how to protect your enterprise.",
   "fetched": "2026-10-27",
@@ -1204,6 +1216,12 @@
   "fetched": "2026-10-26",
   "icon": "https://static.elpais.com/dist/resources/images/apple-touch-icon.png",
   "image": "https://imagenes.elpais.com/resizer/v2/Z2NRV74JRFELXKGOA4YPJSRCYE.jpg?auth=f82f480c9b7758dc053ecb8eb8bdd27801d38540edd0f42713348072e744d11e&width=1200"
+ },
+ "https://english.nv.ua/nation/thirteen-day-drone-blitz-paralyzes-36-of-moscow-s-oil-50658616.html": {
+  "description": "Ukrainian drone strikes knocked out 36% of Russia’s total oil refining capacity in less than two weeks, hitting at least nine major refineries between Oct. 30 and Nov. 11, defense manufacturer Fire Point reported on Nov. 12.",
+  "fetched": "2026-11-14",
+  "icon": "https://english.nv.ua/favicon/apple-touch-icon.png?new",
+  "image": "https://static.nv.ua/shared/system/Article/posters/003/400/667/original/641dcb95ac384dd3b9c9b9adde85bff0.png?q=85&stamp=20261112140909&f=webp"
  },
  "https://erikgahner.github.io/posts/2026/awesome-repositories-are-no-longer-awesome/": {
   "description": "Erik Gahner Larsen",
@@ -1787,6 +1805,18 @@
   "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
   "image": "https://a-us.storyblok.com/f/1022730/1200x630/70ad706ff3/62fde979-5ae8-429c-96b0-2d539aeb6b5d.jpeg/m/1200x630/filters:quality(80)/"
  },
+ "https://grafana.com/blog/whats-new-in-pyroscope-profile-more-of-your-workflows-troubleshoot-with-ai-agents-and-more/": {
+  "description": "Find performance bottlenecks faster with the latest Pyroscope updates, including broader profiling support, AI agent workflows, and new ways to visualize your profiling data.",
+  "fetched": "2026-11-14",
+  "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
+  "image": "https://a-us.storyblok.com/f/1022730/1200x630/053442e11a/pyroscope-updates-meta.jfif"
+ },
+ "https://grounds.top/": {
+  "description": "Watch U.S. skies empty after the Nov 13, 2026 ground stop. Flights airborne against a normal Friday, departures, and the backlog at major airports.",
+  "fetched": "2026-11-14",
+  "icon": "https://grounds.top/apple-touch-icon.png",
+  "image": "https://grounds.top/og.png"
+ },
  "https://hachyderm.io/@damienmiller/117563026759098135": {
   "description": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability. https://openssh.com/releasenotes.html#10.6p2 If you operate a Linux system that uses musl libc without PAM (Alpine Linux is one example) then stop reading and set PasswordAuthentication=no or disable SSH for these systems IMMEDIATELY. This vulnerability does not exist on non-Linux systems, Linux/glibc systems and Linux systems that use PAM for password authentication. We consider the root cause of this bug to be outside OpenSSH itself, but we're in a good position to deliver a mitigation quickly. We are making this release as fast as possible (we learned of the problem yesterday) because we have recently observed multiple cases of rapid bug rediscovery by AI agents, sometimes within hours, and so now consider long embargo periods to be a dangerous practice that primarily benefits attackers. Thanks for Özgün Kültekin of Wakefield (wakefield.co) for reporting this problem to us and for the Alpine Linux developers for making an updated release available at very short notice.",
   "fetched": "2026-11-05",
@@ -1864,6 +1894,12 @@
   "fetched": "2026-11-07",
   "icon": null,
   "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/OAJMu2jr7i5jVAbmsKdZW.jpeg"
+ },
+ "https://huggingface.co/blog/allenai/xybench": {
+  "description": "A Blog post by Ai2 on Hugging Face",
+  "fetched": "2026-11-14",
+  "icon": null,
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/aOWdQgZ8ioJcx9Eii4iob.png"
  },
  "https://huggingface.co/blog/amazon/higher-order-pruning-experts": {
   "description": "A Blog post by Amazon on Hugging Face",
@@ -1960,6 +1996,12 @@
   "fetched": "2026-10-29",
   "icon": null,
   "image": "https://cdn-uploads.huggingface.co/production/uploads/68127936de624fb6f57d9989/3vFxCEUXz_xJVrTBr4hNr.jpeg"
+ },
+ "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place": {
+  "description": "A Blog post by NVIDIA on Hugging Face",
+  "fetched": "2026-11-14",
+  "icon": null,
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/6abfe9e7d7cf09a9b38ef308/HFZWtQ2i9VN_agjeUw2HB.gif"
  },
  "https://huggingface.co/blog/qvac/botpsy": {
   "description": "A Blog post by QVAC on Hugging Face",
@@ -2603,6 +2645,12 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/business/customer-stories/shield": {
+  "description": null,
+  "fetched": "2026-11-14",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/a-thousand-fewer-paths-to-root": {
   "description": null,
   "fetched": "2026-11-05",
@@ -2804,6 +2852,12 @@
  "https://openai.com/index/introducing-businesses-chatgpt": {
   "description": null,
   "fetched": "2026-11-11",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/introducing-chatgpt-wallet": {
+  "description": null,
+  "fetched": "2026-11-14",
   "icon": null,
   "image": null
  },
@@ -3191,6 +3245,12 @@
   "icon": null,
   "image": null
  },
+ "https://reproducible-builds.org/reports/2026-10/": {
+  "description": null,
+  "fetched": "2026-11-14",
+  "icon": "https://reproducible-builds.org/assets/images/favicon.png",
+  "image": null
+ },
  "https://rikiyat.github.io/blog/weight-space-programming/": {
   "description": "We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights, well past what we’d expect from humans or conventional algorithms.",
   "fetched": "2026-11-03",
@@ -3326,6 +3386,12 @@
  "https://simonwillison.net/2026/Nov/11/llm/": {
   "description": "Access large language models from the command-line",
   "fetched": "2026-11-12",
+  "icon": null,
+  "image": null
+ },
+ "https://simonwillison.net/2026/Nov/13/datasette-leaflet/": {
+  "description": "Datasette plugin adding the Leaflet JavaScript library",
+  "fetched": "2026-11-14",
   "icon": null,
   "image": null
  },
@@ -3635,11 +3701,23 @@
   "icon": "https://stackoverflow.blog/apple-touch-icon.png",
   "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format"
  },
+ "https://stackoverflow.blog/2026/11/12/how-do-you-hire-a-human-q-and-a-with-tom-harvey-stack-overflow-technical-recruiter/": {
+  "description": "Everybody's resume is perfect now, so how do you find the perfect teammate?",
+  "fetched": "2026-11-14",
+  "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+  "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/751dae65e9dfa3fa920e2e69dd68f6a3b9970f5b-12000x6293.jpg?rect=7,0,11987,6293&w=1200&h=630&auto=format"
+ },
  "https://stackoverflow.blog/2026/11/13/agentic-doesn-t-find-pages-it-assembles-answers/": {
   "description": "Ryan sits down with Jeff Wang, co-founder at EXA, to talk about the huge scale required to support trillions of agentic searches, the technical complexities of building custom embeddings and performant vector databases from scratch, and the need to dedupe the massive amounts of redundant content on the web to deliver high-trust answers.",
   "fetched": "2026-11-13",
   "icon": "https://stackoverflow.blog/apple-touch-icon.png",
   "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format"
+ },
+ "https://stackoverflow.blog/2026/11/13/your-coding-agent-shouldn-t-grade-its-own-homework/": {
+  "description": "AI coding agents can now write design docs, mock up frontends, and implement entire projects end to end. But can they be trusted to verify that their own code actually works?",
+  "fetched": "2026-11-14",
+  "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+  "image": null
  },
  "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/": {
   "description": "The AI company pirated at least 10 Stanford academics’ work in a $1.5 billion copyright settlement.",
@@ -3754,6 +3832,12 @@
   "fetched": "2026-11-05",
   "icon": "https://streamvessel.com/favicon.ico",
   "image": "https://streamvessel.com/images/blog/mcp-trusted-redirect-uris/social.png"
+ },
+ "https://sunshowers.io/posts/glue-work/": {
+  "description": "Seeing like a big tech employer.",
+  "fetched": "2026-11-14",
+  "icon": "https://sunshowers.io/img/apple-touch-icon-144-precomposed.png",
+  "image": "https://sunshowers.io/images/og-image.png"
  },
  "https://sunshowers.io/posts/sshole/": {
   "description": "Bad type systems feed into bad engineering norms.",
@@ -3959,6 +4043,18 @@
   "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
   "image": "https://techcrunch.com/wp-content/uploads/2023/10/misbahfarah-together.jpg?resize=1200,676"
  },
+ "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/": {
+  "description": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
+  "fetched": "2026-11-14",
+  "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/Raising-money.jpg?resize=1200,829"
+ },
+ "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/": {
+  "description": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
+  "fetched": "2026-11-14",
+  "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/chatgpt-wallet.jpg?resize=1200,729"
+ },
  "https://tendrils.co/blog/2026-11-10/30m-raised": {
   "description": null,
   "fetched": "2026-11-11",
@@ -4012,6 +4108,12 @@
   "fetched": "2026-11-06",
   "icon": "https://thinkingmachines.ai/images/apple-touch-icon.png",
   "image": "https://thinkingmachines.ai/news/inkling-2-small/images/cover-social.png"
+ },
+ "https://thunderseethe.dev/posts/ml-modules-for-mere-mortals/intro/": {
+  "description": "An introduction and explanation to the ML module system",
+  "fetched": "2026-11-14",
+  "icon": "https://thunderseethe.dev/images/apple-touch-icon.png",
+  "image": null
  },
  "https://tis-100.wincon.dev/": {
   "description": "16 LLMs took on TIS-100's community leaderboard and found 133 new frontier points on 18 of 55 puzzles, including 3 outright cycle records.",
@@ -4571,6 +4673,12 @@
   "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
   "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/97d61b79f99af31d2596eced7533e6d5e3ef7731-2000x1125.jpg"
  },
+ "https://www.anthropic.com/research/building-strong-safety-evaluations": {
+  "description": "Recommendations for designing, running, and reporting safety evaluations, based on our own experiences.",
+  "fetched": "2026-11-14",
+  "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+  "image": "https://assets.claude.com/04a298be2efa241bd5a4a810b97c62bb8ef257dc.jpg"
+ },
  "https://www.anthropic.com/research/claude-electronics-design": {
   "description": "We asked Claude to design three electronic devices: a speakerphone, a voice-assistant hub, and a handheld virtual pet. The prototypes worked without any fixes to their circuitry.",
   "fetched": "2026-11-10",
@@ -5051,11 +5159,29 @@
   "icon": null,
   "image": "https://images.ctfassets.net/l47ir7rfykkn/1aRb9ODcl00Aa2hKN46DlJ/afd2ca9db1e59b93cc1b4adc09d47acb/Chainguard_Checks_Secure_and_reliable_CI.png"
  },
+ "https://www.chainguard.dev/unchained/help-every-tool-that-never-had-a-manual-page": {
+  "description": "AI coding agents need accurate CLI documentation. See how Chainguard makes command-line help searchable, version-specific, and accessible through MCP.",
+  "fetched": "2026-11-14",
+  "icon": null,
+  "image": "https://images.ctfassets.net/l47ir7rfykkn/2iMprcE7ORQF6WPLjxmary/8d49e23ae362c81f8c64980b2edfd7f2/--help_for_every_tool_that_never_had_a_manual_page.png"
+ },
+ "https://www.chainguard.dev/unchained/introducing-project-theseus-starting-with-challoc": {
+  "description": "Chainguard launches Project Theseus to move beyond reactive patching with safer open source components, starting with the Rust-based challoc allocator.",
+  "fetched": "2026-11-14",
+  "icon": null,
+  "image": "https://images.ctfassets.net/l47ir7rfykkn/1ZYE7BoVOqRzXuMDf28B2m/bbd079e4fa17b86be5702aa5c4535fbe/Project_Theseus_-_Dark.png"
+ },
  "https://www.chainguard.dev/unchained/rebuild-the-planet": {
   "description": "Patching can't keep pace with AI-discovered vulnerabilities. See how Chainguard plans to eliminate entire classes of security bugs by design.",
   "fetched": "2026-10-30",
   "icon": null,
   "image": "https://images.ctfassets.net/l47ir7rfykkn/1nQ1Vpwd7xHyDS1nWyWOMP/d284d7e13c67083f54e807ed2ac1e244/Rebuild_the_Planet_2.png"
+ },
+ "https://www.chainguard.dev/unchained/run-gitlab-certified-hardened-images-for-gitlab-enterprise-edition-with-the-security-of-chainguard": {
+  "description": "Secure GitLab Enterprise Edition with Chainguard's certified hardened container images, featuring minimal CVEs, signed SBOMs, and FIPS-ready options.",
+  "fetched": "2026-11-14",
+  "icon": null,
+  "image": "https://images.ctfassets.net/l47ir7rfykkn/6zNTXpKMy75FEbPMYDdASS/55b7cc12c09ebc983367ef1aa8d6960c/Run_GitLab-certified_hardened_images_for_GitLab_Enterprise_Edition_with_the_security_of_Chainguard.png"
  },
  "https://www.chainguard.dev/unchained/this-shit-is-hard-nobody-has-ever-been-pwned-by-helvetica-or-have-they": {
   "description": "Fonts are an overlooked software supply chain risk. Learn how Chainguard rebuilt thousands of fonts from source to improve security and trust.",
@@ -5357,11 +5483,23 @@
   "icon": "https://www.firezone.dev/apple-icon.png?apple-icon.1et4512dm-met.png",
   "image": "https://www.firezone.dev/blog/opengraph-image?dc0a4d310bb2b9d5"
  },
+ "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11142026&advn=5": {
+  "description": "FAA - Advisories Database",
+  "fetched": "2026-11-14",
+  "icon": null,
+  "image": null
+ },
  "https://www.foldableflight.com": {
   "description": "The world's largest database of paper airplanes with easy, step-by- step video tutorials for folding each plane!",
   "fetched": "2026-11-09",
   "icon": "https://static.wixstatic.com/media/3132ac_65e025518ab8461e870f7fbedd828714%7Emv2.jpg/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/3132ac_65e025518ab8461e870f7fbedd828714%7Emv2.jpg",
   "image": "https://static.wixstatic.com/media/0641fb_4ff6a49def494e379b4f3b585c4ac4a8%7Emv2_d_2482_1412_s_2.jpg/v1/fit/w_2500,h_1330,al_c/0641fb_4ff6a49def494e379b4f3b585c4ac4a8%7Emv2_d_2482_1412_s_2.jpg"
+ },
+ "https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026": {
+  "description": null,
+  "fetched": "2026-11-14",
+  "icon": "https://static.foxtv.com/static/orion/img/wttg/favicons/apple-touch-icon-57x57.png",
+  "image": "https://images.foxtv.com/static.fox5dc.com/www.fox5dc.com/content/uploads/2026/11/1200/630/gettyimages-2296656867.jpg?ve=1&tl=1"
  },
  "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f": {
   "description": null,
@@ -5765,6 +5903,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.mckinsey.com/industries/travel/our-insights/always-orbiting-how-consumers-plan-travel-experiences-now": {
+  "description": null,
+  "fetched": "2026-11-14",
+  "icon": null,
+  "image": null
+ },
  "https://www.mckinsey.com/industries/travel/our-insights/could-aviation-at-last-be-close-to-earning-its-wings": {
   "description": null,
   "fetched": "2026-11-06",
@@ -6125,6 +6269,12 @@
   "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
   "image": null
  },
+ "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-pacific-flying-squid-populations-dropping-in-korean-waters.html": {
+  "description": "Climate change is the issue. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.",
+  "fetched": "2026-11-14",
+  "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+  "image": null
+ },
  "https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html": {
   "description": "It’s a bad one, and it’s been in the code for a decade: A newly disclosed flaw involving OpenSSH and musl, dubbed “*sshole,” allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts configured to block password authentication simply by entering an oversized password. “Oversized” means longer than 256 bytes. Details. Slashdot thread. And another news article.",
   "fetched": "2026-11-11",
@@ -6263,6 +6413,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2023/12/Apache-exploit-scaled-e1724835583910.jpeg"
  },
+ "https://www.securityweek.com/apify-confirms-customer-data-accessed-in-cyberattack/": {
+  "description": "Apify confirms a cyberattack involving compromised credentials and unauthorized access to customer accounts and data.",
+  "fetched": "2026-11-14",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2025/02/data_breach.jpeg"
+ },
  "https://www.securityweek.com/asus-zoom-release-security-patches/": {
   "description": "Asus and Zoom have released security patches for critical- and high-severity vulnerabilities across their products.",
   "fetched": "2026-11-12",
@@ -6371,6 +6527,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/08/Citrix-vulnerability.jpeg"
  },
+ "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/": {
+  "description": "Citrix has patched critical-severity NetScaler vulnerabilities that could lead to unexpected behavior or denial-of-service (DoS).",
+  "fetched": "2026-11-14",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/08/Citrix-vulnerability.jpeg"
+ },
  "https://www.securityweek.com/critical-node-red-flaw-exploited-in-attacks/": {
   "description": "Hackers are exploiting CVE-2026-58115, a critical-severity Node-RED vulnerability, to deploy various payloads.",
   "fetched": "2026-11-03",
@@ -6418,6 +6580,12 @@
   "fetched": "2026-11-01",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Drupal.jpg"
+ },
+ "https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/": {
+  "description": "The FAA issued a nationwide ground stop for all U.S. airports on Friday afternoon, citing \"extraordinary circumstances\" with no mention of a cyberattack.",
+  "fetched": "2026-11-14",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/11/FAA_Cyberattack-Ground-Stop.jpg"
  },
  "https://www.securityweek.com/fbi-flags-over-600-addresses-tied-to-north-koreas-binance-heist/": {
   "description": "The FBI has officially pinned the $6 billion Binance hack on North Korea’s TraderTraitor as the attackers launder the stolen crypto.",
@@ -6581,6 +6749,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2025/11/Geopolitics-Cybersecurity.jpg"
  },
+ "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/": {
+  "description": "Law enforcement seized 235 servers and 257 domains associated with the Gootloader, CastleRAT, and StealC malware operations.",
+  "fetched": "2026-11-14",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/11/Gootloader-seized.webp"
+ },
  "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/": {
   "description": "Malicious LiteLLM packages were served on PyPI and Docker after hackers compromised GitHub CLI OAuth tokens.",
   "fetched": "2026-10-23",
@@ -6610,6 +6784,12 @@
   "fetched": "2026-11-13",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2023/06/Microsoft-DDoS-Attack.jpg"
+ },
+ "https://www.securityweek.com/microsoft-struggles-to-restore-email-and-other-services-in-a-global-outage/": {
+  "description": "Microsoft’s outage involving services like Outlook and Teams has dragged on from Thursday into Friday.",
+  "fetched": "2026-11-14",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Android-Microsoft_Apps-Flaw.jpg"
  },
  "https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge/": {
   "description": "Mirai botnet operators target PHP2Shell and VulnCheck bypasses ASLR, yet no successful PHP2Shell compromise has been confirmed.",
@@ -6737,6 +6917,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2025/12/funding-round.jpeg"
  },
+ "https://www.securityweek.com/silentair-hackers-intercept-calls-sms-from-inside-mobile-networks/": {
+  "description": "Enea details SilentAir's interception of calls and SMS through compromised mobile networks and possible links to Chinese hackers.",
+  "fetched": "2026-11-14",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2024/12/telecoms-communications.jpeg"
+ },
  "https://www.securityweek.com/software-transparency-is-changing-allan-friedman-on-sbom-ai-boms-and-what-comes-next/": {
   "description": "SBOM pioneer Allan Friedman joined the SecurityWeek Podcast to discuss how AI is complicating software supply chain visibility, and what organizations should be doing with SBOM data once they have it.",
   "fetched": "2026-11-11",
@@ -6836,6 +7022,12 @@
  "https://www.semiconductor-today.com/news_items/2026/oct/seoul-291026.shtml": {
   "description": "WICOP 3 targeted at AR glasses and AI datacoms applications",
   "fetched": "2026-11-02",
+  "icon": null,
+  "image": null
+ },
+ "https://www.slopmanifesto.com/": {
+  "description": "The No AI Slop Manifesto, from the speakers and attendees of AIE Code Summit 2026.",
+  "fetched": "2026-11-14",
   "icon": null,
   "image": null
  },
@@ -6941,6 +7133,12 @@
   "icon": "https://www.telegraph.co.uk/etc.clientlibs/settings/wcm/designs/telegraph/core/clientlibs/core/resources/icons/apple-touch-icon-180x180.png",
   "image": "https://www.telegraph.co.uk/content/dam/world-news/2026/11/04/TELEMMGLPICT000510367521_17937907750130_trans_NvBQzQNjv4Bq8jWyxvP9pmIYP_osKFfWzygOoV7jtqb1rQ6_6TwBR2U.jpeg?impolicy=OG-Standard"
  },
+ "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/": {
+  "description": null,
+  "fetched": "2026-11-14",
+  "icon": null,
+  "image": null
+ },
  "https://www.theatlantic.com/magazine/2026/12/location-tracking-apps-parental-surveillance/689031/": {
   "description": null,
   "fetched": "2026-11-10",
@@ -6976,6 +7174,12 @@
   "fetched": "2026-10-30",
   "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg",
   "image": "https://i.guim.co.uk/img/media/c88d8154f76fef59b24c916cab7348652d9f113c/481_0_4070_3256/master/4070.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=10860848b9ed5bb27829c20d7b32815d"
+ },
+ "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths": {
+  "description": "Kurt Gödel left 1,009 pages of densely written text – much of it in an obsolete shorthand – which is now said to contain hundreds of proved theorems",
+  "fetched": "2026-11-14",
+  "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg",
+  "image": "https://i.guim.co.uk/img/media/6eeccf216579fe2181ae737d30f31abd7590125c/210_58_1759_1407/master/1759.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=334efc63d7472a97d72be0ffd23af8bb"
  },
  "https://www.theguardian.com/technology/ng-interactive/2026/nov/13/universities-drop-flock-camera-contracts": {
   "description": "The privacy issues over the company’s surveillance cameras cause momentum in schools all over the country",
