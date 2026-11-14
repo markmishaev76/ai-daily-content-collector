@@ -2519,6 +2519,12 @@
   "icon": "https://momentic.ai/images/apple-touch-icon.png",
   "image": "https://momentic.ai/images/og/home.png"
  },
+ "https://monkeyisland.pages.dev/": {
+  "description": "Every version of The Secret of Monkey Island (1990) side by side: Hercules, CGA, EGA, VGA, Amiga, Atari ST, Macintosh, FM Towns and Sega CD. 8 editions, 13 display modes, the same 12 scenes.",
+  "fetched": "2026-11-14",
+  "icon": "https://monkeyisland.pages.dev/apple-touch-icon.png",
+  "image": "https://monkeyisland.pages.dev/og-image.jpg"
+ },
  "https://motherduck.com/blog/the-data-intelligence-engineer/": {
   "description": "For Data Teams, AI has changed everything. The traditional work can be run by agents, leaving folks wondering \"what's next\"? In this blog, MotherDuck CEO Jordan Tigani unpacks the possibilities. | Reading time: 12 min read",
   "fetched": "2026-11-13",
@@ -6856,6 +6862,12 @@
   "fetched": "2026-11-13",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/11/Nightmare-Eclipse.webp"
+ },
+ "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/": {
+  "description": "US officials found no evidence of hacking in the FAA outage that halted flights nationwide, as the FBI reportedly probes an update.",
+  "fetched": "2026-11-14",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/11/airplanes.jpeg"
  },
  "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages/": {
   "description": "Microsoft, Node.js, and Python package maintainers have patched Node2Shell (CVE-2026-111497), a critical Brotli decoder flaw.",
