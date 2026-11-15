@@ -1,0 +1,163 @@
+{
+  "week": "2026-W46",
+  "start": "2026-11-09",
+  "end": "2026-11-15",
+  "preview": false,
+  "days": [
+    {
+      "date": "2026-11-09",
+      "lead": {
+        "title": "Cloud CISO Perspectives: Our security forecast for 2027",
+        "link": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-our-security-forecast-2027/",
+        "source": "Security & Identity",
+        "section": "Agent Identity & Authorization"
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "lead": {
+        "title": "Software correctness & supply chain security, with Sean Allen",
+        "link": "https://newsletter.pragmaticengineer.com/p/software-correctness",
+        "source": "The Pragmatic Engineer",
+        "section": "AI-Assisted Engineering"
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "lead": {
+        "title": "Ring robots ready to patrol paranoids’ pads",
+        "link": "https://www.theregister.com/offbeat/2026/11/10/ring-robots-ready-to-patrol-paranoids-pads/5308932",
+        "source": "The Register",
+        "section": "AI Agents & Agent Security"
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "lead": {
+        "title": "Coding Agent Security for AppSec Leaders: Start With What Agents Can Reach",
+        "link": "https://blog.gitguardian.com/coding-agent-security-appsec/",
+        "source": "GitGuardian",
+        "section": "Secrets & NHI"
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "lead": {
+        "title": "wfx-loot: Stolen GitHub tokens pushed a CI secret stealer into 60,000+ repositories (November 2026)",
+        "link": "https://www.chainguard.dev/unchained/wfx-loot-stolen-github-tokens-pushed-a-ci-secret-stealer-into-60-000-repositories-november-2026",
+        "source": "Chainguard: Unchained",
+        "section": "Secrets & NHI"
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "lead": {
+        "title": "Reproducible Builds in October 2026",
+        "link": "https://reproducible-builds.org/reports/2026-10/",
+        "source": "reproducible-builds.org",
+        "section": "Supply Chain & Builds"
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "lead": {
+        "title": "Cursor confirms security breach led to malicious Claude Code extension",
+        "link": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+        "source": "BleepingComputer",
+        "section": "Security & AppSec"
+      }
+    }
+  ],
+  "top": [
+    {
+      "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+      "source": "BleepingComputer",
+      "section": "Security & AppSec",
+      "date": "2026-11-13",
+      "coverage": 2,
+      "score": 7.87
+    },
+    {
+      "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
+      "link": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+      "source": "The Hacker News",
+      "section": "Security & AppSec",
+      "date": "2026-11-12",
+      "coverage": 2,
+      "score": 6.597
+    },
+    {
+      "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+      "link": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
+      "source": "The Hacker News",
+      "section": "Security & AppSec",
+      "date": "2026-11-11",
+      "coverage": 2,
+      "score": 2.959
+    },
+    {
+      "title": "Terminal-Bench 4.1 hardens the verifiers behind the scores",
+      "link": "https://s46486.pcdn.co/blog/terminal-bench-4-1-hardens-the-verifiers-behind-the-scores/",
+      "source": "Snorkel AI",
+      "section": "AI-Assisted Engineering",
+      "date": "2026-11-10",
+      "coverage": 2,
+      "score": 2.851
+    },
+    {
+      "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
+      "link": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
+      "source": "The Hacker News",
+      "section": "Security & AppSec",
+      "date": "2026-11-10",
+      "coverage": 2,
+      "score": 2.555
+    },
+    {
+      "title": "Introducing ChatGPT Wallet",
+      "link": "https://openai.com/index/introducing-chatgpt-wallet",
+      "source": "OpenAI News",
+      "section": "AI Agents & Agent Security",
+      "date": "2026-11-14",
+      "coverage": 2,
+      "score": 1.766
+    },
+    {
+      "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+      "link": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+      "source": "The Hacker News",
+      "section": "Security & AppSec",
+      "date": "2026-11-13",
+      "coverage": 2,
+      "score": 0.685
+    },
+    {
+      "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
+      "link": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
+      "source": "The Hacker News",
+      "section": "Security & AppSec",
+      "date": "2026-11-13",
+      "coverage": 2,
+      "score": 0.656
+    },
+    {
+      "title": "Argo Rollouts 1.11 release candidate",
+      "link": "https://blog.argoproj.io/argo-rollouts-1-11-release-candidate-943cc8de8696?source=rss----21be29067291---4",
+      "source": "Argo Project - Medium",
+      "section": "Platform, Cloud & Reliability",
+      "date": "2026-11-09",
+      "coverage": 1,
+      "score": 7.967
+    },
+    {
+      "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
+      "link": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
+      "source": "SecurityWeek",
+      "section": "Security & AppSec",
+      "date": "2026-11-13",
+      "coverage": 1,
+      "score": 7.444
+    }
+  ]
+}

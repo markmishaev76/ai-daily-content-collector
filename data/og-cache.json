@@ -551,6 +551,12 @@
   "icon": "https://blog.orange.tw/images/apple-touch-icon.png",
   "image": "https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/pwnie-award-2026.webp"
  },
+ "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/": {
+  "description": "PyPI now makes it simple to check where release files come from, with a dedicated security tab, a rebuilt release files tab, and refreshed documentation.",
+  "fetched": "2026-11-15",
+  "icon": "https://blog.pypi.org/assets/favicon.ico",
+  "image": "https://blog.pypi.org/assets/images/social/posts/2026-11-06-ui-updates-complete.png"
+ },
  "https://blog.raed.dev/posts/proton-loser-thinking/": {
   "description": "Proton's CEO called a request for security testing \"loser thinking\". Using AI to write code is fine, but for a privacy company, the guardrails around that code are the product.",
   "fetched": "2026-11-02",
@@ -3257,6 +3263,12 @@
   "icon": "https://projectzero.google/images/project-zero.svg",
   "image": "https://projectzero.google/images/preview_image.png"
  },
+ "https://projectzero.google/2026/11/disclosure-policy.html": {
+  "description": "Since 2021, Project Zero has followed a â90 + 30â vulnerability disclosure policy, allowing vendo...",
+  "fetched": "2026-11-15",
+  "icon": "https://projectzero.google/images/project-zero.svg",
+  "image": "https://projectzero.google/images/preview_image.png"
+ },
  "https://pron.github.io/posts/correctness-and-complexity": {
   "description": "We try to understand the relationship between programs and correctness, and in particular, why writing correct programs must be hard. We will review results from computability theory and complexity theory, and see that programs and complete understanding – which is required for correctness – are fundamentally at odds.",
   "fetched": "2026-11-12",
@@ -3316,6 +3328,12 @@
   "fetched": "2026-11-14",
   "icon": "https://www.gstatic.com/images/branding/googleg_gradient/1x/googleg_gradient_standard_20dp.png",
   "image": "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg"
+ },
+ "https://retrocomputing.stackexchange.com/questions/17957": {
+  "description": null,
+  "fetched": "2026-11-15",
+  "icon": null,
+  "image": null
  },
  "https://rikiyat.github.io/blog/weight-space-programming/": {
   "description": "We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights, well past what we’d expect from humans or conventional algorithms.",
@@ -4895,6 +4913,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2023/03/24/ChatGPT__headpic.jpg"
  },
+ "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/": {
+  "description": "Cryptocurrency hardware wallet maker Trezor has confirmed that three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants designed to steal wallet recovery phrases and send them to attackers over cellular networks.",
+  "fetched": "2026-11-15",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/09/07/Trezor.jpg"
+ },
  "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-7-new-tools-desktop-updates/": {
   "description": "Kali Linux has released version 2026.3, its third release this year, featuring six new hacking tools, desktop environment improvements, refreshed build scripts, and more.",
   "fetched": "2026-10-26",
@@ -4906,6 +4930,12 @@
   "fetched": "2026-11-13",
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2025/07/25/Microsoft-365.jpg"
+ },
+ "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/": {
+  "description": "Microsoft warned customers earlier this week that the November 2026 security updates may break printing for documents with complex formatting.",
+  "fetched": "2026-11-15",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/10/28/Microsoft.jpg"
  },
  "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/": {
   "description": "AI agents can control authenticated browsers, interact with corporate applications, and access sensitive data while appearing to act as legitimate employees. Keep Aware examines three ways agents operate inside browsers and why traditional security tools may struggle to distinguish their activity from human users.",
@@ -4955,6 +4985,18 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2026/11/06/0_Chainalysis.jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/": {
+  "description": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts.",
+  "fetched": "2026-11-15",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/10/26/PHP.jpg"
+ },
+ "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/": {
+  "description": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October.",
+  "fetched": "2026-11-15",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/09/18/Check-Point-headpic.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/": {
   "description": "Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framework, in attacks against more than 200 organizations across 14 countries.",
   "fetched": "2026-11-03",
@@ -4966,6 +5008,12 @@
   "fetched": "2026-11-08",
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/posts/2026/11/06/ctm360-gift-card-scam.jpg"
+ },
+ "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/": {
+  "description": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI.",
+  "fetched": "2026-11-15",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2025/07/13/cursor-header.jpg"
  },
  "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/": {
   "description": "PHP2Shell shows how quickly attackers can exploit critical vulnerabilities, often before organizations have time to patch. Token Security explains why limiting the access of service accounts, API keys, and AI agents is just as important as fixing vulnerabilities to reduce the damage from a breach.",
@@ -5002,6 +5050,12 @@
   "fetched": "2026-11-03",
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/posts/2026/10/28/future-soc-roles-header.jpg"
+ },
+ "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/": {
+  "description": "German defense technology company Quantum Systems confirmed that it detected an incident in late October that was part of an active cyberattack by \"hostile actors.\"",
+  "fetched": "2026-11-15",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/11/13/quantumsystems.jpg"
  },
  "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/": {
   "description": "Google and industry partners have dismantled the XCPE malware botnet consisting of more than 1.3 million Android TV streaming TV boxes that Google says its manufacturer intentionally infected with malware to generate revenue through cybercrime activities.",
@@ -5117,6 +5171,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/posts/2026/11/09/dont-dumb-down-your-ai.jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/": {
+  "description": "The U.S. government has disrupted a North Korean social engineering campaign called 'FaceStealer', responsible for stealing more than $400 million in cryptocurrency.",
+  "fetched": "2026-11-15",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/10/21/DPRK.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/": {
   "description": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure.",
   "fetched": "2026-10-28",
@@ -5176,6 +5236,12 @@
   "fetched": "2026-11-13",
   "icon": "https://www.businessinsider.com/public/assets/BI/US/favicons/apple-touch-icon-180x180.png?v=2025-05",
   "image": "https://i.insider.com/6af486880cc3ffba8779beeb?width=1200&format=jpeg"
+ },
+ "https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379": {
+  "description": null,
+  "fetched": "2026-11-15",
+  "icon": null,
+  "image": null
  },
  "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287": {
   "description": null,
@@ -5651,6 +5717,12 @@
   "icon": "https://www.keepingup.com/keeping-up-icon-180.png",
   "image": "https://www.keepingup.com/benchmarks/opengraph-image"
  },
+ "https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-statement-nov-13-ground-stop": {
+  "description": "L3Harris has been modernizing the communications infrastructure supporting the National Airspace System in close coordination with the FAA.",
+  "fetched": "2026-11-15",
+  "icon": "https://www.l3harris.com/themes/custom/l3harris/favicon.ico",
+  "image": "https://www.l3harris.com/sites/default/files/2025-08/event-stealth-white-nexus-teaser.jpg"
+ },
  "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL": {
   "description": null,
   "fetched": "2026-11-06",
@@ -6053,6 +6125,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.netmeister.org/blog/claude-delusion.html": {
+  "description": "I'm smarter than anybody else. I built AI, ergo AI is amazing. But AI surprised me, too, ergo AI is by definition superhuman. It all makes sense, see.",
+  "fetched": "2026-11-15",
+  "icon": null,
+  "image": "https://www.netmeister.org/blog/images/claude-delusion.jpg"
+ },
  "https://www.netmeister.org/blog/defense-ddos.html": {
   "description": "Cyber Defense teams are suffering a DDoS; vulnerability management is no longer able to keep up with the onslaught of findings, reports, nor hype. The current situation is simply not sustainable.",
   "fetched": "2026-10-28",
@@ -6368,6 +6446,12 @@
  "https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html": {
   "description": "It’s hard to believe how lucrative this crime can be: According to a press release from the United States attorney’s office for the southern district of New York, three men ­ Jacob Soall, Sharon Hazan, and Guy Sheetrit ­ were arrested for using AI to alter and impersonate the voices and images of executives and attorneys at various companies in order to convince employees to send over large payments. Soall and Hazan were arrested in Spain over the summer, while Sheetrit was arrested in the United Kingdom in September. The alleged fraud took place between 2024 and 2026...",
   "fetched": "2026-11-12",
+  "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+  "image": null
+ },
+ "https://www.schneier.com/blog/archives/2026/11/upcoming-speaking-engagements-62.html": {
+  "description": "This is a current list of where and when I am scheduled to speak: I’m speaking at the Catalyst Summit in Brampton, Ontario, Canada, on Wednesday, November 18, 2026. I’m speaking at QT Qonference 2026 in Toronto, Ontario, Canada, on Thursday, November 19, 2026. The list is maintained on this page.",
+  "fetched": "2026-11-15",
   "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
   "image": null
  },
@@ -6815,6 +6899,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/11/Iris-Plaza.webp"
  },
+ "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/": {
+  "description": "How is AI changing the way cybersecurity professionals think and communicate? Josh Goldfarb explores what the industry risks losing as it relies on AI.",
+  "fetched": "2026-11-15",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/04/Artificial-intelligence-AI.jpeg"
+ },
  "https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/": {
   "description": "Italian Foreign Minister Antonio Tajani said his personal data had been disseminated on the dark web by pro-Russian hackers.",
   "fetched": "2026-11-10",
@@ -7133,6 +7223,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.spacex.com/launches/starship-flight-15": {
+  "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft.",
+  "fetched": "2026-11-15",
+  "icon": "https://www.spacex.com/launches/assets/favicon-spacex.ico",
+  "image": "https://www.spacex.com/assets/images/share.jpg"
+ },
  "https://www.spacex.com/starfall": {
   "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft.",
   "fetched": "2026-11-05",
@@ -7223,6 +7319,12 @@
   "icon": "https://www.techspot.com/images/ts3mobile-badge.png",
   "image": "https://www.techspot.com/images2/news/bigimage/2026/11/2026-11-12-image-7.jpg"
  },
+ "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html": {
+  "description": "A recent Wall Street Journal profile of Nvidia interim CEO Colette Kress has shed more light on how Nvidia controversially financed its own customers to drive the...",
+  "fetched": "2026-11-15",
+  "icon": "https://www.techspot.com/images/ts3mobile-badge.png",
+  "image": "https://www.techspot.com/images2/news/bigimage/2025/01/2025-01-08-image-3.jpg"
+ },
  "https://www.telegraph.co.uk/world-news/2026/11/04/hackers-hit-french-blood-bank/": {
   "description": "Cold storage facilities affected during attack targeting refrigeration systems throughout Europe",
   "fetched": "2026-11-04",
@@ -7258,6 +7360,12 @@
   "fetched": "2026-10-31",
   "icon": "https://substackcdn.com/image/fetch/$s_!foQf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb98ab605-be40-4612-8493-dd79bce9c716%2Fapple-touch-icon-57x57.png",
   "image": "https://substackcdn.com/image/fetch/$s_!ZgR_!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F37133ce1-424f-47a3-a941-9ca5017b2df7_1694x490.png"
+ },
+ "https://www.thedartmouth.com/article/2026/11/gandhi-fagell-guarini-will-not-admit-math-ph-d-cohort-this-year": {
+  "description": "Faculty raised concerns about the program’s suspension at the general faculty meeting on Nov. 9. A College spokesperson declined to answer questions about when applications would resume.",
+  "fetched": "2026-11-15",
+  "icon": "https://d17odh4hb0gp5r.cloudfront.net/d3bbc47016cb340b43df713d5d497b1f/dist/img/favicons/apple-icon-57x57.png",
+  "image": "https://snworksceo.imgix.net/drt/f42dabdd-cdb4-4bb9-b3b1-cdbee8f8a198.sized-1000x1000.jpg?w=800&h=600"
  },
  "https://www.theguardian.com/books/2026/nov/09/m-john-harrison-the-end-of-everything-wins-2026-booker-prize": {
   "description": "The 81-year-old’s postapocalyptic novel The End of Everything takes home the £50,000 award",
@@ -7539,6 +7647,12 @@
   "description": null,
   "fetched": "2026-11-03",
   "icon": "https://www.youtube.com/s/desktop/92ead095/img/favicon_32x32.png",
+  "image": null
+ },
+ "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/": {
+  "description": null,
+  "fetched": "2026-11-15",
+  "icon": null,
   "image": null
  }
 }
