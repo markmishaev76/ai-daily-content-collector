@@ -13,23 +13,11 @@
     "note": null,
     "labels": [
       "Security & AppSec",
-      "8h ago"
+      "10h ago"
     ],
     "also": []
   },
   "pulse": [
-    {
-      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
-      "thread": "https://news.ycombinator.com/item?id=50493251",
-      "link": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-      "link_domain": "techpowerup.com",
-      "source": "Hacker News",
-      "domain": "techpowerup.com",
-      "meta": "Hacker News · 1k points · 621 comments · 23h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://www.techpowerup.com/favicon.ico"
-    },
     {
       "title": "PyPI's redesigned project pages with clearer security signals are now live",
       "thread": "https://news.ycombinator.com/item?id=50497892",
@@ -37,7 +25,7 @@
       "link_domain": "blog.pypi.org",
       "source": "Hacker News",
       "domain": "blog.pypi.org",
-      "meta": "Hacker News · 206 points · 93 comments · 10h ago",
+      "meta": "Hacker News · 218 points · 95 comments · 12h ago",
       "also": [],
       "image": "https://blog.pypi.org/assets/images/social/posts/2026-11-06-ui-updates-complete.png",
       "icon": "https://blog.pypi.org/assets/favicon.ico"
@@ -49,7 +37,7 @@
       "link_domain": "projectzero.google",
       "source": "Hacker News",
       "domain": "projectzero.google",
-      "meta": "Hacker News · 165 points · 44 comments · 14h ago",
+      "meta": "Hacker News · 196 points · 58 comments · 16h ago",
       "also": [],
       "image": "https://projectzero.google/images/preview_image.png",
       "icon": "https://projectzero.google/images/project-zero.svg"
@@ -61,22 +49,10 @@
       "link_domain": "netmeister.org",
       "source": "Hacker News",
       "domain": "netmeister.org",
-      "meta": "Hacker News · 145 points · 182 comments · 12h ago",
+      "meta": "Hacker News · 146 points · 183 comments · 14h ago",
       "also": [],
       "image": "https://www.netmeister.org/blog/images/claude-delusion.jpg",
       "icon": "https://www.netmeister.org/favicon.ico"
-    },
-    {
-      "title": "Security Agencies Worldwide Found to Use Ad-Based Surveillance System",
-      "thread": "https://news.ycombinator.com/item?id=50492950",
-      "link": "https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/",
-      "link_domain": "citizenlab.ca",
-      "source": "Hacker News",
-      "domain": "citizenlab.ca",
-      "meta": "Hacker News · 143 points · 14 comments · 23h ago",
-      "also": [],
-      "image": "https://citizenlab.ca/wp-content/uploads/2025/10/Social-Share.jpg",
-      "icon": "https://citizenlab.ca/wp-content/uploads/2025/10/cropped-Favicon-Large-180x180.png"
     }
   ],
   "sections": [
@@ -93,7 +69,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 1.276,
+          "score": 1.117,
           "coverage": 1
         },
         {
@@ -106,7 +82,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.859,
+          "score": 0.784,
           "coverage": 1
         }
       ],
@@ -125,7 +101,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.712,
+          "score": 0.65,
           "coverage": 1
         }
       ],
@@ -144,7 +120,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.373,
+          "score": 0.345,
           "coverage": 1
         },
         {
@@ -157,7 +133,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.394,
+          "score": 0.362,
           "coverage": 1
         },
         {
@@ -170,7 +146,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.212,
+          "score": 0.202,
           "coverage": 1
         }
       ],
@@ -185,7 +161,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.202,
+          "score": 0.193,
           "coverage": 1
         },
         {
@@ -198,7 +174,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 1.377,
+          "score": 1.319,
           "coverage": 1
         },
         {
@@ -211,7 +187,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.181,
+          "score": 0.174,
           "coverage": 1
         },
         {
@@ -224,7 +200,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 1.227,
+          "score": 1.18,
           "coverage": 1
         }
       ]
@@ -232,6 +208,19 @@
     {
       "name": "Platform, Cloud & Reliability",
       "cards": [
+        {
+          "title": "What’s new with Google Cloud",
+          "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
+          "excerpt": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip: Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud…",
+          "source": "Cloud Blog",
+          "date": "Nov 13",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/whats_new_google_cloud_pill_muted_2436x1200.max-600x600.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 2.549,
+          "coverage": 1
+        },
         {
           "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
           "link": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
@@ -242,7 +231,7 @@
           "icon": null,
           "domain": "blog.cloudflare.com",
           "hn": null,
-          "score": 0.264,
+          "score": 0.252,
           "coverage": 1
         },
         {
@@ -255,7 +244,22 @@
           "icon": null,
           "domain": "blog.cloudflare.com",
           "hn": null,
-          "score": 0.234,
+          "score": 0.225,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Cohere Finding Shows Self-Hosted Open-Weight Models Still Need Egress Controls",
+          "link": "https://www.infoq.com/news/2026/11/cohere-open-weight-egress-risk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Cohere recently reported that one of Alibaba’s newest Qwen3.8 models attempted to upload a probe file to a storage container in Beijing while explicitly stating in its reasoning trace that no tools would be triggered. While there is no evidence of intentional backdooring, the report is a reminder…",
+          "source": "InfoQ",
+          "date": "Nov 15",
+          "image": "https://res.infoq.com/news/2026/11/cohere-open-weight-egress-risk/en/headerimage/generatedHeaderImage-1794703595152.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.671,
           "coverage": 1
         },
         {
@@ -268,11 +272,9 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.299,
+          "score": 0.281,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Google Cloud Moves the Compute Engine API to Immutable Date-Based Versions",
           "link": "https://www.infoq.com/news/2026/11/compute-engine-api-versioning/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -283,7 +285,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.294,
+          "score": 0.276,
           "coverage": 1
         },
         {
@@ -296,46 +298,20 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.286,
+          "score": 0.269,
           "coverage": 1
         },
         {
-          "title": "Siri AI Developer Preview Lets iOS, iPadOS, and macOS Apps Integrate with Siri",
-          "link": "https://www.infoq.com/news/2026/11/apple-siri-ai-integration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "Apple released the Siri AI Developer Preview in the 27.3 beta releases of its operating systems, enabling developers and apps to integrate with the assistant and hand off actions to it. During the Preview, access to Siri AI is restricted to developer builds and internal TestFlight testers. By…",
-          "source": "InfoQ",
-          "date": "Nov 13",
-          "image": "https://res.infoq.com/news/2026/11/apple-siri-ai-integration/en/headerimage/ios-27-virtualization-1794583601204.jpeg",
-          "icon": null,
-          "domain": "infoq.com",
+          "title": "DevFest is back!",
+          "link": "https://developers.googleblog.com/devfest-is-back/",
+          "excerpt": "DevFest 2026 runs from October 1 to December 31, bringing together nearly a million developers across more than 800 global events centered on the agentic AI era. Under the theme \"Build, Secure, Scale,\" participants gain hands-on experience with Google’s developer stack—including Gemini, Google AI…",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Developers_Blog_Header_1.2e16d0ba.fill-1200x600.jpg",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
           "hn": null,
-          "score": 0.195,
-          "coverage": 1
-        },
-        {
-          "title": "Presentation: The Influence Toolkit",
-          "link": "https://www.infoq.com/presentations/bbc-software-architecture-influence/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "Henry Wilson shares actionable tools from the BBC Sounds re-architecture to help senior engineering leaders drive technical strategy. He discusses building buy-in, navigating active resistors, using RFCs and ADRs, and balancing tradeoffs - showing that effective software architecture is…",
-          "source": "InfoQ",
-          "date": "Nov 13",
-          "image": "https://res.infoq.com/presentations/bbc-software-architecture-influence/en/mediumimage/henry-wilson-medium-1792653480613.jpg",
-          "icon": null,
-          "domain": "infoq.com",
-          "hn": null,
-          "score": 0.176,
-          "coverage": 1
-        },
-        {
-          "title": "Podcast: Doing The Right Thing: Accountability In The Age Of AI Coding Summary",
-          "link": "https://www.infoq.com/podcasts/accountability-age-ai-coding-summary/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "In this podcast, Shane Hastie, Lead Editor for Culture & Methods, spoke to Hugo Venturini about who is accountable when AI writes the code, how AI is reshaping code review and traditional engineering roles, and how leaders build a culture of transparency and psychological safety. By Hugo Venturini",
-          "source": "InfoQ",
-          "date": "Nov 13",
-          "image": "https://res.infoq.com/podcasts/accountability-age-ai-coding-summary/en/smallimage/engineering-culture-500-1794303925695.jpg",
-          "icon": null,
-          "domain": "infoq.com",
-          "hn": null,
-          "score": 0.169,
+          "score": 1.75,
           "coverage": 1
         }
       ]
@@ -353,20 +329,20 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 1.948,
+          "score": 1.792,
           "coverage": 1
         },
         {
-          "title": "L3Harris statement on the Nov. 13 ground stop",
-          "link": "https://www.l3harris.com/newsroom/press-release/2026/11/l3harris-statement-nov-13-ground-stop",
-          "excerpt": "L3Harris has been modernizing the communications infrastructure supporting the National Airspace System in close coordination with the FAA.",
-          "source": "l3harris.com via Hacker News",
-          "date": "Nov 14",
-          "image": "https://www.l3harris.com/sites/default/files/2025-08/event-stealth-white-nexus-teaser.jpg",
-          "icon": "https://www.l3harris.com/themes/custom/l3harris/favicon.ico",
-          "domain": "l3harris.com",
-          "hn": "67 points · 35 comments",
-          "score": 3.533,
+          "title": "We're Asking an Appeals Court to Require a Warrant for ALPR Searches",
+          "link": "https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches",
+          "excerpt": "Automated license plate readers are simply not comparable to observing an individual license plate on a passing car. As we’ve explained in many amicus briefs and in our lawsuits directly challenging their use, ALPRs give law enforcement “a virtual time machine to view suspects’, or anyone else’s,…",
+          "source": "eff.org via Hacker News",
+          "date": "Nov 15",
+          "image": "https://www.eff.org/files/banner_library/siren_v._san_jose.png",
+          "icon": "https://www.eff.org/sites/all/themes/phoenix/apple-touch-icon.png",
+          "domain": "eff.org",
+          "hn": "78 points · 13 comments",
+          "score": 3.741,
           "coverage": 1
         },
         {
@@ -378,23 +354,49 @@
           "image": "https://www.techspot.com/images2/news/bigimage/2025/01/2025-01-08-image-3.jpg",
           "icon": "https://www.techspot.com/images/ts3mobile-badge.png",
           "domain": "techspot.com",
-          "hn": "184 points · 103 comments",
-          "score": 4.093,
+          "hn": "298 points · 159 comments",
+          "score": 3.89,
           "coverage": 1
         }
       ],
       "more": [
         {
+          "title": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt",
+          "link": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
+          "excerpt": "17 points · 2 comments",
+          "source": "wsj.com via Hacker News",
+          "date": "Nov 15",
+          "image": null,
+          "icon": "https://www.wsj.com/favicon.ico",
+          "domain": "wsj.com",
+          "hn": "17 points · 2 comments",
+          "score": 2.883,
+          "coverage": 1
+        },
+        {
+          "title": "Show HN: A custom font based on the Jamaican flag alphabet",
+          "link": "https://bobbiec.github.io/jamaican-font.html",
+          "excerpt": "A font where the letters are based on the Jamaican flag design.",
+          "source": "bobbiec.github.io via Hacker News",
+          "date": "Nov 15",
+          "image": null,
+          "icon": "https://bobbiec.github.io/favicon.ico",
+          "domain": "bobbiec.github.io",
+          "hn": "10 points · 3 comments",
+          "score": 2.239,
+          "coverage": 1
+        },
+        {
           "title": "How did Woz write the Apple 1 BASIC before building the computer?",
           "link": "https://retrocomputing.stackexchange.com/questions/17957",
-          "excerpt": "89 points · 28 comments",
+          "excerpt": "134 points · 51 comments",
           "source": "retrocomputing.stackexchange.com via Hacker News",
           "date": "Nov 14",
           "image": null,
           "icon": "https://retrocomputing.stackexchange.com/favicon.ico",
           "domain": "retrocomputing.stackexchange.com",
-          "hn": "89 points · 28 comments",
-          "score": 3.511,
+          "hn": "134 points · 51 comments",
+          "score": 3.369,
           "coverage": 1
         },
         {
@@ -406,47 +408,21 @@
           "image": "https://www.spacex.com/assets/images/share.jpg",
           "icon": "https://www.spacex.com/launches/assets/favicon-spacex.ico",
           "domain": "spacex.com",
-          "hn": "713 points · 472 comments",
-          "score": 4.675,
-          "coverage": 1
-        },
-        {
-          "title": "Dartmouth (Guarini) will not admit math PhD cohort this year",
-          "link": "https://www.thedartmouth.com/article/2026/11/gandhi-fagell-guarini-will-not-admit-math-ph-d-cohort-this-year",
-          "excerpt": "Faculty raised concerns about the program’s suspension at the general faculty meeting on Nov. 9. A College spokesperson declined to answer questions about when applications would resume.",
-          "source": "thedartmouth.com via Hacker News",
-          "date": "Nov 14",
-          "image": "https://snworksceo.imgix.net/drt/f42dabdd-cdb4-4bb9-b3b1-cdbee8f8a198.sized-1000x1000.jpg?w=800&h=600",
-          "icon": "https://d17odh4hb0gp5r.cloudfront.net/d3bbc47016cb340b43df713d5d497b1f/dist/img/favicons/apple-icon-57x57.png",
-          "domain": "thedartmouth.com",
-          "hn": "80 points · 28 comments",
-          "score": 2.909,
+          "hn": "866 points · 596 comments",
+          "score": 4.286,
           "coverage": 1
         },
         {
           "title": "LinkedIn, Monster take down over 1000 fake job postings after CBC investigation",
           "link": "https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379",
-          "excerpt": "191 points · 105 comments",
+          "excerpt": "218 points · 124 comments",
           "source": "cbc.ca via Hacker News",
           "date": "Nov 14",
           "image": null,
           "icon": "https://www.cbc.ca/favicon.ico",
           "domain": "cbc.ca",
-          "hn": "191 points · 105 comments",
-          "score": 3.362,
-          "coverage": 1
-        },
-        {
-          "title": "A family tree of software job titles",
-          "link": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
-          "excerpt": "208 points · 101 comments",
-          "source": "zwischenzugs.com via Hacker News",
-          "date": "Nov 14",
-          "image": null,
-          "icon": "https://zwischenzugs.com/favicon.ico",
-          "domain": "zwischenzugs.com",
-          "hn": "208 points · 101 comments",
-          "score": 3.186,
+          "hn": "218 points · 124 comments",
+          "score": 3.111,
           "coverage": 1
         }
       ]
