@@ -14,7 +14,7 @@
     "labels": [
       "2 sources",
       "Security & AppSec",
-      "3h ago"
+      "6h ago"
     ],
     "also": [
       {
@@ -31,40 +31,29 @@
       "link_domain": "blog.pypi.org",
       "source": "Hacker News",
       "domain": "blog.pypi.org",
-      "meta": "Hacker News · 251 points · 107 comments · 20h ago",
+      "meta": "Hacker News · 260 points · 114 comments · 23h ago",
       "also": [],
       "image": "https://blog.pypi.org/assets/images/social/posts/2026-11-06-ui-updates-complete.png",
       "icon": "https://blog.pypi.org/assets/favicon.ico"
-    },
-    {
-      "title": "The Claude Delusion",
-      "thread": "https://news.ycombinator.com/item?id=50496921",
-      "link": "https://www.netmeister.org/blog/claude-delusion.html",
-      "link_domain": "netmeister.org",
-      "source": "Hacker News",
-      "domain": "netmeister.org",
-      "meta": "Hacker News · 148 points · 195 comments · 22h ago",
-      "also": [],
-      "image": "https://www.netmeister.org/blog/images/claude-delusion.jpg",
-      "icon": "https://www.netmeister.org/favicon.ico"
-    },
-    {
-      "title": "Show HN: Agweb – a browser for agents that stays out of your way",
-      "thread": "https://news.ycombinator.com/item?id=50497147",
-      "link": "https://github.com/paul-nameless/agweb",
-      "link_domain": "github.com",
-      "source": "Hacker News",
-      "domain": "github.com",
-      "meta": "Hacker News · 100 points · 30 comments · 22h ago",
-      "also": [],
-      "image": "https://opengraph.githubassets.com/2d7c5f74561f3510fead70c1a64318fb84783c8886fe2a0842dc598949778722/paul-nameless/agweb",
-      "icon": "https://github.githubassets.com/favicons/favicon.svg"
     }
   ],
   "sections": [
     {
       "name": "AI-Assisted Engineering",
       "cards": [
+        {
+          "title": "Understanding Positional Embeddings in Modern LLMs",
+          "link": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+          "excerpt": "The Methods Behind How LLMs Represent Token Positions",
+          "source": "Sebastian Raschka",
+          "date": "Nov 15",
+          "image": "https://substackcdn.com/image/fetch/$s_!8RKL!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb461a2cb-11ab-474a-affe-0ee99e5a8782_2850x2777.png",
+          "icon": "https://substackcdn.com/image/fetch/$s_!_bhP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F342e39ec-514c-4b4d-8a76-6acf0cbd8248%2Fapple-touch-icon-57x57.png",
+          "domain": "magazine.sebastianraschka.com",
+          "hn": null,
+          "score": 7.043,
+          "coverage": 1
+        },
         {
           "title": "datasette-llm 0.1a11",
           "link": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
@@ -75,7 +64,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.742,
+          "score": 0.668,
           "coverage": 1
         },
         {
@@ -88,7 +77,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.579,
+          "score": 0.533,
           "coverage": 1
         }
       ],
@@ -106,8 +95,8 @@
           "image": "https://opengraph.githubassets.com/64ae6b2de99d9379d81a58cd823a33144a3b9cd25f370a4cf3bbf845c3ec837d/Tthanh2k6/turbo-browser-mcp",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "38 points · 7 comments",
-          "score": 7.824,
+          "hn": "40 points · 8 comments",
+          "score": 6.946,
           "coverage": 1
         },
         {
@@ -120,7 +109,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.481,
+          "score": 0.443,
           "coverage": 1
         }
       ],
@@ -139,7 +128,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 10.003,
+          "score": 8.553,
           "coverage": 2
         },
         {
@@ -152,9 +141,24 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 3.52,
+          "score": 2.908,
           "coverage": 2
         },
+        {
+          "title": "Pentagon Renames CDAO ‘Super Intelligence Office’",
+          "link": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
+          "excerpt": "The move follows President Trump’s order to replace “artificial intelligence” with “super intelligence” in executive branch communications. The post Pentagon Renames CDAO ‘Super Intelligence Office’ appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 15",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/SI_Department-of-War.png",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.639,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook",
           "link": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/",
@@ -165,11 +169,9 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 3.52,
+          "score": 2.908,
           "coverage": 2
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Is AI Making Us Worse at Cybersecurity?",
           "link": "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/",
@@ -180,7 +182,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.263,
+          "score": 0.244,
           "coverage": 1
         },
         {
@@ -193,7 +195,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.273,
+          "score": 0.252,
           "coverage": 1
         },
         {
@@ -206,20 +208,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.171,
-          "coverage": 1
-        },
-        {
-          "title": "German military drone operations disrupted by cyberattack",
-          "link": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
-          "excerpt": "German defense technology company Quantum Systems confirmed that it detected an incident in late October that was part of an active cyberattack by \"hostile actors.\" [...]",
-          "source": "BleepingComputer",
-          "date": "Nov 13",
-          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/13/quantumsystems.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
-          "hn": null,
-          "score": 0.165,
+          "score": 0.163,
           "coverage": 1
         }
       ]
@@ -237,7 +226,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.173,
+          "score": 2.072,
           "coverage": 1
         },
         {
@@ -250,7 +239,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 5.412,
+          "score": 4.556,
           "coverage": 1
         },
         {
@@ -263,24 +252,11 @@
           "icon": null,
           "domain": "blog.cloudflare.com",
           "hn": null,
-          "score": 0.213,
+          "score": 0.203,
           "coverage": 1
         }
       ],
       "more": [
-        {
-          "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
-          "link": "https://blog.cloudflare.com/spend-management/",
-          "excerpt": "Spend Management adds opt-in spending caps for Cloudflare Workers and Durable Objects, and more products soon. Here is how we built the metering pipeline that turns usage into runtime decisions.",
-          "source": "Cloudflare Blog",
-          "date": "Nov 13",
-          "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M79507GNA08VSCSPAXM0NCC3.png",
-          "icon": null,
-          "domain": "blog.cloudflare.com",
-          "hn": null,
-          "score": 0.193,
-          "coverage": 1
-        },
         {
           "title": "Cloudflare Introduces Private Origins for Application Services",
           "link": "https://www.infoq.com/news/2026/11/cloudflare-private-origins/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -291,7 +267,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.502,
+          "score": 0.436,
           "coverage": 1
         },
         {
@@ -304,7 +280,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.418,
+          "score": 0.371,
           "coverage": 1
         },
         {
@@ -317,7 +293,20 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.224,
+          "score": 0.21,
+          "coverage": 1
+        },
+        {
+          "title": "Google Cloud Moves the Compute Engine API to Immutable Date-Based Versions",
+          "link": "https://www.infoq.com/news/2026/11/compute-engine-api-versioning/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Google Cloud has made date-based versioning of the Compute Engine API generally available, replacing the single mutable /v1 surface with immutable quarterly snapshots such as 2026-09-01, selected per request with a header or query parameter. New versions can change defaults, error formats, and IAM…",
+          "source": "InfoQ",
+          "date": "Nov 14",
+          "image": "https://res.infoq.com/news/2026/11/compute-engine-api-versioning/en/headerimage/generatedHeaderImage-1794296072866.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.207,
           "coverage": 1
         },
         {
@@ -348,100 +337,100 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 1.354,
+          "score": 1.252,
           "coverage": 1
         },
         {
-          "title": "Book list for streetfighting computer scientists",
-          "link": "https://nick-black.com/dankwiki/index.php?title=Book_list_for_streetfighting_computer_scientists",
-          "excerpt": "25 points · 3 comments",
-          "source": "nick-black.com via Hacker News",
+          "title": "The MacBook Pro's OLED PWM Problem: When a 'Better' Display Becomes Worse to Use",
+          "link": "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/",
+          "excerpt": "Apple has made a spectacular display. But spectacular isn’t the same as comfortable, and the people discovering that distinction deserve to be heard.",
+          "source": "macanorak.com via Hacker News",
           "date": "Nov 15",
-          "image": "https://nick-black.com/dankwiki/resources/assets/orca.jpg",
-          "icon": "https://nick-black.com/favicon.ico",
-          "domain": "nick-black.com",
-          "hn": "25 points · 3 comments",
-          "score": 2.411,
+          "image": "https://macanorak.com/content/images/2026/11/PROLED-Display-XDR-1.png",
+          "icon": "https://macanorak.com/content/images/2026/10/MA-Staff-Logo-New.png?v=3",
+          "domain": "macanorak.com",
+          "hn": "69 points · 37 comments",
+          "score": 3.965,
           "coverage": 1
         },
         {
-          "title": "Kiri – The Modern Container Runtime",
-          "link": "https://runkiri.com/",
-          "excerpt": "Docker containers on Mac, Windows and Linux with one Rust daemon. docker run in 22 ms on a Mac. Works with docker, Compose and the Docker API.",
-          "source": "runkiri.com via Hacker News",
+          "title": "Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business",
+          "link": "https://www.nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html",
+          "excerpt": "The commerce secretary has been writing new rules that would affect Southeast Asian data centers, some of which are clients of his former firm.",
+          "source": "nytimes.com via Hacker News",
           "date": "Nov 15",
-          "image": "https://runkiri.com/assets/og-image.png?v=2",
-          "icon": "https://runkiri.com/assets/kiri-icon-256.png",
-          "domain": "runkiri.com",
-          "hn": "59 points · 30 comments",
-          "score": 2.683,
+          "image": "https://static01.nyt.com/images/2026/11/14/multimedia/14dc-lutnick-commerce-01-bqtl/14dc-lutnick-commerce-01-bqtl-facebookJumbo.jpg",
+          "icon": "https://static01.nyt.com/vi-assets/static-assets/assets/apple-touch-icon-BTg5GMmB.png",
+          "domain": "nytimes.com",
+          "hn": "84 points · 23 comments",
+          "score": 3.561,
           "coverage": 1
         }
       ],
       "more": [
         {
+          "title": "Things That Turbo Pascal Is Smaller Than (2011)",
+          "link": "https://prog21.dadgum.com/116.html",
+          "excerpt": "18 points · 2 comments",
+          "source": "prog21.dadgum.com via Hacker News",
+          "date": "Nov 15",
+          "image": null,
+          "icon": "https://prog21.dadgum.com/favicon.ico",
+          "domain": "prog21.dadgum.com",
+          "hn": "18 points · 2 comments",
+          "score": 2.88,
+          "coverage": 1
+        },
+        {
+          "title": "A NES emulator written in Odin",
+          "link": "https://lucypero.com/lucynes.html",
+          "excerpt": "I made a NES emulator in Odin!Github linkIntroI’ve started this project in late June of 2024. I’ve worked on it in my spare time off and on. I decided to put...",
+          "source": "lucypero.com via Hacker News",
+          "date": "Nov 15",
+          "image": null,
+          "icon": "https://lucypero.com/assets/apple-touch-icon.png",
+          "domain": "lucypero.com",
+          "hn": "14 points · 0 comments",
+          "score": 2.462,
+          "coverage": 1
+        },
+        {
           "title": "Why did some Apollo missions carry a grenade launcher?",
           "link": "https://space.stackexchange.com/questions/37775",
-          "excerpt": "63 points · 28 comments",
+          "excerpt": "111 points · 67 comments",
           "source": "space.stackexchange.com via Hacker News",
           "date": "Nov 15",
           "image": null,
           "icon": "https://space.stackexchange.com/favicon.ico",
           "domain": "space.stackexchange.com",
-          "hn": "63 points · 28 comments",
-          "score": 3.484,
+          "hn": "111 points · 67 comments",
+          "score": 3.331,
+          "coverage": 1
+        },
+        {
+          "title": "Book list for streetfighting computer scientists",
+          "link": "https://nick-black.com/dankwiki/index.php?title=Book_list_for_streetfighting_computer_scientists",
+          "excerpt": "70 points · 24 comments",
+          "source": "nick-black.com via Hacker News",
+          "date": "Nov 15",
+          "image": "https://nick-black.com/dankwiki/resources/assets/orca.jpg",
+          "icon": "https://nick-black.com/favicon.ico",
+          "domain": "nick-black.com",
+          "hn": "70 points · 24 comments",
+          "score": 2.681,
           "coverage": 1
         },
         {
           "title": "Disk encryption on NetBSD – achieving secrecy",
           "link": "https://netbsd.org/~nia/disk-encrypt/",
-          "excerpt": "48 points · 6 comments",
+          "excerpt": "66 points · 14 comments",
           "source": "netbsd.org via Hacker News",
           "date": "Nov 15",
           "image": null,
           "icon": "https://netbsd.org/favicon.ico",
           "domain": "netbsd.org",
-          "hn": "48 points · 6 comments",
-          "score": 2.539,
-          "coverage": 1
-        },
-        {
-          "title": "Show HN: Gawain – Require type hints on all Python variables",
-          "link": "https://github.com/matheuzgomes/gawain",
-          "excerpt": "Find every missing type hint in your Python code, in milliseconds. - matheuzgomes/gawain",
-          "source": "github.com via Hacker News",
-          "date": "Nov 15",
-          "image": "https://opengraph.githubassets.com/0ab5f0062dc446fe550ee8ec680023b2cc7245def9730b20ba3c42153d7b1c1f/matheuzgomes/gawain",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "57 points · 35 comments",
-          "score": 2.697,
-          "coverage": 1
-        },
-        {
-          "title": "My favourite modern NES games",
-          "link": "https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/",
-          "excerpt": "108 points · 11 comments",
-          "source": "jordi.inversethought.com via Hacker News",
-          "date": "Nov 15",
-          "image": null,
-          "icon": "https://jordi.inversethought.com/favicon.ico",
-          "domain": "jordi.inversethought.com",
-          "hn": "108 points · 11 comments",
-          "score": 2.569,
-          "coverage": 1
-        },
-        {
-          "title": "We're Asking an Appeals Court to Require a Warrant for ALPR Searches",
-          "link": "https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches",
-          "excerpt": "Automated license plate readers are simply not comparable to observing an individual license plate on a passing car. As we’ve explained in many amicus briefs and in our lawsuits directly challenging their use, ALPRs give law enforcement “a virtual time machine to view suspects’, or anyone else’s,…",
-          "source": "eff.org via Hacker News",
-          "date": "Nov 15",
-          "image": "https://www.eff.org/files/banner_library/siren_v._san_jose.png",
-          "icon": "https://www.eff.org/sites/all/themes/phoenix/apple-touch-icon.png",
-          "domain": "eff.org",
-          "hn": "249 points · 68 comments",
-          "score": 2.928,
+          "hn": "66 points · 14 comments",
+          "score": 2.4,
           "coverage": 1
         }
       ]
