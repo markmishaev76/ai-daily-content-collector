@@ -13,7 +13,7 @@
     "note": null,
     "labels": [
       "Security & AppSec",
-      "10h ago"
+      "12h ago"
     ],
     "also": []
   },
@@ -25,7 +25,7 @@
       "link_domain": "blog.pypi.org",
       "source": "Hacker News",
       "domain": "blog.pypi.org",
-      "meta": "Hacker News · 218 points · 95 comments · 12h ago",
+      "meta": "Hacker News · 225 points · 98 comments · 14h ago",
       "also": [],
       "image": "https://blog.pypi.org/assets/images/social/posts/2026-11-06-ui-updates-complete.png",
       "icon": "https://blog.pypi.org/assets/favicon.ico"
@@ -37,7 +37,7 @@
       "link_domain": "projectzero.google",
       "source": "Hacker News",
       "domain": "projectzero.google",
-      "meta": "Hacker News · 196 points · 58 comments · 16h ago",
+      "meta": "Hacker News · 220 points · 74 comments · 18h ago",
       "also": [],
       "image": "https://projectzero.google/images/preview_image.png",
       "icon": "https://projectzero.google/images/project-zero.svg"
@@ -49,7 +49,7 @@
       "link_domain": "netmeister.org",
       "source": "Hacker News",
       "domain": "netmeister.org",
-      "meta": "Hacker News · 146 points · 183 comments · 14h ago",
+      "meta": "Hacker News · 146 points · 191 comments · 16h ago",
       "also": [],
       "image": "https://www.netmeister.org/blog/images/claude-delusion.jpg",
       "icon": "https://www.netmeister.org/favicon.ico"
@@ -69,7 +69,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 1.117,
+          "score": 0.994,
           "coverage": 1
         },
         {
@@ -82,7 +82,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.784,
+          "score": 0.721,
           "coverage": 1
         }
       ],
@@ -91,6 +91,19 @@
     {
       "name": "AI Agents & Agent Security",
       "cards": [
+        {
+          "title": "Show HN: Turbo-Browser-MCP – Batch forms, DOM deltas and submit guards for MCP",
+          "link": "https://github.com/Tthanh2k6/turbo-browser-mcp",
+          "excerpt": "High-speed Playwright MCP server with multi-tab batching, compact delta DOM snapshots, React/Shadow DOM/iframe form filling, disk file uploads, and submit guards - Tthanh2k6/turbo-browser-mcp",
+          "source": "github.com via Hacker News",
+          "date": "Nov 15",
+          "image": "https://opengraph.githubassets.com/64ae6b2de99d9379d81a58cd823a33144a3b9cd25f370a4cf3bbf845c3ec837d/Tthanh2k6/turbo-browser-mcp",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "13 points · 0 comments",
+          "score": 9.849,
+          "coverage": 1
+        },
         {
           "title": "Upcoming Speaking Engagements",
           "link": "https://www.schneier.com/blog/archives/2026/11/upcoming-speaking-engagements-62.html",
@@ -101,7 +114,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.65,
+          "score": 0.599,
           "coverage": 1
         }
       ],
@@ -120,7 +133,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.345,
+          "score": 0.32,
           "coverage": 1
         },
         {
@@ -133,7 +146,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.362,
+          "score": 0.335,
           "coverage": 1
         },
         {
@@ -146,7 +159,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.202,
+          "score": 0.194,
           "coverage": 1
         }
       ],
@@ -161,7 +174,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.193,
+          "score": 0.185,
           "coverage": 1
         },
         {
@@ -174,7 +187,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 1.319,
+          "score": 1.266,
           "coverage": 1
         },
         {
@@ -187,7 +200,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.174,
+          "score": 0.168,
           "coverage": 1
         },
         {
@@ -200,7 +213,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 1.18,
+          "score": 1.138,
           "coverage": 1
         }
       ]
@@ -218,7 +231,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.549,
+          "score": 2.445,
           "coverage": 1
         },
         {
@@ -231,7 +244,7 @@
           "icon": null,
           "domain": "blog.cloudflare.com",
           "hn": null,
-          "score": 0.252,
+          "score": 0.241,
           "coverage": 1
         },
         {
@@ -244,7 +257,7 @@
           "icon": null,
           "domain": "blog.cloudflare.com",
           "hn": null,
-          "score": 0.225,
+          "score": 0.216,
           "coverage": 1
         }
       ],
@@ -259,7 +272,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.671,
+          "score": 0.584,
           "coverage": 1
         },
         {
@@ -272,7 +285,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.281,
+          "score": 0.264,
           "coverage": 1
         },
         {
@@ -285,7 +298,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.276,
+          "score": 0.26,
           "coverage": 1
         },
         {
@@ -298,7 +311,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.269,
+          "score": 0.254,
           "coverage": 1
         },
         {
@@ -329,7 +342,61 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 1.792,
+          "score": 1.66,
+          "coverage": 1
+        },
+        {
+          "title": "Show HN: Gawain – Require type hints on all Python variables",
+          "link": "https://github.com/matheuzgomes/gawain",
+          "excerpt": "Find every missing type hint in your Python code, in milliseconds. - matheuzgomes/gawain",
+          "source": "github.com via Hacker News",
+          "date": "Nov 15",
+          "image": "https://opengraph.githubassets.com/0ab5f0062dc446fe550ee8ec680023b2cc7245def9730b20ba3c42153d7b1c1f/matheuzgomes/gawain",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "18 points · 5 comments",
+          "score": 2.924,
+          "coverage": 1
+        },
+        {
+          "title": "Osint Case Studies",
+          "link": "https://osintsearch.org/blog/osint-case-studies",
+          "excerpt": "OSINT case studies from real cybercrime cases: public-record emails and aliases run through live searches, the method, six lessons and the ethics rules.",
+          "source": "osintsearch.org via Hacker News",
+          "date": "Nov 15",
+          "image": "https://cdn.osintsearch.org/blog/osint-osint-case-studies-2026-09-23-b37518eb5418.webp",
+          "icon": "https://osintsearch.org/apple-touch-icon.png",
+          "domain": "osintsearch.org",
+          "hn": "13 points · 2 comments",
+          "score": 2.426,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt",
+          "link": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
+          "excerpt": "43 points · 23 comments",
+          "source": "wsj.com via Hacker News",
+          "date": "Nov 15",
+          "image": null,
+          "icon": "https://www.wsj.com/favicon.ico",
+          "domain": "wsj.com",
+          "hn": "43 points · 23 comments",
+          "score": 3.302,
+          "coverage": 1
+        },
+        {
+          "title": "My favourite modern NES games",
+          "link": "https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/",
+          "excerpt": "14 points · 0 comments",
+          "source": "jordi.inversethought.com via Hacker News",
+          "date": "Nov 15",
+          "image": null,
+          "icon": "https://jordi.inversethought.com/favicon.ico",
+          "domain": "jordi.inversethought.com",
+          "hn": "14 points · 0 comments",
+          "score": 2.247,
           "coverage": 1
         },
         {
@@ -341,36 +408,21 @@
           "image": "https://www.eff.org/files/banner_library/siren_v._san_jose.png",
           "icon": "https://www.eff.org/sites/all/themes/phoenix/apple-touch-icon.png",
           "domain": "eff.org",
-          "hn": "78 points · 13 comments",
-          "score": 3.741,
+          "hn": "155 points · 35 comments",
+          "score": 3.729,
           "coverage": 1
         },
         {
-          "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
-          "link": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
-          "excerpt": "A recent Wall Street Journal profile of Nvidia interim CEO Colette Kress has shed more light on how Nvidia controversially financed its own customers to drive the...",
-          "source": "techspot.com via Hacker News",
-          "date": "Nov 14",
-          "image": "https://www.techspot.com/images2/news/bigimage/2025/01/2025-01-08-image-3.jpg",
-          "icon": "https://www.techspot.com/images/ts3mobile-badge.png",
-          "domain": "techspot.com",
-          "hn": "298 points · 159 comments",
-          "score": 3.89,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt",
-          "link": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
-          "excerpt": "17 points · 2 comments",
-          "source": "wsj.com via Hacker News",
+          "title": "Court denies motion to dismiss DRAM price fixing case",
+          "link": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+          "excerpt": "Judge Noël Wise found buyers plausibly alleged a conspiracy to restrict conventional memory chip supply, distinguishing the Ninth Circuit's 2022 DRAM II ruling.",
+          "source": "litnews.ai via Hacker News",
           "date": "Nov 15",
-          "image": null,
-          "icon": "https://www.wsj.com/favicon.ico",
-          "domain": "wsj.com",
-          "hn": "17 points · 2 comments",
-          "score": 2.883,
+          "image": "https://litnews.ai/og/default.png",
+          "icon": "https://litnews.ai/favicon.ico",
+          "domain": "litnews.ai",
+          "hn": "21 points · 1 comments",
+          "score": 2.316,
           "coverage": 1
         },
         {
@@ -382,47 +434,8 @@
           "image": null,
           "icon": "https://bobbiec.github.io/favicon.ico",
           "domain": "bobbiec.github.io",
-          "hn": "10 points · 3 comments",
-          "score": 2.239,
-          "coverage": 1
-        },
-        {
-          "title": "How did Woz write the Apple 1 BASIC before building the computer?",
-          "link": "https://retrocomputing.stackexchange.com/questions/17957",
-          "excerpt": "134 points · 51 comments",
-          "source": "retrocomputing.stackexchange.com via Hacker News",
-          "date": "Nov 14",
-          "image": null,
-          "icon": "https://retrocomputing.stackexchange.com/favicon.ico",
-          "domain": "retrocomputing.stackexchange.com",
-          "hn": "134 points · 51 comments",
-          "score": 3.369,
-          "coverage": 1
-        },
-        {
-          "title": "SpaceX catches the Starship to end Flight 15",
-          "link": "https://www.spacex.com/launches/starship-flight-15",
-          "excerpt": "SpaceX designs, manufactures and launches advanced rockets and spacecraft.",
-          "source": "spacex.com via Hacker News",
-          "date": "Nov 14",
-          "image": "https://www.spacex.com/assets/images/share.jpg",
-          "icon": "https://www.spacex.com/launches/assets/favicon-spacex.ico",
-          "domain": "spacex.com",
-          "hn": "866 points · 596 comments",
-          "score": 4.286,
-          "coverage": 1
-        },
-        {
-          "title": "LinkedIn, Monster take down over 1000 fake job postings after CBC investigation",
-          "link": "https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379",
-          "excerpt": "218 points · 124 comments",
-          "source": "cbc.ca via Hacker News",
-          "date": "Nov 14",
-          "image": null,
-          "icon": "https://www.cbc.ca/favicon.ico",
-          "domain": "cbc.ca",
-          "hn": "218 points · 124 comments",
-          "score": 3.111,
+          "hn": "21 points · 5 comments",
+          "score": 2.36,
           "coverage": 1
         }
       ]
