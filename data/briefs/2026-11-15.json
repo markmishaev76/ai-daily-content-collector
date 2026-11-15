@@ -1,35 +1,29 @@
 {
   "date": "2026-11-15",
   "lead": {
-    "title": "Cursor confirms security breach led to malicious Claude Code extension",
-    "link": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
-    "excerpt": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]",
-    "source": "BleepingComputer",
-    "date": "Nov 14",
-    "image": "https://www.bleepstatic.com/content/hl-images/2025/07/13/cursor-header.jpg",
+    "title": "Stolen Fireworks AI Key Led to Cursor Data Breach and Trojanized Claude Code Extension",
+    "link": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+    "excerpt": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. \"An attacker obtained an access key we had issued to Fireworks,\" Cursor said in a Friday…",
+    "source": "The Hacker News",
+    "date": "Nov 15",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg16ACawbG7rP_kT-8Boo4xdTje3BeTWyFSnNXwHhr5cvy2-1X3Ljhrc1IuZlseWd55tN8E1yjQ9ldhTnjWTU-GJBpX_Zen36YiLQGsRSRAoteqHyxx7mn_w0QgLfMKDLItA4p_jpHajucbglLnCR_zWBY_t82YvFkLa9dQFBfjP1BrTlrNdYufsGMSZiGn/s1600/cursor.jpg",
     "image_credit": null,
     "section": "Security & AppSec",
     "pinned": false,
     "note": null,
     "labels": [
+      "2 sources",
       "Security & AppSec",
-      "12h ago"
+      "1h ago"
     ],
-    "also": []
+    "also": [
+      {
+        "name": "bleepingcomputer.com",
+        "link": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/"
+      }
+    ]
   },
   "pulse": [
-    {
-      "title": "PyPI's redesigned project pages with clearer security signals are now live",
-      "thread": "https://news.ycombinator.com/item?id=50497892",
-      "link": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
-      "link_domain": "blog.pypi.org",
-      "source": "Hacker News",
-      "domain": "blog.pypi.org",
-      "meta": "Hacker News · 225 points · 98 comments · 14h ago",
-      "also": [],
-      "image": "https://blog.pypi.org/assets/images/social/posts/2026-11-06-ui-updates-complete.png",
-      "icon": "https://blog.pypi.org/assets/favicon.ico"
-    },
     {
       "title": "Project Zero will disclose vulnerabilities 90 days after reporting",
       "thread": "https://news.ycombinator.com/item?id=50496051",
@@ -37,10 +31,22 @@
       "link_domain": "projectzero.google",
       "source": "Hacker News",
       "domain": "projectzero.google",
-      "meta": "Hacker News · 220 points · 74 comments · 18h ago",
+      "meta": "Hacker News · 244 points · 116 comments · 22h ago",
       "also": [],
       "image": "https://projectzero.google/images/preview_image.png",
       "icon": "https://projectzero.google/images/project-zero.svg"
+    },
+    {
+      "title": "PyPI's redesigned project pages with clearer security signals are now live",
+      "thread": "https://news.ycombinator.com/item?id=50497892",
+      "link": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
+      "link_domain": "blog.pypi.org",
+      "source": "Hacker News",
+      "domain": "blog.pypi.org",
+      "meta": "Hacker News · 240 points · 101 comments · 17h ago",
+      "also": [],
+      "image": "https://blog.pypi.org/assets/images/social/posts/2026-11-06-ui-updates-complete.png",
+      "icon": "https://blog.pypi.org/assets/favicon.ico"
     },
     {
       "title": "The Claude Delusion",
@@ -49,7 +55,7 @@
       "link_domain": "netmeister.org",
       "source": "Hacker News",
       "domain": "netmeister.org",
-      "meta": "Hacker News · 146 points · 191 comments · 16h ago",
+      "meta": "Hacker News · 148 points · 192 comments · 19h ago",
       "also": [],
       "image": "https://www.netmeister.org/blog/images/claude-delusion.jpg",
       "icon": "https://www.netmeister.org/favicon.ico"
@@ -69,7 +75,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.994,
+          "score": 0.837,
           "coverage": 1
         },
         {
@@ -82,7 +88,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.721,
+          "score": 0.635,
           "coverage": 1
         }
       ],
@@ -100,8 +106,8 @@
           "image": "https://opengraph.githubassets.com/64ae6b2de99d9379d81a58cd823a33144a3b9cd25f370a4cf3bbf845c3ec837d/Tthanh2k6/turbo-browser-mcp",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "13 points · 0 comments",
-          "score": 9.849,
+          "hn": "32 points · 5 comments",
+          "score": 8.881,
           "coverage": 1
         },
         {
@@ -114,7 +120,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.599,
+          "score": 0.527,
           "coverage": 1
         }
       ],
@@ -123,6 +129,19 @@
     {
       "name": "Security & AppSec",
       "cards": [
+        {
+          "title": "Cursor confirms security breach led to malicious Claude Code extension",
+          "link": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+          "excerpt": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 14",
+          "image": "https://www.bleepstatic.com/content/hl-images/2025/07/13/cursor-header.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 12.098,
+          "coverage": 2
+        },
         {
           "title": "Is AI Making Us Worse at Cybersecurity?",
           "link": "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/",
@@ -133,7 +152,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.32,
+          "score": 0.286,
           "coverage": 1
         },
         {
@@ -146,9 +165,11 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.335,
+          "score": 0.298,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
           "link": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
@@ -159,11 +180,9 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.194,
+          "score": 0.181,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "German military drone operations disrupted by cyberattack",
           "link": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
@@ -174,7 +193,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.185,
+          "score": 0.173,
           "coverage": 1
         },
         {
@@ -187,7 +206,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 1.266,
+          "score": 1.186,
           "coverage": 1
         },
         {
@@ -200,20 +219,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.168,
-          "coverage": 1
-        },
-        {
-          "title": "Check Point warns of zero-day flaw exploited for root access",
-          "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
-          "excerpt": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October. [...]",
-          "source": "BleepingComputer",
-          "date": "Nov 13",
-          "image": "https://www.bleepstatic.com/content/hl-images/2026/09/18/Check-Point-headpic.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
-          "hn": null,
-          "score": 1.138,
+          "score": 0.158,
           "coverage": 1
         }
       ]
@@ -231,7 +237,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.445,
+          "score": 2.287,
           "coverage": 1
         },
         {
@@ -244,7 +250,7 @@
           "icon": null,
           "domain": "blog.cloudflare.com",
           "hn": null,
-          "score": 0.241,
+          "score": 0.225,
           "coverage": 1
         },
         {
@@ -257,11 +263,24 @@
           "icon": null,
           "domain": "blog.cloudflare.com",
           "hn": null,
-          "score": 0.216,
+          "score": 0.203,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "Cloudflare Introduces Private Origins for Application Services",
+          "link": "https://www.infoq.com/news/2026/11/cloudflare-private-origins/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Cloudflare recently made Application Services for Private Origins generally available, allowing public traffic to reach applications hosted on private networks without exposing their IP addresses or opening inbound firewall ports. Private-to-private connectivity is not yet supported. By Renato Losio",
+          "source": "InfoQ",
+          "date": "Nov 15",
+          "image": "https://res.infoq.com/news/2026/11/cloudflare-private-origins/en/headerimage/generatedHeaderImage-1793395278236.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.592,
+          "coverage": 1
+        },
         {
           "title": "Cohere Finding Shows Self-Hosted Open-Weight Models Still Need Egress Controls",
           "link": "https://www.infoq.com/news/2026/11/cohere-open-weight-egress-risk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -272,7 +291,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.584,
+          "score": 0.479,
           "coverage": 1
         },
         {
@@ -285,7 +304,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.264,
+          "score": 0.24,
           "coverage": 1
         },
         {
@@ -298,20 +317,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.26,
-          "coverage": 1
-        },
-        {
-          "title": "Open Source DocumentDB 1.0 Reaches General Availability",
-          "link": "https://www.infoq.com/news/2026/11/mongodb-compatible-documentdb/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "DocumentDB 1.0 is the first generally available release of the open source, MIT-licensed document database built on PostgreSQL, with compatibility for the MongoDB wire protocol. Most MongoDB drivers, tools, and queries work without changes. By Renato Losio",
-          "source": "InfoQ",
-          "date": "Nov 14",
-          "image": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
-          "icon": null,
-          "domain": "infoq.com",
-          "hn": null,
-          "score": 0.254,
+          "score": 0.237,
           "coverage": 1
         },
         {
@@ -342,7 +348,20 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 1.66,
+          "score": 1.476,
+          "coverage": 1
+        },
+        {
+          "title": "Kiri – The Modern Container Runtime",
+          "link": "https://runkiri.com/",
+          "excerpt": "Docker containers on Mac, Windows and Linux with one Rust daemon. docker run in 22 ms on a Mac. Works with docker, Compose and the Docker API.",
+          "source": "runkiri.com via Hacker News",
+          "date": "Nov 15",
+          "image": "https://runkiri.com/assets/og-image.png?v=2",
+          "icon": "https://runkiri.com/assets/kiri-icon-256.png",
+          "domain": "runkiri.com",
+          "hn": "41 points · 20 comments",
+          "score": 2.901,
           "coverage": 1
         },
         {
@@ -354,49 +373,36 @@
           "image": "https://opengraph.githubassets.com/0ab5f0062dc446fe550ee8ec680023b2cc7245def9730b20ba3c42153d7b1c1f/matheuzgomes/gawain",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "18 points · 5 comments",
-          "score": 2.924,
-          "coverage": 1
-        },
-        {
-          "title": "Osint Case Studies",
-          "link": "https://osintsearch.org/blog/osint-case-studies",
-          "excerpt": "OSINT case studies from real cybercrime cases: public-record emails and aliases run through live searches, the method, six lessons and the ethics rules.",
-          "source": "osintsearch.org via Hacker News",
-          "date": "Nov 15",
-          "image": "https://cdn.osintsearch.org/blog/osint-osint-case-studies-2026-09-23-b37518eb5418.webp",
-          "icon": "https://osintsearch.org/apple-touch-icon.png",
-          "domain": "osintsearch.org",
-          "hn": "13 points · 2 comments",
-          "score": 2.426,
+          "hn": "47 points · 22 comments",
+          "score": 2.969,
           "coverage": 1
         }
       ],
       "more": [
         {
-          "title": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt",
-          "link": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
-          "excerpt": "43 points · 23 comments",
-          "source": "wsj.com via Hacker News",
+          "title": "Disk encryption on NetBSD – achieving secrecy",
+          "link": "https://netbsd.org/~nia/disk-encrypt/",
+          "excerpt": "23 points · 0 comments",
+          "source": "netbsd.org via Hacker News",
           "date": "Nov 15",
           "image": null,
-          "icon": "https://www.wsj.com/favicon.ico",
-          "domain": "wsj.com",
-          "hn": "43 points · 23 comments",
-          "score": 3.302,
+          "icon": "https://netbsd.org/favicon.ico",
+          "domain": "netbsd.org",
+          "hn": "23 points · 0 comments",
+          "score": 2.459,
           "coverage": 1
         },
         {
           "title": "My favourite modern NES games",
           "link": "https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/",
-          "excerpt": "14 points · 0 comments",
+          "excerpt": "75 points · 5 comments",
           "source": "jordi.inversethought.com via Hacker News",
           "date": "Nov 15",
           "image": null,
           "icon": "https://jordi.inversethought.com/favicon.ico",
           "domain": "jordi.inversethought.com",
-          "hn": "14 points · 0 comments",
-          "score": 2.247,
+          "hn": "75 points · 5 comments",
+          "score": 2.736,
           "coverage": 1
         },
         {
@@ -408,8 +414,8 @@
           "image": "https://www.eff.org/files/banner_library/siren_v._san_jose.png",
           "icon": "https://www.eff.org/sites/all/themes/phoenix/apple-touch-icon.png",
           "domain": "eff.org",
-          "hn": "155 points · 35 comments",
-          "score": 3.729,
+          "hn": "223 points · 57 comments",
+          "score": 3.278,
           "coverage": 1
         },
         {
@@ -421,8 +427,8 @@
           "image": "https://litnews.ai/og/default.png",
           "icon": "https://litnews.ai/favicon.ico",
           "domain": "litnews.ai",
-          "hn": "21 points · 1 comments",
-          "score": 2.316,
+          "hn": "130 points · 32 comments",
+          "score": 2.894,
           "coverage": 1
         },
         {
@@ -434,8 +440,8 @@
           "image": null,
           "icon": "https://bobbiec.github.io/favicon.ico",
           "domain": "bobbiec.github.io",
-          "hn": "21 points · 5 comments",
-          "score": 2.36,
+          "hn": "37 points · 6 comments",
+          "score": 2.208,
           "coverage": 1
         }
       ]

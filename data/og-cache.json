@@ -2603,6 +2603,12 @@
   "icon": "https://nchagnet.eu/favicon.ico",
   "image": null
  },
+ "https://netbsd.org/~nia/disk-encrypt/": {
+  "description": null,
+  "fetched": "2026-11-15",
+  "icon": null,
+  "image": null
+ },
  "https://newsletter.getdx.com/p/inside-the-devex-metrics-compass": {
   "description": "Researcher André Meyer shares how teams can measure AI’s impact beyond adoption, choose meaningful productivity metrics, and understand what makes developers’ work rewarding.",
   "fetched": "2026-11-13",
@@ -3382,6 +3388,12 @@
   "fetched": "2026-10-24",
   "icon": null,
   "image": null
+ },
+ "https://runkiri.com/": {
+  "description": "Docker containers on Mac, Windows and Linux with one Rust daemon. docker run in 22 ms on a Mac. Works with docker, Compose and the Docker API.",
+  "fetched": "2026-11-15",
+  "icon": "https://runkiri.com/assets/kiri-icon-256.png",
+  "image": "https://runkiri.com/assets/og-image.png?v=2"
  },
  "https://rustable.app": {
   "description": "A native database client. Written in Rust. Obviously. macOS, Windows and Linux.",
