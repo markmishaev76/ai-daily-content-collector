@@ -1,7 +1,7 @@
 {
   "date": "2026-11-15",
   "lead": {
-    "title": "Stolen Fireworks AI Key Led to Cursor Data Breach and Trojanized Claude Code Extension",
+    "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
     "link": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
     "excerpt": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. \"An attacker obtained an access key we had issued to Fireworks,\" Cursor said in a Friday…",
     "source": "The Hacker News",
@@ -14,7 +14,7 @@
     "labels": [
       "2 sources",
       "Security & AppSec",
-      "1h ago"
+      "3h ago"
     ],
     "also": [
       {
@@ -25,25 +25,13 @@
   },
   "pulse": [
     {
-      "title": "Project Zero will disclose vulnerabilities 90 days after reporting",
-      "thread": "https://news.ycombinator.com/item?id=50496051",
-      "link": "https://projectzero.google/2026/11/disclosure-policy.html",
-      "link_domain": "projectzero.google",
-      "source": "Hacker News",
-      "domain": "projectzero.google",
-      "meta": "Hacker News · 244 points · 116 comments · 22h ago",
-      "also": [],
-      "image": "https://projectzero.google/images/preview_image.png",
-      "icon": "https://projectzero.google/images/project-zero.svg"
-    },
-    {
       "title": "PyPI's redesigned project pages with clearer security signals are now live",
       "thread": "https://news.ycombinator.com/item?id=50497892",
       "link": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
       "link_domain": "blog.pypi.org",
       "source": "Hacker News",
       "domain": "blog.pypi.org",
-      "meta": "Hacker News · 240 points · 101 comments · 17h ago",
+      "meta": "Hacker News · 251 points · 107 comments · 20h ago",
       "also": [],
       "image": "https://blog.pypi.org/assets/images/social/posts/2026-11-06-ui-updates-complete.png",
       "icon": "https://blog.pypi.org/assets/favicon.ico"
@@ -55,10 +43,22 @@
       "link_domain": "netmeister.org",
       "source": "Hacker News",
       "domain": "netmeister.org",
-      "meta": "Hacker News · 148 points · 192 comments · 19h ago",
+      "meta": "Hacker News · 148 points · 195 comments · 22h ago",
       "also": [],
       "image": "https://www.netmeister.org/blog/images/claude-delusion.jpg",
       "icon": "https://www.netmeister.org/favicon.ico"
+    },
+    {
+      "title": "Show HN: Agweb – a browser for agents that stays out of your way",
+      "thread": "https://news.ycombinator.com/item?id=50497147",
+      "link": "https://github.com/paul-nameless/agweb",
+      "link_domain": "github.com",
+      "source": "Hacker News",
+      "domain": "github.com",
+      "meta": "Hacker News · 100 points · 30 comments · 22h ago",
+      "also": [],
+      "image": "https://opengraph.githubassets.com/2d7c5f74561f3510fead70c1a64318fb84783c8886fe2a0842dc598949778722/paul-nameless/agweb",
+      "icon": "https://github.githubassets.com/favicons/favicon.svg"
     }
   ],
   "sections": [
@@ -75,7 +75,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.837,
+          "score": 0.742,
           "coverage": 1
         },
         {
@@ -88,7 +88,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.635,
+          "score": 0.579,
           "coverage": 1
         }
       ],
@@ -106,8 +106,8 @@
           "image": "https://opengraph.githubassets.com/64ae6b2de99d9379d81a58cd823a33144a3b9cd25f370a4cf3bbf845c3ec837d/Tthanh2k6/turbo-browser-mcp",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "32 points · 5 comments",
-          "score": 8.881,
+          "hn": "38 points · 7 comments",
+          "score": 7.824,
           "coverage": 1
         },
         {
@@ -120,7 +120,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.527,
+          "score": 0.481,
           "coverage": 1
         }
       ],
@@ -139,9 +139,37 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 12.098,
+          "score": 10.003,
           "coverage": 2
         },
+        {
+          "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+          "link": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+          "excerpt": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post. The Garante, Italy's data protection authority, found that the feature was enabled by default and that the app accessed Italian users'…",
+          "source": "The Hacker News",
+          "date": "Nov 15",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdTCjpbsG3Dp62JM1KZqfSvZpuBnxwaCxXsplW3dAt2b4Ym0KAWPfxkHf4DT-02VK3jJESLmgasdE6D36qGegWu7dk9YSLN4DZxRVsgrM9lIEXXHUvQ0VzaZ1_gFqpjtA4cP3rlt82g5WnK2sXNZHJd5F_rEk4VSTGnMKOuXziSM1R85Vqhway3lajwTA/s1600/facebook-fine.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 3.52,
+          "coverage": 2
+        },
+        {
+          "title": "Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook",
+          "link": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/",
+          "excerpt": "The directive protects smartphones as part of a person’s private sphere and requires “free and informed consent” for such access, the authority said. The post Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 14",
+          "image": "https://www.securityweek.com/wp-content/uploads/2023/03/Meta-Facebook-e1739539212391.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 3.52,
+          "coverage": 2
+        }
+      ],
+      "more": [
         {
           "title": "Is AI Making Us Worse at Cybersecurity?",
           "link": "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/",
@@ -152,7 +180,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.286,
+          "score": 0.263,
           "coverage": 1
         },
         {
@@ -165,11 +193,9 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.298,
+          "score": 0.273,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
           "link": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
@@ -180,7 +206,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.181,
+          "score": 0.171,
           "coverage": 1
         },
         {
@@ -193,33 +219,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.173,
-          "coverage": 1
-        },
-        {
-          "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
-          "link": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
-          "excerpt": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]",
-          "source": "BleepingComputer",
-          "date": "Nov 13",
-          "image": "https://www.bleepstatic.com/content/hl-images/2026/10/26/PHP.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
-          "hn": null,
-          "score": 1.186,
-          "coverage": 1
-        },
-        {
-          "title": "Microsoft says November security updates cause printing issues",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
-          "excerpt": "Microsoft warned customers earlier this week that the November 2026 security updates may break printing for documents with complex formatting. [...]",
-          "source": "BleepingComputer",
-          "date": "Nov 13",
-          "image": "https://www.bleepstatic.com/content/hl-images/2026/10/28/Microsoft.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
-          "hn": null,
-          "score": 0.158,
+          "score": 0.165,
           "coverage": 1
         }
       ]
@@ -237,7 +237,20 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.287,
+          "score": 2.173,
+          "coverage": 1
+        },
+        {
+          "title": "Anthropic Outlines Its AI-Powered Code Review Process for Claude Code",
+          "link": "https://www.infoq.com/news/2026/11/claude-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Anthropic has outlined how the Claude Code team handles code reviews as AI agents increasingly contribute to its codebase. The approach relies on multiple layers of automated verification, AI-powered reviews, and risk-based human approval, aiming to reduce manual review time without increasing…",
+          "source": "InfoQ",
+          "date": "Nov 15",
+          "image": "https://res.infoq.com/news/2026/11/claude-code-review/en/headerimage/generatedHeaderImage-1794735663601.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 5.412,
           "coverage": 1
         },
         {
@@ -250,9 +263,11 @@
           "icon": null,
           "domain": "blog.cloudflare.com",
           "hn": null,
-          "score": 0.225,
+          "score": 0.213,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
           "link": "https://blog.cloudflare.com/spend-management/",
@@ -263,11 +278,9 @@
           "icon": null,
           "domain": "blog.cloudflare.com",
           "hn": null,
-          "score": 0.203,
+          "score": 0.193,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Cloudflare Introduces Private Origins for Application Services",
           "link": "https://www.infoq.com/news/2026/11/cloudflare-private-origins/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -278,7 +291,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.592,
+          "score": 0.502,
           "coverage": 1
         },
         {
@@ -291,7 +304,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.479,
+          "score": 0.418,
           "coverage": 1
         },
         {
@@ -304,20 +317,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.24,
-          "coverage": 1
-        },
-        {
-          "title": "Google Cloud Moves the Compute Engine API to Immutable Date-Based Versions",
-          "link": "https://www.infoq.com/news/2026/11/compute-engine-api-versioning/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "Google Cloud has made date-based versioning of the Compute Engine API generally available, replacing the single mutable /v1 surface with immutable quarterly snapshots such as 2026-09-01, selected per request with a header or query parameter. New versions can change defaults, error formats, and IAM…",
-          "source": "InfoQ",
-          "date": "Nov 14",
-          "image": "https://res.infoq.com/news/2026/11/compute-engine-api-versioning/en/headerimage/generatedHeaderImage-1794296072866.jpg",
-          "icon": null,
-          "domain": "infoq.com",
-          "hn": null,
-          "score": 0.237,
+          "score": 0.224,
           "coverage": 1
         },
         {
@@ -348,7 +348,20 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 1.476,
+          "score": 1.354,
+          "coverage": 1
+        },
+        {
+          "title": "Book list for streetfighting computer scientists",
+          "link": "https://nick-black.com/dankwiki/index.php?title=Book_list_for_streetfighting_computer_scientists",
+          "excerpt": "25 points · 3 comments",
+          "source": "nick-black.com via Hacker News",
+          "date": "Nov 15",
+          "image": "https://nick-black.com/dankwiki/resources/assets/orca.jpg",
+          "icon": "https://nick-black.com/favicon.ico",
+          "domain": "nick-black.com",
+          "hn": "25 points · 3 comments",
+          "score": 2.411,
           "coverage": 1
         },
         {
@@ -360,8 +373,36 @@
           "image": "https://runkiri.com/assets/og-image.png?v=2",
           "icon": "https://runkiri.com/assets/kiri-icon-256.png",
           "domain": "runkiri.com",
-          "hn": "41 points · 20 comments",
-          "score": 2.901,
+          "hn": "59 points · 30 comments",
+          "score": 2.683,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Why did some Apollo missions carry a grenade launcher?",
+          "link": "https://space.stackexchange.com/questions/37775",
+          "excerpt": "63 points · 28 comments",
+          "source": "space.stackexchange.com via Hacker News",
+          "date": "Nov 15",
+          "image": null,
+          "icon": "https://space.stackexchange.com/favicon.ico",
+          "domain": "space.stackexchange.com",
+          "hn": "63 points · 28 comments",
+          "score": 3.484,
+          "coverage": 1
+        },
+        {
+          "title": "Disk encryption on NetBSD – achieving secrecy",
+          "link": "https://netbsd.org/~nia/disk-encrypt/",
+          "excerpt": "48 points · 6 comments",
+          "source": "netbsd.org via Hacker News",
+          "date": "Nov 15",
+          "image": null,
+          "icon": "https://netbsd.org/favicon.ico",
+          "domain": "netbsd.org",
+          "hn": "48 points · 6 comments",
+          "score": 2.539,
           "coverage": 1
         },
         {
@@ -373,36 +414,21 @@
           "image": "https://opengraph.githubassets.com/0ab5f0062dc446fe550ee8ec680023b2cc7245def9730b20ba3c42153d7b1c1f/matheuzgomes/gawain",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "47 points · 22 comments",
-          "score": 2.969,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "Disk encryption on NetBSD – achieving secrecy",
-          "link": "https://netbsd.org/~nia/disk-encrypt/",
-          "excerpt": "23 points · 0 comments",
-          "source": "netbsd.org via Hacker News",
-          "date": "Nov 15",
-          "image": null,
-          "icon": "https://netbsd.org/favicon.ico",
-          "domain": "netbsd.org",
-          "hn": "23 points · 0 comments",
-          "score": 2.459,
+          "hn": "57 points · 35 comments",
+          "score": 2.697,
           "coverage": 1
         },
         {
           "title": "My favourite modern NES games",
           "link": "https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/",
-          "excerpt": "75 points · 5 comments",
+          "excerpt": "108 points · 11 comments",
           "source": "jordi.inversethought.com via Hacker News",
           "date": "Nov 15",
           "image": null,
           "icon": "https://jordi.inversethought.com/favicon.ico",
           "domain": "jordi.inversethought.com",
-          "hn": "75 points · 5 comments",
-          "score": 2.736,
+          "hn": "108 points · 11 comments",
+          "score": 2.569,
           "coverage": 1
         },
         {
@@ -414,34 +440,8 @@
           "image": "https://www.eff.org/files/banner_library/siren_v._san_jose.png",
           "icon": "https://www.eff.org/sites/all/themes/phoenix/apple-touch-icon.png",
           "domain": "eff.org",
-          "hn": "223 points · 57 comments",
-          "score": 3.278,
-          "coverage": 1
-        },
-        {
-          "title": "Court denies motion to dismiss DRAM price fixing case",
-          "link": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
-          "excerpt": "Judge Noël Wise found buyers plausibly alleged a conspiracy to restrict conventional memory chip supply, distinguishing the Ninth Circuit's 2022 DRAM II ruling.",
-          "source": "litnews.ai via Hacker News",
-          "date": "Nov 15",
-          "image": "https://litnews.ai/og/default.png",
-          "icon": "https://litnews.ai/favicon.ico",
-          "domain": "litnews.ai",
-          "hn": "130 points · 32 comments",
-          "score": 2.894,
-          "coverage": 1
-        },
-        {
-          "title": "Show HN: A custom font based on the Jamaican flag alphabet",
-          "link": "https://bobbiec.github.io/jamaican-font.html",
-          "excerpt": "A font where the letters are based on the Jamaican flag design.",
-          "source": "bobbiec.github.io via Hacker News",
-          "date": "Nov 15",
-          "image": null,
-          "icon": "https://bobbiec.github.io/favicon.ico",
-          "domain": "bobbiec.github.io",
-          "hn": "37 points · 6 comments",
-          "score": 2.208,
+          "hn": "249 points · 68 comments",
+          "score": 2.928,
           "coverage": 1
         }
       ]
