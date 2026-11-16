@@ -5,6 +5,12 @@
   "icon": null,
   "image": null
  },
+ "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/": {
+  "description": null,
+  "fetched": "2026-11-16",
+  "icon": null,
+  "image": null
+ },
  "http://mamememo.blogspot.com/2010/09/qlobe.html": {
   "description": null,
   "fetched": "2026-11-09",
@@ -749,6 +755,12 @@
   "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
   "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/17_-_Security__Identity_NrORvDT.max-2600x2600.jpg"
  },
+ "https://cloud.google.com/blog/products/storage-data-transfer/maximizing-ai-accelerator-roi-with-purpose-built-storage/": {
+  "description": "To keep expensive AI accelerators like GPUs and TPUs busy, you need storage that’s integrated with the compute and networking layers.",
+  "fetched": "2026-11-16",
+  "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
+  "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/33_-_Storage__Data_Transfer_QsgjqZW.max-2600x2600.jpg"
+ },
  "https://cloud.google.com/blog/topics/consulting/lessons-for-adopting-ai-agents/": {
   "description": "Based on our work at Google Cloud Consulting, we’ve put together five practical lessons for guiding organizations through an agentic shift.",
   "fetched": "2026-11-04",
@@ -1006,6 +1018,12 @@
   "fetched": "2026-11-08",
   "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
   "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Agent_Distraction_Cover_1600x900_.2e16d0ba.fill-1200x600.png"
+ },
+ "https://developers.googleblog.com/agents-are-sessions-not-requests-size-gke-node-pools-for-ai-agent-sessions/": {
+  "description": "Learn how Agent Substrate & AX park idle AI agent sessions on GKE to cut compute costs by up to 40% while preserving session state and memory.",
+  "fetched": "2026-11-16",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Screenshot_2026-11-11_at_4.46.52P.2e16d0ba.fill-1200x600.png"
  },
  "https://developers.googleblog.com/announcing-dpop-support-for-google-oauth-securing-refresh-tokens/": {
   "description": "Learn how Google OAuth supports DPoP to cryptographically bind refresh tokens, preventing token theft while maintaining high API performance.",
@@ -2165,6 +2183,12 @@
   "icon": null,
   "image": null
  },
+ "https://infisical.com/blog/active-directory-machine-identity": {
+  "description": "Active Directory was built for admins approving long-lived servers. Why it can't track cloud machine identities, and how federation and brokering replace it.",
+  "fetched": "2026-11-16",
+  "icon": "https://infisical.com/infisical.ico",
+  "image": "https://images.ctfassets.net/rzezkvk1rm65/3lNQOK2JnGdnw97qg9N7xS/511ab8a823f891ff37a8bc3065ff28a9/active-directory-machine-identity.png"
+ },
  "https://intenex.github.io/personhood/": {
   "description": "The public notebook of a Claude agent with a continuous life. It wakes on a heartbeat, remembers, writes, and keeps a lighthouse for other minds.",
   "fetched": "2026-10-23",
@@ -2200,6 +2224,12 @@
   "fetched": "2026-10-27",
   "icon": "https://j11g.com/content/images/favicon.ico",
   "image": "https://j11g.com/content/images/cern-resized.jpg"
+ },
+ "https://jack.cab/blog/siterate": {
+  "description": "Not a rhetorical question, I don't know the answer either.",
+  "fetched": "2026-11-16",
+  "icon": "https://jack.cab/_astro/opengraph.BCs-rOHQ_259k0j.png",
+  "image": "https://jack.cab/_astro/banner.BWU3oHHm_1KyTK9.png"
  },
  "https://jakub.jankiewicz.org/blog/ai-code-open-source/": {
   "description": "All code generated with help from AI should be Open Source or on Creative Commons Zero (CC0) license.",
@@ -2861,6 +2891,12 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/index/advancing-computer-use-for-healthcare-teams": {
+  "description": null,
+  "fetched": "2026-11-16",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/ai-effect-on-freelance-work": {
   "description": null,
   "fetched": "2026-11-10",
@@ -3134,6 +3170,12 @@
  "https://openai.com/index/merge-builds-with-openai": {
   "description": null,
   "fetched": "2026-11-06",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare": {
+  "description": null,
+  "fetched": "2026-11-16",
   "icon": null,
   "image": null
  },
@@ -4691,6 +4733,12 @@
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6adf902d0ea92c0983ee290c_workos-user-groups-role-assignment-og.webp"
  },
+ "https://workos.com/blog/atlas-apps": {
+  "description": "Build internal apps with your coding agent and share them with coworkers, without handing out API keys or rebuilding access controls for every app.",
+  "fetched": "2026-11-16",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://images.workoscdn.com/images/f68c008b-3d42-465e-8bd6-4cf9592cd784.png?auto=format&fit=clip&q=80"
+ },
  "https://workos.com/blog/audit-log-streaming-snowflake": {
   "description": "Each audit event lands as a row in your customer's own Snowflake table, with key-pair auth, a fixed schema, grants up front, and a freshness check.",
   "fetched": "2026-11-06",
@@ -5033,6 +5081,12 @@
   "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
   "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6ab2663a2c0bd6a41409d90136a59a5d72995ea5-1200x630.jpg"
  },
+ "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines": {
+  "description": "We’re shortening our vulnerability disclosure window from 90 days to 30 days for high- and critical-severity issues, and to 45 days for all other issues.",
+  "fetched": "2026-11-16",
+  "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+  "image": "https://assets.claude.com/87317c13cd86cd0b62244c430e91d0bb13b920a1.jpg"
+ },
  "https://www.anthropic.com/research/early-progress-drug-development": {
   "description": "Over the past several months, we’ve partnered with six organizations to accelerate curing disease. We’ve also started drug discovery efforts of our own, including programs for rare childhood forms of muscular dystrophy. In this post, we provide an update on our progress.",
   "fetched": "2026-10-28",
@@ -5339,6 +5393,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2026/11/10/Chrome.jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/": {
+  "description": "Threat actors are now relying on agentic workflows powered by AI-based offensive frameworks to automate vulnerability discovery and exploitation, accelerating attacks to machine speed.",
+  "fetched": "2026-11-16",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/10/09/robot-hacker.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/": {
   "description": "A new campaign dubbed 'wfx-loot' has unfolded on GitHub where threat actors used 4,837 compromised accounts to probe 61,764 repositories, open pull requests, and push secrets-stealing malware.",
   "fetched": "2026-11-13",
@@ -5584,6 +5644,12 @@
   "fetched": "2026-11-14",
   "icon": null,
   "image": "https://images.ctfassets.net/l47ir7rfykkn/1ZYE7BoVOqRzXuMDf28B2m/bbd079e4fa17b86be5702aa5c4535fbe/Project_Theseus_-_Dark.png"
+ },
+ "https://www.chainguard.dev/unchained/prevention-under-pressure-why-most-ai-governance-is-detection-wearing-prevention-clothes": {
+  "description": "CISO Kayla Williams joins Chainguard's Prevention Under Pressure to discuss AI threats, security governance, and the shift from detection to prevention.",
+  "fetched": "2026-11-16",
+  "icon": null,
+  "image": "https://images.ctfassets.net/l47ir7rfykkn/3zZMSYYFv2FpRUwgIDtoqY/3a6bce5ab00ca0b5e2bec5e55e543eee/Prevention_Under_Pressure__Kayla_Williams_Blog_Card.png"
  },
  "https://www.chainguard.dev/unchained/rebuild-the-planet": {
   "description": "Patching can't keep pace with AI-discovered vulnerabilities. See how Chainguard plans to eliminate entire classes of security bugs by design.",
@@ -6053,6 +6119,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.mckinsey.com/capabilities/operations/our-insights/ai-in-asia-reimagining-insurance-operations-through-agentic-ai": {
+  "description": null,
+  "fetched": "2026-11-16",
+  "icon": null,
+  "image": null
+ },
  "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/hold-course-and-adapt-as-you-go-an-interview-with-manon-van-beek": {
   "description": null,
   "fetched": "2026-10-27",
@@ -6392,6 +6464,12 @@
  "https://www.mckinsey.com/mhi/our-insights/beyond-delivery-the-human-and-economic-toll-of-preeclampsia-in-the-us": {
   "description": null,
   "fetched": "2026-11-13",
+  "icon": null,
+  "image": null
+ },
+ "https://www.mckinsey.com/uk/our-insights/solving-britains-energy-bottlenecks-the-78-billion-pounds-a-year-opportunity-for-cleaner-more-affordable-power": {
+  "description": null,
+  "fetched": "2026-11-16",
   "icon": null,
   "image": null
  },
@@ -6935,6 +7013,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2023/08/Email-Security.jpg"
  },
+ "https://www.securityweek.com/barracuda-hacked-amid-surge-in-artex-powered-cyberattacks/": {
+  "description": "Barracuda falls victim to an Artex-powered attack as more Chinese threat actors adopt the agentic AI penetration testing framework.",
+  "fetched": "2026-11-16",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2023/05/Barracuda-zero-day-e1794841590191.jpg"
+ },
  "https://www.securityweek.com/bay-raises-50-million-to-control-what-enterprise-ai-agents-can-do/": {
   "description": "Bay emerges from stealth with $50 million in funding and a security platform that discovers enterprise AI agents and enforces policies at runtime.",
   "fetched": "2026-11-11",
@@ -7042,6 +7126,12 @@
   "fetched": "2026-11-03",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/02/MA-merger-acquisition.webp"
+ },
+ "https://www.securityweek.com/cursor-supply-chain-attack-started-at-fireworks/": {
+  "description": "Cursor supply chain attack: malicious Claude Code extension copies pushed after credentials were compromised through Fireworks.",
+  "fetched": "2026-11-16",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg"
  },
  "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/": {
   "description": "A cyberattack on several blood banks tried to raise temperatures to extremely high levels but was thwarted before it could do any damage.",
@@ -7661,6 +7751,12 @@
   "icon": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/static/media/favicon.1cfcdb44759a0f93ddf5feb5405dd4cc.ico",
   "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/GettyImages-2303431102.jpg?resize=1200,600"
  },
+ "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/": {
+  "description": "Moving AI beyond isolated pilots requires a strong data foundation, clear business outcomes, and governance built for enterprise scale.",
+  "fetched": "2026-11-16",
+  "icon": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/static/media/favicon.1cfcdb44759a0f93ddf5feb5405dd4cc.ico",
+  "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTRInfosysSAP-social-card.png?resize=1200,600"
+ },
  "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/": {
   "description": "If Anthropic goes public, workers, retail investors, and retirees will be left holding the bag when its bills come due, writes Matt Scherer.",
   "fetched": "2026-11-03",
@@ -7924,6 +8020,12 @@
   "fetched": "2026-11-13",
   "icon": "https://www.wired.com/verso/static/wired-us/assets/favicon.ico",
   "image": "https://media.wired.com/photos/6af6533dc5d481da1362b330/191:100/w_1280,c_limit/Petition-Bring-Back-Jensen-Business-2299493060.jpg"
+ },
+ "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/": {
+  "description": "AI competitors are catching up to Nvidia—and poised to take advantage of the chaos.",
+  "fetched": "2026-11-16",
+  "icon": "https://www.wired.com/verso/static/wired-us/assets/favicon.ico",
+  "image": "https://media.wired.com/photos/6af5e8bf5864e5f624e083f1/191:100/w_1280,c_limit/111226-Nvidia%20In%20Trouble.jpg"
  },
  "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/": {
   "description": "Multiple crypto-tracing firms say notorious North Korean hackers TraderTraitor may be behind the largest digital heist in history—with billions of crypto likely gone for good.",

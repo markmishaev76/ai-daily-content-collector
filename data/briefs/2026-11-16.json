@@ -1,40 +1,23 @@
 {
   "date": "2026-11-16",
   "lead": {
-    "title": "How ISVs are unlocking European workloads using Google Cloud Dedicated technology",
-    "link": "https://cloud.google.com/blog/products/identity-security/how-isvs-are-unlocking-european-workloads-on-google-cloud-dedicated/",
-    "excerpt": "Across Europe, organizations handling sensitive workloads in regulated sectors — such as financial services, healthcare, critical infrastructure, and the public sector — are trying to modernize their infrastructure while adhering to strict local data governance standards, including SecNumCloud in…",
-    "source": "Cloud Blog",
+    "title": "Why Is Credential Rotation So Hard? Follow One Leaked Production Key",
+    "link": "https://blog.gitguardian.com/why-credential-rotation-is-hard/",
+    "excerpt": "A leaked production key had copies in code, config, a pipeline, a vault and Jira. Follow the credential rotation twice, once by hand over 3 days and once with a full inventory in hours.",
+    "source": "GitGuardian",
     "date": "Nov 16",
-    "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Security__Identity.max-2500x2500.jpg",
+    "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/11/credential-rotation-thumbnail.png",
     "image_credit": null,
-    "section": "Platform, Cloud & Reliability",
+    "section": "Secrets & NHI",
     "pinned": false,
     "note": null,
     "labels": [
-      "Platform, Cloud & Reliability",
-      "5h ago"
+      "Secrets & NHI",
+      "2h ago"
     ],
     "also": []
   },
   "pulse": [
-    {
-      "title": "All AI-generated code should be Open Source",
-      "thread": "https://news.ycombinator.com/item?id=50507303",
-      "link": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
-      "link_domain": "jakub.jankiewicz.org",
-      "source": "Hacker News",
-      "domain": "jakub.jankiewicz.org",
-      "meta": "Hacker News · 1.2k points · 625 comments · 22h ago",
-      "also": [
-        {
-          "source": "Lobsters",
-          "thread": "https://lobste.rs/s/ek4fkg/all_ai_generated_code_should_be_open"
-        }
-      ],
-      "image": "https://jakub.jankiewicz.org/img/en/ai-code-open-source.png",
-      "icon": "https://jakub.jankiewicz.org/favicon/apple-touch-icon.png"
-    },
     {
       "title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
       "thread": "https://news.ycombinator.com/item?id=50509411",
@@ -42,22 +25,10 @@
       "link_domain": "www1.wdr.de",
       "source": "Hacker News",
       "domain": "www1.wdr.de",
-      "meta": "Hacker News · 583 points · 251 comments · 18h ago",
+      "meta": "Hacker News · 607 points · 264 comments · 22h ago",
       "also": [],
       "image": "https://www1.wdr.de/nrw/koeln/phantasialand-134~_v-gseagaleriexl.jpg",
       "icon": "https://www1.wdr.de/assets-v5.182.4/img/favicon/apple-touch-icon.png"
-    },
-    {
-      "title": "Coles hit by a cybersecurity incident",
-      "thread": "https://news.ycombinator.com/item?id=50512824",
-      "link": "https://www.colesgroup.com.au/updates/",
-      "link_domain": "colesgroup.com.au",
-      "source": "Hacker News",
-      "domain": "colesgroup.com.au",
-      "meta": "Hacker News · 112 points · 86 comments · 11h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://www.colesgroup.com.au/FormBuilder/_Resource/_module/ir5sKeTxxEOndzdh00hWJw/images/apple-icon-57x57.png"
     },
     {
       "title": "Universal XSS in uBlock Origin from website-driven element picker",
@@ -66,16 +37,41 @@
       "link_domain": "iter.ca",
       "source": "Lobsters",
       "domain": "iter.ca",
-      "meta": "Lobsters · 15 points · 0 comments · 7h ago",
+      "meta": "Lobsters · 24 points · 0 comments · 12h ago",
       "also": [],
       "image": "https://iter.ca//ubo-epicker.png",
       "icon": "https://iter.ca/avatar/a32.png"
+    },
+    {
+      "title": "Coles hit by a cybersecurity incident",
+      "thread": "https://news.ycombinator.com/item?id=50512824",
+      "link": "https://www.colesgroup.com.au/updates/",
+      "link_domain": "colesgroup.com.au",
+      "source": "Hacker News",
+      "domain": "colesgroup.com.au",
+      "meta": "Hacker News · 116 points · 87 comments · 16h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.colesgroup.com.au/FormBuilder/_Resource/_module/ir5sKeTxxEOndzdh00hWJw/images/apple-icon-57x57.png"
     }
   ],
   "sections": [
     {
       "name": "AI-Assisted Engineering",
       "cards": [
+        {
+          "title": "Software engineering after code becomes cheap with Satya Nadella",
+          "link": "https://newsletter.pragmaticengineer.com/p/software-engineering-after-code-becomes",
+          "excerpt": "Microsoft CEO Satya Nadella on AI’s impact on software engineering, code verification, and engineers’ careers.",
+          "source": "The Pragmatic Engineer",
+          "date": "Nov 16",
+          "image": "https://substackcdn.com/image/fetch/$s_!PDDS!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa3e14da4-b493-4b54-b18d-0b618a4a59f4_1600x140.png",
+          "icon": null,
+          "domain": "newsletter.pragmaticengineer.com",
+          "hn": null,
+          "score": 1.141,
+          "coverage": 1
+        },
         {
           "title": "datasette-maplibre 0.1a0",
           "link": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
@@ -86,7 +82,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.716,
+          "score": 0.613,
           "coverage": 1
         },
         {
@@ -99,20 +95,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.716,
-          "coverage": 1
-        },
-        {
-          "title": "Systems thinking outlasts frameworks",
-          "link": "https://leaddev.com/technical-direction/systems-thinking-outlasts-frameworks?utm_source=leaddev&utm_medium=RSS",
-          "excerpt": "Think beyond the component level. The post Systems thinking outlasts frameworks appeared first on LeadDev.",
-          "source": "LeadDev",
-          "date": "Nov 16",
-          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/next/2024/04/Radar-4-1280-x-853-px.png",
-          "icon": null,
-          "domain": "leaddev.com",
-          "hn": null,
-          "score": 1.281,
+          "score": 0.613,
           "coverage": 1
         }
       ],
@@ -127,7 +110,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.698,
+          "score": 0.6,
           "coverage": 1
         },
         {
@@ -140,7 +123,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.697,
+          "score": 0.599,
           "coverage": 1
         },
         {
@@ -153,7 +136,20 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.399,
+          "score": 0.365,
+          "coverage": 1
+        },
+        {
+          "title": "Systems thinking outlasts frameworks",
+          "link": "https://leaddev.com/technical-direction/systems-thinking-outlasts-frameworks?utm_source=leaddev&utm_medium=RSS",
+          "excerpt": "Think beyond the component level. The post Systems thinking outlasts frameworks appeared first on LeadDev.",
+          "source": "LeadDev",
+          "date": "Nov 16",
+          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/next/2024/04/Radar-4-1280-x-853-px.png",
+          "icon": null,
+          "domain": "leaddev.com",
+          "hn": null,
+          "score": 0.986,
           "coverage": 1
         },
         {
@@ -166,7 +162,7 @@
           "icon": null,
           "domain": "leaddev.com",
           "hn": null,
-          "score": 1.078,
+          "score": 0.861,
           "coverage": 1
         }
       ]
@@ -184,9 +180,37 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 1.163,
+          "score": 0.922,
           "coverage": 1
         },
+        {
+          "title": "Advancing computer-use agents for healthcare teams",
+          "link": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+          "excerpt": "",
+          "source": "OpenAI News",
+          "date": "Nov 16",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.804,
+          "coverage": 1
+        },
+        {
+          "title": "More ways to move care forward with ChatGPT for Healthcare",
+          "link": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+          "excerpt": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+          "source": "OpenAI News",
+          "date": "Nov 16",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.804,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "The King’s Trust and OpenAI launch £1m partnership",
           "link": "https://openai.com/index/the-kings-trust-and-openai",
@@ -197,7 +221,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.746,
+          "score": 0.639,
           "coverage": 1
         },
         {
@@ -210,11 +234,9 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.691,
+          "score": 0.598,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Our new blog for science",
           "link": "https://openai.com/index/our-new-blog-for-science",
@@ -225,7 +247,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.691,
+          "score": 0.598,
           "coverage": 1
         },
         {
@@ -238,7 +260,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 1.149,
+          "score": 0.869,
           "coverage": 1
         }
       ]
@@ -246,6 +268,19 @@
     {
       "name": "Leadership",
       "cards": [
+        {
+          "title": "AI in Asia: Reimagining insurance operations through agentic AI",
+          "link": "https://www.mckinsey.com/capabilities/operations/our-insights/ai-in-asia-reimagining-insurance-operations-through-agentic-ai",
+          "excerpt": "Insurers in Asia–Pacific can realize value from agentic AI by redesigning insurance operations around what AI and agents now make possible.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 16",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 3.909,
+          "coverage": 1
+        },
         {
           "title": "Obituaries",
           "link": "https://stratechery.com/2026/obituaries/",
@@ -256,7 +291,7 @@
           "icon": null,
           "domain": "stratechery.com",
           "hn": null,
-          "score": 1.065,
+          "score": 0.82,
           "coverage": 1
         },
         {
@@ -269,9 +304,11 @@
           "icon": null,
           "domain": "sloanreview.mit.edu",
           "hn": null,
-          "score": 1.214,
+          "score": 0.906,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Navigating the AI infrastructure mismatch: Equinix CEO Adaire Fox-Martin",
           "link": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/navigating-the-ai-infrastructure-mismatch-equinix-ceo-adaire-fox-martin",
@@ -282,11 +319,22 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.597,
+          "score": 0.511,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
+        {
+          "title": "Solving Britain’s energy bottlenecks: The £78 billion-a-year opportunity for cleaner, more affordable power",
+          "link": "https://www.mckinsey.com/uk/our-insights/solving-britains-energy-bottlenecks-the-78-billion-pounds-a-year-opportunity-for-cleaner-more-affordable-power",
+          "excerpt": "Companies that address the toughest bottlenecks in Britain’s power system could capture part of a £78 billion-a-year opportunity while helping deliver cleaner, more affordable, and more reliable power.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 16",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.511,
+          "coverage": 1
+        },
         {
           "title": "The CEO’s role in leading on sustainability",
           "link": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/the-ceos-role-in-leading-on-sustainability",
@@ -297,10 +345,93 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.597,
+          "score": 0.511,
           "coverage": 1
         }
       ]
+    },
+    {
+      "name": "Agent Identity & Authorization",
+      "cards": [
+        {
+          "title": "How ISVs are unlocking European workloads using Google Cloud Dedicated technology",
+          "link": "https://cloud.google.com/blog/products/identity-security/how-isvs-are-unlocking-european-workloads-on-google-cloud-dedicated/",
+          "excerpt": "Across Europe, organizations handling sensitive workloads in regulated sectors — such as financial services, healthcare, critical infrastructure, and the public sector — are trying to modernize their infrastructure while adhering to strict local data governance standards, including SecNumCloud in…",
+          "source": "Security & Identity",
+          "date": "Nov 16",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Security__Identity.max-2500x2500.jpg",
+          "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 5.674,
+          "coverage": 1
+        },
+        {
+          "title": "Inside the new Google Cloud Data Boundary experience",
+          "link": "https://cloud.google.com/blog/products/identity-security/inside-the-new-data-boundary-experience/",
+          "excerpt": "Digital sovereignty is evolving from a standard compliance requirement into a powerful strategic advantage for regulated industries worldwide. From European frameworks designed to meet sovereign standards (DORA, EHDS, GDPR) to FedRAMP/ILs/ITARs in the U.S., or expanding mandates across…",
+          "source": "Security & Identity",
+          "date": "Nov 16",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_Tb37FLR.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 0.565,
+          "coverage": 1
+        },
+        {
+          "title": "WorkOS Atlas: A secure home for the internal apps your team builds with AI",
+          "link": "https://workos.com/blog/atlas-apps",
+          "excerpt": "Build internal apps with your coding agent and share them with coworkers, without handing out API keys or rebuilding access controls for every app.",
+          "source": "WorkOS Blog",
+          "date": "Nov 16",
+          "image": "https://images.workoscdn.com/images/f68c008b-3d42-465e-8bd6-4cf9592cd784.png?auto=format&fit=clip&q=80",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null,
+          "score": 0.409,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Secrets & NHI",
+      "cards": [
+        {
+          "title": "Why We Built the Good Samaritan Program",
+          "link": "https://blog.gitguardian.com/why-we-built-the-good-samaritan-program/",
+          "excerpt": "The first thing GitGuardian ever shipped was a free warning. Now we’re making sure it gets heard.",
+          "source": "GitGuardian",
+          "date": "Nov 16",
+          "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/11/Why-We-Built-the-Good-Samaritan-Program.png",
+          "icon": null,
+          "domain": "blog.gitguardian.com",
+          "hn": null,
+          "score": 0.72,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Supply Chain & Builds",
+      "cards": [
+        {
+          "title": "Prevention Under Pressure: Why most AI governance is \"detection wearing prevention clothes\"",
+          "link": "https://www.chainguard.dev/unchained/prevention-under-pressure-why-most-ai-governance-is-detection-wearing-prevention-clothes",
+          "excerpt": "CISO Kayla Williams joins Chainguard's Prevention Under Pressure to discuss AI threats, security governance, and the shift from detection to prevention.",
+          "source": "Chainguard: Unchained",
+          "date": "Nov 16",
+          "image": "https://images.ctfassets.net/l47ir7rfykkn/3zZMSYYFv2FpRUwgIDtoqY/3a6bce5ab00ca0b5e2bec5e55e543eee/Prevention_Under_Pressure__Kayla_Williams_Blog_Card.png",
+          "icon": "https://www.chainguard.dev/favicon.ico",
+          "domain": "chainguard.dev",
+          "hn": null,
+          "score": 0.327,
+          "coverage": 1
+        }
+      ],
+      "more": []
     },
     {
       "name": "Security & AppSec",
@@ -315,100 +446,100 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 3.445,
+          "score": 2.78,
           "coverage": 1
         },
         {
-          "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
-          "link": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
-          "excerpt": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week. No patch is available, and the researchers say the newest firmware, version 5.4.0, does not fix the…",
-          "source": "The Hacker News",
+          "title": "Cursor Supply Chain Attack Started at Fireworks AI",
+          "link": "https://www.securityweek.com/cursor-supply-chain-attack-started-at-fireworks/",
+          "excerpt": "The attacker stole an access key from Fireworks and used it to exfiltrate credentials that enabled them to push malicious Claude Code extension copies. The post Cursor Supply Chain Attack Started at Fireworks AI appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
           "date": "Nov 16",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_1GngZ38pRRizZTrhUgdWx49U1Dk8N_Y1Wkfll2kXIjAeYMmX2R69d6OBvA9k-zb6rnYbNOZyouN9yj59QIlT8XxiTzmmhLTmwmEdU2bqiGc_XoSMlvKKN1qZtH3o73YN1miGEhR4vkDniji2WkWOHjSPPIn69ysWKPkFzr504FsViG2NQYxPDkD7sgw/s1600/flaws.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
+          "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
           "hn": null,
-          "score": 0.573,
+          "score": 4.457,
           "coverage": 1
         },
         {
-          "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
-          "link": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
-          "excerpt": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it through rundll32.exe,\"…",
-          "source": "The Hacker News",
+          "title": "US allies deepen deal to guard AI supply chains against 'hostile actors' (cough, China, cough)",
+          "link": "https://www.theregister.com/systems/2026/11/16/us-allies-deepen-deal-to-guard-ai-supply-chains-against-hostile-actors-cough-china-cough/5310094",
+          "excerpt": "Securing supply chains or coercing other nations to help Washington sideline Beijing and its AI ambitions?",
+          "source": "The Register",
           "date": "Nov 16",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxRuwbdQU-KyBsSrFlIZp4oczr_tJu53WrfB3nM6QYrO7kFgGAZO1NMSi7mziUOUaTrzq5C4KzCJqvYOf0Ry19ypJac-9mBYzYiqiTNl462i1uYo7DF9aAHxiVU_IOaByH3NtNlrF0hUhZtpItADKJauPVzWrz8r6YOQEHQrt_YiAmPba4CIOsSjZA2Wy_/s1600/hacker-code.jpg",
+          "image": "https://image.theregister.com/?imageId=5244738&width=800",
           "icon": null,
-          "domain": "thehackernews.com",
+          "domain": "theregister.com",
           "hn": null,
-          "score": 0.573,
+          "score": 4.207,
           "coverage": 1
         }
       ],
       "more": [
         {
-          "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
-          "link": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
-          "excerpt": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads. Central to the intrusion is a toolkit called SANSAR, a Rust-based orchestrator that receives…",
+          "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+          "link": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+          "excerpt": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execute multi-stage intrusions at greater operational velocity.…",
           "source": "The Hacker News",
           "date": "Nov 16",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmpR04waLSDZNCb2048kfy5iSlIXa_Ek3PI5qLRaBksxvyI9k_8Z6bwl6Og4Mc-AGqmHcpL7YlYVd48895FJtKlOoaqgi658-H3FZTxdjf_w32w5eJYzm_BUdXlH7M7Vb40uPUI73CDbXtQCdZAEkFruSBXvc0_B84hCQ-em0ZQk2uTIIHxRdGCxQ6bx1C/s1600/nv.jpg",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpEBmKLWFpEn8sSoJLtj1ZR7FPMd8GxxKN2v4IzyBkydma_g4gXzaWEEkK5CTPwidrBPw6QPdoByiEC14ufVP2pvezWKtH_dmqHttARDKzDOopkw0vzUdTYZubCh9Qy76nlmVSbhtTSvDOuT1c70E4TVPw8T4hUhMdR-saHjQPW1S9IZNmg2_RfsMsmJLb/s1600/google.jpg",
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.462,
+          "score": 3.447,
           "coverage": 1
         },
         {
-          "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
-          "link": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
-          "excerpt": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server. The activity, documented by Kaspersky's ICS CERT team after it was contacted by the affected…",
-          "source": "The Hacker News",
+          "title": "Google: AI agent turned a security patch into a working exploit with no human help",
+          "link": "https://www.theregister.com/research/2026/11/16/google-ai-agent-turned-a-security-patch-into-a-working-exploit-with-no-human-help/5309926",
+          "excerpt": "Look ma, no human in the loop!",
+          "source": "The Register",
           "date": "Nov 16",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAvzoKykaMIpa6xx92YudipfUoEQnSkrE6p2CiWEVra5izr5GfuNQGOnfRuF0XV99v1IPRFe2Q6BF27UEq3BnWFS5onw97dt3hvszilQDANdtRdYi0_hTDOrKQvuwGn1mY_m-QTabV3jwWCNwXs_OizK2GLF3Eks5HJj5I7kbmA2IztruSBVjq5WOcxEM-/s1600/log4shell.jpg",
+          "image": "https://image.theregister.com/?imageId=5298454&width=800",
           "icon": null,
-          "domain": "thehackernews.com",
+          "domain": "theregister.com",
           "hn": null,
-          "score": 0.395,
+          "score": 3.447,
           "coverage": 1
         },
         {
-          "title": "Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch",
-          "link": "https://www.securityweek.com/telegram-widgets-hit-by-rce-demos-malware-warning-days-after-launch/",
-          "excerpt": "Kaspersky suspects exploitation of Telegram’s new widgets to deliver WebRAT, as researchers demo RCE and Pavel Durov disputes the claims. The post Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
+          "title": "Has AI’s ‘Black October’ changed the way you secure your code?",
+          "link": "https://www.theregister.com/security/2026/11/16/partner-content-has-ais-black-october-changed-the-way-you-secure-your-code/5309775",
+          "excerpt": "PARTNER CONTENT: AI agents are making security vulnerabilities easier to find and exploit in your code. Software engineering and application security teams need new ways to find and fix them",
+          "source": "The Register",
           "date": "Nov 16",
-          "image": "https://www.securityweek.com/wp-content/uploads/2024/08/Telegram-legal-e1794833200840.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
+          "image": "https://image.theregister.com/?imageId=5309813&width=800",
+          "icon": null,
+          "domain": "theregister.com",
           "hn": null,
-          "score": 0.584,
+          "score": 3.048,
           "coverage": 1
         },
         {
-          "title": "Recent UnrealIRCd Vulnerability Exploited in Attacks",
-          "link": "https://www.securityweek.com/recent-unrealircd-vulnerability-exploited-in-attacks/",
-          "excerpt": "Tracked as CVE-2026-114713, the high-severity flaw allows attackers to execute commands with server/IRCOp privileges. The post Recent UnrealIRCd Vulnerability Exploited in Attacks appeared first on SecurityWeek.",
+          "title": "Barracuda Hacked Amid Surge in Artex-Powered Cyberattacks",
+          "link": "https://www.securityweek.com/barracuda-hacked-amid-surge-in-artex-powered-cyberattacks/",
+          "excerpt": "Chinese threat actors are broadly adopting the agentic AI penetration testing framework to accelerate their attacks. The post Barracuda Hacked Amid Surge in Artex-Powered Cyberattacks appeared first on SecurityWeek.",
           "source": "SecurityWeek",
           "date": "Nov 16",
-          "image": "https://www.securityweek.com/wp-content/uploads/2025/11/NPM-code-software-development.jpeg",
+          "image": "https://www.securityweek.com/wp-content/uploads/2023/05/Barracuda-zero-day-e1794841590191.jpg",
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 3.635,
+          "score": 5.575,
           "coverage": 1
         },
         {
-          "title": "Hackers Probe Newly Disclosed Flaws in Copeland Refrigeration Controllers",
-          "link": "https://www.securityweek.com/hackers-probe-newly-disclosed-flaws-in-copeland-refrigeration-controllers/",
-          "excerpt": "Vulncheck disclosed 14 vulnerabilities affecting Copeland XWEB EVO controllers, including two that threat actors quickly targeted. The post Hackers Probe Newly Disclosed Flaws in Copeland Refrigeration Controllers appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
+          "title": "Google warns that fully-automated AI attacks are coming soon",
+          "link": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
+          "excerpt": "Threat actors are now relying on agentic workflows powered by AI-based offensive frameworks to automate vulnerability discovery and exploitation, accelerating attacks to machine speed. [...]",
+          "source": "BleepingComputer",
           "date": "Nov 16",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/freezer-refrigeration.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/10/09/robot-hacker.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.513,
+          "score": 2.348,
           "coverage": 1
         }
       ]
@@ -417,16 +548,29 @@
       "name": "Platform, Cloud & Reliability",
       "cards": [
         {
-          "title": "Uber's Secure AI Framework Governs Autonomous AI Agents across Their Lifecycle",
-          "link": "https://www.infoq.com/news/2026/11/uber-secure-ai-framework/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "In a recent article, Uber Engineering highlights the limitations of traditional identity and API controls in securing AI agents that dynamically reason over external content and take real-world actions. Uber developed a framework to determine whether an agent's action is appropriate given the…",
+          "title": "GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant Threshold",
+          "link": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold/",
+          "excerpt": "Written by: Aurora Blum, Kelli Vanderlee, Jess Xia, David Mainor Executive Summary As threat actors increasingly move beyond basic prompting to deploying autonomous multi-agent frameworks, automated vulnerability exploitation pipelines, and alternative monetization schemes like LLMJacking, the…",
+          "source": "Cloud Blog",
+          "date": "Nov 16",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Figure_1_Multi-agent_LLM_offensive_framewo.max-1000x1000.jpg",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 7.034,
+          "coverage": 1
+        },
+        {
+          "title": "Uber’s Legal AI Agent Cuts Contract Review Time by 20% with Rules and RAG",
+          "link": "https://www.infoq.com/news/2026/11/uber-legal-redlining-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Uber’s Legal Redlining Agent reviews contract changes in Microsoft Word using RAG, historical lawyer feedback, and deterministic policy rules. Built with LangGraph, OpenSearch, and Redis, the system reports more than 20% lower average contract review time and 91% accuracy in AI-generated…",
           "source": "InfoQ",
-          "date": "Nov 15",
-          "image": "https://res.infoq.com/news/2026/11/uber-secure-ai-framework/en/headerimage/uber-open-search-semantic-1794769460527.jpeg",
+          "date": "Nov 16",
+          "image": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 2.596,
+          "score": 4.997,
           "coverage": 1
         },
         {
@@ -439,9 +583,11 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 4.459,
+          "score": 3.436,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "GitHub Rebuilds the Copilot App's Diff Surface to Open Million-Line Pull Requests Without Jank",
           "link": "https://www.infoq.com/news/2026/11/github-pull-requests-rebuild/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -452,11 +598,22 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 4.079,
+          "score": 3.167,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
+        {
+          "title": "Beyond the compute bottleneck: Maximizing the ROI of AI accelerators with purpose-built storage",
+          "link": "https://cloud.google.com/blog/products/storage-data-transfer/maximizing-ai-accelerator-roi-with-purpose-built-storage/",
+          "excerpt": "There’s a lot more to AI infrastructure than just buying accelerators. Indeed, the infrastructure mandate for enterprise AI has shifted from acquiring accelerators to keeping them fully utilized. Next to these expensive accelerators, storage accounts for only a small sliver of total AI spend.…",
+          "source": "Cloud Blog",
+          "date": "Nov 16",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/33_-_Storage__Data_Transfer_QsgjqZW.max-2600x2600.jpg",
+          "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 3.649,
+          "coverage": 1
+        },
         {
           "title": "Article: Governed Autonomous Intelligence for Mission-Critical Utility",
           "link": "https://www.infoq.com/articles/utility-governed-autonomous-intelligence-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -467,7 +624,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 3.185,
+          "score": 2.455,
           "coverage": 1
         },
         {
@@ -480,33 +637,20 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 2.811,
+          "score": 2.226,
           "coverage": 1
         },
         {
-          "title": "Inside the new Google Cloud Data Boundary experience",
-          "link": "https://cloud.google.com/blog/products/identity-security/inside-the-new-data-boundary-experience/",
-          "excerpt": "Digital sovereignty is evolving from a standard compliance requirement into a powerful strategic advantage for regulated industries worldwide. From European frameworks designed to meet sovereign standards (DORA, EHDS, GDPR) to FedRAMP/ILs/ITARs in the U.S., or expanding mandates across…",
-          "source": "Cloud Blog",
-          "date": "Nov 16",
-          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_Tb37FLR.max-1000x1000.png",
-          "icon": null,
-          "domain": "cloud.google.com",
+          "title": "Agents are sessions, not requests: size GKE node pools for AI agent sessions",
+          "link": "https://developers.googleblog.com/agents-are-sessions-not-requests-size-gke-node-pools-for-ai-agent-sessions/",
+          "excerpt": "AI agent sessions remain active and idle for most of the workday, making traditional one-Pod-per-session allocations inefficient for cluster resources. By using open-source tools like Agent Substrate and AX on GKE, developers can park idle sessions in object storage to release compute resources…",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Screenshot_2026-11-11_at_4.46.52P.2e16d0ba.fill-1200x600.png",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
           "hn": null,
-          "score": 0.528,
-          "coverage": 1
-        },
-        {
-          "title": "SRE Weekly Issue #543",
-          "link": "https://sreweekly.com/sre-weekly-issue-543/",
-          "excerpt": "View on sreweekly.com A message from our sponsor, Incident.io: Your agent is only as useful as the tools it can reach, and only as safe as the limits you set. Join incident.io’s engineering team for an Extensions showcase. We’ll build a skill live, watch it run, and safely deploy. Register Now →…",
-          "source": "SRE WEEKLY",
-          "date": "Nov 16",
-          "image": null,
-          "icon": "https://sreweekly.com/wp-content/uploads/2015/12/cropped-sreweekly-logo-axes-180x180.png",
-          "domain": "sreweekly.com",
-          "hn": null,
-          "score": 0.405,
+          "score": 2.294,
           "coverage": 1
         }
       ]
@@ -515,109 +659,109 @@
       "name": "News & Research",
       "cards": [
         {
-          "title": "It's always DNS, so why are we running our own?",
-          "link": "https://s2.dev/blog/dns-server",
-          "excerpt": "This will be a rollercoaster story on how we ended up replacing Route53 and running our own authoritative DNS server.",
-          "source": "s2.dev via Hacker News",
+          "title": "Building trustworthy AI by fencing it in, not predicting it",
+          "link": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+          "excerpt": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t. No rule had…",
+          "source": "MIT Technology Review",
           "date": "Nov 16",
-          "image": "https://s2.dev/blog/dns-server-og.jpg",
-          "icon": "https://s2.dev/s2-black.png",
-          "domain": "s2.dev",
-          "hn": "23 points · 14 comments",
-          "score": 2.779,
+          "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/BA5098150_Post-NEXUS_MIT_1920x1080.jpg?w=840",
+          "icon": null,
+          "domain": "technologyreview.com",
+          "hn": null,
+          "score": 3.831,
           "coverage": 1
         },
         {
-          "title": "Winudf – DVD / BluRay driver for DOS, Windows 1.x – 3x / 95 / 98 / ME",
-          "link": "https://github.com/ages2001/WINUDF",
-          "excerpt": "UDF IFS (Installable File System driver) for DOS, Windows 1.0x/2.xx/3.xx/95/98/ME - ages2001/WINUDF",
-          "source": "github.com via Hacker News",
+          "title": "Building AI that can work across the enterprise",
+          "link": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
+          "excerpt": "For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate. Organizations moving from isolated pilots toward AI agents and autonomous workflows are confronting a…",
+          "source": "MIT Technology Review",
           "date": "Nov 16",
-          "image": "https://opengraph.githubassets.com/da4a4554b5fc924770739ec4a82a67a0129127513785bcbbb8eea9997f941eb5/ages2001/WINUDF",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "20 points · 0 comments",
-          "score": 2.219,
+          "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTRInfosysSAP-social-card.png?resize=1200,600",
+          "icon": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/static/media/favicon.1cfcdb44759a0f93ddf5feb5405dd4cc.ico",
+          "domain": "technologyreview.com",
+          "hn": null,
+          "score": 3.11,
           "coverage": 1
         },
         {
-          "title": "How Should Armies Fight?",
-          "link": "https://worksinprogress.co/issue/the-future-of-war/",
-          "excerpt": "A review of The Arms of the Future by Jack Watling.",
-          "source": "worksinprogress.co via Hacker News",
+          "title": "Advanced Metrology for Defect Detection, Tool Health, and Semiconductor Yield Enhancement",
+          "link": "https://event.on24.com/wcc/mr/7058967/655F0A675F5C3415546D597247025DA8?utm_source=evident122&utm_medium=IEEE&utm_campaign=series1",
+          "excerpt": "In advanced semiconductor manufacturing, small defects can have a large effect on yield. Thin film deposition tools must stay stable and qualified. Process drift must be caught early. When a defect does appear, engineers need to know where it came from and how it affects device performance. This…",
+          "source": "IEEE Spectrum",
           "date": "Nov 16",
-          "image": "https://worksinprogress.co/wip-image/uploads/2026/11/Column_Pieter_Garicano_Sharecard_02.jpg",
-          "icon": "https://worksinprogress.co/apple-touch-icon.png",
-          "domain": "worksinprogress.co",
-          "hn": "13 points · 6 comments",
-          "score": 2.185,
+          "image": "https://assets.rbl.ms/68617442/origin.png",
+          "icon": null,
+          "domain": "event.on24.com",
+          "hn": null,
+          "score": 2.455,
           "coverage": 1
         }
       ],
       "more": [
         {
-          "title": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
-          "link": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
-          "excerpt": "Two months ago, I got a new laptop. It’s a Lenovo Thinkpad z61t. I actually ordered a t61, but I accidentally got the z61 instead — and, I actually really like it. It’s quite similar to the t61, but a little smaller and lighter. I was worried that the smaller part would be a problem, but I’ve…",
-          "source": "masnick.com via Hacker News",
+          "title": "Updating our coordinated vulnerability disclosure policy timelines",
+          "link": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines",
+          "excerpt": "We’re shortening the disclosure window in our coordinated vulnerability disclosure (CVD) policy from 90 days to 30 days for high- and critical-severity issues, and to 45 days for all other issues.",
+          "source": "Anthropic Research",
+          "date": "Nov 16",
+          "image": "https://assets.claude.com/87317c13cd86cd0b62244c430e91d0bb13b920a1.jpg",
+          "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+          "domain": "anthropic.com",
+          "hn": null,
+          "score": 0.384,
+          "coverage": 1
+        },
+        {
+          "title": "Nvidia Was in Trouble Before the Jensen Huang Mess",
+          "link": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
+          "excerpt": "AI competitors are catching up to Nvidia—and poised to take advantage of the chaos.",
+          "source": "wired.com via Hacker News",
+          "date": "Nov 16",
+          "image": "https://media.wired.com/photos/6af5e8bf5864e5f624e083f1/191:100/w_1280,c_limit/111226-Nvidia%20In%20Trouble.jpg",
+          "icon": "https://www.wired.com/verso/static/wired-us/assets/favicon.ico",
+          "domain": "wired.com",
+          "hn": "79 points · 50 comments",
+          "score": 4.032,
+          "coverage": 1
+        },
+        {
+          "title": "The Active Directory Era Is Finally Over",
+          "link": "https://infisical.com/blog/active-directory-machine-identity",
+          "excerpt": "Active Directory was built for admins approving long-lived servers. Why it can't track cloud machine identities, and how federation and brokering replace it.",
+          "source": "infisical.com via Hacker News",
+          "date": "Nov 16",
+          "image": "https://images.ctfassets.net/rzezkvk1rm65/3lNQOK2JnGdnw97qg9N7xS/511ab8a823f891ff37a8bc3065ff28a9/active-directory-machine-identity.png",
+          "icon": "https://infisical.com/infisical.ico",
+          "domain": "infisical.com",
+          "hn": "30 points · 9 comments",
+          "score": 2.947,
+          "coverage": 1
+        },
+        {
+          "title": "What is w2rt6byl5nf1opmc-a.com?",
+          "link": "https://jack.cab/blog/siterate",
+          "excerpt": "Not a rhetorical question, I don't know the answer either.",
+          "source": "jack.cab via Hacker News",
+          "date": "Nov 16",
+          "image": "https://jack.cab/_astro/banner.BWU3oHHm_1KyTK9.png",
+          "icon": "https://jack.cab/_astro/opengraph.BCs-rOHQ_259k0j.png",
+          "domain": "jack.cab",
+          "hn": "265 points · 113 comments",
+          "score": 4.319,
+          "coverage": 1
+        },
+        {
+          "title": "Many of Amazon’s Black Friday and Cyber Monday “Deals” Offered No Savings",
+          "link": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
+          "excerpt": "401 points · 221 comments",
+          "source": "groundworkcollaborative.org via Hacker News",
           "date": "Nov 16",
           "image": null,
-          "icon": "https://masnick.com/apple-touch-icon.png",
-          "domain": "masnick.com",
-          "hn": "29 points · 11 comments",
-          "score": 3.316,
-          "coverage": 1
-        },
-        {
-          "title": "Coffeehouses and the Rise of Science [pdf]",
-          "link": "https://www.monirbounadi.com/Bounadi_JMP.pdf",
-          "excerpt": "67 points · 36 comments",
-          "source": "monirbounadi.com via Hacker News",
-          "date": "Nov 16",
-          "image": null,
-          "icon": "https://www.monirbounadi.com/favicon.ico",
-          "domain": "monirbounadi.com",
-          "hn": "67 points · 36 comments",
-          "score": 3.833,
-          "coverage": 1
-        },
-        {
-          "title": "“…and the proof is checked in Lean”",
-          "link": "https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/",
-          "excerpt": "This post is an attempt to explain in simple terms how to interpret claims of the form “this theorem is correct because it was checked in Lean”. The summary is: there is an important si…",
-          "source": "xenaproject.wordpress.com via Hacker News",
-          "date": "Nov 16",
-          "image": "https://xenaproject.wordpress.com/wp-content/uploads/2020/05/cropped-twitchpfc.png?w=200",
-          "icon": "https://xenaproject.wordpress.com/wp-content/uploads/2020/05/cropped-twitchpfc.png?w=180",
-          "domain": "xenaproject.wordpress.com",
-          "hn": "59 points · 23 comments",
-          "score": 2.956,
-          "coverage": 1
-        },
-        {
-          "title": "How to make almost anything",
-          "link": "https://pub.cba.mit.edu/863.26/site/",
-          "excerpt": "428 points · 79 comments",
-          "source": "pub.cba.mit.edu via Hacker News",
-          "date": "Nov 16",
-          "image": null,
-          "icon": "https://pub.cba.mit.edu/favicon.ico",
-          "domain": "pub.cba.mit.edu",
-          "hn": "428 points · 79 comments",
-          "score": 3.617,
-          "coverage": 1
-        },
-        {
-          "title": "Qwen4-Max",
-          "link": "https://qwen.ai/blog?id=qwen4-max",
-          "excerpt": "Qwen offers comprehensive functionality spanning chatbot, image and video understanding, image generation, document processing, web search integration, tool utilization, and artifacts.",
-          "source": "qwen.ai via Hacker News",
-          "date": "Nov 16",
-          "image": "https://img.alicdn.com/imgextra/i4/O1CN01OXv3EM1FN8t9W4P79_!!6000000000474-2-tps-80-80.png",
-          "icon": "https://img.alicdn.com/imgextra/i4/O1CN01OXv3EM1FN8t9W4P79_!!6000000000474-2-tps-80-80.png",
-          "domain": "qwen.ai",
-          "hn": "629 points · 276 comments",
-          "score": 3.3,
+          "icon": null,
+          "domain": "groundworkcollaborative.org",
+          "hn": "401 points · 221 comments",
+          "score": 4.578,
           "coverage": 1
         }
       ]
