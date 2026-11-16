@@ -1,19 +1,19 @@
 {
   "date": "2026-11-16",
   "lead": {
-    "title": "Qwen4-Max",
-    "link": "https://qwen.ai/blog?id=qwen4-max",
-    "excerpt": "Qwen offers comprehensive functionality spanning chatbot, image and video understanding, image generation, document processing, web search integration, tool utilization, and artifacts.",
-    "source": "qwen.ai via Hacker News",
+    "title": "How ISVs are unlocking European workloads using Google Cloud Dedicated technology",
+    "link": "https://cloud.google.com/blog/products/identity-security/how-isvs-are-unlocking-european-workloads-on-google-cloud-dedicated/",
+    "excerpt": "Across Europe, organizations handling sensitive workloads in regulated sectors — such as financial services, healthcare, critical infrastructure, and the public sector — are trying to modernize their infrastructure while adhering to strict local data governance standards, including SecNumCloud in…",
+    "source": "Security & Identity",
     "date": "Nov 16",
-    "image": "https://img.alicdn.com/imgextra/i4/O1CN01OXv3EM1FN8t9W4P79_!!6000000000474-2-tps-80-80.png",
+    "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Security__Identity.max-2500x2500.jpg",
     "image_credit": null,
-    "section": "News & Research",
+    "section": "Agent Identity & Authorization",
     "pinned": false,
     "note": null,
     "labels": [
-      "News & Research",
-      "3h ago"
+      "Agent Identity & Authorization",
+      "1h ago"
     ],
     "also": []
   },
@@ -25,7 +25,7 @@
       "link_domain": "jakub.jankiewicz.org",
       "source": "Hacker News",
       "domain": "jakub.jankiewicz.org",
-      "meta": "Hacker News · 1.1k points · 606 comments · 15h ago",
+      "meta": "Hacker News · 1.2k points · 616 comments · 19h ago",
       "also": [
         {
           "source": "Lobsters",
@@ -42,7 +42,7 @@
       "link_domain": "www1.wdr.de",
       "source": "Hacker News",
       "domain": "www1.wdr.de",
-      "meta": "Hacker News · 474 points · 201 comments · 11h ago",
+      "meta": "Hacker News · 532 points · 231 comments · 15h ago",
       "also": [],
       "image": "https://www1.wdr.de/nrw/koeln/phantasialand-134~_v-gseagaleriexl.jpg",
       "icon": "https://www1.wdr.de/assets-v5.182.4/img/favicon/apple-touch-icon.png"
@@ -54,10 +54,22 @@
       "link_domain": "magazine.sebastianraschka.com",
       "source": "Hacker News",
       "domain": "magazine.sebastianraschka.com",
-      "meta": "Hacker News · 225 points · 27 comments · 17h ago",
+      "meta": "Hacker News · 228 points · 27 comments · 21h ago",
       "also": [],
       "image": "https://substackcdn.com/image/fetch/$s_!8RKL!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb461a2cb-11ab-474a-affe-0ee99e5a8782_2850x2777.png",
       "icon": "https://substackcdn.com/image/fetch/$s_!_bhP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F342e39ec-514c-4b4d-8a76-6acf0cbd8248%2Fapple-touch-icon-57x57.png"
+    },
+    {
+      "title": "Coles hit by a cybersecurity incident",
+      "thread": "https://news.ycombinator.com/item?id=50512824",
+      "link": "https://www.colesgroup.com.au/updates/",
+      "link_domain": "colesgroup.com.au",
+      "source": "Hacker News",
+      "domain": "colesgroup.com.au",
+      "meta": "Hacker News · 103 points · 79 comments · 8h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.colesgroup.com.au/FormBuilder/_Resource/_module/ir5sKeTxxEOndzdh00hWJw/images/apple-icon-57x57.png"
     }
   ],
   "sections": [
@@ -74,20 +86,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.993,
-          "coverage": 1
-        },
-        {
-          "title": "datasette 1.0a43",
-          "link": "https://simonwillison.net/2026/Nov/15/datasette/",
-          "excerpt": "Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone, which is now 53% complete. The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this as well, and…",
-          "source": "Simon Willison",
-          "date": "Nov 15",
-          "image": null,
-          "icon": "https://simonwillison.net/favicon.ico",
-          "domain": "simonwillison.net",
-          "hn": null,
-          "score": 0.959,
+          "score": 0.825,
           "coverage": 1
         },
         {
@@ -100,11 +99,37 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.993,
+          "score": 0.825,
+          "coverage": 1
+        },
+        {
+          "title": "Everyone’s a software engineer now",
+          "link": "https://leaddev.com/management/everyones-a-software-engineer-now?utm_source=leaddev&utm_medium=RSS",
+          "excerpt": "What happens when anyone can code? The post Everyone’s a software engineer now appeared first on LeadDev.",
+          "source": "LeadDev",
+          "date": "Nov 16",
+          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2025/09/hiring-ai-04.png",
+          "icon": null,
+          "domain": "leaddev.com",
+          "hn": null,
+          "score": 1.348,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "datasette 1.0a43",
+          "link": "https://simonwillison.net/2026/Nov/15/datasette/",
+          "excerpt": "Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone, which is now 53% complete. The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this as well, and…",
+          "source": "Simon Willison",
+          "date": "Nov 15",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.802,
+          "coverage": 1
+        },
         {
           "title": "datasette 0.65.6",
           "link": "https://simonwillison.net/2026/Nov/15/datasette-2/",
@@ -115,7 +140,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.957,
+          "score": 0.801,
           "coverage": 1
         },
         {
@@ -128,7 +153,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.473,
+          "score": 0.431,
           "coverage": 1
         }
       ]
@@ -146,7 +171,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.933,
+          "score": 0.788,
           "coverage": 1
         },
         {
@@ -159,7 +184,26 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.933,
+          "score": 0.788,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Agent Identity & Authorization",
+      "cards": [
+        {
+          "title": "Inside the new Google Cloud Data Boundary experience",
+          "link": "https://cloud.google.com/blog/products/identity-security/inside-the-new-data-boundary-experience/",
+          "excerpt": "Digital sovereignty is evolving from a standard compliance requirement into a powerful strategic advantage for regulated industries worldwide. From European frameworks designed to meet sovereign standards (DORA, EHDS, GDPR) to FedRAMP/ILs/ITARs in the U.S., or expanding mandates across…",
+          "source": "Security & Identity",
+          "date": "Nov 16",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_Tb37FLR.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 0.875,
           "coverage": 1
         }
       ],
@@ -168,6 +212,86 @@
     {
       "name": "Security & AppSec",
       "cards": [
+        {
+          "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+          "link": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+          "excerpt": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records. The records, which Amazon's threat intelligence team captured with decoy servers, describe stolen…",
+          "source": "The Hacker News",
+          "date": "Nov 16",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigoyCtEKcD7TM_5vDkKiZYFdk_l4-js7HNuvMXzZbVqUbEgq1nnD2vEZgZ0kL9CdmOkITC0Rbd-ebTkSX-R4NPKwWZXzUD6zS0g9nEfnlXw3njm3oW2Se97qbT7lIfZEL56X3IIaZAildTni9-zQJu5sa4Lhvi_mVlbTeZFyFtezOMHJ_bDhJWfG7KQ8eh/s1600/amazon.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 4.254,
+          "coverage": 1
+        },
+        {
+          "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
+          "link": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
+          "excerpt": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server. The activity, documented by Kaspersky's ICS CERT team after it was contacted by the affected…",
+          "source": "The Hacker News",
+          "date": "Nov 16",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAvzoKykaMIpa6xx92YudipfUoEQnSkrE6p2CiWEVra5izr5GfuNQGOnfRuF0XV99v1IPRFe2Q6BF27UEq3BnWFS5onw97dt3hvszilQDANdtRdYi0_hTDOrKQvuwGn1mY_m-QTabV3jwWCNwXs_OizK2GLF3Eks5HJj5I7kbmA2IztruSBVjq5WOcxEM-/s1600/log4shell.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.483,
+          "coverage": 1
+        },
+        {
+          "title": "Tor Updates DoS Defenses Again as Relay Attacks Continue",
+          "link": "https://www.securityweek.com/tor-updates-dos-defenses-again-as-relay-attacks-continue/",
+          "excerpt": "Tor 0.4.9.17 patches several security issues, including one related to how built-in DoS protections deal with IPv6. The post Tor Updates DoS Defenses Again as Relay Attacks Continue appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 16",
+          "image": "https://www.securityweek.com/wp-content/uploads/2024/01/Tor-Network-1.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.56,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign",
+          "link": "https://www.securityweek.com/microsoft-rules-out-cyberattack-in-outage-warns-of-phishing-campaign/",
+          "excerpt": "Phishing emails posing as Microsoft 365 service notices referenced the real outage incident and threatened to delete held messages. The post Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 16",
+          "image": "https://www.securityweek.com/wp-content/uploads/2025/11/AI-phishing.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.532,
+          "coverage": 1
+        },
+        {
+          "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
+          "link": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
+          "excerpt": "An 11-year-old Linux kernel vulnerability, dubbed NoisyTCP, affects almost all Linux distributions and lets attackers crash systems running Nginx, Apache, and SSH servers with default configurations. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 16",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/10/29/Linux_tux.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.586,
+          "coverage": 1
+        },
+        {
+          "title": "Microsoft pushes Windows emergency updates to fix activation failures",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/",
+          "excerpt": "Microsoft has released emergency out-of-band updates to fix Windows activation and licensing failures caused by this month's security updates. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 16",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/16/Windows.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.54,
+          "coverage": 1
+        },
         {
           "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
           "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
@@ -178,7 +302,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.305,
+          "score": 0.264,
           "coverage": 1
         },
         {
@@ -191,24 +315,10 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 1.887,
-          "coverage": 1
-        },
-        {
-          "title": "Big Tech takes a beating as online safety experts accuse companies of doing bare minimum",
-          "link": "https://www.theregister.com/security/2026/11/14/big-tech-takes-a-beating-as-online-safety-experts-accuse-companies-of-doing-bare-minimum/5309302",
-          "excerpt": "Accessing banned content is as easy as whipping out a thesaurus, Parliament's Communications and Digital Committee hears",
-          "source": "The Register",
-          "date": "Nov 14",
-          "image": "https://image.theregister.com/?imageId=5254826&width=800",
-          "icon": null,
-          "domain": "theregister.com",
-          "hn": null,
-          "score": 0.125,
+          "score": 1.658,
           "coverage": 1
         }
-      ],
-      "more": []
+      ]
     },
     {
       "name": "Platform, Cloud & Reliability",
@@ -223,9 +333,37 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 3.42,
+          "score": 2.932,
           "coverage": 1
         },
+        {
+          "title": "AWS Nitro Sandboxes Put Each EKS Pod in Its Own MicroVM with One RuntimeClass Field",
+          "link": "https://www.infoq.com/news/2026/11/aws-nitro-sandboxes-eks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "AWS has launched Nitro Sandboxes, running each opted-in EKS pod, ECS task or EC2 workload in its own Firecracker microVM with a separate kernel, enabled by one runtimeClassName field at no extra charge. A confidential mode adds attestation-gated key release. The documentation lists the trade-offs:…",
+          "source": "InfoQ",
+          "date": "Nov 16",
+          "image": "https://res.infoq.com/news/2026/11/aws-nitro-sandboxes-eks/en/headerimage/generatedHeaderImage-1794301940782.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 3.551,
+          "coverage": 1
+        },
+        {
+          "title": "Uno Platform 7.0 Adds WebGPU Backend, Apple TV and Reactor Support, and Retires Native Rendering",
+          "link": "https://www.infoq.com/news/2026/11/Uno-Platform-6-7-targets/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Uno Platform 7.0 unifies rendering on SkiaSharp 4 with an opt-in WebGPU backend, adds Apple TV as a target and supports .NET 11 from day zero. It also runs third-party .NET MAUI controls and Microsoft.UI.Reactor on all targets, and removes native rendering and Mac Catalyst. By Edin Kapić",
+          "source": "InfoQ",
+          "date": "Nov 16",
+          "image": "https://res.infoq.com/news/2026/11/Uno-Platform-6-7-targets/en/headerimage/header-1794254225395.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.704,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "SRE Weekly Issue #543",
           "link": "https://sreweekly.com/sre-weekly-issue-543/",
@@ -236,11 +374,23 @@
           "icon": "https://sreweekly.com/wp-content/uploads/2015/12/cropped-sreweekly-logo-axes-180x180.png",
           "domain": "sreweekly.com",
           "hn": null,
-          "score": 0.592,
+          "score": 0.476,
+          "coverage": 1
+        },
+        {
+          "title": "Alpine Linux Users Urged to Patch OpenSSH Authentication Flaw",
+          "link": "https://www.infoq.com/news/2026/11/alpine-linux-openssh-sshhole/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "A recently disclosed vulnerability in OpenSSH lets an unauthenticated attacker log into accounts that should have no usable password. The issue, named *sshole and tracked as CVE-2026-123158, affects Linux systems running OpenSSH with the musl C library and which don't use PAM. Security researchers…",
+          "source": "InfoQ",
+          "date": "Nov 16",
+          "image": "https://res.infoq.com/news/2026/11/alpine-linux-openssh-sshhole/en/headerimage/generatedHeaderImage-1794610199233.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.704,
           "coverage": 1
         }
-      ],
-      "more": []
+      ]
     },
     {
       "name": "News & Research",
@@ -254,8 +404,21 @@
           "image": "https://digitalfilms.wordpress.com/wp-content/uploads/2026/10/df202656_nolog_06.jpg",
           "icon": "https://s2.wp.com/i/webclip.png?m=1713868326i",
           "domain": "digitalfilms.wordpress.com",
-          "hn": "15 points · 5 comments",
-          "score": 2.817,
+          "hn": "51 points · 35 comments",
+          "score": 3.037,
+          "coverage": 1
+        },
+        {
+          "title": "Qwen4-Max",
+          "link": "https://qwen.ai/blog?id=qwen4-max",
+          "excerpt": "Qwen offers comprehensive functionality spanning chatbot, image and video understanding, image generation, document processing, web search integration, tool utilization, and artifacts.",
+          "source": "qwen.ai via Hacker News",
+          "date": "Nov 16",
+          "image": "https://img.alicdn.com/imgextra/i4/O1CN01OXv3EM1FN8t9W4P79_!!6000000000474-2-tps-80-80.png",
+          "icon": "https://img.alicdn.com/imgextra/i4/O1CN01OXv3EM1FN8t9W4P79_!!6000000000474-2-tps-80-80.png",
+          "domain": "qwen.ai",
+          "hn": "483 points · 197 comments",
+          "score": 3.718,
           "coverage": 1
         },
         {
@@ -267,8 +430,49 @@
           "image": "https://iter.ca//ubo-epicker.png",
           "icon": "https://iter.ca/avatar/a32.png",
           "domain": "iter.ca",
-          "hn": "226 points · 55 comments",
-          "score": 3.986,
+          "hn": "347 points · 95 comments",
+          "score": 3.47,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "How to make almost anything",
+          "link": "https://pub.cba.mit.edu/863.26/site/",
+          "excerpt": "252 points · 43 comments",
+          "source": "pub.cba.mit.edu via Hacker News",
+          "date": "Nov 16",
+          "image": null,
+          "icon": "https://pub.cba.mit.edu/favicon.ico",
+          "domain": "pub.cba.mit.edu",
+          "hn": "252 points · 43 comments",
+          "score": 4.036,
+          "coverage": 1
+        },
+        {
+          "title": "Did the Apollo Guidance Computer use 60% of the ICs in 1963?",
+          "link": "https://retrocomputing.stackexchange.com/questions/12158/did-the-apollo-guidance-computer-really-use-60-of-the-worlds-ics-in-1963",
+          "excerpt": "11 points · 1 comments",
+          "source": "retrocomputing.stackexchange.com via Hacker News",
+          "date": "Nov 16",
+          "image": null,
+          "icon": "https://retrocomputing.stackexchange.com/favicon.ico",
+          "domain": "retrocomputing.stackexchange.com",
+          "hn": "11 points · 1 comments",
+          "score": 1.99,
+          "coverage": 1
+        },
+        {
+          "title": "Debian Becomes Unresponsive after 6.1.0-55 Kernel Update",
+          "link": "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1154101",
+          "excerpt": "85 points · 25 comments",
+          "source": "bugs.debian.org via Hacker News",
+          "date": "Nov 16",
+          "image": null,
+          "icon": "https://bugs.debian.org/favicon.ico",
+          "domain": "bugs.debian.org",
+          "hn": "85 points · 25 comments",
+          "score": 3.229,
           "coverage": 1
         },
         {
@@ -280,49 +484,8 @@
           "image": "https://forum.torproject.org/uploads/default/original/2X/d/d3424bed34f4ec18b2e99178c2801ba6dfb655d6.png",
           "icon": "https://forum.torproject.org/uploads/default/optimized/2X/d/d3424bed34f4ec18b2e99178c2801ba6dfb655d6_2_180x180.png",
           "domain": "forum.torproject.org",
-          "hn": "102 points · 24 comments",
-          "score": 3.153,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "Debian Becomes Unresponsive after 6.1.0-55 Kernel Update",
-          "link": "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1154101",
-          "excerpt": "23 points · 0 comments",
-          "source": "bugs.debian.org via Hacker News",
-          "date": "Nov 16",
-          "image": null,
-          "icon": "https://bugs.debian.org/favicon.ico",
-          "domain": "bugs.debian.org",
-          "hn": "23 points · 0 comments",
-          "score": 2.974,
-          "coverage": 1
-        },
-        {
-          "title": "Tell HN: HN is being scraped for emails to scam",
-          "link": "https://news.ycombinator.com/item?id=50513451",
-          "excerpt": "58 points · 10 comments",
-          "source": "Hacker News",
-          "date": "Nov 16",
-          "image": null,
-          "icon": null,
-          "domain": "news.ycombinator.com",
-          "hn": "58 points · 10 comments",
-          "score": 3.276,
-          "coverage": 1
-        },
-        {
-          "title": "Coles hit by a cybersecurity incident",
-          "link": "https://www.colesgroup.com.au/updates/",
-          "excerpt": "83 points · 59 comments",
-          "source": "colesgroup.com.au via Hacker News",
-          "date": "Nov 16",
-          "image": null,
-          "icon": "https://www.colesgroup.com.au/FormBuilder/_Resource/_module/ir5sKeTxxEOndzdh00hWJw/images/apple-icon-57x57.png",
-          "domain": "colesgroup.com.au",
-          "hn": "83 points · 59 comments",
-          "score": 3.387,
+          "hn": "145 points · 44 comments",
+          "score": 2.798,
           "coverage": 1
         },
         {
@@ -334,8 +497,8 @@
           "image": "https://spectrum.ieee.org/media-library/image.jpg?id=68671751&width=1200&height=600&coordinates=0%2C357%2C0%2C358",
           "icon": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNjU5NjY0OS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTg0ODgxODUwNn0.1LlzHtxZSVXyzapxWjeSrRIRu5qo3CeB8FaWpd2tl_o/img.png?width=192&height=192",
           "domain": "spectrum.ieee.org",
-          "hn": "25 points · 1 comments",
-          "score": 2.243,
+          "hn": "41 points · 3 comments",
+          "score": 2.097,
           "coverage": 1
         }
       ]

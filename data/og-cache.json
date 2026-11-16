@@ -737,6 +737,12 @@
   "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
   "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Security__Identity.max-2500x2500.jpg"
  },
+ "https://cloud.google.com/blog/products/identity-security/how-isvs-are-unlocking-european-workloads-on-google-cloud-dedicated/": {
+  "description": "Learn how ISVs empower European enterprises to run critical workloads on Google Cloud Dedicated under local operational custody.",
+  "fetched": "2026-11-16",
+  "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
+  "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Security__Identity.max-2500x2500.jpg"
+ },
  "https://cloud.google.com/blog/products/identity-security/scale-agents-securely-with-iam-helper-agent-skills-and-mcp-tools/": {
   "description": "Today we’re introducing IAM Helper, a suite of intelligent, agent-facing building blocks that can automate complex, end-to-end IAM workflows.",
   "fetched": "2026-10-28",
@@ -3413,6 +3419,12 @@
   "icon": "https://proton.me/blog/favicons/apple-touch-icon.png",
   "image": "https://pmecdn.protonweb.com/image-transformation/?s=c&image=images/w_1024,h_512,c_scale/f_auto,q_auto/v1793566773/wp-pme/ai-manifesto/ai-manifesto.png?_i=AA"
  },
+ "https://pub.cba.mit.edu/863.26/site/": {
+  "description": null,
+  "fetched": "2026-11-16",
+  "icon": null,
+  "image": null
+ },
  "https://pwn.college/": {
   "description": "Learn to Hack!",
   "fetched": "2026-11-06",
@@ -3472,6 +3484,12 @@
   "fetched": "2026-11-14",
   "icon": "https://www.gstatic.com/images/branding/googleg_gradient/1x/googleg_gradient_standard_20dp.png",
   "image": "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg"
+ },
+ "https://retrocomputing.stackexchange.com/questions/12158/did-the-apollo-guidance-computer-really-use-60-of-the-worlds-ics-in-1963": {
+  "description": null,
+  "fetched": "2026-11-16",
+  "icon": null,
+  "image": null
  },
  "https://retrocomputing.stackexchange.com/questions/17957": {
   "description": null,
@@ -5123,11 +5141,23 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2025/09/24/Kali-Linux.jpg"
  },
+ "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/": {
+  "description": "An 11-year-old Linux kernel vulnerability, dubbed NoisyTCP, affects almost all Linux distributions and lets attackers crash systems running Nginx, Apache, and SSH servers with default configurations.",
+  "fetched": "2026-11-16",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/10/29/Linux_tux.jpg"
+ },
  "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/": {
   "description": "Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot, as users report connectivity problems worldwide.",
   "fetched": "2026-11-13",
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2025/07/25/Microsoft-365.jpg"
+ },
+ "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/": {
+  "description": "Microsoft has released emergency out-of-band updates to fix Windows activation and licensing failures caused by this month's security updates.",
+  "fetched": "2026-11-16",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/11/16/Windows.jpg"
  },
  "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/": {
   "description": "Microsoft warned customers earlier this week that the November 2026 security updates may break printing for documents with complex formatting.",
@@ -7199,6 +7229,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2023/06/Microsoft-DDoS-Attack.jpg"
  },
+ "https://www.securityweek.com/microsoft-rules-out-cyberattack-in-outage-warns-of-phishing-campaign/": {
+  "description": "Microsoft says its November 12 Microsoft 365 outage was a technical issue, not a cyberattack, and warns of phishing exploiting it.",
+  "fetched": "2026-11-16",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2025/11/AI-phishing.jpeg"
+ },
  "https://www.securityweek.com/microsoft-struggles-to-restore-email-and-other-services-in-a-global-outage/": {
   "description": "Microsoft’s outage involving services like Outlook and Teams has dragged on from Thursday into Friday.",
   "fetched": "2026-11-14",
@@ -7396,6 +7432,12 @@
   "fetched": "2026-11-12",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/11/CISO-Virtual-Conference.jpg"
+ },
+ "https://www.securityweek.com/tor-updates-dos-defenses-again-as-relay-attacks-continue/": {
+  "description": "The Tor Project has released new security fixes as a DDoS attack continues to strain the volunteer-run relays.",
+  "fetched": "2026-11-16",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2024/01/Tor-Network-1.jpeg"
  },
  "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/": {
   "description": "Ukrainian national Artem Stryzhak was sentenced to 70 months in US prison for deploying Nefilim and Hive ransomware against victims.",
