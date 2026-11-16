@@ -419,6 +419,12 @@
   "icon": "https://cdn.hashnode.com/uploads/favicons/69b44e3d6e27dd07d92bbf57/8a84d0e2-5b45-470c-949f-3c5402886a45.png",
   "image": "https://cdn.hashnode.com/uploads/og-images/69b44e3d6e27dd07d92bbf57/3a278202-0f64-4cf0-9a32-bfd202f3a073.png"
  },
+ "https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/": {
+  "description": "When Salon launched in 1995, the web was still finding its voice. One of the first major publications born on the internet, Salon helped define a new kind of digital journalism, bringing together politics, culture, criticism, and ideas for a generation of online readers. After 31 years, Salon has announced that it is ceasing publication.",
+  "fetched": "2026-11-16",
+  "icon": "https://blog.archive.org/wp-content/uploads/2023/03/ia-logo-sq-300x300.png",
+  "image": "https://blog.archive.org/wp-content/uploads/2026/11/Salon-Logos-Background-2-2048x1071-1.png"
+ },
  "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/": {
   "description": "You could register accounts on SourceHut instances who disabled registration",
   "fetched": "2026-11-06",
@@ -1355,6 +1361,12 @@
   "icon": "https://fortune.com/apple-touch-icon.png",
   "image": "https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2304572308-e1794587995495.jpg?resize=1200,600"
  },
+ "https://forum.torproject.org/t/security-release-0-4-9-17/22454": {
+  "description": "Where to Download Tarballs Gitlab Repository Bug Report Changes Below are the major changes of the released versions and links to more detailed release notes. Stable Today, we are releasing 0.4.9.17, which includes a series of security fixes. One fix in particular is especially important for relay DoS defenses related to IPv6 handling. This release comes in rapid response to the ongoing DDoS attack on the network, which has affected most relay operators. This is not an easy problem to addres...",
+  "fetched": "2026-11-16",
+  "icon": "https://forum.torproject.org/uploads/default/optimized/2X/d/d3424bed34f4ec18b2e99178c2801ba6dfb655d6_2_180x180.png",
+  "image": "https://forum.torproject.org/uploads/default/original/2X/d/d3424bed34f4ec18b2e99178c2801ba6dfb655d6.png"
+ },
  "https://forums.spacebattles.com/threads/humble-bundle-just-completely-killed-most-of-their-security-through-vibecoding.1346295/": {
   "description": null,
   "fetched": "2026-11-12",
@@ -2159,6 +2171,12 @@
   "icon": "https://j11g.com/content/images/favicon.ico",
   "image": "https://j11g.com/content/images/cern-resized.jpg"
  },
+ "https://jakub.jankiewicz.org/blog/ai-code-open-source/": {
+  "description": "All code generated with help from AI should be Open Source or on Creative Commons Zero (CC0) license.",
+  "fetched": "2026-11-16",
+  "icon": "https://jakub.jankiewicz.org/favicon/apple-touch-icon.png",
+  "image": "https://jakub.jankiewicz.org/img/en/ai-code-open-source.png"
+ },
  "https://jamesyu.org/science-fiction-predictions-of-ai/": {
   "description": "Stories, novels, and films scored on how well they predicted the advent of AI.",
   "fetched": "2026-11-06",
@@ -2272,6 +2290,12 @@
   "fetched": "2026-11-04",
   "icon": null,
   "image": null
+ },
+ "https://lastcomplication.com/": {
+  "description": "A puzzle game about building clock movements, gear by gear.",
+  "fetched": "2026-11-16",
+  "icon": "https://lastcomplication.com/apple-touch-icon.png",
+  "image": "https://lastcomplication.com/icon-512.png"
  },
  "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/": {
   "description": "Since coding is solved, why code for the job?",
@@ -3107,6 +3131,12 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/index/our-new-blog-for-science": {
+  "description": null,
+  "fetched": "2026-11-16",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/partnering-with-hacktron": {
   "description": null,
   "fetched": "2026-11-07",
@@ -3182,6 +3212,12 @@
  "https://openai.com/index/singapore-airlines-travel-work": {
   "description": null,
   "fetched": "2026-11-11",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/step-toward-defining-the-standard-model": {
+  "description": null,
+  "fetched": "2026-11-16",
   "icon": null,
   "image": null
  },
@@ -3364,6 +3400,12 @@
   "fetched": "2026-11-06",
   "icon": "https://pwn.college/themes/dojo_theme/static/img/favicon.png",
   "image": "https://pwn.college/themes/dojo_theme/static/img/dojo/ninja.png"
+ },
+ "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/": {
+  "description": "Burger King and McDonald's were not hacked. Someone re-registered the Bitly links in their 2011 tweets, and 57 of 97 links in old Trump tweets have been replaced too.",
+  "fetched": "2026-11-16",
+  "icon": "https://ransomnews.com/wp-content/uploads/2026/05/ransomnews-favicon-300x300.png",
+  "image": "https://ransomnews.com/wp-content/uploads/2026/11/burger-king-tweet-bitly-link-hijack-2026-cover-1024x576.png"
  },
  "https://ratfactor.com/cards/pl-small": {
   "description": null,
@@ -3560,6 +3602,24 @@
  "https://simonwillison.net/2026/Nov/13/datasette-leaflet/": {
   "description": "Datasette plugin adding the Leaflet JavaScript library",
   "fetched": "2026-11-14",
+  "icon": null,
+  "image": null
+ },
+ "https://simonwillison.net/2026/Nov/15/datasette-2/": {
+  "description": "An open source multi-tool for exploring and publishing data",
+  "fetched": "2026-11-16",
+  "icon": null,
+  "image": null
+ },
+ "https://simonwillison.net/2026/Nov/15/datasette-apps/": {
+  "description": "Apps that live inside Datasette",
+  "fetched": "2026-11-16",
+  "icon": null,
+  "image": null
+ },
+ "https://simonwillison.net/2026/Nov/15/datasette/": {
+  "description": "An open source multi-tool for exploring and publishing data",
+  "fetched": "2026-11-16",
   "icon": null,
   "image": null
  },
@@ -3929,6 +3989,12 @@
   "icon": "https://instatus.com/user-content/v1635412200/ydjpg9wb8ximfbrlegtn.ico",
   "image": "https://northflank.instatus.com/api/og"
  },
+ "https://steveblank.com/2026/11/15/whats-next-for-nvidia/": {
+  "description": "Nvidia’s board announced that Jensen Huang had resigned 33 years after he co-founded the company. What happens to a company when a visionary CEO is gone? Most often innovation dies and the company …",
+  "fetched": "2026-11-16",
+  "icon": "https://s0.wp.com/i/webclip.png",
+  "image": "https://steveblank.com/wp-content/uploads/2026/11/nvidia-reinventions-1024x677.jpg"
+ },
  "https://stratechery.com/2026/an-interview-with-craig-moffett-about-spacex-and-bubbles/": {
   "description": "An interview with Craig Moffett about SpaceX, from launch to broadband to mobile, plus how he is applying the lessons of the dot-com bubble to today.",
   "fetched": "2026-10-23",
@@ -4048,6 +4114,12 @@
   "fetched": "2026-11-02",
   "icon": "https://syscall.sh/apple-touch-icon.png",
   "image": "https://syscall.sh/og.png"
+ },
+ "https://tangled.org/nvim-mini.org/mini.nvim": {
+  "description": "Library of 45+ independent Lua modules improving Neovim experience with minimal effort",
+  "fetched": "2026-11-16",
+  "icon": "https://tangled.org/logos/dolly.png",
+  "image": "https://ogre.tangled.network/card?payload=eyJ0eXBlIjoicmVwb3NpdG9yeSIsInJlcG9OYW1lIjoibWluaS5udmltIiwib3duZXJIYW5kbGUiOiJudmltLW1pbmkub3JnIiwic3RhcnMiOjMzLCJwdWxscyI6MCwiaXNzdWVzIjoxLCJjcmVhdGVkQXQiOiIyMDI2LTExLTE0VDEzOjQyOjExWiIsImF2YXRhclVybCI6Imh0dHBzOi8vdGFuZ2xlZC5vcmcvYXZhdGFyL2RpZCUzQXBsYyUzQXdtanJ4Y3IyenF2NDVsamN1b2locTVhYz9zaXplPTI1NiZmb3JtYXQ9anBlZyIsImxhbmd1YWdlcyI6W3siY29sb3IiOiIjMDAwMDgwIiwicGVyY2VudGFnZSI6MTAwfSx7ImNvbG9yIjoiIzg5ZTA1MSIsInBlcmNlbnRhZ2UiOjB9LHsiY29sb3IiOiIjNDI3ODE5IiwicGVyY2VudGFnZSI6MH0seyJjb2xvciI6IiMxZTRhZWMiLCJwZXJjZW50YWdlIjowfSx7ImNvbG9yIjoiIzE5OWY0YiIsInBlcmNlbnRhZ2UiOjB9XX0"
  },
  "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/": {
   "description": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
@@ -5123,6 +5195,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2024/08/12/north-korean-hackers.jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/": {
+  "description": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments.",
+  "fetched": "2026-11-16",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2025/10/23/AI-2.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/": {
   "description": "Financial technology company Abrigo has restored its Sageworks risk management application, except for borrower-facing capabilities, following an outage triggered by \"irregular activity\" in its environment.",
   "fetched": "2026-11-03",
@@ -5260,6 +5338,12 @@
   "fetched": "2026-11-09",
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/posts/2026/11/09/dont-dumb-down-your-ai.jpg"
+ },
+ "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/": {
+  "description": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction.",
+  "fetched": "2026-11-16",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/11/13/TSMC.jpg"
  },
  "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/": {
   "description": "The U.S. government has disrupted a North Korean social engineering campaign called 'FaceStealer', responsible for stealing more than $400 million in cryptocurrency.",
@@ -5500,6 +5584,12 @@
   "fetched": "2026-11-10",
   "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png",
   "image": "https://media.cnn.com/api/v1/images/stellar/prod/luxuryactionauroraradarstation8.jpg?c=16x9&q=w_800,c_fill"
+ },
+ "https://www.colesgroup.com.au/updates/": {
+  "description": null,
+  "fetched": "2026-11-16",
+  "icon": "https://www.colesgroup.com.au/FormBuilder/_Resource/_module/ir5sKeTxxEOndzdh00hWJw/images/apple-icon-57x57.png",
+  "image": null
  },
  "https://www.commodore.ca/commodore-history/ira-velinsky-commodores-amazing-industrial-designer/": {
   "description": "Explore Ira Velinsky's impact on Commodore computers from C64 to PET, highlighting his contributions to 8-bit PC design history.",
@@ -5776,6 +5866,12 @@
   "fetched": "2026-11-04",
   "icon": null,
   "image": null
+ },
+ "https://www.hntrends.com/2026/november.html": {
+  "description": "Hacker News \"Who is Hiring?\" job postings sit near 12-year lows while AI appears in more than half of all postings. Most popular programming languages and technologies for November 2026.",
+  "fetched": "2026-11-16",
+  "icon": null,
+  "image": "https://www.hntrends.com/images/202611-ask-hn-who-is-hiring-tot.png?v=2"
  },
  "https://www.ifixit.com/News/119895/iphone-duo-teardown": {
   "description": "We took the Duo all the way down to the gears, followed glowing dust into its hinge, and put its crease-hiding nano-texture under the microscope.",
@@ -7337,6 +7433,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch": {
+  "description": "It's unclear what caused the anomaly, which occurred 10 minutes into flight.",
+  "fetched": "2026-11-16",
+  "icon": "https://vanilla.futurecdn.net/space/1815936/apple-touch-icon.png",
+  "image": "https://cdn.mos.cms.futurecdn.net/XL5t5tMQrJym2bu9ujg5Um-2560-80.jpg"
+ },
  "https://www.spacex.com/launches/starship-flight-15": {
   "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft.",
   "fetched": "2026-11-15",
@@ -7732,6 +7834,12 @@
   "fetched": "2026-11-14",
   "icon": "https://www.youtube.com/s/desktop/bb2198ae/img/favicon_32x32.png",
   "image": null
+ },
+ "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html": {
+  "description": "Wegen der Outlook-Störung am Freitag bekam das Phantasialand nicht mit, dass zu viel Chlor im Pool war. 15 Gäste wurden verletzt.",
+  "fetched": "2026-11-16",
+  "icon": "https://www1.wdr.de/assets-v5.182.4/img/favicon/apple-touch-icon.png",
+  "image": "https://www1.wdr.de/nrw/koeln/phantasialand-134~_v-gseagaleriexl.jpg"
  },
  "https://www6.slac.stanford.edu/news/2026-10-29-slac-researchers-find-proof-altermagnetism-new-magnetic-phase": {
   "description": "The team is the first to directly observe a unique property in an altermagnetic candidate material, key evidence of a new phase of magnetism.",

@@ -1,0 +1,367 @@
+{
+  "date": "2026-11-16",
+  "lead": {
+    "title": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
+    "link": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
+    "excerpt": "This was the first total mission failure in United Launch Alliance's 20-year history.",
+    "source": "Ars Technica",
+    "date": "Nov 15",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2304790934-500x500.jpg",
+    "image_credit": null,
+    "section": "News & Research",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "3 sources",
+      "News & Research",
+      "2h ago"
+    ],
+    "also": [
+      {
+        "name": "space.com",
+        "link": "https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch"
+      },
+      {
+        "name": "theverge.com",
+        "link": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites"
+      }
+    ]
+  },
+  "pulse": [
+    {
+      "title": "All AI-generated code should be Open Source",
+      "thread": "https://news.ycombinator.com/item?id=50507303",
+      "link": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "link_domain": "jakub.jankiewicz.org",
+      "source": "Hacker News",
+      "domain": "jakub.jankiewicz.org",
+      "meta": "Hacker News · 1.1k points · 595 comments · 11h ago",
+      "also": [
+        {
+          "source": "Lobsters",
+          "thread": "https://lobste.rs/s/ek4fkg/all_ai_generated_code_should_be_open"
+        }
+      ],
+      "image": "https://jakub.jankiewicz.org/img/en/ai-code-open-source.png",
+      "icon": "https://jakub.jankiewicz.org/favicon/apple-touch-icon.png"
+    },
+    {
+      "title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
+      "thread": "https://news.ycombinator.com/item?id=50509411",
+      "link": "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html",
+      "link_domain": "www1.wdr.de",
+      "source": "Hacker News",
+      "domain": "www1.wdr.de",
+      "meta": "Hacker News · 400 points · 184 comments · 7h ago",
+      "also": [],
+      "image": "https://www1.wdr.de/nrw/koeln/phantasialand-134~_v-gseagaleriexl.jpg",
+      "icon": "https://www1.wdr.de/assets-v5.182.4/img/favicon/apple-touch-icon.png"
+    },
+    {
+      "title": "Understanding Positional Embeddings in Modern LLMs",
+      "thread": "https://news.ycombinator.com/item?id=50506376",
+      "link": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "link_domain": "magazine.sebastianraschka.com",
+      "source": "Hacker News",
+      "domain": "magazine.sebastianraschka.com",
+      "meta": "Hacker News · 206 points · 27 comments · 13h ago",
+      "also": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!8RKL!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb461a2cb-11ab-474a-affe-0ee99e5a8782_2850x2777.png",
+      "icon": "https://substackcdn.com/image/fetch/$s_!_bhP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F342e39ec-514c-4b4d-8a76-6acf0cbd8248%2Fapple-touch-icon-57x57.png"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI-Assisted Engineering",
+      "cards": [
+        {
+          "title": "datasette-maplibre 0.1a0",
+          "link": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+          "excerpt": "Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap, the free vector map server operated by Zsolt Ero (you should sponsor Zsolt on GitHub.) I built most of this with a single prompt to…",
+          "source": "Simon Willison",
+          "date": "Nov 15",
+          "image": "https://static.simonwillison.net/static/cors-allow/2026/datasette-maplibre.webp",
+          "icon": null,
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 1.274,
+          "coverage": 1
+        },
+        {
+          "title": "datasette 1.0a43",
+          "link": "https://simonwillison.net/2026/Nov/15/datasette/",
+          "excerpt": "Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone, which is now 53% complete. The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this as well, and…",
+          "source": "Simon Willison",
+          "date": "Nov 15",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 1.22,
+          "coverage": 1
+        },
+        {
+          "title": "datasette-agent 0.6a0",
+          "link": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
+          "excerpt": "Release: datasette-agent 0.6a0 Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette homepage, with support for hash-mentions of tables and queries: Tags:…",
+          "source": "Simon Willison",
+          "date": "Nov 15",
+          "image": "https://static.simonwillison.net/static/cors-allow/2026/datasette-agent-homepage.webp",
+          "icon": null,
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 1.274,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "datasette 0.65.6",
+          "link": "https://simonwillison.net/2026/Nov/15/datasette-2/",
+          "excerpt": "Release: datasette 0.65.6 I backported a minor security fix from 1.0a43: Fixed a security issue where a database registered using add_database(db, name=..., route=...) with a route that differs from its name could be downloaded from /<route>.db by actors who were denied access to it. [...] Tags:…",
+          "source": "Simon Willison",
+          "date": "Nov 15",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 1.217,
+          "coverage": 1
+        },
+        {
+          "title": "datasette-apps 0.4a0",
+          "link": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+          "excerpt": "Release: datasette-apps 0.4a0 Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data. 0.4a0 adds support for linking: you can link to an app with #fragments in the URL and the app can…",
+          "source": "Simon Willison",
+          "date": "Nov 15",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.529,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "AI Agents & Agent Security",
+      "cards": [
+        {
+          "title": "\"Who is Hiring?\" postings stuck near 12-year lows as AI reaches half of all jobs",
+          "link": "https://www.hntrends.com/2026/november.html",
+          "excerpt": "Hacker News \"Who is Hiring?\" job postings sit near 12-year lows while AI appears in more than half of all postings. Most popular programming languages and technologies for November 2026.",
+          "source": "hntrends.com via Hacker News",
+          "date": "Nov 16",
+          "image": "https://www.hntrends.com/images/202611-ask-hn-who-is-hiring-tot.png?v=2",
+          "icon": "https://www.hntrends.com/favicon.ico",
+          "domain": "hntrends.com",
+          "hn": "30 points · 3 comments",
+          "score": 5.672,
+          "coverage": 1
+        },
+        {
+          "title": "A step toward defining the Standard Model on a lattice",
+          "link": "https://openai.com/index/step-toward-defining-the-standard-model",
+          "excerpt": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+          "source": "OpenAI News",
+          "date": "Nov 15",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 1.165,
+          "coverage": 1
+        },
+        {
+          "title": "Our new blog for science",
+          "link": "https://openai.com/index/our-new-blog-for-science",
+          "excerpt": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+          "source": "OpenAI News",
+          "date": "Nov 15",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 1.165,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+          "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+          "excerpt": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 15",
+          "image": "https://www.bleepstatic.com/content/hl-images/2025/10/23/AI-2.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.367,
+          "coverage": 1
+        },
+        {
+          "title": "TSMC employee data breach linked to cloud provider",
+          "link": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+          "excerpt": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 15",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/13/TSMC.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 2.22,
+          "coverage": 1
+        },
+        {
+          "title": "Big Tech takes a beating as online safety experts accuse companies of doing bare minimum",
+          "link": "https://www.theregister.com/security/2026/11/14/big-tech-takes-a-beating-as-online-safety-experts-accuse-companies-of-doing-bare-minimum/5309302",
+          "excerpt": "Accessing banned content is as easy as whipping out a thesaurus, Parliament's Communications and Digital Committee hears",
+          "source": "The Register",
+          "date": "Nov 14",
+          "image": "https://image.theregister.com/?imageId=5254826&width=800",
+          "icon": null,
+          "domain": "theregister.com",
+          "hn": null,
+          "score": 0.134,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "Uber's Secure AI Framework Governs Autonomous AI Agents across Their Lifecycle",
+          "link": "https://www.infoq.com/news/2026/11/uber-secure-ai-framework/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "In a recent article, Uber Engineering highlights the limitations of traditional identity and API controls in securing AI agents that dynamically reason over external content and take real-world actions. Uber developed a framework to determine whether an agent's action is appropriate given the…",
+          "source": "InfoQ",
+          "date": "Nov 15",
+          "image": "https://res.infoq.com/news/2026/11/uber-secure-ai-framework/en/headerimage/uber-open-search-semantic-1794769460527.jpeg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 4.177,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
+          "link": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
+          "excerpt": "Where to Download Tarballs Gitlab Repository Bug Report Changes Below are the major changes of the released versions and links to more detailed release notes. Stable Today, we are releasing 0.4.9.17, which includes a series of security fixes. One fix in particular is especially important for relay…",
+          "source": "forum.torproject.org via Hacker News",
+          "date": "Nov 16",
+          "image": "https://forum.torproject.org/uploads/default/original/2X/d/d3424bed34f4ec18b2e99178c2801ba6dfb655d6.png",
+          "icon": "https://forum.torproject.org/uploads/default/optimized/2X/d/d3424bed34f4ec18b2e99178c2801ba6dfb655d6_2_180x180.png",
+          "domain": "forum.torproject.org",
+          "hn": "19 points · 3 comments",
+          "score": 2.832,
+          "coverage": 1
+        },
+        {
+          "title": "What's Next for Nvidia?",
+          "link": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
+          "excerpt": "Nvidia’s board announced that Jensen Huang had resigned 33 years after he co-founded the company. What happens to a company when a visionary CEO is gone? Most often innovation dies and the company …",
+          "source": "steveblank.com via Hacker News",
+          "date": "Nov 15",
+          "image": "https://steveblank.com/wp-content/uploads/2026/11/nvidia-reinventions-1024x677.jpg",
+          "icon": "https://s0.wp.com/i/webclip.png",
+          "domain": "steveblank.com",
+          "hn": "60 points · 54 comments",
+          "score": 3.878,
+          "coverage": 1
+        },
+        {
+          "title": "Mini.nvim Is Now on Tangled",
+          "link": "https://tangled.org/nvim-mini.org/mini.nvim",
+          "excerpt": "Library of 45+ independent Lua modules improving Neovim experience with minimal effort",
+          "source": "tangled.org via Hacker News",
+          "date": "Nov 15",
+          "image": "https://ogre.tangled.network/card?payload=eyJ0eXBlIjoicmVwb3NpdG9yeSIsInJlcG9OYW1lIjoibWluaS5udmltIiwib3duZXJIYW5kbGUiOiJudmltLW1pbmkub3JnIiwic3RhcnMiOjMzLCJwdWxscyI6MCwiaXNzdWVzIjoxLCJjcmVhdGVkQXQiOiIyMDI2LTExLTE0VDEzOjQyOjExWiIsImF2YXRhclVybCI6Imh0dHBzOi8vdGFuZ2xlZC5vcmcvYXZhdGFyL2RpZCUzQXBsYyUzQXdtanJ4Y3IyenF2NDVsamN1b2locTVhYz9zaXplPTI1NiZmb3JtYXQ9anBlZyIsImxhbmd1YWdlcyI6W3siY29sb3IiOiIjMDAwMDgwIiwicGVyY2VudGFnZSI6MTAwfSx7ImNvbG9yIjoiIzg5ZTA1MSIsInBlcmNlbnRhZ2UiOjB9LHsiY29sb3IiOiIjNDI3ODE5IiwicGVyY2VudGFnZSI6MH0seyJjb2xvciI6IiMxZTRhZWMiLCJwZXJjZW50YWdlIjowfSx7ImNvbG9yIjoiIzE5OWY0YiIsInBlcmNlbnRhZ2UiOjB9XX0",
+          "icon": "https://tangled.org/logos/dolly.png",
+          "domain": "tangled.org",
+          "hn": "30 points · 8 comments",
+          "score": 3.116,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Coles hit by a cybersecurity incident",
+          "link": "https://www.colesgroup.com.au/updates/",
+          "excerpt": "16 points · 3 comments",
+          "source": "colesgroup.com.au via Hacker News",
+          "date": "Nov 16",
+          "image": null,
+          "icon": "https://www.colesgroup.com.au/FormBuilder/_Resource/_module/ir5sKeTxxEOndzdh00hWJw/images/apple-icon-57x57.png",
+          "domain": "colesgroup.com.au",
+          "hn": "16 points · 3 comments",
+          "score": 2.917,
+          "coverage": 1
+        },
+        {
+          "title": "Preserving 30 Years of Salon Journalism",
+          "link": "https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/",
+          "excerpt": "When Salon launched in 1995, the web was still finding its voice. One of the first major publications born on the internet, Salon helped define a new kind of digital journalism, bringing together politics, culture, criticism, and ideas for a generation of online readers. After 31 years, Salon has…",
+          "source": "blog.archive.org via Hacker News",
+          "date": "Nov 15",
+          "image": "https://blog.archive.org/wp-content/uploads/2026/11/Salon-Logos-Background-2-2048x1071-1.png",
+          "icon": "https://blog.archive.org/wp-content/uploads/2023/03/ia-logo-sq-300x300.png",
+          "domain": "blog.archive.org",
+          "hn": "71 points · 16 comments",
+          "score": 3.463,
+          "coverage": 1
+        },
+        {
+          "title": "Show HN: The Last Complication, a Zachtronics-style watchmaking puzzle game",
+          "link": "https://lastcomplication.com/",
+          "excerpt": "A puzzle game about building clock movements, gear by gear.",
+          "source": "lastcomplication.com via Hacker News",
+          "date": "Nov 15",
+          "image": "https://lastcomplication.com/icon-512.png",
+          "icon": "https://lastcomplication.com/apple-touch-icon.png",
+          "domain": "lastcomplication.com",
+          "hn": "46 points · 6 comments",
+          "score": 3.089,
+          "coverage": 1
+        },
+        {
+          "title": "Old Bitly Links Are Being Hijacked",
+          "link": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/",
+          "excerpt": "Burger King and McDonald's were not hacked. Someone re-registered the Bitly links in their 2011 tweets, and 57 of 97 links in old Trump tweets have been replaced too.",
+          "source": "ransomnews.com via Hacker News",
+          "date": "Nov 15",
+          "image": "https://ransomnews.com/wp-content/uploads/2026/11/burger-king-tweet-bitly-link-hijack-2026-cover-1024x576.png",
+          "icon": "https://ransomnews.com/wp-content/uploads/2026/05/ransomnews-favicon-300x300.png",
+          "domain": "ransomnews.com",
+          "hn": "172 points · 87 comments",
+          "score": 3.966,
+          "coverage": 1
+        },
+        {
+          "title": "Vulcan rocket fails during return-to-flight launch, 40 Amazon satellites lost",
+          "link": "https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch",
+          "excerpt": "It's unclear what caused the anomaly, which occurred 10 minutes into flight.",
+          "source": "space.com via Hacker News",
+          "date": "Nov 15",
+          "image": "https://cdn.mos.cms.futurecdn.net/XL5t5tMQrJym2bu9ujg5Um-2560-80.jpg",
+          "icon": "https://vanilla.futurecdn.net/space/1815936/apple-touch-icon.png",
+          "domain": "space.com",
+          "hn": "117 points · 62 comments",
+          "score": 9.522,
+          "coverage": 3
+        }
+      ]
+    }
+  ]
+}
