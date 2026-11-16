@@ -4,16 +4,16 @@
     "title": "How ISVs are unlocking European workloads using Google Cloud Dedicated technology",
     "link": "https://cloud.google.com/blog/products/identity-security/how-isvs-are-unlocking-european-workloads-on-google-cloud-dedicated/",
     "excerpt": "Across Europe, organizations handling sensitive workloads in regulated sectors — such as financial services, healthcare, critical infrastructure, and the public sector — are trying to modernize their infrastructure while adhering to strict local data governance standards, including SecNumCloud in…",
-    "source": "Security & Identity",
+    "source": "Cloud Blog",
     "date": "Nov 16",
     "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Security__Identity.max-2500x2500.jpg",
     "image_credit": null,
-    "section": "Agent Identity & Authorization",
+    "section": "Platform, Cloud & Reliability",
     "pinned": false,
     "note": null,
     "labels": [
-      "Agent Identity & Authorization",
-      "1h ago"
+      "Platform, Cloud & Reliability",
+      "5h ago"
     ],
     "also": []
   },
@@ -25,7 +25,7 @@
       "link_domain": "jakub.jankiewicz.org",
       "source": "Hacker News",
       "domain": "jakub.jankiewicz.org",
-      "meta": "Hacker News · 1.2k points · 616 comments · 19h ago",
+      "meta": "Hacker News · 1.2k points · 625 comments · 22h ago",
       "also": [
         {
           "source": "Lobsters",
@@ -42,22 +42,10 @@
       "link_domain": "www1.wdr.de",
       "source": "Hacker News",
       "domain": "www1.wdr.de",
-      "meta": "Hacker News · 532 points · 231 comments · 15h ago",
+      "meta": "Hacker News · 583 points · 251 comments · 18h ago",
       "also": [],
       "image": "https://www1.wdr.de/nrw/koeln/phantasialand-134~_v-gseagaleriexl.jpg",
       "icon": "https://www1.wdr.de/assets-v5.182.4/img/favicon/apple-touch-icon.png"
-    },
-    {
-      "title": "Understanding Positional Embeddings in Modern LLMs",
-      "thread": "https://news.ycombinator.com/item?id=50506376",
-      "link": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
-      "link_domain": "magazine.sebastianraschka.com",
-      "source": "Hacker News",
-      "domain": "magazine.sebastianraschka.com",
-      "meta": "Hacker News · 228 points · 27 comments · 21h ago",
-      "also": [],
-      "image": "https://substackcdn.com/image/fetch/$s_!8RKL!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb461a2cb-11ab-474a-affe-0ee99e5a8782_2850x2777.png",
-      "icon": "https://substackcdn.com/image/fetch/$s_!_bhP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F342e39ec-514c-4b4d-8a76-6acf0cbd8248%2Fapple-touch-icon-57x57.png"
     },
     {
       "title": "Coles hit by a cybersecurity incident",
@@ -66,10 +54,22 @@
       "link_domain": "colesgroup.com.au",
       "source": "Hacker News",
       "domain": "colesgroup.com.au",
-      "meta": "Hacker News · 103 points · 79 comments · 8h ago",
+      "meta": "Hacker News · 112 points · 86 comments · 11h ago",
       "also": [],
       "image": null,
       "icon": "https://www.colesgroup.com.au/FormBuilder/_Resource/_module/ir5sKeTxxEOndzdh00hWJw/images/apple-icon-57x57.png"
+    },
+    {
+      "title": "Universal XSS in uBlock Origin from website-driven element picker",
+      "thread": "https://lobste.rs/s/x0ykkw/universal_xss_ublock_origin_from_website",
+      "link": "https://iter.ca/post/ubo-uxss/",
+      "link_domain": "iter.ca",
+      "source": "Lobsters",
+      "domain": "iter.ca",
+      "meta": "Lobsters · 15 points · 0 comments · 7h ago",
+      "also": [],
+      "image": "https://iter.ca//ubo-epicker.png",
+      "icon": "https://iter.ca/avatar/a32.png"
     }
   ],
   "sections": [
@@ -86,7 +86,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.825,
+          "score": 0.716,
           "coverage": 1
         },
         {
@@ -99,20 +99,20 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.825,
+          "score": 0.716,
           "coverage": 1
         },
         {
-          "title": "Everyone’s a software engineer now",
-          "link": "https://leaddev.com/management/everyones-a-software-engineer-now?utm_source=leaddev&utm_medium=RSS",
-          "excerpt": "What happens when anyone can code? The post Everyone’s a software engineer now appeared first on LeadDev.",
+          "title": "Systems thinking outlasts frameworks",
+          "link": "https://leaddev.com/technical-direction/systems-thinking-outlasts-frameworks?utm_source=leaddev&utm_medium=RSS",
+          "excerpt": "Think beyond the component level. The post Systems thinking outlasts frameworks appeared first on LeadDev.",
           "source": "LeadDev",
           "date": "Nov 16",
-          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2025/09/hiring-ai-04.png",
+          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/next/2024/04/Radar-4-1280-x-853-px.png",
           "icon": null,
           "domain": "leaddev.com",
           "hn": null,
-          "score": 1.348,
+          "score": 1.281,
           "coverage": 1
         }
       ],
@@ -127,7 +127,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.802,
+          "score": 0.698,
           "coverage": 1
         },
         {
@@ -140,7 +140,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.801,
+          "score": 0.697,
           "coverage": 1
         },
         {
@@ -153,7 +153,20 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.431,
+          "score": 0.399,
+          "coverage": 1
+        },
+        {
+          "title": "Everyone’s a software engineer now",
+          "link": "https://leaddev.com/management/everyones-a-software-engineer-now?utm_source=leaddev&utm_medium=RSS",
+          "excerpt": "What happens when anyone can code? The post Everyone’s a software engineer now appeared first on LeadDev.",
+          "source": "LeadDev",
+          "date": "Nov 16",
+          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2025/09/hiring-ai-04.png",
+          "icon": null,
+          "domain": "leaddev.com",
+          "hn": null,
+          "score": 1.078,
           "coverage": 1
         }
       ]
@@ -161,6 +174,32 @@
     {
       "name": "AI Agents & Agent Security",
       "cards": [
+        {
+          "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+          "link": "https://openai.com/index/lvmh-media-division-partnership",
+          "excerpt": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+          "source": "OpenAI News",
+          "date": "Nov 16",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 1.163,
+          "coverage": 1
+        },
+        {
+          "title": "The King’s Trust and OpenAI launch £1m partnership",
+          "link": "https://openai.com/index/the-kings-trust-and-openai",
+          "excerpt": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+          "source": "OpenAI News",
+          "date": "Nov 16",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.746,
+          "coverage": 1
+        },
         {
           "title": "A step toward defining the Standard Model on a lattice",
           "link": "https://openai.com/index/step-toward-defining-the-standard-model",
@@ -171,9 +210,11 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.788,
+          "score": 0.691,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Our new blog for science",
           "link": "https://openai.com/index/our-new-blog-for-science",
@@ -184,30 +225,82 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.788,
+          "score": 0.691,
+          "coverage": 1
+        },
+        {
+          "title": "Usable Security at Luxury Hotels",
+          "link": "https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html",
+          "excerpt": "Interesting case study from luxury hotels. Attackers used a fake booking request to gain access to a reservations inbox, where they copied genuine refund requests and got fraudulent ones approved. This is a good illustration why “just don’t click on links” is bad advice. It can’t work when…",
+          "source": "Schneier on Security",
+          "date": "Nov 16",
+          "image": null,
+          "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+          "domain": "schneier.com",
+          "hn": null,
+          "score": 1.149,
           "coverage": 1
         }
-      ],
-      "more": []
+      ]
     },
     {
-      "name": "Agent Identity & Authorization",
+      "name": "Leadership",
       "cards": [
         {
-          "title": "Inside the new Google Cloud Data Boundary experience",
-          "link": "https://cloud.google.com/blog/products/identity-security/inside-the-new-data-boundary-experience/",
-          "excerpt": "Digital sovereignty is evolving from a standard compliance requirement into a powerful strategic advantage for regulated industries worldwide. From European frameworks designed to meet sovereign standards (DORA, EHDS, GDPR) to FedRAMP/ILs/ITARs in the U.S., or expanding mandates across…",
-          "source": "Security & Identity",
+          "title": "Obituaries",
+          "link": "https://stratechery.com/2026/obituaries/",
+          "excerpt": "The demise of Jensen Huang was the end of a great many things, including Nvidia's long-term prospects, the AI bubble, and the exceptional way in which the U.S. viewed itself in the world.",
+          "source": "Stratechery by Ben Thompson",
           "date": "Nov 16",
-          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_Tb37FLR.max-1000x1000.png",
+          "image": "https://i0.wp.com/stratechery.com/wp-content/uploads/2026/10/Stripe-wordmark-Blurple-Small.png?resize=330%2C138&ssl=1",
           "icon": null,
-          "domain": "cloud.google.com",
+          "domain": "stratechery.com",
           "hn": null,
-          "score": 0.875,
+          "score": 1.065,
+          "coverage": 1
+        },
+        {
+          "title": "The Silent Eldercare Crisis: How Leaders Can Help",
+          "link": "https://sloanreview.mit.edu/article/the-silent-eldercare-crisis-how-leaders-can-help/",
+          "excerpt": "Andrew Baker/Ikon Images As of 2024, over 38 million Americans were providing unpaid care to an older adult. Almost two-thirds of them, 62%, were doing so while working. That means that 16% of all active U.S. workers were helping out an aging parent or loved one while simultaneously holding down a…",
+          "source": "MIT Sloan Management Review",
+          "date": "Nov 16",
+          "image": "https://sloanreview.mit.edu/wp-content/uploads/2026/11/Elliott_Eldercare-1290x860-1.jpg",
+          "icon": null,
+          "domain": "sloanreview.mit.edu",
+          "hn": null,
+          "score": 1.214,
+          "coverage": 1
+        },
+        {
+          "title": "Navigating the AI infrastructure mismatch: Equinix CEO Adaire Fox-Martin",
+          "link": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/navigating-the-ai-infrastructure-mismatch-equinix-ceo-adaire-fox-martin",
+          "excerpt": "A data center sector leader discusses how shifting economics, energy constraints, and a looming connectivity bottleneck are impacting AI infrastructure development.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 16",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.597,
           "coverage": 1
         }
       ],
-      "more": []
+      "more": [
+        {
+          "title": "The CEO’s role in leading on sustainability",
+          "link": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/the-ceos-role-in-leading-on-sustainability",
+          "excerpt": "Sustainability is a defining challenge of our time. Here’s how CEOs can move beyond merely balancing competing demands to actively creating strategic advantage.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 16",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.597,
+          "coverage": 1
+        }
+      ]
     },
     {
       "name": "Security & AppSec",
@@ -222,7 +315,48 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 4.254,
+          "score": 3.445,
+          "coverage": 1
+        },
+        {
+          "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
+          "link": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
+          "excerpt": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week. No patch is available, and the researchers say the newest firmware, version 5.4.0, does not fix the…",
+          "source": "The Hacker News",
+          "date": "Nov 16",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_1GngZ38pRRizZTrhUgdWx49U1Dk8N_Y1Wkfll2kXIjAeYMmX2R69d6OBvA9k-zb6rnYbNOZyouN9yj59QIlT8XxiTzmmhLTmwmEdU2bqiGc_XoSMlvKKN1qZtH3o73YN1miGEhR4vkDniji2WkWOHjSPPIn69ysWKPkFzr504FsViG2NQYxPDkD7sgw/s1600/flaws.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.573,
+          "coverage": 1
+        },
+        {
+          "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+          "link": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+          "excerpt": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it through rundll32.exe,\"…",
+          "source": "The Hacker News",
+          "date": "Nov 16",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxRuwbdQU-KyBsSrFlIZp4oczr_tJu53WrfB3nM6QYrO7kFgGAZO1NMSi7mziUOUaTrzq5C4KzCJqvYOf0Ry19ypJac-9mBYzYiqiTNl462i1uYo7DF9aAHxiVU_IOaByH3NtNlrF0hUhZtpItADKJauPVzWrz8r6YOQEHQrt_YiAmPba4CIOsSjZA2Wy_/s1600/hacker-code.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.573,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
+          "link": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
+          "excerpt": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads. Central to the intrusion is a toolkit called SANSAR, a Rust-based orchestrator that receives…",
+          "source": "The Hacker News",
+          "date": "Nov 16",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmpR04waLSDZNCb2048kfy5iSlIXa_Ek3PI5qLRaBksxvyI9k_8Z6bwl6Og4Mc-AGqmHcpL7YlYVd48895FJtKlOoaqgi658-H3FZTxdjf_w32w5eJYzm_BUdXlH7M7Vb40uPUI73CDbXtQCdZAEkFruSBXvc0_B84hCQ-em0ZQk2uTIIHxRdGCxQ6bx1C/s1600/nv.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.462,
           "coverage": 1
         },
         {
@@ -235,87 +369,46 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.483,
+          "score": 0.395,
           "coverage": 1
         },
         {
-          "title": "Tor Updates DoS Defenses Again as Relay Attacks Continue",
-          "link": "https://www.securityweek.com/tor-updates-dos-defenses-again-as-relay-attacks-continue/",
-          "excerpt": "Tor 0.4.9.17 patches several security issues, including one related to how built-in DoS protections deal with IPv6. The post Tor Updates DoS Defenses Again as Relay Attacks Continue appeared first on SecurityWeek.",
+          "title": "Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch",
+          "link": "https://www.securityweek.com/telegram-widgets-hit-by-rce-demos-malware-warning-days-after-launch/",
+          "excerpt": "Kaspersky suspects exploitation of Telegram’s new widgets to deliver WebRAT, as researchers demo RCE and Pavel Durov disputes the claims. The post Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch appeared first on SecurityWeek.",
           "source": "SecurityWeek",
           "date": "Nov 16",
-          "image": "https://www.securityweek.com/wp-content/uploads/2024/01/Tor-Network-1.jpeg",
+          "image": "https://www.securityweek.com/wp-content/uploads/2024/08/Telegram-legal-e1794833200840.jpg",
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.56,
+          "score": 0.584,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
-          "title": "Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign",
-          "link": "https://www.securityweek.com/microsoft-rules-out-cyberattack-in-outage-warns-of-phishing-campaign/",
-          "excerpt": "Phishing emails posing as Microsoft 365 service notices referenced the real outage incident and threatened to delete held messages. The post Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign appeared first on SecurityWeek.",
+          "title": "Recent UnrealIRCd Vulnerability Exploited in Attacks",
+          "link": "https://www.securityweek.com/recent-unrealircd-vulnerability-exploited-in-attacks/",
+          "excerpt": "Tracked as CVE-2026-114713, the high-severity flaw allows attackers to execute commands with server/IRCOp privileges. The post Recent UnrealIRCd Vulnerability Exploited in Attacks appeared first on SecurityWeek.",
           "source": "SecurityWeek",
           "date": "Nov 16",
-          "image": "https://www.securityweek.com/wp-content/uploads/2025/11/AI-phishing.jpeg",
+          "image": "https://www.securityweek.com/wp-content/uploads/2025/11/NPM-code-software-development.jpeg",
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.532,
+          "score": 3.635,
           "coverage": 1
         },
         {
-          "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
-          "link": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
-          "excerpt": "An 11-year-old Linux kernel vulnerability, dubbed NoisyTCP, affects almost all Linux distributions and lets attackers crash systems running Nginx, Apache, and SSH servers with default configurations. [...]",
-          "source": "BleepingComputer",
+          "title": "Hackers Probe Newly Disclosed Flaws in Copeland Refrigeration Controllers",
+          "link": "https://www.securityweek.com/hackers-probe-newly-disclosed-flaws-in-copeland-refrigeration-controllers/",
+          "excerpt": "Vulncheck disclosed 14 vulnerabilities affecting Copeland XWEB EVO controllers, including two that threat actors quickly targeted. The post Hackers Probe Newly Disclosed Flaws in Copeland Refrigeration Controllers appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
           "date": "Nov 16",
-          "image": "https://www.bleepstatic.com/content/hl-images/2026/10/29/Linux_tux.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/freezer-refrigeration.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
           "hn": null,
-          "score": 0.586,
-          "coverage": 1
-        },
-        {
-          "title": "Microsoft pushes Windows emergency updates to fix activation failures",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/",
-          "excerpt": "Microsoft has released emergency out-of-band updates to fix Windows activation and licensing failures caused by this month's security updates. [...]",
-          "source": "BleepingComputer",
-          "date": "Nov 16",
-          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/16/Windows.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
-          "hn": null,
-          "score": 0.54,
-          "coverage": 1
-        },
-        {
-          "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
-          "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
-          "excerpt": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments. [...]",
-          "source": "BleepingComputer",
-          "date": "Nov 15",
-          "image": "https://www.bleepstatic.com/content/hl-images/2025/10/23/AI-2.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
-          "hn": null,
-          "score": 0.264,
-          "coverage": 1
-        },
-        {
-          "title": "TSMC employee data breach linked to cloud provider",
-          "link": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
-          "excerpt": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
-          "source": "BleepingComputer",
-          "date": "Nov 15",
-          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/13/TSMC.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
-          "hn": null,
-          "score": 1.658,
+          "score": 0.513,
           "coverage": 1
         }
       ]
@@ -333,7 +426,48 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 2.932,
+          "score": 2.596,
+          "coverage": 1
+        },
+        {
+          "title": "Podcast: Getting CRA Compliant Hardens the Code and Gets Your Company Closer to Digital Sovereignty",
+          "link": "https://www.infoq.com/podcasts/company-closer-digital-sovereignty/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "In this episode, Christopher \"CRob\" Robinson, CTO of OpenSSF, Akrites and Chief Security Architect of the Linux Foundation, explores the state of software supply chain security amid multiple security incidents and explains how tools like Scorecard, the Security Baseline framework, and SLSA help…",
+          "source": "InfoQ",
+          "date": "Nov 16",
+          "image": "https://res.infoq.com/podcasts/company-closer-digital-sovereignty/en/smallimage/infoq-podcast-500-1794318137932.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 4.459,
+          "coverage": 1
+        },
+        {
+          "title": "GitHub Rebuilds the Copilot App's Diff Surface to Open Million-Line Pull Requests Without Jank",
+          "link": "https://www.infoq.com/news/2026/11/github-pull-requests-rebuild/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "GitHub engineers rebuilt the diff view in the Copilot app to handle a pull request with 2,200 files, over a million changed lines and 400 inline comments. The design separates fixed-height code rows from variable-height comment blocks, which are measured in batches near the viewport. Performance…",
+          "source": "InfoQ",
+          "date": "Nov 16",
+          "image": "https://res.infoq.com/news/2026/11/github-pull-requests-rebuild/en/headerimage/generatedHeaderImage-1794747791339.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 4.079,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Article: Governed Autonomous Intelligence for Mission-Critical Utility",
+          "link": "https://www.infoq.com/articles/utility-governed-autonomous-intelligence-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "The article describes an architecture for agentic AI in regulated utility operations. Agents reason and propose actions, but a deterministic policy gate and a governed tool gateway control execution, with human approval where required. It covers an AWS reference implementation, grounding in…",
+          "source": "InfoQ",
+          "date": "Nov 16",
+          "image": "https://res.infoq.com/articles/utility-governed-autonomous-intelligence-ai/en/headerimage/utility-governed-autonomous-intelligence-ai-header-1793368487796.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 3.185,
           "coverage": 1
         },
         {
@@ -346,24 +480,22 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 3.551,
+          "score": 2.811,
           "coverage": 1
         },
         {
-          "title": "Uno Platform 7.0 Adds WebGPU Backend, Apple TV and Reactor Support, and Retires Native Rendering",
-          "link": "https://www.infoq.com/news/2026/11/Uno-Platform-6-7-targets/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "Uno Platform 7.0 unifies rendering on SkiaSharp 4 with an opt-in WebGPU backend, adds Apple TV as a target and supports .NET 11 from day zero. It also runs third-party .NET MAUI controls and Microsoft.UI.Reactor on all targets, and removes native rendering and Mac Catalyst. By Edin Kapić",
-          "source": "InfoQ",
+          "title": "Inside the new Google Cloud Data Boundary experience",
+          "link": "https://cloud.google.com/blog/products/identity-security/inside-the-new-data-boundary-experience/",
+          "excerpt": "Digital sovereignty is evolving from a standard compliance requirement into a powerful strategic advantage for regulated industries worldwide. From European frameworks designed to meet sovereign standards (DORA, EHDS, GDPR) to FedRAMP/ILs/ITARs in the U.S., or expanding mandates across…",
+          "source": "Cloud Blog",
           "date": "Nov 16",
-          "image": "https://res.infoq.com/news/2026/11/Uno-Platform-6-7-targets/en/headerimage/header-1794254225395.jpg",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_Tb37FLR.max-1000x1000.png",
           "icon": null,
-          "domain": "infoq.com",
+          "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.704,
+          "score": 0.528,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "SRE Weekly Issue #543",
           "link": "https://sreweekly.com/sre-weekly-issue-543/",
@@ -374,20 +506,7 @@
           "icon": "https://sreweekly.com/wp-content/uploads/2015/12/cropped-sreweekly-logo-axes-180x180.png",
           "domain": "sreweekly.com",
           "hn": null,
-          "score": 0.476,
-          "coverage": 1
-        },
-        {
-          "title": "Alpine Linux Users Urged to Patch OpenSSH Authentication Flaw",
-          "link": "https://www.infoq.com/news/2026/11/alpine-linux-openssh-sshhole/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "A recently disclosed vulnerability in OpenSSH lets an unauthenticated attacker log into accounts that should have no usable password. The issue, named *sshole and tracked as CVE-2026-123158, affects Linux systems running OpenSSH with the musl C library and which don't use PAM. Security researchers…",
-          "source": "InfoQ",
-          "date": "Nov 16",
-          "image": "https://res.infoq.com/news/2026/11/alpine-linux-openssh-sshhole/en/headerimage/generatedHeaderImage-1794610199233.jpg",
-          "icon": null,
-          "domain": "infoq.com",
-          "hn": null,
-          "score": 0.704,
+          "score": 0.405,
           "coverage": 1
         }
       ]
@@ -396,16 +515,96 @@
       "name": "News & Research",
       "cards": [
         {
-          "title": "Stop Filming in Log",
-          "link": "https://digitalfilms.wordpress.com/2026/11/15/stop-filming-in-log/",
-          "excerpt": "I may ruffle some feathers with that title; but after years as a colorist, log-encoded clips can be an unnecessary challenge. Using camera log profiles is often a crutch for location and studio set…",
-          "source": "digitalfilms.wordpress.com via Hacker News",
+          "title": "It's always DNS, so why are we running our own?",
+          "link": "https://s2.dev/blog/dns-server",
+          "excerpt": "This will be a rollercoaster story on how we ended up replacing Route53 and running our own authoritative DNS server.",
+          "source": "s2.dev via Hacker News",
           "date": "Nov 16",
-          "image": "https://digitalfilms.wordpress.com/wp-content/uploads/2026/10/df202656_nolog_06.jpg",
-          "icon": "https://s2.wp.com/i/webclip.png?m=1713868326i",
-          "domain": "digitalfilms.wordpress.com",
-          "hn": "51 points · 35 comments",
-          "score": 3.037,
+          "image": "https://s2.dev/blog/dns-server-og.jpg",
+          "icon": "https://s2.dev/s2-black.png",
+          "domain": "s2.dev",
+          "hn": "23 points · 14 comments",
+          "score": 2.779,
+          "coverage": 1
+        },
+        {
+          "title": "Winudf – DVD / BluRay driver for DOS, Windows 1.x – 3x / 95 / 98 / ME",
+          "link": "https://github.com/ages2001/WINUDF",
+          "excerpt": "UDF IFS (Installable File System driver) for DOS, Windows 1.0x/2.xx/3.xx/95/98/ME - ages2001/WINUDF",
+          "source": "github.com via Hacker News",
+          "date": "Nov 16",
+          "image": "https://opengraph.githubassets.com/da4a4554b5fc924770739ec4a82a67a0129127513785bcbbb8eea9997f941eb5/ages2001/WINUDF",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "20 points · 0 comments",
+          "score": 2.219,
+          "coverage": 1
+        },
+        {
+          "title": "How Should Armies Fight?",
+          "link": "https://worksinprogress.co/issue/the-future-of-war/",
+          "excerpt": "A review of The Arms of the Future by Jack Watling.",
+          "source": "worksinprogress.co via Hacker News",
+          "date": "Nov 16",
+          "image": "https://worksinprogress.co/wip-image/uploads/2026/11/Column_Pieter_Garicano_Sharecard_02.jpg",
+          "icon": "https://worksinprogress.co/apple-touch-icon.png",
+          "domain": "worksinprogress.co",
+          "hn": "13 points · 6 comments",
+          "score": 2.185,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
+          "link": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
+          "excerpt": "Two months ago, I got a new laptop. It’s a Lenovo Thinkpad z61t. I actually ordered a t61, but I accidentally got the z61 instead — and, I actually really like it. It’s quite similar to the t61, but a little smaller and lighter. I was worried that the smaller part would be a problem, but I’ve…",
+          "source": "masnick.com via Hacker News",
+          "date": "Nov 16",
+          "image": null,
+          "icon": "https://masnick.com/apple-touch-icon.png",
+          "domain": "masnick.com",
+          "hn": "29 points · 11 comments",
+          "score": 3.316,
+          "coverage": 1
+        },
+        {
+          "title": "Coffeehouses and the Rise of Science [pdf]",
+          "link": "https://www.monirbounadi.com/Bounadi_JMP.pdf",
+          "excerpt": "67 points · 36 comments",
+          "source": "monirbounadi.com via Hacker News",
+          "date": "Nov 16",
+          "image": null,
+          "icon": "https://www.monirbounadi.com/favicon.ico",
+          "domain": "monirbounadi.com",
+          "hn": "67 points · 36 comments",
+          "score": 3.833,
+          "coverage": 1
+        },
+        {
+          "title": "“…and the proof is checked in Lean”",
+          "link": "https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/",
+          "excerpt": "This post is an attempt to explain in simple terms how to interpret claims of the form “this theorem is correct because it was checked in Lean”. The summary is: there is an important si…",
+          "source": "xenaproject.wordpress.com via Hacker News",
+          "date": "Nov 16",
+          "image": "https://xenaproject.wordpress.com/wp-content/uploads/2020/05/cropped-twitchpfc.png?w=200",
+          "icon": "https://xenaproject.wordpress.com/wp-content/uploads/2020/05/cropped-twitchpfc.png?w=180",
+          "domain": "xenaproject.wordpress.com",
+          "hn": "59 points · 23 comments",
+          "score": 2.956,
+          "coverage": 1
+        },
+        {
+          "title": "How to make almost anything",
+          "link": "https://pub.cba.mit.edu/863.26/site/",
+          "excerpt": "428 points · 79 comments",
+          "source": "pub.cba.mit.edu via Hacker News",
+          "date": "Nov 16",
+          "image": null,
+          "icon": "https://pub.cba.mit.edu/favicon.ico",
+          "domain": "pub.cba.mit.edu",
+          "hn": "428 points · 79 comments",
+          "score": 3.617,
           "coverage": 1
         },
         {
@@ -417,88 +616,8 @@
           "image": "https://img.alicdn.com/imgextra/i4/O1CN01OXv3EM1FN8t9W4P79_!!6000000000474-2-tps-80-80.png",
           "icon": "https://img.alicdn.com/imgextra/i4/O1CN01OXv3EM1FN8t9W4P79_!!6000000000474-2-tps-80-80.png",
           "domain": "qwen.ai",
-          "hn": "483 points · 197 comments",
-          "score": 3.718,
-          "coverage": 1
-        },
-        {
-          "title": "Universal XSS in uBlock Origin from website-driven element picker",
-          "link": "https://iter.ca/post/ubo-uxss/",
-          "excerpt": "One-click UXSS issue with uBlock Origin on Firefox through element picker",
-          "source": "iter.ca via Hacker News",
-          "date": "Nov 16",
-          "image": "https://iter.ca//ubo-epicker.png",
-          "icon": "https://iter.ca/avatar/a32.png",
-          "domain": "iter.ca",
-          "hn": "347 points · 95 comments",
-          "score": 3.47,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "How to make almost anything",
-          "link": "https://pub.cba.mit.edu/863.26/site/",
-          "excerpt": "252 points · 43 comments",
-          "source": "pub.cba.mit.edu via Hacker News",
-          "date": "Nov 16",
-          "image": null,
-          "icon": "https://pub.cba.mit.edu/favicon.ico",
-          "domain": "pub.cba.mit.edu",
-          "hn": "252 points · 43 comments",
-          "score": 4.036,
-          "coverage": 1
-        },
-        {
-          "title": "Did the Apollo Guidance Computer use 60% of the ICs in 1963?",
-          "link": "https://retrocomputing.stackexchange.com/questions/12158/did-the-apollo-guidance-computer-really-use-60-of-the-worlds-ics-in-1963",
-          "excerpt": "11 points · 1 comments",
-          "source": "retrocomputing.stackexchange.com via Hacker News",
-          "date": "Nov 16",
-          "image": null,
-          "icon": "https://retrocomputing.stackexchange.com/favicon.ico",
-          "domain": "retrocomputing.stackexchange.com",
-          "hn": "11 points · 1 comments",
-          "score": 1.99,
-          "coverage": 1
-        },
-        {
-          "title": "Debian Becomes Unresponsive after 6.1.0-55 Kernel Update",
-          "link": "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1154101",
-          "excerpt": "85 points · 25 comments",
-          "source": "bugs.debian.org via Hacker News",
-          "date": "Nov 16",
-          "image": null,
-          "icon": "https://bugs.debian.org/favicon.ico",
-          "domain": "bugs.debian.org",
-          "hn": "85 points · 25 comments",
-          "score": 3.229,
-          "coverage": 1
-        },
-        {
-          "title": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
-          "link": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
-          "excerpt": "Where to Download Tarballs Gitlab Repository Bug Report Changes Below are the major changes of the released versions and links to more detailed release notes. Stable Today, we are releasing 0.4.9.17, which includes a series of security fixes. One fix in particular is especially important for relay…",
-          "source": "forum.torproject.org via Hacker News",
-          "date": "Nov 16",
-          "image": "https://forum.torproject.org/uploads/default/original/2X/d/d3424bed34f4ec18b2e99178c2801ba6dfb655d6.png",
-          "icon": "https://forum.torproject.org/uploads/default/optimized/2X/d/d3424bed34f4ec18b2e99178c2801ba6dfb655d6_2_180x180.png",
-          "domain": "forum.torproject.org",
-          "hn": "145 points · 44 comments",
-          "score": 2.798,
-          "coverage": 1
-        },
-        {
-          "title": "Skydio's asymmetrical F10 Lightrunner solves a problem with fixed-wing drones",
-          "link": "https://spectrum.ieee.org/skydio-f10-lightrunner-asymmetrical-drone",
-          "excerpt": "The F10 Lightrunner’s weird asymmetry solves a key problem with fixed-wing drones",
-          "source": "spectrum.ieee.org via Hacker News",
-          "date": "Nov 16",
-          "image": "https://spectrum.ieee.org/media-library/image.jpg?id=68671751&width=1200&height=600&coordinates=0%2C357%2C0%2C358",
-          "icon": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNjU5NjY0OS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTg0ODgxODUwNn0.1LlzHtxZSVXyzapxWjeSrRIRu5qo3CeB8FaWpd2tl_o/img.png?width=192&height=192",
-          "domain": "spectrum.ieee.org",
-          "hn": "41 points · 3 comments",
-          "score": 2.097,
+          "hn": "629 points · 276 comments",
+          "score": 3.3,
           "coverage": 1
         }
       ]
