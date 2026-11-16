@@ -13,7 +13,7 @@
     "note": null,
     "labels": [
       "News & Research",
-      "1h ago"
+      "3h ago"
     ],
     "also": []
   },
@@ -25,7 +25,7 @@
       "link_domain": "jakub.jankiewicz.org",
       "source": "Hacker News",
       "domain": "jakub.jankiewicz.org",
-      "meta": "Hacker News · 1.1k points · 599 comments · 13h ago",
+      "meta": "Hacker News · 1.1k points · 606 comments · 15h ago",
       "also": [
         {
           "source": "Lobsters",
@@ -42,7 +42,7 @@
       "link_domain": "www1.wdr.de",
       "source": "Hacker News",
       "domain": "www1.wdr.de",
-      "meta": "Hacker News · 440 points · 192 comments · 9h ago",
+      "meta": "Hacker News · 474 points · 201 comments · 11h ago",
       "also": [],
       "image": "https://www1.wdr.de/nrw/koeln/phantasialand-134~_v-gseagaleriexl.jpg",
       "icon": "https://www1.wdr.de/assets-v5.182.4/img/favicon/apple-touch-icon.png"
@@ -54,7 +54,7 @@
       "link_domain": "magazine.sebastianraschka.com",
       "source": "Hacker News",
       "domain": "magazine.sebastianraschka.com",
-      "meta": "Hacker News · 217 points · 27 comments · 15h ago",
+      "meta": "Hacker News · 225 points · 27 comments · 17h ago",
       "also": [],
       "image": "https://substackcdn.com/image/fetch/$s_!8RKL!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb461a2cb-11ab-474a-affe-0ee99e5a8782_2850x2777.png",
       "icon": "https://substackcdn.com/image/fetch/$s_!_bhP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F342e39ec-514c-4b4d-8a76-6acf0cbd8248%2Fapple-touch-icon-57x57.png"
@@ -74,7 +74,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 1.116,
+          "score": 0.993,
           "coverage": 1
         },
         {
@@ -87,7 +87,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 1.073,
+          "score": 0.959,
           "coverage": 1
         },
         {
@@ -100,7 +100,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 1.116,
+          "score": 0.993,
           "coverage": 1
         }
       ],
@@ -115,7 +115,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 1.071,
+          "score": 0.957,
           "coverage": 1
         },
         {
@@ -128,7 +128,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.499,
+          "score": 0.473,
           "coverage": 1
         }
       ]
@@ -146,7 +146,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 1.035,
+          "score": 0.933,
           "coverage": 1
         },
         {
@@ -159,7 +159,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 1.035,
+          "score": 0.933,
           "coverage": 1
         }
       ],
@@ -178,7 +178,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.333,
+          "score": 0.305,
           "coverage": 1
         },
         {
@@ -191,7 +191,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 2.039,
+          "score": 1.887,
           "coverage": 1
         },
         {
@@ -204,7 +204,7 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 0.129,
+          "score": 0.125,
           "coverage": 1
         }
       ],
@@ -223,7 +223,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 3.76,
+          "score": 3.42,
           "coverage": 1
         },
         {
@@ -236,7 +236,7 @@
           "icon": "https://sreweekly.com/wp-content/uploads/2015/12/cropped-sreweekly-logo-axes-180x180.png",
           "domain": "sreweekly.com",
           "hn": null,
-          "score": 0.681,
+          "score": 0.592,
           "coverage": 1
         }
       ],
@@ -246,6 +246,19 @@
       "name": "News & Research",
       "cards": [
         {
+          "title": "Stop Filming in Log",
+          "link": "https://digitalfilms.wordpress.com/2026/11/15/stop-filming-in-log/",
+          "excerpt": "I may ruffle some feathers with that title; but after years as a colorist, log-encoded clips can be an unnecessary challenge. Using camera log profiles is often a crutch for location and studio set…",
+          "source": "digitalfilms.wordpress.com via Hacker News",
+          "date": "Nov 16",
+          "image": "https://digitalfilms.wordpress.com/wp-content/uploads/2026/10/df202656_nolog_06.jpg",
+          "icon": "https://s2.wp.com/i/webclip.png?m=1713868326i",
+          "domain": "digitalfilms.wordpress.com",
+          "hn": "15 points · 5 comments",
+          "score": 2.817,
+          "coverage": 1
+        },
+        {
           "title": "Universal XSS in uBlock Origin from website-driven element picker",
           "link": "https://iter.ca/post/ubo-uxss/",
           "excerpt": "One-click UXSS issue with uBlock Origin on Firefox through element picker",
@@ -254,8 +267,8 @@
           "image": "https://iter.ca//ubo-epicker.png",
           "icon": "https://iter.ca/avatar/a32.png",
           "domain": "iter.ca",
-          "hn": "120 points · 23 comments",
-          "score": 4.076,
+          "hn": "226 points · 55 comments",
+          "score": 3.986,
           "coverage": 1
         },
         {
@@ -267,75 +280,62 @@
           "image": "https://forum.torproject.org/uploads/default/original/2X/d/d3424bed34f4ec18b2e99178c2801ba6dfb655d6.png",
           "icon": "https://forum.torproject.org/uploads/default/optimized/2X/d/d3424bed34f4ec18b2e99178c2801ba6dfb655d6_2_180x180.png",
           "domain": "forum.torproject.org",
-          "hn": "65 points · 10 comments",
-          "score": 3.227,
-          "coverage": 1
-        },
-        {
-          "title": "What's Next for Nvidia?",
-          "link": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
-          "excerpt": "Nvidia’s board announced that Jensen Huang had resigned 33 years after he co-founded the company. What happens to a company when a visionary CEO is gone? Most often innovation dies and the company …",
-          "source": "steveblank.com via Hacker News",
-          "date": "Nov 15",
-          "image": "https://steveblank.com/wp-content/uploads/2026/11/nvidia-reinventions-1024x677.jpg",
-          "icon": "https://s0.wp.com/i/webclip.png",
-          "domain": "steveblank.com",
-          "hn": "122 points · 135 comments",
-          "score": 3.894,
+          "hn": "102 points · 24 comments",
+          "score": 3.153,
           "coverage": 1
         }
       ],
       "more": [
         {
+          "title": "Debian Becomes Unresponsive after 6.1.0-55 Kernel Update",
+          "link": "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1154101",
+          "excerpt": "23 points · 0 comments",
+          "source": "bugs.debian.org via Hacker News",
+          "date": "Nov 16",
+          "image": null,
+          "icon": "https://bugs.debian.org/favicon.ico",
+          "domain": "bugs.debian.org",
+          "hn": "23 points · 0 comments",
+          "score": 2.974,
+          "coverage": 1
+        },
+        {
+          "title": "Tell HN: HN is being scraped for emails to scam",
+          "link": "https://news.ycombinator.com/item?id=50513451",
+          "excerpt": "58 points · 10 comments",
+          "source": "Hacker News",
+          "date": "Nov 16",
+          "image": null,
+          "icon": null,
+          "domain": "news.ycombinator.com",
+          "hn": "58 points · 10 comments",
+          "score": 3.276,
+          "coverage": 1
+        },
+        {
           "title": "Coles hit by a cybersecurity incident",
           "link": "https://www.colesgroup.com.au/updates/",
-          "excerpt": "65 points · 45 comments",
+          "excerpt": "83 points · 59 comments",
           "source": "colesgroup.com.au via Hacker News",
           "date": "Nov 16",
           "image": null,
           "icon": "https://www.colesgroup.com.au/FormBuilder/_Resource/_module/ir5sKeTxxEOndzdh00hWJw/images/apple-icon-57x57.png",
           "domain": "colesgroup.com.au",
-          "hn": "65 points · 45 comments",
-          "score": 3.672,
+          "hn": "83 points · 59 comments",
+          "score": 3.387,
           "coverage": 1
         },
         {
-          "title": "Mini.nvim Is Now on Tangled",
-          "link": "https://tangled.org/nvim-mini.org/mini.nvim",
-          "excerpt": "Library of 45+ independent Lua modules improving Neovim experience with minimal effort",
-          "source": "tangled.org via Hacker News",
-          "date": "Nov 15",
-          "image": "https://ogre.tangled.network/card?payload=eyJ0eXBlIjoicmVwb3NpdG9yeSIsInJlcG9OYW1lIjoibWluaS5udmltIiwib3duZXJIYW5kbGUiOiJudmltLW1pbmkub3JnIiwic3RhcnMiOjMzLCJwdWxscyI6MCwiaXNzdWVzIjoxLCJjcmVhdGVkQXQiOiIyMDI2LTExLTE0VDEzOjQyOjExWiIsImF2YXRhclVybCI6Imh0dHBzOi8vdGFuZ2xlZC5vcmcvYXZhdGFyL2RpZCUzQXBsYyUzQXdtanJ4Y3IyenF2NDVsamN1b2locTVhYz9zaXplPTI1NiZmb3JtYXQ9anBlZyIsImxhbmd1YWdlcyI6W3siY29sb3IiOiIjMDAwMDgwIiwicGVyY2VudGFnZSI6MTAwfSx7ImNvbG9yIjoiIzg5ZTA1MSIsInBlcmNlbnRhZ2UiOjB9LHsiY29sb3IiOiIjNDI3ODE5IiwicGVyY2VudGFnZSI6MH0seyJjb2xvciI6IiMxZTRhZWMiLCJwZXJjZW50YWdlIjowfSx7ImNvbG9yIjoiIzE5OWY0YiIsInBlcmNlbnRhZ2UiOjB9XX0",
-          "icon": "https://tangled.org/logos/dolly.png",
-          "domain": "tangled.org",
-          "hn": "42 points · 12 comments",
-          "score": 2.941,
-          "coverage": 1
-        },
-        {
-          "title": "Preserving 30 years of Salon journalism",
-          "link": "https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/",
-          "excerpt": "When Salon launched in 1995, the web was still finding its voice. One of the first major publications born on the internet, Salon helped define a new kind of digital journalism, bringing together politics, culture, criticism, and ideas for a generation of online readers. After 31 years, Salon has…",
-          "source": "blog.archive.org via Hacker News",
-          "date": "Nov 15",
-          "image": "https://blog.archive.org/wp-content/uploads/2026/11/Salon-Logos-Background-2-2048x1071-1.png",
-          "icon": "https://blog.archive.org/wp-content/uploads/2023/03/ia-logo-sq-300x300.png",
-          "domain": "blog.archive.org",
-          "hn": "99 points · 29 comments",
-          "score": 3.279,
-          "coverage": 1
-        },
-        {
-          "title": "Show HN: The Last Complication, a Zachtronics-style watchmaking puzzle game",
-          "link": "https://lastcomplication.com/",
-          "excerpt": "A puzzle game about building clock movements, gear by gear.",
-          "source": "lastcomplication.com via Hacker News",
-          "date": "Nov 15",
-          "image": "https://lastcomplication.com/icon-512.png",
-          "icon": "https://lastcomplication.com/apple-touch-icon.png",
-          "domain": "lastcomplication.com",
-          "hn": "58 points · 8 comments",
-          "score": 2.865,
+          "title": "Skydio's asymmetrical F10 Lightrunner solves a problem with fixed-wing drones",
+          "link": "https://spectrum.ieee.org/skydio-f10-lightrunner-asymmetrical-drone",
+          "excerpt": "The F10 Lightrunner’s weird asymmetry solves a key problem with fixed-wing drones",
+          "source": "spectrum.ieee.org via Hacker News",
+          "date": "Nov 16",
+          "image": "https://spectrum.ieee.org/media-library/image.jpg?id=68671751&width=1200&height=600&coordinates=0%2C357%2C0%2C358",
+          "icon": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNjU5NjY0OS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTg0ODgxODUwNn0.1LlzHtxZSVXyzapxWjeSrRIRu5qo3CeB8FaWpd2tl_o/img.png?width=192&height=192",
+          "domain": "spectrum.ieee.org",
+          "hn": "25 points · 1 comments",
+          "score": 2.243,
           "coverage": 1
         }
       ]
