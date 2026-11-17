@@ -71,6 +71,12 @@
   "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
   "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1785336708/ww4mlighwlvvzgnmbe6w.png"
  },
+ "https://about.gitlab.com/blog/cisa-2030-cyber-strategy/": {
+  "description": "CISA has set the pace for government software security. See what the three pillars of the strategy ask of your software factory and how GitLab helps address them.",
+  "fetched": "2026-11-17",
+  "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
+  "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1794924434/law2jvenwbplqyovuwke.png"
+ },
  "https://about.gitlab.com/blog/department-of-war-instruction-for-ai-generated-code/": {
   "description": "Learn what Department of War Instruction 8430.01 asks of AI-assisted software delivery, and how GitLab keeps AI code traceable and verified.",
   "fetched": "2026-11-06",
@@ -196,6 +202,12 @@
   "fetched": "2026-11-04",
   "icon": "https://andreasfertig.com/apple-touch-icon.png",
   "image": "https://andreasfertig.com/img/2026-11-03-cpp26-failed-li.png"
+ },
+ "https://antfly.io/thoughts/how-antfly-learned-to-stop-worrying-and-love-apache-2": {
+  "description": "Antfly moved from the Elastic License 2.0 to Apache 2.0. Why we hedged, and why the hedge stopped making sense.",
+  "fetched": "2026-11-17",
+  "icon": "https://antfly.io/apple-icon.png?apple-icon.01p-gddkeum1j.png",
+  "image": null
  },
  "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/": {
   "description": "Today, we're rolling out Gemini 4 Hydrogen inside Google Antigravity alongside a new model dropdown option called Orchestrator, which pairs Hydrogen withâ¦",
@@ -2633,6 +2645,12 @@
   "icon": null,
   "image": null
  },
+ "https://martinfowler.com/articles/deterministic-simulation-testing.html": {
+  "description": "How deterministic simulation testing makes distributed system correctness bugs reproducible by replacing hidden progress sources with explicit, tick-driven execution.",
+  "fetched": "2026-11-17",
+  "icon": null,
+  "image": "https://martinfowler.com/logo-sq.png"
+ },
  "https://martinfowler.com/bliki/GeneratedGlossary.html": {
   "description": "Use an LLM to generate a glossary for other LLMs to use",
   "fetched": "2026-11-12",
@@ -3230,6 +3248,12 @@
  "https://openai.com/index/introducing-images-2-6/": {
   "description": null,
   "fetched": "2026-11-05",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/introducing-openai-for-chile": {
+  "description": null,
+  "fetched": "2026-11-17",
   "icon": null,
   "image": null
  },
@@ -4619,6 +4643,18 @@
   "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
   "image": "https://techcrunch.com/wp-content/uploads/2024/11/CMC_8152.jpg?resize=1200,800"
  },
+ "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/": {
+  "description": "Daydream's new AI shopping agent can remember your style, virtually try on clothes, plan outfits around your wardrobe, track sales, and complete purchases.",
+  "fetched": "2026-11-17",
+  "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/2daydream-agent-1.jpeg?w=1024"
+ },
+ "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/": {
+  "description": "In the first public statement since his resignation, Nvidia founder Jensen Huang signalled his willingness to return as CEO.",
+  "fetched": "2026-11-17",
+  "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256813240.jpg?resize=1200,800"
+ },
  "https://tendrils.co/blog/2026-11-10/30m-raised": {
   "description": null,
   "fetched": "2026-11-11",
@@ -4924,6 +4960,12 @@
   "fetched": "2026-10-30",
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://images.workoscdn.com/images/7b5e3dc6-133e-44d5-bfcd-7da3e1886f08.png?auto=format&fit=clip&q=80"
+ },
+ "https://workos.com/blog/agent-vault": {
+  "description": "Build agentic products with Agent Vault: store users’ website logins and connect agents through a WorkOS-hosted or self-hosted browser. Contact us for access.",
+  "fetched": "2026-11-17",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://images.workoscdn.com/images/4c9b0b72-a211-45a1-ad44-000c185cb3cb.png?auto=format&fit=clip&q=80"
  },
  "https://workos.com/blog/ai-agent-access-policy": {
   "description": "Yelp sells agent access, JPMorgan refuses it, Shopify ships it as a toggle. Admission is a commercial call, and bot rules are the wrong place to enforce it.",
@@ -5849,6 +5891,12 @@
   "icon": null,
   "image": "https://images.ctfassets.net/l47ir7rfykkn/6KCKomOVkGVOQsC9UNfPGC/a5d2a170ad730fbec8509f9d7e784457/Chainguard_endpoints_now_handle_breaking_changes.png"
  },
+ "https://www.chainguard.dev/unchained/chainguard-is-now-self-serve-and-free-to-start": {
+  "description": "Get started with Chainguard for free. Explore new Starter and Team plans for secure containers, libraries, AI agent sandboxes, and CI workflows.",
+  "fetched": "2026-11-17",
+  "icon": null,
+  "image": "https://images.ctfassets.net/l47ir7rfykkn/253VI9RcIntW2N3dYm94pf/debe6f3378283af15256b47000e42732/Self-serve-3.png"
+ },
  "https://www.chainguard.dev/unchained/every-manual-page-in-chainguard-os-now-readable-by-your-agent": {
   "description": "AI coding agents need accurate documentation. See how Chainguard makes Linux manual pages searchable, version-specific, and accessible through MCP.",
   "fetched": "2026-11-04",
@@ -5872,6 +5920,12 @@
   "fetched": "2026-11-14",
   "icon": null,
   "image": "https://images.ctfassets.net/l47ir7rfykkn/1ZYE7BoVOqRzXuMDf28B2m/bbd079e4fa17b86be5702aa5c4535fbe/Project_Theseus_-_Dark.png"
+ },
+ "https://www.chainguard.dev/unchained/microvms-egress-mitm-and-sealed-tokens-sandboxing-untrusted-code-at-scale": {
+  "description": "Chainguard explains the engineering behind secure CI for AI agents, from microVM isolation and network controls to instant startup and signed results.",
+  "fetched": "2026-11-17",
+  "icon": null,
+  "image": "https://images.ctfassets.net/l47ir7rfykkn/5uH7eZ9EXqBG1i6Hf3lZnl/32a211c7a60ec9c2321b39ba1e789fe8/MicroVMs__Egress_MITM__and_sealed_tokens__Sandboxing_untrusted_code_at_scale.png"
  },
  "https://www.chainguard.dev/unchained/prevention-under-pressure-why-most-ai-governance-is-detection-wearing-prevention-clothes": {
   "description": "CISO Kayla Williams joins Chainguard's Prevention Under Pressure to discuss AI threats, security governance, and the shift from detection to prevention.",
@@ -5927,6 +5981,12 @@
   "icon": "https://fm.cnbc.com/applications/cnbc.com/resources/img/CNBC_LOGO_FAVICON_1C_KO_RGB.ico",
   "image": "https://image.cnbcfm.com/api/v1/image/108410034-1792003128025-gettyimages-2245498775-raa-coreweav251110_npfn0.jpeg?v=1792003201&w=1920&h=1080"
  },
+ "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-statement.html": {
+  "description": "He said he had seen support from investors and employees was willing to come back as CEO.",
+  "fetched": "2026-11-17",
+  "icon": "https://fm.cnbc.com/applications/cnbc.com/resources/img/CNBC_LOGO_FAVICON_1C_KO_RGB.ico",
+  "image": "https://image.cnbcfm.com/api/v1/image/108548918-1794403575214-gettyimages-2192346840-widak-nvidiasc250106_npmp9.jpeg?v=1794403600&w=1920&h=1080"
+ },
  "https://www.cncf.io/blog/2026/11/02/the-linkerd-story-the-people-behind-the-service-mesh-a-new-documentary-premieres-at-kubecon-cloudnativecon-north-america-2026/": {
   "description": "Join CNCF and Buoyant on November 9 in Salt Lake City for the premiere of a new documentary celebrating a decade of Linkerd, the evolution of service mesh technology, and the people who helped make it…",
   "fetched": "2026-11-02",
@@ -5980,6 +6040,12 @@
   "fetched": "2026-11-17",
   "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png",
   "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2304760060.jpg?c=16x9&q=w_800,c_fill"
+ },
+ "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down": {
+  "description": "The highly classified network that the National Security Agency uses for its internal communications is down, according to six people familiar with the matter.",
+  "fetched": "2026-11-17",
+  "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png",
+  "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1227141714-20261117152535850.jpg?c=16x9&q=w_800,c_fill"
  },
  "https://www.cnn.com/travel/octola-three-arctic-finland-secret-retreat": {
   "description": "It doesn’t appear on maps — or booking sites — but this “private wilderness” in Finland has a magic ingredient that the uber-wealthy will pay big money for.",
@@ -6130,6 +6196,12 @@
   "fetched": "2026-10-30",
   "icon": "https://www.daytona.io/apple-touch-icon.png",
   "image": "https://www.datocms-assets.com/103916/1793303267-daytona2-agent-infrastructure-requires-more-than-kubernetes-dark.png?auto=compress%2Cformat&fit=crop&h=1260&w=2520"
+ },
+ "https://www.daytona.io/dotfiles/macos-sandboxes": {
+  "description": "macOS virtual machines on dedicated Apple silicon for building, testing, and automating software that needs macOS.",
+  "fetched": "2026-11-17",
+  "icon": "https://www.daytona.io/apple-touch-icon.png",
+  "image": "https://www.datocms-assets.com/103916/1794930095-macminiforagents-blog.png?auto=compress%2Cformat&fit=crop&h=1260&w=2520"
  },
  "https://www.denverpost.com/2026/11/06/ethereum-suicide-pledge-lawsuit-mandate-boulder-crypto/": {
   "description": "On a Friday in March, employees at an international technology foundation received a 38-page document outlining leadership’s vision for the foundation for the next 1,000 years.",
@@ -6989,6 +7061,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.reuters.com/technology/highly-classified-us-national-security-communications-network-is-down-cnn-2026-11-17/": {
+  "description": null,
+  "fetched": "2026-11-17",
+  "icon": null,
+  "image": null
+ },
  "https://www.ricursive.com/ripple": {
   "description": "We develop frontier AI methods to reinvent chip development, collapsing traditional design timelines, closing the loop between AI and the hardware that fuels it, and enabling a Cambrian explosion of custom silicon.",
   "fetched": "2026-11-05",
@@ -7168,6 +7246,12 @@
   "fetched": "2026-10-24",
   "icon": null,
   "image": "https://www.sciencedaily.com/images/1920/sleep-man-brain-spine-nervous-system.webp"
+ },
+ "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns": {
+  "description": null,
+  "fetched": "2026-11-17",
+  "icon": null,
+  "image": null
  },
  "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm": {
   "description": null,
@@ -7780,6 +7864,12 @@
   "fetched": "2026-11-02",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Polymarket.webp"
+ },
+ "https://www.securityweek.com/pretxt-emerges-stealth-with-5m-seed-and-an-ai-supervision-tool/": {
+  "description": "Pretxt provides a purpose-built runtime technology to supervise AI agents as they work to prevent mistakes.",
+  "fetched": "2026-11-17",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2025/11/funding-investment-market-3.jpeg"
  },
  "https://www.securityweek.com/recent-unrealircd-vulnerability-exploited-in-attacks/": {
   "description": "Hackers are exploiting CVE-2026-114713, a vulnerability in UnrealIRCd that enables command execution with high privileges.",

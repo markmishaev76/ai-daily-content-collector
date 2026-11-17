@@ -1,25 +1,29 @@
 {
   "date": "2026-11-17",
   "lead": {
-    "title": "California sues OpenAI over rogue AI hacking incidents",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
-    "excerpt": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without…",
-    "source": "The Verge",
-    "date": "Nov 16",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK155_OPEN_AI_4_CVirginia_D.png?quality=90&strip=all&crop=0,0,100,100",
+    "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
+    "link": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+    "excerpt": "In the first public statement since his resignation, Nvidia founder Jensen Huang signalled his willingness to return as CEO.",
+    "source": "TechCrunch",
+    "date": "Nov 17",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256813240.jpg?resize=1200,800",
     "image_credit": null,
-    "section": "AI Agents & Agent Security",
+    "section": "News & Research",
     "pinned": false,
     "note": null,
     "labels": [
-      "2 sources",
-      "AI Agents & Agent Security",
-      "16h ago"
+      "3 sources",
+      "News & Research",
+      "under 1h ago"
     ],
     "also": [
       {
-        "name": "calmatters.org",
-        "link": "https://calmatters.org/economy/technology/2026/11/california-is-suing-openai-over-hugging-face-hack/"
+        "name": "cnbc.com",
+        "link": "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-statement.html"
+      },
+      {
+        "name": "theverge.com",
+        "link": "https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement"
       }
     ]
   },
@@ -31,7 +35,7 @@
       "link_domain": "xusheng.dev",
       "source": "Hacker News",
       "domain": "xusheng.dev",
-      "meta": "Hacker News · 662 points · 521 comments · 14h ago",
+      "meta": "Hacker News · 686 points · 552 comments · 18h ago",
       "also": [],
       "image": "https://xusheng.dev/posts/windows-coding-agent-telemetry/agent-names.jpeg",
       "icon": "https://xusheng.dev/favicon.ico"
@@ -43,7 +47,7 @@
       "link_domain": "blog.report-uri.com",
       "source": "Hacker News",
       "domain": "blog.report-uri.com",
-      "meta": "Hacker News · 458 points · 192 comments · 14h ago",
+      "meta": "Hacker News · 560 points · 220 comments · 18h ago",
       "also": [],
       "image": "https://storage.ghost.io/c/2d/aa/2daa4f7f-a71b-47d2-a54c-06b8c60222ef/content/images/size/w1200/2026/11/Cybersecurity-Alert_-Malicious-Code-Injection.png",
       "icon": "https://storage.ghost.io/c/2d/aa/2daa4f7f-a71b-47d2-a54c-06b8c60222ef/content/images/size/w256h256/2026/02/Logo-01.png"
@@ -55,22 +59,10 @@
       "link_domain": "cnn.com",
       "source": "Hacker News",
       "domain": "cnn.com",
-      "meta": "Hacker News · 241 points · 125 comments · 15h ago",
+      "meta": "Hacker News · 248 points · 130 comments · 18h ago",
       "also": [],
       "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2304760060.jpg?c=16x9&q=w_800,c_fill",
       "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png"
-    },
-    {
-      "title": "Janet Reno was talking about my friend Coolio (computer criminal)",
-      "thread": "https://lobste.rs/s/urcrqe/janet_reno_was_talking_about_my_friend",
-      "link": "https://michael.bacarella.com/2026/11/16/janet-reno-vs-my-friend-coolio/",
-      "link_domain": "michael.bacarella.com",
-      "source": "Lobsters",
-      "domain": "michael.bacarella.com",
-      "meta": "Lobsters · 36 points · 14 comments · 21h ago",
-      "also": [],
-      "image": "https://michael.bacarella.com/assets/mbacface.jpg",
-      "icon": "https://michael.bacarella.com/apple-touch-icon.png"
     },
     {
       "title": "\"Proof of use\" as a requirement for open source contributions?",
@@ -79,10 +71,46 @@
       "link_domain": "",
       "source": "Lobsters",
       "domain": "Lobsters",
-      "meta": "Lobsters · 25 points · 12 comments · 15h ago",
+      "meta": "Lobsters · 28 points · 15 comments · 18h ago",
       "also": [],
       "image": null,
       "icon": null
+    },
+    {
+      "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
+      "thread": "https://news.ycombinator.com/item?id=50531751",
+      "link": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
+      "link_domain": "scmp.com",
+      "source": "Hacker News",
+      "domain": "scmp.com",
+      "meta": "Hacker News · 147 points · 179 comments · 2h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.scmp.com/favicon.ico"
+    },
+    {
+      "title": "How the Claude Code team thinks about verification",
+      "thread": "https://news.ycombinator.com/item?id=50529612",
+      "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+      "link_domain": "claude.dev",
+      "source": "Hacker News",
+      "domain": "claude.dev",
+      "meta": "Hacker News · 143 points · 136 comments · 6h ago",
+      "also": [],
+      "image": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/og.png",
+      "icon": "https://claude.dev/shared/img/favicon.svg"
+    },
+    {
+      "title": "Regulatory Capture by Anthropic Through METR",
+      "thread": "https://news.ycombinator.com/item?id=50530450",
+      "link": "https://nitter.cf/kevinnbass/status/2099621874279817638",
+      "link_domain": "nitter.cf",
+      "source": "Hacker News",
+      "domain": "nitter.cf",
+      "meta": "Hacker News · 133 points · 71 comments · 4h ago",
+      "also": [],
+      "image": "https://pbs.twimg.com/media/HSNXaLrW4AEnwuB.jpg",
+      "icon": "https://pbs.twimg.com/profile_images/1947236538409988096/hZXVsMlX_400x400.jpg"
     },
     {
       "title": "Running coding agents without handing them my credentials",
@@ -91,7 +119,7 @@
       "link_domain": "blog.antonio.cx",
       "source": "Hacker News",
       "domain": "blog.antonio.cx",
-      "meta": "Hacker News · 121 points · 101 comments · 12h ago",
+      "meta": "Hacker News · 124 points · 105 comments · 15h ago",
       "also": [],
       "image": "https://prose.sh/card.png",
       "icon": "https://blog.antonio.cx/favicon-16x16.png"
@@ -103,7 +131,7 @@
       "link_domain": "openai.com",
       "source": "Hacker News",
       "domain": "openai.com",
-      "meta": "Hacker News · 119 points · 293 comments · 19h ago",
+      "meta": "Hacker News · 121 points · 307 comments · 22h ago",
       "also": [],
       "image": null,
       "icon": "https://openai.com/favicon.ico"
@@ -115,7 +143,7 @@
       "link_domain": "krebsonsecurity.com",
       "source": "Hacker News",
       "domain": "krebsonsecurity.com",
-      "meta": "Hacker News · 115 points · 28 comments · 15h ago",
+      "meta": "Hacker News · 116 points · 28 comments · 18h ago",
       "also": [],
       "image": null,
       "icon": "https://krebsonsecurity.com/favicon.ico"
@@ -135,37 +163,50 @@
           "icon": null,
           "domain": "metr.org",
           "hn": null,
-          "score": 3.407,
+          "score": 3.166,
           "coverage": 1
         },
         {
-          "title": "Microsoft’s outage started with a fix",
-          "link": "https://leaddev.com/technical-direction/microsofts-outage-started-with-a-fix?utm_source=leaddev&utm_medium=RSS",
-          "excerpt": "The bug testing never caught. The post Microsoft’s outage started with a fix appeared first on LeadDev.",
-          "source": "LeadDev",
+          "title": "Deterministic Simulation Testing",
+          "link": "https://martinfowler.com/articles/deterministic-simulation-testing.html",
+          "excerpt": "Distributed systems are hard to test because partial failures overlap with live traffic and the same fault can produce different execution traces on different runs. Unmesh Joshi describes how deterministic simulation testing addresses this by replacing real clocks, networks, and storage with…",
+          "source": "Martin Fowler",
           "date": "Nov 17",
-          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_6000,h_3375/next/2024/11/question-mark-bright-blue.png",
-          "icon": null,
-          "domain": "leaddev.com",
+          "image": "https://martinfowler.com/logo-sq.png",
+          "icon": "https://martinfowler.com/favicon.ico",
+          "domain": "martinfowler.com",
           "hn": null,
-          "score": 1.294,
+          "score": 1.243,
           "coverage": 1
         },
         {
-          "title": "Stop blaming AI tools for flat velocity",
-          "link": "https://leaddev.com/velocity/stop-blaming-ai-tools-for-flat-velocity?utm_source=leaddev&utm_medium=RSS",
-          "excerpt": "Test your habits before tools. The post Stop blaming AI tools for flat velocity appeared first on LeadDev.",
-          "source": "LeadDev",
+          "title": "Inference engineering for software engineers",
+          "link": "https://newsletter.pragmaticengineer.com/p/inference-engineering-for-software-engineers",
+          "excerpt": "When is the right time to drop APIs provided by the frontier AI labs, and what about choosing models & providers, caching, dedicated GPUs, KV cache concerns, and more? A practical deepdive",
+          "source": "The Pragmatic Engineer",
           "date": "Nov 17",
-          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2026/01/amplify-05.jpg",
+          "image": "https://substackcdn.com/image/fetch/$s_!k1yV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8fecea03-44c9-44ef-8f85-fc46e4e4f69a_910x1062.png",
           "icon": null,
-          "domain": "leaddev.com",
+          "domain": "newsletter.pragmaticengineer.com",
           "hn": null,
-          "score": 1.043,
+          "score": 1.402,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+          "link": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+          "excerpt": "Datasette Lite is my port of the Datasette Python application to run directly in the browser using WebAssembly and Pyodide. I've released a complete rewrite of Datasette Lite using service workers, and it's now almost indistinguishable from the real server-side application. You can now do all of…",
+          "source": "Simon Willison",
+          "date": "Nov 17",
+          "image": "https://static.simonwillison.net/static/cors-allow/2026/datasette-maplibre.webp",
+          "icon": null,
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 1.473,
+          "coverage": 1
+        },
         {
           "title": "Quoting Go Proverbs",
           "link": "https://simonwillison.net/2026/Nov/17/go-proverbs/",
@@ -176,7 +217,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.92,
+          "score": 0.791,
           "coverage": 1
         },
         {
@@ -189,46 +230,33 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.695,
+          "score": 0.619,
           "coverage": 1
         },
         {
-          "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
-          "link": "https://huggingface.co/blog/openrouter",
-          "excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "source": "Hugging Face",
-          "date": "Nov 16",
-          "image": "https://huggingface.co/blog/assets/openrouter/thumbnail.jpg",
-          "icon": "https://huggingface.co/favicon.ico",
-          "domain": "huggingface.co",
-          "hn": null,
-          "score": 0.361,
-          "coverage": 1
-        },
-        {
-          "title": "The pioneering coding tricks that built Doom and Quake",
-          "link": "https://stackoverflow.blog/2026/11/17/coding-tricks-that-built-doom-and-quake/",
-          "excerpt": "Ryan chats with John Romero, creator of the WAD file and the video game Doom, about the self-modifying code and blitting techniques that made Wolfenstein run so fast on early PCs, the mod-friendly architecture that turned Doom into a cultural phenomenon, and why the raw creative problem-solving of…",
-          "source": "Stack Overflow Blog",
+          "title": "Microsoft’s outage started with a fix",
+          "link": "https://leaddev.com/technical-direction/microsofts-outage-started-with-a-fix?utm_source=leaddev&utm_medium=RSS",
+          "excerpt": "The bug testing never caught. The post Microsoft’s outage started with a fix appeared first on LeadDev.",
+          "source": "LeadDev",
           "date": "Nov 17",
-          "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format",
-          "icon": "https://stackoverflow.blog/apple-touch-icon.png",
-          "domain": "stackoverflow.blog",
+          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_6000,h_3375/next/2024/11/question-mark-bright-blue.png",
+          "icon": null,
+          "domain": "leaddev.com",
           "hn": null,
-          "score": 1.048,
+          "score": 1.053,
           "coverage": 1
         },
         {
-          "title": "New Ask Maps features to help with holiday travel and prep",
-          "link": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
-          "excerpt": "tbd",
-          "source": "Google AI",
-          "date": "Nov 16",
-          "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Ask_Maps_November_herosocial.max-600x600.format-webp.webp",
+          "title": "Stop blaming AI tools for flat velocity",
+          "link": "https://leaddev.com/velocity/stop-blaming-ai-tools-for-flat-velocity?utm_source=leaddev&utm_medium=RSS",
+          "excerpt": "Test your habits before tools. The post Stop blaming AI tools for flat velocity appeared first on LeadDev.",
+          "source": "LeadDev",
+          "date": "Nov 17",
+          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2026/01/amplify-05.jpg",
           "icon": null,
-          "domain": "blog.google",
+          "domain": "leaddev.com",
           "hn": null,
-          "score": 0.502,
+          "score": 0.88,
           "coverage": 1
         }
       ]
@@ -237,17 +265,17 @@
       "name": "AI Agents & Agent Security",
       "cards": [
         {
-          "title": "California is suing OpenAI over its 'rogue' AI agent hack",
-          "link": "https://calmatters.org/economy/technology/2026/11/california-is-suing-openai-over-hugging-face-hack/",
-          "excerpt": "California Attorney General Rob Bonta filed a lawsuit against OpenAI, saying its lack of safeguards led to the Hugging Face hack.",
-          "source": "calmatters.org via Hacker News",
-          "date": "Nov 16",
-          "image": "https://calmatters.org/wp-content/uploads/2026/08/051426-Rob-Bonta-GETTY-CM.jpg",
-          "icon": "https://i0.wp.com/calmatters.org/wp-content/uploads/2025/12/cropped-calmatters-favicon.png?fit=180%2C180&ssl=1",
-          "domain": "calmatters.org",
-          "hn": "11 points · 0 comments",
-          "score": 7.639,
-          "coverage": 2
+          "title": "Cloudflare Joins the Jevolution and Labels Itself a Neolab",
+          "link": "https://latent.space/p/cloudflare/",
+          "excerpt": "Cloudflare made its name speeding up the web. Now it's building System One models to make decisions and pull data in milliseconds.",
+          "source": "Latent Space",
+          "date": "Nov 17",
+          "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/48e5d6c0-f996-45a2-a80c-d0bc9f0eda0a/cloudflare-neolab-feature.jpg?t=1794916474",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null,
+          "score": 1.069,
+          "coverage": 1
         },
         {
           "title": "[AINews] Perplexity hits a $1B revenue run rate, up 4x in 2026",
@@ -259,7 +287,7 @@
           "icon": "https://latent.space/favicon.png",
           "domain": "latent.space",
           "hn": null,
-          "score": 0.913,
+          "score": 0.765,
           "coverage": 1
         },
         {
@@ -272,22 +300,22 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.532,
+          "score": 0.478,
           "coverage": 1
         }
       ],
       "more": [
         {
-          "title": "Show HN: A free interactive course on AI agent governance",
-          "link": "https://studio.sinapsdata.com.br",
-          "excerpt": "12 points · 8 comments",
-          "source": "studio.sinapsdata.com.br via Hacker News",
+          "title": "Introducing OpenAI for Chile",
+          "link": "https://openai.com/index/introducing-openai-for-chile",
+          "excerpt": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+          "source": "OpenAI News",
           "date": "Nov 17",
           "image": null,
-          "icon": "https://studio.sinapsdata.com.br/sinaps-auth/static/psi-white.svg",
-          "domain": "studio.sinapsdata.com.br",
-          "hn": "12 points · 8 comments",
-          "score": 6.099,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 3.23,
           "coverage": 1
         },
         {
@@ -300,7 +328,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 5.457,
+          "score": 4.43,
           "coverage": 1
         },
         {
@@ -313,7 +341,20 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 1.938,
+          "score": 1.796,
+          "coverage": 1
+        },
+        {
+          "title": "macOS Sandboxes",
+          "link": "https://www.daytona.io/dotfiles/macos-sandboxes",
+          "excerpt": "macOS virtual machines on dedicated Apple silicon for building, testing, and automating software that needs macOS.",
+          "source": "Daytona",
+          "date": "Nov 17",
+          "image": "https://www.datocms-assets.com/103916/1794930095-macminiforagents-blog.png?auto=compress%2Cformat&fit=crop&h=1260&w=2520",
+          "icon": "https://www.daytona.io/apple-touch-icon.png",
+          "domain": "daytona.io",
+          "hn": null,
+          "score": 0.517,
           "coverage": 1
         },
         {
@@ -326,20 +367,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.726,
-          "coverage": 1
-        },
-        {
-          "title": "Broadening access to AI for scientists",
-          "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-          "excerpt": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
-          "source": "OpenAI News",
-          "date": "Nov 16",
-          "image": null,
-          "icon": "https://openai.com/favicon.ico",
-          "domain": "openai.com",
-          "hn": null,
-          "score": 0.571,
+          "score": 0.646,
           "coverage": 1
         }
       ]
@@ -357,7 +385,7 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.675,
+          "score": 0.59,
           "coverage": 1
         },
         {
@@ -370,7 +398,7 @@
           "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
           "domain": "stratechery.com",
           "hn": null,
-          "score": 1.011,
+          "score": 0.832,
           "coverage": 1
         },
         {
@@ -383,7 +411,7 @@
           "icon": null,
           "domain": "sloanreview.mit.edu",
           "hn": null,
-          "score": 1.084,
+          "score": 0.881,
           "coverage": 1
         }
       ],
@@ -398,7 +426,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.581,
+          "score": 0.517,
           "coverage": 1
         }
       ]
@@ -416,7 +444,20 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 4.955,
+          "score": 4.515,
+          "coverage": 1
+        },
+        {
+          "title": "Agent Vault gives your agents a signed-in browser for websites without APIs",
+          "link": "https://workos.com/blog/agent-vault",
+          "excerpt": "Build agentic products with Agent Vault: store users’ website logins and connect agents through a WorkOS-hosted or self-hosted browser. Contact us for access.",
+          "source": "WorkOS Blog",
+          "date": "Nov 17",
+          "image": "https://images.workoscdn.com/images/4c9b0b72-a211-45a1-ad44-000c185cb3cb.png?auto=format&fit=clip&q=80",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null,
+          "score": 3.16,
           "coverage": 1
         },
         {
@@ -425,13 +466,15 @@
           "excerpt": "Today we’re announcing an open call for applications for the Google for Startups Accelerator: Sovereign AI. Available in Europe and Israel, this initiative supports startups that are building cutting-edge AI solutions for European regulatory environments. Artificial intelligence represents an…",
           "source": "Security & Identity",
           "date": "Nov 17",
-          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/hero_2436x1200_final.max-600x600.jpg",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Copy_of_banner_1920x1080.max-600x600.jpg",
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 4.27,
+          "score": 3.607,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Public Review Period for Proposed Implementer’s Draft of OpenID Federation Entity Collection Endpoint",
           "link": "https://openid.net/public-review-period-for-proposed-implementers-draft-of-openid-federation-entity-collection-endpoint/",
@@ -442,11 +485,9 @@
           "icon": "https://openid.net/wp-content/uploads/2022/11/favicon_23-300x300.jpg",
           "domain": "openid.net",
           "hn": null,
-          "score": 0.503,
+          "score": 0.454,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Sovereign AI in Europe: New ways to control your AI stack",
           "link": "https://cloud.google.com/blog/products/identity-security/sovereign-ai-on-your-terms-made-with-europe/",
@@ -457,7 +498,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.673,
+          "score": 0.571,
           "coverage": 1
         },
         {
@@ -470,7 +511,7 @@
           "icon": null,
           "domain": "cerbos.dev",
           "hn": null,
-          "score": 0.849,
+          "score": 0.692,
           "coverage": 1
         },
         {
@@ -483,33 +524,40 @@
           "icon": null,
           "domain": "cerbos.dev",
           "hn": null,
-          "score": 0.849,
+          "score": 0.692,
           "coverage": 1
         }
       ]
     },
     {
-      "name": "Secrets & NHI",
-      "cards": [
-        {
-          "title": "Show HN: OpenTodo – a self-hosted, local-first task manager in one Go binary",
-          "link": "https://github.com/OpenTodoApp/OpenTodo",
-          "excerpt": "Your tasks, your server. An open-source, local-first task manager you can host yourself. Everything you expect from a commercial task app, without the subscription or the lock-in. - OpenTodoApp/Ope...",
-          "source": "github.com via Hacker News",
-          "date": "Nov 16",
-          "image": "https://repository-images.githubusercontent.com/1412617976/57d3bf9f-6532-4bbb-b2d3-f2222a9cc86f",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "20 points · 20 comments",
-          "score": 1.306,
-          "coverage": 1
-        }
-      ],
-      "more": []
-    },
-    {
       "name": "Supply Chain & Builds",
       "cards": [
+        {
+          "title": "MicroVMs, Egress MITM, and sealed tokens: Sandboxing untrusted code at scale",
+          "link": "https://www.chainguard.dev/unchained/microvms-egress-mitm-and-sealed-tokens-sandboxing-untrusted-code-at-scale",
+          "excerpt": "Chainguard explains the engineering behind secure CI for AI agents, from microVM isolation and network controls to instant startup and signed results.",
+          "source": "Chainguard: Unchained",
+          "date": "Nov 17",
+          "image": "https://images.ctfassets.net/l47ir7rfykkn/5uH7eZ9EXqBG1i6Hf3lZnl/32a211c7a60ec9c2321b39ba1e789fe8/MicroVMs__Egress_MITM__and_sealed_tokens__Sandboxing_untrusted_code_at_scale.png",
+          "icon": "https://www.chainguard.dev/favicon.ico",
+          "domain": "chainguard.dev",
+          "hn": null,
+          "score": 1.867,
+          "coverage": 1
+        },
+        {
+          "title": "Chainguard is now self-serve and free to start",
+          "link": "https://www.chainguard.dev/unchained/chainguard-is-now-self-serve-and-free-to-start",
+          "excerpt": "Get started with Chainguard for free. Explore new Starter and Team plans for secure containers, libraries, AI agent sandboxes, and CI workflows.",
+          "source": "Chainguard: Unchained",
+          "date": "Nov 17",
+          "image": "https://images.ctfassets.net/l47ir7rfykkn/253VI9RcIntW2N3dYm94pf/debe6f3378283af15256b47000e42732/Self-serve-3.png",
+          "icon": "https://www.chainguard.dev/favicon.ico",
+          "domain": "chainguard.dev",
+          "hn": null,
+          "score": 1.867,
+          "coverage": 1
+        },
         {
           "title": "Bridges of Prague: Open Source Summit Europe 2026 Recap",
           "link": "https://openssf.org/blog/2026/11/16/bridges-of-prague-open-source-summit-europe-2026-recap/",
@@ -520,7 +568,7 @@
           "icon": null,
           "domain": "openssf.org",
           "hn": null,
-          "score": 0.4,
+          "score": 0.362,
           "coverage": 1
         }
       ],
@@ -539,7 +587,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 4.647,
+          "score": 3.819,
           "coverage": 1
         },
         {
@@ -552,7 +600,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 2.245,
+          "score": 2.008,
           "coverage": 1
         },
         {
@@ -565,7 +613,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 2.097,
+          "score": 1.888,
           "coverage": 1
         }
       ],
@@ -580,7 +628,20 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 1.763,
+          "score": 1.594,
+          "coverage": 1
+        },
+        {
+          "title": "Pretxt Emerges Stealth With $5M Seed and an AI Supervision Tool",
+          "link": "https://www.securityweek.com/pretxt-emerges-stealth-with-5m-seed-and-an-ai-supervision-tool/",
+          "excerpt": "Pretxt provides technology to prevent AI agents escaping their guardrails and causing unintended harm. The post Pretxt Emerges Stealth With $5M Seed and an AI Supervision Tool appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 17",
+          "image": "https://www.securityweek.com/wp-content/uploads/2025/11/funding-investment-market-3.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 2.704,
           "coverage": 1
         },
         {
@@ -593,7 +654,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.683,
+          "score": 2.168,
           "coverage": 1
         },
         {
@@ -606,7 +667,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 1.523,
+          "score": 1.342,
           "coverage": 1
         },
         {
@@ -619,20 +680,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.208,
-          "coverage": 1
-        },
-        {
-          "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
-          "link": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
-          "excerpt": "Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft SharePoint and GitHub for command‑and‑control (C2). The activity has been codenamed Operation…",
-          "source": "The Hacker News",
-          "date": "Nov 17",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhGYnRRqAfAZ2q0dS56dC5lC86Kx69VT0moHy1Pxt67C0ic8RbLOL9LR68b4atQmvb7O6Gq3Btm1axv2aCRaNkhagPKbFHvThWlye3QPpK1xnEj4kovoJn8dsbTlCmAjXOIb8EHV3RJuhNQdVNKRxc4uwiuIfws_a63koiBaCQvs5jwbnTFG8EUwuA0RiA/s1600/git-share.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.497,
+          "score": 1.789,
           "coverage": 1
         }
       ]
@@ -640,6 +688,19 @@
     {
       "name": "Platform, Cloud & Reliability",
       "cards": [
+        {
+          "title": "What CISA’s new cyber strategy means for how you ship software",
+          "link": "https://about.gitlab.com/blog/cisa-2030-cyber-strategy/",
+          "excerpt": "On October 26, 2026, the Cybersecurity and Infrastructure Security Agency released CISA 2030: Defend, Harden, Prevail, three pillars of a four-year strategy for securing the nation’s critical infrastructure. The focus is on operational technology, but the pillars apply to anyone building and…",
+          "source": "GitLab",
+          "date": "Nov 17",
+          "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1794924434/law2jvenwbplqyovuwke.png",
+          "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
+          "domain": "about.gitlab.com",
+          "hn": null,
+          "score": 4.298,
+          "coverage": 1
+        },
         {
           "title": "Datadog Brings Production Experimentation to AI Agent Observability",
           "link": "https://www.infoq.com/news/2026/11/datadog-ai-agent-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -650,7 +711,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 5.464,
+          "score": 4.441,
           "coverage": 1
         },
         {
@@ -663,7 +724,22 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.664,
+          "score": 3.61,
+          "coverage": 2
+        }
+      ],
+      "more": [
+        {
+          "title": "COLD RELIC: A Case Study in Impersonation and Compromise",
+          "link": "https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise/",
+          "excerpt": "Written by: Josh Murchie, John Wolfram, Joseph Spero, Peter Ukhanov, Fernando Tomlinson, Jr., Wesley Shields Introduction Over the past year, Mandiant has responded to a series of linked intrusions demonstrating how Russian cyber espionage group COLD RELIC (formerly tracked as COLDRIVER and…",
+          "source": "Cloud Blog",
+          "date": "Nov 17",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Figure_2_Redacted_LLM-generated_depiction_.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 2.995,
           "coverage": 1
         },
         {
@@ -676,35 +752,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 1.522,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "AWS Weekly Roundup: AWS Nitro Sandboxes, AWS Emulator, and more (November 16, 2026)",
-          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-nitro-sandboxes-aws-emulator-and-more-november-16-2026/",
-          "excerpt": "A second delivery of the same message can reveal more about an application than its happy-path demo. I like tools that make those cases easier to investigate while a change is still small. Last week’s launch of AWS Emulator brings part of that work onto your own machine: developers and coding…",
-          "source": "AWS News Blog",
-          "date": "Nov 16",
-          "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/11/13/aws-emulator-official-diagram_1540.png",
-          "icon": null,
-          "domain": "aws.amazon.com",
-          "hn": null,
-          "score": 0.282,
-          "coverage": 1
-        },
-        {
-          "title": "Announcing updates to the AWS Well-Architected Framework",
-          "link": "https://aws.amazon.com/blogs/architecture/announcing-updates-to-the-aws-well-architected-framework-3/",
-          "excerpt": "Updates to the AWS Well-Architected Framework reorganize it into Well-Architected Cloud Foundations and Well-Architected Cloud Workloads, add new best practices, and bring the general availability of the AWS Well-Architected Agent for analyzing workloads and guiding remediation.",
-          "source": "AWS Architecture Blog",
-          "date": "Nov 16",
-          "image": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/11/11/archblog-1722-timeline-1.png",
-          "icon": null,
-          "domain": "aws.amazon.com",
-          "hn": null,
-          "score": 0.302,
+          "score": 1.374,
           "coverage": 1
         },
         {
@@ -752,31 +800,46 @@
       "name": "News & Research",
       "cards": [
         {
-          "title": "Apple reveals new Mac security controls as AI agents raise privacy risks",
-          "link": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/",
-          "excerpt": "Following an October announcement, Apple has detailed new permission controls, warnings, and transparency features coming to macOS 27.3 to address risks posed by AI agents and other apps.",
+          "title": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
+          "link": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
+          "excerpt": "Daydream's new AI shopping agent can remember your style, virtually try on clothes, plan outfits around your wardrobe, track sales, and complete purchases.",
           "source": "TechCrunch",
-          "date": "Nov 16",
-          "image": "https://techcrunch.com/wp-content/uploads/2024/11/CMC_8152.jpg?resize=1200,800",
+          "date": "Nov 17",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/2daydream-agent-1.jpeg?w=1024",
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 2.623,
+          "score": 5.294,
           "coverage": 1
         },
         {
-          "title": "How the Claude Code team thinks about verification",
-          "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
-          "excerpt": "How end-to-end, property and differential tests let coding agents verify their work with evidence, and what the Claude Code team does to keep its verifiers honest.",
-          "source": "claude.dev via Hacker News",
+          "title": "AI Is Giving Optical Computing Another Shot",
+          "link": "https://spectrum.ieee.org/optical-computing-ai",
+          "excerpt": "The idea of computing with light has been around for over 70 years, but until recently it’s remained largely in the realm of research. Over the past few years, though, optical computing has emerged as a fast-growing industry: Market valuation of companies in this sector now totals US $2.22…",
+          "source": "IEEE Spectrum",
           "date": "Nov 17",
-          "image": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/og.png",
-          "icon": "https://claude.dev/shared/img/favicon.svg",
-          "domain": "claude.dev",
-          "hn": "76 points · 94 comments",
-          "score": 6.574,
+          "image": "https://spectrum.ieee.org/media-library/close-up-of-a-green-circuit-board-with-a-central-microchip-and-intricate-traces.jpg?id=68692424&width=980",
+          "icon": null,
+          "domain": "spectrum.ieee.org",
+          "hn": null,
+          "score": 3.962,
           "coverage": 1
         },
+        {
+          "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+          "link": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
+          "excerpt": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
+          "source": "Ars Technica",
+          "date": "Nov 17",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-bot-barfs-code-500x500.jpg",
+          "icon": null,
+          "domain": "arstechnica.com",
+          "hn": null,
+          "score": 3.382,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "Understand How Satellite Links Shape IoT Device Design and Testing",
           "link": "https://content.knowledgehub.wiley.com/5g-nr-ntn-design-and-test-challenges-for-satellite-connected-iot/",
@@ -787,61 +850,59 @@
           "icon": null,
           "domain": "content.knowledgehub.wiley.com",
           "hn": null,
-          "score": 3.033,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "Regulatory Capture by Anthropic Through METR",
-          "link": "https://nitter.cf/kevinnbass/status/2099621874279817638",
-          "excerpt": "I have conducted an audit of Anthropic's finances. What I have found is so shocking that I am calling for a Congressional investigation. Anthropic is not just seeking regulatory capture. It has built a regulatory capture machine that cannot be turned off. Structural financial incentives make it…",
-          "source": "nitter.cf via Hacker News",
-          "date": "Nov 17",
-          "image": "https://pbs.twimg.com/media/HSNXaLrW4AEnwuB.jpg",
-          "icon": "https://pbs.twimg.com/profile_images/1947236538409988096/hZXVsMlX_400x400.jpg",
-          "domain": "nitter.cf",
-          "hn": "29 points · 9 comments",
-          "score": 3.278,
+          "score": 2.496,
           "coverage": 1
         },
         {
-          "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
-          "link": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
-          "excerpt": "Previous results were mixed, but the first national study to track individual students’ growth shows bans may help reverse declines.",
-          "source": "nytimes.com via Hacker News",
+          "title": "Jensen Huang says he’s open to returning in first statement since resignation",
+          "link": "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-statement.html",
+          "excerpt": "He said he had seen support from investors and employees was willing to come back as CEO.",
+          "source": "cnbc.com via Hacker News",
           "date": "Nov 17",
-          "image": "https://static01.nyt.com/images/2026/11/17/multimedia/17up-phone-pouch1-jlkf/17up-phone-pouch1-jlkf-facebookJumbo.jpg",
-          "icon": "https://static01.nyt.com/vi-assets/static-assets/assets/apple-touch-icon-BTg5GMmB.png",
-          "domain": "nytimes.com",
-          "hn": "192 points · 104 comments",
-          "score": 4.576,
-          "coverage": 1
+          "image": "https://image.cnbcfm.com/api/v1/image/108548918-1794403575214-gettyimages-2192346840-widak-nvidiasc250106_npmp9.jpeg?v=1794403600&w=1920&h=1080",
+          "icon": "https://fm.cnbc.com/applications/cnbc.com/resources/img/CNBC_LOGO_FAVICON_1C_KO_RGB.ico",
+          "domain": "cnbc.com",
+          "hn": "19 points · 9 comments",
+          "score": 9.804,
+          "coverage": 3
         },
         {
-          "title": "My Empire of Dirt",
-          "link": "https://geohot.github.io//blog/jekyll/update/2026/11/17/my-empire-of-dirt.html",
-          "excerpt": "The future doesn’t need Jensen. The future doesn’t need suppliers. The future doesn’t need customers, corporate or otherwise. The future definitely doesn’t need you. After RSI comes, all the demand will be internally generated, agents working with other agents, everyone else cut out of the loop…",
-          "source": "geohot.github.io via Hacker News",
+          "title": "NSA Internal Network Down",
+          "link": "https://www.reuters.com/technology/highly-classified-us-national-security-communications-network-is-down-cnn-2026-11-17/",
+          "excerpt": "45 points · 21 comments",
+          "source": "reuters.com via Hacker News",
           "date": "Nov 17",
           "image": null,
-          "icon": "https://geohot.github.io/favicon.ico",
-          "domain": "geohot.github.io",
-          "hn": "53 points · 33 comments",
-          "score": 3.678,
+          "icon": "https://www.reuters.com/favicon.ico",
+          "domain": "reuters.com",
+          "hn": "45 points · 21 comments",
+          "score": 3.76,
           "coverage": 1
         },
         {
-          "title": "If an App Asks for Full Disk Access or System and App Protection Override",
-          "link": "https://support.apple.com/en-us/149699",
-          "excerpt": "Starting in macOS 27.3, when some apps ask for Full Disk Access or System & App Protection Override, you have the option to choose only specific protected folders or apps for the app to access. This puts you in control of what data is accessible to the app.",
-          "source": "support.apple.com via Hacker News",
+          "title": "Highly classified US national security communications network goes down",
+          "link": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
+          "excerpt": "The highly classified network that the National Security Agency uses for its internal communications is down, according to six people familiar with the matter.",
+          "source": "cnn.com via Hacker News",
+          "date": "Nov 17",
+          "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1227141714-20261117152535850.jpg?c=16x9&q=w_800,c_fill",
+          "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png",
+          "domain": "cnn.com",
+          "hn": "141 points · 107 comments",
+          "score": 4.68,
+          "coverage": 1
+        },
+        {
+          "title": "Antfly learned to stop worrying and love Apache 2.0",
+          "link": "https://antfly.io/thoughts/how-antfly-learned-to-stop-worrying-and-love-apache-2",
+          "excerpt": "Antfly moved from the Elastic License 2.0 to Apache 2.0. Why we hedged, and why the hedge stopped making sense.",
+          "source": "antfly.io via Hacker News",
           "date": "Nov 17",
           "image": null,
-          "icon": "https://support.apple.com/favicon.ico",
-          "domain": "support.apple.com",
-          "hn": "163 points · 93 comments",
-          "score": 2.673,
+          "icon": "https://antfly.io/apple-icon.png?apple-icon.01p-gddkeum1j.png",
+          "domain": "antfly.io",
+          "hn": "10 points · 1 comments",
+          "score": 2.406,
           "coverage": 1
         }
       ]
