@@ -677,6 +677,12 @@
   "icon": "https://caleb.software/favicon.svg",
   "image": null
  },
+ "https://calmatters.org/economy/technology/2026/11/california-is-suing-openai-over-hugging-face-hack/": {
+  "description": "California Attorney General Rob Bonta filed a lawsuit against OpenAI, saying its lack of safeguards led to the Hugging Face hack.",
+  "fetched": "2026-11-17",
+  "icon": "https://i0.wp.com/calmatters.org/wp-content/uploads/2025/12/cropped-calmatters-favicon.png?fit=180%2C180&ssl=1",
+  "image": "https://calmatters.org/wp-content/uploads/2026/08/051426-Rob-Bonta-GETTY-CM.jpg"
+ },
  "https://captnemo.in/blog/2026/10/23/emsign-revoked-gov-in/": {
   "description": "On 17th October, eight eMudhra intermediate CAs chaining to emSign ECC Root CA - G3 were found to have trivially recoverable private keys. They were revoked the next day, and Mozilla and Chrome are now distrusting the G3 root. Separately, on 19th October eMudhra revoked 9,356 certificates on its unaffected RSA hierarchy (emSign Root CA - G1) with the reason “Superseded”. That batch matches every unexpired certificate missing a certificate-type policy OID required by emSign’s own CP/CPS (Bug 2082782).",
   "fetched": "2026-10-24",
@@ -4187,6 +4193,12 @@
   "icon": "https://stackoverflow.blog/apple-touch-icon.png",
   "image": null
  },
+ "https://stackoverflow.blog/2026/11/17/coding-tricks-that-built-doom-and-quake/": {
+  "description": "Ryan chats with John Romero, creator of the WAD file and the video game Doom, about the self-modifying code and blitting techniques that made Wolfenstein run so fast on early PCs, the mod-friendly architecture that turned Doom into a cultural phenomenon, and why the raw creative problem-solving of Quake proves that human ideas will always beat AI coding agents.",
+  "fetched": "2026-11-17",
+  "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+  "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format"
+ },
  "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/": {
   "description": "The AI company pirated at least 10 Stanford academics’ work in a $1.5 billion copyright settlement.",
   "fetched": "2026-10-28",
@@ -4306,6 +4318,12 @@
   "fetched": "2026-11-05",
   "icon": "https://streamvessel.com/favicon.ico",
   "image": "https://streamvessel.com/images/blog/mcp-trusted-redirect-uris/social.png"
+ },
+ "https://studio.sinapsdata.com.br": {
+  "description": null,
+  "fetched": "2026-11-17",
+  "icon": "https://studio.sinapsdata.com.br/sinaps-auth/static/psi-white.svg",
+  "image": null
  },
  "https://sunshowers.io/posts/glue-work/": {
   "description": "Seeing like a big tech employer.",
@@ -4750,6 +4768,12 @@
   "fetched": "2026-11-13",
   "icon": "https://unemploymentlabs.com/favicon.svg",
   "image": "https://unemploymentlabs.com/checkpoint-forensics-og.png?v=4"
+ },
+ "https://unrelatedfindings.com/essays/the-most-expensive-bargaining-chip-in-history/": {
+  "description": "What if Washington’s new chip restrictions became a bargaining chip in its negotiations with Beijing?",
+  "fetched": "2026-11-17",
+  "icon": null,
+  "image": null
  },
  "https://unsung.aresluna.org/pac-mans-siren-call/": {
   "description": "A blog about software craft and quality",

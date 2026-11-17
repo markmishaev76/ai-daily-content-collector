@@ -1,21 +1,27 @@
 {
   "date": "2026-11-17",
   "lead": {
-    "title": "Building a Secure MCP (Model Context Protocol) Server with Auth0",
-    "link": "https://auth0.com/blog/building-secure-mcp-server-with-auth0/",
-    "excerpt": "Learn how to build an MCP server in Go and secure it with Auth0 using OAuth 2.1, PKCE, and RBAC-backed scopes, so AI agents only see the data their user is authorized to access.",
-    "source": "Auth0 Blog",
+    "title": "California sues OpenAI over rogue AI hacking incidents",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+    "excerpt": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without…",
+    "source": "The Verge",
     "date": "Nov 16",
-    "image": "https://images.ctfassets.net/23aumh6u8s0i/2Wg5rtQQlGcT37FX4SI22h/3b6b3fa6dfb84d53495c41f7bcc0f6de/Auth0__News_-_Image___Gradient_melon_-_600x456.png",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK155_OPEN_AI_4_CVirginia_D.png?quality=90&strip=all&crop=0,0,100,100",
     "image_credit": null,
-    "section": "Agent Identity & Authorization",
+    "section": "AI Agents & Agent Security",
     "pinned": false,
     "note": null,
     "labels": [
-      "Agent Identity & Authorization",
-      "11h ago"
+      "2 sources",
+      "AI Agents & Agent Security",
+      "8h ago"
     ],
-    "also": []
+    "also": [
+      {
+        "name": "calmatters.org",
+        "link": "https://calmatters.org/economy/technology/2026/11/california-is-suing-openai-over-hugging-face-hack/"
+      }
+    ]
   },
   "pulse": [
     {
@@ -25,7 +31,7 @@
       "link_domain": "groundworkcollaborative.org",
       "source": "Hacker News",
       "domain": "groundworkcollaborative.org",
-      "meta": "Hacker News · 861 points · 517 comments · 14h ago",
+      "meta": "Hacker News · 871 points · 518 comments · 16h ago",
       "also": [],
       "image": null,
       "icon": null
@@ -37,22 +43,10 @@
       "link_domain": "xusheng.dev",
       "source": "Hacker News",
       "domain": "xusheng.dev",
-      "meta": "Hacker News · 341 points · 207 comments · 5h ago",
+      "meta": "Hacker News · 432 points · 278 comments · 7h ago",
       "also": [],
       "image": "https://xusheng.dev/posts/windows-coding-agent-telemetry/agent-names.jpeg",
       "icon": "https://xusheng.dev/favicon.ico"
-    },
-    {
-      "title": "Universal XSS in uBlock Origin from website-driven element picker",
-      "thread": "https://lobste.rs/s/x0ykkw/universal_xss_ublock_origin_from_website",
-      "link": "https://iter.ca/post/ubo-uxss/",
-      "link_domain": "iter.ca",
-      "source": "Lobsters",
-      "domain": "iter.ca",
-      "meta": "Lobsters · 40 points · 0 comments · 22h ago",
-      "also": [],
-      "image": "https://iter.ca//ubo-epicker.png",
-      "icon": "https://iter.ca/avatar/a32.png"
     },
     {
       "title": "Microsoft blames monster email outage on software defect introduced in July fix",
@@ -61,7 +55,7 @@
       "link_domain": "theregister.com",
       "source": "Hacker News",
       "domain": "theregister.com",
-      "meta": "Hacker News · 248 points · 179 comments · 14h ago",
+      "meta": "Hacker News · 273 points · 194 comments · 16h ago",
       "also": [],
       "image": "https://image.theregister.com/254046.jpg?imageId=254046&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
       "icon": "https://www.theregister.com/view-resources/dachser2/public/theregister/favicons/apple-touch-icon.png"
@@ -73,7 +67,7 @@
       "link_domain": "cnn.com",
       "source": "Hacker News",
       "domain": "cnn.com",
-      "meta": "Hacker News · 205 points · 107 comments · 5h ago",
+      "meta": "Hacker News · 226 points · 116 comments · 7h ago",
       "also": [],
       "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2304760060.jpg?c=16x9&q=w_800,c_fill",
       "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png"
@@ -85,22 +79,10 @@
       "link_domain": "michael.bacarella.com",
       "source": "Lobsters",
       "domain": "michael.bacarella.com",
-      "meta": "Lobsters · 27 points · 9 comments · 11h ago",
+      "meta": "Lobsters · 28 points · 11 comments · 13h ago",
       "also": [],
       "image": "https://michael.bacarella.com/assets/mbacface.jpg",
       "icon": "https://michael.bacarella.com/apple-touch-icon.png"
-    },
-    {
-      "title": "Optimizely compromised, served malware on Zoom, GitLab",
-      "thread": "https://news.ycombinator.com/item?id=50524767",
-      "link": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
-      "link_domain": "blog.report-uri.com",
-      "source": "Hacker News",
-      "domain": "blog.report-uri.com",
-      "meta": "Hacker News · 166 points · 86 comments · 5h ago",
-      "also": [],
-      "image": "https://storage.ghost.io/c/2d/aa/2daa4f7f-a71b-47d2-a54c-06b8c60222ef/content/images/size/w1200/2026/11/Cybersecurity-Alert_-Malicious-Code-Injection.png",
-      "icon": "https://storage.ghost.io/c/2d/aa/2daa4f7f-a71b-47d2-a54c-06b8c60222ef/content/images/size/w256h256/2026/02/Logo-01.png"
     },
     {
       "title": "NoisyTCP",
@@ -109,10 +91,22 @@
       "link_domain": "openwall.com",
       "source": "Lobsters",
       "domain": "openwall.com",
-      "meta": "Lobsters · 16 points · 1 comments · 15h ago",
+      "meta": "Lobsters · 16 points · 1 comments · 17h ago",
       "also": [],
       "image": null,
       "icon": "https://www.openwall.com/favicon.ico"
+    },
+    {
+      "title": "\"Proof of use\" as a requirement for open source contributions?",
+      "thread": "https://lobste.rs/s/ki1l5r/proof_use_as_requirement_for_open_source",
+      "link": null,
+      "link_domain": "",
+      "source": "Lobsters",
+      "domain": "Lobsters",
+      "meta": "Lobsters · 15 points · 4 comments · 7h ago",
+      "also": [],
+      "image": null,
+      "icon": null
     }
   ],
   "sections": [
@@ -129,7 +123,7 @@
           "icon": null,
           "domain": "metr.org",
           "hn": null,
-          "score": 4.439,
+          "score": 4.179,
           "coverage": 1
         },
         {
@@ -142,20 +136,20 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.449,
+          "score": 0.428,
           "coverage": 1
         },
         {
-          "title": "New Ask Maps features to help with holiday travel and prep",
-          "link": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
-          "excerpt": "tbd",
-          "source": "Google AI",
-          "date": "Nov 16",
-          "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Ask_Maps_November_herosocial.max-600x600.format-webp.webp",
-          "icon": null,
-          "domain": "blog.google",
+          "title": "The pioneering coding tricks that built Doom and Quake",
+          "link": "https://stackoverflow.blog/2026/11/17/coding-tricks-that-built-doom-and-quake/",
+          "excerpt": "Ryan chats with John Romero, creator of the WAD file and the video game Doom, about the self-modifying code and blitting techniques that made Wolfenstein run so fast on early PCs, the mod-friendly architecture that turned Doom into a cultural phenomenon, and why the raw creative problem-solving of…",
+          "source": "Stack Overflow Blog",
+          "date": "Nov 17",
+          "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format",
+          "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+          "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 0.689,
+          "score": 1.5,
           "coverage": 1
         }
       ],
@@ -170,7 +164,20 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 1.114,
+          "score": 0.992,
+          "coverage": 1
+        },
+        {
+          "title": "New Ask Maps features to help with holiday travel and prep",
+          "link": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+          "excerpt": "tbd",
+          "source": "Google AI",
+          "date": "Nov 16",
+          "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Ask_Maps_November_herosocial.max-600x600.format-webp.webp",
+          "icon": null,
+          "domain": "blog.google",
+          "hn": null,
+          "score": 0.64,
           "coverage": 1
         }
       ]
@@ -178,6 +185,32 @@
     {
       "name": "AI Agents & Agent Security",
       "cards": [
+        {
+          "title": "Show HN: A free interactive course on AI agent governance",
+          "link": "https://studio.sinapsdata.com.br",
+          "excerpt": "12 points · 6 comments",
+          "source": "studio.sinapsdata.com.br via Hacker News",
+          "date": "Nov 17",
+          "image": null,
+          "icon": "https://studio.sinapsdata.com.br/sinaps-auth/static/psi-white.svg",
+          "domain": "studio.sinapsdata.com.br",
+          "hn": "12 points · 6 comments",
+          "score": 8.961,
+          "coverage": 1
+        },
+        {
+          "title": "California is suing OpenAI over its 'rogue' AI agent hack",
+          "link": "https://calmatters.org/economy/technology/2026/11/california-is-suing-openai-over-hugging-face-hack/",
+          "excerpt": "California Attorney General Rob Bonta filed a lawsuit against OpenAI, saying its lack of safeguards led to the Hugging Face hack.",
+          "source": "calmatters.org via Hacker News",
+          "date": "Nov 16",
+          "image": "https://calmatters.org/wp-content/uploads/2026/08/051426-Rob-Bonta-GETTY-CM.jpg",
+          "icon": "https://i0.wp.com/calmatters.org/wp-content/uploads/2025/12/cropped-calmatters-favicon.png?fit=180%2C180&ssl=1",
+          "domain": "calmatters.org",
+          "hn": "10 points · 0 comments",
+          "score": 10.386,
+          "coverage": 2
+        },
         {
           "title": "Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs",
           "link": "https://latent.space/p/bfl/",
@@ -188,9 +221,11 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.812,
+          "score": 0.733,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Broadening access to AI for scientists",
           "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
@@ -201,7 +236,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.811,
+          "score": 0.747,
           "coverage": 1
         },
         {
@@ -214,11 +249,9 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.811,
+          "score": 0.747,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Science at the Frontier: How scientists use ChatGPT",
           "link": "https://openai.com/index/science-at-the-frontier",
@@ -229,7 +262,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.667,
+          "score": 0.623,
           "coverage": 1
         },
         {
@@ -242,7 +275,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.584,
+          "score": 0.55,
           "coverage": 1
         },
         {
@@ -255,7 +288,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.467,
+          "score": 0.445,
           "coverage": 1
         }
       ]
@@ -273,7 +306,7 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 1.199,
+          "score": 1.034,
           "coverage": 1
         },
         {
@@ -286,7 +319,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.931,
+          "score": 0.829,
           "coverage": 1
         }
       ],
@@ -295,6 +328,19 @@
     {
       "name": "Agent Identity & Authorization",
       "cards": [
+        {
+          "title": "Building a Secure MCP (Model Context Protocol) Server with Auth0",
+          "link": "https://auth0.com/blog/building-secure-mcp-server-with-auth0/",
+          "excerpt": "Learn how to build an MCP server in Go and secure it with Auth0 using OAuth 2.1, PKCE, and RBAC-backed scopes, so AI agents only see the data their user is authorized to access.",
+          "source": "Auth0 Blog",
+          "date": "Nov 16",
+          "image": "https://images.ctfassets.net/23aumh6u8s0i/2Wg5rtQQlGcT37FX4SI22h/3b6b3fa6dfb84d53495c41f7bcc0f6de/Auth0__News_-_Image___Gradient_melon_-_600x456.png",
+          "icon": null,
+          "domain": "auth0.com",
+          "hn": null,
+          "score": 6.487,
+          "coverage": 1
+        },
         {
           "title": "Public Review Period for Proposed Implementer’s Draft of OpenID Federation Entity Collection Endpoint",
           "link": "https://openid.net/public-review-period-for-proposed-implementers-draft-of-openid-federation-entity-collection-endpoint/",
@@ -305,26 +351,7 @@
           "icon": "https://openid.net/wp-content/uploads/2022/11/favicon_23-300x300.jpg",
           "domain": "openid.net",
           "hn": null,
-          "score": 0.747,
-          "coverage": 1
-        }
-      ],
-      "more": []
-    },
-    {
-      "name": "Secrets & NHI",
-      "cards": [
-        {
-          "title": "Show HN: OpenTodo – a self-hosted, local-first task manager in one Go binary",
-          "link": "https://github.com/OpenTodoApp/OpenTodo",
-          "excerpt": "Your tasks, your server. An open-source, local-first task manager you can host yourself. Everything you expect from a commercial task app, without the subscription or the lock-in. - OpenTodoApp/Ope...",
-          "source": "github.com via Hacker News",
-          "date": "Nov 16",
-          "image": "https://repository-images.githubusercontent.com/1412617976/57d3bf9f-6532-4bbb-b2d3-f2222a9cc86f",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "20 points · 20 comments",
-          "score": 1.781,
+          "score": 0.679,
           "coverage": 1
         }
       ],
@@ -343,7 +370,7 @@
           "icon": null,
           "domain": "openssf.org",
           "hn": null,
-          "score": 0.593,
+          "score": 0.54,
           "coverage": 1
         }
       ],
@@ -362,7 +389,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 3.515,
+          "score": 3.15,
           "coverage": 1
         },
         {
@@ -375,24 +402,9 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 3.164,
+          "score": 2.865,
           "coverage": 1
         },
-        {
-          "title": "Optimizely supply chain attack served malware on CNN, Fox News, BBC sites",
-          "link": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
-          "excerpt": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts designed to steal cryptocurrency and payment information and exploit…",
-          "source": "BleepingComputer",
-          "date": "Nov 17",
-          "image": "https://www.bleepstatic.com/content/posts/2026/11/16/supply-chain-attack.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
-          "hn": null,
-          "score": 3.958,
-          "coverage": 1
-        }
-      ],
-      "more": [
         {
           "title": "Attackers are using AI agents to automate cybercrime at 'industrial scale,' FBI and AWS warn",
           "link": "https://www.theregister.com/cyber-crime/2026/11/16/attackers-are-using-ai-agents-to-automate-cybercrime-at-industrial-scale-fbi-and-aws-warn/5310223",
@@ -403,7 +415,35 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 2.611,
+          "score": 2.376,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
+          "link": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
+          "excerpt": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts designed to steal cryptocurrency and payment information and exploit…",
+          "source": "BleepingComputer",
+          "date": "Nov 17",
+          "image": "https://www.bleepstatic.com/content/posts/2026/11/16/supply-chain-attack.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 2.264,
+          "coverage": 1
+        },
+        {
+          "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
+          "link": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
+          "excerpt": "N-able has released a new security update to address additional critical security flaws impacting N-central. Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and fixes that enhance the security of the Remote Monitoring…",
+          "source": "The Hacker News",
+          "date": "Nov 17",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8Tz3JQedMRmE0NpjmQ9KXm4AlgJ2GfBbA8pbKm3UARfJrN_vRlTywt0Zg80C-fM4hmacqlZTHV_wh0E-yoga-UjcSvpt2FHczR2AtGze3mvk0fmqeET4vvee-4f_RJEMIF-HL79HkXg_GD2Lg-U8jAPPJaPaqYDJmKTsJHn7GO0lS84zEU5SFQWll-qwv/s1600/nn.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.55,
           "coverage": 1
         },
         {
@@ -416,7 +456,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.27,
+          "score": 0.251,
           "coverage": 1
         },
         {
@@ -429,7 +469,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.358,
+          "score": 0.326,
           "coverage": 1
         },
         {
@@ -442,20 +482,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 1.937,
-          "coverage": 2
-        },
-        {
-          "title": "Uber Data Breach Impacts 150,000 People",
-          "link": "https://www.securityweek.com/uber-data-breach-impacts-150000-people/",
-          "excerpt": "Hackers compromised a third-party services provider and stole names, addresses, and driver’s license numbers. The post Uber Data Breach Impacts 150,000 People appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 16",
-          "image": "https://www.securityweek.com/wp-content/uploads/2023/05/Uber-CSO_Convicted-Joe-Sullivan.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 5.53,
+          "score": 1.75,
           "coverage": 2
         }
       ]
@@ -473,7 +500,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.176,
+          "score": 2.047,
           "coverage": 1
         },
         {
@@ -486,7 +513,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 2.269,
+          "score": 2.062,
           "coverage": 1
         },
         {
@@ -499,7 +526,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.406,
+          "score": 0.372,
           "coverage": 1
         }
       ],
@@ -514,7 +541,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.449,
+          "score": 0.408,
           "coverage": 1
         },
         {
@@ -527,7 +554,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.399,
+          "score": 0.367,
           "coverage": 1
         },
         {
@@ -584,74 +611,20 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 3.96,
-          "coverage": 1
-        },
-        {
-          "title": "California sues OpenAI over rogue AI hacking incidents",
-          "link": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
-          "excerpt": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without…",
-          "source": "The Verge",
-          "date": "Nov 16",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK155_OPEN_AI_4_CVirginia_D.png?quality=90&strip=all&crop=0,0,100,100",
-          "icon": null,
-          "domain": "theverge.com",
-          "hn": null,
-          "score": 2.626,
-          "coverage": 1
-        },
-        {
-          "title": "Mem Is Shutting Down",
-          "link": "https://get.mem.ai/blog/mem-is-shutting-down",
-          "excerpt": "Mem closes on January 15, 2027. Read the announcement, key dates, what happens to your subscription, and how to move your notes.",
-          "source": "get.mem.ai via Hacker News",
-          "date": "Nov 17",
-          "image": "https://get.mem.ai/assets/seo/mem-sunset.jpg",
-          "icon": "https://get.mem.ai/assets/brand/apple-touch-icon.png",
-          "domain": "get.mem.ai",
-          "hn": "23 points · 23 comments",
-          "score": 3.315,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "If an App Asks for Full Disk Access or System and App Protection Override",
-          "link": "https://support.apple.com/en-us/149699",
-          "excerpt": "Starting in macOS 27.3, when some apps ask for Full Disk Access or System & App Protection Override, you have the option to choose only specific protected folders or apps for the app to access. This puts you in control of what data is accessible to the app.",
-          "source": "support.apple.com via Hacker News",
-          "date": "Nov 17",
-          "image": null,
-          "icon": "https://support.apple.com/favicon.ico",
-          "domain": "support.apple.com",
-          "hn": "33 points · 15 comments",
-          "score": 3.359,
+          "score": 3.585,
           "coverage": 1
         },
         {
           "title": "Running coding agents without handing them my credentials",
           "link": "https://blog.antonio.cx/running-agents-with-lend",
-          "excerpt": "54 points · 20 comments",
+          "excerpt": "82 points · 39 comments",
           "source": "blog.antonio.cx via Hacker News",
           "date": "Nov 17",
           "image": "https://prose.sh/card.png",
           "icon": "https://blog.antonio.cx/favicon-16x16.png",
           "domain": "blog.antonio.cx",
-          "hn": "54 points · 20 comments",
-          "score": 3.426,
-          "coverage": 1
-        },
-        {
-          "title": "Pentagon fails ninth straight audit despite progress in organizing finances",
-          "link": "https://www.reuters.com/business/aerospace-defense/pentagon-fails-ninth-straight-audit-despite-progress-organizing-finances-2026-11-16/",
-          "excerpt": "67 points · 16 comments",
-          "source": "reuters.com via Hacker News",
-          "date": "Nov 17",
-          "image": null,
-          "icon": "https://www.reuters.com/favicon.ico",
-          "domain": "reuters.com",
-          "hn": "67 points · 16 comments",
-          "score": 3.296,
+          "hn": "82 points · 39 comments",
+          "score": 3.308,
           "coverage": 1
         },
         {
@@ -663,8 +636,36 @@
           "image": "https://pbs.twimg.com/profile_images/1560764938083352577/B1X3m4NN_400x400.jpg",
           "icon": "https://x.com/apple-touch-icon.png",
           "domain": "twitter.com",
-          "hn": "21 points · 0 comments",
-          "score": 2.428,
+          "hn": "64 points · 6 comments",
+          "score": 2.812,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "The most expensive bargaining chip in history",
+          "link": "https://unrelatedfindings.com/essays/the-most-expensive-bargaining-chip-in-history/",
+          "excerpt": "What if Washington’s new chip restrictions became a bargaining chip in its negotiations with Beijing?",
+          "source": "unrelatedfindings.com via Hacker News",
+          "date": "Nov 17",
+          "image": null,
+          "icon": "https://unrelatedfindings.com/favicon.ico",
+          "domain": "unrelatedfindings.com",
+          "hn": "16 points · 13 comments",
+          "score": 2.644,
+          "coverage": 1
+        },
+        {
+          "title": "Pentagon fails ninth straight audit despite progress in organizing finances",
+          "link": "https://www.reuters.com/business/aerospace-defense/pentagon-fails-ninth-straight-audit-despite-progress-organizing-finances-2026-11-16/",
+          "excerpt": "97 points · 32 comments",
+          "source": "reuters.com via Hacker News",
+          "date": "Nov 17",
+          "image": null,
+          "icon": "https://www.reuters.com/favicon.ico",
+          "domain": "reuters.com",
+          "hn": "97 points · 32 comments",
+          "score": 3.17,
           "coverage": 1
         },
         {
@@ -676,8 +677,21 @@
           "image": "https://opengraph.githubassets.com/f0b933ddf25b4aeab5175bf1072273999f568ae3642ec37a3b82ad3c7d45a3a7/0nelight/sutra-os",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "42 points · 16 comments",
-          "score": 2.895,
+          "hn": "47 points · 24 comments",
+          "score": 2.692,
+          "coverage": 1
+        },
+        {
+          "title": "Optimizely compromised, served malware on Zoom, GitLab",
+          "link": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+          "excerpt": "On 16 November 2026, malicious JavaScript was served to visitors of 178 organisations through the Optimizely Web experimentation platform. The list includes some of the most visited sites in the world: Zoom, the BBC, CNN, Salesforce, GitLab, IKEA, HSBC, Equifax, Air France-KLM, Ledger and Peacock.…",
+          "source": "blog.report-uri.com via Hacker News",
+          "date": "Nov 16",
+          "image": "https://storage.ghost.io/c/2d/aa/2daa4f7f-a71b-47d2-a54c-06b8c60222ef/content/images/size/w1200/2026/11/Cybersecurity-Alert_-Malicious-Code-Injection.png",
+          "icon": "https://storage.ghost.io/c/2d/aa/2daa4f7f-a71b-47d2-a54c-06b8c60222ef/content/images/size/w256h256/2026/02/Logo-01.png",
+          "domain": "blog.report-uri.com",
+          "hn": "235 points · 101 comments",
+          "score": 5.842,
           "coverage": 1
         }
       ]
