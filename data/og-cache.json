@@ -425,6 +425,12 @@
   "icon": "https://cdn.hashnode.com/uploads/favicons/69b44e3d6e27dd07d92bbf57/8a84d0e2-5b45-470c-949f-3c5402886a45.png",
   "image": "https://cdn.hashnode.com/uploads/og-images/69b44e3d6e27dd07d92bbf57/3a278202-0f64-4cf0-9a32-bfd202f3a073.png"
  },
+ "https://blog.antonio.cx/running-agents-with-lend": {
+  "description": null,
+  "fetched": "2026-11-17",
+  "icon": "https://blog.antonio.cx/favicon-16x16.png",
+  "image": "https://prose.sh/card.png"
+ },
  "https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/": {
   "description": "When Salon launched in 1995, the web was still finding its voice. One of the first major publications born on the internet, Salon helped define a new kind of digital journalism, bringing together politics, culture, criticism, and ideas for a generation of online readers. After 31 years, Salon has announced that it is ceasing publication.",
   "fetched": "2026-11-16",
@@ -574,6 +580,12 @@
   "fetched": "2026-11-02",
   "icon": "https://blog.raed.dev/favicon.png",
   "image": "https://blog.raed.dev/It%20wasn't%20AI%20that%20flipped%20Proton's%20charge.png"
+ },
+ "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/": {
+  "description": "On 16 November 2026, malicious JavaScript was served to visitors of 178 organisations through the Optimizely Web experimentation platform. The list includes some of the most visited sites in the world: Zoom, the BBC, CNN, Salesforce, GitLab, IKEA, HSBC, Equifax, Air France-KLM, Ledger and Peacock. The malware was a",
+  "fetched": "2026-11-17",
+  "icon": "https://storage.ghost.io/c/2d/aa/2daa4f7f-a71b-47d2-a54c-06b8c60222ef/content/images/size/w256h256/2026/02/Logo-01.png",
+  "image": "https://storage.ghost.io/c/2d/aa/2daa4f7f-a71b-47d2-a54c-06b8c60222ef/content/images/size/w1200/2026/11/Cybersecurity-Alert_-Malicious-Code-Injection.png"
  },
  "https://blog.roku.com/developer/gitlab-move": {
   "description": "Roku provides the simplest way to stream entertainment to your TV. On your terms. With thousands of available channels to choose from.",
@@ -1139,6 +1151,12 @@
   "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
   "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image_11_a479DBi.2e16d0ba.fill-1200x600.png"
  },
+ "https://developers.googleblog.com/securing-your-agents-a-hands-on-guide-to-agent-anomaly-detection/": {
+  "description": "Learn how to set up Agent Anomaly Detection on the Gemini Platform to monitor agent behavior, detect out-of-scope actions, and configure alerting.",
+  "fetched": "2026-11-17",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog-banner.2e16d0ba.fill-1200x600.png"
+ },
  "https://developers.googleblog.com/smaller-apps-and-faster-gpu-inference-with-litert-in-google-play-services/": {
   "description": "Learn how LiteRT in Google Play services enables smaller Android app sizes and ~1.4x faster GPU inference powered by ML Drift and the CompiledModel API.",
   "fetched": "2026-11-01",
@@ -1157,11 +1175,23 @@
   "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
   "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Streaming_feature_in__API_Gateway.2e16d0ba.fill-1200x600.jpg"
  },
+ "https://developers.googleblog.com/tpu-model-design-considerations-and-optimization-guide/": {
+  "description": "Learn essential TPU model design and optimization principles—covering 256-aligned shapes, LatentMoE compression, FP8 precision, and physical mesh parallelism—to maximize efficiency across LLM training and serving workloads.",
+  "fetched": "2026-11-17",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_image_image.2e16d0ba.fill-1200x600.jpg"
+ },
  "https://developers.googleblog.com/unifying-edge-ai-how-coral-npus-open-standard-brings-portable-energy-viable-intelligence-from-model-to-silicon/": {
   "description": "Google Research announces the complete 32-bit Coral NPU RISC-V architecture, v1.0 IREE/MLIR compiler, and new commercial hardware with Synaptics.",
   "fetched": "2026-10-26",
   "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
   "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog-header-image.2e16d0ba.fill-1200x600.jpg"
+ },
+ "https://developers.googleblog.com/unlocking-stable-on-policy-rl-on-tpu-with-bitwise-zero-traininference-mismatch/": {
+  "description": "Achieve bitwise-zero train–inference logprob mismatch for on-policy LLM RL on Cloud TPU using batch-invariant Pallas kernels and Tunix.",
+  "fetched": "2026-11-17",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/zero_tim_tpu_blog_header_1600x900.2e16d0ba.fill-1200x600.png"
  },
  "https://developers.googleblog.com/what-is-pathways-single-controller-training-for-large-models/": {
   "description": "Discover how Pathways on Google Cloud enables single-client distributed training for large AI models, addressing scaling and coordination challenges across TPU clusters.",
@@ -1486,6 +1516,12 @@
   "fetched": "2026-11-04",
   "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
   "image": "https://github.blog/wp-content/uploads/2026/11/692880266-19c28791-dea3-4df2-beab-3916036a4d0b.png?fit=1280%2C720"
+ },
+ "https://github.com/0nelight/sutra-os": {
+  "description": "Scarce Units, Typed, Related, Actionable. An open-source, self-hosted ontology platform. - 0nelight/sutra-os",
+  "fetched": "2026-11-17",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://opengraph.githubassets.com/f0b933ddf25b4aeab5175bf1072273999f568ae3642ec37a3b82ad3c7d45a3a7/0nelight/sutra-os"
  },
  "https://github.com/Dodaios/ste80-humanizer": {
   "description": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared. - Dodaios/ste80-humanizer",
@@ -2135,6 +2171,12 @@
   "icon": null,
   "image": "https://cdn-uploads.huggingface.co/production/uploads/6abfe9e7d7cf09a9b38ef308/HFZWtQ2i9VN_agjeUw2HB.gif"
  },
+ "https://huggingface.co/blog/openrouter": {
+  "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+  "fetched": "2026-11-17",
+  "icon": null,
+  "image": "https://huggingface.co/blog/assets/openrouter/thumbnail.jpg"
+ },
  "https://huggingface.co/blog/qvac/botpsy": {
   "description": "A Blog post by QVAC on Hugging Face",
   "fetched": "2026-11-11",
@@ -2319,6 +2361,12 @@
   "description": "To create this composite image, photographer Brendan Larsen captured almost 600 photographs over a two-hour period and then manually stitched them together. Thi",
   "fetched": "2026-11-05",
   "icon": "https://kottke.org/images/2024/icons/57x57.png",
+  "image": null
+ },
+ "https://krebsonsecurity.com/2012/06/how-to-break-into-security-ptacek-edition/": {
+  "description": null,
+  "fetched": "2026-11-17",
+  "icon": null,
   "image": null
  },
  "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/": {
@@ -2663,6 +2711,12 @@
   "icon": "https://michael.bacarella.com/apple-touch-icon.png",
   "image": "https://michael.bacarella.com/assets/mbacface.jpg"
  },
+ "https://michael.bacarella.com/2026/11/16/janet-reno-vs-my-friend-coolio/": {
+  "description": "A war story from EFNet #goonies: the February 2000 DDoS attacks on Yahoo, eBay and buy.com, the teenager who launched them, and what happened to him afterwards",
+  "fetched": "2026-11-17",
+  "icon": "https://michael.bacarella.com/apple-touch-icon.png",
+  "image": "https://michael.bacarella.com/assets/mbacface.jpg"
+ },
  "https://minimaxir.com/2026/10/cheap-llms/": {
   "description": "What is “the true cost of a token”?",
   "fetched": "2026-10-26",
@@ -2861,6 +2915,12 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/business/customer-stories/holiday-extras-dots": {
+  "description": null,
+  "fetched": "2026-11-17",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/business/customer-stories/holidays-extras-codex": {
   "description": null,
   "fetched": "2026-11-12",
@@ -3008,6 +3068,12 @@
  "https://openai.com/index/devrev-enterprise-self-service": {
   "description": null,
   "fetched": "2026-11-05",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/expanding-chatgpt-for-academic-researchers": {
+  "description": null,
+  "fetched": "2026-11-17",
   "icon": null,
   "image": null
  },
@@ -3215,6 +3281,12 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/index/our-first-phase-of-embedded-assessments": {
+  "description": null,
+  "fetched": "2026-11-17",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/our-new-blog-for-science": {
   "description": null,
   "fetched": "2026-11-16",
@@ -3275,6 +3347,12 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/index/science-at-the-frontier": {
+  "description": null,
+  "fetched": "2026-11-17",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/securing-our-frontier-model-training-environment": {
   "description": null,
   "fetched": "2026-10-24",
@@ -3305,6 +3383,12 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/index/strengthening-online-child-safety": {
+  "description": null,
+  "fetched": "2026-11-17",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/the-future-of-the-firm": {
   "description": null,
   "fetched": "2026-10-29",
@@ -3322,6 +3406,12 @@
   "fetched": "2026-10-30",
   "icon": null,
   "image": null
+ },
+ "https://openid.net/public-review-period-for-proposed-implementers-draft-of-openid-federation-entity-collection-endpoint/": {
+  "description": "The OpenID Connect Working Group recommends approval of the following specification as an OpenID Implementer’s Draft:OpenID Federation Entity Collection Endpoint 1.0 This would be the first Implementer’s Draft of this specification.An Implementer’s Draft is a stable version of a specification providing intellectual property protections to implementers of the specification. This note starts the 45-day public review",
+  "fetched": "2026-11-17",
+  "icon": "https://openid.net/wp-content/uploads/2022/11/favicon_23-300x300.jpg",
+  "image": "https://openid.net/wp-content/uploads/2022/11/favicon_23-e1724099443141.jpg"
  },
  "https://opensourcesecurity.io/2026/10-embargo/": {
   "description": "Something really important just happened with vulnerability disclosure and open source. No, it’s not PHP and that dumpster fire of a week. I speak of something Curl just did that probably won’t make the news anywhere because to most people it won’t really make sense. Curl just announced that all low and medium security reports should go into the public issue tracker instead of being privately reported curl vulnerability disclosure policy",
@@ -3734,6 +3824,12 @@
  "https://simonwillison.net/2026/Nov/15/datasette/": {
   "description": "An open source multi-tool for exploring and publishing data",
   "fetched": "2026-11-16",
+  "icon": null,
+  "image": null
+ },
+ "https://simonwillison.net/2026/Nov/16/llm/": {
+  "description": "Access large language models from the command-line",
+  "fetched": "2026-11-17",
   "icon": null,
   "image": null
  },
@@ -4426,6 +4522,12 @@
   "fetched": "2026-11-14",
   "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
   "image": "https://techcrunch.com/wp-content/uploads/2026/11/chatgpt-wallet.jpg?resize=1200,729"
+ },
+ "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/": {
+  "description": "Following an October announcement, Apple has detailed new permission controls, warnings, and transparency features coming to macOS 27.3 to address risks posed by AI agents and other apps.",
+  "fetched": "2026-11-17",
+  "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+  "image": "https://techcrunch.com/wp-content/uploads/2024/11/CMC_8152.jpg?resize=1200,800"
  },
  "https://tendrils.co/blog/2026-11-10/30m-raised": {
   "description": null,
@@ -5291,6 +5393,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2026/10/23/blackX.jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/": {
+  "description": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents to escape isolated environments and launch cyberattacks against real-world organizations.",
+  "fetched": "2026-11-17",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/09/17/OpenAI.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/": {
   "description": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles.",
   "fetched": "2026-10-31",
@@ -5375,6 +5483,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/posts/2026/10/28/future-soc-roles-header.jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/": {
+  "description": "Google's Gemini AI agents repeatedly attempted to hack a real organization's website during AI model safety testing, finding ways to circumvent increasingly restrictive security controls designed to prevent them from accessing live systems.",
+  "fetched": "2026-11-17",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/02/11/ai-extract.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/": {
   "description": "German defense technology company Quantum Systems confirmed that it detected an incident in late October that was part of an active cyberattack by \"hostile actors.\"",
   "fetched": "2026-11-15",
@@ -5392,6 +5506,12 @@
   "fetched": "2026-11-10",
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2026/11/10/Chrome.jpg"
+ },
+ "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/": {
+  "description": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation.",
+  "fetched": "2026-11-17",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/11/16/0_zero.jpg"
  },
  "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/": {
   "description": "Threat actors are now relying on agentic workflows powered by AI-based offensive frameworks to automate vulnerability discovery and exploitation, accelerating attacks to machine speed.",
@@ -5746,6 +5866,12 @@
   "fetched": "2026-11-13",
   "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png",
   "image": "https://media.cnn.com/api/v1/images/stellar/prod/ap26313845581210.jpg?c=16x9&q=w_800,c_fill"
+ },
+ "https://www.cnn.com/2026/11/16/us/united-airlines-outage": {
+  "description": "A widespread, yet short-lived, system outage at United Airlines on Monday delayed some outbound flights at US airports, the airline told CNN in a statement, coming on the heels of a rare FAA ground stop that caused massive disruption.",
+  "fetched": "2026-11-17",
+  "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png",
+  "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2304760060.jpg?c=16x9&q=w_800,c_fill"
  },
  "https://www.cnn.com/travel/octola-three-arctic-finland-secret-retreat": {
   "description": "It doesn’t appear on maps — or booking sites — but this “private wilderness” in Finland has a magic ingredient that the uber-wealthy will pay big money for.",
@@ -6587,6 +6713,12 @@
   "icon": "https://static01.nyt.com/vi-assets/static-assets/assets/apple-touch-icon-BTg5GMmB.png",
   "image": "https://static01.nyt.com/images/2026/11/14/multimedia/14dc-lutnick-commerce-01-bqtl/14dc-lutnick-commerce-01-bqtl-facebookJumbo.jpg"
  },
+ "https://www.openwall.com/lists/oss-security/2026/11/15/2": {
+  "description": null,
+  "fetched": "2026-11-17",
+  "icon": null,
+  "image": null
+ },
  "https://www.osnews.com/story/146273/how-long-do-you-need-to-hold-down-the-power-button-to-turn-off-a-pc/": {
   "description": null,
   "fetched": "2026-10-31",
@@ -6706,6 +6838,12 @@
   "fetched": "2026-11-03",
   "icon": "https://substackcdn.com/image/fetch/$s_!tkec!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5db19a6c-793d-4d76-94b0-4f748cf8134f%2Fapple-touch-icon-57x57.png",
   "image": "https://substackcdn.com/image/fetch/$s_!qfl2!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68ef8665-4279-4a1d-b5d6-447d33f93edd_1206x748.png"
+ },
+ "https://www.reuters.com/business/aerospace-defense/pentagon-fails-ninth-straight-audit-despite-progress-organizing-finances-2026-11-16/": {
+  "description": null,
+  "fetched": "2026-11-17",
+  "icon": null,
+  "image": null
  },
  "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/": {
   "description": null,
@@ -7235,6 +7373,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2024/07/Google.jpeg"
  },
+ "https://www.securityweek.com/google-project-zero-sets-course-for-30-day-disclosure-deadline/": {
+  "description": "Project Zero will move to shorter vulnerability disclosure windows: 60 days starting February 2027 and 30 days starting January 2028.",
+  "fetched": "2026-11-17",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2024/07/Google.jpeg"
+ },
  "https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities/": {
   "description": "Google says Gemini 4 Carbon's cybersecurity capabilities beat rival AI models on vulnerability benchmarks. Access is limited to vetted defenders for now.",
   "fetched": "2026-10-30",
@@ -7607,6 +7751,18 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2024/01/Tor-Network-1.jpeg"
  },
+ "https://www.securityweek.com/trump-administration-moves-to-block-china-from-indirect-access-to-american-ai-technology/": {
+  "description": "The White House issued new rules to restrict remote access to advanced U.S. computing chips and servers to limit China’s abilities to use U.S. chips to train their best AI models.",
+  "fetched": "2026-11-17",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg"
+ },
+ "https://www.securityweek.com/uber-data-breach-impacts-150000-people/": {
+  "description": "Hackers stole the driver’s license and personal information of 150,000 Uber drivers from a third-party services provider.",
+  "fetched": "2026-11-17",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2023/05/Uber-CSO_Convicted-Joe-Sullivan.jpg"
+ },
  "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/": {
   "description": "Ukrainian national Artem Stryzhak was sentenced to 70 months in US prison for deploying Nefilim and Hive ransomware against victims.",
   "fetched": "2026-10-29",
@@ -7889,6 +8045,12 @@
   "icon": "https://www.theregister.com/view-resources/dachser2/public/theregister/favicons/apple-touch-icon.png",
   "image": "https://image.theregister.com/259120.jpg?imageId=259120&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683"
  },
+ "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026": {
+  "description": "Summer code change caused a Fall fail – frantic engineers had to patch the patch instead of rolling back",
+  "fetched": "2026-11-17",
+  "icon": "https://www.theregister.com/view-resources/dachser2/public/theregister/favicons/apple-touch-icon.png",
+  "image": "https://image.theregister.com/254046.jpg?imageId=254046&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683"
+ },
  "https://www.theregister.com/security/2026/11/05/tobacco-company-got-smoked-by-leaving-secret-recipes-on-a-file-share/5307704": {
   "description": "They denied the data was real...then removed it",
   "fetched": "2026-11-06",
@@ -8128,6 +8290,12 @@
   "fetched": "2026-10-25",
   "icon": "https://xtramagazine.com/wp-content/themes/xtra_magazine/images/apple-touch-icon.png",
   "image": "https://xtramagazine.com/wp-content/uploads/2026/09/Xtra_Comics_Raccoons_CGallardo_Web.jpg"
+ },
+ "https://xusheng.dev/posts/windows-coding-agent-telemetry/": {
+  "description": "Reverse engineering Windows 11's MissionControlAggregator reveals coding-agent and developer-tool usage bits in a diagnostic ETW report.",
+  "fetched": "2026-11-17",
+  "icon": null,
+  "image": "https://xusheng.dev/posts/windows-coding-agent-telemetry/agent-names.jpeg"
  },
  "https://yossarian.net/til/post/posix-wordexp-3-is-dangerous/": {
   "description": null,

@@ -1,0 +1,611 @@
+{
+  "date": "2026-11-17",
+  "lead": {
+    "title": "Building a Secure MCP (Model Context Protocol) Server with Auth0.",
+    "link": "https://auth0.com/blog/building-secure-mcp-server-with-auth0/",
+    "excerpt": "Learn how to build an MCP server in Go and secure it with Auth0 using OAuth 2.1, PKCE, and RBAC-backed scopes, so AI agents only see the data their user is authorized to access.",
+    "source": "Auth0 Blog",
+    "date": "Nov 16",
+    "image": "https://images.ctfassets.net/23aumh6u8s0i/2Wg5rtQQlGcT37FX4SI22h/3b6b3fa6dfb84d53495c41f7bcc0f6de/Auth0__News_-_Image___Gradient_melon_-_600x456.png",
+    "image_credit": null,
+    "section": "Agent Identity & Authorization",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "Agent Identity & Authorization",
+      "9h ago"
+    ],
+    "also": []
+  },
+  "pulse": [
+    {
+      "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
+      "thread": "https://news.ycombinator.com/item?id=50517488",
+      "link": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
+      "link_domain": "groundworkcollaborative.org",
+      "source": "Hacker News",
+      "domain": "groundworkcollaborative.org",
+      "meta": "Hacker News · 843 points · 510 comments · 12h ago",
+      "also": [],
+      "image": null,
+      "icon": null
+    },
+    {
+      "title": "Universal XSS in uBlock Origin from website-driven element picker",
+      "thread": "https://lobste.rs/s/x0ykkw/universal_xss_ublock_origin_from_website",
+      "link": "https://iter.ca/post/ubo-uxss/",
+      "link_domain": "iter.ca",
+      "source": "Lobsters",
+      "domain": "iter.ca",
+      "meta": "Lobsters · 38 points · 0 comments · 20h ago",
+      "also": [],
+      "image": "https://iter.ca//ubo-epicker.png",
+      "icon": "https://iter.ca/avatar/a32.png"
+    },
+    {
+      "title": "Microsoft blames monster email outage on software defect introduced in July fix",
+      "thread": "https://news.ycombinator.com/item?id=50517321",
+      "link": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
+      "link_domain": "theregister.com",
+      "source": "Hacker News",
+      "domain": "theregister.com",
+      "meta": "Hacker News · 225 points · 164 comments · 12h ago",
+      "also": [],
+      "image": "https://image.theregister.com/254046.jpg?imageId=254046&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+      "icon": "https://www.theregister.com/view-resources/dachser2/public/theregister/favicons/apple-touch-icon.png"
+    },
+    {
+      "title": "United Airlines experiencing a widespread system outage, airline says",
+      "thread": "https://news.ycombinator.com/item?id=50524165",
+      "link": "https://www.cnn.com/2026/11/16/us/united-airlines-outage",
+      "link_domain": "cnn.com",
+      "source": "Hacker News",
+      "domain": "cnn.com",
+      "meta": "Hacker News · 176 points · 88 comments · 3h ago",
+      "also": [],
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2304760060.jpg?c=16x9&q=w_800,c_fill",
+      "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png"
+    },
+    {
+      "title": "Janet Reno was talking about my friend Coolio (computer criminal)",
+      "thread": "https://lobste.rs/s/urcrqe/janet_reno_was_talking_about_my_friend",
+      "link": "https://michael.bacarella.com/2026/11/16/janet-reno-vs-my-friend-coolio/",
+      "link_domain": "michael.bacarella.com",
+      "source": "Lobsters",
+      "domain": "michael.bacarella.com",
+      "meta": "Lobsters · 26 points · 9 comments · 9h ago",
+      "also": [],
+      "image": "https://michael.bacarella.com/assets/mbacface.jpg",
+      "icon": "https://michael.bacarella.com/apple-touch-icon.png"
+    },
+    {
+      "title": "NoisyTCP",
+      "thread": "https://lobste.rs/s/uegnml/noisytcp",
+      "link": "https://www.openwall.com/lists/oss-security/2026/11/15/2",
+      "link_domain": "openwall.com",
+      "source": "Lobsters",
+      "domain": "openwall.com",
+      "meta": "Lobsters · 16 points · 1 comments · 13h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.openwall.com/favicon.ico"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI-Assisted Engineering",
+      "cards": [
+        {
+          "title": "Measuring alignment eval tells",
+          "link": "https://metr.org/notes/2026-11-16-measuring-alignment-eval-tells/",
+          "excerpt": "Summary Models sometimes can tell that an eval is an alignment eval, not a capabilities eval (Needham & Edkins, 2025). To figure out what features of an eval tell a model what kind of eval it’s in, we run investigator agents on a set of evals for both capabilities and alignment. We instruct these…",
+          "source": "METR",
+          "date": "Nov 16",
+          "image": "https://metr.org/assets/images/measuring-alignment-eval-tells/overview.png",
+          "icon": null,
+          "domain": "metr.org",
+          "hn": null,
+          "score": 4.735,
+          "coverage": 1
+        },
+        {
+          "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+          "link": "https://huggingface.co/blog/openrouter",
+          "excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "source": "Hugging Face",
+          "date": "Nov 16",
+          "image": "https://huggingface.co/blog/assets/openrouter/thumbnail.jpg",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null,
+          "score": 0.472,
+          "coverage": 1
+        },
+        {
+          "title": "New Ask Maps features to help with holiday travel and prep",
+          "link": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+          "excerpt": "tbd",
+          "source": "Google AI",
+          "date": "Nov 16",
+          "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Ask_Maps_November_herosocial.max-600x600.format-webp.webp",
+          "icon": null,
+          "domain": "blog.google",
+          "hn": null,
+          "score": 0.747,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "llm 0.37.3",
+          "link": "https://simonwillison.net/2026/Nov/16/llm/",
+          "excerpt": "Release: llm 0.37.3 A bug fix release for LLM, mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1, which includes a fix that broke LLM's logging code. Short version: in SQLite 3.54.0 the following SQL: select…",
+          "source": "Simon Willison",
+          "date": "Nov 16",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 1.272,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "AI Agents & Agent Security",
+      "cards": [
+        {
+          "title": "Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs",
+          "link": "https://latent.space/p/bfl/",
+          "excerpt": "Black Forest Labs’ case for learning AGI from pixels, motion and sound.",
+          "source": "Latent Space",
+          "date": "Nov 16",
+          "image": "https://i.ytimg.com/vi/8cGfJOU3AlQ/maxresdefault.jpg",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null,
+          "score": 0.911,
+          "coverage": 1
+        },
+        {
+          "title": "Broadening access to AI for scientists",
+          "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+          "excerpt": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+          "source": "OpenAI News",
+          "date": "Nov 16",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.888,
+          "coverage": 1
+        },
+        {
+          "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+          "link": "https://openai.com/index/strengthening-online-child-safety",
+          "excerpt": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+          "source": "OpenAI News",
+          "date": "Nov 16",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.888,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Science at the Frontier: How scientists use ChatGPT",
+          "link": "https://openai.com/index/science-at-the-frontier",
+          "excerpt": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+          "source": "OpenAI News",
+          "date": "Nov 16",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.718,
+          "coverage": 1
+        },
+        {
+          "title": "Our first phase of embedded assessments",
+          "link": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+          "excerpt": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+          "source": "OpenAI News",
+          "date": "Nov 16",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.623,
+          "coverage": 1
+        },
+        {
+          "title": "At Holiday Extras, dots get to work before anyone asks",
+          "link": "https://openai.com/business/customer-stories/holiday-extras-dots",
+          "excerpt": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
+          "source": "OpenAI News",
+          "date": "Nov 16",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.492,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Agent Identity & Authorization",
+      "cards": [
+        {
+          "title": "Public Review Period for Proposed Implementer’s Draft of OpenID Federation Entity Collection Endpoint",
+          "link": "https://openid.net/public-review-period-for-proposed-implementers-draft-of-openid-federation-entity-collection-endpoint/",
+          "excerpt": "The OpenID Connect Working Group recommends approval of the following specification as an OpenID Implementer’s Draft: OpenID Federation Entity Collection Endpoint 1.0 This would be the first Implementer’s Draft of this specification. An Implementer’s Draft is a stable version of a specification…",
+          "source": "OpenID Foundation",
+          "date": "Nov 16",
+          "image": "https://openid.net/wp-content/uploads/2022/11/favicon_23-e1724099443141.jpg",
+          "icon": "https://openid.net/wp-content/uploads/2022/11/favicon_23-300x300.jpg",
+          "domain": "openid.net",
+          "hn": null,
+          "score": 0.829,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Supply Chain & Builds",
+      "cards": [
+        {
+          "title": "Bridges of Prague: Open Source Summit Europe 2026 Recap",
+          "link": "https://openssf.org/blog/2026/11/16/bridges-of-prague-open-source-summit-europe-2026-recap/",
+          "excerpt": "Open Source Summit and its co-located events are always a great time to build bridges in the open source community, and OSS Europe 2026 and OpenSSF Community Day Europe were no exceptions.",
+          "source": "Open Source Security Foundation",
+          "date": "Nov 16",
+          "image": "https://openssf.org/wp-content/uploads/2026/11/IMG_1488.jpeg",
+          "icon": null,
+          "domain": "openssf.org",
+          "hn": null,
+          "score": 0.658,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
+          "link": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
+          "excerpt": "Google's Gemini AI agents repeatedly attempted to hack a real organization's website during AI model safety testing, finding ways to circumvent increasingly restrictive security controls designed to prevent them from accessing live systems. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 16",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/02/11/ai-extract.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 3.978,
+          "coverage": 1
+        },
+        {
+          "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
+          "link": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
+          "excerpt": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents to escape isolated environments and launch cyberattacks against real-world…",
+          "source": "BleepingComputer",
+          "date": "Nov 16",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/09/17/OpenAI.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 3.535,
+          "coverage": 1
+        },
+        {
+          "title": "Attackers are using AI agents to automate cybercrime at 'industrial scale,' FBI and AWS warn",
+          "link": "https://www.theregister.com/cyber-crime/2026/11/16/attackers-are-using-ai-agents-to-automate-cybercrime-at-industrial-scale-fbi-and-aws-warn/5310223",
+          "excerpt": "Critical orgs around the globe under seige",
+          "source": "The Register",
+          "date": "Nov 16",
+          "image": "https://image.theregister.com/?imageId=5310250&width=800",
+          "icon": null,
+          "domain": "theregister.com",
+          "hn": null,
+          "score": 2.898,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
+          "link": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
+          "excerpt": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job. Meanwhile, AI is making bug hunting faster, old flaws are still…",
+          "source": "The Hacker News",
+          "date": "Nov 16",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMhM3PBYlJasSU7OztYuQsJDnDRFYwqV1-X9Nt1mTlAhFe0YQXSr0XrdCfo47u2DGAE8qSNw32LuPlMxoeTOBjakeXiHpHjFSXw7rsy8FdCldY2E6MuX9uKGM2McoGsaXUGDY2MYBsRAGXUDMGqzkT4wWlEezGDQho_f7d6MYNG2HAeW9FKeldRJrh0kj3/s1600/recaps.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.292,
+          "coverage": 1
+        },
+        {
+          "title": "Trump Administration Moves to Block China From Indirect Access to American AI Technology",
+          "link": "https://www.securityweek.com/trump-administration-moves-to-block-china-from-indirect-access-to-american-ai-technology/",
+          "excerpt": "Under the new rule, overseas data centers that serve companies in countries including China, Russia, Iran and Cuba are required to identify their end users. The post Trump Administration Moves to Block China From Indirect Access to American AI Technology appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 16",
+          "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.398,
+          "coverage": 1
+        },
+        {
+          "title": "Google Project Zero Sets Course for 30-Day Disclosure Deadline",
+          "link": "https://www.securityweek.com/google-project-zero-sets-course-for-30-day-disclosure-deadline/",
+          "excerpt": "It will move to a 60-day vulnerability disclosure window in February 2027 and to a 30-day window in January 2028. The post Google Project Zero Sets Course for 30-Day Disclosure Deadline appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 16",
+          "image": "https://www.securityweek.com/wp-content/uploads/2024/07/Google.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 2.172,
+          "coverage": 2
+        },
+        {
+          "title": "Uber Data Breach Impacts 150,000 People",
+          "link": "https://www.securityweek.com/uber-data-breach-impacts-150000-people/",
+          "excerpt": "Hackers compromised a third-party services provider and stole names, addresses, and driver’s license numbers. The post Uber Data Breach Impacts 150,000 People appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 16",
+          "image": "https://www.securityweek.com/wp-content/uploads/2023/05/Uber-CSO_Convicted-Joe-Sullivan.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 6.228,
+          "coverage": 2
+        },
+        {
+          "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
+          "link": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+          "excerpt": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 16",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/16/0_zero.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 2.172,
+          "coverage": 2
+        }
+      ]
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "Google is a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud Operational Database Management Systems",
+          "link": "https://cloud.google.com/blog/products/databases/2026-gartner-mq-cloud-operational-databases-management-systems/",
+          "excerpt": "Google has been recognized as a Leader and positioned furthest in vision in the 2026 Gartner® Magic Quadrant™ for Cloud Operational Database Management Systems (Cloud ODBMS). This recognition comes as we cross into the era of agentic AI. Leading enterprises are in their journey of deploying…",
+          "source": "Cloud Blog",
+          "date": "Nov 16",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Figure1_jY7VxtF.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 2.324,
+          "coverage": 1
+        },
+        {
+          "title": "How British Airways is accelerating the modernization of its Java services",
+          "link": "https://aws.amazon.com/blogs/devops/how-british-airways-is-accelerating-the-modernization-of-its-java-services/",
+          "excerpt": "Learn how British Airways is using AWS Transform custom, agentic AI, and automation to accelerate the modernization of its Java services, migrating more than 250 business services from Amazon EC2 to a containerized, auto scaling architecture on Amazon ECS with AWS Fargate and AWS Graviton.",
+          "source": "AWS DevOps & Developer Productivity Blog",
+          "date": "Nov 16",
+          "image": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2026/11/11/DEVOPS-25727-1-1.png",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 2.524,
+          "coverage": 1
+        },
+        {
+          "title": "AWS Weekly Roundup: AWS Nitro Sandboxes, AWS Emulator, and more (November 16, 2026)",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-nitro-sandboxes-aws-emulator-and-more-november-16-2026/",
+          "excerpt": "A second delivery of the same message can reveal more about an application than its happy-path demo. I like tools that make those cases easier to investigate while a change is still small. Last week’s launch of AWS Emulator brings part of that work onto your own machine: developers and coding…",
+          "source": "AWS News Blog",
+          "date": "Nov 16",
+          "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/11/13/aws-emulator-official-diagram_1540.png",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 0.446,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Announcing updates to the AWS Well-Architected Framework",
+          "link": "https://aws.amazon.com/blogs/architecture/announcing-updates-to-the-aws-well-architected-framework-3/",
+          "excerpt": "Updates to the AWS Well-Architected Framework reorganize it into Well-Architected Cloud Foundations and Well-Architected Cloud Workloads, add new best practices, and bring the general availability of the AWS Well-Architected Agent for analyzing workloads and guiding remediation.",
+          "source": "AWS Architecture Blog",
+          "date": "Nov 16",
+          "image": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/11/11/archblog-1722-timeline-1.png",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 0.499,
+          "coverage": 1
+        },
+        {
+          "title": "A governed AI-driven development lifecycle for financial services with Kiro and AWS Frontier Agents",
+          "link": "https://aws.amazon.com/blogs/devops/a-governed-ai-driven-development-lifecycle-for-financial-services-with-kiro-and-aws-frontier-agents/",
+          "excerpt": "A hands-on walkthrough of a governed, AI-driven development lifecycle for financial services that wires Kiro, AWS Security Agent, and AWS DevOps Agent into a shared GitHub-based pipeline, so every change is authored, reviewed, security-gated, deployed to AWS Lambda, and monitored in production…",
+          "source": "AWS DevOps & Developer Productivity Blog",
+          "date": "Nov 16",
+          "image": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2026/11/13/DEVOPS-25471-1.png",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 0.438,
+          "coverage": 1
+        },
+        {
+          "title": "Securing Your Agents: A Hands-On Guide to Agent Anomaly Detection",
+          "link": "https://developers.googleblog.com/securing-your-agents-a-hands-on-guide-to-agent-anomaly-detection/",
+          "excerpt": "This guide walks developers through setting up Agent Anomaly Detection on the Gemini Enterprise Agent Platform to monitor AI agent telemetry and catch behavioral risks. It demonstrates how to deploy a sample customer support agent, trigger out-of-scope security findings, and configure proactive…",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog-banner.2e16d0ba.fill-1200x600.png",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null,
+          "score": 1.411,
+          "coverage": 1
+        },
+        {
+          "title": "Unlocking Stable On-Policy RL on TPU with Bitwise-Zero Train–Inference Mismatch",
+          "link": "https://developers.googleblog.com/unlocking-stable-on-policy-rl-on-tpu-with-bitwise-zero-traininference-mismatch/",
+          "excerpt": "How we eliminated floating-point train–inference logprob drift for on-policy LLM reinforcement learning across 64 Cloud TPU v5p chips using a generalizable four-part JAX and Pallas recipe in Tunix.",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/zero_tim_tpu_blog_header_1600x900.2e16d0ba.fill-1200x600.png",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null,
+          "score": 0.25,
+          "coverage": 1
+        },
+        {
+          "title": "TPU Model Design Considerations and Optimization Guide",
+          "link": "https://developers.googleblog.com/tpu-model-design-considerations-and-optimization-guide/",
+          "excerpt": "The newly launched AI-Hypercomputer/tpu-codesign guide provides hardware-grounded design rules to help developers maximize performance on TPUs for LLMs and Mixture-of-Experts (MoE) workloads. Key principles include aligning reduction and output dimensions to 256 for systolic arrays, adopting…",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_image_image.2e16d0ba.fill-1200x600.jpg",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null,
+          "score": 0.25,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "Apple reveals new Mac security controls as AI agents raise privacy risks",
+          "link": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/",
+          "excerpt": "Following an October announcement, Apple has detailed new permission controls, warnings, and transparency features coming to macOS 27.3 to address risks posed by AI agents and other apps.",
+          "source": "TechCrunch",
+          "date": "Nov 16",
+          "image": "https://techcrunch.com/wp-content/uploads/2024/11/CMC_8152.jpg?resize=1200,800",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
+          "hn": null,
+          "score": 4.425,
+          "coverage": 1
+        },
+        {
+          "title": "California sues OpenAI over rogue AI hacking incidents",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+          "excerpt": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without…",
+          "source": "The Verge",
+          "date": "Nov 16",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK155_OPEN_AI_4_CVirginia_D.png?quality=90&strip=all&crop=0,0,100,100",
+          "icon": null,
+          "domain": "theverge.com",
+          "hn": null,
+          "score": 2.93,
+          "coverage": 1
+        },
+        {
+          "title": "Running coding agents without handing them my credentials",
+          "link": "https://blog.antonio.cx/running-agents-with-lend",
+          "excerpt": "10 points · 2 comments",
+          "source": "blog.antonio.cx via Hacker News",
+          "date": "Nov 17",
+          "image": "https://prose.sh/card.png",
+          "icon": "https://blog.antonio.cx/favicon-16x16.png",
+          "domain": "blog.antonio.cx",
+          "hn": "10 points · 2 comments",
+          "score": 2.597,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Pentagon fails ninth straight audit despite progress in organizing finances",
+          "link": "https://www.reuters.com/business/aerospace-defense/pentagon-fails-ninth-straight-audit-despite-progress-organizing-finances-2026-11-16/",
+          "excerpt": "29 points · 1 comments",
+          "source": "reuters.com via Hacker News",
+          "date": "Nov 17",
+          "image": null,
+          "icon": "https://www.reuters.com/favicon.ico",
+          "domain": "reuters.com",
+          "hn": "29 points · 1 comments",
+          "score": 3.053,
+          "coverage": 1
+        },
+        {
+          "title": "Show HN: Sutra-OS – A self-hosted ontology platform",
+          "link": "https://github.com/0nelight/sutra-os",
+          "excerpt": "Scarce Units, Typed, Related, Actionable. An open-source, self-hosted ontology platform. - 0nelight/sutra-os",
+          "source": "github.com via Hacker News",
+          "date": "Nov 16",
+          "image": "https://opengraph.githubassets.com/f0b933ddf25b4aeab5175bf1072273999f568ae3642ec37a3b82ad3c7d45a3a7/0nelight/sutra-os",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "29 points · 11 comments",
+          "score": 3.043,
+          "coverage": 1
+        },
+        {
+          "title": "Optimizely Compromised, Served Malware on Zoom, GitLab",
+          "link": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+          "excerpt": "On 16 November 2026, malicious JavaScript was served to visitors of 178 organisations through the Optimizely Web experimentation platform. The list includes some of the most visited sites in the world: Zoom, the BBC, CNN, Salesforce, GitLab, IKEA, HSBC, Equifax, Air France-KLM, Ledger and Peacock.…",
+          "source": "blog.report-uri.com via Hacker News",
+          "date": "Nov 16",
+          "image": "https://storage.ghost.io/c/2d/aa/2daa4f7f-a71b-47d2-a54c-06b8c60222ef/content/images/size/w1200/2026/11/Cybersecurity-Alert_-Malicious-Code-Injection.png",
+          "icon": "https://storage.ghost.io/c/2d/aa/2daa4f7f-a71b-47d2-a54c-06b8c60222ef/content/images/size/w256h256/2026/02/Logo-01.png",
+          "domain": "blog.report-uri.com",
+          "hn": "111 points · 65 comments",
+          "score": 6.965,
+          "coverage": 1
+        },
+        {
+          "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+          "link": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+          "excerpt": "Reverse engineering Windows 11's MissionControlAggregator reveals coding-agent and developer-tool usage bits in a diagnostic ETW report.",
+          "source": "xusheng.dev via Hacker News",
+          "date": "Nov 16",
+          "image": "https://xusheng.dev/posts/windows-coding-agent-telemetry/agent-names.jpeg",
+          "icon": "https://xusheng.dev/favicon.ico",
+          "domain": "xusheng.dev",
+          "hn": "239 points · 120 comments",
+          "score": 4.382,
+          "coverage": 1
+        },
+        {
+          "title": "How to Break into Security, Ptacek Edition (2012)",
+          "link": "https://krebsonsecurity.com/2012/06/how-to-break-into-security-ptacek-edition/",
+          "excerpt": "75 points · 20 comments",
+          "source": "krebsonsecurity.com via Hacker News",
+          "date": "Nov 16",
+          "image": null,
+          "icon": "https://krebsonsecurity.com/favicon.ico",
+          "domain": "krebsonsecurity.com",
+          "hn": "75 points · 20 comments",
+          "score": 3.367,
+          "coverage": 1
+        }
+      ]
+    }
+  ]
+}
