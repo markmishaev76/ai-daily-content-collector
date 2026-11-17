@@ -14,7 +14,7 @@
     "labels": [
       "2 sources",
       "AI Agents & Agent Security",
-      "8h ago"
+      "13h ago"
     ],
     "also": [
       {
@@ -31,22 +31,10 @@
       "link_domain": "groundworkcollaborative.org",
       "source": "Hacker News",
       "domain": "groundworkcollaborative.org",
-      "meta": "Hacker News · 871 points · 518 comments · 16h ago",
+      "meta": "Hacker News · 897 points · 533 comments · 21h ago",
       "also": [],
       "image": null,
       "icon": null
-    },
-    {
-      "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
-      "thread": "https://news.ycombinator.com/item?id=50524736",
-      "link": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
-      "link_domain": "xusheng.dev",
-      "source": "Hacker News",
-      "domain": "xusheng.dev",
-      "meta": "Hacker News · 432 points · 278 comments · 7h ago",
-      "also": [],
-      "image": "https://xusheng.dev/posts/windows-coding-agent-telemetry/agent-names.jpeg",
-      "icon": "https://xusheng.dev/favicon.ico"
     },
     {
       "title": "Microsoft blames monster email outage on software defect introduced in July fix",
@@ -55,7 +43,7 @@
       "link_domain": "theregister.com",
       "source": "Hacker News",
       "domain": "theregister.com",
-      "meta": "Hacker News · 273 points · 194 comments · 16h ago",
+      "meta": "Hacker News · 328 points · 246 comments · 21h ago",
       "also": [],
       "image": "https://image.theregister.com/254046.jpg?imageId=254046&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
       "icon": "https://www.theregister.com/view-resources/dachser2/public/theregister/favicons/apple-touch-icon.png"
@@ -67,7 +55,7 @@
       "link_domain": "cnn.com",
       "source": "Hacker News",
       "domain": "cnn.com",
-      "meta": "Hacker News · 226 points · 116 comments · 7h ago",
+      "meta": "Hacker News · 237 points · 121 comments · 12h ago",
       "also": [],
       "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2304760060.jpg?c=16x9&q=w_800,c_fill",
       "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png"
@@ -79,22 +67,10 @@
       "link_domain": "michael.bacarella.com",
       "source": "Lobsters",
       "domain": "michael.bacarella.com",
-      "meta": "Lobsters · 28 points · 11 comments · 13h ago",
+      "meta": "Lobsters · 30 points · 13 comments · 18h ago",
       "also": [],
       "image": "https://michael.bacarella.com/assets/mbacface.jpg",
       "icon": "https://michael.bacarella.com/apple-touch-icon.png"
-    },
-    {
-      "title": "NoisyTCP",
-      "thread": "https://lobste.rs/s/uegnml/noisytcp",
-      "link": "https://www.openwall.com/lists/oss-security/2026/11/15/2",
-      "link_domain": "openwall.com",
-      "source": "Lobsters",
-      "domain": "openwall.com",
-      "meta": "Lobsters · 16 points · 1 comments · 17h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://www.openwall.com/favicon.ico"
     },
     {
       "title": "\"Proof of use\" as a requirement for open source contributions?",
@@ -103,10 +79,34 @@
       "link_domain": "",
       "source": "Lobsters",
       "domain": "Lobsters",
-      "meta": "Lobsters · 15 points · 4 comments · 7h ago",
+      "meta": "Lobsters · 20 points · 8 comments · 12h ago",
       "also": [],
       "image": null,
       "icon": null
+    },
+    {
+      "title": "NoisyTCP",
+      "thread": "https://lobste.rs/s/uegnml/noisytcp",
+      "link": "https://www.openwall.com/lists/oss-security/2026/11/15/2",
+      "link_domain": "openwall.com",
+      "source": "Lobsters",
+      "domain": "openwall.com",
+      "meta": "Lobsters · 18 points · 2 comments · 21h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.openwall.com/favicon.ico"
+    },
+    {
+      "title": "Running coding agents without handing them my credentials",
+      "thread": "https://news.ycombinator.com/item?id=50526152",
+      "link": "https://blog.antonio.cx/running-agents-with-lend",
+      "link_domain": "blog.antonio.cx",
+      "source": "Hacker News",
+      "domain": "blog.antonio.cx",
+      "meta": "Hacker News · 116 points · 85 comments · 9h ago",
+      "also": [],
+      "image": "https://prose.sh/card.png",
+      "icon": "https://blog.antonio.cx/favicon-16x16.png"
     }
   ],
   "sections": [
@@ -123,7 +123,20 @@
           "icon": null,
           "domain": "metr.org",
           "hn": null,
-          "score": 4.179,
+          "score": 3.678,
+          "coverage": 1
+        },
+        {
+          "title": "Stop blaming AI tools for flat velocity",
+          "link": "https://leaddev.com/velocity/stop-blaming-ai-tools-for-flat-velocity?utm_source=leaddev&utm_medium=RSS",
+          "excerpt": "Test your habits before tools. The post Stop blaming AI tools for flat velocity appeared first on LeadDev.",
+          "source": "LeadDev",
+          "date": "Nov 17",
+          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2026/01/amplify-05.jpg",
+          "icon": null,
+          "domain": "leaddev.com",
+          "hn": null,
+          "score": 1.27,
           "coverage": 1
         },
         {
@@ -136,7 +149,35 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.428,
+          "score": 0.385,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Quoting Go Proverbs",
+          "link": "https://simonwillison.net/2026/Nov/17/go-proverbs/",
+          "excerpt": "A little copying is better than a little dependency. — Go Proverbs, via Tags: go, programming",
+          "source": "Simon Willison",
+          "date": "Nov 17",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 1.092,
+          "coverage": 1
+        },
+        {
+          "title": "llm 0.37.3",
+          "link": "https://simonwillison.net/2026/Nov/16/llm/",
+          "excerpt": "Release: llm 0.37.3 A bug fix release for LLM, mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1, which includes a fix that broke LLM's logging code. Short version: in SQLite 3.54.0 the following SQL: select…",
+          "source": "Simon Willison",
+          "date": "Nov 16",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.79,
           "coverage": 1
         },
         {
@@ -149,22 +190,7 @@
           "icon": "https://stackoverflow.blog/apple-touch-icon.png",
           "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 1.5,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "llm 0.37.3",
-          "link": "https://simonwillison.net/2026/Nov/16/llm/",
-          "excerpt": "Release: llm 0.37.3 A bug fix release for LLM, mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1, which includes a fix that broke LLM's logging code. Short version: in SQLite 3.54.0 the following SQL: select…",
-          "source": "Simon Willison",
-          "date": "Nov 16",
-          "image": null,
-          "icon": "https://simonwillison.net/favicon.ico",
-          "domain": "simonwillison.net",
-          "hn": null,
-          "score": 0.992,
+          "score": 1.278,
           "coverage": 1
         },
         {
@@ -177,7 +203,7 @@
           "icon": null,
           "domain": "blog.google",
           "hn": null,
-          "score": 0.64,
+          "score": 0.55,
           "coverage": 1
         }
       ]
@@ -185,19 +211,6 @@
     {
       "name": "AI Agents & Agent Security",
       "cards": [
-        {
-          "title": "Show HN: A free interactive course on AI agent governance",
-          "link": "https://studio.sinapsdata.com.br",
-          "excerpt": "12 points · 6 comments",
-          "source": "studio.sinapsdata.com.br via Hacker News",
-          "date": "Nov 17",
-          "image": null,
-          "icon": "https://studio.sinapsdata.com.br/sinaps-auth/static/psi-white.svg",
-          "domain": "studio.sinapsdata.com.br",
-          "hn": "12 points · 6 comments",
-          "score": 8.961,
-          "coverage": 1
-        },
         {
           "title": "California is suing OpenAI over its 'rogue' AI agent hack",
           "link": "https://calmatters.org/economy/technology/2026/11/california-is-suing-openai-over-hugging-face-hack/",
@@ -207,9 +220,22 @@
           "image": "https://calmatters.org/wp-content/uploads/2026/08/051426-Rob-Bonta-GETTY-CM.jpg",
           "icon": "https://i0.wp.com/calmatters.org/wp-content/uploads/2025/12/cropped-calmatters-favicon.png?fit=180%2C180&ssl=1",
           "domain": "calmatters.org",
-          "hn": "10 points · 0 comments",
-          "score": 10.386,
+          "hn": "11 points · 0 comments",
+          "score": 8.562,
           "coverage": 2
+        },
+        {
+          "title": "[AINews] Perplexity hits a $1B revenue run rate, up 4x in 2026",
+          "link": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/",
+          "excerpt": "November 16, 2026 — Computer gets Teammates, Perplexity ships Monitor API, and a new research lab launches.",
+          "source": "Latent Space",
+          "date": "Nov 17",
+          "image": "https://latent.space/og/card/post/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/2627049380666217b18fbe35046e68da8e58cd8f8b30f47fa7c60b73ece9e2fd.png",
+          "icon": "https://latent.space/favicon.png",
+          "domain": "latent.space",
+          "hn": null,
+          "score": 1.125,
+          "coverage": 1
         },
         {
           "title": "Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs",
@@ -221,11 +247,50 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.733,
+          "score": 0.597,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "Show HN: A free interactive course on AI agent governance",
+          "link": "https://studio.sinapsdata.com.br",
+          "excerpt": "12 points · 7 comments",
+          "source": "studio.sinapsdata.com.br via Hacker News",
+          "date": "Nov 17",
+          "image": null,
+          "icon": "https://studio.sinapsdata.com.br/sinaps-auth/static/psi-white.svg",
+          "domain": "studio.sinapsdata.com.br",
+          "hn": "12 points · 7 comments",
+          "score": 6.975,
+          "coverage": 1
+        },
+        {
+          "title": "How Revolut raises ambition without lowering the bar",
+          "link": "https://openai.com/business/customer-stories/revolut",
+          "excerpt": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+          "source": "OpenAI News",
+          "date": "Nov 16",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 2.099,
+          "coverage": 1
+        },
+        {
+          "title": "Strengthening NATO and allied cyber defenses with AI",
+          "link": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+          "excerpt": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+          "source": "OpenAI News",
+          "date": "Nov 17",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.824,
+          "coverage": 1
+        },
         {
           "title": "Broadening access to AI for scientists",
           "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
@@ -236,7 +301,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.747,
+          "score": 0.63,
           "coverage": 1
         },
         {
@@ -249,46 +314,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.747,
-          "coverage": 1
-        },
-        {
-          "title": "Science at the Frontier: How scientists use ChatGPT",
-          "link": "https://openai.com/index/science-at-the-frontier",
-          "excerpt": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
-          "source": "OpenAI News",
-          "date": "Nov 16",
-          "image": null,
-          "icon": "https://openai.com/favicon.ico",
-          "domain": "openai.com",
-          "hn": null,
-          "score": 0.623,
-          "coverage": 1
-        },
-        {
-          "title": "Our first phase of embedded assessments",
-          "link": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-          "excerpt": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
-          "source": "OpenAI News",
-          "date": "Nov 16",
-          "image": null,
-          "icon": "https://openai.com/favicon.ico",
-          "domain": "openai.com",
-          "hn": null,
-          "score": 0.55,
-          "coverage": 1
-        },
-        {
-          "title": "At Holiday Extras, dots get to work before anyone asks",
-          "link": "https://openai.com/business/customer-stories/holiday-extras-dots",
-          "excerpt": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
-          "source": "OpenAI News",
-          "date": "Nov 16",
-          "image": null,
-          "icon": "https://openai.com/favicon.ico",
-          "domain": "openai.com",
-          "hn": null,
-          "score": 0.445,
+          "score": 0.63,
           "coverage": 1
         }
       ]
@@ -306,7 +332,7 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 1.034,
+          "score": 0.783,
           "coverage": 1
         },
         {
@@ -319,7 +345,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.829,
+          "score": 0.659,
           "coverage": 1
         }
       ],
@@ -338,7 +364,20 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 6.487,
+          "score": 5.47,
+          "coverage": 1
+        },
+        {
+          "title": "Building Sovereign AI in Europe, With Europe: Our New Startup Accelerator",
+          "link": "https://cloud.google.com/blog/topics/startups/sovereign-ai-on-your-terms-our-new-startup-accelerator-is-open/",
+          "excerpt": "Today we’re announcing an open call for applications for the Google for Startups Accelerator: Sovereign AI. Available in Europe and Israel, this initiative supports startups that are building cutting-edge AI solutions for European regulatory environments. Artificial intelligence represents an…",
+          "source": "Security & Identity",
+          "date": "Nov 17",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/hero_2436x1200_final.max-600x600.jpg",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 5.194,
           "coverage": 1
         },
         {
@@ -351,7 +390,40 @@
           "icon": "https://openid.net/wp-content/uploads/2022/11/favicon_23-300x300.jpg",
           "domain": "openid.net",
           "hn": null,
-          "score": 0.679,
+          "score": 0.561,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Sovereign AI in Europe: New ways to control your AI stack",
+          "link": "https://cloud.google.com/blog/products/identity-security/sovereign-ai-on-your-terms-made-with-europe/",
+          "excerpt": "Today in Brussels, public sector leaders, policymakers and partners are meeting at the Sovereign AI Summit to discuss how to build the next decade of Europe's public services, healthcare, and finance with AI under European control. We're here with our European partners to help deliver it.…",
+          "source": "Security & Identity",
+          "date": "Nov 17",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1_-_Hero_-_Sovereign_AI_on_your_terms.max-600x600.jpg",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 0.813,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Secrets & NHI",
+      "cards": [
+        {
+          "title": "Show HN: OpenTodo – a self-hosted, local-first task manager in one Go binary",
+          "link": "https://github.com/OpenTodoApp/OpenTodo",
+          "excerpt": "Your tasks, your server. An open-source, local-first task manager you can host yourself. Everything you expect from a commercial task app, without the subscription or the lock-in. - OpenTodoApp/Ope...",
+          "source": "github.com via Hacker News",
+          "date": "Nov 16",
+          "image": "https://repository-images.githubusercontent.com/1412617976/57d3bf9f-6532-4bbb-b2d3-f2222a9cc86f",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "20 points · 20 comments",
+          "score": 1.427,
           "coverage": 1
         }
       ],
@@ -370,7 +442,7 @@
           "icon": null,
           "domain": "openssf.org",
           "hn": null,
-          "score": 0.54,
+          "score": 0.446,
           "coverage": 1
         }
       ],
@@ -389,7 +461,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 3.15,
+          "score": 2.536,
           "coverage": 1
         },
         {
@@ -402,7 +474,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 2.865,
+          "score": 2.348,
           "coverage": 1
         },
         {
@@ -415,7 +487,7 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 2.376,
+          "score": 1.965,
           "coverage": 1
         }
       ],
@@ -430,7 +502,33 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 2.264,
+          "score": 1.752,
+          "coverage": 1
+        },
+        {
+          "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
+          "link": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+          "excerpt": "An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load from the service, Optimizely said early today. Visitors to sites run by at least 178 organizations, including CNN, the BBC and Zoom, received the code…",
+          "source": "The Hacker News",
+          "date": "Nov 17",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCKDXT71QJSnAqaPKmcBticVRjN0Q1diDWoOGKhoZ-wL5WIgLAPHX6dmetOkddYjLcZGIfxDAfLLN1LwbOV4zHqzONN7i8cIyMJLR-rc2t6LF7MnTzJAAoN54aIPEYoWPBf01znenuq43oDLwcVksxZbvP5xPnFsC-G-sDSjpzDegalBNU87YIe7z0YcI/s1600/Optimizely-hacked.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.463,
+          "coverage": 1
+        },
+        {
+          "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
+          "link": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
+          "excerpt": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later. The company said additional activity targeting on-premises…",
+          "source": "The Hacker News",
+          "date": "Nov 17",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjErwt0frcFKiESffCoP1OtYh0j23goqdMN0nz-RT02biCz30WlLG4PD5gTyGgbumOWB3Zh1PJfENQoRtOwQVm3Nbg8VsiRhvNk662qVFNGqO8DQ4bFrroSzWgsvfCYGLWFzD1A-f6fcTu_E_dm4o1iUJz96scWy7skw49vzD9hfIfVEILTVPKsvbsEpGca/s1600/screenconnect-flaws.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.443,
           "coverage": 1
         },
         {
@@ -443,7 +541,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.55,
+          "score": 0.406,
           "coverage": 1
         },
         {
@@ -456,34 +554,8 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.251,
+          "score": 0.216,
           "coverage": 1
-        },
-        {
-          "title": "Trump Administration Moves to Block China From Indirect Access to American AI Technology",
-          "link": "https://www.securityweek.com/trump-administration-moves-to-block-china-from-indirect-access-to-american-ai-technology/",
-          "excerpt": "Under the new rule, overseas data centers that serve companies in countries including China, Russia, Iran and Cuba are required to identify their end users. The post Trump Administration Moves to Block China From Indirect Access to American AI Technology appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 16",
-          "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.326,
-          "coverage": 1
-        },
-        {
-          "title": "Google Project Zero Sets Course for 30-Day Disclosure Deadline",
-          "link": "https://www.securityweek.com/google-project-zero-sets-course-for-30-day-disclosure-deadline/",
-          "excerpt": "It will move to a 60-day vulnerability disclosure window in February 2027 and to a 30-day window in January 2028. The post Google Project Zero Sets Course for 30-Day Disclosure Deadline appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 16",
-          "image": "https://www.securityweek.com/wp-content/uploads/2024/07/Google.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 1.75,
-          "coverage": 2
         }
       ]
     },
@@ -500,7 +572,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.047,
+          "score": 1.798,
           "coverage": 1
         },
         {
@@ -513,7 +585,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 2.062,
+          "score": 1.7,
           "coverage": 1
         },
         {
@@ -526,7 +598,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.372,
+          "score": 0.312,
           "coverage": 1
         }
       ],
@@ -541,7 +613,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.408,
+          "score": 0.337,
           "coverage": 1
         },
         {
@@ -554,7 +626,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.367,
+          "score": 0.308,
           "coverage": 1
         },
         {
@@ -611,20 +683,20 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 3.585,
+          "score": 2.938,
           "coverage": 1
         },
         {
-          "title": "Running coding agents without handing them my credentials",
-          "link": "https://blog.antonio.cx/running-agents-with-lend",
-          "excerpt": "82 points · 39 comments",
-          "source": "blog.antonio.cx via Hacker News",
+          "title": "Mem Is Shutting Down",
+          "link": "https://get.mem.ai/blog/mem-is-shutting-down",
+          "excerpt": "Mem closes on January 15, 2027. Read the announcement, key dates, what happens to your subscription, and how to move your notes.",
+          "source": "get.mem.ai via Hacker News",
           "date": "Nov 17",
-          "image": "https://prose.sh/card.png",
-          "icon": "https://blog.antonio.cx/favicon-16x16.png",
-          "domain": "blog.antonio.cx",
-          "hn": "82 points · 39 comments",
-          "score": 3.308,
+          "image": "https://get.mem.ai/assets/seo/mem-sunset.jpg",
+          "icon": "https://get.mem.ai/assets/brand/apple-touch-icon.png",
+          "domain": "get.mem.ai",
+          "hn": "60 points · 96 comments",
+          "score": 2.828,
           "coverage": 1
         },
         {
@@ -636,49 +708,23 @@
           "image": "https://pbs.twimg.com/profile_images/1560764938083352577/B1X3m4NN_400x400.jpg",
           "icon": "https://x.com/apple-touch-icon.png",
           "domain": "twitter.com",
-          "hn": "64 points · 6 comments",
-          "score": 2.812,
+          "hn": "146 points · 43 comments",
+          "score": 2.667,
           "coverage": 1
         }
       ],
       "more": [
         {
-          "title": "The most expensive bargaining chip in history",
-          "link": "https://unrelatedfindings.com/essays/the-most-expensive-bargaining-chip-in-history/",
-          "excerpt": "What if Washington’s new chip restrictions became a bargaining chip in its negotiations with Beijing?",
-          "source": "unrelatedfindings.com via Hacker News",
+          "title": "If an App Asks for Full Disk Access or System and App Protection Override",
+          "link": "https://support.apple.com/en-us/149699",
+          "excerpt": "Starting in macOS 27.3, when some apps ask for Full Disk Access or System & App Protection Override, you have the option to choose only specific protected folders or apps for the app to access. This puts you in control of what data is accessible to the app.",
+          "source": "support.apple.com via Hacker News",
           "date": "Nov 17",
           "image": null,
-          "icon": "https://unrelatedfindings.com/favicon.ico",
-          "domain": "unrelatedfindings.com",
-          "hn": "16 points · 13 comments",
-          "score": 2.644,
-          "coverage": 1
-        },
-        {
-          "title": "Pentagon fails ninth straight audit despite progress in organizing finances",
-          "link": "https://www.reuters.com/business/aerospace-defense/pentagon-fails-ninth-straight-audit-despite-progress-organizing-finances-2026-11-16/",
-          "excerpt": "97 points · 32 comments",
-          "source": "reuters.com via Hacker News",
-          "date": "Nov 17",
-          "image": null,
-          "icon": "https://www.reuters.com/favicon.ico",
-          "domain": "reuters.com",
-          "hn": "97 points · 32 comments",
-          "score": 3.17,
-          "coverage": 1
-        },
-        {
-          "title": "Show HN: Sutra-OS – A self-hosted ontology platform",
-          "link": "https://github.com/0nelight/sutra-os",
-          "excerpt": "Scarce Units, Typed, Related, Actionable. An open-source, self-hosted ontology platform. - 0nelight/sutra-os",
-          "source": "github.com via Hacker News",
-          "date": "Nov 16",
-          "image": "https://opengraph.githubassets.com/f0b933ddf25b4aeab5175bf1072273999f568ae3642ec37a3b82ad3c7d45a3a7/0nelight/sutra-os",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "47 points · 24 comments",
-          "score": 2.692,
+          "icon": "https://support.apple.com/favicon.ico",
+          "domain": "support.apple.com",
+          "hn": "132 points · 75 comments",
+          "score": 2.973,
           "coverage": 1
         },
         {
@@ -690,8 +736,34 @@
           "image": "https://storage.ghost.io/c/2d/aa/2daa4f7f-a71b-47d2-a54c-06b8c60222ef/content/images/size/w1200/2026/11/Cybersecurity-Alert_-Malicious-Code-Injection.png",
           "icon": "https://storage.ghost.io/c/2d/aa/2daa4f7f-a71b-47d2-a54c-06b8c60222ef/content/images/size/w256h256/2026/02/Logo-01.png",
           "domain": "blog.report-uri.com",
-          "hn": "235 points · 101 comments",
-          "score": 5.842,
+          "hn": "360 points · 151 comments",
+          "score": 4.874,
+          "coverage": 1
+        },
+        {
+          "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
+          "link": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+          "excerpt": "Reverse engineering Windows 11's MissionControlAggregator reveals coding-agent and developer-tool usage bits in a diagnostic ETW report.",
+          "source": "xusheng.dev via Hacker News",
+          "date": "Nov 16",
+          "image": "https://xusheng.dev/posts/windows-coding-agent-telemetry/agent-names.jpeg",
+          "icon": "https://xusheng.dev/favicon.ico",
+          "domain": "xusheng.dev",
+          "hn": "617 points · 469 comments",
+          "score": 3.252,
+          "coverage": 1
+        },
+        {
+          "title": "How to Break into Security, Ptacek Edition (2012)",
+          "link": "https://krebsonsecurity.com/2012/06/how-to-break-into-security-ptacek-edition/",
+          "excerpt": "111 points · 27 comments",
+          "source": "krebsonsecurity.com via Hacker News",
+          "date": "Nov 16",
+          "image": null,
+          "icon": "https://krebsonsecurity.com/favicon.ico",
+          "domain": "krebsonsecurity.com",
+          "hn": "111 points · 27 comments",
+          "score": 2.326,
           "coverage": 1
         }
       ]
