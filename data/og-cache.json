@@ -1469,6 +1469,12 @@
   "icon": "https://gatezh.com/brand/apple-touch-icon.d2d201c76e9b56fe57ad335c3b2e61afbebd035c740d1d7a0bc1679d6afec283.png",
   "image": "https://gatezh.com/brand/share.381cc582d58a3410686473b92c1d944fbc83dc59a7e926952aeb6c5c0d8a6ef0.png"
  },
+ "https://get.mem.ai/blog/mem-is-shutting-down": {
+  "description": "Mem closes on January 15, 2027. Read the announcement, key dates, what happens to your subscription, and how to move your notes.",
+  "fetched": "2026-11-17",
+  "icon": "https://get.mem.ai/assets/brand/apple-touch-icon.png",
+  "image": "https://get.mem.ai/assets/seo/mem-sunset.jpg"
+ },
  "https://getbema.app/": {
   "description": null,
   "fetched": "2026-11-03",
@@ -1588,6 +1594,12 @@
   "fetched": "2026-11-09",
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://opengraph.githubassets.com/eac0a844d024acd8252f8eb879a11f1065b9cb2c737290cb7e8726a08c9c6a20/OmniJev/Flide"
+ },
+ "https://github.com/OpenTodoApp/OpenTodo": {
+  "description": "Your tasks, your server. An open-source, local-first task manager you can host yourself. Everything you expect from a commercial task app, without the subscription or the lock-in. - OpenTodoApp/Ope...",
+  "fetched": "2026-11-17",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://repository-images.githubusercontent.com/1412617976/57d3bf9f-6532-4bbb-b2d3-f2222a9cc86f"
  },
  "https://github.com/Parcha-ai/agentrun/blob/main/README.md": {
   "description": "AgentRun is an open-source platform that supercharges your agents. It adds self-improvement, durable execution and a control plane on top of your favorite agent harness. Your agents become smarter,...",
@@ -4313,6 +4325,12 @@
   "icon": "https://support.apple.com/favicon.ico",
   "image": null
  },
+ "https://support.apple.com/en-us/149699": {
+  "description": "Starting in macOS 27.3, when some apps ask for Full Disk Access or System & App Protection Override, you have the option to choose only specific protected folders or apps for the app to access. This puts you in control of what data is accessible to the app.",
+  "fetched": "2026-11-17",
+  "icon": "https://support.apple.com/favicon.ico",
+  "image": null
+ },
  "https://surgehq.ai/blog/dayjob-tax": {
   "description": "DAYJOB: Tax evaluates AI agents across 50 realistic tax environments, testing their ability to navigate messy records, exercise professional judgment, and deliver reliable tax work.",
   "fetched": "2026-10-29",
@@ -4666,6 +4684,12 @@
   "fetched": "2026-11-03",
   "icon": "https://x.com/apple-touch-icon.png",
   "image": "https://pbs.twimg.com/media/HWJxC2yWEAAWYYO?format=webp&name=large"
+ },
+ "https://twitter.com/id_aa_carmack/status/2122478083319992513": {
+  "description": "Both NeXT and 3DFX tried to “do the right thing” with color spaces, and it wound up generally making them look worse than competing options. I didn’t really understand it properly until years later. It is natural to think that a pixel with a value of 1.0 is emitting twice the photons as a pixel wi…",
+  "fetched": "2026-11-17",
+  "icon": "https://x.com/apple-touch-icon.png",
+  "image": "https://pbs.twimg.com/profile_images/1560764938083352577/B1X3m4NN_400x400.jpg"
  },
  "https://twitter.com/jaredkushner/status/2113376217415958767": {
   "description": "This excerpt is from a book containing outrageous and categorically false allegations. We denied every claim on the record, yet the author provided not a single shred of verifiable evidence to substantiate them. No bank statements, wire transfer records, account numbers, transaction dates, or other…",
@@ -5590,6 +5614,12 @@
   "fetched": "2026-11-08",
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2026/07/29/openai-escape-sandbox.jpg"
+ },
+ "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/": {
+  "description": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts designed to steal cryptocurrency and payment information and exploit vulnerabilities in iOS devices.",
+  "fetched": "2026-11-17",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/posts/2026/11/16/supply-chain-attack.jpg"
  },
  "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/": {
   "description": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain.",
@@ -6518,6 +6548,12 @@
  "https://www.mckinsey.com/industries/life-sciences/our-insights/pfizers-alex-condoleon-on-medical-affairs-accountability": {
   "description": null,
   "fetched": "2026-10-27",
+  "icon": null,
+  "image": null
+ },
+ "https://www.mckinsey.com/industries/metals-and-mining/our-insights/steel-forging-the-foundation-for-the-future-of-india": {
+  "description": null,
+  "fetched": "2026-11-17",
   "icon": null,
   "image": null
  },

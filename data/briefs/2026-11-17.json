@@ -1,7 +1,7 @@
 {
   "date": "2026-11-17",
   "lead": {
-    "title": "Building a Secure MCP (Model Context Protocol) Server with Auth0.",
+    "title": "Building a Secure MCP (Model Context Protocol) Server with Auth0",
     "link": "https://auth0.com/blog/building-secure-mcp-server-with-auth0/",
     "excerpt": "Learn how to build an MCP server in Go and secure it with Auth0 using OAuth 2.1, PKCE, and RBAC-backed scopes, so AI agents only see the data their user is authorized to access.",
     "source": "Auth0 Blog",
@@ -13,7 +13,7 @@
     "note": null,
     "labels": [
       "Agent Identity & Authorization",
-      "9h ago"
+      "11h ago"
     ],
     "also": []
   },
@@ -25,10 +25,22 @@
       "link_domain": "groundworkcollaborative.org",
       "source": "Hacker News",
       "domain": "groundworkcollaborative.org",
-      "meta": "Hacker News · 843 points · 510 comments · 12h ago",
+      "meta": "Hacker News · 861 points · 517 comments · 14h ago",
       "also": [],
       "image": null,
       "icon": null
+    },
+    {
+      "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+      "thread": "https://news.ycombinator.com/item?id=50524736",
+      "link": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+      "link_domain": "xusheng.dev",
+      "source": "Hacker News",
+      "domain": "xusheng.dev",
+      "meta": "Hacker News · 341 points · 207 comments · 5h ago",
+      "also": [],
+      "image": "https://xusheng.dev/posts/windows-coding-agent-telemetry/agent-names.jpeg",
+      "icon": "https://xusheng.dev/favicon.ico"
     },
     {
       "title": "Universal XSS in uBlock Origin from website-driven element picker",
@@ -37,7 +49,7 @@
       "link_domain": "iter.ca",
       "source": "Lobsters",
       "domain": "iter.ca",
-      "meta": "Lobsters · 38 points · 0 comments · 20h ago",
+      "meta": "Lobsters · 40 points · 0 comments · 22h ago",
       "also": [],
       "image": "https://iter.ca//ubo-epicker.png",
       "icon": "https://iter.ca/avatar/a32.png"
@@ -49,7 +61,7 @@
       "link_domain": "theregister.com",
       "source": "Hacker News",
       "domain": "theregister.com",
-      "meta": "Hacker News · 225 points · 164 comments · 12h ago",
+      "meta": "Hacker News · 248 points · 179 comments · 14h ago",
       "also": [],
       "image": "https://image.theregister.com/254046.jpg?imageId=254046&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
       "icon": "https://www.theregister.com/view-resources/dachser2/public/theregister/favicons/apple-touch-icon.png"
@@ -61,7 +73,7 @@
       "link_domain": "cnn.com",
       "source": "Hacker News",
       "domain": "cnn.com",
-      "meta": "Hacker News · 176 points · 88 comments · 3h ago",
+      "meta": "Hacker News · 205 points · 107 comments · 5h ago",
       "also": [],
       "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2304760060.jpg?c=16x9&q=w_800,c_fill",
       "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png"
@@ -73,10 +85,22 @@
       "link_domain": "michael.bacarella.com",
       "source": "Lobsters",
       "domain": "michael.bacarella.com",
-      "meta": "Lobsters · 26 points · 9 comments · 9h ago",
+      "meta": "Lobsters · 27 points · 9 comments · 11h ago",
       "also": [],
       "image": "https://michael.bacarella.com/assets/mbacface.jpg",
       "icon": "https://michael.bacarella.com/apple-touch-icon.png"
+    },
+    {
+      "title": "Optimizely compromised, served malware on Zoom, GitLab",
+      "thread": "https://news.ycombinator.com/item?id=50524767",
+      "link": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+      "link_domain": "blog.report-uri.com",
+      "source": "Hacker News",
+      "domain": "blog.report-uri.com",
+      "meta": "Hacker News · 166 points · 86 comments · 5h ago",
+      "also": [],
+      "image": "https://storage.ghost.io/c/2d/aa/2daa4f7f-a71b-47d2-a54c-06b8c60222ef/content/images/size/w1200/2026/11/Cybersecurity-Alert_-Malicious-Code-Injection.png",
+      "icon": "https://storage.ghost.io/c/2d/aa/2daa4f7f-a71b-47d2-a54c-06b8c60222ef/content/images/size/w256h256/2026/02/Logo-01.png"
     },
     {
       "title": "NoisyTCP",
@@ -85,7 +109,7 @@
       "link_domain": "openwall.com",
       "source": "Lobsters",
       "domain": "openwall.com",
-      "meta": "Lobsters · 16 points · 1 comments · 13h ago",
+      "meta": "Lobsters · 16 points · 1 comments · 15h ago",
       "also": [],
       "image": null,
       "icon": "https://www.openwall.com/favicon.ico"
@@ -105,7 +129,7 @@
           "icon": null,
           "domain": "metr.org",
           "hn": null,
-          "score": 4.735,
+          "score": 4.439,
           "coverage": 1
         },
         {
@@ -118,7 +142,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.472,
+          "score": 0.449,
           "coverage": 1
         },
         {
@@ -131,7 +155,7 @@
           "icon": null,
           "domain": "blog.google",
           "hn": null,
-          "score": 0.747,
+          "score": 0.689,
           "coverage": 1
         }
       ],
@@ -146,7 +170,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 1.272,
+          "score": 1.114,
           "coverage": 1
         }
       ]
@@ -164,7 +188,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.911,
+          "score": 0.812,
           "coverage": 1
         },
         {
@@ -177,7 +201,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.888,
+          "score": 0.811,
           "coverage": 1
         },
         {
@@ -190,7 +214,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.888,
+          "score": 0.811,
           "coverage": 1
         }
       ],
@@ -205,7 +229,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.718,
+          "score": 0.667,
           "coverage": 1
         },
         {
@@ -218,7 +242,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.623,
+          "score": 0.584,
           "coverage": 1
         },
         {
@@ -231,10 +255,42 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.492,
+          "score": 0.467,
           "coverage": 1
         }
       ]
+    },
+    {
+      "name": "Leadership",
+      "cards": [
+        {
+          "title": "The Weather Particulars",
+          "link": "https://randsinrepose.com/archives/the-weather-particulars/",
+          "excerpt": "Sometime during COVID, I started paying a lot of attention to the weather. It started with the rainy season. Getting a sense of the coming week and how much rain might fall. After that, I started to share my forecast with a small, interested mountain group. I initially shut the forecasting down…",
+          "source": "Rands in Repose",
+          "date": "Nov 17",
+          "image": "https://randsinrepose.com/wp-content/uploads/2026/11/los-gatos-weather-dashboard-1-720x1024.png",
+          "icon": null,
+          "domain": "randsinrepose.com",
+          "hn": null,
+          "score": 1.199,
+          "coverage": 1
+        },
+        {
+          "title": "Steel: Forging the foundation for the future of India",
+          "link": "https://www.mckinsey.com/industries/metals-and-mining/our-insights/steel-forging-the-foundation-for-the-future-of-india",
+          "excerpt": "As India’s steel industry expands capacity to meet rising demand, it has an opportunity to sharpen cost competitiveness, secure raw materials, and lower emissions.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 17",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.931,
+          "coverage": 1
+        }
+      ],
+      "more": []
     },
     {
       "name": "Agent Identity & Authorization",
@@ -249,7 +305,26 @@
           "icon": "https://openid.net/wp-content/uploads/2022/11/favicon_23-300x300.jpg",
           "domain": "openid.net",
           "hn": null,
-          "score": 0.829,
+          "score": 0.747,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Secrets & NHI",
+      "cards": [
+        {
+          "title": "Show HN: OpenTodo – a self-hosted, local-first task manager in one Go binary",
+          "link": "https://github.com/OpenTodoApp/OpenTodo",
+          "excerpt": "Your tasks, your server. An open-source, local-first task manager you can host yourself. Everything you expect from a commercial task app, without the subscription or the lock-in. - OpenTodoApp/Ope...",
+          "source": "github.com via Hacker News",
+          "date": "Nov 16",
+          "image": "https://repository-images.githubusercontent.com/1412617976/57d3bf9f-6532-4bbb-b2d3-f2222a9cc86f",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "20 points · 20 comments",
+          "score": 1.781,
           "coverage": 1
         }
       ],
@@ -268,7 +343,7 @@
           "icon": null,
           "domain": "openssf.org",
           "hn": null,
-          "score": 0.658,
+          "score": 0.593,
           "coverage": 1
         }
       ],
@@ -287,7 +362,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 3.978,
+          "score": 3.515,
           "coverage": 1
         },
         {
@@ -300,9 +375,24 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 3.535,
+          "score": 3.164,
           "coverage": 1
         },
+        {
+          "title": "Optimizely supply chain attack served malware on CNN, Fox News, BBC sites",
+          "link": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
+          "excerpt": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts designed to steal cryptocurrency and payment information and exploit…",
+          "source": "BleepingComputer",
+          "date": "Nov 17",
+          "image": "https://www.bleepstatic.com/content/posts/2026/11/16/supply-chain-attack.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 3.958,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "Attackers are using AI agents to automate cybercrime at 'industrial scale,' FBI and AWS warn",
           "link": "https://www.theregister.com/cyber-crime/2026/11/16/attackers-are-using-ai-agents-to-automate-cybercrime-at-industrial-scale-fbi-and-aws-warn/5310223",
@@ -313,11 +403,9 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 2.898,
+          "score": 2.611,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
           "link": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
@@ -328,7 +416,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.292,
+          "score": 0.27,
           "coverage": 1
         },
         {
@@ -341,7 +429,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.398,
+          "score": 0.358,
           "coverage": 1
         },
         {
@@ -354,7 +442,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 2.172,
+          "score": 1.937,
           "coverage": 2
         },
         {
@@ -367,20 +455,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 6.228,
-          "coverage": 2
-        },
-        {
-          "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
-          "link": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
-          "excerpt": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]",
-          "source": "BleepingComputer",
-          "date": "Nov 16",
-          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/16/0_zero.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
-          "hn": null,
-          "score": 2.172,
+          "score": 5.53,
           "coverage": 2
         }
       ]
@@ -398,7 +473,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.324,
+          "score": 2.176,
           "coverage": 1
         },
         {
@@ -411,7 +486,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 2.524,
+          "score": 2.269,
           "coverage": 1
         },
         {
@@ -424,7 +499,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.446,
+          "score": 0.406,
           "coverage": 1
         }
       ],
@@ -439,7 +514,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.499,
+          "score": 0.449,
           "coverage": 1
         },
         {
@@ -452,7 +527,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.438,
+          "score": 0.399,
           "coverage": 1
         },
         {
@@ -509,7 +584,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 4.425,
+          "score": 3.96,
           "coverage": 1
         },
         {
@@ -522,35 +597,74 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 2.93,
+          "score": 2.626,
           "coverage": 1
         },
         {
-          "title": "Running coding agents without handing them my credentials",
-          "link": "https://blog.antonio.cx/running-agents-with-lend",
-          "excerpt": "10 points · 2 comments",
-          "source": "blog.antonio.cx via Hacker News",
+          "title": "Mem Is Shutting Down",
+          "link": "https://get.mem.ai/blog/mem-is-shutting-down",
+          "excerpt": "Mem closes on January 15, 2027. Read the announcement, key dates, what happens to your subscription, and how to move your notes.",
+          "source": "get.mem.ai via Hacker News",
           "date": "Nov 17",
-          "image": "https://prose.sh/card.png",
-          "icon": "https://blog.antonio.cx/favicon-16x16.png",
-          "domain": "blog.antonio.cx",
-          "hn": "10 points · 2 comments",
-          "score": 2.597,
+          "image": "https://get.mem.ai/assets/seo/mem-sunset.jpg",
+          "icon": "https://get.mem.ai/assets/brand/apple-touch-icon.png",
+          "domain": "get.mem.ai",
+          "hn": "23 points · 23 comments",
+          "score": 3.315,
           "coverage": 1
         }
       ],
       "more": [
         {
+          "title": "If an App Asks for Full Disk Access or System and App Protection Override",
+          "link": "https://support.apple.com/en-us/149699",
+          "excerpt": "Starting in macOS 27.3, when some apps ask for Full Disk Access or System & App Protection Override, you have the option to choose only specific protected folders or apps for the app to access. This puts you in control of what data is accessible to the app.",
+          "source": "support.apple.com via Hacker News",
+          "date": "Nov 17",
+          "image": null,
+          "icon": "https://support.apple.com/favicon.ico",
+          "domain": "support.apple.com",
+          "hn": "33 points · 15 comments",
+          "score": 3.359,
+          "coverage": 1
+        },
+        {
+          "title": "Running coding agents without handing them my credentials",
+          "link": "https://blog.antonio.cx/running-agents-with-lend",
+          "excerpt": "54 points · 20 comments",
+          "source": "blog.antonio.cx via Hacker News",
+          "date": "Nov 17",
+          "image": "https://prose.sh/card.png",
+          "icon": "https://blog.antonio.cx/favicon-16x16.png",
+          "domain": "blog.antonio.cx",
+          "hn": "54 points · 20 comments",
+          "score": 3.426,
+          "coverage": 1
+        },
+        {
           "title": "Pentagon fails ninth straight audit despite progress in organizing finances",
           "link": "https://www.reuters.com/business/aerospace-defense/pentagon-fails-ninth-straight-audit-despite-progress-organizing-finances-2026-11-16/",
-          "excerpt": "29 points · 1 comments",
+          "excerpt": "67 points · 16 comments",
           "source": "reuters.com via Hacker News",
           "date": "Nov 17",
           "image": null,
           "icon": "https://www.reuters.com/favicon.ico",
           "domain": "reuters.com",
-          "hn": "29 points · 1 comments",
-          "score": 3.053,
+          "hn": "67 points · 16 comments",
+          "score": 3.296,
+          "coverage": 1
+        },
+        {
+          "title": "Why 3dfx 1 cards had such a washed out color output?",
+          "link": "https://twitter.com/id_aa_carmack/status/2122478083319992513",
+          "excerpt": "Both NeXT and 3DFX tried to “do the right thing” with color spaces, and it wound up generally making them look worse than competing options. I didn’t really understand it properly until years later. It is natural to think that a pixel with a value of 1.0 is emitting twice the photons as a pixel wi…",
+          "source": "twitter.com via Hacker News",
+          "date": "Nov 17",
+          "image": "https://pbs.twimg.com/profile_images/1560764938083352577/B1X3m4NN_400x400.jpg",
+          "icon": "https://x.com/apple-touch-icon.png",
+          "domain": "twitter.com",
+          "hn": "21 points · 0 comments",
+          "score": 2.428,
           "coverage": 1
         },
         {
@@ -562,47 +676,8 @@
           "image": "https://opengraph.githubassets.com/f0b933ddf25b4aeab5175bf1072273999f568ae3642ec37a3b82ad3c7d45a3a7/0nelight/sutra-os",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "29 points · 11 comments",
-          "score": 3.043,
-          "coverage": 1
-        },
-        {
-          "title": "Optimizely Compromised, Served Malware on Zoom, GitLab",
-          "link": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
-          "excerpt": "On 16 November 2026, malicious JavaScript was served to visitors of 178 organisations through the Optimizely Web experimentation platform. The list includes some of the most visited sites in the world: Zoom, the BBC, CNN, Salesforce, GitLab, IKEA, HSBC, Equifax, Air France-KLM, Ledger and Peacock.…",
-          "source": "blog.report-uri.com via Hacker News",
-          "date": "Nov 16",
-          "image": "https://storage.ghost.io/c/2d/aa/2daa4f7f-a71b-47d2-a54c-06b8c60222ef/content/images/size/w1200/2026/11/Cybersecurity-Alert_-Malicious-Code-Injection.png",
-          "icon": "https://storage.ghost.io/c/2d/aa/2daa4f7f-a71b-47d2-a54c-06b8c60222ef/content/images/size/w256h256/2026/02/Logo-01.png",
-          "domain": "blog.report-uri.com",
-          "hn": "111 points · 65 comments",
-          "score": 6.965,
-          "coverage": 1
-        },
-        {
-          "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
-          "link": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
-          "excerpt": "Reverse engineering Windows 11's MissionControlAggregator reveals coding-agent and developer-tool usage bits in a diagnostic ETW report.",
-          "source": "xusheng.dev via Hacker News",
-          "date": "Nov 16",
-          "image": "https://xusheng.dev/posts/windows-coding-agent-telemetry/agent-names.jpeg",
-          "icon": "https://xusheng.dev/favicon.ico",
-          "domain": "xusheng.dev",
-          "hn": "239 points · 120 comments",
-          "score": 4.382,
-          "coverage": 1
-        },
-        {
-          "title": "How to Break into Security, Ptacek Edition (2012)",
-          "link": "https://krebsonsecurity.com/2012/06/how-to-break-into-security-ptacek-edition/",
-          "excerpt": "75 points · 20 comments",
-          "source": "krebsonsecurity.com via Hacker News",
-          "date": "Nov 16",
-          "image": null,
-          "icon": "https://krebsonsecurity.com/favicon.ico",
-          "domain": "krebsonsecurity.com",
-          "hn": "75 points · 20 comments",
-          "score": 3.367,
+          "hn": "42 points · 16 comments",
+          "score": 2.895,
           "coverage": 1
         }
       ]
