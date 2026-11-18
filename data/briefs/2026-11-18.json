@@ -1,26 +1,25 @@
 {
   "date": "2026-11-18",
   "lead": {
-    "title": "Defending Against Java4Shell: Vulnerability in OpenJDK Enables RCE on AVX-512 CPUs",
-    "link": "https://www.sentinelone.com/blog/java4shell-vulnerability-in-openjdk-enables-rce-on-avx-512-cpus/",
-    "excerpt": "On November 17, 2026, security researchers at Calif disclosed Java4Shell (CVE-2026-114938, CVSS 4.0: 9.2 Critical), a memory-corruption vulnerability in OpenJDK’s Base64 decoder that allows malformed Base64 input to trigger remote code execution (RCE).",
-    "source": "SentinelOne",
+    "title": "Microsoft agent-framework compromised on PyPI: 1.26.1 and 1.26.2 ship a credential stealer that runs on every Python start (November 2026)",
+    "link": "https://www.chainguard.dev/unchained/microsoft-agent-framework-compromised-on-pypi-november-2026",
+    "excerpt": "Two malicious versions of Microsoft's agent-framework targeted cloud credentials and AI API keys. Learn how Chainguard detected and blocked the attack.",
+    "source": "Chainguard: Unchained",
     "date": "Nov 17",
-    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiw1l9jYXUC-XLNjqqVjPvFicpQvkj-fwml16Gl43nsTc5TrBGGzijFoCzpxHpfninWaxrDxoCW4J6FKkgO1rPsnVFgFAcMbm9hl9YxeVO6fM4sBrs_tvUOXG8MnKPqDXRal3qNJ2VY7RzqAlj5vJzYI6xVFOxVGV7TyDliY-AIBqKm2bst1d6rCNl2qkhv/s1600/java4shell.jpg",
-    "image_credit": "The Hacker News",
+    "image": "https://images.ctfassets.net/l47ir7rfykkn/37UXfGLVWJiH7J11pJEaFc/3bb8b4cf9664c85edba5b1878aa617e9/agent-framework.png",
+    "image_credit": null,
     "section": "AI Agents & Agent Security",
     "pinned": false,
     "note": null,
     "labels": [
       "2 sources",
-      "CVE-2026-114938",
       "AI Agents & Agent Security",
-      "5h ago"
+      "1h ago"
     ],
     "also": [
       {
-        "name": "thehackernews.com",
-        "link": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html"
+        "name": "socket.dev",
+        "link": "https://socket.dev/blog/agent-framework-pypi-package-compromised-with-credential-stealer"
       }
     ]
   },
@@ -32,7 +31,7 @@
       "link_domain": "calif.io",
       "source": "Hacker News",
       "domain": "calif.io",
-      "meta": "Hacker News · 630 points · 164 comments · 6h ago",
+      "meta": "Hacker News · 728 points · 193 comments · 8h ago",
       "also": [
         {
           "source": "Lobsters",
@@ -49,7 +48,7 @@
       "link_domain": "cnn.com",
       "source": "Hacker News",
       "domain": "cnn.com",
-      "meta": "Hacker News · 512 points · 586 comments · 12h ago",
+      "meta": "Hacker News · 541 points · 620 comments · 14h ago",
       "also": [],
       "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1227141714-20261117152535850.jpg?c=16x9&q=w_800,c_fill",
       "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png"
@@ -61,22 +60,10 @@
       "link_domain": "blog.cloudflare.com",
       "source": "Hacker News",
       "domain": "blog.cloudflare.com",
-      "meta": "Hacker News · 358 points · 114 comments · 5h ago",
+      "meta": "Hacker News · 430 points · 138 comments · 7h ago",
       "also": [],
       "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7NJA0M7FAQEQZBW0K0W5KKS.png",
       "icon": "https://blog.cloudflare.com/favicon.ico"
-    },
-    {
-      "title": "How the Claude Code team thinks about verification",
-      "thread": "https://news.ycombinator.com/item?id=50529612",
-      "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
-      "link_domain": "claude.dev",
-      "source": "Hacker News",
-      "domain": "claude.dev",
-      "meta": "Hacker News · 275 points · 219 comments · 17h ago",
-      "also": [],
-      "image": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/og.png",
-      "icon": "https://claude.dev/shared/img/favicon.svg"
     },
     {
       "title": "Phrack 73",
@@ -85,10 +72,34 @@
       "link_domain": "phrack.org",
       "source": "Lobsters",
       "domain": "phrack.org",
-      "meta": "Lobsters · 39 points · 1 comments · 10h ago",
+      "meta": "Lobsters · 42 points · 2 comments · 12h ago",
       "also": [],
       "image": "https://phrack.org/images/phrack-new.webp",
       "icon": "https://phrack.org/apple-touch-icon.png"
+    },
+    {
+      "title": "How the Claude Code team thinks about verification",
+      "thread": "https://news.ycombinator.com/item?id=50529612",
+      "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+      "link_domain": "claude.dev",
+      "source": "Hacker News",
+      "domain": "claude.dev",
+      "meta": "Hacker News · 278 points · 223 comments · 19h ago",
+      "also": [],
+      "image": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/og.png",
+      "icon": "https://claude.dev/shared/img/favicon.svg"
+    },
+    {
+      "title": "Google's AI answers reducing search traffic by 40%",
+      "thread": "https://news.ycombinator.com/item?id=50540178",
+      "link": "https://revscope.co/blog/search-seo-geo-2026/",
+      "link_domain": "revscope.co",
+      "source": "Hacker News",
+      "domain": "revscope.co",
+      "meta": "Hacker News · 263 points · 186 comments · 5h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://revscope.co/favicon.ico"
     },
     {
       "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
@@ -97,7 +108,7 @@
       "link_domain": "scmp.com",
       "source": "Hacker News",
       "domain": "scmp.com",
-      "meta": "Hacker News · 185 points · 244 comments · 13h ago",
+      "meta": "Hacker News · 186 points · 245 comments · 15h ago",
       "also": [],
       "image": null,
       "icon": "https://www.scmp.com/favicon.ico"
@@ -109,7 +120,7 @@
       "link_domain": "aikido.dev",
       "source": "Hacker News",
       "domain": "aikido.dev",
-      "meta": "Hacker News · 149 points · 28 comments · 13h ago",
+      "meta": "Hacker News · 149 points · 29 comments · 15h ago",
       "also": [],
       "image": "https://cdn.prod.website-files.com/642adcaf364024654c71df23/6afc5243bb4ae6870f759309_Node-JS_OG%20(2).jpg",
       "icon": "https://cdn.prod.website-files.com/642adcaf364024552e71df01/6acf3def6456cdb50f820e2e_favicon-512.jpg"
@@ -121,7 +132,7 @@
       "link_domain": "nitter.cf",
       "source": "Hacker News",
       "domain": "nitter.cf",
-      "meta": "Hacker News · 139 points · 74 comments · 15h ago",
+      "meta": "Hacker News · 140 points · 74 comments · 17h ago",
       "also": [],
       "image": "https://pbs.twimg.com/media/HSNXaLrW4AEnwuB.jpg",
       "icon": "https://pbs.twimg.com/profile_images/1947236538409988096/hZXVsMlX_400x400.jpg"
@@ -133,7 +144,7 @@
       "link_domain": "newsletter.posthog.com",
       "source": "Hacker News",
       "domain": "newsletter.posthog.com",
-      "meta": "Hacker News · 114 points · 45 comments · 9h ago",
+      "meta": "Hacker News · 139 points · 56 comments · 11h ago",
       "also": [],
       "image": "https://substackcdn.com/image/fetch/$s_!wD8h!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff406379a-4ff2-4e21-aaac-69cda7d7b37e_1200x630.png",
       "icon": "https://substackcdn.com/image/fetch/$s_!iyFm!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a8f2331-7055-4f73-bbf8-ab2f4815f8d9%2Fapple-touch-icon-57x57.png"
@@ -153,7 +164,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 7.984,
+          "score": 7.154,
           "coverage": 1
         },
         {
@@ -166,7 +177,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 6.361,
+          "score": 5.707,
           "coverage": 1
         },
         {
@@ -179,7 +190,7 @@
           "icon": "https://sebastianraschka.com/images/favicons/favicon-32x32.png",
           "domain": "sebastianraschka.com",
           "hn": null,
-          "score": 0.747,
+          "score": 0.69,
           "coverage": 1
         }
       ],
@@ -194,7 +205,7 @@
           "icon": null,
           "domain": "blog.google",
           "hn": null,
-          "score": 0.779,
+          "score": 0.717,
           "coverage": 1
         }
       ]
@@ -212,7 +223,7 @@
           "icon": "https://cdn.metabase.com/images/apple-touch-icon.png",
           "domain": "metabase.com",
           "hn": "10 points · 1 comments",
-          "score": 6.838,
+          "score": 6.279,
           "coverage": 1
         },
         {
@@ -225,9 +236,24 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 3.497,
+          "score": 3.21,
           "coverage": 1
         },
+        {
+          "title": "Defending Against Java4Shell: Vulnerability in OpenJDK Enables RCE on AVX-512 CPUs",
+          "link": "https://www.sentinelone.com/blog/java4shell-vulnerability-in-openjdk-enables-rce-on-avx-512-cpus/",
+          "excerpt": "On November 17, 2026, security researchers at Calif disclosed Java4Shell (CVE-2026-114938, CVSS 4.0: 9.2 Critical), a memory-corruption vulnerability in OpenJDK’s Base64 decoder that allows malformed Base64 input to trigger remote code execution (RCE).",
+          "source": "SentinelOne",
+          "date": "Nov 17",
+          "image": "https://images.contentstack.io/v3/assets/blt53c99b43892c2378/bltbb11a1187f77c544/6afcbf89671008fdd7cf2236/Blog_Java4Shell_1680x520.png",
+          "icon": null,
+          "domain": "sentinelone.com",
+          "hn": null,
+          "score": 5.804,
+          "coverage": 2
+        }
+      ],
+      "more": [
         {
           "title": "Introducing ChatGPT for Sales",
           "link": "https://openai.com/index/introducing-chatgpt-for-sales",
@@ -238,11 +264,9 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.584,
+          "score": 0.55,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Astra for Law leads in legal intelligence",
           "link": "https://openai.com/index/astra-law-6-2",
@@ -253,7 +277,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.467,
+          "score": 0.445,
           "coverage": 1
         }
       ]
@@ -271,7 +295,7 @@
           "icon": "https://randsinrepose.com/nitropack_static/pYcrXSmzMTYaBCajyDlByLkiWOiRWpVF/assets/images/optimized/rev-7d0833b/randsinrepose.com/wp-content/uploads/2025/08/cropped-rands-favicon-1-180x180.png",
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.749,
+          "score": 0.681,
           "coverage": 1
         }
       ],
@@ -290,7 +314,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 3.006,
+          "score": 2.863,
           "coverage": 1
         }
       ],
@@ -309,7 +333,7 @@
           "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
           "domain": "aembit.io",
           "hn": null,
-          "score": 4.062,
+          "score": 3.691,
           "coverage": 1
         },
         {
@@ -322,7 +346,7 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 2.449,
+          "score": 2.246,
           "coverage": 1
         },
         {
@@ -335,7 +359,7 @@
           "icon": "https://www.hashicorp.com/favicon.ico",
           "domain": "hashicorp.com",
           "hn": null,
-          "score": 1.247,
+          "score": 1.174,
           "coverage": 1
         }
       ],
@@ -350,7 +374,7 @@
           "icon": "https://www.hashicorp.com/favicon.ico",
           "domain": "hashicorp.com",
           "hn": null,
-          "score": 0.204,
+          "score": 0.195,
           "coverage": 1
         }
       ]
@@ -368,20 +392,7 @@
           "icon": null,
           "domain": "openssf.org",
           "hn": null,
-          "score": 5.484,
-          "coverage": 1
-        },
-        {
-          "title": "Microsoft agent-framework compromised on PyPI: 1.26.1 and 1.26.2 ship a credential stealer that runs on every Python start (November 2026)",
-          "link": "https://www.chainguard.dev/unchained/microsoft-agent-framework-compromised-on-pypi-november-2026",
-          "excerpt": "Two malicious versions of Microsoft's agent-framework targeted cloud credentials and AI API keys. Learn how Chainguard detected and blocked the attack.",
-          "source": "Chainguard: Unchained",
-          "date": "Nov 17",
-          "image": "https://images.ctfassets.net/l47ir7rfykkn/37UXfGLVWJiH7J11pJEaFc/3bb8b4cf9664c85edba5b1878aa617e9/agent-framework.png",
-          "icon": "https://www.chainguard.dev/favicon.ico",
-          "domain": "chainguard.dev",
-          "hn": null,
-          "score": 2.094,
+          "score": 5.005,
           "coverage": 1
         },
         {
@@ -394,7 +405,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.299,
+          "score": 0.285,
           "coverage": 1
         }
       ],
@@ -413,8 +424,21 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 2.613,
+          "score": 2.378,
           "coverage": 1
+        },
+        {
+          "title": "Java4Shell (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak on Java 17+ AVX-512 VBMI Servers",
+          "link": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+          "excerpt": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week. The flaw is present in Java 17.0.6 and later, and the vulnerable code runs…",
+          "source": "The Hacker News",
+          "date": "Nov 18",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTrbBEjGUxldrJAnxC5ilrZqnNHyexGDTR-zS3vAX-Qw_ZNtNNEsomeDRYT40hQkUZt3G4T6y9oKi7G88dN0gatwvi03ItVtDmFCA8V7Zrb2lh5l4oGf8BUVF0UUbvybU0XuGpBnynGfvsCS_y4aWYtzvD_eNyqtids_c8w1auCGMWMYlxrReU-iS0FWc/s1600/java.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 5.804,
+          "coverage": 2
         },
         {
           "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
@@ -426,9 +450,11 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.351,
+          "score": 0.32,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
           "link": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
@@ -439,11 +465,9 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 9.277,
+          "score": 5.804,
           "coverage": 2
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
           "link": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
@@ -454,7 +478,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.29,
+          "score": 0.268,
           "coverage": 1
         },
         {
@@ -467,7 +491,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.52,
+          "score": 0.454,
           "coverage": 1
         },
         {
@@ -480,7 +504,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.33,
+          "score": 0.302,
           "coverage": 1
         },
         {
@@ -493,20 +517,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 2.001,
-          "coverage": 1
-        },
-        {
-          "title": "Fandango Warns Ticket Buyers of Payment Card Data Exposure",
-          "link": "https://www.securityweek.com/fandango-warns-ticket-buyers-of-payment-card-data-exposure/",
-          "excerpt": "Card numbers, CVVs, expiration dates, and email addresses used at Fandango’s ticketing checkout over four days in October may have been exposed. The post Fandango Warns Ticket Buyers of Payment Card Data Exposure appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 17",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/Fandango.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.278,
+          "score": 1.854,
           "coverage": 1
         }
       ]
@@ -524,7 +535,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 4.058,
+          "score": 3.716,
           "coverage": 1
         },
         {
@@ -537,7 +548,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 3.638,
+          "score": 3.348,
           "coverage": 1
         },
         {
@@ -550,7 +561,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 4.32,
+          "score": 3.838,
           "coverage": 1
         }
       ],
@@ -565,7 +576,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.977,
+          "score": 2.74,
           "coverage": 1
         },
         {
@@ -578,7 +589,7 @@
           "icon": null,
           "domain": "netflixtechblog.com",
           "hn": null,
-          "score": 2.728,
+          "score": 2.511,
           "coverage": 1
         },
         {
@@ -591,7 +602,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 3.242,
+          "score": 2.942,
           "coverage": 1
         },
         {
@@ -604,7 +615,7 @@
           "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
           "domain": "grafana.com",
           "hn": null,
-          "score": 2.188,
+          "score": 2.014,
           "coverage": 1
         },
         {
@@ -617,7 +628,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 2.658,
+          "score": 2.407,
           "coverage": 1
         }
       ]
@@ -635,7 +646,7 @@
           "icon": null,
           "domain": "arstechnica.com",
           "hn": null,
-          "score": 3.043,
+          "score": 2.698,
           "coverage": 1
         },
         {
@@ -648,7 +659,7 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 2.128,
+          "score": 1.927,
           "coverage": 1
         },
         {
@@ -661,11 +672,50 @@
           "icon": null,
           "domain": "spectrum.ieee.org",
           "hn": null,
-          "score": 1.925,
+          "score": 1.759,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "Interviewed at a YC startup, found out they used my LinkedIn without permission",
+          "link": "https://reddit.com/r/recruitinghell/comments/1xyr6ml/interviewed_at_a_yc_startup_spent_30_hours/",
+          "excerpt": "59 points · 7 comments",
+          "source": "reddit.com via Hacker News",
+          "date": "Nov 18",
+          "image": null,
+          "icon": "https://reddit.com/favicon.ico",
+          "domain": "reddit.com",
+          "hn": "59 points · 7 comments",
+          "score": 3.07,
+          "coverage": 1
+        },
+        {
+          "title": "Why is Gemini 4 Carbon taking so long?",
+          "link": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
+          "excerpt": "Gemini 4 Carbon spent close to an hour on tasks that Opus and Astra finished in minutes. We traced every step of its runs to find out why.",
+          "source": "kernel.dev via Hacker News",
+          "date": "Nov 18",
+          "image": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/og.png",
+          "icon": "https://kernel.dev/apple-touch-icon.png",
+          "domain": "kernel.dev",
+          "hn": "24 points · 8 comments",
+          "score": 2.451,
+          "coverage": 1
+        },
+        {
+          "title": "H-1B Executive Actions in 2026 [pdf]",
+          "link": "https://www.everycrsreport.com/files/2026-10-14_IN12747_fcb1389788aa7b9102b795882af042e85d20532c.pdf",
+          "excerpt": "20 points · 19 comments",
+          "source": "everycrsreport.com via Hacker News",
+          "date": "Nov 18",
+          "image": null,
+          "icon": "https://www.everycrsreport.com/favicon.ico",
+          "domain": "everycrsreport.com",
+          "hn": "20 points · 19 comments",
+          "score": 2.454,
+          "coverage": 1
+        },
         {
           "title": "Cerebras Disaggregated Inference",
           "link": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
@@ -675,8 +725,8 @@
           "image": "https://cdn.sanity.io/images/e4qjo92p/production/517b4d022eca11a8f17ad828fc698df3b3cd7d86-1920x1080.png?rect=0,36,1920,1008&w=1200&h=630&fit=max&auto=format",
           "icon": "https://cdn.sanity.io/images/e4qjo92p/production/e7a55ae5ab7e2c4fdfd4e66a51f628d1f2f44207-967x967.png?w=512&h=512&fit=max&auto=format",
           "domain": "cerebras.ai",
-          "hn": "41 points · 13 comments",
-          "score": 2.51,
+          "hn": "60 points · 14 comments",
+          "score": 2.362,
           "coverage": 1
         },
         {
@@ -688,47 +738,8 @@
           "image": "https://consumerrights.wiki/images/logo/new_fixed_logo.png",
           "icon": "https://consumerrights.wiki/images/favicon-96x96.png",
           "domain": "consumerrights.wiki",
-          "hn": "181 points · 66 comments",
-          "score": 3.285,
-          "coverage": 1
-        },
-        {
-          "title": "Google's AI answers reducing search traffic by 40%",
-          "link": "https://revscope.co/blog/search-seo-geo-2026/",
-          "excerpt": "Google's AI answers are taking clicks from websites in the search results. In a randomized experiment, researchers hid AI Overviews from some US desktop users. Comparing them with users who still saw Overviews shows that an Overview cuts clicks to outside websites by about 40%. Those Overviews now…",
-          "source": "revscope.co via Hacker News",
-          "date": "Nov 18",
-          "image": null,
-          "icon": "https://revscope.co/favicon.ico",
-          "domain": "revscope.co",
-          "hn": "168 points · 114 comments",
-          "score": 3.235,
-          "coverage": 1
-        },
-        {
-          "title": "Archive Team is archiving the Apple Support Community (closes November 20, 2026)",
-          "link": "https://wiki.archiveteam.org/index.php/Apple_Discussions",
-          "excerpt": "113 points · 44 comments",
-          "source": "wiki.archiveteam.org via Hacker News",
-          "date": "Nov 17",
-          "image": null,
-          "icon": "https://wiki.archiveteam.org/favicon.ico",
-          "domain": "wiki.archiveteam.org",
-          "hn": "113 points · 44 comments",
-          "score": 2.807,
-          "coverage": 1
-        },
-        {
-          "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
-          "link": "https://github.com/microsoft/onnxruntime",
-          "excerpt": "172 points · 40 comments",
-          "source": "github.com via Hacker News",
-          "date": "Nov 17",
-          "image": null,
-          "icon": "https://github.com/favicon.ico",
-          "domain": "github.com",
-          "hn": "172 points · 40 comments",
-          "score": 2.91,
+          "hn": "262 points · 109 comments",
+          "score": 3.092,
           "coverage": 1
         }
       ]

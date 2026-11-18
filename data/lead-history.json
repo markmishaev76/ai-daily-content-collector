@@ -398,21 +398,24 @@
   },
   {
     "date": "2026-11-18",
-    "url": "https://www.sentinelone.com/blog/java4shell-vulnerability-in-openjdk-enables-rce-on-avx-512-cpus/",
-    "title": "Defending Against Java4Shell: Vulnerability in OpenJDK Enables RCE on AVX-512 CPUs",
+    "url": "https://www.chainguard.dev/unchained/microsoft-agent-framework-compromised-on-pypi-november-2026",
+    "title": "Microsoft agent-framework compromised on PyPI: 1.26.1 and 1.26.2 ship a credential stealer that runs on every Python start (November 2026)",
     "section": "AI Agents & Agent Security",
     "key_tokens": [
-      "512",
-      "CVE-2026-114938",
-      "against",
-      "avx",
-      "cpu",
-      "defending",
-      "enable",
-      "java4shell",
-      "openjdk",
-      "rce",
-      "vulnerability"
+      "1.26.1",
+      "1.26.2",
+      "2026",
+      "compromised",
+      "credential",
+      "every",
+      "framework",
+      "microsoft",
+      "november",
+      "pypi",
+      "python",
+      "ship",
+      "start",
+      "stealer"
     ]
   }
 ]
