@@ -395,5 +395,24 @@
       "return",
       "say"
     ]
+  },
+  {
+    "date": "2026-11-18",
+    "url": "https://www.sentinelone.com/blog/java4shell-vulnerability-in-openjdk-enables-rce-on-avx-512-cpus/",
+    "title": "Defending Against Java4Shell: Vulnerability in OpenJDK Enables RCE on AVX-512 CPUs",
+    "section": "AI Agents & Agent Security",
+    "key_tokens": [
+      "512",
+      "CVE-2026-114938",
+      "against",
+      "avx",
+      "cpu",
+      "defending",
+      "enable",
+      "java4shell",
+      "openjdk",
+      "rce",
+      "vulnerability"
+    ]
   }
 ]

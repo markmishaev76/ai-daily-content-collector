@@ -155,6 +155,12 @@
   "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
   "image": "https://aembit.io/wp-content/uploads/2025/12/MCP-vs-Traditional-API-Security.jpg"
  },
+ "https://aembit.io/blog/when-an-ai-agent-does-the-job-who-owns-the-outcome/": {
+  "description": "Explore how a shared responsibility model for AI agents can define human oversight and enforce access limits before mistakes reach production.",
+  "fetched": "2026-11-18",
+  "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
+  "image": "https://aembit.io/wp-content/uploads/2026/11/Shared-Responsibility.jpg"
+ },
  "https://alfy.blog/2026/04/23/stop-hardcoding-your-timeouts.html": {
   "description": "Hardcoded timeouts with no config options are a silent tax on developers outside the wealthy west. A rant about npx skills, Docker Gordon, and the arrogance of assuming everyone has a fast connection.",
   "fetched": "2026-11-03",
@@ -485,6 +491,12 @@
   "icon": "https://blog.cloudflare.com/favicon.ico",
   "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M5X2YJT16K16BFFJGEMCAXRS.01M5X2YM62P3YQRBGRP96FS4P6.png"
  },
+ "https://blog.cloudflare.com/quad9-withdrawal-from-france/": {
+  "description": "Quad9's forced withdrawal from France highlights the dangers of mandating DNS-level blocking.",
+  "fetched": "2026-11-18",
+  "icon": "https://blog.cloudflare.com/favicon.ico",
+  "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7NJA0M7FAQEQZBW0K0W5KKS.png"
+ },
  "https://blog.darlinghq.org/2026/11/08/development-update-q4-2026/": {
   "description": "It's been a while since our last progress report, and a lot has changed. This update covers the biggest shifts in the project: our new policy on AI-assisted contributions, initial ARM64 support, and what we plan to work on next.",
   "fetched": "2026-11-12",
@@ -689,6 +701,12 @@
   "icon": "https://caleb.software/favicon.svg",
   "image": null
  },
+ "https://calif.io/java4shell/": {
+  "description": "A memory-corruption vulnerability in OpenJDK's Base64 decoder. Discovered and reported by Calif.",
+  "fetched": "2026-11-18",
+  "icon": "https://calif.io/favicon.ico",
+  "image": "https://calif.io/java4shell/poster.jpg"
+ },
  "https://calmatters.org/economy/technology/2026/11/california-is-suing-openai-over-hugging-face-hack/": {
   "description": "California Attorney General Rob Bonta filed a lawsuit against OpenAI, saying its lack of safeguards led to the Hugging Face hack.",
   "fetched": "2026-11-17",
@@ -838,6 +856,12 @@
   "fetched": "2026-11-10",
   "icon": "https://connect.queenslibrary.org/images/favicon/queens/QPL_favicon_01.png",
   "image": null
+ },
+ "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in": {
+  "description": "IRS sign-in through ID.me: its terms require arbitration absent a 30-day opt-out; government verification data is excluded from Shop marketing, with exceptions.",
+  "fetched": "2026-11-18",
+  "icon": "https://consumerrights.wiki/images/favicon-96x96.png",
+  "image": "https://consumerrights.wiki/images/logo/new_fixed_logo.png"
  },
  "https://contraptions.venkateshrao.com/p/cognitive-mercantilism": {
   "description": "AI panic weirdly resembles the anxiety that accompanied early capitalism",
@@ -1817,6 +1841,12 @@
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://opengraph.githubassets.com/0ab5f0062dc446fe550ee8ec680023b2cc7245def9730b20ba3c42153d7b1c1f/matheuzgomes/gawain"
  },
+ "https://github.com/microsoft/onnxruntime": {
+  "description": null,
+  "fetched": "2026-11-18",
+  "icon": null,
+  "image": null
+ },
  "https://github.com/mottopanikeiku/doomformer": {
   "description": "Compile an integer neural network into a DOOM map. Voodoo dolls do the arithmetic, light levels and plane heights hold the values, and every value is checked against NumPy with tolerance 0. - motto...",
   "fetched": "2026-10-30",
@@ -1996,6 +2026,12 @@
   "fetched": "2026-10-29",
   "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
   "image": "https://a-us.storyblok.com/f/1022730/1280x720/4aa960a5a7/o11y-bench-sii-meta.png/m/1200x630/filters:quality(80)/"
+ },
+ "https://grafana.com/blog/find-the-log-line-that-matters-faster-with-full-text-search-in-grafana-cloud-logs/": {
+  "description": "With full-text search in Grafana Cloud Logs, you can find specific request IDs, user IDs, and error strings across weeks of logs in seconds.",
+  "fetched": "2026-11-18",
+  "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
+  "image": "https://a-us.storyblok.com/f/1022730/1200x630/68b9062392/grafana-cloud-logs-meta.jfif"
  },
  "https://grafana.com/blog/grafana-13-3-release-all-the-latest-features/": {
   "description": "Explore what's new in Grafana 13.3, including cross-dashboard variables, Notebooks for capturing and sharing your findings across Grafana, and a first look at the refreshed Grafana UI.",
@@ -2867,6 +2903,12 @@
   "icon": "https://substackcdn.com/icons/substack/apple-touch-icon.png",
   "image": "https://substackcdn.com/image/fetch/$s_!glPN!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Ftidyfirst.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D1077263058%26version%3D9"
  },
+ "https://newsletter.posthog.com/p/decision-models": {
+  "description": "How we use decision models",
+  "fetched": "2026-11-18",
+  "icon": "https://substackcdn.com/image/fetch/$s_!iyFm!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a8f2331-7055-4f73-bbf8-ab2f4815f8d9%2Fapple-touch-icon-57x57.png",
+  "image": "https://substackcdn.com/image/fetch/$s_!wD8h!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff406379a-4ff2-4e21-aaac-69cda7d7b37e_1200x630.png"
+ },
  "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling": {
   "description": "When AI handles 95% of your incident response, do you get worse at handling the 5% that actually matters?",
   "fetched": "2026-10-31",
@@ -3026,6 +3068,12 @@
  "https://openai.com/index/ai-effect-on-freelance-work": {
   "description": null,
   "fetched": "2026-11-10",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/astra-law-6-2": {
+  "description": null,
+  "fetched": "2026-11-18",
   "icon": null,
   "image": null
  },
@@ -3215,6 +3263,12 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/index/introducing-chatgpt-for-sales": {
+  "description": null,
+  "fetched": "2026-11-18",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/introducing-chatgpt-wallet": {
   "description": null,
   "fetched": "2026-11-14",
@@ -3230,6 +3284,12 @@
  "https://openai.com/index/introducing-gpt-6-1-terra/": {
   "description": null,
   "fetched": "2026-10-27",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/introducing-gpt-6-2-astra-sol": {
+  "description": null,
+  "fetched": "2026-11-18",
   "icon": null,
   "image": null
  },
@@ -3593,6 +3653,12 @@
   "icon": "https://phorion.io/images/apple-touch-icon.png",
   "image": "https://phorion.io/images/default-social-card.png"
  },
+ "https://phrack.org/issues/73/introduction_md.html": {
+  "description": "Last year marked the 40th anniversary of Phrack so we went big. We published our anniversary launch release in print at Defcon 33, HOPE, WHY25 and some additional variations at several conferences around the world including AlligatorCon, B-Sides Canberra, Out of the Box, Datenspuren, DistrictCon, OffensiveCon, Recon, and Toorcamp. We included a CTF",
+  "fetched": "2026-11-18",
+  "icon": "https://phrack.org/apple-touch-icon.png",
+  "image": "https://phrack.org/images/phrack-new.webp"
+ },
  "https://pietromiotti.com/latest/maya-site": {
   "description": "AI agents analyzed public lidar data overnight and found a Maya site under the jungle. It turned out archaeologists had mapped it already, but it wasn't in Mexico's official register yet.",
   "fetched": "2026-11-12",
@@ -3677,6 +3743,12 @@
   "icon": "https://img.alicdn.com/imgextra/i4/O1CN01OXv3EM1FN8t9W4P79_!!6000000000474-2-tps-80-80.png",
   "image": "https://img.alicdn.com/imgextra/i4/O1CN01OXv3EM1FN8t9W4P79_!!6000000000474-2-tps-80-80.png"
  },
+ "https://randsinrepose.com/archives/is-everything-broken/": {
+  "description": "Briefly. It seems that every day there's another service down or impacted. The first thing to know is that this is the week before Thanksgiving, and as a person",
+  "fetched": "2026-11-18",
+  "icon": "https://randsinrepose.com/nitropack_static/pYcrXSmzMTYaBCajyDlByLkiWOiRWpVF/assets/images/optimized/rev-7d0833b/randsinrepose.com/wp-content/uploads/2025/08/cropped-rands-favicon-1-180x180.png",
+  "image": null
+ },
  "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/": {
   "description": "Burger King and McDonald's were not hacked. Someone re-registered the Bitly links in their 2011 tweets, and 57 of 97 links in old Trump tweets have been replaced too.",
   "fetched": "2026-11-16",
@@ -3735,6 +3807,12 @@
   "description": null,
   "fetched": "2026-11-15",
   "icon": null,
+  "image": null
+ },
+ "https://revscope.co/blog/search-seo-geo-2026/": {
+  "description": "Google's AI answers are taking clicks from websites in the search results. In a randomized experiment, researchers hid AI Overviews from some US desktop users. Comparing them with users who still saw Overviews shows that an Overview cuts clicks to outside websites by about 40%. Those Overviews now appear on more than half the US keywords DataForSEO tracks, up from 6% two years ago. The industry's answer, GEO (generative engine optimization), has yet to show a way to compensate for the loss. While AI citations correlate with the same kind of link profile that goes with higher Google rankings, in March AI assistants sent websites just 0.3% of their traffic.",
+  "fetched": "2026-11-18",
+  "icon": "https://revscope.co/favicon.ico",
   "image": null
  },
  "https://rikiyat.github.io/blog/weight-space-programming/": {
@@ -3796,6 +3874,12 @@
   "fetched": "2026-11-11",
   "icon": "https://sebastianraschka.com/images/favicons/favicon-32x32.png",
   "image": "https://sebastianraschka.com/images/blog/2026/full-to-hybrid-attention/full-to-hybrid-attention.webp"
+ },
+ "https://sebastianraschka.com/blog/2026/llm-pretraining-without-learning-rate-decay.html": {
+  "description": "A quick comparison of LLM pre-training recipes using cosine decay, warmup-stable-decay, or constant learning rates with checkpoint averaging.",
+  "fetched": "2026-11-18",
+  "icon": "https://sebastianraschka.com/images/favicons/favicon-32x32.png",
+  "image": "https://sebastianraschka.com/images/blog/2026/llm-pretraining-without-learning-rate-decay/pretraining-without-learning-rate-decay.webp"
  },
  "https://sebastianraschka.com/blog/2026/open-october-llm-architecture-releases.html": {
   "description": "A roundup of ten open-weight LLM architecture releases from October 2026, covering attention mechanisms, hybrid layers, and MoE designs.",
@@ -4919,6 +5003,12 @@
   "icon": "https://wherewerewe.app/apple-touch-icon.png",
   "image": "https://wherewerewe.app/og.png?v=1"
  },
+ "https://wiki.archiveteam.org/index.php/Apple_Discussions": {
+  "description": null,
+  "fetched": "2026-11-18",
+  "icon": "https://wiki.archiveteam.org/favicon.ico",
+  "image": null
+ },
  "https://wikihack.netlify.app": {
   "description": "The Wikipedia articles Hacker News keeps linking to, ranked by how many different commenters linked them.",
   "fetched": "2026-11-02",
@@ -5068,6 +5158,12 @@
   "fetched": "2026-10-23",
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://images.workoscdn.com/images/5d480dfa-2b71-47eb-b8d0-4cb0444e6de7.png?auto=format&fit=clip&q=80"
+ },
+ "https://workos.com/blog/mcp-server-call-api-on-behalf-of-user": {
+  "description": "Use WorkOS Connect token exchange to swap the user's MCP token for one scoped to your API, then check the claims your API needs to trust it.",
+  "fetched": "2026-11-18",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://images.workoscdn.com/images/a40d7596-6585-4655-884f-49d4da4ae9ee.png?auto=format&fit=clip&q=80"
  },
  "https://workos.com/blog/organization-scoped-custom-roles": {
   "description": "Environment roles apply to every organization. A custom role belongs to one, so you can give a customer the role they asked for without touching the rest.",
@@ -5242,6 +5338,12 @@
   "fetched": "2026-11-13",
   "icon": "https://cdn.prod.website-files.com/642adcaf364024552e71df01/6acf3def6456cdb50f820e2e_favicon-512.jpg",
   "image": "https://cdn.prod.website-files.com/642adcaf364024654c71df23/6af53277e55e46f45ff3cbee_GitHub_OG.jpg"
+ },
+ "https://www.aikido.dev/blog/java-17-rce-vulnerability-cve-2026-114938": {
+  "description": "Java4Shell (CVE-2026-114938) is a reported pre-auth RCE in Java 17, 21, 25 and 27. See affected versions, fixed builds and how to check your exposure.",
+  "fetched": "2026-11-18",
+  "icon": "https://cdn.prod.website-files.com/642adcaf364024552e71df01/6acf3def6456cdb50f820e2e_favicon-512.jpg",
+  "image": "https://cdn.prod.website-files.com/642adcaf364024654c71df23/6afc5243bb4ae6870f759309_Node-JS_OG%20(2).jpg"
  },
  "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497": {
   "description": "The Brotli flaw behind Node2Shell (CVE-2026-111497) affects many libraries and applications using HTTP with Brotli or brotlicffi installed. Check your versions and upgrade to the fix.",
@@ -5861,6 +5963,12 @@
   "icon": "https://www.cbsnews.com/fly/bundles/cbsnewscore/icons/icon-192x192.png",
   "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/11/abfecdbe-5571-42df-95f8-6c22131067aa/thumbnail/1200x630/526b47f241e8e11c31cb47bc82f1f68c/gettyimages-2296986024-1.jpg"
  },
+ "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference": {
+  "description": "Cerebras pairs AMD GPUs for prefill with wafer-scale decode to deliver 5× more tokens per megawatt without reducing token generation speed.",
+  "fetched": "2026-11-18",
+  "icon": "https://cdn.sanity.io/images/e4qjo92p/production/e7a55ae5ab7e2c4fdfd4e66a51f628d1f2f44207-967x967.png?w=512&h=512&fit=max&auto=format",
+  "image": "https://cdn.sanity.io/images/e4qjo92p/production/517b4d022eca11a8f17ad828fc698df3b3cd7d86-1920x1080.png?rect=0,36,1920,1008&w=1200&h=630&fit=max&auto=format"
+ },
  "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras": {
   "description": "Learn how Cerebras maps trillion-parameter frontier models across WSE-3T wafers to deliver scalable inference at 1,000–2,000+ tokens per second.",
   "fetched": "2026-10-25",
@@ -5920,6 +6028,18 @@
   "fetched": "2026-11-14",
   "icon": null,
   "image": "https://images.ctfassets.net/l47ir7rfykkn/1ZYE7BoVOqRzXuMDf28B2m/bbd079e4fa17b86be5702aa5c4535fbe/Project_Theseus_-_Dark.png"
+ },
+ "https://www.chainguard.dev/unchained/java4shell-how-a-malformed-base64-string-breaks-the-jvm-on-avx-512": {
+  "description": "Java4Shell affects Java 17, 21, 25, and 27. Learn how this critical vulnerability works, which systems are exposed, and how to protect them.",
+  "fetched": "2026-11-18",
+  "icon": null,
+  "image": "https://images.ctfassets.net/l47ir7rfykkn/2nAE9A4Go5GgSHrTTRbhPd/2a6db04f64c2b587fc02f8d9b2d0a858/Java4Shell.png"
+ },
+ "https://www.chainguard.dev/unchained/microsoft-agent-framework-compromised-on-pypi-november-2026": {
+  "description": "Two malicious versions of Microsoft's agent-framework targeted cloud credentials and AI API keys. Learn how Chainguard detected and blocked the attack.",
+  "fetched": "2026-11-18",
+  "icon": null,
+  "image": "https://images.ctfassets.net/l47ir7rfykkn/37UXfGLVWJiH7J11pJEaFc/3bb8b4cf9664c85edba5b1878aa617e9/agent-framework.png"
  },
  "https://www.chainguard.dev/unchained/microvms-egress-mitm-and-sealed-tokens-sandboxing-untrusted-code-at-scale": {
   "description": "Chainguard explains the engineering behind secure CI for AI agents, from microVM isolation and network controls to instant startup and signed results.",
@@ -6329,9 +6449,21 @@
   "icon": null,
   "image": null
  },
+ "https://www.hashicorp.com/blog/from-exposed-secrets-to-managed-credentials": {
+  "description": null,
+  "fetched": "2026-11-18",
+  "icon": null,
+  "image": null
+ },
  "https://www.hashicorp.com/blog/from-insight-to-action-improving-infrastructure-risk-posture-with-terraform-and-c": {
   "description": null,
   "fetched": "2026-11-11",
+  "icon": null,
+  "image": null
+ },
+ "https://www.hashicorp.com/blog/hcp-introduces-ibmid-support-and-new-enterprise-governance-capabilities": {
+  "description": null,
+  "fetched": "2026-11-18",
   "icon": null,
   "image": null
  },
@@ -6790,6 +6922,12 @@
   "fetched": "2026-11-12",
   "icon": "https://www.mcmillen.dev/favicon.ico",
   "image": null
+ },
+ "https://www.metabase.com/blog/mcp-tool-design-lessons": {
+  "description": "Building an MCP server? Learn from our rebuild of the Metabase MCP server: fewer tools, edits instead of rewrites, and errors that tell the model how to fix them.",
+  "fetched": "2026-11-18",
+  "icon": "https://cdn.metabase.com/images/apple-touch-icon.png",
+  "image": "https://cdn.metabase.com/images/mcp-server-v2.webp"
  },
  "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64": {
   "description": "openQ4 0.14.1, the Awakening Edition: play the recovered Quake 4 expansion beside the original campaign, with stable shadow mapping, a new interface, Vulkan on Windows, smarter bots and an experimental Android app.",
@@ -7301,6 +7439,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Linux-vulnerability-malware.jpeg"
  },
+ "https://www.securityweek.com/ai-framework-autonomously-weaponized-flaws-in-real-attacks-google-says/": {
+  "description": "GTIG has observed APTs and cybercrime groups increasingly adopting generative AI across operations, including multi-agent frameworks.",
+  "fetched": "2026-11-18",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2025/07/AI-Chatbot-GenAI-artificial-intelligence.jpg"
+ },
  "https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/": {
   "description": "Hackers have been stealing AI access tokens for LLM-jacking and have been using AI-assisted offensive tools to accelerate attacks.",
   "fetched": "2026-11-05",
@@ -7517,6 +7661,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/11/FAA_Cyberattack-Ground-Stop.jpg"
  },
+ "https://www.securityweek.com/fandango-warns-ticket-buyers-of-payment-card-data-exposure/": {
+  "description": "Fandango says an unauthorized party could access payment card data tied to some checkout transactions made between October 8 and 11.",
+  "fetched": "2026-11-18",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/11/Fandango.jpeg"
+ },
  "https://www.securityweek.com/fbi-flags-over-600-addresses-tied-to-north-koreas-binance-heist/": {
   "description": "The FBI has officially pinned the $6 billion Binance hack on North Korea’s TraderTraitor as the attackers launder the stolen crypto.",
   "fetched": "2026-11-02",
@@ -7721,6 +7871,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/06/supply-chain-threat.webp"
  },
+ "https://www.securityweek.com/market-research-giant-ipsos-investigating-breach-of-internal-system/": {
+  "description": "French market research company Ipsos says it is investigating a breach that hit one of its internal information systems.",
+  "fetched": "2026-11-18",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/11/Ipsos.jpeg"
+ },
  "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/": {
   "description": "Hackers exploited CVE-2026-97229, a max-severity code execution vulnerability in GitLab, against Alpine Linux’s instance.",
   "fetched": "2026-11-01",
@@ -7756,6 +7912,12 @@
   "fetched": "2026-10-23",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2024/06/PHP.jpeg"
+ },
+ "https://www.securityweek.com/msp-screenconnect-servers-targeted-in-month-long-campaign/": {
+  "description": "Hackers have targeted over 40 MSP ScreenConnect servers with requests exploiting CVE-2026-84869 to execute guest-pushed files.",
+  "fetched": "2026-11-18",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2024/02/ConnectWise.jpeg"
  },
  "https://www.securityweek.com/mythos-5-ignored-real-world-harm-in-july-attack/": {
   "description": "Anthropic says Mythos 5’s behavior in AISI’s July evaluation was severe, as it used fake identities to submit malicious code on GitHub.",

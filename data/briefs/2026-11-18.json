@@ -1,0 +1,737 @@
+{
+  "date": "2026-11-18",
+  "lead": {
+    "title": "Defending Against Java4Shell: Vulnerability in OpenJDK Enables RCE on AVX-512 CPUs",
+    "link": "https://www.sentinelone.com/blog/java4shell-vulnerability-in-openjdk-enables-rce-on-avx-512-cpus/",
+    "excerpt": "On November 17, 2026, security researchers at Calif disclosed Java4Shell (CVE-2026-114938, CVSS 4.0: 9.2 Critical), a memory-corruption vulnerability in OpenJDK’s Base64 decoder that allows malformed Base64 input to trigger remote code execution (RCE).",
+    "source": "SentinelOne",
+    "date": "Nov 17",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiw1l9jYXUC-XLNjqqVjPvFicpQvkj-fwml16Gl43nsTc5TrBGGzijFoCzpxHpfninWaxrDxoCW4J6FKkgO1rPsnVFgFAcMbm9hl9YxeVO6fM4sBrs_tvUOXG8MnKPqDXRal3qNJ2VY7RzqAlj5vJzYI6xVFOxVGV7TyDliY-AIBqKm2bst1d6rCNl2qkhv/s1600/java4shell.jpg",
+    "image_credit": "The Hacker News",
+    "section": "AI Agents & Agent Security",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "2 sources",
+      "CVE-2026-114938",
+      "AI Agents & Agent Security",
+      "3h ago"
+    ],
+    "also": [
+      {
+        "name": "thehackernews.com",
+        "link": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html"
+      }
+    ]
+  },
+  "pulse": [
+    {
+      "title": "Java4Shell: RCE in OpenJDK when processing Base64",
+      "thread": "https://news.ycombinator.com/item?id=50538240",
+      "link": "https://calif.io/java4shell/",
+      "link_domain": "calif.io",
+      "source": "Hacker News",
+      "domain": "calif.io",
+      "meta": "Hacker News · 537 points · 146 comments · 4h ago",
+      "also": [
+        {
+          "source": "Lobsters",
+          "thread": "https://lobste.rs/s/g0bf9i/java4shell_write_once_rce_everywhere"
+        }
+      ],
+      "image": "https://calif.io/java4shell/poster.jpg",
+      "icon": "https://calif.io/favicon.ico"
+    },
+    {
+      "title": "Highly classified US national security communications network goes down",
+      "thread": "https://news.ycombinator.com/item?id=50532849",
+      "link": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
+      "link_domain": "cnn.com",
+      "source": "Hacker News",
+      "domain": "cnn.com",
+      "meta": "Hacker News · 476 points · 551 comments · 10h ago",
+      "also": [],
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1227141714-20261117152535850.jpg?c=16x9&q=w_800,c_fill",
+      "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png"
+    },
+    {
+      "title": "Quad9's withdrawal from France: A canary in the coal mine",
+      "thread": "https://news.ycombinator.com/item?id=50538994",
+      "link": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+      "link_domain": "blog.cloudflare.com",
+      "source": "Hacker News",
+      "domain": "blog.cloudflare.com",
+      "meta": "Hacker News · 302 points · 90 comments · 3h ago",
+      "also": [],
+      "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7NJA0M7FAQEQZBW0K0W5KKS.png",
+      "icon": "https://blog.cloudflare.com/favicon.ico"
+    },
+    {
+      "title": "How the Claude Code team thinks about verification",
+      "thread": "https://news.ycombinator.com/item?id=50529612",
+      "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+      "link_domain": "claude.dev",
+      "source": "Hacker News",
+      "domain": "claude.dev",
+      "meta": "Hacker News · 266 points · 209 comments · 15h ago",
+      "also": [],
+      "image": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/og.png",
+      "icon": "https://claude.dev/shared/img/favicon.svg"
+    },
+    {
+      "title": "Phrack 73",
+      "thread": "https://lobste.rs/s/xu4ajj/phrack_73",
+      "link": "https://phrack.org/issues/73/introduction_md.html",
+      "link_domain": "phrack.org",
+      "source": "Lobsters",
+      "domain": "phrack.org",
+      "meta": "Lobsters · 36 points · 1 comments · 8h ago",
+      "also": [],
+      "image": "https://phrack.org/images/phrack-new.webp",
+      "icon": "https://phrack.org/apple-touch-icon.png"
+    },
+    {
+      "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
+      "thread": "https://news.ycombinator.com/item?id=50531751",
+      "link": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
+      "link_domain": "scmp.com",
+      "source": "Hacker News",
+      "domain": "scmp.com",
+      "meta": "Hacker News · 185 points · 240 comments · 11h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.scmp.com/favicon.ico"
+    },
+    {
+      "title": "Java4Shell: pre-auth RCE flaw in Java 17 puts servers at risk (CVE-2026-114938)",
+      "thread": "https://news.ycombinator.com/item?id=50532118",
+      "link": "https://www.aikido.dev/blog/java-17-rce-vulnerability-cve-2026-114938",
+      "link_domain": "aikido.dev",
+      "source": "Hacker News",
+      "domain": "aikido.dev",
+      "meta": "Hacker News · 149 points · 27 comments · 11h ago",
+      "also": [],
+      "image": "https://cdn.prod.website-files.com/642adcaf364024654c71df23/6afc5243bb4ae6870f759309_Node-JS_OG%20(2).jpg",
+      "icon": "https://cdn.prod.website-files.com/642adcaf364024552e71df01/6acf3def6456cdb50f820e2e_favicon-512.jpg"
+    },
+    {
+      "title": "Regulatory Capture by Anthropic Through METR",
+      "thread": "https://news.ycombinator.com/item?id=50530450",
+      "link": "https://nitter.cf/kevinnbass/status/2099621874279817638",
+      "link_domain": "nitter.cf",
+      "source": "Hacker News",
+      "domain": "nitter.cf",
+      "meta": "Hacker News · 138 points · 74 comments · 13h ago",
+      "also": [],
+      "image": "https://pbs.twimg.com/media/HSNXaLrW4AEnwuB.jpg",
+      "icon": "https://pbs.twimg.com/profile_images/1947236538409988096/hZXVsMlX_400x400.jpg"
+    },
+    {
+      "title": "Not Everything Needs an LLM",
+      "thread": "https://news.ycombinator.com/item?id=50535740",
+      "link": "https://newsletter.posthog.com/p/decision-models",
+      "link_domain": "newsletter.posthog.com",
+      "source": "Hacker News",
+      "domain": "newsletter.posthog.com",
+      "meta": "Hacker News · 102 points · 40 comments · 7h ago",
+      "also": [],
+      "image": "https://substackcdn.com/image/fetch/$s_!wD8h!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff406379a-4ff2-4e21-aaac-69cda7d7b37e_1200x630.png",
+      "icon": "https://substackcdn.com/image/fetch/$s_!iyFm!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a8f2331-7055-4f73-bbf8-ab2f4815f8d9%2Fapple-touch-icon-57x57.png"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI-Assisted Engineering",
+      "cards": [
+        {
+          "title": "External sandboxes for coding agents",
+          "link": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+          "excerpt": "External sandboxes for coding agents I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine. I worked on this…",
+          "source": "Simon Willison",
+          "date": "Nov 17",
+          "image": "https://static.simonwillison.net/static/2026/sandbox-proxy.png",
+          "icon": null,
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 9.037,
+          "coverage": 1
+        },
+        {
+          "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+          "link": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+          "excerpt": "GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and gpt-6.2-sol. I shipped LLM 0.38 with support for the new…",
+          "source": "Simon Willison",
+          "date": "Nov 17",
+          "image": "https://static.simonwillison.net/static/2026/astra-6-2-max.webp",
+          "icon": null,
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 7.187,
+          "coverage": 1
+        },
+        {
+          "title": "Pre-Training Without Learning Rate Decay",
+          "link": "https://sebastianraschka.com/blog/2026/llm-pretraining-without-learning-rate-decay.html",
+          "excerpt": "A quick comparison of LLM pre-training recipes using cosine decay, warmup-stable-decay, or constant learning rates with checkpoint averaging.",
+          "source": "Sebastian Raschka",
+          "date": "Nov 17",
+          "image": "https://sebastianraschka.com/images/blog/2026/llm-pretraining-without-learning-rate-decay/pretraining-without-learning-rate-decay.webp",
+          "icon": "https://sebastianraschka.com/images/favicons/favicon-32x32.png",
+          "domain": "sebastianraschka.com",
+          "hn": null,
+          "score": 0.815,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Put Gemini to work for you",
+          "link": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+          "excerpt": "A user interface displaying the prompt \"What can I get done for you?\" above an input box containing placeholder text \"Describe a task\".",
+          "source": "Google AI",
+          "date": "Nov 17",
+          "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566.max-600x600.format-webp.webp",
+          "icon": null,
+          "domain": "blog.google",
+          "hn": null,
+          "score": 0.853,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "AI Agents & Agent Security",
+      "cards": [
+        {
+          "title": "Rebuilding the Metabase MCP server: lessons for MCP tool design",
+          "link": "https://www.metabase.com/blog/mcp-tool-design-lessons",
+          "excerpt": "Building an MCP server? Learn from our rebuild of the Metabase MCP server: fewer tools, edits instead of rewrites, and errors that tell the model how to fix them.",
+          "source": "metabase.com via Hacker News",
+          "date": "Nov 17",
+          "image": "https://cdn.metabase.com/images/mcp-server-v2.webp",
+          "icon": "https://cdn.metabase.com/images/apple-touch-icon.png",
+          "domain": "metabase.com",
+          "hn": "10 points · 1 comments",
+          "score": 7.509,
+          "coverage": 1
+        },
+        {
+          "title": "Introducing GPT-6.2 Astra and Sol",
+          "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+          "excerpt": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+          "source": "OpenAI News",
+          "date": "Nov 17",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 3.842,
+          "coverage": 1
+        },
+        {
+          "title": "Introducing ChatGPT for Sales",
+          "link": "https://openai.com/index/introducing-chatgpt-for-sales",
+          "excerpt": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+          "source": "OpenAI News",
+          "date": "Nov 17",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.623,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Astra for Law leads in legal intelligence",
+          "link": "https://openai.com/index/astra-law-6-2",
+          "excerpt": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+          "source": "OpenAI News",
+          "date": "Nov 17",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.492,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Leadership",
+      "cards": [
+        {
+          "title": "Is Everything Broken?",
+          "link": "https://randsinrepose.com/archives/is-everything-broken/",
+          "excerpt": "Briefly. It seems that every day there’s another service down or impacted. The first thing to know is that this is the week before Thanksgiving, and as a person who has run online services that need to perform on Black Friday, I can confirm that the two or three weeks before Black Friday is when……",
+          "source": "Rands in Repose",
+          "date": "Nov 17",
+          "image": null,
+          "icon": "https://randsinrepose.com/nitropack_static/pYcrXSmzMTYaBCajyDlByLkiWOiRWpVF/assets/images/optimized/rev-7d0833b/randsinrepose.com/wp-content/uploads/2025/08/cropped-rands-favicon-1-180x180.png",
+          "domain": "randsinrepose.com",
+          "hn": null,
+          "score": 0.833,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Agent Identity & Authorization",
+      "cards": [
+        {
+          "title": "How your MCP server should call your API on the user's behalf",
+          "link": "https://workos.com/blog/mcp-server-call-api-on-behalf-of-user",
+          "excerpt": "Use WorkOS Connect token exchange to swap the user's MCP token for one scoped to your API, then check the claims your API needs to trust it.",
+          "source": "WorkOS Blog",
+          "date": "Nov 17",
+          "image": "https://images.workoscdn.com/images/a40d7596-6585-4655-884f-49d4da4ae9ee.png?auto=format&fit=clip&q=80",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null,
+          "score": 3.164,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Secrets & NHI",
+      "cards": [
+        {
+          "title": "When an AI Agent Does the Job, Who Owns the Outcome?",
+          "link": "https://aembit.io/blog/when-an-ai-agent-does-the-job-who-owns-the-outcome/",
+          "excerpt": "4 min readAn engineer asks an AI agent to investigate a failed deployment. The agent examines logs, identifies a likely cause, and prepares a patch. By the time the engineer returns, much of the investigation is complete. The agent has given the engineer a welcome head start, though the diagnosis…",
+          "source": "Aembit",
+          "date": "Nov 17",
+          "image": "https://aembit.io/wp-content/uploads/2026/11/Shared-Responsibility.jpg",
+          "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
+          "domain": "aembit.io",
+          "hn": null,
+          "score": 4.519,
+          "coverage": 1
+        },
+        {
+          "title": "What the ARTEX FBI Alert Means for Credential Security",
+          "link": "https://blog.gitguardian.com/artex-fbi-alert/",
+          "excerpt": "The FBI’s ARTEX alert shows AI agents reaching privileged access in under three hours, while leaked credentials stay valid for years. Here’s what that gap means for defenders and how to close it.",
+          "source": "GitGuardian",
+          "date": "Nov 17",
+          "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/11/artex-fbi-alert-thumbnail-v4.png",
+          "icon": null,
+          "domain": "blog.gitguardian.com",
+          "hn": null,
+          "score": 2.693,
+          "coverage": 1
+        },
+        {
+          "title": "From exposed secrets to managed credentials: Reducing credential risk across the application lifecycle",
+          "link": "https://www.hashicorp.com/blog/from-exposed-secrets-to-managed-credentials",
+          "excerpt": "Learn how Vault Radar and Vault help organizations find exposed secrets, improve remediation, and reduce credential risk across the application lifecycle.",
+          "source": "HashiCorp",
+          "date": "Nov 17",
+          "image": null,
+          "icon": "https://www.hashicorp.com/favicon.ico",
+          "domain": "hashicorp.com",
+          "hn": null,
+          "score": 1.33,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "HCP introduces IBMid support and new enterprise governance capabilities",
+          "link": "https://www.hashicorp.com/blog/hcp-introduces-ibmid-support-and-new-enterprise-governance-capabilities",
+          "excerpt": "HCP Platform continues to enhance identity management, governance, and administrative workflows, helping organizations securely adopt and operate HashiCorp products at scale.",
+          "source": "HashiCorp",
+          "date": "Nov 16",
+          "image": null,
+          "icon": "https://www.hashicorp.com/favicon.ico",
+          "domain": "hashicorp.com",
+          "hn": null,
+          "score": 0.213,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Supply Chain & Builds",
+      "cards": [
+        {
+          "title": "Clearer Security Signals: Making Attestations Comprehensible for PyPI Users",
+          "link": "https://openssf.org/blog/2026/11/17/clearer-security-signals-making-attestations-comprehensible-for-pypi-users/",
+          "excerpt": "To help developers and package consumers better understand software supply-chain security, the OpenSSF Securing Software Repositories Working Group created an Attestations Style Guide—and its recommendations are now live on PyPI with redesigned project pages and a dedicated security tab.",
+          "source": "Open Source Security Foundation",
+          "date": "Nov 17",
+          "image": "https://openssf.org/wp-content/uploads/2026/11/Nicole-Harris-150x150.png",
+          "icon": null,
+          "domain": "openssf.org",
+          "hn": null,
+          "score": 6.067,
+          "coverage": 1
+        },
+        {
+          "title": "Microsoft agent-framework compromised on PyPI: 1.26.1 and 1.26.2 ship a credential stealer that runs on every Python start (November 2026)",
+          "link": "https://www.chainguard.dev/unchained/microsoft-agent-framework-compromised-on-pypi-november-2026",
+          "excerpt": "Two malicious versions of Microsoft's agent-framework targeted cloud credentials and AI API keys. Learn how Chainguard detected and blocked the attack.",
+          "source": "Chainguard: Unchained",
+          "date": "Nov 17",
+          "image": "https://images.ctfassets.net/l47ir7rfykkn/37UXfGLVWJiH7J11pJEaFc/3bb8b4cf9664c85edba5b1878aa617e9/agent-framework.png",
+          "icon": "https://www.chainguard.dev/favicon.ico",
+          "domain": "chainguard.dev",
+          "hn": null,
+          "score": 2.205,
+          "coverage": 1
+        },
+        {
+          "title": "Java4Shell: How a malformed Base64 string breaks the JVM on AVX-512",
+          "link": "https://www.chainguard.dev/unchained/java4shell-how-a-malformed-base64-string-breaks-the-jvm-on-avx-512",
+          "excerpt": "Java4Shell affects Java 17, 21, 25, and 27. Learn how this critical vulnerability works, which systems are exposed, and how to protect them.",
+          "source": "Chainguard: Unchained",
+          "date": "Nov 17",
+          "image": "https://images.ctfassets.net/l47ir7rfykkn/2nAE9A4Go5GgSHrTTRbhPd/2a6db04f64c2b587fc02f8d9b2d0a858/Java4Shell.png",
+          "icon": "https://www.chainguard.dev/favicon.ico",
+          "domain": "chainguard.dev",
+          "hn": null,
+          "score": 0.315,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "Gemini test proves once again that amoral AI agents will do almost anything if told ‘NEVER give up’",
+          "link": "https://www.theregister.com/security/2026/11/17/gemini-test-proves-once-again-that-amoral-ai-agents-will-do-almost-anything-if-told-never-give-up/5310574",
+          "excerpt": "If you design a test to find misalignment, you will find misalignment",
+          "source": "The Register",
+          "date": "Nov 17",
+          "image": "https://image.theregister.com/?imageId=223243&width=800",
+          "icon": null,
+          "domain": "theregister.com",
+          "hn": null,
+          "score": 2.901,
+          "coverage": 1
+        },
+        {
+          "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
+          "link": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
+          "excerpt": "A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to NebuSec, a security company. Widgets are small interactive blocks that bots send inside chat messages, and their JavaScript runs on the user's phone. The…",
+          "source": "The Hacker News",
+          "date": "Nov 17",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpVlnQrxQ-QDawosxNpQdcPtITzUQKuYeqUtOk0gctwRhi-8P9Qi_9L72cSwkHRdGNS94HaIDHEkqeb0NTPw3mIZyFstN3ZM1FlUoMweKPNz4iTkAkxlxFSNdE92DAFlfLMFe0gTXWE78eOHROSbISVMgdmFOeVhm0SS2-1wXrNxPGknTVMGroQ0pRqYg/s1600/telegram-rce.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.389,
+          "coverage": 1
+        },
+        {
+          "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+          "link": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+          "excerpt": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK. The 11…",
+          "source": "The Hacker News",
+          "date": "Nov 17",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiw1l9jYXUC-XLNjqqVjPvFicpQvkj-fwml16Gl43nsTc5TrBGGzijFoCzpxHpfninWaxrDxoCW4J6FKkgO1rPsnVFgFAcMbm9hl9YxeVO6fM4sBrs_tvUOXG8MnKPqDXRal3qNJ2VY7RzqAlj5vJzYI6xVFOxVGV7TyDliY-AIBqKm2bst1d6rCNl2qkhv/s1600/java4shell.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 10.457,
+          "coverage": 2
+        }
+      ],
+      "more": [
+        {
+          "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
+          "link": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
+          "excerpt": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram. \"Trigram is a large-scale campaign that impersonates about 50 brands in the blockchain and AI sectors, to trick developers…",
+          "source": "The Hacker News",
+          "date": "Nov 17",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXvywoP0qreCtUhDgAD1y24HevVHwAH9bGo904BuaQ7-amvdkk6Oi8gz8WjF-Hwiu3SinN266QM0KwUX6lDnayGOtMaSEff_b5vybBsdwvDhiai2uGsAlYfMgCdquPmKqaqM6eY54pG9HsMR7X5Sf7M4nkbIaHmWJMBG1uL3ggpJMMvfQR6FbMagqug2QG/s1600/target.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.316,
+          "coverage": 1
+        },
+        {
+          "title": "AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says",
+          "link": "https://www.securityweek.com/ai-framework-autonomously-weaponized-flaws-in-real-attacks-google-says/",
+          "excerpt": "Threat actors are deploying multi-agent offensive frameworks to increase the velocity of multi-stage intrusions. The post AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 17",
+          "image": "https://www.securityweek.com/wp-content/uploads/2025/07/AI-Chatbot-GenAI-artificial-intelligence.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.363,
+          "coverage": 1
+        },
+        {
+          "title": "Market Research Giant Ipsos Investigating Breach of Internal System",
+          "link": "https://www.securityweek.com/market-research-giant-ipsos-investigating-breach-of-internal-system/",
+          "excerpt": "The company made the incident public on Monday, November 16, five days after filing a complaint with authorities. The post Market Research Giant Ipsos Investigating Breach of Internal System appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 17",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/Ipsos.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 2.175,
+          "coverage": 1
+        },
+        {
+          "title": "Fandango Warns Ticket Buyers of Payment Card Data Exposure",
+          "link": "https://www.securityweek.com/fandango-warns-ticket-buyers-of-payment-card-data-exposure/",
+          "excerpt": "Card numbers, CVVs, expiration dates, and email addresses used at Fandango’s ticketing checkout over four days in October may have been exposed. The post Fandango Warns Ticket Buyers of Payment Card Data Exposure appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 17",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/Fandango.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.302,
+          "coverage": 1
+        },
+        {
+          "title": "MSP ScreenConnect Servers Targeted in Month-Long Campaign",
+          "link": "https://www.securityweek.com/msp-screenconnect-servers-targeted-in-month-long-campaign/",
+          "excerpt": "More than 40 servers received over 688,000 requests exploiting CVE-2026-84869 to execute guest-pushed files. The post MSP ScreenConnect Servers Targeted in Month-Long Campaign appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 17",
+          "image": "https://www.securityweek.com/wp-content/uploads/2024/02/ConnectWise.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 2.041,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "Secure MCP integrations for AWS DevOps Agent with Amazon Bedrock AgentCore",
+          "link": "https://aws.amazon.com/blogs/devops/secure-mcp-integrations-for-aws-devops-agent-with-amazon-bedrock-agentcore/",
+          "excerpt": "As you connect more Model Context Protocol (MCP) tools to AWS DevOps Agent, each one adds its own authentication, credential rotation, and audit overhead. This post shows how to extend AWS DevOps Agent with MCP tools securely using Amazon Bedrock AgentCore, so new tools inherit consistent…",
+          "source": "AWS DevOps & Developer Productivity Blog",
+          "date": "Nov 17",
+          "image": "https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2026/11/16/DEVOPS-25294-1.png",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 4.472,
+          "coverage": 1
+        },
+        {
+          "title": "Google Cloud is a Leader in the 2026 Gartner Magic Quadrant for AI Application Development Platforms",
+          "link": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-is-a-leader-in-the-2026-gartner-magic-quadrant/",
+          "excerpt": "For the third time in a row, Google Cloud is recognized as a Leader in the 2026 Gartner Magic Quadrant for AI Application Development Platforms, positioned highest overall on the Ability to Execute axis.1 These days, it’s very clear to us that organizations are looking for AI to handle actual…",
+          "source": "Cloud Blog",
+          "date": "Nov 17",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_sot3w8r.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 3.984,
+          "coverage": 1
+        },
+        {
+          "title": "How to Build Durable Agentic Systems with Google Antigravity: From Instructions to Loops",
+          "link": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-build-durable-agentic-systems-with-google-antigravity-from-instructions-to-loops/",
+          "excerpt": "I watched the discussion on agentic loops grow louder over the past few months. But for me, the reality is simpler: prompt engineering has shifted from individual tasks to systems design, and the harness around the model (not the model itself) is now my primary constraint in software engineering.…",
+          "source": "Cloud Blog",
+          "date": "Nov 18",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/how-to-build-durable-agentic-systems-with-go.max-600x600.jpg",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 4.943,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "The visual evolution of Looker: Modern design for enterprise data storytelling",
+          "link": "https://cloud.google.com/blog/products/business-intelligence/modern-data-visualizations-and-custom-charts-in-looker/",
+          "excerpt": "Over the past year, we’ve focused on making Looker easier to use for every business user. We started by redesigning the exploration experience with drag-and-drop workspaces, streamlined field pickers, and conversational analytics to make it easier to start from a blank canvas. The next step is…",
+          "source": "Cloud Blog",
+          "date": "Nov 17",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1_-_KPI_Visualization_in_Looker.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 3.26,
+          "coverage": 1
+        },
+        {
+          "title": "Engineering AI Discover",
+          "link": "https://netflixtechblog.com/engineering-ai-discover-e244944cdc38?source=rss----2615bd06b42e---4",
+          "excerpt": "The challenges and decisions behind AI Discover’s intelligence layerBy Varun Khaitan, Peng Ren, Gary Tang, Itay Teller, Atif Faheem, Nipun Kumar, Donnie DeBoer, Eduardo Lundgren, Matteo Rinaldi, Raghav BakshiWe recently introduced AI Discover, a new tab in our TV app where a small group of members…",
+          "source": "Netflix TechBlog - Medium",
+          "date": "Nov 17",
+          "image": "https://cdn-images-1.medium.com/max/1000/1*MSAqZ2TgZxKfGifhug2wuA.gif",
+          "icon": null,
+          "domain": "netflixtechblog.com",
+          "hn": null,
+          "score": 2.988,
+          "coverage": 1
+        },
+        {
+          "title": "Securely exposing Amazon Bedrock AgentCore Runtime",
+          "link": "https://aws.amazon.com/blogs/security/securely-exposing-amazon-bedrock-agentcore-runtime/",
+          "excerpt": "Amazon Bedrock AgentCore Runtime delivers a secure serverless environment to deploy AI agents and tools at scale. When you start talking to your agent, the runtime launches a dedicated isolated session that runs in its own dedicated microVM with a completely sandboxed CPU, memory, and filesystem…",
+          "source": "AWS Security Blog",
+          "date": "Nov 17",
+          "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/12/Securely-exposing-Amazon-Bedrock-Figure-1.png",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 3.613,
+          "coverage": 1
+        },
+        {
+          "title": "Find the log line that matters faster with full-text search in Grafana Cloud Logs",
+          "link": "https://grafana.com/blog/find-the-log-line-that-matters-faster-with-full-text-search-in-grafana-cloud-logs/",
+          "excerpt": "A support ticket comes in with one clue: a transaction ID. The answer is somewhere in your logs, but you don't know which service logged it, which pod handled it, or which day it happened. So you write the query you always write, {service=\"payments\"} |= \"txn-123456\", widen the time range to the…",
+          "source": "Grafana Labs blog on Grafana Labs",
+          "date": "Nov 17",
+          "image": "https://a-us.storyblok.com/f/1022730/1200x630/68b9062392/grafana-cloud-logs-meta.jfif",
+          "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
+          "domain": "grafana.com",
+          "hn": null,
+          "score": 2.395,
+          "coverage": 1
+        },
+        {
+          "title": "How Shopify Orchestrates AI-Powered Mobile App Development Without Overloading Developers' Machines",
+          "link": "https://www.infoq.com/news/2026/11/shopify-remote-ai-dev/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "To prevent AI development workflows from exhausting developer machines' resources, Shopify built Remote Dev, a remote mobile development environment that enables AI agents to independently build, test and maintain iOS and Android applications and in parallel. By Sergio De Simone",
+          "source": "InfoQ",
+          "date": "Nov 17",
+          "image": "https://res.infoq.com/news/2026/11/shopify-remote-ai-dev/en/headerimage/shopify-ruvy-ruby-wasm-1794947458635.jpeg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 2.97,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
+          "link": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
+          "excerpt": "Word, Excel, and PowerPoint now live inside Copilot; always-on agents are next.",
+          "source": "Ars Technica",
+          "date": "Nov 18",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/MS_Ignite_Perception-500x454.png",
+          "icon": null,
+          "domain": "arstechnica.com",
+          "hn": null,
+          "score": 3.491,
+          "coverage": 1
+        },
+        {
+          "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
+          "link": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+          "excerpt": "Instagram is filled with people posting deepfaked content - including, as of late, from one of Meta's most prominent executives. Earlier in November, Alexandr Wang, Meta's chief AI officer, shared a short clip to promote Muse, the company's consumer AI agent. In the AI-generated clip, Wang, Meta…",
+          "source": "The Verge",
+          "date": "Nov 17",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2297785644.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "icon": null,
+          "domain": "theverge.com",
+          "hn": null,
+          "score": 2.378,
+          "coverage": 1
+        },
+        {
+          "title": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems",
+          "link": "https://spectrum.ieee.org/ieee-ethics-ai-systems",
+          "excerpt": "Policymakers, technologists, and members of the public have raised concerns about the harm AI’s rapid advancement might cause to society. Their concerns include bias, data privacy violations, the spread of misinformation, and losing control of AI agents.Those issues are relatively new to many…",
+          "source": "IEEE Spectrum",
+          "date": "Nov 17",
+          "image": "https://spectrum.ieee.org/media-library/illustration-of-floating-hands-inspecting-the-use-of-ai-features-across-a-laptop-computer-academic-paper-and-the-world-wide-web.jpg?id=68699342&width=980",
+          "icon": null,
+          "domain": "spectrum.ieee.org",
+          "hn": null,
+          "score": 2.128,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Cerebras Disaggregated Inference",
+          "link": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+          "excerpt": "Cerebras pairs AMD GPUs for prefill with wafer-scale decode to deliver 5× more tokens per megawatt without reducing token generation speed.",
+          "source": "cerebras.ai via Hacker News",
+          "date": "Nov 18",
+          "image": "https://cdn.sanity.io/images/e4qjo92p/production/517b4d022eca11a8f17ad828fc698df3b3cd7d86-1920x1080.png?rect=0,36,1920,1008&w=1200&h=630&fit=max&auto=format",
+          "icon": "https://cdn.sanity.io/images/e4qjo92p/production/e7a55ae5ab7e2c4fdfd4e66a51f628d1f2f44207-967x967.png?w=512&h=512&fit=max&auto=format",
+          "domain": "cerebras.ai",
+          "hn": "13 points · 3 comments",
+          "score": 2.182,
+          "coverage": 1
+        },
+        {
+          "title": "ID.me terms required for IRS sign-in",
+          "link": "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in",
+          "excerpt": "IRS sign-in through ID.me: its terms require arbitration absent a 30-day opt-out; government verification data is excluded from Shop marketing, with exceptions.",
+          "source": "consumerrights.wiki via Hacker News",
+          "date": "Nov 18",
+          "image": "https://consumerrights.wiki/images/logo/new_fixed_logo.png",
+          "icon": "https://consumerrights.wiki/images/favicon-96x96.png",
+          "domain": "consumerrights.wiki",
+          "hn": "67 points · 6 comments",
+          "score": 3.055,
+          "coverage": 1
+        },
+        {
+          "title": "Google's AI answers reducing search traffic by 40%",
+          "link": "https://revscope.co/blog/search-seo-geo-2026/",
+          "excerpt": "Google's AI answers are taking clicks from websites in the search results. In a randomized experiment, researchers hid AI Overviews from some US desktop users. Comparing them with users who still saw Overviews shows that an Overview cuts clicks to outside websites by about 40%. Those Overviews now…",
+          "source": "revscope.co via Hacker News",
+          "date": "Nov 18",
+          "image": null,
+          "icon": "https://revscope.co/favicon.ico",
+          "domain": "revscope.co",
+          "hn": "60 points · 36 comments",
+          "score": 3.087,
+          "coverage": 1
+        },
+        {
+          "title": "Archive Team is archiving the Apple Support Community (closes November 20, 2026)",
+          "link": "https://wiki.archiveteam.org/index.php/Apple_Discussions",
+          "excerpt": "77 points · 27 comments",
+          "source": "wiki.archiveteam.org via Hacker News",
+          "date": "Nov 17",
+          "image": null,
+          "icon": "https://wiki.archiveteam.org/favicon.ico",
+          "domain": "wiki.archiveteam.org",
+          "hn": "77 points · 27 comments",
+          "score": 2.971,
+          "coverage": 1
+        },
+        {
+          "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
+          "link": "https://github.com/microsoft/onnxruntime",
+          "excerpt": "124 points · 29 comments",
+          "source": "github.com via Hacker News",
+          "date": "Nov 17",
+          "image": null,
+          "icon": "https://github.com/favicon.ico",
+          "domain": "github.com",
+          "hn": "124 points · 29 comments",
+          "score": 3.13,
+          "coverage": 1
+        }
+      ]
+    }
+  ]
+}
