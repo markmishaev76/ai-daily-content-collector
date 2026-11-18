@@ -1,30 +1,25 @@
 {
   "date": "2026-11-18",
   "lead": {
-    "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
-    "link": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
-    "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active…",
-    "source": "The Hacker News",
+    "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
+    "link": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
+    "excerpt": "November 17, 2026 — GPT-6.2 Astra and Sol lower benchmark costs. Early testers disagree on what Astra is like to work with.",
+    "source": "Latent Space",
     "date": "Nov 18",
-    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoFKMFLPbzyM7RGi89XdpVFUfFqLH2C0QnAIyZfTSZIkvQNT8jhFEdMdW3D1qPXE0MjtV-q8fM1Alicz0wEuNJ6fnIjOs3BY8D7ABBRWNqPg6NGz9FjhbSQhapwUDZPDyg3kJEy9CZeUwbcmZ3N5nCU8bH6bkCo4BgLfhlE3R3AdDi9CvLVgjqlMW42Pm2/s1600/puppet.jpg",
+    "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/38ecd72a-69fc-402f-ab81-15ac4b07bf8c/image.png?t=1794996495",
     "image_credit": null,
-    "section": "Security & AppSec",
+    "section": "AI Agents & Agent Security",
     "pinned": false,
     "note": null,
     "labels": [
-      "3 sources",
-      "CVE-2026-114938",
-      "Security & AppSec",
-      "1h ago"
+      "2 sources",
+      "AI Agents & Agent Security",
+      "3h ago"
     ],
     "also": [
       {
-        "name": "sentinelone.com",
-        "link": "https://www.sentinelone.com/blog/java4shell-vulnerability-in-openjdk-enables-rce-on-avx-512-cpus/"
-      },
-      {
-        "name": "bleepingcomputer.com",
-        "link": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/"
+        "name": "openai.com",
+        "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
       }
     ]
   },
@@ -36,7 +31,7 @@
       "link_domain": "calif.io",
       "source": "Hacker News",
       "domain": "calif.io",
-      "meta": "Hacker News · 943 points · 240 comments · 13h ago",
+      "meta": "Hacker News · 1k points · 273 comments · 16h ago",
       "also": [
         {
           "source": "Lobsters",
@@ -53,7 +48,7 @@
       "link_domain": "blog.cloudflare.com",
       "source": "Hacker News",
       "domain": "blog.cloudflare.com",
-      "meta": "Hacker News · 603 points · 199 comments · 11h ago",
+      "meta": "Hacker News · 728 points · 299 comments · 15h ago",
       "also": [],
       "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7NJA0M7FAQEQZBW0K0W5KKS.png",
       "icon": "https://blog.cloudflare.com/favicon.ico"
@@ -65,7 +60,7 @@
       "link_domain": "cnn.com",
       "source": "Hacker News",
       "domain": "cnn.com",
-      "meta": "Hacker News · 580 points · 670 comments · 18h ago",
+      "meta": "Hacker News · 621 points · 700 comments · 21h ago",
       "also": [],
       "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1227141714-20261117152535850.jpg?c=16x9&q=w_800,c_fill",
       "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png"
@@ -77,7 +72,7 @@
       "link_domain": "revscope.co",
       "source": "Hacker News",
       "domain": "revscope.co",
-      "meta": "Hacker News · 389 points · 294 comments · 9h ago",
+      "meta": "Hacker News · 523 points · 392 comments · 13h ago",
       "also": [],
       "image": null,
       "icon": "https://revscope.co/favicon.ico"
@@ -89,34 +84,10 @@
       "link_domain": "phrack.org",
       "source": "Lobsters",
       "domain": "phrack.org",
-      "meta": "Lobsters · 46 points · 3 comments · 16h ago",
+      "meta": "Lobsters · 54 points · 3 comments · 19h ago",
       "also": [],
       "image": "https://phrack.org/images/phrack-new.webp",
       "icon": "https://phrack.org/apple-touch-icon.png"
-    },
-    {
-      "title": "How the Claude Code team thinks about verification",
-      "thread": "https://news.ycombinator.com/item?id=50529612",
-      "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
-      "link_domain": "claude.dev",
-      "source": "Hacker News",
-      "domain": "claude.dev",
-      "meta": "Hacker News · 282 points · 227 comments · 23h ago",
-      "also": [],
-      "image": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/og.png",
-      "icon": "https://claude.dev/shared/img/favicon.svg"
-    },
-    {
-      "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
-      "thread": "https://news.ycombinator.com/item?id=50531751",
-      "link": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
-      "link_domain": "scmp.com",
-      "source": "Hacker News",
-      "domain": "scmp.com",
-      "meta": "Hacker News · 188 points · 246 comments · 19h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://www.scmp.com/favicon.ico"
     },
     {
       "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
@@ -125,10 +96,22 @@
       "link_domain": "complexdiscovery.com",
       "source": "Hacker News",
       "domain": "complexdiscovery.com",
-      "meta": "Hacker News · 184 points · 256 comments · 12h ago",
+      "meta": "Hacker News · 229 points · 313 comments · 16h ago",
       "also": [],
       "image": "https://complexdiscovery.com/wp-content/uploads/2026/10/AI-Report-One.jpg",
       "icon": "https://complexdiscovery.com/apple-icon-57x57.png"
+    },
+    {
+      "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
+      "thread": "https://news.ycombinator.com/item?id=50531751",
+      "link": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
+      "link_domain": "scmp.com",
+      "source": "Hacker News",
+      "domain": "scmp.com",
+      "meta": "Hacker News · 189 points · 250 comments · 23h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.scmp.com/favicon.ico"
     },
     {
       "title": "Not Everything Needs an LLM",
@@ -137,7 +120,7 @@
       "link_domain": "newsletter.posthog.com",
       "source": "Hacker News",
       "domain": "newsletter.posthog.com",
-      "meta": "Hacker News · 158 points · 69 comments · 15h ago",
+      "meta": "Hacker News · 166 points · 71 comments · 19h ago",
       "also": [],
       "image": "https://substackcdn.com/image/fetch/$s_!wD8h!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff406379a-4ff2-4e21-aaac-69cda7d7b37e_1200x630.png",
       "icon": "https://substackcdn.com/image/fetch/$s_!iyFm!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a8f2331-7055-4f73-bbf8-ab2f4815f8d9%2Fapple-touch-icon-57x57.png"
@@ -149,7 +132,7 @@
       "link_domain": "aikido.dev",
       "source": "Hacker News",
       "domain": "aikido.dev",
-      "meta": "Hacker News · 149 points · 30 comments · 19h ago",
+      "meta": "Hacker News · 149 points · 29 comments · 22h ago",
       "also": [],
       "image": "https://cdn.prod.website-files.com/642adcaf364024654c71df23/6afc5243bb4ae6870f759309_Node-JS_OG%20(2).jpg",
       "icon": "https://cdn.prod.website-files.com/642adcaf364024552e71df01/6acf3def6456cdb50f820e2e_favicon-512.jpg"
@@ -169,7 +152,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 5.896,
+          "score": 5.184,
           "coverage": 1
         },
         {
@@ -182,7 +165,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 4.713,
+          "score": 4.149,
           "coverage": 1
         },
         {
@@ -195,11 +178,24 @@
           "icon": "https://sebastianraschka.com/images/favicons/favicon-32x32.png",
           "domain": "sebastianraschka.com",
           "hn": null,
-          "score": 0.596,
+          "score": 0.539,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "What to do when developers say no to AI",
+          "link": "https://newsletter.getdx.com/p/what-to-do-when-developers-say-no",
+          "excerpt": "The four types of no’s you get from developers, and how to respond as a leader.",
+          "source": "DX",
+          "date": "Nov 18",
+          "image": "https://substack-post-media.s3.amazonaws.com/public/images/a1c7a224-7f1e-4467-a8b5-fe390cacfdbe_2400x1260.png",
+          "icon": null,
+          "domain": "newsletter.getdx.com",
+          "hn": null,
+          "score": 1.223,
+          "coverage": 1
+        },
         {
           "title": "AI coding rules matter more than your model",
           "link": "https://leaddev.com/software-quality/ai-coding-rules-matter-more-than-your-model?utm_source=leaddev&utm_medium=RSS",
@@ -210,7 +206,7 @@
           "icon": null,
           "domain": "leaddev.com",
           "hn": null,
-          "score": 1.33,
+          "score": 1.076,
           "coverage": 1
         },
         {
@@ -223,7 +219,7 @@
           "icon": null,
           "domain": "blog.google",
           "hn": null,
-          "score": 0.616,
+          "score": 0.555,
           "coverage": 1
         }
       ]
@@ -231,19 +227,6 @@
     {
       "name": "AI Agents & Agent Security",
       "cards": [
-        {
-          "title": "Rebuilding the Metabase MCP server: lessons for MCP tool design",
-          "link": "https://www.metabase.com/blog/mcp-tool-design-lessons",
-          "excerpt": "Building an MCP server? Learn from our rebuild of the Metabase MCP server: fewer tools, edits instead of rewrites, and errors that tell the model how to fix them.",
-          "source": "metabase.com via Hacker News",
-          "date": "Nov 17",
-          "image": "https://cdn.metabase.com/images/mcp-server-v2.webp",
-          "icon": "https://cdn.metabase.com/images/apple-touch-icon.png",
-          "domain": "metabase.com",
-          "hn": "10 points · 1 comments",
-          "score": 5.377,
-          "coverage": 1
-        },
         {
           "title": "Introducing GPT-6.2 Astra and Sol",
           "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
@@ -254,7 +237,20 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 2.747,
+          "score": 10.145,
+          "coverage": 2
+        },
+        {
+          "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+          "link": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+          "excerpt": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+          "source": "OpenAI News",
+          "date": "Nov 18",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.738,
           "coverage": 1
         },
         {
@@ -267,24 +263,11 @@
           "icon": null,
           "domain": "sentinelone.com",
           "hn": null,
-          "score": 7.824,
-          "coverage": 3
+          "score": 10.143,
+          "coverage": 4
         }
       ],
       "more": [
-        {
-          "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
-          "link": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
-          "excerpt": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
-          "source": "OpenAI News",
-          "date": "Nov 18",
-          "image": null,
-          "icon": "https://openai.com/favicon.ico",
-          "domain": "openai.com",
-          "hn": null,
-          "score": 0.844,
-          "coverage": 1
-        },
         {
           "title": "Introducing ChatGPT for Sales",
           "link": "https://openai.com/index/introducing-chatgpt-for-sales",
@@ -295,7 +278,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.491,
+          "score": 0.453,
           "coverage": 1
         },
         {
@@ -308,7 +291,20 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.406,
+          "score": 0.379,
+          "coverage": 1
+        },
+        {
+          "title": "France Is Blaming Iran for the Fridge Cyberattack",
+          "link": "https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html",
+          "excerpt": "Interesting: U.S. intelligence agencies have recently reached a “”ow confidence” assessment that Iran was responsible for the attacks in France, according to three U.S. officials who spoke on the condition of anonymity to discuss sensitive intelligence. A “low confidence” assessment generally…",
+          "source": "Schneier on Security",
+          "date": "Nov 18",
+          "image": null,
+          "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+          "domain": "schneier.com",
+          "hn": null,
+          "score": 1.126,
           "coverage": 1
         }
       ]
@@ -326,7 +322,20 @@
           "icon": "https://randsinrepose.com/nitropack_static/pYcrXSmzMTYaBCajyDlByLkiWOiRWpVF/assets/images/optimized/rev-7d0833b/randsinrepose.com/wp-content/uploads/2025/08/cropped-rands-favicon-1-180x180.png",
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.574,
+          "score": 0.511,
+          "coverage": 1
+        },
+        {
+          "title": "Nvidia Earnings; Office Convergence; OS Wars, AI Edition",
+          "link": "https://stratechery.com/2026/nvidia-earnings-office-convergence-os-wars-ai-edition/",
+          "excerpt": "Nvidia's earnings were boring, and also a statement as to why Jensen Huang probably isn't coming back; then, Microsoft and Anthropic ship dueling operating system updates.",
+          "source": "Stratechery by Ben Thompson",
+          "date": "Nov 18",
+          "image": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9zdHJhdGVjaGVyeS5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMThcLzAzXC9jcm9wcGVkLWFuZHJvaWQtY2hyb21lLTUxMng1MTItMS5wbmc_Zml0PTUxMiUyQzUxMiZzc2w9MSIsInR4dCI6IlN0cmF0ZWNoZXJ5IGJ5IEJlbiBUaG9tcHNvbiIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxODgwNDM0MTV9.5VWck4PcKPWCTPe_HVznn3n3xsgn-G0b3d2OeiNNC7cMQ",
+          "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
+          "domain": "stratechery.com",
+          "hn": null,
+          "score": 1.04,
           "coverage": 1
         },
         {
@@ -339,9 +348,11 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.675,
+          "score": 0.59,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "What is cloud computing? -test",
           "link": "https://www.mckinsey.com/our-people/what-is-cloud-computing--test",
@@ -352,11 +363,9 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.675,
+          "score": 0.59,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Infrastructure entrepreneurs: How HOCHTIEF captures growth with AI",
           "link": "https://www.mckinsey.com/capabilities/business-building/our-insights/infrastructure-entrepreneurs-how-hochtief-captures-growth-in-the-ai-age",
@@ -367,7 +376,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.675,
+          "score": 0.59,
           "coverage": 1
         }
       ]
@@ -385,7 +394,20 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 2.609,
+          "score": 2.44,
+          "coverage": 1
+        },
+        {
+          "title": "Introducing deployment checks in Cerbos Hub: sign-off before policy changes go live",
+          "link": "https://cerbos.dev/blog/deployment-checks-cerbos-hub",
+          "excerpt": "Deployment checks are live in Cerbos Hub. Require sign-off from up to five people before a policy build goes live in production, keep staging automatic, and keep a record of who approved each release.",
+          "source": "Cerbos",
+          "date": "Nov 18",
+          "image": "https://stylish-appliance-1c1cc1c30d.media.strapiapp.com/Introducing_deployment_checks_in_Cerbos_Hub_1_ef94ae5b40.png",
+          "icon": null,
+          "domain": "cerbos.dev",
+          "hn": null,
+          "score": 0.865,
           "coverage": 1
         }
       ],
@@ -404,7 +426,7 @@
           "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
           "domain": "aembit.io",
           "hn": null,
-          "score": 3.107,
+          "score": 2.766,
           "coverage": 1
         },
         {
@@ -417,7 +439,7 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 1.919,
+          "score": 1.724,
           "coverage": 1
         },
         {
@@ -430,7 +452,7 @@
           "icon": "https://www.hashicorp.com/favicon.ico",
           "domain": "hashicorp.com",
           "hn": null,
-          "score": 1.048,
+          "score": 0.967,
           "coverage": 1
         }
       ],
@@ -445,7 +467,7 @@
           "icon": "https://www.hashicorp.com/favicon.ico",
           "domain": "hashicorp.com",
           "hn": null,
-          "score": 0.18,
+          "score": 0.17,
           "coverage": 1
         }
       ]
@@ -463,7 +485,7 @@
           "icon": null,
           "domain": "openssf.org",
           "hn": null,
-          "score": 4.245,
+          "score": 3.795,
           "coverage": 1
         },
         {
@@ -476,8 +498,8 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 1.818,
-          "coverage": 1
+          "score": 9.216,
+          "coverage": 2
         },
         {
           "title": "Java4Shell: How a malformed Base64 string breaks the JVM on AVX-512",
@@ -489,7 +511,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.26,
+          "score": 0.243,
           "coverage": 1
         }
       ],
@@ -498,6 +520,19 @@
     {
       "name": "Security & AppSec",
       "cards": [
+        {
+          "title": "Microsoft Takes Perception Agentic Security Platform Out of Preview",
+          "link": "https://www.securityweek.com/microsoft-takes-perception-agentic-security-platform-out-of-preview/",
+          "excerpt": "Four blue team agents and the Recon Agent are now generally available, while integrations and vulnerability shielding are in preview. The post Microsoft Takes Perception Agentic Security Platform Out of Preview appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 18",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Agent-AI-Security.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 4.177,
+          "coverage": 1
+        },
         {
           "title": "Gemini test proves once again that amoral AI agents will do almost anything if told ‘NEVER give up’",
           "link": "https://www.theregister.com/security/2026/11/17/gemini-test-proves-once-again-that-amoral-ai-agents-will-do-almost-anything-if-told-never-give-up/5310574",
@@ -508,7 +543,7 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 2.007,
+          "score": 1.789,
           "coverage": 1
         },
         {
@@ -521,48 +556,35 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 2.832,
-          "coverage": 1
-        },
-        {
-          "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
-          "link": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
-          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java. The flaw, tracked as CVE-2026-114938 (CVSS score: 8.1), refers to a case of out-of-bounds write that can lead to…",
-          "source": "The Hacker News",
-          "date": "Nov 18",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivmrsz2fViEN49Su385gmuAShCPcxobsMF-FbR9t1sXw6aEbOMzFUT5YktViqASQUXP3bLT13HYMAE1wBQTN0ZRDGXWFJUy_EWOKhOjR7jSz-bhEK8jas_v9wWUYxevCAZt4PzOCaGNLLC96kDwFjtKBuXVW2O3K2BK9AO5nyZutFf_uCaZtvyaQ2qf8gK/s1600/cisa-java.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.522,
+          "score": 2.262,
           "coverage": 1
         }
       ],
       "more": [
         {
-          "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
-          "link": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
-          "excerpt": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Chainguard, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz. The malicious versions, 1.26.1 and 1.26.2, were published 33 minutes apart on…",
+          "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
+          "link": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
+          "excerpt": "On AMD-based PCs and some Intel PCs, the TPM lockout for Windows Hello and BitLocker PINs can be reset by someone who opens the PC's case, researchers at Technische Universität Berlin say. That leaves short PINs open to guessing. In lab tests, the researchers found a four-digit Hello PIN on an AMD…",
           "source": "The Hacker News",
           "date": "Nov 18",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_LozO7RAz13Jr3eqWHIjlAF6M0Cs-mJXX2mKUqU0TxVS02piD1na92TAZjICmeySD4z0zS-Y_BFvceERBdk-UZvV1DUh1LGN6wK-T-yt_TROJ5fcuvROu807jqESQo93CFP3faBbReKMZQxvgYOAGl_vS2VzfO67O24NdAgh6d9jMO2mTSy2jaNJMPD9T/s1600/ms-python.jpg",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpsv4GxAUbzCsIV1umrxZs6VxfD1eFwAeCgRHQQG_dNbP1fLiYe48hM-Wbd_8w5IxlacAwoidLqyQgBmG7YD7qKo0_XcqW2GhggfXshuK1uXz8BOma2H0Jjs8fabCO4IxHBfRopEUFDd0xHRRv43gMeog852Usv40sfcTwnO_9coyxtIMmteJxeJI_oPA/s1600/bitlocker.jpg",
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.466,
+          "score": 0.556,
           "coverage": 1
         },
         {
-          "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
-          "link": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
-          "excerpt": "The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in third-party compromise. Google's Mandiant and Threat Intelligence Group (GTIG) said…",
+          "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
+          "link": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
+          "excerpt": "TL;DR Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabilities VulnCheck added to its exploited list were hit on or before disclosure day. AI pentesting vendors aren't interchangeable. Most look convincing in a…",
           "source": "The Hacker News",
           "date": "Nov 18",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLbxlzqi-uBPlDXGecxrfXQ8kZLpAKsDO5c7KmTTyYyNQQE6bdI0TqT7Rk_JrKRie2pMB_xrLRKy1Cksp1GYHfUGHXz7UGg5nWOAQmPmiRKoUJkMCHrMvW7A72W9x7_I7KESMQmJLQVrJth_Ozj7i1nF7IPB4W_WV-NQyy0afEMgGVbGdaSNfIjolqtC4-/s1600/cloud.jpg",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdb3EyKCLHzaa6p3bzrF2EkkcJJQgshTsoaU6kzga1C8NGRBE1rDwlsHwhVKehkmGsOYpf0Dq-VCQpmFDPYLglxQIQjEiv3NrkFDRPTc3wUObe1Kc0km71lwUEXLTtWJGBQ3nO6wFbRqKoOJLcBv2lwpD-ZAYc1caohfkIFkCVlLQdS-YuwmbecgBf-sQ/s1600/reflectiz.jpg",
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 3.103,
+          "score": 0.547,
           "coverage": 1
         },
         {
@@ -575,21 +597,34 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 7.824,
-          "coverage": 3
+          "score": 10.143,
+          "coverage": 4
         },
         {
-          "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
-          "link": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
-          "excerpt": "A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to NebuSec, a security company. Widgets are small interactive blocks that bots send inside chat messages, and their JavaScript runs on the user's phone. The…",
+          "title": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
+          "link": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
+          "excerpt": "AI is speeding up how software is built, which means more code, more changes, and more chances for vulnerabilities to reach production. It's speeding up how attackers find and exploit them too, with time-to-exploit now down to a single day. Security testing has to keep up with both. AI pentesting…",
           "source": "The Hacker News",
-          "date": "Nov 17",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpVlnQrxQ-QDawosxNpQdcPtITzUQKuYeqUtOk0gctwRhi-8P9Qi_9L72cSwkHRdGNS94HaIDHEkqeb0NTPw3mIZyFstN3ZM1FlUoMweKPNz4iTkAkxlxFSNdE92DAFlfLMFe0gTXWE78eOHROSbISVMgdmFOeVhm0SS2-1wXrNxPGknTVMGroQ0pRqYg/s1600/telegram-rce.jpg",
+          "date": "Nov 18",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj276QET-ma2-edrAgsOdbZltmoW58d_kJT8C-g8DXQfDQAzPlmCcQYv-tWcX-DXcSipQpu_oFY_pPunvn-eXoog3H0BYPLkb4uY3B4Ax9T7LmtVBgVDwZZInLbj5QgnjVMI5d1za8bgR1a2TvGaJzZUK2UuSAEk3gSY-erKiddYAYTkNE9kxEp0zcx5x8/s1600/intruder.jpg",
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 7.824,
-          "coverage": 3
+          "score": 0.502,
+          "coverage": 1
+        },
+        {
+          "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+          "link": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active…",
+          "source": "The Hacker News",
+          "date": "Nov 18",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoFKMFLPbzyM7RGi89XdpVFUfFqLH2C0QnAIyZfTSZIkvQNT8jhFEdMdW3D1qPXE0MjtV-q8fM1Alicz0wEuNJ6fnIjOs3BY8D7ABBRWNqPg6NGz9FjhbSQhapwUDZPDyg3kJEy9CZeUwbcmZ3N5nCU8bH6bkCo4BgLfhlE3R3AdDi9CvLVgjqlMW42Pm2/s1600/puppet.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 10.143,
+          "coverage": 4
         }
       ]
     },
@@ -606,7 +641,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 3.168,
+          "score": 2.84,
           "coverage": 1
         },
         {
@@ -619,7 +654,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.878,
+          "score": 2.593,
           "coverage": 1
         },
         {
@@ -632,7 +667,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 3.123,
+          "score": 2.726,
           "coverage": 1
         }
       ],
@@ -647,7 +682,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.355,
+          "score": 2.122,
           "coverage": 1
         },
         {
@@ -660,7 +695,7 @@
           "icon": null,
           "domain": "netflixtechblog.com",
           "hn": null,
-          "score": 2.158,
+          "score": 1.944,
           "coverage": 1
         },
         {
@@ -673,7 +708,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 2.472,
+          "score": 2.198,
           "coverage": 1
         },
         {
@@ -686,7 +721,7 @@
           "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
           "domain": "grafana.com",
           "hn": null,
-          "score": 1.732,
+          "score": 1.562,
           "coverage": 1
         },
         {
@@ -699,7 +734,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 2.015,
+          "score": 1.787,
           "coverage": 1
         }
       ]
@@ -707,6 +742,19 @@
     {
       "name": "News & Research",
       "cards": [
+        {
+          "title": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
+          "link": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
+          "excerpt": "With a team of just seven, Unsiloed AI plans to compete with tech giants and specialized startups in the crowded AI document-processing market.",
+          "source": "TechCrunch",
+          "date": "Nov 18",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/unsiloed-AI-founders-adnan-abbas-aman-mishra.jpg?resize=1200,800",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
+          "hn": null,
+          "score": 3.939,
+          "coverage": 1
+        },
         {
           "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
           "link": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
@@ -717,20 +765,7 @@
           "icon": null,
           "domain": "arstechnica.com",
           "hn": null,
-          "score": 2.189,
-          "coverage": 1
-        },
-        {
-          "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
-          "link": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
-          "excerpt": "Instagram is filled with people posting deepfaked content - including, as of late, from one of Meta's most prominent executives. Earlier in November, Alexandr Wang, Meta's chief AI officer, shared a short clip to promote Muse, the company's consumer AI agent. In the AI-generated clip, Wang, Meta…",
-          "source": "The Verge",
-          "date": "Nov 17",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2297785644.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "icon": null,
-          "domain": "theverge.com",
-          "hn": null,
-          "score": 1.613,
+          "score": 1.908,
           "coverage": 1
         },
         {
@@ -743,35 +778,35 @@
           "icon": null,
           "domain": "spectrum.ieee.org",
           "hn": null,
-          "score": 1.493,
+          "score": 1.336,
           "coverage": 1
         }
       ],
       "more": [
         {
-          "title": "Talos Linux",
-          "link": "https://www.siderolabs.com/talos-linux",
-          "excerpt": "We help platform teams run Kubernetes without the heroics, so engineers can ship the roadmap instead of fighting fires.",
-          "source": "siderolabs.com via Hacker News",
+          "title": "Codeberg.org Not Reachable",
+          "link": "https://social.anoxinon.de/@codebergstatus/117636437840688845",
+          "excerpt": "As you probably noticed, our domain codeberg.org is entirely unreachable. It was registered with namesilo and entirely disappeared from our account. We're waiting for their customer support to investigate the situation. No, we didn't forget to renew. There are no suspicious logins in the login…",
+          "source": "social.anoxinon.de via Hacker News",
           "date": "Nov 18",
-          "image": "https://www.siderolabs.com/redesign-2026/OG-preview-image.png",
-          "icon": "https://www.siderolabs.com/site-assets/uploads/2025/09/cropped-favicon-180x180.png",
-          "domain": "siderolabs.com",
-          "hn": "32 points · 19 comments",
-          "score": 2.704,
+          "image": null,
+          "icon": "https://social.anoxinon.de/packs/assets/apple-touch-icon-57x57-BsPGHSez.png",
+          "domain": "social.anoxinon.de",
+          "hn": "243 points · 232 comments",
+          "score": 3.595,
           "coverage": 1
         },
         {
-          "title": "Australia's full national topographic library at your fingertips",
-          "link": "https://www.ga.gov.au/news/australias-full-national-topographic-library-at-your-fingertips",
-          "excerpt": "Geoscience Australia has completed the nationwide release of its AUSTopo 1:250,000 digital topographic map series, putting authoritative, up to date topographic coverage of the entire country just a click away.",
-          "source": "ga.gov.au via Hacker News",
+          "title": "Energy-Based Reasoners: 385x more efficient inference",
+          "link": "https://energy-based-reasoners.github.io/",
+          "excerpt": "One learned energy refines, stops and selects. Over 99% Sudoku-Extreme accuracy with 1.8M parameters, up to 345x fewer inference FLOPs than EqR at comparable accuracy.",
+          "source": "energy-based-reasoners.github.io via Hacker News",
           "date": "Nov 18",
-          "image": "https://www.ga.gov.au/__data/assets/image/0007/189601/AUSTopomap_social.jpg",
-          "icon": "https://www.ga.gov.au/designs/images/GA_logo_180x180.png",
-          "domain": "ga.gov.au",
-          "hn": "18 points · 8 comments",
-          "score": 2.155,
+          "image": "https://energy-based-reasoners.github.io/static/images/ebr_landscape_abc_v1.png",
+          "icon": "https://energy-based-reasoners.github.io/favicon.ico",
+          "domain": "energy-based-reasoners.github.io",
+          "hn": "129 points · 17 comments",
+          "score": 2.883,
           "coverage": 1
         },
         {
@@ -783,8 +818,8 @@
           "image": null,
           "icon": "https://nicolasbouliane.com/img/favicon.png",
           "domain": "nicolasbouliane.com",
-          "hn": "332 points · 295 comments",
-          "score": 3.728,
+          "hn": "502 points · 460 comments",
+          "score": 3.269,
           "coverage": 1
         },
         {
@@ -796,8 +831,8 @@
           "image": "https://www.evilgeniuslabs.org/assets/fermat-recipe.jpg",
           "icon": "https://www.evilgeniuslabs.org/images/apple-touch-icon.png",
           "domain": "evilgeniuslabs.org",
-          "hn": "37 points · 3 comments",
-          "score": 2.149,
+          "hn": "55 points · 8 comments",
+          "score": 1.981,
           "coverage": 1
         },
         {
@@ -809,8 +844,8 @@
           "image": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/og.png",
           "icon": "https://kernel.dev/apple-touch-icon.png",
           "domain": "kernel.dev",
-          "hn": "97 points · 46 comments",
-          "score": 2.545,
+          "hn": "164 points · 83 comments",
+          "score": 2.364,
           "coverage": 1
         }
       ]
