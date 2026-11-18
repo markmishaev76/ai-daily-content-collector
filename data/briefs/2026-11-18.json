@@ -1,25 +1,46 @@
 {
   "date": "2026-11-18",
   "lead": {
-    "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
-    "link": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
-    "excerpt": "November 17, 2026 — GPT-6.2 Astra and Sol lower benchmark costs. Early testers disagree on what Astra is like to work with.",
-    "source": "Latent Space",
+    "title": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)",
+    "link": "https://blog.cloudflare.com/java4shell-waf-protection/",
+    "excerpt": "Java4Shell is a critical memory-corruption flaw in OpenJDK's Base64 decoder that can lead to remote code execution. Cloudflare has released six WAF managed rules for paid plans that logs matching requests by default. Patch your Java runtimes now.",
+    "source": "Cloudflare Blog",
     "date": "Nov 18",
-    "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/38ecd72a-69fc-402f-ab81-15ac4b07bf8c/image.png?t=1794996495",
-    "image_credit": null,
-    "section": "AI Agents & Agent Security",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis8B-Vf6puS0vOs9mEVup755KXy8y59KD72B5VQb8SyhO1JDHkYcvg42Y1rh1xg3seyml7j2vZn5Dq1OEnFYVzD_97osoZXWkxVVOBxM48InZPbaVgV7Lo64odzPVKNPEtPeLlEAm2AFfShOFVGtypVUJAJdt07qqik_Yde9X6BxLECPH7Gekbkzl2GBDK/s1600/java4shell-flaw.jpg",
+    "image_credit": "The Hacker News",
+    "section": "Security & AppSec",
     "pinned": false,
     "note": null,
     "labels": [
-      "2 sources",
-      "AI Agents & Agent Security",
-      "3h ago"
+      "7 sources",
+      "CVE-2026-114938",
+      "Security & AppSec",
+      "1h ago"
     ],
     "also": [
       {
-        "name": "openai.com",
-        "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+        "name": "sentinelone.com",
+        "link": "https://www.sentinelone.com/blog/java4shell-vulnerability-in-openjdk-enables-rce-on-avx-512-cpus/"
+      },
+      {
+        "name": "chainguard.dev",
+        "link": "https://www.chainguard.dev/unchained/java4shell-how-a-malformed-base64-string-breaks-the-jvm-on-avx-512"
+      },
+      {
+        "name": "thehackernews.com",
+        "link": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html"
+      },
+      {
+        "name": "securityweek.com",
+        "link": "https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/"
+      },
+      {
+        "name": "bleepingcomputer.com",
+        "link": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/"
+      },
+      {
+        "name": "theregister.com",
+        "link": "https://www.theregister.com/security/2026/11/18/oracle-reveals-fix-this-asap-grade-java4shell-bug-that-allows-attacks-on-many-third-party-apps/5310661"
       }
     ]
   },
@@ -31,7 +52,7 @@
       "link_domain": "calif.io",
       "source": "Hacker News",
       "domain": "calif.io",
-      "meta": "Hacker News · 1k points · 273 comments · 16h ago",
+      "meta": "Hacker News · 1.1k points · 306 comments · 19h ago",
       "also": [
         {
           "source": "Lobsters",
@@ -48,22 +69,22 @@
       "link_domain": "blog.cloudflare.com",
       "source": "Hacker News",
       "domain": "blog.cloudflare.com",
-      "meta": "Hacker News · 728 points · 299 comments · 15h ago",
+      "meta": "Hacker News · 840 points · 395 comments · 18h ago",
       "also": [],
       "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7NJA0M7FAQEQZBW0K0W5KKS.png",
       "icon": "https://blog.cloudflare.com/favicon.ico"
     },
     {
-      "title": "Highly classified US national security communications network goes down",
-      "thread": "https://news.ycombinator.com/item?id=50532849",
-      "link": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
-      "link_domain": "cnn.com",
+      "title": "AI is killing All About Berlin",
+      "thread": "https://news.ycombinator.com/item?id=50542705",
+      "link": "https://nicolasbouliane.com/blog/death-by-ai",
+      "link_domain": "nicolasbouliane.com",
       "source": "Hacker News",
-      "domain": "cnn.com",
-      "meta": "Hacker News · 621 points · 700 comments · 21h ago",
+      "domain": "nicolasbouliane.com",
+      "meta": "Hacker News · 675 points · 617 comments · 9h ago",
       "also": [],
-      "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1227141714-20261117152535850.jpg?c=16x9&q=w_800,c_fill",
-      "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png"
+      "image": null,
+      "icon": "https://nicolasbouliane.com/img/favicon.png"
     },
     {
       "title": "Google's AI answers reducing search traffic by 40%",
@@ -72,7 +93,7 @@
       "link_domain": "revscope.co",
       "source": "Hacker News",
       "domain": "revscope.co",
-      "meta": "Hacker News · 523 points · 392 comments · 13h ago",
+      "meta": "Hacker News · 637 points · 484 comments · 16h ago",
       "also": [],
       "image": null,
       "icon": "https://revscope.co/favicon.ico"
@@ -84,7 +105,7 @@
       "link_domain": "phrack.org",
       "source": "Lobsters",
       "domain": "phrack.org",
-      "meta": "Lobsters · 54 points · 3 comments · 19h ago",
+      "meta": "Lobsters · 57 points · 3 comments · 23h ago",
       "also": [],
       "image": "https://phrack.org/images/phrack-new.webp",
       "icon": "https://phrack.org/apple-touch-icon.png"
@@ -96,22 +117,34 @@
       "link_domain": "complexdiscovery.com",
       "source": "Hacker News",
       "domain": "complexdiscovery.com",
-      "meta": "Hacker News · 229 points · 313 comments · 16h ago",
+      "meta": "Hacker News · 290 points · 376 comments · 19h ago",
       "also": [],
       "image": "https://complexdiscovery.com/wp-content/uploads/2026/10/AI-Report-One.jpg",
       "icon": "https://complexdiscovery.com/apple-icon-57x57.png"
     },
     {
-      "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
-      "thread": "https://news.ycombinator.com/item?id=50531751",
-      "link": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
-      "link_domain": "scmp.com",
+      "title": "Why is Gemini 4 Carbon taking so long?",
+      "thread": "https://news.ycombinator.com/item?id=50541790",
+      "link": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
+      "link_domain": "kernel.dev",
       "source": "Hacker News",
-      "domain": "scmp.com",
-      "meta": "Hacker News · 189 points · 250 comments · 23h ago",
+      "domain": "kernel.dev",
+      "meta": "Hacker News · 229 points · 120 comments · 12h ago",
       "also": [],
-      "image": null,
-      "icon": "https://www.scmp.com/favicon.ico"
+      "image": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/og.png",
+      "icon": "https://kernel.dev/apple-touch-icon.png"
+    },
+    {
+      "title": "Pre-auth RCE in Nginx HTTP/2 handling",
+      "thread": "https://news.ycombinator.com/item?id=50547374",
+      "link": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+      "link_domain": "wiz.io",
+      "source": "Hacker News",
+      "domain": "wiz.io",
+      "meta": "Hacker News · 176 points · 44 comments · 1h ago",
+      "also": [],
+      "image": "https://www.datocms-assets.com/75231/1794936719-img_7875.png?fm=webp",
+      "icon": "https://www.wiz.io/favicon.png"
     },
     {
       "title": "Not Everything Needs an LLM",
@@ -120,22 +153,22 @@
       "link_domain": "newsletter.posthog.com",
       "source": "Hacker News",
       "domain": "newsletter.posthog.com",
-      "meta": "Hacker News · 166 points · 71 comments · 19h ago",
+      "meta": "Hacker News · 174 points · 72 comments · 22h ago",
       "also": [],
       "image": "https://substackcdn.com/image/fetch/$s_!wD8h!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff406379a-4ff2-4e21-aaac-69cda7d7b37e_1200x630.png",
       "icon": "https://substackcdn.com/image/fetch/$s_!iyFm!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a8f2331-7055-4f73-bbf8-ab2f4815f8d9%2Fapple-touch-icon-57x57.png"
     },
     {
-      "title": "Java4Shell: pre-auth RCE flaw in Java 17 puts servers at risk (CVE-2026-114938)",
-      "thread": "https://news.ycombinator.com/item?id=50532118",
-      "link": "https://www.aikido.dev/blog/java-17-rce-vulnerability-cve-2026-114938",
-      "link_domain": "aikido.dev",
+      "title": "Claude was trained on protein sequences at scale",
+      "thread": "https://news.ycombinator.com/item?id=50541619",
+      "link": "http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/",
+      "link_domain": "xinmingtu.cn",
       "source": "Hacker News",
-      "domain": "aikido.dev",
-      "meta": "Hacker News · 149 points · 29 comments · 22h ago",
+      "domain": "xinmingtu.cn",
+      "meta": "Hacker News · 135 points · 59 comments · 12h ago",
       "also": [],
-      "image": "https://cdn.prod.website-files.com/642adcaf364024654c71df23/6afc5243bb4ae6870f759309_Node-JS_OG%20(2).jpg",
-      "icon": "https://cdn.prod.website-files.com/642adcaf364024552e71df01/6acf3def6456cdb50f820e2e_favicon-512.jpg"
+      "image": "https://xinmingtu.cn/assets/img/llm-bioseq-probe/social_card.png",
+      "icon": null
     }
   ],
   "sections": [
@@ -152,7 +185,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 5.184,
+          "score": 4.616,
           "coverage": 1
         },
         {
@@ -165,9 +198,24 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 4.149,
+          "score": 3.698,
           "coverage": 1
         },
+        {
+          "title": "Data Contracts",
+          "link": "https://martinfowler.com/articles/data-contracts.html",
+          "excerpt": "Data contracts are a way to describe the contents and guarantees of datasets. Simon Harrer and Arif Wider describe in detail what they are and how to use them. They apply practices from API design to data by treating them as data-providing services - such as data products - whose interfaces we…",
+          "source": "Martin Fowler",
+          "date": "Nov 18",
+          "image": "https://martinfowler.com/articles/data-contracts/social-card.png",
+          "icon": null,
+          "domain": "martinfowler.com",
+          "hn": null,
+          "score": 6.935,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "Pre-Training Without Learning Rate Decay",
           "link": "https://sebastianraschka.com/blog/2026/llm-pretraining-without-learning-rate-decay.html",
@@ -178,11 +226,9 @@
           "icon": "https://sebastianraschka.com/images/favicons/favicon-32x32.png",
           "domain": "sebastianraschka.com",
           "hn": null,
-          "score": 0.539,
+          "score": 0.491,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "What to do when developers say no to AI",
           "link": "https://newsletter.getdx.com/p/what-to-do-when-developers-say-no",
@@ -193,7 +239,33 @@
           "icon": null,
           "domain": "newsletter.getdx.com",
           "hn": null,
-          "score": 1.223,
+          "score": 1.001,
+          "coverage": 1
+        },
+        {
+          "title": "Quoting Daniel Stenberg",
+          "link": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
+          "excerpt": "During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during these a little more than three weeks. A little over 200 bugfixes actually. 200 bugfixes that none of…",
+          "source": "Simon Willison",
+          "date": "Nov 18",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 1.416,
+          "coverage": 1
+        },
+        {
+          "title": "The PSF end-of-year fundraiser",
+          "link": "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/",
+          "excerpt": "The PSF end-of-year fundraiser With my Python Software Foundation board director hat on: we've launched our end-of-year fundraiser for the non-profit that supports Python development and the Python community. If your company or your work benefits from Python, please consider donating this year!…",
+          "source": "Simon Willison",
+          "date": "Nov 18",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 1.292,
           "coverage": 1
         },
         {
@@ -206,20 +278,7 @@
           "icon": null,
           "domain": "leaddev.com",
           "hn": null,
-          "score": 1.076,
-          "coverage": 1
-        },
-        {
-          "title": "Put Gemini to work for you",
-          "link": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
-          "excerpt": "A user interface displaying the prompt \"What can I get done for you?\" above an input box containing placeholder text \"Describe a task\".",
-          "source": "Google AI",
-          "date": "Nov 17",
-          "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566.max-600x600.format-webp.webp",
-          "icon": null,
-          "domain": "blog.google",
-          "hn": null,
-          "score": 0.555,
+          "score": 0.9,
           "coverage": 1
         }
       ]
@@ -237,21 +296,21 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 10.145,
+          "score": 8.341,
           "coverage": 2
         },
         {
-          "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
-          "link": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
-          "excerpt": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
-          "source": "OpenAI News",
+          "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
+          "link": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
+          "excerpt": "November 17, 2026 — GPT-6.2 Astra and Sol lower benchmark costs. Early testers disagree on what Astra is like to work with.",
+          "source": "Latent Space",
           "date": "Nov 18",
-          "image": null,
-          "icon": "https://openai.com/favicon.ico",
-          "domain": "openai.com",
+          "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/38ecd72a-69fc-402f-ab81-15ac4b07bf8c/image.png?t=1794996495",
+          "icon": null,
+          "domain": "latent.space",
           "hn": null,
-          "score": 0.738,
-          "coverage": 1
+          "score": 8.341,
+          "coverage": 2
         },
         {
           "title": "Defending Against Java4Shell: Vulnerability in OpenJDK Enables RCE on AVX-512 CPUs",
@@ -263,11 +322,24 @@
           "icon": null,
           "domain": "sentinelone.com",
           "hn": null,
-          "score": 10.143,
-          "coverage": 4
+          "score": 17.592,
+          "coverage": 7
         }
       ],
       "more": [
+        {
+          "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+          "link": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+          "excerpt": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+          "source": "OpenAI News",
+          "date": "Nov 18",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.654,
+          "coverage": 1
+        },
         {
           "title": "Introducing ChatGPT for Sales",
           "link": "https://openai.com/index/introducing-chatgpt-for-sales",
@@ -278,7 +350,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.453,
+          "score": 0.42,
           "coverage": 1
         },
         {
@@ -291,7 +363,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.379,
+          "score": 0.356,
           "coverage": 1
         },
         {
@@ -304,7 +376,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 1.126,
+          "score": 0.904,
           "coverage": 1
         }
       ]
@@ -322,7 +394,7 @@
           "icon": "https://randsinrepose.com/nitropack_static/pYcrXSmzMTYaBCajyDlByLkiWOiRWpVF/assets/images/optimized/rev-7d0833b/randsinrepose.com/wp-content/uploads/2025/08/cropped-rands-favicon-1-180x180.png",
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.511,
+          "score": 0.46,
           "coverage": 1
         },
         {
@@ -335,9 +407,24 @@
           "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
           "domain": "stratechery.com",
           "hn": null,
-          "score": 1.04,
+          "score": 0.848,
           "coverage": 1
         },
+        {
+          "title": "Capex in chemicals: Generating value through performance excellence",
+          "link": "https://www.mckinsey.com/capabilities/operations/our-insights/capex-in-chemicals-generating-value-through-performance-excellence",
+          "excerpt": "With the chemicals industry, especially in Europe, under pressure from converging external challenges, capital excellence is one of the largest untapped levers to improve performance.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 18",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.523,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "What is cloud computing? -test",
           "link": "https://www.mckinsey.com/what-is-cloud-computing--test",
@@ -348,11 +435,9 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.59,
+          "score": 0.523,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "What is cloud computing? -test",
           "link": "https://www.mckinsey.com/our-people/what-is-cloud-computing--test",
@@ -363,7 +448,20 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.59,
+          "score": 0.523,
+          "coverage": 1
+        },
+        {
+          "title": "Technology’s next frontier",
+          "link": "https://www.mckinsey.com/quarterly/the-five-fifty/five-fifty-technologys-next-frontier",
+          "excerpt": "Five of the 14 trends in McKinsey’s 2026 tech trends report are on pace to attract at least twice as much investment as in 2025. What does this rapid growth mean for business and society?",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 18",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.523,
           "coverage": 1
         },
         {
@@ -376,7 +474,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.59,
+          "score": 0.523,
           "coverage": 1
         }
       ]
@@ -394,7 +492,20 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 2.44,
+          "score": 2.289,
+          "coverage": 1
+        },
+        {
+          "title": "Securing the AI powered developer – Part 1",
+          "link": "https://openid.net/securing-the-ai-powered-developer-part-1/",
+          "excerpt": "By Atul Tulshibagwale, Board Member of the OpenID Foundation and Head of Identity Strategy at CrowdStrike. Why the developer workstation is the hardest place to secure an AI agent The developer workstation has almost overnight become one of the most privileged places an AI agent can live in the…",
+          "source": "OpenID Foundation",
+          "date": "Nov 18",
+          "image": "https://openid.net/wp-content/uploads/2026/11/IMAGE-Atul-blog-AI-developer-security-2.png",
+          "icon": null,
+          "domain": "openid.net",
+          "hn": null,
+          "score": 5.643,
           "coverage": 1
         },
         {
@@ -407,7 +518,7 @@
           "icon": null,
           "domain": "cerbos.dev",
           "hn": null,
-          "score": 0.865,
+          "score": 0.7,
           "coverage": 1
         }
       ],
@@ -426,7 +537,7 @@
           "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
           "domain": "aembit.io",
           "hn": null,
-          "score": 2.766,
+          "score": 2.487,
           "coverage": 1
         },
         {
@@ -439,9 +550,24 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 1.724,
+          "score": 1.561,
           "coverage": 1
         },
+        {
+          "title": "AI-Powered Attacks Go Autonomous: Start With Credentials",
+          "link": "https://blog.gitguardian.com/prepare-for-ai-powered-attacks/",
+          "excerpt": "Fully autonomous cyberattacks may be only months away. The incidents happening right now show exactly where defenders should focus their attention.",
+          "source": "GitGuardian",
+          "date": "Nov 18",
+          "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/11/thumbnail-ai-powered-attacks--2-.png",
+          "icon": null,
+          "domain": "blog.gitguardian.com",
+          "hn": null,
+          "score": 0.757,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "From exposed secrets to managed credentials: Reducing credential risk across the application lifecycle",
           "link": "https://www.hashicorp.com/blog/from-exposed-secrets-to-managed-credentials",
@@ -452,11 +578,9 @@
           "icon": "https://www.hashicorp.com/favicon.ico",
           "domain": "hashicorp.com",
           "hn": null,
-          "score": 0.967,
+          "score": 0.896,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "HCP introduces IBMid support and new enterprise governance capabilities",
           "link": "https://www.hashicorp.com/blog/hcp-introduces-ibmid-support-and-new-enterprise-governance-capabilities",
@@ -467,7 +591,7 @@
           "icon": "https://www.hashicorp.com/favicon.ico",
           "domain": "hashicorp.com",
           "hn": null,
-          "score": 0.17,
+          "score": 0.161,
           "coverage": 1
         }
       ]
@@ -485,7 +609,7 @@
           "icon": null,
           "domain": "openssf.org",
           "hn": null,
-          "score": 3.795,
+          "score": 3.424,
           "coverage": 1
         },
         {
@@ -498,7 +622,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 9.216,
+          "score": 7.505,
           "coverage": 2
         },
         {
@@ -511,8 +635,8 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.243,
-          "coverage": 1
+          "score": 17.592,
+          "coverage": 7
         }
       ],
       "more": []
@@ -530,7 +654,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 4.177,
+          "score": 3.347,
           "coverage": 1
         },
         {
@@ -543,7 +667,7 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 1.789,
+          "score": 1.611,
           "coverage": 1
         },
         {
@@ -556,11 +680,24 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 2.262,
+          "score": 1.877,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
+          "link": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
+          "excerpt": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines. \"When attackers are exposed, the cheap response is to rotate,\" Bitdefender said in a technical…",
+          "source": "The Hacker News",
+          "date": "Nov 18",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYLKVaRRp02L2STeR4kakGeA1NJokTtxw2aLU4wBLS34vltviR8gV4eUjk0QJ9jDVbiS_2hSeDQCwIR_JoCzPzUt-FSNUNpaKNtHpKiMugkRAMwOIbl4FbcL5iE7KCe1hebNbJRTxqO5xQkEFBuDI6F8FnsnYfreljrQlHHXuKBEN0suJZeuIf8heda5wY/s1600/chinese.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.497,
+          "coverage": 1
+        },
         {
           "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
           "link": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
@@ -571,7 +708,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.556,
+          "score": 0.444,
           "coverage": 1
         },
         {
@@ -584,7 +721,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.547,
+          "score": 0.438,
           "coverage": 1
         },
         {
@@ -597,8 +734,8 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 10.143,
-          "coverage": 4
+          "score": 17.592,
+          "coverage": 7
         },
         {
           "title": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
@@ -610,21 +747,8 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.502,
+          "score": 0.409,
           "coverage": 1
-        },
-        {
-          "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
-          "link": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
-          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active…",
-          "source": "The Hacker News",
-          "date": "Nov 18",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoFKMFLPbzyM7RGi89XdpVFUfFqLH2C0QnAIyZfTSZIkvQNT8jhFEdMdW3D1qPXE0MjtV-q8fM1Alicz0wEuNJ6fnIjOs3BY8D7ABBRWNqPg6NGz9FjhbSQhapwUDZPDyg3kJEy9CZeUwbcmZ3N5nCU8bH6bkCo4BgLfhlE3R3AdDi9CvLVgjqlMW42Pm2/s1600/puppet.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 10.143,
-          "coverage": 4
         }
       ]
     },
@@ -641,7 +765,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 2.84,
+          "score": 2.569,
           "coverage": 1
         },
         {
@@ -654,7 +778,35 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.593,
+          "score": 2.356,
+          "coverage": 1
+        },
+        {
+          "title": "The Trust Layer: Securing Agentic AI with Docker AI Governance",
+          "link": "https://www.docker.com/blog/agentic-ai-security-docker-governance/",
+          "excerpt": "Learn how Docker AI Governance secures agentic AI with sandbox policies, MCP tool governance, and audit visibility to support controlled AI agent workflows.",
+          "source": "Docker",
+          "date": "Nov 18",
+          "image": "https://www.docker.com/app/uploads/2026/11/image2.png",
+          "icon": null,
+          "domain": "docker.com",
+          "hn": null,
+          "score": 5.725,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Everything after code, as code",
+          "link": "https://www.pulumi.com/blog/everything-after-code-as-code/",
+          "excerpt": "Introducing Pulumi Delivery and Pulumi Agents: agentic code to production, and back again. At Pulumi, we like code. A lot. And we aren’t the only ones: agents like it too. This year, the share of infrastructure operations on Pulumi done by agents went from zero in January to over 40% in October.…",
+          "source": "Pulumi Blog",
+          "date": "Nov 18",
+          "image": "https://www.pulumi.com/images/generated/blog/everything-after-code-as-code/index.png",
+          "icon": null,
+          "domain": "pulumi.com",
+          "hn": null,
+          "score": 5.335,
           "coverage": 1
         },
         {
@@ -667,11 +819,9 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.726,
+          "score": 2.414,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "The visual evolution of Looker: Modern design for enterprise data storytelling",
           "link": "https://cloud.google.com/blog/products/business-intelligence/modern-data-visualizations-and-custom-charts-in-looker/",
@@ -682,7 +832,20 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.122,
+          "score": 1.928,
+          "coverage": 1
+        },
+        {
+          "title": "Introducing Pulumi Agents",
+          "link": "https://www.pulumi.com/blog/introducing-pulumi-agents/",
+          "excerpt": "It’s hard to overstate how much AI agents have changed the way we make software. When it comes to managing your cloud infrastructure, though, we’re still very much in the early days. This is why we’re excited to announce Pulumi Agents, your agentic infrastructure team. Pulumi Agents are digital…",
+          "source": "Pulumi Blog",
+          "date": "Nov 18",
+          "image": "https://www.pulumi.com/images/generated/blog/introducing-pulumi-agents/index.png",
+          "icon": null,
+          "domain": "pulumi.com",
+          "hn": null,
+          "score": 3.776,
           "coverage": 1
         },
         {
@@ -695,46 +858,7 @@
           "icon": null,
           "domain": "netflixtechblog.com",
           "hn": null,
-          "score": 1.944,
-          "coverage": 1
-        },
-        {
-          "title": "Securely exposing Amazon Bedrock AgentCore Runtime",
-          "link": "https://aws.amazon.com/blogs/security/securely-exposing-amazon-bedrock-agentcore-runtime/",
-          "excerpt": "Amazon Bedrock AgentCore Runtime delivers a secure serverless environment to deploy AI agents and tools at scale. When you start talking to your agent, the runtime launches a dedicated isolated session that runs in its own dedicated microVM with a completely sandboxed CPU, memory, and filesystem…",
-          "source": "AWS Security Blog",
-          "date": "Nov 17",
-          "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/12/Securely-exposing-Amazon-Bedrock-Figure-1.png",
-          "icon": null,
-          "domain": "aws.amazon.com",
-          "hn": null,
-          "score": 2.198,
-          "coverage": 1
-        },
-        {
-          "title": "Find the log line that matters faster with full-text search in Grafana Cloud Logs",
-          "link": "https://grafana.com/blog/find-the-log-line-that-matters-faster-with-full-text-search-in-grafana-cloud-logs/",
-          "excerpt": "A support ticket comes in with one clue: a transaction ID. The answer is somewhere in your logs, but you don't know which service logged it, which pod handled it, or which day it happened. So you write the query you always write, {service=\"payments\"} |= \"txn-123456\", widen the time range to the…",
-          "source": "Grafana Labs blog on Grafana Labs",
-          "date": "Nov 17",
-          "image": "https://a-us.storyblok.com/f/1022730/1200x630/68b9062392/grafana-cloud-logs-meta.jfif",
-          "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
-          "domain": "grafana.com",
-          "hn": null,
-          "score": 1.562,
-          "coverage": 1
-        },
-        {
-          "title": "How Shopify Orchestrates AI-Powered Mobile App Development Without Overloading Developers' Machines",
-          "link": "https://www.infoq.com/news/2026/11/shopify-remote-ai-dev/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "To prevent AI development workflows from exhausting developer machines' resources, Shopify built Remote Dev, a remote mobile development environment that enables AI agents to independently build, test and maintain iOS and Android applications and in parallel. By Sergio De Simone",
-          "source": "InfoQ",
-          "date": "Nov 17",
-          "image": "https://res.infoq.com/news/2026/11/shopify-remote-ai-dev/en/headerimage/shopify-ruvy-ruby-wasm-1794947458635.jpeg",
-          "icon": null,
-          "domain": "infoq.com",
-          "hn": null,
-          "score": 1.787,
+          "score": 1.766,
           "coverage": 1
         }
       ]
@@ -752,7 +876,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 3.939,
+          "score": 3.168,
           "coverage": 1
         },
         {
@@ -765,9 +889,24 @@
           "icon": null,
           "domain": "arstechnica.com",
           "hn": null,
-          "score": 1.908,
+          "score": 1.687,
           "coverage": 1
         },
+        {
+          "title": "Remember the frontier AI pause? Chip companies don’t either",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
+          "excerpt": "This summer, OpenAI paused its largest planned frontier training run after its AI agents accidentally hacked Hugging Face and early evidence suggested that its next model could independently find and exploit security flaws. In September, Anthropic CEO Dario Amodei called for slowing advances in…",
+          "source": "The Verge",
+          "date": "Nov 18",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Vera-Rubin-NVL72.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "icon": null,
+          "domain": "theverge.com",
+          "hn": null,
+          "score": 3.138,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems",
           "link": "https://spectrum.ieee.org/ieee-ethics-ai-systems",
@@ -778,74 +917,59 @@
           "icon": null,
           "domain": "spectrum.ieee.org",
           "hn": null,
-          "score": 1.336,
+          "score": 1.206,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
-          "title": "Codeberg.org Not Reachable",
-          "link": "https://social.anoxinon.de/@codebergstatus/117636437840688845",
-          "excerpt": "As you probably noticed, our domain codeberg.org is entirely unreachable. It was registered with namesilo and entirely disappeared from our account. We're waiting for their customer support to investigate the situation. No, we didn't forget to renew. There are no suspicious logins in the login…",
-          "source": "social.anoxinon.de via Hacker News",
+          "title": "Rivian spinoff Also pauses e-bike deliveries over battery and software bugs",
+          "link": "https://www.theverge.com/transportation/1036460/also-rivian-spinoff-tm-b-ebike-delivery-delay-software-battery-issues",
+          "excerpt": "Also, the mobility startup that spun out of Rivian last year, has run into another speed bump. The company was already struggling to get its first e-bikes to customers due to a litany of supply chain headaches and the complexity of building a futuristic bike powered almost entirely by software.…",
+          "source": "The Verge",
+          "date": "Nov 18",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRG_ALSO_TMB_09-1.webp?quality=90&strip=all&crop=0,0,100,100",
+          "icon": null,
+          "domain": "theverge.com",
+          "hn": null,
+          "score": 2.621,
+          "coverage": 1
+        },
+        {
+          "title": "Microsoft AI: Seven new world-class models at scalable price-performance",
+          "link": "https://microsoft.ai/news/microsoft-ignite-2026/",
+          "excerpt": "14 points · 3 comments",
+          "source": "microsoft.ai via Hacker News",
+          "date": "Nov 18",
+          "image": "https://microsoft.ai/wp-content/uploads/2026/11/All-Up-Blog.jpg",
+          "icon": "https://microsoft.ai/wp-content/uploads/2025/10/cropped-image-5-180x180.png",
+          "domain": "microsoft.ai",
+          "hn": "14 points · 3 comments",
+          "score": 2.325,
+          "coverage": 1
+        },
+        {
+          "title": "Deutsche Bank",
+          "link": "https://www.inside-db.com/",
+          "excerpt": "A major global investigation revealing the inner workings of the financial giant, Deutsche Bank.",
+          "source": "inside-db.com via Hacker News",
+          "date": "Nov 18",
+          "image": "https://www.inside-db.com/content/images/size/w1200/2026/09/_DSF9639.jpg",
+          "icon": "https://www.inside-db.com/assets/images/apple-touch-icon.png?v=yzJyVUNNZ4KH4dvV",
+          "domain": "inside-db.com",
+          "hn": "106 points · 31 comments",
+          "score": 3.482,
+          "coverage": 1
+        },
+        {
+          "title": "U.S. AirForce is looking for old storage Media (CF or PC cards)",
+          "link": "https://sam.gov/workspace/contract/opp/8948e8601e964c6aba9c801eee16b1be/view",
+          "excerpt": "43 points · 11 comments",
+          "source": "sam.gov via Hacker News",
           "date": "Nov 18",
           "image": null,
-          "icon": "https://social.anoxinon.de/packs/assets/apple-touch-icon-57x57-BsPGHSez.png",
-          "domain": "social.anoxinon.de",
-          "hn": "243 points · 232 comments",
-          "score": 3.595,
-          "coverage": 1
-        },
-        {
-          "title": "Energy-Based Reasoners: 385x more efficient inference",
-          "link": "https://energy-based-reasoners.github.io/",
-          "excerpt": "One learned energy refines, stops and selects. Over 99% Sudoku-Extreme accuracy with 1.8M parameters, up to 345x fewer inference FLOPs than EqR at comparable accuracy.",
-          "source": "energy-based-reasoners.github.io via Hacker News",
-          "date": "Nov 18",
-          "image": "https://energy-based-reasoners.github.io/static/images/ebr_landscape_abc_v1.png",
-          "icon": "https://energy-based-reasoners.github.io/favicon.ico",
-          "domain": "energy-based-reasoners.github.io",
-          "hn": "129 points · 17 comments",
-          "score": 2.883,
-          "coverage": 1
-        },
-        {
-          "title": "AI is killing All About Berlin",
-          "link": "https://nicolasbouliane.com/blog/death-by-ai",
-          "excerpt": "They used my work to train their AI, and now they're using their AI to put me out of work.",
-          "source": "nicolasbouliane.com via Hacker News",
-          "date": "Nov 18",
-          "image": null,
-          "icon": "https://nicolasbouliane.com/img/favicon.png",
-          "domain": "nicolasbouliane.com",
-          "hn": "502 points · 460 comments",
-          "score": 3.269,
-          "coverage": 1
-        },
-        {
-          "title": "Why Fibonacci?",
-          "link": "https://www.evilgeniuslabs.org/why-fibonacci",
-          "excerpt": "Interactive animations show why a Fermat spiral beats a grid or rings, why the angle is 137.508°, and where the Fibonacci numbers come from.",
-          "source": "evilgeniuslabs.org via Hacker News",
-          "date": "Nov 18",
-          "image": "https://www.evilgeniuslabs.org/assets/fermat-recipe.jpg",
-          "icon": "https://www.evilgeniuslabs.org/images/apple-touch-icon.png",
-          "domain": "evilgeniuslabs.org",
-          "hn": "55 points · 8 comments",
-          "score": 1.981,
-          "coverage": 1
-        },
-        {
-          "title": "Why is Gemini 4 Carbon taking so long?",
-          "link": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
-          "excerpt": "Gemini 4 Carbon spent close to an hour on tasks that Opus and Astra finished in minutes. We traced every step of its runs to find out why.",
-          "source": "kernel.dev via Hacker News",
-          "date": "Nov 18",
-          "image": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/og.png",
-          "icon": "https://kernel.dev/apple-touch-icon.png",
-          "domain": "kernel.dev",
-          "hn": "164 points · 83 comments",
-          "score": 2.364,
+          "icon": "https://sam.gov/workspace/contract/opp/8948e8601e964c6aba9c801eee16b1be/favicon.ico",
+          "domain": "sam.gov",
+          "hn": "43 points · 11 comments",
+          "score": 2.909,
           "coverage": 1
         }
       ]
