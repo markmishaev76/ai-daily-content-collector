@@ -1,25 +1,30 @@
 {
   "date": "2026-11-18",
   "lead": {
-    "title": "Microsoft agent-framework compromised on PyPI: 1.26.1 and 1.26.2 ship a credential stealer that runs on every Python start (November 2026)",
-    "link": "https://www.chainguard.dev/unchained/microsoft-agent-framework-compromised-on-pypi-november-2026",
-    "excerpt": "Two malicious versions of Microsoft's agent-framework targeted cloud credentials and AI API keys. Learn how Chainguard detected and blocked the attack.",
-    "source": "Chainguard: Unchained",
-    "date": "Nov 17",
-    "image": "https://images.ctfassets.net/l47ir7rfykkn/37UXfGLVWJiH7J11pJEaFc/3bb8b4cf9664c85edba5b1878aa617e9/agent-framework.png",
+    "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+    "link": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+    "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active…",
+    "source": "The Hacker News",
+    "date": "Nov 18",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoFKMFLPbzyM7RGi89XdpVFUfFqLH2C0QnAIyZfTSZIkvQNT8jhFEdMdW3D1qPXE0MjtV-q8fM1Alicz0wEuNJ6fnIjOs3BY8D7ABBRWNqPg6NGz9FjhbSQhapwUDZPDyg3kJEy9CZeUwbcmZ3N5nCU8bH6bkCo4BgLfhlE3R3AdDi9CvLVgjqlMW42Pm2/s1600/puppet.jpg",
     "image_credit": null,
-    "section": "AI Agents & Agent Security",
+    "section": "Security & AppSec",
     "pinned": false,
     "note": null,
     "labels": [
-      "2 sources",
-      "AI Agents & Agent Security",
+      "3 sources",
+      "CVE-2026-114938",
+      "Security & AppSec",
       "1h ago"
     ],
     "also": [
       {
-        "name": "socket.dev",
-        "link": "https://socket.dev/blog/agent-framework-pypi-package-compromised-with-credential-stealer"
+        "name": "sentinelone.com",
+        "link": "https://www.sentinelone.com/blog/java4shell-vulnerability-in-openjdk-enables-rce-on-avx-512-cpus/"
+      },
+      {
+        "name": "bleepingcomputer.com",
+        "link": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/"
       }
     ]
   },
@@ -31,7 +36,7 @@
       "link_domain": "calif.io",
       "source": "Hacker News",
       "domain": "calif.io",
-      "meta": "Hacker News · 728 points · 193 comments · 8h ago",
+      "meta": "Hacker News · 943 points · 240 comments · 13h ago",
       "also": [
         {
           "source": "Lobsters",
@@ -42,28 +47,40 @@
       "icon": "https://calif.io/favicon.ico"
     },
     {
-      "title": "Highly classified US national security communications network goes down",
-      "thread": "https://news.ycombinator.com/item?id=50532849",
-      "link": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
-      "link_domain": "cnn.com",
-      "source": "Hacker News",
-      "domain": "cnn.com",
-      "meta": "Hacker News · 541 points · 620 comments · 14h ago",
-      "also": [],
-      "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1227141714-20261117152535850.jpg?c=16x9&q=w_800,c_fill",
-      "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png"
-    },
-    {
       "title": "Quad9's withdrawal from France: A canary in the coal mine",
       "thread": "https://news.ycombinator.com/item?id=50538994",
       "link": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
       "link_domain": "blog.cloudflare.com",
       "source": "Hacker News",
       "domain": "blog.cloudflare.com",
-      "meta": "Hacker News · 430 points · 138 comments · 7h ago",
+      "meta": "Hacker News · 603 points · 199 comments · 11h ago",
       "also": [],
       "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7NJA0M7FAQEQZBW0K0W5KKS.png",
       "icon": "https://blog.cloudflare.com/favicon.ico"
+    },
+    {
+      "title": "Highly classified US national security communications network goes down",
+      "thread": "https://news.ycombinator.com/item?id=50532849",
+      "link": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
+      "link_domain": "cnn.com",
+      "source": "Hacker News",
+      "domain": "cnn.com",
+      "meta": "Hacker News · 580 points · 670 comments · 18h ago",
+      "also": [],
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1227141714-20261117152535850.jpg?c=16x9&q=w_800,c_fill",
+      "icon": "https://www.cnn.com/media/sites/cnn/apple-touch-icon.png"
+    },
+    {
+      "title": "Google's AI answers reducing search traffic by 40%",
+      "thread": "https://news.ycombinator.com/item?id=50540178",
+      "link": "https://revscope.co/blog/search-seo-geo-2026/",
+      "link_domain": "revscope.co",
+      "source": "Hacker News",
+      "domain": "revscope.co",
+      "meta": "Hacker News · 389 points · 294 comments · 9h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://revscope.co/favicon.ico"
     },
     {
       "title": "Phrack 73",
@@ -72,7 +89,7 @@
       "link_domain": "phrack.org",
       "source": "Lobsters",
       "domain": "phrack.org",
-      "meta": "Lobsters · 42 points · 2 comments · 12h ago",
+      "meta": "Lobsters · 46 points · 3 comments · 16h ago",
       "also": [],
       "image": "https://phrack.org/images/phrack-new.webp",
       "icon": "https://phrack.org/apple-touch-icon.png"
@@ -84,22 +101,10 @@
       "link_domain": "claude.dev",
       "source": "Hacker News",
       "domain": "claude.dev",
-      "meta": "Hacker News · 278 points · 223 comments · 19h ago",
+      "meta": "Hacker News · 282 points · 227 comments · 23h ago",
       "also": [],
       "image": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/og.png",
       "icon": "https://claude.dev/shared/img/favicon.svg"
-    },
-    {
-      "title": "Google's AI answers reducing search traffic by 40%",
-      "thread": "https://news.ycombinator.com/item?id=50540178",
-      "link": "https://revscope.co/blog/search-seo-geo-2026/",
-      "link_domain": "revscope.co",
-      "source": "Hacker News",
-      "domain": "revscope.co",
-      "meta": "Hacker News · 263 points · 186 comments · 5h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://revscope.co/favicon.ico"
     },
     {
       "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
@@ -108,34 +113,22 @@
       "link_domain": "scmp.com",
       "source": "Hacker News",
       "domain": "scmp.com",
-      "meta": "Hacker News · 186 points · 245 comments · 15h ago",
+      "meta": "Hacker News · 188 points · 246 comments · 19h ago",
       "also": [],
       "image": null,
       "icon": "https://www.scmp.com/favicon.ico"
     },
     {
-      "title": "Java4Shell: pre-auth RCE flaw in Java 17 puts servers at risk (CVE-2026-114938)",
-      "thread": "https://news.ycombinator.com/item?id=50532118",
-      "link": "https://www.aikido.dev/blog/java-17-rce-vulnerability-cve-2026-114938",
-      "link_domain": "aikido.dev",
+      "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+      "thread": "https://news.ycombinator.com/item?id=50538303",
+      "link": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
+      "link_domain": "complexdiscovery.com",
       "source": "Hacker News",
-      "domain": "aikido.dev",
-      "meta": "Hacker News · 149 points · 29 comments · 15h ago",
+      "domain": "complexdiscovery.com",
+      "meta": "Hacker News · 184 points · 256 comments · 12h ago",
       "also": [],
-      "image": "https://cdn.prod.website-files.com/642adcaf364024654c71df23/6afc5243bb4ae6870f759309_Node-JS_OG%20(2).jpg",
-      "icon": "https://cdn.prod.website-files.com/642adcaf364024552e71df01/6acf3def6456cdb50f820e2e_favicon-512.jpg"
-    },
-    {
-      "title": "Regulatory Capture by Anthropic Through METR",
-      "thread": "https://news.ycombinator.com/item?id=50530450",
-      "link": "https://nitter.cf/kevinnbass/status/2099621874279817638",
-      "link_domain": "nitter.cf",
-      "source": "Hacker News",
-      "domain": "nitter.cf",
-      "meta": "Hacker News · 140 points · 74 comments · 17h ago",
-      "also": [],
-      "image": "https://pbs.twimg.com/media/HSNXaLrW4AEnwuB.jpg",
-      "icon": "https://pbs.twimg.com/profile_images/1947236538409988096/hZXVsMlX_400x400.jpg"
+      "image": "https://complexdiscovery.com/wp-content/uploads/2026/10/AI-Report-One.jpg",
+      "icon": "https://complexdiscovery.com/apple-icon-57x57.png"
     },
     {
       "title": "Not Everything Needs an LLM",
@@ -144,10 +137,22 @@
       "link_domain": "newsletter.posthog.com",
       "source": "Hacker News",
       "domain": "newsletter.posthog.com",
-      "meta": "Hacker News · 139 points · 56 comments · 11h ago",
+      "meta": "Hacker News · 158 points · 69 comments · 15h ago",
       "also": [],
       "image": "https://substackcdn.com/image/fetch/$s_!wD8h!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff406379a-4ff2-4e21-aaac-69cda7d7b37e_1200x630.png",
       "icon": "https://substackcdn.com/image/fetch/$s_!iyFm!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a8f2331-7055-4f73-bbf8-ab2f4815f8d9%2Fapple-touch-icon-57x57.png"
+    },
+    {
+      "title": "Java4Shell: pre-auth RCE flaw in Java 17 puts servers at risk (CVE-2026-114938)",
+      "thread": "https://news.ycombinator.com/item?id=50532118",
+      "link": "https://www.aikido.dev/blog/java-17-rce-vulnerability-cve-2026-114938",
+      "link_domain": "aikido.dev",
+      "source": "Hacker News",
+      "domain": "aikido.dev",
+      "meta": "Hacker News · 149 points · 30 comments · 19h ago",
+      "also": [],
+      "image": "https://cdn.prod.website-files.com/642adcaf364024654c71df23/6afc5243bb4ae6870f759309_Node-JS_OG%20(2).jpg",
+      "icon": "https://cdn.prod.website-files.com/642adcaf364024552e71df01/6acf3def6456cdb50f820e2e_favicon-512.jpg"
     }
   ],
   "sections": [
@@ -164,7 +169,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 7.154,
+          "score": 5.896,
           "coverage": 1
         },
         {
@@ -177,7 +182,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 5.707,
+          "score": 4.713,
           "coverage": 1
         },
         {
@@ -190,11 +195,24 @@
           "icon": "https://sebastianraschka.com/images/favicons/favicon-32x32.png",
           "domain": "sebastianraschka.com",
           "hn": null,
-          "score": 0.69,
+          "score": 0.596,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "AI coding rules matter more than your model",
+          "link": "https://leaddev.com/software-quality/ai-coding-rules-matter-more-than-your-model?utm_source=leaddev&utm_medium=RSS",
+          "excerpt": "Treat your AI rules like code. The post AI coding rules matter more than your model appeared first on LeadDev.",
+          "source": "LeadDev",
+          "date": "Nov 18",
+          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2025/04/mandate-brink-02.jpg",
+          "icon": null,
+          "domain": "leaddev.com",
+          "hn": null,
+          "score": 1.33,
+          "coverage": 1
+        },
         {
           "title": "Put Gemini to work for you",
           "link": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
@@ -205,7 +223,7 @@
           "icon": null,
           "domain": "blog.google",
           "hn": null,
-          "score": 0.717,
+          "score": 0.616,
           "coverage": 1
         }
       ]
@@ -223,7 +241,7 @@
           "icon": "https://cdn.metabase.com/images/apple-touch-icon.png",
           "domain": "metabase.com",
           "hn": "10 points · 1 comments",
-          "score": 6.279,
+          "score": 5.377,
           "coverage": 1
         },
         {
@@ -236,7 +254,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 3.21,
+          "score": 2.747,
           "coverage": 1
         },
         {
@@ -249,11 +267,24 @@
           "icon": null,
           "domain": "sentinelone.com",
           "hn": null,
-          "score": 5.804,
-          "coverage": 2
+          "score": 7.824,
+          "coverage": 3
         }
       ],
       "more": [
+        {
+          "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+          "link": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+          "excerpt": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+          "source": "OpenAI News",
+          "date": "Nov 18",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.844,
+          "coverage": 1
+        },
         {
           "title": "Introducing ChatGPT for Sales",
           "link": "https://openai.com/index/introducing-chatgpt-for-sales",
@@ -264,7 +295,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.55,
+          "score": 0.491,
           "coverage": 1
         },
         {
@@ -277,7 +308,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.445,
+          "score": 0.406,
           "coverage": 1
         }
       ]
@@ -295,11 +326,51 @@
           "icon": "https://randsinrepose.com/nitropack_static/pYcrXSmzMTYaBCajyDlByLkiWOiRWpVF/assets/images/optimized/rev-7d0833b/randsinrepose.com/wp-content/uploads/2025/08/cropped-rands-favicon-1-180x180.png",
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.681,
+          "score": 0.574,
+          "coverage": 1
+        },
+        {
+          "title": "What is cloud computing? -test",
+          "link": "https://www.mckinsey.com/what-is-cloud-computing--test",
+          "excerpt": "Cloud computing allows companies to store their infrastructures remotely via the internet, ultimately reducing costs and creating value.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 18",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.675,
+          "coverage": 1
+        },
+        {
+          "title": "What is cloud computing? -test",
+          "link": "https://www.mckinsey.com/our-people/what-is-cloud-computing--test",
+          "excerpt": "Cloud computing allows companies to store their infrastructures remotely via the internet, ultimately reducing costs and creating value.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 18",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.675,
           "coverage": 1
         }
       ],
-      "more": []
+      "more": [
+        {
+          "title": "Infrastructure entrepreneurs: How HOCHTIEF captures growth with AI",
+          "link": "https://www.mckinsey.com/capabilities/business-building/our-insights/infrastructure-entrepreneurs-how-hochtief-captures-growth-in-the-ai-age",
+          "excerpt": "How does a 150-year-old engineering company become a growth champion? McKinsey Partner Jerome Königsfeld interviews two leaders from HOCHTIEF PPP Solutions to learn about their innovation playbook.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 18",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.675,
+          "coverage": 1
+        }
+      ]
     },
     {
       "name": "Agent Identity & Authorization",
@@ -314,7 +385,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 2.863,
+          "score": 2.609,
           "coverage": 1
         }
       ],
@@ -333,7 +404,7 @@
           "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
           "domain": "aembit.io",
           "hn": null,
-          "score": 3.691,
+          "score": 3.107,
           "coverage": 1
         },
         {
@@ -346,7 +417,7 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 2.246,
+          "score": 1.919,
           "coverage": 1
         },
         {
@@ -359,7 +430,7 @@
           "icon": "https://www.hashicorp.com/favicon.ico",
           "domain": "hashicorp.com",
           "hn": null,
-          "score": 1.174,
+          "score": 1.048,
           "coverage": 1
         }
       ],
@@ -374,7 +445,7 @@
           "icon": "https://www.hashicorp.com/favicon.ico",
           "domain": "hashicorp.com",
           "hn": null,
-          "score": 0.195,
+          "score": 0.18,
           "coverage": 1
         }
       ]
@@ -392,7 +463,20 @@
           "icon": null,
           "domain": "openssf.org",
           "hn": null,
-          "score": 5.005,
+          "score": 4.245,
+          "coverage": 1
+        },
+        {
+          "title": "Microsoft agent-framework compromised on PyPI: 1.26.1 and 1.26.2 ship a credential stealer that runs on every Python start (November 2026)",
+          "link": "https://www.chainguard.dev/unchained/microsoft-agent-framework-compromised-on-pypi-november-2026",
+          "excerpt": "Two malicious versions of Microsoft's agent-framework targeted cloud credentials and AI API keys. Learn how Chainguard detected and blocked the attack.",
+          "source": "Chainguard: Unchained",
+          "date": "Nov 17",
+          "image": "https://images.ctfassets.net/l47ir7rfykkn/37UXfGLVWJiH7J11pJEaFc/3bb8b4cf9664c85edba5b1878aa617e9/agent-framework.png",
+          "icon": "https://www.chainguard.dev/favicon.ico",
+          "domain": "chainguard.dev",
+          "hn": null,
+          "score": 1.818,
           "coverage": 1
         },
         {
@@ -405,7 +489,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.285,
+          "score": 0.26,
           "coverage": 1
         }
       ],
@@ -424,21 +508,75 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 2.378,
+          "score": 2.007,
           "coverage": 1
         },
         {
-          "title": "Java4Shell (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak on Java 17+ AVX-512 VBMI Servers",
+          "title": "UK MPs want AI watchdog with power to pull the plug on dangerous models",
+          "link": "https://www.theregister.com/ai-and-ml/2026/11/18/uk-mps-want-ai-watchdog-with-power-to-pull-the-plug-on-dangerous-models/5310567",
+          "excerpt": "Parliamentary committee says tech giants can't be left to mark their own homework when it comes to AI safety",
+          "source": "The Register",
+          "date": "Nov 18",
+          "image": "https://image.theregister.com/?imageId=2918046&width=800",
+          "icon": null,
+          "domain": "theregister.com",
+          "hn": null,
+          "score": 2.832,
+          "coverage": 1
+        },
+        {
+          "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+          "link": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java. The flaw, tracked as CVE-2026-114938 (CVSS score: 8.1), refers to a case of out-of-bounds write that can lead to…",
+          "source": "The Hacker News",
+          "date": "Nov 18",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivmrsz2fViEN49Su385gmuAShCPcxobsMF-FbR9t1sXw6aEbOMzFUT5YktViqASQUXP3bLT13HYMAE1wBQTN0ZRDGXWFJUy_EWOKhOjR7jSz-bhEK8jas_v9wWUYxevCAZt4PzOCaGNLLC96kDwFjtKBuXVW2O3K2BK9AO5nyZutFf_uCaZtvyaQ2qf8gK/s1600/cisa-java.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.522,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+          "link": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+          "excerpt": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Chainguard, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz. The malicious versions, 1.26.1 and 1.26.2, were published 33 minutes apart on…",
+          "source": "The Hacker News",
+          "date": "Nov 18",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_LozO7RAz13Jr3eqWHIjlAF6M0Cs-mJXX2mKUqU0TxVS02piD1na92TAZjICmeySD4z0zS-Y_BFvceERBdk-UZvV1DUh1LGN6wK-T-yt_TROJ5fcuvROu807jqESQo93CFP3faBbReKMZQxvgYOAGl_vS2VzfO67O24NdAgh6d9jMO2mTSy2jaNJMPD9T/s1600/ms-python.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.466,
+          "coverage": 1
+        },
+        {
+          "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
+          "link": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
+          "excerpt": "The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in third-party compromise. Google's Mandiant and Threat Intelligence Group (GTIG) said…",
+          "source": "The Hacker News",
+          "date": "Nov 18",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLbxlzqi-uBPlDXGecxrfXQ8kZLpAKsDO5c7KmTTyYyNQQE6bdI0TqT7Rk_JrKRie2pMB_xrLRKy1Cksp1GYHfUGHXz7UGg5nWOAQmPmiRKoUJkMCHrMvW7A72W9x7_I7KESMQmJLQVrJth_Ozj7i1nF7IPB4W_WV-NQyy0afEMgGVbGdaSNfIjolqtC4-/s1600/cloud.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 3.103,
+          "coverage": 1
+        },
+        {
+          "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
           "link": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
           "excerpt": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week. The flaw is present in Java 17.0.6 and later, and the vulnerable code runs…",
           "source": "The Hacker News",
           "date": "Nov 18",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTrbBEjGUxldrJAnxC5ilrZqnNHyexGDTR-zS3vAX-Qw_ZNtNNEsomeDRYT40hQkUZt3G4T6y9oKi7G88dN0gatwvi03ItVtDmFCA8V7Zrb2lh5l4oGf8BUVF0UUbvybU0XuGpBnynGfvsCS_y4aWYtzvD_eNyqtids_c8w1auCGMWMYlxrReU-iS0FWc/s1600/java.jpg",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis8B-Vf6puS0vOs9mEVup755KXy8y59KD72B5VQb8SyhO1JDHkYcvg42Y1rh1xg3seyml7j2vZn5Dq1OEnFYVzD_97osoZXWkxVVOBxM48InZPbaVgV7Lo64odzPVKNPEtPeLlEAm2AFfShOFVGtypVUJAJdt07qqik_Yde9X6BxLECPH7Gekbkzl2GBDK/s1600/java4shell-flaw.jpg",
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 5.804,
-          "coverage": 2
+          "score": 7.824,
+          "coverage": 3
         },
         {
           "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
@@ -450,75 +588,8 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.32,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
-          "link": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
-          "excerpt": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK. The 11…",
-          "source": "The Hacker News",
-          "date": "Nov 17",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiw1l9jYXUC-XLNjqqVjPvFicpQvkj-fwml16Gl43nsTc5TrBGGzijFoCzpxHpfninWaxrDxoCW4J6FKkgO1rPsnVFgFAcMbm9hl9YxeVO6fM4sBrs_tvUOXG8MnKPqDXRal3qNJ2VY7RzqAlj5vJzYI6xVFOxVGV7TyDliY-AIBqKm2bst1d6rCNl2qkhv/s1600/java4shell.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 5.804,
-          "coverage": 2
-        },
-        {
-          "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
-          "link": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
-          "excerpt": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram. \"Trigram is a large-scale campaign that impersonates about 50 brands in the blockchain and AI sectors, to trick developers…",
-          "source": "The Hacker News",
-          "date": "Nov 17",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXvywoP0qreCtUhDgAD1y24HevVHwAH9bGo904BuaQ7-amvdkk6Oi8gz8WjF-Hwiu3SinN266QM0KwUX6lDnayGOtMaSEff_b5vybBsdwvDhiai2uGsAlYfMgCdquPmKqaqM6eY54pG9HsMR7X5Sf7M4nkbIaHmWJMBG1uL3ggpJMMvfQR6FbMagqug2QG/s1600/target.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.268,
-          "coverage": 1
-        },
-        {
-          "title": "Classified Communications Network at the National Security Agency Goes Down, Defense Official Says",
-          "link": "https://www.securityweek.com/classified-communications-network-at-the-national-security-agency-goes-down-defense-official-says/",
-          "excerpt": "The problem disrupted the operations of NSANet, a classified internal network used by employees of the agency. The post Classified Communications Network at the National Security Agency Goes Down, Defense Official Says appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 18",
-          "image": "https://www.securityweek.com/wp-content/uploads/2023/09/NSA-Cyber-AI.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.454,
-          "coverage": 1
-        },
-        {
-          "title": "AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says",
-          "link": "https://www.securityweek.com/ai-framework-autonomously-weaponized-flaws-in-real-attacks-google-says/",
-          "excerpt": "Threat actors are deploying multi-agent offensive frameworks to increase the velocity of multi-stage intrusions. The post AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 17",
-          "image": "https://www.securityweek.com/wp-content/uploads/2025/07/AI-Chatbot-GenAI-artificial-intelligence.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.302,
-          "coverage": 1
-        },
-        {
-          "title": "Market Research Giant Ipsos Investigating Breach of Internal System",
-          "link": "https://www.securityweek.com/market-research-giant-ipsos-investigating-breach-of-internal-system/",
-          "excerpt": "The company made the incident public on Monday, November 16, five days after filing a complaint with authorities. The post Market Research Giant Ipsos Investigating Breach of Internal System appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 17",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/Ipsos.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 1.854,
-          "coverage": 1
+          "score": 7.824,
+          "coverage": 3
         }
       ]
     },
@@ -535,7 +606,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 3.716,
+          "score": 3.168,
           "coverage": 1
         },
         {
@@ -548,7 +619,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 3.348,
+          "score": 2.878,
           "coverage": 1
         },
         {
@@ -561,7 +632,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 3.838,
+          "score": 3.123,
           "coverage": 1
         }
       ],
@@ -576,7 +647,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.74,
+          "score": 2.355,
           "coverage": 1
         },
         {
@@ -589,7 +660,7 @@
           "icon": null,
           "domain": "netflixtechblog.com",
           "hn": null,
-          "score": 2.511,
+          "score": 2.158,
           "coverage": 1
         },
         {
@@ -602,7 +673,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 2.942,
+          "score": 2.472,
           "coverage": 1
         },
         {
@@ -615,7 +686,7 @@
           "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
           "domain": "grafana.com",
           "hn": null,
-          "score": 2.014,
+          "score": 1.732,
           "coverage": 1
         },
         {
@@ -628,7 +699,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 2.407,
+          "score": 2.015,
           "coverage": 1
         }
       ]
@@ -646,7 +717,7 @@
           "icon": null,
           "domain": "arstechnica.com",
           "hn": null,
-          "score": 2.698,
+          "score": 2.189,
           "coverage": 1
         },
         {
@@ -659,7 +730,7 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 1.927,
+          "score": 1.613,
           "coverage": 1
         },
         {
@@ -672,22 +743,61 @@
           "icon": null,
           "domain": "spectrum.ieee.org",
           "hn": null,
-          "score": 1.759,
+          "score": 1.493,
           "coverage": 1
         }
       ],
       "more": [
         {
-          "title": "Interviewed at a YC startup, found out they used my LinkedIn without permission",
-          "link": "https://reddit.com/r/recruitinghell/comments/1xyr6ml/interviewed_at_a_yc_startup_spent_30_hours/",
-          "excerpt": "59 points · 7 comments",
-          "source": "reddit.com via Hacker News",
+          "title": "Talos Linux",
+          "link": "https://www.siderolabs.com/talos-linux",
+          "excerpt": "We help platform teams run Kubernetes without the heroics, so engineers can ship the roadmap instead of fighting fires.",
+          "source": "siderolabs.com via Hacker News",
+          "date": "Nov 18",
+          "image": "https://www.siderolabs.com/redesign-2026/OG-preview-image.png",
+          "icon": "https://www.siderolabs.com/site-assets/uploads/2025/09/cropped-favicon-180x180.png",
+          "domain": "siderolabs.com",
+          "hn": "32 points · 19 comments",
+          "score": 2.704,
+          "coverage": 1
+        },
+        {
+          "title": "Australia's full national topographic library at your fingertips",
+          "link": "https://www.ga.gov.au/news/australias-full-national-topographic-library-at-your-fingertips",
+          "excerpt": "Geoscience Australia has completed the nationwide release of its AUSTopo 1:250,000 digital topographic map series, putting authoritative, up to date topographic coverage of the entire country just a click away.",
+          "source": "ga.gov.au via Hacker News",
+          "date": "Nov 18",
+          "image": "https://www.ga.gov.au/__data/assets/image/0007/189601/AUSTopomap_social.jpg",
+          "icon": "https://www.ga.gov.au/designs/images/GA_logo_180x180.png",
+          "domain": "ga.gov.au",
+          "hn": "18 points · 8 comments",
+          "score": 2.155,
+          "coverage": 1
+        },
+        {
+          "title": "AI is killing All About Berlin",
+          "link": "https://nicolasbouliane.com/blog/death-by-ai",
+          "excerpt": "They used my work to train their AI, and now they're using their AI to put me out of work.",
+          "source": "nicolasbouliane.com via Hacker News",
           "date": "Nov 18",
           "image": null,
-          "icon": "https://reddit.com/favicon.ico",
-          "domain": "reddit.com",
-          "hn": "59 points · 7 comments",
-          "score": 3.07,
+          "icon": "https://nicolasbouliane.com/img/favicon.png",
+          "domain": "nicolasbouliane.com",
+          "hn": "332 points · 295 comments",
+          "score": 3.728,
+          "coverage": 1
+        },
+        {
+          "title": "Why Fibonacci?",
+          "link": "https://www.evilgeniuslabs.org/why-fibonacci",
+          "excerpt": "Interactive animations show why a Fermat spiral beats a grid or rings, why the angle is 137.508°, and where the Fibonacci numbers come from.",
+          "source": "evilgeniuslabs.org via Hacker News",
+          "date": "Nov 18",
+          "image": "https://www.evilgeniuslabs.org/assets/fermat-recipe.jpg",
+          "icon": "https://www.evilgeniuslabs.org/images/apple-touch-icon.png",
+          "domain": "evilgeniuslabs.org",
+          "hn": "37 points · 3 comments",
+          "score": 2.149,
           "coverage": 1
         },
         {
@@ -699,47 +809,8 @@
           "image": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/og.png",
           "icon": "https://kernel.dev/apple-touch-icon.png",
           "domain": "kernel.dev",
-          "hn": "24 points · 8 comments",
-          "score": 2.451,
-          "coverage": 1
-        },
-        {
-          "title": "H-1B Executive Actions in 2026 [pdf]",
-          "link": "https://www.everycrsreport.com/files/2026-10-14_IN12747_fcb1389788aa7b9102b795882af042e85d20532c.pdf",
-          "excerpt": "20 points · 19 comments",
-          "source": "everycrsreport.com via Hacker News",
-          "date": "Nov 18",
-          "image": null,
-          "icon": "https://www.everycrsreport.com/favicon.ico",
-          "domain": "everycrsreport.com",
-          "hn": "20 points · 19 comments",
-          "score": 2.454,
-          "coverage": 1
-        },
-        {
-          "title": "Cerebras Disaggregated Inference",
-          "link": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
-          "excerpt": "Cerebras pairs AMD GPUs for prefill with wafer-scale decode to deliver 5× more tokens per megawatt without reducing token generation speed.",
-          "source": "cerebras.ai via Hacker News",
-          "date": "Nov 18",
-          "image": "https://cdn.sanity.io/images/e4qjo92p/production/517b4d022eca11a8f17ad828fc698df3b3cd7d86-1920x1080.png?rect=0,36,1920,1008&w=1200&h=630&fit=max&auto=format",
-          "icon": "https://cdn.sanity.io/images/e4qjo92p/production/e7a55ae5ab7e2c4fdfd4e66a51f628d1f2f44207-967x967.png?w=512&h=512&fit=max&auto=format",
-          "domain": "cerebras.ai",
-          "hn": "60 points · 14 comments",
-          "score": 2.362,
-          "coverage": 1
-        },
-        {
-          "title": "ID.me terms required for IRS sign-in",
-          "link": "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in",
-          "excerpt": "IRS sign-in through ID.me: its terms require arbitration absent a 30-day opt-out; government verification data is excluded from Shop marketing, with exceptions.",
-          "source": "consumerrights.wiki via Hacker News",
-          "date": "Nov 18",
-          "image": "https://consumerrights.wiki/images/logo/new_fixed_logo.png",
-          "icon": "https://consumerrights.wiki/images/favicon-96x96.png",
-          "domain": "consumerrights.wiki",
-          "hn": "262 points · 109 comments",
-          "score": 3.092,
+          "hn": "97 points · 46 comments",
+          "score": 2.545,
           "coverage": 1
         }
       ]

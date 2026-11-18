@@ -845,6 +845,12 @@
   "icon": "https://us1.discourse-cdn.com/openai1/optimized/4X/e/5/d/e5d0db747b8673d263cea6db3e4736ae59f34731_2_180x180.png",
   "image": "https://us1.discourse-cdn.com/openai1/original/4X/0/4/c/04c8546833f0824a49d21f50e2b08dd44bfd3d05.png"
  },
+ "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/": {
+  "description": "Harvard study: AI coding agents raised code output 30 percent; finished work did not measurably rise, and getting code through review took 49 percent longer.",
+  "fetched": "2026-11-18",
+  "icon": "https://complexdiscovery.com/apple-icon-57x57.png",
+  "image": "https://complexdiscovery.com/wp-content/uploads/2026/10/AI-Report-One.jpg"
+ },
  "https://computer.rip/2026-10-25-searchlights.html": {
   "description": null,
   "fetched": "2026-11-07",
@@ -2933,6 +2939,12 @@
   "icon": null,
   "image": "https://nick-black.com/dankwiki/resources/assets/orca.jpg"
  },
+ "https://nicolasbouliane.com/blog/death-by-ai": {
+  "description": "They used my work to train their AI, and now they're using their AI to put me out of work.",
+  "fetched": "2026-11-18",
+  "icon": "https://nicolasbouliane.com/img/favicon.png",
+  "image": null
+ },
  "https://nitter.cf/kevinnbass/status/2099621874279817638": {
   "description": "I have conducted an audit of Anthropic's finances. What I have found is so shocking that I am calling for a Congressional investigation. Anthropic is not just seeking regulatory capture. It has built a regulatory capture machine that cannot be turned off. Structural financial incentives make it impossible for Anthropic -- I call it the Anthropic Network -- to turn off its own AI doom cycle. It starts with METR. Dario Amodei proposes \"third-party evaluators\" to assess the risk of Anthropic's models. He proposes METR for this purpose. But METR is financially dependent on the Anthropic's success -- specifically, on the explosive growth of more than $7 billion dollars in Anthropic stock. Dustin Moskovitz invested this stock into Good Ventures Foundation, where it represents the majority of that organization's portfolio. And GVF is the overwhelming funder of the entire Anthropic Network ecosystem. This stock was worth $500 million early last year. It is worth more than $7.7 billion just ~16 months later. METR -- and all of those building a career its parent organizations -- cannot afford to disrupt that growth. Because if Anthropic goes under, many of the organizations that fund METR go under as well. But if Anthropic succeeds, METR and its parent organizations become more richly financed to regulate AI -- something those at METR want very much. The \"third-party evaluator\" is not \"third-party\" at all. The evaluator is on Anthropic's payroll. If this were the end of it, that's bad. But that isn't all. The same organizations that fund METR also fund the many organizations, such as the Tarbell Center, that promote AI Doom. The Tarbell Center publishes AI Doom articles in The Verge, Science, LA Times, The Dispatch, TIME, and others. They are selling the problem, and then selling the solution to the problem -- from the same money pile: Anthropic's. All of these organizations are financially dependent on the same exploding $7 billion money pile. As Anthropic grows more and more powerful, its AI Doom Machine grows better and better financed -- louder and louder. Meanwhile, the regulatory regime seeded in METR grows larger to solve the increasingly loud -- now hysterical -- problem of AI Doom that the Anthropic Network itself created. From this standpoint, as Anthropic becomes more powerful, AI might be getting scarier, sure -- but the positive feedback loop also becomes more deafening -- independent of objective facts. This itself is an objective fact. The deafening AI Doom is part of an business model, that, as it expands, so too does the AI Doom messaging -- there is simply more money to do it. But the problem also goes in the other direction: If Anthropic dies, the Regulatory Regime and the AI Doom Machine are crippled or die. Neither METR nor Tarbell nor the other organizations in the Anthropic Network can allow that to happen. Hence, neither METR or the AI Doom Machine can be trusted to provide independent assessments of Anthropic's models or AI more broadly. They simply are not organizations independent of Anthropic. And Anthropic cannot detach itself from METR or Tarbell or countless other safety orgs (not shown here), either, because they drive hype for the models and the possibility of eventual regulatory capture, and Anthropic will not give that up willingly. What's more, the people at all of these organizations are all the same ecosystem, the same community. They just shuffle between organizations. The Anthropic Network is therefore, so long as it is successful, locked into a self-amplifying feedback loop inside an ideological monoculture. And that feedback loop is winning. That's what Jacob Coxon is. China is keeping messaging tight. That is why optimism for AI is so high in China. America has Anthropic: a massive company pushing anti-AI propaganda at a state level. Anthropic will either create hysteria until American AI slows down and China wins, or it will create fractures throughout American society with severe political consequences. Ironically, because of the structural financial incentives underpinning the Anthropic Network, it has become the same kind of self-amplifying virus that it fantasizes AI to become in the future -- while hiding its tracks just as carefully. It is the mirror of the same AI virus that it hypothesizes to consume America. Anthropic's business model, models itself after the very thing it claims to fear. Except Anthropic's ideology infects humans, not computers. Congress must investigate. Evidence and Github in next post. Then some supplementary figures.",
   "fetched": "2026-11-17",
@@ -3338,6 +3350,12 @@
  "https://openai.com/index/kuken": {
   "description": null,
   "fetched": "2026-11-10",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership": {
+  "description": null,
+  "fetched": "2026-11-18",
   "icon": null,
   "image": null
  },
@@ -5693,6 +5711,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2026/11/02/pandabot.jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/": {
+  "description": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, including Jenkins, Atlassian Jira, Confluence, and Keycloak.",
+  "fetched": "2026-11-18",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/11/17/java4shell-header.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/": {
   "description": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification steps and affiliate networks to generate revenue without delivering the promised rewards.",
   "fetched": "2026-11-08",
@@ -6419,6 +6443,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.evilgeniuslabs.org/why-fibonacci": {
+  "description": "Interactive animations show why a Fermat spiral beats a grid or rings, why the angle is 137.508°, and where the Fibonacci numbers come from.",
+  "fetched": "2026-11-18",
+  "icon": "https://www.evilgeniuslabs.org/images/apple-touch-icon.png",
+  "image": "https://www.evilgeniuslabs.org/assets/fermat-recipe.jpg"
+ },
  "https://www.fgc.org.br/comunicado": {
   "description": null,
   "fetched": "2026-11-06",
@@ -6454,6 +6484,12 @@
   "fetched": "2026-10-31",
   "icon": null,
   "image": null
+ },
+ "https://www.ga.gov.au/news/australias-full-national-topographic-library-at-your-fingertips": {
+  "description": "Geoscience Australia has completed the nationwide release of its AUSTopo 1:250,000 digital topographic map series, putting authoritative, up to date topographic coverage of the entire country just a click away.",
+  "fetched": "2026-11-18",
+  "icon": "https://www.ga.gov.au/designs/images/GA_logo_180x180.png",
+  "image": "https://www.ga.gov.au/__data/assets/image/0007/189601/AUSTopomap_social.jpg"
  },
  "https://www.getlazarus.org/forums/topic/17/": {
   "description": null,
@@ -6555,6 +6591,12 @@
   "description": "Every agent tool stores memory in its own shape, and every week someone builds another one. None of them can read the others. Observability had the same problem until OpenTelemetry gave everyone one data model to share. A tour of today's memory formats, the proposals that already exist, and what a shared spec could look like.",
   "fetched": "2026-11-08",
   "icon": "https://www.lorekit.io/icons/icon-192.png",
+  "image": null
+ },
+ "https://www.mckinsey.com/capabilities/business-building/our-insights/infrastructure-entrepreneurs-how-hochtief-captures-growth-in-the-ai-age": {
+  "description": null,
+  "fetched": "2026-11-18",
+  "icon": null,
   "image": null
  },
  "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/proving-ais-business-value-views-from-paypal-ads-svp-and-gm-mark-grether": {
@@ -6935,9 +6977,21 @@
   "icon": null,
   "image": null
  },
+ "https://www.mckinsey.com/our-people/what-is-cloud-computing--test": {
+  "description": null,
+  "fetched": "2026-11-18",
+  "icon": null,
+  "image": null
+ },
  "https://www.mckinsey.com/uk/our-insights/solving-britains-energy-bottlenecks-the-78-billion-pounds-a-year-opportunity-for-cleaner-more-affordable-power": {
   "description": null,
   "fetched": "2026-11-16",
+  "icon": null,
+  "image": null
+ },
+ "https://www.mckinsey.com/what-is-cloud-computing--test": {
+  "description": null,
+  "fetched": "2026-11-18",
   "icon": null,
   "image": null
  },
@@ -8224,6 +8278,12 @@
   "fetched": "2026-11-02",
   "icon": null,
   "image": null
+ },
+ "https://www.siderolabs.com/talos-linux": {
+  "description": "We help platform teams run Kubernetes without the heroics, so engineers can ship the roadmap instead of fighting fires.",
+  "fetched": "2026-11-18",
+  "icon": "https://www.siderolabs.com/site-assets/uploads/2025/09/cropped-favicon-180x180.png",
+  "image": "https://www.siderolabs.com/redesign-2026/OG-preview-image.png"
  },
  "https://www.slopmanifesto.com/": {
   "description": "The No AI Slop Manifesto, from the speakers and attendees of AIE Code Summit 2026.",

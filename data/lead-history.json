@@ -398,24 +398,21 @@
   },
   {
     "date": "2026-11-18",
-    "url": "https://www.chainguard.dev/unchained/microsoft-agent-framework-compromised-on-pypi-november-2026",
-    "title": "Microsoft agent-framework compromised on PyPI: 1.26.1 and 1.26.2 ship a credential stealer that runs on every Python start (November 2026)",
-    "section": "AI Agents & Agent Security",
+    "url": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+    "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+    "section": "Security & AppSec",
     "key_tokens": [
-      "1.26.1",
-      "1.26.2",
-      "2026",
-      "compromised",
-      "credential",
-      "every",
-      "framework",
-      "microsoft",
-      "november",
-      "pypi",
-      "python",
-      "ship",
-      "start",
-      "stealer"
+      "CVE-2026-114938",
+      "affecting",
+      "critical",
+      "enterprise",
+      "exploiting",
+      "flaw",
+      "hacker",
+      "management",
+      "puppet",
+      "rce",
+      "server"
     ]
   }
 ]
