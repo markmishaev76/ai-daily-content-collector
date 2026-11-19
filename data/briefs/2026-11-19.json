@@ -1,27 +1,21 @@
 {
   "date": "2026-11-19",
   "lead": {
-    "title": "Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion",
-    "link": "https://www.securityweek.com/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion/",
-    "excerpt": "The all-stock deal will give the cybersecurity company a platform for fine-tuning and running open-weight AI models in public and sovereign clouds. The post Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion appeared first on SecurityWeek.",
-    "source": "SecurityWeek",
+    "title": "An Interview With Eric Seufert About Agentic Commerce",
+    "link": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-agentic-commerce/",
+    "excerpt": "An interview with Eric Seufert about agentic commerce, including why he thinks ads will be the answer, and why I want retailers who cater to agents.",
+    "source": "Stratechery by Ben Thompson",
     "date": "Nov 19",
-    "image": "https://www.securityweek.com/wp-content/uploads/2024/04/Palo-Alto-Networks.jpeg",
+    "image": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9zdHJhdGVjaGVyeS5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMThcLzAzXC9jcm9wcGVkLWFuZHJvaWQtY2hyb21lLTUxMng1MTItMS5wbmc_Zml0PTUxMiUyQzUxMiZzc2w9MSIsInR4dCI6IlN0cmF0ZWNoZXJ5IGJ5IEJlbiBUaG9tcHNvbiIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxODgwNDM0MTV9.5VWck4PcKPWCTPe_HVznn3n3xsgn-G0b3d2OeiNNC7cMQ",
     "image_credit": null,
-    "section": "Security & AppSec",
+    "section": "Leadership",
     "pinned": false,
     "note": null,
     "labels": [
-      "2 sources",
-      "Security & AppSec",
-      "6h ago"
+      "Leadership",
+      "2h ago"
     ],
-    "also": [
-      {
-        "name": "investors.paloaltonetworks.com",
-        "link": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-acquire-applied-compute-bringing-secure-open"
-      }
-    ]
+    "also": []
   },
   "pulse": [
     {
@@ -31,7 +25,7 @@
       "link_domain": "blog.google",
       "source": "Hacker News",
       "domain": "blog.google",
-      "meta": "Hacker News · 834 points · 670 comments · 12h ago",
+      "meta": "Hacker News · 897 points · 708 comments · 16h ago",
       "also": [],
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-neon__blog-header__sm.width-1300.png",
       "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261117-1738"
@@ -43,7 +37,7 @@
       "link_domain": "xint.io",
       "source": "Lobsters",
       "domain": "xint.io",
-      "meta": "Lobsters · 75 points · 14 comments · 18h ago",
+      "meta": "Lobsters · 78 points · 15 comments · 22h ago",
       "also": [],
       "image": "https://image.inblog.dev/?url=https%3A%2F%2Fsource.inblog.dev%2Ffeatured_image%2Fd21b9ab3-fe60-4b60-b803-6fccaaa14d06%2F6e9f75c9-fe47-4098-bdc3-1358fc6ddec1&w=1200&q=85&format=jpg&v=2026-11-18T07%3A28%3A28.542Z",
       "icon": "https://image.inblog.dev?url=https%3A%2F%2Ficons.duckduckgo.com%2Fip3%2Fxint.io.ico&w=48&h=48&q=100&format=png&objectFit=contain"
@@ -55,7 +49,7 @@
       "link_domain": "europeanbusinessmagazine.com",
       "source": "Hacker News",
       "domain": "europeanbusinessmagazine.com",
-      "meta": "Hacker News · 463 points · 212 comments · 18h ago",
+      "meta": "Hacker News · 475 points · 226 comments · 22h ago",
       "also": [],
       "image": "https://europeanbusinessmagazine.com/wp-content/uploads/2026/06/ai5555-1024x678.jpg",
       "icon": "https://europeanbusinessmagazine.com/wp-content/uploads/2026/02/cropped-icon-180x180.jpg"
@@ -67,34 +61,15 @@
       "link_domain": "ruby-lang.org",
       "source": "Hacker News",
       "domain": "ruby-lang.org",
-      "meta": "Hacker News · 267 points · 90 comments · 10h ago",
-      "also": [],
+      "meta": "Hacker News · 300 points · 110 comments · 13h ago",
+      "also": [
+        {
+          "source": "Lobsters",
+          "thread": "https://lobste.rs/s/hsmtyg/security_advisories_multiple"
+        }
+      ],
       "image": "https://www.ruby-lang.org/images/og-image.png",
       "icon": "https://www.ruby-lang.org/images/apple-touch-icon.png"
-    },
-    {
-      "title": "Windows 11 collects data on which coding agents and dev tools you use",
-      "thread": "https://lobste.rs/s/cwxmdw/windows_11_collects_data_on_which_coding",
-      "link": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
-      "link_domain": "xusheng.dev",
-      "source": "Lobsters",
-      "domain": "xusheng.dev",
-      "meta": "Lobsters · 37 points · 28 comments · 22h ago",
-      "also": [],
-      "image": "https://xusheng.dev/posts/windows-coding-agent-telemetry/agent-names.jpeg",
-      "icon": "https://xusheng.dev/favicon.ico"
-    },
-    {
-      "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
-      "thread": "https://news.ycombinator.com/item?id=50554374",
-      "link": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
-      "link_domain": "micjm.com",
-      "source": "Hacker News",
-      "domain": "micjm.com",
-      "meta": "Hacker News · 231 points · 72 comments · 9h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://micjm.com/favicon.ico"
     },
     {
       "title": "LLM assisted reverse engineering",
@@ -103,10 +78,34 @@
       "link_domain": "slowchronicle.com",
       "source": "Hacker News",
       "domain": "slowchronicle.com",
-      "meta": "Hacker News · 213 points · 52 comments · 11h ago",
+      "meta": "Hacker News · 262 points · 67 comments · 15h ago",
       "also": [],
       "image": "https://www.slowchronicle.com/og-default.png",
       "icon": "https://www.slowchronicle.com/apple-touch-icon.png?v=3"
+    },
+    {
+      "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
+      "thread": "https://news.ycombinator.com/item?id=50554374",
+      "link": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
+      "link_domain": "micjm.com",
+      "source": "Hacker News",
+      "domain": "micjm.com",
+      "meta": "Hacker News · 239 points · 73 comments · 13h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://micjm.com/favicon.ico"
+    },
+    {
+      "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
+      "thread": "https://news.ycombinator.com/item?id=50556287",
+      "link": "https://verialabs.com/ruby2shell/",
+      "link_domain": "verialabs.com",
+      "source": "Hacker News",
+      "domain": "verialabs.com",
+      "meta": "Hacker News · 236 points · 92 comments · 8h ago",
+      "also": [],
+      "image": "https://verialabs.com/og/ruby2shell.png",
+      "icon": "https://verialabs.com/apple-touch-icon.png"
     },
     {
       "title": "Java4Shell is a reason to use Java",
@@ -115,7 +114,7 @@
       "link_domain": "mccue.dev",
       "source": "Lobsters",
       "domain": "mccue.dev",
-      "meta": "Lobsters · 30 points · 14 comments · 20h ago",
+      "meta": "Lobsters · 35 points · 15 comments · 23h ago",
       "also": [],
       "image": null,
       "icon": "https://mccue.dev/favicon.ico"
@@ -127,7 +126,7 @@
       "link_domain": "cve.org",
       "source": "Hacker News",
       "domain": "cve.org",
-      "meta": "Hacker News · 186 points · 123 comments · 18h ago",
+      "meta": "Hacker News · 189 points · 124 comments · 21h ago",
       "also": [],
       "image": null,
       "icon": "https://www.cve.org/cvePurpleVFavicon.svg"
@@ -139,7 +138,7 @@
       "link_domain": "php.net",
       "source": "Lobsters",
       "domain": "php.net",
-      "meta": "Lobsters · 24 points · 7 comments · 14h ago",
+      "meta": "Lobsters · 28 points · 8 comments · 18h ago",
       "also": [],
       "image": "https://www.php.net/images/meta-image.png",
       "icon": "https://www.php.net/favicon.svg?v=2"
@@ -159,7 +158,7 @@
           "icon": null,
           "domain": "newsletter.pragmaticengineer.com",
           "hn": null,
-          "score": 0.637,
+          "score": 0.567,
           "coverage": 1
         },
         {
@@ -172,7 +171,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.803,
+          "score": 0.695,
           "coverage": 1
         },
         {
@@ -185,7 +184,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.616,
+          "score": 0.55,
           "coverage": 1
         }
       ],
@@ -200,7 +199,7 @@
           "icon": null,
           "domain": "leaddev.com",
           "hn": null,
-          "score": 1.245,
+          "score": 1.004,
           "coverage": 1
         },
         {
@@ -213,7 +212,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.68,
+          "score": 0.601,
           "coverage": 1
         },
         {
@@ -226,7 +225,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.654,
+          "score": 0.581,
           "coverage": 1
         },
         {
@@ -239,7 +238,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.573,
+          "score": 0.516,
           "coverage": 1
         },
         {
@@ -252,7 +251,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.388,
+          "score": 0.361,
           "coverage": 1
         }
       ]
@@ -270,7 +269,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 3.23,
+          "score": 2.962,
           "coverage": 1
         },
         {
@@ -283,7 +282,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.982,
+          "score": 0.8,
           "coverage": 1
         },
         {
@@ -296,7 +295,7 @@
           "icon": "https://www.daytona.io/apple-touch-icon.png",
           "domain": "daytona.io",
           "hn": null,
-          "score": 0.323,
+          "score": 0.301,
           "coverage": 1
         }
       ],
@@ -311,7 +310,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.515,
+          "score": 0.47,
           "coverage": 1
         },
         {
@@ -324,7 +323,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.488,
+          "score": 0.448,
           "coverage": 1
         },
         {
@@ -337,7 +336,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.488,
+          "score": 0.448,
           "coverage": 1
         },
         {
@@ -350,7 +349,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.464,
+          "score": 0.427,
           "coverage": 1
         },
         {
@@ -363,7 +362,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.404,
+          "score": 0.376,
           "coverage": 1
         }
       ]
@@ -381,7 +380,20 @@
           "icon": "https://randsinrepose.com/nitropack_static/pYcrXSmzMTYaBCajyDlByLkiWOiRWpVF/assets/images/optimized/rev-69235e4/randsinrepose.com/wp-content/uploads/2025/08/cropped-rands-favicon-1-180x180.png",
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 2.602,
+          "score": 2.323,
+          "coverage": 1
+        },
+        {
+          "title": "Stefan Latuski on transforming public sector services at scale",
+          "link": "https://www.mckinsey.com/industries/public-sector/our-insights/stefan-latuski-on-transforming-public-sector-services-at-scale",
+          "excerpt": "The chief information officer of Germany’s Federal Employment Agency shares how his organization has reimagined customer communication by simplifying and standardizing processes—not just by replacing its technology.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 19",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.58,
           "coverage": 1
         },
         {
@@ -394,7 +406,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.67,
+          "score": 0.58,
           "coverage": 1
         }
       ],
@@ -413,7 +425,7 @@
           "icon": "https://goteleport.com/blog/static/apple.png",
           "domain": "goteleport.com",
           "hn": null,
-          "score": 2.718,
+          "score": 2.529,
           "coverage": 1
         },
         {
@@ -426,7 +438,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 1.46,
+          "score": 1.358,
           "coverage": 1
         },
         {
@@ -439,7 +451,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 0.323,
+          "score": 0.301,
           "coverage": 1
         }
       ],
@@ -454,7 +466,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 0.323,
+          "score": 0.301,
           "coverage": 1
         }
       ]
@@ -472,7 +484,20 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 1.4,
+          "score": 1.249,
+          "coverage": 1
+        },
+        {
+          "title": "Financial Services Cybersecurity vs. ARTEX: Credentials in Plain Sight",
+          "link": "https://blog.gitguardian.com/financial-services-cybersecurity-artex/",
+          "excerpt": "Microsoft says Storm-3358 has used ARTEX against financial institutions since October 2026. GitGuardian found secrets in 6.9% of active finance-linked public GitHub repositories in 2025, and at least 446 sensitive secrets were still valid when first detected.",
+          "source": "GitGuardian",
+          "date": "Nov 19",
+          "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/11/thumbnail-financial-services--1-.png",
+          "icon": null,
+          "domain": "blog.gitguardian.com",
+          "hn": null,
+          "score": 0.692,
           "coverage": 1
         }
       ],
@@ -491,7 +516,7 @@
           "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
           "domain": "openssf.org",
           "hn": null,
-          "score": 0.553,
+          "score": 0.49,
           "coverage": 1
         },
         {
@@ -504,7 +529,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.259,
+          "score": 0.241,
           "coverage": 1
         },
         {
@@ -517,7 +542,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.259,
+          "score": 0.241,
           "coverage": 1
         }
       ],
@@ -526,6 +551,47 @@
     {
       "name": "Security & AppSec",
       "cards": [
+        {
+          "title": "StepSecurity Secures $20 Million to Expand Supply Chain Protection",
+          "link": "https://www.securityweek.com/stepsecurity-secures-20-million-to-expand-supply-chain-protection/",
+          "excerpt": "The company will use the funds to accelerate the development and distribution of its security platform. The post StepSecurity Secures $20 Million to Expand Supply Chain Protection appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 19",
+          "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 4.083,
+          "coverage": 1
+        },
+        {
+          "title": "The Governance Gap in Open-Weight AI and What to Do About It",
+          "link": "https://www.securityweek.com/the-governance-gap-in-open-weight-ai-and-what-to-do-about-it/",
+          "excerpt": "Lower costs, data privacy, and greater control are driving open-weight AI adoption, but many organizations are not addressing the risks that come with it. The post The Governance Gap in Open-Weight AI and What to Do About It appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 19",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/10/cyberattack-vulnerability-exploited.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 2.595,
+          "coverage": 1
+        },
+        {
+          "title": "Everything Is a Web Application, Including Your Firewall",
+          "link": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
+          "excerpt": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfaces exposed to the internet. Both flaws let anyone…",
+          "source": "The Hacker News",
+          "date": "Nov 19",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiC0roCfV92el2-gLSGwmumyjXgCjHookzwGjft2a6UWPZA1QvyrazDNLTvlZrF1F5iagg74JxnPEXbnK60OEeJuFNo2Fc2xcNSnJCeNw9BLu_y-lsRhrpO6s1End2gdDDlRU_r4wysTiiJS4ZKPDTmWK152psFdhxRizlSJZFCjnYr6nnamRsUciEJui4/s1600/php-app.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.514,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
           "link": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
@@ -536,7 +602,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 3.915,
+          "score": 3.083,
           "coverage": 1
         },
         {
@@ -549,7 +615,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.526,
+          "score": 0.419,
           "coverage": 1
         },
         {
@@ -562,11 +628,9 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.508,
+          "score": 0.408,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
           "link": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
@@ -577,7 +641,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 3.5,
+          "score": 2.82,
           "coverage": 1
         },
         {
@@ -590,46 +654,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.404,
-          "coverage": 1
-        },
-        {
-          "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
-          "link": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
-          "excerpt": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in. The decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's open-source code since version 1.9.5, released on September 22, 2015. Fixed versions…",
-          "source": "The Hacker News",
-          "date": "Nov 18",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7_qqPophooIauX16fMWm3KB24tzQ3Fd7rCuseCXfMkDPPGpIgmHqWvZjn_jffDqHwNWKu8Zf57QeKb4qsRFgdgisSAn0sMj59CscimR16RLXI1kspH0w7VYQgrsM_hPcePQOFL8QUyDC2p9W7AV0UjH3sW7oOvdWPWAZW6DITDvqIHaC_696e5kHTieY/s1600/nginx-rce.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.258,
-          "coverage": 1
-        },
-        {
-          "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
-          "link": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
-          "excerpt": "Six critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting traffic until the TMM restarts. Each flaw needs a specific setup on a virtual server: an iRule that uses a particular command, or an APM policy that includes…",
-          "source": "The Hacker News",
-          "date": "Nov 18",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizE3X3tUSPpxIYnNyM91hyphenhyphenzZOS6jjdHnCLmubn4upOYKZn3MdjUqJQGEjIBGtZ2JHK6yggH6RxSQCANhtF7-zIWJ0EfGqA7iY2KQWM7vtoiCsc-_KeFZeHeDm-TOpM_oL_EVzOvPru_cMVzx3wJL8kaLEgXuzPzxm3iYnTiyu57quhgBgMY1Nb7V_sXG4/s1600/f5.png",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.256,
-          "coverage": 1
-        },
-        {
-          "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
-          "link": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
-          "excerpt": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF) The vulnerability, tracked as CVE-2026-129448 (CVSS score: 9.8), is a case of unauthenticated deserialization…",
-          "source": "The Hacker News",
-          "date": "Nov 18",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbiCYJD7nei_TBSnUlQG59idq9moCbsg97fnzsiXNi4KvQaphZYA4hHIzXv08t2OsvVZokzPIdhZPzxTkXoEgzTsFby-rBvQX6CY6yPo1Iv8DPnSmPeOeh3OQXF79Q60Hq3UI7kVdhmEKGL2bUwm42JO-8C_ClLHpTpGkWpnflAQMrDDgjIvMKq09DEskr/s1600/apache.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 1.725,
+          "score": 0.338,
           "coverage": 1
         }
       ]
@@ -647,7 +672,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 3.608,
+          "score": 3.227,
           "coverage": 1
         },
         {
@@ -660,7 +685,7 @@
           "icon": null,
           "domain": "about.gitlab.com",
           "hn": null,
-          "score": 2.805,
+          "score": 2.61,
           "coverage": 1
         },
         {
@@ -673,7 +698,7 @@
           "icon": null,
           "domain": "engineering.fb.com",
           "hn": null,
-          "score": 2.755,
+          "score": 2.464,
           "coverage": 1
         }
       ],
@@ -688,7 +713,7 @@
           "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.34,
+          "score": 2.093,
           "coverage": 1
         },
         {
@@ -701,7 +726,20 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.34,
+          "score": 2.093,
+          "coverage": 1
+        },
+        {
+          "title": "Producing Healthy Code with Artificial Intelligence Costs Fewer Tokens",
+          "link": "https://www.infoq.com/news/2026/11/healthy-code-AI-tokens/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Agentic AI can speed up velocity, but the gains vanish within months as code complexity grows. Healthy code makes AI perform better and costs fewer tokens. Safeguarding means keeping code health high through agentic refactoring, with an MCP supplying code health data, so AI can maintain the code…",
+          "source": "InfoQ",
+          "date": "Nov 19",
+          "image": "https://res.infoq.com/news/2026/11/healthy-code-AI-tokens/en/headerimage/header-1794837764807.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 4.28,
           "coverage": 1
         },
         {
@@ -714,7 +752,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.401,
+          "score": 2.106,
           "coverage": 1
         },
         {
@@ -727,20 +765,7 @@
           "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.025,
-          "coverage": 1
-        },
-        {
-          "title": "How we built Datadog’s agentic vulnerability hunting system",
-          "link": "https://www.datadoghq.com/blog/datadogs-agentic-vulnerability-hunting-system/",
-          "excerpt": "We developed threat packs that give our agents the context they need to run efficient, repeatable hunts. Learn how we did it.",
-          "source": "Datadog | The Monitor blog",
-          "date": "Nov 18",
-          "image": "https://web-assets.dd-static.net/42588/1795011581-agentic-vulnerability-hero.webp",
-          "icon": "https://www.datadoghq.com/favicon.ico",
-          "domain": "datadoghq.com",
-          "hn": null,
-          "score": 1.283,
+          "score": 1.811,
           "coverage": 1
         }
       ]
@@ -758,7 +783,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 2.582,
+          "score": 2.248,
           "coverage": 1
         },
         {
@@ -770,8 +795,8 @@
           "image": "https://images.unsplash.com/photo-1779896412126-ed004b6eb80c?auto=format&fit=crop&w=1600&q=80",
           "icon": "https://www.drivevault.io/favicon.png",
           "domain": "drivevault.io",
-          "hn": "60 points · 39 comments",
-          "score": 3.22,
+          "hn": "156 points · 132 comments",
+          "score": 3.058,
           "coverage": 1
         },
         {
@@ -784,7 +809,7 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 0.128,
+          "score": 0.122,
           "coverage": 1
         }
       ],
@@ -799,59 +824,59 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 0.194,
+          "score": 0.18,
           "coverage": 1
         },
         {
-          "title": "What's New in PHP 8.6",
-          "link": "https://www.php.net/releases/8.6/en.php",
-          "excerpt": "PHP 8.6 is a major update of the PHP language, with new features including Partial Function Application, a new Duration class, a Polling API, and a new clamp() function",
-          "source": "php.net via Hacker News",
+          "title": "Unblockable communication with gravity – Science Advances",
+          "link": "https://www.science.org/doi/10.1126/sciadv.aee0802",
+          "excerpt": "14 points · 4 comments",
+          "source": "science.org via Hacker News",
           "date": "Nov 19",
-          "image": "https://www.php.net/images/php8/php_8_6_released.png",
-          "icon": "https://www.php.net/favicon.svg?v=2",
-          "domain": "php.net",
-          "hn": "37 points · 16 comments",
-          "score": 2.93,
+          "image": null,
+          "icon": "https://www.science.org/favicon.ico",
+          "domain": "science.org",
+          "hn": "14 points · 4 comments",
+          "score": 2.192,
           "coverage": 1
         },
         {
-          "title": "Distributed, high-performance blob storage on SQLite",
-          "link": "https://zerodha.tech/blog/high-performance-distributed-blob-storage/",
-          "excerpt": "How we built Blobasaur, a sharded, distributed, lightweight blob storage server to solve our high-throughput blob read/write usecase.",
-          "source": "zerodha.tech via Hacker News",
+          "title": "The AI Superintelligence Debate Has Serious Flaws",
+          "link": "https://spectrum.ieee.org/ai-superintelligence-debate",
+          "excerpt": "Yet trying for it may still be disastrous",
+          "source": "spectrum.ieee.org via Hacker News",
           "date": "Nov 19",
-          "image": "https://zerodha.tech//static/images/blobasaur-og.png",
-          "icon": "https://zerodha.tech//static/images/favicon.png",
-          "domain": "zerodha.tech",
-          "hn": "36 points · 2 comments",
-          "score": 2.572,
+          "image": "https://spectrum.ieee.org/media-library/image.png?id=68699683&width=1200&height=600&coordinates=0%2C205%2C0%2C205",
+          "icon": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNjU5NjY0OS9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTg0ODgxODUwNn0.1LlzHtxZSVXyzapxWjeSrRIRu5qo3CeB8FaWpd2tl_o/img.png?width=192&height=192",
+          "domain": "spectrum.ieee.org",
+          "hn": "61 points · 59 comments",
+          "score": 3.265,
           "coverage": 1
         },
         {
-          "title": "15M web servers on one VM – smoltcp, DPDK, AF_XDP",
-          "link": "https://kapteko.com/15-million-webservers/",
-          "excerpt": "Kernel bypass, bringing the TCP/IP network stack to userland, all that to run one server for every human being on the planet",
-          "source": "kapteko.com via Hacker News",
+          "title": "Two stealth models just appeared on the leaderboard, both ahead of Fable 5.2",
+          "link": "https://contralabs.com/frontierdesign",
+          "excerpt": "Exploring the frontier of AI design capabilities through real client briefs from Contra’s marketplace, golden designs and model comparisons.",
+          "source": "contralabs.com via Hacker News",
           "date": "Nov 19",
-          "image": "https://kapteko.com/15-million-webservers/webservers-benchmark-social.png",
-          "icon": "https://kapteko.com/favicon.ico",
-          "domain": "kapteko.com",
-          "hn": "148 points · 14 comments",
-          "score": 2.84,
+          "image": "https://contralabs.com/frontierdesign/og/made-1779fd7dfd.jpg",
+          "icon": "https://contralabs.com/favicon.ico",
+          "domain": "contralabs.com",
+          "hn": "23 points · 1 comments",
+          "score": 2.145,
           "coverage": 1
         },
         {
-          "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
-          "link": "https://verialabs.com/ruby2shell/",
-          "excerpt": "Ruby2Shell (GHSA-34m4-m9fh-gqp5): a one-byte heap overflow in Ruby's string case conversion, reachable without authentication in common Ruby web frameworks and self-hosted software.",
-          "source": "verialabs.com via Hacker News",
+          "title": "How the European Commission rolled out Matrix to more than 40k staff",
+          "link": "https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/",
+          "excerpt": "The European Commission went from a Matrix proof of concept in December 2025 to a sovereign communication tool rolled out to every Commission laptop by September 2026. That tool, built on Matrix by Element, and run by the Commission itself, now serves more than 40,000 users. At The Matrix",
+          "source": "element.io via Hacker News",
           "date": "Nov 19",
-          "image": "https://verialabs.com/og/ruby2shell.png",
-          "icon": "https://verialabs.com/apple-touch-icon.png",
-          "domain": "verialabs.com",
-          "hn": "115 points · 38 comments",
-          "score": 2.684,
+          "image": "https://element.io/blog/content/images/size/w1200/2026/11/euc-conf__blog.png",
+          "icon": "https://element.io/blog/assets/images/webclip.png?v=5a2fbd2647",
+          "domain": "element.io",
+          "hn": "243 points · 98 comments",
+          "score": 3.534,
           "coverage": 1
         }
       ]
