@@ -1,25 +1,25 @@
 {
   "date": "2026-11-19",
   "lead": {
-    "title": "Microsoft Agent Framework Releases Poisoned With Credential Stealer",
-    "link": "https://www.securityweek.com/microsoft-agent-framework-releases-poisoned-with-credential-stealer/",
-    "excerpt": "Versions 1.26.1 and 1.26.2 of agent-framework on PyPI steal Azure, Azure DevOps, and GitHub Actions credentials when Python starts. The post Microsoft Agent Framework Releases Poisoned With Credential Stealer appeared first on SecurityWeek.",
+    "title": "Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion",
+    "link": "https://www.securityweek.com/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion/",
+    "excerpt": "The all-stock deal will give the cybersecurity company a platform for fine-tuning and running open-weight AI models in public and sovereign clouds. The post Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion appeared first on SecurityWeek.",
     "source": "SecurityWeek",
-    "date": "Nov 18",
-    "image": "https://www.bleepstatic.com/content/hl-images/2025/03/12/Microsoft-headpic.jpg",
-    "image_credit": "Hacker News - Newest: \"\"Devin\" \"Factory.ai\" \"Replit\" \"agent\"\"",
-    "section": "AI Agents & Agent Security",
+    "date": "Nov 19",
+    "image": "https://www.securityweek.com/wp-content/uploads/2024/04/Palo-Alto-Networks.jpeg",
+    "image_credit": null,
+    "section": "Security & AppSec",
     "pinned": false,
     "note": null,
     "labels": [
       "2 sources",
-      "AI Agents & Agent Security",
-      "1h ago"
+      "Security & AppSec",
+      "2h ago"
     ],
     "also": [
       {
-        "name": "bleepingcomputer.com",
-        "link": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/"
+        "name": "investors.paloaltonetworks.com",
+        "link": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-acquire-applied-compute-bringing-secure-open"
       }
     ]
   },
@@ -31,7 +31,7 @@
       "link_domain": "nicolasbouliane.com",
       "source": "Hacker News",
       "domain": "nicolasbouliane.com",
-      "meta": "Hacker News · 766 points · 687 comments · 21h ago",
+      "meta": "Hacker News · 772 points · 690 comments · 23h ago",
       "also": [],
       "image": null,
       "icon": "https://nicolasbouliane.com/img/favicon.png"
@@ -43,7 +43,7 @@
       "link_domain": "blog.google",
       "source": "Hacker News",
       "domain": "blog.google",
-      "meta": "Hacker News · 563 points · 512 comments · 6h ago",
+      "meta": "Hacker News · 662 points · 566 comments · 8h ago",
       "also": [],
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-neon__blog-header__sm.width-1300.png",
       "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261117-1738"
@@ -55,7 +55,7 @@
       "link_domain": "xint.io",
       "source": "Lobsters",
       "domain": "xint.io",
-      "meta": "Lobsters · 67 points · 13 comments · 12h ago",
+      "meta": "Lobsters · 69 points · 13 comments · 14h ago",
       "also": [],
       "image": "https://image.inblog.dev/?url=https%3A%2F%2Fsource.inblog.dev%2Ffeatured_image%2Fd21b9ab3-fe60-4b60-b803-6fccaaa14d06%2F6e9f75c9-fe47-4098-bdc3-1358fc6ddec1&w=1200&q=85&format=jpg&v=2026-11-18T07%3A28%3A28.542Z",
       "icon": "https://image.inblog.dev?url=https%3A%2F%2Ficons.duckduckgo.com%2Fip3%2Fxint.io.ico&w=48&h=48&q=100&format=png&objectFit=contain"
@@ -67,22 +67,10 @@
       "link_domain": "europeanbusinessmagazine.com",
       "source": "Hacker News",
       "domain": "europeanbusinessmagazine.com",
-      "meta": "Hacker News · 397 points · 171 comments · 12h ago",
+      "meta": "Hacker News · 431 points · 187 comments · 14h ago",
       "also": [],
       "image": "https://europeanbusinessmagazine.com/wp-content/uploads/2026/06/ai5555-1024x678.jpg",
       "icon": "https://europeanbusinessmagazine.com/wp-content/uploads/2026/02/cropped-icon-180x180.jpg"
-    },
-    {
-      "title": "Why is Gemini 4 Carbon taking so long?",
-      "thread": "https://news.ycombinator.com/item?id=50541790",
-      "link": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
-      "link_domain": "kernel.dev",
-      "source": "Hacker News",
-      "domain": "kernel.dev",
-      "meta": "Hacker News · 267 points · 138 comments · 23h ago",
-      "also": [],
-      "image": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/og.png",
-      "icon": "https://kernel.dev/apple-touch-icon.png"
     },
     {
       "title": "Windows 11 collects data on which coding agents and dev tools you use",
@@ -91,7 +79,7 @@
       "link_domain": "xusheng.dev",
       "source": "Lobsters",
       "domain": "xusheng.dev",
-      "meta": "Lobsters · 36 points · 25 comments · 16h ago",
+      "meta": "Lobsters · 37 points · 27 comments · 18h ago",
       "also": [],
       "image": "https://xusheng.dev/posts/windows-coding-agent-telemetry/agent-names.jpeg",
       "icon": "https://xusheng.dev/favicon.ico"
@@ -103,7 +91,7 @@
       "link_domain": "mccue.dev",
       "source": "Lobsters",
       "domain": "mccue.dev",
-      "meta": "Lobsters · 27 points · 10 comments · 13h ago",
+      "meta": "Lobsters · 28 points · 11 comments · 15h ago",
       "also": [],
       "image": null,
       "icon": "https://mccue.dev/favicon.ico"
@@ -115,10 +103,22 @@
       "link_domain": "cve.org",
       "source": "Hacker News",
       "domain": "cve.org",
-      "meta": "Hacker News · 178 points · 116 comments · 12h ago",
+      "meta": "Hacker News · 183 points · 121 comments · 13h ago",
       "also": [],
       "image": null,
       "icon": "https://www.cve.org/cvePurpleVFavicon.svg"
+    },
+    {
+      "title": "Multiple vulnerabilities in Regexp and String case conversion",
+      "thread": "https://news.ycombinator.com/item?id=50554038",
+      "link": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
+      "link_domain": "ruby-lang.org",
+      "source": "Hacker News",
+      "domain": "ruby-lang.org",
+      "meta": "Hacker News · 176 points · 50 comments · 6h ago",
+      "also": [],
+      "image": "https://www.ruby-lang.org/images/og-image.png",
+      "icon": "https://www.ruby-lang.org/images/apple-touch-icon.png"
     },
     {
       "title": "Upcoming Critical PHP Security Release (18 Nov 2026)",
@@ -127,22 +127,22 @@
       "link_domain": "php.net",
       "source": "Lobsters",
       "domain": "php.net",
-      "meta": "Lobsters · 20 points · 5 comments · 8h ago",
+      "meta": "Lobsters · 21 points · 5 comments · 10h ago",
       "also": [],
       "image": "https://www.php.net/images/meta-image.png",
       "icon": "https://www.php.net/favicon.svg?v=2"
     },
     {
-      "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
-      "thread": "https://news.ycombinator.com/item?id=50554374",
-      "link": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
-      "link_domain": "micjm.com",
+      "title": "LLM assisted reverse engineering",
+      "thread": "https://news.ycombinator.com/item?id=50553225",
+      "link": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+      "link_domain": "slowchronicle.com",
       "source": "Hacker News",
-      "domain": "micjm.com",
-      "meta": "Hacker News · 132 points · 47 comments · 3h ago",
+      "domain": "slowchronicle.com",
+      "meta": "Hacker News · 132 points · 38 comments · 7h ago",
       "also": [],
-      "image": null,
-      "icon": "https://micjm.com/favicon.ico"
+      "image": "https://www.slowchronicle.com/og-default.png",
+      "icon": "https://www.slowchronicle.com/apple-touch-icon.png?v=3"
     }
   ],
   "sections": [
@@ -159,7 +159,7 @@
           "icon": null,
           "domain": "newsletter.pragmaticengineer.com",
           "hn": null,
-          "score": 0.82,
+          "score": 0.751,
           "coverage": 1
         },
         {
@@ -172,7 +172,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.785,
+          "score": 0.722,
           "coverage": 1
         },
         {
@@ -185,7 +185,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.891,
+          "score": 0.811,
           "coverage": 1
         }
       ],
@@ -200,7 +200,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.848,
+          "score": 0.776,
           "coverage": 1
         },
         {
@@ -213,7 +213,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.717,
+          "score": 0.664,
           "coverage": 1
         },
         {
@@ -226,7 +226,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.449,
+          "score": 0.428,
           "coverage": 1
         },
         {
@@ -239,7 +239,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.449,
+          "score": 0.428,
           "coverage": 1
         },
         {
@@ -252,7 +252,7 @@
           "icon": null,
           "domain": "blog.google",
           "hn": null,
-          "score": 0.779,
+          "score": 0.717,
           "coverage": 1
         }
       ]
@@ -270,7 +270,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 3.863,
+          "score": 3.637,
           "coverage": 1
         },
         {
@@ -283,7 +283,7 @@
           "icon": "https://www.daytona.io/apple-touch-icon.png",
           "domain": "daytona.io",
           "hn": null,
-          "score": 0.374,
+          "score": 0.356,
           "coverage": 1
         },
         {
@@ -296,7 +296,7 @@
           "icon": null,
           "domain": "paloaltonetworks.com",
           "hn": null,
-          "score": 0.318,
+          "score": 0.305,
           "coverage": 1
         }
       ],
@@ -311,7 +311,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.623,
+          "score": 0.584,
           "coverage": 1
         },
         {
@@ -324,7 +324,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.584,
+          "score": 0.55,
           "coverage": 1
         },
         {
@@ -337,7 +337,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.584,
+          "score": 0.55,
           "coverage": 1
         },
         {
@@ -350,7 +350,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.55,
+          "score": 0.519,
           "coverage": 1
         },
         {
@@ -363,7 +363,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.467,
+          "score": 0.445,
           "coverage": 1
         }
       ]
@@ -381,7 +381,7 @@
           "icon": "https://randsinrepose.com/nitropack_static/pYcrXSmzMTYaBCajyDlByLkiWOiRWpVF/assets/images/optimized/rev-69235e4/randsinrepose.com/wp-content/uploads/2025/08/cropped-rands-favicon-1-180x180.png",
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 3.329,
+          "score": 3.058,
           "coverage": 1
         },
         {
@@ -394,7 +394,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.931,
+          "score": 0.828,
           "coverage": 1
         }
       ],
@@ -413,7 +413,7 @@
           "icon": "https://goteleport.com/blog/static/apple.png",
           "domain": "goteleport.com",
           "hn": null,
-          "score": 3.144,
+          "score": 2.995,
           "coverage": 1
         },
         {
@@ -426,7 +426,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 1.689,
+          "score": 1.609,
           "coverage": 1
         },
         {
@@ -439,7 +439,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 0.374,
+          "score": 0.356,
           "coverage": 1
         }
       ],
@@ -454,7 +454,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 0.374,
+          "score": 0.356,
           "coverage": 1
         }
       ]
@@ -472,7 +472,7 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 1.795,
+          "score": 1.648,
           "coverage": 1
         }
       ],
@@ -491,7 +491,7 @@
           "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
           "domain": "openssf.org",
           "hn": null,
-          "score": 0.72,
+          "score": 0.657,
           "coverage": 1
         },
         {
@@ -504,7 +504,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.299,
+          "score": 0.285,
           "coverage": 1
         },
         {
@@ -517,7 +517,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.299,
+          "score": 0.285,
           "coverage": 1
         }
       ],
@@ -526,6 +526,19 @@
     {
       "name": "Security & AppSec",
       "cards": [
+        {
+          "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
+          "link": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
+          "excerpt": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws. The release is scheduled for November 19, 2026, between 2 and 2:30 p.m. UTC. \"These releases are part of PHP's regular four-week release cycle and…",
+          "source": "The Hacker News",
+          "date": "Nov 19",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj86YA0ZvPrdlouN6GvSZ5P_I5HCaYLm2PBs_JA74wUDgHl8anwcqEN5_Z0kTlAggf0906enJmrtUnN_6jn9kqD8KguG8nOeh1yGS6AAPo1-JHORLQ5nZcpmS5Ss7liuqghFsq8Bb4ooabK29UcCbZlwWGM6HtyRPs4Ty5zv5d4FC5So6tVFUOaEhUylIFU/s1600/php-flaws.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.532,
+          "coverage": 1
+        },
         {
           "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
           "link": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
@@ -536,7 +549,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.334,
+          "score": 0.305,
           "coverage": 1
         },
         {
@@ -549,9 +562,11 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.33,
+          "score": 0.302,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
           "link": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
@@ -562,23 +577,8 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.198,
+          "score": 2.022,
           "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion",
-          "link": "https://www.securityweek.com/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion/",
-          "excerpt": "The all-stock deal will give the cybersecurity company a platform for fine-tuning and running open-weight AI models in public and sovereign clouds. The post Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 19",
-          "image": "https://www.securityweek.com/wp-content/uploads/2024/04/Palo-Alto-Networks.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 5.353,
-          "coverage": 2
         },
         {
           "title": "VeroSecurity Raises $11 Million for AI Security Engineering Platform",
@@ -590,7 +590,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.293,
+          "score": 0.271,
           "coverage": 1
         },
         {
@@ -603,7 +603,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 1.899,
+          "score": 1.766,
           "coverage": 1
         },
         {
@@ -616,21 +616,8 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 1.344,
+          "score": 1.251,
           "coverage": 2
-        },
-        {
-          "title": "CISO Conversations: Patti Degnan – Part of the Job Is Deciding What Not to Do",
-          "link": "https://www.securityweek.com/ciso-conversations-patti-degnan-part-of-the-job-is-deciding-what-not-to-do/",
-          "excerpt": "Patti Degnan’s identity was stolen in 2006. It set her on a path to the CISO seat at endpoint security firm Glow. The post CISO Conversations: Patti Degnan – Part of the Job Is Deciding What Not to Do appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 18",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/CISO-Patti-Degnan.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.256,
-          "coverage": 1
         }
       ]
     },
@@ -647,7 +634,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 4.589,
+          "score": 4.225,
           "coverage": 1
         },
         {
@@ -660,7 +647,7 @@
           "icon": null,
           "domain": "about.gitlab.com",
           "hn": null,
-          "score": 3.245,
+          "score": 3.092,
           "coverage": 1
         },
         {
@@ -673,24 +660,11 @@
           "icon": null,
           "domain": "engineering.fb.com",
           "hn": null,
-          "score": 3.505,
+          "score": 3.226,
           "coverage": 1
         }
       ],
       "more": [
-        {
-          "title": "Testing changes, fast: Introducing agentic assessments in Database Center",
-          "link": "https://cloud.google.com/blog/products/databases/database-center-assessments-for-cloud-sql-for-postgresql/",
-          "excerpt": "Applying recommendations to a production database can feel risky if you can’t easily quantify the performance benefit or justify the additional cost. While Database Center flags fleet-level health issues and provides proactive recommendations, database administrators still face the challenge of…",
-          "source": "Cloud Blog",
-          "date": "Nov 18",
-          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/cloud_databases_channel_hero_option1_2436x.max-2500x2500.png",
-          "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
-          "domain": "cloud.google.com",
-          "hn": null,
-          "score": 2.977,
-          "coverage": 1
-        },
         {
           "title": "Sashiko: Lessons from building an agentic code review system for Linux",
           "link": "https://cloud.google.com/blog/products/application-development/lessons-from-building-sashiko-an-agentic-code-review-system/",
@@ -701,7 +675,20 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.977,
+          "score": 2.74,
+          "coverage": 1
+        },
+        {
+          "title": "Testing changes, fast: Introducing agentic assessments in Database Center",
+          "link": "https://cloud.google.com/blog/products/databases/database-center-assessments-for-cloud-sql-for-postgresql/",
+          "excerpt": "Applying recommendations to a production database can feel risky if you can’t easily quantify the performance benefit or justify the additional cost. While Database Center flags fleet-level health issues and provides proactive recommendations, database administrators still face the challenge of…",
+          "source": "Cloud Blog",
+          "date": "Nov 18",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/cloud_databases_channel_hero_option1_2436x.max-2500x2500.png",
+          "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 2.74,
           "coverage": 1
         },
         {
@@ -714,7 +701,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 3.216,
+          "score": 2.903,
           "coverage": 1
         },
         {
@@ -727,7 +714,7 @@
           "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.576,
+          "score": 2.371,
           "coverage": 1
         },
         {
@@ -740,7 +727,7 @@
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
           "hn": null,
-          "score": 1.484,
+          "score": 1.414,
           "coverage": 1
         }
       ]
@@ -758,21 +745,8 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 3.529,
+          "score": 3.161,
           "coverage": 1
-        },
-        {
-          "title": "Black high school students sue after AI mistakes Doritos bag for gun",
-          "link": "https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm/",
-          "excerpt": "Case focuses on alleged failures surrounding AI systems and impact on students BALTIMORE COUNTY, MD – Today, the Lawyers’ Committee for Civil Rights Under Law filed a lawsuit on behalf of four Black current and former students against Omnilert, LLC, Baltimore County Public Schools (BCPS) and…",
-          "source": "lawyerscommittee.org via Hacker News",
-          "date": "Nov 19",
-          "image": "https://www.lawyerscommittee.org/wp-content/uploads/2026/09/Press-Statements-Blue-980x653-1.webp",
-          "icon": "https://www.lawyerscommittee.org/wp-content/uploads/2019/10/favicon.ico",
-          "domain": "lawyerscommittee.org",
-          "hn": "53 points · 19 comments",
-          "score": 9.946,
-          "coverage": 2
         },
         {
           "title": "Claude solves two open problems in the physics of black holes",
@@ -784,11 +758,9 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 0.14,
+          "score": 0.136,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Anthropic prices initial public offering",
           "link": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
@@ -799,22 +771,11 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 0.224,
+          "score": 0.214,
           "coverage": 1
-        },
-        {
-          "title": "AI will not make you rich (2025)",
-          "link": "https://colossus.com/article/ai-will-not-make-you-rich/",
-          "excerpt": "The disruption is real. It's also predictable.",
-          "source": "colossus.com via Hacker News",
-          "date": "Nov 19",
-          "image": "https://colossus.com/wp-content/uploads/2025/09/Neumann-preview-card.jpg",
-          "icon": "https://colossus.com/wp-content/themes/colossus/assets/images/icons/apple-touch-icon.png",
-          "domain": "colossus.com",
-          "hn": "66 points · 41 comments",
-          "score": 3.049,
-          "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "FailTrace – Reproduce a failed GitHub Actions run locally from its URL",
           "link": "https://github.com/Ri4dH/failtrace",
@@ -824,8 +785,8 @@
           "image": "https://opengraph.githubassets.com/faa2b137b0d8f8df33c5804a63a547402029ac4e33d2e639e86073ad4b27ff7a/Ri4dH/failtrace",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "11 points · 1 comments",
-          "score": 1.82,
+          "hn": "20 points · 3 comments",
+          "score": 1.896,
           "coverage": 1
         },
         {
@@ -837,8 +798,8 @@
           "image": "https://assets.ut2004.dev/web/og.jpg",
           "icon": "https://ut2004.dev/favicon.ico",
           "domain": "ut2004.dev",
-          "hn": "51 points · 16 comments",
-          "score": 2.72,
+          "hn": "99 points · 44 comments",
+          "score": 2.754,
           "coverage": 1
         },
         {
@@ -850,8 +811,34 @@
           "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
           "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png",
           "domain": "arxiv.org",
-          "hn": "20 points · 5 comments",
-          "score": 2.19,
+          "hn": "35 points · 6 comments",
+          "score": 2.157,
+          "coverage": 1
+        },
+        {
+          "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
+          "link": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
+          "excerpt": "TLDR: we project Gemini 4 Neon’s performance based on what a faster Gemini 4 Carbon might score and find it equivalent to Opus 5.5 Gemini 4 Carbon is the best model on the Agent Duel leaderboard if you exclude early voting. Carbon’s main problem is that it is slooooow. Today, Gemini 4 Neon was…",
+          "source": "micjm.com via Hacker News",
+          "date": "Nov 19",
+          "image": null,
+          "icon": "https://micjm.com/favicon.ico",
+          "domain": "micjm.com",
+          "hn": "192 points · 67 comments",
+          "score": 2.865,
+          "coverage": 1
+        },
+        {
+          "title": "We need smart people who give a shit",
+          "link": "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/",
+          "excerpt": "390 points · 202 comments",
+          "source": "violetpixel.com via Hacker News",
+          "date": "Nov 18",
+          "image": null,
+          "icon": "https://violetpixel.com/favicon.ico",
+          "domain": "violetpixel.com",
+          "hn": "390 points · 202 comments",
+          "score": 3.132,
           "coverage": 1
         }
       ]
