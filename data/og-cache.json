@@ -617,6 +617,12 @@
   "icon": "https://blog.orange.tw/images/apple-touch-icon.png",
   "image": "https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/pwnie-award-2026.webp"
  },
+ "https://blog.plover.com/tech/bug-reports.html": {
+  "description": "From the highly eclectic blog of Mark Dominus",
+  "fetched": "2026-11-19",
+  "icon": "https://pic.blog.plover.com/HOP-192.png",
+  "image": "https://pic.blog.plover.com/FIRST_IMAGE_DEFAULT.jpg"
+ },
  "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/": {
   "description": "PyPI now makes it simple to check where release files come from, with a dedicated security tab, a rebuilt release files tab, and refreshed documentation.",
   "fetched": "2026-11-15",
@@ -952,6 +958,12 @@
   "fetched": "2026-11-03",
   "icon": null,
   "image": null
+ },
+ "https://cornholenews.news": {
+  "description": "Top stories and links, ranked by votes from the community.",
+  "fetched": "2026-11-19",
+  "icon": "https://cornholenews.news/apple-icon.png?apple-icon.27haiq0vymcyy.png",
+  "image": "https://cornholenews.news/opengraph-image"
  },
  "https://cursor.com/blog/agent-sdk": {
   "description": "The Agent SDK is the framework we use to build our own managed agents like Bugbot, Security Reviewer, and Rollouts. Define agents in code and deploy them with one command.",
@@ -2741,6 +2753,12 @@
   "icon": null,
   "image": null
  },
+ "https://lithub.com/how-to-make-the-ink-used-to-write-hamlet-the-declaration-of-independence-and-beethovens-fifth/": {
+  "description": "This is how to make the ink that wrote Magna Carta, Hamlet, Samuel Pepys’s Diary, Robinson Crusoe, Gulliver’s Travels, Candide, the Declaration of Independence, A Vindication of the Rights of Woman…",
+  "fetched": "2026-11-19",
+  "icon": "https://s26162.pcdn.co/wp-content/uploads/2015/04/favicon.ico",
+  "image": "https://s26162.pcdn.co/wp-content/uploads/2026/11/pen-and-ink.png"
+ },
  "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal": {
   "description": "Judge Noël Wise found buyers plausibly alleged a conspiracy to restrict conventional memory chip supply, distinguishing the Ninth Circuit's 2022 DRAM II ruling.",
   "fetched": "2026-11-15",
@@ -2812,6 +2830,12 @@
   "fetched": "2026-11-15",
   "icon": "https://macanorak.com/content/images/2026/10/MA-Staff-Logo-New.png?v=3",
   "image": "https://macanorak.com/content/images/2026/11/PROLED-Display-XDR-1.png"
+ },
+ "https://maccus.fr/en/cooling-overtaking-heating/": {
+  "description": "IEA World Energy Outlook 2026: the energy needed to cool buildings is overtaking the energy needed to heat them, a first in history.",
+  "fetched": "2026-11-19",
+  "icon": "https://maccus.fr/wp-content/uploads/2026/10/maccus-site-icon-512-180x180.png",
+  "image": "https://maccus.fr/wp-content/uploads/2026/11/cooling-electricity-demand-2035-en.jpg"
  },
  "https://magazine.sebastianraschka.com/p/building-reasoning-models": {
   "description": "Over 11 hours of coding videos on evaluation, inference-time scaling, reinforcement learning, and distillation, with Python and PyTorch.",
@@ -4109,6 +4133,12 @@
   "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
   "image": "https://s46486.pcdn.co/wp-content/uploads/2026/11/IPW-reading-grouo.png"
  },
+ "https://s46486.pcdn.co/blog/paper2agent-reimagining-research-papers-as-interactive-and-reliable-ai-agents/": {
+  "description": "Paper2Agent turns a paper and its code into an agent that reruns the science: 91.2% accuracy vs 80.3% for Claude Code, with a psoriasis case study.",
+  "fetched": "2026-11-19",
+  "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
+  "image": "https://s46486.pcdn.co/wp-content/uploads/2022/01/paper2agent-reading-group.png"
+ },
  "https://s46486.pcdn.co/blog/terminal-bench-4-1-hardens-the-verifiers-behind-the-scores/": {
   "description": "Terminal-Bench 4.1 keeps the same 66 tasks but hardens the verifiers behind the scores: better isolation, verifier fixes, and reproducible builds.",
   "fetched": "2026-11-10",
@@ -4438,6 +4468,18 @@
   "fetched": "2026-11-05",
   "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
   "image": "https://s46486.pcdn.co/wp-content/uploads/2026/11/RIFT-BLOG-scaled.png"
+ },
+ "https://snorkel.ai/blog/fable-5-2-vs-fable-5-1-coding-benchmark/": {
+  "description": "Fable 5.2 vs Fable 5.1 coding benchmark: pass@1 rises from 53% to 71% on 26 frontier tasks as mid-run terminal failures nearly vanish.",
+  "fetched": "2026-11-19",
+  "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
+  "image": "https://s46486.pcdn.co/wp-content/uploads/2022/01/Cover-Claude_Fable52-1_-_USE-1024x576.png"
+ },
+ "https://snorkel.ai/blog/gdpval-agents-rare-success/": {
+  "description": "Standard GRPO gives no learning signal when most rollouts fail. Binary-gated GRPO lifts Qwen3.8-27B pass@1 on GDPval from 31.9% to 40.7%.",
+  "fetched": "2026-11-19",
+  "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
+  "image": "https://s46486.pcdn.co/wp-content/uploads/2022/01/social-waffle-2400x1260-1.png"
  },
  "https://snorkel.ai/blog/intelligence-per-watt-reading-group/": {
   "description": "Intelligence per Watt shows how much AI can move from the cloud to your laptop: local AI efficiency rose 5.3x from 2023 to 2025. Read the full talk transcript.",
@@ -5093,6 +5135,12 @@
   "icon": "https://images.theconversation.com/files/581997/original/9275d5c0-7dd5-4ddf-b50b-98d537e016f4.png",
   "image": "https://images.theconversation.com/files/765306/original/file-20261009-50-7ar5dc.jpg?ixlib=rb-4.1.1&rect=0%2C400%2C5184%2C2592&q=45&auto=format&w=1356&h=668&fit=crop"
  },
+ "https://thedataexchange.media/pete-warden-moonshine/": {
+  "description": "Pete Warden on Local AI, Open Models, Voice Interfaces, and the Future of Hardware. Subscribe: Apple • Spotify • Overcast … More",
+  "fetched": "2026-11-19",
+  "icon": "https://i0.wp.com/thedataexchange.media/wp-content/uploads/2022/08/cropped-logo-DE.jpg?fit=180%2C180&ssl=1",
+  "image": "https://thedataexchange.media/wp-content/uploads/2026/11/pete-warden-local-ai.001.jpeg"
+ },
  "https://thenumb.at/Syl-Intro/": {
   "description": null,
   "fetched": "2026-10-28",
@@ -5590,6 +5638,12 @@
   "fetched": "2026-11-11",
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://images.workoscdn.com/images/b8ecd087-45b0-4195-aa0c-462a049bf9c1.png?auto=format&fit=clip&q=80"
+ },
+ "https://workos.com/blog/sync-engine": {
+  "description": "The WorkOS Sync Engine mirrors users, organizations, and memberships into your database, so you can query identity data alongside your application records.",
+  "fetched": "2026-11-19",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://images.workoscdn.com/images/4cefceae-72bd-4ce2-9427-ab1039cddf43.png?auto=format&fit=clip&q=80"
  },
  "https://workos.com/blog/users-management-widget-customer-admins": {
   "description": "Drop the WorkOS UsersManagement widget into your B2B app so your customers' own IT admins can invite members, remove them, and change roles without a ticket.",
@@ -7256,6 +7310,12 @@
  "https://www.mckinsey.com/industries/industrials/our-insights/wartsila-ceo-hakan-agnevall-focus-flexibility-and-the-next-wave-of-growth": {
   "description": null,
   "fetched": "2026-10-30",
+  "icon": null,
+  "image": null
+ },
+ "https://www.mckinsey.com/industries/life-sciences/our-insights/building-pharmas-laboratory-of-the-future": {
+  "description": null,
+  "fetched": "2026-11-19",
   "icon": null,
   "image": null
  },
