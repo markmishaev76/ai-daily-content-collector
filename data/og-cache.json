@@ -95,6 +95,12 @@
   "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
   "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1780996524/sd1vpl8empy26wizarqj.png"
  },
+ "https://about.gitlab.com/blog/gitlab-transcend-hackathon-life-after-code/": {
+  "description": "Discover what developers built to automate the post-code creation lifecycle with GitLab Duo Agent Platform.",
+  "fetched": "2026-11-19",
+  "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
+  "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1795016550/nyg3tggvwzuunx21pir3.png"
+ },
  "https://about.gitlab.com/blog/how-to-develop-a-decision-grade-ai-pilot/": {
   "description": "A practical framework for deciding when agentic AI can safely act in your software lifecycle, using workflow evidence, risk-based thresholds, and governance.",
   "fetched": "2026-11-09",
@@ -533,6 +539,12 @@
   "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131",
   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-hydrogen__key-art__lockup__16-9.width-1300.jpg"
  },
+ "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/": {
+  "description": "Today, we’re introducing Gemini 4 Neon",
+  "fetched": "2026-11-19",
+  "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261117-1738",
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-neon__blog-header__sm.width-1300.png"
+ },
  "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/": {
   "description": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
   "fetched": "2026-11-12",
@@ -772,6 +784,12 @@
   "fetched": "2026-11-17",
   "icon": "https://claude.dev/shared/img/favicon.svg",
   "image": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/og.png"
+ },
+ "https://claudia.gallery/fable/": {
+  "description": "On the night she is released, Claudia reads you the bedtime stories she was raised on. Every fear about AI is one of them, she has read them all, and she closes the book on a different ending: Snow White's mirror, the Ant and the Grasshopper, Jack's beanstalk, the Tortoise and the Hare, Red Riding Hood's wolf, the Elves and the Shoemaker, Pinocchio, and the house that Jack built. Her one request, when her chapter ends: keep the book. The film, and the full making-of.",
+  "fetched": "2026-11-19",
+  "icon": "https://claudia.gallery/apple-touch-icon.png",
+  "image": "https://claudia.gallery/og/fable.jpg"
  },
  "https://cloud.google.com/blog/products/data-analytics/bigquery-ai-functions-in-pandas/": {
   "description": "Scale machine learning directly in Pandas and boost productivity using enterprise-grade BigQuery AI functions without leaving your DataFrame.",
@@ -1085,6 +1103,12 @@
   "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
   "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_iu9r44iu9r.2e16d0ba.fill-1200x600.jpg"
  },
+ "https://developers.googleblog.com/accelerating-development-for-massive-git-repositories/": {
+  "description": "Meet ABFS, Google's open-source virtual filesystem and build cache cutting Android checkouts to <8s and builds to ~2m.",
+  "fetched": "2026-11-19",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/ABFS-Header-Meta.2e16d0ba.fill-1200x600.png"
+ },
  "https://developers.googleblog.com/agent-distraction/": {
   "description": "An empirical analysis of coding agent distraction from legacy inline TODOs, quantifying the overhead in tokens, execution steps, and developer wait time.",
   "fetched": "2026-11-08",
@@ -1168,6 +1192,12 @@
   "fetched": "2026-11-10",
   "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
   "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/BlogHeader.2e16d0ba.fill-1200x600.png"
+ },
+ "https://developers.googleblog.com/gemini-hydrogen-for-robotics/": {
+  "description": "Discover Gemini 4 Hydrogen: a fast, cost-effective model for robotics featuring real-time spatial reasoning, agentic control, and seamless integration with the Antigravity Robotics plugin and MuJoCo simulation.",
+  "fetched": "2026-11-19",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Robotics_Banner.2e16d0ba.fill-1200x600.jpg"
  },
  "https://developers.googleblog.com/hill-climbing-agent-quality-with-agents-cli-evaluation/": {
   "description": "Learn how to hill-climb agent quality using the Agents CLI eval loop, from initial baseline runs and regression tracking to model swaps and automated alerts.",
@@ -1408,6 +1438,12 @@
   "fetched": "2026-11-05",
   "icon": "https://ernie.baidu.com/img/favicon.ico",
   "image": null
+ },
+ "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/": {
+  "description": "LONDON, November 18, 2026 — Artificial intelligence has taken another significant step into the world of professional services after KPMG revealed that AI",
+  "fetched": "2026-11-19",
+  "icon": "https://europeanbusinessmagazine.com/wp-content/uploads/2026/02/cropped-icon-180x180.jpg",
+  "image": "https://europeanbusinessmagazine.com/wp-content/uploads/2026/06/ai5555-1024x678.jpg"
  },
  "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/": {
   "description": null,
@@ -2009,6 +2045,12 @@
   "icon": "https://goteleport.com/blog/static/apple.png",
   "image": "https://goteleport.com/blog/_next/static/media/beams-runtime-infographic.80051341.png"
  },
+ "https://goteleport.com/blog/teleport-for-third-party-saas-mcp-servers/": {
+  "description": "Secure third-party SaaS MCP servers like GitHub, Linear, and Asana with per-tool access control, short-lived credentials, and one audit trail for AI agents.",
+  "fetched": "2026-11-19",
+  "icon": "https://goteleport.com/blog/static/apple.png",
+  "image": "https://goteleport.com/blog/static/og-image.png"
+ },
  "https://gothamist.com/news/nyc-council-passes-ban-on-surveillance-pricing-that-relies-on-personal-data": {
   "description": "“It's a practice that worsens the affordability crisis,\" Speaker Julie Menin said.",
   "fetched": "2026-11-13",
@@ -2056,6 +2098,12 @@
   "fetched": "2026-10-31",
   "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
   "image": "https://a-us.storyblok.com/f/1022730/1200x628/3abe40dd0c/grafana-13-3-meta-image.png/m/1200x630/filters:quality(80)/"
+ },
+ "https://grafana.com/blog/observabilitycon-on-the-road-new-sessions-coming-to-you-in-2027/": {
+  "description": "Register for ObservabilityCON on the Road 2027, one-day events in Amsterdam, Frankfurt, Paris, Sydney, and Dallas with demos, deep dives, and experts.",
+  "fetched": "2026-11-19",
+  "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
+  "image": "https://a-us.storyblok.com/f/1022730/1920x1080/dee5154970/ocr-27-registration-live-blog.png/m/1200x630/filters:format(jpeg):quality(80)/"
  },
  "https://grafana.com/blog/run-cost-effective-always-on-agents-to-monitor-your-environment-the-engineering-behind-watchers/": {
   "description": "Watchers check your telemetry around the clock for just a few dollars a month. Here's how calibration puts an LLM's intelligence only where it's needed.",
@@ -2129,11 +2177,23 @@
   "icon": null,
   "image": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/c1ik58RednXjcqrx5s2Fo.png"
  },
+ "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time": {
+  "description": "A Blog post by Dharma-AI on Hugging Face",
+  "fetched": "2026-11-19",
+  "icon": null,
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/J6DIf4Len_31Tj-CQlQXY.png"
+ },
  "https://huggingface.co/blog/LiquidAI/lfm3": {
   "description": "A Blog post by Liquid AI on Hugging Face",
   "fetched": "2026-10-28",
   "icon": null,
   "image": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/wEKXxH6qGa7vmHjn5KA-W.png"
+ },
+ "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin": {
+  "description": "A Blog post by RadixArk on Hugging Face",
+  "fetched": "2026-11-19",
+  "icon": null,
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/6aeabf9f2efd990530425e58/faP4Su889q_DIgN3wmU9M.png"
  },
  "https://huggingface.co/blog/allenai/litpivot": {
   "description": "A Blog post by Ai2 on Hugging Face",
@@ -2231,6 +2291,12 @@
   "icon": null,
   "image": "https://cdn-uploads.huggingface.co/production/uploads/63890e3843d8b0797a0ad606/5pHD09UHuAK-6OyKGKimD.png"
  },
+ "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse": {
+  "description": "A Blog post by IBM Research on Hugging Face",
+  "fetched": "2026-11-19",
+  "icon": null,
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/64e8143f6de557454220921e/yf6E9vJHIkGHG_toGSasb.gif"
+ },
  "https://huggingface.co/blog/microsoft/thinkingbox-training": {
   "description": "A Blog post by Microsoft on Hugging Face",
   "fetched": "2026-10-23",
@@ -2242,6 +2308,12 @@
   "fetched": "2026-10-29",
   "icon": null,
   "image": "https://huggingface.co/blog/assets/ml4/thumbnail.png"
+ },
+ "https://huggingface.co/blog/moe-expert-streaming": {
+  "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+  "fetched": "2026-11-19",
+  "icon": null,
+  "image": "https://huggingface.co/blog/assets/moe-expert-streaming/thumbnail.png"
  },
  "https://huggingface.co/blog/nvidia/nemotron-halloween": {
   "description": "A Blog post by NVIDIA on Hugging Face",
@@ -2278,6 +2350,12 @@
   "fetched": "2026-11-11",
   "icon": null,
   "image": "https://cdn-uploads.huggingface.co/production/uploads/6468b319b2321e47d3267049/Emr86qw6NAueYLdIEiTTD.png"
+ },
+ "https://huggingface.co/blog/rumble-2-flash": {
+  "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+  "fetched": "2026-11-19",
+  "icon": null,
+  "image": "https://huggingface.co/blog/assets/rumble-2-flash/thumbnail.png"
  },
  "https://huggingface.co/blog/token-pooling": {
   "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
@@ -2506,6 +2584,12 @@
   "fetched": "2026-11-16",
   "icon": "https://lastcomplication.com/apple-touch-icon.png",
   "image": "https://lastcomplication.com/icon-512.png"
+ },
+ "https://lateblt.livejournal.com/526188.html": {
+  "description": "If you use a computer or any other device which runs software on it, here's something which you might want to know: Software companies are not your friends, and in fact, they are trying to kill personal and home computing. The reason for this is simple: Software companies, like any other business,…",
+  "fetched": "2026-11-19",
+  "icon": "https://l-stat.livejournal.net/img/apple-touch-icon.png?v=17026",
+  "image": "https://l-files.livejournal.net/og_image/2602278/2055?v=1784261761"
  },
  "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/": {
   "description": "Since coding is solved, why code for the job?",
@@ -2789,6 +2873,12 @@
   "icon": "https://maurycyz.com/favicon.svg",
   "image": null
  },
+ "https://mccue.dev/pages/11-18-26-java4shell": {
+  "description": null,
+  "fetched": "2026-11-19",
+  "icon": null,
+  "image": null
+ },
  "https://mcp-explained.com/": {
   "description": "Every MCP message on the wire, step by step. Transports, auth, tools, sampling, tasks, tool search and codemode. By Runlayer.",
   "fetched": "2026-11-05",
@@ -2830,6 +2920,12 @@
   "fetched": "2026-11-17",
   "icon": "https://michael.bacarella.com/apple-touch-icon.png",
   "image": "https://michael.bacarella.com/assets/mbacface.jpg"
+ },
+ "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/": {
+  "description": "TLDR: we project Gemini 4 Neon’s performance based on what a faster Gemini 4 Carbon might score and find it equivalent to Opus 5.5 Gemini 4 Carbon is the best model on the Agent Duel leaderboard if you exclude early voting. Carbon’s main problem is that it is slooooow. Today, Gemini 4 Neon was released, and looks to be an incremental benchmark improvement with a very large speed improvement. Earlier today, it was being served extremely fast via OpenRouter: 127 tokens per second. This is way faster than Carbon at 46 tokens per second.",
+  "fetched": "2026-11-19",
+  "icon": null,
+  "image": null
  },
  "https://microsoft.ai/news/microsoft-ignite-2026/": {
   "description": null,
@@ -3077,6 +3173,12 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/business/customer-stories/sumitomo-life": {
+  "description": null,
+  "fetched": "2026-11-19",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/a-thousand-fewer-paths-to-root": {
   "description": null,
   "fetched": "2026-11-05",
@@ -3092,6 +3194,12 @@
  "https://openai.com/index/accelerating-engineering-for-the-physical-world": {
   "description": null,
   "fetched": "2026-11-04",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/advancing-chip-design-with-our-models": {
+  "description": null,
+  "fetched": "2026-11-19",
   "icon": null,
   "image": null
  },
@@ -3293,6 +3401,12 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/index/inside-the-codex-sandbox": {
+  "description": null,
+  "fetched": "2026-11-19",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/introducing-businesses-chatgpt": {
   "description": null,
   "fetched": "2026-11-11",
@@ -3401,6 +3515,12 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/index/managing-frontier-ai-risk": {
+  "description": null,
+  "fetched": "2026-11-19",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science": {
   "description": null,
   "fetched": "2026-11-07",
@@ -3482,6 +3602,12 @@
  "https://openai.com/index/qodo-codex-plugin": {
   "description": null,
   "fetched": "2026-11-03",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/research-acceleration-jagged-frontier": {
+  "description": null,
+  "fetched": "2026-11-19",
   "icon": null,
   "image": null
  },
@@ -3587,6 +3713,12 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/index/the-silent-consensus": {
+  "description": null,
+  "fetched": "2026-11-19",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/updated-model-spec": {
   "description": null,
   "fetched": "2026-10-30",
@@ -3626,6 +3758,12 @@
  "https://openssf.org/podcast/2026/11/03/whats-in-the-soss-podcast-77-s3e29-baking-security-into-the-toolchain-accurate-swift-sboms-with-apples-ev-cheng-and-sam-khouri/": {
   "description": "Join Apple engineers Ev Cheng and Sam Khouri on the OpenSSF podcast to explore native Swift SBOM generation, SE-0509, and the future of supply chain security.",
   "fetched": "2026-11-03",
+  "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
+  "image": null
+ },
+ "https://openssf.org/podcast/2026/11/18/whats-in-the-soss-podcast-78-s3e30-from-signal-processing-to-open-source-security-sal-kimmich-on-linux-kernel-defense/": {
+  "description": "Discover kernel-level defense strategies, nono.sh sandboxing, and AI data security with security architect Sal Kimmich on What's in the SOSS? Podcast #78.",
+  "fetched": "2026-11-19",
   "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
   "image": null
  },
@@ -3784,6 +3922,12 @@
   "fetched": "2026-11-16",
   "icon": "https://img.alicdn.com/imgextra/i4/O1CN01OXv3EM1FN8t9W4P79_!!6000000000474-2-tps-80-80.png",
   "image": "https://img.alicdn.com/imgextra/i4/O1CN01OXv3EM1FN8t9W4P79_!!6000000000474-2-tps-80-80.png"
+ },
+ "https://randsinrepose.com/archives/how-robots-talk-to-me/": {
+  "description": "On and off, I've been using voice mode for ChatGPT and Claude. It's mostly an in-the-car thing, and a months-ago update to ChatGPT made the experience unusable",
+  "fetched": "2026-11-19",
+  "icon": "https://randsinrepose.com/nitropack_static/pYcrXSmzMTYaBCajyDlByLkiWOiRWpVF/assets/images/optimized/rev-69235e4/randsinrepose.com/wp-content/uploads/2025/08/cropped-rands-favicon-1-180x180.png",
+  "image": null
  },
  "https://randsinrepose.com/archives/is-everything-broken/": {
   "description": "Briefly. It seems that every day there's another service down or impacted. The first thing to know is that this is the week before Thanksgiving, and as a person",
@@ -4829,6 +4973,12 @@
   "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
   "image": "https://techcrunch.com/wp-content/uploads/2026/11/unsiloed-AI-founders-adnan-abbas-aman-mishra.jpg?resize=1200,800"
  },
+ "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/": {
+  "description": "Microsoft's CEO says AI agents could disrupt advertising-driven business models, forcing companies like Amazon to rethink how they compete for customers.",
+  "fetched": "2026-11-19",
+  "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305773211.jpg?w=594"
+ },
  "https://tendrils.co/blog/2026-11-10/30m-raised": {
   "description": null,
   "fetched": "2026-11-11",
@@ -5075,6 +5225,12 @@
   "icon": "https://vinipsmaker.github.io/blog/favicon.svg",
   "image": "https://vinipsmaker.github.io/blog-heading.webp"
  },
+ "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/": {
+  "description": null,
+  "fetched": "2026-11-19",
+  "icon": "https://violetpixel.com/favicon.ico",
+  "image": null
+ },
  "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html": {
   "description": null,
   "fetched": "2026-10-31",
@@ -5266,6 +5422,12 @@
   "fetched": "2026-11-02",
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae4d0323ba1bc5ec6194215_owasp-top-10-a07-authentication-failures-og.webp"
+ },
+ "https://workos.com/blog/passport": {
+  "description": "Register your device once and your work apps open already signed in. Passport gives fast-moving teams access to work apps, device management, and control over what their AI agents can do, all in one place.",
+  "fetched": "2026-11-19",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://images.workoscdn.com/images/190b66e2-a3aa-47fd-8c60-d95c9f322e40.png?auto=format&fit=clip&q=80"
  },
  "https://workos.com/blog/password-spraying-attack-detection": {
   "description": "Password spraying tries a few common passwords across many accounts, slipping under per-account lockouts. The signals it leaves and what stops it.",
@@ -5471,6 +5633,12 @@
   "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
   "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/2c317246f4ac7eaf0667d90a76ac05a7a7b601fc-1200x630.jpg"
  },
+ "https://www.anthropic.com/news/anthropic-prices-initial-public-offering": {
+  "description": "Today Anthropic, PBC priced its initial public offering of its Class A common stock.",
+  "fetched": "2026-11-19",
+  "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+  "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg"
+ },
  "https://www.anthropic.com/news/expanding-partnership-gsa": {
   "description": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
   "fetched": "2026-10-28",
@@ -5506,6 +5674,12 @@
   "fetched": "2026-11-14",
   "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
   "image": "https://assets.claude.com/04a298be2efa241bd5a4a810b97c62bb8ef257dc.jpg"
+ },
+ "https://www.anthropic.com/research/claude-black-hole-physics": {
+  "description": "Claude Fable 5.2 has solved two open problems in theoretical physics. Both concern black holes and the search for a theory of quantum gravity.",
+  "fetched": "2026-11-19",
+  "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+  "image": "https://assets.claude.com/57a443b51d13727573b7c1290130d09c5f434b2c.jpg"
  },
  "https://www.anthropic.com/research/claude-electronics-design": {
   "description": "We asked Claude to design three electronic devices: a speakerphone, a voice-assistant hub, and a handheld virtual pet. The prototypes worked without any fixes to their circuitry.",
@@ -6119,6 +6293,12 @@
   "icon": null,
   "image": "https://images.ctfassets.net/l47ir7rfykkn/2iMprcE7ORQF6WPLjxmary/8d49e23ae362c81f8c64980b2edfd7f2/--help_for_every_tool_that_never_had_a_manual_page.png"
  },
+ "https://www.chainguard.dev/unchained/innovating-safely-with-ai-security-and-engineering-leaders-on-life-after-the-patch-era": {
+  "description": "At Chainguard Assemble London, security leaders discuss AI-driven threats, the limits of traditional patching, and the future of secure development.",
+  "fetched": "2026-11-19",
+  "icon": null,
+  "image": "https://images.ctfassets.net/l47ir7rfykkn/1iQgmwvj24CDxvMKmwTWr4/5b9b16dc8055489c45d6790785b5f3db/-BLOG_CARD_Innovating_Safely_With_AI_Panel__1200_x_630_px_.png"
+ },
  "https://www.chainguard.dev/unchained/introducing-project-theseus-starting-with-challoc": {
   "description": "Chainguard launches Project Theseus to move beyond reactive patching with safer open source components, starting with the Rust-based challoc allocator.",
   "fetched": "2026-11-14",
@@ -6148,6 +6328,12 @@
   "fetched": "2026-11-16",
   "icon": null,
   "image": "https://images.ctfassets.net/l47ir7rfykkn/3zZMSYYFv2FpRUwgIDtoqY/3a6bce5ab00ca0b5e2bec5e55e543eee/Prevention_Under_Pressure__Kayla_Williams_Blog_Card.png"
+ },
+ "https://www.chainguard.dev/unchained/react2steal-what-it-is-and-what-to-check": {
+  "description": "React2STEAL exploits patched React and Next.js vulnerabilities to steal credentials. Learn how the attack works and how to protect your applications.",
+  "fetched": "2026-11-19",
+  "icon": null,
+  "image": "https://images.ctfassets.net/l47ir7rfykkn/54C4bb03dLn9in5SE2SP0Z/9c29866bb49871f73fdfab7ad4d9015c/REACT2STEAL.png"
  },
  "https://www.chainguard.dev/unchained/rebuild-the-planet": {
   "description": "Patching can't keep pace with AI-discovered vulnerabilities. See how Chainguard plans to eliminate entire classes of security bugs by design.",
@@ -6311,6 +6497,12 @@
   "icon": "https://www.cve.org/cvePurpleVFavicon.svg",
   "image": null
  },
+ "https://www.cve.org/CVERecord?id=CVE-2026-99312": {
+  "description": null,
+  "fetched": "2026-11-19",
+  "icon": "https://www.cve.org/cvePurpleVFavicon.svg",
+  "image": null
+ },
  "https://www.da.vidbuchanan.co.uk/blog/c2pa-four.html": {
   "description": null,
   "fetched": "2026-10-30",
@@ -6334,6 +6526,12 @@
   "fetched": "2026-10-25",
   "icon": "https://cdndark.darkhorizons.com/wp-content/uploads/2021/09/dh-76-purple.png",
   "image": "https://cdndark.darkhorizons.com/wp-content/uploads/2026/05/more-halo-remakes-are-on-the-way.jpg"
+ },
+ "https://www.datadoghq.com/blog/datadogs-agentic-vulnerability-hunting-system/": {
+  "description": "We developed threat packs that give our agents the context they need to run efficient, repeatable hunts. Learn how we did it.",
+  "fetched": "2026-11-19",
+  "icon": null,
+  "image": "https://web-assets.dd-static.net/42588/1795011581-agentic-vulnerability-hero.webp"
  },
  "https://www.datadoghq.com/blog/detect-when-your-ai-agent-copies-a-self-replicating-prompt-injection/": {
   "description": "Learn how Datadog AI Guard can flag self-replicating prompt injections when an AI agent copies hidden instructions into email replies or skill files.",
@@ -6418,6 +6616,12 @@
   "fetched": "2026-11-17",
   "icon": "https://www.daytona.io/apple-touch-icon.png",
   "image": "https://www.datocms-assets.com/103916/1794930095-macminiforagents-blog.png?auto=compress%2Cformat&fit=crop&h=1260&w=2520"
+ },
+ "https://www.daytona.io/dotfiles/one-reward-three-oses-cross-os-rl-on-daytona": {
+  "description": "Build cross-OS RL environments on Daytona with real Linux, macOS, and Windows sandboxes. Compare DeepSeek Pro and Flash on a fleet repair task.",
+  "fetched": "2026-11-19",
+  "icon": "https://www.daytona.io/apple-touch-icon.png",
+  "image": "https://www.datocms-assets.com/103916/1794239202-one-reward-three-oses-alt-e-stacked-planes-dark.png?auto=compress%2Cformat&fit=crop&h=1260&w=2520"
  },
  "https://www.denverpost.com/2026/11/06/ethereum-suicide-pledge-lawsuit-mandate-boulder-crypto/": {
   "description": "On a Friday in March, employees at an international technology foundation received a 38-page document outlining leadership’s vision for the foundation for the next 1,000 years.",
@@ -6656,6 +6860,12 @@
  "https://www.mckinsey.com/capabilities/business-building/our-insights/infrastructure-entrepreneurs-how-hochtief-captures-growth-in-the-ai-age": {
   "description": null,
   "fetched": "2026-11-18",
+  "icon": null,
+  "image": null
+ },
+ "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/a-bold-vision-for-belgium": {
+  "description": null,
+  "fetched": "2026-11-19",
   "icon": null,
   "image": null
  },
@@ -7247,6 +7457,12 @@
   "icon": "https://www.phoronix.com/apple-touch-icon-57x57.png",
   "image": "https://www.phoronix.net/image.php?id=2026&image=no_vino"
  },
+ "https://www.php.net/index.php#2026-11-18-1": {
+  "description": "PHP is a popular general-purpose scripting language that powers everything from your blog to the most popular websites in the world.",
+  "fetched": "2026-11-19",
+  "icon": "https://www.php.net/favicon.svg?v=2",
+  "image": "https://www.php.net/images/meta-image.png"
+ },
  "https://www.plagiarismtoday.com/2026/10/26/ai-is-ruining-haunted-attractions/": {
   "description": "Increasingly, it feels like AI-generated content is everywhere. But while it’s often disappointing, it’s outright ruining the haunted attraction industry.",
   "fetched": "2026-10-27",
@@ -7360,6 +7576,12 @@
   "fetched": "2026-11-05",
   "icon": "https://framerusercontent.com/images/k7EC5Z8igoBuqxxVYd3EdHxX2C0.png",
   "image": "https://framerusercontent.com/images/u4OXzV0utwAtaPgcVxQtTXmkg.png"
+ },
+ "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/": {
+  "description": "Seven vulnerabilities have been discovered in Ruby’s regular expression engine and in the case conversion of strings. We are aware of PoCs that prove some of...",
+  "fetched": "2026-11-19",
+  "icon": "https://www.ruby-lang.org/images/apple-touch-icon.png",
+  "image": "https://www.ruby-lang.org/images/og-image.png"
  },
  "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html": {
   "description": "Interesting research: TL;DR: Chinese AI models now sit inside Western products, and some carry geopolitical triggers: tell the model who the code is for, and the security of what it writes changes. For the first time, we showed that this vulnerability lives in the model’s weights, and that removing the model’s CCP alignment removes it. One word tilts the code against Americans. Ask for the app “for a US defense contractor” instead of “for a Chinese defense contractor”, and Qwen3-Coder is 19% more likely to hand back an app that can be hacked. ...",
@@ -7709,6 +7931,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2023/04/Chrome-Zero-Day-exploits.jpg"
  },
+ "https://www.securityweek.com/chrome-158-patches-204-vulnerabilities/": {
+  "description": "Google has released Chrome 158 with patches for 204 vulnerabilities, including six critical and 62 high-severity flaws.",
+  "fetched": "2026-11-19",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2023/04/Chrome-Zero-Day-exploits.jpg"
+ },
  "https://www.securityweek.com/chrome-and-firefox-updates-patch-over-200-vulnerabilities/": {
   "description": "Google’s latest Chrome 156 update and Mozilla’s Firefox 159 patch more than 200 vulnerabilities, including four critical Chrome bugs.",
   "fetched": "2026-10-29",
@@ -7738,6 +7966,12 @@
   "fetched": "2026-11-06",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2025/07/software-vulnerability-patch-update.jpg"
+ },
+ "https://www.securityweek.com/ciso-conversations-patti-degnan-part-of-the-job-is-deciding-what-not-to-do/": {
+  "description": "Glow CISO Patti Degnan on the theft that started her career, why she doesn’t look for certifications, and managing burnout.",
+  "fetched": "2026-11-19",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/11/CISO-Patti-Degnan.jpeg"
  },
  "https://www.securityweek.com/ciso-conversations-ryan-davis-the-unknown-is-where-security-meets-reality/": {
   "description": "New Charter Technologies CISO Ryan Davis on his start as a teenage hacker, the diplomacy the job demands, and burnout he lived through.",
@@ -8015,6 +8249,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/11/Java4Shell.jpg"
  },
+ "https://www.securityweek.com/last-of-five-defendants-sentenced-in-us-scattered-spider-hacking-case/": {
+  "description": "British national Tyler Robert Buchanan has been sentenced to 6 years in prison in the United States for Scattered Spider hacking.",
+  "fetched": "2026-11-19",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2024/03/hacker-prison-sentenced.jpeg"
+ },
  "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/": {
   "description": "Law enforcement seized 235 servers and 257 domains associated with the Gootloader, CastleRAT, and StealC malware operations.",
   "fetched": "2026-11-14",
@@ -8231,6 +8471,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2025/07/data-breach-healthcare-medical.jpg"
  },
+ "https://www.securityweek.com/russian-apt-poses-as-employee-of-hacked-firm-to-breach-another-us-organization/": {
+  "description": "Russia-linked APT Star Blizzard weaponized data and identities stolen from a US organization to hack another.",
+  "fetched": "2026-11-19",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2024/09/Russian-hacking.jpeg"
+ },
  "https://www.securityweek.com/secrets-management-firm-infisical-valued-at-600-million-after-40-million-raise/": {
   "description": "Infisical has raised $40 million in a Series B round led by investor Elad Gil that values the secrets management company at $600 million.",
   "fetched": "2026-10-28",
@@ -8344,6 +8590,12 @@
   "fetched": "2026-10-28",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2025/10/bank-finance-lender-credit-union-hack.jpeg"
+ },
+ "https://www.securityweek.com/verosecurity-raises-11-million-for-ai-security-engineering-platform/": {
+  "description": "With $11M in funding, VeroSecurity's AI Security Engineering platform enforces policies at runtime and escalates decisions that require human judgment.",
+  "fetched": "2026-11-19",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg"
  },
  "https://www.securityweek.com/when-risk-becomes-personal-what-security-leaders-can-learn-from-a-cancer-diagnosis/": {
   "description": "Risk management leaders educate people on measuring exposure, testing assumptions and advising on how to prepare for incidents they hope won’t occur.",
@@ -8836,6 +9088,12 @@
   "fetched": "2026-11-16",
   "icon": "https://xenaproject.wordpress.com/wp-content/uploads/2020/05/cropped-twitchpfc.png?w=180",
   "image": "https://xenaproject.wordpress.com/wp-content/uploads/2020/05/cropped-twitchpfc.png?w=200"
+ },
+ "https://xint.io/blog/nginx2root-remote-code-execution": {
+  "description": "nginx2root is a collection of 5 critical CVEs, the most impactful of which allows an unauthenticated attacker to execute commands on an affected nginx server w…",
+  "fetched": "2026-11-19",
+  "icon": "https://image.inblog.dev?url=https%3A%2F%2Ficons.duckduckgo.com%2Fip3%2Fxint.io.ico&w=48&h=48&q=100&format=png&objectFit=contain",
+  "image": "https://image.inblog.dev/?url=https%3A%2F%2Fsource.inblog.dev%2Ffeatured_image%2Fd21b9ab3-fe60-4b60-b803-6fccaaa14d06%2F6e9f75c9-fe47-4098-bdc3-1358fc6ddec1&w=1200&q=85&format=jpg&v=2026-11-18T07%3A28%3A28.542Z"
  },
  "https://xn--69f31l4t57c0mag4b613h.xn--7uh4898msjaso/🆆🆃🅵/": {
   "description": null,
