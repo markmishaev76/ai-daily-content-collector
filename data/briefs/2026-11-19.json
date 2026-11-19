@@ -14,7 +14,7 @@
     "labels": [
       "2 sources",
       "Security & AppSec",
-      "2h ago"
+      "6h ago"
     ],
     "also": [
       {
@@ -25,25 +25,13 @@
   },
   "pulse": [
     {
-      "title": "AI is killing All About Berlin",
-      "thread": "https://news.ycombinator.com/item?id=50542705",
-      "link": "https://nicolasbouliane.com/blog/death-by-ai",
-      "link_domain": "nicolasbouliane.com",
-      "source": "Hacker News",
-      "domain": "nicolasbouliane.com",
-      "meta": "Hacker News · 772 points · 690 comments · 23h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://nicolasbouliane.com/img/favicon.png"
-    },
-    {
       "title": "Gemini 4 Neon",
       "thread": "https://news.ycombinator.com/item?id=50552424",
       "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
       "link_domain": "blog.google",
       "source": "Hacker News",
       "domain": "blog.google",
-      "meta": "Hacker News · 662 points · 566 comments · 8h ago",
+      "meta": "Hacker News · 834 points · 670 comments · 12h ago",
       "also": [],
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-neon__blog-header__sm.width-1300.png",
       "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261117-1738"
@@ -55,7 +43,7 @@
       "link_domain": "xint.io",
       "source": "Lobsters",
       "domain": "xint.io",
-      "meta": "Lobsters · 69 points · 13 comments · 14h ago",
+      "meta": "Lobsters · 75 points · 14 comments · 18h ago",
       "also": [],
       "image": "https://image.inblog.dev/?url=https%3A%2F%2Fsource.inblog.dev%2Ffeatured_image%2Fd21b9ab3-fe60-4b60-b803-6fccaaa14d06%2F6e9f75c9-fe47-4098-bdc3-1358fc6ddec1&w=1200&q=85&format=jpg&v=2026-11-18T07%3A28%3A28.542Z",
       "icon": "https://image.inblog.dev?url=https%3A%2F%2Ficons.duckduckgo.com%2Fip3%2Fxint.io.ico&w=48&h=48&q=100&format=png&objectFit=contain"
@@ -67,10 +55,22 @@
       "link_domain": "europeanbusinessmagazine.com",
       "source": "Hacker News",
       "domain": "europeanbusinessmagazine.com",
-      "meta": "Hacker News · 431 points · 187 comments · 14h ago",
+      "meta": "Hacker News · 463 points · 212 comments · 18h ago",
       "also": [],
       "image": "https://europeanbusinessmagazine.com/wp-content/uploads/2026/06/ai5555-1024x678.jpg",
       "icon": "https://europeanbusinessmagazine.com/wp-content/uploads/2026/02/cropped-icon-180x180.jpg"
+    },
+    {
+      "title": "Multiple vulnerabilities in Regexp and String case conversion",
+      "thread": "https://news.ycombinator.com/item?id=50554038",
+      "link": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
+      "link_domain": "ruby-lang.org",
+      "source": "Hacker News",
+      "domain": "ruby-lang.org",
+      "meta": "Hacker News · 267 points · 90 comments · 10h ago",
+      "also": [],
+      "image": "https://www.ruby-lang.org/images/og-image.png",
+      "icon": "https://www.ruby-lang.org/images/apple-touch-icon.png"
     },
     {
       "title": "Windows 11 collects data on which coding agents and dev tools you use",
@@ -79,10 +79,34 @@
       "link_domain": "xusheng.dev",
       "source": "Lobsters",
       "domain": "xusheng.dev",
-      "meta": "Lobsters · 37 points · 27 comments · 18h ago",
+      "meta": "Lobsters · 37 points · 28 comments · 22h ago",
       "also": [],
       "image": "https://xusheng.dev/posts/windows-coding-agent-telemetry/agent-names.jpeg",
       "icon": "https://xusheng.dev/favicon.ico"
+    },
+    {
+      "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
+      "thread": "https://news.ycombinator.com/item?id=50554374",
+      "link": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
+      "link_domain": "micjm.com",
+      "source": "Hacker News",
+      "domain": "micjm.com",
+      "meta": "Hacker News · 231 points · 72 comments · 9h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://micjm.com/favicon.ico"
+    },
+    {
+      "title": "LLM assisted reverse engineering",
+      "thread": "https://news.ycombinator.com/item?id=50553225",
+      "link": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+      "link_domain": "slowchronicle.com",
+      "source": "Hacker News",
+      "domain": "slowchronicle.com",
+      "meta": "Hacker News · 213 points · 52 comments · 11h ago",
+      "also": [],
+      "image": "https://www.slowchronicle.com/og-default.png",
+      "icon": "https://www.slowchronicle.com/apple-touch-icon.png?v=3"
     },
     {
       "title": "Java4Shell is a reason to use Java",
@@ -91,7 +115,7 @@
       "link_domain": "mccue.dev",
       "source": "Lobsters",
       "domain": "mccue.dev",
-      "meta": "Lobsters · 28 points · 11 comments · 15h ago",
+      "meta": "Lobsters · 30 points · 14 comments · 20h ago",
       "also": [],
       "image": null,
       "icon": "https://mccue.dev/favicon.ico"
@@ -103,22 +127,10 @@
       "link_domain": "cve.org",
       "source": "Hacker News",
       "domain": "cve.org",
-      "meta": "Hacker News · 183 points · 121 comments · 13h ago",
+      "meta": "Hacker News · 186 points · 123 comments · 18h ago",
       "also": [],
       "image": null,
       "icon": "https://www.cve.org/cvePurpleVFavicon.svg"
-    },
-    {
-      "title": "Multiple vulnerabilities in Regexp and String case conversion",
-      "thread": "https://news.ycombinator.com/item?id=50554038",
-      "link": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
-      "link_domain": "ruby-lang.org",
-      "source": "Hacker News",
-      "domain": "ruby-lang.org",
-      "meta": "Hacker News · 176 points · 50 comments · 6h ago",
-      "also": [],
-      "image": "https://www.ruby-lang.org/images/og-image.png",
-      "icon": "https://www.ruby-lang.org/images/apple-touch-icon.png"
     },
     {
       "title": "Upcoming Critical PHP Security Release (18 Nov 2026)",
@@ -127,22 +139,10 @@
       "link_domain": "php.net",
       "source": "Lobsters",
       "domain": "php.net",
-      "meta": "Lobsters · 21 points · 5 comments · 10h ago",
+      "meta": "Lobsters · 24 points · 7 comments · 14h ago",
       "also": [],
       "image": "https://www.php.net/images/meta-image.png",
       "icon": "https://www.php.net/favicon.svg?v=2"
-    },
-    {
-      "title": "LLM assisted reverse engineering",
-      "thread": "https://news.ycombinator.com/item?id=50553225",
-      "link": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
-      "link_domain": "slowchronicle.com",
-      "source": "Hacker News",
-      "domain": "slowchronicle.com",
-      "meta": "Hacker News · 132 points · 38 comments · 7h ago",
-      "also": [],
-      "image": "https://www.slowchronicle.com/og-default.png",
-      "icon": "https://www.slowchronicle.com/apple-touch-icon.png?v=3"
     }
   ],
   "sections": [
@@ -159,7 +159,20 @@
           "icon": null,
           "domain": "newsletter.pragmaticengineer.com",
           "hn": null,
-          "score": 0.751,
+          "score": 0.637,
+          "coverage": 1
+        },
+        {
+          "title": "llm-gemini 0.38",
+          "link": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
+          "excerpt": "Release: llm-gemini 0.38 Today Google introduced Gemini 4 Neon. I wrote recently about how confusing the pricing for the Gemini 4 series was - Neon has somehow made this even worse. Previously the Gemini 4 lineup was Hydrogen, Argon, and Carbon - where Argon and Carbon were the same price, and…",
+          "source": "Simon Willison",
+          "date": "Nov 18",
+          "image": "https://static.simonwillison.net/static/2026/gemini-4-neon__comparison-graphi.width-2000.webp",
+          "icon": null,
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.803,
           "coverage": 1
         },
         {
@@ -172,7 +185,22 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.722,
+          "score": 0.616,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "How to coach engineers from different backgrounds",
+          "link": "https://leaddev.com/career-development/how-to-coach-engineers-from-different-backgrounds?utm_source=leaddev&utm_medium=RSS",
+          "excerpt": "Great work doesn’t speak for itself. The post How to coach engineers from different backgrounds appeared first on LeadDev.",
+          "source": "LeadDev",
+          "date": "Nov 19",
+          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2024/10/article-hero-leadership.png",
+          "icon": null,
+          "domain": "leaddev.com",
+          "hn": null,
+          "score": 1.245,
           "coverage": 1
         },
         {
@@ -185,11 +213,9 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.811,
+          "score": 0.68,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Why your fine-tuning job takes longer than the FLOPs say",
           "link": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
@@ -200,7 +226,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.776,
+          "score": 0.654,
           "coverage": 1
         },
         {
@@ -213,7 +239,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.664,
+          "score": 0.573,
           "coverage": 1
         },
         {
@@ -226,33 +252,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.428,
-          "coverage": 1
-        },
-        {
-          "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
-          "link": "https://huggingface.co/blog/rumble-2-flash",
-          "excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "source": "Hugging Face",
-          "date": "Nov 18",
-          "image": "https://huggingface.co/blog/assets/rumble-2-flash/thumbnail.png",
-          "icon": "https://huggingface.co/favicon.ico",
-          "domain": "huggingface.co",
-          "hn": null,
-          "score": 0.428,
-          "coverage": 1
-        },
-        {
-          "title": "The Gemini app is now available on lower-memory Android devices.",
-          "link": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
-          "excerpt": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
-          "source": "Google AI",
-          "date": "Nov 18",
-          "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_app_Android_social_share.max-600x600.format-webp.webp",
-          "icon": null,
-          "domain": "blog.google",
-          "hn": null,
-          "score": 0.717,
+          "score": 0.388,
           "coverage": 1
         }
       ]
@@ -270,7 +270,20 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 3.637,
+          "score": 3.23,
+          "coverage": 1
+        },
+        {
+          "title": "[AINews] Gemini 4 Neon: GDM's Opus/Sol Contender",
+          "link": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/",
+          "excerpt": "November 18, 2026 — Google’s middle tier scores 61 on the Intelligence Index. Plus, Anthropic prices its IPO at $83.",
+          "source": "Latent Space",
+          "date": "Nov 19",
+          "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/6ba7e411-386b-45b6-b64e-592072c52abf/image.png?t=1795071522",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null,
+          "score": 0.982,
           "coverage": 1
         },
         {
@@ -283,20 +296,7 @@
           "icon": "https://www.daytona.io/apple-touch-icon.png",
           "domain": "daytona.io",
           "hn": null,
-          "score": 0.356,
-          "coverage": 1
-        },
-        {
-          "title": "Secure SI by Design Consortium Officially Approved by U.S. Government",
-          "link": "https://www.paloaltonetworks.com/blog/2026/11/secure-si-by-design-consortium-officially-approved-by-u-s-government/",
-          "excerpt": "The United States government has officially approved the Secure SI by Design Consortium, an industry coalition led by Palo Alto Networks alongside NVIDIA, IBM, OpenAI, Snowflake, Cognizant, Reflection, Factory, and ServiceNow. Established … The post Secure SI by Design Consortium Officially…",
-          "source": "Palo Alto Networks Blog",
-          "date": "Nov 17",
-          "image": "https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/11/Palo_Alto_Networks_SI_Consortium-scaled.jpeg",
-          "icon": null,
-          "domain": "paloaltonetworks.com",
-          "hn": null,
-          "score": 0.305,
+          "score": 0.323,
           "coverage": 1
         }
       ],
@@ -311,7 +311,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.584,
+          "score": 0.515,
           "coverage": 1
         },
         {
@@ -324,7 +324,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.55,
+          "score": 0.488,
           "coverage": 1
         },
         {
@@ -337,7 +337,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.55,
+          "score": 0.488,
           "coverage": 1
         },
         {
@@ -350,7 +350,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.519,
+          "score": 0.464,
           "coverage": 1
         },
         {
@@ -363,7 +363,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.445,
+          "score": 0.404,
           "coverage": 1
         }
       ]
@@ -381,7 +381,7 @@
           "icon": "https://randsinrepose.com/nitropack_static/pYcrXSmzMTYaBCajyDlByLkiWOiRWpVF/assets/images/optimized/rev-69235e4/randsinrepose.com/wp-content/uploads/2025/08/cropped-rands-favicon-1-180x180.png",
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 3.058,
+          "score": 2.602,
           "coverage": 1
         },
         {
@@ -394,7 +394,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.828,
+          "score": 0.67,
           "coverage": 1
         }
       ],
@@ -413,7 +413,7 @@
           "icon": "https://goteleport.com/blog/static/apple.png",
           "domain": "goteleport.com",
           "hn": null,
-          "score": 2.995,
+          "score": 2.718,
           "coverage": 1
         },
         {
@@ -426,7 +426,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 1.609,
+          "score": 1.46,
           "coverage": 1
         },
         {
@@ -439,7 +439,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 0.356,
+          "score": 0.323,
           "coverage": 1
         }
       ],
@@ -454,7 +454,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 0.356,
+          "score": 0.323,
           "coverage": 1
         }
       ]
@@ -472,7 +472,7 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 1.648,
+          "score": 1.4,
           "coverage": 1
         }
       ],
@@ -491,7 +491,7 @@
           "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
           "domain": "openssf.org",
           "hn": null,
-          "score": 0.657,
+          "score": 0.553,
           "coverage": 1
         },
         {
@@ -504,7 +504,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.285,
+          "score": 0.259,
           "coverage": 1
         },
         {
@@ -517,7 +517,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.285,
+          "score": 0.259,
           "coverage": 1
         }
       ],
@@ -526,6 +526,60 @@
     {
       "name": "Security & AppSec",
       "cards": [
+        {
+          "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
+          "link": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+          "excerpt": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs. \"We have taken steps to mitigate the threat and are continuing to harden our services to…",
+          "source": "The Hacker News",
+          "date": "Nov 19",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjPpZ9yL9D7JBQvp4_ZmnP8S_U6HKdq3rSM_FVv_uDgT9Iz8D56tO6GNDNE4rs29pejUiKQlxi1HpZ38KYbaSB01PmgPItVL8N-Y9G9vcuJlnadltKvmGhvUKYntAEIVCXFixjdBMyu6S9-zEUlIgGf7E5euvodJbn9LIYWTkRpxwH0g7nz2xp2v5PGMdq/s1600/n-able-hacked.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 3.915,
+          "coverage": 1
+        },
+        {
+          "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
+          "link": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
+          "excerpt": "Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input can run code on the machine. \"We are aware of PoCs that prove some of them can be…",
+          "source": "The Hacker News",
+          "date": "Nov 19",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7rmcgZ7yffFsn_7SX4iQcfMhw1dgsxPFXXh6TUunbQ9VaxZh8O5-AFT2V3q0PE7Wx0rW9nLKuB73eluixYuM9N38Dvq_Gjs1nNOXVk3e71jjfhHoP7W97eeuc5AivI3CQNxIrwSaPR9IGV0f2NZ7900Ihtkdgiw1ZivTvgVrXWH2CrX2X5MZGjos6-bs/s1600/ruby.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.526,
+          "coverage": 1
+        },
+        {
+          "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
+          "link": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
+          "excerpt": "Low-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a researcher has shown, by reaching memory-corruption bugs in the engine code behind ordinary SQL. The exploits, published yesterday, are the researcher's proofs…",
+          "source": "The Hacker News",
+          "date": "Nov 19",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDE1pOkFxdtUcDqLptfhjaBnnEyzz2JfxUJICSOrW3vpcNlygN1XleKCdkv9CA3Zp901yQ884tOkPX9TmSYx5tpevenJw1CmW4oktkn2creXnB5-dvbiJB3crcILx4Kb8b6eVhiKjh-RRZTGnvWskqROJOjF3yaWFVK17fmh-tdT7WMas7MbdK-JsCBmw/s1600/database-rce.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.508,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+          "link": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research Electronic Data Capture (REDCap) to its Known Exploited Vulnerabilities (KEV)…",
+          "source": "The Hacker News",
+          "date": "Nov 19",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJc2bWATWnk5-O72K0n3cYlHuhhox3nVPELPst8c1bui3mTiwBZFUjAUSem14OyqLB6CTECCs9fc-iyng9KmY3jelZ2cqrHg4FKvP2qOZui8piIbYTZy9WdZD0NqiY4fXcLud5GYzmNEXR6DRNuQpjkFzfPvW4fIcDtwaFg4SM9xW-eG09WxFuEcmuKx7U/s1600/cisa.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 3.5,
+          "coverage": 1
+        },
         {
           "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
           "link": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
@@ -536,7 +590,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.532,
+          "score": 0.404,
           "coverage": 1
         },
         {
@@ -549,7 +603,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.305,
+          "score": 0.258,
           "coverage": 1
         },
         {
@@ -562,11 +616,9 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.302,
+          "score": 0.256,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
           "link": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
@@ -577,47 +629,8 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.022,
+          "score": 1.725,
           "coverage": 1
-        },
-        {
-          "title": "VeroSecurity Raises $11 Million for AI Security Engineering Platform",
-          "link": "https://www.securityweek.com/verosecurity-raises-11-million-for-ai-security-engineering-platform/",
-          "excerpt": "AI Security Engineering is a new and essential security discipline now being brought into focus by VeroSecurity. The post VeroSecurity Raises $11 Million for AI Security Engineering Platform appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 18",
-          "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.271,
-          "coverage": 1
-        },
-        {
-          "title": "Russian APT Poses as Employee of Hacked Firm to Breach Another US Organization",
-          "link": "https://www.securityweek.com/russian-apt-poses-as-employee-of-hacked-firm-to-breach-another-us-organization/",
-          "excerpt": "Star Blizzard weaponized data and identities stolen in late 2025 to phish and compromise a US organization. The post Russian APT Poses as Employee of Hacked Firm to Breach Another US Organization appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 18",
-          "image": "https://www.securityweek.com/wp-content/uploads/2024/09/Russian-hacking.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 1.766,
-          "coverage": 1
-        },
-        {
-          "title": "Last of Five Defendants Sentenced in US Scattered Spider Hacking Case",
-          "link": "https://www.securityweek.com/last-of-five-defendants-sentenced-in-us-scattered-spider-hacking-case/",
-          "excerpt": "British national Tyler Robert Buchanan has been sentenced to 6 years in prison in the United States, the DOJ announced. The post Last of Five Defendants Sentenced in US Scattered Spider Hacking Case appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 18",
-          "image": "https://www.securityweek.com/wp-content/uploads/2024/03/hacker-prison-sentenced.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 1.251,
-          "coverage": 2
         }
       ]
     },
@@ -634,7 +647,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 4.225,
+          "score": 3.608,
           "coverage": 1
         },
         {
@@ -647,7 +660,7 @@
           "icon": null,
           "domain": "about.gitlab.com",
           "hn": null,
-          "score": 3.092,
+          "score": 2.805,
           "coverage": 1
         },
         {
@@ -660,24 +673,11 @@
           "icon": null,
           "domain": "engineering.fb.com",
           "hn": null,
-          "score": 3.226,
+          "score": 2.755,
           "coverage": 1
         }
       ],
       "more": [
-        {
-          "title": "Sashiko: Lessons from building an agentic code review system for Linux",
-          "link": "https://cloud.google.com/blog/products/application-development/lessons-from-building-sashiko-an-agentic-code-review-system/",
-          "excerpt": "The speed of development in large open-source projects has always been limited by code review, not code generation. Even as coding agents get better at writing code, they do not accelerate development on their own. This is especially true of patches to the Linux kernel. Without a way to build…",
-          "source": "Cloud Blog",
-          "date": "Nov 18",
-          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1_sIAzTvL.max-1000x1000.png",
-          "icon": null,
-          "domain": "cloud.google.com",
-          "hn": null,
-          "score": 2.74,
-          "coverage": 1
-        },
         {
           "title": "Testing changes, fast: Introducing agentic assessments in Database Center",
           "link": "https://cloud.google.com/blog/products/databases/database-center-assessments-for-cloud-sql-for-postgresql/",
@@ -688,7 +688,20 @@
           "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.74,
+          "score": 2.34,
+          "coverage": 1
+        },
+        {
+          "title": "Sashiko: Lessons from building an agentic code review system for Linux",
+          "link": "https://cloud.google.com/blog/products/application-development/lessons-from-building-sashiko-an-agentic-code-review-system/",
+          "excerpt": "The speed of development in large open-source projects has always been limited by code review, not code generation. Even as coding agents get better at writing code, they do not accelerate development on their own. This is especially true of patches to the Linux kernel. Without a way to build…",
+          "source": "Cloud Blog",
+          "date": "Nov 18",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1_sIAzTvL.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 2.34,
           "coverage": 1
         },
         {
@@ -701,7 +714,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.903,
+          "score": 2.401,
           "coverage": 1
         },
         {
@@ -714,7 +727,7 @@
           "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.371,
+          "score": 2.025,
           "coverage": 1
         },
         {
@@ -727,7 +740,7 @@
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
           "hn": null,
-          "score": 1.414,
+          "score": 1.283,
           "coverage": 1
         }
       ]
@@ -745,7 +758,20 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 3.161,
+          "score": 2.582,
+          "coverage": 1
+        },
+        {
+          "title": "SSD prices will start going down the second half of next year",
+          "link": "https://www.drivevault.io/blog/when-will-hard-drive-prices-come-down.html",
+          "excerpt": "SSDs should ease from the second half of 2027. Hard drives are contracted into 2028. The evidence, the timeline, and what to do meanwhile.",
+          "source": "drivevault.io via Hacker News",
+          "date": "Nov 19",
+          "image": "https://images.unsplash.com/photo-1779896412126-ed004b6eb80c?auto=format&fit=crop&w=1600&q=80",
+          "icon": "https://www.drivevault.io/favicon.png",
+          "domain": "drivevault.io",
+          "hn": "60 points · 39 comments",
+          "score": 3.22,
           "coverage": 1
         },
         {
@@ -758,9 +784,11 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 0.136,
+          "score": 0.128,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Anthropic prices initial public offering",
           "link": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
@@ -771,74 +799,59 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 0.214,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "FailTrace – Reproduce a failed GitHub Actions run locally from its URL",
-          "link": "https://github.com/Ri4dH/failtrace",
-          "excerpt": "Stop guessing why CI failed. Reproduce it locally. - Ri4dH/failtrace",
-          "source": "github.com via Hacker News",
-          "date": "Nov 19",
-          "image": "https://opengraph.githubassets.com/faa2b137b0d8f8df33c5804a63a547402029ac4e33d2e639e86073ad4b27ff7a/Ri4dH/failtrace",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "20 points · 3 comments",
-          "score": 1.896,
+          "score": 0.194,
           "coverage": 1
         },
         {
-          "title": "Unreal Tournament 2004 in the Browser",
-          "link": "https://ut2004.dev/",
-          "excerpt": "Unreal Tournament 2004 in the browser, joining WebRTC servers from the web master list.",
-          "source": "ut2004.dev via Hacker News",
+          "title": "What's New in PHP 8.6",
+          "link": "https://www.php.net/releases/8.6/en.php",
+          "excerpt": "PHP 8.6 is a major update of the PHP language, with new features including Partial Function Application, a new Duration class, a Polling API, and a new clamp() function",
+          "source": "php.net via Hacker News",
           "date": "Nov 19",
-          "image": "https://assets.ut2004.dev/web/og.jpg",
-          "icon": "https://ut2004.dev/favicon.ico",
-          "domain": "ut2004.dev",
-          "hn": "99 points · 44 comments",
-          "score": 2.754,
+          "image": "https://www.php.net/images/php8/php_8_6_released.png",
+          "icon": "https://www.php.net/favicon.svg?v=2",
+          "domain": "php.net",
+          "hn": "37 points · 16 comments",
+          "score": 2.93,
           "coverage": 1
         },
         {
-          "title": "Previous-Token Prediction Based LLM Inversion for Prompt Reconstruction",
-          "link": "https://arxiv.org/abs/2607.29378",
-          "excerpt": "Large language models (LLMs) generate text by auto-regressively sampling the next token. This inherently leads to a many-to-many mapping between prompts and responses, complicating the task of inferring prompts from observed outputs. Prior work on LLM inversion frames prompt recovery as a semantic…",
-          "source": "arxiv.org via Hacker News",
+          "title": "Distributed, high-performance blob storage on SQLite",
+          "link": "https://zerodha.tech/blog/high-performance-distributed-blob-storage/",
+          "excerpt": "How we built Blobasaur, a sharded, distributed, lightweight blob storage server to solve our high-throughput blob read/write usecase.",
+          "source": "zerodha.tech via Hacker News",
           "date": "Nov 19",
-          "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-          "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png",
-          "domain": "arxiv.org",
-          "hn": "35 points · 6 comments",
-          "score": 2.157,
+          "image": "https://zerodha.tech//static/images/blobasaur-og.png",
+          "icon": "https://zerodha.tech//static/images/favicon.png",
+          "domain": "zerodha.tech",
+          "hn": "36 points · 2 comments",
+          "score": 2.572,
           "coverage": 1
         },
         {
-          "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
-          "link": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
-          "excerpt": "TLDR: we project Gemini 4 Neon’s performance based on what a faster Gemini 4 Carbon might score and find it equivalent to Opus 5.5 Gemini 4 Carbon is the best model on the Agent Duel leaderboard if you exclude early voting. Carbon’s main problem is that it is slooooow. Today, Gemini 4 Neon was…",
-          "source": "micjm.com via Hacker News",
+          "title": "15M web servers on one VM – smoltcp, DPDK, AF_XDP",
+          "link": "https://kapteko.com/15-million-webservers/",
+          "excerpt": "Kernel bypass, bringing the TCP/IP network stack to userland, all that to run one server for every human being on the planet",
+          "source": "kapteko.com via Hacker News",
           "date": "Nov 19",
-          "image": null,
-          "icon": "https://micjm.com/favicon.ico",
-          "domain": "micjm.com",
-          "hn": "192 points · 67 comments",
-          "score": 2.865,
+          "image": "https://kapteko.com/15-million-webservers/webservers-benchmark-social.png",
+          "icon": "https://kapteko.com/favicon.ico",
+          "domain": "kapteko.com",
+          "hn": "148 points · 14 comments",
+          "score": 2.84,
           "coverage": 1
         },
         {
-          "title": "We need smart people who give a shit",
-          "link": "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/",
-          "excerpt": "390 points · 202 comments",
-          "source": "violetpixel.com via Hacker News",
-          "date": "Nov 18",
-          "image": null,
-          "icon": "https://violetpixel.com/favicon.ico",
-          "domain": "violetpixel.com",
-          "hn": "390 points · 202 comments",
-          "score": 3.132,
+          "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
+          "link": "https://verialabs.com/ruby2shell/",
+          "excerpt": "Ruby2Shell (GHSA-34m4-m9fh-gqp5): a one-byte heap overflow in Ruby's string case conversion, reachable without authentication in common Ruby web frameworks and self-hosted software.",
+          "source": "verialabs.com via Hacker News",
+          "date": "Nov 19",
+          "image": "https://verialabs.com/og/ruby2shell.png",
+          "icon": "https://verialabs.com/apple-touch-icon.png",
+          "domain": "verialabs.com",
+          "hn": "115 points · 38 comments",
+          "score": 2.684,
           "coverage": 1
         }
       ]

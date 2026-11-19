@@ -2549,6 +2549,12 @@
   "icon": "https://kaplich.me/essays/email/favicon.ico",
   "image": "https://kaplich.me/essays/email/og.png"
  },
+ "https://kapteko.com/15-million-webservers/": {
+  "description": "Kernel bypass, bringing the TCP/IP network stack to userland, all that to run one server for every human being on the planet",
+  "fetched": "2026-11-19",
+  "icon": null,
+  "image": "https://kapteko.com/15-million-webservers/webservers-benchmark-social.png"
+ },
  "https://karpathy.bearblog.dev/hacker-tube/": {
   "description": "Instead of YouTube, watch HackerTube!",
   "fetched": "2026-11-01",
@@ -5261,6 +5267,12 @@
   "icon": "https://v12.sh/apple-touch-icon.png",
   "image": "https://v12.sh/static/opengraph-image.png"
  },
+ "https://verialabs.com/ruby2shell/": {
+  "description": "Ruby2Shell (GHSA-34m4-m9fh-gqp5): a one-byte heap overflow in Ruby's string case conversion, reachable without authentication in common Ruby web frameworks and self-hosted software.",
+  "fetched": "2026-11-19",
+  "icon": "https://verialabs.com/apple-touch-icon.png",
+  "image": "https://verialabs.com/og/ruby2shell.png"
+ },
  "https://vinipsmaker.github.io/blog/article/pratt-parsing-is-a-black-box/": {
   "description": "It caught my attention that most of Pratt parsing tutorials that I've stumbled on spend almost all of their time explaining Pratt's algorithm and none explaining the properties behind Pratt that actually matter.",
   "fetched": "2026-11-04",
@@ -6695,6 +6707,12 @@
   "icon": "https://www.docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-180x180.png",
   "image": "https://www.docker.com/app/uploads/2025/03/image.png"
  },
+ "https://www.drivevault.io/blog/when-will-hard-drive-prices-come-down.html": {
+  "description": "SSDs should ease from the second half of 2027. Hard drives are contracted into 2028. The evidence, the timeline, and what to do meanwhile.",
+  "fetched": "2026-11-19",
+  "icon": "https://www.drivevault.io/favicon.png",
+  "image": "https://images.unsplash.com/photo-1779896412126-ed004b6eb80c?auto=format&fit=crop&w=1600&q=80"
+ },
  "https://www.economist.com/asia/2026/10/29/a-tiny-pacific-country-rolls-out-universal-basic-income": {
   "description": null,
   "fetched": "2026-11-01",
@@ -7516,6 +7534,12 @@
   "fetched": "2026-11-19",
   "icon": "https://www.php.net/favicon.svg?v=2",
   "image": "https://www.php.net/images/meta-image.png"
+ },
+ "https://www.php.net/releases/8.6/en.php": {
+  "description": "PHP 8.6 is a major update of the PHP language, with new features including Partial Function Application, a new Duration class, a Polling API, and a new clamp() function",
+  "fetched": "2026-11-19",
+  "icon": "https://www.php.net/favicon.svg?v=2",
+  "image": "https://www.php.net/images/php8/php_8_6_released.png"
  },
  "https://www.plagiarismtoday.com/2026/10/26/ai-is-ruining-haunted-attractions/": {
   "description": "Increasingly, it feels like AI-generated content is everywhere. But while it’s often disappointing, it’s outright ruining the haunted attraction industry.",
@@ -9202,6 +9226,12 @@
   "fetched": "2026-11-03",
   "icon": "https://www.youtube.com/s/desktop/92ead095/img/favicon_32x32.png",
   "image": null
+ },
+ "https://zerodha.tech/blog/high-performance-distributed-blob-storage/": {
+  "description": "How we built Blobasaur, a sharded, distributed, lightweight blob storage server to solve our high-throughput blob read/write usecase.",
+  "fetched": "2026-11-19",
+  "icon": "https://zerodha.tech//static/images/favicon.png",
+  "image": "https://zerodha.tech//static/images/blobasaur-og.png"
  },
  "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/": {
   "description": null,
