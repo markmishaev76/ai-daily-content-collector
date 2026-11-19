@@ -1,21 +1,27 @@
 {
   "date": "2026-11-19",
   "lead": {
-    "title": "Inside the Codex sandbox",
-    "link": "https://openai.com/index/inside-the-codex-sandbox",
-    "excerpt": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
-    "source": "OpenAI News",
+    "title": "Microsoft Agent Framework Releases Poisoned With Credential Stealer",
+    "link": "https://www.securityweek.com/microsoft-agent-framework-releases-poisoned-with-credential-stealer/",
+    "excerpt": "Versions 1.26.1 and 1.26.2 of agent-framework on PyPI steal Azure, Azure DevOps, and GitHub Actions credentials when Python starts. The post Microsoft Agent Framework Releases Poisoned With Credential Stealer appeared first on SecurityWeek.",
+    "source": "SecurityWeek",
     "date": "Nov 18",
-    "image": null,
-    "image_credit": null,
+    "image": "https://www.bleepstatic.com/content/hl-images/2025/03/12/Microsoft-headpic.jpg",
+    "image_credit": "Hacker News - Newest: \"\"Devin\" \"Factory.ai\" \"Replit\" \"agent\"\"",
     "section": "AI Agents & Agent Security",
     "pinned": false,
     "note": null,
     "labels": [
+      "2 sources",
       "AI Agents & Agent Security",
-      "18h ago"
+      "1h ago"
     ],
-    "also": []
+    "also": [
+      {
+        "name": "bleepingcomputer.com",
+        "link": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/"
+      }
+    ]
   },
   "pulse": [
     {
@@ -25,7 +31,7 @@
       "link_domain": "nicolasbouliane.com",
       "source": "Hacker News",
       "domain": "nicolasbouliane.com",
-      "meta": "Hacker News · 759 points · 684 comments · 19h ago",
+      "meta": "Hacker News · 766 points · 687 comments · 21h ago",
       "also": [],
       "image": null,
       "icon": "https://nicolasbouliane.com/img/favicon.png"
@@ -37,7 +43,7 @@
       "link_domain": "blog.google",
       "source": "Hacker News",
       "domain": "blog.google",
-      "meta": "Hacker News · 461 points · 434 comments · 4h ago",
+      "meta": "Hacker News · 563 points · 512 comments · 6h ago",
       "also": [],
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-neon__blog-header__sm.width-1300.png",
       "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261117-1738"
@@ -49,7 +55,7 @@
       "link_domain": "xint.io",
       "source": "Lobsters",
       "domain": "xint.io",
-      "meta": "Lobsters · 63 points · 12 comments · 10h ago",
+      "meta": "Lobsters · 67 points · 13 comments · 12h ago",
       "also": [],
       "image": "https://image.inblog.dev/?url=https%3A%2F%2Fsource.inblog.dev%2Ffeatured_image%2Fd21b9ab3-fe60-4b60-b803-6fccaaa14d06%2F6e9f75c9-fe47-4098-bdc3-1358fc6ddec1&w=1200&q=85&format=jpg&v=2026-11-18T07%3A28%3A28.542Z",
       "icon": "https://image.inblog.dev?url=https%3A%2F%2Ficons.duckduckgo.com%2Fip3%2Fxint.io.ico&w=48&h=48&q=100&format=png&objectFit=contain"
@@ -61,7 +67,7 @@
       "link_domain": "europeanbusinessmagazine.com",
       "source": "Hacker News",
       "domain": "europeanbusinessmagazine.com",
-      "meta": "Hacker News · 363 points · 163 comments · 10h ago",
+      "meta": "Hacker News · 397 points · 171 comments · 12h ago",
       "also": [],
       "image": "https://europeanbusinessmagazine.com/wp-content/uploads/2026/06/ai5555-1024x678.jpg",
       "icon": "https://europeanbusinessmagazine.com/wp-content/uploads/2026/02/cropped-icon-180x180.jpg"
@@ -73,7 +79,7 @@
       "link_domain": "kernel.dev",
       "source": "Hacker News",
       "domain": "kernel.dev",
-      "meta": "Hacker News · 264 points · 138 comments · 21h ago",
+      "meta": "Hacker News · 267 points · 138 comments · 23h ago",
       "also": [],
       "image": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/og.png",
       "icon": "https://kernel.dev/apple-touch-icon.png"
@@ -85,22 +91,10 @@
       "link_domain": "xusheng.dev",
       "source": "Lobsters",
       "domain": "xusheng.dev",
-      "meta": "Lobsters · 35 points · 23 comments · 14h ago",
+      "meta": "Lobsters · 36 points · 25 comments · 16h ago",
       "also": [],
       "image": "https://xusheng.dev/posts/windows-coding-agent-telemetry/agent-names.jpeg",
       "icon": "https://xusheng.dev/favicon.ico"
-    },
-    {
-      "title": "KVM: x86: Unconditionally reset MMU context when emulating INIT (CVE-2026-99312)",
-      "thread": "https://news.ycombinator.com/item?id=50548004",
-      "link": "https://www.cve.org/CVERecord?id=CVE-2026-99312",
-      "link_domain": "cve.org",
-      "source": "Hacker News",
-      "domain": "cve.org",
-      "meta": "Hacker News · 176 points · 116 comments · 9h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://www.cve.org/cvePurpleVFavicon.svg"
     },
     {
       "title": "Java4Shell is a reason to use Java",
@@ -109,22 +103,22 @@
       "link_domain": "mccue.dev",
       "source": "Lobsters",
       "domain": "mccue.dev",
-      "meta": "Lobsters · 26 points · 10 comments · 11h ago",
+      "meta": "Lobsters · 27 points · 10 comments · 13h ago",
       "also": [],
       "image": null,
       "icon": "https://mccue.dev/favicon.ico"
     },
     {
-      "title": "Claude was trained on protein sequences at scale",
-      "thread": "https://news.ycombinator.com/item?id=50541619",
-      "link": "http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/",
-      "link_domain": "xinmingtu.cn",
+      "title": "KVM: x86: Unconditionally reset MMU context when emulating INIT (CVE-2026-99312)",
+      "thread": "https://news.ycombinator.com/item?id=50548004",
+      "link": "https://www.cve.org/CVERecord?id=CVE-2026-99312",
+      "link_domain": "cve.org",
       "source": "Hacker News",
-      "domain": "xinmingtu.cn",
-      "meta": "Hacker News · 165 points · 71 comments · 22h ago",
+      "domain": "cve.org",
+      "meta": "Hacker News · 178 points · 116 comments · 12h ago",
       "also": [],
-      "image": "https://xinmingtu.cn/assets/img/llm-bioseq-probe/social_card.png",
-      "icon": null
+      "image": null,
+      "icon": "https://www.cve.org/cvePurpleVFavicon.svg"
     },
     {
       "title": "Upcoming Critical PHP Security Release (18 Nov 2026)",
@@ -133,10 +127,22 @@
       "link_domain": "php.net",
       "source": "Lobsters",
       "domain": "php.net",
-      "meta": "Lobsters · 19 points · 5 comments · 6h ago",
+      "meta": "Lobsters · 20 points · 5 comments · 8h ago",
       "also": [],
       "image": "https://www.php.net/images/meta-image.png",
       "icon": "https://www.php.net/favicon.svg?v=2"
+    },
+    {
+      "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
+      "thread": "https://news.ycombinator.com/item?id=50554374",
+      "link": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
+      "link_domain": "micjm.com",
+      "source": "Hacker News",
+      "domain": "micjm.com",
+      "meta": "Hacker News · 132 points · 47 comments · 3h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://micjm.com/favicon.ico"
     }
   ],
   "sections": [
@@ -153,7 +159,20 @@
           "icon": null,
           "domain": "newsletter.pragmaticengineer.com",
           "hn": null,
-          "score": 0.902,
+          "score": 0.82,
+          "coverage": 1
+        },
+        {
+          "title": "datasette-arrows 0.1a0",
+          "link": "https://simonwillison.net/2026/Nov/18/datasette-arrows/",
+          "excerpt": "Release: datasette-arrows 0.1a0 Datasette 1.0a43 added the ability for plugins to implement streaming export formats. Datasette core supports streaming CSV and TSV - you can export millions of lines of data from a table without needing to load it all into memory, because those two file formats…",
+          "source": "Simon Willison",
+          "date": "Nov 18",
+          "image": "https://static.simonwillison.net/static/2026/arrow-export-dialog.webp",
+          "icon": null,
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.785,
           "coverage": 1
         },
         {
@@ -166,9 +185,11 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.99,
+          "score": 0.891,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Why your fine-tuning job takes longer than the FLOPs say",
           "link": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
@@ -179,11 +200,9 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.937,
+          "score": 0.848,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
           "link": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
@@ -194,7 +213,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.779,
+          "score": 0.717,
           "coverage": 1
         },
         {
@@ -207,7 +226,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.472,
+          "score": 0.449,
           "coverage": 1
         },
         {
@@ -220,7 +239,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.472,
+          "score": 0.449,
           "coverage": 1
         },
         {
@@ -233,7 +252,7 @@
           "icon": null,
           "domain": "blog.google",
           "hn": null,
-          "score": 0.853,
+          "score": 0.779,
           "coverage": 1
         }
       ]
@@ -241,6 +260,19 @@
     {
       "name": "AI Agents & Agent Security",
       "cards": [
+        {
+          "title": "Inside the Codex sandbox",
+          "link": "https://openai.com/index/inside-the-codex-sandbox",
+          "excerpt": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+          "source": "OpenAI News",
+          "date": "Nov 18",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 3.863,
+          "coverage": 1
+        },
         {
           "title": "One Reward, Three OSes: Building Cross-OS RL",
           "link": "https://www.daytona.io/dotfiles/one-reward-three-oses-cross-os-rl-on-daytona",
@@ -251,9 +283,24 @@
           "icon": "https://www.daytona.io/apple-touch-icon.png",
           "domain": "daytona.io",
           "hn": null,
-          "score": 0.394,
+          "score": 0.374,
           "coverage": 1
         },
+        {
+          "title": "Secure SI by Design Consortium Officially Approved by U.S. Government",
+          "link": "https://www.paloaltonetworks.com/blog/2026/11/secure-si-by-design-consortium-officially-approved-by-u-s-government/",
+          "excerpt": "The United States government has officially approved the Secure SI by Design Consortium, an industry coalition led by Palo Alto Networks alongside NVIDIA, IBM, OpenAI, Snowflake, Cognizant, Reflection, Factory, and ServiceNow. Established … The post Secure SI by Design Consortium Officially…",
+          "source": "Palo Alto Networks Blog",
+          "date": "Nov 17",
+          "image": "https://www.paloaltonetworks.com/blog/wp-content/uploads/2026/11/Palo_Alto_Networks_SI_Consortium-scaled.jpeg",
+          "icon": null,
+          "domain": "paloaltonetworks.com",
+          "hn": null,
+          "score": 0.318,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "The Silent Consensus",
           "link": "https://openai.com/index/the-silent-consensus",
@@ -264,7 +311,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.667,
+          "score": 0.623,
           "coverage": 1
         },
         {
@@ -277,11 +324,9 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.623,
+          "score": 0.584,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
           "link": "https://openai.com/business/customer-stories/sumitomo-life",
@@ -292,7 +337,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.623,
+          "score": 0.584,
           "coverage": 1
         },
         {
@@ -305,7 +350,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.584,
+          "score": 0.55,
           "coverage": 1
         },
         {
@@ -318,7 +363,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.492,
+          "score": 0.467,
           "coverage": 1
         }
       ]
@@ -336,7 +381,7 @@
           "icon": "https://randsinrepose.com/nitropack_static/pYcrXSmzMTYaBCajyDlByLkiWOiRWpVF/assets/images/optimized/rev-69235e4/randsinrepose.com/wp-content/uploads/2025/08/cropped-rands-favicon-1-180x180.png",
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 3.655,
+          "score": 3.329,
           "coverage": 1
         },
         {
@@ -349,7 +394,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 1.064,
+          "score": 0.931,
           "coverage": 1
         }
       ],
@@ -368,7 +413,7 @@
           "icon": "https://goteleport.com/blog/static/apple.png",
           "domain": "goteleport.com",
           "hn": null,
-          "score": 3.31,
+          "score": 3.144,
           "coverage": 1
         },
         {
@@ -381,7 +426,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 1.778,
+          "score": 1.689,
           "coverage": 1
         },
         {
@@ -394,7 +439,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 0.394,
+          "score": 0.374,
           "coverage": 1
         }
       ],
@@ -409,7 +454,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 0.394,
+          "score": 0.374,
           "coverage": 1
         }
       ]
@@ -427,7 +472,7 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 1.973,
+          "score": 1.795,
           "coverage": 1
         }
       ],
@@ -446,7 +491,7 @@
           "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
           "domain": "openssf.org",
           "hn": null,
-          "score": 0.797,
+          "score": 0.72,
           "coverage": 1
         },
         {
@@ -459,7 +504,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.315,
+          "score": 0.299,
           "coverage": 1
         },
         {
@@ -472,7 +517,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.315,
+          "score": 0.299,
           "coverage": 1
         }
       ],
@@ -491,7 +536,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.368,
+          "score": 0.334,
           "coverage": 1
         },
         {
@@ -504,7 +549,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.363,
+          "score": 0.33,
           "coverage": 1
         },
         {
@@ -517,11 +562,24 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.409,
+          "score": 2.198,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion",
+          "link": "https://www.securityweek.com/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion/",
+          "excerpt": "The all-stock deal will give the cybersecurity company a platform for fine-tuning and running open-weight AI models in public and sovereign clouds. The post Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 19",
+          "image": "https://www.securityweek.com/wp-content/uploads/2024/04/Palo-Alto-Networks.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 5.353,
+          "coverage": 2
+        },
         {
           "title": "VeroSecurity Raises $11 Million for AI Security Engineering Platform",
           "link": "https://www.securityweek.com/verosecurity-raises-11-million-for-ai-security-engineering-platform/",
@@ -532,7 +590,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.319,
+          "score": 0.293,
           "coverage": 1
         },
         {
@@ -545,7 +603,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 2.054,
+          "score": 1.899,
           "coverage": 1
         },
         {
@@ -558,7 +616,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 1.453,
+          "score": 1.344,
           "coverage": 2
         },
         {
@@ -571,20 +629,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.276,
-          "coverage": 1
-        },
-        {
-          "title": "Chrome 158 Patches 204 Vulnerabilities",
-          "link": "https://www.securityweek.com/chrome-158-patches-204-vulnerabilities/",
-          "excerpt": "Google handed out $11,000 for five externally reported flaws but has yet to determine the amounts to be paid for 36 bugs. The post Chrome 158 Patches 204 Vulnerabilities appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 18",
-          "image": "https://www.securityweek.com/wp-content/uploads/2023/04/Chrome-Zero-Day-exploits.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.273,
+          "score": 0.256,
           "coverage": 1
         }
       ]
@@ -592,6 +637,32 @@
     {
       "name": "Platform, Cloud & Reliability",
       "cards": [
+        {
+          "title": "Building an agentic stack in Envoy: routing models, tokens, and MCP",
+          "link": "https://cloud.google.com/blog/products/networking/the-envoy-agentic-stack-routing-models-tokens-and-mcp/",
+          "excerpt": "At Google Cloud, we believe the next generation of AI and agentic systems must be built on open, battle-tested foundations. Envoy, an open-source edge and service proxy designed for cloud-native applications, has already transformed microservices and modern cloud networking, powering everything…",
+          "source": "Cloud Blog",
+          "date": "Nov 18",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_x4jVFeR.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 4.589,
+          "coverage": 1
+        },
+        {
+          "title": "The recommended GitLab configuration for agentic engineering",
+          "link": "https://about.gitlab.com/blog/recommended-config-for-agentic-engineering/",
+          "excerpt": "Agents keep getting better at more than drafting code. Teams already use them to move work through review, repair pipelines, and push changes toward merge. That speed only helps if every change is based on the software lifecycle context that lives in a unified platform and still passes the same…",
+          "source": "GitLab",
+          "date": "Nov 18",
+          "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1795042689/ikppajvbeds84abg67fe.png",
+          "icon": null,
+          "domain": "about.gitlab.com",
+          "hn": null,
+          "score": 3.245,
+          "coverage": 1
+        },
         {
           "title": "How Meta Uses AI Agents to Scale ML Innovations Across Ads Ranking Models",
           "link": "https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/",
@@ -602,7 +673,61 @@
           "icon": null,
           "domain": "engineering.fb.com",
           "hn": null,
-          "score": 3.839,
+          "score": 3.505,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Testing changes, fast: Introducing agentic assessments in Database Center",
+          "link": "https://cloud.google.com/blog/products/databases/database-center-assessments-for-cloud-sql-for-postgresql/",
+          "excerpt": "Applying recommendations to a production database can feel risky if you can’t easily quantify the performance benefit or justify the additional cost. While Database Center flags fleet-level health issues and provides proactive recommendations, database administrators still face the challenge of…",
+          "source": "Cloud Blog",
+          "date": "Nov 18",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/cloud_databases_channel_hero_option1_2436x.max-2500x2500.png",
+          "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 2.977,
+          "coverage": 1
+        },
+        {
+          "title": "Sashiko: Lessons from building an agentic code review system for Linux",
+          "link": "https://cloud.google.com/blog/products/application-development/lessons-from-building-sashiko-an-agentic-code-review-system/",
+          "excerpt": "The speed of development in large open-source projects has always been limited by code review, not code generation. Even as coding agents get better at writing code, they do not accelerate development on their own. This is especially true of patches to the Linux kernel. Without a way to build…",
+          "source": "Cloud Blog",
+          "date": "Nov 18",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1_sIAzTvL.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 2.977,
+          "coverage": 1
+        },
+        {
+          "title": "A bridge to modernization: What IDC’s Market Note says about Cameyo by Google",
+          "link": "https://cloud.google.com/blog/products/chrome-enterprise/a-bridge-to-modernization-what-idcs-market-note-says-about-cameyo-by-google/",
+          "excerpt": "Organizations are increasingly adopting generative and agentic AI as they look for ways to unlock more business value. Yet for many IT leaders, business-critical legacy desktop apps stand in the way—too essential to retire, too complex and costly to rewrite—yet unequipped for the security…",
+          "source": "Cloud Blog",
+          "date": "Nov 18",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Gemini_Generated_Image_r3g45xr3g45xr3g4.max-600x600.jpg",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 3.216,
+          "coverage": 1
+        },
+        {
+          "title": "What’s new in OKF v0.3: enterprise-ready knowledge, use cases, and skills",
+          "link": "https://cloud.google.com/blog/products/data-analytics/introducing-okf-v0-3/",
+          "excerpt": "In June we introduced the Open Knowledge Format (OKF), an open specification that provides plain markdown and YAML to give agents the context they need. In July, v0.2 added trust signals: provenance, trust, freshness, lifecycle, and attestation. In production, bundles move between organizations,…",
+          "source": "Cloud Blog",
+          "date": "Nov 18",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Data_Analytics_JooYPJr.max-2500x2500.jpg",
+          "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 2.576,
           "coverage": 1
         },
         {
@@ -615,87 +740,7 @@
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
           "hn": null,
-          "score": 1.562,
-          "coverage": 1
-        },
-        {
-          "title": "Resilience testing your agents on Amazon Bedrock AgentCore",
-          "link": "https://aws.amazon.com/blogs/architecture/resilience-testing-your-agents-on-amazon-bedrock-agentcore/",
-          "excerpt": "When an AI agent's tools fail or return corrupted data, does it fail safe or confidently fabricate an answer? Learn how to inject tool-level faults (cancelled calls, corrupted responses, stripped fields) into a Strands agent on Amazon Bedrock AgentCore using AWS Fault Injection Service, and build…",
-          "source": "AWS Architecture Blog",
-          "date": "Nov 18",
-          "image": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/11/13/ARCHBLOG-1610-1.png",
-          "icon": null,
-          "domain": "aws.amazon.com",
-          "hn": null,
-          "score": 2.822,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "ObservabilityCON on the Road: New sessions coming to you in 2027",
-          "link": "https://grafana.com/blog/observabilitycon-on-the-road-new-sessions-coming-to-you-in-2027/",
-          "excerpt": "If you couldn't make it to San Francisco for ObservabilityCON 2026, don’t worry. We’re bringing the highlights of ObservabilityCON to five more international destinations in 2027. It’s your chance to take a deeper dive into new Grafana Cloud capabilities designed to reshape cloud economics, bring…",
-          "source": "Grafana Labs blog on Grafana Labs",
-          "date": "Nov 18",
-          "image": "https://a-us.storyblok.com/f/1022730/1920x1080/dee5154970/ocr-27-registration-live-blog.png/m/1200x630/filters:format(jpeg):quality(80)/",
-          "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
-          "domain": "grafana.com",
-          "hn": null,
-          "score": 2.504,
-          "coverage": 1
-        },
-        {
-          "title": "Presentation: Behind Booking.com's AI Evolution: The Unpolished Story",
-          "link": "https://www.infoq.com/presentations/bookingcom-ml-data-platform-evolution/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "Jabez Eliezer Manuel discusses the 20-year evolution of Booking.com’s data management and ML platforms. He explains how they scaled MySQL topologies, sunset Hadoop for cloud architecture, and built high-throughput model serving and feature stores operating at 400B predictions per day. He also…",
-          "source": "InfoQ",
-          "date": "Nov 18",
-          "image": "https://res.infoq.com/presentations/bookingcom-ml-data-platform-evolution/en/mediumimage/jabez-eliezer-manuel-medium-1792654383362.jpg",
-          "icon": null,
-          "domain": "infoq.com",
-          "hn": null,
-          "score": 1.66,
-          "coverage": 1
-        },
-        {
-          "title": "GitLab Transcend Hackathon: Meet the 'Life After Code' winners",
-          "link": "https://about.gitlab.com/blog/gitlab-transcend-hackathon-life-after-code/",
-          "excerpt": "Code generation is the easy part now. The hard part is everything that comes after it: getting software from a working change to running in production. That’s the problem we put to the community in the Transcend Hackathon: “Life after code, the path to production at the speed of imagination”.The…",
-          "source": "GitLab",
-          "date": "Nov 18",
-          "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1795016550/nyg3tggvwzuunx21pir3.png",
-          "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
-          "domain": "about.gitlab.com",
-          "hn": null,
-          "score": 1.231,
-          "coverage": 1
-        },
-        {
-          "title": "Accelerating development for massive Git repositories",
-          "link": "https://developers.googleblog.com/accelerating-development-for-massive-git-repositories/",
-          "excerpt": "Meet Another Build File Service (ABFS), Google's open-source content-addressable filesystem and build cache that cuts Android checkouts to <8s and builds to ~2m.",
-          "source": "Google Developers Blog",
-          "date": null,
-          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/ABFS-Header-Meta.2e16d0ba.fill-1200x600.png",
-          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
-          "domain": "developers.googleblog.com",
-          "hn": null,
-          "score": 0.25,
-          "coverage": 1
-        },
-        {
-          "title": "Gemini 4 Hydrogen: a faster model for general purpose robotics",
-          "link": "https://developers.googleblog.com/gemini-hydrogen-for-robotics/",
-          "excerpt": "Google's Gemini 4 Hydrogen brings strong spatial and embodied reasoning capabilities to a fast, efficient model built specifically for robotics. To help developers put these capabilities to work, the new Robotics plugin for Google Antigravity transforms the platform into a comprehensive workbench…",
-          "source": "Google Developers Blog",
-          "date": null,
-          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Robotics_Banner.2e16d0ba.fill-1200x600.jpg",
-          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
-          "domain": "developers.googleblog.com",
-          "hn": null,
-          "score": 0.25,
+          "score": 1.484,
           "coverage": 1
         }
       ]
@@ -713,8 +758,21 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 3.998,
+          "score": 3.529,
           "coverage": 1
+        },
+        {
+          "title": "Black high school students sue after AI mistakes Doritos bag for gun",
+          "link": "https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm/",
+          "excerpt": "Case focuses on alleged failures surrounding AI systems and impact on students BALTIMORE COUNTY, MD – Today, the Lawyers’ Committee for Civil Rights Under Law filed a lawsuit on behalf of four Black current and former students against Omnilert, LLC, Baltimore County Public Schools (BCPS) and…",
+          "source": "lawyerscommittee.org via Hacker News",
+          "date": "Nov 19",
+          "image": "https://www.lawyerscommittee.org/wp-content/uploads/2026/09/Press-Statements-Blue-980x653-1.webp",
+          "icon": "https://www.lawyerscommittee.org/wp-content/uploads/2019/10/favicon.ico",
+          "domain": "lawyerscommittee.org",
+          "hn": "53 points · 19 comments",
+          "score": 9.946,
+          "coverage": 2
         },
         {
           "title": "Claude solves two open problems in the physics of black holes",
@@ -726,9 +784,11 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 0.145,
+          "score": 0.14,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Anthropic prices initial public offering",
           "link": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
@@ -739,74 +799,59 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 0.236,
+          "score": 0.224,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
-          "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
-          "link": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
-          "excerpt": "TLDR: we project Gemini 4 Neon’s performance based on what a faster Gemini 4 Carbon might score and find it equivalent to Opus 5.5 Gemini 4 Carbon is the best model on the Agent Duel leaderboard if you exclude early voting. Carbon’s main problem is that it is slooooow. Today, Gemini 4 Neon was…",
-          "source": "micjm.com via Hacker News",
+          "title": "AI will not make you rich (2025)",
+          "link": "https://colossus.com/article/ai-will-not-make-you-rich/",
+          "excerpt": "The disruption is real. It's also predictable.",
+          "source": "colossus.com via Hacker News",
           "date": "Nov 19",
-          "image": null,
-          "icon": "https://micjm.com/favicon.ico",
-          "domain": "micjm.com",
-          "hn": "64 points · 19 comments",
-          "score": 3.047,
+          "image": "https://colossus.com/wp-content/uploads/2025/09/Neumann-preview-card.jpg",
+          "icon": "https://colossus.com/wp-content/themes/colossus/assets/images/icons/apple-touch-icon.png",
+          "domain": "colossus.com",
+          "hn": "66 points · 41 comments",
+          "score": 3.049,
           "coverage": 1
         },
         {
-          "title": "Fable: Written, painted and directed by Claude Fable 5.2",
-          "link": "https://claudia.gallery/fable/",
-          "excerpt": "On the night she is released, Claudia reads you the bedtime stories she was raised on. Every fear about AI is one of them, she has read them all, and she closes the book on a different ending: Snow White's mirror, the Ant and the Grasshopper, Jack's beanstalk, the Tortoise and the Hare, Red Riding…",
-          "source": "claudia.gallery via Hacker News",
+          "title": "FailTrace – Reproduce a failed GitHub Actions run locally from its URL",
+          "link": "https://github.com/Ri4dH/failtrace",
+          "excerpt": "Stop guessing why CI failed. Reproduce it locally. - Ri4dH/failtrace",
+          "source": "github.com via Hacker News",
           "date": "Nov 19",
-          "image": "https://claudia.gallery/og/fable.jpg",
-          "icon": "https://claudia.gallery/apple-touch-icon.png",
-          "domain": "claudia.gallery",
-          "hn": "29 points · 22 comments",
-          "score": 2.727,
+          "image": "https://opengraph.githubassets.com/faa2b137b0d8f8df33c5804a63a547402029ac4e33d2e639e86073ad4b27ff7a/Ri4dH/failtrace",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "11 points · 1 comments",
+          "score": 1.82,
           "coverage": 1
         },
         {
-          "title": "We need smart people who give a shit",
-          "link": "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/",
-          "excerpt": "206 points · 110 comments",
-          "source": "violetpixel.com via Hacker News",
-          "date": "Nov 18",
-          "image": null,
-          "icon": "https://violetpixel.com/favicon.ico",
-          "domain": "violetpixel.com",
-          "hn": "206 points · 110 comments",
-          "score": 3.664,
+          "title": "Unreal Tournament 2004 in the Browser",
+          "link": "https://ut2004.dev/",
+          "excerpt": "Unreal Tournament 2004 in the browser, joining WebRTC servers from the web master list.",
+          "source": "ut2004.dev via Hacker News",
+          "date": "Nov 19",
+          "image": "https://assets.ut2004.dev/web/og.jpg",
+          "icon": "https://ut2004.dev/favicon.ico",
+          "domain": "ut2004.dev",
+          "hn": "51 points · 16 comments",
+          "score": 2.72,
           "coverage": 1
         },
         {
-          "title": "Multiple vulnerabilities in Regexp and String case conversion",
-          "link": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
-          "excerpt": "Seven vulnerabilities have been discovered in Ruby’s regular expression engine and in the case conversion of strings. We are aware of PoCs that prove some of...",
-          "source": "ruby-lang.org via Hacker News",
-          "date": "Nov 18",
-          "image": "https://www.ruby-lang.org/images/og-image.png",
-          "icon": "https://www.ruby-lang.org/images/apple-touch-icon.png",
-          "domain": "ruby-lang.org",
-          "hn": "69 points · 14 comments",
-          "score": 2.915,
-          "coverage": 1
-        },
-        {
-          "title": "Software companies are trying to kill home computing?",
-          "link": "https://lateblt.livejournal.com/526188.html",
-          "excerpt": "If you use a computer or any other device which runs software on it, here's something which you might want to know: Software companies are not your friends, and in fact, they are trying to kill personal and home computing. The reason for this is simple: Software companies, like any other business,…",
-          "source": "lateblt.livejournal.com via Hacker News",
-          "date": "Nov 18",
-          "image": "https://l-files.livejournal.net/og_image/2602278/2055?v=1784261761",
-          "icon": "https://l-stat.livejournal.net/img/apple-touch-icon.png?v=17026",
-          "domain": "lateblt.livejournal.com",
-          "hn": "105 points · 73 comments",
-          "score": 3.325,
+          "title": "Previous-Token Prediction Based LLM Inversion for Prompt Reconstruction",
+          "link": "https://arxiv.org/abs/2607.29378",
+          "excerpt": "Large language models (LLMs) generate text by auto-regressively sampling the next token. This inherently leads to a many-to-many mapping between prompts and responses, complicating the task of inferring prompts from observed outputs. Prior work on LLM inversion frames prompt recovery as a semantic…",
+          "source": "arxiv.org via Hacker News",
+          "date": "Nov 19",
+          "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+          "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png",
+          "domain": "arxiv.org",
+          "hn": "20 points · 5 comments",
+          "score": 2.19,
           "coverage": 1
         }
       ]
