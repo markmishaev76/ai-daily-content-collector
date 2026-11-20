@@ -1,21 +1,39 @@
 {
   "date": "2026-11-20",
   "lead": {
-    "title": "The Fireworks AI Breach: How One Vendor Key Became a Supply Chain Attack on Cursor",
-    "link": "https://blog.gitguardian.com/fireworks-ai-breach-cursor-credentials/",
-    "excerpt": "A breach at Fireworks AI exposed a read-only key Cursor had issued to it. The attacker used it to copy agent traces, found more credentials inside, and planted trojanized Claude Code builds in Cursor’s marketplace cache. Here’s how the credential chain worked, and what AppSec should change.",
-    "source": "GitGuardian",
-    "date": "Nov 19",
-    "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/11/fireworks-ai-breach-thumbnail-v2.png",
+    "title": "UK government forced to disclose secret Apple backdoor order",
+    "link": "https://techcrunch.com/2026/11/19/u-k-government-forced-to-disclose-secret-apple-backdoor-order/",
+    "excerpt": "The U.K. tribunal's ruling rejected London's claim that disclosing the order would be damaging to national security.",
+    "source": "techcrunch.com via Hacker News",
+    "date": "Nov 20",
+    "image": "https://techcrunch.com/wp-content/uploads/2021/08/icloud-pattern-with-key-red.jpg?resize=1200,675",
     "image_credit": null,
     "section": "Secrets & NHI",
     "pinned": false,
     "note": null,
     "labels": [
+      "5 sources",
       "Secrets & NHI",
-      "9h ago"
+      "5h ago"
     ],
-    "also": []
+    "also": [
+      {
+        "name": "macrumors.com",
+        "link": "https://www.macrumors.com/2026/11/19/uk-loses-secrecy-fight-over-apple-backdoor-order/"
+      },
+      {
+        "name": "privacyinternational.org",
+        "link": "https://privacyinternational.org/news-analysis/5896/win-tribunal-orders-uk-government-come-clean-about-secret-order-apple/"
+      },
+      {
+        "name": "macanorak.com",
+        "link": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/"
+      },
+      {
+        "name": "ft.com",
+        "link": "https://www.ft.com/content/46a5cf3c-a827-477f-b72f-e7415565e729"
+      }
+    ]
   },
   "pulse": [
     {
@@ -25,7 +43,7 @@
       "link_domain": "reuters.com",
       "source": "Hacker News",
       "domain": "reuters.com",
-      "meta": "Hacker News · 994 points · 1.9k comments · 11h ago",
+      "meta": "Hacker News · 1k points · 2k comments · 13h ago",
       "also": [],
       "image": null,
       "icon": "https://www.reuters.com/favicon.ico"
@@ -37,7 +55,7 @@
       "link_domain": "ounapuu.ee",
       "source": "Hacker News",
       "domain": "ounapuu.ee",
-      "meta": "Hacker News · 495 points · 204 comments · 11h ago",
+      "meta": "Hacker News · 514 points · 206 comments · 13h ago",
       "also": [],
       "image": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/media/cover_hu_5a6285e4518135fc.jpg",
       "icon": "https://ounapuu.ee/apple-touch-icon.png"
@@ -49,27 +67,10 @@
       "link_domain": "anthropic.com",
       "source": "Hacker News",
       "domain": "anthropic.com",
-      "meta": "Hacker News · 429 points · 194 comments · 10h ago",
+      "meta": "Hacker News · 453 points · 215 comments · 12h ago",
       "also": [],
       "image": "https://assets.claude.com/57a443b51d13727573b7c1290130d09c5f434b2c.jpg",
       "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png"
-    },
-    {
-      "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
-      "thread": "https://news.ycombinator.com/item?id=50556287",
-      "link": "https://verialabs.com/ruby2shell/",
-      "link_domain": "verialabs.com",
-      "source": "Hacker News",
-      "domain": "verialabs.com",
-      "meta": "Hacker News · 389 points · 166 comments · 22h ago",
-      "also": [
-        {
-          "source": "Lobsters",
-          "thread": "https://lobste.rs/s/usdf7t/ruby2shell_ghsa_34m4_m9fh_gqp5"
-        }
-      ],
-      "image": "https://verialabs.com/og/ruby2shell.png",
-      "icon": "https://verialabs.com/apple-touch-icon.png"
     },
     {
       "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
@@ -78,22 +79,10 @@
       "link_domain": "git-aarvin.github.io",
       "source": "Hacker News",
       "domain": "git-aarvin.github.io",
-      "meta": "Hacker News · 241 points · 145 comments · 4h ago",
+      "meta": "Hacker News · 329 points · 192 comments · 6h ago",
       "also": [],
       "image": "https://git-aarvin.github.io/mei/scatter/cost.png",
       "icon": "https://git-aarvin.github.io/favicon.ico"
-    },
-    {
-      "title": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
-      "thread": "https://news.ycombinator.com/item?id=50561508",
-      "link": "https://thedataexchange.media/pete-warden-moonshine/",
-      "link_domain": "thedataexchange.media",
-      "source": "Hacker News",
-      "domain": "thedataexchange.media",
-      "meta": "Hacker News · 220 points · 198 comments · 12h ago",
-      "also": [],
-      "image": "https://thedataexchange.media/wp-content/uploads/2026/11/pete-warden-local-ai.001.jpeg",
-      "icon": "https://i0.wp.com/thedataexchange.media/wp-content/uploads/2022/08/cropped-logo-DE.jpg?fit=180%2C180&ssl=1"
     },
     {
       "title": "Design for Understandability",
@@ -102,10 +91,22 @@
       "link_domain": "jschuster.org",
       "source": "Lobsters",
       "domain": "jschuster.org",
-      "meta": "Lobsters · 32 points · 20 comments · 14h ago",
+      "meta": "Lobsters · 34 points · 20 comments · 16h ago",
       "also": [],
       "image": "https://jschuster.org/blog/wp-content/uploads/2026/10/page_6.png",
       "icon": "https://jschuster.org/favicon.ico"
+    },
+    {
+      "title": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
+      "thread": "https://news.ycombinator.com/item?id=50561508",
+      "link": "https://thedataexchange.media/pete-warden-moonshine/",
+      "link_domain": "thedataexchange.media",
+      "source": "Hacker News",
+      "domain": "thedataexchange.media",
+      "meta": "Hacker News · 226 points · 209 comments · 14h ago",
+      "also": [],
+      "image": "https://thedataexchange.media/wp-content/uploads/2026/11/pete-warden-local-ai.001.jpeg",
+      "icon": "https://i0.wp.com/thedataexchange.media/wp-content/uploads/2022/08/cropped-logo-DE.jpg?fit=180%2C180&ssl=1"
     },
     {
       "title": "Show HN: Cornhole News – A Hacker News inspired site for news across the Midwest",
@@ -114,22 +115,34 @@
       "link_domain": "cornholenews.news",
       "source": "Hacker News",
       "domain": "cornholenews.news",
-      "meta": "Hacker News · 200 points · 94 comments · 12h ago",
+      "meta": "Hacker News · 207 points · 96 comments · 14h ago",
       "also": [],
       "image": "https://cornholenews.news/opengraph-image",
       "icon": "https://cornholenews.news/apple-icon.png?apple-icon.27haiq0vymcyy.png"
     },
     {
-      "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
-      "thread": "https://news.ycombinator.com/item?id=50568082",
-      "link": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87",
-      "link_domain": "wsj.com",
-      "source": "Hacker News",
-      "domain": "wsj.com",
-      "meta": "Hacker News · 133 points · 38 comments · 4h ago",
+      "title": "Ruby2Shell (GHSA-34m4-m9fh-gqp5)",
+      "thread": "https://lobste.rs/s/usdf7t/ruby2shell_ghsa_34m4_m9fh_gqp5",
+      "link": "https://verialabs.com/ruby2shell/",
+      "link_domain": "verialabs.com",
+      "source": "Lobsters",
+      "domain": "verialabs.com",
+      "meta": "Lobsters · 25 points · 6 comments · 19h ago",
       "also": [],
-      "image": null,
-      "icon": "https://www.wsj.com/favicon.ico"
+      "image": "https://verialabs.com/og/ruby2shell.png",
+      "icon": "https://verialabs.com/apple-touch-icon.png"
+    },
+    {
+      "title": "AI isn't replacing your job. It's turning it into low-paid gig work",
+      "thread": "https://news.ycombinator.com/item?id=50562500",
+      "link": "https://restofworld.org/2026/ai-jobs-skills-gig-work/",
+      "link_domain": "restofworld.org",
+      "source": "Hacker News",
+      "domain": "restofworld.org",
+      "meta": "Hacker News · 128 points · 65 comments · 13h ago",
+      "also": [],
+      "image": "https://restofworld.org/wp-content/uploads/2026/11/GettyImages-2279457745.jpg",
+      "icon": "https://restofworld.org/wp-content/themes/orbis/assets/icons/icon-57.png?1"
     },
     {
       "title": "Chrome AI features wasting much bandwidth",
@@ -138,7 +151,7 @@
       "link_domain": "perishablepress.com",
       "source": "Hacker News",
       "domain": "perishablepress.com",
-      "meta": "Hacker News · 127 points · 48 comments · 11h ago",
+      "meta": "Hacker News · 128 points · 49 comments · 13h ago",
       "also": [],
       "image": null,
       "icon": "https://perishablepress.com/apple-touch-icon.png"
@@ -149,6 +162,19 @@
       "name": "AI-Assisted Engineering",
       "cards": [
         {
+          "title": "Trying to get our Arms around AI efficiency",
+          "link": "https://stackoverflow.blog/2026/11/20/trying-to-get-our-arms-around-ai-efficiency/",
+          "excerpt": "Ryan sits down with Alex Spinelli, Senior Vice President of AI and Developer Platforms at Arm, for a conversation about bringing ML capabilities to edge devices, adapting software tools to meet the unique demands of autonomous agents, and the critical importance of prioritizing functional safety…",
+          "source": "Stack Overflow Blog",
+          "date": "Nov 20",
+          "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format",
+          "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+          "domain": "stackoverflow.blog",
+          "hn": null,
+          "score": 6.773,
+          "coverage": 1
+        },
+        {
           "title": "Walter Isaacson on curiosity and creativity in the AI age.",
           "link": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
           "excerpt": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
@@ -158,7 +184,7 @@
           "icon": null,
           "domain": "blog.google",
           "hn": null,
-          "score": 3.517,
+          "score": 3.237,
           "coverage": 1
         },
         {
@@ -171,9 +197,11 @@
           "icon": null,
           "domain": "research.google",
           "hn": null,
-          "score": 0.718,
+          "score": 0.653,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "The Pulse: Is Amazon’s writing culture collapsing because of AI?",
           "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-is-amazons-writing-culture",
@@ -184,11 +212,9 @@
           "icon": null,
           "domain": "newsletter.pragmaticengineer.com",
           "hn": null,
-          "score": 0.627,
+          "score": 0.577,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Token fraud is here and it’s BAD (YouTube)",
           "link": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
@@ -199,7 +225,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 1.085,
+          "score": 0.943,
           "coverage": 1
         },
         {
@@ -212,7 +238,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.743,
+          "score": 0.674,
           "coverage": 1
         },
         {
@@ -225,7 +251,7 @@
           "icon": "https://stackoverflow.blog/apple-touch-icon.png",
           "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 0.458,
+          "score": 0.431,
           "coverage": 1
         },
         {
@@ -238,7 +264,7 @@
           "icon": null,
           "domain": "blog.google",
           "hn": null,
-          "score": 0.651,
+          "score": 0.597,
           "coverage": 1
         }
       ]
@@ -256,7 +282,7 @@
           "icon": "https://getagentmall.com/favicon.svg",
           "domain": "getagentmall.com",
           "hn": "18 points · 4 comments",
-          "score": 6.241,
+          "score": 5.75,
           "coverage": 1
         },
         {
@@ -269,7 +295,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 3.092,
+          "score": 2.946,
           "coverage": 1
         },
         {
@@ -282,7 +308,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.93,
+          "score": 0.827,
           "coverage": 1
         }
       ],
@@ -297,7 +323,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 2.435,
+          "score": 2.292,
           "coverage": 1
         },
         {
@@ -310,7 +336,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.467,
+          "score": 0.445,
           "coverage": 1
         },
         {
@@ -323,7 +349,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 3.092,
+          "score": 2.946,
           "coverage": 1
         },
         {
@@ -336,7 +362,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.467,
+          "score": 0.445,
           "coverage": 1
         }
       ]
@@ -354,7 +380,20 @@
           "icon": null,
           "domain": "blog.pragmaticengineer.com",
           "hn": null,
-          "score": 2.949,
+          "score": 2.695,
+          "coverage": 1
+        },
+        {
+          "title": "Advancing US economic mobility in the age of AI",
+          "link": "https://www.mckinsey.com/institute-for-economic-mobility/our-insights/advancing-us-economic-mobility-in-the-age-of-ai",
+          "excerpt": "AI could widen economic gaps in the United States—or help close them. Whether it becomes a force for opportunity depends on the choices leaders make now.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 20",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.828,
           "coverage": 1
         },
         {
@@ -367,7 +406,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.374,
+          "score": 0.356,
           "coverage": 1
         }
       ],
@@ -386,7 +425,7 @@
           "icon": "https://goteleport.com/blog/static/apple.png",
           "domain": "goteleport.com",
           "hn": null,
-          "score": 0.299,
+          "score": 0.285,
           "coverage": 1
         },
         {
@@ -399,8 +438,53 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 0.374,
+          "score": 0.356,
           "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Secrets & NHI",
+      "cards": [
+        {
+          "title": "The Fireworks AI Breach: How One Vendor Key Became a Supply Chain Attack on Cursor",
+          "link": "https://blog.gitguardian.com/fireworks-ai-breach-cursor-credentials/",
+          "excerpt": "A breach at Fireworks AI exposed a read-only key Cursor had issued to it. The attacker used it to copy agent traces, found more credentials inside, and planted trojanized Claude Code builds in Cursor’s marketplace cache. Here’s how the credential chain worked, and what AppSec should change.",
+          "source": "GitGuardian",
+          "date": "Nov 19",
+          "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/11/fireworks-ai-breach-thumbnail-v2.png",
+          "icon": null,
+          "domain": "blog.gitguardian.com",
+          "hn": null,
+          "score": 7.105,
+          "coverage": 1
+        },
+        {
+          "title": "UK government forced to admit it issued Apple a secret encryption order",
+          "link": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
+          "excerpt": "The Investigatory Powers Tribunal has rejected the UK government’s attempt to keep its order secret, marking a significant victory for transparency.",
+          "source": "macanorak.com via Hacker News",
+          "date": "Nov 19",
+          "image": "https://macanorak.com/content/images/2026/11/Apple.jpg",
+          "icon": "https://macanorak.com/content/images/2026/10/MA-Staff-Logo-New.png?v=3",
+          "domain": "macanorak.com",
+          "hn": "589 points · 266 comments",
+          "score": 15.121,
+          "coverage": 5
+        },
+        {
+          "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
+          "link": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87",
+          "excerpt": "160 points · 42 comments",
+          "source": "wsj.com via Hacker News",
+          "date": "Nov 19",
+          "image": null,
+          "icon": "https://www.wsj.com/favicon.ico",
+          "domain": "wsj.com",
+          "hn": "160 points · 42 comments",
+          "score": 11.582,
+          "coverage": 2
         }
       ],
       "more": []
@@ -418,7 +502,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 2.369,
+          "score": 2.257,
           "coverage": 1
         },
         {
@@ -431,7 +515,7 @@
           "icon": null,
           "domain": "openssf.org",
           "hn": null,
-          "score": 0.801,
+          "score": 0.723,
           "coverage": 1
         },
         {
@@ -444,7 +528,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.299,
+          "score": 0.285,
           "coverage": 1
         }
       ],
@@ -459,7 +543,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.299,
+          "score": 0.285,
           "coverage": 1
         }
       ]
@@ -477,7 +561,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 1.907,
+          "score": 1.744,
           "coverage": 1
         },
         {
@@ -490,9 +574,24 @@
           "icon": null,
           "domain": "snyk.io",
           "hn": null,
-          "score": 0.831,
+          "score": 0.788,
           "coverage": 1
         },
+        {
+          "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+          "link": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+          "excerpt": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine. The method was posted yesterday by a researcher…",
+          "source": "The Hacker News",
+          "date": "Nov 20",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRnUdcazdCteyaE1EC_aLit8CioDaJ5yvsWnawFVWQrJvYFktNRJXlW9MOJLimG_-aS1IZChVHJbjPI4CXjIbNFLjn5W686xynepfC0oWyEG81NX5CxdS-9ayumfRljgy32e2bYXDD72T6VpIFFzeCcPKwG48RDKiZExwNdF-4XDFicISSaaRtT3W2dt0/s1600/windows-lockscreen.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 3.998,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
           "link": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
@@ -503,11 +602,9 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.312,
+          "score": 0.287,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
           "link": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
@@ -518,7 +615,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 5.054,
+          "score": 4.483,
           "coverage": 2
         },
         {
@@ -531,7 +628,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 5.73,
+          "score": 5.021,
           "coverage": 3
         },
         {
@@ -544,7 +641,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 1.952,
+          "score": 1.812,
           "coverage": 1
         },
         {
@@ -557,20 +654,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.268,
-          "coverage": 1
-        },
-        {
-          "title": "Critical Apache Roller, Axis Vulnerabilities Exploited in Attacks",
-          "link": "https://www.securityweek.com/critical-apache-roller-axis-vulnerabilities-exploited-in-attacks/",
-          "excerpt": "Attackers are targeting Confluence Data Center through an Axis flaw and Apache is warning of attacks against Roller. The post Critical Apache Roller, Axis Vulnerabilities Exploited in Attacks appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 19",
-          "image": "https://www.securityweek.com/wp-content/uploads/2023/12/Apache-exploit-scaled-e1724835583910.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.258,
+          "score": 0.249,
           "coverage": 1
         }
       ]
@@ -588,7 +672,7 @@
           "icon": null,
           "domain": "about.gitlab.com",
           "hn": null,
-          "score": 2.917,
+          "score": 2.779,
           "coverage": 1
         },
         {
@@ -601,7 +685,7 @@
           "icon": null,
           "domain": "about.gitlab.com",
           "hn": null,
-          "score": 2.524,
+          "score": 2.405,
           "coverage": 1
         },
         {
@@ -614,7 +698,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 3.355,
+          "score": 3.088,
           "coverage": 1
         }
       ],
@@ -629,7 +713,7 @@
           "icon": null,
           "domain": "about.gitlab.com",
           "hn": null,
-          "score": 2.221,
+          "score": 2.116,
           "coverage": 1
         },
         {
@@ -642,7 +726,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.635,
+          "score": 2.448,
           "coverage": 1
         },
         {
@@ -655,7 +739,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 4.605,
+          "score": 4.062,
           "coverage": 1
         },
         {
@@ -668,7 +752,7 @@
           "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
           "domain": "about.gitlab.com",
           "hn": null,
-          "score": 2.144,
+          "score": 2.042,
           "coverage": 1
         },
         {
@@ -699,7 +783,7 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 3.686,
+          "score": 3.31,
           "coverage": 1
         },
         {
@@ -712,7 +796,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 3.482,
+          "score": 3.077,
           "coverage": 1
         },
         {
@@ -725,7 +809,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 2.872,
+          "score": 2.591,
           "coverage": 1
         }
       ],
@@ -740,7 +824,7 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 3.827,
+          "score": 3.448,
           "coverage": 2
         },
         {
@@ -753,46 +837,46 @@
           "icon": null,
           "domain": "spectrum.ieee.org",
           "hn": null,
-          "score": 1.925,
+          "score": 1.759,
           "coverage": 1
         },
         {
-          "title": "What Comes After AGI?",
-          "link": "https://institute.deepmind.com/essays/what-comes-after-agi/",
-          "excerpt": "How will we navigate the transition from AGI to ASI? Explore the compounding technological pathways and the rise of cognitive industrialization.",
-          "source": "institute.deepmind.com via Hacker News",
+          "title": "Google is pushing OEMs against GrapheneOS and bootloader unlocking",
+          "link": "https://grapheneos.social/@GrapheneOS/117645038299496084",
+          "excerpt": "Google is sabotaging their OEM partners by making a growing number of features and updates exclusive to Pixels. At the same time, Google is trying to convince OEM partners not to support GrapheneOS or even bootloader unlocking. They're also trying to harm GrapheneOS directly.",
+          "source": "grapheneos.social via Hacker News",
           "date": "Nov 20",
-          "image": "https://lh3.googleusercontent.com/MtcSyuy2GVyxylszKhwxAUP_OVh-e9ETmOtE5kLDGL8AIl59WmqxO5QJjRU3NDBnLsjBPmR3Wn5c4V0gVeOKge7MOF1oXMhqB5WWz8MCb89aH_e2=w1200-h630-n-nu-rw",
-          "icon": "https://institute.deepmind.com/favicon.ico",
-          "domain": "institute.deepmind.com",
-          "hn": "19 points · 15 comments",
-          "score": 2.577,
+          "image": null,
+          "icon": "https://grapheneos.social/packs/assets/apple-touch-icon-57x57-BsPGHSez.png",
+          "domain": "grapheneos.social",
+          "hn": "35 points · 3 comments",
+          "score": 2.77,
           "coverage": 1
         },
         {
-          "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
-          "link": "https://github.com/openssl/openssl/pull/33652",
-          "excerpt": "This fixes &quot;Buffer overflow in EVP_EncodeBlock()&quot; (CVE-2026-121481) by returning -1 for invalid inputs to EVP_EncodeBlock(): NULL input or output buffers, negative lengths, and lengths fo...",
-          "source": "github.com via Hacker News",
+          "title": "FFmpeg 9.1 'Gauss'",
+          "link": "https://ffmpeg.org/download.html#release_9.1",
+          "excerpt": "15 points · 6 comments",
+          "source": "ffmpeg.org via Hacker News",
           "date": "Nov 20",
-          "image": "https://opengraph.githubassets.com/d916370b558eb3cac8dc01b88d8ab926b071f58101c5310fdc4b4b5b880d0aa7/openssl/openssl/pull/33652",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "54 points · 29 comments",
-          "score": 5.548,
+          "image": null,
+          "icon": "https://ffmpeg.org/favicon.ico",
+          "domain": "ffmpeg.org",
+          "hn": "15 points · 6 comments",
+          "score": 2.188,
           "coverage": 1
         },
         {
-          "title": "Vint Cerf on why TCP/IP was never patented",
-          "link": "https://seremot.com/p/vint-cerf-on-why-tcpip-was-never",
-          "excerpt": "Future Stories, my new podcast about technology, science and the way we live, starts today. The first guest is one of the people who built the Internet.",
-          "source": "seremot.com via Hacker News",
+          "title": "GIMP now has UI tests",
+          "link": "https://www.gimp.org/news/2026/11/16/gimp-ui-tests/",
+          "excerpt": "GIMP now has automatic tests that use the user interface in the same way as a person.",
+          "source": "gimp.org via Hacker News",
           "date": "Nov 20",
-          "image": "https://substackcdn.com/image/fetch/$s_!F4Pm!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3c9dc8fc-3b97-48bf-9594-781fe179ffe0_1920x1080.jpeg",
-          "icon": "https://substackcdn.com/image/fetch/$s_!KahH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7c2780b9-6ea8-4ce0-bcf8-9c96a1a17a09%2Fapple-touch-icon-57x57.png",
-          "domain": "seremot.com",
-          "hn": "47 points · 8 comments",
-          "score": 2.547,
+          "image": "https://www.gimp.org/downloads/downloadsplash-aryeom.jpg",
+          "icon": "https://www.gimp.org/images/wilber32.png",
+          "domain": "gimp.org",
+          "hn": "41 points · 22 comments",
+          "score": 2.786,
           "coverage": 1
         }
       ]
