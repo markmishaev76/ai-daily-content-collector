@@ -215,6 +215,12 @@
   "icon": "https://alpinelinux.org/alpine-logo.ico",
   "image": null
  },
+ "https://alpo.ge/remark.pdf": {
+  "description": null,
+  "fetched": "2026-11-20",
+  "icon": null,
+  "image": null
+ },
  "https://alsterrunde.com/from-charlemagne-to-the-kitchen-boy-reading-the-hamburg-rathaus/": {
   "description": "The Hamburg Rathaus tells the story of its city in more than a hundred small details, and this is my walk through them.",
   "fetched": "2026-11-02",
@@ -443,6 +449,12 @@
   "icon": null,
   "image": "https://babuschk.in/images/social-card.png"
  },
+ "https://backpackforlaravel.com/articles/opinions/llms-txt-and-mcp-didn-t-move-the-needle-for-us-here-s-what-did": {
+  "description": "We added llms.txt and an MCP server to make Backpack AI-ready. Neither helped much. Here's what actually made agents good at our package, ranked by impact.",
+  "fetched": "2026-11-20",
+  "icon": "https://backpackforlaravel.com/apple-touch-icon.png",
+  "image": "https://backpackforlaravel.com/presentation/img/backpack/socials/backpack_og_image_general.jpg"
+ },
  "https://bbrouter.com/bbrouter/ben-eater-sap-1": {
   "description": "A project by @bbrouter on BBRouter, the 3D breadboard editor and simulator: open it to look around and run it.",
   "fetched": "2026-11-01",
@@ -616,6 +628,12 @@
   "fetched": "2026-11-11",
   "icon": "https://blog.moertel.com/apple-touch-icon.png",
   "image": null
+ },
+ "https://blog.mozilla.org/en/mozilla/internet-policy/apple-ios-browser-engine-rules/": {
+  "description": "Firefox on iPhone is growing fast across the world. This is especially true in the EU since 2024, when the EU Digital Markets Act (DMA) started requiring A",
+  "fetched": "2026-11-20",
+  "icon": "https://blog.mozilla.org/wp-content/themes/foxtail/assets/images/favicons/apple-touch-icon.png",
+  "image": "https://blog.mozilla.org/wp-content/blogs.dir/278/files/2026/11/Mozilla_Illustrations_Pixelgram_Arrows_Orange-1082x721.png"
  },
  "https://blog.nns.ee/2026/11/02/renault-hack/": {
   "description": "I shouldn't have to be doing any of this, but at least it's fun.",
@@ -2207,6 +2225,12 @@
   "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
   "image": "https://a-us.storyblok.com/f/1022730/1200x630/68b9062392/grafana-cloud-logs-meta.jfif"
  },
+ "https://grafana.com/blog/from-ai-agents-to-fishing-dashboards-the-latest-stories-from-unprompted/": {
+  "description": "Explore how Grafana Labs engineers and community members are building, troubleshooting, and experimenting with Grafana in this roundup of recent stories from Unprompted.",
+  "fetched": "2026-11-20",
+  "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
+  "image": "https://a-us.storyblok.com/f/1022730/1200x630/858e7af587/unprompted-meta-rev.png/m/1200x630/filters:format(jpeg):quality(80)/"
+ },
  "https://grafana.com/blog/grafana-13-3-release-all-the-latest-features/": {
   "description": "Explore what's new in Grafana 13.3, including cross-dashboard variables, Notebooks for capturing and sharing your findings across Grafana, and a first look at the refreshed Grafana UI.",
   "fetched": "2026-10-31",
@@ -2380,6 +2404,12 @@
   "fetched": "2026-11-13",
   "icon": null,
   "image": "https://cdn-uploads.huggingface.co/production/uploads/63148d3b996c52bf0142cdbe/2PgU1GxpJX_LVORaP2RRy.png"
+ },
+ "https://huggingface.co/blog/harness-adapters-at-scale": {
+  "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+  "fetched": "2026-11-20",
+  "icon": null,
+  "image": "https://huggingface.co/blog/assets/harness-adapters-at-scale/thumbnail.png"
  },
  "https://huggingface.co/blog/hub-gcp-marketplace": {
   "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
@@ -5669,6 +5699,12 @@
   "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
   "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6ae9f3515f5f8e8df56ac828_authkit-custom-emails-og.webp"
  },
+ "https://workos.com/blog/authkit-custom-subdomains": {
+  "description": "Swap your generated authkit.app address for one that matches your product. It's free, there's no DNS to set up, and it goes live as soon as you save.",
+  "fetched": "2026-11-20",
+  "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+  "image": "https://images.workoscdn.com/images/717a5ab4-ac88-4eca-a2ac-a84d3a5aa590.png?auto=format&fit=clip&q=80"
+ },
  "https://workos.com/blog/authkit-test-email-domains-deliverability-check": {
   "description": "AuthKit rejects sign-ups and invitations at domains that can't receive mail. The reserved test domains that keep seeded environments and CI suites green.",
   "fetched": "2026-10-28",
@@ -5980,6 +6016,12 @@
   "fetched": "2026-10-28",
   "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
   "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4e3bfa972a8ec391977288fa36de3da1ecd78232-1920x1080.webp"
+ },
+ "https://www.anthropic.com/news/ipo-close": {
+  "description": "Today Anthropic, PBC announced the closing of its initial public offering of an aggregate of 1,127,000,000 shares of its Class A common stock at a public offering price of $83.00 per share, including the full exercise by the underwriters of their option to purchase an additional 147,000,000 shares of Class A common stock from Anthropic at the initial public offering price.",
+  "fetched": "2026-11-20",
+  "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+  "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg"
  },
  "https://www.anthropic.com/news/roadshow-launch": {
   "description": "Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.",
@@ -6935,6 +6977,12 @@
   "icon": null,
   "image": "https://web-assets.dd-static.net/42588/1794333734-codex-integration-announcement-hero-image.png"
  },
+ "https://www.datadoghq.com/blog/observability-pipelines-mcp-server-ai-agents/": {
+  "description": "Use AI agents and the Datadog MCP Server to build and validate pipelines, troubleshoot pipeline health, and measure log volume reduction.",
+  "fetched": "2026-11-20",
+  "icon": null,
+  "image": "https://web-assets.dd-static.net/42588/1795186391-blog-hero-mcp-server.png"
+ },
  "https://www.datadoghq.com/blog/online-experiments-agent-observability/": {
   "description": "Learn how Datadog Online Experiments, available through Agent Observability, enables you to test AI agent changes against real production traffic so you can compare response quality, cost, latency, and errors.",
   "fetched": "2026-11-05",
@@ -7559,6 +7607,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.mckinsey.com/industries/industrials/our-insights/physical-ai-is-breaking-out-of-the-box": {
+  "description": null,
+  "fetched": "2026-11-20",
+  "icon": null,
+  "image": null
+ },
  "https://www.mckinsey.com/industries/industrials/our-insights/wartsila-ceo-hakan-agnevall-focus-flexibility-and-the-next-wave-of-growth": {
   "description": null,
   "fetched": "2026-10-30",
@@ -7628,6 +7682,12 @@
  "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/reinventing-the-channel-how-can-your-partner-ecosystem-fuel-ai-growth": {
   "description": null,
   "fetched": "2026-11-06",
+  "icon": null,
+  "image": null
+ },
+ "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-new-consolidation-m-and-a-shifts-in-european-consumer-tech-and-media": {
+  "description": null,
+  "fetched": "2026-11-20",
   "icon": null,
   "image": null
  },
@@ -9328,6 +9388,12 @@
   "fetched": "2026-11-10",
   "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg",
   "image": "https://i.guim.co.uk/img/media/f88eb30da8765416e5de2380d70ed0056788cab0/691_0_6776_5421/master/6776.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b6b46f05da72b59cef6ac1bfe8fd0f1d"
+ },
+ "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off": {
+  "description": "Asian markets record worst week since 2020 as investors question huge sums being poured into AI build-out",
+  "fetched": "2026-11-20",
+  "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg",
+  "image": "https://i.guim.co.uk/img/media/5a0726c71af19332d1a3095553ff3acc6e341a62/1043_0_5270_4216/master/5270.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=840bb47424232ef8465116aa8eea49a5"
  },
  "https://www.theguardian.com/business/live/2026/oct/30/uk-house-price-growth-crypto-industry-6bn-binance-hack-eurozone-france-gdp-latest-news-updates": {
   "description": "Blockchain intelligence firm TRM says North Korea’s TraderTraitor hacking unit is responsible for the largest crypto theft on record",

@@ -13,7 +13,7 @@
     "note": null,
     "labels": [
       "AI Agents & Agent Security",
-      "2h ago"
+      "4h ago"
     ],
     "also": []
   },
@@ -25,7 +25,7 @@
       "link_domain": "reuters.com",
       "source": "Hacker News",
       "domain": "reuters.com",
-      "meta": "Hacker News · 1.1k points · 2.2k comments · 20h ago",
+      "meta": "Hacker News · 1.1k points · 2.2k comments · 23h ago",
       "also": [],
       "image": null,
       "icon": "https://www.reuters.com/favicon.ico"
@@ -37,7 +37,7 @@
       "link_domain": "ounapuu.ee",
       "source": "Hacker News",
       "domain": "ounapuu.ee",
-      "meta": "Hacker News · 570 points · 229 comments · 21h ago",
+      "meta": "Hacker News · 580 points · 237 comments · 23h ago",
       "also": [],
       "image": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/media/cover_hu_5a6285e4518135fc.jpg",
       "icon": "https://ounapuu.ee/apple-touch-icon.png"
@@ -49,10 +49,22 @@
       "link_domain": "anthropic.com",
       "source": "Hacker News",
       "domain": "anthropic.com",
-      "meta": "Hacker News · 517 points · 242 comments · 20h ago",
+      "meta": "Hacker News · 524 points · 253 comments · 22h ago",
       "also": [],
       "image": "https://assets.claude.com/57a443b51d13727573b7c1290130d09c5f434b2c.jpg",
       "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png"
+    },
+    {
+      "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+      "thread": "https://news.ycombinator.com/item?id=50572503",
+      "link": "https://architectlabs.com/blog/frostbite",
+      "link_domain": "architectlabs.com",
+      "source": "Hacker News",
+      "domain": "architectlabs.com",
+      "meta": "Hacker News · 420 points · 256 comments · 6h ago",
+      "also": [],
+      "image": "https://main--gleeful-begonia-6bb5f3.netlify.app/_next/static/media/frostbite-cover.3n9ytugnquhlr.jpg",
+      "icon": "https://architectlabs.com/favicon.ico?favicon.08mdo-hmkdh99.ico"
     },
     {
       "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
@@ -61,7 +73,7 @@
       "link_domain": "git-aarvin.github.io",
       "source": "Hacker News",
       "domain": "git-aarvin.github.io",
-      "meta": "Hacker News · 353 points · 226 comments · 13h ago",
+      "meta": "Hacker News · 358 points · 235 comments · 16h ago",
       "also": [],
       "image": "https://git-aarvin.github.io/mei/scatter/cost.png",
       "icon": "https://git-aarvin.github.io/favicon.ico"
@@ -73,34 +85,10 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 302 points · 249 comments · 11h ago",
+      "meta": "Hacker News · 332 points · 282 comments · 14h ago",
       "also": [],
       "image": "https://opengraph.githubassets.com/d916370b558eb3cac8dc01b88d8ab926b071f58101c5310fdc4b4b5b880d0aa7/openssl/openssl/pull/33652",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
-    },
-    {
-      "title": "Pete Warden on local AI, open models, voice interfaces, the future of hardware",
-      "thread": "https://news.ycombinator.com/item?id=50561508",
-      "link": "https://thedataexchange.media/pete-warden-moonshine/",
-      "link_domain": "thedataexchange.media",
-      "source": "Hacker News",
-      "domain": "thedataexchange.media",
-      "meta": "Hacker News · 263 points · 228 comments · 21h ago",
-      "also": [],
-      "image": "https://thedataexchange.media/wp-content/uploads/2026/11/pete-warden-local-ai.001.jpeg",
-      "icon": "https://i0.wp.com/thedataexchange.media/wp-content/uploads/2022/08/cropped-logo-DE.jpg?fit=180%2C180&ssl=1"
-    },
-    {
-      "title": "Show HN: Cornhole News – A Hacker News inspired site for news across the Midwest",
-      "thread": "https://news.ycombinator.com/item?id=50561515",
-      "link": "https://cornholenews.news",
-      "link_domain": "cornholenews.news",
-      "source": "Hacker News",
-      "domain": "cornholenews.news",
-      "meta": "Hacker News · 229 points · 106 comments · 21h ago",
-      "also": [],
-      "image": "https://cornholenews.news/opengraph-image",
-      "icon": "https://cornholenews.news/apple-icon.png?apple-icon.27haiq0vymcyy.png"
     },
     {
       "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
@@ -109,7 +97,7 @@
       "link_domain": "wsj.com",
       "source": "Hacker News",
       "domain": "wsj.com",
-      "meta": "Hacker News · 184 points · 45 comments · 14h ago",
+      "meta": "Hacker News · 186 points · 47 comments · 16h ago",
       "also": [],
       "image": null,
       "icon": "https://www.wsj.com/favicon.ico"
@@ -121,7 +109,7 @@
       "link_domain": "synology.com",
       "source": "Hacker News",
       "domain": "synology.com",
-      "meta": "Hacker News · 165 points · 121 comments · 15h ago",
+      "meta": "Hacker News · 171 points · 127 comments · 18h ago",
       "also": [],
       "image": "https://fileres.synology.com/images/common/meta-tag-preview-image/img_synology.jpg",
       "icon": "https://fileres.synology.com/images/common/favicon/syno/icon-180x180.png"
@@ -133,10 +121,22 @@
       "link_domain": "restofworld.org",
       "source": "Hacker News",
       "domain": "restofworld.org",
-      "meta": "Hacker News · 141 points · 70 comments · 20h ago",
+      "meta": "Hacker News · 141 points · 77 comments · 23h ago",
       "also": [],
       "image": "https://restofworld.org/wp-content/uploads/2026/11/GettyImages-2279457745.jpg",
       "icon": "https://restofworld.org/wp-content/themes/orbis/assets/icons/icon-57.png?1"
+    },
+    {
+      "title": "Chrome AI features wasting much bandwidth",
+      "thread": "https://news.ycombinator.com/item?id=50562636",
+      "link": "https://perishablepress.com/chrome-ai-wasting-much-bandwidth/",
+      "link_domain": "perishablepress.com",
+      "source": "Hacker News",
+      "domain": "perishablepress.com",
+      "meta": "Hacker News · 131 points · 51 comments · 23h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://perishablepress.com/apple-touch-icon.png"
     }
   ],
   "sections": [
@@ -153,7 +153,7 @@
           "icon": "https://stackoverflow.blog/apple-touch-icon.png",
           "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 4.805,
+          "score": 4.136,
           "coverage": 1
         },
         {
@@ -166,7 +166,7 @@
           "icon": null,
           "domain": "blog.google",
           "hn": null,
-          "score": 2.494,
+          "score": 2.301,
           "coverage": 1
         },
         {
@@ -179,7 +179,7 @@
           "icon": null,
           "domain": "research.google",
           "hn": null,
-          "score": 0.488,
+          "score": 0.446,
           "coverage": 1
         }
       ],
@@ -194,7 +194,7 @@
           "icon": null,
           "domain": "newsletter.pragmaticengineer.com",
           "hn": null,
-          "score": 0.444,
+          "score": 0.409,
           "coverage": 1
         },
         {
@@ -207,7 +207,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.633,
+          "score": 0.565,
           "coverage": 1
         },
         {
@@ -220,7 +220,20 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.499,
+          "score": 0.456,
+          "coverage": 1
+        },
+        {
+          "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+          "link": "https://huggingface.co/blog/harness-adapters-at-scale",
+          "excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "source": "Hugging Face",
+          "date": "Nov 20",
+          "image": "https://huggingface.co/blog/assets/harness-adapters-at-scale/thumbnail.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null,
+          "score": 0.509,
           "coverage": 1
         },
         {
@@ -233,20 +246,7 @@
           "icon": "https://stackoverflow.blog/apple-touch-icon.png",
           "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 0.352,
-          "coverage": 1
-        },
-        {
-          "title": "Introducing Tool Retrieval in the Gemini API",
-          "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
-          "excerpt": "Gemini spark on a space background",
-          "source": "Google AI",
-          "date": "Nov 19",
-          "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Tool_retrieval_hero.max-600x600.format-webp.webp",
-          "icon": null,
-          "domain": "blog.google",
-          "hn": null,
-          "score": 0.456,
+          "score": 0.33,
           "coverage": 1
         }
       ]
@@ -255,16 +255,29 @@
       "name": "AI Agents & Agent Security",
       "cards": [
         {
-          "title": "Explore the Codex Security Plugin",
-          "link": "https://openai.com/business/learn/codex-security-plugin-demo",
-          "excerpt": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
-          "source": "OpenAI News",
-          "date": "Nov 19",
-          "image": null,
-          "icon": "https://openai.com/favicon.ico",
-          "domain": "openai.com",
+          "title": "Llms.txt and MCP didn't move the needle",
+          "link": "https://backpackforlaravel.com/articles/opinions/llms-txt-and-mcp-didn-t-move-the-needle-for-us-here-s-what-did",
+          "excerpt": "We added llms.txt and an MCP server to make Backpack AI-ready. Neither helped much. Here's what actually made agents good at our package, ranked by impact.",
+          "source": "backpackforlaravel.com via Hacker News",
+          "date": "Nov 20",
+          "image": "https://backpackforlaravel.com/presentation/img/backpack/socials/backpack_og_image_general.jpg",
+          "icon": "https://backpackforlaravel.com/apple-touch-icon.png",
+          "domain": "backpackforlaravel.com",
+          "hn": "27 points · 16 comments",
+          "score": 10.931,
+          "coverage": 1
+        },
+        {
+          "title": "The New Analyst Learning Curve: Training and Retaining Talent in the Autonomous SOC",
+          "link": "https://www.sentinelone.com/blog/the-new-analyst-learning-curve-training-and-retaining-talent-in-the-autonomous-soc/",
+          "excerpt": "Explore how SOC leaders can rebuild the analyst learning curve as agentic AI automates triage, preserving critical investigative judgment and bench talent.",
+          "source": "SentinelOne",
+          "date": "Nov 20",
+          "image": "https://images.contentstack.io/v3/assets/blt53c99b43892c2378/blt10793b507a2b9b70/6affef42447474cb86000b39/Blog_New_Analyst_Learning_Curve.jpg",
+          "icon": null,
+          "domain": "sentinelone.com",
           "hn": null,
-          "score": 2.502,
+          "score": 5.238,
           "coverage": 1
         },
         {
@@ -277,7 +290,35 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.816,
+          "score": 0.711,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Explore the Codex Security Plugin",
+          "link": "https://openai.com/business/learn/codex-security-plugin-demo",
+          "excerpt": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+          "source": "OpenAI News",
+          "date": "Nov 19",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 2.371,
+          "coverage": 1
+        },
+        {
+          "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+          "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+          "excerpt": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+          "source": "OpenAI News",
+          "date": "Nov 19",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 1.764,
           "coverage": 1
         },
         {
@@ -290,22 +331,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.586,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-          "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-          "excerpt": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
-          "source": "OpenAI News",
-          "date": "Nov 19",
-          "image": null,
-          "icon": "https://openai.com/favicon.ico",
-          "domain": "openai.com",
-          "hn": null,
-          "score": 1.88,
+          "score": 0.529,
           "coverage": 1
         },
         {
@@ -318,46 +344,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.378,
-          "coverage": 1
-        },
-        {
-          "title": "See PR scans in action",
-          "link": "https://openai.com/business/learn/pr-scans-demo",
-          "excerpt": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
-          "source": "OpenAI News",
-          "date": "Nov 19",
-          "image": null,
-          "icon": "https://openai.com/favicon.ico",
-          "domain": "openai.com",
-          "hn": null,
-          "score": 2.502,
-          "coverage": 1
-        },
-        {
-          "title": "Get started with Daybreak Blue",
-          "link": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
-          "excerpt": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
-          "source": "OpenAI News",
-          "date": "Nov 19",
-          "image": null,
-          "icon": "https://openai.com/favicon.ico",
-          "domain": "openai.com",
-          "hn": null,
-          "score": 0.378,
-          "coverage": 1
-        },
-        {
-          "title": "Opening a 400-Year-Old Cryptex",
-          "link": "https://www.schneier.com/blog/archives/2026/11/opening-a-400-year-old-cryptex.html",
-          "excerpt": "Researchers used CT scanning technology to recover the code and open a 400-year-old cryptex padlock. You can buy a USB-drive cryptex.",
-          "source": "Schneier on Security",
-          "date": "Nov 20",
-          "image": null,
-          "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
-          "domain": "schneier.com",
-          "hn": null,
-          "score": 1.111,
+          "score": 0.358,
           "coverage": 1
         }
       ]
@@ -375,7 +362,7 @@
           "icon": null,
           "domain": "blog.pragmaticengineer.com",
           "hn": null,
-          "score": 2.039,
+          "score": 1.872,
           "coverage": 1
         },
         {
@@ -388,7 +375,35 @@
           "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
           "domain": "stratechery.com",
           "hn": null,
-          "score": 1.029,
+          "score": 0.866,
+          "coverage": 1
+        },
+        {
+          "title": "The new consolidation: M&A shifts in European consumer tech and media",
+          "link": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-new-consolidation-m-and-a-shifts-in-european-consumer-tech-and-media",
+          "excerpt": "As Europe’s media landscape evolves, our analysis identifies the deal archetypes driving consolidation and where the next transactions are most likely to emerge.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 20",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.53,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Physical AI is breaking out of the box",
+          "link": "https://www.mckinsey.com/industries/industrials/our-insights/physical-ai-is-breaking-out-of-the-box",
+          "excerpt": "As physical AI scales, the biggest opportunities may extend well beyond today’s most visible applications and best-funded technologies.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 20",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.53,
           "coverage": 1
         },
         {
@@ -401,11 +416,9 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.586,
+          "score": 0.53,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Author Talks: Defining customer needs locally to create global value",
           "link": "https://www.mckinsey.com/featured-insights/mckinsey-on-books/author-talks-defining-customer-needs-locally-to-create-global-value",
@@ -416,7 +429,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.303,
+          "score": 0.287,
           "coverage": 1
         }
       ]
@@ -424,6 +437,19 @@
     {
       "name": "Agent Identity & Authorization",
       "cards": [
+        {
+          "title": "Custom AuthKit subdomains: Pick your own authkit.app address for free",
+          "link": "https://workos.com/blog/authkit-custom-subdomains",
+          "excerpt": "Swap your generated authkit.app address for one that matches your product. It's free, there's no DNS to set up, and it goes live as soon as you save.",
+          "source": "WorkOS Blog",
+          "date": "Nov 20",
+          "image": "https://images.workoscdn.com/images/717a5ab4-ac88-4eca-a2ac-a84d3a5aa590.png?auto=format&fit=clip&q=80",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null,
+          "score": 0.424,
+          "coverage": 1
+        },
         {
           "title": "We Are Pausing the Teleport Bug Bounty Program",
           "link": "https://goteleport.com/blog/pausing-bug-bounty/",
@@ -434,7 +460,7 @@
           "icon": "https://goteleport.com/blog/static/apple.png",
           "domain": "goteleport.com",
           "hn": null,
-          "score": 0.242,
+          "score": 0.229,
           "coverage": 1
         },
         {
@@ -447,7 +473,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 0.303,
+          "score": 0.287,
           "coverage": 1
         }
       ],
@@ -466,7 +492,7 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 5.365,
+          "score": 4.923,
           "coverage": 1
         },
         {
@@ -479,7 +505,20 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 5.082,
+          "score": 4.36,
+          "coverage": 1
+        },
+        {
+          "title": "How to Handle Secrets in Python: Six Secure Patterns",
+          "link": "https://blog.gitguardian.com/how-to-handle-secrets-in-python/",
+          "excerpt": "DevOps engineers must handle secrets with care. In this series, we summarize best practices for leveraging secrets with your everyday tools.",
+          "source": "GitGuardian",
+          "date": "Nov 18",
+          "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/11/python-secrets-thumbnail-v3.png",
+          "icon": null,
+          "domain": "blog.gitguardian.com",
+          "hn": null,
+          "score": 0.201,
           "coverage": 1
         }
       ],
@@ -498,7 +537,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 1.917,
+          "score": 1.816,
           "coverage": 1
         },
         {
@@ -511,24 +550,9 @@
           "icon": null,
           "domain": "openssf.org",
           "hn": null,
-          "score": 0.532,
+          "score": 0.485,
           "coverage": 1
         },
-        {
-          "title": "PHP's November security release: What it is and what to update",
-          "link": "https://www.chainguard.dev/unchained/phps-november-security-release-what-it-is-and-what-to-update",
-          "excerpt": "PHP's November 2026 security update fixes 17 CVEs, including seven critical vulnerabilities. Learn who's affected, how to patch, and what to update.",
-          "source": "Chainguard: Unchained",
-          "date": "Nov 19",
-          "image": "https://images.ctfassets.net/l47ir7rfykkn/5ZG87xmWaYVv1fWV8tgUdT/d30a9bf5f170a16fec114dce8185d58a/php_november.png",
-          "icon": "https://www.chainguard.dev/favicon.ico",
-          "domain": "chainguard.dev",
-          "hn": null,
-          "score": 0.242,
-          "coverage": 1
-        }
-      ],
-      "more": [
         {
           "title": "Announcing the Athena Partner API",
           "link": "https://www.chainguard.dev/unchained/announcing-the-athena-partner-api",
@@ -539,7 +563,22 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.242,
+          "score": 0.229,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "PHP's November security release: What it is and what to update",
+          "link": "https://www.chainguard.dev/unchained/phps-november-security-release-what-it-is-and-what-to-update",
+          "excerpt": "PHP's November 2026 security update fixes 17 CVEs, including seven critical vulnerabilities. Learn who's affected, how to patch, and what to update.",
+          "source": "Chainguard: Unchained",
+          "date": "Nov 19",
+          "image": "https://images.ctfassets.net/l47ir7rfykkn/5ZG87xmWaYVv1fWV8tgUdT/d30a9bf5f170a16fec114dce8185d58a/php_november.png",
+          "icon": "https://www.chainguard.dev/favicon.ico",
+          "domain": "chainguard.dev",
+          "hn": null,
+          "score": 0.229,
           "coverage": 1
         }
       ]
@@ -557,7 +596,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.992,
+          "score": 2.49,
           "coverage": 1
         },
         {
@@ -570,7 +609,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 1.32,
+          "score": 1.212,
           "coverage": 1
         },
         {
@@ -583,7 +622,7 @@
           "icon": null,
           "domain": "snyk.io",
           "hn": null,
-          "score": 0.659,
+          "score": 0.621,
           "coverage": 1
         }
       ],
@@ -598,7 +637,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 3.805,
+          "score": 3.153,
           "coverage": 1
         },
         {
@@ -611,7 +650,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.482,
+          "score": 0.407,
           "coverage": 1
         },
         {
@@ -624,8 +663,8 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 5.268,
-          "coverage": 2
+          "score": 2.836,
+          "coverage": 1
         },
         {
           "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
@@ -637,7 +676,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 6.774,
+          "score": 5.781,
           "coverage": 3
         },
         {
@@ -650,7 +689,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.392,
+          "score": 0.341,
           "coverage": 1
         }
       ]
@@ -668,9 +707,37 @@
           "icon": null,
           "domain": "about.gitlab.com",
           "hn": null,
-          "score": 2.36,
+          "score": 2.236,
           "coverage": 1
         },
+        {
+          "title": "Build and troubleshoot Observability Pipelines with AI agents",
+          "link": "https://www.datadoghq.com/blog/observability-pipelines-mcp-server-ai-agents/",
+          "excerpt": "Use AI agents and the Datadog MCP Server to build and validate pipelines, troubleshoot pipeline health, and measure log volume reduction.",
+          "source": "Datadog | The Monitor blog",
+          "date": "Nov 20",
+          "image": "https://web-assets.dd-static.net/42588/1795186391-blog-hero-mcp-server.png",
+          "icon": "https://www.datadoghq.com/favicon.ico",
+          "domain": "datadoghq.com",
+          "hn": null,
+          "score": 3.065,
+          "coverage": 1
+        },
+        {
+          "title": "From AI agents to fishing dashboards: The latest stories from Unprompted, the Grafana Labs engineering blog",
+          "link": "https://grafana.com/blog/from-ai-agents-to-fishing-dashboards-the-latest-stories-from-unprompted/",
+          "excerpt": "Some of the best technical insights come from sharing what you've built and what you've learned along the way.That's one of the core ideas behind Unprompted, the blog we launched on Medium earlier this year to give Grafana Labs engineers and our broader OSS community a space to showcase their…",
+          "source": "Grafana Labs blog on Grafana Labs",
+          "date": "Nov 20",
+          "image": "https://a-us.storyblok.com/f/1022730/1200x630/858e7af587/unprompted-meta-rev.png/m/1200x630/filters:format(jpeg):quality(80)/",
+          "icon": "https://grafana.com/favicon.ico?67f0da79a12facce",
+          "domain": "grafana.com",
+          "hn": null,
+          "score": 6.477,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "Turn Slack conversations into trusted software, faster",
           "link": "https://about.gitlab.com/blog/gitlab-slack-integration-for-software-factory/",
@@ -681,7 +748,7 @@
           "icon": null,
           "domain": "about.gitlab.com",
           "hn": null,
-          "score": 2.042,
+          "score": 1.935,
           "coverage": 1
         },
         {
@@ -694,11 +761,9 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.38,
+          "score": 2.195,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Google Donates Agent Substrate and gVisor to the CNCF to Secure AI Agents at Scale",
           "link": "https://www.infoq.com/news/2026/11/google-substrate-gvisor-cncf/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -709,7 +774,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 5.567,
+          "score": 4.633,
           "coverage": 1
         },
         {
@@ -722,7 +787,7 @@
           "icon": null,
           "domain": "about.gitlab.com",
           "hn": null,
-          "score": 1.797,
+          "score": 1.703,
           "coverage": 1
         },
         {
@@ -735,33 +800,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.934,
-          "coverage": 1
-        },
-        {
-          "title": "AI coding agents on Amazon EC2 Mac: How Cognition scales Devin for macOS",
-          "link": "https://aws.amazon.com/blogs/architecture/ai-coding-agents-on-amazon-ec2-mac-how-cognition-scales-devin-for-macos/",
-          "excerpt": "Cognition gave its AI software engineer, Devin, a cloud Mac. Each Devin session gets a fresh macOS VM on Amazon EC2 Mac bare metal hosts, so Devin can build, run, and test iOS and macOS apps. Learn how Cognition built it with disk snapshots, a user-space network gateway, prepared guest images, and…",
-          "source": "AWS Architecture Blog",
-          "date": "Nov 20",
-          "image": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/11/19/ARCHBLOG-1783-1.png",
-          "icon": null,
-          "domain": "aws.amazon.com",
-          "hn": null,
-          "score": 2.818,
-          "coverage": 1
-        },
-        {
-          "title": "Multi-Turn Agentic Reinforcement Learning with Tunix and Gemma 4 on Google TPUs",
-          "link": "https://developers.googleblog.com/multi-turn-agentic-reinforcement-learning-with-tunix-and-gemma-4-on-google-tpus/",
-          "excerpt": "This post walks developers through training a multi-turn, tool-using LLM agent using Tunix and Gemma 4 on Cloud TPUs. By leveraging agentic Group Relative Policy Optimization (GRPO) and asynchronous vLLM rollouts, the approach significantly improves complex reasoning and tool compliance in…",
-          "source": "Google Developers Blog",
-          "date": null,
-          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-meta_4.2e16d0ba.fill-1200x600.png",
-          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
-          "domain": "developers.googleblog.com",
-          "hn": null,
-          "score": 1.911,
+          "score": 1.795,
           "coverage": 1
         }
       ]
@@ -779,20 +818,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 8.322,
-          "coverage": 1
-        },
-        {
-          "title": "These tech outages are giving Y2K, AI agent style",
-          "link": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
-          "excerpt": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.",
-          "source": "TechCrunch",
-          "date": "Nov 19",
-          "image": "https://techcrunch.com/wp-content/uploads/2026/11/Muharrem-huner.jpg?resize=1200,800",
-          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
-          "domain": "techcrunch.com",
-          "hn": null,
-          "score": 1.896,
+          "score": 6.913,
           "coverage": 1
         },
         {
@@ -805,23 +831,8 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 3.857,
+          "score": 3.189,
           "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "Meta’s Muse Charm might cost $300",
-          "link": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
-          "excerpt": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the holidays in…",
-          "source": "The Verge",
-          "date": "Nov 19",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/lcimg-3879511d-dd3d-430c-8072-616e2dfb3484.jpeg?quality=90&strip=all&crop=0,0,100,100",
-          "icon": null,
-          "domain": "theverge.com",
-          "hn": null,
-          "score": 2.515,
-          "coverage": 2
         },
         {
           "title": "Community-Focused Academic Brings AI Tools to Colorado Farmers",
@@ -833,33 +844,74 @@
           "icon": null,
           "domain": "spectrum.ieee.org",
           "hn": null,
-          "score": 1.329,
+          "score": 1.22,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "I Don’t Trust Visual Recordings Anymore. But One Day I Will Again",
+          "link": "https://spectrum.ieee.org/fighting-back-against-deep-fakes",
+          "excerpt": "In March of this year, a flurry of emails and text messages from a half dozen reporters around the world disrupted my quiet Saturday morning. An Iranian news agency had aired a week-old video of what appeared to be a U.S.-made Tomahawk missile hitting a school. News reports claimed that the strike…",
+          "source": "IEEE Spectrum",
+          "date": "Nov 20",
+          "image": "https://spectrum.ieee.org/media-library/photo-collage-of-a-mans-face-featuring-glitched-distortions-and-abstract-shapes.jpg?id=68721975&width=980",
+          "icon": null,
+          "domain": "spectrum.ieee.org",
+          "hn": null,
+          "score": 2.514,
           "coverage": 1
         },
         {
-          "title": "The Making of Oxygene",
-          "link": "https://jeanmicheljarre.com/aaa/the-making-of-oxygene",
-          "excerpt": "The full story of the ground-breaking Oxygene album and how it has been re-imagined for Dolby Atmos",
-          "source": "jeanmicheljarre.com via Hacker News",
+          "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+          "link": "https://www.anthropic.com/news/ipo-close",
+          "excerpt": "Today Anthropic, PBC announced the closing of its initial public offering of an aggregate of 1,127,000,000 shares of its Class A common stock at a public offering price of $83.00 per share, including the full exercise by the underwriters of their option to purchase an additional 147,000,000 shares…",
+          "source": "Anthropic",
           "date": "Nov 20",
-          "image": "https://imcayyueqknvmognvohc.supabase.co/storage/v1/object/public/media/1789648325786-1gmqsl.webp",
-          "icon": "https://data.jeanmicheljarre.com/storage/v1/object/public/media/1791279011357-gxwl56.png",
-          "domain": "jeanmicheljarre.com",
-          "hn": "59 points · 22 comments",
-          "score": 2.77,
+          "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+          "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+          "domain": "anthropic.com",
+          "hn": null,
+          "score": 0.318,
           "coverage": 1
         },
         {
-          "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
-          "link": "https://architectlabs.com/blog/frostbite",
-          "excerpt": "Frostbite is a general-purpose CPU built around interaction nets, discovered, designed, and verified end-to-end by our AI systems, reaching 4.59x the performance-per-watt of a modern superscalar (dual-issue, in-order) CPU core.",
-          "source": "architectlabs.com via Hacker News",
+          "title": "Why there are still no non-WebKit browsers on iOS",
+          "link": "https://blog.mozilla.org/en/mozilla/internet-policy/apple-ios-browser-engine-rules/",
+          "excerpt": "Firefox on iPhone is growing fast across the world. This is especially true in the EU since 2024, when the EU Digital Markets Act (DMA) started requiring A",
+          "source": "blog.mozilla.org via Hacker News",
           "date": "Nov 20",
-          "image": "https://main--gleeful-begonia-6bb5f3.netlify.app/_next/static/media/frostbite-cover.3n9ytugnquhlr.jpg",
-          "icon": "https://architectlabs.com/favicon.ico?favicon.08mdo-hmkdh99.ico",
-          "domain": "architectlabs.com",
-          "hn": "232 points · 141 comments",
-          "score": 3.431,
+          "image": "https://blog.mozilla.org/wp-content/blogs.dir/278/files/2026/11/Mozilla_Illustrations_Pixelgram_Arrows_Orange-1082x721.png",
+          "icon": "https://blog.mozilla.org/wp-content/themes/foxtail/assets/images/favicons/apple-touch-icon.png",
+          "domain": "blog.mozilla.org",
+          "hn": "54 points · 14 comments",
+          "score": 3.008,
+          "coverage": 1
+        },
+        {
+          "title": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf]",
+          "link": "https://alpo.ge/remark.pdf",
+          "excerpt": "848 points · 503 comments",
+          "source": "alpo.ge via Hacker News",
+          "date": "Nov 20",
+          "image": null,
+          "icon": "https://alpo.ge/favicon.ico",
+          "domain": "alpo.ge",
+          "hn": "848 points · 503 comments",
+          "score": 4.528,
+          "coverage": 1
+        },
+        {
+          "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
+          "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+          "excerpt": "Asian markets record worst week since 2020 as investors question huge sums being poured into AI build-out",
+          "source": "theguardian.com via Hacker News",
+          "date": "Nov 20",
+          "image": "https://i.guim.co.uk/img/media/5a0726c71af19332d1a3095553ff3acc6e341a62/1043_0_5270_4216/master/5270.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=840bb47424232ef8465116aa8eea49a5",
+          "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg",
+          "domain": "theguardian.com",
+          "hn": "109 points · 86 comments",
+          "score": 3.253,
           "coverage": 1
         }
       ]
