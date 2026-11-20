@@ -1,37 +1,29 @@
 {
   "date": "2026-11-20",
   "lead": {
-    "title": "UK government forced to disclose secret Apple backdoor order",
-    "link": "https://techcrunch.com/2026/11/19/u-k-government-forced-to-disclose-secret-apple-backdoor-order/",
-    "excerpt": "The U.K. tribunal's ruling rejected London's claim that disclosing the order would be damaging to national security.",
-    "source": "techcrunch.com via Hacker News",
+    "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+    "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+    "excerpt": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of…",
+    "source": "The Hacker News",
     "date": "Nov 20",
-    "image": "https://techcrunch.com/wp-content/uploads/2021/08/icloud-pattern-with-key-red.jpg?resize=1200,675",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTSAI-N-DRII1YA3I98ZVnKnG0SMgm97oEAqyiSXZB23DPwzvTk3figFLsTCKsMJRxRhjKEPFblxfcOuB_UXc_OAXJRiVI07Jxjn-CebJVHiRQ5sc43AifBpUPNfU5-LRD6QEGbX7Vnt_HAmJZiLojS32PtNWwIWeideJZnIpgjrstJ0Iy84lYd47bePk/s1600/chinese-vmware.jpg",
     "image_credit": null,
-    "section": "Secrets & NHI",
+    "section": "Security & AppSec",
     "pinned": false,
     "note": null,
     "labels": [
-      "5 sources",
-      "Secrets & NHI",
-      "5h ago"
+      "3 sources",
+      "Security & AppSec",
+      "3h ago"
     ],
     "also": [
       {
-        "name": "macrumors.com",
-        "link": "https://www.macrumors.com/2026/11/19/uk-loses-secrecy-fight-over-apple-backdoor-order/"
+        "name": "securityweek.com",
+        "link": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/"
       },
       {
-        "name": "privacyinternational.org",
-        "link": "https://privacyinternational.org/news-analysis/5896/win-tribunal-orders-uk-government-come-clean-about-secret-order-apple/"
-      },
-      {
-        "name": "macanorak.com",
-        "link": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/"
-      },
-      {
-        "name": "ft.com",
-        "link": "https://www.ft.com/content/46a5cf3c-a827-477f-b72f-e7415565e729"
+        "name": "bleepingcomputer.com",
+        "link": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/"
       }
     ]
   },
@@ -43,7 +35,7 @@
       "link_domain": "reuters.com",
       "source": "Hacker News",
       "domain": "reuters.com",
-      "meta": "Hacker News · 1k points · 2k comments · 13h ago",
+      "meta": "Hacker News · 1.1k points · 2.1k comments · 17h ago",
       "also": [],
       "image": null,
       "icon": "https://www.reuters.com/favicon.ico"
@@ -55,7 +47,7 @@
       "link_domain": "ounapuu.ee",
       "source": "Hacker News",
       "domain": "ounapuu.ee",
-      "meta": "Hacker News · 514 points · 206 comments · 13h ago",
+      "meta": "Hacker News · 555 points · 223 comments · 17h ago",
       "also": [],
       "image": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/media/cover_hu_5a6285e4518135fc.jpg",
       "icon": "https://ounapuu.ee/apple-touch-icon.png"
@@ -67,7 +59,7 @@
       "link_domain": "anthropic.com",
       "source": "Hacker News",
       "domain": "anthropic.com",
-      "meta": "Hacker News · 453 points · 215 comments · 12h ago",
+      "meta": "Hacker News · 501 points · 231 comments · 16h ago",
       "also": [],
       "image": "https://assets.claude.com/57a443b51d13727573b7c1290130d09c5f434b2c.jpg",
       "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png"
@@ -79,7 +71,7 @@
       "link_domain": "git-aarvin.github.io",
       "source": "Hacker News",
       "domain": "git-aarvin.github.io",
-      "meta": "Hacker News · 329 points · 192 comments · 6h ago",
+      "meta": "Hacker News · 347 points · 219 comments · 10h ago",
       "also": [],
       "image": "https://git-aarvin.github.io/mei/scatter/cost.png",
       "icon": "https://git-aarvin.github.io/favicon.ico"
@@ -91,22 +83,34 @@
       "link_domain": "jschuster.org",
       "source": "Lobsters",
       "domain": "jschuster.org",
-      "meta": "Lobsters · 34 points · 20 comments · 16h ago",
+      "meta": "Lobsters · 39 points · 22 comments · 20h ago",
       "also": [],
       "image": "https://jschuster.org/blog/wp-content/uploads/2026/10/page_6.png",
       "icon": "https://jschuster.org/favicon.ico"
     },
     {
-      "title": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
+      "title": "Pete Warden on local AI, open models, voice interfaces, the future of hardware",
       "thread": "https://news.ycombinator.com/item?id=50561508",
       "link": "https://thedataexchange.media/pete-warden-moonshine/",
       "link_domain": "thedataexchange.media",
       "source": "Hacker News",
       "domain": "thedataexchange.media",
-      "meta": "Hacker News · 226 points · 209 comments · 14h ago",
+      "meta": "Hacker News · 245 points · 219 comments · 18h ago",
       "also": [],
       "image": "https://thedataexchange.media/wp-content/uploads/2026/11/pete-warden-local-ai.001.jpeg",
       "icon": "https://i0.wp.com/thedataexchange.media/wp-content/uploads/2022/08/cropped-logo-DE.jpg?fit=180%2C180&ssl=1"
+    },
+    {
+      "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
+      "thread": "https://news.ycombinator.com/item?id=50569226",
+      "link": "https://github.com/openssl/openssl/pull/33652",
+      "link_domain": "github.com",
+      "source": "Hacker News",
+      "domain": "github.com",
+      "meta": "Hacker News · 244 points · 191 comments · 8h ago",
+      "also": [],
+      "image": "https://opengraph.githubassets.com/d916370b558eb3cac8dc01b88d8ab926b071f58101c5310fdc4b4b5b880d0aa7/openssl/openssl/pull/33652",
+      "icon": "https://github.githubassets.com/favicons/favicon.svg"
     },
     {
       "title": "Show HN: Cornhole News – A Hacker News inspired site for news across the Midwest",
@@ -115,10 +119,22 @@
       "link_domain": "cornholenews.news",
       "source": "Hacker News",
       "domain": "cornholenews.news",
-      "meta": "Hacker News · 207 points · 96 comments · 14h ago",
+      "meta": "Hacker News · 224 points · 103 comments · 18h ago",
       "also": [],
       "image": "https://cornholenews.news/opengraph-image",
       "icon": "https://cornholenews.news/apple-icon.png?apple-icon.27haiq0vymcyy.png"
+    },
+    {
+      "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
+      "thread": "https://news.ycombinator.com/item?id=50568082",
+      "link": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87",
+      "link_domain": "wsj.com",
+      "source": "Hacker News",
+      "domain": "wsj.com",
+      "meta": "Hacker News · 174 points · 45 comments · 10h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.wsj.com/favicon.ico"
     },
     {
       "title": "Ruby2Shell (GHSA-34m4-m9fh-gqp5)",
@@ -127,34 +143,10 @@
       "link_domain": "verialabs.com",
       "source": "Lobsters",
       "domain": "verialabs.com",
-      "meta": "Lobsters · 25 points · 6 comments · 19h ago",
+      "meta": "Lobsters · 26 points · 6 comments · 23h ago",
       "also": [],
       "image": "https://verialabs.com/og/ruby2shell.png",
       "icon": "https://verialabs.com/apple-touch-icon.png"
-    },
-    {
-      "title": "AI isn't replacing your job. It's turning it into low-paid gig work",
-      "thread": "https://news.ycombinator.com/item?id=50562500",
-      "link": "https://restofworld.org/2026/ai-jobs-skills-gig-work/",
-      "link_domain": "restofworld.org",
-      "source": "Hacker News",
-      "domain": "restofworld.org",
-      "meta": "Hacker News · 128 points · 65 comments · 13h ago",
-      "also": [],
-      "image": "https://restofworld.org/wp-content/uploads/2026/11/GettyImages-2279457745.jpg",
-      "icon": "https://restofworld.org/wp-content/themes/orbis/assets/icons/icon-57.png?1"
-    },
-    {
-      "title": "Chrome AI features wasting much bandwidth",
-      "thread": "https://news.ycombinator.com/item?id=50562636",
-      "link": "https://perishablepress.com/chrome-ai-wasting-much-bandwidth/",
-      "link_domain": "perishablepress.com",
-      "source": "Hacker News",
-      "domain": "perishablepress.com",
-      "meta": "Hacker News · 128 points · 49 comments · 13h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://perishablepress.com/apple-touch-icon.png"
     }
   ],
   "sections": [
@@ -171,7 +163,7 @@
           "icon": "https://stackoverflow.blog/apple-touch-icon.png",
           "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 6.773,
+          "score": 6.065,
           "coverage": 1
         },
         {
@@ -184,7 +176,7 @@
           "icon": null,
           "domain": "blog.google",
           "hn": null,
-          "score": 3.237,
+          "score": 2.796,
           "coverage": 1
         },
         {
@@ -197,7 +189,7 @@
           "icon": null,
           "domain": "research.google",
           "hn": null,
-          "score": 0.653,
+          "score": 0.553,
           "coverage": 1
         }
       ],
@@ -212,7 +204,7 @@
           "icon": null,
           "domain": "newsletter.pragmaticengineer.com",
           "hn": null,
-          "score": 0.577,
+          "score": 0.498,
           "coverage": 1
         },
         {
@@ -225,7 +217,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.943,
+          "score": 0.749,
           "coverage": 1
         },
         {
@@ -238,7 +230,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.674,
+          "score": 0.568,
           "coverage": 1
         },
         {
@@ -251,7 +243,7 @@
           "icon": "https://stackoverflow.blog/apple-touch-icon.png",
           "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 0.431,
+          "score": 0.385,
           "coverage": 1
         },
         {
@@ -264,7 +256,7 @@
           "icon": null,
           "domain": "blog.google",
           "hn": null,
-          "score": 0.597,
+          "score": 0.513,
           "coverage": 1
         }
       ]
@@ -281,21 +273,21 @@
           "image": null,
           "icon": "https://getagentmall.com/favicon.svg",
           "domain": "getagentmall.com",
-          "hn": "18 points · 4 comments",
-          "score": 5.75,
+          "hn": "19 points · 6 comments",
+          "score": 5.042,
           "coverage": 1
         },
         {
-          "title": "Explore the Codex Security Plugin",
-          "link": "https://openai.com/business/learn/codex-security-plugin-demo",
-          "excerpt": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
-          "source": "OpenAI News",
-          "date": "Nov 19",
-          "image": null,
-          "icon": "https://openai.com/favicon.ico",
-          "domain": "openai.com",
+          "title": "[AINews] Anthropic successfully completes largest IPO in history, valued at $1.5T",
+          "link": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
+          "excerpt": "November 19, 2026 — ANT went from $83 at pricing to $111.50 at the open and $97.17 at the close. Plus, Google opens Genie 4 to developers.",
+          "source": "Latent Space",
+          "date": "Nov 20",
+          "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/fa96cf86-1eeb-4a71-b823-1f70fc69815f/image.png?t=1795158325",
+          "icon": null,
+          "domain": "latent.space",
           "hn": null,
-          "score": 2.946,
+          "score": 1.009,
           "coverage": 1
         },
         {
@@ -308,11 +300,24 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.827,
+          "score": 0.679,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "Explore the Codex Security Plugin",
+          "link": "https://openai.com/business/learn/codex-security-plugin-demo",
+          "excerpt": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+          "source": "OpenAI News",
+          "date": "Nov 19",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 2.692,
+          "coverage": 1
+        },
         {
           "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
           "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
@@ -323,7 +328,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 2.292,
+          "score": 2.054,
           "coverage": 1
         },
         {
@@ -336,7 +341,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.445,
+          "score": 0.407,
           "coverage": 1
         },
         {
@@ -349,7 +354,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 2.946,
+          "score": 2.692,
           "coverage": 1
         },
         {
@@ -362,7 +367,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.445,
+          "score": 0.407,
           "coverage": 1
         }
       ]
@@ -380,7 +385,7 @@
           "icon": null,
           "domain": "blog.pragmaticengineer.com",
           "hn": null,
-          "score": 2.695,
+          "score": 2.302,
           "coverage": 1
         },
         {
@@ -393,7 +398,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.828,
+          "score": 0.68,
           "coverage": 1
         },
         {
@@ -406,7 +411,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.356,
+          "score": 0.326,
           "coverage": 1
         }
       ],
@@ -425,7 +430,7 @@
           "icon": "https://goteleport.com/blog/static/apple.png",
           "domain": "goteleport.com",
           "hn": null,
-          "score": 0.285,
+          "score": 0.26,
           "coverage": 1
         },
         {
@@ -438,7 +443,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 0.356,
+          "score": 0.326,
           "coverage": 1
         }
       ],
@@ -457,34 +462,21 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 7.105,
+          "score": 6.063,
           "coverage": 1
         },
         {
-          "title": "UK government forced to admit it issued Apple a secret encryption order",
-          "link": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
-          "excerpt": "The Investigatory Powers Tribunal has rejected the UK government’s attempt to keep its order secret, marking a significant victory for transparency.",
-          "source": "macanorak.com via Hacker News",
-          "date": "Nov 19",
-          "image": "https://macanorak.com/content/images/2026/11/Apple.jpg",
-          "icon": "https://macanorak.com/content/images/2026/10/MA-Staff-Logo-New.png?v=3",
-          "domain": "macanorak.com",
-          "hn": "589 points · 266 comments",
-          "score": 15.121,
-          "coverage": 5
-        },
-        {
-          "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
-          "link": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87",
-          "excerpt": "160 points · 42 comments",
-          "source": "wsj.com via Hacker News",
-          "date": "Nov 19",
-          "image": null,
-          "icon": "https://www.wsj.com/favicon.ico",
-          "domain": "wsj.com",
-          "hn": "160 points · 42 comments",
-          "score": 11.582,
-          "coverage": 2
+          "title": "React2STEAL: Hijacked GitHub Accounts Exploit React2Shell and Publish Stolen Secrets",
+          "link": "https://blog.gitguardian.com/react2steal-hijacked-github-accounts-exploit-react2shell-and-publish-stolen-secrets/",
+          "excerpt": "React2STEAL uses GitHub Actions in hijacked accounts to exploit React2Shell (CVE-2025-55182) on Next.js servers, then commits stolen environment variables, cloud keys, and AI API keys to public repositories. Patch, then revoke every secret the server could reach.",
+          "source": "GitGuardian",
+          "date": "Nov 20",
+          "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/11/react2shell-vulnerability-news-thumbnail.png",
+          "icon": null,
+          "domain": "blog.gitguardian.com",
+          "hn": null,
+          "score": 6.454,
+          "coverage": 1
         }
       ],
       "more": []
@@ -502,7 +494,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 2.257,
+          "score": 2.063,
           "coverage": 1
         },
         {
@@ -515,7 +507,7 @@
           "icon": null,
           "domain": "openssf.org",
           "hn": null,
-          "score": 0.723,
+          "score": 0.607,
           "coverage": 1
         },
         {
@@ -528,7 +520,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.285,
+          "score": 0.26,
           "coverage": 1
         }
       ],
@@ -543,7 +535,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.285,
+          "score": 0.26,
           "coverage": 1
         }
       ]
@@ -561,7 +553,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 1.744,
+          "score": 1.49,
           "coverage": 1
         },
         {
@@ -574,9 +566,24 @@
           "icon": null,
           "domain": "snyk.io",
           "hn": null,
-          "score": 0.788,
+          "score": 0.714,
           "coverage": 1
         },
+        {
+          "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
+          "link": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
+          "excerpt": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS. \"ROMULUS likely operates as a delivery service, distributing CNCMachineRMS and Legion Loader through…",
+          "source": "The Hacker News",
+          "date": "Nov 20",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjugg63OPJwZuh94vDIg7MkA4YoeLKr5sjiqI6CEgjvDjUvJ-pBJOfUrUBxPUTbartqVwdldczbKSYo6lpkcVic1EDQYIDyWq12zMdMONjpDtK4NKCgkppAWvnOJpXe7prfmRG8WNpH0RrQ0bhX2nZKGpRy33y0OMZraBjEPoDorp9h3kNJSa-IQrJC7Nl5/s1600/cf.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.484,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
           "link": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
@@ -587,11 +594,9 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 3.998,
+          "score": 3.042,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
           "link": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
@@ -602,59 +607,33 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.287,
+          "score": 0.248,
           "coverage": 1
         },
         {
-          "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
-          "link": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
-          "excerpt": "Google says a China-linked espionage group exploited a critical VMware vCenter authentication bypass before Broadcom released a patch. The post Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT appeared first on SecurityWeek.",
+          "title": "N-able Blames Service Disruption on Cyberattack",
+          "link": "https://www.securityweek.com/n-able-blames-service-disruption-on-cyberattack/",
+          "excerpt": "The incident affected Mail Assure and SpamExperts Hosted Cloud and could have led to credential theft. The post N-able Blames Service Disruption on Cyberattack appeared first on SecurityWeek.",
           "source": "SecurityWeek",
-          "date": "Nov 19",
-          "image": "https://www.securityweek.com/wp-content/uploads/2022/08/VMWare.jpg",
+          "date": "Nov 20",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/08/N-Able.jpeg",
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 4.483,
-          "coverage": 2
-        },
-        {
-          "title": "PHP Patches Seven Critical RCE Vulnerabilities",
-          "link": "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/",
-          "excerpt": "Successful exploitation could allow attackers to crash the worker process and execute code with the PHP worker’s privileges. The post PHP Patches Seven Critical RCE Vulnerabilities appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 19",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/10/php-exploit-code.webp",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 5.021,
-          "coverage": 3
-        },
-        {
-          "title": "Nvidia Responds to Gentlemen Ransomware Claim",
-          "link": "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/",
-          "excerpt": "Nvidia says it has found no indication that its systems were compromised after the Gentlemen ransomware group listed the company as a victim. The post Nvidia Responds to Gentlemen Ransomware Claim appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 19",
-          "image": "https://www.securityweek.com/wp-content/uploads/2024/07/Nvidia.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 1.812,
+          "score": 0.557,
           "coverage": 1
         },
         {
-          "title": "Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release",
-          "link": "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/",
-          "excerpt": "Attackers hacked clustered Cisco Expressway devices at a Russian organization and prepared tooling for lateral movement. The post Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release appeared first on SecurityWeek.",
+          "title": "JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak",
+          "link": "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
+          "excerpt": "The companies point to third-party providers after the N0n extortion group leaked data allegedly tied to their customers. The post JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak appeared first on SecurityWeek.",
           "source": "SecurityWeek",
-          "date": "Nov 19",
-          "image": "https://www.securityweek.com/wp-content/uploads/2025/09/Cisco-firewall.jpeg",
+          "date": "Nov 20",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/visa-mastercard.jpeg",
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.249,
+          "score": 3.483,
           "coverage": 1
         }
       ]
@@ -672,7 +651,7 @@
           "icon": null,
           "domain": "about.gitlab.com",
           "hn": null,
-          "score": 2.779,
+          "score": 2.54,
           "coverage": 1
         },
         {
@@ -685,7 +664,7 @@
           "icon": null,
           "domain": "about.gitlab.com",
           "hn": null,
-          "score": 2.405,
+          "score": 2.198,
           "coverage": 1
         },
         {
@@ -698,7 +677,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 3.088,
+          "score": 2.667,
           "coverage": 1
         }
       ],
@@ -713,7 +692,7 @@
           "icon": null,
           "domain": "about.gitlab.com",
           "hn": null,
-          "score": 2.116,
+          "score": 1.934,
           "coverage": 1
         },
         {
@@ -726,7 +705,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.448,
+          "score": 2.145,
           "coverage": 1
         },
         {
@@ -739,7 +718,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 4.062,
+          "score": 3.292,
           "coverage": 1
         },
         {
@@ -752,7 +731,7 @@
           "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
           "domain": "about.gitlab.com",
           "hn": null,
-          "score": 2.042,
+          "score": 1.867,
           "coverage": 1
         },
         {
@@ -783,7 +762,7 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 3.31,
+          "score": 2.753,
           "coverage": 1
         },
         {
@@ -796,7 +775,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 3.077,
+          "score": 2.501,
           "coverage": 1
         },
         {
@@ -809,7 +788,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 2.591,
+          "score": 2.17,
           "coverage": 1
         }
       ],
@@ -824,7 +803,7 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 3.448,
+          "score": 2.881,
           "coverage": 2
         },
         {
@@ -837,46 +816,46 @@
           "icon": null,
           "domain": "spectrum.ieee.org",
           "hn": null,
-          "score": 1.759,
+          "score": 1.501,
           "coverage": 1
         },
         {
-          "title": "Google is pushing OEMs against GrapheneOS and bootloader unlocking",
-          "link": "https://grapheneos.social/@GrapheneOS/117645038299496084",
-          "excerpt": "Google is sabotaging their OEM partners by making a growing number of features and updates exclusive to Pixels. At the same time, Google is trying to convince OEM partners not to support GrapheneOS or even bootloader unlocking. They're also trying to harm GrapheneOS directly.",
-          "source": "grapheneos.social via Hacker News",
+          "title": "\"I can tell you wrote this yourself\"",
+          "link": "https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/",
+          "excerpt": "Those were some of the first words my honours project supervisor said to me last week when we met to discuss a progress report I had written to mark the midw...",
+          "source": "em-online.bearblog.dev via Hacker News",
           "date": "Nov 20",
-          "image": null,
-          "icon": "https://grapheneos.social/packs/assets/apple-touch-icon-57x57-BsPGHSez.png",
-          "domain": "grapheneos.social",
-          "hn": "35 points · 3 comments",
-          "score": 2.77,
+          "image": "https://bearblog.dev/static/og-image.png",
+          "icon": "https://em-online.bearblog.dev/favicon.ico",
+          "domain": "em-online.bearblog.dev",
+          "hn": "135 points · 135 comments",
+          "score": 3.421,
+          "coverage": 1
+        },
+        {
+          "title": "Jujutsu Primer",
+          "link": "https://ethanlowman.com/posts/jj-primer/",
+          "excerpt": "A short tour through the basics of the Jujutsu version control system.",
+          "source": "ethanlowman.com via Hacker News",
+          "date": "Nov 20",
+          "image": "https://ethanlowman.com/img/penrose.png",
+          "icon": "https://ethanlowman.com/img/penrose_icon.png",
+          "domain": "ethanlowman.com",
+          "hn": "113 points · 74 comments",
+          "score": 2.937,
           "coverage": 1
         },
         {
           "title": "FFmpeg 9.1 'Gauss'",
           "link": "https://ffmpeg.org/download.html#release_9.1",
-          "excerpt": "15 points · 6 comments",
+          "excerpt": "128 points · 23 comments",
           "source": "ffmpeg.org via Hacker News",
           "date": "Nov 20",
           "image": null,
           "icon": "https://ffmpeg.org/favicon.ico",
           "domain": "ffmpeg.org",
-          "hn": "15 points · 6 comments",
-          "score": 2.188,
-          "coverage": 1
-        },
-        {
-          "title": "GIMP now has UI tests",
-          "link": "https://www.gimp.org/news/2026/11/16/gimp-ui-tests/",
-          "excerpt": "GIMP now has automatic tests that use the user interface in the same way as a person.",
-          "source": "gimp.org via Hacker News",
-          "date": "Nov 20",
-          "image": "https://www.gimp.org/downloads/downloadsplash-aryeom.jpg",
-          "icon": "https://www.gimp.org/images/wilber32.png",
-          "domain": "gimp.org",
-          "hn": "41 points · 22 comments",
-          "score": 2.786,
+          "hn": "128 points · 23 comments",
+          "score": 2.562,
           "coverage": 1
         }
       ]
