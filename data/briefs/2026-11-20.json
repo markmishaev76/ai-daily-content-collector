@@ -1,31 +1,21 @@
 {
   "date": "2026-11-20",
   "lead": {
-    "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-    "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
-    "excerpt": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of…",
-    "source": "The Hacker News",
+    "title": "Apple is building an AI agent",
+    "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+    "excerpt": "Apple’s going agentic.",
+    "source": "theverge.com via Hacker News",
     "date": "Nov 20",
-    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTSAI-N-DRII1YA3I98ZVnKnG0SMgm97oEAqyiSXZB23DPwzvTk3figFLsTCKsMJRxRhjKEPFblxfcOuB_UXc_OAXJRiVI07Jxjn-CebJVHiRQ5sc43AifBpUPNfU5-LRD6QEGbX7Vnt_HAmJZiLojS32PtNWwIWeideJZnIpgjrstJ0Iy84lYd47bePk/s1600/chinese-vmware.jpg",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DSC04239.jpg?quality=90&strip=all&crop=0%2C10.628272251309%2C100%2C78.743455497382&w=1200",
     "image_credit": null,
-    "section": "Security & AppSec",
+    "section": "AI Agents & Agent Security",
     "pinned": false,
     "note": null,
     "labels": [
-      "3 sources",
-      "Security & AppSec",
-      "3h ago"
+      "AI Agents & Agent Security",
+      "2h ago"
     ],
-    "also": [
-      {
-        "name": "securityweek.com",
-        "link": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/"
-      },
-      {
-        "name": "bleepingcomputer.com",
-        "link": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/"
-      }
-    ]
+    "also": []
   },
   "pulse": [
     {
@@ -35,7 +25,7 @@
       "link_domain": "reuters.com",
       "source": "Hacker News",
       "domain": "reuters.com",
-      "meta": "Hacker News · 1.1k points · 2.1k comments · 17h ago",
+      "meta": "Hacker News · 1.1k points · 2.2k comments · 20h ago",
       "also": [],
       "image": null,
       "icon": "https://www.reuters.com/favicon.ico"
@@ -47,7 +37,7 @@
       "link_domain": "ounapuu.ee",
       "source": "Hacker News",
       "domain": "ounapuu.ee",
-      "meta": "Hacker News · 555 points · 223 comments · 17h ago",
+      "meta": "Hacker News · 570 points · 229 comments · 21h ago",
       "also": [],
       "image": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/media/cover_hu_5a6285e4518135fc.jpg",
       "icon": "https://ounapuu.ee/apple-touch-icon.png"
@@ -59,7 +49,7 @@
       "link_domain": "anthropic.com",
       "source": "Hacker News",
       "domain": "anthropic.com",
-      "meta": "Hacker News · 501 points · 231 comments · 16h ago",
+      "meta": "Hacker News · 517 points · 242 comments · 20h ago",
       "also": [],
       "image": "https://assets.claude.com/57a443b51d13727573b7c1290130d09c5f434b2c.jpg",
       "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png"
@@ -71,34 +61,10 @@
       "link_domain": "git-aarvin.github.io",
       "source": "Hacker News",
       "domain": "git-aarvin.github.io",
-      "meta": "Hacker News · 347 points · 219 comments · 10h ago",
+      "meta": "Hacker News · 353 points · 226 comments · 13h ago",
       "also": [],
       "image": "https://git-aarvin.github.io/mei/scatter/cost.png",
       "icon": "https://git-aarvin.github.io/favicon.ico"
-    },
-    {
-      "title": "Design for Understandability",
-      "thread": "https://lobste.rs/s/qsrnot/design_for_understandability",
-      "link": "https://jschuster.org/blog/2026/11/19/design-for-understandability/",
-      "link_domain": "jschuster.org",
-      "source": "Lobsters",
-      "domain": "jschuster.org",
-      "meta": "Lobsters · 39 points · 22 comments · 20h ago",
-      "also": [],
-      "image": "https://jschuster.org/blog/wp-content/uploads/2026/10/page_6.png",
-      "icon": "https://jschuster.org/favicon.ico"
-    },
-    {
-      "title": "Pete Warden on local AI, open models, voice interfaces, the future of hardware",
-      "thread": "https://news.ycombinator.com/item?id=50561508",
-      "link": "https://thedataexchange.media/pete-warden-moonshine/",
-      "link_domain": "thedataexchange.media",
-      "source": "Hacker News",
-      "domain": "thedataexchange.media",
-      "meta": "Hacker News · 245 points · 219 comments · 18h ago",
-      "also": [],
-      "image": "https://thedataexchange.media/wp-content/uploads/2026/11/pete-warden-local-ai.001.jpeg",
-      "icon": "https://i0.wp.com/thedataexchange.media/wp-content/uploads/2022/08/cropped-logo-DE.jpg?fit=180%2C180&ssl=1"
     },
     {
       "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
@@ -107,10 +73,22 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 244 points · 191 comments · 8h ago",
+      "meta": "Hacker News · 302 points · 249 comments · 11h ago",
       "also": [],
       "image": "https://opengraph.githubassets.com/d916370b558eb3cac8dc01b88d8ab926b071f58101c5310fdc4b4b5b880d0aa7/openssl/openssl/pull/33652",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
+    },
+    {
+      "title": "Pete Warden on local AI, open models, voice interfaces, the future of hardware",
+      "thread": "https://news.ycombinator.com/item?id=50561508",
+      "link": "https://thedataexchange.media/pete-warden-moonshine/",
+      "link_domain": "thedataexchange.media",
+      "source": "Hacker News",
+      "domain": "thedataexchange.media",
+      "meta": "Hacker News · 263 points · 228 comments · 21h ago",
+      "also": [],
+      "image": "https://thedataexchange.media/wp-content/uploads/2026/11/pete-warden-local-ai.001.jpeg",
+      "icon": "https://i0.wp.com/thedataexchange.media/wp-content/uploads/2022/08/cropped-logo-DE.jpg?fit=180%2C180&ssl=1"
     },
     {
       "title": "Show HN: Cornhole News – A Hacker News inspired site for news across the Midwest",
@@ -119,7 +97,7 @@
       "link_domain": "cornholenews.news",
       "source": "Hacker News",
       "domain": "cornholenews.news",
-      "meta": "Hacker News · 224 points · 103 comments · 18h ago",
+      "meta": "Hacker News · 229 points · 106 comments · 21h ago",
       "also": [],
       "image": "https://cornholenews.news/opengraph-image",
       "icon": "https://cornholenews.news/apple-icon.png?apple-icon.27haiq0vymcyy.png"
@@ -131,22 +109,34 @@
       "link_domain": "wsj.com",
       "source": "Hacker News",
       "domain": "wsj.com",
-      "meta": "Hacker News · 174 points · 45 comments · 10h ago",
+      "meta": "Hacker News · 184 points · 45 comments · 14h ago",
       "also": [],
       "image": null,
       "icon": "https://www.wsj.com/favicon.ico"
     },
     {
-      "title": "Ruby2Shell (GHSA-34m4-m9fh-gqp5)",
-      "thread": "https://lobste.rs/s/usdf7t/ruby2shell_ghsa_34m4_m9fh_gqp5",
-      "link": "https://verialabs.com/ruby2shell/",
-      "link_domain": "verialabs.com",
-      "source": "Lobsters",
-      "domain": "verialabs.com",
-      "meta": "Lobsters · 26 points · 6 comments · 23h ago",
+      "title": "Synology Security Advisory",
+      "thread": "https://news.ycombinator.com/item?id=50567209",
+      "link": "https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21",
+      "link_domain": "synology.com",
+      "source": "Hacker News",
+      "domain": "synology.com",
+      "meta": "Hacker News · 165 points · 121 comments · 15h ago",
       "also": [],
-      "image": "https://verialabs.com/og/ruby2shell.png",
-      "icon": "https://verialabs.com/apple-touch-icon.png"
+      "image": "https://fileres.synology.com/images/common/meta-tag-preview-image/img_synology.jpg",
+      "icon": "https://fileres.synology.com/images/common/favicon/syno/icon-180x180.png"
+    },
+    {
+      "title": "AI isn't replacing your job. It's turning it into low-paid gig work",
+      "thread": "https://news.ycombinator.com/item?id=50562500",
+      "link": "https://restofworld.org/2026/ai-jobs-skills-gig-work/",
+      "link_domain": "restofworld.org",
+      "source": "Hacker News",
+      "domain": "restofworld.org",
+      "meta": "Hacker News · 141 points · 70 comments · 20h ago",
+      "also": [],
+      "image": "https://restofworld.org/wp-content/uploads/2026/11/GettyImages-2279457745.jpg",
+      "icon": "https://restofworld.org/wp-content/themes/orbis/assets/icons/icon-57.png?1"
     }
   ],
   "sections": [
@@ -163,7 +153,7 @@
           "icon": "https://stackoverflow.blog/apple-touch-icon.png",
           "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 6.065,
+          "score": 4.805,
           "coverage": 1
         },
         {
@@ -176,7 +166,7 @@
           "icon": null,
           "domain": "blog.google",
           "hn": null,
-          "score": 2.796,
+          "score": 2.494,
           "coverage": 1
         },
         {
@@ -189,7 +179,7 @@
           "icon": null,
           "domain": "research.google",
           "hn": null,
-          "score": 0.553,
+          "score": 0.488,
           "coverage": 1
         }
       ],
@@ -204,7 +194,7 @@
           "icon": null,
           "domain": "newsletter.pragmaticengineer.com",
           "hn": null,
-          "score": 0.498,
+          "score": 0.444,
           "coverage": 1
         },
         {
@@ -217,7 +207,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.749,
+          "score": 0.633,
           "coverage": 1
         },
         {
@@ -230,7 +220,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.568,
+          "score": 0.499,
           "coverage": 1
         },
         {
@@ -243,7 +233,7 @@
           "icon": "https://stackoverflow.blog/apple-touch-icon.png",
           "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 0.385,
+          "score": 0.352,
           "coverage": 1
         },
         {
@@ -256,7 +246,7 @@
           "icon": null,
           "domain": "blog.google",
           "hn": null,
-          "score": 0.513,
+          "score": 0.456,
           "coverage": 1
         }
       ]
@@ -265,16 +255,16 @@
       "name": "AI Agents & Agent Security",
       "cards": [
         {
-          "title": "Show HN: AgentMall – Let your AI agent buy groceries",
-          "link": "https://getagentmall.com",
-          "excerpt": "One API for your personal agent to search, build a basket and check out at real stores, with spending limits, vaulted credentials and a virtual card per agent.",
-          "source": "getagentmall.com via Hacker News",
+          "title": "Explore the Codex Security Plugin",
+          "link": "https://openai.com/business/learn/codex-security-plugin-demo",
+          "excerpt": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+          "source": "OpenAI News",
           "date": "Nov 19",
           "image": null,
-          "icon": "https://getagentmall.com/favicon.svg",
-          "domain": "getagentmall.com",
-          "hn": "19 points · 6 comments",
-          "score": 5.042,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 2.502,
           "coverage": 1
         },
         {
@@ -287,7 +277,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 1.009,
+          "score": 0.816,
           "coverage": 1
         },
         {
@@ -300,24 +290,11 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.679,
+          "score": 0.586,
           "coverage": 1
         }
       ],
       "more": [
-        {
-          "title": "Explore the Codex Security Plugin",
-          "link": "https://openai.com/business/learn/codex-security-plugin-demo",
-          "excerpt": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
-          "source": "OpenAI News",
-          "date": "Nov 19",
-          "image": null,
-          "icon": "https://openai.com/favicon.ico",
-          "domain": "openai.com",
-          "hn": null,
-          "score": 2.692,
-          "coverage": 1
-        },
         {
           "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
           "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
@@ -328,7 +305,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 2.054,
+          "score": 1.88,
           "coverage": 1
         },
         {
@@ -341,7 +318,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.407,
+          "score": 0.378,
           "coverage": 1
         },
         {
@@ -354,7 +331,7 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 2.692,
+          "score": 2.502,
           "coverage": 1
         },
         {
@@ -367,7 +344,20 @@
           "icon": "https://openai.com/favicon.ico",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.407,
+          "score": 0.378,
+          "coverage": 1
+        },
+        {
+          "title": "Opening a 400-Year-Old Cryptex",
+          "link": "https://www.schneier.com/blog/archives/2026/11/opening-a-400-year-old-cryptex.html",
+          "excerpt": "Researchers used CT scanning technology to recover the code and open a 400-year-old cryptex padlock. You can buy a USB-drive cryptex.",
+          "source": "Schneier on Security",
+          "date": "Nov 20",
+          "image": null,
+          "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+          "domain": "schneier.com",
+          "hn": null,
+          "score": 1.111,
           "coverage": 1
         }
       ]
@@ -385,7 +375,20 @@
           "icon": null,
           "domain": "blog.pragmaticengineer.com",
           "hn": null,
-          "score": 2.302,
+          "score": 2.039,
+          "coverage": 1
+        },
+        {
+          "title": "Sharp Tech on Video: Jensen’s Not Coming Back, AI Shopping, The iPhone Duo",
+          "link": "https://stratechery.com/2026/sharp-tech-on-video-jensens-not-coming-back-ai-shopping-the-iphone-duo/",
+          "excerpt": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery",
+          "source": "Stratechery by Ben Thompson",
+          "date": "Nov 20",
+          "image": "https://i0.wp.com/stratechery.com/wp-content/uploads/2026/11/301-thumbnail-scaled.jpeg?fit=1200%2C675&ssl=1",
+          "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
+          "domain": "stratechery.com",
+          "hn": null,
+          "score": 1.029,
           "coverage": 1
         },
         {
@@ -398,9 +401,11 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.68,
+          "score": 0.586,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Author Talks: Defining customer needs locally to create global value",
           "link": "https://www.mckinsey.com/featured-insights/mckinsey-on-books/author-talks-defining-customer-needs-locally-to-create-global-value",
@@ -411,11 +416,10 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.326,
+          "score": 0.303,
           "coverage": 1
         }
-      ],
-      "more": []
+      ]
     },
     {
       "name": "Agent Identity & Authorization",
@@ -430,7 +434,7 @@
           "icon": "https://goteleport.com/blog/static/apple.png",
           "domain": "goteleport.com",
           "hn": null,
-          "score": 0.26,
+          "score": 0.242,
           "coverage": 1
         },
         {
@@ -443,7 +447,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 0.326,
+          "score": 0.303,
           "coverage": 1
         }
       ],
@@ -462,7 +466,7 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 6.063,
+          "score": 5.365,
           "coverage": 1
         },
         {
@@ -475,7 +479,7 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 6.454,
+          "score": 5.082,
           "coverage": 1
         }
       ],
@@ -494,7 +498,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 2.063,
+          "score": 1.917,
           "coverage": 1
         },
         {
@@ -507,7 +511,7 @@
           "icon": null,
           "domain": "openssf.org",
           "hn": null,
-          "score": 0.607,
+          "score": 0.532,
           "coverage": 1
         },
         {
@@ -520,7 +524,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.26,
+          "score": 0.242,
           "coverage": 1
         }
       ],
@@ -535,7 +539,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 0.26,
+          "score": 0.242,
           "coverage": 1
         }
       ]
@@ -543,6 +547,19 @@
     {
       "name": "Security & AppSec",
       "cards": [
+        {
+          "title": "The Path to AI Autonomy in the SOC",
+          "link": "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html",
+          "excerpt": "Security leaders are about to hand AI agents a lot more authority. In a recent a16z survey of CISOs at organizations with more than 1,000 employees, 36% said they are comfortable today letting AI agents act autonomously on low-risk security actions. In 12 months from now, 60% expect to be…",
+          "source": "The Hacker News",
+          "date": "Nov 20",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGn0ym0Vqfakc2h3h2W6AT6gf5qd6RPkfrgV-Z2UgwDErad91v-nJoIu3OYwEC3IvLQ6rVGm6FIQypMcoTahAgL5_62ipKE1aQsZvqGsdJzu_4ZGaiFlCYKEpg1N5z3FRSk7O5n4uRlfDuNz7i99Ls9z1Ysee3iV4OCMTxG2rF8YLgCtfTOL2KA-hSQXY/s1600/INT.png",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 2.992,
+          "coverage": 1
+        },
         {
           "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
           "link": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
@@ -553,7 +570,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 1.49,
+          "score": 1.32,
           "coverage": 1
         },
         {
@@ -566,8 +583,62 @@
           "icon": null,
           "domain": "snyk.io",
           "hn": null,
-          "score": 0.714,
+          "score": 0.659,
           "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
+          "link": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+          "excerpt": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312,…",
+          "source": "The Hacker News",
+          "date": "Nov 20",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg-jisyf4SWwWYA_RUtOoVqBviv2uNAUl6vEeGjsuBA0aOhfLYw7yHitbRBxAoWcf5ZP0UcGovNmyk-u-320fLFYIyUz7jtR77GiveyLdqsZWJ0DohwBfEFyN0KlNAIpIcpS9B6jHEZJybmTu7nuKM-PhSNPco-Z1QmacaSfwWyOWLXzT2WqaEdbZ810M/s1600/vms.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 3.805,
+          "coverage": 1
+        },
+        {
+          "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
+          "link": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
+          "excerpt": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks. \"Attackers now use automation and AI to find and exploit unsupported edge devices…",
+          "source": "The Hacker News",
+          "date": "Nov 20",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGn5oji8gd4l_d6wKemSflqTX-q-eiuu4CbbV2ROvzK6Gzpeq8zPsQyGb-UO80f_M8L2pDNNyNqF1ZIdyMPGReyW0KmPb7uuAuRu1M-ZVyNu-GJvx1CRaBsaEOVjV-asFG0P__0MK0Jp3WPJmcNxATiSd6NeBzcCmy-6dLvS5yvpen0cRrwLZvgVpYAvn0/s1600/sonicwall.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.482,
+          "coverage": 1
+        },
+        {
+          "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
+          "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
+          "excerpt": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The activity involves the exploitation of CVE-2026-76466 (CVSS score: 9.8), a…",
+          "source": "The Hacker News",
+          "date": "Nov 20",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrMm7M_HyuVDt9NknngHSgyfGKu0DR8VTc_GYL-tr_hMhTmi3EAZnM8x5byJQRYEqcUAZlDTR_Xi4RcMm4lidmk9UR_iyTWpDa5Mn6xRBoNwAf3auen2u6guKxnvoIrcQOfq7Mm1clmsyBMYVcjaOqVFYiN4mXgYSyR5_DUSrmVOLDK5mQeAS8BBB3X5-5/s1600/cisco-cyberattacks.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 5.268,
+          "coverage": 2
+        },
+        {
+          "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+          "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+          "excerpt": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of…",
+          "source": "The Hacker News",
+          "date": "Nov 20",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTSAI-N-DRII1YA3I98ZVnKnG0SMgm97oEAqyiSXZB23DPwzvTk3figFLsTCKsMJRxRhjKEPFblxfcOuB_UXc_OAXJRiVI07Jxjn-CebJVHiRQ5sc43AifBpUPNfU5-LRD6QEGbX7Vnt_HAmJZiLojS32PtNWwIWeideJZnIpgjrstJ0Iy84lYd47bePk/s1600/chinese-vmware.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 6.774,
+          "coverage": 3
         },
         {
           "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
@@ -579,61 +650,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.484,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
-          "link": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
-          "excerpt": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine. The method was posted yesterday by a researcher…",
-          "source": "The Hacker News",
-          "date": "Nov 20",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRnUdcazdCteyaE1EC_aLit8CioDaJ5yvsWnawFVWQrJvYFktNRJXlW9MOJLimG_-aS1IZChVHJbjPI4CXjIbNFLjn5W686xynepfC0oWyEG81NX5CxdS-9ayumfRljgy32e2bYXDD72T6VpIFFzeCcPKwG48RDKiZExwNdF-4XDFicISSaaRtT3W2dt0/s1600/windows-lockscreen.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 3.042,
-          "coverage": 1
-        },
-        {
-          "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
-          "link": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
-          "excerpt": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the attacker to run code on the server. Today's…",
-          "source": "The Hacker News",
-          "date": "Nov 19",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEEFyvreIQgAheXoKRJxLcNgyzFh0rlydmiMfaOBIlmM7zGPc_71mCSG6zWGlpFcRQg59gVUw6NbpmFiNKIcDB3AqVA5eKpjYExWhMu-uBD_W5xu1wiYRtX5MklAgxeuHOBJOI8H9LmaIoXv7IrvFMVHvVhor06lj_ljcIDjIDAPYJ8w01X-BTA51EpOU/s1600/php-after-shell.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.248,
-          "coverage": 1
-        },
-        {
-          "title": "N-able Blames Service Disruption on Cyberattack",
-          "link": "https://www.securityweek.com/n-able-blames-service-disruption-on-cyberattack/",
-          "excerpt": "The incident affected Mail Assure and SpamExperts Hosted Cloud and could have led to credential theft. The post N-able Blames Service Disruption on Cyberattack appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 20",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/08/N-Able.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.557,
-          "coverage": 1
-        },
-        {
-          "title": "JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak",
-          "link": "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
-          "excerpt": "The companies point to third-party providers after the N0n extortion group leaked data allegedly tied to their customers. The post JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak appeared first on SecurityWeek.",
-          "source": "SecurityWeek",
-          "date": "Nov 20",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/visa-mastercard.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 3.483,
+          "score": 0.392,
           "coverage": 1
         }
       ]
@@ -651,7 +668,7 @@
           "icon": null,
           "domain": "about.gitlab.com",
           "hn": null,
-          "score": 2.54,
+          "score": 2.36,
           "coverage": 1
         },
         {
@@ -664,7 +681,7 @@
           "icon": null,
           "domain": "about.gitlab.com",
           "hn": null,
-          "score": 2.198,
+          "score": 2.042,
           "coverage": 1
         },
         {
@@ -677,11 +694,24 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.667,
+          "score": 2.38,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "Google Donates Agent Substrate and gVisor to the CNCF to Secure AI Agents at Scale",
+          "link": "https://www.infoq.com/news/2026/11/google-substrate-gvisor-cncf/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Google has announced it is donating Agent Substrate and gVisor to the Cloud Native Computing Foundation (CNCF), placing two important components of its AI agent infrastructure under vendor-neutral open-source governance. By Craig Risi",
+          "source": "InfoQ",
+          "date": "Nov 20",
+          "image": "https://res.infoq.com/news/2026/11/google-substrate-gvisor-cncf/en/headerimage/generatedHeaderImage-1794408775099.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 5.567,
+          "coverage": 1
+        },
         {
           "title": "Keep recurring work moving with scheduled automations",
           "link": "https://about.gitlab.com/blog/gitlab-scheduled-automations/",
@@ -692,7 +722,7 @@
           "icon": null,
           "domain": "about.gitlab.com",
           "hn": null,
-          "score": 1.934,
+          "score": 1.797,
           "coverage": 1
         },
         {
@@ -705,7 +735,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.145,
+          "score": 1.934,
           "coverage": 1
         },
         {
@@ -718,20 +748,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 3.292,
-          "coverage": 1
-        },
-        {
-          "title": "Cut your vulnerability backlog with agentic remediation",
-          "link": "https://about.gitlab.com/blog/gitlab-agentic-remediation/",
-          "excerpt": "Vulnerability backlogs are growing faster than teams can clear them. AI writes more code and finds more flaws, while fixes still move at human speed. NIST’s National Vulnerability Database has already published twice as many CVEs in 2026 as in all of 2025, and ceased enriching most CVEs this past…",
-          "source": "GitLab",
-          "date": "Nov 19",
-          "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/f_auto,q_auto/Blog/Hero%20Images/a72a66f82649c6dbce7bf1241e3fd001",
-          "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
-          "domain": "about.gitlab.com",
-          "hn": null,
-          "score": 1.867,
+          "score": 2.818,
           "coverage": 1
         },
         {
@@ -753,19 +770,6 @@
       "name": "News & Research",
       "cards": [
         {
-          "title": "Apple is hiring engineers to build its own AI agent",
-          "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
-          "excerpt": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg, which says Apple is looking for an engineer to lead the creation of an…",
-          "source": "The Verge",
-          "date": "Nov 19",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DSC04239.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "icon": null,
-          "domain": "theverge.com",
-          "hn": null,
-          "score": 2.753,
-          "coverage": 1
-        },
-        {
           "title": "Apple may be developing its own AI agent that runs your Mac",
           "link": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
           "excerpt": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
@@ -775,7 +779,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 2.501,
+          "score": 8.322,
           "coverage": 1
         },
         {
@@ -788,7 +792,20 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 2.17,
+          "score": 1.896,
+          "coverage": 1
+        },
+        {
+          "title": "Signal is blocking Gemini and Siri AI from reading your screen",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+          "excerpt": "Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user are \"undermining…",
+          "source": "The Verge",
+          "date": "Nov 20",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/protecting-your-privacy-1.png?quality=90&strip=all&crop=0,0,100,100",
+          "icon": null,
+          "domain": "theverge.com",
+          "hn": null,
+          "score": 3.857,
           "coverage": 1
         }
       ],
@@ -803,7 +820,7 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 2.881,
+          "score": 2.515,
           "coverage": 2
         },
         {
@@ -816,46 +833,33 @@
           "icon": null,
           "domain": "spectrum.ieee.org",
           "hn": null,
-          "score": 1.501,
+          "score": 1.329,
           "coverage": 1
         },
         {
-          "title": "\"I can tell you wrote this yourself\"",
-          "link": "https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/",
-          "excerpt": "Those were some of the first words my honours project supervisor said to me last week when we met to discuss a progress report I had written to mark the midw...",
-          "source": "em-online.bearblog.dev via Hacker News",
+          "title": "The Making of Oxygene",
+          "link": "https://jeanmicheljarre.com/aaa/the-making-of-oxygene",
+          "excerpt": "The full story of the ground-breaking Oxygene album and how it has been re-imagined for Dolby Atmos",
+          "source": "jeanmicheljarre.com via Hacker News",
           "date": "Nov 20",
-          "image": "https://bearblog.dev/static/og-image.png",
-          "icon": "https://em-online.bearblog.dev/favicon.ico",
-          "domain": "em-online.bearblog.dev",
-          "hn": "135 points · 135 comments",
-          "score": 3.421,
+          "image": "https://imcayyueqknvmognvohc.supabase.co/storage/v1/object/public/media/1789648325786-1gmqsl.webp",
+          "icon": "https://data.jeanmicheljarre.com/storage/v1/object/public/media/1791279011357-gxwl56.png",
+          "domain": "jeanmicheljarre.com",
+          "hn": "59 points · 22 comments",
+          "score": 2.77,
           "coverage": 1
         },
         {
-          "title": "Jujutsu Primer",
-          "link": "https://ethanlowman.com/posts/jj-primer/",
-          "excerpt": "A short tour through the basics of the Jujutsu version control system.",
-          "source": "ethanlowman.com via Hacker News",
+          "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+          "link": "https://architectlabs.com/blog/frostbite",
+          "excerpt": "Frostbite is a general-purpose CPU built around interaction nets, discovered, designed, and verified end-to-end by our AI systems, reaching 4.59x the performance-per-watt of a modern superscalar (dual-issue, in-order) CPU core.",
+          "source": "architectlabs.com via Hacker News",
           "date": "Nov 20",
-          "image": "https://ethanlowman.com/img/penrose.png",
-          "icon": "https://ethanlowman.com/img/penrose_icon.png",
-          "domain": "ethanlowman.com",
-          "hn": "113 points · 74 comments",
-          "score": 2.937,
-          "coverage": 1
-        },
-        {
-          "title": "FFmpeg 9.1 'Gauss'",
-          "link": "https://ffmpeg.org/download.html#release_9.1",
-          "excerpt": "128 points · 23 comments",
-          "source": "ffmpeg.org via Hacker News",
-          "date": "Nov 20",
-          "image": null,
-          "icon": "https://ffmpeg.org/favicon.ico",
-          "domain": "ffmpeg.org",
-          "hn": "128 points · 23 comments",
-          "score": 2.562,
+          "image": "https://main--gleeful-begonia-6bb5f3.netlify.app/_next/static/media/frostbite-cover.3n9ytugnquhlr.jpg",
+          "icon": "https://architectlabs.com/favicon.ico?favicon.08mdo-hmkdh99.ico",
+          "domain": "architectlabs.com",
+          "hn": "232 points · 141 comments",
+          "score": 3.431,
           "coverage": 1
         }
       ]
