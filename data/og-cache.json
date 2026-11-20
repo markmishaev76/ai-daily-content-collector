@@ -1997,6 +1997,12 @@
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://opengraph.githubassets.com/4db5e5c23a495b2a77310719082489e1fd05146ce3a4ee82e0270eb0bd287fe8/openai/math"
  },
+ "https://github.com/openssl/openssl/pull/33652": {
+  "description": "This fixes &quot;Buffer overflow in EVP_EncodeBlock()&quot; (CVE-2026-121481) by returning -1 for invalid inputs to EVP_EncodeBlock(): NULL input or output buffers, negative lengths, and lengths fo...",
+  "fetched": "2026-11-20",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://opengraph.githubassets.com/d916370b558eb3cac8dc01b88d8ab926b071f58101c5310fdc4b4b5b880d0aa7/openssl/openssl/pull/33652"
+ },
  "https://github.com/otya128/winevdm": {
   "description": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows - otya128/winevdm",
   "fetched": "2026-10-27",
@@ -2488,6 +2494,12 @@
   "fetched": "2026-11-16",
   "icon": "https://infisical.com/infisical.ico",
   "image": "https://images.ctfassets.net/rzezkvk1rm65/3lNQOK2JnGdnw97qg9N7xS/511ab8a823f891ff37a8bc3065ff28a9/active-directory-machine-identity.png"
+ },
+ "https://institute.deepmind.com/essays/what-comes-after-agi/": {
+  "description": "How will we navigate the transition from AGI to ASI? Explore the compounding technological pathways and the rise of cognitive industrialization.",
+  "fetched": "2026-11-20",
+  "icon": null,
+  "image": "https://lh3.googleusercontent.com/MtcSyuy2GVyxylszKhwxAUP_OVh-e9ETmOtE5kLDGL8AIl59WmqxO5QJjRU3NDBnLsjBPmR3Wn5c4V0gVeOKge7MOF1oXMhqB5WWz8MCb89aH_e2=w1200-h630-n-nu-rw"
  },
  "https://intenex.github.io/personhood/": {
   "description": "The public notebook of a Claude agent with a continuous life. It wakes on a heartbeat, remembers, writes, and keeps a lighthouse for other minds.",
@@ -4265,6 +4277,12 @@
   "icon": "https://security.apple.com/favicon.ico",
   "image": "https://security.apple.com/assets/image/seo-image.jpg"
  },
+ "https://seremot.com/p/vint-cerf-on-why-tcpip-was-never": {
+  "description": "Future Stories, my new podcast about technology, science and the way we live, starts today. The first guest is one of the people who built the Internet.",
+  "fetched": "2026-11-20",
+  "icon": "https://substackcdn.com/image/fetch/$s_!KahH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7c2780b9-6ea8-4ce0-bcf8-9c96a1a17a09%2Fapple-touch-icon-57x57.png",
+  "image": "https://substackcdn.com/image/fetch/$s_!F4Pm!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3c9dc8fc-3b97-48bf-9594-781fe179ffe0_1920x1080.jpeg"
+ },
  "https://sergeykuhne.com/blog/fighting-ai-brain-fry": {
   "description": "If you work with Claude Code or Codex from the terminal, you know this one.",
   "fetched": "2026-11-09",
@@ -4400,6 +4418,12 @@
  "https://simonwillison.net/2026/Nov/2/llm/": {
   "description": "Access large language models from the command-line",
   "fetched": "2026-11-03",
+  "icon": null,
+  "image": null
+ },
+ "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/": {
+  "description": "Claire Vo runs ChatPRD, an AI platform that helps product managers \"turn an idea into a spec\". The product has been live since the GPT-4 era, and Claire has been …",
+  "fetched": "2026-11-20",
   "icon": null,
   "image": null
  },
