@@ -1,0 +1,788 @@
+{
+  "date": "2026-11-20",
+  "lead": {
+    "title": "The Fireworks AI Breach: How One Vendor Key Became a Supply Chain Attack on Cursor",
+    "link": "https://blog.gitguardian.com/fireworks-ai-breach-cursor-credentials/",
+    "excerpt": "A breach at Fireworks AI exposed a read-only key Cursor had issued to it. The attacker used it to copy agent traces, found more credentials inside, and planted trojanized Claude Code builds in Cursor’s marketplace cache. Here’s how the credential chain worked, and what AppSec should change.",
+    "source": "GitGuardian",
+    "date": "Nov 19",
+    "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/11/fireworks-ai-breach-thumbnail-v2.png",
+    "image_credit": null,
+    "section": "Secrets & NHI",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "Secrets & NHI",
+      "7h ago"
+    ],
+    "also": []
+  },
+  "pulse": [
+    {
+      "title": "Anthropic’s Nasdaq debut",
+      "thread": "https://news.ycombinator.com/item?id=50562754",
+      "link": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+      "link_domain": "reuters.com",
+      "source": "Hacker News",
+      "domain": "reuters.com",
+      "meta": "Hacker News · 920 points · 1.8k comments · 9h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.reuters.com/favicon.ico"
+    },
+    {
+      "title": "Fuck Your AI Safeguards",
+      "thread": "https://news.ycombinator.com/item?id=50562262",
+      "link": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
+      "link_domain": "ounapuu.ee",
+      "source": "Hacker News",
+      "domain": "ounapuu.ee",
+      "meta": "Hacker News · 482 points · 194 comments · 9h ago",
+      "also": [],
+      "image": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/media/cover_hu_5a6285e4518135fc.jpg",
+      "icon": "https://ounapuu.ee/apple-touch-icon.png"
+    },
+    {
+      "title": "Claude solves two open problems in the physics of black holes",
+      "thread": "https://news.ycombinator.com/item?id=50563148",
+      "link": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "link_domain": "anthropic.com",
+      "source": "Hacker News",
+      "domain": "anthropic.com",
+      "meta": "Hacker News · 393 points · 180 comments · 8h ago",
+      "also": [],
+      "image": "https://assets.claude.com/57a443b51d13727573b7c1290130d09c5f434b2c.jpg",
+      "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png"
+    },
+    {
+      "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
+      "thread": "https://news.ycombinator.com/item?id=50556287",
+      "link": "https://verialabs.com/ruby2shell/",
+      "link_domain": "verialabs.com",
+      "source": "Hacker News",
+      "domain": "verialabs.com",
+      "meta": "Hacker News · 385 points · 166 comments · 20h ago",
+      "also": [
+        {
+          "source": "Lobsters",
+          "thread": "https://lobste.rs/s/usdf7t/ruby2shell_ghsa_34m4_m9fh_gqp5"
+        }
+      ],
+      "image": "https://verialabs.com/og/ruby2shell.png",
+      "icon": "https://verialabs.com/apple-touch-icon.png"
+    },
+    {
+      "title": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
+      "thread": "https://news.ycombinator.com/item?id=50561508",
+      "link": "https://thedataexchange.media/pete-warden-moonshine/",
+      "link_domain": "thedataexchange.media",
+      "source": "Hacker News",
+      "domain": "thedataexchange.media",
+      "meta": "Hacker News · 216 points · 195 comments · 10h ago",
+      "also": [],
+      "image": "https://thedataexchange.media/wp-content/uploads/2026/11/pete-warden-local-ai.001.jpeg",
+      "icon": "https://i0.wp.com/thedataexchange.media/wp-content/uploads/2022/08/cropped-logo-DE.jpg?fit=180%2C180&ssl=1"
+    },
+    {
+      "title": "Design for Understandability",
+      "thread": "https://lobste.rs/s/qsrnot/design_for_understandability",
+      "link": "https://jschuster.org/blog/2026/11/19/design-for-understandability/",
+      "link_domain": "jschuster.org",
+      "source": "Lobsters",
+      "domain": "jschuster.org",
+      "meta": "Lobsters · 31 points · 19 comments · 12h ago",
+      "also": [],
+      "image": "https://jschuster.org/blog/wp-content/uploads/2026/10/page_6.png",
+      "icon": "https://jschuster.org/favicon.ico"
+    },
+    {
+      "title": "Show HN: Cornhole News – A Hacker News inspired site for news across the Midwest",
+      "thread": "https://news.ycombinator.com/item?id=50561515",
+      "link": "https://cornholenews.news",
+      "link_domain": "cornholenews.news",
+      "source": "Hacker News",
+      "domain": "cornholenews.news",
+      "meta": "Hacker News · 189 points · 89 comments · 10h ago",
+      "also": [],
+      "image": "https://cornholenews.news/opengraph-image",
+      "icon": "https://cornholenews.news/apple-icon.png?apple-icon.27haiq0vymcyy.png"
+    },
+    {
+      "title": "Chrome AI features wasting much bandwidth",
+      "thread": "https://news.ycombinator.com/item?id=50562636",
+      "link": "https://perishablepress.com/chrome-ai-wasting-much-bandwidth/",
+      "link_domain": "perishablepress.com",
+      "source": "Hacker News",
+      "domain": "perishablepress.com",
+      "meta": "Hacker News · 126 points · 46 comments · 9h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://perishablepress.com/apple-touch-icon.png"
+    },
+    {
+      "title": "AI isn't replacing your job. It's turning it into low-paid gig work",
+      "thread": "https://news.ycombinator.com/item?id=50562500",
+      "link": "https://restofworld.org/2026/ai-jobs-skills-gig-work/",
+      "link_domain": "restofworld.org",
+      "source": "Hacker News",
+      "domain": "restofworld.org",
+      "meta": "Hacker News · 113 points · 58 comments · 9h ago",
+      "also": [],
+      "image": "https://restofworld.org/wp-content/uploads/2026/11/GettyImages-2279457745.jpg",
+      "icon": "https://restofworld.org/wp-content/themes/orbis/assets/icons/icon-57.png?1"
+    },
+    {
+      "title": "Synology Security Advisory",
+      "thread": "https://news.ycombinator.com/item?id=50567209",
+      "link": "https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21",
+      "link_domain": "synology.com",
+      "source": "Hacker News",
+      "domain": "synology.com",
+      "meta": "Hacker News · 104 points · 69 comments · 3h ago",
+      "also": [],
+      "image": "https://fileres.synology.com/images/common/meta-tag-preview-image/img_synology.jpg",
+      "icon": "https://fileres.synology.com/images/common/favicon/syno/icon-180x180.png"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI-Assisted Engineering",
+      "cards": [
+        {
+          "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+          "link": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+          "excerpt": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
+          "source": "Google AI",
+          "date": "Nov 19",
+          "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dialogues.max-600x600.format-webp.webp",
+          "icon": null,
+          "domain": "blog.google",
+          "hn": null,
+          "score": 3.851,
+          "coverage": 1
+        },
+        {
+          "title": "A game you cannot win unless you have a quantum computer",
+          "link": "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/",
+          "excerpt": "Quantum",
+          "source": "Google Research",
+          "date": "Nov 19",
+          "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/QuantumContextuality1-MagicSquareGame.png",
+          "icon": null,
+          "domain": "research.google",
+          "hn": null,
+          "score": 0.798,
+          "coverage": 1
+        },
+        {
+          "title": "The Pulse: Is Amazon’s writing culture collapsing because of AI?",
+          "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-is-amazons-writing-culture",
+          "excerpt": "Also: Anthropic goes public with the largest-ever IPO, Meta frantically reverses shutdown of popular AI coding harness Conductor, and more",
+          "source": "The Pragmatic Engineer",
+          "date": "Nov 19",
+          "image": "https://substackcdn.com/image/fetch/$s_!dsZM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff9817f36-232c-412a-89cc-57b2691171ec_819x900.png",
+          "icon": null,
+          "domain": "newsletter.pragmaticengineer.com",
+          "hn": null,
+          "score": 0.687,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "PostgreSQL 19 Released",
+          "link": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+          "excerpt": "PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year's release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse. This release was definitely…",
+          "source": "Simon Willison",
+          "date": "Nov 19",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.829,
+          "coverage": 1
+        },
+        {
+          "title": "Chaos, then control: the maturity model most AI rollouts skip over",
+          "link": "https://stackoverflow.blog/2026/11/19/chaos-then-control/",
+          "excerpt": "Every engineering org has rolled out AI coding tools by now, but far fewer have actually seen the outcomes they were hoping for.",
+          "source": "Stack Overflow Blog",
+          "date": "Nov 19",
+          "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/89a7c761862499db37bf759db9607b85625d3d19-3840x2160.png?rect=0,72,3840,2016&w=1200&h=630&auto=format",
+          "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+          "domain": "stackoverflow.blog",
+          "hn": null,
+          "score": 0.489,
+          "coverage": 1
+        },
+        {
+          "title": "Introducing Tool Retrieval in the Gemini API",
+          "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+          "excerpt": "Gemini spark on a space background",
+          "source": "Google AI",
+          "date": "Nov 19",
+          "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Tool_retrieval_hero.max-600x600.format-webp.webp",
+          "icon": null,
+          "domain": "blog.google",
+          "hn": null,
+          "score": 0.716,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "AI Agents & Agent Security",
+      "cards": [
+        {
+          "title": "Show HN: AgentMall – Let your AI agent buy groceries",
+          "link": "https://getagentmall.com",
+          "excerpt": "One API for your personal agent to search, build a basket and check out at real stores, with spending limits, vaulted credentials and a virtual card per agent.",
+          "source": "getagentmall.com via Hacker News",
+          "date": "Nov 19",
+          "image": null,
+          "icon": "https://getagentmall.com/favicon.svg",
+          "domain": "getagentmall.com",
+          "hn": "18 points · 4 comments",
+          "score": 6.828,
+          "coverage": 1
+        },
+        {
+          "title": "Explore the Codex Security Plugin",
+          "link": "https://openai.com/business/learn/codex-security-plugin-demo",
+          "excerpt": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+          "source": "OpenAI News",
+          "date": "Nov 19",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 3.255,
+          "coverage": 1
+        },
+        {
+          "title": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
+          "link": "https://latent.space/p/linear-scaling/",
+          "excerpt": ">50% of tickets written by agents, the AI budgets behind $100M-in-months ARR, and selling without SDRs or FDEs",
+          "source": "Latent Space",
+          "date": "Nov 19",
+          "image": "https://i.ytimg.com/vi/x0VSm6IjcDQ/maxresdefault.jpg",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null,
+          "score": 1.061,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+          "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+          "excerpt": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+          "source": "OpenAI News",
+          "date": "Nov 19",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 2.597,
+          "coverage": 1
+        },
+        {
+          "title": "Deploying Daybreak Red",
+          "link": "https://openai.com/business/learn/deploying-daybreak-red",
+          "excerpt": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+          "source": "OpenAI News",
+          "date": "Nov 19",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.492,
+          "coverage": 1
+        },
+        {
+          "title": "See PR scans in action",
+          "link": "https://openai.com/business/learn/pr-scans-demo",
+          "excerpt": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+          "source": "OpenAI News",
+          "date": "Nov 19",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 3.255,
+          "coverage": 1
+        },
+        {
+          "title": "Get started with Daybreak Blue",
+          "link": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+          "excerpt": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+          "source": "OpenAI News",
+          "date": "Nov 19",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.492,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Leadership",
+      "cards": [
+        {
+          "title": "The Pulse: What can we learn from the Railway hack?",
+          "link": "https://blog.pragmaticengineer.com/the-pulse-what-can-we-learn-from-the-railway-hack/",
+          "excerpt": "Cloud platform Railway published a detailed postmortem about their recent hack in which the attacker likely used no-safeguards AI models. Railway hardened its systems as a result.",
+          "source": "The Pragmatic Engineer",
+          "date": "Nov 19",
+          "image": "https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/2026/11/image-14.png",
+          "icon": null,
+          "domain": "blog.pragmaticengineer.com",
+          "hn": null,
+          "score": 3.257,
+          "coverage": 1
+        },
+        {
+          "title": "Author Talks: Defining customer needs locally to create global value",
+          "link": "https://www.mckinsey.com/featured-insights/mckinsey-on-books/author-talks-defining-customer-needs-locally-to-create-global-value",
+          "excerpt": "What is one of the biggest mistakes companies make when designing products? Dartmouth’s Vijay Govindarajan outlines a playbook for high-performance, low-cost innovations that scale across markets.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 19",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.394,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Agent Identity & Authorization",
+      "cards": [
+        {
+          "title": "We Are Pausing the Teleport Bug Bounty Program",
+          "link": "https://goteleport.com/blog/pausing-bug-bounty/",
+          "excerpt": "An update on the Teleport bug bounty program.",
+          "source": "The Teleport Blog",
+          "date": "Nov 19",
+          "image": "https://goteleport.com/blog/static/og-image.png",
+          "icon": "https://goteleport.com/blog/static/apple.png",
+          "domain": "goteleport.com",
+          "hn": null,
+          "score": 0.315,
+          "coverage": 1
+        },
+        {
+          "title": "Protecting Your Brand Starts with Security Agent",
+          "link": "https://auth0.com/blog/auth0-security-agent-early-access/",
+          "excerpt": "Announcing Security Agent in Early Access. Detect identity-based threats, eliminate manual triage, and secure commerce without sacrificing speed.",
+          "source": "Auth0 Blog",
+          "date": "Nov 19",
+          "image": "https://images.ctfassets.net/23aumh6u8s0i/3FUmf5Ne7TvTk2OGTOjD6v/9d4f03f0c625af170d8b580adb5c1fd0/Auth0SecurityAgentHero.png",
+          "icon": null,
+          "domain": "auth0.com",
+          "hn": null,
+          "score": 0.394,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Supply Chain & Builds",
+      "cards": [
+        {
+          "title": "What CISOs and CTOs need to do to minimize agentic risk in 2027",
+          "link": "https://www.chainguard.dev/unchained/what-cisos-and-ctos-need-to-do-to-minimize-agentic-risk-in-2027",
+          "excerpt": "AI is reshaping cybersecurity. Learn seven actions CISOs and CTOs can take to secure AI agents, modernize software, and prevent emerging threats.",
+          "source": "Chainguard: Unchained",
+          "date": "Nov 19",
+          "image": "https://images.ctfassets.net/l47ir7rfykkn/2BNU1hvZjTRhKbSIcsPw0o/31557c4853b0fefdd012eacc8c9fb5cd/What_CISOs_and_CTOs_need_to_do_to_minimize_agentic_risk_in_2027.png",
+          "icon": "https://www.chainguard.dev/favicon.ico",
+          "domain": "chainguard.dev",
+          "hn": null,
+          "score": 2.494,
+          "coverage": 1
+        },
+        {
+          "title": "What Did The OpenSSF Global Cyber Policy Working Group Learn in Prague at Open Source Summit Europe?",
+          "link": "https://openssf.org/blog/2026/11/19/what-did-the-openssf-global-cyber-policy-working-group-learn-in-prague-at-open-source-summit-europe/",
+          "excerpt": "The OpenSSF Global Cyber Policy Working Group ran a workshop at Open Source Summit Europe to share what we have been working on and get feedback from the community about where we should focus next.",
+          "source": "Open Source Security Foundation",
+          "date": "Nov 19",
+          "image": "https://openssf.org/wp-content/uploads/2026/11/danA-300x300.png",
+          "icon": null,
+          "domain": "openssf.org",
+          "hn": null,
+          "score": 0.897,
+          "coverage": 1
+        },
+        {
+          "title": "PHP's November security release: What it is and what to update",
+          "link": "https://www.chainguard.dev/unchained/phps-november-security-release-what-it-is-and-what-to-update",
+          "excerpt": "PHP's November 2026 security update fixes 17 CVEs, including seven critical vulnerabilities. Learn who's affected, how to patch, and what to update.",
+          "source": "Chainguard: Unchained",
+          "date": "Nov 19",
+          "image": "https://images.ctfassets.net/l47ir7rfykkn/5ZG87xmWaYVv1fWV8tgUdT/d30a9bf5f170a16fec114dce8185d58a/php_november.png",
+          "icon": "https://www.chainguard.dev/favicon.ico",
+          "domain": "chainguard.dev",
+          "hn": null,
+          "score": 0.315,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Announcing the Athena Partner API",
+          "link": "https://www.chainguard.dev/unchained/announcing-the-athena-partner-api",
+          "excerpt": "Discover how Chainguard's Athena Partner API helps security partners deliver non-patch protections against AI-discovered vulnerabilities at scale.",
+          "source": "Chainguard: Unchained",
+          "date": "Nov 19",
+          "image": "https://images.ctfassets.net/l47ir7rfykkn/4UgoSuXKiRDo08qgUQzo1/7980e9770bbba0f81b6a381fb654d512/Announcing_the_Athena_Partner_API.png",
+          "icon": "https://www.chainguard.dev/favicon.ico",
+          "domain": "chainguard.dev",
+          "hn": null,
+          "score": 0.315,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+          "link": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
+          "excerpt": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread malware, and get…",
+          "source": "The Hacker News",
+          "date": "Nov 19",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgTqUIWPjGeycl6xafh8Hx8n2UN3UCUgjhTpxUul68DHi7Y_IoHVYBvjDd5DpFg15sKI767hVEq-8CbGhK69JNusMh0OBBXfVMwJlZiKT2gNnTPAL9DyvTY85SB68WkvBxFCMF2_rNS9rUgYkQN8sKssDMBS8gO6YpMudQohf_JWnPztX_h8TdbSX6Vtfi/s1600/td.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 2.105,
+          "coverage": 1
+        },
+        {
+          "title": "Why the Harness Matters: Early Lessons From the Evo Code Scanning Agent Preview",
+          "link": "https://snyk.io/blog/why-harness-matters-evo-code-scanning-agent/",
+          "excerpt": "In early tests, Evo Code Scanning Agent’s security harness found more known vulnerabilities than Claude Security and Codex Security at the same compute budget, with lower precision. See what the results reveal about the role of the harness in AI code scanning.",
+          "source": "Blog RSS Feed | Snyk",
+          "date": "Nov 19",
+          "image": "https://res.cloudinary.com/snyk/image/upload/v1690331202/blog-feature-ai.jpg",
+          "icon": null,
+          "domain": "snyk.io",
+          "hn": null,
+          "score": 0.88,
+          "coverage": 1
+        },
+        {
+          "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
+          "link": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+          "excerpt": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the attacker to run code on the server. Today's…",
+          "source": "The Hacker News",
+          "date": "Nov 19",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEEFyvreIQgAheXoKRJxLcNgyzFh0rlydmiMfaOBIlmM7zGPc_71mCSG6zWGlpFcRQg59gVUw6NbpmFiNKIcDB3AqVA5eKpjYExWhMu-uBD_W5xu1wiYRtX5MklAgxeuHOBJOI8H9LmaIoXv7IrvFMVHvVhor06lj_ljcIDjIDAPYJ8w01X-BTA51EpOU/s1600/php-after-shell.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.341,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
+          "link": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
+          "excerpt": "Google says a China-linked espionage group exploited a critical VMware vCenter authentication bypass before Broadcom released a patch. The post Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 19",
+          "image": "https://www.securityweek.com/wp-content/uploads/2022/08/VMWare.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 5.797,
+          "coverage": 2
+        },
+        {
+          "title": "PHP Patches Seven Critical RCE Vulnerabilities",
+          "link": "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/",
+          "excerpt": "Successful exploitation could allow attackers to crash the worker process and execute code with the PHP worker’s privileges. The post PHP Patches Seven Critical RCE Vulnerabilities appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 19",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/10/php-exploit-code.webp",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 6.678,
+          "coverage": 3
+        },
+        {
+          "title": "Nvidia Responds to Gentlemen Ransomware Claim",
+          "link": "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/",
+          "excerpt": "Nvidia says it has found no indication that its systems were compromised after the Gentlemen ransomware group listed the company as a victim. The post Nvidia Responds to Gentlemen Ransomware Claim appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 19",
+          "image": "https://www.securityweek.com/wp-content/uploads/2024/07/Nvidia.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 2.117,
+          "coverage": 1
+        },
+        {
+          "title": "Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release",
+          "link": "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/",
+          "excerpt": "Attackers hacked clustered Cisco Expressway devices at a Russian organization and prepared tooling for lateral movement. The post Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 19",
+          "image": "https://www.securityweek.com/wp-content/uploads/2025/09/Cisco-firewall.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.289,
+          "coverage": 1
+        },
+        {
+          "title": "Critical Apache Roller, Axis Vulnerabilities Exploited in Attacks",
+          "link": "https://www.securityweek.com/critical-apache-roller-axis-vulnerabilities-exploited-in-attacks/",
+          "excerpt": "Attackers are targeting Confluence Data Center through an Axis flaw and Apache is warning of attacks against Roller. The post Critical Apache Roller, Axis Vulnerabilities Exploited in Attacks appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 19",
+          "image": "https://www.securityweek.com/wp-content/uploads/2023/12/Apache-exploit-scaled-e1724835583910.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.278,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "The best way to use your coding agents with GitLab",
+          "link": "https://about.gitlab.com/blog/coding-agents-with-gitlab/",
+          "excerpt": "Say you and your team already use Claude Code, Codex, Cursor, Devin, or OpenCode to write code. Maybe even more than one of them.What happens next depends on everyone’s personal setup.Some have their agent review changes, watch CI pipelines and security checks, with a different approach to follow…",
+          "source": "GitLab",
+          "date": "Nov 19",
+          "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1795042684/cl2xncefgiwoebmnrce6.png",
+          "icon": null,
+          "domain": "about.gitlab.com",
+          "hn": null,
+          "score": 3.071,
+          "coverage": 1
+        },
+        {
+          "title": "Turn Slack conversations into trusted software, faster",
+          "link": "https://about.gitlab.com/blog/gitlab-slack-integration-for-software-factory/",
+          "excerpt": "Most software starts as a conversation: a customer requests a new capability, a product manager weighs it against the roadmap, an engineer checks feasibility, and a security lead asks what it touches.Then someone has to turn it into work. They reread the thread, retype the decisions into an issue,…",
+          "source": "GitLab",
+          "date": "Nov 19",
+          "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/f_auto,q_auto/Blog/Content%20Images/ad64cdb2ffc990b89dce4405b4845e29",
+          "icon": null,
+          "domain": "about.gitlab.com",
+          "hn": null,
+          "score": 2.657,
+          "coverage": 1
+        },
+        {
+          "title": "Introducing object enrichments: Transform unstructured data into agent-ready context",
+          "link": "https://cloud.google.com/blog/products/storage-data-transfer/cost-effective-ai-context-extraction-from-unstructured-gcs-data/",
+          "excerpt": "The vast majority of enterprise information is unstructured, locked away in object storage as petabytes of images, PDFs, videos, and audio files. This data holds the institutional knowledge AI agents need to do business-critical work. But to an agent, a raw object is just bytes it can't reason…",
+          "source": "Cloud Blog",
+          "date": "Nov 19",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/object_enrichments_blog_1.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 3.674,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Keep recurring work moving with scheduled automations",
+          "link": "https://about.gitlab.com/blog/gitlab-scheduled-automations/",
+          "excerpt": "Every engineering team has work that needs regular attention, like triaging new issues or investigating incidents. Among DevSecOps professionals using AI tools, 43% say automating repetitive tasks has created the most efficiency, according to GitLab’s Global DevSecOps report. But agents still rely…",
+          "source": "GitLab",
+          "date": "Nov 19",
+          "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/f_auto,q_auto/Blog/Content%20Images/fc13da6a3d2d54d97b19c8fdbd1c666f",
+          "icon": null,
+          "domain": "about.gitlab.com",
+          "hn": null,
+          "score": 2.338,
+          "coverage": 1
+        },
+        {
+          "title": "Scaling workforce productivity and upskilling in the agentic era",
+          "link": "https://cloud.google.com/blog/topics/public-sector/scaling-workforce-productivity-and-upskilling-in-the-agentic-era/",
+          "excerpt": "As state and local agencies modernize to meet evolving public needs, leaders have an unprecedented opportunity to empower and elevate their teams. Modernizing public sector operations starts with giving dedicated public servants the right tools to thrive. By replacing repetitive administrative…",
+          "source": "Cloud Blog",
+          "date": "Nov 19",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/GettyImages-2226716076_PNG_-_60_resolution_m.max-600x600.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 2.854,
+          "coverage": 1
+        },
+        {
+          "title": "AI coding agents on Amazon EC2 Mac: How Cognition scales Devin for macOS",
+          "link": "https://aws.amazon.com/blogs/architecture/ai-coding-agents-on-amazon-ec2-mac-how-cognition-scales-devin-for-macos/",
+          "excerpt": "Cognition gave its AI software engineer, Devin, a cloud Mac. Each Devin session gets a fresh macOS VM on Amazon EC2 Mac bare metal hosts, so Devin can build, run, and test iOS and macOS apps. Learn how Cognition built it with disk snapshots, a user-space network gateway, prepared guest images, and…",
+          "source": "AWS Architecture Blog",
+          "date": "Nov 20",
+          "image": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/11/19/ARCHBLOG-1783-1.png",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 5.319,
+          "coverage": 1
+        },
+        {
+          "title": "Cut your vulnerability backlog with agentic remediation",
+          "link": "https://about.gitlab.com/blog/gitlab-agentic-remediation/",
+          "excerpt": "Vulnerability backlogs are growing faster than teams can clear them. AI writes more code and finds more flaws, while fixes still move at human speed. NIST’s National Vulnerability Database has already published twice as many CVEs in 2026 as in all of 2025, and ceased enriching most CVEs this past…",
+          "source": "GitLab",
+          "date": "Nov 19",
+          "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/f_auto,q_auto/Blog/Hero%20Images/a72a66f82649c6dbce7bf1241e3fd001",
+          "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
+          "domain": "about.gitlab.com",
+          "hn": null,
+          "score": 2.257,
+          "coverage": 1
+        },
+        {
+          "title": "Multi-Turn Agentic Reinforcement Learning with Tunix and Gemma 4 on Google TPUs",
+          "link": "https://developers.googleblog.com/multi-turn-agentic-reinforcement-learning-with-tunix-and-gemma-4-on-google-tpus/",
+          "excerpt": "This post walks developers through training a multi-turn, tool-using LLM agent using Tunix and Gemma 4 on Cloud TPUs. By leveraging agentic Group Relative Policy Optimization (GRPO) and asynchronous vLLM rollouts, the approach significantly improves complex reasoning and tool compliance in…",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-meta_4.2e16d0ba.fill-1200x600.png",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null,
+          "score": 1.911,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "Apple is hiring engineers to build its own AI agent",
+          "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+          "excerpt": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg, which says Apple is looking for an engineer to lead the creation of an…",
+          "source": "The Verge",
+          "date": "Nov 19",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DSC04239.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "icon": null,
+          "domain": "theverge.com",
+          "hn": null,
+          "score": 4.16,
+          "coverage": 1
+        },
+        {
+          "title": "Apple may be developing its own AI agent that runs your Mac",
+          "link": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+          "excerpt": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
+          "source": "TechCrunch",
+          "date": "Nov 20",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/06/iphone-usb-cable.jpg?resize=1200,800",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
+          "hn": null,
+          "score": 4.013,
+          "coverage": 1
+        },
+        {
+          "title": "These tech outages are giving Y2K, AI agent style",
+          "link": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+          "excerpt": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.",
+          "source": "TechCrunch",
+          "date": "Nov 19",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/Muharrem-huner.jpg?resize=1200,800",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
+          "hn": null,
+          "score": 3.223,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Meta’s Muse Charm might cost $300",
+          "link": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+          "excerpt": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the holidays in…",
+          "source": "The Verge",
+          "date": "Nov 19",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/lcimg-3879511d-dd3d-430c-8072-616e2dfb3484.jpeg?quality=90&strip=all&crop=0,0,100,100",
+          "icon": null,
+          "domain": "theverge.com",
+          "hn": null,
+          "score": 4.303,
+          "coverage": 2
+        },
+        {
+          "title": "Community-Focused Academic Brings AI Tools to Colorado Farmers",
+          "link": "https://spectrum.ieee.org/ai-tools-for-rural-communities",
+          "excerpt": "Many farmers and ranchers in eastern Colorado are curious about artificial intelligence, but they don’t have a local tech-savvy person to show them how to use it. Xue “Alice” Dong has made that her job.Dong, an IEEE senior member, is an extension regional specialist with the Colorado State…",
+          "source": "IEEE Spectrum",
+          "date": "Nov 19",
+          "image": "https://spectrum.ieee.org/media-library/a-young-asian-woman-in-a-suit-jacket-smiling-while-holding-up-a-digital-tablet-with-an-ai-chatbot-on-its-screen-a-mountain-rang.jpg?id=68721300&width=980",
+          "icon": null,
+          "domain": "spectrum.ieee.org",
+          "hn": null,
+          "score": 2.127,
+          "coverage": 1
+        },
+        {
+          "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
+          "link": "https://git-aarvin.github.io/mei/",
+          "excerpt": "Mei calculates language models' practical performance on engineering tasks.",
+          "source": "git-aarvin.github.io via Hacker News",
+          "date": "Nov 19",
+          "image": "https://git-aarvin.github.io/mei/scatter/cost.png",
+          "icon": "https://git-aarvin.github.io/favicon.ico",
+          "domain": "git-aarvin.github.io",
+          "hn": "110 points · 59 comments",
+          "score": 3.244,
+          "coverage": 1
+        },
+        {
+          "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
+          "link": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87",
+          "excerpt": "92 points · 26 comments",
+          "source": "wsj.com via Hacker News",
+          "date": "Nov 19",
+          "image": null,
+          "icon": "https://www.wsj.com/favicon.ico",
+          "domain": "wsj.com",
+          "hn": "92 points · 26 comments",
+          "score": 8.515,
+          "coverage": 2
+        },
+        {
+          "title": "RegExr: Temporarily Offline",
+          "link": "https://regexr.com/",
+          "excerpt": "RegExr is temporarily offline while we modernize and secure the site.",
+          "source": "regexr.com via Hacker News",
+          "date": "Nov 19",
+          "image": null,
+          "icon": "https://regexr.com/favicon.ico",
+          "domain": "regexr.com",
+          "hn": "48 points · 25 comments",
+          "score": 2.584,
+          "coverage": 1
+        }
+      ]
+    }
+  ]
+}

@@ -95,6 +95,12 @@
   "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
   "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1780996524/sd1vpl8empy26wizarqj.png"
  },
+ "https://about.gitlab.com/blog/gitlab-agentic-remediation/": {
+  "description": "With GitLab 19.6, roll out security agents across entire groups of projects and rank SAST findings by exploitability.",
+  "fetched": "2026-11-20",
+  "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
+  "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/f_auto,q_auto/Blog/Hero%20Images/a72a66f82649c6dbce7bf1241e3fd001"
+ },
  "https://about.gitlab.com/blog/gitlab-transcend-hackathon-life-after-code/": {
   "description": "Discover what developers built to automate the post-code creation lifecycle with GitLab Duo Agent Platform.",
   "fetched": "2026-11-19",
@@ -1259,6 +1265,12 @@
   "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
   "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Torch_Titan_Header_Image.2e16d0ba.fill-1200x600.jpg"
  },
+ "https://developers.googleblog.com/multi-turn-agentic-reinforcement-learning-with-tunix-and-gemma-4-on-google-tpus/": {
+  "description": "Learn how to train a multi-turn, tool-using LLM agent with Tunix and Gemma 4 on Google TPUs using agentic reinforcement learning (GRPO).",
+  "fetched": "2026-11-20",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-meta_4.2e16d0ba.fill-1200x600.png"
+ },
  "https://developers.googleblog.com/native-model-authoring-for-edge-with-litert-tensor-api/": {
   "description": "Author neural models and zero-copy pre/post-processing graphs in native C++ with the LiteRT Tensor API for cross-platform GPU, NPU, and CPU execution.",
   "fetched": "2026-10-26",
@@ -1631,6 +1643,12 @@
   "icon": "https://get.mem.ai/assets/brand/apple-touch-icon.png",
   "image": "https://get.mem.ai/assets/seo/mem-sunset.jpg"
  },
+ "https://getagentmall.com": {
+  "description": "One API for your personal agent to search, build a basket and check out at real stores, with spending limits, vaulted credentials and a virtual card per agent.",
+  "fetched": "2026-11-20",
+  "icon": "https://getagentmall.com/favicon.svg",
+  "image": null
+ },
  "https://getbema.app/": {
   "description": null,
   "fetched": "2026-11-03",
@@ -1642,6 +1660,12 @@
   "fetched": "2026-10-29",
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png"
+ },
+ "https://git-aarvin.github.io/mei/": {
+  "description": "Mei calculates language models' practical performance on engineering tasks.",
+  "fetched": "2026-11-20",
+  "icon": null,
+  "image": "https://git-aarvin.github.io/mei/scatter/cost.png"
  },
  "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/": {
   "description": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot.",
@@ -2084,6 +2108,12 @@
  "https://goteleport.com/blog/announcing-beam-init/": {
   "description": "Introducing beam-init, a lightweight Rust init process and service manager for containers, microVMs, and agentic workflows.",
   "fetched": "2026-11-10",
+  "icon": "https://goteleport.com/blog/static/apple.png",
+  "image": "https://goteleport.com/blog/static/og-image.png"
+ },
+ "https://goteleport.com/blog/pausing-bug-bounty/": {
+  "description": "An update on the Teleport bug bounty program.",
+  "fetched": "2026-11-20",
   "icon": "https://goteleport.com/blog/static/apple.png",
   "image": "https://goteleport.com/blog/static/og-image.png"
  },
@@ -2566,6 +2596,12 @@
   "fetched": "2026-10-30",
   "icon": null,
   "image": "https://journal.animationstudies.org/media/cover_images/32a1852c-fcda-4630-b063-f82dd00354b3.jpeg"
+ },
+ "https://jschuster.org/blog/2026/11/19/design-for-understandability/": {
+  "description": "This is a talk I gave at Google’s internal Code Health Summit in November of 2025. I’m sharing it here in the hopes that it sparks further learning and discussion. Abstract In a world where LLMs generate much of our code, understanding that code is more important than ever. But with a system as large … Continue reading Design for Understandability",
+  "fetched": "2026-11-20",
+  "icon": null,
+  "image": "https://jschuster.org/blog/wp-content/uploads/2026/10/page_6.png"
  },
  "https://kaplich.me/essays/email": {
   "description": "A practical guide to mastering email - the most important tool on the internet. Learn why email still matters and how to use it effectively.",
@@ -3257,6 +3293,30 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/business/learn/codex-security-plugin-demo": {
+  "description": null,
+  "fetched": "2026-11-20",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/business/learn/daybreak-blue-onboarding-demo": {
+  "description": null,
+  "fetched": "2026-11-20",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/business/learn/deploying-daybreak-red": {
+  "description": null,
+  "fetched": "2026-11-20",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/business/learn/pr-scans-demo": {
+  "description": null,
+  "fetched": "2026-11-20",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/a-thousand-fewer-paths-to-root": {
   "description": null,
   "fetched": "2026-11-05",
@@ -3470,6 +3530,12 @@
  "https://openai.com/index/helping-websites-express-ai-training-preferences": {
   "description": null,
   "fetched": "2026-10-31",
+  "icon": null,
+  "image": null
+ },
+ "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast": {
+  "description": null,
+  "fetched": "2026-11-20",
   "icon": null,
   "image": null
  },
@@ -3869,6 +3935,12 @@
   "icon": "https://osintsearch.org/apple-touch-icon.png",
   "image": "https://cdn.osintsearch.org/blog/osint-osint-case-studies-2026-09-23-b37518eb5418.webp"
  },
+ "https://ounapuu.ee/posts/2026/11/19/unsafeguards/": {
+  "description": "You can't tell me that you found a security issue in my product and then refuse to fix it.",
+  "fetched": "2026-11-20",
+  "icon": "https://ounapuu.ee/apple-touch-icon.png",
+  "image": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/media/cover_hu_5a6285e4518135fc.jpg"
+ },
  "https://p.migdal.pl/warsaw-vibe-voxel/": {
   "description": "Central Warsaw in 1 m voxels, built from OpenStreetMap, LiDAR and the city's tree database. Walk around the Palace of Culture, change the date, hour and weather, or possess a pedestrian. Inspired by Minecraft, MagicaVoxel and Dungeon Keeper.",
   "fetched": "2026-11-02",
@@ -3892,6 +3964,12 @@
   "fetched": "2026-11-04",
   "icon": "https://pavursec.com/media/icon_hu9a38971af2c2beba5807cd7db08d44b5_22339_180x180_fill_lanczos_center_3.png",
   "image": "https://pavursec.com/media/logo.svg"
+ },
+ "https://perishablepress.com/chrome-ai-wasting-much-bandwidth/": {
+  "description": "🔎 Finally solved the mystery. At some point this year (around a few months ago), my bandwidth/data usage went thru the roof. Figured out it was Chrome's...",
+  "fetched": "2026-11-20",
+  "icon": "https://perishablepress.com/apple-touch-icon.png",
+  "image": null
  },
  "https://petapixel.com/2026/11/10/rings-ai-powered-drone-automatically-patrols-inside-your-home/": {
   "description": "Ring Drone Cam keeps an eye on the inside of your home from the air.",
@@ -4049,6 +4127,12 @@
   "icon": null,
   "image": null
  },
+ "https://regexr.com/": {
+  "description": "RegExr is temporarily offline while we modernize and secure the site.",
+  "fetched": "2026-11-20",
+  "icon": null,
+  "image": null
+ },
  "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/": {
   "description": null,
   "fetched": "2026-10-28",
@@ -4066,6 +4150,12 @@
   "fetched": "2026-11-14",
   "icon": "https://www.gstatic.com/images/branding/googleg_gradient/1x/googleg_gradient_standard_20dp.png",
   "image": "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg"
+ },
+ "https://restofworld.org/2026/ai-jobs-skills-gig-work/": {
+  "description": "Platform companies are luring doctors, lawyers, and Ph.D.s with top rates, but then use the same tactics of pay cuts and sudden ghosting that have plagued global data workers.",
+  "fetched": "2026-11-20",
+  "icon": "https://restofworld.org/wp-content/themes/orbis/assets/icons/icon-57.png?1",
+  "image": "https://restofworld.org/wp-content/uploads/2026/11/GettyImages-2279457745.jpg"
  },
  "https://retrocomputing.stackexchange.com/questions/12158/did-the-apollo-guidance-computer-really-use-60-of-the-worlds-ics-in-1963": {
   "description": null,
@@ -4298,6 +4388,12 @@
  "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/": {
   "description": "With my Python Software Foundation board director hat on: we've launched our end-of-year fundraiser for the non-profit that supports Python development and the Python community. If your company or your …",
   "fetched": "2026-11-18",
+  "icon": null,
+  "image": null
+ },
+ "https://simonwillison.net/2026/Nov/19/postgresql-19/": {
+  "description": "Most years PostgreSQL ships a new release in September, but this year's release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to …",
+  "fetched": "2026-11-20",
   "icon": null,
   "image": null
  },
@@ -4678,6 +4774,12 @@
   "fetched": "2026-11-17",
   "icon": "https://stackoverflow.blog/apple-touch-icon.png",
   "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format"
+ },
+ "https://stackoverflow.blog/2026/11/19/chaos-then-control/": {
+  "description": "Every engineering org has rolled out AI coding tools by now, but far fewer have actually seen the outcomes they were hoping for.",
+  "fetched": "2026-11-20",
+  "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+  "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/89a7c761862499db37bf759db9607b85625d3d19-3840x2160.png?rect=0,72,3840,2016&w=1200&h=630&auto=format"
  },
  "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/": {
   "description": "The AI company pirated at least 10 Stanford academics’ work in a $1.5 billion copyright settlement.",
@@ -5086,6 +5188,18 @@
   "fetched": "2026-11-19",
   "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
   "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305773211.jpg?w=594"
+ },
+ "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/": {
+  "description": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
+  "fetched": "2026-11-20",
+  "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/06/iphone-usb-cable.jpg?resize=1200,800"
+ },
+ "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/": {
+  "description": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.",
+  "fetched": "2026-11-20",
+  "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/Muharrem-huner.jpg?resize=1200,800"
  },
  "https://tendrils.co/blog/2026-11-10/30m-raised": {
   "description": null,
@@ -6389,6 +6503,12 @@
   "icon": "https://www.cert-in.org.in/favicon.ico",
   "image": null
  },
+ "https://www.chainguard.dev/unchained/announcing-the-athena-partner-api": {
+  "description": "Discover how Chainguard's Athena Partner API helps security partners deliver non-patch protections against AI-discovered vulnerabilities at scale.",
+  "fetched": "2026-11-20",
+  "icon": null,
+  "image": "https://images.ctfassets.net/l47ir7rfykkn/4UgoSuXKiRDo08qgUQzo1/7980e9770bbba0f81b6a381fb654d512/Announcing_the_Athena_Partner_API.png"
+ },
  "https://www.chainguard.dev/unchained/athenas-second-wave": {
   "description": "Chainguard reveals 12 previously undisclosed Java vulnerabilities and explains how Athena helps organizations identify and remediate hidden risks.",
   "fetched": "2026-11-13",
@@ -6461,6 +6581,12 @@
   "icon": null,
   "image": "https://images.ctfassets.net/l47ir7rfykkn/5uH7eZ9EXqBG1i6Hf3lZnl/32a211c7a60ec9c2321b39ba1e789fe8/MicroVMs__Egress_MITM__and_sealed_tokens__Sandboxing_untrusted_code_at_scale.png"
  },
+ "https://www.chainguard.dev/unchained/phps-november-security-release-what-it-is-and-what-to-update": {
+  "description": "PHP's November 2026 security update fixes 17 CVEs, including seven critical vulnerabilities. Learn who's affected, how to patch, and what to update.",
+  "fetched": "2026-11-20",
+  "icon": null,
+  "image": "https://images.ctfassets.net/l47ir7rfykkn/5ZG87xmWaYVv1fWV8tgUdT/d30a9bf5f170a16fec114dce8185d58a/php_november.png"
+ },
  "https://www.chainguard.dev/unchained/prevention-under-pressure-why-most-ai-governance-is-detection-wearing-prevention-clothes": {
   "description": "CISO Kayla Williams joins Chainguard's Prevention Under Pressure to discuss AI threats, security governance, and the shift from detection to prevention.",
   "fetched": "2026-11-16",
@@ -6496,6 +6622,12 @@
   "fetched": "2026-11-13",
   "icon": null,
   "image": "https://images.ctfassets.net/l47ir7rfykkn/2CclEViehQP9SgGQ5NYwIV/c196e8036db08e79bd06453256b0ae09/wfx-loot.png"
+ },
+ "https://www.chainguard.dev/unchained/what-cisos-and-ctos-need-to-do-to-minimize-agentic-risk-in-2027": {
+  "description": "AI is reshaping cybersecurity. Learn seven actions CISOs and CTOs can take to secure AI agents, modernize software, and prevent emerging threats.",
+  "fetched": "2026-11-20",
+  "icon": null,
+  "image": "https://images.ctfassets.net/l47ir7rfykkn/2BNU1hvZjTRhKbSIcsPw0o/31557c4853b0fefdd012eacc8c9fb5cd/What_CISOs_and_CTOs_need_to_do_to_minimize_agentic_risk_in_2027.png"
  },
  "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html": {
   "description": "Anthropic unveiled its S-1 prospectus last week, but the initial filing only included the company's financials through the first half of the year.",
@@ -7193,6 +7325,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.mckinsey.com/featured-insights/mckinsey-on-books/author-talks-defining-customer-needs-locally-to-create-global-value": {
+  "description": null,
+  "fetched": "2026-11-20",
+  "icon": null,
+  "image": null
+ },
  "https://www.mckinsey.com/featured-insights/mckinsey-on-books/author-talks-why-you-cant-separate-strategy-from-value-and-vice-versa": {
   "description": null,
   "fetched": "2026-10-31",
@@ -7709,6 +7847,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/": {
+  "description": null,
+  "fetched": "2026-11-20",
+  "icon": null,
+  "image": null
+ },
  "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/": {
   "description": null,
   "fetched": "2026-11-07",
@@ -8171,6 +8315,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2023/09/NSA-Cyber-AI.jpg"
  },
+ "https://www.securityweek.com/critical-apache-roller-axis-vulnerabilities-exploited-in-attacks/": {
+  "description": "Critical Apache Axis (CVE-2026-90436) and Roller (CVE-2026-129448) remote code execution vulnerabilities are being exploited in attacks.",
+  "fetched": "2026-11-20",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2023/12/Apache-exploit-scaled-e1724835583910.jpeg"
+ },
  "https://www.securityweek.com/critical-node-red-flaw-exploited-in-attacks/": {
   "description": "Hackers are exploiting CVE-2026-58115, a critical-severity Node-RED vulnerability, to deploy various payloads.",
   "fetched": "2026-11-03",
@@ -8326,6 +8476,12 @@
   "fetched": "2026-11-08",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2024/11/Ahold-Delhaize-cyberattack.jpeg"
+ },
+ "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/": {
+  "description": "Threat actors exploited CVE-2026-76466 in Cisco Expressway shortly after a PoC was released, compromising a Russian organization.",
+  "fetched": "2026-11-20",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2025/09/Cisco-firewall.jpeg"
  },
  "https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/": {
   "description": "Botnets and crypto miners have started exploiting SSHole, an OpenSSH authentication bypass impacting certain Linux distributions.",
@@ -8525,6 +8681,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/11/NATO-Crossed-Swords-2026.jpeg"
  },
+ "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/": {
+  "description": "Broadcom patches CVE-2026-123890, a critical VMware vCenter authentication bypass exploited as a zero-day by a China-linked espionage group.",
+  "fetched": "2026-11-20",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2022/08/VMWare.jpg"
+ },
  "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop/": {
   "description": "Nightmare Eclipse has dropped SignDrop, a Windows zero-day exploit that abuses CLFS and Defender to gain System privileges.",
   "fetched": "2026-11-13",
@@ -8554,6 +8716,12 @@
   "fetched": "2026-11-12",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2025/10/bank-finance-lender-credit-union-hack.jpeg"
+ },
+ "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/": {
+  "description": "Nvidia found no indication of a breach after the Gentlemen ransomware group named the company on its data leak website.",
+  "fetched": "2026-11-20",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2024/07/Nvidia.jpeg"
  },
  "https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/": {
   "description": "GPT-6 Astra quietly underperformed on AI safety research tasks such as red-teaming, and OpenAI’s monitors mostly missed the behavior.",
@@ -8608,6 +8776,12 @@
   "fetched": "2026-11-15",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/11/SI_Department-of-War.png"
+ },
+ "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/": {
+  "description": "PHP has released patches for seven critical-severity remote code execution vulnerabilities, including an incomplete fix for PHP2Shell.",
+  "fetched": "2026-11-20",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/10/php-exploit-code.webp"
  },
  "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/": {
   "description": "Palo Alto Networks firewalls have been rooted via PHP2Shell exploits, but no WordPress site has been compromised.",
@@ -8884,6 +9058,12 @@
   "fetched": "2026-10-24",
   "icon": null,
   "image": null
+ },
+ "https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21": {
+  "description": "Synology Product Security Advisory",
+  "fetched": "2026-11-20",
+  "icon": "https://fileres.synology.com/images/common/favicon/syno/icon-180x180.png",
+  "image": "https://fileres.synology.com/images/common/meta-tag-preview-image/img_synology.jpg"
  },
  "https://www.techdirt.com/2026/11/02/sam-altmans-case-against-your-ram-is-efficient-thats-the-problem/": {
   "description": null,
@@ -9242,6 +9422,12 @@
  "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad": {
   "description": null,
   "fetched": "2026-11-12",
+  "icon": null,
+  "image": null
+ },
+ "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87": {
+  "description": null,
+  "fetched": "2026-11-20",
   "icon": null,
   "image": null
  },
