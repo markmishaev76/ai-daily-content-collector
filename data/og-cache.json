@@ -6089,6 +6089,12 @@
   "icon": "https://cdn.prod.website-files.com/642adcaf364024552e71df01/6acf3def6456cdb50f820e2e_favicon-512.jpg",
   "image": "https://cdn.prod.website-files.com/642adcaf364024654c71df23/6adbe4dc7746ea7df4365811_Node-JS_OG.jpg"
  },
+ "https://www.alicecaml.org/blog/alice-v0-6-0/": {
+  "description": "A radical, experimental OCaml build system and package manager",
+  "fetched": "2026-11-21",
+  "icon": "https://www.alicecaml.org/favicon.png",
+  "image": "https://www.alicecaml.org/logo512x256.png"
+ },
  "https://www.aljazeera.com/economy/2026/10/16/meta-employees-say-lulas-accounts-restricted-in-brazil-election-report": {
   "description": "The messages, reported by a Brazilian daily, say the platform recommended Bolsonaro's profile and his WhatsApp channel.",
   "fetched": "2026-10-25",
@@ -8230,6 +8236,12 @@
   "fetched": "2026-11-19",
   "icon": "https://www.ruby-lang.org/images/apple-touch-icon.png",
   "image": "https://www.ruby-lang.org/images/og-image.png"
+ },
+ "https://www.ruv.is/english/2026-11-20-serious-cyberattack-thought-backed-by-wealthy-operators-493411": {
+  "description": "The managing director of 1984 says the cyberattack on the company was carried out at a speed unlike anything previously heard of. He says it is clear that well-funded attackers were behind it. 1984 hosts a large proportion of Icelandic websites.",
+  "fetched": "2026-11-21",
+  "icon": "https://www.ruv.is/apple-touch-icon.png",
+  "image": "https://myndir.ruv.is/eyJidWNrZXQiOiAicnV2LXByb2QtcnV2aXMtcHVibGljIiwgImtleSI6ICJtZWRpYS9wdWJsaWMvb3JpZ2luYWxfaW1hZ2VzL2ZyXzIwMTcxMTE2XzA3Mzc1OS5qcGciLCAiZWRpdHMiOiB7InRvRm9ybWF0IjogImpwZWciLCAianBlZyI6IHsicXVhbGl0eSI6IDYwfSwgInJlc2l6ZSI6IHsid2lkdGgiOiAiMTIwMCIsICJmaXQiOiAiY292ZXIiLCAiaGVpZ2h0IjogIjYzMCJ9fX0="
  },
  "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html": {
   "description": "Interesting research: TL;DR: Chinese AI models now sit inside Western products, and some carry geopolitical triggers: tell the model who the code is for, and the security of what it writes changes. For the first time, we showed that this vulnerability lives in the model’s weights, and that removing the model’s CCP alignment removes it. One word tilts the code against Americans. Ask for the app “for a US defense contractor” instead of “for a Chinese defense contractor”, and Qwen3-Coder is 19% more likely to hand back an app that can be hacked. ...",
