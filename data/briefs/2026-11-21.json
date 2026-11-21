@@ -3,7 +3,7 @@
   "lead": {
     "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
     "link": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
-    "excerpt": "A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability. The post Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day appeared first on SecurityWeek.",
+    "excerpt": "A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability.",
     "source": "SecurityWeek",
     "date": "Nov 21",
     "image": "https://www.securityweek.com/wp-content/uploads/2026/04/Artificial-Intelligence-vs-AI.jpeg",
@@ -14,7 +14,7 @@
     "labels": [
       "3 sources",
       "Security & AppSec",
-      "3h ago"
+      "6h ago"
     ],
     "also": [
       {
@@ -29,28 +29,16 @@
   },
   "pulse": [
     {
-      "title": "Google workers tell their employer not to punish schools that don't want AI",
-      "thread": "https://news.ycombinator.com/item?id=50577901",
-      "link": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
-      "link_domain": "motherjones.com",
+      "title": "RCE in Gnupg",
+      "thread": "https://news.ycombinator.com/item?id=50587208",
+      "link": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+      "link_domain": "lists.gnupg.org",
       "source": "Hacker News",
-      "domain": "motherjones.com",
-      "meta": "Hacker News · 277 points · 219 comments · 22h ago",
+      "domain": "lists.gnupg.org",
+      "meta": "Hacker News · 180 points · 58 comments · 10h ago",
       "also": [],
-      "image": "https://www.motherjones.com/wp-content/uploads/2026/11/google-chromebook-la-school-covid.jpg?w=1200&h=630&crop=1",
-      "icon": "https://www.motherjones.com/wp-content/uploads/2017/09/cropped-favicon-512x512.png?w=180"
-    },
-    {
-      "title": "Alice v0.6.0",
-      "thread": "https://lobste.rs/s/18c0lq/alice_v0_6_0",
-      "link": "https://www.alicecaml.org/blog/alice-v0-6-0/",
-      "link_domain": "alicecaml.org",
-      "source": "Lobsters",
-      "domain": "alicecaml.org",
-      "meta": "Lobsters · 23 points · 3 comments · 22h ago",
-      "also": [],
-      "image": "https://www.alicecaml.org/logo512x256.png",
-      "icon": "https://www.alicecaml.org/favicon.png"
+      "image": null,
+      "icon": "https://lists.gnupg.org/favicon.ico"
     },
     {
       "title": "ClawDOS – An AI coding agent for DOS",
@@ -59,7 +47,7 @@
       "link_domain": "ricapar.net",
       "source": "Hacker News",
       "domain": "ricapar.net",
-      "meta": "Hacker News · 123 points · 36 comments · 9h ago",
+      "meta": "Hacker News · 138 points · 43 comments · 13h ago",
       "also": [],
       "image": null,
       "icon": null
@@ -71,22 +59,10 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 110 points · 36 comments · 19h ago",
+      "meta": "Hacker News · 112 points · 36 comments · 22h ago",
       "also": [],
       "image": "https://opengraph.githubassets.com/a8594e18d265a7fabedaf3bc16d00048873ef069dc5f4346d23c2bf7882a3557/diggerhq/opencomputer",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
-    },
-    {
-      "title": "AI is giving everyone the same advice",
-      "thread": "https://news.ycombinator.com/item?id=50577872",
-      "link": "https://a90.com/experiments/same-advice/",
-      "link_domain": "a90.com",
-      "source": "Hacker News",
-      "domain": "a90.com",
-      "meta": "Hacker News · 103 points · 43 comments · 22h ago",
-      "also": [],
-      "image": "https://a90.com/experiments/same-advice/og.png",
-      "icon": "https://a90.com/apple-touch-icon.png"
     }
   ],
   "sections": [
@@ -103,7 +79,7 @@
           "icon": null,
           "domain": "metr.org",
           "hn": null,
-          "score": 3.323,
+          "score": 3.08,
           "coverage": 1
         },
         {
@@ -116,7 +92,7 @@
           "icon": "https://stackoverflow.blog/apple-touch-icon.png",
           "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 3.332,
+          "score": 3.028,
           "coverage": 1
         },
         {
@@ -129,7 +105,7 @@
           "icon": "https://martinfowler.com/favicon.ico",
           "domain": "martinfowler.com",
           "hn": null,
-          "score": 3.064,
+          "score": 2.774,
           "coverage": 1
         }
       ],
@@ -144,7 +120,7 @@
           "icon": "https://eugeneyan.com/assets/favicon/apple-touch-icon.png",
           "domain": "eugeneyan.com",
           "hn": null,
-          "score": 0.191,
+          "score": 0.182,
           "coverage": 1
         },
         {
@@ -157,7 +133,7 @@
           "icon": "https://sebastianraschka.com/images/favicons/favicon-32x32.png",
           "domain": "sebastianraschka.com",
           "hn": null,
-          "score": 1.072,
+          "score": 0.854,
           "coverage": 1
         },
         {
@@ -170,7 +146,7 @@
           "icon": null,
           "domain": "research.google",
           "hn": null,
-          "score": 0.514,
+          "score": 0.458,
           "coverage": 1
         },
         {
@@ -183,7 +159,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.448,
+          "score": 0.404,
           "coverage": 1
         },
         {
@@ -196,7 +172,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.411,
+          "score": 0.374,
           "coverage": 1
         }
       ]
@@ -214,7 +190,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.533,
+          "score": 0.463,
           "coverage": 1
         },
         {
@@ -227,7 +203,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.397,
+          "score": 0.357,
           "coverage": 1
         },
         {
@@ -240,7 +216,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.361,
+          "score": 0.334,
           "coverage": 1
         }
       ],
@@ -255,7 +231,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.291,
+          "score": 0.273,
           "coverage": 1
         },
         {
@@ -268,7 +244,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.291,
+          "score": 0.273,
           "coverage": 1
         },
         {
@@ -281,7 +257,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.407,
+          "score": 0.365,
           "coverage": 1
         },
         {
@@ -294,7 +270,7 @@
           "icon": null,
           "domain": "sentinelone.com",
           "hn": null,
-          "score": 0.34,
+          "score": 0.31,
           "coverage": 1
         }
       ]
@@ -312,7 +288,7 @@
           "icon": null,
           "domain": "stratechery.com",
           "hn": null,
-          "score": 0.463,
+          "score": 0.419,
           "coverage": 1
         }
       ],
@@ -331,7 +307,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 3.063,
+          "score": 2.786,
           "coverage": 1
         },
         {
@@ -344,7 +320,52 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.347,
+          "score": 0.316,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Secrets & NHI",
+      "cards": [
+        {
+          "title": "Leaky AI supply chain is exposing secret user data at an alarming rate",
+          "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+          "excerpt": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
+          "source": "arstechnica.com via Hacker News",
+          "date": "Nov 20",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-privacy-leakage-1152x648.jpg",
+          "icon": "https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-300x300.png",
+          "domain": "arstechnica.com",
+          "hn": "38 points · 6 comments",
+          "score": 3.569,
+          "coverage": 1
+        },
+        {
+          "title": "Army delays detonating \"catastrophically hazardous\" lead azide amid fear, anger",
+          "link": "https://arstechnica.com/science/2026/11/outrage-questions-swirl-as-army-delays-blowing-up-stockpile-of-toxic-lead-azide/",
+          "excerpt": "Modeling predicts plume of neurotoxic lead could reach up to 100 miles away.",
+          "source": "arstechnica.com via Hacker News",
+          "date": "Nov 20",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2305973751-1024x648.jpg",
+          "icon": "https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-300x300.png",
+          "domain": "arstechnica.com",
+          "hn": "31 points · 11 comments",
+          "score": 7.73,
+          "coverage": 2
+        },
+        {
+          "title": "We built an internal coding agent. Now 80% of the company uses it",
+          "link": "https://medium.com/alan/hopper-we-built-an-internal-coding-agent-now-80-of-alan-uses-it-9c11e5b62ca5",
+          "excerpt": "13 points · 3 comments",
+          "source": "medium.com via Hacker News",
+          "date": "Nov 20",
+          "image": null,
+          "icon": "https://medium.com/favicon.ico",
+          "domain": "medium.com",
+          "hn": "13 points · 3 comments",
+          "score": 1.04,
           "coverage": 1
         }
       ],
@@ -363,7 +384,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 10.482,
+          "score": 8.569,
           "coverage": 3
         },
         {
@@ -376,7 +397,7 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 1.962,
+          "score": 1.765,
           "coverage": 1
         },
         {
@@ -389,7 +410,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 3.144,
+          "score": 2.656,
           "coverage": 1
         }
       ],
@@ -404,7 +425,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 1.685,
+          "score": 1.524,
           "coverage": 1
         },
         {
@@ -417,7 +438,7 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 2.822,
+          "score": 2.563,
           "coverage": 1
         },
         {
@@ -430,7 +451,7 @@
           "icon": "https://checkmarx.com/wp-content/uploads/2026/06/favicon_spring-300x300.webp",
           "domain": "checkmarx.com",
           "hn": null,
-          "score": 1.381,
+          "score": 1.256,
           "coverage": 1
         },
         {
@@ -443,7 +464,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.46,
+          "score": 0.377,
           "coverage": 1
         }
       ]
@@ -461,7 +482,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.739,
+          "score": 2.491,
           "coverage": 1
         },
         {
@@ -474,7 +495,7 @@
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
           "hn": null,
-          "score": 1.732,
+          "score": 1.624,
           "coverage": 1
         },
         {
@@ -487,7 +508,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.513,
+          "score": 2.286,
           "coverage": 1
         }
       ],
@@ -502,7 +523,7 @@
           "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.189,
+          "score": 1.991,
           "coverage": 1
         },
         {
@@ -515,7 +536,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 4.761,
+          "score": 4.324,
           "coverage": 1
         },
         {
@@ -563,16 +584,16 @@
       "name": "News & Research",
       "cards": [
         {
-          "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
-          "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
-          "excerpt": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
-          "source": "Ars Technica",
-          "date": "Nov 20",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-privacy-leakage-500x500.jpg",
-          "icon": null,
-          "domain": "arstechnica.com",
+          "title": "Here are the top AI agents that can live in your text messages",
+          "link": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+          "excerpt": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+          "source": "TechCrunch",
+          "date": "Nov 21",
+          "image": "https://techcrunch.com/wp-content/uploads/2017/12/gettyimages-673436934.jpg?resize=1200,813",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
           "hn": null,
-          "score": 1.949,
+          "score": 5.413,
           "coverage": 1
         },
         {
@@ -585,11 +606,78 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 1.422,
+          "score": 1.283,
           "coverage": 1
         },
         {
-          "title": "Lean Verification of the Riemann Hypothesis - Joint statement by...",
+          "title": "Inkling-2-Mini in 5.4 GB Memory",
+          "link": "https://github.com/ShinMegamiBoson/lookatmyquant",
+          "excerpt": "A quantization compiler that delivers 12× lower KL than Q4_K_M at the same file size - ShinMegamiBoson/lookatmyquant",
+          "source": "github.com via Hacker News",
+          "date": "Nov 21",
+          "image": "https://opengraph.githubassets.com/c80128d6b2bb5974cfbaafdd11c7047b1f4d7e84d20169ea8d107443f6feaa10/ShinMegamiBoson/lookatmyquant",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "43 points · 2 comments",
+          "score": 3.543,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Jensen Huang's fall is bad news for Silicon Valley's accelerationists",
+          "link": "https://www.economist.com/business/2026/11/19/jensen-huangs-fall-is-bad-news-for-silicon-valleys-accelerationists",
+          "excerpt": "79 points · 72 comments",
+          "source": "economist.com via Hacker News",
+          "date": "Nov 21",
+          "image": null,
+          "icon": "https://www.economist.com/favicon.ico",
+          "domain": "economist.com",
+          "hn": "79 points · 72 comments",
+          "score": 4.451,
+          "coverage": 1
+        },
+        {
+          "title": "PostgreSQL Extensions in Go",
+          "link": "https://jespino.github.io/gopgext/",
+          "excerpt": "Build PostgreSQL extensions from plain Go code, using TinyGo: functions marked with //gopgext:function become SQL functions.",
+          "source": "jespino.github.io via Hacker News",
+          "date": "Nov 21",
+          "image": "https://jespino.github.io/gopgext/img/social.png",
+          "icon": "https://jespino.github.io/gopgext/img/gopher-elephant.png",
+          "domain": "jespino.github.io",
+          "hn": "52 points · 1 comments",
+          "score": 3.427,
+          "coverage": 1
+        },
+        {
+          "title": "Verification files for the Lean proof of the Riemann Hypothesis",
+          "link": "https://math.mit.edu/~drew/grh/",
+          "excerpt": "29 points · 2 comments",
+          "source": "math.mit.edu via Hacker News",
+          "date": "Nov 21",
+          "image": null,
+          "icon": "https://math.mit.edu/favicon.ico",
+          "domain": "math.mit.edu",
+          "hn": "29 points · 2 comments",
+          "score": 7.03,
+          "coverage": 2
+        },
+        {
+          "title": "Show HN: Zero C#, Power of C# without any GC",
+          "link": "https://onurgumus.github.io/zero-csharp/index.html",
+          "excerpt": "A bflat fork that compiles C# to small native programs with no .NET runtime and no garbage collector, for Linux, macOS, Windows, WebAssembly and DOS on a 386.",
+          "source": "onurgumus.github.io via Hacker News",
+          "date": "Nov 21",
+          "image": "https://onurgumus.github.io/zero-csharp/img/social.png?v=2",
+          "icon": "https://onurgumus.github.io/zero-csharp/img/favicon.svg",
+          "domain": "onurgumus.github.io",
+          "hn": "61 points · 43 comments",
+          "score": 3.528,
+          "coverage": 1
+        },
+        {
+          "title": "Lean verification of the Riemann Hypothesis",
           "link": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
           "excerpt": "Lean verification of the Riemann Hypothesis Joint statement by the Lean and Mathlib communities, endorsed by the Lean FRO and the Mathlib Initiative. On November 20, 2026, Levent Alpöge released a pro",
           "source": "leanprover-community.github.io via Hacker News",
@@ -597,76 +685,9 @@
           "image": "https://leanprover-community.github.io/blog/meta-twitter.png",
           "icon": "https://leanprover-community.github.io/img/favicon.ico",
           "domain": "leanprover-community.github.io",
-          "hn": "23 points · 13 comments",
-          "score": 3.377,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "Derek Lowe: Detonating a Pile of Lead Azide",
-          "link": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
-          "excerpt": "125 points · 77 comments",
-          "source": "science.org via Hacker News",
-          "date": "Nov 21",
-          "image": null,
-          "icon": "https://www.science.org/favicon.ico",
-          "domain": "science.org",
-          "hn": "125 points · 77 comments",
-          "score": 4.284,
-          "coverage": 1
-        },
-        {
-          "title": "Astra 6.2 and Sol 6.2 flop at Simple Bench",
-          "link": "https://simple-bench.com/",
-          "excerpt": "SimpleBench",
-          "source": "simple-bench.com via Hacker News",
-          "date": "Nov 21",
-          "image": null,
-          "icon": "https://simple-bench.com/static/favicon.ico",
-          "domain": "simple-bench.com",
-          "hn": "52 points · 33 comments",
-          "score": 3.649,
-          "coverage": 1
-        },
-        {
-          "title": "My Monitor Was Cutting My Download Speed by 75%",
-          "link": "https://blog.tymscar.com/posts/studiodisplayethernet/",
-          "excerpt": "Upload at 2.4 Gbps, download at 600 Mbps, same cable and same adapter. Here's how I tracked it down to my Studio Display XDR, a tiny buffer, and a USB burst size of four packets.",
-          "source": "blog.tymscar.com via Hacker News",
-          "date": "Nov 21",
-          "image": "https://blog.tymscar.com/studio-display-ethernet/og-card.png",
-          "icon": "https://blog.tymscar.com/apple-touch-icon.png",
-          "domain": "blog.tymscar.com",
-          "hn": "156 points · 63 comments",
-          "score": 3.628,
-          "coverage": 1
-        },
-        {
-          "title": "FBI reportedly investigating apparent hack of its criminal database",
-          "link": "https://www.bbc.com/news/articles/cvze7de86pk3o",
-          "excerpt": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
-          "source": "bbc.com via Hacker News",
-          "date": "Nov 21",
-          "image": "https://ichef.bbci.co.uk/news/1024/branded_news/3fd7/live/9009b220-e58d-11f1-99a1-253766e7ad8b.jpg",
-          "icon": "https://static.files.bbci.co.uk/bbcdotcom/web/20261119-102257-f8058bdc4a-3.28.2-1/apple-touch-icon.png",
-          "domain": "bbc.com",
-          "hn": "99 points · 43 comments",
-          "score": 3.366,
-          "coverage": 1
-        },
-        {
-          "title": "RCE in Gnupg",
-          "link": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
-          "excerpt": "127 points · 41 comments",
-          "source": "lists.gnupg.org via Hacker News",
-          "date": "Nov 21",
-          "image": null,
-          "icon": "https://lists.gnupg.org/favicon.ico",
-          "domain": "lists.gnupg.org",
-          "hn": "127 points · 41 comments",
-          "score": 3.096,
-          "coverage": 1
+          "hn": "491 points · 391 comments",
+          "score": 7.03,
+          "coverage": 2
         }
       ]
     }
