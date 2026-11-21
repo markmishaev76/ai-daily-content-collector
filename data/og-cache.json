@@ -725,6 +725,12 @@
   "icon": null,
   "image": null
  },
+ "https://borretti.me/article/re-riemann": {
+  "description": "Man is a bridge.",
+  "fetched": "2026-11-21",
+  "icon": "https://borretti.me/assets/favicon.jpg",
+  "image": "https://borretti.me/assets/card/re-riemann.webp"
+ },
  "https://brave.com/blog/search-api-agentic-payments/": {
   "description": "Developers and AI agents can now pay for the Brave Search API on demand with USDC via the open x402 protocol, settling each query in real time without an account or API key.",
   "fetched": "2026-11-13",
@@ -778,6 +784,12 @@
   "fetched": "2026-10-24",
   "icon": "https://captnemo.in/img/favicon.png",
   "image": "https://captnemo.in/img/favicon.png"
+ },
+ "https://checkmarx.com/blog/checkmarx-forrester-wave-agentic-development-security-tools-q4-2026/": {
+  "description": "Checkmarx earns recognition in The Forrester Wave™: Agentic Development Security Tools, Q4 2026. Explore key strengths and security innovation insights.",
+  "fetched": "2026-11-21",
+  "icon": "https://checkmarx.com/wp-content/uploads/2026/06/favicon_spring-300x300.webp",
+  "image": "https://checkmarx.com/wp-content/uploads/2026/11/Forrester-2026-wave-v3-static-scaled.webp"
  },
  "https://chengela.substack.com/p/should-a-medical-diagnosis-reshape": {
   "description": null,
@@ -898,6 +910,12 @@
   "fetched": "2026-11-04",
   "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
   "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Google_Cloud_Consulting.max-2500x2500.jpg"
+ },
+ "https://cloud.google.com/blog/topics/developers-practitioners/how-to-fix-your-teams-api-keys/": {
+  "description": "In our recent post, 10 questions every startup should answer before moving to production with their AI prototype, we covered the whole path from prototype to production. This post goes deeper on one part of it: getting off raw API keys entirely.",
+  "fetched": "2026-11-21",
+  "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
+  "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/11_-_Developers__Practitioners_a4Y5EGr.max-2600x2600.jpg"
  },
  "https://cloud.google.com/blog/topics/hpc/whats-new-in-hpc-and-ai-at-sc26/": {
   "description": "Learn about how Google Cloud is bringing agentic HPC to life at SC26 with reusable skills to build and run HPC workloads.",
@@ -1103,6 +1121,12 @@
   "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
   "image": null
  },
+ "https://datatracker.ietf.org/doc/draft-ietf-plants-merkle-tree-certs/": {
+  "description": "This document describes Merkle Tree certificates, a new form of X.509 certificates which integrate public logging of the certificate, in the style of Certificate Transparency. The integrated design reduces logging overhead in the face of both shorter-lived certificates and large post-quantum signature algorithms, while still achieving comparable security properties to existing X.509 constructions and Certificate Transparency. Merkle Tree certificates additionally admit an optional size optimization that avoids signatures altogether, at the cost of only applying to up-to-date relying parties and older certificates.",
+  "fetched": "2026-11-21",
+  "icon": "https://static.ietf.org/dt/12.83.2/ietf/images/ietf-logo-nor-180.png",
+  "image": "https://static.ietf.org/dt/12.83.2/ietf/images/ietf-logo-card.png"
+ },
  "https://datatracker.ietf.org/doc/draft-ietf-wimse-aims/history/#history-1241577": {
   "description": null,
   "fetched": "2026-11-03",
@@ -1241,6 +1265,12 @@
   "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
   "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/title-image.2e16d0ba.fill-1200x600.png"
  },
+ "https://developers.googleblog.com/check-what-your-ai-agents-do-before-they-do-it-with-semantic-governance-policies/": {
+  "description": "Learn how Semantic governance policies in Gemini platform enable enterprises to set plain-language guardrails and verify user intent before AI agent tool calls run.",
+  "fetched": "2026-11-21",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_2.2e16d0ba.fill-1200x600.png"
+ },
  "https://developers.googleblog.com/cost-per-task-using-cheap-classifiers-to-route-across-gemini-models-and-thinking-levels/": {
   "description": "Per-token API prices keep falling, yet engineering bills for autonomous coding agents keep climbing....",
   "fetched": "2026-11-05",
@@ -1282,6 +1312,18 @@
   "fetched": "2026-11-13",
   "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
   "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Banner_-_1600x900.2e16d0ba.fill-1200x600.png"
+ },
+ "https://developers.googleblog.com/how-to-handle-user-connector-and-agent-auth-in-gemini-enterprise-with-a-custom-ui/": {
+  "description": "Learn how to handle user & workload SSO, Federated Connector 3LO, and custom ADK agent tool-level OAuth when connecting a custom enterprise UI to Gemini Enterprise (:streamAssist).",
+  "fetched": "2026-11-21",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/meta-image-1600x900.2e16d0ba.fill-1200x600.png"
+ },
+ "https://developers.googleblog.com/how-to-securely-connect-internal-cloud-run-mcp-servers-to-gemini-enterprise/": {
+  "description": "Learn how to connect Gemini Enterprise privately to internal Cloud Run MCP servers using Egress Agent Gateway, PSC, scoped Cloud DNS, and OAuth 2.0.",
+  "fetched": "2026-11-21",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_image_1600x900.2e16d0ba.fill-1200x600.png"
  },
  "https://developers.googleblog.com/integrating-torchtpu-into-torchtitan-and-optimizing-models-for-tpu/": {
   "description": "Learn how TorchTitan and TorchTPU enable seamless, high-performance distributed AI model training on Google Cloud TPUs with native PyTorch support.",
@@ -1895,6 +1937,12 @@
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://opengraph.githubassets.com/7f691567e9faa77175f013709116dd5bee73f141b6d247175c8e0f12f7b0a2df/datareceipts/data-receipts"
  },
+ "https://github.com/diggerhq/opencomputer": {
+  "description": "An open-source, faster Devin alternative. Contribute to diggerhq/opencomputer development by creating an account on GitHub.",
+  "fetched": "2026-11-21",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://opengraph.githubassets.com/a8594e18d265a7fabedaf3bc16d00048873ef069dc5f4346d23c2bf7882a3557/diggerhq/opencomputer"
+ },
  "https://github.com/dmunozv04/isponsorblocktv": {
   "description": null,
   "fetched": "2026-11-08",
@@ -2446,6 +2494,12 @@
   "fetched": "2026-11-19",
   "icon": null,
   "image": "https://cdn-uploads.huggingface.co/production/uploads/64e8143f6de557454220921e/yf6E9vJHIkGHG_toGSasb.gif"
+ },
+ "https://huggingface.co/blog/inkling2mini": {
+  "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+  "fetched": "2026-11-21",
+  "icon": null,
+  "image": "https://huggingface.co/blog/assets/inkling2mini/thumbnail.png"
  },
  "https://huggingface.co/blog/microsoft/thinkingbox-training": {
   "description": "A Blog post by Microsoft on Hugging Face",
@@ -3011,6 +3065,12 @@
   "icon": null,
   "image": "https://martinfowler.com/fragments/fragments-thumb.png"
  },
+ "https://martinfowler.com/fragments/2026-11-20.html": {
+  "description": "healthy code is cheaper to review, why the Huang saga is important, slow down with software factories, the future of SaaS, corrigibility for agents, Meta's AI agent sues Meta",
+  "fetched": "2026-11-21",
+  "icon": null,
+  "image": "https://martinfowler.com/fragments/fragments-thumb.png"
+ },
  "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering": {
   "description": "The restrictions are so broad that they're even hurting legitimate game developers and preventing basic troubleshooting tasks.",
   "fetched": "2026-11-01",
@@ -3257,6 +3317,12 @@
   "icon": "https://nicolasbouliane.com/img/favicon.png",
   "image": null
  },
+ "https://ninlive.com/": {
+  "description": "A fan-run archive of Nine Inch Nails concerts, setlists, recordings, posters and photos from 1988 to today.",
+  "fetched": "2026-11-21",
+  "icon": "https://ninlive.com/static/favicon.ico",
+  "image": "https://ninlive.com/static/ninlive-socialshare.png"
+ },
  "https://nitter.cf/kevinnbass/status/2099621874279817638": {
   "description": "I have conducted an audit of Anthropic's finances. What I have found is so shocking that I am calling for a Congressional investigation. Anthropic is not just seeking regulatory capture. It has built a regulatory capture machine that cannot be turned off. Structural financial incentives make it impossible for Anthropic -- I call it the Anthropic Network -- to turn off its own AI doom cycle. It starts with METR. Dario Amodei proposes \"third-party evaluators\" to assess the risk of Anthropic's models. He proposes METR for this purpose. But METR is financially dependent on the Anthropic's success -- specifically, on the explosive growth of more than $7 billion dollars in Anthropic stock. Dustin Moskovitz invested this stock into Good Ventures Foundation, where it represents the majority of that organization's portfolio. And GVF is the overwhelming funder of the entire Anthropic Network ecosystem. This stock was worth $500 million early last year. It is worth more than $7.7 billion just ~16 months later. METR -- and all of those building a career its parent organizations -- cannot afford to disrupt that growth. Because if Anthropic goes under, many of the organizations that fund METR go under as well. But if Anthropic succeeds, METR and its parent organizations become more richly financed to regulate AI -- something those at METR want very much. The \"third-party evaluator\" is not \"third-party\" at all. The evaluator is on Anthropic's payroll. If this were the end of it, that's bad. But that isn't all. The same organizations that fund METR also fund the many organizations, such as the Tarbell Center, that promote AI Doom. The Tarbell Center publishes AI Doom articles in The Verge, Science, LA Times, The Dispatch, TIME, and others. They are selling the problem, and then selling the solution to the problem -- from the same money pile: Anthropic's. All of these organizations are financially dependent on the same exploding $7 billion money pile. As Anthropic grows more and more powerful, its AI Doom Machine grows better and better financed -- louder and louder. Meanwhile, the regulatory regime seeded in METR grows larger to solve the increasingly loud -- now hysterical -- problem of AI Doom that the Anthropic Network itself created. From this standpoint, as Anthropic becomes more powerful, AI might be getting scarier, sure -- but the positive feedback loop also becomes more deafening -- independent of objective facts. This itself is an objective fact. The deafening AI Doom is part of an business model, that, as it expands, so too does the AI Doom messaging -- there is simply more money to do it. But the problem also goes in the other direction: If Anthropic dies, the Regulatory Regime and the AI Doom Machine are crippled or die. Neither METR nor Tarbell nor the other organizations in the Anthropic Network can allow that to happen. Hence, neither METR or the AI Doom Machine can be trusted to provide independent assessments of Anthropic's models or AI more broadly. They simply are not organizations independent of Anthropic. And Anthropic cannot detach itself from METR or Tarbell or countless other safety orgs (not shown here), either, because they drive hype for the models and the possibility of eventual regulatory capture, and Anthropic will not give that up willingly. What's more, the people at all of these organizations are all the same ecosystem, the same community. They just shuffle between organizations. The Anthropic Network is therefore, so long as it is successful, locked into a self-amplifying feedback loop inside an ideological monoculture. And that feedback loop is winning. That's what Jacob Coxon is. China is keeping messaging tight. That is why optimism for AI is so high in China. America has Anthropic: a massive company pushing anti-AI propaganda at a state level. Anthropic will either create hysteria until American AI slows down and China wins, or it will create fractures throughout American society with severe political consequences. Ironically, because of the structural financial incentives underpinning the Anthropic Network, it has become the same kind of self-amplifying virus that it fantasizes AI to become in the future -- while hiding its tracks just as carefully. It is the mirror of the same AI virus that it hypothesizes to consume America. Anthropic's business model, models itself after the very thing it claims to fear. Except Anthropic's ideology infects humans, not computers. Congress must investigate. Evidence and Github in next post. Then some supplementary figures.",
   "fetched": "2026-11-17",
@@ -3346,6 +3412,12 @@
   "fetched": "2026-11-13",
   "icon": null,
   "image": null
+ },
+ "https://openai.com/business/customer-stories/hebbia": {
+  "description": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+  "fetched": "2026-11-21",
+  "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/70gWqYyqb096it9EoD7OqI/5df8cad1c7fdf2a4e942c3183a10f405/hebbia-smoked-depth-social.png?w=1600&h=900&fit=fill"
  },
  "https://openai.com/business/customer-stories/holiday-extras-dots": {
   "description": null,
@@ -3514,6 +3586,12 @@
   "fetched": "2026-11-11",
   "icon": null,
   "image": null
+ },
+ "https://openai.com/index/combatting-adversarial-distillation": {
+  "description": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+  "fetched": "2026-11-21",
+  "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/5SUtPGdssrttC7LfP1yoJ1/b6b000846ab3576c1735c29534ab20b0/combatting-adversarial-distillation-social.png?w=1600&h=900&fit=fill"
  },
  "https://openai.com/index/community-safety-report-and-new-protections-for-teens": {
   "description": null,
@@ -3688,6 +3766,12 @@
   "fetched": "2026-11-05",
   "icon": null,
   "image": null
+ },
+ "https://openai.com/index/introducing-medchembench": {
+  "description": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+  "fetched": "2026-11-21",
+  "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/37ZvKdwVigsgJ7G3FMr4Nb/12854063a79d19d63278704bf54e3010/introducing-medchembench-social.png?w=1600&h=900&fit=fill"
  },
  "https://openai.com/index/introducing-openai-for-chile": {
   "description": null,
@@ -4391,6 +4475,12 @@
   "icon": "https://shubs.io/content/images/size/w256h256/2025/01/android-chrome-512x512.png",
   "image": null
  },
+ "https://signal.org/blog/protecting-your-privacy/": {
+  "description": "Privacy is our mission; it’s why we exist, and we do everything we can to protect it. This means that we are restricting the latest AI agents built into mobile operating systems from potentially capturing and storing your Signal data.",
+  "fetched": "2026-11-21",
+  "icon": "https://signal.org/assets/images/favicon/apple-touch-icon.png",
+  "image": "https://signal.org/blog/images/protecting-your-privacy-opengraph.png"
+ },
  "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/": {
   "description": "I've been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I'm having to remember is: If in doubt, delete the uv.lock file …",
   "fetched": "2026-11-02",
@@ -4496,6 +4586,18 @@
  "https://simonwillison.net/2026/Nov/2/llm/": {
   "description": "Access large language models from the command-line",
   "fetched": "2026-11-03",
+  "icon": null,
+  "image": null
+ },
+ "https://simonwillison.net/2026/Nov/20/levent-alpoge/": {
+  "description": "I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I …",
+  "fetched": "2026-11-21",
+  "icon": null,
+  "image": null
+ },
+ "https://simonwillison.net/2026/Nov/20/ravi-vakil/": {
+  "description": "Alessandro Masullo has a proposed proof of [Generalized Riemann Hypothesis], and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being incorporated, and …",
+  "fetched": "2026-11-21",
   "icon": null,
   "image": null
  },
@@ -4882,6 +4984,12 @@
   "fetched": "2026-11-20",
   "icon": "https://stackoverflow.blog/apple-touch-icon.png",
   "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/89a7c761862499db37bf759db9607b85625d3d19-3840x2160.png?rect=0,72,3840,2016&w=1200&h=630&auto=format"
+ },
+ "https://stackoverflow.blog/2026/11/20/dispatches-from-o-reilly-inside-a-software-factory/": {
+  "description": "Go from vibe coding to generating clean, maintainable code",
+  "fetched": "2026-11-21",
+  "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+  "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/f67d094b96bec257c2011a99f351211c369ba0b2-12000x6300.jpg?w=1200&h=630&auto=format"
  },
  "https://stackoverflow.blog/2026/11/20/trying-to-get-our-arms-around-ai-efficiency/": {
   "description": "Ryan sits down with Alex Spinelli, Senior Vice President of AI and Developer Platforms at Arm, for a conversation about bringing ML capabilities to edge devices, adapting software tools to meet the unique demands of autonomous agents, and the critical importance of prioritizing functional safety as artificial intelligence transitions into the physical world of robotics.",
@@ -5320,6 +5428,12 @@
   "fetched": "2026-11-20",
   "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
   "image": "https://techcrunch.com/wp-content/uploads/2021/08/icloud-pattern-with-key-red.jpg?resize=1200,675"
+ },
+ "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/": {
+  "description": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building.",
+  "fetched": "2026-11-21",
+  "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+  "image": "https://techcrunch.com/wp-content/uploads/2023/07/GettyImages-1500013882.jpg?resize=1200,812"
  },
  "https://tendrils.co/blog/2026-11-10/30m-raised": {
   "description": null,
@@ -6149,6 +6263,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o": {
+  "description": "Supermarkets, warehouses, restaurants and stadiums have been scrambling to make their devices safe.",
+  "fetched": "2026-11-21",
+  "icon": "https://static.files.bbci.co.uk/core/website/assets/static/icons/touch/news/touch-icon-36.413a37b227.png",
+  "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/d3db/live/57d6aa20-d769-11f1-a956-ff083523ef77.jpg"
+ },
  "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo": {
   "description": "Shares in Intel continue to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.",
   "fetched": "2026-10-31",
@@ -6262,6 +6382,12 @@
   "fetched": "2026-11-02",
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2026/10/30/alpine-linux.jpg"
+ },
+ "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/": {
+  "description": "Bell Canada has confirmed that an \"agentic\" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision telecommunications circuits.",
+  "fetched": "2026-11-21",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/11/20/bell-canada.jpg"
  },
  "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/": {
   "description": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop.",
@@ -6935,6 +7061,12 @@
   "icon": "https://cdndark.darkhorizons.com/wp-content/uploads/2021/09/dh-76-purple.png",
   "image": "https://cdndark.darkhorizons.com/wp-content/uploads/2026/05/more-halo-remakes-are-on-the-way.jpg"
  },
+ "https://www.datadoghq.com/blog/agentic-onboarding/": {
+  "description": "Learn how Agentic Onboarding simplifies Datadog setup across applications and infrastructure through the Pup CLI or an MCP-compatible coding assistant.",
+  "fetched": "2026-11-21",
+  "icon": null,
+  "image": "https://web-assets.dd-static.net/42588/1795111543-agentic-onboarding-hero.png"
+ },
  "https://www.datadoghq.com/blog/datadogs-agentic-vulnerability-hunting-system/": {
   "description": "We developed threat packs that give our agents the context they need to run efficient, repeatable hunts. Learn how we did it.",
   "fetched": "2026-11-19",
@@ -7096,6 +7228,12 @@
   "fetched": "2026-11-15",
   "icon": "https://www.eff.org/sites/all/themes/phoenix/apple-touch-icon.png",
   "image": "https://www.eff.org/files/banner_library/siren_v._san_jose.png"
+ },
+ "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/sir-brian-may-adds-new-dimension-to-hera-asteroid": {
+  "description": "Hera science team member, astrophysicist and Queen guitarist Sir Brian May has added an additional dimension to the ESA planetary defence mission’s early views of the Didymos asteroid system via stereoscopic imagery – revealing the dramatic features of this exotic body as never before.",
+  "fetched": "2026-11-21",
+  "icon": "https://www.esa.int/assets/images/favicon.ico",
+  "image": "https://media.esa.int/global/public/common/misc/2026/11/402679/image-thumb__402679__social_share/3d-crop.2b14b833.jpg"
  },
  "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture": {
   "description": "LLM-powered wikis, often full of inaccurate or irrelevant information, are starting to take over, leaving fans sidelined and publishers playing whack-a-mole.",
@@ -7781,6 +7919,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/": {
+  "description": "Executives are “convinced that resistance to AI\" just means schools \"don’t see the vision,” a Google staffer said.",
+  "fetched": "2026-11-21",
+  "icon": "https://www.motherjones.com/wp-content/uploads/2017/09/cropped-favicon-512x512.png?w=180",
+  "image": "https://www.motherjones.com/wp-content/uploads/2026/11/google-chromebook-la-school-covid.jpg?w=1200&h=630&crop=1"
+ },
  "https://www.mprnews.org/story/2026/10/31/hermantown-approves-controversial-google-data-center-during-late-night-meeting": {
   "description": "The Hermantown City Council unanimously approved six key measures Friday night allowing a Google data center to move forward in a rural area just outside Duluth. The proposal still faces three outstanding lawsuits.",
   "fetched": "2026-11-01",
@@ -7804,6 +7948,12 @@
   "fetched": "2026-11-07",
   "icon": null,
   "image": null
+ },
+ "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394": {
+  "description": "Anthropic’s record-setting IPO Thursday failed to restore investor confidence in the AI market.",
+  "fetched": "2026-11-21",
+  "icon": "https://nodeassets.nbcnews.com/cdnassets/projects/ramen/favicon/nbcnews/all-other-sizes-PNG.ico/apple-icon.png",
+  "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261120-new-york-stock-exchange-ew-513p-abd1ef.jpg"
  },
  "https://www.netmeister.org/blog/claude-delusion.html": {
   "description": "I'm smarter than anybody else. I built AI, ergo AI is amazing. But AI surprised me, too, ergo AI is by definition superhuman. It all makes sense, see.",
@@ -8021,6 +8171,12 @@
   "icon": "https://substackcdn.com/image/fetch/$s_!tkec!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5db19a6c-793d-4d76-94b0-4f748cf8134f%2Fapple-touch-icon-57x57.png",
   "image": "https://substackcdn.com/image/fetch/$s_!qfl2!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68ef8665-4279-4a1d-b5d6-447d33f93edd_1206x748.png"
  },
+ "https://www.researchgate.net/publication/418143113_The_Hungry_Butler_Effect_Concealed_Commercial_Incentives_and_the_Erosion_of_Epistemic_Rigour_in_Large_Language_Models": {
+  "description": null,
+  "fetched": "2026-11-21",
+  "icon": null,
+  "image": null
+ },
  "https://www.reuters.com/business/aerospace-defense/pentagon-fails-ninth-straight-audit-despite-progress-organizing-finances-2026-11-16/": {
   "description": null,
   "fetched": "2026-11-17",
@@ -8174,6 +8330,12 @@
  "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-pacific-flying-squid-populations-dropping-in-korean-waters.html": {
   "description": "Climate change is the issue. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.",
   "fetched": "2026-11-14",
+  "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+  "image": null
+ },
+ "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-the-largest-squid-ever-filmed.html": {
+  "description": "This is the story of the largest squid ever filmed, in December 2006 near Japan’s Ogasawara Islands. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.",
+  "fetched": "2026-11-21",
   "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
   "image": null
  },
@@ -8711,6 +8873,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg"
  },
+ "https://www.securityweek.com/in-other-news-norwegian-energy-firm-cyberattacks-supercomputer-hack-new-nightmare-eclipse-exploit/": {
+  "description": "Norwegian energy companies targeted in cyberattacks, a Japanese supercomputer was hacked, and Nightmare Eclipse has dropped a new exploit.",
+  "fetched": "2026-11-21",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg"
+ },
  "https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware/": {
   "description": "Tor exit relays hijacked, banks spot rogue AI agents in customer accounts, and researcher analyzes Heartbreaker macOS ransomware.",
   "fetched": "2026-10-23",
@@ -9166,6 +9334,12 @@
   "fetched": "2026-11-19",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg"
+ },
+ "https://www.securityweek.com/whatsapp-fixes-flaw-uncovered-while-disrupting-scam-campaign/": {
+  "description": "A WhatsApp for Android vulnerability tracked as CVE-2026-23871 has been exploited in scam campaigns to make messages more credible.",
+  "fetched": "2026-11-21",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2025/06/WhatsApp-Vulnerability-attack-e1761292707809.jpg"
  },
  "https://www.securityweek.com/when-risk-becomes-personal-what-security-leaders-can-learn-from-a-cancer-diagnosis/": {
   "description": "Risk management leaders educate people on measuring exposure, testing assumptions and advising on how to prepare for incidents they hope won’t occur.",

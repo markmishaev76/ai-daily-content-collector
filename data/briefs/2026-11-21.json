@@ -1,0 +1,650 @@
+{
+  "date": "2026-11-21",
+  "lead": {
+    "title": "Chinese-nexus actor’s Cairn AI agents found a zero-day on their own",
+    "link": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/",
+    "excerpt": "Amazon Threat Intelligence is sharing findings from an investigation into a Chinese-nexus threat actor using autonomous AI agents to conduct hacking operations with minimal human involvement. The actor gave the agents a simple goal: “obtain shell access.” During the campaign, the agents found a…",
+    "source": "AWS Security Blog",
+    "date": "Nov 20",
+    "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2022/05/24/CJ_Moses.jpeg",
+    "image_credit": null,
+    "section": "Platform, Cloud & Reliability",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "Platform, Cloud & Reliability",
+      "8h ago"
+    ],
+    "also": []
+  },
+  "pulse": [
+    {
+      "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+      "thread": "https://news.ycombinator.com/item?id=50572503",
+      "link": "https://architectlabs.com/blog/frostbite",
+      "link_domain": "architectlabs.com",
+      "source": "Hacker News",
+      "domain": "architectlabs.com",
+      "meta": "Hacker News · 629 points · 328 comments · 16h ago",
+      "also": [],
+      "image": "https://main--gleeful-begonia-6bb5f3.netlify.app/_next/static/media/frostbite-cover.3n9ytugnquhlr.jpg",
+      "icon": "https://architectlabs.com/favicon.ico?favicon.08mdo-hmkdh99.ico"
+    },
+    {
+      "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
+      "thread": "https://news.ycombinator.com/item?id=50572348",
+      "link": "https://signal.org/blog/protecting-your-privacy/",
+      "link_domain": "signal.org",
+      "source": "Hacker News",
+      "domain": "signal.org",
+      "meta": "Hacker News · 512 points · 305 comments · 16h ago",
+      "also": [],
+      "image": "https://signal.org/blog/images/protecting-your-privacy-opengraph.png",
+      "icon": "https://signal.org/assets/images/favicon/apple-touch-icon.png"
+    },
+    {
+      "title": "Google workers tell their employer not to punish schools that don't want AI",
+      "thread": "https://news.ycombinator.com/item?id=50577901",
+      "link": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+      "link_domain": "motherjones.com",
+      "source": "Hacker News",
+      "domain": "motherjones.com",
+      "meta": "Hacker News · 266 points · 196 comments · 9h ago",
+      "also": [],
+      "image": "https://www.motherjones.com/wp-content/uploads/2026/11/google-chromebook-la-school-covid.jpg?w=1200&h=630&crop=1",
+      "icon": "https://www.motherjones.com/wp-content/uploads/2017/09/cropped-favicon-512x512.png?w=180"
+    },
+    {
+      "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
+      "thread": "https://news.ycombinator.com/item?id=50574383",
+      "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "link_domain": "theguardian.com",
+      "source": "Hacker News",
+      "domain": "theguardian.com",
+      "meta": "Hacker News · 192 points · 231 comments · 12h ago",
+      "also": [],
+      "image": "https://i.guim.co.uk/img/media/5a0726c71af19332d1a3095553ff3acc6e341a62/1043_0_5270_4216/master/5270.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=840bb47424232ef8465116aa8eea49a5",
+      "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg"
+    },
+    {
+      "title": "Anthropic shares tank after IPO as the Nasdaq erases 2026 gains",
+      "thread": "https://news.ycombinator.com/item?id=50578794",
+      "link": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
+      "link_domain": "nbcnews.com",
+      "source": "Hacker News",
+      "domain": "nbcnews.com",
+      "meta": "Hacker News · 182 points · 181 comments · 8h ago",
+      "also": [],
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261120-new-york-stock-exchange-ew-513p-abd1ef.jpg",
+      "icon": "https://nodeassets.nbcnews.com/cdnassets/projects/ramen/favicon/nbcnews/all-other-sizes-PNG.ico/apple-icon.png"
+    },
+    {
+      "title": "UK fridges secured from hackers",
+      "thread": "https://news.ycombinator.com/item?id=50572430",
+      "link": "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o",
+      "link_domain": "bbc.co.uk",
+      "source": "Hacker News",
+      "domain": "bbc.co.uk",
+      "meta": "Hacker News · 144 points · 137 comments · 16h ago",
+      "also": [],
+      "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/d3db/live/57d6aa20-d769-11f1-a956-ff083523ef77.jpg",
+      "icon": "https://static.files.bbci.co.uk/core/website/assets/static/icons/touch/news/touch-icon-36.413a37b227.png"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI-Assisted Engineering",
+      "cards": [
+        {
+          "title": "AI R&D-relevant model capabilities are improving rapidly and are getting harder to measure",
+          "link": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/",
+          "excerpt": "ContentsOverview1 Background2 Methodology3 Results4 Robustness Checks5 Discussion6 AcknowledgmentsAppendicesA Difficulty Estimation and BaseliningB Time Horizon DiagnosticsC MCI Modelling MethodologyD Limitations of IRTE MCI Robustness ChecksF Estimating Lifecycle Cost for TasksG Data Integrity…",
+          "source": "METR",
+          "date": "Nov 20",
+          "image": "https://metr.org/assets/images/q4-2026-capability-update/1eb15f15412f8e86.webp",
+          "icon": null,
+          "domain": "metr.org",
+          "hn": null,
+          "score": 4.806,
+          "coverage": 1
+        },
+        {
+          "title": "Dispatches from O'Reilly: Inside a software factory",
+          "link": "https://stackoverflow.blog/2026/11/20/dispatches-from-o-reilly-inside-a-software-factory/",
+          "excerpt": "Go from vibe coding to generating clean, maintainable code",
+          "source": "Stack Overflow Blog",
+          "date": "Nov 20",
+          "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/f67d094b96bec257c2011a99f351211c369ba0b2-12000x6300.jpg?w=1200&h=630&auto=format",
+          "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+          "domain": "stackoverflow.blog",
+          "hn": null,
+          "score": 5.484,
+          "coverage": 1
+        },
+        {
+          "title": "Fragments: November 20",
+          "link": "https://martinfowler.com/fragments/2026-11-20.html",
+          "excerpt": "Marcus Borg recounts an experiment to investigate if healthy code was cheaper for agents to review. Between a typical unhealthy pull request (CodeHealth 2.8) and a typical healthy one (9.7), that adds up to 22 to 35%. The measures of health come from CodeScene. The experiment looked at three LLMs,…",
+          "source": "Martin Fowler",
+          "date": "Nov 20",
+          "image": "https://martinfowler.com/fragments/fragments-thumb.png",
+          "icon": "https://martinfowler.com/favicon.ico",
+          "domain": "martinfowler.com",
+          "hn": null,
+          "score": 5.177,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "How Google Duplex evolved to also call businesses for you in Gemini",
+          "link": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
+          "excerpt": "Generative AI",
+          "source": "Google Research",
+          "date": "Nov 20",
+          "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/Duplex1-TasksInGeminiHero.png",
+          "icon": null,
+          "domain": "research.google",
+          "hn": null,
+          "score": 0.987,
+          "coverage": 1
+        },
+        {
+          "title": "Quoting Ravi Vakil",
+          "link": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
+          "excerpt": "Alessandro Masullo has a proposed proof of [Generalized Riemann Hypothesis], and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being incorporated, and it is so far looking good. It is all human, with no AI. The hope was to bring Alessandro to Stanford…",
+          "source": "Simon Willison",
+          "date": "Nov 20",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.768,
+          "coverage": 1
+        },
+        {
+          "title": "Quoting Levent Alpöge",
+          "link": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+          "excerpt": "I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expect, with more time, the Extended Riemann Hypothesis too. Claude and I have also formalized the…",
+          "source": "Simon Willison",
+          "date": "Nov 20",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.667,
+          "coverage": 1
+        },
+        {
+          "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+          "link": "https://huggingface.co/blog/inkling2mini",
+          "excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "source": "Hugging Face",
+          "date": "Nov 20",
+          "image": "https://huggingface.co/blog/assets/inkling2mini/thumbnail.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null,
+          "score": 0.378,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "AI Agents & Agent Security",
+      "cards": [
+        {
+          "title": "The War Against Slop and an Emerging Weapon to Fight it: Formal Verification",
+          "link": "https://latent.space/p/formal-verification/",
+          "excerpt": "Proving software correct with math has traditionally required specialist work. Now AI and Lean are helping automate the process.",
+          "source": "Latent Space",
+          "date": "Nov 20",
+          "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/b6f560cd-a37a-4d62-8d6b-da5b59cf4790/formal-verification-feature.png?t=1795207886",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null,
+          "score": 0.715,
+          "coverage": 1
+        },
+        {
+          "title": "Combatting adversarial distillation",
+          "link": "https://openai.com/index/combatting-adversarial-distillation",
+          "excerpt": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+          "source": "OpenAI News",
+          "date": "Nov 20",
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/5SUtPGdssrttC7LfP1yoJ1/b6b000846ab3576c1735c29534ab20b0/combatting-adversarial-distillation-social.png?w=1600&h=900&fit=fill",
+          "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.534,
+          "coverage": 1
+        },
+        {
+          "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+          "link": "https://openai.com/business/customer-stories/hebbia",
+          "excerpt": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+          "source": "OpenAI News",
+          "date": "Nov 20",
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/70gWqYyqb096it9EoD7OqI/5df8cad1c7fdf2a4e942c3183a10f405/hebbia-smoked-depth-social.png?w=1600&h=900&fit=fill",
+          "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.394,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Can AI help scientists identify promising drug candidates?",
+          "link": "https://openai.com/index/introducing-medchembench",
+          "excerpt": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+          "source": "OpenAI News",
+          "date": "Nov 20",
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/37ZvKdwVigsgJ7G3FMr4Nb/12854063a79d19d63278704bf54e3010/introducing-medchembench-social.png?w=1600&h=900&fit=fill",
+          "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.394,
+          "coverage": 1
+        },
+        {
+          "title": "Friday Squid Blogging: The Largest Squid Ever Filmed",
+          "link": "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-the-largest-squid-ever-filmed.html",
+          "excerpt": "This is the story of the largest squid ever filmed, in December 2006 near Japan’s Ogasawara Islands. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.",
+          "source": "Schneier on Security",
+          "date": "Nov 20",
+          "image": null,
+          "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+          "domain": "schneier.com",
+          "hn": null,
+          "score": 0.748,
+          "coverage": 1
+        },
+        {
+          "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 47 (2026)",
+          "link": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-47-8",
+          "excerpt": "Alleged 8-Digits Team affiliate faces 27 years, FBI warns of AI-driven ARTEX intrusions, and Java4Shell flaw opens Java apps to pre-auth RCE.",
+          "source": "SentinelOne",
+          "date": "Nov 20",
+          "image": "https://images.contentstack.io/v3/assets/blt53c99b43892c2378/bltbbbb47c8813f68e3/6affdc8394cb82031f781be7/GBU_week47_2026.jpg",
+          "icon": null,
+          "domain": "sentinelone.com",
+          "hn": null,
+          "score": 0.549,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Leadership",
+      "cards": [
+        {
+          "title": "2026.47: Down in DC",
+          "link": "https://stratechery.com/2026/down-in-dc/",
+          "excerpt": "The best Stratechery content from the week of November 16, 2026, including obituaries and exceptionalism, arguments about agents, and Ben gets a Duo.",
+          "source": "Stratechery by Ben Thompson",
+          "date": "Nov 20",
+          "image": "https://i0.wp.com/stratechery.com/wp-content/uploads/2026/11/GettyImages-2305929129.jpg?resize=1700%2C1133&ssl=1",
+          "icon": null,
+          "domain": "stratechery.com",
+          "hn": null,
+          "score": 0.792,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Agent Identity & Authorization",
+      "cards": [
+        {
+          "title": "How to simplify cloud access with Unified Access Policies, now in preview",
+          "link": "https://cloud.google.com/blog/products/identity-security/how-to-simplify-cloud-access-with-unified-access-policies/",
+          "excerpt": "As organizations scale their cloud footprint to thousands of autonomous agents and microservices, you can accidentally create an operational bottleneck with strict Identity and Access Management (IAM). Meanwhile, administrators still need to enforce least privilege across thousands of resources…",
+          "source": "Security & Identity",
+          "date": "Nov 20",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1_bykEGEu.max-1000x1000.jpg",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 5.011,
+          "coverage": 1
+        },
+        {
+          "title": "How Spanner Graph detects ads fraud and abuse at Google at multi-billion node scale",
+          "link": "https://cloud.google.com/blog/products/databases/how-spanner-graph-detects-google-ads-fraud-and-abuse/",
+          "excerpt": "Ever wonder how the Google Ads team keeps the massive system stable and online, despite continuous attempts by hackers to take it down? Part of the answer is using Spanner as its core operational and graph database. The Google Ads team uses a central graph-based platform to fight fraud and abuse…",
+          "source": "Security & Identity",
+          "date": "Nov 20",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_HrBXtvr.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 0.569,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "Signal slams door on prying AI agents to protect privacy",
+          "link": "https://www.theregister.com/security/2026/11/20/signal-slams-door-on-prying-ai-agents-to-protect-privacy/5311466",
+          "excerpt": "Apple, Google, and Microsoft called out for failing to provide developers with adequate AI agent controls",
+          "source": "The Register",
+          "date": "Nov 20",
+          "image": "https://image.theregister.com/?imageId=227546&width=800",
+          "icon": null,
+          "domain": "theregister.com",
+          "hn": null,
+          "score": 3.476,
+          "coverage": 1
+        },
+        {
+          "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
+          "link": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
+          "excerpt": "Bell Canada has confirmed that an \"agentic\" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision telecommunications circuits. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 20",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/20/bell-canada.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 2.86,
+          "coverage": 1
+        },
+        {
+          "title": "China attackers deployed AI agents that autonomously found and exploited a 0-day to take over a university server",
+          "link": "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382",
+          "excerpt": "'Agents kept adapting for nearly a full day without human direction,' Amazon CISO said",
+          "source": "The Register",
+          "date": "Nov 20",
+          "image": "https://image.theregister.com/?imageId=5311400&width=800",
+          "icon": null,
+          "domain": "theregister.com",
+          "hn": null,
+          "score": 4.661,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Forrester Recognizes Checkmarx in The Forrester Wave™: Agentic Development Security Tools, Q4 2026",
+          "link": "https://checkmarx.com/blog/checkmarx-forrester-wave-agentic-development-security-tools-q4-2026/",
+          "excerpt": "Checkmarx received the highest score possible in the criteria of AI application flaws, autonomous proprietary code remediation, and ASPM for AI.",
+          "source": "Checkmarx",
+          "date": "Nov 20",
+          "image": "https://checkmarx.com/wp-content/uploads/2026/11/Forrester-2026-wave-v3-static-scaled.webp",
+          "icon": "https://checkmarx.com/wp-content/uploads/2026/06/favicon_spring-300x300.webp",
+          "domain": "checkmarx.com",
+          "hn": null,
+          "score": 2.263,
+          "coverage": 1
+        },
+        {
+          "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
+          "link": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
+          "excerpt": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871, has been described as a case of incomplete validation of external ad-reply…",
+          "source": "The Hacker News",
+          "date": "Nov 20",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUSbYUJJkBlZsaH90SXIaxYAv5iJN7ZEus7Q24A_Z9fDNNlnOjFnNZ3SnA6er-iuMgQnE6k73nwVwAEPPk1AjRT12N9o8cJft3_dPqMZKeJbpq6QIcGbN1z1UbE_Q3fXTyp1c0XmqynQu2lJPeIYoraqXFcgM-wQH4b1rIBrOKF221CIKLldJIZVJ4g7cr/s1600/whatsapp.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.357,
+          "coverage": 1
+        },
+        {
+          "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+          "link": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
+          "excerpt": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company ThreatFabric said it discovered the threat in late October…",
+          "source": "The Hacker News",
+          "date": "Nov 20",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMs4vBdivbF3Y-4yd3PWqjSTuG2PPDvCemM211pzVl2Jhkus9d14_2MzRgdrlNhRxaHa_2rlIN34kUGHAlV_Y2dMnfmYGlUEzUcab0c_s3N8Zoe8P3rcJ-RJmo2luVci9bVqmwtFhpL4rfR2Uo-ZwvqfqFMwRb_3WwoOvFIaunPd7WMOJ4yW9rjbHEKDwf/s1600/android-malware.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.341,
+          "coverage": 1
+        },
+        {
+          "title": "WhatsApp Fixes Flaw Uncovered While Disrupting Scam Campaign",
+          "link": "https://www.securityweek.com/whatsapp-fixes-flaw-uncovered-while-disrupting-scam-campaign/",
+          "excerpt": "Tracked as CVE-2026-23871, the vulnerability was found by WhatsApp’s security team, and it may have been used to make scam messages more credible. The post WhatsApp Fixes Flaw Uncovered While Disrupting Scam Campaign appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 20",
+          "image": "https://www.securityweek.com/wp-content/uploads/2025/06/WhatsApp-Vulnerability-attack-e1761292707809.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 2.282,
+          "coverage": 1
+        },
+        {
+          "title": "In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit",
+          "link": "https://www.securityweek.com/in-other-news-norwegian-energy-firm-cyberattacks-supercomputer-hack-new-nightmare-eclipse-exploit/",
+          "excerpt": "Noteworthy stories that might have slipped under the radar: EU adds NoName057(16) to cyber sanctions list, malware targets CACs left in personal computers, Gemini agents targeted Epoch AI. The post In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit…",
+          "source": "SecurityWeek",
+          "date": "Nov 20",
+          "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.311,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "What’s new in Managed Service for Apache Spark 4.0",
+          "link": "https://cloud.google.com/blog/products/data-analytics/whats-new-in-managed-service-for-apache-spark-4-0/",
+          "excerpt": "As organizations move from reactive analytics to proactive systems of action powered by autonomous AI agents, data platforms face a new set of demands. Moving from human scale to agent scale changes both how data pipelines run and how they are built: Teams and AI agents now use Model Context…",
+          "source": "Cloud Blog",
+          "date": "Nov 20",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/original_images/Image_1.gif",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 4.482,
+          "coverage": 1
+        },
+        {
+          "title": "Let your AI agent set up Datadog with Agentic Onboarding",
+          "link": "https://www.datadoghq.com/blog/agentic-onboarding/",
+          "excerpt": "Learn how Agentic Onboarding simplifies Datadog setup across applications and infrastructure through the Pup CLI or an MCP-compatible coding assistant.",
+          "source": "Datadog | The Monitor blog",
+          "date": "Nov 20",
+          "image": "https://web-assets.dd-static.net/42588/1795111543-agentic-onboarding-hero.png",
+          "icon": "https://www.datadoghq.com/favicon.ico",
+          "domain": "datadoghq.com",
+          "hn": null,
+          "score": 2.343,
+          "coverage": 1
+        },
+        {
+          "title": "Drowning in clicks: Scaling Black Friday pipelines with Managed Airflow agents",
+          "link": "https://cloud.google.com/blog/products/data-analytics/scaling-airflow-pipelines-with-ai-agents-on-managed-airflow/",
+          "excerpt": "When an Airflow pipeline fails in production, the hard part is rarely the fix. It's finding out what to fix. A task dies without a traceback. Is it the code, the data, or the environment? Hard to say, as clues are scattered across task logs, scheduler logs, and worker metrics. And once you know…",
+          "source": "Cloud Blog",
+          "date": "Nov 20",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/original_images/1_-_authoring-clickstream-dag.gif",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 4.113,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Ultimate guide for fixing your team’s API keys",
+          "link": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-fix-your-teams-api-keys/",
+          "excerpt": "Most Gemini prototypes start the same way. You grab an API key from Google AI Studio, then paste it into your coding agent to start building a prototype. That speed is the point, and shouldn’t be slowed down. The trouble starts later, when the prototype gets real users and the key comes along…",
+          "source": "Cloud Blog",
+          "date": "Nov 20",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/11_-_Developers__Practitioners_a4Y5EGr.max-2600x2600.jpg",
+          "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 3.583,
+          "coverage": 1
+        },
+        {
+          "title": "How to securely connect internal Cloud Run MCP servers to Gemini Enterprise",
+          "link": "https://developers.googleblog.com/how-to-securely-connect-internal-cloud-run-mcp-servers-to-gemini-enterprise/",
+          "excerpt": "How to connect Gemini Enterprise privately to internal StreamableHTTP MCP servers on Cloud Run using Egress Agent Gateway, Private Service Connect, FQDN-scoped Private Cloud DNS, and dual-header OAuth 2.0 authentication.",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_image_1600x900.2e16d0ba.fill-1200x600.png",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null,
+          "score": 2.48,
+          "coverage": 1
+        },
+        {
+          "title": "Check what your AI agents do before they do it, with Semantic governance policies",
+          "link": "https://developers.googleblog.com/check-what-your-ai-agents-do-before-they-do-it-with-semantic-governance-policies/",
+          "excerpt": "Semantic governance policies enable developers to govern AI agents by evaluating every proposed tool call inline before execution. Operating via Agent Gateway, the policy engine checks each action against user intent and plain-language rules to prevent unauthorized data sharing and prompt…",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_2.2e16d0ba.fill-1200x600.png",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null,
+          "score": 2.294,
+          "coverage": 1
+        },
+        {
+          "title": "How to handle user, connector, and agent auth in Gemini Enterprise with a custom UI",
+          "link": "https://developers.googleblog.com/how-to-handle-user-connector-and-agent-auth-in-gemini-enterprise-with-a-custom-ui/",
+          "excerpt": "When building a custom enterprise UI on top of Gemini Enterprise's :streamAssist API, developers must manually implement three core authentication layers. These include authenticating users or workloads via Google Identity or Workforce/Workload Identity Federation, managing third-party 3-legged…",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/meta-image-1600x900.2e16d0ba.fill-1200x600.png",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null,
+          "score": 1.835,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "Show HN: OpenComputer – an open source alternative to Devin",
+          "link": "https://github.com/diggerhq/opencomputer",
+          "excerpt": "An open-source, faster Devin alternative. Contribute to diggerhq/opencomputer development by creating an account on GitHub.",
+          "source": "github.com via Hacker News",
+          "date": "Nov 20",
+          "image": "https://opengraph.githubassets.com/a8594e18d265a7fabedaf3bc16d00048873ef069dc5f4346d23c2bf7882a3557/diggerhq/opencomputer",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "68 points · 21 comments",
+          "score": 5.371,
+          "coverage": 1
+        },
+        {
+          "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+          "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+          "excerpt": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
+          "source": "Ars Technica",
+          "date": "Nov 20",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-privacy-leakage-500x500.jpg",
+          "icon": null,
+          "domain": "arstechnica.com",
+          "hn": null,
+          "score": 3.478,
+          "coverage": 1
+        },
+        {
+          "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+          "link": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+          "excerpt": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building.",
+          "source": "TechCrunch",
+          "date": "Nov 20",
+          "image": "https://techcrunch.com/wp-content/uploads/2023/07/GettyImages-1500013882.jpg?resize=1200,812",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
+          "hn": null,
+          "score": 2.471,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Re: Riemann",
+          "link": "https://borretti.me/article/re-riemann",
+          "excerpt": "Man is a bridge.",
+          "source": "borretti.me via Hacker News",
+          "date": "Nov 20",
+          "image": "https://borretti.me/assets/card/re-riemann.webp",
+          "icon": "https://borretti.me/assets/favicon.jpg",
+          "domain": "borretti.me",
+          "hn": "120 points · 102 comments",
+          "score": 4.276,
+          "coverage": 1
+        },
+        {
+          "title": "Sir Brian May adds new dimension to Hera asteroid",
+          "link": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/sir-brian-may-adds-new-dimension-to-hera-asteroid",
+          "excerpt": "Hera science team member, astrophysicist and Queen guitarist Sir Brian May has added an additional dimension to the ESA planetary defence mission’s early views of the Didymos asteroid system via stereoscopic imagery – revealing the dramatic features of this exotic body as never before.",
+          "source": "esa.int via Hacker News",
+          "date": "Nov 20",
+          "image": "https://media.esa.int/global/public/common/misc/2026/11/402679/image-thumb__402679__social_share/3d-crop.2b14b833.jpg",
+          "icon": "https://www.esa.int/assets/images/favicon.ico",
+          "domain": "esa.int",
+          "hn": "37 points · 7 comments",
+          "score": 3.086,
+          "coverage": 1
+        },
+        {
+          "title": "NINLIVE: The Nine Inch Nails live archive",
+          "link": "https://ninlive.com/",
+          "excerpt": "A fan-run archive of Nine Inch Nails concerts, setlists, recordings, posters and photos from 1988 to today.",
+          "source": "ninlive.com via Hacker News",
+          "date": "Nov 20",
+          "image": "https://ninlive.com/static/ninlive-socialshare.png",
+          "icon": "https://ninlive.com/static/favicon.ico",
+          "domain": "ninlive.com",
+          "hn": "127 points · 27 comments",
+          "score": 3.715,
+          "coverage": 1
+        },
+        {
+          "title": "Merkle Tree Certificates",
+          "link": "https://datatracker.ietf.org/doc/draft-ietf-plants-merkle-tree-certs/",
+          "excerpt": "This document describes Merkle Tree certificates, a new form of X.509 certificates which integrate public logging of the certificate, in the style of Certificate Transparency. The integrated design reduces logging overhead in the face of both shorter-lived certificates and large post-quantum…",
+          "source": "datatracker.ietf.org via Hacker News",
+          "date": "Nov 20",
+          "image": "https://static.ietf.org/dt/12.83.2/ietf/images/ietf-logo-card.png",
+          "icon": "https://static.ietf.org/dt/12.83.2/ietf/images/ietf-logo-nor-180.png",
+          "domain": "datatracker.ietf.org",
+          "hn": "13 points · 2 comments",
+          "score": 3.288,
+          "coverage": 1
+        },
+        {
+          "title": "The Hungry Butler Effect: Concealed Commercial Incentives in LLMs",
+          "link": "https://www.researchgate.net/publication/418143113_The_Hungry_Butler_Effect_Concealed_Commercial_Incentives_and_the_Erosion_of_Epistemic_Rigour_in_Large_Language_Models",
+          "excerpt": "18 points · 7 comments",
+          "source": "researchgate.net via Hacker News",
+          "date": "Nov 20",
+          "image": null,
+          "icon": "https://www.researchgate.net/favicon.ico",
+          "domain": "researchgate.net",
+          "hn": "18 points · 7 comments",
+          "score": 2.54,
+          "coverage": 1
+        }
+      ]
+    }
+  ]
+}
