@@ -14,7 +14,7 @@
     "labels": [
       "3 sources",
       "Security & AppSec",
-      "under 1h ago"
+      "3h ago"
     ],
     "also": [
       {
@@ -29,25 +29,13 @@
   },
   "pulse": [
     {
-      "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
-      "thread": "https://news.ycombinator.com/item?id=50574383",
-      "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-      "link_domain": "theguardian.com",
-      "source": "Hacker News",
-      "domain": "theguardian.com",
-      "meta": "Hacker News · 359 points · 656 comments · 23h ago",
-      "also": [],
-      "image": "https://i.guim.co.uk/img/media/5a0726c71af19332d1a3095553ff3acc6e341a62/1043_0_5270_4216/master/5270.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=840bb47424232ef8465116aa8eea49a5",
-      "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg"
-    },
-    {
       "title": "Google workers tell their employer not to punish schools that don't want AI",
       "thread": "https://news.ycombinator.com/item?id=50577901",
       "link": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
       "link_domain": "motherjones.com",
       "source": "Hacker News",
       "domain": "motherjones.com",
-      "meta": "Hacker News · 277 points · 214 comments · 19h ago",
+      "meta": "Hacker News · 277 points · 219 comments · 22h ago",
       "also": [],
       "image": "https://www.motherjones.com/wp-content/uploads/2026/11/google-chromebook-la-school-covid.jpg?w=1200&h=630&crop=1",
       "icon": "https://www.motherjones.com/wp-content/uploads/2017/09/cropped-favicon-512x512.png?w=180"
@@ -59,10 +47,22 @@
       "link_domain": "alicecaml.org",
       "source": "Lobsters",
       "domain": "alicecaml.org",
-      "meta": "Lobsters · 22 points · 3 comments · 20h ago",
+      "meta": "Lobsters · 23 points · 3 comments · 22h ago",
       "also": [],
       "image": "https://www.alicecaml.org/logo512x256.png",
       "icon": "https://www.alicecaml.org/favicon.png"
+    },
+    {
+      "title": "ClawDOS – An AI coding agent for DOS",
+      "thread": "https://news.ycombinator.com/item?id=50586292",
+      "link": "http://ricapar.net/ClawDOS/",
+      "link_domain": "ricapar.net",
+      "source": "Hacker News",
+      "domain": "ricapar.net",
+      "meta": "Hacker News · 123 points · 36 comments · 9h ago",
+      "also": [],
+      "image": null,
+      "icon": null
     },
     {
       "title": "Show HN: OpenComputer – an open source alternative to Devin",
@@ -71,10 +71,22 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 107 points · 32 comments · 16h ago",
+      "meta": "Hacker News · 110 points · 36 comments · 19h ago",
       "also": [],
       "image": "https://opengraph.githubassets.com/a8594e18d265a7fabedaf3bc16d00048873ef069dc5f4346d23c2bf7882a3557/diggerhq/opencomputer",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
+    },
+    {
+      "title": "AI is giving everyone the same advice",
+      "thread": "https://news.ycombinator.com/item?id=50577872",
+      "link": "https://a90.com/experiments/same-advice/",
+      "link_domain": "a90.com",
+      "source": "Hacker News",
+      "domain": "a90.com",
+      "meta": "Hacker News · 103 points · 43 comments · 22h ago",
+      "also": [],
+      "image": "https://a90.com/experiments/same-advice/og.png",
+      "icon": "https://a90.com/apple-touch-icon.png"
     }
   ],
   "sections": [
@@ -91,7 +103,7 @@
           "icon": null,
           "domain": "metr.org",
           "hn": null,
-          "score": 3.53,
+          "score": 3.323,
           "coverage": 1
         },
         {
@@ -104,7 +116,7 @@
           "icon": "https://stackoverflow.blog/apple-touch-icon.png",
           "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 3.6,
+          "score": 3.332,
           "coverage": 1
         },
         {
@@ -117,7 +129,7 @@
           "icon": "https://martinfowler.com/favicon.ico",
           "domain": "martinfowler.com",
           "hn": null,
-          "score": 3.321,
+          "score": 3.064,
           "coverage": 1
         }
       ],
@@ -132,7 +144,20 @@
           "icon": "https://eugeneyan.com/assets/favicon/apple-touch-icon.png",
           "domain": "eugeneyan.com",
           "hn": null,
-          "score": 0.197,
+          "score": 0.191,
+          "coverage": 1
+        },
+        {
+          "title": "The US-China Open-Weight Feedback Loop",
+          "link": "https://sebastianraschka.com/blog/2026/us-china-open-weight-feedback-loop.html",
+          "excerpt": "How US and Chinese open-weight LLMs build on each other, illustrated with a timeline of architecture ideas from 2021 to 2026.",
+          "source": "Sebastian Raschka",
+          "date": "Nov 21",
+          "image": "https://sebastianraschka.com/images/blog/2026/us-china-open-weight-feedback-loop/how-llms-build-on-each-other-preview.webp",
+          "icon": "https://sebastianraschka.com/images/favicons/favicon-32x32.png",
+          "domain": "sebastianraschka.com",
+          "hn": null,
+          "score": 1.072,
           "coverage": 1
         },
         {
@@ -145,7 +170,7 @@
           "icon": null,
           "domain": "research.google",
           "hn": null,
-          "score": 0.565,
+          "score": 0.514,
           "coverage": 1
         },
         {
@@ -158,7 +183,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.486,
+          "score": 0.448,
           "coverage": 1
         },
         {
@@ -171,20 +196,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.443,
-          "coverage": 1
-        },
-        {
-          "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
-          "link": "https://huggingface.co/blog/inkling2mini",
-          "excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "source": "Hugging Face",
-          "date": "Nov 20",
-          "image": "https://huggingface.co/blog/assets/inkling2mini/thumbnail.png",
-          "icon": "https://huggingface.co/favicon.ico",
-          "domain": "huggingface.co",
-          "hn": null,
-          "score": 0.294,
+          "score": 0.411,
           "coverage": 1
         }
       ]
@@ -202,7 +214,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.601,
+          "score": 0.533,
           "coverage": 1
         },
         {
@@ -215,7 +227,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.434,
+          "score": 0.397,
           "coverage": 1
         },
         {
@@ -228,7 +240,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.385,
+          "score": 0.361,
           "coverage": 1
         }
       ],
@@ -243,7 +255,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.306,
+          "score": 0.291,
           "coverage": 1
         },
         {
@@ -256,7 +268,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.306,
+          "score": 0.291,
           "coverage": 1
         },
         {
@@ -269,7 +281,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.446,
+          "score": 0.407,
           "coverage": 1
         },
         {
@@ -282,7 +294,7 @@
           "icon": null,
           "domain": "sentinelone.com",
           "hn": null,
-          "score": 0.366,
+          "score": 0.34,
           "coverage": 1
         }
       ]
@@ -300,7 +312,7 @@
           "icon": null,
           "domain": "stratechery.com",
           "hn": null,
-          "score": 0.503,
+          "score": 0.463,
           "coverage": 1
         }
       ],
@@ -319,7 +331,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 3.306,
+          "score": 3.063,
           "coverage": 1
         },
         {
@@ -332,7 +344,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.375,
+          "score": 0.347,
           "coverage": 1
         }
       ],
@@ -351,7 +363,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 12.559,
+          "score": 10.482,
           "coverage": 3
         },
         {
@@ -364,7 +376,7 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 2.138,
+          "score": 1.962,
           "coverage": 1
         },
         {
@@ -377,7 +389,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 3.638,
+          "score": 3.144,
           "coverage": 1
         }
       ],
@@ -392,7 +404,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 1.827,
+          "score": 1.685,
           "coverage": 1
         },
         {
@@ -405,7 +417,7 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 3.05,
+          "score": 2.822,
           "coverage": 1
         },
         {
@@ -418,7 +430,7 @@
           "icon": "https://checkmarx.com/wp-content/uploads/2026/06/favicon_spring-300x300.webp",
           "domain": "checkmarx.com",
           "hn": null,
-          "score": 1.491,
+          "score": 1.381,
           "coverage": 1
         },
         {
@@ -431,7 +443,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.549,
+          "score": 0.46,
           "coverage": 1
         }
       ]
@@ -449,7 +461,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.957,
+          "score": 2.739,
           "coverage": 1
         },
         {
@@ -462,7 +474,7 @@
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
           "hn": null,
-          "score": 1.822,
+          "score": 1.732,
           "coverage": 1
         },
         {
@@ -475,7 +487,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.713,
+          "score": 2.513,
           "coverage": 1
         }
       ],
@@ -490,7 +502,7 @@
           "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.364,
+          "score": 2.189,
           "coverage": 1
         },
         {
@@ -503,7 +515,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 5.145,
+          "score": 4.761,
           "coverage": 1
         },
         {
@@ -560,7 +572,7 @@
           "icon": null,
           "domain": "arstechnica.com",
           "hn": null,
-          "score": 2.126,
+          "score": 1.949,
           "coverage": 1
         },
         {
@@ -573,7 +585,48 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 1.547,
+          "score": 1.422,
+          "coverage": 1
+        },
+        {
+          "title": "Lean Verification of the Riemann Hypothesis - Joint statement by...",
+          "link": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+          "excerpt": "Lean verification of the Riemann Hypothesis Joint statement by the Lean and Mathlib communities, endorsed by the Lean FRO and the Mathlib Initiative. On November 20, 2026, Levent Alpöge released a pro",
+          "source": "leanprover-community.github.io via Hacker News",
+          "date": "Nov 21",
+          "image": "https://leanprover-community.github.io/blog/meta-twitter.png",
+          "icon": "https://leanprover-community.github.io/img/favicon.ico",
+          "domain": "leanprover-community.github.io",
+          "hn": "23 points · 13 comments",
+          "score": 3.377,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Derek Lowe: Detonating a Pile of Lead Azide",
+          "link": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+          "excerpt": "125 points · 77 comments",
+          "source": "science.org via Hacker News",
+          "date": "Nov 21",
+          "image": null,
+          "icon": "https://www.science.org/favicon.ico",
+          "domain": "science.org",
+          "hn": "125 points · 77 comments",
+          "score": 4.284,
+          "coverage": 1
+        },
+        {
+          "title": "Astra 6.2 and Sol 6.2 flop at Simple Bench",
+          "link": "https://simple-bench.com/",
+          "excerpt": "SimpleBench",
+          "source": "simple-bench.com via Hacker News",
+          "date": "Nov 21",
+          "image": null,
+          "icon": "https://simple-bench.com/static/favicon.ico",
+          "domain": "simple-bench.com",
+          "hn": "52 points · 33 comments",
+          "score": 3.649,
           "coverage": 1
         },
         {
@@ -585,12 +638,10 @@
           "image": "https://blog.tymscar.com/studio-display-ethernet/og-card.png",
           "icon": "https://blog.tymscar.com/apple-touch-icon.png",
           "domain": "blog.tymscar.com",
-          "hn": "14 points · 3 comments",
-          "score": 2.535,
+          "hn": "156 points · 63 comments",
+          "score": 3.628,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "FBI reportedly investigating apparent hack of its criminal database",
           "link": "https://www.bbc.com/news/articles/cvze7de86pk3o",
@@ -600,60 +651,21 @@
           "image": "https://ichef.bbci.co.uk/news/1024/branded_news/3fd7/live/9009b220-e58d-11f1-99a1-253766e7ad8b.jpg",
           "icon": "https://static.files.bbci.co.uk/bbcdotcom/web/20261119-102257-f8058bdc4a-3.28.2-1/apple-touch-icon.png",
           "domain": "bbc.com",
-          "hn": "57 points · 20 comments",
-          "score": 3.541,
+          "hn": "99 points · 43 comments",
+          "score": 3.366,
           "coverage": 1
         },
         {
           "title": "RCE in Gnupg",
           "link": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
-          "excerpt": "60 points · 12 comments",
+          "excerpt": "127 points · 41 comments",
           "source": "lists.gnupg.org via Hacker News",
           "date": "Nov 21",
           "image": null,
           "icon": "https://lists.gnupg.org/favicon.ico",
           "domain": "lists.gnupg.org",
-          "hn": "60 points · 12 comments",
-          "score": 3.066,
-          "coverage": 1
-        },
-        {
-          "title": "Surprisingly Adorable Insect Portraits",
-          "link": "https://amateurphotographer.com/latest/these-astonishing-insect-portraits-reveal-a-hidden-world-you-never-knew-existed/",
-          "excerpt": "67 points · 13 comments",
-          "source": "amateurphotographer.com via Hacker News",
-          "date": "Nov 21",
-          "image": null,
-          "icon": "https://amateurphotographer.com/favicon.ico",
-          "domain": "amateurphotographer.com",
-          "hn": "67 points · 13 comments",
-          "score": 2.819,
-          "coverage": 1
-        },
-        {
-          "title": "ClawDOS – An AI coding agent for DOS",
-          "link": "http://ricapar.net/ClawDOS/",
-          "excerpt": "An AI chat and coding harness for DOS, on a real IBM PC 5160 (8088 at 4.77 MHz)",
-          "source": "ricapar.net via Hacker News",
-          "date": "Nov 21",
-          "image": null,
-          "icon": null,
-          "domain": "ricapar.net",
-          "hn": "96 points · 25 comments",
-          "score": 2.869,
-          "coverage": 1
-        },
-        {
-          "title": "Clojure will affect the way you think about programming (2017)",
-          "link": "https://eli.thegreenplace.net/2017/clojure-the-perfect-language-to-expand-your-brain/",
-          "excerpt": "122 points · 43 comments",
-          "source": "eli.thegreenplace.net via Hacker News",
-          "date": "Nov 21",
-          "image": null,
-          "icon": "https://eli.thegreenplace.net/favicon.ico",
-          "domain": "eli.thegreenplace.net",
-          "hn": "122 points · 43 comments",
-          "score": 2.626,
+          "hn": "127 points · 41 comments",
+          "score": 3.096,
           "coverage": 1
         }
       ]

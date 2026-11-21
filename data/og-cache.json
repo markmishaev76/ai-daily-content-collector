@@ -71,6 +71,12 @@
   "icon": "https://a90.com/apple-touch-icon.png",
   "image": "https://a90.com/experiments/88x31/card.png"
  },
+ "https://a90.com/experiments/same-advice/": {
+  "description": "I asked 65 AIs from 30 companies the questions people ask them every day, 127,918 times. 73 of every 100 people were told to read the same book. See every answer, and the two prompts that get you your own.",
+  "fetched": "2026-11-21",
+  "icon": "https://a90.com/apple-touch-icon.png",
+  "image": "https://a90.com/experiments/same-advice/og.png"
+ },
  "https://aaronparecki.com/2026/10/30/19/oauth-id-jag-draft-06": {
   "description": "We've just published draft -06 of the Identity Assertion JWT Authorization Grant (ID-JAG):",
   "fetched": "2026-10-31",
@@ -2921,6 +2927,12 @@
   "icon": "https://layer3intel.com/favicon.svg",
   "image": "https://layer3intel.com/eop_proxy_activity.png"
  },
+ "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/": {
+  "description": "Lean verification of the Riemann Hypothesis Joint statement by the Lean and Mathlib communities, endorsed by the Lean FRO and the Mathlib Initiative. On November 20, 2026, Levent Alpöge released a pro",
+  "fetched": "2026-11-21",
+  "icon": "https://leanprover-community.github.io/img/favicon.ico",
+  "image": "https://leanprover-community.github.io/blog/meta-twitter.png"
+ },
  "https://learnfromx.com/research/anime-word-coverage-vs-lines-understood": {
   "description": "We counted eight anime line by line. In Frieren, the 500 most common words give you 85.9% coverage but only 38.4% of the lines.",
   "fetched": "2026-11-01",
@@ -4487,6 +4499,12 @@
   "icon": "https://sebastianraschka.com/images/favicons/favicon-32x32.png",
   "image": "https://sebastianraschka.com/images/blog/2026/open-october-llm-architecture-releases/open-october-architectures.webp"
  },
+ "https://sebastianraschka.com/blog/2026/us-china-open-weight-feedback-loop.html": {
+  "description": "How US and Chinese open-weight LLMs build on each other, illustrated with a timeline of architecture ideas from 2021 to 2026.",
+  "fetched": "2026-11-21",
+  "icon": "https://sebastianraschka.com/images/favicons/favicon-32x32.png",
+  "image": "https://sebastianraschka.com/images/blog/2026/us-china-open-weight-feedback-loop/how-llms-build-on-each-other-preview.webp"
+ },
  "https://security.apple.com/research-device/": {
   "description": "Get an iPhone dedicated to security research through the Apple Security Research Device program. Learn how to apply.",
   "fetched": "2026-10-24",
@@ -4809,6 +4827,12 @@
   "description": "Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML …",
   "fetched": "2026-11-01",
   "icon": null,
+  "image": null
+ },
+ "https://simple-bench.com/": {
+  "description": "SimpleBench",
+  "fetched": "2026-11-21",
+  "icon": "https://simple-bench.com/static/favicon.ico",
   "image": null
  },
  "https://smsofdeath.com/": {
@@ -8486,6 +8510,12 @@
  "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F": {
   "description": null,
   "fetched": "2026-11-08",
+  "icon": null,
+  "image": null
+ },
+ "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really": {
+  "description": null,
+  "fetched": "2026-11-21",
   "icon": null,
   "image": null
  },
