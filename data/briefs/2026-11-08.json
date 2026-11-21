@@ -1,0 +1,466 @@
+{
+  "date": "2026-11-08",
+  "lead": {
+    "title": "Person of Interest",
+    "link": "https://krthr.co/person-of-interest/",
+    "excerpt": "A few days ago, I started watching Person of Interest, and I haven’t been able to stop. Aside from the fact that the show feels even more relevant today than...",
+    "source": "krthr.co via Hacker News",
+    "date": "Nov 08",
+    "image": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/krthr/474167074_9348806235164701_1627609488563106497_n.webp",
+    "image_credit": null,
+    "section": "News & Research",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "News & Research",
+      "3h ago"
+    ],
+    "also": []
+  },
+  "pulse": [
+    {
+      "title": "The end of Microsoft Research's AI Frontiers group",
+      "thread": "https://news.ycombinator.com/item?id=50406563",
+      "link": "https://hunch.net/?p=13764006",
+      "link_domain": "hunch.net",
+      "source": "Hacker News",
+      "domain": "hunch.net",
+      "meta": "Hacker News · 477 points · 290 comments · 20h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://hunch.net/favicon.ico"
+    },
+    {
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "thread": "https://news.ycombinator.com/item?id=50407882",
+      "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "link_domain": "apiiro.com",
+      "source": "Hacker News",
+      "domain": "apiiro.com",
+      "meta": "Hacker News · 464 points · 327 comments · 17h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://apiiro.com/functions/favicon?size=300"
+    },
+    {
+      "title": "Goodbye Claude, Hello Pi",
+      "thread": "https://news.ycombinator.com/item?id=50410107",
+      "link": "https://caleb.software/posts/claude-to-pi.html",
+      "link_domain": "caleb.software",
+      "source": "Hacker News",
+      "domain": "caleb.software",
+      "meta": "Hacker News · 450 points · 292 comments · 11h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://caleb.software/favicon.svg"
+    },
+    {
+      "title": "Dear Open Source Developers: It's OK not to embargo",
+      "thread": "https://lobste.rs/s/lhovnm/dear_open_source_developers_it_s_ok_not",
+      "link": "https://opensourcesecurity.io/2026/10-embargo/",
+      "link_domain": "opensourcesecurity.io",
+      "source": "Lobsters",
+      "domain": "opensourcesecurity.io",
+      "meta": "Lobsters · 25 points · 2 comments · 14h ago",
+      "also": [],
+      "image": "https://opensourcesecurity.io/images/wide-sun-dial.jpg",
+      "icon": "https://opensourcesecurity.io/apple-touch-icon.png"
+    },
+    {
+      "title": "OpenBSD top(1) adds flag to show chroot, pledge and unveil status",
+      "thread": "https://lobste.rs/s/tfywf1/openbsd_top_1_adds_flag_show_chroot_pledge",
+      "link": "https://undeadly.org/cgi?action=article;sid=20261106104957",
+      "link_domain": "undeadly.org",
+      "source": "Lobsters",
+      "domain": "undeadly.org",
+      "meta": "Lobsters · 25 points · 1 comments · 19h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://undeadly.org/favicon.ico"
+    },
+    {
+      "title": "GitHub New pull request overview page in public preview",
+      "thread": "https://news.ycombinator.com/item?id=50408931",
+      "link": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+      "link_domain": "github.blog",
+      "source": "Hacker News",
+      "domain": "github.blog",
+      "meta": "Hacker News · 157 points · 108 comments · 15h ago",
+      "also": [],
+      "image": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg",
+      "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180"
+    },
+    {
+      "title": "I’m not a fan of Deno’s security model (2024)",
+      "thread": "https://lobste.rs/s/sh62d1/i_m_not_fan_deno_s_security_model_2024",
+      "link": "https://goldstein.lol/posts/deno-security/",
+      "link_domain": "goldstein.lol",
+      "source": "Lobsters",
+      "domain": "goldstein.lol",
+      "meta": "Lobsters · 21 points · 6 comments · 15h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://goldstein.lol/favicon.svg"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI-Assisted Engineering",
+      "cards": [
+        {
+          "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
+          "link": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+          "excerpt": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages I was looking at the Firefox network panel today when I noticed that requests to a Datasette table page were triggering an HTTP prefetch to the next page of rows in that table. This was happening because Datasette…",
+          "source": "Simon Willison",
+          "date": "Nov 07",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.543,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Leadership",
+      "cards": [
+        {
+          "title": "Ultima and Wing Commander Remasters",
+          "link": "https://arstechnica.com/gaming/2026/11/ea-producer-tells-the-inside-story-behind-new-wing-commander-remasters/",
+          "excerpt": "In the garage, there is a box that contains a great many boxed copies of these games. This includes all the documentation, media, and random toys they used to include when they released these games. I will not likely play any of these, but I am glad they exist. (p.s. I can’t imagine these would……",
+          "source": "Rands in Repose",
+          "date": "Nov 07",
+          "image": "https://randsinrepose.com/wp-content/uploads/2026/11/link-card-re-releases-of-wing-commander-ultima-titles-hit-steam-and-gog-1024x576.jpg",
+          "icon": null,
+          "domain": "arstechnica.com",
+          "hn": null,
+          "score": 0.434,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
+          "link": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
+          "excerpt": "Its multi-agent AI platform generates the telemetry an attack would produce to fix gaps in enterprise defenses. The post Brava Security Emerges From Stealth With $15 Million in Funding appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 08",
+          "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.506,
+          "coverage": 1
+        },
+        {
+          "title": "Hackers pull off $133 million French bank heist via service provider",
+          "link": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+          "excerpt": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 07",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/06/financial-theft.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.205,
+          "coverage": 1
+        },
+        {
+          "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+          "link": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+          "excerpt": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification steps and affiliate networks to generate revenue without…",
+          "source": "BleepingComputer",
+          "date": "Nov 07",
+          "image": "https://www.bleepstatic.com/content/posts/2026/11/06/ctm360-gift-card-scam.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.198,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+          "excerpt": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 07",
+          "image": "https://www.bleepstatic.com/content/hl-images/2025/05/08/SonicWall.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.143,
+          "coverage": 1
+        },
+        {
+          "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
+          "link": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+          "excerpt": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked the company. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 06",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/03/workos.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.969,
+          "coverage": 1
+        },
+        {
+          "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
+          "link": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+          "excerpt": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 06",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/07/29/openai-escape-sandbox.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.133,
+          "coverage": 1
+        },
+        {
+          "title": "Fake security tools on GitHub push backdoors and infostealers",
+          "link": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+          "excerpt": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 06",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/06/github.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.129,
+          "coverage": 1
+        },
+        {
+          "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
+          "excerpt": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 06",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/06/QNAP.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.125,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "Entire's Git Forge Rethinks Git Collaboration for Coding Agents",
+          "link": "https://www.infoq.com/news/2026/11/entire-git-forge-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Entire is a Git forge designed specifically for collaboration between human developers and AI coding agents. Its premise is that traditional software development infrastructure, particularly the pull request (PR) model, is not well suited to an environment where AI agents generate, review, and…",
+          "source": "InfoQ",
+          "date": "Nov 08",
+          "image": "https://res.infoq.com/news/2026/11/entire-git-forge-coding-agents/en/headerimage/entire-git-forge-agents-1794134163813.jpeg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 3.284,
+          "coverage": 1
+        },
+        {
+          "title": "Lima v2.3: Native on Windows, VMnet on Linux, and menu TUI",
+          "link": "https://www.cncf.io/blog/2026/11/08/lima-v2-3-native-on-windows-vmnet-on-linux-and-menu-tui/",
+          "excerpt": "Back in July with v2.2, we added support for Windows guests. On November 6, we shipped v2.3 of Lima and now it runs without extra dependencies on Windows: VMs start through the same Host Compute System...",
+          "source": "Blog – Cloud Native Computing Foundation",
+          "date": "Nov 08",
+          "image": "https://www.cncf.io/wp-content/uploads/2026/11/image-5.jpg",
+          "icon": null,
+          "domain": "cncf.io",
+          "hn": null,
+          "score": 0.644,
+          "coverage": 1
+        },
+        {
+          "title": "We organized Sustainability Month. Here’s what we learned. 🌱",
+          "link": "https://www.cncf.io/blog/2026/11/07/we-organized-sustainability-month-heres-what-we-learned-%f0%9f%8c%b1/",
+          "excerpt": "What do Kubernetes resource allocation, eBPF, carbon observability, and GPUs have in common? Quite a lot, actually. Especially when you start looking at them through the lens of environmental sustainability. This October, we brought these conversations...",
+          "source": "Blog – Cloud Native Computing Foundation",
+          "date": "Nov 07",
+          "image": "https://www.cncf.io/wp-content/uploads/2026/11/We-organized-Sustainability-Month.jpg",
+          "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
+          "domain": "cncf.io",
+          "hn": null,
+          "score": 0.237,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Google Cloud Adds Self-Managed VMware Cloud Foundation on Bare Metal",
+          "link": "https://www.infoq.com/news/2026/11/google-cloud-self-managed-vmware/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Google Cloud has made a self-managed VMware solution generally available, running VMware Cloud Foundation 9.x on dedicated Z3 bare metal with root access across ESXi, vCenter and NSX in 22 regions. It sits beside the Google-managed VMware Engine and matches customer-operated offerings from AWS and…",
+          "source": "InfoQ",
+          "date": "Nov 08",
+          "image": "https://res.infoq.com/news/2026/11/google-cloud-self-managed-vmware/en/headerimage/generatedHeaderImage-1793604325753.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.469,
+          "coverage": 1
+        },
+        {
+          "title": "Cloudflare Scales D1 Control Plane to Millions of Databases",
+          "link": "https://www.infoq.com/news/2026/11/cloudflare-d1-control-plane/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "In a recent article, Cloudflare shared the redesign of the control plane of its D1 serverless SQL database to support millions of databases, avoiding centralized bottlenecks, implementing retries and idempotency, and using eventual consistency. By Renato Losio",
+          "source": "InfoQ",
+          "date": "Nov 08",
+          "image": "https://res.infoq.com/news/2026/11/cloudflare-d1-control-plane/en/headerimage/generatedHeaderImage-1792577891694.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.452,
+          "coverage": 1
+        },
+        {
+          "title": "How Grab Improved Mobile App Stability by Safely Handling Surge in AI-Generated Code Changes",
+          "link": "https://www.infoq.com/news/2026/11/grab-ai-generated-code-safety/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "The growing adoption of AI coding assistants has accelerated development and increased the volume of code changes per release, bringing more opportunities for defects and crashes, says Grab. To address these challenges, they implemented a layered defense strategy to prevent, detect, and contain…",
+          "source": "InfoQ",
+          "date": "Nov 07",
+          "image": "https://res.infoq.com/news/2026/11/grab-ai-generated-code-safety/en/headerimage/momentic-postgres-clickhouse-1794048104353.jpeg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.228,
+          "coverage": 1
+        },
+        {
+          "title": "Open Source pg_vectorsearch Brings More Scalable Vector Search to PostgreSQL",
+          "link": "https://www.infoq.com/news/2026/11/postgresql-vector-search/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Tiger Data has released pg_vectorsearch, an open source PostgreSQL extension for vector similarity search, currently in alpha. Its PRISM index uses data partitioning and compression instead of the graph-based approach used by pgvector’s HNSW index, reducing memory requirements and index build…",
+          "source": "InfoQ",
+          "date": "Nov 07",
+          "image": "https://res.infoq.com/news/2026/11/postgresql-vector-search/en/headerimage/generatedHeaderImage-1792331528868.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.221,
+          "coverage": 1
+        },
+        {
+          "title": "Agent Distraction",
+          "link": "https://developers.googleblog.com/agent-distraction/",
+          "excerpt": "Analysis of over 913,000 coding agent sessions reveals that 13% expose agents to inline TODO(b/...) comments. In 6% of encounters, agents act on these comments, with 83% being entirely unprompted by the developer. These detours result in significant overhead—adding 70% more steps, 77% more tokens,…",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Agent_Distraction_Cover_1600x900_.2e16d0ba.fill-1200x600.png",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null,
+          "score": 0.25,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+          "link": "https://github.com/synchopate/llama-modchip",
+          "excerpt": "🐋 Run 284B DeepSeek-V4-Flash (&lt;59GiB RAM, 44.4 tok/s pp, 9.1-14.7 tok/s) &amp; 30B MoEs (25-111 tok/s) on a pure 64GB CPU at 256K ctx (0 GPUs). SwiGLU-H2, Stockfish-PVS L3 &amp; 13ms Claude Code...",
+          "source": "github.com via Hacker News",
+          "date": "Nov 08",
+          "image": "https://opengraph.githubassets.com/6ce6b5285a34bc404af499bb098a744493d1e12ea0584e110485db6346d9e3b1/synchopate/llama-modchip",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "63 points · 28 comments",
+          "score": 3.275,
+          "coverage": 1
+        },
+        {
+          "title": "Petered (what happens after the Peter Principle)",
+          "link": "https://aworkinglibrary.com/writing/petered",
+          "excerpt": "We’re looking in the wrong place for the imposters among us.",
+          "source": "aworkinglibrary.com via Hacker News",
+          "date": "Nov 08",
+          "image": "https://aworkinglibrary.com/img/social-2026.png",
+          "icon": "https://aworkinglibrary.com/favicon.ico",
+          "domain": "aworkinglibrary.com",
+          "hn": "84 points · 46 comments",
+          "score": 3.623,
+          "coverage": 1
+        },
+        {
+          "title": "WaveDudeNext 2D Wave Simulator",
+          "link": "https://github.com/graealex/WaveDudeNext",
+          "excerpt": "Interactive 2D wave optics simulator. Turn any image into a refractive scene, add sources, watch waves refract, diffract and interfere. Probes, intensity maps, video export. - graealex/WaveDudeNext",
+          "source": "github.com via Hacker News",
+          "date": "Nov 08",
+          "image": "https://opengraph.githubassets.com/1c7822b4b7e77ff6cdd98e18062b6e8a6810768482bcdd7530f522840b6e59e5/graealex/WaveDudeNext",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "33 points · 8 comments",
+          "score": 2.325,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "JIT bitmap text rendering for microcontrollers",
+          "link": "https://linebender.org/blog/jit-bitmap-text/",
+          "excerpt": "JIT bitmap text rendering for microcontrollers",
+          "source": "linebender.org via Hacker News",
+          "date": "Nov 08",
+          "image": null,
+          "icon": "https://linebender.org/favicon.ico",
+          "domain": "linebender.org",
+          "hn": "43 points · 6 comments",
+          "score": 2.959,
+          "coverage": 1
+        },
+        {
+          "title": "Agent memory needs its OpenTelemetry moment",
+          "link": "https://www.lorekit.io/blog/open-agent-memory-format",
+          "excerpt": "Every agent tool stores memory in its own shape, and every week someone builds another one. None of them can read the others. Observability had the same problem until OpenTelemetry gave everyone one data model to share. A tour of today's memory formats, the proposals that already exist, and what a…",
+          "source": "lorekit.io via Hacker News",
+          "date": "Nov 08",
+          "image": null,
+          "icon": "https://www.lorekit.io/icons/icon-192.png",
+          "domain": "lorekit.io",
+          "hn": "86 points · 72 comments",
+          "score": 3.269,
+          "coverage": 1
+        },
+        {
+          "title": "Kirlian Photography: Building Your Own Equipment",
+          "link": "https://imagesco.com/articles/kirlian/kirlian-photography.html",
+          "excerpt": "60 points · 16 comments",
+          "source": "imagesco.com via Hacker News",
+          "date": "Nov 08",
+          "image": null,
+          "icon": "https://imagesco.com/favicon.ico",
+          "domain": "imagesco.com",
+          "hn": "60 points · 16 comments",
+          "score": 2.292,
+          "coverage": 1
+        },
+        {
+          "title": "ISponsorBlockTV: SponsorBlock client for all YouTube TV clients",
+          "link": "https://github.com/dmunozv04/isponsorblocktv",
+          "excerpt": "75 points · 30 comments",
+          "source": "github.com via Hacker News",
+          "date": "Nov 08",
+          "image": null,
+          "icon": "https://github.com/favicon.ico",
+          "domain": "github.com",
+          "hn": "75 points · 30 comments",
+          "score": 2.387,
+          "coverage": 1
+        }
+      ]
+    }
+  ]
+}

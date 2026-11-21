@@ -1,0 +1,867 @@
+{
+  "date": "2026-11-11",
+  "lead": {
+    "title": "Ring robots ready to patrol paranoids’ pads",
+    "link": "https://www.theregister.com/offbeat/2026/11/10/ring-robots-ready-to-patrol-paranoids-pads/5308932",
+    "excerpt": "Amazon calls its home security drone and business patrol bot 'proactive protection'",
+    "source": "The Register",
+    "date": "Nov 10",
+    "image": "https://image.theregister.com/?imageId=5308936&width=800",
+    "image_credit": null,
+    "section": "AI Agents & Agent Security",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "2 sources",
+      "AI Agents & Agent Security",
+      "under 1h ago"
+    ],
+    "also": [
+      {
+        "name": "petapixel.com",
+        "link": "https://petapixel.com/2026/11/10/rings-ai-powered-drone-automatically-patrols-inside-your-home/"
+      }
+    ]
+  },
+  "pulse": [
+    {
+      "title": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
+      "thread": "https://news.ycombinator.com/item?id=50452455",
+      "link": "https://pietromiotti.com/latest/maya-site/?maya",
+      "link_domain": "pietromiotti.com",
+      "source": "Hacker News",
+      "domain": "pietromiotti.com",
+      "meta": "Hacker News · 493 points · 193 comments · 3h ago",
+      "also": [],
+      "image": "https://pietromiotti.com/latest/maya-site/forest-vs-lidar.jpg",
+      "icon": "https://pietromiotti.com/favicon.ico"
+    },
+    {
+      "title": "Tracking Anthropic-discovered vulnerabilities",
+      "thread": "https://news.ycombinator.com/item?id=50447074",
+      "link": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+      "link_domain": "vulncheck.com",
+      "source": "Hacker News",
+      "domain": "vulncheck.com",
+      "meta": "Hacker News · 437 points · 207 comments · 17h ago",
+      "also": [],
+      "image": "https://www.vulncheck.com/_og/s/o_6eba28d38c5a4083.png",
+      "icon": "https://www.vulncheck.com/apple-touch-icon.png"
+    },
+    {
+      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "thread": "https://news.ycombinator.com/item?id=50443812",
+      "link": "https://github.com/GoogleChrome/modern-web-guidance",
+      "link_domain": "github.com",
+      "source": "Hacker News",
+      "domain": "github.com",
+      "meta": "Hacker News · 414 points · 136 comments · 21h ago",
+      "also": [],
+      "image": "https://opengraph.githubassets.com/5e92c316fbf4fb9036896bd28561aa1026e4017cb768ab9dc572b16f6b0d7b04/GoogleChrome/modern-web-guidance",
+      "icon": "https://github.githubassets.com/favicons/favicon.svg"
+    },
+    {
+      "title": "Apple has new Mac app coming to make running local AI models easy",
+      "thread": "https://news.ycombinator.com/item?id=50446520",
+      "link": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+      "link_domain": "9to5mac.com",
+      "source": "Hacker News",
+      "domain": "9to5mac.com",
+      "meta": "Hacker News · 410 points · 426 comments · 18h ago",
+      "also": [],
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/Mac-mini.jpg?quality=82&strip=all&resize=1200,628",
+      "icon": "https://9to5mac.com/wp-content/uploads/sites/6/2019/10/cropped-cropped-mac1-1.png?w=180"
+    },
+    {
+      "title": "I deleted all my SSH keys",
+      "thread": "https://lobste.rs/s/sdtcvv/i_deleted_all_my_ssh_keys",
+      "link": "https://blog.infected.systems/posts/2026-11-03-i-deleted-all-my-ssh-keys/",
+      "link_domain": "blog.infected.systems",
+      "source": "Lobsters",
+      "domain": "blog.infected.systems",
+      "meta": "Lobsters · 48 points · 17 comments · 18h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://blog.infected.systems/apple-touch-icon.png"
+    },
+    {
+      "title": "Gemini 4 Carbon is now available",
+      "thread": "https://news.ycombinator.com/item?id=50442303",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "link_domain": "blog.google",
+      "source": "Hacker News",
+      "domain": "blog.google",
+      "meta": "Hacker News · 288 points · 159 comments · 23h ago",
+      "also": [],
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_key_art_16-9_lockup.width-1300.jpg",
+      "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131"
+    },
+    {
+      "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
+      "thread": "https://news.ycombinator.com/item?id=50443716",
+      "link": "https://claude.com/resources/articles/sheets-whiteboards-data",
+      "link_domain": "claude.com",
+      "source": "Hacker News",
+      "domain": "claude.com",
+      "meta": "Hacker News · 265 points · 201 comments · 21h ago",
+      "also": [],
+      "image": "https://claude.com/resources/articles/sheets-whiteboards-data/opengraph-image/og",
+      "icon": "https://claude.com/icon.png"
+    },
+    {
+      "title": "How do you actually self-host securely?",
+      "thread": "https://lobste.rs/s/m43bas/how_do_you_actually_self_host_securely",
+      "link": null,
+      "link_domain": "",
+      "source": "Lobsters",
+      "domain": "Lobsters",
+      "meta": "Lobsters · 36 points · 18 comments · 3h ago",
+      "also": [],
+      "image": null,
+      "icon": null
+    },
+    {
+      "title": "What are some \"No AI\" apps/companies/resources you know of?",
+      "thread": "https://lobste.rs/s/nld6x3/what_are_some_no_ai_apps_companies",
+      "link": null,
+      "link_domain": "",
+      "source": "Lobsters",
+      "domain": "Lobsters",
+      "meta": "Lobsters · 25 points · 12 comments · 2h ago",
+      "also": [],
+      "image": null,
+      "icon": null
+    },
+    {
+      "title": "Life on Claude Nine",
+      "thread": "https://news.ycombinator.com/item?id=50443587",
+      "link": "https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html",
+      "link_domain": "babuschk.in",
+      "source": "Hacker News",
+      "domain": "babuschk.in",
+      "meta": "Hacker News · 121 points · 80 comments · 21h ago",
+      "also": [],
+      "image": "https://babuschk.in/images/social-card.png",
+      "icon": "https://babuschk.in/favicon.ico"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI-Assisted Engineering",
+      "cards": [
+        {
+          "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+          "link": "https://huggingface.co/blog/qvac/botpsy",
+          "excerpt": "A Blog post by QVAC on Hugging Face",
+          "source": "Hugging Face",
+          "date": "Nov 11",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/6468b319b2321e47d3267049/Emr86qw6NAueYLdIEiTTD.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null,
+          "score": 4.231,
+          "coverage": 1
+        },
+        {
+          "title": "Tests as data: ensuring AI-generated code does what we want",
+          "link": "https://martinfowler.com/articles/tests-as-data.html",
+          "excerpt": "Automated testing in the age of AI coding assistants is problematic: when AI agents write both production and test code, developers risk losing the assurance that automated tests protect against functional errors. Matteo Vaccari makes three claims: (1) when AI writes the code, developers become…",
+          "source": "Martin Fowler",
+          "date": "Nov 11",
+          "image": "https://martinfowler.com/articles/tests-as-data/card.png",
+          "icon": null,
+          "domain": "martinfowler.com",
+          "hn": null,
+          "score": 6.634,
+          "coverage": 1
+        },
+        {
+          "title": "From Full to Hybrid Attention in LLMs",
+          "link": "https://sebastianraschka.com/blog/2026/full-to-hybrid-attention.html",
+          "excerpt": "How open-weight LLMs are shifting from full attention to hybrid and sparse designs, and what that means for long-context compute and memory.",
+          "source": "Sebastian Raschka",
+          "date": "Nov 10",
+          "image": "https://sebastianraschka.com/images/blog/2026/full-to-hybrid-attention/full-to-hybrid-attention.webp",
+          "icon": "https://sebastianraschka.com/images/favicons/favicon-32x32.png",
+          "domain": "sebastianraschka.com",
+          "hn": null,
+          "score": 0.411,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Anthropic's IPO roadshow video",
+          "link": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+          "excerpt": "Anthropic's IPO roadshow video Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on \"Approach to compute\" with co-founder Tom Brown is particularly interesting, describing how Anthropic…",
+          "source": "Simon Willison",
+          "date": "Nov 11",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 4.868,
+          "coverage": 1
+        },
+        {
+          "title": "The 10x org is in your grasp",
+          "link": "https://newsletter.getdx.com/p/the-10x-org-is-in-your-grasp",
+          "excerpt": "Part III: Setting the groundwork for a truly 10x organization",
+          "source": "DX",
+          "date": "Nov 11",
+          "image": "https://substack-post-media.s3.amazonaws.com/public/images/24df9d87-f262-4826-8a35-e81ba5c57b49_2400x1260.png",
+          "icon": null,
+          "domain": "newsletter.getdx.com",
+          "hn": null,
+          "score": 0.877,
+          "coverage": 1
+        },
+        {
+          "title": "llm-gemini 0.36",
+          "link": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+          "excerpt": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else. This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5.5 prices) but…",
+          "source": "Simon Willison",
+          "date": "Nov 10",
+          "image": "https://static.simonwillison.net/static/2026/carbon-pelican.webp",
+          "icon": null,
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.459,
+          "coverage": 1
+        },
+        {
+          "title": "Yonkers Rises",
+          "link": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
+          "excerpt": "Tool: Yonkers Rises I realized I didn't know where Yonkers was, so I looked it up on Google Maps and then, to help embed its location and shape in my head (and to try out Claude Fable 5.2's 3D modeling and animation skills), I prompted Fable 5.2 Medium to: Make a three js animation where yonkers…",
+          "source": "Simon Willison",
+          "date": "Nov 10",
+          "image": "https://static.simonwillison.net/static/2026/yonkers.webp",
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.302,
+          "coverage": 1
+        },
+        {
+          "title": "Your engineers got twice as fast. Your lead time only moved 4%",
+          "link": "https://leaddev.com/velocity/your-engineers-got-twice-as-fast-your-lead-time-only-moved-4?utm_source=leaddev&utm_medium=RSS",
+          "excerpt": "Adoption numbers can mislead you. The post Your engineers got twice as fast. Your lead time only moved 4% appeared first on LeadDev.",
+          "source": "LeadDev",
+          "date": "Nov 11",
+          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2024/12/team-performance-09.jpg",
+          "icon": null,
+          "domain": "leaddev.com",
+          "hn": null,
+          "score": 0.703,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "AI Agents & Agent Security",
+      "cards": [
+        {
+          "title": "Designing for Agents — Zeno Rocha, Resend",
+          "link": "https://latent.space/p/resend/",
+          "excerpt": "Where does answer engine optimization (AEO) end and agent experience begin? Inside Resend, from the docs that help Claude Code pick an email API to the tools it uses to send.",
+          "source": "Latent Space",
+          "date": "Nov 10",
+          "image": "https://i.ytimg.com/vi/bdIoODXsu8k/maxresdefault.jpg",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null,
+          "score": 3.501,
+          "coverage": 1
+        },
+        {
+          "title": "AI Engineer Code Summit: OpenAI on New Ways of Working With Codex",
+          "link": "https://latent.space/p/codex-work/",
+          "excerpt": "On the first day of AIE Code Summit, OpenAI showed how developers can steer Codex by voice, hand off work to the cloud, and make use of dots.",
+          "source": "Latent Space",
+          "date": "Nov 11",
+          "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/27ce2150-3717-4122-ac3a-37dd0e8ce18f/openai-aiecode-feature.png?t=1794370546",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null,
+          "score": 4.37,
+          "coverage": 1
+        },
+        {
+          "title": "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
+          "link": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
+          "excerpt": "November 10, 2026 — Google GA's Gemini 4 Carbon.",
+          "source": "Latent Space",
+          "date": "Nov 11",
+          "image": "https://latent.space/og/card/post/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/0a6ebbfe98ad97a5127fc1c24df129ccd58884d32c867036ad2d48f36fe03fee.png",
+          "icon": "https://latent.space/favicon.png",
+          "domain": "latent.space",
+          "hn": null,
+          "score": 0.835,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
+          "link": "https://latent.space/p/naiveai/",
+          "excerpt": "NaiveAI could potentially top Artificial Analysis’s speed rankings. Our hands-on test suggests its coding quality holds up against DeepSeek.",
+          "source": "Latent Space",
+          "date": "Nov 10",
+          "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/f3b4fd9f-a330-4090-a922-a912d25dcd7c/naiveai-feature2.png?t=1793721927",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null,
+          "score": 0.46,
+          "coverage": 1
+        },
+        {
+          "title": "Gilbert + Tobin rethinks the business of law with AI",
+          "link": "https://openai.com/index/gilbert-tobin-sam-nickless",
+          "excerpt": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+          "source": "OpenAI News",
+          "date": "Nov 12",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 1.562,
+          "coverage": 1
+        },
+        {
+          "title": "ChatGPT Plus for veterans and servicemembers",
+          "link": "https://openai.com/index/chatgpt-plus-for-veterans",
+          "excerpt": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+          "source": "OpenAI News",
+          "date": "Nov 11",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.96,
+          "coverage": 1
+        },
+        {
+          "title": "Introducing Businesses in ChatGPT",
+          "link": "https://openai.com/index/introducing-businesses-chatgpt",
+          "excerpt": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+          "source": "OpenAI News",
+          "date": "Nov 10",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.451,
+          "coverage": 1
+        },
+        {
+          "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+          "link": "https://openai.com/index/singapore-airlines-travel-work",
+          "excerpt": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+          "source": "OpenAI News",
+          "date": "Nov 10",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.431,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Leadership",
+      "cards": [
+        {
+          "title": "Reinventing business planning with agentic AI",
+          "link": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/reinventing-business-planning-with-agentic-ai",
+          "excerpt": "Combining better forecasting with AI agents will turn planning into a more continuous, intelligent, and responsive decision-making system—and reduce the manual work required to turn forecasts into action.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 10",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 2.305,
+          "coverage": 1
+        },
+        {
+          "title": "Intel Earnings, AMD Earnings, Intel and AMD’s Divergence",
+          "link": "https://stratechery.com/2026/intel-earnings-amd-earnings-intel-and-amds-divergence/",
+          "excerpt": "Intel and AMD's diverging earnings point to fundamental historical differences, and make me wonder if Intel needs to find a new (old) path.",
+          "source": "Stratechery by Ben Thompson",
+          "date": "Nov 11",
+          "image": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9zdHJhdGVjaGVyeS5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMThcLzAzXC9jcm9wcGVkLWFuZHJvaWQtY2hyb21lLTUxMng1MTItMS5wbmc_Zml0PTUxMiUyQzUxMiZzc2w9MSIsInR4dCI6IlN0cmF0ZWNoZXJ5IGJ5IEJlbiBUaG9tcHNvbiIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxODgwNDM0MTV9.5VWck4PcKPWCTPe_HVznn3n3xsgn-G0b3d2OeiNNC7cMQ",
+          "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
+          "domain": "stratechery.com",
+          "hn": null,
+          "score": 0.907,
+          "coverage": 1
+        },
+        {
+          "title": "Brilliant Moves: Coffee with The Coca-Cola Company CEO Henrique Braun",
+          "link": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/brilliant-moves-coffee-with-the-coca-cola-company-ceo-henrique-braun",
+          "excerpt": "The Coca-Cola Company’s Henrique Braun and McKinsey’s Vik Malhotra discuss how an enduring institution keeps moving forward, and why staying constructively discontented may be the secret to staying relevant.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 10",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.291,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Agent Identity & Authorization",
+      "cards": [
+        {
+          "title": "Exploring File Uploads and Downloads in MCP",
+          "link": "https://blog.modelcontextprotocol.io/posts/exploring-file-uploads-and-downloads-in-mcp/",
+          "excerpt": "The Model Context Protocol (MCP) started out as a simple way to connect models to tools, and that principle is still very much at its heart. Over the past two years, the things people build with the protocol have become more ambitious. Much more ambitious. Many of those MCP server projects now…",
+          "source": "Model Context Protocol Blog",
+          "date": "Nov 10",
+          "image": "https://blog.modelcontextprotocol.io/posts/images/file-uploads-and-downloads/file-transfer-round-trip.gif",
+          "icon": null,
+          "domain": "blog.modelcontextprotocol.io",
+          "hn": null,
+          "score": 2.76,
+          "coverage": 1
+        },
+        {
+          "title": "Don't just flag it, fix it: How to run CodeMender in your pull requests",
+          "link": "https://cloud.google.com/blog/products/identity-security/how-to-run-codemender-in-your-pull-requests/",
+          "excerpt": "As many developers use agentic tools to create more code faster than ever before, the code has gotten more complex and they’re taking longer to find and fix software flaws. Helping to address that pressure is a key concern at Google. We know that software development velocity is increasing, as…",
+          "source": "Security & Identity",
+          "date": "Nov 10",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/figure-1a.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 2.335,
+          "coverage": 1
+        },
+        {
+          "title": "OpenID Foundation at GDC26: sessions, speakers and highlights",
+          "link": "https://openid.net/openid-foundation-at-gdc26-sessions-speakers-and-highlights/",
+          "excerpt": "Governments, international organisations, standards bodies and industry came together in Geneva for the recent Global Digital Collaboration Conference (GDC26). The event is an important forum for shaping the future of digital public infrastructure, and the OpenID Foundation was proud to play an…",
+          "source": "OpenID Foundation",
+          "date": "Nov 11",
+          "image": "https://openid.net/wp-content/uploads/2026/11/GDC-river-flags-1024x683.jpg",
+          "icon": null,
+          "domain": "openid.net",
+          "hn": null,
+          "score": 0.677,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "SSO sign-in consent screen: What it is and how to handle denials",
+          "link": "https://workos.com/blog/sso-sign-in-consent-screen",
+          "excerpt": "The sign-in consent screen shows users their email and identity provider before SSO completes. When it appears, how to handle a denial, and what to brand.",
+          "source": "WorkOS Blog",
+          "date": "Nov 10",
+          "image": "https://images.workoscdn.com/images/b8ecd087-45b0-4195-aa0c-462a049bf9c1.png?auto=format&fit=clip&q=80",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null,
+          "score": 0.272,
+          "coverage": 1
+        },
+        {
+          "title": "WorkOS security review: SOC 2, data stored and IPs to allow",
+          "link": "https://workos.com/blog/workos-security-review",
+          "excerpt": "What WorkOS stores, which IPs to allow, where data lives and what it is certified for. A security review answer sheet for IT teams approving SSO with WorkOS.",
+          "source": "WorkOS Blog",
+          "date": "Nov 10",
+          "image": "https://images.workoscdn.com/images/895e5f66-737f-4a80-9793-40a35a6b3ee9.png?auto=format&fit=clip&q=80",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null,
+          "score": 0.186,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Secrets & NHI",
+      "cards": [
+        {
+          "title": "An ARTEX build ships no secret scanner. In our lab, it found the secrets anyway",
+          "link": "https://blog.gitguardian.com/an-artex-build-ships-no-secret-scanner-in-our-lab-it-found-the-secrets-anyway/",
+          "excerpt": "An ARTEX build ships no secret scanner. In our lab, it found 8 of 9 planted secrets in seconds, even when asked only to assess the repo.",
+          "source": "GitGuardian",
+          "date": "Nov 10",
+          "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/11/artex-lab-test-thumbnail-2.png",
+          "icon": null,
+          "domain": "blog.gitguardian.com",
+          "hn": null,
+          "score": 0.392,
+          "coverage": 1
+        },
+        {
+          "title": "3 Ways to Reduce Token Consumption When Using LLMs",
+          "link": "https://aembit.io/blog/3-ways-to-reduce-token-consumption-when-using-llms/",
+          "excerpt": "13 min readAs large language models become more important for companies, the overall cost of enterprise models is skyrocketing. An inefficient call from an employee might not seem too dangerous, but multiply that by the number of prompts per month and the number of employees in your company. In…",
+          "source": "Aembit",
+          "date": "Nov 10",
+          "image": "https://aembit.io/wp-content/uploads/2026/11/llm-1024x269.png",
+          "icon": null,
+          "domain": "aembit.io",
+          "hn": null,
+          "score": 0.354,
+          "coverage": 1
+        },
+        {
+          "title": "From insight to action: improving infrastructure risk posture with Terraform and Concert",
+          "link": "https://www.hashicorp.com/blog/from-insight-to-action-improving-infrastructure-risk-posture-with-terraform-and-c",
+          "excerpt": "Learn how Terraform and IBM Concert connect trusted infrastructure context, policy-driven governance, and vulnerability management to improve risk posture across the infrastructure lifecycle.",
+          "source": "HashiCorp",
+          "date": "Nov 10",
+          "image": null,
+          "icon": "https://www.hashicorp.com/favicon.ico",
+          "domain": "hashicorp.com",
+          "hn": null,
+          "score": 0.347,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "Bay Raises $50 Million to Control What Enterprise AI Agents Can Do",
+          "link": "https://www.securityweek.com/bay-raises-50-million-to-control-what-enterprise-ai-agents-can-do/",
+          "excerpt": "Founded by three ex-IDF Unit 8200 intelligence officers, Bay is launched to provide a control plane for AI agents. The post Bay Raises $50 Million to Control What Enterprise AI Agents Can Do appeared first on SecurityWeek.",
+          "source": "SecurityWeek",
+          "date": "Nov 11",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/Yuval_Zachari_Bay.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 4.715,
+          "coverage": 1
+        },
+        {
+          "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
+          "excerpt": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 11",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/10/09/robot-hacker.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 5.969,
+          "coverage": 1
+        },
+        {
+          "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
+          "link": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
+          "excerpt": "An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown. When a chosen trigger appears, the model outputs an attacker's command, which an agent using that model would run with the agent's own…",
+          "source": "The Hacker News",
+          "date": "Nov 11",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3GT7PJRzHrU1jqZ7Qt0MYIOeL97NYpY4E-aY-Jh9WrLRSLpjaLEIjeAdOagTcUfo7MU9yXmk7HPgPHuGKkEidZkw-2Ojtty9z1PX2Qmmj-h0Kk3X-3VsIg6Lggpoblf-1SE5GHU9LB-P6WeOrfNVgIl1e7q0FxS6obF07BEd8HVcXgSyd_7ZSV8hB01E/s1600/ms-ai-backdoor.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 3.273,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
+          "link": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
+          "excerpt": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an agent that broke all three by default. This helped us think…",
+          "source": "The Hacker News",
+          "date": "Nov 11",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhB22NtEOE6ioVcc92S5bLfFX3tbKyjNkx0j8OmHekqWq6Od4h9DtFmbmdd74VzwHCh5h6NbWnBgHgKzC49DwS7QAgA0uH3eL7BvBnN9QJu3U5-oiy5ZFMN7PvaJTBqjP7TR5VMjzrGxjfOfjgBqs3lecFZnWGEYNDp_BJgklco1L_acBqGm1M_CvtfLaY/s1600/AI-AGENT.png",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 3.277,
+          "coverage": 1
+        },
+        {
+          "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+          "link": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+          "excerpt": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's CyOps and Research teams said they identified the suspicious activity in October 2026 against several E.U.-based…",
+          "source": "The Hacker News",
+          "date": "Nov 11",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5L1m-CqPOrgk9otByC4blBWuqDylovaSyHYhirRHQvzjjSUB0DBWbxnF_8cNIsONC6yoL3h-ydX61vmnsctKr_IbcnvmwRLAMqch16Ru5oMVuDWy1bilEt6EAgEerB7mUxICRgck1NkoJeA7Y2lvV0oqLkw12-f1xMhC7Dw5F1aK35NhVf3oZwj4WbfOT/s1600/qliksense.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.666,
+          "coverage": 1
+        },
+        {
+          "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+          "link": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
+          "excerpt": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday. They included 24 apps built by staff at the social network X and at SpaceXSI, the company that makes the Grok AI assistant. Most of the open apps…",
+          "source": "The Hacker News",
+          "date": "Nov 11",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh54t26Pk-bNbcIXgu8KrKpT_zN1KxEov16xTFlJ8kiPJ3-btXjGUE1lb0ZpamQU5jUHwmxzxHpYLsAQfiaHQUu3gxCIUw2gsEYNwMjL6nRm_jWm6t_VdHJkz6xj3fAsmTZKP8Bbax1qdT98a_PY4ynv81njiDyPXvIIihl4dqXxxC9pMMf8-Mn9dziy_A/s1600/grokai.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 2.959,
+          "coverage": 2
+        },
+        {
+          "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
+          "link": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
+          "excerpt": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys. Each intermediate CA has its own private key, which the company uses to sign the certificates it issues.…",
+          "source": "The Hacker News",
+          "date": "Nov 11",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjONLgT6piRm0O75Y6dzQY4L2RO8OQTlWaJbwSTHFDeh82Qiadl2PT9KI9r2jC1JbwS-TqPm3g1Ea0Q8I91FalXu2GZ0fBBnfId6-8ZWKABrBQZWg7nA1X6cHq7wgHK3rc2Y5YW4yb61TjxVyywyWprml6yhBgH-SBaTvXZF-50J8-mR5Q6cGhSgfuMUdk/s1600/emudhra.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.58,
+          "coverage": 1
+        },
+        {
+          "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+          "link": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+          "excerpt": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws. These cover 726 flaws in Windows, 174 in Office, 61 in Developer Tools, 59 in SQL Server, 53 in Developer Tools,…",
+          "source": "The Hacker News",
+          "date": "Nov 11",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_nfFO2Zf-R2XyVzQHP43rc0OLAtUtRKWYV0VIaoHZW8EeH78h2Id9FmfJQVfzFdmBD6ugVGeCehX1Nq6jlmXlMG4AmnV3Tib3YvClKGaplVg5Ngk_KlpqwHx6Pd_oYQTCj2O3HfOpt_MoSGQD-4Nv-pju5sqS7U9-rAJdpKTn-xnhA1QSmmTiQWnAFjGp/s1600/patch-ms.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.468,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "Inside the Gemini factory: Accelerating partner solutions",
+          "link": "https://cloud.google.com/blog/topics/partners/inside-the-gemini-factory-accelerating-partner-solutions/",
+          "excerpt": "With the new unified Gemini experience, enterprises can bring third-party partner capabilities directly in Gemini through standardized connectors (spanning Model Context Protocol (MCP), Agent-to-Agent (A2A) runtimes, and REST APIs), alongside emerging declarative skills and plugins. For…",
+          "source": "Cloud Blog",
+          "date": "Nov 10",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1_-_Accelerated_Partner_Development_Pipeli.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 2.934,
+          "coverage": 1
+        },
+        {
+          "title": "Welcoming OpenShell to the CNCF: Open Governance to Secure Agentic AI",
+          "link": "https://www.cncf.io/blog/2026/11/10/welcoming-openshell-to-the-cncf-open-governance-to-secure-agentic-ai/",
+          "excerpt": "Today at KubeCon + CloudNativeCon North America, the Cloud Native Computing Foundation (CNCF) welcomes OpenShell as a Sandbox project. NVIDIA has contributed OpenShell, an open source runtime for securing and governing autonomous AI agents, to the...",
+          "source": "Blog – Cloud Native Computing Foundation",
+          "date": "Nov 10",
+          "image": "https://www.cncf.io/wp-content/uploads/2026/11/HAProxy-Technologies-5.jpg",
+          "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
+          "domain": "cncf.io",
+          "hn": null,
+          "score": 2.006,
+          "coverage": 1
+        },
+        {
+          "title": "Istio Enables Global Availability for All Workloads — Traditional, Agentic and Beyond",
+          "link": "https://www.cncf.io/blog/2026/11/10/istio-enables-global-availability-for-all-workloads-traditional-agentic-and-beyond/",
+          "excerpt": "AI agent deployment alongside traditional cloud native applications is rising, and securing and managing network traffic across various workloads has become more complex. Platform operators need consistent security, visibility and control without introducing additional operational overhead....",
+          "source": "Blog – Cloud Native Computing Foundation",
+          "date": "Nov 10",
+          "image": "https://www.cncf.io/wp-content/uploads/2026/11/Blog-Default.jpg",
+          "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
+          "domain": "cncf.io",
+          "hn": null,
+          "score": 2.006,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "The Blueprint: How Authentic Brands Group expands creativity with AuthOS",
+          "link": "https://cloud.google.com/blog/topics/retail/the-blueprint-how-authentic-brands-group-expands-creativity-with-authos/",
+          "excerpt": "Welcome to The Blueprint, a new feature where we highlight how Google Cloud customers are tackling unique and common challenges across industries using the latest AI and cloud technologies. We hope to inspire others looking to innovate in their work.Authentic Brands Group, a global lifestyle and…",
+          "source": "Cloud Blog",
+          "date": "Nov 10",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/ABG-Autho-OS-hero.max-600x600.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 1.671,
+          "coverage": 1
+        },
+        {
+          "title": "BigQuery measures is now GA: Unifying BI metrics and knowledge graphs for AI accuracy",
+          "link": "https://cloud.google.com/blog/products/data-analytics/bigquery-measures-ga-unifying-bi-metrics-and-knowledge-graphs/",
+          "excerpt": "To answer a complex business question, an AI agent must understand two things: what happened, and why. The what is a governed metric, like revenue at risk; the why is the network of relationships that produced it. Because metric definitions, a.k.a. measures, traditionally live in business…",
+          "source": "Cloud Blog",
+          "date": "Nov 10",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Figure_1_Unified_Model_BI_and_Graphs.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 1.824,
+          "coverage": 1
+        },
+        {
+          "title": "Monitor OpenAI Codex usage and impact with Datadog",
+          "link": "https://www.datadoghq.com/blog/monitor-openai-codex-with-datadog/",
+          "excerpt": "Track OpenAI Codex adoption, token consumption, code contributions, and review activity, and connect usage to software delivery performance.",
+          "source": "Datadog | The Monitor blog",
+          "date": "Nov 10",
+          "image": "https://web-assets.dd-static.net/42588/1794333734-codex-integration-announcement-hero-image.png",
+          "icon": "https://www.datadoghq.com/favicon.ico",
+          "domain": "datadoghq.com",
+          "hn": null,
+          "score": 1.155,
+          "coverage": 1
+        },
+        {
+          "title": "Experimenting with ClusterNetworkPolicy in GKE",
+          "link": "https://cloud.google.com/blog/topics/developers-practitioners/experimenting-with-clusternetworkpolicy-in-gke/",
+          "excerpt": "Standard Network Policies limit you to applying policies at the namespace level, but ClusterNetworkPolicy (CNP) lets you apply granular networking policies across an entire cluster. When you use CNP, you can easily scale security and governance policies. Recently, I experimented with this…",
+          "source": "Cloud Blog",
+          "date": "Nov 10",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/clusternetworkpolicy-hero_TEG7Wrh.max-600x600.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 1.563,
+          "coverage": 1
+        },
+        {
+          "title": "Jaeger Previews AI-Assisted Troubleshooting and GenAI Observability for OpenTelemetry Traces at KubeCon",
+          "link": "https://www.cncf.io/blog/2026/11/10/jaeger-previews-ai-assisted-troubleshooting-and-genai-observability-for-opentelemetry-traces-at-kubecon/",
+          "excerpt": "New experimental capabilities bring natural-language troubleshooting, native MCP tools and GenAI-aware trace visualization to Jaeger As AI applications move into production, developers and platform teams face new challenges in understanding how complex distributed systems behave. Traditional...",
+          "source": "Blog – Cloud Native Computing Foundation",
+          "date": "Nov 10",
+          "image": "https://www.cncf.io/wp-content/uploads/2026/11/Blog-Default-2.jpg",
+          "icon": "https://www.cncf.io/wp-content/themes/cncf-twenty-two/images/apple-touch-icon.png",
+          "domain": "cncf.io",
+          "hn": null,
+          "score": 1.429,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
+          "link": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+          "excerpt": "Like the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredictable environments.",
+          "source": "TechCrunch",
+          "date": "Nov 11",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/Plurai-team-photo.-Credit-Guy-Hamoy.jpg?resize=1200,800",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
+          "hn": null,
+          "score": 4.469,
+          "coverage": 1
+        },
+        {
+          "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+          "link": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+          "excerpt": "New York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to register, disclose safety practices, and report critical incidents or face fines.",
+          "source": "TechCrunch",
+          "date": "Nov 10",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2302996653.jpg?w=1024",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
+          "hn": null,
+          "score": 1.795,
+          "coverage": 1
+        },
+        {
+          "title": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
+          "link": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
+          "excerpt": "At 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to. He uses Databricks' newly revised Genie agent for that.",
+          "source": "TechCrunch",
+          "date": "Nov 11",
+          "image": "https://techcrunch.com/wp-content/uploads/2021/04/Ali_Ghodsi.jpg?resize=1200,1200",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
+          "hn": null,
+          "score": 4.216,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Serve Robotics wants to democratize sidewalk delivery robots",
+          "link": "https://www.theverge.com/transportation/1030902/serve-robotics-open-developer-api-sidewalk-delivery",
+          "excerpt": "Serve Robotics is opening up its platform to make its autonomous last-mile delivery robots available to anyone who wants to use them. The company is launching a new AV Delivery Developer Portal, enabling third-party software engineers, independent businesses, and even autonomous AI agents to…",
+          "source": "The Verge",
+          "date": "Nov 11",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2231498899.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "icon": null,
+          "domain": "theverge.com",
+          "hn": null,
+          "score": 2.703,
+          "coverage": 1
+        },
+        {
+          "title": "Pharo in the Browser with WebAssembly",
+          "link": "https://massimo-nocentini.github.io/pharo-vm/world.html",
+          "excerpt": "The Pharo world, the Smalltalk environment, running in your browser on WebAssembly.",
+          "source": "massimo-nocentini.github.io via Hacker News",
+          "date": "Nov 11",
+          "image": null,
+          "icon": "https://massimo-nocentini.github.io/pharo-vm/favicon.png?v=457ece6d3-ac4940f7f271",
+          "domain": "massimo-nocentini.github.io",
+          "hn": "29 points · 6 comments",
+          "score": 2.633,
+          "coverage": 1
+        },
+        {
+          "title": "Atuin Threads: All your agent sessions on every machine",
+          "link": "https://blog.atuin.sh/threads-agent-sessions/",
+          "excerpt": "Atuin Threads: one searchable, synced history for every agent session, on every machine Start a task in Claude Code, then resume it in Codex",
+          "source": "blog.atuin.sh via Hacker News",
+          "date": "Nov 11",
+          "image": null,
+          "icon": "https://storage.ghost.io/c/66/46/6646b777-02d8-44b3-9d01-dd721730b905/content/images/size/w256h256/2024/01/Atuin_Mascot-_01_square.png",
+          "domain": "blog.atuin.sh",
+          "hn": "22 points · 11 comments",
+          "score": 2.564,
+          "coverage": 1
+        },
+        {
+          "title": "Apple is killing its Support Community forum next week",
+          "link": "https://www.theverge.com/tech/1031507/apple-community-support-forum-shutting-down",
+          "excerpt": "The Apple Support Community platform is now read-only, and will permanently close on November 20th.﻿",
+          "source": "theverge.com via Hacker News",
+          "date": "Nov 11",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Apple-Support-Community-forum.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "icon": "https://www.theverge.com/static-assets/icons/apple-touch-icon.png",
+          "domain": "theverge.com",
+          "hn": "47 points · 20 comments",
+          "score": 2.946,
+          "coverage": 1
+        },
+        {
+          "title": "I asked every TV manufacturer 17 questions about how they spy on you",
+          "link": "https://www.theverge.com/tech/1012372/tv-privacy-acr-questions",
+          "excerpt": "We asked 11 companies these 17 questions, and only a few answered them all.",
+          "source": "theverge.com via Hacker News",
+          "date": "Nov 11",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268797_What_data_are_your_TVs_collecting_and_is_it_protected__CVirginia.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "icon": "https://www.theverge.com/static-assets/icons/apple-touch-icon.png",
+          "domain": "theverge.com",
+          "hn": "82 points · 31 comments",
+          "score": 3.227,
+          "coverage": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "date": "2026-10-25",
+  "lead": {
+    "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
+    "link": "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/",
+    "excerpt": "Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks. The post Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave appeared first on SecurityWeek.",
+    "source": "SecurityWeek",
+    "date": "Oct 25",
+    "image": "https://www.securityweek.com/wp-content/uploads/2025/11/funding-investment-market-3.jpeg",
+    "image_credit": null,
+    "section": "Security & AppSec",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "Security & AppSec",
+      "12h ago"
+    ],
+    "also": []
+  },
+  "pulse": [
+    {
+      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "thread": "https://news.ycombinator.com/item?id=50236102",
+      "link": "https://minimaxir.com/2026/10/cheap-llms/",
+      "link_domain": "minimaxir.com",
+      "source": "Hacker News",
+      "domain": "minimaxir.com",
+      "meta": "Hacker News · 381 points · 383 comments · 2h ago",
+      "also": [],
+      "image": "https://minimaxir.com/2026/10/cheap-llms/vercel.png",
+      "icon": "https://minimaxir.com/apple-touch-icon.png"
+    },
+    {
+      "title": "Cerebras Deploys Trillion-Parameter AI Models",
+      "thread": "https://news.ycombinator.com/item?id=50227356",
+      "link": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "link_domain": "cerebras.ai",
+      "source": "Hacker News",
+      "domain": "cerebras.ai",
+      "meta": "Hacker News · 360 points · 139 comments · 22h ago",
+      "also": [],
+      "image": "https://cdn.sanity.io/images/e4qjo92p/production/1796e3cccda1454e97d262833fb0bb0d6015032f-2786x1567.png?rect=0,53,2786,1463&w=1200&h=630&fit=max&auto=format",
+      "icon": "https://cdn.sanity.io/images/e4qjo92p/production/e7a55ae5ab7e2c4fdfd4e66a51f628d1f2f44207-967x967.png?w=512&h=512&fit=max&auto=format"
+    },
+    {
+      "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+      "thread": "https://news.ycombinator.com/item?id=50233304",
+      "link": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+      "link_domain": "dailycal.org",
+      "source": "Hacker News",
+      "domain": "dailycal.org",
+      "meta": "Hacker News · 226 points · 320 comments · 7h ago",
+      "also": [],
+      "image": "https://bloximages.chicago2.vip.townnews.com/dailycal.org/content/tncms/assets/v3/editorial/9/44/944d84f9-b521-443c-ae42-3811a39ea788/6adac8999d0f1.image.jpg?crop=1793%2C941%2C0%2C106&resize=1200%2C630&order=crop%2Cresize",
+      "icon": "https://bloximages.chicago2.vip.townnews.com/dailycal.org/content/tncms/custom/image/6b3dafc9-1707-4317-aff9-b6f92a7f38d2.png?crop=631%2C631%2C285%2C0&resize=180%2C180&order=crop%2Cresize"
+    },
+    {
+      "title": "Nikon photography contest winner loses title after scientists spot signs of AI",
+      "thread": "https://news.ycombinator.com/item?id=50229827",
+      "link": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
+      "link_domain": "techspot.com",
+      "source": "Hacker News",
+      "domain": "techspot.com",
+      "meta": "Hacker News · 144 points · 83 comments · 14h ago",
+      "also": [],
+      "image": "https://www.techspot.com/images2/news/bigimage/2026/10/2026-10-12-image-4.jpg",
+      "icon": "https://www.techspot.com/images/ts3mobile-badge.png"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI Agents & Agent Security",
+      "cards": [
+        {
+          "title": "Seam Cutter",
+          "link": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
+          "excerpt": "Tool: Seam Cutter I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a section in the middle of an image. I wanted this because I often use Tailor on…",
+          "source": "Simon Willison",
+          "date": "Oct 25",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+          "link": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+          "excerpt": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"Based on the current state of alignment research, monitoring systems, and the security of internet…",
+          "source": "The Hacker News",
+          "date": "Oct 25",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSwuCxStjU_WIIOJ5dEqVxFVQeLfJevQdmLoYLBiXsduAvosK7VfzyduIRRmiOcpl2lQlSdEoInwRkfOnR4devMGT6oI_Limrjcx8yLFsTRau7CBK76cGIMXxC916OKHtwALlELG-nPljBDVIPl2aPDOZTYqkTr6AyZMyFQ6hwUFdfx5Tr2cz8KpDSlb9j/s1600/ai-agents.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+          "link": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+          "excerpt": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls…",
+          "source": "The Hacker News",
+          "date": "Oct 25",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbGR63RmXInXPwCVFZlGJSiGv5WQfLTWymToOPIYbKXfXniB7X4YDbTVK-28G4r3WfdelCr_2TRzhoYrIogcG_C9WjXEHaLhURIh_v5RyO5sBY8UKwQWbKUBrv_H5n5K7N4mz2WG3d5dldw_re-M5CgDDbVi_EhTqvB9P87fZJlODojj8ivvj-RwLUhpg/s1600/tailscale.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        },
+        {
+          "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
+          "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+          "excerpt": "In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws. \"What researchers saw was an attack against a European government agency executed in the…",
+          "source": "The Hacker News",
+          "date": "Oct 25",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzK2qokKedMIUzd876s0EWaLDb7qw-DMzlFWKvmfgCzMKZ2KVvdpZ-298SoEm1_PP6aoEBc6q1LAydnANGur1FbFNmXmhlo6zHtRFvgRcbx-LOoDoM_-JI-_7XkkM4r5q3LQH1SdfirarXTGeiu16d5YMDSeYs8tfJn5ITfRQ4DThbqkq66b4WdDQcOJqf/s1600/php2shell-exploit.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+          "link": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+          "excerpt": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
+          "source": "BleepingComputer",
+          "date": "Oct 25",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/10/23/robot.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null
+        },
+        {
+          "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
+          "link": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+          "excerpt": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast. [...]",
+          "source": "BleepingComputer",
+          "date": "Oct 24",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/10/23/blackX.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null
+        },
+        {
+          "title": "Autonomous attack agent in 'Skynet mode' hijacks other models to carry out its evil deeds",
+          "link": "https://www.theregister.com/security/2026/10/24/autonomous-attack-agent-in-skynet-mode-hijacks-other-models-to-carry-out-its-evil-deeds/5305215",
+          "excerpt": "Designed to carry out 100,000 steps without human approval",
+          "source": "The Register",
+          "date": "Oct 24",
+          "image": "https://image.theregister.com/?imageId=5305225&width=800",
+          "icon": null,
+          "domain": "theregister.com",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "PHP Patches Two Critical RCE Flaws That Were Already Under Attack",
+          "link": "https://www.infoq.com/news/2026/10/php-critical-rce-patches/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "PHP released 8.5.12, 8.4.27, 8.3.36, and 8.2.35 to fix two critical vulnerabilities allowing unauthenticated remote code execution. Amazon recorded an exploitation attempt four days before the patches shipped, and operators spent the day working out whether they ran PHP, where to get the package,…",
+          "source": "InfoQ",
+          "date": "Oct 25",
+          "image": "https://res.infoq.com/news/2026/10/php-critical-rce-patches/en/headerimage/generatedHeaderImage-1792866020447.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null
+        },
+        {
+          "title": "PyTorch Conference 2026: Google and Meta Open-Source TorchTPU for Native PyTorch on TPUs",
+          "link": "https://www.infoq.com/news/2026/10/google-meta-torchtpu/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Google and Meta open-sourced TorchTPU, a native PyTorch backend for Google's TPUs, at PyTorch Conference North America 2026, and Meta said it plans to move larger LLM workloads onto TPUs with it. AWS released TorchNeuron for Trainium the same week, while developers questioned TPU availability and…",
+          "source": "InfoQ",
+          "date": "Oct 25",
+          "image": "https://res.infoq.com/news/2026/10/google-meta-torchtpu/en/headerimage/torchtpu-header-1792934272172.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null
+        },
+        {
+          "title": "Google ML Drift Accelerates On-Device AI Inference Across Diverse GPUs",
+          "link": "https://www.infoq.com/news/2026/10/google-ml-drift/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Google has released ML Drift, an open-source, cross-platform GPU compute engine designed for on-device AI and machine learning inference. Licensed under Apache 2.0, it abstracts the complexities of different GPU hardware and low-level APIs, supporting OpenGL ES, OpenCL, Metal, and WebGPU. By…",
+          "source": "InfoQ",
+          "date": "Oct 25",
+          "image": "https://res.infoq.com/news/2026/10/google-ml-drift/en/headerimage/gemini-agentic-vision-1792946554031.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null
+        }
+      ],
+      "more": [
+        {
+          "title": "PingCAP Breach Exposes Customer Records and Source Code",
+          "link": "https://www.infoq.com/news/2026/10/pingcap-cloud-data-breach/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "PingCAP recently confirmed unauthorized access to its internal systems and the theft of source code and customer-related data. The attacker, cyber extortion group FulcrumSec, claimed to have stolen 10.6 TB of data, including TiDB Cloud control-plane records, customer SQL statements, API keys,…",
+          "source": "InfoQ",
+          "date": "Oct 25",
+          "image": "https://res.infoq.com/news/2026/10/pingcap-cloud-data-breach/en/headerimage/generatedHeaderImage-1792787545089.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null
+        }
+      ]
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "Attention Is Not What You Need (2025)",
+          "link": "https://arxiv.org/abs/2512.19428",
+          "excerpt": "We revisit a basic question in sequence modeling: is explicit self-attention actually necessary for strong performance and reasoning? We argue that standard multi-head attention is best seen as a form of tensor lifting: hidden vectors are mapped into a high-dimensional space of pairwise…",
+          "source": "arxiv.org via Hacker News",
+          "date": "Oct 25",
+          "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+          "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png",
+          "domain": "arxiv.org",
+          "hn": "149 points · 53 comments"
+        },
+        {
+          "title": "The State of Context Engineering",
+          "link": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+          "excerpt": "As models improve, they bring surprising challenges for those building apps and harnesses. How context engineering has changed this year, and where it’s headed.",
+          "source": "dbreunig.com via Hacker News",
+          "date": "Oct 25",
+          "image": "https://www.dbreunig.com/img/agnt_con/AGNT_Con.034.jpeg",
+          "icon": "https://www.dbreunig.com/assets/favicon/apple-touch-icon.png",
+          "domain": "dbreunig.com",
+          "hn": "219 points · 56 comments"
+        },
+        {
+          "title": "Show HN: A Truly Modular Keyboard",
+          "link": "https://github.com/notaroomba/keybytes",
+          "excerpt": "A truly modular keyboard. Contribute to notaroomba/keybytes development by creating an account on GitHub.",
+          "source": "github.com via Hacker News",
+          "date": "Oct 25",
+          "image": "https://opengraph.githubassets.com/313f98f8760372befbb8e73ff39504980b579a19737d514ff59aa61bd8211b02/notaroomba/keybytes",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "214 points · 69 comments"
+        }
+      ],
+      "more": [
+        {
+          "title": "F-Zero X on Nintendo 3DS",
+          "link": "https://hypnotize.works/gdx-3ds/postmortem/index.html",
+          "excerpt": "144 points · 81 comments",
+          "source": "hypnotize.works via Hacker News",
+          "date": "Oct 25",
+          "image": null,
+          "icon": "https://hypnotize.works/favicon.ico",
+          "domain": "hypnotize.works",
+          "hn": "144 points · 81 comments"
+        },
+        {
+          "title": "Why I Am a Programmer",
+          "link": "https://www.alfie.wtf/programming/why-i-am-a-programmer.html",
+          "excerpt": "277 points · 86 comments",
+          "source": "alfie.wtf via Hacker News",
+          "date": "Oct 25",
+          "image": null,
+          "icon": "https://www.alfie.wtf/favicon.ico",
+          "domain": "alfie.wtf",
+          "hn": "277 points · 86 comments"
+        },
+        {
+          "title": "Dolly Parton's Imagination Library",
+          "link": "https://imaginationlibrary.com/",
+          "excerpt": "Dolly Parton’s Imagination Library is a book gifting program that mails free books to children from birth until they begin school in participating areas.",
+          "source": "imaginationlibrary.com via Hacker News",
+          "date": "Oct 25",
+          "image": null,
+          "icon": "https://imaginationlibrary.com/ilData/usrFiles/2021/04/cropped-dpil-favicon-reg-180x180.png",
+          "domain": "imaginationlibrary.com",
+          "hn": "596 points · 99 comments"
+        },
+        {
+          "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+          "link": "https://lynchlab.net/llm-skin-cancer",
+          "excerpt": "I am a dermatologist. I tested the ability of GPT-6 Astra and Claude Fable 5.1 to diagnosis skin cancer and found that they were less accurate than I expected. I compared to a 10-year old CNN and to my surprise found that this was superior.",
+          "source": "lynchlab.net via Hacker News",
+          "date": "Oct 25",
+          "image": null,
+          "icon": "https://lynchlab.net/static/ico/lynchlab-favicon.ico",
+          "domain": "lynchlab.net",
+          "hn": "615 points · 259 comments"
+        },
+        {
+          "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+          "link": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+          "excerpt": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
+          "source": "TechCrunch",
+          "date": "Oct 25",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/03/grok-getty.jpg?resize=1200,800",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
+          "hn": null
+        }
+      ]
+    }
+  ],
+  "reconstructed": true
+}
