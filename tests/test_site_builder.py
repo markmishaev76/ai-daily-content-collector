@@ -598,3 +598,11 @@ def test_learn_js_embeds_only_youtube_nocookie():
     assert "^[A-Za-z0-9_-]{11}$" in js and "autoplay=1" in js
     assert "autoplay; encrypted-media; picture-in-picture" in js and "allowfullscreen" in js.lower()
     assert "innerHTML" not in js
+
+
+def test_summary_drops_the_wordpress_feed_footer():
+    text = "Agents found a flaw. The post Amazon: Agents Exploited a Zero-Day appeared first on SecurityWeek."
+
+    assert site_builder._summary(text, None, None) == "Agents found a flaw."
+    assert site_builder._summary("The post X appeared first on Y.", "Page description", None) == "Page description"
+    assert site_builder._summary("The post office appeared closed.", None, None) == "The post office appeared closed."

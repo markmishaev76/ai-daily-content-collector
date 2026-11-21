@@ -68,12 +68,19 @@ def test_save_overwrites_today_and_leaves_other_days(tmp_path):
     assert (d / "2026-10-25.json").read_text() == before
 
 
-def test_prune_keeps_seven_days(tmp_path):
+def test_archive_returns_days_before_the_window(tmp_path):
     d = tmp_path / "briefs"
     for day in ("2026-10-18", "2026-10-19", "2026-10-20", "2026-10-26"):
         write(d, day, snap(day))
-    (d / "README").write_text("keep me")
+    (d / "README").write_text("ignored")
 
-    briefs.prune(d, TODAY)
+    assert sorted(briefs.archive(d, TODAY)) == ["2026-10-18", "2026-10-19"]
+    assert briefs.archive(tmp_path / "missing", TODAY) == {}
 
-    assert sorted(p.name for p in d.iterdir()) == ["2026-10-20.json", "2026-10-26.json", "README"]
+
+def test_archive_rejects_a_malformed_snapshot(tmp_path):
+    d = tmp_path / "briefs"
+    write(d, "2026-10-01", "{not json")
+
+    with pytest.raises(ValueError, match="briefs/2026-10-01.json"):
+        briefs.archive(d, TODAY)

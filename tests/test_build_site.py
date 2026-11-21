@@ -292,7 +292,7 @@ def test_feed_hours_back_validated_before_fetching(tmp_path, caplog):
     assert code == 1 and "config.yaml" in caplog.text and "hours_back" in caplog.text
 
 
-def test_brief_snapshot_saved_overwritten_same_day_and_pruned(tmp_path):
+def test_brief_snapshot_saved_overwritten_same_day_and_old_days_kept(tmp_path):
     briefs = tmp_path / "briefs"
     briefs.mkdir()
     old = {"date": "2026-10-16", "lead": None, "pulse": [], "sections": []}
@@ -307,7 +307,8 @@ def test_brief_snapshot_saved_overwritten_same_day_and_pruned(tmp_path):
     assert snap["date"] == "2026-10-23"
     shown = [snap["lead"]["title"]] + [c["title"] for s in snap["sections"] for c in s["cards"] + s["more"]]
     assert sorted(shown) == ["A1", "A2"]
-    assert sorted(p.name for p in briefs.iterdir()) == ["2026-10-17.json", "2026-10-23.json"]
+    assert sorted(p.name for p in briefs.iterdir()) == ["2026-10-16.json", "2026-10-17.json", "2026-10-23.json"]
+    assert (tmp_path / "public" / "brief" / "2026-10-16" / "index.html").exists()
     assert (briefs / "2026-10-17.json").read_text() == kept
 
 

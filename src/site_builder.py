@@ -92,6 +92,10 @@ def display_source(article: Dict) -> str:
     return clean_source(article.get("source") or "")
 
 
+# WordPress feeds end each summary with this line.
+FEED_FOOTER = re.compile(r"\s*The post\b.{1,300}?\bappeared first on\b.{1,100}$", re.S)
+
+
 def _hn_line(article: Dict) -> Optional[str]:
     if not is_hn_item(article):
         return None
@@ -100,10 +104,11 @@ def _hn_line(article: Dict) -> Optional[str]:
 
 
 def _summary(summary: str, description: Optional[str], hn_line: Optional[str]) -> str:
-    """Excerpt text: Hacker News boilerplate becomes the page description, else the points line."""
+    """Excerpt text: Hacker News boilerplate becomes the page description, else the points line;
+    WordPress's "The post … appeared first on …" footer is dropped."""
     if HN_BOILERPLATE.search(summary or ""):
         return excerpt(description or hn_line or "")
-    return excerpt(summary or description or "")
+    return excerpt(FEED_FOOTER.sub("", summary or "") or description or "")
 
 
 def anchor_id(topic: str) -> str:
@@ -529,7 +534,8 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
           learn: Optional[Dict] = None, briefs: Optional[Dict[str, Dict]] = None, always_show: Iterable[str] = (),
           takes: Optional[Dict[str, str]] = None, events: Optional[Dict] = None,
           events_horizon: int = 90, today_brief: Optional[Dict] = None, weeks: Optional[Dict[str, Dict]] = None,
-          week_preview: Optional[Dict] = None, newsletter: Optional[str] = None) -> Dict:
+          week_preview: Optional[Dict] = None, newsletter: Optional[str] = None,
+          archive: Optional[Dict[str, Dict]] = None) -> Dict:
     """Write the site and return today's brief snapshot. `story` is a src.story.Story for the lead, or None for
     no lead; `pulse` is src.pulse.collect's items, or None/[] to hide The Pulse; `learn` is src.learn.collect's
     videos (empty lists when unavailable), or None for no Learn page; `briefs` maps YYYY-MM-DD to earlier
@@ -539,7 +545,8 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
     unavailable), or None for no Events page; `today_brief` is today's snapshot if already made
     (brief_snapshot); `weeks` are the saved weeks (src.weeks.load) and `week_preview` the week so far, shown at
     /week/ only when no week is saved; `newsletter` is the Buttondown username for the signup form (newsletter_user).
-    Each kept day also gets share/<date>.png and an item in /brief.xml."""
+    `archive` maps older days to their snapshots (src.briefs.archive): each keeps its /brief/<date>/ page and
+    share/<date>.png but is left out of the day strip and /brief.xml. Every page is listed in /sitemap.xml."""
     env = Environment(loader=FileSystemLoader(SITE_DIR / "templates"), autoescape=True,
                       trim_blocks=True, lstrip_blocks=True)
     env.globals.update(post_href=_post_href, today=now.strftime("%A, %B %d, %Y"),
@@ -551,10 +558,14 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
     all_posts = _sorted_posts(posts)
     common = {"writing": all_posts[:WRITING_LIMIT]}
 
+    listed = []
+
     def write(rel: str, template: str, **ctx) -> None:
         path = out_dir / rel
         path.parent.mkdir(parents=True, exist_ok=True)
         page_url = SITE_URL + rel.removesuffix("index.html")
+        if rel.endswith("index.html"):
+            listed.append(page_url)
         path.write_text(env.get_template(template).render(**{**common, "page_url": page_url, **ctx}))
 
     names, today, takes = list(feed), now.date(), takes or {}
@@ -564,6 +575,8 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
     window = {d.isoformat() for d in brief_store.window(today)}
     pages = {d: b for d, b in (briefs or {}).items() if d in window}
     pages[today.isoformat()] = snap
+    recent = set(pages)
+    pages.update({d: b for d, b in (archive or {}).items() if d not in window})
     available = set(pages)
     videos = _learn(learn, now)
     radar = _events(events)
@@ -615,7 +628,11 @@ def build(feed: Dict[str, List[Dict]], posts: List[Dict], about_html: str,
           posts=[dict(p, link=p["url"] if p["source"] == "medium" else SITE_URL + p["url"],
                       rss_date=_rss_date(p)) for p in all_posts])
     write("brief.xml", "brief.xml", site_url=SITE_URL, built=format_datetime(now),
-          items=[_feed_item(page, takes.get(iso)) for iso, page in sorted(pages.items(), reverse=True)])
+          items=[_feed_item(pages[iso], takes.get(iso)) for iso in sorted(recent, reverse=True)])
+    urls = "".join(f"<url><loc>{html.escape(u)}</loc></url>\n" for u in listed)
+    (out_dir / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n'
+                                        f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{urls}</urlset>\n')
+    (out_dir / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}sitemap.xml\n")
 
     shutil.copytree(SITE_DIR / "static", out_dir / "static", dirs_exist_ok=True)
     return snap

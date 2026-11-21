@@ -140,6 +140,7 @@ def main(out_dir: Path = Path("public"), config: dict = None, aggregator=None,
         history = story.load_history(history_path)
         shown_before = seen.load(seen_path)
         past_briefs = briefs.load(briefs_dir, now.date())
+        archived_briefs = briefs.archive(briefs_dir, now.date())
         takes = mark_takes.load(takes_path)
         saved_weeks = weeks.load(weeks_dir)
         validate_sources(config['topics'])
@@ -208,12 +209,11 @@ def main(out_dir: Path = Path("public"), config: dict = None, aggregator=None,
     saved_weeks, preview = _weeks(config, now, {**past_briefs, now.date().isoformat(): today_brief}, saved_weeks,
                                   weeks_dir)
     site_builder.build(feed, posts, about_html, out_dir, now, story=lead, pulse=pulse_items,
-                       learn=videos, briefs=past_briefs, always_show=always_show, takes=takes, events=radar,
+                       learn=videos, briefs=past_briefs, archive=archived_briefs, always_show=always_show, takes=takes, events=radar,
                        events_horizon=events_settings["horizon_days"] if events_settings else 90,
                        today_brief=today_brief, weeks=saved_weeks, week_preview=preview, newsletter=newsletter)
     briefs.save(briefs_dir, now.date(), today_brief)
-    briefs.prune(briefs_dir, now.date())
-    logger.info(f"Briefs: saved {now.date()}, past days available: {', '.join(sorted(past_briefs)) or 'none'}")
+    logger.info(f"Briefs: saved {now.date()}, past days available: {', '.join(sorted(past_briefs)) or 'none'}, archived: {len(archived_briefs)}")
     enrich.save_cache(og_cache_path, og_cache, now.date())
     if lead:
         history = story.record_lead(history, now.date(), url=lead.link, title=lead.title, section=lead.section,

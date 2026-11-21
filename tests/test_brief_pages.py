@@ -178,7 +178,7 @@ def test_not_found_page_handles_old_briefs_and_other_paths(tmp_path):
     html = (tmp_path / "404.html").read_text()
     js = (site_builder.SITE_DIR / "static/notfound.js").read_text()
 
-    assert "Page not found" in html and "This brief is older than a week" in html
+    assert "Page not found" in html and "No brief for this day" in html
     assert re.search(r'data-case="brief"[^>]*hidden', html)
     assert '<a href="/">' in html and 'href="/static/style.css?v=' in html and 'src="/static/notfound.js?v=' in html
     assert 'href="../' not in html and 'src="static/' not in html
@@ -261,3 +261,31 @@ def test_always_show_section_without_any_earlier_brief_has_plain_note(tmp_path):
     section = page(tmp_path)[page(tmp_path).index('id="topic"'):]
 
     assert "Nothing new today." in section[:section.index("</section>")] and "See the last brief" not in section
+
+
+def test_archived_days_keep_their_page_but_stay_out_of_the_strip_and_feed(tmp_path):
+    build(tmp_path, briefs={"2026-10-21": past()}, archive={"2026-09-30": past("2026-09-30", "Old lead")})
+
+    old = page(tmp_path, "2026-09-30")
+    assert "Old lead" in old and "<title>Brief · Wednesday, September 30, 2026 · The Daily Brief</title>" in old
+    assert 'href="../../brief/2026-09-30/"' in page(tmp_path, "2026-10-21")
+    assert "2026-09-30" not in days(page(tmp_path))
+    assert "2026-09-30" not in (tmp_path / "brief.xml").read_text()
+    assert (tmp_path / "share" / "2026-09-30.png").exists()
+
+
+def test_sitemap_lists_every_page_and_robots_points_to_it(tmp_path):
+    build(tmp_path, briefs={"2026-10-21": past()}, archive={"2026-09-30": past("2026-09-30")})
+
+    sitemap = (tmp_path / "sitemap.xml").read_text()
+    for path in ("", "brief/2026-10-21/", "brief/2026-09-30/", "blog/", "blog/hello/", "about/"):
+        assert f"<loc>https://thedailybrief.dev/{path}</loc>" in sitemap
+    assert "404" not in sitemap and ".xml" not in sitemap.split("?>", 1)[1].replace("sitemaps.org", "")
+    assert "Sitemap: https://thedailybrief.dev/sitemap.xml" in (tmp_path / "robots.txt").read_text()
+
+
+def test_page_titles_name_the_site(tmp_path):
+    build(tmp_path)
+
+    assert "<title>The Daily Brief · Security and AI engineering, every morning</title>" in page(tmp_path)
+    assert "<title>About · The Daily Brief</title>" in (tmp_path / "about" / "index.html").read_text()

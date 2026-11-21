@@ -2,10 +2,11 @@
 Past daily briefs: one render-ready snapshot per day in data/briefs/YYYY-MM-DD.json (site only).
 
 Each build overwrites today's file (src.site_builder.brief_snapshot), so the last
-build of a day is final; other days' files are never rewritten, only pruned once
-they fall out of the KEEP_DAYS window (today and the six days before). A missing
-directory means no past days; a malformed snapshot inside the window raises
-ValueError naming the file, like data/lead-history.json.
+build of a day is final; other days' files are never rewritten or deleted. The
+KEEP_DAYS window (today and the six days before) is what the day strip and
+/brief.xml show; older days stay reachable at /brief/<date>/ (archive). A missing
+directory means no past days; a malformed snapshot raises ValueError naming the
+file, like data/lead-history.json.
 """
 
 import json
@@ -50,33 +51,32 @@ def _validate(snap, label: str, day: str) -> Dict:
     return snap
 
 
+def _read(directory: Path, day: str) -> Dict:
+    path = directory / f"{day}.json"
+    label = f"{directory.name}/{path.name}"
+    try:
+        snap = json.loads(path.read_text())
+    except json.JSONDecodeError as e:
+        raise ValueError(f"{label}: not valid JSON ({e})") from e
+    return _validate(snap, label, day)
+
+
 def load(directory: Path, today: date) -> Dict[str, Dict]:
     """Snapshots of the past days in the window (today's is rebuilt), keyed by YYYY-MM-DD."""
-    out = {}
-    for day in window(today)[:-1]:
-        path = directory / f"{day.isoformat()}.json"
-        if not path.exists():
-            continue
-        label = f"{directory.name}/{path.name}"
-        try:
-            snap = json.loads(path.read_text())
-        except json.JSONDecodeError as e:
-            raise ValueError(f"{label}: not valid JSON ({e})") from e
-        out[day.isoformat()] = _validate(snap, label, day.isoformat())
-    return out
+    days = [d.isoformat() for d in window(today)[:-1]]
+    return {day: _read(directory, day) for day in days if (directory / f"{day}.json").exists()}
+
+
+def archive(directory: Path, today: date) -> Dict[str, Dict]:
+    """Snapshots of the days before the window, keyed by YYYY-MM-DD; other files are ignored."""
+    if not directory.exists():
+        return {}
+    oldest = window(today)[0].isoformat()
+    days = sorted(m.group(1) for m in map(NAME_RE.fullmatch, (p.name for p in directory.iterdir()))
+                  if m and m.group(1) < oldest)
+    return {day: _read(directory, day) for day in days}
 
 
 def save(directory: Path, today: date, snap: Dict) -> None:
     directory.mkdir(parents=True, exist_ok=True)
     (directory / f"{today.isoformat()}.json").write_text(json.dumps(snap, indent=2, ensure_ascii=False) + "\n")
-
-
-def prune(directory: Path, today: date) -> None:
-    """Delete snapshots older than the window; other files are left alone."""
-    if not directory.exists():
-        return
-    oldest = window(today)[0].isoformat()
-    for path in directory.iterdir():
-        match = NAME_RE.fullmatch(path.name)
-        if match and match.group(1) < oldest:
-            path.unlink()
