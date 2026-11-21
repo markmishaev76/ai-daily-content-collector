@@ -719,6 +719,12 @@
   "icon": "https://blog.trailofbits.com/favicon.png",
   "image": "https://blog.trailofbits.com/2026/11/06/after-binance-check-what-your-signing-systems-can-approve/binance-socialbanner.png"
  },
+ "https://blog.tymscar.com/posts/studiodisplayethernet/": {
+  "description": "Upload at 2.4 Gbps, download at 600 Mbps, same cable and same adapter. Here's how I tracked it down to my Studio Display XDR, a tiny buffer, and a USB burst size of four packets.",
+  "fetched": "2026-11-21",
+  "icon": "https://blog.tymscar.com/apple-touch-icon.png",
+  "image": "https://blog.tymscar.com/studio-display-ethernet/og-card.png"
+ },
  "https://blog.zortax.de/posts/a-critique-of-gpui": {
   "description": "Personal Notes",
   "fetched": "2026-11-09",
@@ -2954,6 +2960,12 @@
  "https://lists.debian.org/debian-security-announce/2026/msg00526.html?pow_referer=": {
   "description": null,
   "fetched": "2026-11-04",
+  "icon": null,
+  "image": null
+ },
+ "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html": {
+  "description": null,
+  "fetched": "2026-11-21",
   "icon": null,
   "image": null
  },
@@ -6341,6 +6353,12 @@
   "icon": "https://static.files.bbci.co.uk/bbcdotcom/web/20261027-121803-88dfe2b2c8-web-3.26.0-4/apple-touch-icon.png",
   "image": "https://ichef.bbci.co.uk/news/1024/branded_news/0873/live/ecc62190-d6ad-11f1-ac90-f7afd947062e.jpg"
  },
+ "https://www.bbc.com/news/articles/cvze7de86pk3o": {
+  "description": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
+  "fetched": "2026-11-21",
+  "icon": "https://static.files.bbci.co.uk/bbcdotcom/web/20261119-102257-f8058bdc4a-3.28.2-1/apple-touch-icon.png",
+  "image": "https://ichef.bbci.co.uk/news/1024/branded_news/3fd7/live/9009b220-e58d-11f1-99a1-253766e7ad8b.jpg"
+ },
  "https://www.bettascore.ai/research/reliability-reviewers-vs-owners": {
   "description": "Across 657 products in 19 categories, Reddit owners bring up reliability and support in 13% of their opinions, YouTube reviewers in 7%. On apps, 71% of owner opinions are negative. Data to download.",
   "fetched": "2026-10-28",
@@ -6610,6 +6628,12 @@
   "fetched": "2026-11-11",
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2026/10/09/robot-hacker.jpg"
+ },
+ "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/": {
+  "description": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application.",
+  "fetched": "2026-11-21",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2022/05/12/evil-hacker-ai.jpg"
  },
  "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/": {
   "description": "An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditional security alerts. Token Security examines five critical AI agent security gaps and shares practical guidance from industry security leaders on preventing them.",
@@ -8554,6 +8578,12 @@
   "fetched": "2026-11-05",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/09/AI-artificial-intelligence.webp"
+ },
+ "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/": {
+  "description": "Amazon says autonomous AI agents used by China-linked hackers discovered and exploited a zero-day in MONAI Label medical imaging software.",
+  "fetched": "2026-11-21",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/04/Artificial-Intelligence-vs-AI.jpeg"
  },
  "https://www.securityweek.com/amplifon-americas-data-breach-impacts-1-3-million/": {
   "description": "Amplifon Americas says hackers broke into its internal systems and stole personal, health, and insurance information.",

@@ -1,35 +1,33 @@
 {
   "date": "2026-11-21",
   "lead": {
-    "title": "Chinese-nexus actor’s Cairn AI agents found a zero-day on their own",
-    "link": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/",
-    "excerpt": "Amazon Threat Intelligence is sharing findings from an investigation into a Chinese-nexus threat actor using autonomous AI agents to conduct hacking operations with minimal human involvement. The actor gave the agents a simple goal: “obtain shell access.” During the campaign, the agents found a…",
-    "source": "AWS Security Blog",
-    "date": "Nov 20",
-    "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2022/05/24/CJ_Moses.jpeg",
+    "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
+    "link": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+    "excerpt": "A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability. The post Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day appeared first on SecurityWeek.",
+    "source": "SecurityWeek",
+    "date": "Nov 21",
+    "image": "https://www.securityweek.com/wp-content/uploads/2026/04/Artificial-Intelligence-vs-AI.jpeg",
     "image_credit": null,
-    "section": "Platform, Cloud & Reliability",
+    "section": "Security & AppSec",
     "pinned": false,
     "note": null,
     "labels": [
-      "Platform, Cloud & Reliability",
-      "16h ago"
+      "3 sources",
+      "Security & AppSec",
+      "under 1h ago"
     ],
-    "also": []
+    "also": [
+      {
+        "name": "thehackernews.com",
+        "link": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
+      },
+      {
+        "name": "bleepingcomputer.com",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/"
+      }
+    ]
   },
   "pulse": [
-    {
-      "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
-      "thread": "https://news.ycombinator.com/item?id=50572503",
-      "link": "https://architectlabs.com/blog/frostbite",
-      "link_domain": "architectlabs.com",
-      "source": "Hacker News",
-      "domain": "architectlabs.com",
-      "meta": "Hacker News · 645 points · 333 comments · 23h ago",
-      "also": [],
-      "image": "https://main--gleeful-begonia-6bb5f3.netlify.app/_next/static/media/frostbite-cover.3n9ytugnquhlr.jpg",
-      "icon": "https://architectlabs.com/favicon.ico?favicon.08mdo-hmkdh99.ico"
-    },
     {
       "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
       "thread": "https://news.ycombinator.com/item?id=50574383",
@@ -37,7 +35,7 @@
       "link_domain": "theguardian.com",
       "source": "Hacker News",
       "domain": "theguardian.com",
-      "meta": "Hacker News · 308 points · 582 comments · 20h ago",
+      "meta": "Hacker News · 359 points · 656 comments · 23h ago",
       "also": [],
       "image": "https://i.guim.co.uk/img/media/5a0726c71af19332d1a3095553ff3acc6e341a62/1043_0_5270_4216/master/5270.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=840bb47424232ef8465116aa8eea49a5",
       "icon": "https://assets.guim.co.uk/static/frontend/icons/homescreen/apple-touch-icon.svg"
@@ -49,22 +47,10 @@
       "link_domain": "motherjones.com",
       "source": "Hacker News",
       "domain": "motherjones.com",
-      "meta": "Hacker News · 276 points · 214 comments · 16h ago",
+      "meta": "Hacker News · 277 points · 214 comments · 19h ago",
       "also": [],
       "image": "https://www.motherjones.com/wp-content/uploads/2026/11/google-chromebook-la-school-covid.jpg?w=1200&h=630&crop=1",
       "icon": "https://www.motherjones.com/wp-content/uploads/2017/09/cropped-favicon-512x512.png?w=180"
-    },
-    {
-      "title": "UK fridges secured from hackers",
-      "thread": "https://news.ycombinator.com/item?id=50572430",
-      "link": "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o",
-      "link_domain": "bbc.co.uk",
-      "source": "Hacker News",
-      "domain": "bbc.co.uk",
-      "meta": "Hacker News · 147 points · 140 comments · 23h ago",
-      "also": [],
-      "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/d3db/live/57d6aa20-d769-11f1-a956-ff083523ef77.jpg",
-      "icon": "https://static.files.bbci.co.uk/core/website/assets/static/icons/touch/news/touch-icon-36.413a37b227.png"
     },
     {
       "title": "Alice v0.6.0",
@@ -73,7 +59,7 @@
       "link_domain": "alicecaml.org",
       "source": "Lobsters",
       "domain": "alicecaml.org",
-      "meta": "Lobsters · 20 points · 3 comments · 17h ago",
+      "meta": "Lobsters · 22 points · 3 comments · 20h ago",
       "also": [],
       "image": "https://www.alicecaml.org/logo512x256.png",
       "icon": "https://www.alicecaml.org/favicon.png"
@@ -85,7 +71,7 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 105 points · 31 comments · 13h ago",
+      "meta": "Hacker News · 107 points · 32 comments · 16h ago",
       "also": [],
       "image": "https://opengraph.githubassets.com/a8594e18d265a7fabedaf3bc16d00048873ef069dc5f4346d23c2bf7882a3557/diggerhq/opencomputer",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
@@ -105,7 +91,7 @@
           "icon": null,
           "domain": "metr.org",
           "hn": null,
-          "score": 3.821,
+          "score": 3.53,
           "coverage": 1
         },
         {
@@ -118,7 +104,7 @@
           "icon": "https://stackoverflow.blog/apple-touch-icon.png",
           "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 3.993,
+          "score": 3.6,
           "coverage": 1
         },
         {
@@ -131,7 +117,7 @@
           "icon": "https://martinfowler.com/favicon.ico",
           "domain": "martinfowler.com",
           "hn": null,
-          "score": 3.702,
+          "score": 3.321,
           "coverage": 1
         }
       ],
@@ -146,7 +132,7 @@
           "icon": "https://eugeneyan.com/assets/favicon/apple-touch-icon.png",
           "domain": "eugeneyan.com",
           "hn": null,
-          "score": 0.206,
+          "score": 0.197,
           "coverage": 1
         },
         {
@@ -159,7 +145,7 @@
           "icon": null,
           "domain": "research.google",
           "hn": null,
-          "score": 0.644,
+          "score": 0.565,
           "coverage": 1
         },
         {
@@ -172,7 +158,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.543,
+          "score": 0.486,
           "coverage": 1
         },
         {
@@ -185,7 +171,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.491,
+          "score": 0.443,
           "coverage": 1
         },
         {
@@ -198,7 +184,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.314,
+          "score": 0.294,
           "coverage": 1
         }
       ]
@@ -216,7 +202,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.713,
+          "score": 0.601,
           "coverage": 1
         },
         {
@@ -229,7 +215,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.489,
+          "score": 0.434,
           "coverage": 1
         },
         {
@@ -242,7 +228,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.418,
+          "score": 0.385,
           "coverage": 1
         }
       ],
@@ -257,7 +243,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.327,
+          "score": 0.306,
           "coverage": 1
         },
         {
@@ -270,7 +256,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.327,
+          "score": 0.306,
           "coverage": 1
         },
         {
@@ -283,7 +269,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.504,
+          "score": 0.446,
           "coverage": 1
         },
         {
@@ -296,7 +282,7 @@
           "icon": null,
           "domain": "sentinelone.com",
           "hn": null,
-          "score": 0.405,
+          "score": 0.366,
           "coverage": 1
         }
       ]
@@ -314,7 +300,7 @@
           "icon": null,
           "domain": "stratechery.com",
           "hn": null,
-          "score": 0.562,
+          "score": 0.503,
           "coverage": 1
         }
       ],
@@ -333,7 +319,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 3.664,
+          "score": 3.306,
           "coverage": 1
         },
         {
@@ -346,7 +332,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.416,
+          "score": 0.375,
           "coverage": 1
         }
       ],
@@ -355,6 +341,19 @@
     {
       "name": "Security & AppSec",
       "cards": [
+        {
+          "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+          "link": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+          "excerpt": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files…",
+          "source": "The Hacker News",
+          "date": "Nov 21",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEIG6Wgi3wGQXrsdGKEf4ORPFjHVGpRkoSUPraOJfKhGmB0vYFojLq2mCuOP3a71_XpNZusvn45ZDa1J3a7eQ0WE3XJY0FGunHVWB1yHBluJT5vSDCmzkhaFGiHjeKbnoah6noyZ3mNInS-mjJK1Gfcf7jT3A60ZYR_eknSgt_sEa6MNGM-DA5-aLXMbZ5/s1600/medical-ai.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 12.559,
+          "coverage": 3
+        },
         {
           "title": "Signal slams door on prying AI agents to protect privacy",
           "link": "https://www.theregister.com/security/2026/11/20/signal-slams-door-on-prying-ai-agents-to-protect-privacy/5311466",
@@ -365,7 +364,7 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 2.404,
+          "score": 2.138,
           "coverage": 1
         },
         {
@@ -378,9 +377,11 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 4.51,
+          "score": 3.638,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
           "link": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
@@ -391,11 +392,9 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 2.038,
+          "score": 1.827,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "China attackers deployed AI agents that autonomously found and exploited a 0-day to take over a university server",
           "link": "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382",
@@ -406,7 +405,7 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 3.386,
+          "score": 3.05,
           "coverage": 1
         },
         {
@@ -419,46 +418,20 @@
           "icon": "https://checkmarx.com/wp-content/uploads/2026/06/favicon_spring-300x300.webp",
           "domain": "checkmarx.com",
           "hn": null,
-          "score": 1.653,
+          "score": 1.491,
           "coverage": 1
         },
         {
-          "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
-          "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
-          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed…",
+          "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+          "link": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+          "excerpt": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach the credentials Muse stores for the user's connected accounts. The work was a…",
           "source": "The Hacker News",
           "date": "Nov 21",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFnWnBDigw8RogBTSInXktn1vUISbzwjHm5GuAFBNX0_ClLBk83WOa2BYiHUbgtva76TY8Oz2kJvEZtvEjqZlFFCuvQ-u-l-4l5dzo2MXw7zHLEuklv_Gn1mB-f5TL9GP_3n1NxQkzkZ-fAX7UpcqfZqUefQiRQZm21sq6IZOzmyuQ1hYs4AFHWQAj83WX/s1600/vmware-cisco.jpg",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYiVrbfn3FWfI_uNyjj8q9SZ38d2mHKu2ehdtYYKPwyg-05yKJBYUAPEaVxJq5KDGwU11X2tmEKNUKPIHQY9s67e1K9w_8NRdEOxVCDJqqMbQ6F27kfOj3GKjcQ3-0WHFNg7uYT6QeIU90qX1YW_Zvyn7WhZwpV41i5Pj6watQsF7Ti8NN1GIQLxw-jPc/s1600/muse-ai.jpg",
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.552,
-          "coverage": 1
-        },
-        {
-          "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
-          "link": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
-          "excerpt": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871 (CVSS score: 3.5), has been described as a case of incomplete validation of…",
-          "source": "The Hacker News",
-          "date": "Nov 20",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUSbYUJJkBlZsaH90SXIaxYAv5iJN7ZEus7Q24A_Z9fDNNlnOjFnNZ3SnA6er-iuMgQnE6k73nwVwAEPPk1AjRT12N9o8cJft3_dPqMZKeJbpq6QIcGbN1z1UbE_Q3fXTyp1c0XmqynQu2lJPeIYoraqXFcgM-wQH4b1rIBrOKF221CIKLldJIZVJ4g7cr/s1600/whatsapp.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.258,
-          "coverage": 1
-        },
-        {
-          "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
-          "link": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
-          "excerpt": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company ThreatFabric said it discovered the threat in late October…",
-          "source": "The Hacker News",
-          "date": "Nov 20",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMs4vBdivbF3Y-4yd3PWqjSTuG2PPDvCemM211pzVl2Jhkus9d14_2MzRgdrlNhRxaHa_2rlIN34kUGHAlV_Y2dMnfmYGlUEzUcab0c_s3N8Zoe8P3rcJ-RJmo2luVci9bVqmwtFhpL4rfR2Uo-ZwvqfqFMwRb_3WwoOvFIaunPd7WMOJ4yW9rjbHEKDwf/s1600/android-malware.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.249,
+          "score": 0.549,
           "coverage": 1
         }
       ]
@@ -476,7 +449,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 3.277,
+          "score": 2.957,
           "coverage": 1
         },
         {
@@ -489,7 +462,7 @@
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
           "hn": null,
-          "score": 1.946,
+          "score": 1.822,
           "coverage": 1
         },
         {
@@ -502,7 +475,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 3.007,
+          "score": 2.713,
           "coverage": 1
         }
       ],
@@ -517,7 +490,20 @@
           "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.619,
+          "score": 2.364,
+          "coverage": 1
+        },
+        {
+          "title": "Chinese-nexus actor’s Cairn AI agents found a zero-day on their own",
+          "link": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/",
+          "excerpt": "Amazon Threat Intelligence is sharing findings from an investigation into a Chinese-nexus threat actor using autonomous AI agents to conduct hacking operations with minimal human involvement. The actor gave the agents a simple goal: “obtain shell access.” During the campaign, the agents found a…",
+          "source": "AWS Security Blog",
+          "date": "Nov 20",
+          "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2022/05/24/CJ_Moses.jpeg",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 5.145,
           "coverage": 1
         },
         {
@@ -574,7 +560,7 @@
           "icon": null,
           "domain": "arstechnica.com",
           "hn": null,
-          "score": 2.393,
+          "score": 2.126,
           "coverage": 1
         },
         {
@@ -587,35 +573,61 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 1.733,
+          "score": 1.547,
           "coverage": 1
         },
         {
-          "title": "Backblaze Notice at Collection and Privacy Policy",
-          "link": "https://www.backblaze.com/company/policy/privacy",
-          "excerpt": "This Privacy Notice describes how we collect and use your personal information, what we do with the information collected, and how you can exercise your privacy rights.",
-          "source": "backblaze.com via Hacker News",
+          "title": "My Monitor Was Cutting My Download Speed by 75%",
+          "link": "https://blog.tymscar.com/posts/studiodisplayethernet/",
+          "excerpt": "Upload at 2.4 Gbps, download at 600 Mbps, same cable and same adapter. Here's how I tracked it down to my Studio Display XDR, a tiny buffer, and a USB burst size of four packets.",
+          "source": "blog.tymscar.com via Hacker News",
           "date": "Nov 21",
-          "image": "https://cdn.prod.website-files.com/63d32de856f6323a43a277f2/64b1b1605e73b516e5712f82_Backblaze_Social-Card.webp",
-          "icon": "https://cdn.prod.website-files.com/63d32de856f6323a43a277f2/64b1ab4daf31e414a481b056_Webclip.png",
-          "domain": "backblaze.com",
-          "hn": "189 points · 57 comments",
-          "score": 3.386,
+          "image": "https://blog.tymscar.com/studio-display-ethernet/og-card.png",
+          "icon": "https://blog.tymscar.com/apple-touch-icon.png",
+          "domain": "blog.tymscar.com",
+          "hn": "14 points · 3 comments",
+          "score": 2.535,
           "coverage": 1
         }
       ],
       "more": [
         {
+          "title": "FBI reportedly investigating apparent hack of its criminal database",
+          "link": "https://www.bbc.com/news/articles/cvze7de86pk3o",
+          "excerpt": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
+          "source": "bbc.com via Hacker News",
+          "date": "Nov 21",
+          "image": "https://ichef.bbci.co.uk/news/1024/branded_news/3fd7/live/9009b220-e58d-11f1-99a1-253766e7ad8b.jpg",
+          "icon": "https://static.files.bbci.co.uk/bbcdotcom/web/20261119-102257-f8058bdc4a-3.28.2-1/apple-touch-icon.png",
+          "domain": "bbc.com",
+          "hn": "57 points · 20 comments",
+          "score": 3.541,
+          "coverage": 1
+        },
+        {
+          "title": "RCE in Gnupg",
+          "link": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+          "excerpt": "60 points · 12 comments",
+          "source": "lists.gnupg.org via Hacker News",
+          "date": "Nov 21",
+          "image": null,
+          "icon": "https://lists.gnupg.org/favicon.ico",
+          "domain": "lists.gnupg.org",
+          "hn": "60 points · 12 comments",
+          "score": 3.066,
+          "coverage": 1
+        },
+        {
           "title": "Surprisingly Adorable Insect Portraits",
           "link": "https://amateurphotographer.com/latest/these-astonishing-insect-portraits-reveal-a-hidden-world-you-never-knew-existed/",
-          "excerpt": "31 points · 7 comments",
+          "excerpt": "67 points · 13 comments",
           "source": "amateurphotographer.com via Hacker News",
           "date": "Nov 21",
           "image": null,
           "icon": "https://amateurphotographer.com/favicon.ico",
           "domain": "amateurphotographer.com",
-          "hn": "31 points · 7 comments",
-          "score": 2.919,
+          "hn": "67 points · 13 comments",
+          "score": 2.819,
           "coverage": 1
         },
         {
@@ -627,47 +639,21 @@
           "image": null,
           "icon": null,
           "domain": "ricapar.net",
-          "hn": "57 points · 15 comments",
-          "score": 3.106,
+          "hn": "96 points · 25 comments",
+          "score": 2.869,
           "coverage": 1
         },
         {
           "title": "Clojure will affect the way you think about programming (2017)",
           "link": "https://eli.thegreenplace.net/2017/clojure-the-perfect-language-to-expand-your-brain/",
-          "excerpt": "87 points · 29 comments",
+          "excerpt": "122 points · 43 comments",
           "source": "eli.thegreenplace.net via Hacker News",
           "date": "Nov 21",
           "image": null,
           "icon": "https://eli.thegreenplace.net/favicon.ico",
           "domain": "eli.thegreenplace.net",
-          "hn": "87 points · 29 comments",
-          "score": 2.872,
-          "coverage": 1
-        },
-        {
-          "title": "Serious cyberattack thought backed by wealthy operators",
-          "link": "https://www.ruv.is/english/2026-11-20-serious-cyberattack-thought-backed-by-wealthy-operators-493411",
-          "excerpt": "The managing director of 1984 says the cyberattack on the company was carried out at a speed unlike anything previously heard of. He says it is clear that well-funded attackers were behind it. 1984 hosts a large proportion of Icelandic websites.",
-          "source": "ruv.is via Hacker News",
-          "date": "Nov 20",
-          "image": "https://myndir.ruv.is/eyJidWNrZXQiOiAicnV2LXByb2QtcnV2aXMtcHVibGljIiwgImtleSI6ICJtZWRpYS9wdWJsaWMvb3JpZ2luYWxfaW1hZ2VzL2ZyXzIwMTcxMTE2XzA3Mzc1OS5qcGciLCAiZWRpdHMiOiB7InRvRm9ybWF0IjogImpwZWciLCAianBlZyI6IHsicXVhbGl0eSI6IDYwfSwgInJlc2l6ZSI6IHsid2lkdGgiOiAiMTIwMCIsICJmaXQiOiAiY292ZXIiLCAiaGVpZ2h0IjogIjYzMCJ9fX0=",
-          "icon": "https://www.ruv.is/apple-touch-icon.png",
-          "domain": "ruv.is",
-          "hn": "80 points · 43 comments",
-          "score": 2.489,
-          "coverage": 1
-        },
-        {
-          "title": "Sir Brian May adds new dimension to Hera asteroid",
-          "link": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/sir-brian-may-adds-new-dimension-to-hera-asteroid",
-          "excerpt": "Hera science team member, astrophysicist and Queen guitarist Sir Brian May has added an additional dimension to the ESA planetary defence mission’s early views of the Didymos asteroid system via stereoscopic imagery – revealing the dramatic features of this exotic body as never before.",
-          "source": "esa.int via Hacker News",
-          "date": "Nov 20",
-          "image": "https://media.esa.int/global/public/common/misc/2026/11/402679/image-thumb__402679__social_share/3d-crop.2b14b833.jpg",
-          "icon": "https://www.esa.int/assets/images/favicon.ico",
-          "domain": "esa.int",
-          "hn": "103 points · 21 comments",
-          "score": 2.475,
+          "hn": "122 points · 43 comments",
+          "score": 2.626,
           "coverage": 1
         }
       ]
