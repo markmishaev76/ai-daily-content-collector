@@ -14,7 +14,7 @@
     "labels": [
       "CVE-2026-125396",
       "News & Research",
-      "7h ago"
+      "9h ago"
     ],
     "also": []
   },
@@ -26,7 +26,7 @@
       "link_domain": "lists.gnupg.org",
       "source": "Hacker News",
       "domain": "lists.gnupg.org",
-      "meta": "Hacker News · 233 points · 95 comments · 17h ago",
+      "meta": "Hacker News · 243 points · 98 comments · 19h ago",
       "also": [],
       "image": null,
       "icon": "https://lists.gnupg.org/favicon.ico"
@@ -38,7 +38,7 @@
       "link_domain": "ricapar.net",
       "source": "Hacker News",
       "domain": "ricapar.net",
-      "meta": "Hacker News · 159 points · 51 comments · 20h ago",
+      "meta": "Hacker News · 161 points · 51 comments · 22h ago",
       "also": [],
       "image": null,
       "icon": null
@@ -58,20 +58,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 1.017,
-          "coverage": 1
-        },
-        {
-          "title": "llm-gemini 0.38.1",
-          "link": "https://simonwillison.net/2026/Nov/20/llm-gemini/",
-          "excerpt": "Release: llm-gemini 0.38.1 Gemini 4 Carbon only supports low, medium and high reasoning levels - but Gemini 4 Hydrogen and Gemini 4 Neon both have an extra xhigh level. I missed that when I added those models to the llm-gemini plugin, which is now fixed in this dot release. The xhigh setting for…",
-          "source": "Simon Willison",
-          "date": "Nov 20",
-          "image": "https://static.simonwillison.net/static/2026/gemini-4-xhigh-pelicans.webp",
-          "icon": null,
-          "domain": "simonwillison.net",
-          "hn": null,
-          "score": 0.244,
+          "score": 0.891,
           "coverage": 1
         }
       ],
@@ -89,8 +76,8 @@
           "image": "https://www.pandex.io/opengraph-image?6367cd8c0b666bc6",
           "icon": "https://www.pandex.io/icon.svg?icon.11273l3_3jrqf.svg",
           "domain": "pandex.io",
-          "hn": "34 points · 6 comments",
-          "score": 8.257,
+          "hn": "48 points · 10 comments",
+          "score": 7.651,
           "coverage": 1
         }
       ],
@@ -109,7 +96,7 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.945,
+          "score": 0.839,
           "coverage": 1
         }
       ],
@@ -128,7 +115,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.267,
+          "score": 0.248,
           "coverage": 1
         },
         {
@@ -141,7 +128,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 2.723,
+          "score": 2.364,
           "coverage": 2
         },
         {
@@ -154,7 +141,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.287,
+          "score": 0.266,
           "coverage": 1
         }
       ],
@@ -169,7 +156,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.146,
+          "score": 0.14,
           "coverage": 1
         },
         {
@@ -182,7 +169,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.998,
+          "score": 0.96,
           "coverage": 1
         },
         {
@@ -195,7 +182,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.141,
+          "score": 0.135,
           "coverage": 1
         },
         {
@@ -208,7 +195,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 2.374,
+          "score": 2.265,
           "coverage": 2
         },
         {
@@ -221,7 +208,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 3.337,
+          "score": 2.946,
           "coverage": 1
         }
       ]
@@ -239,7 +226,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.397,
+          "score": 1.337,
           "coverage": 1
         },
         {
@@ -252,7 +239,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.231,
+          "score": 1.179,
           "coverage": 1
         },
         {
@@ -265,7 +252,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 1.622,
+          "score": 1.543,
           "coverage": 1
         }
       ],
@@ -280,7 +267,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 1.04,
+          "score": 0.994,
           "coverage": 1
         },
         {
@@ -293,7 +280,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.881,
+          "score": 0.847,
           "coverage": 1
         },
         {
@@ -306,7 +293,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.2,
+          "score": 0.191,
           "coverage": 1
         },
         {
@@ -319,7 +306,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.2,
+          "score": 0.191,
           "coverage": 1
         },
         {
@@ -341,6 +328,47 @@
       "name": "News & Research",
       "cards": [
         {
+          "title": "Data Processing Incidents on Inference Providers",
+          "link": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+          "excerpt": "OpenRouter off-boarded three providers, removed 125 endpoints from Zero Data Retention eligibility, and notified potentially affected customers after canary token research on inference providers.",
+          "source": "openrouter.ai via Hacker News",
+          "date": "Nov 22",
+          "image": "https://openrouter.ai/og.png",
+          "icon": "https://openrouter.ai/blog/brand/openrouter-favicon.svg",
+          "domain": "openrouter.ai",
+          "hn": "42 points · 12 comments",
+          "score": 3.431,
+          "coverage": 1
+        },
+        {
+          "title": "The Mythology of Conscious AI",
+          "link": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+          "excerpt": "Why consciousness is more likely a property of life than of computation and why creating conscious, or even conscious-seeming AI, is a bad idea.",
+          "source": "noemamag.com via Hacker News",
+          "date": "Nov 22",
+          "image": "https://noemamag.imgix.net/2026/01/The-Mythology-of-Conscious-AI-scaled.jpg?fit=crop&fm=pjpg&h=628&ixlib=php-3.3.1&w=1200&wpsize=noema-social-facebook&s=ac64b80d34a8583e44429565e7df4a07",
+          "icon": "https://www.noemamag.com/wp-content/uploads/2020/06/cropped-ms-icon-310x310-1-180x180.png",
+          "domain": "noemamag.com",
+          "hn": "11 points · 12 comments",
+          "score": 2.821,
+          "coverage": 1
+        },
+        {
+          "title": "Leonida – PC Recompilation of the Xbox Version of GTA 6",
+          "link": "https://github.com/ItsNotRexed/Leonida",
+          "excerpt": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6 - ItsNotRexed/Leonida",
+          "source": "github.com via Hacker News",
+          "date": "Nov 22",
+          "image": "https://opengraph.githubassets.com/8ed64df0cfa16e96ed778513d12e6dfbfe8b4c2f50fe18a8e57e26f082aabe89/ItsNotRexed/Leonida",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "69 points · 40 comments",
+          "score": 3.597,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
           "title": "Sandwich Simulator",
           "link": "https://stulle.app/",
           "excerpt": "Schmier eine Scheibe Brot, leg was drauf und mach ein Foto. Es bekommt eine Nummer und einen Link.",
@@ -349,8 +377,8 @@
           "image": "https://stulle.app/og.jpg",
           "icon": "https://stulle.app/apple-touch-icon.png",
           "domain": "stulle.app",
-          "hn": "19 points · 2 comments",
-          "score": 2.753,
+          "hn": "74 points · 39 comments",
+          "score": 3.433,
           "coverage": 1
         },
         {
@@ -362,8 +390,21 @@
           "image": "https://opengraph.githubassets.com/5aacfd5b469e460b8519c744c121b08ad0d457404c537c829713a442cf3d4f04/sebaandrada-cell/PcapAnalyzer",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "56 points · 5 comments",
-          "score": 3.061,
+          "hn": "83 points · 9 comments",
+          "score": 2.944,
+          "coverage": 1
+        },
+        {
+          "title": "Advice for the next 100 Rust GUIs",
+          "link": "https://linebender.org/blog/next-100-guis/",
+          "excerpt": "Advice for the next 100 Rust GUIs",
+          "source": "linebender.org via Hacker News",
+          "date": "Nov 21",
+          "image": null,
+          "icon": "https://linebender.org/favicon.ico",
+          "domain": "linebender.org",
+          "hn": "112 points · 22 comments",
+          "score": 3.006,
           "coverage": 1
         },
         {
@@ -376,61 +417,7 @@
           "icon": null,
           "domain": "arstechnica.com",
           "hn": null,
-          "score": 0.566,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "Advice for the next 100 Rust GUIs",
-          "link": "https://linebender.org/blog/next-100-guis/",
-          "excerpt": "Advice for the next 100 Rust GUIs",
-          "source": "linebender.org via Hacker News",
-          "date": "Nov 21",
-          "image": null,
-          "icon": "https://linebender.org/favicon.ico",
-          "domain": "linebender.org",
-          "hn": "93 points · 9 comments",
-          "score": 3.204,
-          "coverage": 1
-        },
-        {
-          "title": "The Emergence of Inequality in the Czech Corded Ware Culture",
-          "link": "https://www.jna.uni-kiel.de/index.php/jna/article/view/1560/1746",
-          "excerpt": "Journal of Neolithic Archaeology",
-          "source": "jna.uni-kiel.de via Hacker News",
-          "date": "Nov 21",
-          "image": null,
-          "icon": "https://www.jna.uni-kiel.de/public/journals/1/favicon_en_US.png",
-          "domain": "jna.uni-kiel.de",
-          "hn": "30 points · 11 comments",
-          "score": 2.641,
-          "coverage": 1
-        },
-        {
-          "title": "“Race realism” isn’t realistic—and it isn’t good science",
-          "link": "https://arstechnica.com/science/2026/11/race-realism-isnt-realistic-and-it-isnt-good-science/",
-          "excerpt": "Modern genetics does not support claims of innate racial differences in intelligence.",
-          "source": "Ars Technica",
-          "date": "Nov 21",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2201567552-500x500.jpg",
-          "icon": null,
-          "domain": "arstechnica.com",
-          "hn": null,
-          "score": 0.345,
-          "coverage": 1
-        },
-        {
-          "title": "Trump FCC declares California isn't allowed to enforce phone service rules",
-          "link": "https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att/",
-          "excerpt": "FCC preempts state rules that require AT&T to keep offering home phone service.",
-          "source": "Ars Technica",
-          "date": "Nov 20",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/07/getty-att-logo-500x500.jpg",
-          "icon": null,
-          "domain": "arstechnica.com",
-          "hn": null,
-          "score": 0.227,
+          "score": 0.503,
           "coverage": 1
         }
       ]
