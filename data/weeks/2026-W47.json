@@ -70,15 +70,6 @@
   ],
   "top": [
     {
-      "title": "Lean verification of the Riemann Hypothesis",
-      "link": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-      "source": "leanprover-community.github.io via Hacker News",
-      "section": "News & Research",
-      "date": "2026-11-21",
-      "coverage": 4,
-      "score": 7.03
-    },
-    {
       "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
       "link": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
       "source": "The Hacker News",
@@ -88,6 +79,15 @@
       "score": 8.799
     },
     {
+      "title": "Lean verification of the Riemann Hypothesis",
+      "link": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "source": "leanprover-community.github.io via Hacker News",
+      "section": "News & Research",
+      "date": "2026-11-21",
+      "coverage": 3,
+      "score": 7.03
+    },
+    {
       "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
       "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
       "source": "The Hacker News",
@@ -95,6 +95,15 @@
       "date": "2026-11-20",
       "coverage": 3,
       "score": 5.781
+    },
+    {
+      "title": "Signal is blocking Gemini and Siri AI from reading your screen",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+      "source": "The Verge",
+      "section": "News & Research",
+      "date": "2026-11-20",
+      "coverage": 3,
+      "score": 3.189
     },
     {
       "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
@@ -149,15 +158,6 @@
       "date": "2026-11-17",
       "coverage": 2,
       "score": 3.61
-    },
-    {
-      "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
-      "link": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
-      "source": "SecurityWeek",
-      "section": "Security & AppSec",
-      "date": "2026-11-22",
-      "coverage": 2,
-      "score": 1.502
     }
   ]
 }

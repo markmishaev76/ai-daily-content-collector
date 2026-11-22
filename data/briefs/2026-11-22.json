@@ -13,7 +13,7 @@
     "note": null,
     "labels": [
       "AI Agents & Agent Security",
-      "16h ago"
+      "18h ago"
     ],
     "also": []
   },
@@ -25,7 +25,7 @@
       "link_domain": "arstechnica.com",
       "source": "Lobsters",
       "domain": "arstechnica.com",
-      "meta": "Lobsters · 42 points · 5 comments · 10h ago",
+      "meta": "Lobsters · 63 points · 11 comments · 13h ago",
       "also": [],
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-privacy-leakage-1152x648.jpg",
       "icon": "https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-300x300.png"
@@ -37,22 +37,10 @@
       "link_domain": "pwn.ai",
       "source": "Hacker News",
       "domain": "pwn.ai",
-      "meta": "Hacker News · 129 points · 63 comments · 18h ago",
+      "meta": "Hacker News · 144 points · 69 comments · 21h ago",
       "also": [],
       "image": "https://pwn.ai/upload2shell-share.png?v=2",
       "icon": "https://pwn.ai/favicon.ico"
-    },
-    {
-      "title": "The Claude Delusion",
-      "thread": "https://lobste.rs/s/v3m2uj/claude_delusion",
-      "link": "https://www.netmeister.org/blog/claude-delusion.html",
-      "link_domain": "netmeister.org",
-      "source": "Lobsters",
-      "domain": "netmeister.org",
-      "meta": "Lobsters · 17 points · 2 comments · 3h ago",
-      "also": [],
-      "image": "https://www.netmeister.org/blog/images/claude-delusion.jpg",
-      "icon": "https://www.netmeister.org/favicon.ico"
     }
   ],
   "sections": [
@@ -69,7 +57,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.578,
+          "score": 3.006,
           "coverage": 1
         }
       ],
@@ -88,7 +76,26 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.564,
+          "score": 0.511,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Secrets & NHI",
+      "cards": [
+        {
+          "title": "The Engineering Manager's role is under attack (again)",
+          "link": "https://www.manager.dev/newsletter/the-engineering-manager-s-role-is-under-attack-again",
+          "excerpt": "The erosion of the EM role",
+          "source": "manager.dev via Hacker News",
+          "date": "Nov 22",
+          "image": "https://www.manager.dev/newsletter/the-engineering-manager-s-role-is-under-attack-again/opengraph-image-2tlwqw?4d5311a4b9e31221",
+          "icon": "https://www.manager.dev/favicon.ico?favicon.b9ffc721.ico",
+          "domain": "manager.dev",
+          "hn": "43 points · 81 comments",
+          "score": 3.614,
           "coverage": 1
         }
       ],
@@ -107,7 +114,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.365,
+          "score": 0.32,
           "coverage": 1
         },
         {
@@ -120,7 +127,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.364,
+          "score": 0.32,
           "coverage": 1
         },
         {
@@ -133,7 +140,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.191,
+          "score": 0.178,
           "coverage": 1
         }
       ],
@@ -148,7 +155,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 1.502,
+          "score": 1.348,
           "coverage": 2
         },
         {
@@ -161,7 +168,20 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.201,
+          "score": 0.187,
+          "coverage": 1
+        },
+        {
+          "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+          "link": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+          "excerpt": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 22",
+          "image": "https://www.bleepstatic.com/content/hl-images/2025/09/08/Signal.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.584,
           "coverage": 1
         },
         {
@@ -174,7 +194,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 1.95,
+          "score": 1.763,
           "coverage": 1
         },
         {
@@ -184,19 +204,6 @@
           "source": "BleepingComputer",
           "date": "Nov 21",
           "image": "https://www.bleepstatic.com/content/hl-images/2024/01/26/microsoft-red-header.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
-          "hn": null,
-          "score": 0.234,
-          "coverage": 1
-        },
-        {
-          "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
-          "link": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
-          "excerpt": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]",
-          "source": "BleepingComputer",
-          "date": "Nov 21",
-          "image": "https://www.bleepstatic.com/content/hl-images/2024/12/19/android-malware-botnet.jpg",
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
@@ -218,7 +225,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 5.459,
+          "score": 4.557,
           "coverage": 1
         },
         {
@@ -231,7 +238,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 4.121,
+          "score": 3.585,
           "coverage": 1
         },
         {
@@ -244,7 +251,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.128,
+          "score": 1.075,
           "coverage": 1
         }
       ],
@@ -259,7 +266,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.994,
+          "score": 0.948,
           "coverage": 1
         },
         {
@@ -272,7 +279,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 1.273,
+          "score": 1.206,
           "coverage": 1
         },
         {
@@ -285,7 +292,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.833,
+          "score": 0.793,
           "coverage": 1
         },
         {
@@ -298,7 +305,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.161,
+          "score": 0.154,
           "coverage": 1
         },
         {
@@ -311,7 +318,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.161,
+          "score": 0.154,
           "coverage": 1
         }
       ]
@@ -319,6 +326,19 @@
     {
       "name": "News & Research",
       "cards": [
+        {
+          "title": "Show HN: I built a game where you are an LLM's subagent",
+          "link": "https://github.com/gulivan/worker755",
+          "excerpt": "A browser game where an AI manager thinks you are its subagent. Play at worker755.com - gulivan/worker755",
+          "source": "github.com via Hacker News",
+          "date": "Nov 22",
+          "image": "https://opengraph.githubassets.com/17a508e9e1cd67e485b6a06bb005b063110205455e3967d7ab4cd91f35b58e5b/gulivan/worker755",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "42 points · 12 comments",
+          "score": 3.488,
+          "coverage": 1
+        },
         {
           "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
           "link": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
@@ -328,21 +348,8 @@
           "image": "https://i0.wp.com/betterdatacenterproject.com/wp-content/uploads/2026/11/anthropic-total-co2.png?fit=1200%2C1065&ssl=1",
           "icon": "https://i0.wp.com/betterdatacenterproject.com/wp-content/uploads/2025/09/bdcp_logo.png?fit=180%2C180&ssl=1",
           "domain": "betterdatacenterproject.com",
-          "hn": "208 points · 304 comments",
-          "score": 4.396,
-          "coverage": 1
-        },
-        {
-          "title": "Show HN: The Riemann Proof Handbook",
-          "link": "https://github.com/tamnd/riemann-handbook",
-          "excerpt": "The Riemann Handbook: the proof of the Riemann Hypothesis in tamnd/riemann-lean, written as mathematics, as PDF and EPUB - tamnd/riemann-handbook",
-          "source": "github.com via Hacker News",
-          "date": "Nov 22",
-          "image": "https://opengraph.githubassets.com/b115b9993b4c1520ea4cb15309e09cef7d04cf54b4ac4d747190b170f68457f6/tamnd/riemann-handbook",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "64 points · 33 comments",
-          "score": 2.797,
+          "hn": "376 points · 474 comments",
+          "score": 4.019,
           "coverage": 1
         },
         {
@@ -354,23 +361,36 @@
           "image": "https://opengraph.githubassets.com/9c341cda6c2eb305d492e395f3159cc33dca367fc8b96c6cebd1771410ffe146/EL4CTEO/fast-anything",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "60 points · 37 comments",
-          "score": 2.58,
+          "hn": "98 points · 80 comments",
+          "score": 2.534,
           "coverage": 1
         }
       ],
       "more": [
         {
+          "title": "U.N. Climate Talks Collapse in a Bitter Clash over Fossil Fuels",
+          "link": "https://www.nytimes.com/2026/11/22/climate/cop31-climate-summit-ends-climate.html",
+          "excerpt": "20 points · 7 comments",
+          "source": "nytimes.com via Hacker News",
+          "date": "Nov 22",
+          "image": null,
+          "icon": "https://www.nytimes.com/favicon.ico",
+          "domain": "nytimes.com",
+          "hn": "20 points · 7 comments",
+          "score": 2.924,
+          "coverage": 1
+        },
+        {
           "title": "Notes on the discrete Fourier transform (DFT)",
           "link": "https://eli.thegreenplace.net/2026/notes-on-the-discrete-fourier-transform-dft/",
-          "excerpt": "37 points · 5 comments",
+          "excerpt": "57 points · 7 comments",
           "source": "eli.thegreenplace.net via Hacker News",
           "date": "Nov 22",
           "image": null,
           "icon": "https://eli.thegreenplace.net/favicon.ico",
           "domain": "eli.thegreenplace.net",
-          "hn": "37 points · 5 comments",
-          "score": 2.511,
+          "hn": "57 points · 7 comments",
+          "score": 2.377,
           "coverage": 1
         },
         {
@@ -382,8 +402,8 @@
           "image": "https://hips.hearstapps.com/hmg-prod/images/d8009593-6fd1-4860-b42e-c59e9945155a.jpeg?crop=1xw:0.75xh;0xw,0.184xh&resize=1200:*",
           "icon": "https://www.caranddriver.com/_assets/design-tokens/caranddriver/static/images/apple-touch-icon.57b92b6.png",
           "domain": "caranddriver.com",
-          "hn": "632 points · 387 comments",
-          "score": 3.693,
+          "hn": "832 points · 492 comments",
+          "score": 3.373,
           "coverage": 1
         },
         {
@@ -395,8 +415,8 @@
           "image": "https://openrouter.ai/og.png",
           "icon": "https://openrouter.ai/blog/brand/openrouter-favicon.svg",
           "domain": "openrouter.ai",
-          "hn": "177 points · 67 comments",
-          "score": 2.763,
+          "hn": "229 points · 82 comments",
+          "score": 2.559,
           "coverage": 1
         },
         {
@@ -408,21 +428,8 @@
           "image": "https://noemamag.imgix.net/2026/01/The-Mythology-of-Conscious-AI-scaled.jpg?fit=crop&fm=pjpg&h=628&ixlib=php-3.3.1&w=1200&wpsize=noema-social-facebook&s=ac64b80d34a8583e44429565e7df4a07",
           "icon": "https://www.noemamag.com/wp-content/uploads/2020/06/cropped-ms-icon-310x310-1-180x180.png",
           "domain": "noemamag.com",
-          "hn": "82 points · 179 comments",
-          "score": 2.784,
-          "coverage": 1
-        },
-        {
-          "title": "Sandwich Simulator",
-          "link": "https://stulle.app/",
-          "excerpt": "Schmier eine Scheibe Brot, leg was drauf und mach ein Foto. Es bekommt eine Nummer und einen Link.",
-          "source": "stulle.app via Hacker News",
-          "date": "Nov 22",
-          "image": "https://stulle.app/og.jpg",
-          "icon": "https://stulle.app/apple-touch-icon.png",
-          "domain": "stulle.app",
-          "hn": "318 points · 109 comments",
-          "score": 2.753,
+          "hn": "109 points · 293 comments",
+          "score": 2.653,
           "coverage": 1
         }
       ]
