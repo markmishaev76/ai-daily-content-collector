@@ -503,6 +503,12 @@
   "icon": "https://benmandrew.com/favicon/apple-touch-icon.png",
   "image": "https://benmandrew.com/assets/headers/malloc-card.png"
  },
+ "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/": {
+  "description": "A case study of Anthropic’s total power use and emissions. We find the company could emit 32 million metric tons of carbon dioxide in 2028.",
+  "fetched": "2026-11-22",
+  "icon": "https://i0.wp.com/betterdatacenterproject.com/wp-content/uploads/2025/09/bdcp_logo.png?fit=180%2C180&ssl=1",
+  "image": "https://i0.wp.com/betterdatacenterproject.com/wp-content/uploads/2026/11/anthropic-total-co2.png?fit=1200%2C1065&ssl=1"
+ },
  "https://blocks.manifold3d.ch/": {
   "description": "41'285 kmÂ², ein Block pro Meter, aus swisstopo-Daten.",
   "fetched": "2026-10-26",
@@ -6587,6 +6593,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2026/10/30/alpine-linux.jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/": {
+  "description": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions.",
+  "fetched": "2026-11-22",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2024/12/19/android-malware-botnet.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/": {
   "description": "Bell Canada has confirmed that an \"agentic\" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision telecommunications circuits.",
   "fetched": "2026-11-21",
@@ -6790,6 +6802,12 @@
   "fetched": "2026-10-31",
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2026/10/30/claude-code-attack.jpg"
+ },
+ "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/": {
+  "description": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information.",
+  "fetched": "2026-11-22",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2024/01/26/microsoft-red-header.jpg"
  },
  "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/": {
   "description": "Hackers compromised Microsoft's official Agent Framework Python package on PyPI, publishing two malicious versions designed to steal cloud credentials and other sensitive information from developers' systems.",

@@ -13,7 +13,7 @@
     "note": null,
     "labels": [
       "AI Agents & Agent Security",
-      "13h ago"
+      "16h ago"
     ],
     "also": []
   },
@@ -25,7 +25,7 @@
       "link_domain": "arstechnica.com",
       "source": "Lobsters",
       "domain": "arstechnica.com",
-      "meta": "Lobsters · 24 points · 3 comments · 7h ago",
+      "meta": "Lobsters · 42 points · 5 comments · 10h ago",
       "also": [],
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-privacy-leakage-1152x648.jpg",
       "icon": "https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-300x300.png"
@@ -37,22 +37,22 @@
       "link_domain": "pwn.ai",
       "source": "Hacker News",
       "domain": "pwn.ai",
-      "meta": "Hacker News · 116 points · 57 comments · 15h ago",
+      "meta": "Hacker News · 129 points · 63 comments · 18h ago",
       "also": [],
       "image": "https://pwn.ai/upload2shell-share.png?v=2",
       "icon": "https://pwn.ai/favicon.ico"
     },
     {
-      "title": "Microsoft 365 Outage - Post Incident Report",
-      "thread": "https://lobste.rs/s/becitz/microsoft_365_outage_post_incident",
-      "link": "https://tianyin.github.io/misc/pir_microsoft_365_11-12-2026.pdf",
-      "link_domain": "tianyin.github.io",
+      "title": "The Claude Delusion",
+      "thread": "https://lobste.rs/s/v3m2uj/claude_delusion",
+      "link": "https://www.netmeister.org/blog/claude-delusion.html",
+      "link_domain": "netmeister.org",
       "source": "Lobsters",
-      "domain": "tianyin.github.io",
-      "meta": "Lobsters · 15 points · 7 comments · 21h ago",
+      "domain": "netmeister.org",
+      "meta": "Lobsters · 17 points · 2 comments · 3h ago",
       "also": [],
-      "image": null,
-      "icon": "https://tianyin.github.io/favicon.ico"
+      "image": "https://www.netmeister.org/blog/images/claude-delusion.jpg",
+      "icon": "https://www.netmeister.org/favicon.ico"
     }
   ],
   "sections": [
@@ -69,7 +69,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.658,
+          "score": 0.578,
           "coverage": 1
         }
       ],
@@ -88,7 +88,7 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.636,
+          "score": 0.564,
           "coverage": 1
         }
       ],
@@ -107,7 +107,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.431,
+          "score": 0.365,
           "coverage": 1
         },
         {
@@ -120,7 +120,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.43,
+          "score": 0.364,
           "coverage": 1
         },
         {
@@ -133,7 +133,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.207,
+          "score": 0.191,
           "coverage": 1
         }
       ],
@@ -148,7 +148,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 1.72,
+          "score": 1.502,
           "coverage": 2
         },
         {
@@ -161,46 +161,46 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.219,
+          "score": 0.201,
           "coverage": 1
         },
         {
-          "title": "Industry Reactions to Major Outages and AI Patching Debate: Feedback Friday",
-          "link": "https://www.securityweek.com/industry-reactions-to-major-outages-and-ai-patching-questions-feedback-friday/",
-          "excerpt": "Experts commented on whether AI-accelerated patching played a role, the need for tested rollback plans, and the fragility of interconnected systems.",
-          "source": "SecurityWeek",
-          "date": "Nov 20",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Feedback-Friday.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
+          "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+          "link": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+          "excerpt": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 21",
+          "image": "https://www.bleepstatic.com/content/hl-images/2022/12/09/Rackspace.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.126,
+          "score": 1.95,
           "coverage": 1
         },
         {
-          "title": "SBC Medical Group Data Breach Impacts Over 2 Million",
-          "link": "https://www.securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million/",
-          "excerpt": "Threat actors accessed databases containing customer information associated with clinics in Japan.",
-          "source": "SecurityWeek",
-          "date": "Nov 20",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/03/healthcare-medical.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
+          "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+          "link": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+          "excerpt": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 21",
+          "image": "https://www.bleepstatic.com/content/hl-images/2024/01/26/microsoft-red-header.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.866,
+          "score": 0.234,
           "coverage": 1
         },
         {
-          "title": "European Commission Confirms AI-Assisted Cyberattack Disrupted Services",
-          "link": "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/",
-          "excerpt": "The Commission took certain services offline to contain the incident, but it has no evidence of a data breach.",
-          "source": "SecurityWeek",
-          "date": "Nov 20",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/06/EU-Europe-European-Union-.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
+          "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+          "link": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+          "excerpt": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 21",
+          "image": "https://www.bleepstatic.com/content/hl-images/2024/12/19/android-malware-botnet.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.122,
+          "score": 0.215,
           "coverage": 1
         }
       ]
@@ -208,6 +208,19 @@
     {
       "name": "Platform, Cloud & Reliability",
       "cards": [
+        {
+          "title": "Claude Code Has Been Leaking Secrets Through Its \"Don't Ask Again\" Feature",
+          "link": "https://www.infoq.com/news/2026/11/claude-code-leaking-secrets/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Agentic security firm Apiiro found that Claude Code has been exposing secrets in public repositories due to how it stores them in local file on developers' machines to implement \"Don't Ask Again\". The company identified 1,122 secrets in claude/settings.local.json files and another 1,160 in git…",
+          "source": "InfoQ",
+          "date": "Nov 22",
+          "image": "https://res.infoq.com/news/2026/11/claude-code-leaking-secrets/en/headerimage/linux-6-12-real-time-1795344939763.jpeg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 5.459,
+          "coverage": 1
+        },
         {
           "title": "Google Announces Agent Compute Engine for Secure AI Agent Execution",
           "link": "https://www.infoq.com/news/2026/11/google-agent-compute-engine/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -218,7 +231,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 4.936,
+          "score": 4.121,
           "coverage": 1
         },
         {
@@ -231,9 +244,11 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.193,
+          "score": 1.128,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "How Vodafone is using the Data Engineering Agent to improve their data pipelines",
           "link": "https://cloud.google.com/blog/products/data-analytics/vodafone-cuts-data-pipeline-costs-30-via-data-engineeringagent/",
@@ -244,11 +259,9 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.051,
+          "score": 0.994,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Scope down permissions of existing sessions using AWS STS GetScopedCredentials",
           "link": "https://aws.amazon.com/blogs/security/scope-down-permissions-of-existing-sessions-using-aws-sts-getscopedcredentials/",
@@ -259,7 +272,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 1.355,
+          "score": 1.273,
           "coverage": 1
         },
         {
@@ -272,20 +285,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.882,
-          "coverage": 1
-        },
-        {
-          "title": "Presentation: Modernising Retail at Scale: Architecting a Cloud‑to‑Edge Platform for a Global Enterprise",
-          "link": "https://www.infoq.com/presentations/tesco-enterprise-tech-transformation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "Jayesh Bhayani discusses Tesco’s decade-long enterprise transformation from fragmented legacy systems to a unified cloud-edge platform. He explains how aligning system, talent, and process modernizations allowed Tesco to scale mission-critical retail operations to millions of customers, while…",
-          "source": "InfoQ",
-          "date": "Nov 20",
-          "image": "https://res.infoq.com/presentations/tesco-enterprise-tech-transformation/en/mediumimage/JayeshBhayani-medium-1792654742095.jpg",
-          "icon": null,
-          "domain": "infoq.com",
-          "hn": null,
-          "score": 0.765,
+          "score": 0.833,
           "coverage": 1
         },
         {
@@ -298,7 +298,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.17,
+          "score": 0.161,
           "coverage": 1
         },
         {
@@ -311,7 +311,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.17,
+          "score": 0.161,
           "coverage": 1
         }
       ]
@@ -319,6 +319,19 @@
     {
       "name": "News & Research",
       "cards": [
+        {
+          "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+          "link": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+          "excerpt": "A case study of Anthropic’s total power use and emissions. We find the company could emit 32 million metric tons of carbon dioxide in 2028.",
+          "source": "betterdatacenterproject.com via Hacker News",
+          "date": "Nov 22",
+          "image": "https://i0.wp.com/betterdatacenterproject.com/wp-content/uploads/2026/11/anthropic-total-co2.png?fit=1200%2C1065&ssl=1",
+          "icon": "https://i0.wp.com/betterdatacenterproject.com/wp-content/uploads/2025/09/bdcp_logo.png?fit=180%2C180&ssl=1",
+          "domain": "betterdatacenterproject.com",
+          "hn": "208 points · 304 comments",
+          "score": 4.396,
+          "coverage": 1
+        },
         {
           "title": "Show HN: The Riemann Proof Handbook",
           "link": "https://github.com/tamnd/riemann-handbook",
@@ -328,8 +341,8 @@
           "image": "https://opengraph.githubassets.com/b115b9993b4c1520ea4cb15309e09cef7d04cf54b4ac4d747190b170f68457f6/tamnd/riemann-handbook",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "43 points · 13 comments",
-          "score": 2.989,
+          "hn": "64 points · 33 comments",
+          "score": 2.797,
           "coverage": 1
         },
         {
@@ -341,8 +354,23 @@
           "image": "https://opengraph.githubassets.com/9c341cda6c2eb305d492e395f3159cc33dca367fc8b96c6cebd1771410ffe146/EL4CTEO/fast-anything",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "25 points · 10 comments",
-          "score": 2.457,
+          "hn": "60 points · 37 comments",
+          "score": 2.58,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Notes on the discrete Fourier transform (DFT)",
+          "link": "https://eli.thegreenplace.net/2026/notes-on-the-discrete-fourier-transform-dft/",
+          "excerpt": "37 points · 5 comments",
+          "source": "eli.thegreenplace.net via Hacker News",
+          "date": "Nov 22",
+          "image": null,
+          "icon": "https://eli.thegreenplace.net/favicon.ico",
+          "domain": "eli.thegreenplace.net",
+          "hn": "37 points · 5 comments",
+          "score": 2.511,
           "coverage": 1
         },
         {
@@ -354,23 +382,8 @@
           "image": "https://hips.hearstapps.com/hmg-prod/images/d8009593-6fd1-4860-b42e-c59e9945155a.jpeg?crop=1xw:0.75xh;0xw,0.184xh&resize=1200:*",
           "icon": "https://www.caranddriver.com/_assets/design-tokens/caranddriver/static/images/apple-touch-icon.57b92b6.png",
           "domain": "caranddriver.com",
-          "hn": "453 points · 262 comments",
-          "score": 4.126,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "Notes on the discrete Fourier transform (DFT)",
-          "link": "https://eli.thegreenplace.net/2026/notes-on-the-discrete-fourier-transform-dft/",
-          "excerpt": "23 points · 4 comments",
-          "source": "eli.thegreenplace.net via Hacker News",
-          "date": "Nov 22",
-          "image": null,
-          "icon": "https://eli.thegreenplace.net/favicon.ico",
-          "domain": "eli.thegreenplace.net",
-          "hn": "23 points · 4 comments",
-          "score": 2.734,
+          "hn": "632 points · 387 comments",
+          "score": 3.693,
           "coverage": 1
         },
         {
@@ -382,8 +395,8 @@
           "image": "https://openrouter.ai/og.png",
           "icon": "https://openrouter.ai/blog/brand/openrouter-favicon.svg",
           "domain": "openrouter.ai",
-          "hn": "141 points · 54 comments",
-          "score": 3.077,
+          "hn": "177 points · 67 comments",
+          "score": 2.763,
           "coverage": 1
         },
         {
@@ -395,8 +408,8 @@
           "image": "https://noemamag.imgix.net/2026/01/The-Mythology-of-Conscious-AI-scaled.jpg?fit=crop&fm=pjpg&h=628&ixlib=php-3.3.1&w=1200&wpsize=noema-social-facebook&s=ac64b80d34a8583e44429565e7df4a07",
           "icon": "https://www.noemamag.com/wp-content/uploads/2020/06/cropped-ms-icon-310x310-1-180x180.png",
           "domain": "noemamag.com",
-          "hn": "59 points · 116 comments",
-          "score": 3.012,
+          "hn": "82 points · 179 comments",
+          "score": 2.784,
           "coverage": 1
         },
         {
@@ -408,21 +421,8 @@
           "image": "https://stulle.app/og.jpg",
           "icon": "https://stulle.app/apple-touch-icon.png",
           "domain": "stulle.app",
-          "hn": "221 points · 71 comments",
-          "score": 2.964,
-          "coverage": 1
-        },
-        {
-          "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
-          "link": "https://github.com/sebaandrada-cell/PcapAnalyzer",
-          "excerpt": "Free, self-hosted pcap analyzer with 27 problem detectors and AI investigation - sebaandrada-cell/PcapAnalyzer",
-          "source": "github.com via Hacker News",
-          "date": "Nov 21",
-          "image": "https://opengraph.githubassets.com/5aacfd5b469e460b8519c744c121b08ad0d457404c537c829713a442cf3d4f04/sebaandrada-cell/PcapAnalyzer",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "112 points · 13 comments",
-          "score": 2.361,
+          "hn": "318 points · 109 comments",
+          "score": 2.753,
           "coverage": 1
         }
       ]
