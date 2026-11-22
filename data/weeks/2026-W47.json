@@ -1,0 +1,163 @@
+{
+  "week": "2026-W47",
+  "start": "2026-11-16",
+  "end": "2026-11-22",
+  "preview": false,
+  "days": [
+    {
+      "date": "2026-11-16",
+      "lead": {
+        "title": "Why Is Credential Rotation So Hard? Follow One Leaked Production Key",
+        "link": "https://blog.gitguardian.com/why-credential-rotation-is-hard/",
+        "source": "GitGuardian",
+        "section": "Secrets & NHI"
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "lead": {
+        "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
+        "link": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+        "source": "TechCrunch",
+        "section": "News & Research"
+      }
+    },
+    {
+      "date": "2026-11-18",
+      "lead": {
+        "title": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)",
+        "link": "https://blog.cloudflare.com/java4shell-waf-protection/",
+        "source": "Cloudflare Blog",
+        "section": "Security & AppSec"
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "lead": {
+        "title": "Paper2Agent: Turning Research Papers Into Interactive AI Agents",
+        "link": "https://s46486.pcdn.co/blog/paper2agent-reimagining-research-papers-as-interactive-and-reliable-ai-agents/",
+        "source": "Snorkel AI",
+        "section": "AI-Assisted Engineering"
+      }
+    },
+    {
+      "date": "2026-11-20",
+      "lead": {
+        "title": "Apple is building an AI agent",
+        "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+        "source": "theverge.com via Hacker News",
+        "section": "AI Agents & Agent Security"
+      }
+    },
+    {
+      "date": "2026-11-21",
+      "lead": {
+        "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
+        "link": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+        "source": "SecurityWeek",
+        "section": "Security & AppSec"
+      }
+    },
+    {
+      "date": "2026-11-22",
+      "lead": {
+        "title": "Upload2Shell (CVE-2026-125396)",
+        "link": "https://pwn.ai/upload2shell",
+        "source": "pwn.ai via Hacker News",
+        "section": "News & Research"
+      }
+    }
+  ],
+  "top": [
+    {
+      "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+      "link": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+      "source": "The Hacker News",
+      "section": "Security & AppSec",
+      "date": "2026-11-19",
+      "coverage": 3,
+      "score": 8.799
+    },
+    {
+      "title": "Lean verification of the Riemann Hypothesis",
+      "link": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "source": "leanprover-community.github.io via Hacker News",
+      "section": "News & Research",
+      "date": "2026-11-21",
+      "coverage": 3,
+      "score": 7.03
+    },
+    {
+      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+      "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+      "source": "The Hacker News",
+      "section": "Security & AppSec",
+      "date": "2026-11-20",
+      "coverage": 3,
+      "score": 5.781
+    },
+    {
+      "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
+      "link": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
+      "source": "Latent Space",
+      "section": "AI Agents & Agent Security",
+      "date": "2026-11-18",
+      "coverage": 2,
+      "score": 8.341
+    },
+    {
+      "title": "Army delays detonating \"catastrophically hazardous\" lead azide amid fear, anger",
+      "link": "https://arstechnica.com/science/2026/11/outrage-questions-swirl-as-army-delays-blowing-up-stockpile-of-toxic-lead-azide/",
+      "source": "arstechnica.com via Hacker News",
+      "section": "Secrets & NHI",
+      "date": "2026-11-21",
+      "coverage": 2,
+      "score": 7.73
+    },
+    {
+      "title": "Microsoft agent-framework compromised on PyPI: 1.26.1 and 1.26.2 ship a credential stealer that runs on every Python start (November 2026)",
+      "link": "https://www.chainguard.dev/unchained/microsoft-agent-framework-compromised-on-pypi-november-2026",
+      "source": "Chainguard: Unchained",
+      "section": "Supply Chain & Builds",
+      "date": "2026-11-18",
+      "coverage": 2,
+      "score": 7.505
+    },
+    {
+      "title": "The Fireworks AI Breach: How One Vendor Key Became a Supply Chain Attack on Cursor",
+      "link": "https://blog.gitguardian.com/fireworks-ai-breach-cursor-credentials/",
+      "source": "GitGuardian",
+      "section": "Secrets & NHI",
+      "date": "2026-11-20",
+      "coverage": 2,
+      "score": 4.923
+    },
+    {
+      "title": "NSA Internal Network Down",
+      "link": "https://www.reuters.com/technology/highly-classified-us-national-security-communications-network-is-down-cnn-2026-11-17/",
+      "source": "reuters.com via Hacker News",
+      "section": "News & Research",
+      "date": "2026-11-17",
+      "coverage": 2,
+      "score": 3.76
+    },
+    {
+      "title": "Google is a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud Operational Database Management Systems",
+      "link": "https://cloud.google.com/blog/products/databases/2026-gartner-mq-cloud-operational-databases-management-systems/",
+      "source": "Cloud Blog",
+      "section": "Platform, Cloud & Reliability",
+      "date": "2026-11-17",
+      "coverage": 2,
+      "score": 3.61
+    },
+    {
+      "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
+      "link": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
+      "source": "SecurityWeek",
+      "section": "Security & AppSec",
+      "date": "2026-11-22",
+      "coverage": 2,
+      "score": 2.723
+    }
+  ]
+}

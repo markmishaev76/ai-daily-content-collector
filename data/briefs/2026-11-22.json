@@ -1,0 +1,439 @@
+{
+  "date": "2026-11-22",
+  "lead": {
+    "title": "Upload2Shell (CVE-2026-125396)",
+    "link": "https://pwn.ai/upload2shell",
+    "excerpt": "",
+    "source": "pwn.ai via Hacker News",
+    "date": "Nov 21",
+    "image": "https://pwn.ai/upload2shell-share.png?v=2",
+    "image_credit": null,
+    "section": "News & Research",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "CVE-2026-125396",
+      "News & Research",
+      "7h ago"
+    ],
+    "also": []
+  },
+  "pulse": [
+    {
+      "title": "RCE in Gnupg",
+      "thread": "https://news.ycombinator.com/item?id=50587208",
+      "link": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+      "link_domain": "lists.gnupg.org",
+      "source": "Hacker News",
+      "domain": "lists.gnupg.org",
+      "meta": "Hacker News · 233 points · 95 comments · 17h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://lists.gnupg.org/favicon.ico"
+    },
+    {
+      "title": "ClawDOS – An AI coding agent for DOS",
+      "thread": "https://news.ycombinator.com/item?id=50586292",
+      "link": "http://ricapar.net/ClawDOS/",
+      "link_domain": "ricapar.net",
+      "source": "Hacker News",
+      "domain": "ricapar.net",
+      "meta": "Hacker News · 159 points · 51 comments · 20h ago",
+      "also": [],
+      "image": null,
+      "icon": null
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI-Assisted Engineering",
+      "cards": [
+        {
+          "title": "Muru",
+          "link": "https://simonwillison.net/2026/Nov/21/muru/",
+          "excerpt": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps both in development…",
+          "source": "Simon Willison",
+          "date": "Nov 21",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 1.017,
+          "coverage": 1
+        },
+        {
+          "title": "llm-gemini 0.38.1",
+          "link": "https://simonwillison.net/2026/Nov/20/llm-gemini/",
+          "excerpt": "Release: llm-gemini 0.38.1 Gemini 4 Carbon only supports low, medium and high reasoning levels - but Gemini 4 Hydrogen and Gemini 4 Neon both have an extra xhigh level. I missed that when I added those models to the llm-gemini plugin, which is now fixed in this dot release. The xhigh setting for…",
+          "source": "Simon Willison",
+          "date": "Nov 20",
+          "image": "https://static.simonwillison.net/static/2026/gemini-4-xhigh-pelicans.webp",
+          "icon": null,
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.244,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "AI Agents & Agent Security",
+      "cards": [
+        {
+          "title": "Pandex – Official European Law for AI Agents, over MCP",
+          "link": "https://www.pandex.io",
+          "excerpt": "Legislation and highest-court decisions of the EU, seven European countries and the European Court of Human Rights, from the institutions that publish them, in one API and MCP server built for search and AI.",
+          "source": "pandex.io via Hacker News",
+          "date": "Nov 21",
+          "image": "https://www.pandex.io/opengraph-image?6367cd8c0b666bc6",
+          "icon": "https://www.pandex.io/icon.svg?icon.11273l3_3jrqf.svg",
+          "domain": "pandex.io",
+          "hn": "34 points · 6 comments",
+          "score": 8.257,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Leadership",
+      "cards": [
+        {
+          "title": "Life is Better in GTA VI Except When It’s Not",
+          "link": "https://randsinrepose.com/archives/life-is-better-in-gta-vi-except-when-its-not/",
+          "excerpt": "I’m still very early in my GTA VI experience — Chapter One — a prologue that sets the standard for a 10+ hour tutorial for one of the best games you’ll ever play. Two brief thoughts: First, prior to GTA, I’ve been an avid ARC Raiders player during my long post-Destiny depression. Whether you like……",
+          "source": "Rands in Repose",
+          "date": "Nov 21",
+          "image": "https://randsinrepose.com/wp-content/uploads/2026/11/link-card-life-is-better-in-gta-vi-except-when-its-not-1024x576.jpg",
+          "icon": null,
+          "domain": "randsinrepose.com",
+          "hn": null,
+          "score": 0.945,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+          "link": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+          "excerpt": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions. The…",
+          "source": "The Hacker News",
+          "date": "Nov 21",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTmX4ayWzvM0EzPttZ610B2837FppeU5AEmQmztLH2lai78EDQtjrp4wVI_bubSe2c2NGBE5sqBT9Py1mKkHQKN2faBkOzU70d7FntrpYD7Et2eeBxLNy2gzByAo1i8Aaw_VMBZD62RnBMY2md3iNfegK9M_NR5qTRDBw8s0uwKy1w7JoTV0zkDS_17Lse/s1600/pgp.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.267,
+          "coverage": 1
+        },
+        {
+          "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
+          "link": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
+          "excerpt": "The FBI is investigating an apparent hack of a national law enforcement database that it maintains.",
+          "source": "SecurityWeek",
+          "date": "Nov 22",
+          "image": "https://www.securityweek.com/wp-content/uploads/2024/04/FBI-Surveillance.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 2.723,
+          "coverage": 2
+        },
+        {
+          "title": "President Trump Taps Kirsten Davies as National Cyber Director",
+          "link": "https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/",
+          "excerpt": "White House says the battle-tested cyber leader will drive an America First cyber strategy.",
+          "source": "SecurityWeek",
+          "date": "Nov 21",
+          "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.287,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Industry Reactions to Major Outages and AI Patching Debate: Feedback Friday",
+          "link": "https://www.securityweek.com/industry-reactions-to-major-outages-and-ai-patching-questions-feedback-friday/",
+          "excerpt": "Experts commented on whether AI-accelerated patching played a role, the need for tested rollback plans, and the fragility of interconnected systems.",
+          "source": "SecurityWeek",
+          "date": "Nov 20",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Feedback-Friday.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.146,
+          "coverage": 1
+        },
+        {
+          "title": "SBC Medical Group Data Breach Impacts Over 2 Million",
+          "link": "https://www.securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million/",
+          "excerpt": "Threat actors accessed databases containing customer information associated with clinics in Japan.",
+          "source": "SecurityWeek",
+          "date": "Nov 20",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/03/healthcare-medical.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.998,
+          "coverage": 1
+        },
+        {
+          "title": "European Commission Confirms AI-Assisted Cyberattack Disrupted Services",
+          "link": "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/",
+          "excerpt": "The Commission took certain services offline to contain the incident, but it has no evidence of a data breach.",
+          "source": "SecurityWeek",
+          "date": "Nov 20",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/06/EU-Europe-European-Union-.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.141,
+          "coverage": 1
+        },
+        {
+          "title": "Ruby Patches Ruby2Shell Vulnerability That Could Lead to RCE",
+          "link": "https://www.securityweek.com/ruby-patches-ruby2shell-vulnerability-that-could-lead-to-rce/",
+          "excerpt": "Tracked as CVE-2026-132825, the bug is a heap-based buffer overflow that could lead to remote code execution (RCE).",
+          "source": "SecurityWeek",
+          "date": "Nov 20",
+          "image": "https://www.securityweek.com/wp-content/uploads/2024/04/Vulnerability-Databases.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 2.374,
+          "coverage": 2
+        },
+        {
+          "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+          "link": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+          "excerpt": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 21",
+          "image": "https://www.bleepstatic.com/content/hl-images/2022/12/09/Rackspace.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 3.337,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "Introducing ambient networking for GKE",
+          "link": "https://cloud.google.com/blog/products/networking/ambient-networking-for-gke-sidecarless-service-mesh/",
+          "excerpt": "Network sidecars have a deserved reputation for excessive resource consumption and increased management overhead, especially in a service mesh environment. Today, we are announcing the general availability of ambient networking for Google Kubernetes Engine (GKE). This milestone marks an important…",
+          "source": "Cloud Blog",
+          "date": "Nov 20",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1_ambient_networking_architecture.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 1.397,
+          "coverage": 1
+        },
+        {
+          "title": "How Vodafone is using the Data Engineering Agent to improve their data pipelines",
+          "link": "https://cloud.google.com/blog/products/data-analytics/vodafone-cuts-data-pipeline-costs-30-via-data-engineeringagent/",
+          "excerpt": "For large organizations, building and maintaining data pipelines is one of the most complex tasks that data engineering teams are tasked with. In BigQuery environments, the Data Engineering Agent can help, leveraging Gemini to to automate these workflows. In this blog post, Vodafone Czech Republic…",
+          "source": "Cloud Blog",
+          "date": "Nov 20",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1_8EqtqGJ.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 1.231,
+          "coverage": 1
+        },
+        {
+          "title": "Scope down permissions of existing sessions using AWS STS GetScopedCredentials",
+          "link": "https://aws.amazon.com/blogs/security/scope-down-permissions-of-existing-sessions-using-aws-sts-getscopedcredentials/",
+          "excerpt": "When you build AI agents, you often want each agent or sub-agent to have only the permissions its tasks require, rather than the full permissions of the session that started it. GetScopedCredentials is a new AWS Security Token Service (AWS STS) API that you can use to scope down the permissions of…",
+          "source": "AWS Security Blog",
+          "date": "Nov 20",
+          "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/20/Vaishnavi-Merugu-author.jpeg",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 1.622,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "How Bee implemented Zero Operator Access for personal AI on AWS",
+          "link": "https://aws.amazon.com/blogs/architecture/how-bee-implemented-zero-operator-access-for-personal-ai-on-aws/",
+          "excerpt": "Bee, an Amazon company, built a personal AI wearable with no mechanism for operators (Bee engineers, other Amazon employees, or AWS infrastructure operators) to access customer data. Learn how Bee uses Amazon EC2 instance attestation and the AWS Nitro System to achieve Zero Operator Access (ZOA).",
+          "source": "AWS Architecture Blog",
+          "date": "Nov 20",
+          "image": "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2026/11/19/archblog-1627-bee_arch_final.png",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 1.04,
+          "coverage": 1
+        },
+        {
+          "title": "Presentation: Modernising Retail at Scale: Architecting a Cloud‑to‑Edge Platform for a Global Enterprise",
+          "link": "https://www.infoq.com/presentations/tesco-enterprise-tech-transformation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Jayesh Bhayani discusses Tesco’s decade-long enterprise transformation from fragmented legacy systems to a unified cloud-edge platform. He explains how aligning system, talent, and process modernizations allowed Tesco to scale mission-critical retail operations to millions of customers, while…",
+          "source": "InfoQ",
+          "date": "Nov 20",
+          "image": "https://res.infoq.com/presentations/tesco-enterprise-tech-transformation/en/mediumimage/JayeshBhayani-medium-1792654742095.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.881,
+          "coverage": 1
+        },
+        {
+          "title": "Frontier and Center: Why your data agents need a “wind tunnel”",
+          "link": "https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents/",
+          "excerpt": "Imagine you're building a data agent to answer questions about an enterprise data warehouse. Ideally, you'd develop and test it against production data, but access restrictions and data sensitivity make that difficult – especially when the engineers building the agent sit outside the team that…",
+          "source": "Cloud Blog",
+          "date": "Nov 20",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1_JHmwdEP.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 0.2,
+          "coverage": 1
+        },
+        {
+          "title": "DynaPORT modernization on Google Cloud with AlloyDB for PostgreSQL and GKE",
+          "link": "https://cloud.google.com/blog/products/databases/dynaport-modernizes-with-alloydb/",
+          "excerpt": "In global maritime logistics, Marine Ports and Terminals play a significant role in the movement of container and cargo, within and beyond. Marine ports and terminals world-wide use a Terminal Operating System (TOS) which acts as the central nervous system managing port operations 24 hours a day,…",
+          "source": "Cloud Blog",
+          "date": "Nov 20",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/final_google_cloud_logo_sloped.max-600x600.jpg",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 0.2,
+          "coverage": 1
+        },
+        {
+          "title": "Agent Anomaly Detection: Safeguarding agents across other clouds",
+          "link": "https://developers.googleblog.com/agent-anomaly-detection-safeguarding-agents-across-other-clouds/",
+          "excerpt": "Agent Anomaly Detection now monitors ADK agents running across AWS, Azure, or on-premises by analyzing their traces and logs in your Google Cloud project. By ingesting OpenTelemetry-formatted data through the Telemetry API, it evaluates full conversations for behavioral drift without needing…",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/00-hero-banner.2e16d0ba.fill-1200x600.png",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null,
+          "score": 0.25,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "Sandwich Simulator",
+          "link": "https://stulle.app/",
+          "excerpt": "Schmier eine Scheibe Brot, leg was drauf und mach ein Foto. Es bekommt eine Nummer und einen Link.",
+          "source": "stulle.app via Hacker News",
+          "date": "Nov 22",
+          "image": "https://stulle.app/og.jpg",
+          "icon": "https://stulle.app/apple-touch-icon.png",
+          "domain": "stulle.app",
+          "hn": "19 points · 2 comments",
+          "score": 2.753,
+          "coverage": 1
+        },
+        {
+          "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
+          "link": "https://github.com/sebaandrada-cell/PcapAnalyzer",
+          "excerpt": "Free, self-hosted pcap analyzer with 27 problem detectors and AI investigation - sebaandrada-cell/PcapAnalyzer",
+          "source": "github.com via Hacker News",
+          "date": "Nov 21",
+          "image": "https://opengraph.githubassets.com/5aacfd5b469e460b8519c744c121b08ad0d457404c537c829713a442cf3d4f04/sebaandrada-cell/PcapAnalyzer",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "56 points · 5 comments",
+          "score": 3.061,
+          "coverage": 1
+        },
+        {
+          "title": "Review: Godzilla Minus Zero joins the list of truly stellar sequels",
+          "link": "https://arstechnica.com/culture/2026/11/review-godzilla-minus-zero-is-everything-we-could-want-in-a-sequel/",
+          "excerpt": "Director Takashi Yamazaki ups the ante by pitting Godzilla against one of the monster's greatest foes",
+          "source": "Ars Technica",
+          "date": "Nov 21",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/godzillaTOP-500x500.jpg",
+          "icon": null,
+          "domain": "arstechnica.com",
+          "hn": null,
+          "score": 0.566,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Advice for the next 100 Rust GUIs",
+          "link": "https://linebender.org/blog/next-100-guis/",
+          "excerpt": "Advice for the next 100 Rust GUIs",
+          "source": "linebender.org via Hacker News",
+          "date": "Nov 21",
+          "image": null,
+          "icon": "https://linebender.org/favicon.ico",
+          "domain": "linebender.org",
+          "hn": "93 points · 9 comments",
+          "score": 3.204,
+          "coverage": 1
+        },
+        {
+          "title": "The Emergence of Inequality in the Czech Corded Ware Culture",
+          "link": "https://www.jna.uni-kiel.de/index.php/jna/article/view/1560/1746",
+          "excerpt": "Journal of Neolithic Archaeology",
+          "source": "jna.uni-kiel.de via Hacker News",
+          "date": "Nov 21",
+          "image": null,
+          "icon": "https://www.jna.uni-kiel.de/public/journals/1/favicon_en_US.png",
+          "domain": "jna.uni-kiel.de",
+          "hn": "30 points · 11 comments",
+          "score": 2.641,
+          "coverage": 1
+        },
+        {
+          "title": "“Race realism” isn’t realistic—and it isn’t good science",
+          "link": "https://arstechnica.com/science/2026/11/race-realism-isnt-realistic-and-it-isnt-good-science/",
+          "excerpt": "Modern genetics does not support claims of innate racial differences in intelligence.",
+          "source": "Ars Technica",
+          "date": "Nov 21",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2201567552-500x500.jpg",
+          "icon": null,
+          "domain": "arstechnica.com",
+          "hn": null,
+          "score": 0.345,
+          "coverage": 1
+        },
+        {
+          "title": "Trump FCC declares California isn't allowed to enforce phone service rules",
+          "link": "https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att/",
+          "excerpt": "FCC preempts state rules that require AT&T to keep offering home phone service.",
+          "source": "Ars Technica",
+          "date": "Nov 20",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/07/getty-att-logo-500x500.jpg",
+          "icon": null,
+          "domain": "arstechnica.com",
+          "hn": null,
+          "score": 0.227,
+          "coverage": 1
+        }
+      ]
+    }
+  ]
+}

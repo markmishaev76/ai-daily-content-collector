@@ -1,23 +1,5 @@
 [
   {
-    "date": "2026-10-23",
-    "url": "https://about.gitlab.com/blog/gitlab-helps-remediate-critical-php-flaws/",
-    "title": "PHP2Shell: GitLab helps find and remediate critical PHP flaws",
-    "section": "Security & AppSec",
-    "key_tokens": [
-      "CVE-2026-109618",
-      "CVE-2026-109619",
-      "critical",
-      "find",
-      "flaw",
-      "gitlab",
-      "help",
-      "php",
-      "php2shell",
-      "remediate"
-    ]
-  },
-  {
     "date": "2026-10-24",
     "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
     "title": "Here are the top AI agents that can live in your text messages",
@@ -452,6 +434,19 @@
       "medical",
       "software",
       "zero"
+    ]
+  },
+  {
+    "date": "2026-11-22",
+    "url": "https://pwn.ai/upload2shell",
+    "title": "Upload2Shell (CVE-2026-125396)",
+    "section": "News & Research",
+    "key_tokens": [
+      "125396",
+      "2026",
+      "CVE-2026-125396",
+      "cve",
+      "upload2shell"
     ]
   }
 ]

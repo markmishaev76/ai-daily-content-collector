@@ -1241,6 +1241,12 @@
   "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
   "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/ABFS-Header-Meta.2e16d0ba.fill-1200x600.png"
  },
+ "https://developers.googleblog.com/agent-anomaly-detection-safeguarding-agents-across-other-clouds/": {
+  "description": "Learn how Agent Anomaly Detection safeguards AI agents running on AWS, Azure, or on-premises by analyzing telemetry and detecting behavioral drift across multi-cloud environments.",
+  "fetched": "2026-11-22",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/00-hero-banner.2e16d0ba.fill-1200x600.png"
+ },
  "https://developers.googleblog.com/agent-distraction/": {
   "description": "An empirical analysis of coding agent distraction from legacy inline TODOs, quantifying the overhead in tokens, execution steps, and developer wait time.",
   "fetched": "2026-11-08",
@@ -2189,6 +2195,12 @@
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://opengraph.githubassets.com/1dbe83a2d6946b49772d681693beb5a2e168469a2ced76ca15b5b28db6ece3c7/samir-sarwar/samir-vllm"
  },
+ "https://github.com/sebaandrada-cell/PcapAnalyzer": {
+  "description": "Free, self-hosted pcap analyzer with 27 problem detectors and AI investigation - sebaandrada-cell/PcapAnalyzer",
+  "fetched": "2026-11-22",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://opengraph.githubassets.com/5aacfd5b469e460b8519c744c121b08ad0d457404c537c829713a442cf3d4f04/sebaandrada-cell/PcapAnalyzer"
+ },
  "https://github.com/slee-persis/GVS5H": {
   "description": "GVS5H: Five Qwen3.8-27B Models Match Claude Fable 5 on LiveCodeBench Hard | Fable 5 Level Coding for a Fifth the Price - or on a Single GPU - slee-persis/GVS5H",
   "fetched": "2026-10-25",
@@ -2966,6 +2978,12 @@
  "https://linebender.org/blog/jit-bitmap-text/": {
   "description": "JIT bitmap text rendering for microcontrollers",
   "fetched": "2026-11-08",
+  "icon": null,
+  "image": null
+ },
+ "https://linebender.org/blog/next-100-guis/": {
+  "description": "Advice for the next 100 Rust GUIs",
+  "fetched": "2026-11-22",
   "icon": null,
   "image": null
  },
@@ -4331,6 +4349,12 @@
   "icon": null,
   "image": null
  },
+ "https://pwn.ai/upload2shell": {
+  "description": null,
+  "fetched": "2026-11-22",
+  "icon": null,
+  "image": "https://pwn.ai/upload2shell-share.png?v=2"
+ },
  "https://pwn.college/": {
   "description": "Learn to Hack!",
   "fetched": "2026-11-06",
@@ -4700,6 +4724,12 @@
  "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/": {
   "description": "Claire Vo runs ChatPRD, an AI platform that helps product managers \"turn an idea into a spec\". The product has been live since the GPT-4 era, and Claire has been …",
   "fetched": "2026-11-20",
+  "icon": null,
+  "image": null
+ },
+ "https://simonwillison.net/2026/Nov/21/muru/": {
+  "description": "Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust …",
+  "fetched": "2026-11-22",
   "icon": null,
   "image": null
  },
@@ -5248,6 +5278,12 @@
   "fetched": "2026-11-17",
   "icon": "https://studio.sinapsdata.com.br/sinaps-auth/static/psi-white.svg",
   "image": null
+ },
+ "https://stulle.app/": {
+  "description": "Schmier eine Scheibe Brot, leg was drauf und mach ein Foto. Es bekommt eine Nummer und einen Link.",
+  "fetched": "2026-11-22",
+  "icon": "https://stulle.app/apple-touch-icon.png",
+  "image": "https://stulle.app/og.jpg"
  },
  "https://sunshowers.io/posts/glue-work/": {
   "description": "Seeing like a big tech employer.",
@@ -6761,6 +6797,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2026/11/06/QNAP.jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/": {
+  "description": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters.",
+  "fetched": "2026-11-22",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2022/12/09/Rackspace.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/": {
   "description": "Reddit announced in a post by co-founder Steve Huffman that the site will gradually become a \"logged-in service,\" offering limited access to visitors without accounts.",
   "fetched": "2026-11-02",
@@ -7535,6 +7577,12 @@
   "icon": null,
   "image": "https://www.jefftk.com/jefftk-glyph-framed.jpg"
  },
+ "https://www.jna.uni-kiel.de/index.php/jna/article/view/1560/1746": {
+  "description": "Journal of Neolithic Archaeology",
+  "fetched": "2026-11-22",
+  "icon": "https://www.jna.uni-kiel.de/public/journals/1/favicon_en_US.png",
+  "image": null
+ },
  "https://www.kadoa.com/companies/insights/ai-selloff-perspective": {
   "description": "The S&P 500 fell 4.4% on 5 Nov 2026, its worst day since April 2025, and is 6% below its 6 Oct record. Charted day by day against 1987, 2008, Covid and other falls since 1950.",
   "fetched": "2026-11-07",
@@ -8200,6 +8248,12 @@
   "fetched": "2026-10-29",
   "icon": "https://www.oxfam.org/apple-touch-icon.png",
   "image": "https://www.oxfam.org,"
+ },
+ "https://www.pandex.io": {
+  "description": "Legislation and highest-court decisions of the EU, seven European countries and the European Court of Human Rights, from the institutions that publish them, in one API and MCP server built for search and AI.",
+  "fetched": "2026-11-22",
+  "icon": "https://www.pandex.io/icon.svg?icon.11273l3_3jrqf.svg",
+  "image": "https://www.pandex.io/opengraph-image?6367cd8c0b666bc6"
  },
  "https://www.parameter.ai/labs/we-found-a-gap-at-openai": {
   "description": "By bypassing ChatGPT's sandbox and content security policy, our research team was able to take over anyone's account simply by sending them a link.",
@@ -8879,6 +8933,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Drupal.jpg"
  },
+ "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/": {
+  "description": "The European Commission has confirmed falling victim to an AI-assisted cyberattack and has no evidence of a data breach.",
+  "fetched": "2026-11-22",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/06/EU-Europe-European-Union-.jpeg"
+ },
  "https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/": {
   "description": "The FAA issued a nationwide ground stop for all U.S. airports on Friday afternoon, citing \"extraordinary circumstances\" with no mention of a cyberattack.",
   "fetched": "2026-11-14",
@@ -8896,6 +8956,12 @@
   "fetched": "2026-11-02",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg"
+ },
+ "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/": {
+  "description": "The FBI is investigating a possible hack of NCIC law enforcement database that it maintains.",
+  "fetched": "2026-11-22",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2024/04/FBI-Surveillance.jpg"
  },
  "https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance/": {
   "description": "The FBI seized more than $1.2 billion of cryptocurrency reported stolen last month from Binance, the world’s largest crypto exchange.",
@@ -9046,6 +9112,12 @@
   "fetched": "2026-11-07",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg"
+ },
+ "https://www.securityweek.com/industry-reactions-to-major-outages-and-ai-patching-questions-feedback-friday/": {
+  "description": "Cybersecurity industry experts comment on whether AI-accelerated patching played a role in recent technology outages.",
+  "fetched": "2026-11-22",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Feedback-Friday.jpeg"
  },
  "https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/": {
   "description": "Apple’s iOS and macOS 27.2 updates fix 286 flaws, and iOS 18.7.11 brings the fix for exploited CVE-2026-86950 to older devices.",
@@ -9323,6 +9395,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Polymarket.webp"
  },
+ "https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/": {
+  "description": "Kirsten Davies, CIO at the Department of War, has been appointed as the new National Cyber Director.",
+  "fetched": "2026-11-22",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg"
+ },
  "https://www.securityweek.com/pretxt-emerges-stealth-with-5m-seed-and-an-ai-supervision-tool/": {
   "description": "Pretxt provides a purpose-built runtime technology to supervise AI agents as they work to prevent mistakes.",
   "fetched": "2026-11-17",
@@ -9353,11 +9431,23 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2025/07/data-breach-healthcare-medical.jpg"
  },
+ "https://www.securityweek.com/ruby-patches-ruby2shell-vulnerability-that-could-lead-to-rce/": {
+  "description": "Ruby has patched seven vulnerabilities, including Ruby2Shell (CVE-2026-132825), a heap-based buffer overflow potentially leading to RCE.",
+  "fetched": "2026-11-22",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2024/04/Vulnerability-Databases.jpg"
+ },
  "https://www.securityweek.com/russian-apt-poses-as-employee-of-hacked-firm-to-breach-another-us-organization/": {
   "description": "Russia-linked APT Star Blizzard weaponized data and identities stolen from a US organization to hack another.",
   "fetched": "2026-11-19",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2024/09/Russian-hacking.jpeg"
+ },
+ "https://www.securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million/": {
+  "description": "Hackers compromised an SBC Medical Group online platform and accessed databases containing customer information.",
+  "fetched": "2026-11-22",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/03/healthcare-medical.jpeg"
  },
  "https://www.securityweek.com/secrets-management-firm-infisical-valued-at-600-million-after-40-million-raise/": {
   "description": "Infisical has raised $40 million in a Series B round led by investor Elad Gil that values the secrets management company at $600 million.",
