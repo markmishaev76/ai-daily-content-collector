@@ -1,47 +1,46 @@
 {
   "date": "2026-11-22",
   "lead": {
-    "title": "Upload2Shell (CVE-2026-125396)",
-    "link": "https://pwn.ai/upload2shell",
-    "excerpt": "",
-    "source": "pwn.ai via Hacker News",
+    "title": "Pandex – Official European Law for AI Agents, over MCP",
+    "link": "https://www.pandex.io",
+    "excerpt": "Legislation and highest-court decisions of the EU, seven European countries and the European Court of Human Rights, from the institutions that publish them, in one API and MCP server built for search and AI.",
+    "source": "pandex.io via Hacker News",
     "date": "Nov 21",
-    "image": "https://pwn.ai/upload2shell-share.png?v=2",
+    "image": "https://www.pandex.io/opengraph-image?6367cd8c0b666bc6",
     "image_credit": null,
-    "section": "News & Research",
+    "section": "AI Agents & Agent Security",
     "pinned": false,
     "note": null,
     "labels": [
-      "CVE-2026-125396",
-      "News & Research",
+      "AI Agents & Agent Security",
       "9h ago"
     ],
     "also": []
   },
   "pulse": [
     {
-      "title": "RCE in Gnupg",
+      "title": "GnuPG Security Advisory for GPGME",
       "thread": "https://news.ycombinator.com/item?id=50587208",
       "link": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
       "link_domain": "lists.gnupg.org",
       "source": "Hacker News",
       "domain": "lists.gnupg.org",
-      "meta": "Hacker News · 243 points · 98 comments · 19h ago",
+      "meta": "Hacker News · 247 points · 98 comments · 21h ago",
       "also": [],
       "image": null,
       "icon": "https://lists.gnupg.org/favicon.ico"
     },
     {
-      "title": "ClawDOS – An AI coding agent for DOS",
-      "thread": "https://news.ycombinator.com/item?id=50586292",
-      "link": "http://ricapar.net/ClawDOS/",
-      "link_domain": "ricapar.net",
+      "title": "Upload2Shell (CVE-2026-125396)",
+      "thread": "https://news.ycombinator.com/item?id=50592097",
+      "link": "https://pwn.ai/upload2shell",
+      "link_domain": "pwn.ai",
       "source": "Hacker News",
-      "domain": "ricapar.net",
-      "meta": "Hacker News · 161 points · 51 comments · 22h ago",
+      "domain": "pwn.ai",
+      "meta": "Hacker News · 101 points · 46 comments · 11h ago",
       "also": [],
-      "image": null,
-      "icon": null
+      "image": "https://pwn.ai/upload2shell-share.png?v=2",
+      "icon": "https://pwn.ai/favicon.ico"
     }
   ],
   "sections": [
@@ -58,7 +57,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.891,
+          "score": 0.793,
           "coverage": 1
         }
       ],
@@ -68,16 +67,16 @@
       "name": "AI Agents & Agent Security",
       "cards": [
         {
-          "title": "Pandex – Official European Law for AI Agents, over MCP",
-          "link": "https://www.pandex.io",
-          "excerpt": "Legislation and highest-court decisions of the EU, seven European countries and the European Court of Human Rights, from the institutions that publish them, in one API and MCP server built for search and AI.",
-          "source": "pandex.io via Hacker News",
-          "date": "Nov 21",
-          "image": "https://www.pandex.io/opengraph-image?6367cd8c0b666bc6",
-          "icon": "https://www.pandex.io/icon.svg?icon.11273l3_3jrqf.svg",
-          "domain": "pandex.io",
-          "hn": "48 points · 10 comments",
-          "score": 7.651,
+          "title": "\"Dumbass\" RFK Jr. Rescued Measles from Obscurity. What Horror Is Next?",
+          "link": "https://newrepublic.com/post/218245/rfk-jr-measles-trump-outbreak",
+          "excerpt": "Thanks to the Trump administration, America has seemed broken lately. But Kennedy’s malfeasance deserves more attention.",
+          "source": "newrepublic.com via Hacker News",
+          "date": "Nov 22",
+          "image": "https://images.newrepublic.com/d718e6c472353bdc5c1f9f871e8c35f7cca046a4.jpeg?w=1200&h=630&crop=faces&fit=crop&fm=jpg",
+          "icon": "https://assets.newrepublic.com/assets/favicons/apple-touch-icon-57x57.png",
+          "domain": "newrepublic.com",
+          "hn": "10 points · 3 comments",
+          "score": 3.414,
           "coverage": 1
         }
       ],
@@ -96,7 +95,7 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.839,
+          "score": 0.755,
           "coverage": 1
         }
       ],
@@ -115,7 +114,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.248,
+          "score": 0.232,
           "coverage": 1
         },
         {
@@ -128,7 +127,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 2.364,
+          "score": 2.09,
           "coverage": 2
         },
         {
@@ -141,7 +140,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.266,
+          "score": 0.247,
           "coverage": 1
         }
       ],
@@ -156,7 +155,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.14,
+          "score": 0.135,
           "coverage": 1
         },
         {
@@ -169,7 +168,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.96,
+          "score": 0.925,
           "coverage": 1
         },
         {
@@ -182,7 +181,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.135,
+          "score": 0.13,
           "coverage": 1
         },
         {
@@ -195,7 +194,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 2.265,
+          "score": 2.166,
           "coverage": 2
         },
         {
@@ -208,7 +207,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 2.946,
+          "score": 2.637,
           "coverage": 1
         }
       ]
@@ -226,7 +225,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.337,
+          "score": 1.283,
           "coverage": 1
         },
         {
@@ -239,7 +238,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.179,
+          "score": 1.131,
           "coverage": 1
         },
         {
@@ -252,7 +251,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 1.543,
+          "score": 1.471,
           "coverage": 1
         }
       ],
@@ -267,7 +266,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.994,
+          "score": 0.952,
           "coverage": 1
         },
         {
@@ -280,7 +279,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.847,
+          "score": 0.817,
           "coverage": 1
         },
         {
@@ -293,7 +292,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.191,
+          "score": 0.183,
           "coverage": 1
         },
         {
@@ -306,7 +305,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.191,
+          "score": 0.183,
           "coverage": 1
         },
         {
@@ -328,6 +327,32 @@
       "name": "News & Research",
       "cards": [
         {
+          "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+          "link": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+          "excerpt": "Japan’s automakers will work together to lower production costs as they band together to compete against China’s growing automotive sector.",
+          "source": "caranddriver.com via Hacker News",
+          "date": "Nov 22",
+          "image": "https://hips.hearstapps.com/hmg-prod/images/d8009593-6fd1-4860-b42e-c59e9945155a.jpeg?crop=1xw:0.75xh;0xw,0.184xh&resize=1200:*",
+          "icon": "https://www.caranddriver.com/_assets/design-tokens/caranddriver/static/images/apple-touch-icon.57b92b6.png",
+          "domain": "caranddriver.com",
+          "hn": "180 points · 91 comments",
+          "score": 4.529,
+          "coverage": 1
+        },
+        {
+          "title": "Together.ai: Prompt Leakage for Requests",
+          "link": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
+          "excerpt": "We are notifying customers about a security incident involving a subset of prompts submitted to Together AI’s serverless inference service in June and July 2026.",
+          "source": "together.ai via Hacker News",
+          "date": "Nov 22",
+          "image": "https://cdn.prod.website-files.com/69654e88dce9154b5f12070c/6b022ac06b3b148585570c47_OG-image_20261121-security-event-prompt-leakage2.png",
+          "icon": "https://cdn.prod.website-files.com/69654e88dce9154b5f1206dd/69a59cff65ed0f267dd2fbe8_touchicon.png",
+          "domain": "together.ai",
+          "hn": "15 points · 5 comments",
+          "score": 2.536,
+          "coverage": 1
+        },
+        {
           "title": "Data Processing Incidents on Inference Providers",
           "link": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
           "excerpt": "OpenRouter off-boarded three providers, removed 125 endpoints from Zero Data Retention eligibility, and notified potentially affected customers after canary token research on inference providers.",
@@ -336,8 +361,23 @@
           "image": "https://openrouter.ai/og.png",
           "icon": "https://openrouter.ai/blog/brand/openrouter-favicon.svg",
           "domain": "openrouter.ai",
-          "hn": "42 points · 12 comments",
-          "score": 3.431,
+          "hn": "77 points · 29 comments",
+          "score": 3.416,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "The Most Popular Car Colors in America",
+          "link": "https://www.iseecars.com/most-popular-car-colors-study",
+          "excerpt": "White, black, gray and silver dominate the car market, while red and green are far less common than 30 years ago and sports cars are the most colorful...",
+          "source": "iseecars.com via Hacker News",
+          "date": "Nov 22",
+          "image": null,
+          "icon": "https://cdn2.iseecars.com/site/a66dcbcb963658ce40b2a0501996d6ef53068aa4/img/iseecars_icon_48x48.png",
+          "domain": "iseecars.com",
+          "hn": "18 points · 23 comments",
+          "score": 2.931,
           "coverage": 1
         },
         {
@@ -349,8 +389,8 @@
           "image": "https://noemamag.imgix.net/2026/01/The-Mythology-of-Conscious-AI-scaled.jpg?fit=crop&fm=pjpg&h=628&ixlib=php-3.3.1&w=1200&wpsize=noema-social-facebook&s=ac64b80d34a8583e44429565e7df4a07",
           "icon": "https://www.noemamag.com/wp-content/uploads/2020/06/cropped-ms-icon-310x310-1-180x180.png",
           "domain": "noemamag.com",
-          "hn": "11 points · 12 comments",
-          "score": 2.821,
+          "hn": "22 points · 48 comments",
+          "score": 3.145,
           "coverage": 1
         },
         {
@@ -362,12 +402,10 @@
           "image": "https://opengraph.githubassets.com/8ed64df0cfa16e96ed778513d12e6dfbfe8b4c2f50fe18a8e57e26f082aabe89/ItsNotRexed/Leonida",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "69 points · 40 comments",
-          "score": 3.597,
+          "hn": "111 points · 71 comments",
+          "score": 3.473,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Sandwich Simulator",
           "link": "https://stulle.app/",
@@ -377,8 +415,8 @@
           "image": "https://stulle.app/og.jpg",
           "icon": "https://stulle.app/apple-touch-icon.png",
           "domain": "stulle.app",
-          "hn": "74 points · 39 comments",
-          "score": 3.433,
+          "hn": "125 points · 51 comments",
+          "score": 3.296,
           "coverage": 1
         },
         {
@@ -390,34 +428,8 @@
           "image": "https://opengraph.githubassets.com/5aacfd5b469e460b8519c744c121b08ad0d457404c537c829713a442cf3d4f04/sebaandrada-cell/PcapAnalyzer",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "83 points · 9 comments",
-          "score": 2.944,
-          "coverage": 1
-        },
-        {
-          "title": "Advice for the next 100 Rust GUIs",
-          "link": "https://linebender.org/blog/next-100-guis/",
-          "excerpt": "Advice for the next 100 Rust GUIs",
-          "source": "linebender.org via Hacker News",
-          "date": "Nov 21",
-          "image": null,
-          "icon": "https://linebender.org/favicon.ico",
-          "domain": "linebender.org",
-          "hn": "112 points · 22 comments",
-          "score": 3.006,
-          "coverage": 1
-        },
-        {
-          "title": "Review: Godzilla Minus Zero joins the list of truly stellar sequels",
-          "link": "https://arstechnica.com/culture/2026/11/review-godzilla-minus-zero-is-everything-we-could-want-in-a-sequel/",
-          "excerpt": "Director Takashi Yamazaki ups the ante by pitting Godzilla against one of the monster's greatest foes",
-          "source": "Ars Technica",
-          "date": "Nov 21",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/godzillaTOP-500x500.jpg",
-          "icon": null,
-          "domain": "arstechnica.com",
-          "hn": null,
-          "score": 0.503,
+          "hn": "95 points · 9 comments",
+          "score": 2.71,
           "coverage": 1
         }
       ]
