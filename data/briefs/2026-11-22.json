@@ -13,22 +13,22 @@
     "note": null,
     "labels": [
       "AI Agents & Agent Security",
-      "9h ago"
+      "13h ago"
     ],
     "also": []
   },
   "pulse": [
     {
-      "title": "GnuPG Security Advisory for GPGME",
-      "thread": "https://news.ycombinator.com/item?id=50587208",
-      "link": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
-      "link_domain": "lists.gnupg.org",
-      "source": "Hacker News",
-      "domain": "lists.gnupg.org",
-      "meta": "Hacker News · 247 points · 98 comments · 21h ago",
+      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced",
+      "thread": "https://lobste.rs/s/32rhzb/researcher_plants_2m_canaries_into_ai",
+      "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "link_domain": "arstechnica.com",
+      "source": "Lobsters",
+      "domain": "arstechnica.com",
+      "meta": "Lobsters · 24 points · 3 comments · 7h ago",
       "also": [],
-      "image": null,
-      "icon": "https://lists.gnupg.org/favicon.ico"
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-privacy-leakage-1152x648.jpg",
+      "icon": "https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-300x300.png"
     },
     {
       "title": "Upload2Shell (CVE-2026-125396)",
@@ -37,10 +37,22 @@
       "link_domain": "pwn.ai",
       "source": "Hacker News",
       "domain": "pwn.ai",
-      "meta": "Hacker News · 101 points · 46 comments · 11h ago",
+      "meta": "Hacker News · 116 points · 57 comments · 15h ago",
       "also": [],
       "image": "https://pwn.ai/upload2shell-share.png?v=2",
       "icon": "https://pwn.ai/favicon.ico"
+    },
+    {
+      "title": "Microsoft 365 Outage - Post Incident Report",
+      "thread": "https://lobste.rs/s/becitz/microsoft_365_outage_post_incident",
+      "link": "https://tianyin.github.io/misc/pir_microsoft_365_11-12-2026.pdf",
+      "link_domain": "tianyin.github.io",
+      "source": "Lobsters",
+      "domain": "tianyin.github.io",
+      "meta": "Lobsters · 15 points · 7 comments · 21h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://tianyin.github.io/favicon.ico"
     }
   ],
   "sections": [
@@ -57,26 +69,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.793,
-          "coverage": 1
-        }
-      ],
-      "more": []
-    },
-    {
-      "name": "AI Agents & Agent Security",
-      "cards": [
-        {
-          "title": "\"Dumbass\" RFK Jr. Rescued Measles from Obscurity. What Horror Is Next?",
-          "link": "https://newrepublic.com/post/218245/rfk-jr-measles-trump-outbreak",
-          "excerpt": "Thanks to the Trump administration, America has seemed broken lately. But Kennedy’s malfeasance deserves more attention.",
-          "source": "newrepublic.com via Hacker News",
-          "date": "Nov 22",
-          "image": "https://images.newrepublic.com/d718e6c472353bdc5c1f9f871e8c35f7cca046a4.jpeg?w=1200&h=630&crop=faces&fit=crop&fm=jpg",
-          "icon": "https://assets.newrepublic.com/assets/favicons/apple-touch-icon-57x57.png",
-          "domain": "newrepublic.com",
-          "hn": "10 points · 3 comments",
-          "score": 3.414,
+          "score": 0.658,
           "coverage": 1
         }
       ],
@@ -95,7 +88,7 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.755,
+          "score": 0.636,
           "coverage": 1
         }
       ],
@@ -104,6 +97,32 @@
     {
       "name": "Security & AppSec",
       "cards": [
+        {
+          "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+          "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+          "excerpt": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a…",
+          "source": "The Hacker News",
+          "date": "Nov 22",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEGP3P_elvK4C-QnSx5onZ67viDXCIgPCUYqtTF_RDNcLJfyQ4QMbegUmn8AJy5nEmnXfN4ACr6hHztG_DdqXlj54S21toacPQaZgRx2rgqZltN3lvREpZR2xlvgXF_iZ7zW0XT0b91mMiRDVaEB6TUvMFlWwaSa3_C7gwpxdKcNhLtIq15KqwaZrR3VI/s1600/openrouter.png",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.431,
+          "coverage": 1
+        },
+        {
+          "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+          "link": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+          "excerpt": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the…",
+          "source": "The Hacker News",
+          "date": "Nov 22",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1BiCJUIrSJXNfKPZEkM46ynK6Rs7gba2xMaTUdoJ7yOK6Y8kcKMqJ_6PhbUIog_U1E8gRCpbj2HrkQ9UEpbPi1HOvkxdxCE5Afa5LbkNhUPvgU7Sa60IVHAWqSvgJaX1p6frMAN335QncL5UTZ3a4v1-agyb8ZXIlMGZTOtzsC0Gll2qRI0NJNMHTsf8/s1600/ghostscript.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.43,
+          "coverage": 1
+        },
         {
           "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
           "link": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
@@ -114,9 +133,11 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.232,
+          "score": 0.207,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
           "link": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
@@ -127,7 +148,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 2.09,
+          "score": 1.72,
           "coverage": 2
         },
         {
@@ -140,11 +161,9 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.247,
+          "score": 0.219,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Industry Reactions to Major Outages and AI Patching Debate: Feedback Friday",
           "link": "https://www.securityweek.com/industry-reactions-to-major-outages-and-ai-patching-questions-feedback-friday/",
@@ -155,7 +174,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.135,
+          "score": 0.126,
           "coverage": 1
         },
         {
@@ -168,7 +187,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.925,
+          "score": 0.866,
           "coverage": 1
         },
         {
@@ -181,33 +200,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.13,
-          "coverage": 1
-        },
-        {
-          "title": "Ruby Patches Ruby2Shell Vulnerability That Could Lead to RCE",
-          "link": "https://www.securityweek.com/ruby-patches-ruby2shell-vulnerability-that-could-lead-to-rce/",
-          "excerpt": "Tracked as CVE-2026-132825, the bug is a heap-based buffer overflow that could lead to remote code execution (RCE).",
-          "source": "SecurityWeek",
-          "date": "Nov 20",
-          "image": "https://www.securityweek.com/wp-content/uploads/2024/04/Vulnerability-Databases.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 2.166,
-          "coverage": 2
-        },
-        {
-          "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
-          "link": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
-          "excerpt": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
-          "source": "BleepingComputer",
-          "date": "Nov 21",
-          "image": "https://www.bleepstatic.com/content/hl-images/2022/12/09/Rackspace.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
-          "hn": null,
-          "score": 2.637,
+          "score": 0.122,
           "coverage": 1
         }
       ]
@@ -215,6 +208,19 @@
     {
       "name": "Platform, Cloud & Reliability",
       "cards": [
+        {
+          "title": "Google Announces Agent Compute Engine for Secure AI Agent Execution",
+          "link": "https://www.infoq.com/news/2026/11/google-agent-compute-engine/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Google recently announced Agent Compute Engine, a managed service that runs AI agents in isolated microVMs, with checkpointing capabilities to suspend and resume execution environments. The design keeps credentials, API keys, and OAuth refresh tokens outside the agent sandbox, using an external…",
+          "source": "InfoQ",
+          "date": "Nov 22",
+          "image": "https://res.infoq.com/news/2026/11/google-agent-compute-engine/en/headerimage/generatedHeaderImage-1793561615054.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 4.936,
+          "coverage": 1
+        },
         {
           "title": "Introducing ambient networking for GKE",
           "link": "https://cloud.google.com/blog/products/networking/ambient-networking-for-gke-sidecarless-service-mesh/",
@@ -225,7 +231,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.283,
+          "score": 1.193,
           "coverage": 1
         },
         {
@@ -238,9 +244,11 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 1.131,
+          "score": 1.051,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Scope down permissions of existing sessions using AWS STS GetScopedCredentials",
           "link": "https://aws.amazon.com/blogs/security/scope-down-permissions-of-existing-sessions-using-aws-sts-getscopedcredentials/",
@@ -251,11 +259,9 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 1.471,
+          "score": 1.355,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "How Bee implemented Zero Operator Access for personal AI on AWS",
           "link": "https://aws.amazon.com/blogs/architecture/how-bee-implemented-zero-operator-access-for-personal-ai-on-aws/",
@@ -266,7 +272,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.952,
+          "score": 0.882,
           "coverage": 1
         },
         {
@@ -279,7 +285,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.817,
+          "score": 0.765,
           "coverage": 1
         },
         {
@@ -292,7 +298,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.183,
+          "score": 0.17,
           "coverage": 1
         },
         {
@@ -305,20 +311,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.183,
-          "coverage": 1
-        },
-        {
-          "title": "Agent Anomaly Detection: Safeguarding agents across other clouds",
-          "link": "https://developers.googleblog.com/agent-anomaly-detection-safeguarding-agents-across-other-clouds/",
-          "excerpt": "Agent Anomaly Detection now monitors ADK agents running across AWS, Azure, or on-premises by analyzing their traces and logs in your Google Cloud project. By ingesting OpenTelemetry-formatted data through the Telemetry API, it evaluates full conversations for behavioral drift without needing…",
-          "source": "Google Developers Blog",
-          "date": null,
-          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/00-hero-banner.2e16d0ba.fill-1200x600.png",
-          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
-          "domain": "developers.googleblog.com",
-          "hn": null,
-          "score": 0.25,
+          "score": 0.17,
           "coverage": 1
         }
       ]
@@ -326,6 +319,32 @@
     {
       "name": "News & Research",
       "cards": [
+        {
+          "title": "Show HN: The Riemann Proof Handbook",
+          "link": "https://github.com/tamnd/riemann-handbook",
+          "excerpt": "The Riemann Handbook: the proof of the Riemann Hypothesis in tamnd/riemann-lean, written as mathematics, as PDF and EPUB - tamnd/riemann-handbook",
+          "source": "github.com via Hacker News",
+          "date": "Nov 22",
+          "image": "https://opengraph.githubassets.com/b115b9993b4c1520ea4cb15309e09cef7d04cf54b4ac4d747190b170f68457f6/tamnd/riemann-handbook",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "43 points · 13 comments",
+          "score": 2.989,
+          "coverage": 1
+        },
+        {
+          "title": "Fast-Anything: Don't rewrite it in Rust. Rewrite the 5% that's slow",
+          "link": "https://github.com/EL4CTEO/fast-anything",
+          "excerpt": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same. - EL4CTEO/fast-anything",
+          "source": "github.com via Hacker News",
+          "date": "Nov 22",
+          "image": "https://opengraph.githubassets.com/9c341cda6c2eb305d492e395f3159cc33dca367fc8b96c6cebd1771410ffe146/EL4CTEO/fast-anything",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "25 points · 10 comments",
+          "score": 2.457,
+          "coverage": 1
+        },
         {
           "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
           "link": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
@@ -335,21 +354,23 @@
           "image": "https://hips.hearstapps.com/hmg-prod/images/d8009593-6fd1-4860-b42e-c59e9945155a.jpeg?crop=1xw:0.75xh;0xw,0.184xh&resize=1200:*",
           "icon": "https://www.caranddriver.com/_assets/design-tokens/caranddriver/static/images/apple-touch-icon.57b92b6.png",
           "domain": "caranddriver.com",
-          "hn": "180 points · 91 comments",
-          "score": 4.529,
+          "hn": "453 points · 262 comments",
+          "score": 4.126,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
-          "title": "Together.ai: Prompt Leakage for Requests",
-          "link": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
-          "excerpt": "We are notifying customers about a security incident involving a subset of prompts submitted to Together AI’s serverless inference service in June and July 2026.",
-          "source": "together.ai via Hacker News",
+          "title": "Notes on the discrete Fourier transform (DFT)",
+          "link": "https://eli.thegreenplace.net/2026/notes-on-the-discrete-fourier-transform-dft/",
+          "excerpt": "23 points · 4 comments",
+          "source": "eli.thegreenplace.net via Hacker News",
           "date": "Nov 22",
-          "image": "https://cdn.prod.website-files.com/69654e88dce9154b5f12070c/6b022ac06b3b148585570c47_OG-image_20261121-security-event-prompt-leakage2.png",
-          "icon": "https://cdn.prod.website-files.com/69654e88dce9154b5f1206dd/69a59cff65ed0f267dd2fbe8_touchicon.png",
-          "domain": "together.ai",
-          "hn": "15 points · 5 comments",
-          "score": 2.536,
+          "image": null,
+          "icon": "https://eli.thegreenplace.net/favicon.ico",
+          "domain": "eli.thegreenplace.net",
+          "hn": "23 points · 4 comments",
+          "score": 2.734,
           "coverage": 1
         },
         {
@@ -361,23 +382,8 @@
           "image": "https://openrouter.ai/og.png",
           "icon": "https://openrouter.ai/blog/brand/openrouter-favicon.svg",
           "domain": "openrouter.ai",
-          "hn": "77 points · 29 comments",
-          "score": 3.416,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "The Most Popular Car Colors in America",
-          "link": "https://www.iseecars.com/most-popular-car-colors-study",
-          "excerpt": "White, black, gray and silver dominate the car market, while red and green are far less common than 30 years ago and sports cars are the most colorful...",
-          "source": "iseecars.com via Hacker News",
-          "date": "Nov 22",
-          "image": null,
-          "icon": "https://cdn2.iseecars.com/site/a66dcbcb963658ce40b2a0501996d6ef53068aa4/img/iseecars_icon_48x48.png",
-          "domain": "iseecars.com",
-          "hn": "18 points · 23 comments",
-          "score": 2.931,
+          "hn": "141 points · 54 comments",
+          "score": 3.077,
           "coverage": 1
         },
         {
@@ -389,21 +395,8 @@
           "image": "https://noemamag.imgix.net/2026/01/The-Mythology-of-Conscious-AI-scaled.jpg?fit=crop&fm=pjpg&h=628&ixlib=php-3.3.1&w=1200&wpsize=noema-social-facebook&s=ac64b80d34a8583e44429565e7df4a07",
           "icon": "https://www.noemamag.com/wp-content/uploads/2020/06/cropped-ms-icon-310x310-1-180x180.png",
           "domain": "noemamag.com",
-          "hn": "22 points · 48 comments",
-          "score": 3.145,
-          "coverage": 1
-        },
-        {
-          "title": "Leonida – PC Recompilation of the Xbox Version of GTA 6",
-          "link": "https://github.com/ItsNotRexed/Leonida",
-          "excerpt": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6 - ItsNotRexed/Leonida",
-          "source": "github.com via Hacker News",
-          "date": "Nov 22",
-          "image": "https://opengraph.githubassets.com/8ed64df0cfa16e96ed778513d12e6dfbfe8b4c2f50fe18a8e57e26f082aabe89/ItsNotRexed/Leonida",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "111 points · 71 comments",
-          "score": 3.473,
+          "hn": "59 points · 116 comments",
+          "score": 3.012,
           "coverage": 1
         },
         {
@@ -415,8 +408,8 @@
           "image": "https://stulle.app/og.jpg",
           "icon": "https://stulle.app/apple-touch-icon.png",
           "domain": "stulle.app",
-          "hn": "125 points · 51 comments",
-          "score": 3.296,
+          "hn": "221 points · 71 comments",
+          "score": 2.964,
           "coverage": 1
         },
         {
@@ -428,8 +421,8 @@
           "image": "https://opengraph.githubassets.com/5aacfd5b469e460b8519c744c121b08ad0d457404c537c829713a442cf3d4f04/sebaandrada-cell/PcapAnalyzer",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "95 points · 9 comments",
-          "score": 2.71,
+          "hn": "112 points · 13 comments",
+          "score": 2.361,
           "coverage": 1
         }
       ]

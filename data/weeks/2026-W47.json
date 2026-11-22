@@ -70,6 +70,15 @@
   ],
   "top": [
     {
+      "title": "Lean verification of the Riemann Hypothesis",
+      "link": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "source": "leanprover-community.github.io via Hacker News",
+      "section": "News & Research",
+      "date": "2026-11-21",
+      "coverage": 4,
+      "score": 7.03
+    },
+    {
       "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
       "link": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
       "source": "The Hacker News",
@@ -77,15 +86,6 @@
       "date": "2026-11-19",
       "coverage": 3,
       "score": 8.799
-    },
-    {
-      "title": "Lean verification of the Riemann Hypothesis",
-      "link": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-      "source": "leanprover-community.github.io via Hacker News",
-      "section": "News & Research",
-      "date": "2026-11-21",
-      "coverage": 3,
-      "score": 7.03
     },
     {
       "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
@@ -151,13 +151,13 @@
       "score": 3.61
     },
     {
-      "title": "Ruby Patches Ruby2Shell Vulnerability That Could Lead to RCE",
-      "link": "https://www.securityweek.com/ruby-patches-ruby2shell-vulnerability-that-could-lead-to-rce/",
+      "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
+      "link": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
       "source": "SecurityWeek",
       "section": "Security & AppSec",
       "date": "2026-11-22",
       "coverage": 2,
-      "score": 2.166
+      "score": 1.72
     }
   ]
 }
