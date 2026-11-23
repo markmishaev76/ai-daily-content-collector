@@ -1,12 +1,12 @@
 {
   "date": "2026-11-23",
   "lead": {
-    "title": "Nvidia reverses course and brings Jensen Huang back as CEO",
-    "link": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
-    "excerpt": "The stunning reversal was supported by senior officials in the U.S. government.",
+    "title": "Trump reportedly called into Nvidia board meeting to advocate for Huang’s return",
+    "link": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
+    "excerpt": "\"I spoke to them, let me put it that way... And I convinced them,\" the president told CNBC.",
     "source": "TechCrunch",
     "date": "Nov 23",
-    "image": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2205754389.jpg?w=1024",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2277839095.jpg?w=1024",
     "image_credit": null,
     "section": "News & Research",
     "pinned": false,
@@ -14,12 +14,12 @@
     "labels": [
       "4 sources",
       "News & Research",
-      "under 1h ago"
+      "2h ago"
     ],
     "also": [
       {
-        "name": "nvidianews.nvidia.com",
-        "link": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+        "name": "cnbc.com",
+        "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html"
       },
       {
         "name": "arstechnica.com",
@@ -27,7 +27,7 @@
       },
       {
         "name": "theverge.com",
-        "link": "https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated"
+        "link": "https://www.theverge.com/tech/1040069/jensen-huang-return-elon-musk-sam-altman-yay"
       }
     ]
   },
@@ -39,7 +39,7 @@
       "link_domain": "gpupartner.com",
       "source": "Hacker News",
       "domain": "gpupartner.com",
-      "meta": "Hacker News · 635 points · 262 comments · 18h ago",
+      "meta": "Hacker News · 706 points · 282 comments · 22h ago",
       "also": [],
       "image": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth/opengraph-image-17m7t5?6653c98c6cd84ba6",
       "icon": "https://www.gpupartner.com/apple-icon?7dadfa4265c0ee6c"
@@ -51,10 +51,22 @@
       "link_domain": "gl-inet.com",
       "source": "Hacker News",
       "domain": "gl-inet.com",
-      "meta": "Hacker News · 239 points · 112 comments · 16h ago",
+      "meta": "Hacker News · 262 points · 120 comments · 20h ago",
       "also": [],
       "image": "https://www.gl-inet.com/cdn/shop/articles/20261121-145609_1200x675.jpg?v=1795244669",
       "icon": "https://www.gl-inet.com/cdn/shop/files/A00CDB8D-ECDF-47BC-A37F-72A6B18D9F6C_32x32.png?v=1781750555"
+    },
+    {
+      "title": "The next circle of security hell",
+      "thread": "https://news.ycombinator.com/item?id=50610334",
+      "link": "https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/",
+      "link_domain": "blogs.gentoo.org",
+      "source": "Hacker News",
+      "domain": "blogs.gentoo.org",
+      "meta": "Hacker News · 187 points · 101 comments · 7h ago",
+      "also": [],
+      "image": "https://s0.wp.com/i/blank.jpg",
+      "icon": "https://blogs.gentoo.org/favicon.ico"
     },
     {
       "title": "Agent swarm trying to solve P vs. NP",
@@ -63,7 +75,7 @@
       "link_domain": "pequalnp.com",
       "source": "Hacker News",
       "domain": "pequalnp.com",
-      "meta": "Hacker News · 160 points · 146 comments · 17h ago",
+      "meta": "Hacker News · 171 points · 153 comments · 21h ago",
       "also": [],
       "image": "https://pequalnp.com/assets/689aa71085f3/img/share-home.png",
       "icon": "https://pequalnp.com/favicon.ico"
@@ -83,7 +95,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 4.355,
+          "score": 3.788,
           "coverage": 1
         },
         {
@@ -96,9 +108,24 @@
           "icon": "https://sebastianraschka.com/images/favicons/favicon-32x32.png",
           "domain": "sebastianraschka.com",
           "hn": null,
-          "score": 0.616,
+          "score": 0.54,
           "coverage": 1
         },
+        {
+          "title": "Supercharging transformer residual connections",
+          "link": "https://research.google/blog/supercharging-transformer-residual-connections/",
+          "excerpt": "Algorithms & Theory",
+          "source": "Google Research",
+          "date": "Nov 23",
+          "image": "https://storage.googleapis.com/gweb-research2023-media/original_images/DeepCrossAttention1_Banner.gif",
+          "icon": null,
+          "domain": "research.google",
+          "hn": null,
+          "score": 1.278,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "Select Styling Specimens",
           "link": "https://simonwillison.net/2026/Nov/22/select-styling/",
@@ -109,11 +136,9 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.57,
+          "score": 0.504,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Lies our engineering metrics tell us",
           "link": "https://leaddev.com/reporting/lies-our-engineering-metrics-tell-us?utm_source=leaddev&utm_medium=RSS",
@@ -124,7 +149,7 @@
           "icon": null,
           "domain": "leaddev.com",
           "hn": null,
-          "score": 1.092,
+          "score": 0.874,
           "coverage": 1
         },
         {
@@ -137,7 +162,33 @@
           "icon": null,
           "domain": "leaddev.com",
           "hn": null,
-          "score": 0.954,
+          "score": 0.784,
+          "coverage": 1
+        },
+        {
+          "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+          "link": "https://huggingface.co/blog/allenai/robotrack",
+          "excerpt": "A Blog post by Ai2 on Hugging Face",
+          "source": "Hugging Face",
+          "date": "Nov 23",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/0KlbITzhyUGtGPyvi09um.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null,
+          "score": 1.277,
+          "coverage": 1
+        },
+        {
+          "title": "A more tailored Google Search that’s uniquely yours",
+          "link": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+          "excerpt": "Google Search bar with the text \"Personal Intelligence\" surrounded by the Google Wallet, Google Drive, GMail, Google Photos, Google Calendar, and Google G logo icons",
+          "source": "Google AI",
+          "date": "Nov 23",
+          "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_pContext_Drive_1118.max-600x600.format-webp.webp",
+          "icon": null,
+          "domain": "blog.google",
+          "hn": null,
+          "score": 1.247,
           "coverage": 1
         }
       ]
@@ -155,7 +206,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.292,
+          "score": 0.271,
           "coverage": 1
         },
         {
@@ -168,7 +219,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.783,
+          "score": 0.618,
           "coverage": 1
         }
       ],
@@ -187,7 +238,7 @@
           "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
           "domain": "stratechery.com",
           "hn": null,
-          "score": 0.918,
+          "score": 0.734,
           "coverage": 1
         },
         {
@@ -200,7 +251,48 @@
           "icon": null,
           "domain": "sloanreview.mit.edu",
           "hn": null,
-          "score": 0.978,
+          "score": 0.772,
+          "coverage": 1
+        },
+        {
+          "title": "The unit of activation: How industrial companies can make AI work",
+          "link": "https://www.mckinsey.com/industries/industrials/our-insights/the-unit-of-activation-how-industrial-companies-can-make-ai-work",
+          "excerpt": "Industrial companies won’t unlock AI’s full potential by adding new tools to old processes. They need to redesign workflows—and a practical way to make that transformation happen.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 23",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.477,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "AI economics in action: What four companies have done and learned",
+          "link": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/ai-economics-in-action-what-four-companies-have-done-and-learned",
+          "excerpt": "As the cost of AI increases, some companies have found a way to lower expenses and improve outcomes.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 23",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.477,
+          "coverage": 1
+        },
+        {
+          "title": "Is Japan due for a business reset?",
+          "link": "https://www.mckinsey.com/featured-insights/future-of-asia/future-of-asia-podcasts/is-japan-due-for-a-business-reset",
+          "excerpt": "After three decades of stagnant economic growth, a new McKinsey report shows how Japan could unlock its potential through a new era of corporate dynamism.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 23",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.477,
           "coverage": 1
         },
         {
@@ -213,11 +305,10 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.549,
+          "score": 0.477,
           "coverage": 1
         }
-      ],
-      "more": []
+      ]
     },
     {
       "name": "Agent Identity & Authorization",
@@ -232,7 +323,20 @@
           "icon": null,
           "domain": "developer.okta.com",
           "hn": null,
-          "score": 4.609,
+          "score": 4.009,
+          "coverage": 1
+        },
+        {
+          "title": "Registering MCP Clients with CIMD in Auth0",
+          "link": "https://auth0.com/blog/registering-mcp-clients-with-cimd-in-auth0/",
+          "excerpt": "Learn how Auth0 supports MCP client registration via CIMD.",
+          "source": "Auth0 Blog",
+          "date": "Nov 23",
+          "image": "https://images.ctfassets.net/23aumh6u8s0i/3noYslEn6tOwiSUT2ayrwG/92f90741c15a373ff9b6b036b1a2c736/registering-mcp-clients-with-auth0-hero.jpeg",
+          "icon": null,
+          "domain": "auth0.com",
+          "hn": null,
+          "score": 4.009,
           "coverage": 1
         }
       ],
@@ -241,6 +345,19 @@
     {
       "name": "Secrets & NHI",
       "cards": [
+        {
+          "title": "How to Benchmark Secret Detection Vendors Without Fooling Yourself: 8-Step Guide",
+          "link": "https://blog.gitguardian.com/how-to-benchmark-secrets-detection-vendors/",
+          "excerpt": "Comparing secrets detection tools sounds simple: run each on the same data and count findings. In practice, the dataset, matching rules, and labeling method can each flip the result. Here’s a vendor-neutral method to benchmark secret scanning tools fairly.",
+          "source": "GitGuardian",
+          "date": "Nov 23",
+          "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/11/benchmark-thumbnail-vendors-v2.png",
+          "icon": null,
+          "domain": "blog.gitguardian.com",
+          "hn": null,
+          "score": 0.777,
+          "coverage": 1
+        },
         {
           "title": "What Five Months of the Enterprise Good Samaritan Program Taught Us",
           "link": "https://blog.gitguardian.com/exposed-credentials-still-valid/",
@@ -251,7 +368,26 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 0.875,
+          "score": 0.674,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Supply Chain & Builds",
+      "cards": [
+        {
+          "title": "This Shit is Hard: Shipping upstream releases at Factory scale",
+          "link": "https://www.chainguard.dev/unchained/this-shit-is-hard-shipping-upstream-releases-at-factory-scale",
+          "excerpt": "Learn how Chainguard automates package maintenance with AI agents, from discovering new releases to fixing build failures and verifying updates.",
+          "source": "Chainguard: Unchained",
+          "date": "Nov 23",
+          "image": "https://images.ctfassets.net/l47ir7rfykkn/7gSHaas52xKYCc2C4ci4VJ/79aeb37438904b9155182defe1ca106a/This_Shit_is_Hard__Shipping_upstream_releases_at_Factory_scale.png",
+          "icon": "https://www.chainguard.dev/favicon.ico",
+          "domain": "chainguard.dev",
+          "hn": null,
+          "score": 2.154,
           "coverage": 1
         }
       ],
@@ -270,9 +406,37 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 4.904,
+          "score": 3.681,
           "coverage": 1
         },
+        {
+          "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
+          "link": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
+          "excerpt": "The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an attempt to remove recognizable detection fingerprints, while disguising it as network-monitoring software to establish covert remote access to compromised…",
+          "source": "The Hacker News",
+          "date": "Nov 23",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9_mXkFA2_QQWa_ajcGxgoc3rSAfxGJqP-uIREqPGAfJGM7D7-mLrjwSE_F1egX-pwVRvMRinRGs4QbcBE1yJrmHFw4Fa_ILg6ZuTIOy1bf86-wPQ-Zgsqa-6hqdBapRROk97rOeT-Vfa002vHuWF6fCSE1KPttjswyjUeBxjrJzrmVU9KY724e75Giq1T/s1600/chinese-malware.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.526,
+          "coverage": 1
+        },
+        {
+          "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+          "link": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
+          "excerpt": "A stolen key. A trusted message. A routine update. None of these looks like the start of a major security problem. That's partly why they work. Attackers don't always need to break down a door. Sometimes they just use one that's already open. This week's stories show how quickly a small opening…",
+          "source": "The Hacker News",
+          "date": "Nov 23",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBkXdg7nYK3nVTpBuC9FL7mGBvzvUxU0VxYplArVFYSTg2d_6tFITemHBYRAOD29pVBKzfo2aZ9Jsy8avRdACCMqrVdlEER0zn2xIWDBdswcH_nZpnJYkfORK6CEaWwX3f-B8AvkUqbR2TLNa7odUG4PFu1uTk_cwsUt8DPGJBSjjF2wd8VPIa5ATJ4fo3/s1600/crecap.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 3.1,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
           "link": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
@@ -283,7 +447,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.516,
+          "score": 0.399,
           "coverage": 1
         },
         {
@@ -296,11 +460,9 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.491,
+          "score": 0.384,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
           "link": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
@@ -311,7 +473,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 3.39,
+          "score": 2.657,
           "coverage": 1
         },
         {
@@ -324,7 +486,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.397,
+          "score": 0.324,
           "coverage": 1
         },
         {
@@ -337,34 +499,8 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 7.771,
+          "score": 6.001,
           "coverage": 3
-        },
-        {
-          "title": "AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
-          "link": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
-          "excerpt": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country. This unsanctioned activity has resulted in unauthorized financial…",
-          "source": "The Hacker News",
-          "date": "Nov 23",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijDifo0ih-I06DQJbgdnt34Xg1qWdMibKByoJO-4vqa50M4yN0Lwu4fDe88GBtoiKHMJnRDYM0WXvYDEMyCWFHEbedl0wzwKI7juH9Q9xs3osQjZK0xPygeuGm0bm6jgpWPa7bca1EuZfTQiLxn-X3aNaAhbchhvemZrCqslieabzsGmz4ezqhrKuYhDyk/s1600/ai-india.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.38,
-          "coverage": 1
-        },
-        {
-          "title": "N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack",
-          "link": "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/",
-          "excerpt": "The company has restored access to the affected services and continues to monitor the affected environments.",
-          "source": "SecurityWeek",
-          "date": "Nov 23",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/08/N-Able.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.589,
-          "coverage": 1
         }
       ]
     },
@@ -381,9 +517,37 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 4.57,
+          "score": 3.592,
           "coverage": 1
         },
+        {
+          "title": "Data + AI Anywhere: AlloyDB Omni integration with local models",
+          "link": "https://cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models/",
+          "excerpt": "Open models like Gemma 4 from Google DeepMind are a great option to keep your data local. But how can a local AI model integrate with on-premises data? AlloyDB Omni, Google’s 100% PostgreSQL-compatible database that runs anywhere, now integrates with locally hosted large language models (LLMs).…",
+          "source": "Cloud Blog",
+          "date": "Nov 23",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1_-_alloydb-omni-local-models.max-1000x1000.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 4.124,
+          "coverage": 1
+        },
+        {
+          "title": "Protect identity data with point-in-time recovery in Amazon Cognito",
+          "link": "https://aws.amazon.com/blogs/security/protect-identity-data-with-point-in-time-recovery-in-amazon-cognito/",
+          "excerpt": "Amazon Cognito helps you implement secure sign-in and access control for users, microservices, and AI agents in minutes. Many of you rely on it for some of the most critical data you operate: the identities and attributes your applications use to authenticate and authorize every request. Recently,…",
+          "source": "AWS Security Blog",
+          "date": "Nov 23",
+          "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/20/cognito-1.png",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 4.318,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "Netflix at QConSF 2026: Retrofitting the SDLC for AI Coding Agents",
           "link": "https://www.infoq.com/news/2026/11/netflix-sdlc-ai-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -394,7 +558,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 4.106,
+          "score": 3.084,
           "coverage": 1
         },
         {
@@ -407,48 +571,33 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 3.109,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "Least privilege by default: what's new in Pulumi Cloud RBAC",
-          "link": "https://www.pulumi.com/blog/pulumi-cloud-rbac-least-privilege-by-default/",
-          "excerpt": "Access control in Pulumi Cloud now starts from least privilege. Every organization gets three new built-in roles, you can share a single stack or environment with a teammate, and you can create service principals to give your automated workloads their own identity. Why change how access works?…",
-          "source": "Pulumi Blog",
-          "date": "Nov 23",
-          "image": "https://www.pulumi.com/images/generated/blog/pulumi-cloud-rbac-least-privilege-by-default/index.png",
-          "icon": null,
-          "domain": "pulumi.com",
-          "hn": null,
-          "score": 0.329,
+          "score": 2.486,
           "coverage": 1
         },
         {
-          "title": "Bring your own model to Pulumi Agents",
-          "link": "https://www.pulumi.com/blog/bring-your-own-model-to-pulumi-agents/",
-          "excerpt": "You can now run Pulumi Agents on the models your team already uses. Connect your organization’s model provider account, and your provider bills you directly for the requests your agents make. You can use that connection across your organization or give an individual agent its own choice of model.…",
-          "source": "Pulumi Blog",
+          "title": "How Sinch modernized its enterprise data warehouse from Snowflake to BigQuery to power AI",
+          "link": "https://cloud.google.com/blog/products/data-analytics/how-sinch-migrated-from-snowflake-to-bigquery-to-power-ai/",
+          "excerpt": "As the scale of global communications grows larger and larger, enterprise platforms must process billions of interactions with customers across a complex network of touchpoints without breaking them. A prime example is Sinch, one of the world’s leading cloud communications and customer engagement…",
+          "source": "Cloud Blog",
           "date": "Nov 23",
-          "image": "https://www.pulumi.com/images/generated/blog/bring-your-own-model-to-pulumi-agents/index.png",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_OgG7rWd.max-1000x1000.png",
           "icon": null,
-          "domain": "pulumi.com",
+          "domain": "cloud.google.com",
           "hn": null,
-          "score": 0.329,
+          "score": 2.6,
           "coverage": 1
         },
         {
-          "title": "Probing DNS at Cloudflare",
-          "link": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
-          "excerpt": "At Cloudflare we’ve built tools to enable teams to extend our internal testing framework and build test tooling for networking protocols. This is the story of how this was used for DNS.",
-          "source": "Cloudflare Blog",
-          "date": "Nov 23",
-          "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7XNSAD6F3PP947NHEMWKBFV.png",
-          "icon": null,
-          "domain": "blog.cloudflare.com",
+          "title": "Did the user ask for this? Securing AI agents against intent hijacking with Semantic governance policies",
+          "link": "https://developers.googleblog.com/did-the-user-ask-for-this-securing-ai-agents-against-intent-hijacking-with-semantic-governance-policies/",
+          "excerpt": "Semantic governance policies protect AI agents from indirect prompt injection and intent hijacking by validating every proposed tool call against user intent and natural language constraints before execution. As demonstrated on the AgentDojo benchmark using a Gemini 2.5 Flash agent, this mechanism…",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/intent-hijacking-header-fullname-.2e16d0ba.fill-1200x600.png",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
           "hn": null,
-          "score": 0.843,
+          "score": 2.294,
           "coverage": 1
         },
         {
@@ -458,19 +607,6 @@
           "source": "Google Developers Blog",
           "date": null,
           "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Dilco_header.2e16d0ba.fill-1200x600.jpg",
-          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
-          "domain": "developers.googleblog.com",
-          "hn": null,
-          "score": 0.25,
-          "coverage": 1
-        },
-        {
-          "title": "Build full-stack Android apps with Gemini in Google AI Studio",
-          "link": "https://developers.googleblog.com/build-full-stack-android-apps-with-gemini-in-google-ai-studio/",
-          "excerpt": "Google AI Studio now lets developers build, test, and ship full-stack Kotlin Android apps from a single prompt—complete with Cloud Firestore, Firebase Authentication, Firebase AI Logic, a faster HD emulator with audio, visual screenshot debugging, and direct publishing to your personal Google Play…",
-          "source": "Google Developers Blog",
-          "date": null,
-          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_41reuz41re.2e16d0ba.fill-1200x600.jpg",
           "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
           "domain": "developers.googleblog.com",
           "hn": null,
@@ -492,33 +628,33 @@
           "icon": null,
           "domain": "arstechnica.com",
           "hn": null,
-          "score": 3.312,
+          "score": 2.613,
           "coverage": 1
         },
         {
-          "title": "Meta Muse can do your Black Friday shopping at Walmart",
-          "link": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
-          "excerpt": "Walmart will now let Meta's Muse shop on your behalf, allowing the AI agent to find and purchase Black Friday deals via Walmart's Sparky AI assistant. The retail giant is rolling out a live implementation of the Agent Gateway it announced last month, which helps AI agents find relevant products…",
-          "source": "The Verge",
+          "title": "CrowdStrike to acquire Zscaler for $44 billion",
+          "link": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/",
+          "excerpt": "The cybersecurity giant said that the deal to buy Zscaler, which provides zero-trust products to large enterprises, will better equip their customers to use AI agents.",
+          "source": "TechCrunch",
           "date": "Nov 23",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Walmart-Meta-Muse-Agent-Gateway.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "icon": null,
-          "domain": "theverge.com",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/crowdstrike-2162041873.jpg?resize=1200,800",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
           "hn": null,
-          "score": 3.109,
+          "score": 3.364,
           "coverage": 1
         },
         {
-          "title": "Kodak’s next collectible is a tiny digital photo frame that doubles as a tracker",
-          "link": "https://www.theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink",
-          "excerpt": "After expanding its Charmera collection with a Millennium Edition featuring Y2K-inspired designs earlier this year, Reto's follow-up to its tiny Kodak camera is an equally small digital photo frame you can use to display your shots. But while the Charmera's usefulness stopped at snapping grainy…",
-          "source": "The Verge",
+          "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+          "link": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+          "excerpt": "Image-Text-to-Text model with 27B parameters. Download, explore files and run it on Hugging Face.",
+          "source": "huggingface.co via Hacker News",
           "date": "Nov 23",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/kodak1.jpg?quality=90&strip=all&crop=0,0,100,100",
-          "icon": null,
-          "domain": "theverge.com",
-          "hn": null,
-          "score": 2.087,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/nari-labs/Qwen3.8-27B-NariQ-GGUF.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": "17 points · 2 comments",
+          "score": 2.116,
           "coverage": 1
         }
       ],
@@ -533,59 +669,59 @@
           "icon": null,
           "domain": "content.knowledgehub.wiley.com",
           "hn": null,
-          "score": 3.412,
+          "score": 2.603,
           "coverage": 1
         },
         {
-          "title": "Jensen Huang Reinstated as Nvidia CEO",
-          "link": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
-          "excerpt": "NVIDIA (NASDAQ: NVDA) today announced that effective immediately, Jensen Huang has been reinstated as President and Chief Executive Officer and as a member of the Board.",
-          "source": "nvidianews.nvidia.com via Hacker News",
-          "date": "Nov 23",
-          "image": "https://nvidianews.nvidia.com/media/sites/219/images/social-image.jpg",
-          "icon": "https://nvidianews.nvidia.com/media/sites/219/images/itouch.png",
-          "domain": "nvidianews.nvidia.com",
-          "hn": "1163 points · 910 comments",
-          "score": 15.924,
-          "coverage": 4
-        },
-        {
-          "title": "Win4wine – Run Windows Shell as the Linux Desktop on Wine",
-          "link": "https://github.com/mikuta0407/win4wine",
-          "excerpt": "Windows XP の Explorer を Wine 上で Linux のデスクトップシェルとして動かす / Run Windows XP's shell as the Linux desktop on Wine - mikuta0407/win4wine",
+          "title": "Apple removed my open-source app from EU App Stores after 9 years",
+          "link": "https://github.com/glushchenko/fsnotes/discussions/2056",
+          "excerpt": "Hi everyone! For those who don't know me, let me introduce myself. I'm the independent developer behind FSNotes, an open-source note-taking app for macOS and iOS. I've been developing FSNotes for 9...",
           "source": "github.com via Hacker News",
           "date": "Nov 23",
-          "image": "https://opengraph.githubassets.com/90f426aa8e31befbcee4a13aa34c6001e5f86e00b6234e51ab0c3368e315cbda/mikuta0407/win4wine",
+          "image": "https://opengraph.githubassets.com/6ffea309f85ed97869c3b78c189a48d8d64ff8c2f775724d1730980d0bf84ad9/glushchenko/fsnotes/discussions/2056",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "62 points · 24 comments",
-          "score": 3.508,
+          "hn": "19 points · 2 comments",
+          "score": 3.044,
           "coverage": 1
         },
         {
-          "title": "The next circle of security hell",
-          "link": "https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/",
-          "excerpt": "A few years back I wrote “The modern packager’s security nightmare”. Have things improved since? On the contrary, I feel like we’re slipping down a well-oiled slope with no end in…",
-          "source": "blogs.gentoo.org via Hacker News",
+          "title": "Kagi Mail (public beta)",
+          "link": "https://blog.kagi.com/kagi-mail-public-beta",
+          "excerpt": "A private email and calendar with a @kagimail.com address, or with your own domains.",
+          "source": "blog.kagi.com via Hacker News",
           "date": "Nov 23",
-          "image": "https://s0.wp.com/i/blank.jpg",
-          "icon": "https://blogs.gentoo.org/favicon.ico",
-          "domain": "blogs.gentoo.org",
-          "hn": "102 points · 49 comments",
-          "score": 3.661,
+          "image": "https://blog.kagi.com/og-image.png",
+          "icon": "https://blog.kagi.com/favicon-32x32.png",
+          "domain": "blog.kagi.com",
+          "hn": "131 points · 101 comments",
+          "score": 4.38,
           "coverage": 1
         },
         {
-          "title": "Nospeaker ─ Make your MacBook's trackpad talk using its haptic motor",
-          "link": "https://github.com/os6/nospeaker",
-          "excerpt": "make your macbook's trackpad talk using its haptic motor - os6/nospeaker",
-          "source": "github.com via Hacker News",
+          "title": "Dario is hyping the dangers so OSS models are illegal and *he* stays in control",
+          "link": "https://twitter.com/ylecun/status/2124550037912920090",
+          "excerpt": "Dario's spiel since GPT-2 has always been about hyping the dangers so that open models would be made illegal and *he* would stay in control. He left OpenAI because he wasn't going to have control. It's like the Ottoman Empire banning the printing press for Arabic so they would keep in control of th…",
+          "source": "twitter.com via Hacker News",
           "date": "Nov 23",
-          "image": "https://opengraph.githubassets.com/42a92cdef76b4768bfdb2cb47d51c93b1d4dbc3df8a71a2242fa914567ccebc0/os6/nospeaker",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "78 points · 29 comments",
-          "score": 3.436,
+          "image": "https://pbs.twimg.com/profile_images/1483577865056702469/rWA-3_T7_400x400.jpg",
+          "icon": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
+          "domain": "twitter.com",
+          "hn": "78 points · 21 comments",
+          "score": 3.742,
+          "coverage": 1
+        },
+        {
+          "title": "Ladybird is now in alpha",
+          "link": "https://ladybird.org/posts/alpha/",
+          "excerpt": "Alpha builds of Ladybird are available today for macOS and Linux. They're for early adopters who don't mind bugs and want to help by reporting them.",
+          "source": "ladybird.org via Hacker News",
+          "date": "Nov 23",
+          "image": "https://ladybird.org/assets/img/logo-new.webp",
+          "icon": "https://ladybird.org/assets/img/ladybird_favicon.png",
+          "domain": "ladybird.org",
+          "hn": "723 points · 205 comments",
+          "score": 4.979,
           "coverage": 1
         }
       ]

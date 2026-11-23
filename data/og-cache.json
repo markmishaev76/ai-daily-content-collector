@@ -653,6 +653,12 @@
   "icon": "https://blog.infected.systems/apple-touch-icon.png",
   "image": null
  },
+ "https://blog.kagi.com/kagi-mail-public-beta": {
+  "description": "A private email and calendar with a @kagimail.com address, or with your own domains.",
+  "fetched": "2026-11-23",
+  "icon": "https://blog.kagi.com/favicon-32x32.png",
+  "image": "https://blog.kagi.com/og-image.png"
+ },
  "https://blog.keyvan.net/p/ai-text-watermarking-and-quality": {
   "description": "After the EU AI Act’s transparency guidelines went into effect, and following the announcement that most major AI labs will soon be watermarking their text output to comply, there has been some debate about how much of an impact this is going to have, if any, on the quality of the text produced by AI models.",
   "fetched": "2026-11-01",
@@ -1318,6 +1324,12 @@
   "fetched": "2026-10-31",
   "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
   "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Developers_Blog_Header_1.2e16d0ba.fill-1200x600.jpg"
+ },
+ "https://developers.googleblog.com/did-the-user-ask-for-this-securing-ai-agents-against-intent-hijacking-with-semantic-governance-policies/": {
+  "description": "Learn how Semantic governance policies protect AI agents from intent hijacking by validating tool calls against user intent to block prompt injection attacks.",
+  "fetched": "2026-11-23",
+  "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/intent-hijacking-header-fullname-.2e16d0ba.fill-1200x600.png"
  },
  "https://developers.googleblog.com/distributed-llm-training-across-metros-streaming-diloco-in-maxtext/": {
   "description": "Discover how Streaming DiLoCo in MaxText enables resilient, low-communication LLM training across geographically distributed TPU slices and datacenters without compromising model quality.",
@@ -2081,6 +2093,12 @@
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://opengraph.githubassets.com/398ed72e9316d12d32e3371787d19fb096c1afc67fd25fc61f9c70d69c03087c/ggml-org/ggml/releases/tag/v1.0.0"
  },
+ "https://github.com/glushchenko/fsnotes/discussions/2056": {
+  "description": "Hi everyone! For those who don't know me, let me introduce myself. I'm the independent developer behind FSNotes, an open-source note-taking app for macOS and iOS. I've been developing FSNotes for 9...",
+  "fetched": "2026-11-23",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://opengraph.githubassets.com/6ffea309f85ed97869c3b78c189a48d8d64ff8c2f775724d1730980d0bf84ad9/glushchenko/fsnotes/discussions/2056"
+ },
  "https://github.com/gmkurtzer/ginux": {
   "description": "Contribute to gmkurtzer/ginux development by creating an account on GitHub.",
   "fetched": "2026-11-11",
@@ -2525,6 +2543,12 @@
   "icon": null,
   "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/ZrKpGOLkSf0LmAf3bnJIX.png"
  },
+ "https://huggingface.co/blog/allenai/robotrack": {
+  "description": "A Blog post by Ai2 on Hugging Face",
+  "fetched": "2026-11-23",
+  "icon": null,
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/0KlbITzhyUGtGPyvi09um.png"
+ },
  "https://huggingface.co/blog/allenai/statebench": {
   "description": "A Blog post by Ai2 on Hugging Face",
   "fetched": "2026-11-04",
@@ -2686,6 +2710,12 @@
   "fetched": "2026-11-03",
   "icon": null,
   "image": "https://huggingface.co/blog/assets/transformers-mic/mic-logo.png"
+ },
+ "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF": {
+  "description": "Image-Text-to-Text model with 27B parameters. Download, explore files and run it on Hugging Face.",
+  "fetched": "2026-11-23",
+  "icon": null,
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/nari-labs/Qwen3.8-27B-NariQ-GGUF.png"
  },
  "https://hugovk.dev/blog/2026/lock-github-actions/": {
   "description": null,
@@ -2914,6 +2944,12 @@
   "fetched": "2026-10-30",
   "icon": "https://labs.ycombinator.com/favicon.png?v=black2",
   "image": "https://labs.ycombinator.com/og.png"
+ },
+ "https://ladybird.org/posts/alpha/": {
+  "description": "Alpha builds of Ladybird are available today for macOS and Linux. They're for early adopters who don't mind bugs and want to help by reporting them.",
+  "fetched": "2026-11-23",
+  "icon": "https://ladybird.org/assets/img/ladybird_favicon.png",
+  "image": "https://ladybird.org/assets/img/logo-new.webp"
  },
  "https://lamont.columbia.edu/news/giant-canyon-mars-still-tectonically-active-today": {
   "description": null,
@@ -5645,11 +5681,29 @@
   "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
   "image": "https://techcrunch.com/wp-content/uploads/2017/12/gettyimages-673436934.jpg?resize=1200,813"
  },
+ "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/": {
+  "description": "The cybersecurity giant said that the deal to buy Zscaler, which provides zero-trust products to large enterprises, will better equip their customers to use AI agents.",
+  "fetched": "2026-11-23",
+  "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/11/crowdstrike-2162041873.jpg?resize=1200,800"
+ },
  "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/": {
   "description": "The stunning reversal was supported by senior officials in the U.S. government.",
   "fetched": "2026-11-23",
   "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
   "image": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2205754389.jpg?w=1024"
+ },
+ "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/": {
+  "description": "The president cited the U.S. attorney general in defending Huang's return, while urging Nvidia to continue its export-control investigation.",
+  "fetched": "2026-11-23",
+  "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2297572109.jpg?w=1024"
+ },
+ "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/": {
+  "description": "\"I spoke to them, let me put it that way... And I convinced them,\" the president told CNBC.",
+  "fetched": "2026-11-23",
+  "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+  "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2277839095.jpg?w=1024"
  },
  "https://tendrils.co/blog/2026-11-10/30m-raised": {
   "description": null,
@@ -5836,6 +5890,12 @@
   "fetched": "2026-11-09",
   "icon": "https://x.com/apple-touch-icon.png",
   "image": "https://pbs.twimg.com/media/HWjhsqYWMAALhKb?format=webp&name=large"
+ },
+ "https://twitter.com/ylecun/status/2124550037912920090": {
+  "description": "Dario's spiel since GPT-2 has always been about hyping the dangers so that open models would be made illegal and *he* would stay in control. He left OpenAI because he wasn't going to have control. It's like the Ottoman Empire banning the printing press for Arabic so they would keep in control of th…",
+  "fetched": "2026-11-23",
+  "icon": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
+  "image": "https://pbs.twimg.com/profile_images/1483577865056702469/rWA-3_T7_400x400.jpg"
  },
  "https://typemill.net/knowledge-hub/tasks-as-code": {
   "description": "AI coding agents work from your repository, so why keep tasks in Jira? Learn how Tasks as Code stores them as Markdown in Git, next to code and docs.",
@@ -7163,6 +7223,12 @@
   "icon": null,
   "image": "https://images.ctfassets.net/l47ir7rfykkn/pyFdDf4x33Kjpem0wFv75/9bf4f0ec3f1f8ab7dd0edc7c9129bbf6/15a61dad-1d40-4e94-997c-e9e4ea3d18e7.png"
  },
+ "https://www.chainguard.dev/unchained/this-shit-is-hard-shipping-upstream-releases-at-factory-scale": {
+  "description": "Learn how Chainguard automates package maintenance with AI agents, from discovering new releases to fixing build failures and verifying updates.",
+  "fetched": "2026-11-23",
+  "icon": null,
+  "image": "https://images.ctfassets.net/l47ir7rfykkn/7gSHaas52xKYCc2C4ci4VJ/79aeb37438904b9155182defe1ca106a/This_Shit_is_Hard__Shipping_upstream_releases_at_Factory_scale.png"
+ },
  "https://www.chainguard.dev/unchained/wfx-loot-stolen-github-tokens-pushed-a-ci-secret-stealer-into-60-000-repositories-november-2026": {
   "description": "The wfx supply chain attack compromised thousands of GitHub repositories. See how it works, what credentials it steals, and how to stay protected.",
   "fetched": "2026-11-13",
@@ -7204,6 +7270,12 @@
   "fetched": "2026-11-17",
   "icon": "https://fm.cnbc.com/applications/cnbc.com/resources/img/CNBC_LOGO_FAVICON_1C_KO_RGB.ico",
   "image": "https://image.cnbcfm.com/api/v1/image/108548918-1794403575214-gettyimages-2192346840-widak-nvidiasc250106_npmp9.jpeg?v=1794403600&w=1920&h=1080"
+ },
+ "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html": {
+  "description": "The Nvidia board said it had input from senior levels of the U.S. government.",
+  "fetched": "2026-11-23",
+  "icon": "https://fm.cnbc.com/applications/cnbc.com/resources/img/CNBC_LOGO_FAVICON_1C_KO_RGB.ico",
+  "image": "https://image.cnbcfm.com/api/v1/image/108353993-1787677585886-108353993-1787675816989-gettyimages-2266718431-NVIDIA_GTC.jpg?v=1795450778&w=1920&h=1080"
  },
  "https://www.cncf.io/blog/2026/11/02/the-linkerd-story-the-people-behind-the-service-mesh-a-new-documentary-premieres-at-kubecon-cloudnativecon-north-america-2026/": {
   "description": "Join CNCF and Buoyant on November 9 in Salt Lake City for the premiere of a new documentary celebrating a decade of Linkerd, the evolution of service mesh technology, and the people who helped make it…",
@@ -7835,6 +7907,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.mckinsey.com/capabilities/quantumblack/our-insights/ai-economics-in-action-what-four-companies-have-done-and-learned": {
+  "description": null,
+  "fetched": "2026-11-23",
+  "icon": null,
+  "image": null
+ },
  "https://www.mckinsey.com/capabilities/quantumblack/our-insights/reinventing-business-planning-with-agentic-ai": {
   "description": null,
   "fetched": "2026-11-11",
@@ -7934,6 +8012,12 @@
  "https://www.mckinsey.com/featured-insights/bob-bowman-on-winning-show-up-and-do-your-work": {
   "description": null,
   "fetched": "2026-10-30",
+  "icon": null,
+  "image": null
+ },
+ "https://www.mckinsey.com/featured-insights/future-of-asia/future-of-asia-podcasts/is-japan-due-for-a-business-reset": {
+  "description": null,
+  "fetched": "2026-11-23",
   "icon": null,
   "image": null
  },
@@ -8066,6 +8150,12 @@
  "https://www.mckinsey.com/industries/industrials/our-insights/physical-ai-is-breaking-out-of-the-box": {
   "description": null,
   "fetched": "2026-11-20",
+  "icon": null,
+  "image": null
+ },
+ "https://www.mckinsey.com/industries/industrials/our-insights/the-unit-of-activation-how-industrial-companies-can-make-ai-work": {
+  "description": null,
+  "fetched": "2026-11-23",
   "icon": null,
   "image": null
  },
