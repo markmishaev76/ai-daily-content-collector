@@ -13,7 +13,7 @@
     "note": null,
     "labels": [
       "News & Research",
-      "2h ago"
+      "4h ago"
     ],
     "also": []
   },
@@ -25,7 +25,7 @@
       "link_domain": "betterdatacenterproject.com",
       "source": "Hacker News",
       "domain": "betterdatacenterproject.com",
-      "meta": "Hacker News · 915 points · 918 comments · 19h ago",
+      "meta": "Hacker News · 934 points · 936 comments · 21h ago",
       "also": [],
       "image": "https://i0.wp.com/betterdatacenterproject.com/wp-content/uploads/2026/11/anthropic-total-co2.png?fit=1200%2C1065&ssl=1",
       "icon": "https://i0.wp.com/betterdatacenterproject.com/wp-content/uploads/2025/09/bdcp_logo.png?fit=180%2C180&ssl=1"
@@ -37,7 +37,7 @@
       "link_domain": "gpupartner.com",
       "source": "Hacker News",
       "domain": "gpupartner.com",
-      "meta": "Hacker News · 326 points · 138 comments · 7h ago",
+      "meta": "Hacker News · 379 points · 157 comments · 9h ago",
       "also": [],
       "image": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth/opengraph-image-17m7t5?6653c98c6cd84ba6",
       "icon": "https://www.gpupartner.com/apple-icon?7dadfa4265c0ee6c"
@@ -49,10 +49,22 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 286 points · 67 comments · 14h ago",
+      "meta": "Hacker News · 300 points · 72 comments · 16h ago",
       "also": [],
       "image": "https://opengraph.githubassets.com/17a508e9e1cd67e485b6a06bb005b063110205455e3967d7ab4cd91f35b58e5b/gulivan/worker755",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
+    },
+    {
+      "title": "GL.iNet Security Notice 2026-11-20",
+      "thread": "https://news.ycombinator.com/item?id=50604988",
+      "link": "https://www.gl-inet.com/en-us/blogs/blog/glinet-security-notice-2026-11-20",
+      "link_domain": "gl-inet.com",
+      "source": "Hacker News",
+      "domain": "gl-inet.com",
+      "meta": "Hacker News · 146 points · 71 comments · 6h ago",
+      "also": [],
+      "image": "https://www.gl-inet.com/cdn/shop/articles/20261121-145609_1200x675.jpg?v=1795244669",
+      "icon": "https://www.gl-inet.com/cdn/shop/files/A00CDB8D-ECDF-47BC-A37F-72A6B18D9F6C_32x32.png?v=1781750555"
     },
     {
       "title": "Agent swarm trying to solve P vs. NP",
@@ -61,7 +73,7 @@
       "link_domain": "pequalnp.com",
       "source": "Hacker News",
       "domain": "pequalnp.com",
-      "meta": "Hacker News · 128 points · 107 comments · 6h ago",
+      "meta": "Hacker News · 140 points · 112 comments · 8h ago",
       "also": [],
       "image": "https://pequalnp.com/assets/689aa71085f3/img/share-home.png",
       "icon": "https://pequalnp.com/favicon.ico"
@@ -73,22 +85,10 @@
       "link_domain": "bloodinthemachine.com",
       "source": "Hacker News",
       "domain": "bloodinthemachine.com",
-      "meta": "Hacker News · 110 points · 47 comments · 15h ago",
+      "meta": "Hacker News · 116 points · 48 comments · 17h ago",
       "also": [],
       "image": "https://substackcdn.com/image/fetch/$s_!MW3Y!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,$fp_!0.3439:1!/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5d71c583-fbcc-4b20-91c7-e1bdabe47973_4978x3319.jpeg",
       "icon": "https://substackcdn.com/image/fetch/$s_!uBF_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56dd7639-d031-4eab-8fb2-86650d4b5794%2Fapple-touch-icon-57x57.png"
-    },
-    {
-      "title": "AI Supply Chain Security: What Canary Tokens Found",
-      "thread": "https://news.ycombinator.com/item?id=50596511",
-      "link": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
-      "link_domain": "dragos.com",
-      "source": "Hacker News",
-      "domain": "dragos.com",
-      "meta": "Hacker News · 103 points · 22 comments · 22h ago",
-      "also": [],
-      "image": "https://dragos.brightspotcdn.com/dims4/default/41c5c4a/2147483647/strip/true/crop/1307x735+309+0/resize/1440x810!/format/webp/quality/90/?url=https%3A%2F%2Fdragos-production-dragos.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fd4%2Fb6%2Fb4dbcbe348a8b3506fb99c5419e7%2Fxot-hero.webp",
-      "icon": "https://www.dragos.com/favicon.ico"
     }
   ],
   "sections": [
@@ -105,7 +105,7 @@
           "icon": "https://sebastianraschka.com/images/favicons/favicon-32x32.png",
           "domain": "sebastianraschka.com",
           "hn": null,
-          "score": 1.0,
+          "score": 0.9,
           "coverage": 1
         },
         {
@@ -118,7 +118,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.884,
+          "score": 0.805,
           "coverage": 1
         }
       ],
@@ -127,19 +127,6 @@
     {
       "name": "AI Agents & Agent Security",
       "cards": [
-        {
-          "title": "Dario Amodei suggests video games could pacify the masses after AI takes jobs",
-          "link": "https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness",
-          "excerpt": "A profile of Dario and Daniela Amodei, published in the Wall Street Journal following Anthropic’s record-breaking IPO, includes an anecdote in which Dario seems to acknowledge the world-destabilizing potential of AI, then suggests a particularly dystopian solution: > There, he engaged in debates…",
-          "source": "theverge.com via Hacker News",
-          "date": "Nov 23",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRG_DCD_1121_Site.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-          "icon": "https://www.theverge.com/static-assets/icons/apple-touch-icon.png",
-          "domain": "theverge.com",
-          "hn": "12 points · 8 comments",
-          "score": 3.532,
-          "coverage": 1
-        },
         {
           "title": "Perplexity and Intelligence",
           "link": "https://openai.com/index/perplexity-and-intelligence",
@@ -150,7 +137,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.374,
+          "score": 0.356,
           "coverage": 1
         }
       ],
@@ -169,7 +156,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.337,
+          "score": 0.308,
           "coverage": 1
         },
         {
@@ -182,7 +169,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 2.066,
+          "score": 1.91,
           "coverage": 1
         },
         {
@@ -195,11 +182,24 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 1.015,
+          "score": 0.975,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "Google claims last week’s critical VMware bug was under attack in September",
+          "link": "https://www.theregister.com/virtualization/2026/11/23/google-claims-last-weeks-critical-vmware-bug-was-under-attack-in-september/5311547",
+          "excerpt": "China-linked ARMORY CASTLE knew about it weeks before it unleashed five custom malware tools targeting vCenter",
+          "source": "The Register",
+          "date": "Nov 23",
+          "image": "https://image.theregister.com/?imageId=261387&width=800",
+          "icon": null,
+          "domain": "theregister.com",
+          "hn": null,
+          "score": 0.535,
+          "coverage": 1
+        },
         {
           "title": "$1 of GPT-5.1 tokens finds new ways around China’s Great Firewall",
           "link": "https://www.theregister.com/security/2026/11/23/1-of-gpt-51-tokens-finds-new-ways-around-chinas-great-firewall/5311532",
@@ -210,7 +210,7 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 0.458,
+          "score": 0.406,
           "coverage": 1
         }
       ]
@@ -228,7 +228,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.518,
+          "score": 0.465,
           "coverage": 1
         },
         {
@@ -241,7 +241,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.331,
+          "score": 0.308,
           "coverage": 1
         },
         {
@@ -254,7 +254,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.267,
+          "score": 0.252,
           "coverage": 1
         }
       ],
@@ -269,7 +269,7 @@
           "icon": "https://sreweekly.com/wp-content/uploads/2015/12/cropped-sreweekly-logo-axes-180x180.png",
           "domain": "sreweekly.com",
           "hn": null,
-          "score": 0.75,
+          "score": 0.643,
           "coverage": 1
         },
         {
@@ -282,7 +282,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.181,
+          "score": 0.174,
           "coverage": 1
         },
         {
@@ -295,7 +295,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.178,
+          "score": 0.171,
           "coverage": 1
         },
         {
@@ -338,8 +338,8 @@
           "image": "https://opengraph.githubassets.com/75b28284c5f36c5490bf842880effefd1077c6345a569064945b9ace5943d3b0/mjwsolo/localcode",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "37 points · 12 comments",
-          "score": 5.035,
+          "hn": "46 points · 13 comments",
+          "score": 4.618,
           "coverage": 1
         },
         {
@@ -352,20 +352,20 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 3.875,
+          "score": 3.362,
           "coverage": 1
         },
         {
-          "title": "What we learned operating auth for 1k APIs",
-          "link": "https://nango.dev/blog/lessons-from-operating-api-auth-for-900-apis/",
-          "excerpt": "Production lessons from operating auth for 1,000+ APIs.",
-          "source": "nango.dev via Hacker News",
+          "title": "DeFlock Amerca Facebook Group Suspended as a Dangerous Organization",
+          "link": "https://www.facebook.com/shugvermonte/posts/the-deflock-america-group-with-over-840k-members-has-been-suspended-by-meta-what/10165140280736049/",
+          "excerpt": "The DeFlock America group with over 840k members has been suspended by Meta. What they can't block or suspend are the grassroots movements forming across America. Suspended for thought crimes....",
+          "source": "facebook.com via Hacker News",
           "date": "Nov 23",
-          "image": "https://cdn.sanity.io/images/7yse5usn/production/3c399a96bf3e292ee10595e55c6598da8b0be60f-1674x940.jpg",
-          "icon": "https://nango.dev/apple-touch-icon.png",
-          "domain": "nango.dev",
-          "hn": "15 points · 2 comments",
-          "score": 2.416,
+          "image": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.99422-6/926565802_1319525056967043_7275237550580400758_n.png?stp=dst-jpg_tt6&cstp=mx803x1075&ctp=p600x600&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=b96d88&_nc_ohc=kSKRZXj5ngAQ7kNvwHEHq9S&_nc_oc=Adp010jY9cC53PIo1HDU6aRi6I1st482omYQNvQQFa_FdwA5Y7bwCwiUM2p_kdBiW9g&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=EQGGAvrTdEASS1E-QzHlwQ&_nc_ss=7b100&oh=00_AQRyQh15QQ1jXnjR6I7_FgzdFiOW-h146RC5_x2LbcFSNQ&oe=6B09946D",
+          "icon": "https://static.xx.fbcdn.net/rsrc.php/y1/r/ay1hV6OlegS.ico",
+          "domain": "facebook.com",
+          "hn": "29 points · 2 comments",
+          "score": 3.107,
           "coverage": 1
         }
       ],
@@ -379,47 +379,47 @@
           "image": null,
           "icon": "https://0rwx.com/static/favicon/favicon.svg",
           "domain": "0rwx.com",
-          "hn": "27 points · 6 comments",
-          "score": 5.627,
+          "hn": "34 points · 6 comments",
+          "score": 5.112,
           "coverage": 1
         },
         {
-          "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
-          "link": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
-          "excerpt": "Try out Artifacts created by Claude users",
-          "source": "claude.ai via Hacker News",
-          "date": "Nov 22",
-          "image": "https://claude.ai/images/claude_ogimage.png",
-          "icon": "https://claude.ai/favicon.ico",
-          "domain": "claude.ai",
-          "hn": "175 points · 151 comments",
-          "score": 3.866,
+          "title": "XNU Linux: Full OS X GUI Userspace on Linux",
+          "link": "https://github.com/AFK-surf/xnulinux",
+          "excerpt": "XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux) - AFK-surf/xnulinux",
+          "source": "github.com via Hacker News",
+          "date": "Nov 23",
+          "image": "https://opengraph.githubassets.com/e752cf8f6a56faffcc7e1aaa789b6dbe66d2e73781e54825412e3aa2b74e4924/AFK-surf/xnulinux",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "97 points · 33 comments",
+          "score": 3.938,
           "coverage": 1
         },
         {
-          "title": "GL.iNet Security Notice 2026-11-20",
-          "link": "https://www.gl-inet.com/en-us/blogs/blog/glinet-security-notice-2026-11-20",
-          "excerpt": "On November 20, 2026, GL.iNet identified a vulnerability in its cloud remote management services. An unauthorized party exploited the vulnerability to access and install malicious software on some GL.iNet routers and KVM devices.",
-          "source": "gl-inet.com via Hacker News",
-          "date": "Nov 22",
-          "image": "https://www.gl-inet.com/cdn/shop/articles/20261121-145609_1200x675.jpg?v=1795244669",
-          "icon": "https://www.gl-inet.com/cdn/shop/files/A00CDB8D-ECDF-47BC-A37F-72A6B18D9F6C_32x32.png?v=1781750555",
-          "domain": "gl-inet.com",
-          "hn": "123 points · 54 comments",
-          "score": 3.488,
-          "coverage": 1
-        },
-        {
-          "title": "The Usefulness of Useless Knowledge [pdf] (1939)",
-          "link": "https://www.ias.edu/sites/default/files/library/UsefulnessHarpers.pdf",
-          "excerpt": "81 points · 14 comments",
-          "source": "ias.edu via Hacker News",
-          "date": "Nov 22",
+          "title": "Treemap of the Riemann Hypothesis Lean Proof",
+          "link": "https://pengowray.github.io/riemann-zeta-proof-visualizer/",
+          "excerpt": "An explorable map of the 175,187 Lean modules in Levent Alpöge's formalization of the Riemann Hypothesis and GRH for Dirichlet L-functions.",
+          "source": "pengowray.github.io via Hacker News",
+          "date": "Nov 23",
           "image": null,
-          "icon": "https://www.ias.edu/favicon.ico",
-          "domain": "ias.edu",
-          "hn": "81 points · 14 comments",
-          "score": 2.965,
+          "icon": "https://pengowray.github.io/favicon.ico",
+          "domain": "pengowray.github.io",
+          "hn": "25 points · 4 comments",
+          "score": 2.554,
+          "coverage": 1
+        },
+        {
+          "title": "What we learned operating auth for 1k APIs",
+          "link": "https://nango.dev/blog/lessons-from-operating-api-auth-for-900-apis/",
+          "excerpt": "Production lessons from operating auth for 1,000+ APIs.",
+          "source": "nango.dev via Hacker News",
+          "date": "Nov 23",
+          "image": "https://cdn.sanity.io/images/7yse5usn/production/3c399a96bf3e292ee10595e55c6598da8b0be60f-1674x940.jpg",
+          "icon": "https://nango.dev/apple-touch-icon.png",
+          "domain": "nango.dev",
+          "hn": "28 points · 4 comments",
+          "score": 2.487,
           "coverage": 1
         }
       ]
