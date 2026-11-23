@@ -1,21 +1,35 @@
 {
   "date": "2026-11-23",
   "lead": {
-    "title": "0rwx – A simple model of AI usage, inspired by Unix permissions",
-    "link": "https://0rwx.com/",
-    "excerpt": "A simple model of AI usage, inspired by unix permissions.",
-    "source": "0rwx.com via Hacker News",
-    "date": "Nov 22",
-    "image": null,
+    "title": "Nvidia reverses course and brings Jensen Huang back as CEO",
+    "link": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+    "excerpt": "The stunning reversal was supported by senior officials in the U.S. government.",
+    "source": "TechCrunch",
+    "date": "Nov 23",
+    "image": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2205754389.jpg?w=1024",
     "image_credit": null,
     "section": "News & Research",
     "pinned": false,
     "note": null,
     "labels": [
+      "4 sources",
       "News & Research",
-      "10h ago"
+      "under 1h ago"
     ],
-    "also": []
+    "also": [
+      {
+        "name": "nvidianews.nvidia.com",
+        "link": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+      },
+      {
+        "name": "arstechnica.com",
+        "link": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/"
+      },
+      {
+        "name": "theverge.com",
+        "link": "https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated"
+      }
+    ]
   },
   "pulse": [
     {
@@ -25,22 +39,10 @@
       "link_domain": "gpupartner.com",
       "source": "Hacker News",
       "domain": "gpupartner.com",
-      "meta": "Hacker News · 528 points · 222 comments · 13h ago",
+      "meta": "Hacker News · 635 points · 262 comments · 18h ago",
       "also": [],
       "image": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth/opengraph-image-17m7t5?6653c98c6cd84ba6",
       "icon": "https://www.gpupartner.com/apple-icon?7dadfa4265c0ee6c"
-    },
-    {
-      "title": "Show HN: I built a game where you are an LLM's subagent",
-      "thread": "https://news.ycombinator.com/item?id=50599762",
-      "link": "https://github.com/gulivan/worker755",
-      "link_domain": "github.com",
-      "source": "Hacker News",
-      "domain": "github.com",
-      "meta": "Hacker News · 321 points · 78 comments · 20h ago",
-      "also": [],
-      "image": "https://opengraph.githubassets.com/17a508e9e1cd67e485b6a06bb005b063110205455e3967d7ab4cd91f35b58e5b/gulivan/worker755",
-      "icon": "https://github.githubassets.com/favicons/favicon.svg"
     },
     {
       "title": "GL.iNet Security Notice 2026-11-20",
@@ -49,7 +51,7 @@
       "link_domain": "gl-inet.com",
       "source": "Hacker News",
       "domain": "gl-inet.com",
-      "meta": "Hacker News · 208 points · 97 comments · 11h ago",
+      "meta": "Hacker News · 239 points · 112 comments · 16h ago",
       "also": [],
       "image": "https://www.gl-inet.com/cdn/shop/articles/20261121-145609_1200x675.jpg?v=1795244669",
       "icon": "https://www.gl-inet.com/cdn/shop/files/A00CDB8D-ECDF-47BC-A37F-72A6B18D9F6C_32x32.png?v=1781750555"
@@ -61,28 +63,29 @@
       "link_domain": "pequalnp.com",
       "source": "Hacker News",
       "domain": "pequalnp.com",
-      "meta": "Hacker News · 147 points · 130 comments · 12h ago",
+      "meta": "Hacker News · 160 points · 146 comments · 17h ago",
       "also": [],
       "image": "https://pequalnp.com/assets/689aa71085f3/img/share-home.png",
       "icon": "https://pequalnp.com/favicon.ico"
-    },
-    {
-      "title": "AI is becoming a disaster for the climate",
-      "thread": "https://news.ycombinator.com/item?id=50598961",
-      "link": "https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
-      "link_domain": "bloodinthemachine.com",
-      "source": "Hacker News",
-      "domain": "bloodinthemachine.com",
-      "meta": "Hacker News · 125 points · 54 comments · 22h ago",
-      "also": [],
-      "image": "https://substackcdn.com/image/fetch/$s_!MW3Y!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,$fp_!0.3439:1!/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5d71c583-fbcc-4b20-91c7-e1bdabe47973_4978x3319.jpeg",
-      "icon": "https://substackcdn.com/image/fetch/$s_!uBF_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56dd7639-d031-4eab-8fb2-86650d4b5794%2Fapple-touch-icon-57x57.png"
     }
   ],
   "sections": [
     {
       "name": "AI-Assisted Engineering",
       "cards": [
+        {
+          "title": "How to build and maintain an agentic evaluation",
+          "link": "https://huggingface.co/blog/agentic-evals",
+          "excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "source": "Hugging Face",
+          "date": "Nov 23",
+          "image": "https://huggingface.co/blog/assets/agentic-evals/thumbnail.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null,
+          "score": 4.355,
+          "coverage": 1
+        },
         {
           "title": "Pre-training is (still) not plateauing",
           "link": "https://sebastianraschka.com/blog/2026/pretraining-is-still-not-plateauing.html",
@@ -93,7 +96,7 @@
           "icon": "https://sebastianraschka.com/images/favicons/favicon-32x32.png",
           "domain": "sebastianraschka.com",
           "hn": null,
-          "score": 0.729,
+          "score": 0.616,
           "coverage": 1
         },
         {
@@ -106,7 +109,22 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.665,
+          "score": 0.57,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Lies our engineering metrics tell us",
+          "link": "https://leaddev.com/reporting/lies-our-engineering-metrics-tell-us?utm_source=leaddev&utm_medium=RSS",
+          "excerpt": "The metrics aren’t the problem. How you use them is.",
+          "source": "LeadDev",
+          "date": "Nov 23",
+          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2026/02/moving-target.jpg",
+          "icon": null,
+          "domain": "leaddev.com",
+          "hn": null,
+          "score": 1.092,
           "coverage": 1
         },
         {
@@ -119,11 +137,10 @@
           "icon": null,
           "domain": "leaddev.com",
           "hn": null,
-          "score": 1.255,
+          "score": 0.954,
           "coverage": 1
         }
-      ],
-      "more": []
+      ]
     },
     {
       "name": "AI Agents & Agent Security",
@@ -138,7 +155,103 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.32,
+          "score": 0.292,
+          "coverage": 1
+        },
+        {
+          "title": "Humans Have Rights. Machines Do Not.",
+          "link": "https://www.schneier.com/blog/archives/2026/11/humans-have-rights-machines-do-not.html",
+          "excerpt": "This essay originally appeared in Tech Policy Press. Last year, Character.AI asked a federal court in Florida to dismiss a wrongful-death suit, brought by the mother of a fourteen-year-old boy who had killed himself after months of conversation with its chatbot. The company made two arguments.…",
+          "source": "Schneier on Security",
+          "date": "Nov 23",
+          "image": null,
+          "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+          "domain": "schneier.com",
+          "hn": null,
+          "score": 0.783,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Leadership",
+      "cards": [
+        {
+          "title": "Amazon Earnings, The Chip Question, About Agents",
+          "link": "https://stratechery.com/2026/amazon-earnings-the-chip-question-about-agents/",
+          "excerpt": "Amazon makes the case they are not like other compute providers, even as they signal the willingness to give up margin to serve the frontier.",
+          "source": "Stratechery by Ben Thompson",
+          "date": "Nov 23",
+          "image": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9zdHJhdGVjaGVyeS5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMThcLzAzXC9jcm9wcGVkLWFuZHJvaWQtY2hyb21lLTUxMng1MTItMS5wbmc_Zml0PTUxMiUyQzUxMiZzc2w9MSIsInR4dCI6IlN0cmF0ZWNoZXJ5IGJ5IEJlbiBUaG9tcHNvbiIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxODgwNDM0MTV9.5VWck4PcKPWCTPe_HVznn3n3xsgn-G0b3d2OeiNNC7cMQ",
+          "icon": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=180%2C180&ssl=1",
+          "domain": "stratechery.com",
+          "hn": null,
+          "score": 0.918,
+          "coverage": 1
+        },
+        {
+          "title": "The Trouble With Continuous Personal Growth",
+          "link": "https://sloanreview.mit.edu/article/the-trouble-with-continuous-personal-growth/",
+          "excerpt": "Grundini/Ikon Images For four decades, I have studied work and working lives. During that time, I have watched assumptions that once seemed secure begin to unravel: that work happens in one location; that expertise accumulates steadily; that a career unfolds within one organization; that working…",
+          "source": "MIT Sloan Management Review",
+          "date": "Nov 23",
+          "image": "https://sloanreview.mit.edu/wp-content/uploads/2026/10/Gratton_Capability-1290x860-1.jpg",
+          "icon": null,
+          "domain": "sloanreview.mit.edu",
+          "hn": null,
+          "score": 0.978,
+          "coverage": 1
+        },
+        {
+          "title": "Rewiring GCC countries for AI: Realizing value in government",
+          "link": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/rewiring-gcc-countries-for-ai-realizing-value-in-government",
+          "excerpt": "AI use is near universal in the Gulf Cooperation Council, but value creation has not kept pace. In the public sector, turning adoption into impact requires attention to delivery and sovereignty issues.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 23",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.549,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Agent Identity & Authorization",
+      "cards": [
+        {
+          "title": "Implement Secure Cross App Access (XAA) in Go",
+          "link": "https://developer.okta.com/blog/2026/11/23/secure-go-mcp-app-cross-app-access/",
+          "excerpt": "See how a Go MCP app uses Cross App Access (XAA) and token exchange to let AI agents reach protected data without OAuth consent screens.",
+          "source": "Okta Developer Blog",
+          "date": "Nov 23",
+          "image": "https://developer.okta.com/blog/img/secure-go-mcp-app-cross-app-access/jX6L8uSfBz-1200.jpeg",
+          "icon": null,
+          "domain": "developer.okta.com",
+          "hn": null,
+          "score": 4.609,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Secrets & NHI",
+      "cards": [
+        {
+          "title": "What Five Months of the Enterprise Good Samaritan Program Taught Us",
+          "link": "https://blog.gitguardian.com/exposed-credentials-still-valid/",
+          "excerpt": "We warned 1,588 companies about their leaked credentials. 62% of the valid ones still worked, and only 35% of companies replied.",
+          "source": "GitGuardian",
+          "date": "Nov 23",
+          "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/11/5-months-of-enterprise-good-samaritan.png",
+          "icon": null,
+          "domain": "blog.gitguardian.com",
+          "hn": null,
+          "score": 0.875,
           "coverage": 1
         }
       ],
@@ -147,6 +260,60 @@
     {
       "name": "Security & AppSec",
       "cards": [
+        {
+          "title": "AI Agents Are Creating a Shared Responsibility Gap",
+          "link": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
+          "excerpt": "AI agents operate across multiple platforms, creating security gaps when no single vendor can see or control their actions. Token Security examines the shared responsibility problem and explains how organizations can better manage agent identities, permissions, and accountability. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 23",
+          "image": "https://www.bleepstatic.com/content/posts/2026/11/20/ai-shared-responsibility-gap.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 4.904,
+          "coverage": 1
+        },
+        {
+          "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
+          "link": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
+          "excerpt": "A critical security flaw has been disclosed in the popular binary-parser library that could allow an attacker who controls parser definitions to execute arbitrary code. The vulnerability, tracked as CVE-2026-134814 (CVSS score: 9.2 / 8.1), is a case of code injection impacting binary-parser…",
+          "source": "The Hacker News",
+          "date": "Nov 23",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ_LYD1NyoPDf8MFXggODpgd2hvazxjShSZltgrLUVic7V-ZIQSjXIzFrkUx0FNoUjlxlIYocEd1AZwGx66uqGWEUyd1TMSlDmxUu8M_r6jdYkmWDZjbszL2WsK7LJzrwI-NgsI7EaLe9WkLwNLGKj8ww3tTOY4X4JPug3RWQqoypUiEpZjVXgBhhcLuZG/s1600/js-cve.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.516,
+          "coverage": 1
+        },
+        {
+          "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+          "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+          "excerpt": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers. The activity revolves around CVE-2026-84869 (CVSS score: 9.9), a critical ScreenConnect client flaw that allows a guest to transfer and execute a malicious…",
+          "source": "The Hacker News",
+          "date": "Nov 23",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWAI03mMW-UNs2bdUuZEiugVBMZq3speEoo8tbQ7TZVITD4fnXiK4l657Tn4-G9fX2w8xLz2zkP9-RTrg3QZPtNMHL_Lg7YRoruCnp8TJA4tbA5bW1YsBZU8QR2FIqSb3_IpN1Le-Xoq2MQ82ZQyRNmYxr8q70PPzijzypDcIDKMIOjrzBweBUiKJ_nuJY/s1600/screens.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.491,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+          "link": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+          "excerpt": "N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers. The bug, tracked as CVE-2026-134624, is a server-side request forgery (SSRF) flaw. It allowed a user…",
+          "source": "The Hacker News",
+          "date": "Nov 23",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcXbCG8v5Kc2mTfNCFEiow0EHLJWtsrsrEodqvL8qF8awCnrDzw2TfxtPq7rYI3u78mviB8ekGNGL1Of8FZrSM6uZT1lhz2mfRHwHQyhQT8234u03WGZ9M4UZzmj2cYMs8qlsJ54PwNPvVMb2awEzinXAYL0Y25iOGjjikMvq4NQ-v03mqluZnI53PNdk/s1600/nables.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 3.39,
+          "coverage": 1
+        },
         {
           "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
           "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
@@ -157,7 +324,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.529,
+          "score": 0.397,
           "coverage": 1
         },
         {
@@ -170,11 +337,11 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.621,
-          "coverage": 2
+          "score": 7.771,
+          "coverage": 3
         },
         {
-          "title": "AI-Assisted Cyberattacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+          "title": "AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
           "link": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
           "excerpt": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country. This unsanctioned activity has resulted in unauthorized financial…",
           "source": "The Hacker News",
@@ -183,74 +350,20 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.5,
+          "score": 0.38,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
-          "title": "Microsoft confirms Windows printing issues affecting Forcepoint users",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/",
-          "excerpt": "Microsoft confirmed printing issues on systems running Forcepoint DLP software after installing the KB5132043 November 2026 Windows 11 hotpatch. [...]",
-          "source": "BleepingComputer",
+          "title": "N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack",
+          "link": "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/",
+          "excerpt": "The company has restored access to the affected services and continues to monitor the affected environments.",
+          "source": "SecurityWeek",
           "date": "Nov 23",
-          "image": "https://www.bleepstatic.com/content/hl-images/2026/10/05/Windows_11.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/08/N-Able.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
           "hn": null,
-          "score": 0.529,
-          "coverage": 1
-        },
-        {
-          "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
-          "excerpt": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]",
-          "source": "BleepingComputer",
-          "date": "Nov 23",
-          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/23/Cisco.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
-          "hn": null,
-          "score": 3.346,
-          "coverage": 1
-        },
-        {
-          "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
-          "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
-          "excerpt": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices. [...]",
-          "source": "BleepingComputer",
-          "date": "Nov 22",
-          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/22/routers-kvms.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
-          "hn": null,
-          "score": 2.621,
-          "coverage": 2
-        },
-        {
-          "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
-          "link": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
-          "excerpt": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
-          "source": "BleepingComputer",
-          "date": "Nov 22",
-          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/22/credit-cards.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
-          "hn": null,
-          "score": 1.621,
-          "coverage": 1
-        },
-        {
-          "title": "FBI reportedly hacked again, this time targeting nationwide police database",
-          "link": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
-          "excerpt": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]",
-          "source": "BleepingComputer",
-          "date": "Nov 21",
-          "image": "https://www.bleepstatic.com/content/hl-images/2022/12/16/FBI__headpic.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
-          "hn": null,
-          "score": 0.894,
+          "score": 0.589,
           "coverage": 1
         }
       ]
@@ -258,6 +371,47 @@
     {
       "name": "Platform, Cloud & Reliability",
       "cards": [
+        {
+          "title": "Claude Code Adds Experimental Code Mode to Orchestrate Tool Calls with JavaScript",
+          "link": "https://www.infoq.com/news/2026/11/claude-code-mode/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Anthropic's experimental Code Mode lets Claude Code write JavaScript that chains, parallelizes, and filters Bash, Read, and Edit calls, with changes to how auto mode and hooks review those calls. By Daniel Dominguez",
+          "source": "InfoQ",
+          "date": "Nov 23",
+          "image": "https://res.infoq.com/news/2026/11/claude-code-mode/en/headerimage/generatedHeaderImage-1795090945761.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 4.57,
+          "coverage": 1
+        },
+        {
+          "title": "Netflix at QConSF 2026: Retrofitting the SDLC for AI Coding Agents",
+          "link": "https://www.infoq.com/news/2026/11/netflix-sdlc-ai-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "At QCon San Francisco 2026, Mark Khuzam of Netflix explained how the Commerce team retrofitted its SDLC so AI coding agents and engineers could ship together. The team wrote 45 architecture decision records for people and agents, added a review agent that posts only verified blockers, and serves…",
+          "source": "InfoQ",
+          "date": "Nov 23",
+          "image": "https://res.infoq.com/news/2026/11/netflix-sdlc-ai-coding-agents/en/headerimage/netflix-header-1200x630-1795359626158.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 4.106,
+          "coverage": 1
+        },
+        {
+          "title": "Podcast: Simulation Can Tell You What Your Agents are Actually Doing: A Conversation with Zhou Yu",
+          "link": "https://www.infoq.com/podcasts/simulation-agents-actually-doing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Michael Stiefel spoke to Zhou Yu about using dynamic simulations to evaluate AI agents. One particular focus was conversational agents where actions depend on prior responses, and the non-deterministic nation of LLMs means you cannot rely on static, reference-based benchmarks. You need to test…",
+          "source": "InfoQ",
+          "date": "Nov 23",
+          "image": "https://res.infoq.com/podcasts/simulation-agents-actually-doing/en/smallimage/infoq-podcast-500-1794910149760.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 3.109,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "Least privilege by default: what's new in Pulumi Cloud RBAC",
           "link": "https://www.pulumi.com/blog/pulumi-cloud-rbac-least-privilege-by-default/",
@@ -268,74 +422,33 @@
           "icon": null,
           "domain": "pulumi.com",
           "hn": null,
-          "score": 0.395,
+          "score": 0.329,
           "coverage": 1
         },
         {
-          "title": "QCon San Francisco 2026: The Harness Is the New Operating System",
-          "link": "https://www.infoq.com/news/2026/11/harness-new-operating-system/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "At QCon San Francisco 2026, Mad Labs founder and CEO Manju Rajashekhar opened the conference arguing that the harness around an AI model, rather than the model itself, decides what an agent can do and how safely it does it. The keynote mapped the parts of a harness, including context, tools,…",
-          "source": "InfoQ",
-          "date": "Nov 22",
-          "image": "https://res.infoq.com/news/2026/11/harness-new-operating-system/en/headerimage/harness-header-1200x630-1795301479582.jpg",
-          "icon": null,
-          "domain": "infoq.com",
-          "hn": null,
-          "score": 0.374,
-          "coverage": 1
-        },
-        {
-          "title": "PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls",
-          "link": "https://www.infoq.com/news/2026/11/postgresql-19-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "The PostgreSQL Global Development Group released PostgreSQL 19, introducing changes to database maintenance, query planning, replication, and application development. The release focuses on reducing administrative overhead and improving performance, with new tools for reorganizing tables without…",
-          "source": "InfoQ",
-          "date": "Nov 22",
-          "image": "https://res.infoq.com/news/2026/11/postgresql-19-released/en/headerimage/generatedHeaderImage-1795349035334.jpg",
-          "icon": null,
-          "domain": "infoq.com",
-          "hn": null,
-          "score": 0.265,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "SRE Weekly Issue #544",
-          "link": "https://sreweekly.com/sre-weekly-issue-544/",
-          "excerpt": "View on sreweekly.com A message from our sponsor, JAMS Software: Our support team moved its on-call off PagerDuty in under an hour. JAMS Incident Management checks your PagerDuty account read-only, then imports: schedules, rotations, and overrides escalation policies, teams, and people without…",
-          "source": "SRE WEEKLY",
+          "title": "Bring your own model to Pulumi Agents",
+          "link": "https://www.pulumi.com/blog/bring-your-own-model-to-pulumi-agents/",
+          "excerpt": "You can now run Pulumi Agents on the models your team already uses. Connect your organization’s model provider account, and your provider bills you directly for the requests your agents make. You can use that connection across your organization or give an individual agent its own choice of model.…",
+          "source": "Pulumi Blog",
           "date": "Nov 23",
-          "image": null,
-          "icon": "https://sreweekly.com/wp-content/uploads/2015/12/cropped-sreweekly-logo-axes-180x180.png",
-          "domain": "sreweekly.com",
+          "image": "https://www.pulumi.com/images/generated/blog/bring-your-own-model-to-pulumi-agents/index.png",
+          "icon": null,
+          "domain": "pulumi.com",
           "hn": null,
-          "score": 0.482,
+          "score": 0.329,
           "coverage": 1
         },
         {
-          "title": "AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU",
-          "link": "https://www.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "AWS Lambda now runs Event Functions on EC2 G-series GPU instances through Lambda Managed Instances, with up to 48 concurrent invocations sharing one model per GPU, vLLM and SGLang base images that need no handler code, and 90-minute asynchronous timeouts. Billing is the instance price plus a 9.75…",
-          "source": "InfoQ",
-          "date": "Nov 22",
-          "image": "https://res.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances/en/headerimage/generatedHeaderImage-1795178998128.jpg",
+          "title": "Probing DNS at Cloudflare",
+          "link": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
+          "excerpt": "At Cloudflare we’ve built tools to enable teams to extend our internal testing framework and build test tooling for networking protocols. This is the story of how this was used for DNS.",
+          "source": "Cloudflare Blog",
+          "date": "Nov 23",
+          "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M7XNSAD6F3PP947NHEMWKBFV.png",
           "icon": null,
-          "domain": "infoq.com",
+          "domain": "blog.cloudflare.com",
           "hn": null,
-          "score": 0.223,
-          "coverage": 1
-        },
-        {
-          "title": "Grafana 13.3 Adds Shared Dashboard Variables and Notebooks",
-          "link": "https://www.infoq.com/news/2026/11/grafana-13-3-shared-variables/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "Grafana 13.3 introduces shared variables across dashboards and adds Notebooks to record investigations. Both features are in public preview and require feature toggles for self-managed installations. By Mark Silvester",
-          "source": "InfoQ",
-          "date": "Nov 21",
-          "image": "https://res.infoq.com/news/2026/11/grafana-13-3-shared-variables/en/headerimage/header-1795209346746.jpeg",
-          "icon": null,
-          "domain": "infoq.com",
-          "hn": null,
-          "score": 0.16,
+          "score": 0.843,
           "coverage": 1
         },
         {
@@ -370,6 +483,32 @@
       "name": "News & Research",
       "cards": [
         {
+          "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
+          "link": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/",
+          "excerpt": "The new Asus ProArt laptop costs up to $7,000, but it can run a gaggle of local AI agents.",
+          "source": "Ars Technica",
+          "date": "Nov 23",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Asus-P16-3-500x500.jpg",
+          "icon": null,
+          "domain": "arstechnica.com",
+          "hn": null,
+          "score": 3.312,
+          "coverage": 1
+        },
+        {
+          "title": "Meta Muse can do your Black Friday shopping at Walmart",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
+          "excerpt": "Walmart will now let Meta's Muse shop on your behalf, allowing the AI agent to find and purchase Black Friday deals via Walmart's Sparky AI assistant. The retail giant is rolling out a live implementation of the Agent Gateway it announced last month, which helps AI agents find relevant products…",
+          "source": "The Verge",
+          "date": "Nov 23",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Walmart-Meta-Muse-Agent-Gateway.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "icon": null,
+          "domain": "theverge.com",
+          "hn": null,
+          "score": 3.109,
+          "coverage": 1
+        },
+        {
           "title": "Kodak’s next collectible is a tiny digital photo frame that doubles as a tracker",
           "link": "https://www.theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink",
           "excerpt": "After expanding its Charmera collection with a Millennium Edition featuring Y2K-inspired designs earlier this year, Reto's follow-up to its tiny Kodak camera is an equally small digital photo frame you can use to display your shots. But while the Charmera's usefulness stopped at snapping grainy…",
@@ -379,87 +518,74 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 2.565,
-          "coverage": 1
-        },
-        {
-          "title": "XNU Linux: Full OS X GUI Userspace on Linux",
-          "link": "https://github.com/AFK-surf/xnulinux",
-          "excerpt": "XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux) - AFK-surf/xnulinux",
-          "source": "github.com via Hacker News",
-          "date": "Nov 23",
-          "image": "https://opengraph.githubassets.com/e752cf8f6a56faffcc7e1aaa789b6dbe66d2e73781e54825412e3aa2b74e4924/AFK-surf/xnulinux",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "336 points · 156 comments",
-          "score": 3.659,
-          "coverage": 1
-        },
-        {
-          "title": "The New Docker: Built to Run on Trust",
-          "link": "https://www.docker.com/blog/meet-the-new-docker-built-to-run-on-trust/",
-          "excerpt": "Docker launches a new brand built on trust. Learn why Docker is evolving for AI agents, what stays the same, and how to run agents securely with Docker.",
-          "source": "docker.com via Hacker News",
-          "date": "Nov 23",
-          "image": "https://www.docker.com/app/uploads/brand/social/docker-og-default.png",
-          "icon": "https://www.docker.com/app/uploads/brand/icon/docker-favicon-180x180.png",
-          "domain": "docker.com",
-          "hn": "41 points · 87 comments",
-          "score": 2.917,
+          "score": 2.087,
           "coverage": 1
         }
       ],
       "more": [
         {
-          "title": "Yes, 17M lines of Lean is a lot",
-          "link": "https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot/",
-          "excerpt": "The recent proof of the Riemann hypothesis came with a statistic attached: the proof is 17 million lines of Lean. Beyond the philosophical questions of what it means to have a proof longer than any human could comprehend, I’m left with a simpler question: is that as large as it sounds? To…",
-          "source": "micjm.com via Hacker News",
+          "title": "Learn How 5G NTN Architecture, Mobility, and Testing Shape 6G",
+          "link": "https://content.knowledgehub.wiley.com/5g-ntn-takes-flight-a-deep-dive-into-nr-ntn-technology-and-testing-aspects/",
+          "excerpt": "What you will learn about: How 3GPP standards from Release 15 to Release 19 built the foundation of NR-NTN, and why NTN extends 5G coverage to oceans, rural regions, and disaster zones.How transparent and regenerative satellite payload architectures differ, and what each choice means for round…",
+          "source": "IEEE Spectrum",
           "date": "Nov 23",
-          "image": null,
-          "icon": "https://micjm.com/favicon.ico",
-          "domain": "micjm.com",
-          "hn": "82 points · 89 comments",
-          "score": 3.314,
+          "image": "https://assets.rbl.ms/68750286/origin.png",
+          "icon": null,
+          "domain": "content.knowledgehub.wiley.com",
+          "hn": null,
+          "score": 3.412,
           "coverage": 1
         },
         {
-          "title": "A Partial Evaluator for C",
-          "link": "https://phoenix.labri.fr/software/tempo/",
-          "excerpt": "66 points · 14 comments",
-          "source": "phoenix.labri.fr via Hacker News",
+          "title": "Jensen Huang Reinstated as Nvidia CEO",
+          "link": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+          "excerpt": "NVIDIA (NASDAQ: NVDA) today announced that effective immediately, Jensen Huang has been reinstated as President and Chief Executive Officer and as a member of the Board.",
+          "source": "nvidianews.nvidia.com via Hacker News",
           "date": "Nov 23",
-          "image": null,
-          "icon": "https://phoenix.labri.fr/favicon.ico",
-          "domain": "phoenix.labri.fr",
-          "hn": "66 points · 14 comments",
-          "score": 2.868,
+          "image": "https://nvidianews.nvidia.com/media/sites/219/images/social-image.jpg",
+          "icon": "https://nvidianews.nvidia.com/media/sites/219/images/itouch.png",
+          "domain": "nvidianews.nvidia.com",
+          "hn": "1163 points · 910 comments",
+          "score": 15.924,
+          "coverage": 4
+        },
+        {
+          "title": "Win4wine – Run Windows Shell as the Linux Desktop on Wine",
+          "link": "https://github.com/mikuta0407/win4wine",
+          "excerpt": "Windows XP の Explorer を Wine 上で Linux のデスクトップシェルとして動かす / Run Windows XP's shell as the Linux desktop on Wine - mikuta0407/win4wine",
+          "source": "github.com via Hacker News",
+          "date": "Nov 23",
+          "image": "https://opengraph.githubassets.com/90f426aa8e31befbcee4a13aa34c6001e5f86e00b6234e51ab0c3368e315cbda/mikuta0407/win4wine",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "62 points · 24 comments",
+          "score": 3.508,
           "coverage": 1
         },
         {
-          "title": "Treemap of the Riemann Hypothesis Lean Proof",
-          "link": "https://pengowray.github.io/riemann-zeta-proof-visualizer/",
-          "excerpt": "An explorable map of the 175,187 Lean modules in Levent Alpöge's formalization of the Riemann Hypothesis and GRH for Dirichlet L-functions.",
-          "source": "pengowray.github.io via Hacker News",
+          "title": "The next circle of security hell",
+          "link": "https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/",
+          "excerpt": "A few years back I wrote “The modern packager’s security nightmare”. Have things improved since? On the contrary, I feel like we’re slipping down a well-oiled slope with no end in…",
+          "source": "blogs.gentoo.org via Hacker News",
           "date": "Nov 23",
-          "image": null,
-          "icon": "https://pengowray.github.io/favicon.ico",
-          "domain": "pengowray.github.io",
-          "hn": "85 points · 33 comments",
-          "score": 2.637,
+          "image": "https://s0.wp.com/i/blank.jpg",
+          "icon": "https://blogs.gentoo.org/favicon.ico",
+          "domain": "blogs.gentoo.org",
+          "hn": "102 points · 49 comments",
+          "score": 3.661,
           "coverage": 1
         },
         {
-          "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
-          "link": "https://spelunkr.tv",
-          "excerpt": "24/7 synchronized channels of forgotten Internet Archive video. Like cable TV, but weirder.",
-          "source": "spelunkr.tv via Hacker News",
+          "title": "Nospeaker ─ Make your MacBook's trackpad talk using its haptic motor",
+          "link": "https://github.com/os6/nospeaker",
+          "excerpt": "make your macbook's trackpad talk using its haptic motor - os6/nospeaker",
+          "source": "github.com via Hacker News",
           "date": "Nov 23",
-          "image": "https://spelunkr.tv/og-image.png",
-          "icon": "https://spelunkr.tv/brand/pixel/weatherstar/spelunkr-touch-1024.png",
-          "domain": "spelunkr.tv",
-          "hn": "535 points · 85 comments",
-          "score": 3.326,
+          "image": "https://opengraph.githubassets.com/42a92cdef76b4768bfdb2cb47d51c93b1d4dbc3df8a71a2242fa914567ccebc0/os6/nospeaker",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "78 points · 29 comments",
+          "score": 3.436,
           "coverage": 1
         }
       ]
