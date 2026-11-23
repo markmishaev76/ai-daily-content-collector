@@ -41,6 +41,12 @@
   "icon": null,
   "image": "https://xinmingtu.cn/assets/img/llm-bioseq-probe/social_card.png"
  },
+ "https://0rwx.com/": {
+  "description": "A simple model of AI usage, inspired by unix permissions.",
+  "fetched": "2026-11-23",
+  "icon": "https://0rwx.com/static/favicon/favicon.svg",
+  "image": null
+ },
  "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/": {
   "description": "OpenAI got its money, but not on the terms it wanted, and the gap between its growth story and investor appetite is landing on two giants. One faces a bookkeeping hit, the other a deeper dependency on the funding flow.",
   "fetched": "2026-11-09",
@@ -3335,6 +3341,12 @@
   "icon": null,
   "image": null
  },
+ "https://nango.dev/blog/lessons-from-operating-api-auth-for-900-apis/": {
+  "description": "Production lessons from operating auth for 1,000+ APIs.",
+  "fetched": "2026-11-23",
+  "icon": "https://nango.dev/apple-touch-icon.png",
+  "image": "https://cdn.sanity.io/images/7yse5usn/production/3c399a96bf3e292ee10595e55c6598da8b0be60f-1674x940.jpg"
+ },
  "https://napcakes.nekoweb.org/posts/malloc/": {
   "description": null,
   "fetched": "2026-11-04",
@@ -5018,6 +5030,12 @@
  "https://sreweekly.com/sre-weekly-issue-543/": {
   "description": null,
   "fetched": "2026-11-16",
+  "icon": "https://sreweekly.com/wp-content/uploads/2015/12/cropped-sreweekly-logo-axes-180x180.png",
+  "image": null
+ },
+ "https://sreweekly.com/sre-weekly-issue-544/": {
+  "description": null,
+  "fetched": "2026-11-23",
   "icon": "https://sreweekly.com/wp-content/uploads/2015/12/cropped-sreweekly-logo-axes-180x180.png",
   "image": null
  },
@@ -9898,6 +9916,12 @@
   "fetched": "2026-10-28",
   "icon": "https://www.thetimes.com/imageserver/image/4e2c5841-df25-42a6-8b74-065cc072e1e8.png?w=180",
   "image": "https://www.thetimes.com/imageserver/image/ca5f6e82-d39b-4c7a-bf03-6f9fd28482ce.jpg?strip=all&format=webp&crop=2741px%2C1541px%2C0px%2C142px&resize=1200"
+ },
+ "https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness": {
+  "description": "A profile of Dario and Daniela Amodei, published in the Wall Street Journal following Anthropic’s record-breaking IPO, includes an anecdote in which Dario seems to acknowledge the world-destabilizing potential of AI, then suggests a particularly dystopian solution: > There, he engaged in debates with his fellow employees, suggesting that immersive video games might be a solution for the political strife caused by AI-induced joblessness, according to widely circulated Slack messages.",
+  "fetched": "2026-11-23",
+  "icon": "https://www.theverge.com/static-assets/icons/apple-touch-icon.png",
+  "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRG_DCD_1121_Site.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
  },
  "https://www.theverge.com/games/1024206/playable-portal-prequel-f-stop-leak": {
   "description": "Nearly 20 years after it was canceled, the camera-based Portal prequel F-Stop is no longer lost media.",
