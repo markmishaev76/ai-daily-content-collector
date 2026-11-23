@@ -1,35 +1,23 @@
 {
   "date": "2026-11-23",
   "lead": {
-    "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
-    "link": "https://spelunkr.tv",
-    "excerpt": "24/7 synchronized channels of forgotten Internet Archive video. Like cable TV, but weirder.",
-    "source": "spelunkr.tv via Hacker News",
-    "date": "Nov 23",
-    "image": "https://spelunkr.tv/og-image.png",
+    "title": "0rwx – A simple model of AI usage, inspired by Unix permissions",
+    "link": "https://0rwx.com/",
+    "excerpt": "A simple model of AI usage, inspired by unix permissions.",
+    "source": "0rwx.com via Hacker News",
+    "date": "Nov 22",
+    "image": null,
     "image_credit": null,
     "section": "News & Research",
     "pinned": false,
     "note": null,
     "labels": [
       "News & Research",
-      "4h ago"
+      "10h ago"
     ],
     "also": []
   },
   "pulse": [
-    {
-      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
-      "thread": "https://news.ycombinator.com/item?id=50597612",
-      "link": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-      "link_domain": "betterdatacenterproject.com",
-      "source": "Hacker News",
-      "domain": "betterdatacenterproject.com",
-      "meta": "Hacker News · 934 points · 936 comments · 21h ago",
-      "also": [],
-      "image": "https://i0.wp.com/betterdatacenterproject.com/wp-content/uploads/2026/11/anthropic-total-co2.png?fit=1200%2C1065&ssl=1",
-      "icon": "https://i0.wp.com/betterdatacenterproject.com/wp-content/uploads/2025/09/bdcp_logo.png?fit=180%2C180&ssl=1"
-    },
     {
       "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
       "thread": "https://news.ycombinator.com/item?id=50603845",
@@ -37,7 +25,7 @@
       "link_domain": "gpupartner.com",
       "source": "Hacker News",
       "domain": "gpupartner.com",
-      "meta": "Hacker News · 379 points · 157 comments · 9h ago",
+      "meta": "Hacker News · 528 points · 222 comments · 13h ago",
       "also": [],
       "image": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth/opengraph-image-17m7t5?6653c98c6cd84ba6",
       "icon": "https://www.gpupartner.com/apple-icon?7dadfa4265c0ee6c"
@@ -49,7 +37,7 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 300 points · 72 comments · 16h ago",
+      "meta": "Hacker News · 321 points · 78 comments · 20h ago",
       "also": [],
       "image": "https://opengraph.githubassets.com/17a508e9e1cd67e485b6a06bb005b063110205455e3967d7ab4cd91f35b58e5b/gulivan/worker755",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
@@ -61,7 +49,7 @@
       "link_domain": "gl-inet.com",
       "source": "Hacker News",
       "domain": "gl-inet.com",
-      "meta": "Hacker News · 146 points · 71 comments · 6h ago",
+      "meta": "Hacker News · 208 points · 97 comments · 11h ago",
       "also": [],
       "image": "https://www.gl-inet.com/cdn/shop/articles/20261121-145609_1200x675.jpg?v=1795244669",
       "icon": "https://www.gl-inet.com/cdn/shop/files/A00CDB8D-ECDF-47BC-A37F-72A6B18D9F6C_32x32.png?v=1781750555"
@@ -73,7 +61,7 @@
       "link_domain": "pequalnp.com",
       "source": "Hacker News",
       "domain": "pequalnp.com",
-      "meta": "Hacker News · 140 points · 112 comments · 8h ago",
+      "meta": "Hacker News · 147 points · 130 comments · 12h ago",
       "also": [],
       "image": "https://pequalnp.com/assets/689aa71085f3/img/share-home.png",
       "icon": "https://pequalnp.com/favicon.ico"
@@ -85,7 +73,7 @@
       "link_domain": "bloodinthemachine.com",
       "source": "Hacker News",
       "domain": "bloodinthemachine.com",
-      "meta": "Hacker News · 116 points · 48 comments · 17h ago",
+      "meta": "Hacker News · 125 points · 54 comments · 22h ago",
       "also": [],
       "image": "https://substackcdn.com/image/fetch/$s_!MW3Y!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,$fp_!0.3439:1!/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5d71c583-fbcc-4b20-91c7-e1bdabe47973_4978x3319.jpeg",
       "icon": "https://substackcdn.com/image/fetch/$s_!uBF_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56dd7639-d031-4eab-8fb2-86650d4b5794%2Fapple-touch-icon-57x57.png"
@@ -105,7 +93,7 @@
           "icon": "https://sebastianraschka.com/images/favicons/favicon-32x32.png",
           "domain": "sebastianraschka.com",
           "hn": null,
-          "score": 0.9,
+          "score": 0.729,
           "coverage": 1
         },
         {
@@ -118,7 +106,20 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.805,
+          "score": 0.665,
+          "coverage": 1
+        },
+        {
+          "title": "The end of manual code review?",
+          "link": "https://leaddev.com/software-quality/the-end-of-manual-code-review?utm_source=leaddev&utm_medium=RSS",
+          "excerpt": "JetBrains CEO gives it two years.",
+          "source": "LeadDev",
+          "date": "Nov 23",
+          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2024/10/quality-assurance-03.jpg",
+          "icon": null,
+          "domain": "leaddev.com",
+          "hn": null,
+          "score": 1.255,
           "coverage": 1
         }
       ],
@@ -137,7 +138,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.356,
+          "score": 0.32,
           "coverage": 1
         }
       ],
@@ -146,6 +147,73 @@
     {
       "name": "Security & AppSec",
       "cards": [
+        {
+          "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+          "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+          "excerpt": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been exploited in the wild. The vulnerability, tracked as CVE-2026-131914, carries a CVSS…",
+          "source": "The Hacker News",
+          "date": "Nov 23",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWv3LP9w9Iv-ZmqonS5mwf1jDE-lTLUcDPxCOvYn3RF87-n2epMtdhqH5xXf-bsIIyKXq6U9qU5T1OQ6_Y3VeytS0CCA4TLJtFDcfcHR-I2EHY3t2e94UPvppaaXG9jDQPj4wNwt6CdwQCmXm5uK16BAp5Fn12DmxUk-Wu5ZwPT2kPQFo37oxSeqc6hX7X/s1600/asp.net.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.529,
+          "coverage": 1
+        },
+        {
+          "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+          "link": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+          "excerpt": "Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated today. The company identified and fixed the flaw on Friday…",
+          "source": "The Hacker News",
+          "date": "Nov 23",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6ctvKkiuJ-JViYFHxOV5w1CYjcopn7_YrQt2SnF6JC_SvdOugBSXLdVaMgnWhLCO1NfVgwru4ieWK8L3IeCP-OR75HltWOF5qNhOm9iH_VzJi3PSuUgCUtvhy0zkh_nZFv14tLCRsWly39aREkIphJtNMYUvsGS-CvIwunALU5KxtjFswov-lcS2iqzY/s1600/glinet.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 2.621,
+          "coverage": 2
+        },
+        {
+          "title": "AI-Assisted Cyberattacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+          "link": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+          "excerpt": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country. This unsanctioned activity has resulted in unauthorized financial…",
+          "source": "The Hacker News",
+          "date": "Nov 23",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijDifo0ih-I06DQJbgdnt34Xg1qWdMibKByoJO-4vqa50M4yN0Lwu4fDe88GBtoiKHMJnRDYM0WXvYDEMyCWFHEbedl0wzwKI7juH9Q9xs3osQjZK0xPygeuGm0bm6jgpWPa7bca1EuZfTQiLxn-X3aNaAhbchhvemZrCqslieabzsGmz4ezqhrKuYhDyk/s1600/ai-india.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.5,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Microsoft confirms Windows printing issues affecting Forcepoint users",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/",
+          "excerpt": "Microsoft confirmed printing issues on systems running Forcepoint DLP software after installing the KB5132043 November 2026 Windows 11 hotpatch. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 23",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/10/05/Windows_11.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.529,
+          "coverage": 1
+        },
+        {
+          "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+          "excerpt": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 23",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/23/Cisco.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 3.346,
+          "coverage": 1
+        },
         {
           "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
           "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
@@ -156,8 +224,8 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.308,
-          "coverage": 1
+          "score": 2.621,
+          "coverage": 2
         },
         {
           "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
@@ -169,7 +237,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 1.91,
+          "score": 1.621,
           "coverage": 1
         },
         {
@@ -182,35 +250,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.975,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "Google claims last week’s critical VMware bug was under attack in September",
-          "link": "https://www.theregister.com/virtualization/2026/11/23/google-claims-last-weeks-critical-vmware-bug-was-under-attack-in-september/5311547",
-          "excerpt": "China-linked ARMORY CASTLE knew about it weeks before it unleashed five custom malware tools targeting vCenter",
-          "source": "The Register",
-          "date": "Nov 23",
-          "image": "https://image.theregister.com/?imageId=261387&width=800",
-          "icon": null,
-          "domain": "theregister.com",
-          "hn": null,
-          "score": 0.535,
-          "coverage": 1
-        },
-        {
-          "title": "$1 of GPT-5.1 tokens finds new ways around China’s Great Firewall",
-          "link": "https://www.theregister.com/security/2026/11/23/1-of-gpt-51-tokens-finds-new-ways-around-chinas-great-firewall/5311532",
-          "excerpt": "PLUS: Lenovo's infra group finally makes big profit; Indonesia’s glaciers are gone; Australian bank releases its AI bug-finder; and more!",
-          "source": "The Register",
-          "date": "Nov 23",
-          "image": "https://image.theregister.com/?imageId=246780&width=800",
-          "icon": null,
-          "domain": "theregister.com",
-          "hn": null,
-          "score": 0.406,
+          "score": 0.894,
           "coverage": 1
         }
       ]
@@ -218,6 +258,19 @@
     {
       "name": "Platform, Cloud & Reliability",
       "cards": [
+        {
+          "title": "Least privilege by default: what's new in Pulumi Cloud RBAC",
+          "link": "https://www.pulumi.com/blog/pulumi-cloud-rbac-least-privilege-by-default/",
+          "excerpt": "Access control in Pulumi Cloud now starts from least privilege. Every organization gets three new built-in roles, you can share a single stack or environment with a teammate, and you can create service principals to give your automated workloads their own identity. Why change how access works?…",
+          "source": "Pulumi Blog",
+          "date": "Nov 23",
+          "image": "https://www.pulumi.com/images/generated/blog/pulumi-cloud-rbac-least-privilege-by-default/index.png",
+          "icon": null,
+          "domain": "pulumi.com",
+          "hn": null,
+          "score": 0.395,
+          "coverage": 1
+        },
         {
           "title": "QCon San Francisco 2026: The Harness Is the New Operating System",
           "link": "https://www.infoq.com/news/2026/11/harness-new-operating-system/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -228,7 +281,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.465,
+          "score": 0.374,
           "coverage": 1
         },
         {
@@ -241,20 +294,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.308,
-          "coverage": 1
-        },
-        {
-          "title": "AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU",
-          "link": "https://www.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "AWS Lambda now runs Event Functions on EC2 G-series GPU instances through Lambda Managed Instances, with up to 48 concurrent invocations sharing one model per GPU, vLLM and SGLang base images that need no handler code, and 90-minute asynchronous timeouts. Billing is the instance price plus a 9.75…",
-          "source": "InfoQ",
-          "date": "Nov 22",
-          "image": "https://res.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances/en/headerimage/generatedHeaderImage-1795178998128.jpg",
-          "icon": null,
-          "domain": "infoq.com",
-          "hn": null,
-          "score": 0.252,
+          "score": 0.265,
           "coverage": 1
         }
       ],
@@ -269,7 +309,20 @@
           "icon": "https://sreweekly.com/wp-content/uploads/2015/12/cropped-sreweekly-logo-axes-180x180.png",
           "domain": "sreweekly.com",
           "hn": null,
-          "score": 0.643,
+          "score": 0.482,
+          "coverage": 1
+        },
+        {
+          "title": "AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU",
+          "link": "https://www.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "AWS Lambda now runs Event Functions on EC2 G-series GPU instances through Lambda Managed Instances, with up to 48 concurrent invocations sharing one model per GPU, vLLM and SGLang base images that need no handler code, and 90-minute asynchronous timeouts. Billing is the instance price plus a 9.75…",
+          "source": "InfoQ",
+          "date": "Nov 22",
+          "image": "https://res.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances/en/headerimage/generatedHeaderImage-1795178998128.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.223,
           "coverage": 1
         },
         {
@@ -282,20 +335,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.174,
-          "coverage": 1
-        },
-        {
-          "title": "QCon San Francisco 2026: Scaling Tech by Aligning Humans",
-          "link": "https://www.infoq.com/news/2026/11/scalling-tech-humans/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "At QCon San Francisco 2026, Scott Behrens, Principal Security Engineer at Netflix, presented how staff-plus engineers can define and align a company-wide technical strategy. By Daniel Dominguez",
-          "source": "InfoQ",
-          "date": "Nov 21",
-          "image": "https://res.infoq.com/news/2026/11/scalling-tech-humans/en/headerimage/generatedHeaderImage-1795181753113.jpg",
-          "icon": null,
-          "domain": "infoq.com",
-          "hn": null,
-          "score": 0.171,
+          "score": 0.16,
           "coverage": 1
         },
         {
@@ -330,19 +370,6 @@
       "name": "News & Research",
       "cards": [
         {
-          "title": "Localcode, open source agentic coding on your Mac with one command",
-          "link": "https://github.com/mjwsolo/localcode",
-          "excerpt": "Agentic coding. Local models. On your Mac. Contribute to mjwsolo/localcode development by creating an account on GitHub.",
-          "source": "github.com via Hacker News",
-          "date": "Nov 22",
-          "image": "https://opengraph.githubassets.com/75b28284c5f36c5490bf842880effefd1077c6345a569064945b9ace5943d3b0/mjwsolo/localcode",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "46 points · 13 comments",
-          "score": 4.618,
-          "coverage": 1
-        },
-        {
           "title": "Kodak’s next collectible is a tiny digital photo frame that doubles as a tracker",
           "link": "https://www.theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink",
           "excerpt": "After expanding its Charmera collection with a Millennium Edition featuring Y2K-inspired designs earlier this year, Reto's follow-up to its tiny Kodak camera is an equally small digital photo frame you can use to display your shots. But while the Charmera's usefulness stopped at snapping grainy…",
@@ -352,35 +379,7 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 3.362,
-          "coverage": 1
-        },
-        {
-          "title": "DeFlock Amerca Facebook Group Suspended as a Dangerous Organization",
-          "link": "https://www.facebook.com/shugvermonte/posts/the-deflock-america-group-with-over-840k-members-has-been-suspended-by-meta-what/10165140280736049/",
-          "excerpt": "The DeFlock America group with over 840k members has been suspended by Meta. What they can't block or suspend are the grassroots movements forming across America. Suspended for thought crimes....",
-          "source": "facebook.com via Hacker News",
-          "date": "Nov 23",
-          "image": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.99422-6/926565802_1319525056967043_7275237550580400758_n.png?stp=dst-jpg_tt6&cstp=mx803x1075&ctp=p600x600&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=b96d88&_nc_ohc=kSKRZXj5ngAQ7kNvwHEHq9S&_nc_oc=Adp010jY9cC53PIo1HDU6aRi6I1st482omYQNvQQFa_FdwA5Y7bwCwiUM2p_kdBiW9g&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=EQGGAvrTdEASS1E-QzHlwQ&_nc_ss=7b100&oh=00_AQRyQh15QQ1jXnjR6I7_FgzdFiOW-h146RC5_x2LbcFSNQ&oe=6B09946D",
-          "icon": "https://static.xx.fbcdn.net/rsrc.php/y1/r/ay1hV6OlegS.ico",
-          "domain": "facebook.com",
-          "hn": "29 points · 2 comments",
-          "score": 3.107,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "0rwx – A simple model of AI usage, inspired by Unix permissions",
-          "link": "https://0rwx.com/",
-          "excerpt": "A simple model of AI usage, inspired by unix permissions.",
-          "source": "0rwx.com via Hacker News",
-          "date": "Nov 22",
-          "image": null,
-          "icon": "https://0rwx.com/static/favicon/favicon.svg",
-          "domain": "0rwx.com",
-          "hn": "34 points · 6 comments",
-          "score": 5.112,
+          "score": 2.565,
           "coverage": 1
         },
         {
@@ -392,8 +391,49 @@
           "image": "https://opengraph.githubassets.com/e752cf8f6a56faffcc7e1aaa789b6dbe66d2e73781e54825412e3aa2b74e4924/AFK-surf/xnulinux",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "97 points · 33 comments",
-          "score": 3.938,
+          "hn": "336 points · 156 comments",
+          "score": 3.659,
+          "coverage": 1
+        },
+        {
+          "title": "The New Docker: Built to Run on Trust",
+          "link": "https://www.docker.com/blog/meet-the-new-docker-built-to-run-on-trust/",
+          "excerpt": "Docker launches a new brand built on trust. Learn why Docker is evolving for AI agents, what stays the same, and how to run agents securely with Docker.",
+          "source": "docker.com via Hacker News",
+          "date": "Nov 23",
+          "image": "https://www.docker.com/app/uploads/brand/social/docker-og-default.png",
+          "icon": "https://www.docker.com/app/uploads/brand/icon/docker-favicon-180x180.png",
+          "domain": "docker.com",
+          "hn": "41 points · 87 comments",
+          "score": 2.917,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Yes, 17M lines of Lean is a lot",
+          "link": "https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot/",
+          "excerpt": "The recent proof of the Riemann hypothesis came with a statistic attached: the proof is 17 million lines of Lean. Beyond the philosophical questions of what it means to have a proof longer than any human could comprehend, I’m left with a simpler question: is that as large as it sounds? To…",
+          "source": "micjm.com via Hacker News",
+          "date": "Nov 23",
+          "image": null,
+          "icon": "https://micjm.com/favicon.ico",
+          "domain": "micjm.com",
+          "hn": "82 points · 89 comments",
+          "score": 3.314,
+          "coverage": 1
+        },
+        {
+          "title": "A Partial Evaluator for C",
+          "link": "https://phoenix.labri.fr/software/tempo/",
+          "excerpt": "66 points · 14 comments",
+          "source": "phoenix.labri.fr via Hacker News",
+          "date": "Nov 23",
+          "image": null,
+          "icon": "https://phoenix.labri.fr/favicon.ico",
+          "domain": "phoenix.labri.fr",
+          "hn": "66 points · 14 comments",
+          "score": 2.868,
           "coverage": 1
         },
         {
@@ -405,21 +445,21 @@
           "image": null,
           "icon": "https://pengowray.github.io/favicon.ico",
           "domain": "pengowray.github.io",
-          "hn": "25 points · 4 comments",
-          "score": 2.554,
+          "hn": "85 points · 33 comments",
+          "score": 2.637,
           "coverage": 1
         },
         {
-          "title": "What we learned operating auth for 1k APIs",
-          "link": "https://nango.dev/blog/lessons-from-operating-api-auth-for-900-apis/",
-          "excerpt": "Production lessons from operating auth for 1,000+ APIs.",
-          "source": "nango.dev via Hacker News",
+          "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+          "link": "https://spelunkr.tv",
+          "excerpt": "24/7 synchronized channels of forgotten Internet Archive video. Like cable TV, but weirder.",
+          "source": "spelunkr.tv via Hacker News",
           "date": "Nov 23",
-          "image": "https://cdn.sanity.io/images/7yse5usn/production/3c399a96bf3e292ee10595e55c6598da8b0be60f-1674x940.jpg",
-          "icon": "https://nango.dev/apple-touch-icon.png",
-          "domain": "nango.dev",
-          "hn": "28 points · 4 comments",
-          "score": 2.487,
+          "image": "https://spelunkr.tv/og-image.png",
+          "icon": "https://spelunkr.tv/brand/pixel/weatherstar/spelunkr-touch-1024.png",
+          "domain": "spelunkr.tv",
+          "hn": "535 points · 85 comments",
+          "score": 3.326,
           "coverage": 1
         }
       ]

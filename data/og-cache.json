@@ -3299,6 +3299,12 @@
   "icon": null,
   "image": null
  },
+ "https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot/": {
+  "description": "The recent proof of the Riemann hypothesis came with a statistic attached: the proof is 17 million lines of Lean. Beyond the philosophical questions of what it means to have a proof longer than any human could comprehend, I’m left with a simpler question: is that as large as it sounds? To investigate, I hunted for collections of Lean proofs online. I found two and charted the lengths of their proofs.",
+  "fetched": "2026-11-23",
+  "icon": null,
+  "image": null
+ },
  "https://microsoft.ai/news/microsoft-ignite-2026/": {
   "description": null,
   "fetched": "2026-11-18",
@@ -4293,6 +4299,12 @@
   "description": "In September 2014 I published a short post announcing rqlite. The idea was simple: take SQLite, put a Raft log in front of it, and replicate every write to a cluster so that the loss of a node did not mean the loss of the data. The source went on GitHub that same weekend. As…",
   "fetched": "2026-10-24",
   "icon": "https://philipotoole.com/wp-content/uploads/2015/12/SlyEye-300x300.jpg",
+  "image": null
+ },
+ "https://phoenix.labri.fr/software/tempo/": {
+  "description": null,
+  "fetched": "2026-11-23",
+  "icon": null,
   "image": null
  },
  "https://phorion.io/blog/offical-claude-code-vsx-compromise/": {
@@ -6515,6 +6527,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2025/07/25/Microsoft-365.jpg"
  },
+ "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/": {
+  "description": "Microsoft confirmed printing issues on systems running Forcepoint DLP software after installing the KB5132043 November 2026 Windows 11 hotpatch.",
+  "fetched": "2026-11-23",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/10/05/Windows_11.jpg"
+ },
  "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/": {
   "description": "Microsoft has released emergency out-of-band updates to fix Windows activation and licensing failures caused by this month's security updates.",
   "fetched": "2026-11-16",
@@ -6610,6 +6628,12 @@
   "fetched": "2026-11-03",
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2026/11/02/pandabot.jpg"
+ },
+ "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/": {
+  "description": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild.",
+  "fetched": "2026-11-23",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/11/23/Cisco.jpg"
  },
  "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/": {
   "description": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes.",
@@ -7402,6 +7426,12 @@
   "fetched": "2026-10-28",
   "icon": "https://www.docker.com/app/uploads/2024/02/cropped-docker-logo-favicon-180x180.png",
   "image": "https://www.docker.com/app/uploads/2025/03/image.png"
+ },
+ "https://www.docker.com/blog/meet-the-new-docker-built-to-run-on-trust/": {
+  "description": "Docker launches a new brand built on trust. Learn why Docker is evolving for AI agents, what stays the same, and how to run agents securely with Docker.",
+  "fetched": "2026-11-23",
+  "icon": "https://www.docker.com/app/uploads/brand/icon/docker-favicon-180x180.png",
+  "image": "https://www.docker.com/app/uploads/brand/social/docker-og-default.png"
  },
  "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens": {
   "description": "We seeded two million AI prompts with canary tokens and found three provider breaches, prompt theft, and ignored Zero Data Retention settings.",
