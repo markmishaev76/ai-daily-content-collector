@@ -1,33 +1,25 @@
 {
   "date": "2026-11-24",
   "lead": {
-    "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
-    "link": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
-    "excerpt": "Norway's National Security Authority (NSM) has disclosed that it became aware of a security vulnerability in Microsoft's Azure API Management (APIM) that has affected multiple businesses in the country, including energy companies Equinor and Skagerak Energi. \"An unknown actor has been actively…",
-    "source": "The Hacker News",
+    "title": "Your AI coding agent lacks context",
+    "link": "https://leaddev.com/ai/your-ai-coding-agent-lacks-context?utm_source=leaddev&utm_medium=RSS",
+    "excerpt": "Context is where the hours go.",
+    "source": "LeadDev",
     "date": "Nov 24",
-    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSM2FAnf9UEb3Do4v-r8AEBpoI8byXOrHgng-eRjEyudSf0hiKMpymmDiK_NLTxYuzXdtrWvMrBzY9qmLqDo31r3JOpVefOQxLE77gdkoOAYMkCK__-Bc-AJoWg-8nEOEVjcY6SswkzLbCfYl6kK9clg6xXw3xginWqIwnMxBUaS6wgPKVVwXZNhZA5G85/s1600/azure-ms.jpg",
+    "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1536,h_864/next/2026/05/ai-04-1.webp",
     "image_credit": null,
-    "section": "Security & AppSec",
+    "section": "AI-Assisted Engineering",
     "pinned": false,
     "note": null,
     "labels": [
-      "4 sources",
-      "Security & AppSec",
-      "1h ago"
+      "2 sources",
+      "AI-Assisted Engineering",
+      "under 1h ago"
     ],
     "also": [
       {
-        "name": "securityweek.com",
-        "link": "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/"
-      },
-      {
-        "name": "bleepingcomputer.com",
-        "link": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/"
-      },
-      {
-        "name": "theregister.com",
-        "link": "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598"
+        "name": "designverse.ai",
+        "link": "https://designverse.ai/resources/ai-coding-drift-report"
       }
     ]
   },
@@ -39,7 +31,7 @@
       "link_domain": "foreignpolicy.com",
       "source": "Hacker News",
       "domain": "foreignpolicy.com",
-      "meta": "Hacker News · 307 points · 240 comments · 13h ago",
+      "meta": "Hacker News · 318 points · 247 comments · 16h ago",
       "also": [],
       "image": "https://foreignpolicy.com/wp-content/uploads/2026/11/jensen-huang-GettyImages-2205754284.jpg",
       "icon": "https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/logos/favicon-192.png"
@@ -51,10 +43,22 @@
       "link_domain": "lambdacreate.com",
       "source": "Lobsters",
       "domain": "lambdacreate.com",
-      "meta": "Lobsters · 19 points · 12 comments · 21h ago",
+      "meta": "Lobsters · 20 points · 12 comments · 23h ago",
       "also": [],
       "image": "https://lambdacreate.com/static/images/og-default.png",
       "icon": "https://lambdacreate.com/static/images/logo-192.png"
+    },
+    {
+      "title": "Anthropic Breaks Below $83 IPO Price in Premarket Trading",
+      "thread": "https://news.ycombinator.com/item?id=50627836",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+      "link_domain": "bloomberg.com",
+      "source": "Hacker News",
+      "domain": "bloomberg.com",
+      "meta": "Hacker News · 118 points · 179 comments · 1h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.bloomberg.com/favicon.ico"
     }
   ],
   "sections": [
@@ -71,7 +75,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 4.152,
+          "score": 3.768,
           "coverage": 1
         },
         {
@@ -84,7 +88,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 3.622,
+          "score": 3.264,
           "coverage": 1
         },
         {
@@ -97,7 +101,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.376,
+          "score": 0.356,
           "coverage": 1
         }
       ],
@@ -112,33 +116,20 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.895,
+          "score": 0.788,
           "coverage": 1
         },
         {
           "title": "datasette-agent 0.7a1",
           "link": "https://simonwillison.net/2026/Nov/24/datasette-agent/",
-          "excerpt": "Release: datasette-agent 0.7a1 I small improvement to Datasette Agent: chat sessions can open an iframe side panel, and that panel can then navigate to different pages. This version improves navigation by fragment hashes, for deeper integration with other Datasette plugins that update fragment…",
+          "excerpt": "Release: datasette-agent 0.7a1 A small improvement to Datasette Agent: chat sessions could already open an iframe side panel that could then navigate to different pages. This version improves navigation by fragment hashes, for deeper integration with other Datasette plugins that update fragment…",
           "source": "Simon Willison",
           "date": "Nov 24",
           "image": null,
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.867,
-          "coverage": 1
-        },
-        {
-          "title": "Your AI coding agent lacks context",
-          "link": "https://leaddev.com/ai/your-ai-coding-agent-lacks-context?utm_source=leaddev&utm_medium=RSS",
-          "excerpt": "Context is where the hours go.",
-          "source": "LeadDev",
-          "date": "Nov 24",
-          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1536,h_864/next/2026/05/ai-04-1.webp",
-          "icon": null,
-          "domain": "leaddev.com",
-          "hn": null,
-          "score": 1.082,
+          "score": 0.766,
           "coverage": 1
         },
         {
@@ -151,7 +142,7 @@
           "icon": "https://stackoverflow.blog/apple-touch-icon.png",
           "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 1.135,
+          "score": 0.969,
           "coverage": 1
         }
       ]
@@ -165,11 +156,11 @@
           "excerpt": "November 23, 2026 — Nvidia reinstates its founder, and OpenAI publishes its internal loss curve and proposes a shared training limit.",
           "source": "Latent Space",
           "date": "Nov 24",
-          "image": "https://latent.space/og/card/post/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/61bd4f7b88db330282f3164cc381940e0d45c69d877e1c8c04da1be405b9c254.png",
-          "icon": "https://latent.space/favicon.png",
+          "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/2d949515-988e-46e3-83cb-c3a9118cb699/Screenshot_2026-11-24_at_12.54.41b.png?t=1795525308",
+          "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.591,
+          "score": 0.521,
           "coverage": 1
         },
         {
@@ -182,8 +173,8 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 6.649,
-          "coverage": 3
+          "score": 8.553,
+          "coverage": 4
         },
         {
           "title": "Connected intelligence for in-house legal",
@@ -195,7 +186,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.37,
+          "score": 0.347,
           "coverage": 1
         }
       ],
@@ -210,7 +201,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.37,
+          "score": 0.347,
           "coverage": 1
         },
         {
@@ -223,7 +214,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.967,
+          "score": 0.793,
           "coverage": 1
         }
       ]
@@ -241,7 +232,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 4.675,
+          "score": 4.207,
           "coverage": 1
         },
         {
@@ -254,7 +245,7 @@
           "icon": null,
           "domain": "stratechery.com",
           "hn": null,
-          "score": 1.109,
+          "score": 0.923,
           "coverage": 1
         },
         {
@@ -267,11 +258,24 @@
           "icon": null,
           "domain": "sloanreview.mit.edu",
           "hn": null,
-          "score": 1.199,
+          "score": 0.984,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "Global Economics Intelligence executive summary, October 2026",
+          "link": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/global-economics-intelligence",
+          "excerpt": "Energy market shocks, rising bond yields, mounting sovereign debt, and climbing inflation challenge policymakers and central bankers, but growth remains somewhat resilient.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 24",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.55,
+          "coverage": 1
+        },
         {
           "title": "What it really takes to get value from AI: Highlights from McKinsey Media Day",
           "link": "https://www.mckinsey.com/featured-insights/what-it-really-takes-to-get-value-from-ai-highlights-from-mckinsey-media-day",
@@ -282,7 +286,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.309,
+          "score": 0.293,
           "coverage": 1
         }
       ]
@@ -300,7 +304,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.664,
+          "score": 2.452,
           "coverage": 1
         },
         {
@@ -313,7 +317,26 @@
           "icon": "https://openid.net/wp-content/uploads/2022/11/favicon_23-300x300.jpg",
           "domain": "openid.net",
           "hn": null,
-          "score": 5.793,
+          "score": 4.882,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Secrets & NHI",
+      "cards": [
+        {
+          "title": "Terraform introduces tfpolicy support for Stacks, SCIM support, and more",
+          "link": "https://www.hashicorp.com/blog/terraform-introduces-tfpolicy-support-for-stacks-scim-support-and-more",
+          "excerpt": "HCP Terraform and Terraform Enterprise enhance orchestration, AI-ready workflows, and governance to help teams scale infrastructure securely and efficiently.",
+          "source": "HashiCorp",
+          "date": "Nov 23",
+          "image": null,
+          "icon": "https://www.hashicorp.com/favicon.ico",
+          "domain": "hashicorp.com",
+          "hn": null,
+          "score": 2.461,
           "coverage": 1
         }
       ],
@@ -332,8 +355,88 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 5.197,
+          "score": 4.529,
           "coverage": 1
+        },
+        {
+          "title": "From Vulnerability Noise to Resilience: Rethinking Security in the AI Era",
+          "link": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/",
+          "excerpt": "AI-driven development is adding complexity to software supply chains, leaving security teams overwhelmed by vulnerabilities that may pose little actual risk. RapidFort explains how runtime visibility, container hardening, and automated remediation can reduce vulnerability noise and improve…",
+          "source": "BleepingComputer",
+          "date": "Nov 24",
+          "image": "https://www.bleepstatic.com/content/posts/2026/11/20/Chain_2_Hex_Mesh_Diagonal_1600x900.png",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 2.943,
+          "coverage": 1
+        },
+        {
+          "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+          "link": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+          "excerpt": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication. The critical vulnerability, tracked as CVE-2026-123903, is rated 9.8 out of 10.0 on the…",
+          "source": "The Hacker News",
+          "date": "Nov 24",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0zpQTclLnhVQHphFdBZZ_hrxhsZvA5G50sGBz5qq1iOg2B1YLu8rE5e_HM1GZOE24SNpwexwst80NTKP7_Wwexq7EzIl-I7ykIXCtTGQjeZhBGVVuAgzxac5JwaquTQuMNRstBFo8JzMDyqgsNbM_KtxGF3wHPBIM9GfaclNu0OTPlpF5YhNvqoKKytAY/s1600/vmware-exploit.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 3.658,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
+          "link": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+          "excerpt": "A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according to Okta's Threat Intelligence team. The cluster, dubbed O-UNC-053, is characterized by the use of voice phishing (aka…",
+          "source": "The Hacker News",
+          "date": "Nov 24",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjete6dy8Fmd7sbjqKI5GKSySXkcnz4NF__irfVMBHzgRIDUnpGHtvRIbCywZYYsoKsnMdPhvanoXcnXbYvZpMjL2lL6d_F9a4ErEaI5rH_boPedH_ru2Ush9wonb8tYhGNVM6M_01DTue1THY7uGMbuKBJKNgMbrACkxHCGJiJylHWoxkkpCXNr2Z_CIdf/s1600/leaks.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 3.658,
+          "coverage": 1
+        },
+        {
+          "title": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
+          "link": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
+          "excerpt": "A quirk in how the .NET Framework loads a program file let a local attacker run untrusted code past two separate protections on Windows built to block it, Google Project Zero researcher James Forshaw showed in a write-up published yesterday. The same loading behavior bypassed Oracle VirtualBox's…",
+          "source": "The Hacker News",
+          "date": "Nov 24",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiOJqhOn7t8wd3NeMCWVCg9xmusuRJmZuaePaCbKTif2XsPpPhu0fR1NwQncA4y-wAMmLOzylBZ3ebd9f4G8F6K54sUdnZ2cTn6yPq1RgAKrh4lSX3y1Ll8LIywXkDyVXItUuUGS4sy0BVUMhwXPvOZGdxhvwnd55_OvjOVnh2CfnAeURMVcmafuFgJlQ/s1600/windows.net.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.473,
+          "coverage": 1
+        },
+        {
+          "title": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
+          "link": "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html",
+          "excerpt": "What if your biggest SOC budget problem isn't how much you spend, but how much analyst time you lose? According to ANY.RUN's estimates, SOC teams could recover 450 analyst hours per 1,000 investigated alerts through faster threat analysis and IOC research. That's a significant opportunity as…",
+          "source": "The Hacker News",
+          "date": "Nov 24",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifgNbpx-KISiy12Rp8KNb5ElWQADJtyC7fLFuLFCc7WzbOjCP5CmU2dPyuwhq5kRSQP5lOuwwFhvZovILCzeMgaSes8APbVabNVpJB71EC56WrojqqLU-tjIr2MFDPK8fMHnu-dx35G-p6btlQb1xU16c8IPrY4cs0k8t1pufSHgp74Y5HtqiAVk4A1QI/s1600/2027.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.473,
+          "coverage": 1
+        },
+        {
+          "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
+          "link": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
+          "excerpt": "Norway's National Security Authority (NSM) has disclosed that it became aware of a security vulnerability in Microsoft's Azure API Management (APIM) that has affected multiple businesses in the country, including energy companies Equinor and Skagerak Energi. \"An unknown actor has been actively…",
+          "source": "The Hacker News",
+          "date": "Nov 24",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSM2FAnf9UEb3Do4v-r8AEBpoI8byXOrHgng-eRjEyudSf0hiKMpymmDiK_NLTxYuzXdtrWvMrBzY9qmLqDo31r3JOpVefOQxLE77gdkoOAYMkCK__-Bc-AJoWg-8nEOEVjcY6SswkzLbCfYl6kK9clg6xXw3xginWqIwnMxBUaS6wgPKVVwXZNhZA5G85/s1600/azure-ms.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 5.671,
+          "coverage": 4
         },
         {
           "title": "WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login",
@@ -345,74 +448,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.451,
-          "coverage": 1
-        },
-        {
-          "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
-          "link": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
-          "excerpt": "OpenAI and Cisco have teamed up to launch Shirudo (meaning \"shield\" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime. \"It lets agents write dynamic eBPF controls to shield systems from exploits, giving defenders more time…",
-          "source": "The Hacker News",
-          "date": "Nov 24",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKBknwzOcmsT5P3Gnyn8-WGRNbttWLAtmWlHkVuS900lrH1Q7Wj_kBCJiASbBvhNUKWEsO8Xt5VKKokGA-M17y8Pj4EtH6564yafSWGebOVgMuTwxUUB5fV4oProNTbg8MeEhcaiy95WbMi6og3q0uSM4SxLCyzVwV3FbCfiSXrVoJtQUrYpJfyeW1AUFm/s1600/openai-linux.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 6.649,
-          "coverage": 3
-        }
-      ],
-      "more": [
-        {
-          "title": "OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems",
-          "link": "https://www.securityweek.com/openai-cisco-unveil-open-source-tool-to-shield-unpatched-linux-systems/",
-          "excerpt": "OpenAI and Cisco’s Shirudo uses AI-generated shields to block Linux exploits while patches are prepared, but it’s not yet production-ready.",
-          "source": "SecurityWeek",
-          "date": "Nov 24",
-          "image": "https://www.securityweek.com/wp-content/uploads/2025/02/Agentic-AI-Hacking.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 6.649,
-          "coverage": 3
-        },
-        {
-          "title": "1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO",
-          "link": "https://www.securityweek.com/1-5-million-impacted-by-data-breach-at-south-korean-electric-company-kepco/",
-          "excerpt": "Hackers stole personal information from the company’s customer portal and supplier relationship management platform.",
-          "source": "SecurityWeek",
-          "date": "Nov 24",
-          "image": "https://www.securityweek.com/wp-content/uploads/2023/05/COSMICENERGY-OT-Malware.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 6.242,
-          "coverage": 2
-        },
-        {
-          "title": "Elecbrakes Bluetooth Vulnerabilities Expose Trailers to Forced Braking",
-          "link": "https://www.securityweek.com/elecbrakes-bluetooth-vulnerabilities-expose-trailers-to-forced-braking/",
-          "excerpt": "Critical Bluetooth flaws in Elecbrakes controllers could let nearby attackers force trailer braking, potentially causing accidents.",
-          "source": "SecurityWeek",
-          "date": "Nov 24",
-          "image": "https://www.securityweek.com/wp-content/uploads/2025/11/truck-cargo-freight-hacking-transportation.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.522,
-          "coverage": 1
-        },
-        {
-          "title": "Peninsula Energy Halts Trading After Cyber Incident Hits US Uranium Mine",
-          "link": "https://www.securityweek.com/peninsula-energy-halts-trading-after-cyber-incident-hits-us-uranium-mine/",
-          "excerpt": "The company told the ASX that a cybersecurity incident at its Wyoming uranium project would temporarily affect operations.",
-          "source": "SecurityWeek",
-          "date": "Nov 24",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/mining.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.516,
+          "score": 0.385,
           "coverage": 1
         }
       ]
@@ -430,7 +466,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 2.65,
+          "score": 2.419,
           "coverage": 1
         },
         {
@@ -443,7 +479,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 3.972,
+          "score": 3.528,
           "coverage": 1
         },
         {
@@ -456,7 +492,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 3.06,
+          "score": 2.789,
           "coverage": 1
         }
       ],
@@ -471,7 +507,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 3.695,
+          "score": 3.128,
           "coverage": 1
         },
         {
@@ -484,7 +520,20 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 3.592,
+          "score": 2.95,
+          "coverage": 1
+        },
+        {
+          "title": "GitLab Dedicated: A go-live guide",
+          "link": "https://about.gitlab.com/blog/gitlab-dedicated-a-go-live-guide/",
+          "excerpt": "GitLab Dedicated is a single-tenant SaaS solution that is fully isolated, deployed in your preferred AWS cloud region, and hosted and maintained by GitLab. GitLab Dedicated and compliance covers why regulated organizations choose a single-tenant instance operated by GitLab, and serves as a…",
+          "source": "GitLab",
+          "date": "Nov 24",
+          "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1795444831/a9m63gtamzaligza1fpp.svg",
+          "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
+          "domain": "about.gitlab.com",
+          "hn": null,
+          "score": 1.721,
           "coverage": 1
         },
         {
@@ -497,7 +546,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 2.086,
+          "score": 1.811,
           "coverage": 1
         },
         {
@@ -510,20 +559,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.403,
-          "coverage": 1
-        },
-        {
-          "title": "Kubernetes v1.38 Sneak Peek",
-          "link": "https://kubernetes.io/blog/2026/11/23/kubernetes-v1-38-sneak-peek/",
-          "excerpt": "As we get closer to the release date for Kubernetes v1.38, the project develops and matures, features may be deprecated, removed, or replaced with better ones for the project's overall health. This blog post outlines some of the planned changes for the Kubernetes v1.38 release that the release…",
-          "source": "Kubernetes Blog",
-          "date": "Nov 23",
-          "image": null,
-          "icon": "https://kubernetes.io/icons/favicon-64.png",
-          "domain": "kubernetes.io",
-          "hn": null,
-          "score": 0.346,
+          "score": 0.367,
           "coverage": 1
         }
       ]
@@ -531,6 +567,19 @@
     {
       "name": "News & Research",
       "cards": [
+        {
+          "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+          "link": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+          "excerpt": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
+          "source": "Ars Technica",
+          "date": "Nov 24",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cairn-banner-500x500.jpg",
+          "icon": null,
+          "domain": "arstechnica.com",
+          "hn": null,
+          "score": 6.511,
+          "coverage": 1
+        },
         {
           "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
           "link": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
@@ -541,7 +590,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 2.0,
+          "score": 1.813,
           "coverage": 1
         },
         {
@@ -554,9 +603,11 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 1.995,
+          "score": 1.809,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Working with AI",
           "link": "https://www.anthropic.com/research/working-with-ai",
@@ -567,22 +618,46 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 0.185,
+          "score": 0.176,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
-          "title": "Investigation of Polymarket Insider Trading on the Reinstatement of Jensen Huang",
-          "link": "https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia/",
-          "excerpt": "Enquête forensic on-chain : 4 648 $ injectés à 6,5 ¢, 89 minutes avant le post de Donald Trump et 11h avant le communiqué officiel de NVIDIA (+1 438 % ROI).",
-          "source": "deucalionn.vercel.app via Hacker News",
+          "title": "GTA 6 Running on Windows",
+          "link": "https://twitter.com/raul_bs3/status/2125213756238291075",
+          "excerpt": "TA ACONTECENDO RAPAZIADAAAA, isso é no computaaadorr!!! repito COMPUTADOR!! GTA 6 no PC quase com shaders completo velho, q loucuraaaaaa 🤡🤡",
+          "source": "twitter.com via Hacker News",
           "date": "Nov 24",
-          "image": null,
-          "icon": "https://deucalionn.vercel.app/favicon.ico",
-          "domain": "deucalionn.vercel.app",
-          "hn": "186 points · 85 comments",
-          "score": 3.823,
+          "image": "https://pbs.twimg.com/media/HX5GpSZXQAA12cb?format=webp&name=large",
+          "icon": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
+          "domain": "twitter.com",
+          "hn": "32 points · 1 comments",
+          "score": 2.458,
+          "coverage": 1
+        },
+        {
+          "title": "LLM agents work for their parent companies, not for you",
+          "link": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+          "excerpt": "I built an Instagram-to-Bandcamp tool with Claude, but when the API broke, the model refused to help me work around it, while happily downloading from YouTube instead, which pays the artist nothing. That hypocrisy exposed why these models can't be trusted: they work for their parent companies, not…",
+          "source": "michaelharley.net via Hacker News",
+          "date": "Nov 24",
+          "image": "https://michaelharley.net/assets/images/open-graph-image.png",
+          "icon": "https://michaelharley.net/assets/favicons/apple-touch-icon.png",
+          "domain": "michaelharley.net",
+          "hn": "364 points · 143 comments",
+          "score": 3.827,
+          "coverage": 1
+        },
+        {
+          "title": "Who in Washington owns and trades Nvidia stock",
+          "link": "https://www.kadoa.com/congress/insights/trump-nvidia",
+          "excerpt": "Trump's Nvidia stock and 43 trades this year, and the 37 members of Congress who traded NVDA, around Jensen Huang's resignation and reinstatement.",
+          "source": "kadoa.com via Hacker News",
+          "date": "Nov 24",
+          "image": "https://www.kadoa.com/congress/og/trump-nvidia.png",
+          "icon": "https://www.kadoa.com/congress/favicon.svg",
+          "domain": "kadoa.com",
+          "hn": "187 points · 77 comments",
+          "score": 3.286,
           "coverage": 1
         },
         {
@@ -594,47 +669,8 @@
           "image": null,
           "icon": "https://fzakaria.com/assets/images/avatar.ico",
           "domain": "fzakaria.com",
-          "hn": "37 points · 0 comments",
-          "score": 2.566,
-          "coverage": 1
-        },
-        {
-          "title": "Just a Few Bugs",
-          "link": "https://www.justafewbugs.xyz/",
-          "excerpt": "Ninety-five reports to the Android and Google Devices Vulnerability Reward Program, and $250 paid in total.",
-          "source": "justafewbugs.xyz via Hacker News",
-          "date": "Nov 24",
-          "image": null,
-          "icon": "https://www.justafewbugs.xyz/favicon.ico",
-          "domain": "justafewbugs.xyz",
-          "hn": "18 points · 8 comments",
-          "score": 2.2,
-          "coverage": 1
-        },
-        {
-          "title": "Jevons Paradox in AI: Cheaper Tokens Won't Pay for Capex",
-          "link": "https://philippdubach.com/posts/cheaper-ai-tokens-wont-pay-for-capex/",
-          "excerpt": "Google processes 330 times more tokens than two years ago, yet prices fall almost as fast. Why the Jevons paradox alone won't pay for $560 billion of AI capex.",
-          "source": "philippdubach.com via Hacker News",
-          "date": "Nov 24",
-          "image": "https://philippdubach.com/ograph/cheaper-ai-tokens-wont-pay-for-capex-714fa45ba3edd80c2cf1.jpg",
-          "icon": "https://philippdubach.com/icons/apple-touch-icon.png",
-          "domain": "philippdubach.com",
-          "hn": "39 points · 4 comments",
-          "score": 2.442,
-          "coverage": 1
-        },
-        {
-          "title": "2035 Came Early",
-          "link": "https://fzakaria.com/2026/11/23/2035-came-early",
-          "excerpt": "tl;dr trynix.dev boots GUI programs now. Try solitaire, GL gears, xeyes, a voice, the weather over curl, or Firefox. I remember watching the talk The Birth & Death of JavaScript by Gary Bernhardt and falling in love with the whimsical yet dreadfully serious unfolding of the story of how JavaScript…",
-          "source": "fzakaria.com via Hacker News",
-          "date": "Nov 24",
-          "image": null,
-          "icon": "https://fzakaria.com/assets/images/avatar.ico",
-          "domain": "fzakaria.com",
-          "hn": "374 points · 130 comments",
-          "score": 3.094,
+          "hn": "109 points · 14 comments",
+          "score": 2.714,
           "coverage": 1
         }
       ]

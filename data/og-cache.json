@@ -119,6 +119,12 @@
   "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
   "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/f_auto,q_auto/Blog/Hero%20Images/a72a66f82649c6dbce7bf1241e3fd001"
  },
+ "https://about.gitlab.com/blog/gitlab-dedicated-a-go-live-guide/": {
+  "description": "Discover tips for platform, release, security, and SRE teams moving from a self-managed platform to a GitLab-operated instance.",
+  "fetched": "2026-11-24",
+  "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
+  "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1795444831/a9m63gtamzaligza1fpp.svg"
+ },
  "https://about.gitlab.com/blog/gitlab-transcend-hackathon-life-after-code/": {
   "description": "Discover what developers built to automate the post-code creation lifecycle with GitLab Duo Agent Platform.",
   "fetched": "2026-11-19",
@@ -1192,6 +1198,12 @@
   "fetched": "2026-11-10",
   "icon": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/icons/google_deepmind_2x_96dp.png",
   "image": "https://lh3.googleusercontent.com/hn6AiI6lYFo6chi1mL6uJ9nOW9UXfsAKnSyOApiie2urHNU2tmSPUmGn0hNfWyYLRcsWCGjCIrBZSCt1ihZmvW-LDJPfyolsr5w-yvzlknZVzmaH=w1200-h630-n-nu-rw"
+ },
+ "https://designverse.ai/resources/ai-coding-drift-report": {
+  "description": null,
+  "fetched": "2026-11-24",
+  "icon": "https://cdn.prod.website-files.com/6a857b87c9429b4d901fbb25/6a9acb4979a4329db3cf2184_favicon.ico",
+  "image": "https://cdn.prod.website-files.com/6a857b87c9429b4d901fbb25/6b004d1d78df4a71507f67fe_AI-Coding-Drift-Report.png"
  },
  "https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia/": {
   "description": "Enquête forensic on-chain : 4 648 $ injectés à 6,5 ¢, 89 minutes avant le post de Donald Trump et 11h avant le communiqué officiel de NVIDIA (+1 438 % ROI).",
@@ -3328,6 +3340,12 @@
   "fetched": "2026-11-17",
   "icon": "https://michael.bacarella.com/apple-touch-icon.png",
   "image": "https://michael.bacarella.com/assets/mbacface.jpg"
+ },
+ "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/": {
+  "description": "I built an Instagram-to-Bandcamp tool with Claude, but when the API broke, the model refused to help me work around it, while happily downloading from YouTube instead, which pays the artist nothing. That hypocrisy exposed why these models can't be trusted: they work for their parent companies, not for me.",
+  "fetched": "2026-11-24",
+  "icon": "https://michaelharley.net/assets/favicons/apple-touch-icon.png",
+  "image": "https://michaelharley.net/assets/images/open-graph-image.png"
  },
  "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/": {
   "description": "TLDR: we project Gemini 4 Neon’s performance based on what a faster Gemini 4 Carbon might score and find it equivalent to Opus 5.5 Gemini 4 Carbon is the best model on the Agent Duel leaderboard if you exclude early voting. Carbon’s main problem is that it is slooooow. Today, Gemini 4 Neon was released, and looks to be an incremental benchmark improvement with a very large speed improvement. Earlier today, it was being served extremely fast via OpenRouter: 127 tokens per second. This is way faster than Carbon at 46 tokens per second.",
@@ -5879,6 +5897,12 @@
   "icon": "https://x.com/apple-touch-icon.png",
   "image": "https://pbs.twimg.com/amplify_video_thumb/2117998774412832769/img/UQdWE3BBn4mW1W9I?format=webp&name=large"
  },
+ "https://twitter.com/raul_bs3/status/2125213756238291075": {
+  "description": "TA ACONTECENDO RAPAZIADAAAA, isso é no computaaadorr!!! repito COMPUTADOR!! GTA 6 no PC quase com shaders completo velho, q loucuraaaaaa 🤡🤡",
+  "fetched": "2026-11-24",
+  "icon": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
+  "image": "https://pbs.twimg.com/media/HX5GpSZXQAA12cb?format=webp&name=large"
+ },
  "https://twitter.com/shanemelaugh/status/2119192075505893695": {
   "description": "is Opus 5.5 nerfed? I just had Gemini 4 Argon analyze 1,400 Claude Code sessions and it found that on November 3, something definitely happened. the model name didn't change, but the way it does reasoning took a sharp turn.",
   "fetched": "2026-11-09",
@@ -6791,6 +6815,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/posts/2026/10/30/tryhackme-laptop.jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/": {
+  "description": "AI-driven development is adding complexity to software supply chains, leaving security teams overwhelmed by vulnerabilities that may pose little actual risk. RapidFort explains how runtime visibility, container hardening, and automated remediation can reduce vulnerability noise and improve software resilience.",
+  "fetched": "2026-11-24",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/posts/2026/11/20/Chain_2_Hex_Mesh_Diagonal_1600x900.png"
+ },
  "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/": {
   "description": "Gartner predicts that security operations centers will have 50% more engineers than analysts by 2028 as AI agents take over routine alert handling. Prophet Security examines how AI is reshaping SOC roles, from analyst responsibilities and detection engineering to threat hunting and exposure management.",
   "fetched": "2026-11-03",
@@ -7028,6 +7058,12 @@
  "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout": {
   "description": null,
   "fetched": "2026-11-07",
+  "icon": null,
+  "image": null
+ },
+ "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading": {
+  "description": null,
+  "fetched": "2026-11-24",
   "icon": null,
   "image": null
  },
@@ -7757,6 +7793,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.hashicorp.com/blog/terraform-introduces-tfpolicy-support-for-stacks-scim-support-and-more": {
+  "description": null,
+  "fetched": "2026-11-24",
+  "icon": null,
+  "image": null
+ },
  "https://www.hntrends.com/2026/november.html": {
   "description": "Hacker News \"Who is Hiring?\" job postings sit near 12-year lows while AI appears in more than half of all postings. Most popular programming languages and technologies for November 2026.",
   "fetched": "2026-11-16",
@@ -7816,6 +7858,12 @@
   "fetched": "2026-11-07",
   "icon": "https://www.kadoa.com/companies/favicon.svg",
   "image": "https://www.kadoa.com/companies/og/insights/ai-selloff-perspective.png"
+ },
+ "https://www.kadoa.com/congress/insights/trump-nvidia": {
+  "description": "Trump's Nvidia stock and 43 trades this year, and the 37 members of Congress who traded NVDA, around Jensen Huang's resignation and reinstatement.",
+  "fetched": "2026-11-24",
+  "icon": "https://www.kadoa.com/congress/favicon.svg",
+  "image": "https://www.kadoa.com/congress/og/trump-nvidia.png"
  },
  "https://www.keepingup.com/benchmarks/net-worth/age-30-33": {
   "description": "The median net worth for people aged 30–33 in the U.S. is $68,000; the top 10% starts at $440,000. Type yours and see your percentile — no account needed. Full p10–p90 ladder by age and city.",
@@ -7987,7 +8035,7 @@
  },
  "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/global-economics-intelligence": {
   "description": null,
-  "fetched": "2026-10-29",
+  "fetched": "2026-11-24",
   "icon": null,
   "image": null
  },
