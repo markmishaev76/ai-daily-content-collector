@@ -1175,6 +1175,12 @@
   "icon": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-180.png",
   "image": null
  },
+ "https://davidtemkin.github.io/declarelang/": {
+  "description": "Designed from the ground up for interfaces that act and move like the best native apps, in a few hundred lines your AI can write and its compiler can check.",
+  "fetched": "2026-11-24",
+  "icon": "https://davidtemkin.github.io/declarelang/assets/apple-touch-icon.png",
+  "image": "https://davidtemkin.github.io/declarelang/assets/og-image.png"
+ },
  "https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/": {
   "description": null,
   "fetched": "2026-11-07",
@@ -2957,6 +2963,12 @@
   "icon": "https://latent.space/favicon.png",
   "image": "https://latent.space/og/card/post/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/00b682fceec70ac5a963728725400ee392556ea7e0495837c1282ebea0220b21.png"
  },
+ "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/": {
+  "description": "November 23, 2026 — Nvidia reinstates its founder, and OpenAI publishes its internal loss curve and proposes a shared training limit.",
+  "fetched": "2026-11-24",
+  "icon": "https://latent.space/favicon.png",
+  "image": "https://latent.space/og/card/post/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/61bd4f7b88db330282f3164cc381940e0d45c69d877e1c8c04da1be405b9c254.png"
+ },
  "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/": {
   "description": "November 10, 2026 — Google GA's Gemini 4 Carbon.",
   "fetched": "2026-11-11",
@@ -4415,6 +4427,18 @@
   "icon": "https://pwn.college/themes/dojo_theme/static/img/favicon.png",
   "image": "https://pwn.college/themes/dojo_theme/static/img/dojo/ninja.png"
  },
+ "https://qsantos.fr/2026/11/19/making-a-dumb-tv-just-smart-enough/": {
+  "description": "I own an old, cheap TV. It has no Internet connection, no fancy smart features that make you want to install a Pi-hole, and no ask-me-again-later updates. Quite basic, but it does its job well However, it is connected to my own desktop computer through an HDMI cable, so I can watch movies and TV…",
+  "fetched": "2026-11-24",
+  "icon": "https://qsantos.fr/assets/icon-180.png",
+  "image": "https://qsantos.fr/2026/11/19/making-a-dumb-tv-just-smart-enough/pxl_20261011_192201577-edited-scaled.jpg?w=1290"
+ },
+ "https://qsantos.fr/2026/11/20/hacking-radiators-for-fun-and-no-profit/": {
+  "description": "My flat has a bunch of electrical radiators, branded Acova. They have a remote. Each. Fixed to the wall right next to it. This means I have to get up from my seat to turn a radiator on. Worse, I might have to get to an entirely different room. Remember the first virtue. This is…",
+  "fetched": "2026-11-24",
+  "icon": "https://qsantos.fr/assets/icon-180.png",
+  "image": "https://qsantos.fr/2026/11/20/hacking-radiators-for-fun-and-no-profit/pxl_20261117_185516926-edited-2-1017x1024.jpg?w=1290"
+ },
  "https://qwen.ai/blog?id=qwen4-max": {
   "description": "Qwen offers comprehensive functionality spanning chatbot, image and video understanding, image generation, document processing, web search integration, tool utilization, and artifacts.",
   "fetched": "2026-11-16",
@@ -4564,6 +4588,12 @@
   "fetched": "2026-11-10",
   "icon": "https://s46486.pcdn.co/wp-content/uploads/2022/11/android-chrome-192x192-1.png",
   "image": "https://s46486.pcdn.co/wp-content/uploads/2026/11/TB-4-1-1-1024x576.png"
+ },
+ "https://salvageyarddrone.wordpress.com/": {
+  "description": "Drone Maps of Salvage Yards",
+  "fetched": "2026-11-24",
+  "icon": "https://s2.wp.com/i/webclip.png?m=1713868326i",
+  "image": null
  },
  "https://sam.gov/workspace/contract/opp/8948e8601e964c6aba9c801eee16b1be/view": {
   "description": null,
@@ -4772,6 +4802,18 @@
  "https://simonwillison.net/2026/Nov/21/muru/": {
   "description": "Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust …",
   "fetched": "2026-11-22",
+  "icon": null,
+  "image": null
+ },
+ "https://simonwillison.net/2026/Nov/24/datasette-agent/": {
+  "description": "An LLM-powered agent for Datasette",
+  "fetched": "2026-11-24",
+  "icon": null,
+  "image": null
+ },
+ "https://simonwillison.net/2026/Nov/24/datasette-charts/": {
+  "description": "A charting plugin for Datasette",
+  "fetched": "2026-11-24",
   "icon": null,
   "image": null
  },
@@ -5156,6 +5198,12 @@
  "https://stackoverflow.blog/2026/11/20/trying-to-get-our-arms-around-ai-efficiency/": {
   "description": "Ryan sits down with Alex Spinelli, Senior Vice President of AI and Developer Platforms at Arm, for a conversation about bringing ML capabilities to edge devices, adapting software tools to meet the unique demands of autonomous agents, and the critical importance of prioritizing functional safety as artificial intelligence transitions into the physical world of robotics.",
   "fetched": "2026-11-20",
+  "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+  "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format"
+ },
+ "https://stackoverflow.blog/2026/11/24/agent-swarms-need-more-than-a-message-board/": {
+  "description": "Agent swarms are really distributed systems problems in disguise.",
+  "fetched": "2026-11-24",
   "icon": "https://stackoverflow.blog/apple-touch-icon.png",
   "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format"
  },

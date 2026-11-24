@@ -13,7 +13,7 @@
     "note": null,
     "labels": [
       "Platform, Cloud & Reliability",
-      "1h ago"
+      "3h ago"
     ],
     "also": []
   },
@@ -25,7 +25,7 @@
       "link_domain": "foreignpolicy.com",
       "source": "Hacker News",
       "domain": "foreignpolicy.com",
-      "meta": "Hacker News · 277 points · 213 comments · 4h ago",
+      "meta": "Hacker News · 290 points · 229 comments · 6h ago",
       "also": [],
       "image": "https://foreignpolicy.com/wp-content/uploads/2026/11/jensen-huang-GettyImages-2205754284.jpg",
       "icon": "https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/logos/favicon-192.png"
@@ -37,7 +37,7 @@
       "link_domain": "blogs.gentoo.org",
       "source": "Hacker News",
       "domain": "blogs.gentoo.org",
-      "meta": "Hacker News · 239 points · 147 comments · 16h ago",
+      "meta": "Hacker News · 242 points · 149 comments · 18h ago",
       "also": [],
       "image": "https://s0.wp.com/i/blank.jpg",
       "icon": "https://blogs.gentoo.org/favicon.ico"
@@ -49,7 +49,7 @@
       "link_domain": "lambdacreate.com",
       "source": "Lobsters",
       "domain": "lambdacreate.com",
-      "meta": "Lobsters · 17 points · 10 comments · 12h ago",
+      "meta": "Lobsters · 17 points · 10 comments · 14h ago",
       "also": [],
       "image": "https://lambdacreate.com/static/images/og-default.png",
       "icon": "https://lambdacreate.com/static/images/logo-192.png"
@@ -69,7 +69,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 6.058,
+          "score": 5.462,
           "coverage": 1
         },
         {
@@ -82,7 +82,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 5.478,
+          "score": 4.884,
           "coverage": 1
         },
         {
@@ -95,15 +95,68 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.456,
+          "score": 0.434,
           "coverage": 1
         }
       ],
-      "more": []
+      "more": [
+        {
+          "title": "datasette-charts 0.2a0",
+          "link": "https://simonwillison.net/2026/Nov/24/datasette-charts/",
+          "excerpt": "Release: datasette-charts 0.2a0 I introduced this new charting plugin for Datasette yesterday. Today it's gained integration with Datasette Agent, so now you can ask chat for a chart and it will create one for you using the same underlying chart suggestion and generation tools. Here's a demo…",
+          "source": "Simon Willison",
+          "date": "Nov 24",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 1.314,
+          "coverage": 1
+        },
+        {
+          "title": "datasette-agent 0.7a1",
+          "link": "https://simonwillison.net/2026/Nov/24/datasette-agent/",
+          "excerpt": "Release: datasette-agent 0.7a1 I small improvement to Datasette Agent: chat sessions can open an iframe side panel, and that panel can then navigate to different pages. This version improves navigation by fragment hashes, for deeper integration with other Datasette plugins that update fragment…",
+          "source": "Simon Willison",
+          "date": "Nov 24",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 1.255,
+          "coverage": 1
+        },
+        {
+          "title": "Agent swarms need more than a message board",
+          "link": "https://stackoverflow.blog/2026/11/24/agent-swarms-need-more-than-a-message-board/",
+          "excerpt": "Agent swarms are really distributed systems problems in disguise.",
+          "source": "Stack Overflow Blog",
+          "date": "Nov 24",
+          "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format",
+          "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+          "domain": "stackoverflow.blog",
+          "hn": null,
+          "score": 1.5,
+          "coverage": 1
+        }
+      ]
     },
     {
       "name": "AI Agents & Agent Security",
       "cards": [
+        {
+          "title": "[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft",
+          "link": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/",
+          "excerpt": "November 23, 2026 — Nvidia reinstates its founder, and OpenAI publishes its internal loss curve and proposes a shared training limit.",
+          "source": "Latent Space",
+          "date": "Nov 24",
+          "image": "https://latent.space/og/card/post/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/61bd4f7b88db330282f3164cc381940e0d45c69d877e1c8c04da1be405b9c254.png",
+          "icon": "https://latent.space/favicon.png",
+          "domain": "latent.space",
+          "hn": null,
+          "score": 0.865,
+          "coverage": 1
+        },
         {
           "title": "OpenAI and Cisco introduce Shirudo",
           "link": "https://openai.com/index/introducing-shirudo",
@@ -114,7 +167,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 5.138,
+          "score": 4.643,
           "coverage": 2
         },
         {
@@ -127,9 +180,11 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.467,
+          "score": 0.44,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Richpanel helps companies automate 50% of support in 30 days",
           "link": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
@@ -140,11 +195,10 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.467,
+          "score": 0.44,
           "coverage": 1
         }
-      ],
-      "more": []
+      ]
     },
     {
       "name": "Leadership",
@@ -159,7 +213,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.374,
+          "score": 0.356,
           "coverage": 1
         }
       ],
@@ -178,7 +232,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 3.635,
+          "score": 3.345,
           "coverage": 1
         }
       ],
@@ -197,7 +251,7 @@
           "icon": "https://www.theregister.com/view-resources/dachser2/public/theregister/favicons/apple-touch-icon.png",
           "domain": "theregister.com",
           "hn": "15 points · 0 comments",
-          "score": 4.492,
+          "score": 4.087,
           "coverage": 3
         }
       ],
@@ -216,7 +270,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 4.492,
+          "score": 4.087,
           "coverage": 3
         },
         {
@@ -229,7 +283,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.275,
+          "score": 0.256,
           "coverage": 1
         },
         {
@@ -242,7 +296,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 1.89,
+          "score": 1.758,
           "coverage": 1
         }
       ],
@@ -257,7 +311,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.259,
+          "score": 0.241,
           "coverage": 1
         },
         {
@@ -270,7 +324,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.254,
+          "score": 0.237,
           "coverage": 1
         },
         {
@@ -283,7 +337,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.252,
+          "score": 0.236,
           "coverage": 1
         },
         {
@@ -296,7 +350,7 @@
           "icon": "https://www.securityweek.com/favicon.ico",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.252,
+          "score": 0.235,
           "coverage": 1
         },
         {
@@ -309,7 +363,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 2.626,
+          "score": 2.378,
           "coverage": 1
         }
       ]
@@ -327,7 +381,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 3.76,
+          "score": 3.42,
           "coverage": 1
         },
         {
@@ -340,7 +394,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 4.368,
+          "score": 3.965,
           "coverage": 1
         },
         {
@@ -353,7 +407,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.576,
+          "score": 0.523,
           "coverage": 1
         }
       ],
@@ -368,7 +422,7 @@
           "icon": "https://kubernetes.io/icons/favicon-64.png",
           "domain": "kubernetes.io",
           "hn": null,
-          "score": 0.467,
+          "score": 0.431,
           "coverage": 1
         },
         {
@@ -381,7 +435,7 @@
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
           "hn": null,
-          "score": 0.224,
+          "score": 0.214,
           "coverage": 1
         },
         {
@@ -394,7 +448,7 @@
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
           "hn": null,
-          "score": 0.224,
+          "score": 0.214,
           "coverage": 1
         },
         {
@@ -407,7 +461,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.407,
+          "score": 0.373,
           "coverage": 1
         }
       ]
@@ -425,7 +479,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 2.934,
+          "score": 2.641,
           "coverage": 1
         },
         {
@@ -438,7 +492,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 2.924,
+          "score": 2.633,
           "coverage": 1
         },
         {
@@ -451,11 +505,63 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 0.224,
+          "score": 0.214,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "Drone Maps of Salvage Yards",
+          "link": "https://salvageyarddrone.wordpress.com/",
+          "excerpt": "Drone Maps of Salvage Yards",
+          "source": "salvageyarddrone.wordpress.com via Hacker News",
+          "date": "Nov 24",
+          "image": null,
+          "icon": "https://s2.wp.com/i/webclip.png?m=1713868326i",
+          "domain": "salvageyarddrone.wordpress.com",
+          "hn": "30 points · 11 comments",
+          "score": 2.548,
+          "coverage": 1
+        },
+        {
+          "title": "Hacking radiators",
+          "link": "https://qsantos.fr/2026/11/20/hacking-radiators-for-fun-and-no-profit/",
+          "excerpt": "My flat has a bunch of electrical radiators, branded Acova. They have a remote. Each. Fixed to the wall right next to it. This means I have to get up from my seat to turn a radiator on. Worse, I might have to get to an entirely different room. Remember the first virtue. This is…",
+          "source": "qsantos.fr via Hacker News",
+          "date": "Nov 24",
+          "image": "https://qsantos.fr/2026/11/20/hacking-radiators-for-fun-and-no-profit/pxl_20261117_185516926-edited-2-1017x1024.jpg?w=1290",
+          "icon": "https://qsantos.fr/assets/icon-180.png",
+          "domain": "qsantos.fr",
+          "hn": "12 points · 4 comments",
+          "score": 1.893,
+          "coverage": 1
+        },
+        {
+          "title": "Making a dumb TV just smart enough",
+          "link": "https://qsantos.fr/2026/11/19/making-a-dumb-tv-just-smart-enough/",
+          "excerpt": "I own an old, cheap TV. It has no Internet connection, no fancy smart features that make you want to install a Pi-hole, and no ask-me-again-later updates. Quite basic, but it does its job well However, it is connected to my own desktop computer through an HDMI cable, so I can watch movies and TV…",
+          "source": "qsantos.fr via Hacker News",
+          "date": "Nov 24",
+          "image": "https://qsantos.fr/2026/11/19/making-a-dumb-tv-just-smart-enough/pxl_20261011_192201577-edited-scaled.jpg?w=1290",
+          "icon": "https://qsantos.fr/assets/icon-180.png",
+          "domain": "qsantos.fr",
+          "hn": "32 points · 13 comments",
+          "score": 2.391,
+          "coverage": 1
+        },
+        {
+          "title": "Declare is a UI language for you and your AI",
+          "link": "https://davidtemkin.github.io/declarelang/",
+          "excerpt": "Designed from the ground up for interfaces that act and move like the best native apps, in a few hundred lines your AI can write and its compiler can check.",
+          "source": "davidtemkin.github.io via Hacker News",
+          "date": "Nov 24",
+          "image": "https://davidtemkin.github.io/declarelang/assets/og-image.png",
+          "icon": "https://davidtemkin.github.io/declarelang/assets/apple-touch-icon.png",
+          "domain": "davidtemkin.github.io",
+          "hn": "28 points · 8 comments",
+          "score": 2.253,
+          "coverage": 1
+        },
         {
           "title": "New York Bans Subscription and Post-Purchase Fees on Cars",
           "link": "https://www.governor.ny.gov/news/money-your-pockets-governor-hochul-signs-bill-restricting-exploitative-vehicle-subscription",
@@ -465,60 +571,8 @@
           "image": "https://www.governor.ny.gov/sites/default/files/styles/cover_image_660x400_/public/thumbnails/image/cars.cr_.jpg?h=b5f6a62e&itok=FV7N-hBe",
           "icon": "https://www.governor.ny.gov/profiles/contrib/nygov/themes/custom/nygov-theme/nygov_theme/favicon.ico",
           "domain": "governor.ny.gov",
-          "hn": "42 points · 10 comments",
-          "score": 2.766,
-          "coverage": 1
-        },
-        {
-          "title": "Alcohol use reduces efficacy of immunotherapy by disrupting antitumor immunity",
-          "link": "https://www.science.org/doi/10.1126/scisignal.aef1375",
-          "excerpt": "63 points · 38 comments",
-          "source": "science.org via Hacker News",
-          "date": "Nov 24",
-          "image": null,
-          "icon": "https://www.science.org/favicon.ico",
-          "domain": "science.org",
-          "hn": "63 points · 38 comments",
-          "score": 2.826,
-          "coverage": 1
-        },
-        {
-          "title": "The Power of GraphQL, Without GraphQL",
-          "link": "https://cobalt27.dev/",
-          "excerpt": "Cobalt infers a GraphQL schema from your TypeScript resolvers and generates a typed SDK. No schema files, no glue code. Open source, powered by Samarium.",
-          "source": "cobalt27.dev via Hacker News",
-          "date": "Nov 24",
-          "image": "https://cobalt27.dev/og-image.png",
-          "icon": "https://cobalt27.dev/apple-touch-icon.png",
-          "domain": "cobalt27.dev",
-          "hn": "20 points · 15 comments",
-          "score": 2.163,
-          "coverage": 1
-        },
-        {
-          "title": "The search for a top dark matter candidate",
-          "link": "https://www.smithsonianmag.com/science-nature/the-search-for-a-top-dark-matter-candidate-was-losing-hope-then-came-a-potential-signal-will-it-be-enough-to-energize-the-struggling-field-180989923/",
-          "excerpt": "Physicists were growing weary with WIMPs, one proposed contender for the particles that make up dark matter. Despite their new cautious optimism, many challenges remain",
-          "source": "smithsonianmag.com via Hacker News",
-          "date": "Nov 23",
-          "image": "https://th-thumbnailer.cdn-si-edu.com/7uzmk1l7srAp3SUp8ucbHdwbDk0=/fit-in/1600x0/filters:focal(1368x912:1369x913)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/b9/fb/b9fbbcf1-9c5a-4a52-9688-1a24f8954445/laboratori_nazionali_del_gran_sasso_infn_tqb1_2014-02.jpg",
-          "icon": "https://www.smithsonianmag.com/static/smithsonianmag/img/smithmag-favicon-logo.cb31c6e193dd.png",
-          "domain": "smithsonianmag.com",
-          "hn": "25 points · 5 comments",
-          "score": 1.983,
-          "coverage": 1
-        },
-        {
-          "title": "Freeing the iPod Nano 5G",
-          "link": "https://viktorkrapivin.com/blog/nano5g-priv-prvd",
-          "excerpt": "I discovered a signature-check bypass and combined it with a font exploit to let the iPod nano 5G boot unsigned code fully untethered.",
-          "source": "viktorkrapivin.com via Hacker News",
-          "date": "Nov 23",
-          "image": "https://viktorkrapivin.com/images/ipod-nano5g-boot-preview.png",
-          "icon": "https://viktorkrapivin.com/favicon.ico",
-          "domain": "viktorkrapivin.com",
-          "hn": "60 points · 8 comments",
-          "score": 2.338,
+          "hn": "146 points · 51 comments",
+          "score": 3.084,
           "coverage": 1
         }
       ]
