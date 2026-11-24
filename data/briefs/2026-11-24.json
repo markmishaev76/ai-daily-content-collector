@@ -1,29 +1,35 @@
 {
   "date": "2026-11-24",
   "lead": {
-    "title": "Shirudo: OpenAI and Cisco's open-source runtime for shielding unpatched Linux",
-    "link": "https://openai.com/index/introducing-shirudo/",
-    "excerpt": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
-    "source": "openai.com via Hacker News",
-    "date": "Nov 23",
-    "image": "https://images.ctfassets.net/kftzwdyauwt9/5K7gFDr3r8vgjdIcsW6RVY/aba5325ce7902e5d1499b907f8e78f0b/shirudo-partner-logos-landscape-2x.png?w=1600&h=900&fit=fill",
+    "title": "Know the identity behind the role: Authorize and audit with trusted identity propagation",
+    "link": "https://aws.amazon.com/blogs/security/know-the-identity-behind-the-role-authorize-and-audit-with-trusted-identity-propagation/",
+    "excerpt": "Today, AWS is making it easier to grant access and audit activity based on the user or workload (a non-human caller, such as an application, service, or an automated workflow) behind an AWS Identity and Access Management (IAM) role. Trusted identity propagation (TIP) carries the identity of the…",
+    "source": "AWS Security Blog",
+    "date": "Nov 24",
+    "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/24/figure-1-identity-context-flow-v12-3600x1820-2.png",
     "image_credit": null,
-    "section": "AI Agents & Agent Security",
+    "section": "Platform, Cloud & Reliability",
     "pinned": false,
     "note": null,
     "labels": [
-      "2 sources",
-      "AI Agents & Agent Security",
-      "4h ago"
+      "Platform, Cloud & Reliability",
+      "1h ago"
     ],
-    "also": [
-      {
-        "name": "just-dashboard.com",
-        "link": "https://just-dashboard.com/"
-      }
-    ]
+    "also": []
   },
   "pulse": [
+    {
+      "title": "Huang's Return Is the Biggest National Security Scandal in U.S. History",
+      "thread": "https://news.ycombinator.com/item?id=50620822",
+      "link": "https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal/",
+      "link_domain": "foreignpolicy.com",
+      "source": "Hacker News",
+      "domain": "foreignpolicy.com",
+      "meta": "Hacker News · 277 points · 213 comments · 4h ago",
+      "also": [],
+      "image": "https://foreignpolicy.com/wp-content/uploads/2026/11/jensen-huang-GettyImages-2205754284.jpg",
+      "icon": "https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/logos/favicon-192.png"
+    },
     {
       "title": "The next circle of security hell",
       "thread": "https://news.ycombinator.com/item?id=50610334",
@@ -31,7 +37,7 @@
       "link_domain": "blogs.gentoo.org",
       "source": "Hacker News",
       "domain": "blogs.gentoo.org",
-      "meta": "Hacker News · 237 points · 141 comments · 14h ago",
+      "meta": "Hacker News · 239 points · 147 comments · 16h ago",
       "also": [],
       "image": "https://s0.wp.com/i/blank.jpg",
       "icon": "https://blogs.gentoo.org/favicon.ico"
@@ -43,7 +49,7 @@
       "link_domain": "lambdacreate.com",
       "source": "Lobsters",
       "domain": "lambdacreate.com",
-      "meta": "Lobsters · 15 points · 10 comments · 10h ago",
+      "meta": "Lobsters · 17 points · 10 comments · 12h ago",
       "also": [],
       "image": "https://lambdacreate.com/static/images/og-default.png",
       "icon": "https://lambdacreate.com/static/images/logo-192.png"
@@ -63,7 +69,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 6.801,
+          "score": 6.058,
           "coverage": 1
         },
         {
@@ -76,7 +82,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 6.239,
+          "score": 5.478,
           "coverage": 1
         },
         {
@@ -89,7 +95,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.48,
+          "score": 0.456,
           "coverage": 1
         }
       ],
@@ -108,7 +114,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 8.485,
+          "score": 5.138,
           "coverage": 2
         },
         {
@@ -121,7 +127,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.498,
+          "score": 0.467,
           "coverage": 1
         },
         {
@@ -134,7 +140,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.498,
+          "score": 0.467,
           "coverage": 1
         }
       ],
@@ -153,7 +159,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.394,
+          "score": 0.374,
           "coverage": 1
         }
       ],
@@ -172,7 +178,7 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 3.98,
+          "score": 3.635,
           "coverage": 1
         }
       ],
@@ -190,8 +196,8 @@
           "image": "https://image.theregister.com/260104.jpg?imageId=260104&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
           "icon": "https://www.theregister.com/view-resources/dachser2/public/theregister/favicons/apple-touch-icon.png",
           "domain": "theregister.com",
-          "hn": "14 points · 0 comments",
-          "score": 4.952,
+          "hn": "15 points · 0 comments",
+          "score": 4.492,
           "coverage": 3
         }
       ],
@@ -210,7 +216,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 4.952,
+          "score": 4.492,
           "coverage": 3
         },
         {
@@ -223,7 +229,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.298,
+          "score": 0.275,
           "coverage": 1
         },
         {
@@ -236,7 +242,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 2.043,
+          "score": 1.89,
           "coverage": 1
         }
       ],
@@ -251,7 +257,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.279,
+          "score": 0.259,
           "coverage": 1
         },
         {
@@ -264,7 +270,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.273,
+          "score": 0.254,
           "coverage": 1
         },
         {
@@ -277,7 +283,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.272,
+          "score": 0.252,
           "coverage": 1
         },
         {
@@ -290,7 +296,7 @@
           "icon": "https://www.securityweek.com/favicon.ico",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.271,
+          "score": 0.252,
           "coverage": 1
         },
         {
@@ -303,7 +309,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 2.932,
+          "score": 2.626,
           "coverage": 1
         }
       ]
@@ -321,7 +327,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 4.176,
+          "score": 3.76,
           "coverage": 1
         },
         {
@@ -334,7 +340,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 4.863,
+          "score": 4.368,
           "coverage": 1
         },
         {
@@ -347,7 +353,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.642,
+          "score": 0.576,
           "coverage": 1
         }
       ],
@@ -362,7 +368,7 @@
           "icon": "https://kubernetes.io/icons/favicon-64.png",
           "domain": "kubernetes.io",
           "hn": null,
-          "score": 0.509,
+          "score": 0.467,
           "coverage": 1
         },
         {
@@ -375,7 +381,7 @@
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
           "hn": null,
-          "score": 0.236,
+          "score": 0.224,
           "coverage": 1
         },
         {
@@ -388,7 +394,7 @@
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
           "hn": null,
-          "score": 0.236,
+          "score": 0.224,
           "coverage": 1
         },
         {
@@ -401,20 +407,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.448,
-          "coverage": 1
-        },
-        {
-          "title": "JEP 545 Moves ZGC Memory Preparation off the Startup Path in JDK 28",
-          "link": "https://www.infoq.com/news/2026/11/jep-545-jdk-28/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "JEP 545, Faster Startup and Warmup with ZGC, has been integrated into JDK 28, moving heap memory preparation onto concurrent worker threads. ZGC now pre-touches memory as it expands and upgrades small pages to large ones on Linux 6.1 and later, but the 2 MB initial heap behind the JEP's 38%…",
-          "source": "InfoQ",
-          "date": "Nov 23",
-          "image": "https://res.infoq.com/news/2026/11/jep-545-jdk-28/en/headerimage/generatedHeaderImage-1795265408975.jpg",
-          "icon": null,
-          "domain": "infoq.com",
-          "hn": null,
-          "score": 0.398,
+          "score": 0.407,
           "coverage": 1
         }
       ]
@@ -432,7 +425,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 3.301,
+          "score": 2.934,
           "coverage": 1
         },
         {
@@ -445,7 +438,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 3.288,
+          "score": 2.924,
           "coverage": 1
         },
         {
@@ -458,35 +451,61 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 0.236,
+          "score": 0.224,
           "coverage": 1
         }
       ],
       "more": [
         {
+          "title": "New York Bans Subscription and Post-Purchase Fees on Cars",
+          "link": "https://www.governor.ny.gov/news/money-your-pockets-governor-hochul-signs-bill-restricting-exploitative-vehicle-subscription",
+          "excerpt": "Governor Hochul signed a bill restricting motor vehicle manufacturers and dealers from charging consumers subscription fees after they purchase a vehicle.",
+          "source": "governor.ny.gov via Hacker News",
+          "date": "Nov 24",
+          "image": "https://www.governor.ny.gov/sites/default/files/styles/cover_image_660x400_/public/thumbnails/image/cars.cr_.jpg?h=b5f6a62e&itok=FV7N-hBe",
+          "icon": "https://www.governor.ny.gov/profiles/contrib/nygov/themes/custom/nygov-theme/nygov_theme/favicon.ico",
+          "domain": "governor.ny.gov",
+          "hn": "42 points · 10 comments",
+          "score": 2.766,
+          "coverage": 1
+        },
+        {
           "title": "Alcohol use reduces efficacy of immunotherapy by disrupting antitumor immunity",
           "link": "https://www.science.org/doi/10.1126/scisignal.aef1375",
-          "excerpt": "21 points · 7 comments",
+          "excerpt": "63 points · 38 comments",
           "source": "science.org via Hacker News",
           "date": "Nov 24",
           "image": null,
           "icon": "https://www.science.org/favicon.ico",
           "domain": "science.org",
-          "hn": "21 points · 7 comments",
-          "score": 2.496,
+          "hn": "63 points · 38 comments",
+          "score": 2.826,
           "coverage": 1
         },
         {
-          "title": "Huang's Return Is the Biggest National Security Scandal in U.S. History",
-          "link": "https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal/",
-          "excerpt": "Trump has put his pocketbook first and U.S. interests last.",
-          "source": "foreignpolicy.com via Hacker News",
+          "title": "The Power of GraphQL, Without GraphQL",
+          "link": "https://cobalt27.dev/",
+          "excerpt": "Cobalt infers a GraphQL schema from your TypeScript resolvers and generates a typed SDK. No schema files, no glue code. Open source, powered by Samarium.",
+          "source": "cobalt27.dev via Hacker News",
+          "date": "Nov 24",
+          "image": "https://cobalt27.dev/og-image.png",
+          "icon": "https://cobalt27.dev/apple-touch-icon.png",
+          "domain": "cobalt27.dev",
+          "hn": "20 points · 15 comments",
+          "score": 2.163,
+          "coverage": 1
+        },
+        {
+          "title": "The search for a top dark matter candidate",
+          "link": "https://www.smithsonianmag.com/science-nature/the-search-for-a-top-dark-matter-candidate-was-losing-hope-then-came-a-potential-signal-will-it-be-enough-to-energize-the-struggling-field-180989923/",
+          "excerpt": "Physicists were growing weary with WIMPs, one proposed contender for the particles that make up dark matter. Despite their new cautious optimism, many challenges remain",
+          "source": "smithsonianmag.com via Hacker News",
           "date": "Nov 23",
-          "image": "https://foreignpolicy.com/wp-content/uploads/2026/11/jensen-huang-GettyImages-2205754284.jpg",
-          "icon": "https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/logos/favicon-192.png",
-          "domain": "foreignpolicy.com",
-          "hn": "167 points · 120 comments",
-          "score": 3.438,
+          "image": "https://th-thumbnailer.cdn-si-edu.com/7uzmk1l7srAp3SUp8ucbHdwbDk0=/fit-in/1600x0/filters:focal(1368x912:1369x913)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/b9/fb/b9fbbcf1-9c5a-4a52-9688-1a24f8954445/laboratori_nazionali_del_gran_sasso_infn_tqb1_2014-02.jpg",
+          "icon": "https://www.smithsonianmag.com/static/smithsonianmag/img/smithmag-favicon-logo.cb31c6e193dd.png",
+          "domain": "smithsonianmag.com",
+          "hn": "25 points · 5 comments",
+          "score": 1.983,
           "coverage": 1
         },
         {
@@ -498,34 +517,8 @@
           "image": "https://viktorkrapivin.com/images/ipod-nano5g-boot-preview.png",
           "icon": "https://viktorkrapivin.com/favicon.ico",
           "domain": "viktorkrapivin.com",
-          "hn": "40 points · 6 comments",
-          "score": 2.446,
-          "coverage": 1
-        },
-        {
-          "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
-          "link": "https://stalw.art/blog/microsoft-exchange-replacement/",
-          "excerpt": "Stalwart 1.2.0 speaks MAPI over HTTP, Exchange Web Services, ActiveSync and Autodiscover, so Outlook, Apple Mail and mobile devices connect to it as they would to an Exchange server. Also in this release: mail rules, read receipts, working hours, room and equipment booking, and the new Stalwart…",
-          "source": "stalw.art via Hacker News",
-          "date": "Nov 23",
-          "image": "https://stalw.art/og/blog/microsoft-exchange-replacement.png",
-          "icon": "https://stalw.art/favicon.svg",
-          "domain": "stalw.art",
-          "hn": "198 points · 110 comments",
-          "score": 3.33,
-          "coverage": 1
-        },
-        {
-          "title": "Latent Introspection: LLMs Can Detect Prior Concept Injections",
-          "link": "https://arxiv.org/abs/2602.20031",
-          "excerpt": "We uncover a latent capacity for introspection in a Qwen 32B model, demonstrating that the model can detect when concepts have been injected into its earlier context and identify which concept was injected. While the model denies injection in sampled outputs, logit lens analysis reveals clear…",
-          "source": "arxiv.org via Hacker News",
-          "date": "Nov 23",
-          "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-          "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png",
-          "domain": "arxiv.org",
-          "hn": "22 points · 1 comments",
-          "score": 2.015,
+          "hn": "60 points · 8 comments",
+          "score": 2.338,
           "coverage": 1
         }
       ]
