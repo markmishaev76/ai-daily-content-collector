@@ -1,29 +1,45 @@
 {
   "date": "2026-11-24",
   "lead": {
-    "title": "Your AI coding agent lacks context",
-    "link": "https://leaddev.com/ai/your-ai-coding-agent-lacks-context?utm_source=leaddev&utm_medium=RSS",
-    "excerpt": "Context is where the hours go.",
-    "source": "LeadDev",
+    "title": "Hackers compromise Check Point Servers in 22 organizations",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+    "excerpt": "Threat actors have exploited multiple vulnerabilities to compromise two dozen Check Point Security management servers in an ongoing campaign targeting 22 organizations. [...]",
+    "source": "BleepingComputer",
     "date": "Nov 24",
-    "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1536,h_864/next/2026/05/ai-04-1.webp",
+    "image": "https://www.bleepstatic.com/content/hl-images/2026/05/05/hacker.jpg",
     "image_credit": null,
-    "section": "AI-Assisted Engineering",
+    "section": "Security & AppSec",
     "pinned": false,
     "note": null,
     "labels": [
-      "2 sources",
-      "AI-Assisted Engineering",
-      "under 1h ago"
+      "3 sources",
+      "Security & AppSec",
+      "2h ago"
     ],
     "also": [
       {
-        "name": "designverse.ai",
-        "link": "https://designverse.ai/resources/ai-coding-drift-report"
+        "name": "securityweek.com",
+        "link": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/"
+      },
+      {
+        "name": "greynoise.io",
+        "link": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign"
       }
     ]
   },
   "pulse": [
+    {
+      "title": "LLM agents work for their parent companies, not for you",
+      "thread": "https://news.ycombinator.com/item?id=50627340",
+      "link": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+      "link_domain": "michaelharley.net",
+      "source": "Hacker News",
+      "domain": "michaelharley.net",
+      "meta": "Hacker News · 720 points · 307 comments · 6h ago",
+      "also": [],
+      "image": "https://michaelharley.net/assets/images/open-graph-image.png",
+      "icon": "https://michaelharley.net/assets/favicons/apple-touch-icon.png"
+    },
     {
       "title": "Huang's Return Is the Biggest National Security Scandal in U.S. History",
       "thread": "https://news.ycombinator.com/item?id=50620822",
@@ -31,22 +47,34 @@
       "link_domain": "foreignpolicy.com",
       "source": "Hacker News",
       "domain": "foreignpolicy.com",
-      "meta": "Hacker News · 318 points · 247 comments · 16h ago",
+      "meta": "Hacker News · 330 points · 254 comments · 19h ago",
       "also": [],
       "image": "https://foreignpolicy.com/wp-content/uploads/2026/11/jensen-huang-GettyImages-2205754284.jpg",
       "icon": "https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/logos/favicon-192.png"
     },
     {
-      "title": "Held together by spare time: Reviving wiki.alpinelinux.org during PHP2Shell",
-      "thread": "https://lobste.rs/s/gtc9rg/held_together_by_spare_time_reviving_wiki",
-      "link": "https://lambdacreate.com/posts/held-together-by-spare-time",
-      "link_domain": "lambdacreate.com",
-      "source": "Lobsters",
-      "domain": "lambdacreate.com",
-      "meta": "Lobsters · 20 points · 12 comments · 23h ago",
+      "title": "Tidal bans AI-generated music",
+      "thread": "https://news.ycombinator.com/item?id=50630309",
+      "link": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+      "link_domain": "variety.com",
+      "source": "Hacker News",
+      "domain": "variety.com",
+      "meta": "Hacker News · 278 points · 245 comments · 2h ago",
       "also": [],
-      "image": "https://lambdacreate.com/static/images/og-default.png",
-      "icon": "https://lambdacreate.com/static/images/logo-192.png"
+      "image": "https://variety.com/wp-content/uploads/2023/12/Tidal.png?w=679&h=382&crop=1",
+      "icon": "https://variety.com/wp-content/themes/pmc-variety-2020/assets/app/icons/apple-touch-icon.png"
+    },
+    {
+      "title": "Security incident on Hex.pm",
+      "thread": "https://lobste.rs/s/rfcgkx/security_incident_on_hex_pm",
+      "link": "https://hex.pm/blog/security-incident-on-hexpm",
+      "link_domain": "hex.pm",
+      "source": "Lobsters",
+      "domain": "hex.pm",
+      "meta": "Lobsters · 26 points · 5 comments · 4h ago",
+      "also": [],
+      "image": "https://hex.pm/images/favicon-160-3770bc59f1f8ba7656b4db5a1eacd8e3.png?vsn=d",
+      "icon": "https://hex.pm/images/hex-full-a8183c4f9adac71516516d107d402b18.svg?vsn=d"
     },
     {
       "title": "Anthropic Breaks Below $83 IPO Price in Premarket Trading",
@@ -55,10 +83,22 @@
       "link_domain": "bloomberg.com",
       "source": "Hacker News",
       "domain": "bloomberg.com",
-      "meta": "Hacker News · 118 points · 179 comments · 1h ago",
+      "meta": "Hacker News · 148 points · 243 comments · 5h ago",
       "also": [],
       "image": null,
       "icon": "https://www.bloomberg.com/favicon.ico"
+    },
+    {
+      "title": "Anthropic is below its IPO price",
+      "thread": "https://news.ycombinator.com/item?id=50628932",
+      "link": "https://www.msn.com/en-us/money/top-stocks/anthropic-stock-sinks-below-ipo-price-why-that-s-happened-so-fast/ar-AA2i7rqa",
+      "link_domain": "msn.com",
+      "source": "Hacker News",
+      "domain": "msn.com",
+      "meta": "Hacker News · 128 points · 130 comments · 4h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.msn.com/favicon.ico"
     }
   ],
   "sections": [
@@ -66,70 +106,29 @@
       "name": "AI-Assisted Engineering",
       "cards": [
         {
-          "title": "Ladybird's first alpha release",
-          "link": "https://simonwillison.net/2026/Nov/23/ladybird/",
-          "excerpt": "Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components - HTML parsing, CSS engine, layout, JavaScript, even WebAssembly. It still uses a few external components - things like HarfBuzz for text shaping, Skia for 2D graphics,…",
-          "source": "Simon Willison",
-          "date": "Nov 23",
-          "image": "https://static.simonwillison.net/static/2026/ladybird-ffmpeg.webp",
-          "icon": null,
-          "domain": "simonwillison.net",
-          "hn": null,
-          "score": 3.768,
-          "coverage": 1
-        },
-        {
-          "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
-          "link": "https://simonwillison.net/2026/Nov/23/glm-54/",
-          "excerpt": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this: In a standard Transformer, each layer runs once per forward pass. In a Loop…",
-          "source": "Simon Willison",
-          "date": "Nov 23",
-          "image": "https://static.simonwillison.net/static/2026/glm-5.4-max.webp",
-          "icon": null,
-          "domain": "simonwillison.net",
-          "hn": null,
-          "score": 3.264,
-          "coverage": 1
-        },
-        {
-          "title": "datasette-charts 0.1a0",
-          "link": "https://simonwillison.net/2026/Nov/23/datasette-charts/",
-          "excerpt": "Release: datasette-charts 0.1a0 I've been thinking about this problem for over a year now, but on Sunday I finally fired up Claude Fable 5.2 to build an initial prototype. The prototype went so well that this is now a full plugin. You can try it out in Datasette Lite here. It looks like this: The…",
-          "source": "Simon Willison",
-          "date": "Nov 23",
-          "image": "https://static.simonwillison.net/static/2026/datasette-charts-0.1a0.webp",
-          "icon": null,
-          "domain": "simonwillison.net",
-          "hn": null,
-          "score": 0.356,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "datasette-charts 0.2a0",
-          "link": "https://simonwillison.net/2026/Nov/24/datasette-charts/",
-          "excerpt": "Release: datasette-charts 0.2a0 I introduced this new charting plugin for Datasette yesterday. Today it's gained integration with Datasette Agent, so now you can ask chat for a chart and it will create one for you using the same underlying chart suggestion and generation tools. Here's a demo…",
-          "source": "Simon Willison",
+          "title": "Your AI coding agent lacks context",
+          "link": "https://leaddev.com/ai/your-ai-coding-agent-lacks-context?utm_source=leaddev&utm_medium=RSS",
+          "excerpt": "Context is where the hours go.",
+          "source": "LeadDev",
           "date": "Nov 24",
-          "image": null,
-          "icon": "https://simonwillison.net/favicon.ico",
-          "domain": "simonwillison.net",
+          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1536,h_864/next/2026/05/ai-04-1.webp",
+          "icon": null,
+          "domain": "leaddev.com",
           "hn": null,
-          "score": 0.788,
+          "score": 0.778,
           "coverage": 1
         },
         {
-          "title": "datasette-agent 0.7a1",
-          "link": "https://simonwillison.net/2026/Nov/24/datasette-agent/",
-          "excerpt": "Release: datasette-agent 0.7a1 A small improvement to Datasette Agent: chat sessions could already open an iframe side panel that could then navigate to different pages. This version improves navigation by fragment hashes, for deeper integration with other Datasette plugins that update fragment…",
-          "source": "Simon Willison",
+          "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+          "link": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+          "excerpt": "A Blog post by NVIDIA on Hugging Face",
+          "source": "Hugging Face",
           "date": "Nov 24",
-          "image": null,
-          "icon": "https://simonwillison.net/favicon.ico",
-          "domain": "simonwillison.net",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/6847ab8c06094fa4afb6ee38/M70tUMNd7N4KO5QGI37YZ.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
           "hn": null,
-          "score": 0.766,
+          "score": 1.244,
           "coverage": 1
         },
         {
@@ -142,7 +141,48 @@
           "icon": "https://stackoverflow.blog/apple-touch-icon.png",
           "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 0.969,
+          "score": 0.805,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Prompt Injection Fixes Need Regression Tests",
+          "link": "https://stackoverflow.blog/2026/11/24/prompt-injection-fixes-need-regression-tests/",
+          "excerpt": "Founded in 2008, Stack Overflow’s public platform is used by nearly everyone who codes to learn, share their knowledge, collaborate, and build their careers.",
+          "source": "Stack Overflow Blog",
+          "date": "Nov 24",
+          "image": null,
+          "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+          "domain": "stackoverflow.blog",
+          "hn": null,
+          "score": 9.034,
+          "coverage": 1
+        },
+        {
+          "title": "A Reboot Is Still a Deployment",
+          "link": "https://stackoverflow.blog/2026/11/24/a-reboot-is-still-a-deployment/",
+          "excerpt": "Founded in 2008, Stack Overflow’s public platform is used by nearly everyone who codes to learn, share their knowledge, collaborate, and build their careers.",
+          "source": "Stack Overflow Blog",
+          "date": "Nov 24",
+          "image": null,
+          "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+          "domain": "stackoverflow.blog",
+          "hn": null,
+          "score": 1.187,
+          "coverage": 1
+        },
+        {
+          "title": "How Gemini is changing the game for Golden State's organization and fans.",
+          "link": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+          "excerpt": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+          "source": "Google AI",
+          "date": "Nov 24",
+          "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Gemini_1.max-600x600.format-webp.webp",
+          "icon": null,
+          "domain": "blog.google",
+          "hn": null,
+          "score": 1.197,
           "coverage": 1
         }
       ]
@@ -150,19 +190,6 @@
     {
       "name": "AI Agents & Agent Security",
       "cards": [
-        {
-          "title": "[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft",
-          "link": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/",
-          "excerpt": "November 23, 2026 — Nvidia reinstates its founder, and OpenAI publishes its internal loss curve and proposes a shared training limit.",
-          "source": "Latent Space",
-          "date": "Nov 24",
-          "image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/2d949515-988e-46e3-83cb-c3a9118cb699/Screenshot_2026-11-24_at_12.54.41b.png?t=1795525308",
-          "icon": null,
-          "domain": "latent.space",
-          "hn": null,
-          "score": 0.521,
-          "coverage": 1
-        },
         {
           "title": "OpenAI and Cisco introduce Shirudo",
           "link": "https://openai.com/index/introducing-shirudo",
@@ -173,7 +200,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 8.553,
+          "score": 6.7,
           "coverage": 4
         },
         {
@@ -186,11 +213,9 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.347,
+          "score": 0.319,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Richpanel helps companies automate 50% of support in 30 days",
           "link": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
@@ -201,7 +226,22 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.347,
+          "score": 0.319,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "How iFood scales coding agents across 15,000 repositories",
+          "link": "https://openai.com/index/ifood",
+          "excerpt": "",
+          "source": "OpenAI News",
+          "date": "Nov 24",
+          "image": null,
+          "icon": "https://openai.com/favicon.ico",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.483,
           "coverage": 1
         },
         {
@@ -214,7 +254,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.793,
+          "score": 0.634,
           "coverage": 1
         }
       ]
@@ -223,16 +263,16 @@
       "name": "Leadership",
       "cards": [
         {
-          "title": "What is the agentic factory? An update to the machinery of transformation for financial-services businesses",
-          "link": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/what-is-the-agentic-factory-an-update-to-the-machinery-of-transformation-for-financial-services-businesses",
-          "excerpt": "An agentic factory is a centralized model to accelerate the development of effective agentic systems.",
-          "source": "McKinsey Insights & Publications",
+          "title": "A Day in the Life of a Senior Leader",
+          "link": "https://randsinrepose.com/archives/a-day-in-the-life-of-a-senior-leader/",
+          "excerpt": "One of many unexpected benefits of Ask Rands is that having a robot answer questions from the internet about all of your writing helps you discover contradictions. I’ve flip-flopped on whether a leader should code, and Grumbles knows this and explains it: Yes, and he did it out loud. In…",
+          "source": "Rands in Repose",
           "date": "Nov 24",
-          "image": null,
-          "icon": "https://www.mckinsey.com/favicon.ico",
-          "domain": "mckinsey.com",
+          "image": "https://randsinrepose.com/wp-content/uploads/2026/11/day-in-life-1024x535.png",
+          "icon": null,
+          "domain": "randsinrepose.com",
           "hn": null,
-          "score": 4.207,
+          "score": 1.194,
           "coverage": 1
         },
         {
@@ -245,7 +285,7 @@
           "icon": null,
           "domain": "stratechery.com",
           "hn": null,
-          "score": 0.923,
+          "score": 0.749,
           "coverage": 1
         },
         {
@@ -258,11 +298,24 @@
           "icon": null,
           "domain": "sloanreview.mit.edu",
           "hn": null,
-          "score": 0.984,
+          "score": 0.789,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "What is the agentic factory? An update to the machinery of transformation for financial-services businesses",
+          "link": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/what-is-the-agentic-factory-an-update-to-the-machinery-of-transformation-for-financial-services-businesses",
+          "excerpt": "An agentic factory is a centralized model to accelerate the development of effective agentic systems.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 24",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 3.694,
+          "coverage": 1
+        },
         {
           "title": "Global Economics Intelligence executive summary, October 2026",
           "link": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/global-economics-intelligence",
@@ -273,7 +326,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.55,
+          "score": 0.483,
           "coverage": 1
         },
         {
@@ -286,7 +339,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.293,
+          "score": 0.273,
           "coverage": 1
         }
       ]
@@ -294,6 +347,32 @@
     {
       "name": "Agent Identity & Authorization",
       "cards": [
+        {
+          "title": "Two Years of MCP Builders",
+          "link": "https://blog.modelcontextprotocol.io/posts/mcp-turns-two/",
+          "excerpt": "This week, our little open-source project, the Model Context Protocol (MCP), turns two years old. And what better way to mark this occasion than by celebrating the people who helped us build it and everyone building with it. When MCP first launched, we could not have imagined how creative and…",
+          "source": "Model Context Protocol Blog",
+          "date": "Nov 24",
+          "image": "https://blog.modelcontextprotocol.io/posts/images/mcp-turns-two/mcp-second-birthday-poster.jpg",
+          "icon": null,
+          "domain": "blog.modelcontextprotocol.io",
+          "hn": null,
+          "score": 9.506,
+          "coverage": 1
+        },
+        {
+          "title": "Built for trust and control: Powering the next wave of AI agents across Google Workspace and Google Cloud",
+          "link": "https://cloud.google.com/blog/products/identity-security/deploying-agents-safely-in-your-enterprise/",
+          "excerpt": "For over 20 years, we have protected 4 billion users and 13 million organizations in Workspace, and critical enterprise and government systems on Google Cloud. From personal and financial records to board materials, regulated workloads, applications, and AI models, those safeguards protect what…",
+          "source": "Security & Identity",
+          "date": "Nov 24",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Security__Identity.max-2500x2500.jpg",
+          "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 8.795,
+          "coverage": 1
+        },
         {
           "title": "Google is named a Leader in the 2026 Gartner® Magic Quadrant™ for SIEM",
           "link": "https://cloud.google.com/blog/products/identity-security/google-is-named-a-leader-in-the-2026-gartner-magic-quadrant-for-siem/",
@@ -304,9 +383,11 @@
           "icon": null,
           "domain": "cloud.google.com",
           "hn": null,
-          "score": 2.452,
+          "score": 2.208,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Announcing the Agent Auth (AAuth) Working Group",
           "link": "https://openid.net/announcing-the-agent-auth-aauth-working-group/",
@@ -317,11 +398,23 @@
           "icon": "https://openid.net/wp-content/uploads/2022/11/favicon_23-300x300.jpg",
           "domain": "openid.net",
           "hn": null,
-          "score": 4.882,
+          "score": 4.008,
+          "coverage": 1
+        },
+        {
+          "title": "Property Based Thinking",
+          "link": "https://goteleport.com/blog/property-based-thinking/",
+          "excerpt": "Learn to define safety, liveness, and property-based testing properties, then verify them in Go with the rapid property-based testing library and deterministic simulation testing in Antithesis.",
+          "source": "The Teleport Blog",
+          "date": "Nov 24",
+          "image": "https://goteleport.com/blog/static/og-image.png",
+          "icon": "https://goteleport.com/blog/static/apple.png",
+          "domain": "goteleport.com",
+          "hn": null,
+          "score": 0.387,
           "coverage": 1
         }
-      ],
-      "more": []
+      ]
     },
     {
       "name": "Secrets & NHI",
@@ -336,7 +429,39 @@
           "icon": "https://www.hashicorp.com/favicon.ico",
           "domain": "hashicorp.com",
           "hn": null,
-          "score": 2.461,
+          "score": 2.203,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Supply Chain & Builds",
+      "cards": [
+        {
+          "title": "Just Launched: Finding and Fixing Vulnerabilities Using AI (LFD126)",
+          "link": "https://openssf.org/blog/2026/11/24/just-launched-finding-and-fixing-vulnerabilities-using-ai-lfd126/",
+          "excerpt": "Linux Foundation Education and OpenSSF have launched LFD126, a free, self-paced course teaching developers and security researchers how to prepare code, validate and deduplicate findings, fix vulnerabilities with AI, and build repeatable, long-term defense workflows.",
+          "source": "Open Source Security Foundation",
+          "date": "Nov 24",
+          "image": null,
+          "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
+          "domain": "openssf.org",
+          "hn": null,
+          "score": 1.033,
+          "coverage": 1
+        },
+        {
+          "title": "Dogfooding Checks and Workspaces: Hard lessons from 3,000 repos",
+          "link": "https://www.chainguard.dev/unchained/dogfooding-checks-and-workspaces-hard-lessons-from-3-000-repos",
+          "excerpt": "Inside Chainguard's move beyond traditional CI: how Checks and Workspaces enable secure agent execution, faster builds, and verifiable test results.",
+          "source": "Chainguard: Unchained",
+          "date": "Nov 24",
+          "image": "https://images.ctfassets.net/l47ir7rfykkn/1Ge6tyMYhQR5g4hstQwx5f/ebc5ddb8474a9951ff7ac21f3fba1cb5/Dogfooding_Checks_and_Workspaces__Hard_lessons_from_3_000_repos.png",
+          "icon": "https://www.chainguard.dev/favicon.ico",
+          "domain": "chainguard.dev",
+          "hn": null,
+          "score": 0.387,
           "coverage": 1
         }
       ],
@@ -345,6 +470,19 @@
     {
       "name": "Security & AppSec",
       "cards": [
+        {
+          "title": "Evo Agentic Development Security and Evo Dependency Firewall Inside NVIDIA OpenShell",
+          "link": "https://snyk.io/blog/secure-ai-coding-agents-nvidia-openshell/",
+          "excerpt": "See how Evo ADS and Dependency Firewall secure Claude Code in NVIDIA OpenShell, from screening agent skills and code to controlling package installs.",
+          "source": "Blog RSS Feed | Snyk",
+          "date": "Nov 24",
+          "image": "https://res.cloudinary.com/snyk/image/upload/v1689708917/blog-feature-ai-blue.jpg",
+          "icon": null,
+          "domain": "snyk.io",
+          "hn": null,
+          "score": 2.74,
+          "coverage": 1
+        },
         {
           "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
           "link": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
@@ -355,7 +493,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 4.529,
+          "score": 3.843,
           "coverage": 1
         },
         {
@@ -368,7 +506,22 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 2.943,
+          "score": 2.248,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+          "link": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+          "excerpt": "A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus. Central to the group's operations is a backdoor called KuboShell that uses the InterPlanetary File System (IPFS) for…",
+          "source": "The Hacker News",
+          "date": "Nov 24",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqukTcR2pkDWiTqMzORa4j7zZRB0MDUGfBly50X7gPwPHqSeBmfReQWpMR9IdPOP_NbeuQSBdYPknSgxvutDll4VAZNSoGqcwmXzhZNEez-UoE-MwTnM9i9XxjoLYRdhY0iY6tD9BK9IDB0o8RUU7sNsOex5tVNtoNwRHCCAxM9ri66c4G2wPa9AqW9saA/s1600/iran-hackers.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.509,
           "coverage": 1
         },
         {
@@ -381,11 +534,9 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 3.658,
-          "coverage": 1
-        }
-      ],
-      "more": [
+          "score": 5.467,
+          "coverage": 2
+        },
         {
           "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
           "link": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
@@ -396,7 +547,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 3.658,
+          "score": 2.87,
           "coverage": 1
         },
         {
@@ -409,7 +560,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.473,
+          "score": 0.379,
           "coverage": 1
         },
         {
@@ -422,33 +573,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.473,
-          "coverage": 1
-        },
-        {
-          "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
-          "link": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
-          "excerpt": "Norway's National Security Authority (NSM) has disclosed that it became aware of a security vulnerability in Microsoft's Azure API Management (APIM) that has affected multiple businesses in the country, including energy companies Equinor and Skagerak Energi. \"An unknown actor has been actively…",
-          "source": "The Hacker News",
-          "date": "Nov 24",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSM2FAnf9UEb3Do4v-r8AEBpoI8byXOrHgng-eRjEyudSf0hiKMpymmDiK_NLTxYuzXdtrWvMrBzY9qmLqDo31r3JOpVefOQxLE77gdkoOAYMkCK__-Bc-AJoWg-8nEOEVjcY6SswkzLbCfYl6kK9clg6xXw3xginWqIwnMxBUaS6wgPKVVwXZNhZA5G85/s1600/azure-ms.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 5.671,
-          "coverage": 4
-        },
-        {
-          "title": "WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login",
-          "link": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html",
-          "excerpt": "A flaw in WHMCS's shopping cart, the billing and automation platform many web hosting companies use to run their businesses, could allow anyone on the internet to retrieve customer records and administrator password hashes from an installation's database. No login is needed. The company disclosed…",
-          "source": "The Hacker News",
-          "date": "Nov 24",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgK7wXAof6nH7PDC5-3qxXZJgJvZODTjQcrWFOjO8jeb9yGkK6bUkzm27MzMy5n0S_Xywsj0npu_F0FmQ4JcKxPXNEoezLrpKoSStaYK4Ww46QUuzySTeQnnzcIXs_NADunlqeyuMIl5Wm5PKWc3c0JyNmYPxfbInIWx2tfosieI_QS_e4PX-JILlLH-1U/s1600/hosting.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.385,
+          "score": 0.379,
           "coverage": 1
         }
       ]
@@ -456,6 +581,19 @@
     {
       "name": "Platform, Cloud & Reliability",
       "cards": [
+        {
+          "title": "Enabling zero trust: ALLEN’s move to Chrome Enterprise Premium",
+          "link": "https://cloud.google.com/blog/products/chrome-enterprise/enabling-zero-trust-allens-move-to-chrome-enterprise-premium/",
+          "excerpt": "Editor’s note: Founded in 1988 in Kota, Rajasthan, ALLEN is one of India’s leading coaching institutions, serving over 400,000 students across 350+ classroom campuses in 78 cities. Here, the IT and Cybersecurity Leadership Team shares how they standardized on Chrome Enterprise Premium to secure…",
+          "source": "Cloud Blog",
+          "date": "Nov 24",
+          "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/28803_CHEC_ALLEN_Career_Institute_BlogHeader.max-600x600.png",
+          "icon": null,
+          "domain": "cloud.google.com",
+          "hn": null,
+          "score": 4.725,
+          "coverage": 1
+        },
         {
           "title": "QCon San Francisco 2026: Securing AI Agents in Production",
           "link": "https://www.infoq.com/news/2026/11/qcon-ai-agent-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -466,7 +604,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 2.419,
+          "score": 2.158,
           "coverage": 1
         },
         {
@@ -479,9 +617,11 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 3.528,
+          "score": 3.054,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Introducing API and AI security on AWS, from discovery to protection",
           "link": "https://aws.amazon.com/blogs/security/introducing-api-and-ai-security-on-aws-from-discovery-to-protection/",
@@ -492,11 +632,9 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 2.789,
+          "score": 2.484,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Article: Engineering Around Non-Determinism: Evals, Grounding, and Release Gates for AI-Drafted Suspicious Reports",
           "link": "https://www.infoq.com/articles/llm-agent-architecture-evals-grounding/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -507,7 +645,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 3.128,
+          "score": 2.578,
           "coverage": 1
         },
         {
@@ -520,7 +658,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 2.95,
+          "score": 2.364,
           "coverage": 1
         },
         {
@@ -533,7 +671,7 @@
           "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
           "domain": "about.gitlab.com",
           "hn": null,
-          "score": 1.721,
+          "score": 1.512,
           "coverage": 1
         },
         {
@@ -546,20 +684,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 1.811,
-          "coverage": 1
-        },
-        {
-          "title": "Introducing AWS WAF simplified pricing",
-          "link": "https://aws.amazon.com/blogs/security/introducing-aws-waf-simplified-pricing/",
-          "excerpt": "Starting today, AWS WAF pricing is easier to predict. Your bill is now based on three dimensions: the resources you protect, the traffic AWS WAF inspects, and the level of protection you apply to that traffic. Existing AWS WAF customers move to the new pricing on February 1, 2027. Until then, you…",
-          "source": "AWS Security Blog",
-          "date": "Nov 23",
-          "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/19/waf-old-vs-new-pricing-flow-Figure-1.png",
-          "icon": null,
-          "domain": "aws.amazon.com",
-          "hn": null,
-          "score": 0.367,
+          "score": 1.532,
           "coverage": 1
         }
       ]
@@ -568,42 +693,42 @@
       "name": "News & Research",
       "cards": [
         {
-          "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
-          "link": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
-          "excerpt": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
-          "source": "Ars Technica",
+          "title": "Raising the stakes for enterprise networks with AI modernization",
+          "link": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
+          "excerpt": "Enterprise networks are under severe strain. As companies rush to deploy artificial intelligence, the technology is quickly becoming the biggest source of demand on the network. Now, agentic AI is adding to the load. Tasks conducted by AI agents generate an estimated 450% more network traffic than…",
+          "source": "MIT Technology Review",
           "date": "Nov 24",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cairn-banner-500x500.jpg",
+          "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/MITTR-Tata-report-cover.jpg?w=840",
           "icon": null,
-          "domain": "arstechnica.com",
+          "domain": "technologyreview.com",
           "hn": null,
-          "score": 6.511,
+          "score": 3.194,
           "coverage": 1
         },
         {
-          "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
-          "link": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
-          "excerpt": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
-          "source": "TechCrunch",
-          "date": "Nov 23",
-          "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2295579000.jpg?resize=1200,800",
-          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
-          "domain": "techcrunch.com",
-          "hn": null,
-          "score": 1.813,
+          "title": "Show HN: Mason – a lightweight Postgres read-replica, built on columnar storage",
+          "link": "https://masondata.ai/",
+          "excerpt": "A lightweight drop-in replacement for your Postgres read replica. Same SQL, same answers. But extremely fast for analytical queries.",
+          "source": "masondata.ai via Hacker News",
+          "date": "Nov 24",
+          "image": "https://masondata.ai/og.png",
+          "icon": "https://masondata.ai/apple-touch-icon.png",
+          "domain": "masondata.ai",
+          "hn": "30 points · 3 comments",
+          "score": 2.307,
           "coverage": 1
         },
         {
-          "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
-          "link": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
-          "excerpt": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.",
+          "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+          "link": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+          "excerpt": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
           "source": "TechCrunch",
-          "date": "Nov 23",
-          "image": "https://techcrunch.com/wp-content/uploads/2026/11/supertake-header.jpg?resize=1200,675",
+          "date": "Nov 24",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/11/MuseCharm.png?w=1200",
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 1.809,
+          "score": 2.895,
           "coverage": 1
         }
       ],
@@ -618,60 +743,60 @@
           "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
           "domain": "anthropic.com",
           "hn": null,
-          "score": 0.176,
+          "score": 0.164,
           "coverage": 1
         },
         {
-          "title": "GTA 6 Running on Windows",
-          "link": "https://twitter.com/raul_bs3/status/2125213756238291075",
-          "excerpt": "TA ACONTECENDO RAPAZIADAAAA, isso é no computaaadorr!!! repito COMPUTADOR!! GTA 6 no PC quase com shaders completo velho, q loucuraaaaaa 🤡🤡",
-          "source": "twitter.com via Hacker News",
+          "title": "“Pervert glasses\" named word of the year by Macquarie Dictionary",
+          "link": "https://www.macquariedictionary.com.au/macquarie-dictionary-word-of-the-year-for-2026/",
+          "excerpt": "The votes are in and the winner of the Macquarie Dictionary Word of the Year for 2026 is...",
+          "source": "macquariedictionary.com.au via Hacker News",
           "date": "Nov 24",
-          "image": "https://pbs.twimg.com/media/HX5GpSZXQAA12cb?format=webp&name=large",
-          "icon": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
-          "domain": "twitter.com",
-          "hn": "32 points · 1 comments",
-          "score": 2.458,
+          "image": "https://www.macquariedictionary.com.au/wp-content/uploads/2026/11/pervglasses_c.png",
+          "icon": "https://www.macquariedictionary.com.au/wp-content/uploads/2024/11/gum-leavesV3-1.svg",
+          "domain": "macquariedictionary.com.au",
+          "hn": "53 points · 33 comments",
+          "score": 3.29,
           "coverage": 1
         },
         {
-          "title": "LLM agents work for their parent companies, not for you",
-          "link": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-          "excerpt": "I built an Instagram-to-Bandcamp tool with Claude, but when the API broke, the model refused to help me work around it, while happily downloading from YouTube instead, which pays the artist nothing. That hypocrisy exposed why these models can't be trusted: they work for their parent companies, not…",
-          "source": "michaelharley.net via Hacker News",
+          "title": "Anthropic Staff Openly Talk About ‘Taking Over the World’, Claims Max Tegmark",
+          "link": "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist/",
+          "excerpt": "Employees at US artificial intelligence company Anthropic openly talk about “overthrowing the US government” and “taking over the world”, a world-renowned physicist has claimed.",
+          "source": "novaramedia.com via Hacker News",
           "date": "Nov 24",
-          "image": "https://michaelharley.net/assets/images/open-graph-image.png",
-          "icon": "https://michaelharley.net/assets/favicons/apple-touch-icon.png",
-          "domain": "michaelharley.net",
-          "hn": "364 points · 143 comments",
-          "score": 3.827,
+          "image": "https://novaramedia.com/wp-content/uploads/2026/11/Screenshot-2026-11-24-at-2.42.06-pm-e1795535439679-1200x630.png",
+          "icon": "https://novaramedia.com/wp-content/themes/novaramedia-com/dist/img/apple-touch-icon.png",
+          "domain": "novaramedia.com",
+          "hn": "145 points · 71 comments",
+          "score": 3.537,
           "coverage": 1
         },
         {
-          "title": "Who in Washington owns and trades Nvidia stock",
-          "link": "https://www.kadoa.com/congress/insights/trump-nvidia",
-          "excerpt": "Trump's Nvidia stock and 43 trades this year, and the 37 members of Congress who traded NVDA, around Jensen Huang's resignation and reinstatement.",
-          "source": "kadoa.com via Hacker News",
-          "date": "Nov 24",
-          "image": "https://www.kadoa.com/congress/og/trump-nvidia.png",
-          "icon": "https://www.kadoa.com/congress/favicon.svg",
-          "domain": "kadoa.com",
-          "hn": "187 points · 77 comments",
-          "score": 3.286,
-          "coverage": 1
-        },
-        {
-          "title": "Worshipping at the Altar of Brendan Gregg",
-          "link": "https://fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg",
-          "excerpt": "Okay, I am the first to admit that I’m a bit manic with AI. When you are working on a problem that has endless possibilities, it is difficult to constrain yourself to a limited set of features.",
-          "source": "fzakaria.com via Hacker News",
+          "title": "Microsoft declares 'Code Red' after historic outage, internal memos show",
+          "link": "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/",
+          "excerpt": "55 points · 42 comments",
+          "source": "reuters.com via Hacker News",
           "date": "Nov 24",
           "image": null,
-          "icon": "https://fzakaria.com/assets/images/avatar.ico",
-          "domain": "fzakaria.com",
-          "hn": "109 points · 14 comments",
-          "score": 2.714,
+          "icon": "https://www.reuters.com/favicon.ico",
+          "domain": "reuters.com",
+          "hn": "55 points · 42 comments",
+          "score": 3.069,
           "coverage": 1
+        },
+        {
+          "title": "Cyberattack campaign compromising Check Point servers across 22 organizations",
+          "link": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+          "excerpt": "GreyNoise recently discovered an intrusion campaign targeting Check Point Security Management Servers, with confirmed attack activity between October 17th and November 2nd, 2026, impacting at least 22 distinct organizations globally.",
+          "source": "greynoise.io via Hacker News",
+          "date": "Nov 24",
+          "image": "https://cdn.prod.website-files.com/667dd40ebb8095e89f27565d/6b00b96c7176ac8c286ffb00_GreyNoise-Blog-Check-Point-1600x900.png",
+          "icon": "https://cdn.prod.website-files.com/625f93b2923b4f2b1f2e7b64/625f93b2923b4f7fb02e7c32_gn_favicon_256.png",
+          "domain": "greynoise.io",
+          "hn": "167 points · 56 comments",
+          "score": 10.951,
+          "coverage": 3
         }
       ]
     }

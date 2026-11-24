@@ -659,6 +659,12 @@
   "icon": "https://substackcdn.com/image/fetch/$s_!yN8B!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff34a514e-920f-4253-bad2-9b27887a59c3%2Fapple-touch-icon-57x57.png",
   "image": "https://substackcdn.com/image/fetch/$s_!EKF2!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d292d10-d3ea-4c94-b5a7-2b422b15c140_1672x941.png"
  },
+ "https://blog.modelcontextprotocol.io/posts/mcp-turns-two/": {
+  "description": "The Model Context Protocol turns two years old this week, and we're celebrating the people who helped us build it and everyone building with it.",
+  "fetched": "2026-11-24",
+  "icon": "https://blog.modelcontextprotocol.io/favicon.svg",
+  "image": "https://blog.modelcontextprotocol.io/og/mcp-turns-two.png"
+ },
  "https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html": {
   "description": null,
   "fetched": "2026-11-11",
@@ -916,6 +922,12 @@
   "fetched": "2026-10-28",
   "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
   "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/10_-_Databases.max-2600x2600.jpg"
+ },
+ "https://cloud.google.com/blog/products/identity-security/deploying-agents-safely-in-your-enterprise/": {
+  "description": "Google Workspace and Google Cloud introduce GA Workspace MCP servers, Workspace CLI, and Google Cloud Agent Gateway to provide unified security controls and trust for enterprise AI agents.",
+  "fetched": "2026-11-24",
+  "icon": "https://www.gstatic.com/cgc/supercloud_favicon.ico",
+  "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Security__Identity.max-2500x2500.jpg"
  },
  "https://cloud.google.com/blog/products/identity-security/helping-you-build-and-defend-at-machine-speed-in-the-agentic-era/": {
   "description": "At Security Summit 2026, we are sharing updates on how organizations can build securely, secure systems, and defend at machine speed in the agentic era.",
@@ -2333,6 +2345,12 @@
   "icon": "https://goteleport.com/blog/static/apple.png",
   "image": "https://goteleport.com/blog/static/og-image.png"
  },
+ "https://goteleport.com/blog/property-based-thinking/": {
+  "description": "Learn to define safety, liveness, and property-based testing properties, then verify them in Go with the rapid property-based testing library and deterministic simulation testing in Antithesis.",
+  "fetched": "2026-11-24",
+  "icon": "https://goteleport.com/blog/static/apple.png",
+  "image": "https://goteleport.com/blog/static/og-image.png"
+ },
  "https://goteleport.com/blog/teleport-beams-secure-ai-agents-production/": {
   "description": "Teleport Beams is a trusted runtime for AI agents in production: isolated micro-VMs, delegated X.509 identity, JIT access, and full audit of every action.",
   "fetched": "2026-11-10",
@@ -2458,6 +2476,12 @@
   "fetched": "2026-11-01",
   "icon": null,
   "image": null
+ },
+ "https://hex.pm/blog/security-incident-on-hexpm": {
+  "description": "A package manager for the Erlang ecosystem",
+  "fetched": "2026-11-24",
+  "icon": "https://hex.pm/images/hex-full-a8183c4f9adac71516516d107d402b18.svg?vsn=d",
+  "image": "https://hex.pm/images/favicon-160-3770bc59f1f8ba7656b4db5a1eacd8e3.png?vsn=d"
  },
  "https://hightouch.com/blog/llm-judges-identity-resolution": {
   "description": "We tested Jev and GPT-6 Luna as judges for identity resolution. A hybrid of Jev and Claude Opus matched frontier accuracy at over 4x lower cost.",
@@ -2626,6 +2650,12 @@
   "fetched": "2026-11-19",
   "icon": null,
   "image": "https://huggingface.co/blog/assets/moe-expert-streaming/thumbnail.png"
+ },
+ "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance": {
+  "description": "A Blog post by NVIDIA on Hugging Face",
+  "fetched": "2026-11-24",
+  "icon": null,
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/6847ab8c06094fa4afb6ee38/M70tUMNd7N4KO5QGI37YZ.png"
  },
  "https://huggingface.co/blog/nvidia/nemotron-halloween": {
   "description": "A Blog post by NVIDIA on Hugging Face",
@@ -3239,6 +3269,12 @@
   "icon": "https://masnick.com/apple-touch-icon.png",
   "image": null
  },
+ "https://masondata.ai/": {
+  "description": "A lightweight drop-in replacement for your Postgres read replica. Same SQL, same answers. But extremely fast for analytical queries.",
+  "fetched": "2026-11-24",
+  "icon": "https://masondata.ai/apple-touch-icon.png",
+  "image": "https://masondata.ai/og.png"
+ },
  "https://massie.house.gov/news/documentsingle.aspx?DocumentID=395849": {
   "description": null,
   "fetched": "2026-10-30",
@@ -3526,6 +3562,12 @@
   "fetched": "2026-11-10",
   "icon": null,
   "image": "https://notesbylex.com/_media/aidens-revenge/title.jpg"
+ },
+ "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist/": {
+  "description": "Employees at US artificial intelligence company Anthropic openly talk about “overthrowing the US government” and “taking over the world”, a world-renowned physicist has claimed.",
+  "fetched": "2026-11-24",
+  "icon": "https://novaramedia.com/wp-content/themes/novaramedia-com/dist/img/apple-touch-icon.png",
+  "image": "https://novaramedia.com/wp-content/uploads/2026/11/Screenshot-2026-11-24-at-2.42.06-pm-e1795535439679-1200x630.png"
  },
  "https://noyb.eu/en/noyb-win-french-electronics-retailer-fnac-darty-fined-eu7-million": {
   "description": "The fine is based on a noyb complaint from 2023. Back then, we highlighted that Fnac Darty illegally tracked users of its mobile apps without consent",
@@ -3911,6 +3953,12 @@
   "icon": null,
   "image": null
  },
+ "https://openai.com/index/ifood": {
+  "description": null,
+  "fetched": "2026-11-24",
+  "icon": null,
+  "image": null
+ },
  "https://openai.com/index/inside-the-codex-sandbox": {
   "description": null,
   "fetched": "2026-11-19",
@@ -4268,6 +4316,12 @@
  "https://openssf.org/blog/2026/11/06/openssf-community-day-europe-2026-driving-systemic-security-and-operational-resilience-in-open-source/": {
   "description": null,
   "fetched": "2026-11-07",
+  "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
+  "image": null
+ },
+ "https://openssf.org/blog/2026/11/24/just-launched-finding-and-fixing-vulnerabilities-using-ai-lfd126/": {
+  "description": "Learn how to find, validate, fix, and prevent vulnerabilities using AI with dependable workflows in the free, self-paced LFD126 course from Linux Foundation Education and OpenSSF.",
+  "fetched": "2026-11-24",
   "icon": "https://openssf.org/wp-content/uploads/2021/09/cropped-favicon-300x300.png",
   "image": null
  },
@@ -5249,11 +5303,23 @@
   "icon": "https://stackoverflow.blog/apple-touch-icon.png",
   "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format"
  },
+ "https://stackoverflow.blog/2026/11/24/a-reboot-is-still-a-deployment/": {
+  "description": "Founded in 2008, Stack Overflow’s public platform is used by nearly everyone who codes to learn, share their knowledge, collaborate, and build their careers.",
+  "fetched": "2026-11-24",
+  "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+  "image": null
+ },
  "https://stackoverflow.blog/2026/11/24/agent-swarms-need-more-than-a-message-board/": {
   "description": "Agent swarms are really distributed systems problems in disguise.",
   "fetched": "2026-11-24",
   "icon": "https://stackoverflow.blog/apple-touch-icon.png",
   "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format"
+ },
+ "https://stackoverflow.blog/2026/11/24/prompt-injection-fixes-need-regression-tests/": {
+  "description": "Founded in 2008, Stack Overflow’s public platform is used by nearly everyone who codes to learn, share their knowledge, collaborate, and build their careers.",
+  "fetched": "2026-11-24",
+  "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+  "image": null
  },
  "https://stalw.art/blog/microsoft-exchange-replacement/": {
   "description": "Stalwart 1.2.0 speaks MAPI over HTTP, Exchange Web Services, ActiveSync and Autodiscover, so Outlook, Apple Mail and mobile devices connect to it as they would to an Exchange server. Also in this release: mail rules, read receipts, working hours, room and equipment booking, and the new Stalwart CLI 2.0 with an interactive console.",
@@ -5729,6 +5795,12 @@
   "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
   "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2277839095.jpg?w=1024"
  },
+ "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/": {
+  "description": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+  "fetched": "2026-11-24",
+  "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+  "image": "https://techcrunch.com/wp-content/uploads/2025/11/MuseCharm.png?w=1200"
+ },
  "https://tendrils.co/blog/2026-11-10/30m-raised": {
   "description": null,
   "fetched": "2026-11-11",
@@ -5980,6 +6052,12 @@
   "fetched": "2026-10-29",
   "icon": "https://v12.sh/apple-touch-icon.png",
   "image": "https://v12.sh/static/opengraph-image.png"
+ },
+ "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/": {
+  "description": "The music streaming service Tidal said Tuesday that it would ban tracks it believes are completely AI-generated starting next month,",
+  "fetched": "2026-11-24",
+  "icon": "https://variety.com/wp-content/themes/pmc-variety-2020/assets/app/icons/apple-touch-icon.png",
+  "image": "https://variety.com/wp-content/uploads/2023/12/Tidal.png?w=679&h=382&crop=1"
  },
  "https://verialabs.com/ruby2shell/": {
   "description": "Ruby2Shell (GHSA-34m4-m9fh-gqp5): a one-byte heap overflow in Ruby's string case conversion, reachable without authentication in common Ruby web frameworks and self-hosted software.",
@@ -6869,6 +6947,12 @@
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2026/10/08/github.jpg"
  },
+ "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/": {
+  "description": "Threat actors have exploited multiple vulnerabilities to compromise two dozen Check Point Security management servers in an ongoing campaign targeting 22 organizations.",
+  "fetched": "2026-11-24",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/05/05/hacker.jpg"
+ },
  "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/": {
   "description": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices.",
   "fetched": "2026-11-23",
@@ -7174,6 +7258,12 @@
   "fetched": "2026-11-17",
   "icon": null,
   "image": "https://images.ctfassets.net/l47ir7rfykkn/253VI9RcIntW2N3dYm94pf/debe6f3378283af15256b47000e42732/Self-serve-3.png"
+ },
+ "https://www.chainguard.dev/unchained/dogfooding-checks-and-workspaces-hard-lessons-from-3-000-repos": {
+  "description": "Inside Chainguard's move beyond traditional CI: how Checks and Workspaces enable secure agent execution, faster builds, and verifiable test results.",
+  "fetched": "2026-11-24",
+  "icon": null,
+  "image": "https://images.ctfassets.net/l47ir7rfykkn/1Ge6tyMYhQR5g4hstQwx5f/ebc5ddb8474a9951ff7ac21f3fba1cb5/Dogfooding_Checks_and_Workspaces__Hard_lessons_from_3_000_repos.png"
  },
  "https://www.chainguard.dev/unchained/every-manual-page-in-chainguard-os-now-readable-by-your-agent": {
   "description": "AI coding agents need accurate documentation. See how Chainguard makes Linux manual pages searchable, version-specific, and accessible through MCP.",
@@ -7769,6 +7859,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign": {
+  "description": "GreyNoise recently discovered an intrusion campaign targeting Check Point Security Management Servers, with confirmed attack activity between October 17th and November 2nd, 2026, impacting at least 22 distinct organizations globally.",
+  "fetched": "2026-11-24",
+  "icon": "https://cdn.prod.website-files.com/625f93b2923b4f2b1f2e7b64/625f93b2923b4f7fb02e7c32_gn_favicon_256.png",
+  "image": "https://cdn.prod.website-files.com/667dd40ebb8095e89f27565d/6b00b96c7176ac8c286ffb00_GreyNoise-Blog-Check-Point-1600x900.png"
+ },
  "https://www.hashicorp.com/blog/from-exposed-secrets-to-managed-credentials": {
   "description": null,
   "fetched": "2026-11-18",
@@ -7894,6 +7990,12 @@
   "fetched": "2026-11-08",
   "icon": "https://www.lorekit.io/icons/icon-192.png",
   "image": null
+ },
+ "https://www.macquariedictionary.com.au/macquarie-dictionary-word-of-the-year-for-2026/": {
+  "description": "The votes are in and the winner of the Macquarie Dictionary Word of the Year for 2026 is...",
+  "fetched": "2026-11-24",
+  "icon": "https://www.macquariedictionary.com.au/wp-content/uploads/2024/11/gum-leavesV3-1.svg",
+  "image": "https://www.macquariedictionary.com.au/wp-content/uploads/2026/11/pervglasses_c.png"
  },
  "https://www.macrumors.com/2026/11/19/uk-loses-secrecy-fight-over-apple-backdoor-order/": {
   "description": "Apple's challenge to a UK government demand for access to encrypted customer data can now be heard largely in public, after a tribunal rejected the Home Office's attempt to keep the order secret, according to the Financial Times. The Investigatory Powers Tribunal today ruled that the British government had failed to demonstrate that confirming the demand would damage national security.",
@@ -8411,6 +8513,12 @@
   "icon": "https://www.mprnews.org/apple-touch-icon.png",
   "image": "https://img.apmcdn.org/4e1e6c352de8a18283752e05f661aaa65e3d34b7/widescreen/f61065-20261027-hermantown-data-center-city-hall-04-2000.jpg"
  },
+ "https://www.msn.com/en-us/money/top-stocks/anthropic-stock-sinks-below-ipo-price-why-that-s-happened-so-fast/ar-AA2i7rqa": {
+  "description": null,
+  "fetched": "2026-11-24",
+  "icon": null,
+  "image": null
+ },
  "https://www.msn.com/en-us/technology/tech-companies/tesla-to-wind-down-cybertruck-production-after-years-of-poor-sales-in-few-markets/ar-AA2gSZGv": {
   "description": null,
   "fetched": "2026-11-06",
@@ -8678,6 +8786,12 @@
  "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/": {
   "description": null,
   "fetched": "2026-11-20",
+  "icon": null,
+  "image": null
+ },
+ "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/": {
+  "description": null,
+  "fetched": "2026-11-24",
   "icon": null,
   "image": null
  },
@@ -9112,6 +9226,12 @@
   "fetched": "2026-11-02",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/11/chainalysis.jpeg"
+ },
+ "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/": {
+  "description": "A threat actor has been targeting Check Point Security Management servers across geographies and industries in an AI-assisted campaign.",
+  "fetched": "2026-11-24",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/10/cyberattack-vulnerability-exploited.jpeg"
  },
  "https://www.securityweek.com/chinese-hackers-quietly-used-low-severity-esxi-logging-flaw-as-zero-day/": {
   "description": "CISA warns that attackers have been exploiting a low-severity insufficient logging issue in VMware ESXi, tracked as CVE-2026-41709.",
