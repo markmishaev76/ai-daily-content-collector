@@ -803,6 +803,12 @@
   "icon": null,
   "image": null
  },
+ "https://buttons.joshwcomeau.com/": {
+  "description": "A free collection of 50+ professionally-recorded multi-sampled clicks and toggles. Distributed via NPM.",
+  "fetched": "2026-11-25",
+  "icon": "https://buttons.joshwcomeau.com/favicon.png",
+  "image": "https://buttons.joshwcomeau.com/og-button-sounds.png"
+ },
  "https://cabird.com/talks/shipping-faster/": {
   "description": "AI, activity, and outcomes in software engineering. A talk at UC Irvine, October 2026. Video and slides.",
   "fetched": "2026-11-12",
@@ -3557,6 +3563,12 @@
   "icon": "https://pbs.twimg.com/profile_images/1947236538409988096/hZXVsMlX_400x400.jpg",
   "image": "https://pbs.twimg.com/media/HSNXaLrW4AEnwuB.jpg"
  },
+ "https://noahbuilt.it/writing/qwen-on-5600-lambdas": {
+  "description": "I was curious if it was possible to run inference on self-hosted models using Lambdas. In this case I was very wrong, but it was a good lesson!",
+  "fetched": "2026-11-25",
+  "icon": "https://noahbuilt.it/apple-touch-icon.png",
+  "image": "https://noahbuilt.it/og-lambda-layers.jpg"
+ },
  "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/": {
   "description": "One of my pet peeves with the web development community is that so many of the decisions we make are vibes-based. Frameworks are “blazing fast,” tools will…",
   "fetched": "2026-11-01",
@@ -4660,6 +4672,12 @@
   "fetched": "2026-11-14",
   "icon": "https://www.gstatic.com/images/branding/googleg_gradient/1x/googleg_gradient_standard_20dp.png",
   "image": "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg"
+ },
+ "https://research.snorkel.ai/thoughts/gdpval-agents-rare-success/": {
+  "description": "Standard GRPO gives no learning signal when most rollouts fail. Binary-gated GRPO lifts Qwen3.8-27B pass@1 on GDPval from 31.9% to 40.7%.",
+  "fetched": "2026-11-25",
+  "icon": "https://s49867.pcdn.co/wp-content/uploads/2026/11/cropped-Favicon-180x180.png",
+  "image": "https://research.snorkel.ai/social-image/20102/?v=4cea707808"
  },
  "https://restofworld.org/2026/ai-jobs-skills-gig-work/": {
   "description": "Platform companies are luring doctors, lawyers, and Ph.D.s with top rates, but then use the same tactics of pay cuts and sudden ghosting that have plagued global data workers.",
@@ -8015,6 +8033,12 @@
   "icon": "https://www.interstateweather.com/favicon.svg",
   "image": null
  },
+ "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each": {
+  "description": "We took over five US Treasury subdomains for about $3 each by cycling through AWS Elastic IPs. Here’s how it works, and what to check in your own DNS.",
+  "fetched": "2026-11-25",
+  "icon": "https://cdn.prod.website-files.com/61dd9339d05701b1440b323d/61dd9339d0570119050b32d6_256.png",
+  "image": "https://cdn.prod.website-files.com/61dd9339d05701829d0b3241/6afdc01d62cd6e97b94540b6_Elastic%20IP%20adresses%20(1).jpg"
+ },
  "https://www.iseecars.com/most-popular-car-colors-study": {
   "description": "White, black, gray and silver dominate the car market, while red and green are far less common than 30 years ago and sports cars are the most colorful...",
   "fetched": "2026-11-22",
@@ -9623,6 +9647,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2025/09/Cisco-firewall.jpeg"
  },
+ "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/": {
+  "description": "Threat actors are exploiting CVE-2026-131914, a remote code execution vulnerability in the defunct open source library Idunno AntiCsrf.",
+  "fetched": "2026-11-25",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2024/03/exploit.jpeg"
+ },
  "https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/": {
   "description": "Botnets and crypto miners have started exploiting SSHole, an OpenSSH authentication bypass impacting certain Linux distributions.",
   "fetched": "2026-11-10",
@@ -9959,6 +9989,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/10/php-exploit-code.webp"
  },
+ "https://www.securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack/": {
+  "description": "Turnitin identified unauthorized activity on customer-facing systems, but they remain fully operational and safe to use.",
+  "fetched": "2026-11-25",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2024/06/Hacker-Log-files.jpg"
+ },
  "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/": {
   "description": "QNAP says hackers are exploiting the Plex2Shell vulnerability chain against Plex Media Server applications on QNAP NAS devices.",
   "fetched": "2026-11-10",
@@ -10256,6 +10292,12 @@
  "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget#story-1": {
   "description": null,
   "fetched": "2026-11-09",
+  "icon": null,
+  "image": null
+ },
+ "https://www.stylewarning.com/posts/faster-digit-extraction/": {
+  "description": "a personal blog",
+  "fetched": "2026-11-25",
   "icon": null,
   "image": null
  },

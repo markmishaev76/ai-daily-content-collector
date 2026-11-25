@@ -1,31 +1,21 @@
 {
   "date": "2026-11-25",
   "lead": {
-    "title": "Huawei found guilty of stealing trade secrets",
-    "link": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial",
-    "excerpt": "A jury has found Huawei guilty of stealing US trade secrets, as reported earlier by NBC News and Bloomberg. The verdict, handed down in a federal court in New York, concludes a years-long legal battle that accused the Chinese telecom giant of stealing source code and proprietary technology from…",
-    "source": "The Verge",
-    "date": "Nov 24",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2302952808.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "title": "Gatwick drop-off customers' personal data exposed in supplier breach",
+    "link": "https://www.theregister.com/security/2026/11/25/gatwick-drop-off-customers-personal-data-exposed-in-supplier-breach/5312060",
+    "excerpt": "AutoPay login and vehicle records affected, alongside limited payment information and customer service emails",
+    "source": "The Register",
+    "date": "Nov 25",
+    "image": "https://image.theregister.com/?imageId=227789&width=800",
     "image_credit": null,
-    "section": "Secrets & NHI",
+    "section": "Security & AppSec",
     "pinned": false,
     "note": null,
     "labels": [
-      "3 sources",
-      "Secrets & NHI",
-      "5h ago"
+      "Security & AppSec",
+      "under 1h ago"
     ],
-    "also": [
-      {
-        "name": "theguardian.com",
-        "link": "https://www.theguardian.com/technology/2026/nov/24/huawei-china-convicted-deceiving-banks-stealing-us-trade-secrets"
-      },
-      {
-        "name": "bbc.com",
-        "link": "https://www.bbc.com/news/articles/cmy49ngydqzpo"
-      }
-    ]
+    "also": []
   },
   "pulse": [
     {
@@ -35,22 +25,10 @@
       "link_domain": "michaelharley.net",
       "source": "Hacker News",
       "domain": "michaelharley.net",
-      "meta": "Hacker News · 959 points · 394 comments · 17h ago",
+      "meta": "Hacker News · 977 points · 403 comments · 22h ago",
       "also": [],
       "image": "https://michaelharley.net/assets/images/open-graph-image.png",
       "icon": "https://michaelharley.net/assets/favicons/apple-touch-icon.png"
-    },
-    {
-      "title": "Anthropic breaks below $83 IPO price",
-      "thread": "https://news.ycombinator.com/item?id=50627836",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
-      "link_domain": "bloomberg.com",
-      "source": "Hacker News",
-      "domain": "bloomberg.com",
-      "meta": "Hacker News · 376 points · 733 comments · 16h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://www.bloomberg.com/favicon.ico"
     },
     {
       "title": "Security incident on Hex.pm",
@@ -59,10 +37,22 @@
       "link_domain": "hex.pm",
       "source": "Lobsters",
       "domain": "hex.pm",
-      "meta": "Lobsters · 51 points · 5 comments · 15h ago",
+      "meta": "Lobsters · 61 points · 9 comments · 20h ago",
       "also": [],
       "image": "https://hex.pm/images/favicon-160-3770bc59f1f8ba7656b4db5a1eacd8e3.png?vsn=d",
       "icon": "https://hex.pm/images/hex-full-a8183c4f9adac71516516d107d402b18.svg?vsn=d"
+    },
+    {
+      "title": "Anthropic breaks below $83 IPO price",
+      "thread": "https://news.ycombinator.com/item?id=50627836",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+      "link_domain": "bloomberg.com",
+      "source": "Hacker News",
+      "domain": "bloomberg.com",
+      "meta": "Hacker News · 404 points · 766 comments · 21h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.bloomberg.com/favicon.ico"
     },
     {
       "title": "Tidal bans AI-generated music",
@@ -71,22 +61,10 @@
       "link_domain": "variety.com",
       "source": "Hacker News",
       "domain": "variety.com",
-      "meta": "Hacker News · 320 points · 309 comments · 13h ago",
+      "meta": "Hacker News · 329 points · 315 comments · 19h ago",
       "also": [],
       "image": "https://variety.com/wp-content/uploads/2023/12/Tidal.png?w=679&h=382&crop=1",
       "icon": "https://variety.com/wp-content/themes/pmc-variety-2020/assets/app/icons/apple-touch-icon.png"
-    },
-    {
-      "title": "Active intrusion campaign against Check Point security management servers",
-      "thread": "https://news.ycombinator.com/item?id=50630594",
-      "link": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
-      "link_domain": "greynoise.io",
-      "source": "Hacker News",
-      "domain": "greynoise.io",
-      "meta": "Hacker News · 276 points · 141 comments · 13h ago",
-      "also": [],
-      "image": "https://cdn.prod.website-files.com/667dd40ebb8095e89f27565d/6b00b96c7176ac8c286ffb00_GreyNoise-Blog-Check-Point-1600x900.png",
-      "icon": "https://cdn.prod.website-files.com/625f93b2923b4f2b1f2e7b64/625f93b2923b4f7fb02e7c32_gn_favicon_256.png"
     },
     {
       "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
@@ -95,10 +73,22 @@
       "link_domain": "",
       "source": "Hacker News",
       "domain": "Hacker News",
-      "meta": "Hacker News · 239 points · 181 comments · 13h ago",
+      "meta": "Hacker News · 309 points · 239 comments · 18h ago",
       "also": [],
       "image": null,
       "icon": null
+    },
+    {
+      "title": "Active intrusion campaign against Check Point security management servers",
+      "thread": "https://news.ycombinator.com/item?id=50630594",
+      "link": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+      "link_domain": "greynoise.io",
+      "source": "Hacker News",
+      "domain": "greynoise.io",
+      "meta": "Hacker News · 285 points · 141 comments · 18h ago",
+      "also": [],
+      "image": "https://cdn.prod.website-files.com/667dd40ebb8095e89f27565d/6b00b96c7176ac8c286ffb00_GreyNoise-Blog-Check-Point-1600x900.png",
+      "icon": "https://cdn.prod.website-files.com/625f93b2923b4f2b1f2e7b64/625f93b2923b4f7fb02e7c32_gn_favicon_256.png"
     },
     {
       "title": "Microsoft declares 'Code Red' after historic outage, internal memos show",
@@ -107,7 +97,7 @@
       "link_domain": "reuters.com",
       "source": "Hacker News",
       "domain": "reuters.com",
-      "meta": "Hacker News · 237 points · 219 comments · 12h ago",
+      "meta": "Hacker News · 243 points · 233 comments · 18h ago",
       "also": [],
       "image": null,
       "icon": "https://www.reuters.com/favicon.ico"
@@ -119,10 +109,22 @@
       "link_domain": "novaramedia.com",
       "source": "Hacker News",
       "domain": "novaramedia.com",
-      "meta": "Hacker News · 207 points · 111 comments · 12h ago",
+      "meta": "Hacker News · 217 points · 116 comments · 18h ago",
       "also": [],
       "image": "https://novaramedia.com/wp-content/uploads/2026/11/Screenshot-2026-11-24-at-2.42.06-pm-e1795535439679-1200x630.png",
       "icon": "https://novaramedia.com/wp-content/themes/novaramedia-com/dist/img/apple-touch-icon.png"
+    },
+    {
+      "title": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
+      "thread": "https://news.ycombinator.com/item?id=50638320",
+      "link": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
+      "link_domain": "comentr.com",
+      "source": "Hacker News",
+      "domain": "comentr.com",
+      "meta": "Hacker News · 184 points · 124 comments · 7h ago",
+      "also": [],
+      "image": "https://cdn.comentr.com/0150CPNGZR000000000C0MENTR/media/content_image/v1/bff5d66072971917ceddac67792e86c36ea69bdec2ba9cb46d7994c29d79c5ad.44HS7JCKCR7PGP5YRJ884468FT/p1-s2024x1956/w1080.webp",
+      "icon": "https://www.comentr.com/apple-touch-icon.png"
     },
     {
       "title": "Anthropic is below its IPO price",
@@ -131,22 +133,10 @@
       "link_domain": "msn.com",
       "source": "Hacker News",
       "domain": "msn.com",
-      "meta": "Hacker News · 128 points · 3 comments · 15h ago",
+      "meta": "Hacker News · 129 points · 3 comments · 20h ago",
       "also": [],
       "image": null,
       "icon": "https://www.msn.com/favicon.ico"
-    },
-    {
-      "title": "An unclassified CIA system was breached in a cyberattack",
-      "thread": "https://news.ycombinator.com/item?id=50634933",
-      "link": "https://apnews.com/article/cia-cyberattack-unclassified-system-bfa6d3b02e3b0e2779dfb613c900bd77",
-      "link_domain": "apnews.com",
-      "source": "Hacker News",
-      "domain": "apnews.com",
-      "meta": "Hacker News · 124 points · 42 comments · 8h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://apnews.com/favicon.ico"
     }
   ],
   "sections": [
@@ -163,7 +153,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 5.822,
+          "score": 4.57,
           "coverage": 1
         },
         {
@@ -176,7 +166,7 @@
           "icon": null,
           "domain": "metr.org",
           "hn": null,
-          "score": 2.978,
+          "score": 2.583,
           "coverage": 1
         },
         {
@@ -189,7 +179,7 @@
           "icon": "https://lucumr.pocoo.org/static/avatar-small.jpg",
           "domain": "lucumr.pocoo.org",
           "hn": null,
-          "score": 0.994,
+          "score": 0.771,
           "coverage": 1
         }
       ],
@@ -204,7 +194,20 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 3.57,
+          "score": 2.957,
+          "coverage": 1
+        },
+        {
+          "title": "Training agents for professional work when success is rare",
+          "link": "https://research.snorkel.ai/thoughts/gdpval-agents-rare-success/",
+          "excerpt": "We trained Qwen3.8-27B on 1,105 professional tasks from Snorkel’s GDPval+ series. After about 102K training rollouts, the model reaches 40.7% pass@1 on OpenAI’s GDPval gold set, up from 31.9%. Its deliverables now beat those of human experts in 44.0% of LLM-judged head-to-head comparisons,…",
+          "source": "Snorkel AI",
+          "date": "Nov 19",
+          "image": "https://research.snorkel.ai/social-image/20102/?v=4cea707808",
+          "icon": "https://s49867.pcdn.co/wp-content/uploads/2026/11/cropped-Favicon-180x180.png",
+          "domain": "research.snorkel.ai",
+          "hn": null,
+          "score": 0.118,
           "coverage": 1
         },
         {
@@ -217,20 +220,33 @@
           "icon": null,
           "domain": "newsletter.pragmaticengineer.com",
           "hn": null,
-          "score": 0.788,
+          "score": 0.642,
           "coverage": 1
         },
         {
-          "title": "Idempotency when you don't control the other end",
-          "link": "https://stackoverflow.blog/2026/11/24/idempotency-when-you-don-t-control-the-other-end/",
-          "excerpt": "Founded in 2008, Stack Overflow’s public platform is used by nearly everyone who codes to learn, share their knowledge, collaborate, and build their careers.",
-          "source": "Stack Overflow Blog",
-          "date": "Nov 24",
-          "image": null,
-          "icon": "https://stackoverflow.blog/apple-touch-icon.png",
-          "domain": "stackoverflow.blog",
+          "title": "The Microsoft outage was a warning we can’t ignore",
+          "link": "https://newsletter.getdx.com/p/the-microsoft-outage-was-a-warning",
+          "excerpt": "If AI makes software easier to write, can we still fix all of it?",
+          "source": "DX",
+          "date": "Nov 25",
+          "image": "https://substack-post-media.s3.amazonaws.com/public/images/e662b2bd-b45f-4e6c-82df-be495c848be4_2048x1024.png",
+          "icon": null,
+          "domain": "newsletter.getdx.com",
           "hn": null,
-          "score": 0.718,
+          "score": 1.465,
+          "coverage": 1
+        },
+        {
+          "title": "Inside Capital One’s multi-agent system",
+          "link": "https://leaddev.com/ai/inside-capital-ones-multi-agent-system?utm_source=leaddev&utm_medium=RSS",
+          "excerpt": "Multi-agent AI is a platform problem.",
+          "source": "LeadDev",
+          "date": "Nov 25",
+          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2026/08/brain-puzzle-2.png",
+          "icon": null,
+          "domain": "leaddev.com",
+          "hn": null,
+          "score": 1.201,
           "coverage": 1
         }
       ]
@@ -248,7 +264,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 2.356,
+          "score": 2.096,
           "coverage": 1
         },
         {
@@ -261,7 +277,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 2.011,
+          "score": 1.721,
           "coverage": 1
         },
         {
@@ -274,7 +290,7 @@
           "icon": "https://latent.space/favicon.png",
           "domain": "latent.space",
           "hn": null,
-          "score": 0.881,
+          "score": 0.637,
           "coverage": 1
         }
       ],
@@ -282,14 +298,14 @@
         {
           "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
           "link": "https://news.ycombinator.com/item?id=50634426",
-          "excerpt": "82 points · 65 comments",
+          "excerpt": "88 points · 75 comments",
           "source": "Hacker News",
           "date": "Nov 24",
           "image": null,
           "icon": null,
           "domain": "news.ycombinator.com",
-          "hn": "82 points · 65 comments",
-          "score": 6.61,
+          "hn": "88 points · 75 comments",
+          "score": 5.363,
           "coverage": 1
         },
         {
@@ -302,7 +318,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.515,
+          "score": 0.437,
           "coverage": 1
         },
         {
@@ -315,7 +331,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.356,
+          "score": 0.317,
           "coverage": 1
         },
         {
@@ -328,7 +344,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.356,
+          "score": 0.317,
           "coverage": 1
         }
       ]
@@ -346,7 +362,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.356,
+          "score": 0.317,
           "coverage": 1
         },
         {
@@ -359,7 +375,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.356,
+          "score": 0.317,
           "coverage": 1
         }
       ],
@@ -378,7 +394,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.536,
+          "score": 0.435,
           "coverage": 1
         },
         {
@@ -391,7 +407,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 0.663,
+          "score": 0.539,
           "coverage": 1
         }
       ],
@@ -410,7 +426,7 @@
           "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
           "domain": "aembit.io",
           "hn": null,
-          "score": 2.538,
+          "score": 2.006,
           "coverage": 1
         }
       ],
@@ -429,7 +445,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 1.608,
+          "score": 1.431,
           "coverage": 1
         },
         {
@@ -442,7 +458,7 @@
           "icon": null,
           "domain": "openssf.org",
           "hn": null,
-          "score": 0.667,
+          "score": 0.542,
           "coverage": 1
         }
       ],
@@ -452,109 +468,96 @@
       "name": "Security & AppSec",
       "cards": [
         {
-          "title": "An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says",
-          "link": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
-          "excerpt": "It was not clear what specific information was compromised or who was responsible.",
-          "source": "SecurityWeek",
-          "date": "Nov 24",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/CIA_Hacked.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
+          "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
+          "link": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
+          "excerpt": "A former OpenAI employee accused of concealing a covert recording device at the company's San Francisco offices will be allowed to be released from jail on a $1 million bond, a San Francisco federal court judge ruled Tuesday. Abdulrahman Alfozan, a 35-year-old Saudi national, was arrested on…",
+          "source": "The Hacker News",
+          "date": "Nov 25",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDaKaEIQ9XIhyphenhyphen7wjO1dtGE_h6MwLEEd4or1U6Ud39Ce7BbZfU817kR-mLr4bT5n_dMzAujT3VzKACvto1wsiHVfLjOLyGFnYPsf4PH_DHuog0NWylpF1RXoFIYhb84sb8T7RHCx4qnBCCJnNDKTkjoMQ-KPDaKgHaLW7fII7cOhPzc9XKC0OGGOjjE-ygf/s1600/openai.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.596,
+          "score": 0.571,
           "coverage": 1
         },
         {
-          "title": "VMware Updates Patch Critical ESX, vCenter Vulnerabilities",
-          "link": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
-          "excerpt": "The critical bugs include an authentication bypass in vCenter and flaws that could allow code execution on ESX hosts.",
-          "source": "SecurityWeek",
-          "date": "Nov 24",
-          "image": "https://www.securityweek.com/wp-content/uploads/2022/08/VMWare.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
+          "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
+          "link": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
+          "excerpt": "An attacker ran operating system commands on Monday on six production servers of Hex.pm, the package registry that Elixir and Erlang developers fetch their dependencies from. The flaw used in the attack had been in the registry's code since February 2016, and the team that maintains the service…",
+          "source": "The Hacker News",
+          "date": "Nov 25",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBxy4VIOekOumZfm8RElWJl6ZTKoIJ1QLc3U7ynLQ8p9PCqm_kYX1T-akwbZwbthTYcNwfVW-aWbRB4wIkvbUeM_gvQmnw8EH-hpY0542jCwFUAaI2mNEXGE3dct9K4JKFURV1smdERZlx4tV1zCy3AbS_NwF4o926_KSW-OKMPfDXT2gWbbZ4lKjFm6Y/s1600/hex-hack.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.282,
+          "score": 0.506,
           "coverage": 1
         },
         {
-          "title": "European Commission Uncovers Data Breach in Cyberattack Investigation",
-          "link": "https://www.securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation/",
-          "excerpt": "Names and email addresses of EU Academy users were exposed in the AI-assisted cyberattack the European Commission detected in October.",
-          "source": "SecurityWeek",
-          "date": "Nov 24",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/06/EU-Europe-European-Union-.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
+          "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+          "link": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+          "excerpt": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world. The intrusion activity, tracked by GreyNoise under the moniker GreyNoise Threat 13…",
+          "source": "The Hacker News",
+          "date": "Nov 25",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzxhgIKTt8K5ep8a4qHW9dDpkSYcBC5D1CWgkvvh9Ee5DRlNRSg-2UcZZVNoXrHXVTeIcdzj47FFcSz6gAssLknSDf6f0JDyQCoH51D4GYLSju_wh4smA6-2yE3Z7I30SPeuY8LOKA__Y9xPiU66t1aPsHTzuRnX0QUq2iadcKXFfv7ZhAhcXti_BDnrmu/s1600/code.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.904,
+          "score": 4.801,
           "coverage": 2
         }
       ],
       "more": [
         {
-          "title": "Check Point Security Management Servers Hacked in AI-Assisted Campaign",
-          "link": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
-          "excerpt": "The attacks were launched from 99 IP addresses and targeted organizations across multiple industries and countries.",
+          "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+          "link": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+          "excerpt": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and extortion attempts. The attacks have targeted financial services, healthcare, and…",
+          "source": "The Hacker News",
+          "date": "Nov 25",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoCQn2zL8-RpfdhDeb1Zmyn46vLk1s9lerpXtGlcMkN5IGF9nlhEejtwoOXwhznjS7JVrix_FeG_G6yJ6Jb8mI31CU4Mi2dndKvLp-4nG4wWsqMaBpI60HFIk5d8_5uIxj6XEjSt4sixJYkJN8Xeqs4OrgSzOPK48esNtXbQ_FgtVe67B_WZkfpuUSEiD7/s1600/vishing.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.431,
+          "coverage": 1
+        },
+        {
+          "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
+          "link": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
+          "excerpt": "WordPress has removed six WordPress plugins developed by WP Connect after they were backdoored on November 22, 2026, to enable arbitrary code execution on sites that have them installed, following a suspected compromise of the developer's account. The WordPress plugins team has proactively…",
+          "source": "The Hacker News",
+          "date": "Nov 25",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNbawIx8zYCfd7sCTbVfIzPFBtykkY65lf8EOswU62pIdZKTrx9ReB3mGnqYqujmW5eGzN_w8pEijAZMTpmOZ3fGB5zFyFaPo4ZhRQ8V0BkAmDCH3WoVqJ3kAfjDcw3_wRjhwphfyJxjF3_rDYiudb-cxt0pY3t8s-IRjNP1aEYHqtO5L1eZMkgBX6y2xD/s1600/wp.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.424,
+          "coverage": 1
+        },
+        {
+          "title": "Plagiarism Checker Turnitin Investigating Cyberattack",
+          "link": "https://www.securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack/",
+          "excerpt": "The edtech company says the systems are fully operational and safe to use while it investigates the incident.",
           "source": "SecurityWeek",
-          "date": "Nov 24",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/10/cyberattack-vulnerability-exploited.jpeg",
+          "date": "Nov 25",
+          "image": "https://www.securityweek.com/wp-content/uploads/2024/06/Hacker-Log-files.jpg",
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 1.817,
+          "score": 0.568,
           "coverage": 1
         },
         {
-          "title": "Anthropic Expands Enterprise Safeguards for Detecting AI Misuse",
-          "link": "https://www.securityweek.com/anthropic-expands-enterprise-safeguards-for-detecting-ai-misuse/",
-          "excerpt": "EFS helps zero-retention customers spot Claude misuse spread across many requests while keeping conversation data in their own cloud.",
+          "title": "Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library",
+          "link": "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/",
+          "excerpt": "Attackers can exploit CVE-2026-131914 to achieve remote code execution via a single web request containing specially crafted data.",
           "source": "SecurityWeek",
-          "date": "Nov 24",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Anthropic-Claude.jpeg",
+          "date": "Nov 25",
+          "image": "https://www.securityweek.com/wp-content/uploads/2024/03/exploit.jpeg",
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.252,
-          "coverage": 1
-        },
-        {
-          "title": "Rackspace shuts down Spot cloud platform after security breach",
-          "link": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
-          "excerpt": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and download their data. [...]",
-          "source": "BleepingComputer",
-          "date": "Nov 24",
-          "image": "https://www.bleepstatic.com/content/hl-images/2022/12/09/Rackspace.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
-          "hn": null,
-          "score": 2.46,
-          "coverage": 1
-        },
-        {
-          "title": "New Inception extortion gang launches large-scale vishing campaign",
-          "link": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
-          "excerpt": "A newly formed data extortion group named 'Inception' has been linked to a large-scale campaign that targets single sign-on (SSO) credentials of multiple global brands and firms. [...]",
-          "source": "BleepingComputer",
-          "date": "Nov 24",
-          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/24/inception.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
-          "hn": null,
-          "score": 0.331,
-          "coverage": 1
-        },
-        {
-          "title": "Turnitin discloses cyberattack affecting customer-facing systems",
-          "link": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
-          "excerpt": "Turnitin disclosed via a statement from its CEO, Chris Caren, that it recently detected unauthorized activity involving certain customer-facing systems. [...]",
-          "source": "BleepingComputer",
-          "date": "Nov 24",
-          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/24/turnitin.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
-          "hn": null,
-          "score": 0.312,
+          "score": 3.537,
           "coverage": 1
         }
       ]
@@ -572,7 +575,20 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 4.672,
+          "score": 3.779,
+          "coverage": 1
+        },
+        {
+          "title": "QCon San Francisco 2026: Automating Spark Upgrades with Codex Agents at OpenAI",
+          "link": "https://www.infoq.com/news/2026/11/openai-spark-fleet/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "At QCon San Francisco 2026, Mouli Mukherjee, Engineering Manager for Data Infrastructure at OpenAI, argued that AI agents are most useful not for rebuilding a data platform, but for the open-ended operational work that is hard to turn into fixed playbooks. By Robert Krzaczyński",
+          "source": "InfoQ",
+          "date": "Nov 25",
+          "image": "https://res.infoq.com/news/2026/11/openai-spark-fleet/en/headerimage/generatedHeaderImage-1795548261270.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 3.885,
           "coverage": 1
         },
         {
@@ -585,7 +601,22 @@
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
           "hn": null,
-          "score": 1.414,
+          "score": 1.258,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Presentation: Learning Out Loud (Under Near-Existential Pressure)",
+          "link": "https://www.infoq.com/presentations/ai-engineering-culture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Laura Savino discusses the psychological friction of AI adoption for senior engineers & architects. She explains how shifting from static expertise to learning in public lowers anxiety, accelerates tooling fluency, and prevents burnout. Leaders will discover actionable strategies to support their…",
+          "source": "InfoQ",
+          "date": "Nov 25",
+          "image": "https://res.infoq.com/presentations/ai-engineering-culture/en/mediumimage/LauraSavino-medium-1793278596285.jpeg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 3.648,
           "coverage": 1
         },
         {
@@ -598,11 +629,9 @@
           "icon": "https://a0.awsstatic.com/main/images/site/touch-icon-iphone-114-smile.png",
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.34,
+          "score": 0.284,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Introducing context-aware rules for AWS Network Firewall",
           "link": "https://aws.amazon.com/blogs/security/introducing-context-aware-rules-for-aws-network-firewall/",
@@ -613,7 +642,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.67,
+          "score": 0.511,
           "coverage": 1
         },
         {
@@ -626,33 +655,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.665,
-          "coverage": 1
-        },
-        {
-          "title": "AWS Network Firewall introduces automated internet firewall mode (Preview)",
-          "link": "https://aws.amazon.com/blogs/security/aws-network-firewall-introduces-automated-internet-firewall-mode-preview/",
-          "excerpt": "AWS Network Firewall now offers automated internet firewall mode (Preview). In this mode, Network Firewall applies your centrally defined rules to traffic at the internet gateway of each of your virtual private clouds (VPCs). It also performs built-in network address translation (NAT) for…",
-          "source": "AWS Security Blog",
-          "date": "Nov 24",
-          "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/24/aif-fig1-r25-r30.png",
-          "icon": null,
-          "domain": "aws.amazon.com",
-          "hn": null,
-          "score": 0.546,
-          "coverage": 1
-        },
-        {
-          "title": "AWS completed its second ISO/IEC 42001:2023 surveillance audit",
-          "link": "https://aws.amazon.com/blogs/security/aws-completed-its-second-iso-iec-420012023-surveillance-audit/",
-          "excerpt": "In November 2024, Amazon Web Services (AWS) was the first major cloud service provider to announce the ISO/IEC 42001 accredited certification for AI services, covering Amazon Bedrock, Amazon Q Business, Amazon Textract, and Amazon Transcribe. In November 2026, AWS successfully completed its second…",
-          "source": "AWS Security Blog",
-          "date": "Nov 24",
-          "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/23/Basit-Janjua.jpg",
-          "icon": null,
-          "domain": "aws.amazon.com",
-          "hn": null,
-          "score": 0.477,
+          "score": 0.508,
           "coverage": 1
         },
         {
@@ -683,20 +686,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 2.941,
-          "coverage": 1
-        },
-        {
-          "title": "Show HN: Sliding-panes React UI library (inspired by WebOS Enyo)",
-          "link": "https://vcarl.com/sashay/",
-          "excerpt": "A sliding-panes layout for the web. Snaps, flings, bottom bars, deep stacks, and a layout that fits in a URL.",
-          "source": "vcarl.com via Hacker News",
-          "date": "Nov 25",
-          "image": "https://vcarl.com/sashay/share.png",
-          "icon": "https://vcarl.com/sashay/favicon.svg",
-          "domain": "vcarl.com",
-          "hn": "20 points · 2 comments",
-          "score": 4.681,
+          "score": 2.345,
           "coverage": 1
         },
         {
@@ -709,37 +699,24 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 2.571,
+          "score": 2.05,
+          "coverage": 1
+        },
+        {
+          "title": "Taking over US Treasury subdomains for $3 each",
+          "link": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
+          "excerpt": "We took over five US Treasury subdomains for about $3 each by cycling through AWS Elastic IPs. Here’s how it works, and what to check in your own DNS.",
+          "source": "intruder.io via Hacker News",
+          "date": "Nov 25",
+          "image": "https://cdn.prod.website-files.com/61dd9339d05701829d0b3241/6afdc01d62cd6e97b94540b6_Elastic%20IP%20adresses%20(1).jpg",
+          "icon": "https://cdn.prod.website-files.com/61dd9339d05701b1440b323d/61dd9339d0570119050b32d6_256.png",
+          "domain": "intruder.io",
+          "hn": "99 points · 19 comments",
+          "score": 2.344,
           "coverage": 1
         }
       ],
       "more": [
-        {
-          "title": "Treasury CIO is too busy vibecoding instead of doing his job #147",
-          "link": "https://github.com/samcorcos/legatum/issues/147",
-          "excerpt": "What happened Treasury CIO is vibecoding games instead of getting FinCEN back online. What you expected FinCEN to work. How to reproduce it Try to file. Where https://bsaefiling.fincen.gov/ Anythin...",
-          "source": "github.com via Hacker News",
-          "date": "Nov 25",
-          "image": "https://opengraph.githubassets.com/99ba62e512e371841f5803cc640b75223c21455fda9b27978ed880094f18d851/samcorcos/legatum/issues/147",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "40 points · 2 comments",
-          "score": 2.743,
-          "coverage": 1
-        },
-        {
-          "title": "Show HN: U.S. Interstate Weather",
-          "link": "https://www.interstateweather.com/",
-          "excerpt": "Driving weather along US highways, from National Weather Service forecasts and alerts.",
-          "source": "interstateweather.com via Hacker News",
-          "date": "Nov 25",
-          "image": null,
-          "icon": "https://www.interstateweather.com/favicon.svg",
-          "domain": "interstateweather.com",
-          "hn": "20 points · 4 comments",
-          "score": 2.351,
-          "coverage": 1
-        },
         {
           "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
           "link": "https://gpu-demo-gallery.pages.dev/",
@@ -749,21 +726,8 @@
           "image": null,
           "icon": "https://gpu-demo-gallery.pages.dev/favicon.ico",
           "domain": "gpu-demo-gallery.pages.dev",
-          "hn": "20 points · 2 comments",
-          "score": 2.292,
-          "coverage": 1
-        },
-        {
-          "title": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
-          "link": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
-          "excerpt": "Both times it started outputting the lyrics, then stopped, retracted it and spat out the message you see here.",
-          "source": "comentr.com via Hacker News",
-          "date": "Nov 25",
-          "image": "https://cdn.comentr.com/0150CPNGZR000000000C0MENTR/media/content_image/v1/bff5d66072971917ceddac67792e86c36ea69bdec2ba9cb46d7994c29d79c5ad.44HS7JCKCR7PGP5YRJ884468FT/p1-s2024x1956/w1080.webp",
-          "icon": "https://www.comentr.com/apple-touch-icon.png",
-          "domain": "comentr.com",
-          "hn": "84 points · 55 comments",
-          "score": 3.24,
+          "hn": "148 points · 37 comments",
+          "score": 2.541,
           "coverage": 1
         },
         {
@@ -775,8 +739,47 @@
           "image": null,
           "icon": "https://www.marginalia.nu/favicon.ico",
           "domain": "marginalia.nu",
-          "hn": "46 points · 9 comments",
-          "score": 2.67,
+          "hn": "129 points · 55 comments",
+          "score": 2.443,
+          "coverage": 1
+        },
+        {
+          "title": "A faster algorithm for extracting hexadecimal digits of π",
+          "link": "https://www.stylewarning.com/posts/faster-digit-extraction/",
+          "excerpt": "a personal blog",
+          "source": "stylewarning.com via Hacker News",
+          "date": "Nov 25",
+          "image": null,
+          "icon": "https://www.stylewarning.com/favicon.ico",
+          "domain": "stylewarning.com",
+          "hn": "43 points · 2 comments",
+          "score": 1.846,
+          "coverage": 1
+        },
+        {
+          "title": "Serving Qwen via AWS Lambdas for fun and 80x negative profit",
+          "link": "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
+          "excerpt": "I was curious if it was possible to run inference on self-hosted models using Lambdas. In this case I was very wrong, but it was a good lesson!",
+          "source": "noahbuilt.it via Hacker News",
+          "date": "Nov 25",
+          "image": "https://noahbuilt.it/og-lambda-layers.jpg",
+          "icon": "https://noahbuilt.it/apple-touch-icon.png",
+          "domain": "noahbuilt.it",
+          "hn": "77 points · 11 comments",
+          "score": 2.11,
+          "coverage": 1
+        },
+        {
+          "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
+          "link": "https://buttons.joshwcomeau.com/",
+          "excerpt": "A free collection of 50+ professionally-recorded multi-sampled clicks and toggles. Distributed via NPM.",
+          "source": "buttons.joshwcomeau.com via Hacker News",
+          "date": "Nov 25",
+          "image": "https://buttons.joshwcomeau.com/og-button-sounds.png",
+          "icon": "https://buttons.joshwcomeau.com/favicon.png",
+          "domain": "buttons.joshwcomeau.com",
+          "hn": "415 points · 59 comments",
+          "score": 2.77,
           "coverage": 1
         }
       ]
