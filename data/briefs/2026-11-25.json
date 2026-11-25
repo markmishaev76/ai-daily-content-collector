@@ -1,21 +1,31 @@
 {
   "date": "2026-11-25",
   "lead": {
-    "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
-    "link": "https://news.ycombinator.com/item?id=50634426",
-    "excerpt": "",
-    "source": "Hacker News",
+    "title": "Huawei found guilty of stealing trade secrets",
+    "link": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial",
+    "excerpt": "A jury has found Huawei guilty of stealing US trade secrets, as reported earlier by NBC News and Bloomberg. The verdict, handed down in a federal court in New York, concludes a years-long legal battle that accused the Chinese telecom giant of stealing source code and proprietary technology from…",
+    "source": "The Verge",
     "date": "Nov 24",
-    "image": null,
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2302952808.jpg?quality=90&strip=all&crop=0,0,100,100",
     "image_credit": null,
-    "section": "AI Agents & Agent Security",
+    "section": "Secrets & NHI",
     "pinned": false,
     "note": null,
     "labels": [
-      "AI Agents & Agent Security",
-      "7h ago"
+      "3 sources",
+      "Secrets & NHI",
+      "5h ago"
     ],
-    "also": []
+    "also": [
+      {
+        "name": "theguardian.com",
+        "link": "https://www.theguardian.com/technology/2026/nov/24/huawei-china-convicted-deceiving-banks-stealing-us-trade-secrets"
+      },
+      {
+        "name": "bbc.com",
+        "link": "https://www.bbc.com/news/articles/cmy49ngydqzpo"
+      }
+    ]
   },
   "pulse": [
     {
@@ -25,7 +35,7 @@
       "link_domain": "michaelharley.net",
       "source": "Hacker News",
       "domain": "michaelharley.net",
-      "meta": "Hacker News · 945 points · 392 comments · 15h ago",
+      "meta": "Hacker News · 959 points · 394 comments · 17h ago",
       "also": [],
       "image": "https://michaelharley.net/assets/images/open-graph-image.png",
       "icon": "https://michaelharley.net/assets/favicons/apple-touch-icon.png"
@@ -37,22 +47,10 @@
       "link_domain": "bloomberg.com",
       "source": "Hacker News",
       "domain": "bloomberg.com",
-      "meta": "Hacker News · 362 points · 715 comments · 14h ago",
+      "meta": "Hacker News · 376 points · 733 comments · 16h ago",
       "also": [],
       "image": null,
       "icon": "https://www.bloomberg.com/favicon.ico"
-    },
-    {
-      "title": "Tidal bans AI-generated music",
-      "thread": "https://news.ycombinator.com/item?id=50630309",
-      "link": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
-      "link_domain": "variety.com",
-      "source": "Hacker News",
-      "domain": "variety.com",
-      "meta": "Hacker News · 320 points · 307 comments · 11h ago",
-      "also": [],
-      "image": "https://variety.com/wp-content/uploads/2023/12/Tidal.png?w=679&h=382&crop=1",
-      "icon": "https://variety.com/wp-content/themes/pmc-variety-2020/assets/app/icons/apple-touch-icon.png"
     },
     {
       "title": "Security incident on Hex.pm",
@@ -61,10 +59,22 @@
       "link_domain": "hex.pm",
       "source": "Lobsters",
       "domain": "hex.pm",
-      "meta": "Lobsters · 47 points · 5 comments · 13h ago",
+      "meta": "Lobsters · 51 points · 5 comments · 15h ago",
       "also": [],
       "image": "https://hex.pm/images/favicon-160-3770bc59f1f8ba7656b4db5a1eacd8e3.png?vsn=d",
       "icon": "https://hex.pm/images/hex-full-a8183c4f9adac71516516d107d402b18.svg?vsn=d"
+    },
+    {
+      "title": "Tidal bans AI-generated music",
+      "thread": "https://news.ycombinator.com/item?id=50630309",
+      "link": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+      "link_domain": "variety.com",
+      "source": "Hacker News",
+      "domain": "variety.com",
+      "meta": "Hacker News · 320 points · 309 comments · 13h ago",
+      "also": [],
+      "image": "https://variety.com/wp-content/uploads/2023/12/Tidal.png?w=679&h=382&crop=1",
+      "icon": "https://variety.com/wp-content/themes/pmc-variety-2020/assets/app/icons/apple-touch-icon.png"
     },
     {
       "title": "Active intrusion campaign against Check Point security management servers",
@@ -73,7 +83,7 @@
       "link_domain": "greynoise.io",
       "source": "Hacker News",
       "domain": "greynoise.io",
-      "meta": "Hacker News · 272 points · 139 comments · 11h ago",
+      "meta": "Hacker News · 276 points · 141 comments · 13h ago",
       "also": [],
       "image": "https://cdn.prod.website-files.com/667dd40ebb8095e89f27565d/6b00b96c7176ac8c286ffb00_GreyNoise-Blog-Check-Point-1600x900.png",
       "icon": "https://cdn.prod.website-files.com/625f93b2923b4f2b1f2e7b64/625f93b2923b4f7fb02e7c32_gn_favicon_256.png"
@@ -85,7 +95,7 @@
       "link_domain": "",
       "source": "Hacker News",
       "domain": "Hacker News",
-      "meta": "Hacker News · 235 points · 174 comments · 11h ago",
+      "meta": "Hacker News · 239 points · 181 comments · 13h ago",
       "also": [],
       "image": null,
       "icon": null
@@ -97,7 +107,7 @@
       "link_domain": "reuters.com",
       "source": "Hacker News",
       "domain": "reuters.com",
-      "meta": "Hacker News · 230 points · 211 comments · 10h ago",
+      "meta": "Hacker News · 237 points · 219 comments · 12h ago",
       "also": [],
       "image": null,
       "icon": "https://www.reuters.com/favicon.ico"
@@ -109,7 +119,7 @@
       "link_domain": "novaramedia.com",
       "source": "Hacker News",
       "domain": "novaramedia.com",
-      "meta": "Hacker News · 204 points · 109 comments · 10h ago",
+      "meta": "Hacker News · 207 points · 111 comments · 12h ago",
       "also": [],
       "image": "https://novaramedia.com/wp-content/uploads/2026/11/Screenshot-2026-11-24-at-2.42.06-pm-e1795535439679-1200x630.png",
       "icon": "https://novaramedia.com/wp-content/themes/novaramedia-com/dist/img/apple-touch-icon.png"
@@ -121,7 +131,7 @@
       "link_domain": "msn.com",
       "source": "Hacker News",
       "domain": "msn.com",
-      "meta": "Hacker News · 128 points · 3 comments · 13h ago",
+      "meta": "Hacker News · 128 points · 3 comments · 15h ago",
       "also": [],
       "image": null,
       "icon": "https://www.msn.com/favicon.ico"
@@ -133,7 +143,7 @@
       "link_domain": "apnews.com",
       "source": "Hacker News",
       "domain": "apnews.com",
-      "meta": "Hacker News · 120 points · 42 comments · 6h ago",
+      "meta": "Hacker News · 124 points · 42 comments · 8h ago",
       "also": [],
       "image": null,
       "icon": "https://apnews.com/favicon.ico"
@@ -153,7 +163,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 6.504,
+          "score": 5.822,
           "coverage": 1
         },
         {
@@ -166,7 +176,7 @@
           "icon": null,
           "domain": "metr.org",
           "hn": null,
-          "score": 3.164,
+          "score": 2.978,
           "coverage": 1
         },
         {
@@ -179,7 +189,7 @@
           "icon": "https://lucumr.pocoo.org/static/avatar-small.jpg",
           "domain": "lucumr.pocoo.org",
           "hn": null,
-          "score": 1.117,
+          "score": 0.994,
           "coverage": 1
         }
       ],
@@ -194,7 +204,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 3.878,
+          "score": 3.57,
           "coverage": 1
         },
         {
@@ -207,7 +217,7 @@
           "icon": null,
           "domain": "newsletter.pragmaticengineer.com",
           "hn": null,
-          "score": 0.864,
+          "score": 0.788,
           "coverage": 1
         },
         {
@@ -220,7 +230,7 @@
           "icon": "https://stackoverflow.blog/apple-touch-icon.png",
           "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 0.78,
+          "score": 0.718,
           "coverage": 1
         }
       ]
@@ -238,7 +248,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 2.474,
+          "score": 2.356,
           "coverage": 1
         },
         {
@@ -251,7 +261,35 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 2.149,
+          "score": 2.011,
+          "coverage": 1
+        },
+        {
+          "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+          "link": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
+          "excerpt": "November 24, 2026 — Neon beats Astra and Fable on LiveBench and cuts Theo’s TS Rust benchmark runtime by 48.6%.",
+          "source": "Latent Space",
+          "date": "Nov 25",
+          "image": "https://latent.space/og/card/post/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/cbe347eb1fb1cb87c986d8fbe2e2206521e0bdecbfd20fbb16e0c4595e118daa.png",
+          "icon": "https://latent.space/favicon.png",
+          "domain": "latent.space",
+          "hn": null,
+          "score": 0.881,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
+          "link": "https://news.ycombinator.com/item?id=50634426",
+          "excerpt": "82 points · 65 comments",
+          "source": "Hacker News",
+          "date": "Nov 24",
+          "image": null,
+          "icon": null,
+          "domain": "news.ycombinator.com",
+          "hn": "82 points · 65 comments",
+          "score": 6.61,
           "coverage": 1
         },
         {
@@ -264,11 +302,9 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.553,
+          "score": 0.515,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "How Intentful uses dots to make more time for growth",
           "link": "https://openai.com/business/customer-stories/intentful-dots",
@@ -279,7 +315,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.374,
+          "score": 0.356,
           "coverage": 1
         },
         {
@@ -292,7 +328,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.374,
+          "score": 0.356,
           "coverage": 1
         }
       ]
@@ -310,7 +346,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.374,
+          "score": 0.356,
           "coverage": 1
         },
         {
@@ -323,7 +359,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.374,
+          "score": 0.356,
           "coverage": 1
         }
       ],
@@ -342,7 +378,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.589,
+          "score": 0.536,
           "coverage": 1
         },
         {
@@ -355,7 +391,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 0.727,
+          "score": 0.663,
           "coverage": 1
         }
       ],
@@ -374,7 +410,7 @@
           "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
           "domain": "aembit.io",
           "hn": null,
-          "score": 2.824,
+          "score": 2.538,
           "coverage": 1
         }
       ],
@@ -393,7 +429,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 1.689,
+          "score": 1.608,
           "coverage": 1
         },
         {
@@ -406,7 +442,7 @@
           "icon": null,
           "domain": "openssf.org",
           "hn": null,
-          "score": 0.733,
+          "score": 0.667,
           "coverage": 1
         }
       ],
@@ -425,7 +461,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 2.895,
+          "score": 2.596,
           "coverage": 1
         },
         {
@@ -438,7 +474,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.306,
+          "score": 0.282,
           "coverage": 1
         },
         {
@@ -451,7 +487,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 3.133,
+          "score": 2.904,
           "coverage": 2
         }
       ],
@@ -466,7 +502,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 1.958,
+          "score": 1.817,
           "coverage": 1
         },
         {
@@ -479,7 +515,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.271,
+          "score": 0.252,
           "coverage": 1
         },
         {
@@ -492,7 +528,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 2.727,
+          "score": 2.46,
           "coverage": 1
         },
         {
@@ -505,7 +541,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.364,
+          "score": 0.331,
           "coverage": 1
         },
         {
@@ -518,7 +554,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.341,
+          "score": 0.312,
           "coverage": 1
         }
       ]
@@ -536,7 +572,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 5.138,
+          "score": 4.672,
           "coverage": 1
         },
         {
@@ -549,7 +585,7 @@
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
           "hn": null,
-          "score": 1.484,
+          "score": 1.414,
           "coverage": 1
         },
         {
@@ -562,7 +598,7 @@
           "icon": "https://a0.awsstatic.com/main/images/site/touch-icon-iphone-114-smile.png",
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.368,
+          "score": 0.34,
           "coverage": 1
         }
       ],
@@ -577,7 +613,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.761,
+          "score": 0.67,
           "coverage": 1
         },
         {
@@ -590,7 +626,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.754,
+          "score": 0.665,
           "coverage": 1
         },
         {
@@ -603,7 +639,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.605,
+          "score": 0.546,
           "coverage": 1
         },
         {
@@ -616,7 +652,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.522,
+          "score": 0.477,
           "coverage": 1
         },
         {
@@ -647,7 +683,20 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 3.258,
+          "score": 2.941,
+          "coverage": 1
+        },
+        {
+          "title": "Show HN: Sliding-panes React UI library (inspired by WebOS Enyo)",
+          "link": "https://vcarl.com/sashay/",
+          "excerpt": "A sliding-panes layout for the web. Snaps, flings, bottom bars, deep stacks, and a layout that fits in a URL.",
+          "source": "vcarl.com via Hacker News",
+          "date": "Nov 25",
+          "image": "https://vcarl.com/sashay/share.png",
+          "icon": "https://vcarl.com/sashay/favicon.svg",
+          "domain": "vcarl.com",
+          "hn": "20 points · 2 comments",
+          "score": 4.681,
           "coverage": 1
         },
         {
@@ -660,87 +709,74 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 2.849,
-          "coverage": 1
-        },
-        {
-          "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
-          "link": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
-          "excerpt": "TL;DR * Two agents running on the same inference server can reliably communicate, even if they cannot send each other messages or access the same fi…",
-          "source": "lesswrong.com via Hacker News",
-          "date": "Nov 25",
-          "image": "https://res.cloudinary.com/lesswrong-2-0/image/upload/c_limit,w_1200,q_auto,f_jpg/f_auto,q_auto/v1/mirroredImages/7wzWuLP3HhyBLmKfo/ilkdsamuxja1dvu4uah2",
-          "icon": "https://res.cloudinary.com/lesswrong-2-0/image/upload/v1497915096/favicon_lncumn.ico",
-          "domain": "lesswrong.com",
-          "hn": "34 points · 6 comments",
-          "score": 2.639,
+          "score": 2.571,
           "coverage": 1
         }
       ],
       "more": [
         {
-          "title": "Half of NASA's aging Mars fleet knocked offline by technical issues",
-          "link": "https://arstechnica.com/space/2026/11/half-of-nasas-aging-mars-fleet-knocked-offline-by-technical-issues/",
-          "excerpt": "Perseverance is having trouble transmitting to Earth. Odyssey is rapidly burning through its waning fuel supply.",
-          "source": "Ars Technica",
-          "date": "Nov 24",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/PIA26752-500x500.jpg",
-          "icon": null,
-          "domain": "arstechnica.com",
-          "hn": null,
-          "score": 0.417,
+          "title": "Treasury CIO is too busy vibecoding instead of doing his job #147",
+          "link": "https://github.com/samcorcos/legatum/issues/147",
+          "excerpt": "What happened Treasury CIO is vibecoding games instead of getting FinCEN back online. What you expected FinCEN to work. How to reproduce it Try to file. Where https://bsaefiling.fincen.gov/ Anythin...",
+          "source": "github.com via Hacker News",
+          "date": "Nov 25",
+          "image": "https://opengraph.githubassets.com/99ba62e512e371841f5803cc640b75223c21455fda9b27978ed880094f18d851/samcorcos/legatum/issues/147",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "40 points · 2 comments",
+          "score": 2.743,
           "coverage": 1
         },
         {
-          "title": "Microsoft's historic cloud outage exposed an engineering “fog of war”",
-          "link": "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/",
-          "excerpt": "Internal memos reveal a “Code Red” overhaul and ambitious one-hour recovery goals.",
-          "source": "Ars Technica",
-          "date": "Nov 24",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Microsoft_CDOC_featured-500x500.jpg",
-          "icon": null,
-          "domain": "arstechnica.com",
-          "hn": null,
-          "score": 0.411,
+          "title": "Show HN: U.S. Interstate Weather",
+          "link": "https://www.interstateweather.com/",
+          "excerpt": "Driving weather along US highways, from National Weather Service forecasts and alerts.",
+          "source": "interstateweather.com via Hacker News",
+          "date": "Nov 25",
+          "image": null,
+          "icon": "https://www.interstateweather.com/favicon.svg",
+          "domain": "interstateweather.com",
+          "hn": "20 points · 4 comments",
+          "score": 2.351,
           "coverage": 1
         },
         {
-          "title": "What's going on with the Riemann hypothesis?",
-          "link": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/",
-          "excerpt": "A new AI-assisted proof seems to be solid, but we're not sure what it tells us.",
-          "source": "Ars Technica",
-          "date": "Nov 24",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-220180413-500x500.jpeg",
-          "icon": null,
-          "domain": "arstechnica.com",
-          "hn": null,
-          "score": 0.369,
+          "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
+          "link": "https://gpu-demo-gallery.pages.dev/",
+          "excerpt": "Fifteen graphics card demos by 3dfx, NVIDIA and ATI from 1998 to 2006, running in the browser.",
+          "source": "gpu-demo-gallery.pages.dev via Hacker News",
+          "date": "Nov 25",
+          "image": null,
+          "icon": "https://gpu-demo-gallery.pages.dev/favicon.ico",
+          "domain": "gpu-demo-gallery.pages.dev",
+          "hn": "20 points · 2 comments",
+          "score": 2.292,
           "coverage": 1
         },
         {
-          "title": "Back-to-back measles deaths is our new reality; US tally now at 14",
-          "link": "https://arstechnica.com/health/2026/11/measles-death-toll-rises-to-14-as-national-case-tally-nears-6000/",
-          "excerpt": "Wisconsin reports 3rd measles death today; Pennsylvania reported its 9th yesterday.",
-          "source": "Ars Technica",
-          "date": "Nov 24",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-2152300024-500x500.jpg",
-          "icon": null,
-          "domain": "arstechnica.com",
-          "hn": null,
-          "score": 0.358,
+          "title": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
+          "link": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
+          "excerpt": "Both times it started outputting the lyrics, then stopped, retracted it and spat out the message you see here.",
+          "source": "comentr.com via Hacker News",
+          "date": "Nov 25",
+          "image": "https://cdn.comentr.com/0150CPNGZR000000000C0MENTR/media/content_image/v1/bff5d66072971917ceddac67792e86c36ea69bdec2ba9cb46d7994c29d79c5ad.44HS7JCKCR7PGP5YRJ884468FT/p1-s2024x1956/w1080.webp",
+          "icon": "https://www.comentr.com/apple-touch-icon.png",
+          "domain": "comentr.com",
+          "hn": "84 points · 55 comments",
+          "score": 3.24,
           "coverage": 1
         },
         {
-          "title": "Amazon drone crashes on garage after delivering shampoo, draws FAA probe",
-          "link": "https://arstechnica.com/gadgets/2026/11/faa-opens-probe-after-amazon-delivery-drone-clips-cable-crashes-into-garage/",
-          "excerpt": "Amazon says Prime Air drones made “hundreds of thousands” of deliveries in 2026.",
-          "source": "Ars Technica",
-          "date": "Nov 24",
-          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/prime-air-mk30-drone-package-loading-500x500.jpg",
-          "icon": null,
-          "domain": "arstechnica.com",
-          "hn": null,
-          "score": 0.338,
+          "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
+          "link": "https://www.marginalia.nu/log/a_141_marginalia_update/",
+          "excerpt": "Title possibly signs checks the article doesnât have backing for. This is just a brief pro forma project update. Not much new functionality or anything to announce, last few months have mostly been bug fixes and technical debt cleanup. Most big parts of the search engine are in place, and while…",
+          "source": "marginalia.nu via Hacker News",
+          "date": "Nov 25",
+          "image": null,
+          "icon": "https://www.marginalia.nu/favicon.ico",
+          "domain": "marginalia.nu",
+          "hn": "46 points · 9 comments",
+          "score": 2.67,
           "coverage": 1
         }
       ]
