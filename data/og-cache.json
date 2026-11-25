@@ -47,6 +47,12 @@
   "icon": "https://0rwx.com/static/favicon/favicon.svg",
   "image": null
  },
+ "https://1password.com/blog/update-on-nov-2026-security-incident": {
+  "description": "1Password identified a security incident involving some of our backend systems. Customer vaults were not accessed and remain secure.",
+  "fetched": "2026-11-25",
+  "icon": "https://1password.com/apple-touch-icon.png",
+  "image": "https://images.ctfassets.net/3091ajzcmzlr/3yu0DTU3edoU7HK8MxkW54/c5e7801fb8c0d7d52295da96af7e8013/business_2x.webp"
+ },
  "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/": {
   "description": "OpenAI got its money, but not on the terms it wanted, and the gap between its growth story and investor appetite is landing on two giants. One faces a bookkeeping hit, the other a deeper dependency on the funding flow.",
   "fetched": "2026-11-09",
@@ -275,6 +281,12 @@
   "icon": "https://andreasfertig.com/apple-touch-icon.png",
   "image": "https://andreasfertig.com/img/2026-11-03-cpp26-failed-li.png"
  },
+ "https://anihil.com/why-arent-we-working-2-days-a-week": {
+  "description": "Okay, AI is here to replace us. At this point the dream is that corporations save billions through layoffs, productivity gains and increa...",
+  "fetched": "2026-11-25",
+  "icon": "https://i.snap.as/Pp2r5Vf7.png",
+  "image": "https://i.snap.as/3sPEJdps.jpg"
+ },
  "https://antfly.io/thoughts/how-antfly-learned-to-stop-worrying-and-love-apache-2": {
   "description": "Antfly moved from the Elastic License 2.0 to Apache 2.0. Why we hedged, and why the hedge stopped making sense.",
   "fetched": "2026-11-17",
@@ -466,6 +478,12 @@
   "fetched": "2026-11-01",
   "icon": "https://atlasum.net/favicon/apple-touch-icon.png",
   "image": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf/opengraph-image"
+ },
+ "https://autoriteitpersoonsgegevens.nl/en/current/ap-advises-against-purchasing-ai-camera-glasses-serious-risks-for-users-and-bystanders": {
+  "description": null,
+  "fetched": "2026-11-25",
+  "icon": null,
+  "image": "https://autoriteitpersoonsgegevens.nl/uploads/styles/og/public/2023-03/Mensen%20op%20roltrappen.jpg.webp?itok=J30vyxg3"
  },
  "https://aworkinglibrary.com/writing/petered": {
   "description": "We’re looking in the wrong place for the imposters among us.",
@@ -1847,6 +1865,12 @@
   "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
   "image": "https://github.blog/wp-content/uploads/2026/11/5b5fed0ce69f241f469053d4f178383688adb2fb7ef44dff82c1a2dd6a626fa1-1920x1080-1.png"
  },
+ "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/": {
+  "description": "Learn how to assess a legacy application, choose a bounded modernization step, and reuse the method with a GitHub Copilot agent skill.",
+  "fetched": "2026-11-25",
+  "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
+  "image": "https://github.blog/wp-content/uploads/2026/11/38b3dc4817bfb01261d608e093dda2cdf3392f0886a14b95208bc6f1cd49e58d-1920x1080-1.png"
+ },
  "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/": {
   "description": "On a long pull request, checking what’s blocking often means scrolling past dozens of comments and timeline events just to reach the merge box. And once you’re there, you still…",
   "fetched": "2026-11-08",
@@ -3094,6 +3118,12 @@
   "fetched": "2026-11-01",
   "icon": "https://learnfromx.com/static/icons/apple-touch-icon.png?v=47bf0acf",
   "image": "https://learnfromx.com/static/images/og-word-coverage.png"
+ },
+ "https://lemire.me/blog/2026/11/02/default-and-braces-are-not-the-same-constructor/": {
+  "description": null,
+  "fetched": "2026-11-25",
+  "icon": null,
+  "image": null
  },
  "https://lexifina.com/blog/git-for-the-us-code": {
   "description": "Lawyers should be able to read a statute as it stood on any date and see which law wrote each phrase. A history of nine titles of the US Code, built by replaying every amendment, as the example.",
@@ -6671,6 +6701,12 @@
   "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
   "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/99ce1c2ac2d0649d677f097132829da2ab3c4e18-1280x1280.jpg"
  },
+ "https://www.anthropic.com/research/migrating-api-to-rust": {
+  "description": "How we used the existing Messages API to verify the new one, with teams of Claude agents tracking down and fixing differences between the Python and Rust versions.",
+  "fetched": "2026-11-25",
+  "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+  "image": "https://assets.claude.com/faac348155bf01d5c59ab38cbd05294eb2fa8197.jpg"
+ },
  "https://www.anthropic.com/research/provable-inference": {
   "description": "Sharing progress on a powerful type of cryptographic proof known as a zkSNARK, which is uniquely fit for provable inference.",
   "fetched": "2026-11-03",
@@ -7084,6 +7120,12 @@
   "fetched": "2026-11-13",
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/posts/2026/11/12/agentic-universe.jpg"
+ },
+ "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/": {
+  "description": "Eclypsium's November InfraTrust report warns that most infrastructure security advisories addressing exploited vulnerabilities over the past month involve flaws in third-party software bundled into products rather than code developed by the vendors themselves.",
+  "fetched": "2026-11-25",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2026/07/21/infratrust.jpg"
  },
  "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/": {
   "description": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service the company used.",
@@ -7960,6 +8002,12 @@
   "fetched": "2026-11-20",
   "icon": "https://www.gimp.org/images/wilber32.png",
   "image": "https://www.gimp.org/downloads/downloadsplash-aryeom.jpg"
+ },
+ "https://www.githubstatus.com/incidents/qn8mfv6q5hlx": {
+  "description": "GitHub's Status Page - Investigating degraded experiences across GitHub products.",
+  "fetched": "2026-11-25",
+  "icon": "https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/36420/akacZEQQfOBdc7ftyxJt",
+  "image": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
  },
  "https://www.githubstatus.com/incidents/smtdswd1h2w4": {
   "description": "GitHub's Status Page - Incident with Pull Requests, Git Operations and Issues.",
@@ -8930,6 +8978,12 @@
  "https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/": {
   "description": null,
   "fetched": "2026-11-02",
+  "icon": null,
+  "image": null
+ },
+ "https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/": {
+  "description": null,
+  "fetched": "2026-11-25",
   "icon": null,
   "image": null
  },
@@ -10649,6 +10703,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts": {
+  "description": "He found it teeming with life and beauty.",
+  "fetched": "2026-11-25",
+  "icon": "https://www.vox.com/static-assets/icons/apple-touch-icon.png",
+  "image": "https://platform.vox.com/wp-content/uploads/sites/2/2026/11/Home-Depot-Thumbnail.jpg?quality=90&strip=all&crop=0%2C3.3782956566828%2C100%2C93.243408686634&w=1200"
+ },
  "https://www.vox.com/politics/508526/patrick-stewart-jean-luc-picard-star-trek-liberalism": {
   "description": "Great leaders, and great nations, need role models like Jean-Luc Picard.",
   "fetched": "2026-11-02",
@@ -10834,6 +10894,12 @@
   "fetched": "2026-11-03",
   "icon": "https://www.youtube.com/s/desktop/92ead095/img/favicon_32x32.png",
   "image": null
+ },
+ "https://zapier.com/mcp": {
+  "description": "Connect Claude, ChatGPT, Cursor, or any AI client to 9,000+ apps. Your agent finds the right action and runs it, with auth and permissions managed by Zapier.",
+  "fetched": "2026-11-25",
+  "icon": "https://framerusercontent.com/images/F0p1OYJhm4LaPzZZoDW2IdGjdt0.png",
+  "image": "https://framerusercontent.com/assets/aI2OLG2Ou8MfFTRSq6CA2ViD48.png"
  },
  "https://zerodha.tech/blog/high-performance-distributed-blob-storage/": {
   "description": "How we built Blobasaur, a sharded, distributed, lightweight blob storage server to solve our high-throughput blob read/write usecase.",

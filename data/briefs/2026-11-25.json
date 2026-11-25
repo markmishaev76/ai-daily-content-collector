@@ -1,53 +1,33 @@
 {
   "date": "2026-11-25",
   "lead": {
-    "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
-    "link": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
-    "excerpt": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
-    "source": "TechCrunch",
+    "title": "Guilty: Huawei faces steep penalties for stealing T-Mobile, Cisco trade secrets",
+    "link": "https://arstechnica.com/tech-policy/2026/11/jury-convicts-huawei-of-stealing-us-trade-secrets-evading-iran-sanctions/",
+    "excerpt": "Huawei didn’t try very hard to hide thefts of US trade secrets, DOJ says.",
+    "source": "Ars Technica",
     "date": "Nov 25",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2306257922-500x500.jpg",
     "image_credit": null,
-    "section": "News & Research",
+    "section": "Secrets & NHI",
     "pinned": false,
     "note": null,
     "labels": [
-      "2 sources",
-      "News & Research",
-      "under 1h ago"
+      "3 sources",
+      "Secrets & NHI",
+      "1h ago"
     ],
     "also": [
       {
-        "name": "theverge.com",
-        "link": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions"
+        "name": "theguardian.com",
+        "link": "https://www.theguardian.com/technology/2026/nov/24/huawei-china-convicted-deceiving-banks-stealing-us-trade-secrets"
+      },
+      {
+        "name": "bbc.com",
+        "link": "https://www.bbc.com/news/articles/cmy49ngydqzpo"
       }
     ]
   },
   "pulse": [
-    {
-      "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
-      "thread": "https://news.ycombinator.com/item?id=50630809",
-      "link": null,
-      "link_domain": "",
-      "source": "Hacker News",
-      "domain": "Hacker News",
-      "meta": "Hacker News · 381 points · 297 comments · 22h ago",
-      "also": [],
-      "image": null,
-      "icon": null
-    },
-    {
-      "title": "Tidal bans AI-generated music",
-      "thread": "https://news.ycombinator.com/item?id=50630309",
-      "link": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
-      "link_domain": "variety.com",
-      "source": "Hacker News",
-      "domain": "variety.com",
-      "meta": "Hacker News · 333 points · 318 comments · 22h ago",
-      "also": [],
-      "image": "https://variety.com/wp-content/uploads/2023/12/Tidal.png?w=679&h=382&crop=1",
-      "icon": "https://variety.com/wp-content/themes/pmc-variety-2020/assets/app/icons/apple-touch-icon.png"
-    },
     {
       "title": "Marginalia Search, Money, C++, Rust, AI, stuff",
       "thread": "https://lobste.rs/s/srb0dp/marginalia_search_money_c_rust_ai_stuff",
@@ -55,7 +35,7 @@
       "link_domain": "marginalia.nu",
       "source": "Lobsters",
       "domain": "marginalia.nu",
-      "meta": "Lobsters · 48 points · 10 comments · 8h ago",
+      "meta": "Lobsters · 72 points · 14 comments · 11h ago",
       "also": [
         {
           "source": "Hacker News",
@@ -66,49 +46,13 @@
       "icon": "https://www.marginalia.nu/favicon.ico"
     },
     {
-      "title": "Active intrusion campaign against Check Point security management servers",
-      "thread": "https://news.ycombinator.com/item?id=50630594",
-      "link": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
-      "link_domain": "greynoise.io",
-      "source": "Hacker News",
-      "domain": "greynoise.io",
-      "meta": "Hacker News · 292 points · 146 comments · 22h ago",
-      "also": [],
-      "image": "https://cdn.prod.website-files.com/667dd40ebb8095e89f27565d/6b00b96c7176ac8c286ffb00_GreyNoise-Blog-Check-Point-1600x900.png",
-      "icon": "https://cdn.prod.website-files.com/625f93b2923b4f2b1f2e7b64/625f93b2923b4f7fb02e7c32_gn_favicon_256.png"
-    },
-    {
-      "title": "Microsoft declares 'Code Red' after historic outage, internal memos show",
-      "thread": "https://news.ycombinator.com/item?id=50631157",
-      "link": "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/",
-      "link_domain": "reuters.com",
-      "source": "Hacker News",
-      "domain": "reuters.com",
-      "meta": "Hacker News · 249 points · 237 comments · 21h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://www.reuters.com/favicon.ico"
-    },
-    {
-      "title": "Anthropic Staff Openly Talk About ‘Taking Over the World’, Claims Max Tegmark",
-      "thread": "https://news.ycombinator.com/item?id=50631210",
-      "link": "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist/",
-      "link_domain": "novaramedia.com",
-      "source": "Hacker News",
-      "domain": "novaramedia.com",
-      "meta": "Hacker News · 219 points · 124 comments · 21h ago",
-      "also": [],
-      "image": "https://novaramedia.com/wp-content/uploads/2026/11/Screenshot-2026-11-24-at-2.42.06-pm-e1795535439679-1200x630.png",
-      "icon": "https://novaramedia.com/wp-content/themes/novaramedia-com/dist/img/apple-touch-icon.png"
-    },
-    {
       "title": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
       "thread": "https://news.ycombinator.com/item?id=50638320",
       "link": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
       "link_domain": "comentr.com",
       "source": "Hacker News",
       "domain": "comentr.com",
-      "meta": "Hacker News · 196 points · 149 comments · 10h ago",
+      "meta": "Hacker News · 207 points · 161 comments · 14h ago",
       "also": [],
       "image": "https://cdn.comentr.com/0150CPNGZR000000000C0MENTR/media/content_image/v1/bff5d66072971917ceddac67792e86c36ea69bdec2ba9cb46d7994c29d79c5ad.44HS7JCKCR7PGP5YRJ884468FT/p1-s2024x1956/w1080.webp",
       "icon": "https://www.comentr.com/apple-touch-icon.png"
@@ -120,7 +64,7 @@
       "link_domain": "apnews.com",
       "source": "Hacker News",
       "domain": "apnews.com",
-      "meta": "Hacker News · 129 points · 47 comments · 17h ago",
+      "meta": "Hacker News · 131 points · 48 comments · 20h ago",
       "also": [],
       "image": null,
       "icon": "https://apnews.com/favicon.ico"
@@ -132,10 +76,46 @@
       "link_domain": "progrium.github.io",
       "source": "Lobsters",
       "domain": "progrium.github.io",
-      "meta": "Lobsters · 16 points · 6 comments · 20h ago",
+      "meta": "Lobsters · 19 points · 7 comments · 23h ago",
       "also": [],
       "image": null,
       "icon": "https://progrium.github.io/favicon.ico"
+    },
+    {
+      "title": "Dutch data protection authority advises against purchasing AI camera glasses",
+      "thread": "https://lobste.rs/s/l7fel2/dutch_data_protection_authority_advises",
+      "link": "https://autoriteitpersoonsgegevens.nl/en/current/ap-advises-against-purchasing-ai-camera-glasses-serious-risks-for-users-and-bystanders",
+      "link_domain": "autoriteitpersoonsgegevens.nl",
+      "source": "Lobsters",
+      "domain": "autoriteitpersoonsgegevens.nl",
+      "meta": "Lobsters · 16 points · 4 comments · 18h ago",
+      "also": [],
+      "image": "https://autoriteitpersoonsgegevens.nl/uploads/styles/og/public/2023-03/Mensen%20op%20roltrappen.jpg.webp?itok=J30vyxg3",
+      "icon": "https://autoriteitpersoonsgegevens.nl/favicon.ico"
+    },
+    {
+      "title": "Taking over US Treasury subdomains for $3 each",
+      "thread": "https://lobste.rs/s/ogxwpi/taking_over_us_treasury_subdomains_for_3",
+      "link": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
+      "link_domain": "intruder.io",
+      "source": "Lobsters",
+      "domain": "intruder.io",
+      "meta": "Lobsters · 16 points · 0 comments · 7h ago",
+      "also": [],
+      "image": "https://cdn.prod.website-files.com/61dd9339d05701829d0b3241/6afdc01d62cd6e97b94540b6_Elastic%20IP%20adresses%20(1).jpg",
+      "icon": "https://cdn.prod.website-files.com/61dd9339d05701b1440b323d/61dd9339d0570119050b32d6_256.png"
+    },
+    {
+      "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
+      "thread": "https://news.ycombinator.com/item?id=50634426",
+      "link": null,
+      "link_domain": "",
+      "source": "Hacker News",
+      "domain": "Hacker News",
+      "meta": "Hacker News · 100 points · 98 comments · 21h ago",
+      "also": [],
+      "image": null,
+      "icon": null
     }
   ],
   "sections": [
@@ -152,7 +132,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 3.981,
+          "score": 3.571,
           "coverage": 1
         },
         {
@@ -165,20 +145,20 @@
           "icon": null,
           "domain": "metr.org",
           "hn": null,
-          "score": 2.366,
+          "score": 2.202,
           "coverage": 1
         },
         {
-          "title": "You Don’t Get Paid For What You Did, But For What You’re Going To Do",
-          "link": "https://newsletter.kentbeck.com/p/you-dont-get-paid-for-what-you-did",
-          "excerpt": "Not the first time I’ve seen this:",
-          "source": "Kent Beck",
+          "title": "How Anthropic builds software in 2026 with Katelyn Lesse",
+          "link": "https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in",
+          "excerpt": "Katelyn Lesse explains how Anthropic rewrote Claude’s API in Rust and how AI agents are changing engineering at the company.",
+          "source": "The Pragmatic Engineer",
           "date": "Nov 25",
-          "image": "https://substackcdn.com/image/fetch/$s_!Kitw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96d29dce-e7db-4f9c-94de-e8c89ac49fd9_1179x530.png",
+          "image": "https://substackcdn.com/image/fetch/$s_!AlJu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e3d3c6f-6a37-411e-aa1a-dfcefc979af3_1600x140.png",
           "icon": null,
-          "domain": "newsletter.kentbeck.com",
+          "domain": "newsletter.pragmaticengineer.com",
           "hn": null,
-          "score": 1.46,
+          "score": 8.054,
           "coverage": 1
         }
       ],
@@ -193,7 +173,46 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 2.644,
+          "score": 2.417,
+          "coverage": 1
+        },
+        {
+          "title": "How to choose the next safe step in application modernization",
+          "link": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
+          "excerpt": "Learn how to assess a legacy application, choose a bounded modernization step, and reuse the method with a GitHub Copilot agent skill.",
+          "source": "GitHub AI & ML",
+          "date": "Nov 25",
+          "image": "https://github.blog/wp-content/uploads/2026/11/38b3dc4817bfb01261d608e093dda2cdf3392f0886a14b95208bc6f1cd49e58d-1920x1080-1.png",
+          "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
+          "domain": "github.blog",
+          "hn": null,
+          "score": 6.198,
+          "coverage": 1
+        },
+        {
+          "title": "Migrating our Messages API to Rust",
+          "link": "https://www.anthropic.com/research/migrating-api-to-rust",
+          "excerpt": "How we migrated our Messages API from Python to Rust.",
+          "source": "Anthropic Engineering",
+          "date": "Nov 25",
+          "image": "https://assets.claude.com/faac348155bf01d5c59ab38cbd05294eb2fa8197.jpg",
+          "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+          "domain": "anthropic.com",
+          "hn": null,
+          "score": 0.747,
+          "coverage": 1
+        },
+        {
+          "title": "You Don’t Get Paid For What You Did, But For What You’re Going To Do",
+          "link": "https://newsletter.kentbeck.com/p/you-dont-get-paid-for-what-you-did",
+          "excerpt": "Not the first time I’ve seen this:",
+          "source": "Kent Beck",
+          "date": "Nov 25",
+          "image": "https://substackcdn.com/image/fetch/$s_!Kitw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96d29dce-e7db-4f9c-94de-e8c89ac49fd9_1179x530.png",
+          "icon": null,
+          "domain": "newsletter.kentbeck.com",
+          "hn": null,
+          "score": 1.159,
           "coverage": 1
         },
         {
@@ -206,46 +225,7 @@
           "icon": "https://lucumr.pocoo.org/static/avatar-small.jpg",
           "domain": "lucumr.pocoo.org",
           "hn": null,
-          "score": 0.668,
-          "coverage": 1
-        },
-        {
-          "title": "Training agents for professional work when success is rare",
-          "link": "https://research.snorkel.ai/thoughts/gdpval-agents-rare-success/",
-          "excerpt": "We trained Qwen3.8-27B on 1,105 professional tasks from Snorkel’s GDPval+ series. After about 102K training rollouts, the model reaches 40.7% pass@1 on OpenAI’s GDPval gold set, up from 31.9%. Its deliverables now beat those of human experts in 44.0% of LLM-judged head-to-head comparisons,…",
-          "source": "Snorkel AI",
-          "date": "Nov 19",
-          "image": "https://research.snorkel.ai/social-image/20102/?v=4cea707808",
-          "icon": "https://s49867.pcdn.co/wp-content/uploads/2026/11/cropped-Favicon-180x180.png",
-          "domain": "research.snorkel.ai",
-          "hn": null,
-          "score": 0.115,
-          "coverage": 1
-        },
-        {
-          "title": "The Pragmatic Engineer Essay Challenge: Category Winners (Part 1)",
-          "link": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-essay-challenge",
-          "excerpt": "How is AI changing the way we build software? Excerpts from three category winners of our recent essay contest, with links to 40 more by software engineers and experts",
-          "source": "The Pragmatic Engineer",
-          "date": "Nov 24",
-          "image": "https://substackcdn.com/image/fetch/$s_!nbv5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F710bc15b-efad-4643-bb7d-fd4748f219ff_1672x941.png",
-          "icon": null,
-          "domain": "newsletter.pragmaticengineer.com",
-          "hn": null,
-          "score": 0.569,
-          "coverage": 1
-        },
-        {
-          "title": "The Microsoft outage was a warning we can’t ignore",
-          "link": "https://newsletter.getdx.com/p/the-microsoft-outage-was-a-warning",
-          "excerpt": "If AI makes software easier to write, can we still fix all of it?",
-          "source": "DX",
-          "date": "Nov 25",
-          "image": "https://substack-post-media.s3.amazonaws.com/public/images/e662b2bd-b45f-4e6c-82df-be495c848be4_2048x1024.png",
-          "icon": null,
-          "domain": "newsletter.getdx.com",
-          "hn": null,
-          "score": 1.133,
+          "score": 0.597,
           "coverage": 1
         }
       ]
@@ -253,6 +233,19 @@
     {
       "name": "AI Agents & Agent Security",
       "cards": [
+        {
+          "title": "Zapier offers free MCP tool calls until Jan. 5",
+          "link": "https://zapier.com/mcp",
+          "excerpt": "Connect Claude, ChatGPT, Cursor, or any AI client to 9,000+ apps. Your agent finds the right action and runs it, with auth and permissions managed by Zapier.",
+          "source": "zapier.com via Hacker News",
+          "date": "Nov 25",
+          "image": "https://framerusercontent.com/assets/aI2OLG2Ou8MfFTRSq6CA2ViD48.png",
+          "icon": "https://framerusercontent.com/images/F0p1OYJhm4LaPzZZoDW2IdGjdt0.png",
+          "domain": "zapier.com",
+          "hn": "25 points · 1 comments",
+          "score": 8.466,
+          "coverage": 1
+        },
         {
           "title": "Clay helps sales teams win with Codex and ChatGPT",
           "link": "https://openai.com/business/customer-stories/clay-plugins-openai",
@@ -263,7 +256,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 1.948,
+          "score": 1.833,
           "coverage": 1
         },
         {
@@ -276,7 +269,22 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 1.566,
+          "score": 1.45,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
+          "link": "https://news.ycombinator.com/item?id=50634426",
+          "excerpt": "100 points · 98 comments",
+          "source": "Hacker News",
+          "date": "Nov 24",
+          "image": null,
+          "icon": null,
+          "domain": "news.ycombinator.com",
+          "hn": "100 points · 98 comments",
+          "score": 4.347,
           "coverage": 1
         },
         {
@@ -289,22 +297,7 @@
           "icon": "https://latent.space/favicon.png",
           "domain": "latent.space",
           "hn": null,
-          "score": 0.535,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
-          "link": "https://news.ycombinator.com/item?id=50634426",
-          "excerpt": "94 points · 86 comments",
-          "source": "Hacker News",
-          "date": "Nov 24",
-          "image": null,
-          "icon": null,
-          "domain": "news.ycombinator.com",
-          "hn": "94 points · 86 comments",
-          "score": 4.767,
+          "score": 0.468,
           "coverage": 1
         },
         {
@@ -317,7 +310,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.395,
+          "score": 0.365,
           "coverage": 1
         },
         {
@@ -330,7 +323,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.295,
+          "score": 0.277,
           "coverage": 1
         },
         {
@@ -343,20 +336,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.295,
-          "coverage": 1
-        },
-        {
-          "title": "Tracking Incidents of Hacking Using AI Tools",
-          "link": "https://www.schneier.com/blog/archives/2026/11/tracking-incidents-of-hacking-using-ai-tools.html",
-          "excerpt": "Daniel Meissler is tracking incidents of AI-enhanced hacking, and the offensive harnesses the hackers are using.",
-          "source": "Schneier on Security",
-          "date": "Nov 25",
-          "image": null,
-          "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
-          "domain": "schneier.com",
-          "hn": null,
-          "score": 0.81,
+          "score": 0.277,
           "coverage": 1
         }
       ]
@@ -374,7 +354,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.295,
+          "score": 0.277,
           "coverage": 1
         },
         {
@@ -387,7 +367,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.295,
+          "score": 0.277,
           "coverage": 1
         }
       ],
@@ -406,7 +386,7 @@
           "icon": "https://static.ietf.org/dt/12.83.2/ietf/images/ietf-logo-nor-180.png",
           "domain": "datatracker.ietf.org",
           "hn": null,
-          "score": 1.226,
+          "score": 0.971,
           "coverage": 1
         },
         {
@@ -419,7 +399,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.385,
+          "score": 0.349,
           "coverage": 1
         },
         {
@@ -432,7 +412,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 0.477,
+          "score": 0.433,
           "coverage": 1
         }
       ],
@@ -451,7 +431,20 @@
           "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
           "domain": "aembit.io",
           "hn": null,
-          "score": 1.753,
+          "score": 1.576,
+          "coverage": 1
+        },
+        {
+          "title": "Your AI Coding Agent Just Leaked a Secret. Bots Found It on Docker Hub in 8 Seconds",
+          "link": "https://blog.gitguardian.com/docker-hub-secrets-ai-agentsuntitled/",
+          "excerpt": "Bots used AWS keys planted in Docker Hub images within 7.86 seconds. AI coding agent config files are now carrying real secrets into those same layers, because .gitignore does not apply to a Docker build. Here are five fixes, from .dockerignore to stopping the leak at the agent.",
+          "source": "GitGuardian",
+          "date": "Nov 25",
+          "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/11/docker-hub-secrets-thumbnail-violet.png",
+          "icon": null,
+          "domain": "blog.gitguardian.com",
+          "hn": null,
+          "score": 5.941,
           "coverage": 1
         },
         {
@@ -464,7 +457,7 @@
           "icon": null,
           "domain": "blog.gitguardian.com",
           "hn": null,
-          "score": 0.882,
+          "score": 0.714,
           "coverage": 1
         }
       ],
@@ -483,11 +476,11 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 1.33,
+          "score": 1.251,
           "coverage": 1
         },
         {
-          "title": "Establishing the OpenSSF Japan Working Group: Connecting Japan with the Global Community 和訳日本とグローバルをつなぐOpenSSF Japan Working Groupの設立",
+          "title": "Establishing the OpenSSF Japan Working Group: Connecting Japan with the Global Community",
           "link": "https://openssf.org/blog/2026/11/24/establishing-the-openssf-japan-working-group-connecting-japan-with-the-global-community-%e5%92%8c%e8%a8%b3%e6%97%a5%e6%9c%ac%e3%81%a8%e3%82%b0%e3%83%ad%e3%83%bc%e3%83%90%e3%83%ab%e3%82%92%e3%81%a4/",
           "excerpt": "We are pleased to announce the establishment of the OpenSSF Japan Working Group (Japan WG), which will serve as a two-way bridge between stakeholders in Japan and the global OpenSSF community.",
           "source": "Open Source Security Foundation",
@@ -496,7 +489,7 @@
           "icon": null,
           "domain": "openssf.org",
           "hn": null,
-          "score": 0.479,
+          "score": 0.435,
           "coverage": 1
         }
       ],
@@ -505,6 +498,19 @@
     {
       "name": "Security & AppSec",
       "cards": [
+        {
+          "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
+          "link": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
+          "excerpt": "Eclypsium's November InfraTrust report warns that most infrastructure security advisories addressing exploited vulnerabilities over the past month involve flaws in third-party software bundled into products rather than code developed by the vendors themselves. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 25",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/07/21/infratrust.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 3.146,
+          "coverage": 1
+        },
         {
           "title": "Gatwick drop-off customers' personal data exposed in supplier breach",
           "link": "https://www.theregister.com/security/2026/11/25/gatwick-drop-off-customers-personal-data-exposed-in-supplier-breach/5312060",
@@ -515,7 +521,7 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 5.057,
+          "score": 4.198,
           "coverage": 1
         },
         {
@@ -528,9 +534,11 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.51,
+          "score": 0.416,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
           "link": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
@@ -541,11 +549,9 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.499,
-          "coverage": 1
-        }
-      ],
-      "more": [
+          "score": 5.881,
+          "coverage": 2
+        },
         {
           "title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
           "link": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
@@ -556,7 +562,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.478,
+          "score": 0.394,
           "coverage": 1
         },
         {
@@ -569,7 +575,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.463,
+          "score": 0.384,
           "coverage": 1
         },
         {
@@ -582,7 +588,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.444,
+          "score": 0.371,
           "coverage": 1
         },
         {
@@ -595,20 +601,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.404,
-          "coverage": 1
-        },
-        {
-          "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
-          "link": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
-          "excerpt": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world. The intrusion activity, tracked by GreyNoise under the moniker GreyNoise Threat 13…",
-          "source": "The Hacker News",
-          "date": "Nov 25",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzxhgIKTt8K5ep8a4qHW9dDpkSYcBC5D1CWgkvvh9Ee5DRlNRSg-2UcZZVNoXrHXVTeIcdzj47FFcSz6gAssLknSDf6f0JDyQCoH51D4GYLSju_wh4smA6-2yE3Z7I30SPeuY8LOKA__Y9xPiU66t1aPsHTzuRnX0QUq2iadcKXFfv7ZhAhcXti_BDnrmu/s1600/code.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.358,
+          "score": 0.342,
           "coverage": 1
         }
       ]
@@ -626,7 +619,20 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 3.339,
+          "score": 3.025,
+          "coverage": 1
+        },
+        {
+          "title": "Prove your AI agent guardrails work",
+          "link": "https://www.docker.com/blog/prove-your-ai-agent-guardrails-work/",
+          "excerpt": "Coding agents can reach more than their task needs. See how Docker AI Governance controls network, filesystem, credential, and MCP access, then test it.",
+          "source": "Docker",
+          "date": "Nov 25",
+          "image": "https://www.docker.com/app/uploads/2026/11/Figure1.png",
+          "icon": null,
+          "domain": "docker.com",
+          "hn": null,
+          "score": 5.733,
           "coverage": 1
         },
         {
@@ -639,9 +645,11 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 3.207,
+          "score": 2.775,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Ephyra: A new agentic property-based testing library to find the bugs you missed",
           "link": "https://www.datadoghq.com/blog/ai/agentic-property-based-testing-with-ephyra/",
@@ -652,11 +660,9 @@
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
           "hn": null,
-          "score": 1.169,
+          "score": 1.1,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Take on complex coding changes with Gemini 4 Neon on GitLab",
           "link": "https://about.gitlab.com/blog/gemini-4-neon-on-gitlab/",
@@ -667,7 +673,20 @@
           "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
           "domain": "about.gitlab.com",
           "hn": null,
-          "score": 2.763,
+          "score": 2.469,
+          "coverage": 1
+        },
+        {
+          "title": "Planning for 99.99 percent availability with the Amazon Cognito Plus feature plan",
+          "link": "https://aws.amazon.com/blogs/security/planning-for-99-99-percent-availability-with-the-amazon-cognito-plus-feature-plan/",
+          "excerpt": "Amazon Cognito handles sign-in and access control for users, AI agents, and microservices with managed user directories, social and enterprise federation, and passwordless sign-in with passkeys or one-time passwords. Sign-in is the front door to your application. If your customer identity and…",
+          "source": "AWS Security Blog",
+          "date": "Nov 25",
+          "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/19/Amazon-Cognito-Console-Figure-1.png",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 5.164,
           "coverage": 1
         },
         {
@@ -680,7 +699,7 @@
           "icon": null,
           "domain": "cncf.io",
           "hn": null,
-          "score": 3.519,
+          "score": 2.88,
           "coverage": 1
         },
         {
@@ -693,33 +712,7 @@
           "icon": null,
           "domain": "blog.cloudflare.com",
           "hn": null,
-          "score": 4.909,
-          "coverage": 1
-        },
-        {
-          "title": "Presentation: Learning Out Loud (Under Near-Existential Pressure)",
-          "link": "https://www.infoq.com/presentations/ai-engineering-culture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "Laura Savino discusses the psychological friction of AI adoption for senior engineers & architects. She explains how shifting from static expertise to learning in public lowers anxiety, accelerates tooling fluency, and prevents burnout. Leaders will discover actionable strategies to support their…",
-          "source": "InfoQ",
-          "date": "Nov 25",
-          "image": "https://res.infoq.com/presentations/ai-engineering-culture/en/mediumimage/LauraSavino-medium-1793278596285.jpeg",
-          "icon": null,
-          "domain": "infoq.com",
-          "hn": null,
-          "score": 2.824,
-          "coverage": 1
-        },
-        {
-          "title": "From Files to Cited Answers in One API Call: Managed Ingestion and SearchDocuments in Agent Retrieval",
-          "link": "https://developers.googleblog.com/from-files-to-cited-answers-in-one-api-call-managed-ingestion-and-searchdocuments-in-agent-retrieval/",
-          "excerpt": "Agent Retrieval in Vertex AI introduces managed ingestion and SearchDocuments to replace custom chunking and embedding pipelines. Developers can now import document and video files directly from Cloud Storage and query them with a single API call for cited page numbers and timestamped results. The…",
-          "source": "Google Developers Blog",
-          "date": null,
-          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_en_1600x900.2e16d0ba.fill-1200x600.jpg",
-          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
-          "domain": "developers.googleblog.com",
-          "hn": null,
-          "score": 0.25,
+          "score": 3.934,
           "coverage": 1
         }
       ]
@@ -728,30 +721,17 @@
       "name": "News & Research",
       "cards": [
         {
-          "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
-          "link": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
-          "excerpt": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
+          "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+          "link": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+          "excerpt": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
           "source": "TechCrunch",
-          "date": "Nov 24",
-          "image": "https://techcrunch.com/wp-content/uploads/2026/11/muse-walmart.png?w=1200",
+          "date": "Nov 25",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 2.058,
-          "coverage": 1
-        },
-        {
-          "title": "Even the best AI agents struggle with everyday life",
-          "link": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
-          "excerpt": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
-          "source": "TechCrunch",
-          "date": "Nov 24",
-          "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2296543552.jpg?w=1024",
-          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
-          "domain": "techcrunch.com",
-          "hn": null,
-          "score": 1.799,
-          "coverage": 1
+          "score": 5.125,
+          "coverage": 2
         },
         {
           "title": "Amazon is reportedly in talks to end Muse AI shopping block",
@@ -763,61 +743,87 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 6.417,
+          "score": 5.125,
           "coverage": 2
+        },
+        {
+          "title": "Why aren't we working 2-days a week?",
+          "link": "https://anihil.com/why-arent-we-working-2-days-a-week",
+          "excerpt": "Okay, AI is here to replace us. At this point the dream is that corporations save billions through layoffs, productivity gains and increa...",
+          "source": "anihil.com via Hacker News",
+          "date": "Nov 25",
+          "image": "https://i.snap.as/3sPEJdps.jpg",
+          "icon": "https://i.snap.as/Pp2r5Vf7.png",
+          "domain": "anihil.com",
+          "hn": "13 points · 13 comments",
+          "score": 2.588,
+          "coverage": 1
         }
       ],
       "more": [
         {
-          "title": "U.S. jury convicts Huawei of fraud, Iran sanctions violations",
-          "link": "https://www.upi.com/Top_News/US/2026/11/25/jury-convicts-Huawei/3151795587204/",
-          "excerpt": "A federal jury in New York City has convicted Chinese tech giant Huawei and three of its subsidiaries on a range of charges, from conspiring to steal U.S. trade secrets to violating U.S. sanctions on Iran.&nbsp;",
-          "source": "upi.com via Hacker News",
+          "title": "1Password Security Incident",
+          "link": "https://1password.com/blog/update-on-nov-2026-security-incident",
+          "excerpt": "1Password identified a security incident involving some of our backend systems. Customer vaults were not accessed and remain secure.",
+          "source": "1password.com via Hacker News",
           "date": "Nov 25",
-          "image": "https://cdnph.upi.com/sv/ph/og/upi/3151795587204/2026/1/bd7ad34c755969b021dbce19da6c51b5/v1.5/US-jury-convicts-Huawei-of-fraud-Iran-sanctions-violations.jpg",
-          "icon": "https://www.upi.com/favico.png",
-          "domain": "upi.com",
-          "hn": "27 points · 11 comments",
-          "score": 2.777,
+          "image": "https://images.ctfassets.net/3091ajzcmzlr/3yu0DTU3edoU7HK8MxkW54/c5e7801fb8c0d7d52295da96af7e8013/business_2x.webp",
+          "icon": "https://1password.com/apple-touch-icon.png",
+          "domain": "1password.com",
+          "hn": "106 points · 43 comments",
+          "score": 3.591,
           "coverage": 1
         },
         {
-          "title": "Google Releases Cogentic Papers on Integer Factorization, Discrete Logs and More",
-          "link": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
-          "excerpt": "Google Research. Contribute to google-research/google-research development by creating an account on GitHub.",
-          "source": "github.com via Hacker News",
+          "title": "Investigating degraded experiences across GitHub products",
+          "link": "https://www.githubstatus.com/incidents/qn8mfv6q5hlx",
+          "excerpt": "GitHub's Status Page - Investigating degraded experiences across GitHub products.",
+          "source": "githubstatus.com via Hacker News",
           "date": "Nov 25",
-          "image": "https://opengraph.githubassets.com/b492d325919fff696a305544198edaa397282d8fe24301ddb2c0cae6d788955c/google-research/google-research",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "104 points · 46 comments",
-          "score": 3.447,
+          "image": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png",
+          "icon": "https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/36420/akacZEQQfOBdc7ftyxJt",
+          "domain": "githubstatus.com",
+          "hn": "126 points · 62 comments",
+          "score": 3.386,
           "coverage": 1
         },
         {
-          "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
-          "link": "https://github.com/xoxorwr/pw-loudness-eq",
-          "excerpt": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire - xoxorwr/pw-loudness-eq",
-          "source": "github.com via Hacker News",
-          "date": "Nov 25",
-          "image": "https://opengraph.githubassets.com/0d69538e5ba5ce3f876b0af2307af284bd4eef45eca16d7d2536ced95dd402cb/xoxorwr/pw-loudness-eq",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "149 points · 83 comments",
-          "score": 3.228,
-          "coverage": 1
-        },
-        {
-          "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
-          "link": "https://gpu-demo-gallery.pages.dev/",
-          "excerpt": "Fifteen graphics card demos by 3dfx, NVIDIA and ATI from 1998 to 2006, running in the browser.",
-          "source": "gpu-demo-gallery.pages.dev via Hacker News",
+          "title": "In C++, = default and {} are not the same constructor",
+          "link": "https://lemire.me/blog/2026/11/02/default-and-braces-are-not-the-same-constructor/",
+          "excerpt": "41 points · 75 comments",
+          "source": "lemire.me via Hacker News",
           "date": "Nov 25",
           "image": null,
-          "icon": "https://gpu-demo-gallery.pages.dev/favicon.ico",
-          "domain": "gpu-demo-gallery.pages.dev",
-          "hn": "229 points · 50 comments",
-          "score": 2.279,
+          "icon": "https://lemire.me/favicon.ico",
+          "domain": "lemire.me",
+          "hn": "41 points · 75 comments",
+          "score": 2.979,
+          "coverage": 1
+        },
+        {
+          "title": "A few questions for the guy who went snorkeling in a Home Depot retention pond",
+          "link": "https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts",
+          "excerpt": "He found it teeming with life and beauty.",
+          "source": "vox.com via Hacker News",
+          "date": "Nov 25",
+          "image": "https://platform.vox.com/wp-content/uploads/sites/2/2026/11/Home-Depot-Thumbnail.jpg?quality=90&strip=all&crop=0%2C3.3782956566828%2C100%2C93.243408686634&w=1200",
+          "icon": "https://www.vox.com/static-assets/icons/apple-touch-icon.png",
+          "domain": "vox.com",
+          "hn": "257 points · 73 comments",
+          "score": 3.516,
+          "coverage": 1
+        },
+        {
+          "title": "Rumors swirling that labs might have cracked Factoring in P",
+          "link": "https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/",
+          "excerpt": "209 points · 147 comments",
+          "source": "reddit.com via Hacker News",
+          "date": "Nov 25",
+          "image": null,
+          "icon": "https://www.reddit.com/favicon.ico",
+          "domain": "reddit.com",
+          "hn": "209 points · 147 comments",
+          "score": 3.534,
           "coverage": 1
         }
       ]
