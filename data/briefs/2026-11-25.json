@@ -1,58 +1,40 @@
 {
   "date": "2026-11-25",
   "lead": {
-    "title": "Gatwick drop-off customers' personal data exposed in supplier breach",
-    "link": "https://www.theregister.com/security/2026/11/25/gatwick-drop-off-customers-personal-data-exposed-in-supplier-breach/5312060",
-    "excerpt": "AutoPay login and vehicle records affected, alongside limited payment information and customer service emails",
-    "source": "The Register",
+    "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+    "link": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+    "excerpt": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
+    "source": "TechCrunch",
     "date": "Nov 25",
-    "image": "https://image.theregister.com/?imageId=227789&width=800",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
     "image_credit": null,
-    "section": "Security & AppSec",
+    "section": "News & Research",
     "pinned": false,
     "note": null,
     "labels": [
-      "Security & AppSec",
+      "2 sources",
+      "News & Research",
       "under 1h ago"
     ],
-    "also": []
+    "also": [
+      {
+        "name": "theverge.com",
+        "link": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions"
+      }
+    ]
   },
   "pulse": [
     {
-      "title": "LLM agents work for their parent companies, not for you",
-      "thread": "https://news.ycombinator.com/item?id=50627340",
-      "link": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-      "link_domain": "michaelharley.net",
+      "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
+      "thread": "https://news.ycombinator.com/item?id=50630809",
+      "link": null,
+      "link_domain": "",
       "source": "Hacker News",
-      "domain": "michaelharley.net",
-      "meta": "Hacker News · 977 points · 403 comments · 22h ago",
-      "also": [],
-      "image": "https://michaelharley.net/assets/images/open-graph-image.png",
-      "icon": "https://michaelharley.net/assets/favicons/apple-touch-icon.png"
-    },
-    {
-      "title": "Security incident on Hex.pm",
-      "thread": "https://lobste.rs/s/rfcgkx/security_incident_on_hex_pm",
-      "link": "https://hex.pm/blog/security-incident-on-hexpm",
-      "link_domain": "hex.pm",
-      "source": "Lobsters",
-      "domain": "hex.pm",
-      "meta": "Lobsters · 61 points · 9 comments · 20h ago",
-      "also": [],
-      "image": "https://hex.pm/images/favicon-160-3770bc59f1f8ba7656b4db5a1eacd8e3.png?vsn=d",
-      "icon": "https://hex.pm/images/hex-full-a8183c4f9adac71516516d107d402b18.svg?vsn=d"
-    },
-    {
-      "title": "Anthropic breaks below $83 IPO price",
-      "thread": "https://news.ycombinator.com/item?id=50627836",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
-      "link_domain": "bloomberg.com",
-      "source": "Hacker News",
-      "domain": "bloomberg.com",
-      "meta": "Hacker News · 404 points · 766 comments · 21h ago",
+      "domain": "Hacker News",
+      "meta": "Hacker News · 381 points · 297 comments · 22h ago",
       "also": [],
       "image": null,
-      "icon": "https://www.bloomberg.com/favicon.ico"
+      "icon": null
     },
     {
       "title": "Tidal bans AI-generated music",
@@ -61,22 +43,27 @@
       "link_domain": "variety.com",
       "source": "Hacker News",
       "domain": "variety.com",
-      "meta": "Hacker News · 329 points · 315 comments · 19h ago",
+      "meta": "Hacker News · 333 points · 318 comments · 22h ago",
       "also": [],
       "image": "https://variety.com/wp-content/uploads/2023/12/Tidal.png?w=679&h=382&crop=1",
       "icon": "https://variety.com/wp-content/themes/pmc-variety-2020/assets/app/icons/apple-touch-icon.png"
     },
     {
-      "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
-      "thread": "https://news.ycombinator.com/item?id=50630809",
-      "link": null,
-      "link_domain": "",
-      "source": "Hacker News",
-      "domain": "Hacker News",
-      "meta": "Hacker News · 309 points · 239 comments · 18h ago",
-      "also": [],
+      "title": "Marginalia Search, Money, C++, Rust, AI, stuff",
+      "thread": "https://lobste.rs/s/srb0dp/marginalia_search_money_c_rust_ai_stuff",
+      "link": "https://www.marginalia.nu/log/a_141_marginalia_update/",
+      "link_domain": "marginalia.nu",
+      "source": "Lobsters",
+      "domain": "marginalia.nu",
+      "meta": "Lobsters · 48 points · 10 comments · 8h ago",
+      "also": [
+        {
+          "source": "Hacker News",
+          "thread": "https://news.ycombinator.com/item?id=50638220"
+        }
+      ],
       "image": null,
-      "icon": null
+      "icon": "https://www.marginalia.nu/favicon.ico"
     },
     {
       "title": "Active intrusion campaign against Check Point security management servers",
@@ -85,7 +72,7 @@
       "link_domain": "greynoise.io",
       "source": "Hacker News",
       "domain": "greynoise.io",
-      "meta": "Hacker News · 285 points · 141 comments · 18h ago",
+      "meta": "Hacker News · 292 points · 146 comments · 22h ago",
       "also": [],
       "image": "https://cdn.prod.website-files.com/667dd40ebb8095e89f27565d/6b00b96c7176ac8c286ffb00_GreyNoise-Blog-Check-Point-1600x900.png",
       "icon": "https://cdn.prod.website-files.com/625f93b2923b4f2b1f2e7b64/625f93b2923b4f7fb02e7c32_gn_favicon_256.png"
@@ -97,7 +84,7 @@
       "link_domain": "reuters.com",
       "source": "Hacker News",
       "domain": "reuters.com",
-      "meta": "Hacker News · 243 points · 233 comments · 18h ago",
+      "meta": "Hacker News · 249 points · 237 comments · 21h ago",
       "also": [],
       "image": null,
       "icon": "https://www.reuters.com/favicon.ico"
@@ -109,7 +96,7 @@
       "link_domain": "novaramedia.com",
       "source": "Hacker News",
       "domain": "novaramedia.com",
-      "meta": "Hacker News · 217 points · 116 comments · 18h ago",
+      "meta": "Hacker News · 219 points · 124 comments · 21h ago",
       "also": [],
       "image": "https://novaramedia.com/wp-content/uploads/2026/11/Screenshot-2026-11-24-at-2.42.06-pm-e1795535439679-1200x630.png",
       "icon": "https://novaramedia.com/wp-content/themes/novaramedia-com/dist/img/apple-touch-icon.png"
@@ -121,22 +108,34 @@
       "link_domain": "comentr.com",
       "source": "Hacker News",
       "domain": "comentr.com",
-      "meta": "Hacker News · 184 points · 124 comments · 7h ago",
+      "meta": "Hacker News · 196 points · 149 comments · 10h ago",
       "also": [],
       "image": "https://cdn.comentr.com/0150CPNGZR000000000C0MENTR/media/content_image/v1/bff5d66072971917ceddac67792e86c36ea69bdec2ba9cb46d7994c29d79c5ad.44HS7JCKCR7PGP5YRJ884468FT/p1-s2024x1956/w1080.webp",
       "icon": "https://www.comentr.com/apple-touch-icon.png"
     },
     {
-      "title": "Anthropic is below its IPO price",
-      "thread": "https://news.ycombinator.com/item?id=50628932",
-      "link": "https://www.msn.com/en-us/money/top-stocks/anthropic-stock-sinks-below-ipo-price-why-that-s-happened-so-fast/ar-AA2i7rqa",
-      "link_domain": "msn.com",
+      "title": "An unclassified CIA system was breached in a cyberattack",
+      "thread": "https://news.ycombinator.com/item?id=50634933",
+      "link": "https://apnews.com/article/cia-cyberattack-unclassified-system-bfa6d3b02e3b0e2779dfb613c900bd77",
+      "link_domain": "apnews.com",
       "source": "Hacker News",
-      "domain": "msn.com",
-      "meta": "Hacker News · 129 points · 3 comments · 20h ago",
+      "domain": "apnews.com",
+      "meta": "Hacker News · 129 points · 47 comments · 17h ago",
       "also": [],
       "image": null,
-      "icon": "https://www.msn.com/favicon.ico"
+      "icon": "https://apnews.com/favicon.ico"
+    },
+    {
+      "title": "9/UX: a Macintosh-inspired desktop for 9front",
+      "thread": "https://lobste.rs/s/vciex6/9_ux_macintosh_inspired_desktop_for",
+      "link": "https://progrium.github.io/9ux/",
+      "link_domain": "progrium.github.io",
+      "source": "Lobsters",
+      "domain": "progrium.github.io",
+      "meta": "Lobsters · 16 points · 6 comments · 20h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://progrium.github.io/favicon.ico"
     }
   ],
   "sections": [
@@ -153,7 +152,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 4.57,
+          "score": 3.981,
           "coverage": 1
         },
         {
@@ -166,20 +165,20 @@
           "icon": null,
           "domain": "metr.org",
           "hn": null,
-          "score": 2.583,
+          "score": 2.366,
           "coverage": 1
         },
         {
-          "title": "Abolish Lock Poisoning",
-          "link": "https://lucumr.pocoo.org/2026/11/25/poisoning/",
-          "excerpt": "Rust has a curious feature that I don’t think the language would land today, if it was not there for a long time: mutex poisoning. When some Rust code panics while holding a std::sync::Mutex, the mutex is poisoned. That means that any further call to lock() returns a PoisonError. The motivation…",
-          "source": "Armin Ronacher",
+          "title": "You Don’t Get Paid For What You Did, But For What You’re Going To Do",
+          "link": "https://newsletter.kentbeck.com/p/you-dont-get-paid-for-what-you-did",
+          "excerpt": "Not the first time I’ve seen this:",
+          "source": "Kent Beck",
           "date": "Nov 25",
-          "image": "https://lucumr.pocoo.org/social/2026-11-25-poisoning-social.png",
-          "icon": "https://lucumr.pocoo.org/static/avatar-small.jpg",
-          "domain": "lucumr.pocoo.org",
+          "image": "https://substackcdn.com/image/fetch/$s_!Kitw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96d29dce-e7db-4f9c-94de-e8c89ac49fd9_1179x530.png",
+          "icon": null,
+          "domain": "newsletter.kentbeck.com",
           "hn": null,
-          "score": 0.771,
+          "score": 1.46,
           "coverage": 1
         }
       ],
@@ -194,7 +193,20 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 2.957,
+          "score": 2.644,
+          "coverage": 1
+        },
+        {
+          "title": "Abolish Lock Poisoning",
+          "link": "https://lucumr.pocoo.org/2026/11/25/poisoning/",
+          "excerpt": "Rust has a curious feature that I don’t think the language would land today, if it was not there for a long time: mutex poisoning. When some Rust code panics while holding a std::sync::Mutex, the mutex is poisoned. That means that any further call to lock() returns a PoisonError. The motivation…",
+          "source": "Armin Ronacher",
+          "date": "Nov 25",
+          "image": "https://lucumr.pocoo.org/social/2026-11-25-poisoning-social.png",
+          "icon": "https://lucumr.pocoo.org/static/avatar-small.jpg",
+          "domain": "lucumr.pocoo.org",
+          "hn": null,
+          "score": 0.668,
           "coverage": 1
         },
         {
@@ -207,7 +219,7 @@
           "icon": "https://s49867.pcdn.co/wp-content/uploads/2026/11/cropped-Favicon-180x180.png",
           "domain": "research.snorkel.ai",
           "hn": null,
-          "score": 0.118,
+          "score": 0.115,
           "coverage": 1
         },
         {
@@ -220,7 +232,7 @@
           "icon": null,
           "domain": "newsletter.pragmaticengineer.com",
           "hn": null,
-          "score": 0.642,
+          "score": 0.569,
           "coverage": 1
         },
         {
@@ -233,20 +245,7 @@
           "icon": null,
           "domain": "newsletter.getdx.com",
           "hn": null,
-          "score": 1.465,
-          "coverage": 1
-        },
-        {
-          "title": "Inside Capital One’s multi-agent system",
-          "link": "https://leaddev.com/ai/inside-capital-ones-multi-agent-system?utm_source=leaddev&utm_medium=RSS",
-          "excerpt": "Multi-agent AI is a platform problem.",
-          "source": "LeadDev",
-          "date": "Nov 25",
-          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2026/08/brain-puzzle-2.png",
-          "icon": null,
-          "domain": "leaddev.com",
-          "hn": null,
-          "score": 1.201,
+          "score": 1.133,
           "coverage": 1
         }
       ]
@@ -264,7 +263,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 2.096,
+          "score": 1.948,
           "coverage": 1
         },
         {
@@ -277,7 +276,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 1.721,
+          "score": 1.566,
           "coverage": 1
         },
         {
@@ -290,7 +289,7 @@
           "icon": "https://latent.space/favicon.png",
           "domain": "latent.space",
           "hn": null,
-          "score": 0.637,
+          "score": 0.535,
           "coverage": 1
         }
       ],
@@ -298,14 +297,14 @@
         {
           "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
           "link": "https://news.ycombinator.com/item?id=50634426",
-          "excerpt": "88 points · 75 comments",
+          "excerpt": "94 points · 86 comments",
           "source": "Hacker News",
           "date": "Nov 24",
           "image": null,
           "icon": null,
           "domain": "news.ycombinator.com",
-          "hn": "88 points · 75 comments",
-          "score": 5.363,
+          "hn": "94 points · 86 comments",
+          "score": 4.767,
           "coverage": 1
         },
         {
@@ -318,7 +317,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.437,
+          "score": 0.395,
           "coverage": 1
         },
         {
@@ -331,7 +330,7 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.317,
+          "score": 0.295,
           "coverage": 1
         },
         {
@@ -344,7 +343,20 @@
           "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
           "domain": "openai.com",
           "hn": null,
-          "score": 0.317,
+          "score": 0.295,
+          "coverage": 1
+        },
+        {
+          "title": "Tracking Incidents of Hacking Using AI Tools",
+          "link": "https://www.schneier.com/blog/archives/2026/11/tracking-incidents-of-hacking-using-ai-tools.html",
+          "excerpt": "Daniel Meissler is tracking incidents of AI-enhanced hacking, and the offensive harnesses the hackers are using.",
+          "source": "Schneier on Security",
+          "date": "Nov 25",
+          "image": null,
+          "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+          "domain": "schneier.com",
+          "hn": null,
+          "score": 0.81,
           "coverage": 1
         }
       ]
@@ -362,7 +374,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.317,
+          "score": 0.295,
           "coverage": 1
         },
         {
@@ -375,7 +387,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.317,
+          "score": 0.295,
           "coverage": 1
         }
       ],
@@ -384,6 +396,19 @@
     {
       "name": "Agent Identity & Authorization",
       "cards": [
+        {
+          "title": "Delegate changed to from Deb Cooley, Michael Jones - Rifaat Shekh-Yusef",
+          "link": "https://datatracker.ietf.org/wg/oauth/about/",
+          "excerpt": "Delegate changed to from Deb Cooley, Michael Jones",
+          "source": "IETF Datatracker",
+          "date": "Nov 25",
+          "image": null,
+          "icon": "https://static.ietf.org/dt/12.83.2/ietf/images/ietf-logo-nor-180.png",
+          "domain": "datatracker.ietf.org",
+          "hn": null,
+          "score": 1.226,
+          "coverage": 1
+        },
         {
           "title": "Scaling events and webhooks: from sync to async, in order",
           "link": "https://workos.com/blog/events-webhooks-sync-to-async-in-order",
@@ -394,7 +419,7 @@
           "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
           "domain": "workos.com",
           "hn": null,
-          "score": 0.435,
+          "score": 0.385,
           "coverage": 1
         },
         {
@@ -407,7 +432,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 0.539,
+          "score": 0.477,
           "coverage": 1
         }
       ],
@@ -426,7 +451,20 @@
           "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
           "domain": "aembit.io",
           "hn": null,
-          "score": 2.006,
+          "score": 1.753,
+          "coverage": 1
+        },
+        {
+          "title": "Never Let the Model See the Secret: Zero Data Retention Is Not Enough",
+          "link": "https://blog.gitguardian.com/zero-data-retention-ai-prompts/",
+          "excerpt": "Nearly 2 million bait prompts. Three breached AI providers. Stolen AWS keys tested within hours. Dragos showed that Zero Data Retention is a promise, not a control. Here is how to stop secrets on the laptop, before any model sees them.",
+          "source": "GitGuardian",
+          "date": "Nov 25",
+          "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/11/dragos-thumbnail-violet--1-.png",
+          "icon": null,
+          "domain": "blog.gitguardian.com",
+          "hn": null,
+          "score": 0.882,
           "coverage": 1
         }
       ],
@@ -445,7 +483,7 @@
           "icon": "https://www.chainguard.dev/favicon.ico",
           "domain": "chainguard.dev",
           "hn": null,
-          "score": 1.431,
+          "score": 1.33,
           "coverage": 1
         },
         {
@@ -458,7 +496,7 @@
           "icon": null,
           "domain": "openssf.org",
           "hn": null,
-          "score": 0.542,
+          "score": 0.479,
           "coverage": 1
         }
       ],
@@ -467,6 +505,73 @@
     {
       "name": "Security & AppSec",
       "cards": [
+        {
+          "title": "Gatwick drop-off customers' personal data exposed in supplier breach",
+          "link": "https://www.theregister.com/security/2026/11/25/gatwick-drop-off-customers-personal-data-exposed-in-supplier-breach/5312060",
+          "excerpt": "AutoPay login and vehicle records affected, alongside limited payment information and customer service emails",
+          "source": "The Register",
+          "date": "Nov 25",
+          "image": "https://image.theregister.com/?imageId=227789&width=800",
+          "icon": null,
+          "domain": "theregister.com",
+          "hn": null,
+          "score": 5.057,
+          "coverage": 1
+        },
+        {
+          "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+          "link": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+          "excerpt": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read vulnerability that could…",
+          "source": "The Hacker News",
+          "date": "Nov 25",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhi8jBS9UW1bUouUo2cLun5A5rtqPOFJoVQctV4ZsoX9uuMottAxM0HLjLZrvTVGU1GtrewszjOwVMBkvHgyFIBsOndc049nwMidNiVnnoKCOePOhy-XDsjiVjxFvubbxn-Z6ca8VJAxxgLmyQ9KGYBRMWV5GP2et02dmXzcG3jKJw1p_njPdaPuJAaxAz1/s1600/geoserver.png",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.51,
+          "coverage": 1
+        },
+        {
+          "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
+          "link": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+          "excerpt": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of its systems,\" the bureau said on Tuesday. As a precaution, it has taken some systems offline. The bureau collects…",
+          "source": "The Hacker News",
+          "date": "Nov 25",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJn89Gr-RFxS6UFEzrbUZ5Ys11fK1OwvmMYUPl29eJudnlmmp7Q34p8O0DqV8SvGu4whZke8tiysvZNQWeE4Tm3zRhJSpojYAagBXGUEVM5w6lAw2Z5C-lfRaC2IwOYrnwQSWxwso31woM4CSoluNEjA3N0gFe0RQpsV0r3MCobiKFArLMa1or-QTIBcQ/s1600/fincern.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.499,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
+          "link": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
+          "excerpt": "TL;DR More than 64% still valid after four years: GitGuardian’s State of Secrets Sprawl 2026 found that most valid secrets discovered in 2022 still worked in January 2026, because teams stall on what a revoke will break. Validity-only triage misses 46% of critical secrets: Prioritize by impact…",
+          "source": "The Hacker News",
+          "date": "Nov 25",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil06YVYkZZwt0a8nA97RyMZvYZEQIoZ7r9_YHMtjx5eWc7RNAB4ol6OWb7NIsJOpC0v4w11xynwGgR1SsTnArvWAF7yJseVMbQfoawpTPEKYDdmH6O5UrbIZgJ2Fz9MGBFC6kF95oLeubdwlrdVKaVTPz4kjrOCH0X1neixvpNSYHhotL5WuzdYM12tUo/s1600/GitGuardian.gif",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.478,
+          "coverage": 1
+        },
+        {
+          "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
+          "link": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026. The vulnerability, tracked as CVE-2026-132165 aka…",
+          "source": "The Hacker News",
+          "date": "Nov 25",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbChdPRqvJHt9cIG4Z1W9o12tl4thtxIDNNcntDjmIytSIC1PWvOytT0JjY0OJtnba6UVJcEmqNxgOMuWxX2pvNJzjQ70-CIeruqZEDdgaDG66Lv2T6lLMv8cEhrXRie1gcaLz6OoNw6f2822s2yz8jl958kok6WpHmZ7p_n3TRWTdEWSpr1le5T28kFQO/s1600/drupal.gif",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.463,
+          "coverage": 1
+        },
         {
           "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
           "link": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
@@ -477,7 +582,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.571,
+          "score": 0.444,
           "coverage": 1
         },
         {
@@ -490,7 +595,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.506,
+          "score": 0.404,
           "coverage": 1
         },
         {
@@ -503,61 +608,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 4.801,
-          "coverage": 2
-        }
-      ],
-      "more": [
-        {
-          "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
-          "link": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
-          "excerpt": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and extortion attempts. The attacks have targeted financial services, healthcare, and…",
-          "source": "The Hacker News",
-          "date": "Nov 25",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoCQn2zL8-RpfdhDeb1Zmyn46vLk1s9lerpXtGlcMkN5IGF9nlhEejtwoOXwhznjS7JVrix_FeG_G6yJ6Jb8mI31CU4Mi2dndKvLp-4nG4wWsqMaBpI60HFIk5d8_5uIxj6XEjSt4sixJYkJN8Xeqs4OrgSzOPK48esNtXbQ_FgtVe67B_WZkfpuUSEiD7/s1600/vishing.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.431,
-          "coverage": 1
-        },
-        {
-          "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
-          "link": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
-          "excerpt": "WordPress has removed six WordPress plugins developed by WP Connect after they were backdoored on November 22, 2026, to enable arbitrary code execution on sites that have them installed, following a suspected compromise of the developer's account. The WordPress plugins team has proactively…",
-          "source": "The Hacker News",
-          "date": "Nov 25",
-          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNbawIx8zYCfd7sCTbVfIzPFBtykkY65lf8EOswU62pIdZKTrx9ReB3mGnqYqujmW5eGzN_w8pEijAZMTpmOZ3fGB5zFyFaPo4ZhRQ8V0BkAmDCH3WoVqJ3kAfjDcw3_wRjhwphfyJxjF3_rDYiudb-cxt0pY3t8s-IRjNP1aEYHqtO5L1eZMkgBX6y2xD/s1600/wp.jpg",
-          "icon": null,
-          "domain": "thehackernews.com",
-          "hn": null,
-          "score": 0.424,
-          "coverage": 1
-        },
-        {
-          "title": "Plagiarism Checker Turnitin Investigating Cyberattack",
-          "link": "https://www.securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack/",
-          "excerpt": "The edtech company says the systems are fully operational and safe to use while it investigates the incident.",
-          "source": "SecurityWeek",
-          "date": "Nov 25",
-          "image": "https://www.securityweek.com/wp-content/uploads/2024/06/Hacker-Log-files.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.568,
-          "coverage": 1
-        },
-        {
-          "title": "Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library",
-          "link": "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/",
-          "excerpt": "Attackers can exploit CVE-2026-131914 to achieve remote code execution via a single web request containing specially crafted data.",
-          "source": "SecurityWeek",
-          "date": "Nov 25",
-          "image": "https://www.securityweek.com/wp-content/uploads/2024/03/exploit.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 3.537,
+          "score": 0.358,
           "coverage": 1
         }
       ]
@@ -575,7 +626,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 3.779,
+          "score": 3.339,
           "coverage": 1
         },
         {
@@ -588,7 +639,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 3.885,
+          "score": 3.207,
           "coverage": 1
         },
         {
@@ -601,11 +652,50 @@
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
           "hn": null,
-          "score": 1.258,
+          "score": 1.169,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "Take on complex coding changes with Gemini 4 Neon on GitLab",
+          "link": "https://about.gitlab.com/blog/gemini-4-neon-on-gitlab/",
+          "excerpt": "Google's Gemini 4 Neon is now available on GitLab Duo Agent Platform, offering engineers a versatile model for agentic work, with particular strength in coding.Gemini 4 Neon is the latest addition to a growing Gemini 4 lineup on GitLab Duo Agent Platform, joining Argon, Hydrogen, and Carbon. Each…",
+          "source": "GitLab",
+          "date": "Nov 25",
+          "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1773855684/eoqhyopcp8zyqnlsbsya.jpg",
+          "icon": "https://about.gitlab.com/images/ico/favicon-192x192.png",
+          "domain": "about.gitlab.com",
+          "hn": null,
+          "score": 2.763,
+          "coverage": 1
+        },
+        {
+          "title": "🚀 The story behind “Drone 2”: My KubeCon + CloudNativeCon North America 2026 keynote",
+          "link": "https://www.cncf.io/blog/2026/11/25/%f0%9f%9a%80-the-story-behind-drone-2-my-kubecon-cloudnativecon-north-america-2026-keynote/",
+          "excerpt": "An open source adventure featuring Kubernetes, agent-substrate, kagent, AI agents, drones, and more! Just 30 seconds before going live for the KubeCon + CloudNativeCon NA 2026 closing keynote, “Cloud Native Without Limits: What Can AI Agents...",
+          "source": "Blog – Cloud Native Computing Foundation",
+          "date": "Nov 25",
+          "image": "https://www.cncf.io/wp-content/uploads/2026/11/OpeningImage.jpg",
+          "icon": null,
+          "domain": "cncf.io",
+          "hn": null,
+          "score": 3.519,
+          "coverage": 1
+        },
+        {
+          "title": "Introducing Search for Agents",
+          "link": "https://blog.cloudflare.com/search-for-agents/",
+          "excerpt": "Flip one toggle to make your site searchable by AI agents — complete with automatic content indexing, a discoverable search API, and native HTTP QUERY support.",
+          "source": "Cloudflare Blog",
+          "date": "Nov 25",
+          "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M87EH6J3AHBJGMX9NR8JGR2V.png",
+          "icon": null,
+          "domain": "blog.cloudflare.com",
+          "hn": null,
+          "score": 4.909,
+          "coverage": 1
+        },
         {
           "title": "Presentation: Learning Out Loud (Under Near-Existential Pressure)",
           "link": "https://www.infoq.com/presentations/ai-engineering-culture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -616,46 +706,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 3.648,
-          "coverage": 1
-        },
-        {
-          "title": "AWS Weekly Roundup: Local Zone in Bogotá, 30-minute Lambda timeout, and more (November 24, 2026)",
-          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-local-zone-in-bogota-30-minute-lambda-timeout-and-more-november-24-2026/",
-          "excerpt": "Some limits shape architecture more than any feature does. AWS Lambda launched in 2014 with a 60-second timeout, moved to 5 minutes in 2015 and to 15 minutes in 2018, and then stayed there for eight years. Last week the limit doubled, and in the same week Lambda learned to run on GPUs and gave […]",
-          "source": "AWS News Blog",
-          "date": "Nov 24",
-          "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png",
-          "icon": "https://a0.awsstatic.com/main/images/site/touch-icon-iphone-114-smile.png",
-          "domain": "aws.amazon.com",
-          "hn": null,
-          "score": 0.284,
-          "coverage": 1
-        },
-        {
-          "title": "Introducing context-aware rules for AWS Network Firewall",
-          "link": "https://aws.amazon.com/blogs/security/introducing-context-aware-rules-for-aws-network-firewall/",
-          "excerpt": "AWS Network Firewall now supports context-aware rules, which match traffic by the AWS resources that send and receive it instead of by IP address. A rule can name a virtual private cloud (VPC), a subnet, a security group, or a transit gateway attachment. Rules that match on IP addresses have to…",
-          "source": "AWS Security Blog",
-          "date": "Nov 25",
-          "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/25/4026-figure-1-full.png",
-          "icon": null,
-          "domain": "aws.amazon.com",
-          "hn": null,
-          "score": 0.511,
-          "coverage": 1
-        },
-        {
-          "title": "Introducing AWS Network Firewall Next Generation policy",
-          "link": "https://aws.amazon.com/blogs/security/introducing-aws-network-firewall-next-generation-policy/",
-          "excerpt": "When it comes to inspecting network traffic, many security teams want two things from a firewall. They want to allow only the traffic each application needs, and they want each allowed connection checked for known threats. Today, you can do both with AWS Network Firewall, a stateful, managed…",
-          "source": "AWS Security Blog",
-          "date": "Nov 25",
-          "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/24/figure-1-v2-fig1-classic-vs-nextgen-engines-r12.png",
-          "icon": null,
-          "domain": "aws.amazon.com",
-          "hn": null,
-          "score": 0.508,
+          "score": 2.824,
           "coverage": 1
         },
         {
@@ -686,7 +737,7 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 2.345,
+          "score": 2.058,
           "coverage": 1
         },
         {
@@ -699,24 +750,63 @@
           "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
           "domain": "techcrunch.com",
           "hn": null,
-          "score": 2.05,
+          "score": 1.799,
           "coverage": 1
         },
         {
-          "title": "Taking over US Treasury subdomains for $3 each",
-          "link": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
-          "excerpt": "We took over five US Treasury subdomains for about $3 each by cycling through AWS Elastic IPs. Here’s how it works, and what to check in your own DNS.",
-          "source": "intruder.io via Hacker News",
+          "title": "Amazon is reportedly in talks to end Muse AI shopping block",
+          "link": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+          "excerpt": "Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center on the kinds of products the AI agent recommends and the potential impact on the ecommerce giant's…",
+          "source": "The Verge",
           "date": "Nov 25",
-          "image": "https://cdn.prod.website-files.com/61dd9339d05701829d0b3241/6afdc01d62cd6e97b94540b6_Elastic%20IP%20adresses%20(1).jpg",
-          "icon": "https://cdn.prod.website-files.com/61dd9339d05701b1440b323d/61dd9339d0570119050b32d6_256.png",
-          "domain": "intruder.io",
-          "hn": "99 points · 19 comments",
-          "score": 2.344,
-          "coverage": 1
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&strip=all&crop=0,0,100,100",
+          "icon": null,
+          "domain": "theverge.com",
+          "hn": null,
+          "score": 6.417,
+          "coverage": 2
         }
       ],
       "more": [
+        {
+          "title": "U.S. jury convicts Huawei of fraud, Iran sanctions violations",
+          "link": "https://www.upi.com/Top_News/US/2026/11/25/jury-convicts-Huawei/3151795587204/",
+          "excerpt": "A federal jury in New York City has convicted Chinese tech giant Huawei and three of its subsidiaries on a range of charges, from conspiring to steal U.S. trade secrets to violating U.S. sanctions on Iran.&nbsp;",
+          "source": "upi.com via Hacker News",
+          "date": "Nov 25",
+          "image": "https://cdnph.upi.com/sv/ph/og/upi/3151795587204/2026/1/bd7ad34c755969b021dbce19da6c51b5/v1.5/US-jury-convicts-Huawei-of-fraud-Iran-sanctions-violations.jpg",
+          "icon": "https://www.upi.com/favico.png",
+          "domain": "upi.com",
+          "hn": "27 points · 11 comments",
+          "score": 2.777,
+          "coverage": 1
+        },
+        {
+          "title": "Google Releases Cogentic Papers on Integer Factorization, Discrete Logs and More",
+          "link": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+          "excerpt": "Google Research. Contribute to google-research/google-research development by creating an account on GitHub.",
+          "source": "github.com via Hacker News",
+          "date": "Nov 25",
+          "image": "https://opengraph.githubassets.com/b492d325919fff696a305544198edaa397282d8fe24301ddb2c0cae6d788955c/google-research/google-research",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "104 points · 46 comments",
+          "score": 3.447,
+          "coverage": 1
+        },
+        {
+          "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+          "link": "https://github.com/xoxorwr/pw-loudness-eq",
+          "excerpt": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire - xoxorwr/pw-loudness-eq",
+          "source": "github.com via Hacker News",
+          "date": "Nov 25",
+          "image": "https://opengraph.githubassets.com/0d69538e5ba5ce3f876b0af2307af284bd4eef45eca16d7d2536ced95dd402cb/xoxorwr/pw-loudness-eq",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "149 points · 83 comments",
+          "score": 3.228,
+          "coverage": 1
+        },
         {
           "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
           "link": "https://gpu-demo-gallery.pages.dev/",
@@ -726,60 +816,8 @@
           "image": null,
           "icon": "https://gpu-demo-gallery.pages.dev/favicon.ico",
           "domain": "gpu-demo-gallery.pages.dev",
-          "hn": "148 points · 37 comments",
-          "score": 2.541,
-          "coverage": 1
-        },
-        {
-          "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
-          "link": "https://www.marginalia.nu/log/a_141_marginalia_update/",
-          "excerpt": "Title possibly signs checks the article doesnât have backing for. This is just a brief pro forma project update. Not much new functionality or anything to announce, last few months have mostly been bug fixes and technical debt cleanup. Most big parts of the search engine are in place, and while…",
-          "source": "marginalia.nu via Hacker News",
-          "date": "Nov 25",
-          "image": null,
-          "icon": "https://www.marginalia.nu/favicon.ico",
-          "domain": "marginalia.nu",
-          "hn": "129 points · 55 comments",
-          "score": 2.443,
-          "coverage": 1
-        },
-        {
-          "title": "A faster algorithm for extracting hexadecimal digits of π",
-          "link": "https://www.stylewarning.com/posts/faster-digit-extraction/",
-          "excerpt": "a personal blog",
-          "source": "stylewarning.com via Hacker News",
-          "date": "Nov 25",
-          "image": null,
-          "icon": "https://www.stylewarning.com/favicon.ico",
-          "domain": "stylewarning.com",
-          "hn": "43 points · 2 comments",
-          "score": 1.846,
-          "coverage": 1
-        },
-        {
-          "title": "Serving Qwen via AWS Lambdas for fun and 80x negative profit",
-          "link": "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
-          "excerpt": "I was curious if it was possible to run inference on self-hosted models using Lambdas. In this case I was very wrong, but it was a good lesson!",
-          "source": "noahbuilt.it via Hacker News",
-          "date": "Nov 25",
-          "image": "https://noahbuilt.it/og-lambda-layers.jpg",
-          "icon": "https://noahbuilt.it/apple-touch-icon.png",
-          "domain": "noahbuilt.it",
-          "hn": "77 points · 11 comments",
-          "score": 2.11,
-          "coverage": 1
-        },
-        {
-          "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
-          "link": "https://buttons.joshwcomeau.com/",
-          "excerpt": "A free collection of 50+ professionally-recorded multi-sampled clicks and toggles. Distributed via NPM.",
-          "source": "buttons.joshwcomeau.com via Hacker News",
-          "date": "Nov 25",
-          "image": "https://buttons.joshwcomeau.com/og-button-sounds.png",
-          "icon": "https://buttons.joshwcomeau.com/favicon.png",
-          "domain": "buttons.joshwcomeau.com",
-          "hn": "415 points · 59 comments",
-          "score": 2.77,
+          "hn": "229 points · 50 comments",
+          "score": 2.279,
           "coverage": 1
         }
       ]
