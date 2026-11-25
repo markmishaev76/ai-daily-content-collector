@@ -1,0 +1,768 @@
+{
+  "date": "2026-11-25",
+  "lead": {
+    "title": "GPT 6.2 Astra Solves a Historical Mystery",
+    "link": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+    "excerpt": "GPT 6.2 Astra Solves a Historical Mystery Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries: With only minimal prompting, GPT-6.2 Astra was able to autonomously identify the creator of an anonymous 1808 sketchbook held at Yale’s…",
+    "source": "Simon Willison",
+    "date": "Nov 24",
+    "image": null,
+    "image_credit": null,
+    "section": "AI-Assisted Engineering",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "2 sources",
+      "AI-Assisted Engineering",
+      "under 1h ago"
+    ],
+    "also": [
+      {
+        "name": "generativehistory.substack.com",
+        "link": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical"
+      }
+    ]
+  },
+  "pulse": [
+    {
+      "title": "LLM agents work for their parent companies, not for you",
+      "thread": "https://news.ycombinator.com/item?id=50627340",
+      "link": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+      "link_domain": "michaelharley.net",
+      "source": "Hacker News",
+      "domain": "michaelharley.net",
+      "meta": "Hacker News · 914 points · 386 comments · 13h ago",
+      "also": [],
+      "image": "https://michaelharley.net/assets/images/open-graph-image.png",
+      "icon": "https://michaelharley.net/assets/favicons/apple-touch-icon.png"
+    },
+    {
+      "title": "Anthropic breaks below $83 IPO price",
+      "thread": "https://news.ycombinator.com/item?id=50627836",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+      "link_domain": "bloomberg.com",
+      "source": "Hacker News",
+      "domain": "bloomberg.com",
+      "meta": "Hacker News · 353 points · 692 comments · 12h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.bloomberg.com/favicon.ico"
+    },
+    {
+      "title": "Tidal bans AI-generated music",
+      "thread": "https://news.ycombinator.com/item?id=50630309",
+      "link": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+      "link_domain": "variety.com",
+      "source": "Hacker News",
+      "domain": "variety.com",
+      "meta": "Hacker News · 318 points · 304 comments · 9h ago",
+      "also": [],
+      "image": "https://variety.com/wp-content/uploads/2023/12/Tidal.png?w=679&h=382&crop=1",
+      "icon": "https://variety.com/wp-content/themes/pmc-variety-2020/assets/app/icons/apple-touch-icon.png"
+    },
+    {
+      "title": "Security incident on Hex.pm",
+      "thread": "https://lobste.rs/s/rfcgkx/security_incident_on_hex_pm",
+      "link": "https://hex.pm/blog/security-incident-on-hexpm",
+      "link_domain": "hex.pm",
+      "source": "Lobsters",
+      "domain": "hex.pm",
+      "meta": "Lobsters · 47 points · 5 comments · 11h ago",
+      "also": [],
+      "image": "https://hex.pm/images/favicon-160-3770bc59f1f8ba7656b4db5a1eacd8e3.png?vsn=d",
+      "icon": "https://hex.pm/images/hex-full-a8183c4f9adac71516516d107d402b18.svg?vsn=d"
+    },
+    {
+      "title": "Active intrusion campaign against Check Point security management servers",
+      "thread": "https://news.ycombinator.com/item?id=50630594",
+      "link": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+      "link_domain": "greynoise.io",
+      "source": "Hacker News",
+      "domain": "greynoise.io",
+      "meta": "Hacker News · 266 points · 127 comments · 9h ago",
+      "also": [],
+      "image": "https://cdn.prod.website-files.com/667dd40ebb8095e89f27565d/6b00b96c7176ac8c286ffb00_GreyNoise-Blog-Check-Point-1600x900.png",
+      "icon": "https://cdn.prod.website-files.com/625f93b2923b4f2b1f2e7b64/625f93b2923b4f7fb02e7c32_gn_favicon_256.png"
+    },
+    {
+      "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
+      "thread": "https://news.ycombinator.com/item?id=50630809",
+      "link": null,
+      "link_domain": "",
+      "source": "Hacker News",
+      "domain": "Hacker News",
+      "meta": "Hacker News · 227 points · 165 comments · 9h ago",
+      "also": [],
+      "image": null,
+      "icon": null
+    },
+    {
+      "title": "Microsoft declares 'Code Red' after historic outage, internal memos show",
+      "thread": "https://news.ycombinator.com/item?id=50631157",
+      "link": "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/",
+      "link_domain": "reuters.com",
+      "source": "Hacker News",
+      "domain": "reuters.com",
+      "meta": "Hacker News · 223 points · 199 comments · 8h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.reuters.com/favicon.ico"
+    },
+    {
+      "title": "Anthropic Staff Openly Talk About ‘Taking Over the World’, Claims Max Tegmark",
+      "thread": "https://news.ycombinator.com/item?id=50631210",
+      "link": "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist/",
+      "link_domain": "novaramedia.com",
+      "source": "Hacker News",
+      "domain": "novaramedia.com",
+      "meta": "Hacker News · 200 points · 104 comments · 8h ago",
+      "also": [],
+      "image": "https://novaramedia.com/wp-content/uploads/2026/11/Screenshot-2026-11-24-at-2.42.06-pm-e1795535439679-1200x630.png",
+      "icon": "https://novaramedia.com/wp-content/themes/novaramedia-com/dist/img/apple-touch-icon.png"
+    },
+    {
+      "title": "Anthropic is below its IPO price",
+      "thread": "https://news.ycombinator.com/item?id=50628932",
+      "link": "https://www.msn.com/en-us/money/top-stocks/anthropic-stock-sinks-below-ipo-price-why-that-s-happened-so-fast/ar-AA2i7rqa",
+      "link_domain": "msn.com",
+      "source": "Hacker News",
+      "domain": "msn.com",
+      "meta": "Hacker News · 128 points · 3 comments · 11h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://www.msn.com/favicon.ico"
+    },
+    {
+      "title": "Declare is a UI language for you and your AI",
+      "thread": "https://news.ycombinator.com/item?id=50622854",
+      "link": "https://davidtemkin.github.io/declarelang/",
+      "link_domain": "davidtemkin.github.io",
+      "source": "Hacker News",
+      "domain": "davidtemkin.github.io",
+      "meta": "Hacker News · 105 points · 92 comments · 23h ago",
+      "also": [],
+      "image": "https://davidtemkin.github.io/declarelang/assets/og-image.png",
+      "icon": "https://davidtemkin.github.io/declarelang/assets/apple-touch-icon.png"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI-Assisted Engineering",
+      "cards": [
+        {
+          "title": "Three LLM inflection points in twelve months",
+          "link": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+          "excerpt": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months. Here's the video of the talk. In this post I'm going to pull out the…",
+          "source": "Simon Willison",
+          "date": "Nov 24",
+          "image": "https://static.simonwillison.net/static/2026/fable-class.webp",
+          "icon": null,
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 7.37,
+          "coverage": 1
+        },
+        {
+          "title": "Interpreting a recent acceleration in pretraining loss",
+          "link": "https://metr.org/blog/2026-11-24-interpreting-a-recent-acceleration-in-pretraining-loss/",
+          "excerpt": "OpenAI recently published the base-model log-perplexity of 13 models it has trained since GPT-3.5, measured on a fixed held-out dataset sourced from its own codebase. It shows a very striking acceleration in pretraining loss: since early 2026, it has been falling about seven times faster than it…",
+          "source": "METR",
+          "date": "Nov 24",
+          "image": "https://metr.org/assets/images/pretraining-loss-acceleration/logloss_hinge.png",
+          "icon": null,
+          "domain": "metr.org",
+          "hn": null,
+          "score": 3.375,
+          "coverage": 1
+        },
+        {
+          "title": "Abolish Lock Poisoning",
+          "link": "https://lucumr.pocoo.org/2026/11/25/poisoning/",
+          "excerpt": "Rust has a curious feature that I don’t think the language would land today, if it was not there for a long time: mutex poisoning. When some Rust code panics while holding a std::sync::Mutex, the mutex is poisoned. That means that any further call to lock() returns a PoisonError. The motivation…",
+          "source": "Armin Ronacher",
+          "date": "Nov 25",
+          "image": "https://lucumr.pocoo.org/social/2026-11-25-poisoning-social.png",
+          "icon": "https://lucumr.pocoo.org/static/avatar-small.jpg",
+          "domain": "lucumr.pocoo.org",
+          "hn": null,
+          "score": 1.276,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "The Pragmatic Engineer Essay Challenge: Category Winners (Part 1)",
+          "link": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-essay-challenge",
+          "excerpt": "How is AI changing the way we build software? Excerpts from three category winners of our recent essay contest, with links to 40 more by software engineers and experts",
+          "source": "The Pragmatic Engineer",
+          "date": "Nov 24",
+          "image": "https://substackcdn.com/image/fetch/$s_!nbv5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F710bc15b-efad-4643-bb7d-fd4748f219ff_1672x941.png",
+          "icon": null,
+          "domain": "newsletter.pragmaticengineer.com",
+          "hn": null,
+          "score": 0.956,
+          "coverage": 1
+        },
+        {
+          "title": "Idempotency when you don't control the other end",
+          "link": "https://stackoverflow.blog/2026/11/24/idempotency-when-you-don-t-control-the-other-end/",
+          "excerpt": "Founded in 2008, Stack Overflow’s public platform is used by nearly everyone who codes to learn, share their knowledge, collaborate, and build their careers.",
+          "source": "Stack Overflow Blog",
+          "date": "Nov 24",
+          "image": null,
+          "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+          "domain": "stackoverflow.blog",
+          "hn": null,
+          "score": 0.854,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "AI Agents & Agent Security",
+      "cards": [
+        {
+          "title": "Clay helps sales teams win with Codex and ChatGPT",
+          "link": "https://openai.com/business/customer-stories/clay-plugins-openai",
+          "excerpt": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+          "source": "OpenAI News",
+          "date": "Nov 24",
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/24rUSNlLR8iXQysKA6dq12/38954f25812d30bf772691824f747b84/clay-seo-1920.png?w=1600&h=900&fit=fill",
+          "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 2.604,
+          "coverage": 1
+        },
+        {
+          "title": "Searching for distant planets with Astra",
+          "link": "https://openai.com/index/searching-for-distant-planets-with-astra",
+          "excerpt": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+          "source": "OpenAI News",
+          "date": "Nov 24",
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/318YLaAKlMKQFzOdMutjeX/8b6e4e516fd1a7894c97318838f43a0f/searching-for-distant-planets-with-astra-social.png?w=1600&h=900&fit=fill",
+          "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 2.308,
+          "coverage": 1
+        },
+        {
+          "title": "Matrix Multiplication is O(n^2.25) [pdf]",
+          "link": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+          "excerpt": "Contribute to openai/math development by creating an account on GitHub.",
+          "source": "github.com via Hacker News",
+          "date": "Nov 25",
+          "image": "https://opengraph.githubassets.com/edadf215e4c8cee8f3b2bde7ba7e7857b9a4889f7dea1d0ffd2936faedf4ad49/openai/math",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "49 points · 9 comments",
+          "score": 5.038,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
+          "link": "https://news.ycombinator.com/item?id=50634426",
+          "excerpt": "69 points · 51 comments",
+          "source": "Hacker News",
+          "date": "Nov 24",
+          "image": null,
+          "icon": null,
+          "domain": "news.ycombinator.com",
+          "hn": "69 points · 51 comments",
+          "score": 7.981,
+          "coverage": 1
+        },
+        {
+          "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+          "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+          "excerpt": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+          "source": "OpenAI News",
+          "date": "Nov 24",
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/Eg5mCwwaA3KqnznOVCh0n/8e6deaef25fd508d9853ff86a95187c1/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities-social.png?w=1600&h=900&fit=fill",
+          "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 6.997,
+          "coverage": 1
+        },
+        {
+          "title": "How Intentful uses dots to make more time for growth",
+          "link": "https://openai.com/business/customer-stories/intentful-dots",
+          "excerpt": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+          "source": "OpenAI News",
+          "date": "Nov 24",
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/2DH2aby1xmlzvADCraI7Xi/bbe8b8956578492f2c3fd7326ecbd9e1/intentful-dots-social-c.png?w=1600&h=900&fit=fill",
+          "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.394,
+          "coverage": 1
+        },
+        {
+          "title": "How iFood scales coding agents across 15,000 repositories",
+          "link": "https://openai.com/business/customer-stories/ifood",
+          "excerpt": "",
+          "source": "OpenAI News",
+          "date": "Nov 24",
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/4Ts7RsLLSU4iEOxQwBkGgg/cbf56c075004a9ae2c41af4d5f7b428b/ifood-customer-story-social.png?w=1600&h=900&fit=fill",
+          "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
+          "domain": "openai.com",
+          "hn": null,
+          "score": 0.394,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Leadership",
+      "cards": [
+        {
+          "title": "The AI readiness gap",
+          "link": "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/the-ai-readiness-gap",
+          "excerpt": "Employees are ready for the AI transition. What’s preventing leaders from turning that readiness into results?",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 24",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.394,
+          "coverage": 1
+        },
+        {
+          "title": "Regaining the competitiveness of Europe’s industrials the European way",
+          "link": "https://www.mckinsey.com/industries/industrials/our-insights/regaining-the-competitiveness-of-europes-industrials-the-european-way",
+          "excerpt": "Our research shows that 45 percent of European industrial companies exhibit heightened levels of financial stress or even distress. Six proven turnaround approaches show how companies can respond.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 24",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.394,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Agent Identity & Authorization",
+      "cards": [
+        {
+          "title": "Scaling events and webhooks: from sync to async, in order",
+          "link": "https://workos.com/blog/events-webhooks-sync-to-async-in-order",
+          "excerpt": "Why event ordering is easy in one database and hard across two, and the trade-offs we made at WorkOS to keep ordering when event capture went asynchronous.",
+          "source": "WorkOS Blog",
+          "date": "Nov 24",
+          "image": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/6b05e8d99f93e6b44486d0d1_events-webhooks-sync-to-async-in-order-og.webp",
+          "icon": "https://cdn.prod.website-files.com/621f54116cab10f6e9215d8b/621f549024eb2947f6f2f7f7_Favicon%20256x256.png",
+          "domain": "workos.com",
+          "hn": null,
+          "score": 0.653,
+          "coverage": 1
+        },
+        {
+          "title": "More Ways to Scale: New Add-Ons Come to Auth0 Self-Service Enterprise",
+          "link": "https://auth0.com/blog/new-add-ons-self-service-enterprise/",
+          "excerpt": "Self-Service Enterprise now supports M2M and SSO add-ons",
+          "source": "Auth0 Blog",
+          "date": "Nov 24",
+          "image": "https://images.ctfassets.net/23aumh6u8s0i/2PGbhMrEBHXX0cl7fUeXL1/b147a381530be02136ec2a8283a7a2e6/Self-Service-Enterprise-Add-Ons.png",
+          "icon": null,
+          "domain": "auth0.com",
+          "hn": null,
+          "score": 0.806,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Secrets & NHI",
+      "cards": [
+        {
+          "title": "ARTEX and the Shrinking Window Between Credential Theft and Credential Abuse",
+          "link": "https://aembit.io/blog/artex-and-the-shrinking-window-between-credential-theft-and-credential-abuse/",
+          "excerpt": "3 min readFive minutes is not much of an incident-response window. That is roughly how long Microsoft says it took an ARTEX-powered agent to move from credentials exposed in a public GitHub repository to data inside Azure Key Vault. The agent found the secrets, tested the access they provided, and…",
+          "source": "Aembit",
+          "date": "Nov 24",
+          "image": "https://aembit.io/wp-content/uploads/2026/11/Agent-Swarm.jpg",
+          "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
+          "domain": "aembit.io",
+          "hn": null,
+          "score": 3.185,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Supply Chain & Builds",
+      "cards": [
+        {
+          "title": "Project Theseus: Thwart removes template injection from Java web apps",
+          "link": "https://www.chainguard.dev/unchained/project-theseus-thwart-removes-template-injection-from-java-web-apps",
+          "excerpt": "Chainguard introduces Thwart, a Java template engine that eliminates server-side template injection by design and simplifies migration with AI agents.",
+          "source": "Chainguard: Unchained",
+          "date": "Nov 24",
+          "image": "https://images.ctfassets.net/l47ir7rfykkn/60OL1Iz7WvC15nlkyUdvMl/4317b1c2144dee28ccec06236e758386/Project_Theseus_-_Introducing_Thwart.png",
+          "icon": "https://www.chainguard.dev/favicon.ico",
+          "domain": "chainguard.dev",
+          "hn": null,
+          "score": 1.777,
+          "coverage": 1
+        },
+        {
+          "title": "Establishing the OpenSSF Japan Working Group: Connecting Japan with the Global Community 和訳日本とグローバルをつなぐOpenSSF Japan Working Groupの設立",
+          "link": "https://openssf.org/blog/2026/11/24/establishing-the-openssf-japan-working-group-connecting-japan-with-the-global-community-%e5%92%8c%e8%a8%b3%e6%97%a5%e6%9c%ac%e3%81%a8%e3%82%b0%e3%83%ad%e3%83%bc%e3%83%90%e3%83%ab%e3%82%92%e3%81%a4/",
+          "excerpt": "We are pleased to announce the establishment of the OpenSSF Japan Working Group (Japan WG), which will serve as a two-way bridge between stakeholders in Japan and the global OpenSSF community.",
+          "source": "Open Source Security Foundation",
+          "date": "Nov 24",
+          "image": "https://openssf.org/wp-content/uploads/2026/11/Screenshot-2026-11-24-at-2.30.01-PM-300x300.png",
+          "icon": null,
+          "domain": "openssf.org",
+          "hn": null,
+          "score": 0.812,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says",
+          "link": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
+          "excerpt": "It was not clear what specific information was compromised or who was responsible.",
+          "source": "SecurityWeek",
+          "date": "Nov 24",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/CIA_Hacked.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 8.133,
+          "coverage": 2
+        },
+        {
+          "title": "VMware Updates Patch Critical ESX, vCenter Vulnerabilities",
+          "link": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
+          "excerpt": "The critical bugs include an authentication bypass in vCenter and flaws that could allow code execution on ESX hosts.",
+          "source": "SecurityWeek",
+          "date": "Nov 24",
+          "image": "https://www.securityweek.com/wp-content/uploads/2022/08/VMWare.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.334,
+          "coverage": 1
+        },
+        {
+          "title": "European Commission Uncovers Data Breach in Cyberattack Investigation",
+          "link": "https://www.securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation/",
+          "excerpt": "Names and email addresses of EU Academy users were exposed in the AI-assisted cyberattack the European Commission detected in October.",
+          "source": "SecurityWeek",
+          "date": "Nov 24",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/06/EU-Europe-European-Union-.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 3.403,
+          "coverage": 2
+        }
+      ],
+      "more": [
+        {
+          "title": "Check Point Security Management Servers Hacked in AI-Assisted Campaign",
+          "link": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
+          "excerpt": "The attacks were launched from 99 IP addresses and targeted organizations across multiple industries and countries.",
+          "source": "SecurityWeek",
+          "date": "Nov 24",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/10/cyberattack-vulnerability-exploited.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 2.123,
+          "coverage": 1
+        },
+        {
+          "title": "Anthropic Expands Enterprise Safeguards for Detecting AI Misuse",
+          "link": "https://www.securityweek.com/anthropic-expands-enterprise-safeguards-for-detecting-ai-misuse/",
+          "excerpt": "EFS helps zero-retention customers spot Claude misuse spread across many requests while keeping conversation data in their own cloud.",
+          "source": "SecurityWeek",
+          "date": "Nov 24",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Anthropic-Claude.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.293,
+          "coverage": 1
+        },
+        {
+          "title": "Rackspace shuts down Spot cloud platform after security breach",
+          "link": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
+          "excerpt": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and download their data. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 24",
+          "image": "https://www.bleepstatic.com/content/hl-images/2022/12/09/Rackspace.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 3.058,
+          "coverage": 1
+        },
+        {
+          "title": "New Inception extortion gang launches large-scale vishing campaign",
+          "link": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
+          "excerpt": "A newly formed data extortion group named 'Inception' has been linked to a large-scale campaign that targets single sign-on (SSO) credentials of multiple global brands and firms. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 24",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/24/inception.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.406,
+          "coverage": 1
+        },
+        {
+          "title": "Turnitin discloses cyberattack affecting customer-facing systems",
+          "link": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
+          "excerpt": "Turnitin disclosed via a statement from its CEO, Chris Caren, that it recently detected unauthorized activity involving certain customer-facing systems. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 24",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/24/turnitin.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.377,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "Delegate user access to AI agents with Amazon Cognito token exchange",
+          "link": "https://aws.amazon.com/blogs/security/delegate-user-access-to-ai-agents-with-amazon-cognito-token-exchange/",
+          "excerpt": "Suppose you use a restaurant review app to check reviews, book tables, and email invitations to your friends. With OAuth 2.0, the app sends you to the authorization server that your email provider trusts, where you sign in and approve only the access the app requested, such as the contacts.read…",
+          "source": "AWS Security Blog",
+          "date": "Nov 24",
+          "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/24/figure-1-second-hop.png",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 5.707,
+          "coverage": 1
+        },
+        {
+          "title": "Ephyra: A new agentic property-based testing library to find the bugs you missed",
+          "link": "https://www.datadoghq.com/blog/ai/agentic-property-based-testing-with-ephyra/",
+          "excerpt": "Learn how Datadog built Ephyra, an open source property-based testing library for coding agents, and used it to find 535 previously unknown bugs across 26 systems.",
+          "source": "Datadog | The Monitor blog",
+          "date": "Nov 24",
+          "image": "https://web-assets.dd-static.net/42588/1794344107-hero-ephyra.jpeg",
+          "icon": "https://www.datadoghq.com/favicon.ico",
+          "domain": "datadoghq.com",
+          "hn": null,
+          "score": 1.562,
+          "coverage": 1
+        },
+        {
+          "title": "AWS Weekly Roundup: Local Zone in Bogotá, 30-minute Lambda timeout, and more (November 24, 2026)",
+          "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-local-zone-in-bogota-30-minute-lambda-timeout-and-more-november-24-2026/",
+          "excerpt": "Some limits shape architecture more than any feature does. AWS Lambda launched in 2014 with a 60-second timeout, moved to 5 minutes in 2015 and to 15 minutes in 2018, and then stayed there for eight years. Last week the limit doubled, and in the same week Lambda learned to run on GPUs and gave […]",
+          "source": "AWS News Blog",
+          "date": "Nov 24",
+          "image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2023/08/13/AWS-WIR-default.png",
+          "icon": "https://a0.awsstatic.com/main/images/site/touch-icon-iphone-114-smile.png",
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 0.401,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Introducing context-aware rules for AWS Network Firewall",
+          "link": "https://aws.amazon.com/blogs/security/introducing-context-aware-rules-for-aws-network-firewall/",
+          "excerpt": "AWS Network Firewall now supports context-aware rules, which match traffic by the AWS resources that send and receive it instead of by IP address. A rule can name a virtual private cloud (VPC), a subnet, a security group, or a transit gateway attachment. Rules that match on IP addresses have to…",
+          "source": "AWS Security Blog",
+          "date": "Nov 25",
+          "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/25/4026-figure-1-full.png",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 0.88,
+          "coverage": 1
+        },
+        {
+          "title": "Introducing AWS Network Firewall Next Generation policy",
+          "link": "https://aws.amazon.com/blogs/security/introducing-aws-network-firewall-next-generation-policy/",
+          "excerpt": "When it comes to inspecting network traffic, many security teams want two things from a firewall. They want to allow only the traffic each application needs, and they want each allowed connection checked for known threats. Today, you can do both with AWS Network Firewall, a stateful, managed…",
+          "source": "AWS Security Blog",
+          "date": "Nov 25",
+          "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/24/figure-1-v2-fig1-classic-vs-nextgen-engines-r12.png",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 0.871,
+          "coverage": 1
+        },
+        {
+          "title": "AWS Network Firewall introduces automated internet firewall mode (Preview)",
+          "link": "https://aws.amazon.com/blogs/security/aws-network-firewall-introduces-automated-internet-firewall-mode-preview/",
+          "excerpt": "AWS Network Firewall now offers automated internet firewall mode (Preview). In this mode, Network Firewall applies your centrally defined rules to traffic at the internet gateway of each of your virtual private clouds (VPCs). It also performs built-in network address translation (NAT) for…",
+          "source": "AWS Security Blog",
+          "date": "Nov 24",
+          "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/24/aif-fig1-r25-r30.png",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 0.678,
+          "coverage": 1
+        },
+        {
+          "title": "AWS completed its second ISO/IEC 42001:2023 surveillance audit",
+          "link": "https://aws.amazon.com/blogs/security/aws-completed-its-second-iso-iec-420012023-surveillance-audit/",
+          "excerpt": "In November 2024, Amazon Web Services (AWS) was the first major cloud service provider to announce the ISO/IEC 42001 accredited certification for AI services, covering Amazon Bedrock, Amazon Q Business, Amazon Textract, and Amazon Transcribe. In November 2026, AWS successfully completed its second…",
+          "source": "AWS Security Blog",
+          "date": "Nov 24",
+          "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/23/Basit-Janjua.jpg",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 0.575,
+          "coverage": 1
+        },
+        {
+          "title": "From Files to Cited Answers in One API Call: Managed Ingestion and SearchDocuments in Agent Retrieval",
+          "link": "https://developers.googleblog.com/from-files-to-cited-answers-in-one-api-call-managed-ingestion-and-searchdocuments-in-agent-retrieval/",
+          "excerpt": "Agent Retrieval in Vertex AI introduces managed ingestion and SearchDocuments to replace custom chunking and embedding pipelines. Developers can now import document and video files directly from Cloud Storage and query them with a single API call for cited page numbers and timestamped results. The…",
+          "source": "Google Developers Blog",
+          "date": null,
+          "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_en_1600x900.2e16d0ba.fill-1200x600.jpg",
+          "icon": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/meta/apple-touch-icon.png",
+          "domain": "developers.googleblog.com",
+          "hn": null,
+          "score": 0.25,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+          "link": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+          "excerpt": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
+          "source": "TechCrunch",
+          "date": "Nov 24",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/muse-walmart.png?w=1200",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
+          "hn": null,
+          "score": 3.652,
+          "coverage": 1
+        },
+        {
+          "title": "Even the best AI agents struggle with everyday life",
+          "link": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+          "excerpt": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+          "source": "TechCrunch",
+          "date": "Nov 24",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2296543552.jpg?w=1024",
+          "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+          "domain": "techcrunch.com",
+          "hn": null,
+          "score": 3.194,
+          "coverage": 1
+        },
+        {
+          "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+          "link": "https://greydanus.github.io/2026/11/12/pengpt/",
+          "excerpt": "A small transformer that writes and sketches from text. The effort was 80% data, 15% speed and 5% architecture: my first project that follows the Bitter Lesson.",
+          "source": "greydanus.github.io via Hacker News",
+          "date": "Nov 25",
+          "image": "https://greydanus.github.io/assets/pengpt/thumbnail.png",
+          "icon": "https://greydanus.github.io/favicon.ico",
+          "domain": "greydanus.github.io",
+          "hn": "15 points · 1 comments",
+          "score": 2.177,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Here in the World: Letters of Albert Camus, 1944–1959",
+          "link": "https://literaryreview.co.uk/here-in-the-world",
+          "excerpt": "Joanna Kavenna: Here in the World - Letters: 1944–1959 by Albert Camus & Maria Casarès (Edited by Béatrice Vaillant, translated from French by Sandra Smith & Cory Stockwell)",
+          "source": "literaryreview.co.uk via Hacker News",
+          "date": "Nov 25",
+          "image": "https://literaryreview.co.uk/wp-content/lr-files/2026/10/November-26_cover-600x801.jpg?1795570083",
+          "icon": "https://literaryreview.co.uk/wp-content/themes/literary-review-3.4.4/assets/images/favicon-152.png",
+          "domain": "literaryreview.co.uk",
+          "hn": "15 points · 0 comments",
+          "score": 2.092,
+          "coverage": 1
+        },
+        {
+          "title": "Heart attack and stroke risk detectable decades in advance",
+          "link": "https://www.ed.ac.uk/news/heart-attack-and-stroke-risk-detectable-decades-in-advance",
+          "excerpt": "Early warning signs could help doctors predict those at risk of a heart attack or stroke up to 30 years before an event, research suggests.",
+          "source": "ed.ac.uk via Hacker News",
+          "date": "Nov 24",
+          "image": "https://www.ed.ac.uk/sites/default/files/2026-11/GettyImages-2155990256-FluxFactory.jpg",
+          "icon": "https://www.ed.ac.uk/themes/upstream/wpp_theme/images/favicon.ico",
+          "domain": "ed.ac.uk",
+          "hn": "143 points · 57 comments",
+          "score": 2.979,
+          "coverage": 1
+        },
+        {
+          "title": "An unclassified CIA system was breached in a cyberattack",
+          "link": "https://apnews.com/article/cia-cyberattack-unclassified-system-bfa6d3b02e3b0e2779dfb613c900bd77",
+          "excerpt": "104 points · 31 comments",
+          "source": "apnews.com via Hacker News",
+          "date": "Nov 24",
+          "image": null,
+          "icon": "https://apnews.com/favicon.ico",
+          "domain": "apnews.com",
+          "hn": "104 points · 31 comments",
+          "score": 8.133,
+          "coverage": 2
+        },
+        {
+          "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+          "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+          "excerpt": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+          "source": "openai.com via Hacker News",
+          "date": "Nov 24",
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/Eg5mCwwaA3KqnznOVCh0n/8e6deaef25fd508d9853ff86a95187c1/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities-social.png?w=1600&h=900&fit=fill",
+          "icon": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
+          "domain": "openai.com",
+          "hn": "168 points · 40 comments",
+          "score": 6.997,
+          "coverage": 1
+        },
+        {
+          "title": "Ternary Bonsai 2.5 27B",
+          "link": "https://prismml.com/news/bonsai-2-5-27b",
+          "excerpt": "Ternary Bonsai 2.5 27B brings substantially stronger agentic coding, multi-turn tool use, and multi-step task execution to the same 5.9 GB footprint.",
+          "source": "prismml.com via Hacker News",
+          "date": "Nov 24",
+          "image": "https://cdn.prod.website-files.com/699604cc2b9dd89bdbda0608/6a6d0e0bc0d5f9a97a5164c0_69cc089669ab0df26e921aac_prism-og-img%2520(2).png",
+          "icon": "https://cdn.prod.website-files.com/697a3312d33c2cc715ec3899/69cc2465f1715bb4a2a56ca1_webclip.png",
+          "domain": "prismml.com",
+          "hn": "340 points · 114 comments",
+          "score": 3.056,
+          "coverage": 1
+        }
+      ]
+    }
+  ]
+}
