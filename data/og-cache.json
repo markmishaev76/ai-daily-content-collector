@@ -881,6 +881,12 @@
   "icon": null,
   "image": null
  },
+ "https://chipsandcheese.com/p/qualcomms-oryon-3-reaches-the-top": {
+  "description": "Qualcomm’s laptop effort had humble beginnings.",
+  "fetched": "2026-11-26",
+  "icon": "https://substackcdn.com/image/fetch/$s_!2gTG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6d6ceac7-3196-46ce-837d-21e5b40021ae%2Fapple-touch-icon-57x57.png",
+  "image": "https://substackcdn.com/image/fetch/$s_!mATE!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F190e658d-11f6-4bdf-a0b1-d472149e53b6_1148x878.png"
+ },
  "https://chipsandcheese.com/p/talking-zen-6-with-mike-clark-at": {
   "description": "Hello you fine Internet folks,",
   "fetched": "2026-11-12",
@@ -2686,6 +2692,12 @@
   "fetched": "2026-11-19",
   "icon": null,
   "image": "https://huggingface.co/blog/assets/moe-expert-streaming/thumbnail.png"
+ },
+ "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin": {
+  "description": "A Blog post by NVIDIA on Hugging Face",
+  "fetched": "2026-11-26",
+  "icon": null,
+  "image": "https://cdn-uploads.huggingface.co/production/uploads/6365c3f398da81987e2753f2/zArpuP9uLsLz9luMW0K2g.png"
  },
  "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance": {
   "description": "A Blog post by NVIDIA on Hugging Face",
@@ -4571,6 +4583,12 @@
   "icon": null,
   "image": null
  },
+ "https://progrium.github.io/minipg/": {
+  "description": null,
+  "fetched": "2026-11-26",
+  "icon": null,
+  "image": null
+ },
  "https://projects.freehackers.org/sylphide-os/": {
   "description": "None",
   "fetched": "2026-10-30",
@@ -5012,6 +5030,12 @@
  "https://simonwillison.net/2026/Nov/24/datasette-agent/": {
   "description": "An LLM-powered agent for Datasette",
   "fetched": "2026-11-24",
+  "icon": null,
+  "image": null
+ },
+ "https://simonwillison.net/2026/Nov/24/datasette-charts-2/": {
+  "description": "A charting plugin for Datasette",
+  "fetched": "2026-11-26",
   "icon": null,
   "image": null
  },
@@ -6083,6 +6107,12 @@
   "icon": "https://x.com/apple-touch-icon.png",
   "image": "https://pbs.twimg.com/media/HWjhsqYWMAALhKb?format=webp&name=large"
  },
+ "https://twitter.com/thsottiaux/status/2125784147889393806": {
+  "description": "We made a billing mistake at launch of GPT-6.2 that incorrectly discounted GPT-6.2 Astra and Sol usage for most users. We’ve fixed this now, so the same work will use more of your plan’s usage allowance. Comparing to last week, you will reach your limits 40% faster on GPT-6.2 Astra and 25% faster…",
+  "fetched": "2026-11-26",
+  "icon": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
+  "image": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_400x400.jpg"
+ },
  "https://twitter.com/ylecun/status/2124550037912920090": {
   "description": "Dario's spiel since GPT-2 has always been about hyping the dangers so that open models would be made illegal and *he* would stay in control. He left OpenAI because he wasn't going to have control. It's like the Ottoman Empire banning the printing press for Arabic so they would keep in control of th…",
   "fetched": "2026-11-23",
@@ -6796,6 +6826,12 @@
   "fetched": "2026-11-15",
   "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
   "image": "https://www.bleepstatic.com/content/hl-images/2026/10/28/Microsoft.jpg"
+ },
+ "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/": {
+  "description": "1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data.",
+  "fetched": "2026-11-26",
+  "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+  "image": "https://www.bleepstatic.com/content/hl-images/2023/10/23/1Password_binary.jpg"
  },
  "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/": {
   "description": "AI agents can control authenticated browsers, interact with corporate applications, and access sensitive data while appearing to act as legitimate employees. Keep Aware examines three ways agents operate inside browsers and why traditional security tools may struggle to distinguish their activity from human users.",

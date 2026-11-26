@@ -1,21 +1,27 @@
 {
   "date": "2026-11-26",
   "lead": {
-    "title": "Where scientists draw the line on AI agents",
-    "link": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
-    "excerpt": "A Blog post by Ai2 on Hugging Face",
-    "source": "Hugging Face",
-    "date": "Nov 25",
-    "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/F32BgZC_rj0kg99apJlto.png",
+    "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+    "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+    "excerpt": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets were not accessed. \"While we took immediate steps…",
+    "source": "The Hacker News",
+    "date": "Nov 26",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbu9vulg5_P2PLmwCbF5nNRu8UujJDFNLLCGackgRWjz4lmkQcAom8TerCouyPh1pF8sgBAiJTwO7qAQN3kLVd-_0e7czxqhyphenhyphenUQuSG6WyCJvoNsI92X7tl1ukE6h8QDLmQBUBJaKBCyTYXjaGMUeaczy-sTIjMvDHdQjphWmWyCsUyIG4Y7WD4J2FoQfgY/s1600/1password.jpg",
     "image_credit": null,
-    "section": "AI-Assisted Engineering",
+    "section": "Security & AppSec",
     "pinned": false,
     "note": null,
     "labels": [
-      "AI-Assisted Engineering",
-      "9h ago"
+      "2 sources",
+      "Security & AppSec",
+      "1h ago"
     ],
-    "also": []
+    "also": [
+      {
+        "name": "bleepingcomputer.com",
+        "link": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/"
+      }
+    ]
   },
   "pulse": [
     {
@@ -25,7 +31,7 @@
       "link_domain": "1password.com",
       "source": "Hacker News",
       "domain": "1password.com",
-      "meta": "Hacker News · 1.3k points · 528 comments · 10h ago",
+      "meta": "Hacker News · 1.3k points · 549 comments · 12h ago",
       "also": [
         {
           "source": "Lobsters",
@@ -42,7 +48,7 @@
       "link_domain": "marginalia.nu",
       "source": "Lobsters",
       "domain": "marginalia.nu",
-      "meta": "Lobsters · 103 points · 20 comments · 21h ago",
+      "meta": "Lobsters · 105 points · 21 comments · 23h ago",
       "also": [],
       "image": null,
       "icon": "https://www.marginalia.nu/favicon.ico"
@@ -54,7 +60,7 @@
       "link_domain": "openwall.com",
       "source": "Lobsters",
       "domain": "openwall.com",
-      "meta": "Lobsters · 54 points · 2 comments · 7h ago",
+      "meta": "Lobsters · 59 points · 2 comments · 9h ago",
       "also": [
         {
           "source": "Hacker News",
@@ -65,13 +71,25 @@
       "icon": "https://www.openwall.com/favicon.ico"
     },
     {
+      "title": "Much shorter version of GRH Lean verification from Anthropic",
+      "thread": "https://news.ycombinator.com/item?id=50648050",
+      "link": "https://github.com/lsernau/grh-lean",
+      "link_domain": "github.com",
+      "source": "Hacker News",
+      "domain": "github.com",
+      "meta": "Hacker News · 383 points · 194 comments · 8h ago",
+      "also": [],
+      "image": "https://opengraph.githubassets.com/e252b1c5c9fb76610e98b2b0d266e570b8daa9818124834cb5a1c8614d5f13a7/lsernau/grh-lean",
+      "icon": "https://github.githubassets.com/favicons/favicon.svg"
+    },
+    {
       "title": "The New York Times warns photographers not to update Photoshop over AI features",
       "thread": "https://news.ycombinator.com/item?id=50647673",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
       "link_domain": "theverge.com",
       "source": "Hacker News",
       "domain": "theverge.com",
-      "meta": "Hacker News · 256 points · 205 comments · 6h ago",
+      "meta": "Hacker News · 291 points · 260 comments · 8h ago",
       "also": [],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2289911637.jpg?quality=90&strip=all&crop=0%2C10.232235952618%2C100%2C79.535528094764&w=1200",
       "icon": "https://www.theverge.com/static-assets/icons/apple-touch-icon.png"
@@ -83,7 +101,7 @@
       "link_domain": "scottaaronson.blog",
       "source": "Lobsters",
       "domain": "scottaaronson.blog",
-      "meta": "Lobsters · 27 points · 2 comments · 6h ago",
+      "meta": "Lobsters · 32 points · 10 comments · 8h ago",
       "also": [],
       "image": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvc2NvdHRhYXJvbnNvbi5ibG9nXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8xMFwvY3JvcHBlZC1KYWNrZXQuZ2lmIiwidHh0IjoiU2h0ZXRsLU9wdGltaXplZCIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxMjk1MjA1ODB9.siOtN7gHw4tefA_rZickBw4GfI6tPxGgOQ1AXr2ZoOQMQ",
       "icon": "https://scottaaronson.blog/wp-content/uploads/2021/10/cropped-Jacket-180x180.gif"
@@ -95,7 +113,7 @@
       "link_domain": "intruder.io",
       "source": "Lobsters",
       "domain": "intruder.io",
-      "meta": "Lobsters · 25 points · 2 comments · 17h ago",
+      "meta": "Lobsters · 25 points · 2 comments · 19h ago",
       "also": [],
       "image": "https://cdn.prod.website-files.com/61dd9339d05701829d0b3241/6afdc01d62cd6e97b94540b6_Elastic%20IP%20adresses%20(1).jpg",
       "icon": "https://cdn.prod.website-files.com/61dd9339d05701b1440b323d/61dd9339d0570119050b32d6_256.png"
@@ -106,6 +124,19 @@
       "name": "AI-Assisted Engineering",
       "cards": [
         {
+          "title": "Where scientists draw the line on AI agents",
+          "link": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+          "excerpt": "A Blog post by Ai2 on Hugging Face",
+          "source": "Hugging Face",
+          "date": "Nov 25",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/F32BgZC_rj0kg99apJlto.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null,
+          "score": 5.688,
+          "coverage": 1
+        },
+        {
           "title": "Verifiable Social Reasoning for LLM Assistants",
           "link": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
           "excerpt": "Generative AI",
@@ -115,33 +146,20 @@
           "icon": null,
           "domain": "research.google",
           "hn": null,
-          "score": 0.785,
+          "score": 0.722,
           "coverage": 1
         },
         {
-          "title": "Code ownership is eroding",
-          "link": "https://leaddev.com/software-quality/code-ownership-is-eroding?utm_source=leaddev&utm_medium=RSS",
-          "excerpt": "Less experienced developers trust AI more.",
-          "source": "LeadDev",
+          "title": "datasette-charts 0.3a0",
+          "link": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
+          "excerpt": "Release: datasette-charts 0.3a0 I added chart annotations to datasette-charts! You can now render a chart and then annotate it with lines, shaded areas, labels, or a combination of the three. A chart with annotations looks like this: Here's that same chart in Datasette Lite, where you can tweak…",
+          "source": "Simon Willison",
           "date": "Nov 25",
-          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2026/09/statue.png",
+          "image": "https://static.simonwillison.net/static/2026/chart-with-annotations.webp",
           "icon": null,
-          "domain": "leaddev.com",
+          "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.641,
-          "coverage": 1
-        },
-        {
-          "title": "An Indic Voice Agent with CUGA",
-          "link": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
-          "excerpt": "A Blog post by IBM Research on Hugging Face",
-          "source": "Hugging Face",
-          "date": "Nov 25",
-          "image": "https://cdn-uploads.huggingface.co/production/uploads/67fe070a4e8cc28ba346f53c/-QNcrxSDbjI8VOCBlhi-C.png",
-          "icon": "https://huggingface.co/favicon.ico",
-          "domain": "huggingface.co",
-          "hn": null,
-          "score": 0.605,
+          "score": 0.755,
           "coverage": 1
         }
       ],
@@ -156,33 +174,59 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 1.08,
+          "score": 0.964,
           "coverage": 1
         },
         {
-          "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
-          "link": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
-          "excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-          "source": "Hugging Face",
+          "title": "datasette-charts 0.2a1",
+          "link": "https://simonwillison.net/2026/Nov/24/datasette-charts-2/",
+          "excerpt": "Release: datasette-charts 0.2a1 Minor UI improvements: Collapsing the suggested charts section now leaves the chart visible. Following a link to a chart opens it with the suggestions collapsed for that visit. On table pages the panel now sits below the \"4,235 rows where country = CHN\" line. The…",
+          "source": "Simon Willison",
+          "date": "Nov 24",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.3,
+          "coverage": 1
+        },
+        {
+          "title": "Code ownership is eroding",
+          "link": "https://leaddev.com/software-quality/code-ownership-is-eroding?utm_source=leaddev&utm_medium=RSS",
+          "excerpt": "Less experienced developers trust AI more.",
+          "source": "LeadDev",
           "date": "Nov 25",
-          "image": "https://huggingface.co/blog/assets/inkling-2-mini-inference-hillclimb/thumbnail.png",
+          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2026/09/statue.png",
+          "icon": null,
+          "domain": "leaddev.com",
+          "hn": null,
+          "score": 0.599,
+          "coverage": 1
+        },
+        {
+          "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+          "link": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+          "excerpt": "A Blog post by NVIDIA on Hugging Face",
+          "source": "Hugging Face",
+          "date": "Nov 26",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/6365c3f398da81987e2753f2/zArpuP9uLsLz9luMW0K2g.png",
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.449,
+          "score": 1.383,
           "coverage": 1
         },
         {
-          "title": "When AI Writes the Code, What Counts as Evidence?",
-          "link": "https://stackoverflow.blog/2026/11/25/when-ai-writes-the-code-what-counts-as-evidence/",
-          "excerpt": "Founded in 2008, Stack Overflow’s public platform is used by nearly everyone who codes to learn, share their knowledge, collaborate, and build their careers.",
-          "source": "Stack Overflow Blog",
+          "title": "An Indic Voice Agent with CUGA",
+          "link": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+          "excerpt": "A Blog post by IBM Research on Hugging Face",
+          "source": "Hugging Face",
           "date": "Nov 25",
-          "image": null,
-          "icon": "https://stackoverflow.blog/apple-touch-icon.png",
-          "domain": "stackoverflow.blog",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/67fe070a4e8cc28ba346f53c/-QNcrxSDbjI8VOCBlhi-C.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
           "hn": null,
-          "score": 0.746,
+          "score": 0.567,
           "coverage": 1
         }
       ]
@@ -200,7 +244,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.85,
+          "score": 0.764,
           "coverage": 1
         },
         {
@@ -213,7 +257,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.847,
+          "score": 0.761,
           "coverage": 1
         },
         {
@@ -226,7 +270,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.093,
+          "score": 0.092,
           "coverage": 1
         }
       ],
@@ -241,7 +285,7 @@
           "icon": "https://www.daytona.io/apple-touch-icon.png",
           "domain": "daytona.io",
           "hn": null,
-          "score": 0.931,
+          "score": 0.828,
           "coverage": 1
         }
       ]
@@ -259,7 +303,7 @@
           "icon": "https://randsinrepose.com/nitropack_static/pYcrXSmzMTYaBCajyDlByLkiWOiRWpVF/assets/images/optimized/rev-829047b/randsinrepose.com/wp-content/uploads/2025/08/cropped-rands-favicon-1-180x180.png",
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.934,
+          "score": 0.831,
           "coverage": 1
         }
       ],
@@ -278,7 +322,7 @@
           "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
           "domain": "aembit.io",
           "hn": null,
-          "score": 5.269,
+          "score": 4.716,
           "coverage": 1
         },
         {
@@ -291,7 +335,7 @@
           "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
           "domain": "aembit.io",
           "hn": null,
-          "score": 4.741,
+          "score": 4.254,
           "coverage": 1
         }
       ],
@@ -310,7 +354,20 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 1.987,
+          "score": 1.81,
+          "coverage": 1
+        },
+        {
+          "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+          "link": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
+          "excerpt": "Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment. \"Most of the packages pose as WinUI 3 and WPF [Windows Presentation Foundation] button controls,\" Socket security researcher…",
+          "source": "The Hacker News",
+          "date": "Nov 26",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt0w3YJQrn6VoUVUTTj46NLfeL_JJE-sDoxKsuBe-_OxBtQ3iX8AZTZ1CEn39-N5TGKYd-0ZKdOT43UwAWUbpIXlFdDwhyphenhyphenEKpkQVVJYJVodQRHyz0pJeKEvJIJgUpAEQqXizajmrriq9Mj1aqioeK1Zug__X26Ra4HwzFg8ImTajGc6b7Ck9LW2OCIpPoa/s1600/dotnet.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.504,
           "coverage": 1
         },
         {
@@ -323,9 +380,11 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.292,
+          "score": 0.27,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties",
           "link": "https://www.securityweek.com/shinyhunters-claims-comeback-new-inception-group-rejects-alleged-ties/",
@@ -336,11 +395,9 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.278,
+          "score": 0.259,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "US Treasury’s FinCEN Disconnects Systems Following Cyber Incident",
           "link": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
@@ -351,8 +408,8 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 3.379,
-          "coverage": 2
+          "score": 0.253,
+          "coverage": 1
         },
         {
           "title": "Ground Truth: CISO Matt Martin on Building a Real Security Program Without an Enterprise Budget",
@@ -364,7 +421,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.271,
+          "score": 0.252,
           "coverage": 1
         },
         {
@@ -377,33 +434,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.226,
-          "coverage": 1
-        },
-        {
-          "title": "Drupal Flaw Found by Anthropic Scanner Exploited in Attacks",
-          "link": "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
-          "excerpt": "CISA has added the vulnerability to its KEV catalog and instructed federal agencies to patch it within three days.",
-          "source": "SecurityWeek",
-          "date": "Nov 25",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Drupal.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.224,
-          "coverage": 1
-        },
-        {
-          "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
-          "excerpt": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
-          "source": "BleepingComputer",
-          "date": "Nov 25",
-          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/25/paloalto.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
-          "hn": null,
-          "score": 0.399,
+          "score": 0.212,
           "coverage": 1
         }
       ]
@@ -421,7 +452,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 6.19,
+          "score": 5.604,
           "coverage": 1
         },
         {
@@ -434,7 +465,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 1.524,
+          "score": 1.41,
           "coverage": 1
         },
         {
@@ -447,7 +478,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.71,
+          "score": 0.63,
           "coverage": 1
         }
       ],
@@ -462,7 +493,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.66,
+          "score": 0.591,
           "coverage": 1
         },
         {
@@ -475,7 +506,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.557,
+          "score": 0.507,
           "coverage": 1
         },
         {
@@ -488,7 +519,7 @@
           "icon": null,
           "domain": "pulumi.com",
           "hn": null,
-          "score": 0.224,
+          "score": 0.214,
           "coverage": 1
         },
         {
@@ -501,7 +532,7 @@
           "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
           "domain": "github.blog",
           "hn": null,
-          "score": 0.467,
+          "score": 0.431,
           "coverage": 1
         },
         {
@@ -514,7 +545,7 @@
           "icon": null,
           "domain": "github.blog",
           "hn": null,
-          "score": 0.234,
+          "score": 0.225,
           "coverage": 1
         }
       ]
@@ -532,7 +563,61 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 3.497,
+          "score": 3.192,
+          "coverage": 1
+        },
+        {
+          "title": "Qualcomm's Oryon 3 Reaches the Top",
+          "link": "https://chipsandcheese.com/p/qualcomms-oryon-3-reaches-the-top",
+          "excerpt": "Qualcomm’s laptop effort had humble beginnings.",
+          "source": "chipsandcheese.com via Hacker News",
+          "date": "Nov 26",
+          "image": "https://substackcdn.com/image/fetch/$s_!mATE!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F190e658d-11f6-4bdf-a0b1-d472149e53b6_1148x878.png",
+          "icon": "https://substackcdn.com/image/fetch/$s_!2gTG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6d6ceac7-3196-46ce-837d-21e5b40021ae%2Fapple-touch-icon-57x57.png",
+          "domain": "chipsandcheese.com",
+          "hn": "18 points · 1 comments",
+          "score": 2.086,
+          "coverage": 1
+        },
+        {
+          "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+          "link": "https://twitter.com/thsottiaux/status/2125784147889393806",
+          "excerpt": "We made a billing mistake at launch of GPT-6.2 that incorrectly discounted GPT-6.2 Astra and Sol usage for most users. We’ve fixed this now, so the same work will use more of your plan’s usage allowance. Comparing to last week, you will reach your limits 40% faster on GPT-6.2 Astra and 25% faster…",
+          "source": "twitter.com via Hacker News",
+          "date": "Nov 26",
+          "image": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_400x400.jpg",
+          "icon": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
+          "domain": "twitter.com",
+          "hn": "86 points · 51 comments",
+          "score": 3.133,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Minipg: PostgreSQL as a Single Executable",
+          "link": "https://progrium.github.io/minipg/",
+          "excerpt": "34 points · 4 comments",
+          "source": "progrium.github.io via Hacker News",
+          "date": "Nov 26",
+          "image": null,
+          "icon": "https://progrium.github.io/favicon.ico",
+          "domain": "progrium.github.io",
+          "hn": "34 points · 4 comments",
+          "score": 2.341,
+          "coverage": 1
+        },
+        {
+          "title": "Tell HN: Lots of Ask HNs again",
+          "link": "https://news.ycombinator.com/item?id=50649864",
+          "excerpt": "189 points · 74 comments",
+          "source": "Hacker News",
+          "date": "Nov 26",
+          "image": null,
+          "icon": null,
+          "domain": "news.ycombinator.com",
+          "hn": "189 points · 74 comments",
+          "score": 2.91,
           "coverage": 1
         },
         {
@@ -544,36 +629,8 @@
           "image": "https://aresluna.org/images/ui-style-guides/ogimage.png",
           "icon": "https://aresluna.org/ui-style-guides/site/ui/favicon.png",
           "domain": "aresluna.org",
-          "hn": "34 points · 2 comments",
-          "score": 2.261,
-          "coverage": 1
-        },
-        {
-          "title": "Jev is probably Qwen3.5-35B-A3B",
-          "link": "https://modaic.dev/blog/latency-doesnt-lie",
-          "excerpt": "TypeSafe doesn't disclose Jev's backbone. Self-identification, tokenizer, and throughput tests all point to Qwen3.5-35B-A3B.",
-          "source": "modaic.dev via Hacker News",
-          "date": "Nov 25",
-          "image": "https://www.modaic.dev/blog/latency-doesnt-lie/latency_doesnt_lie_og.png",
-          "icon": "https://modaic.dev/apple-touch-icon.png",
-          "domain": "modaic.dev",
-          "hn": "258 points · 74 comments",
-          "score": 3.056,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "Tell HN: Lots of Ask HNs again",
-          "link": "https://news.ycombinator.com/item?id=50649864",
-          "excerpt": "140 points · 64 comments",
-          "source": "Hacker News",
-          "date": "Nov 26",
-          "image": null,
-          "icon": null,
-          "domain": "news.ycombinator.com",
-          "hn": "140 points · 64 comments",
-          "score": 3.157,
+          "hn": "82 points · 7 comments",
+          "score": 2.408,
           "coverage": 1
         },
         {
@@ -585,47 +642,21 @@
           "image": "https://opengraph.githubassets.com/1cbee064585fed4b40f809369875bdbbbf8a9e52d3847762ac91c4a02bc15fab/alesha-pro/llm.asm",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "87 points · 16 comments",
-          "score": 2.417,
+          "hn": "105 points · 22 comments",
+          "score": 2.257,
           "coverage": 1
         },
         {
-          "title": "Deploying a payphone on a tiny Pacific Island",
+          "title": "Deploying a payphone on a tiny Pacific Island for fun and zero profit",
           "link": "https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/",
-          "excerpt": "55 points · 7 comments",
+          "excerpt": "77 points · 9 comments",
           "source": "nickvsnetworking.com via Hacker News",
           "date": "Nov 25",
           "image": null,
           "icon": "https://nickvsnetworking.com/wp-content/uploads/2020/02/cropped-f3727314f1f7fead8c75ff040df58fcf-1-180x180.png",
           "domain": "nickvsnetworking.com",
-          "hn": "55 points · 7 comments",
-          "score": 2.187,
-          "coverage": 1
-        },
-        {
-          "title": "Much shorter version of GRH Lean verification from Anthropic",
-          "link": "https://github.com/lsernau/grh-lean",
-          "excerpt": "A short Lean 4 proof of the Generalized Riemann Hypothesis - lsernau/grh-lean",
-          "source": "github.com via Hacker News",
-          "date": "Nov 25",
-          "image": "https://opengraph.githubassets.com/e252b1c5c9fb76610e98b2b0d266e570b8daa9818124834cb5a1c8614d5f13a7/lsernau/grh-lean",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "329 points · 164 comments",
-          "score": 3.036,
-          "coverage": 1
-        },
-        {
-          "title": "Defang Security Incident",
-          "link": "https://defang.io/blog/post/security-incident-november-2026/",
-          "excerpt": "An attacker copied Defang's production credentials and a copy of our main database on November 12, 2026. What was exposed, what we have done, and the steps Defang users should take now.",
-          "source": "defang.io via Hacker News",
-          "date": "Nov 25",
-          "image": "https://defang.io/blog/imported/security-incident-november-2026/cover.png",
-          "icon": "https://defang.io/icon.png?e5731c15c202d7f5",
-          "domain": "defang.io",
-          "hn": "68 points · 20 comments",
-          "score": 2.287,
+          "hn": "77 points · 9 comments",
+          "score": 2.097,
           "coverage": 1
         }
       ]
