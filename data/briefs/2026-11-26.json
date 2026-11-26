@@ -12,39 +12,18 @@
     "pinned": false,
     "note": null,
     "labels": [
-      "3 sources",
+      "2 sources",
       "AI Agents & Agent Security",
-      "under 1h ago"
+      "3h ago"
     ],
     "also": [
       {
         "name": "suncly.com",
         "link": "https://www.suncly.com/research/gmail-mcp-prompts"
-      },
-      {
-        "name": "workspaceupdates.googleblog.com",
-        "link": "https://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html"
       }
     ]
   },
   "pulse": [
-    {
-      "title": "1Password Security Incident",
-      "thread": "https://news.ycombinator.com/item?id=50644817",
-      "link": "https://1password.com/blog/update-on-nov-2026-security-incident",
-      "link_domain": "1password.com",
-      "source": "Hacker News",
-      "domain": "1password.com",
-      "meta": "Hacker News · 1.5k points · 660 comments · 21h ago",
-      "also": [
-        {
-          "source": "Lobsters",
-          "thread": "https://lobste.rs/s/aulbi2/update_on_security_incident_involving"
-        }
-      ],
-      "image": "https://images.ctfassets.net/3091ajzcmzlr/3yu0DTU3edoU7HK8MxkW54/c5e7801fb8c0d7d52295da96af7e8013/business_2x.webp",
-      "icon": "https://1password.com/apple-touch-icon.png"
-    },
     {
       "title": "Slow Ubuntu security response times",
       "thread": "https://lobste.rs/s/wzlzlh/slow_ubuntu_security_response_times",
@@ -52,7 +31,7 @@
       "link_domain": "openwall.com",
       "source": "Lobsters",
       "domain": "openwall.com",
-      "meta": "Lobsters · 79 points · 11 comments · 18h ago",
+      "meta": "Lobsters · 92 points · 12 comments · 21h ago",
       "also": [
         {
           "source": "Hacker News",
@@ -63,28 +42,40 @@
       "icon": "https://www.openwall.com/favicon.ico"
     },
     {
-      "title": "Much shorter version of GRH Lean verification from Anthropic",
-      "thread": "https://news.ycombinator.com/item?id=50648050",
-      "link": "https://github.com/lsernau/grh-lean",
-      "link_domain": "github.com",
-      "source": "Hacker News",
-      "domain": "github.com",
-      "meta": "Hacker News · 495 points · 301 comments · 16h ago",
-      "also": [],
-      "image": "https://opengraph.githubassets.com/e252b1c5c9fb76610e98b2b0d266e570b8daa9818124834cb5a1c8614d5f13a7/lsernau/grh-lean",
-      "icon": "https://github.githubassets.com/favicons/favicon.svg"
-    },
-    {
       "title": "The New York Times warns photographers not to update Photoshop over AI features",
       "thread": "https://news.ycombinator.com/item?id=50647673",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
       "link_domain": "theverge.com",
       "source": "Hacker News",
       "domain": "theverge.com",
-      "meta": "Hacker News · 486 points · 406 comments · 17h ago",
+      "meta": "Hacker News · 565 points · 468 comments · 20h ago",
       "also": [],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2289911637.jpg?quality=90&strip=all&crop=0%2C10.232235952618%2C100%2C79.535528094764&w=1200",
       "icon": "https://www.theverge.com/static-assets/icons/apple-touch-icon.png"
+    },
+    {
+      "title": "Much shorter version of GRH Lean verification from Anthropic",
+      "thread": "https://news.ycombinator.com/item?id=50648050",
+      "link": "https://github.com/lsernau/grh-lean",
+      "link_domain": "github.com",
+      "source": "Hacker News",
+      "domain": "github.com",
+      "meta": "Hacker News · 521 points · 333 comments · 20h ago",
+      "also": [],
+      "image": "https://opengraph.githubassets.com/e252b1c5c9fb76610e98b2b0d266e570b8daa9818124834cb5a1c8614d5f13a7/lsernau/grh-lean",
+      "icon": "https://github.githubassets.com/favicons/favicon.svg"
+    },
+    {
+      "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+      "thread": "https://news.ycombinator.com/item?id=50651117",
+      "link": "https://twitter.com/thsottiaux/status/2125784147889393806",
+      "link_domain": "twitter.com",
+      "source": "Hacker News",
+      "domain": "twitter.com",
+      "meta": "Hacker News · 425 points · 242 comments · 14h ago",
+      "also": [],
+      "image": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_400x400.jpg",
+      "icon": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png"
     },
     {
       "title": "Scott Aaronson on recent complexity theory AI achievements",
@@ -93,7 +84,7 @@
       "link_domain": "scottaaronson.blog",
       "source": "Lobsters",
       "domain": "scottaaronson.blog",
-      "meta": "Lobsters · 44 points · 38 comments · 16h ago",
+      "meta": "Lobsters · 51 points · 48 comments · 19h ago",
       "also": [],
       "image": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvc2NvdHRhYXJvbnNvbi5ibG9nXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8xMFwvY3JvcHBlZC1KYWNrZXQuZ2lmIiwidHh0IjoiU2h0ZXRsLU9wdGltaXplZCIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxMjk1MjA1ODB9.siOtN7gHw4tefA_rZickBw4GfI6tPxGgOQ1AXr2ZoOQMQ",
       "icon": "https://scottaaronson.blog/wp-content/uploads/2021/10/cropped-Jacket-180x180.gif"
@@ -113,7 +104,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 4.189,
+          "score": 3.777,
           "coverage": 1
         },
         {
@@ -126,7 +117,7 @@
           "icon": null,
           "domain": "research.google",
           "hn": null,
-          "score": 0.541,
+          "score": 0.491,
           "coverage": 1
         },
         {
@@ -139,11 +130,24 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.56,
+          "score": 0.506,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "Quoting Jack Despain Zhou",
+          "link": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+          "excerpt": "Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostensibly serious…",
+          "source": "Simon Willison",
+          "date": "Nov 26",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 1.224,
+          "coverage": 1
+        },
         {
           "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
           "link": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
@@ -154,7 +158,20 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.888,
+          "score": 0.759,
+          "coverage": 1
+        },
+        {
+          "title": "The New York Times warns photographers not to update Photoshop over AI features",
+          "link": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
+          "excerpt": "My comment on The New York Times warns photographers not to update Photoshop over AI features — Hacker News.I had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly enough). At one point I asked if they could fix things up if I had a stain on my…",
+          "source": "Simon Willison",
+          "date": "Nov 26",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 0.728,
           "coverage": 1
         },
         {
@@ -167,7 +184,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.667,
+          "score": 0.592,
           "coverage": 1
         },
         {
@@ -180,33 +197,7 @@
           "icon": null,
           "domain": "leaddev.com",
           "hn": null,
-          "score": 0.97,
-          "coverage": 1
-        },
-        {
-          "title": "Code ownership is eroding",
-          "link": "https://leaddev.com/software-quality/code-ownership-is-eroding?utm_source=leaddev&utm_medium=RSS",
-          "excerpt": "Less experienced developers trust AI more.",
-          "source": "LeadDev",
-          "date": "Nov 25",
-          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2026/09/statue.png",
-          "icon": null,
-          "domain": "leaddev.com",
-          "hn": null,
-          "score": 0.469,
-          "coverage": 1
-        },
-        {
-          "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
-          "link": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
-          "excerpt": "A Blog post by ggml-org on Hugging Face",
-          "source": "Hugging Face",
-          "date": "Nov 26",
-          "image": "https://cdn-uploads.huggingface.co/production/uploads/67289c93ff90038d9a6e5675/tbIvyMSISXCm64WYP3atl.png",
-          "icon": "https://huggingface.co/favicon.ico",
-          "domain": "huggingface.co",
-          "hn": null,
-          "score": 1.216,
+          "score": 0.819,
           "coverage": 1
         }
       ]
@@ -224,7 +215,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.537,
+          "score": 0.478,
           "coverage": 1
         },
         {
@@ -237,7 +228,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.535,
+          "score": 0.477,
           "coverage": 1
         },
         {
@@ -250,7 +241,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.088,
+          "score": 0.086,
           "coverage": 1
         }
       ],
@@ -265,7 +256,7 @@
           "icon": "https://www.daytona.io/apple-touch-icon.png",
           "domain": "daytona.io",
           "hn": null,
-          "score": 0.568,
+          "score": 0.502,
           "coverage": 1
         }
       ]
@@ -283,7 +274,7 @@
           "icon": "https://randsinrepose.com/nitropack_static/pYcrXSmzMTYaBCajyDlByLkiWOiRWpVF/assets/images/optimized/rev-829047b/randsinrepose.com/wp-content/uploads/2025/08/cropped-rands-favicon-1-180x180.png",
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.569,
+          "score": 0.503,
           "coverage": 1
         },
         {
@@ -296,7 +287,26 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.568,
+          "score": 0.502,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Agent Identity & Authorization",
+      "cards": [
+        {
+          "title": "Shadow agents and the governance gap",
+          "link": "https://cerbos.dev/blog/shadow-agents-governance-gap",
+          "excerpt": "Shadow agents run with real credentials and no owner. Here is how they appear, why a sanctioned agent can still go rogue, and how to close the governance gap.",
+          "source": "Cerbos",
+          "date": "Nov 25",
+          "image": "https://stylish-appliance-1c1cc1c30d.media.strapiapp.com/Shadow_agents_and_the_governance_gap_7f0d17c059.png",
+          "icon": null,
+          "domain": "cerbos.dev",
+          "hn": null,
+          "score": 0.298,
           "coverage": 1
         }
       ],
@@ -315,7 +325,7 @@
           "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
           "domain": "aembit.io",
           "hn": null,
-          "score": 3.281,
+          "score": 2.914,
           "coverage": 1
         },
         {
@@ -328,20 +338,20 @@
           "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
           "domain": "aembit.io",
           "hn": null,
-          "score": 2.98,
+          "score": 2.651,
           "coverage": 1
         },
         {
-          "title": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
-          "link": "https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/",
-          "excerpt": "How John Lions' Unix lecture notes became an underground classic, and finally made it into print.",
-          "source": "fosscomics.com via Hacker News",
+          "title": "AI Agents and Non-Human Identities: The Security Risks and How to Reduce Them",
+          "link": "https://blog.gitguardian.com/nhi-security-in-the-age-of-ai/",
+          "excerpt": "The rise of AI in enterprises has expanded the attack surface. Learn how GitGuardian can help you secure non-human identities and prevent unauthorized access.",
+          "source": "GitGuardian",
           "date": "Nov 26",
-          "image": "https://fosscomics.com/posts/17. Lions' Commentary on Unix/images/lions-commentary.png",
-          "icon": "https://fosscomics.com/images/favicon.png",
-          "domain": "fosscomics.com",
-          "hn": "165 points · 28 comments",
-          "score": 3.026,
+          "image": "https://storage.ghost.io/c/42/5d/425d266f-cf99-406e-9436-597a19bed011/content/images/2026/11/ai-agents-nhi-thumbnail-red.png",
+          "icon": null,
+          "domain": "blog.gitguardian.com",
+          "hn": null,
+          "score": 4.49,
           "coverage": 1
         }
       ],
@@ -360,7 +370,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 1.321,
+          "score": 1.188,
           "coverage": 1
         },
         {
@@ -373,7 +383,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 10.373,
+          "score": 8.479,
           "coverage": 4
         },
         {
@@ -386,11 +396,24 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 10.373,
+          "score": 8.479,
           "coverage": 4
         }
       ],
       "more": [
+        {
+          "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+          "link": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+          "excerpt": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025. \"The loader hides in a small utils package or in conftest.py,\" SafeDep said in a report…",
+          "source": "The Hacker News",
+          "date": "Nov 26",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgquhPuqGJrSE3xNpn5ZUELVAv-Y7qXqkHgpw7nbVqCay4gyraYO5NNE12rAGzuqk_zhreNwcyzjZf3vZZB5C4teohyuppUP-JlP41PQiLu-hGEFCsqMZO0T6MoaVk-uY818yaTaiJaX-d2O0h0RER22knXbUQc7qnwIcVbleLQrEspMQ8btNa4Q9mFrmue/s1600/gitcat.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.492,
+          "coverage": 1
+        },
         {
           "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
           "link": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
@@ -401,7 +424,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.466,
+          "score": 0.381,
           "coverage": 1
         },
         {
@@ -414,7 +437,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.372,
+          "score": 0.316,
           "coverage": 1
         },
         {
@@ -427,7 +450,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.366,
+          "score": 0.311,
           "coverage": 1
         },
         {
@@ -440,20 +463,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.318,
-          "coverage": 1
-        },
-        {
-          "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
-          "link": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
-          "excerpt": "Tracked as CVE-2026-103406, the vulnerability allows remote attackers to execute arbitrary commands as root.",
-          "source": "SecurityWeek",
-          "date": "Nov 26",
-          "image": "https://www.securityweek.com/wp-content/uploads/2025/01/Juniper-Networks.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 3.774,
+          "score": 0.276,
           "coverage": 1
         }
       ]
@@ -471,7 +481,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 4.02,
+          "score": 3.599,
           "coverage": 1
         },
         {
@@ -484,7 +494,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 3.738,
+          "score": 3.182,
           "coverage": 1
         },
         {
@@ -497,7 +507,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 3.86,
+          "score": 3.157,
           "coverage": 1
         }
       ],
@@ -512,7 +522,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 1.074,
+          "score": 0.978,
           "coverage": 1
         },
         {
@@ -525,7 +535,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.43,
+          "score": 0.38,
           "coverage": 1
         },
         {
@@ -538,7 +548,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.411,
+          "score": 0.365,
           "coverage": 1
         },
         {
@@ -551,7 +561,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.369,
+          "score": 0.331,
           "coverage": 1
         },
         {
@@ -564,7 +574,7 @@
           "icon": null,
           "domain": "pulumi.com",
           "hn": null,
-          "score": 0.178,
+          "score": 0.167,
           "coverage": 1
         }
       ]
@@ -573,7 +583,100 @@
       "name": "News & Research",
       "cards": [
         {
-          "title": "Euro-Office comes to your desktop with the Nextcloud Office Desktop app",
+          "title": "One guy is doing an hunger strike at Anthropic, currently in his 3rd day",
+          "link": "https://twitter.com/ElliotC1/status/2125689373337489419",
+          "excerpt": "Good morning. Day 3 hunger striking at Anthropic. Today I'm joined by @skyparker0 who plans to hunger strike in solidarity with me for 4 days. I hope @AnthropicAI spends the relatively minor resources to warn their approximately quarter billion users about extinction risk from AI, so that I can m…",
+          "source": "twitter.com via Hacker News",
+          "date": "Nov 26",
+          "image": "https://pbs.twimg.com/media/HX_3OC3bIAA4HDU?format=webp&name=large",
+          "icon": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
+          "domain": "twitter.com",
+          "hn": "41 points · 20 comments",
+          "score": 3.016,
+          "coverage": 1
+        },
+        {
+          "title": "NP_R ≠ PAR_R",
+          "link": "https://github.com/samueleverett01/bss-permanent-separations",
+          "excerpt": "NP_R ≠ PAR_R, Σ2^R ≠ PAR_R, BIP_R ≠ PAR_R via the permanent (BSS model). Mostly AI-written; Lean formalized - samueleverett01/bss-permanent-separations",
+          "source": "github.com via Hacker News",
+          "date": "Nov 26",
+          "image": "https://opengraph.githubassets.com/d97df5b9507a0cf4ef720cd7931fadf0ac0f24a4d85ea5c9342f42acedd60667/samueleverett01/bss-permanent-separations",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "57 points · 30 comments",
+          "score": 3.214,
+          "coverage": 1
+        },
+        {
+          "title": "45°C inlets just killed the chiller. Most people haven't noticed yet",
+          "link": "https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831",
+          "excerpt": "In my mind and in my car, we can't rewind, we've gone too far",
+          "source": "theregister.com via Hacker News",
+          "date": "Nov 26",
+          "image": "https://image.theregister.com/5311848.jpg?imageId=5311848&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+          "icon": "https://www.theregister.com/view-resources/dachser2/public/theregister/favicons/apple-touch-icon.png",
+          "domain": "theregister.com",
+          "hn": "155 points · 72 comments",
+          "score": 3.077,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "AMD Specific Patches for Llama.cpp",
+          "link": "https://devnull.land/amd-specific-llama-cpp",
+          "excerpt": "Miscellaneous bits and bobs from the tech world",
+          "source": "devnull.land via Hacker News",
+          "date": "Nov 26",
+          "image": null,
+          "icon": "https://devnull.land/favicon.ico",
+          "domain": "devnull.land",
+          "hn": "36 points · 5 comments",
+          "score": 14.023,
+          "coverage": 2
+        },
+        {
+          "title": "Ask HN: Any courses/products by indie makers worth getting today?",
+          "link": "https://news.ycombinator.com/item?id=50656763",
+          "excerpt": "27 points · 9 comments",
+          "source": "Hacker News",
+          "date": "Nov 26",
+          "image": null,
+          "icon": null,
+          "domain": "news.ycombinator.com",
+          "hn": "27 points · 9 comments",
+          "score": 2.57,
+          "coverage": 1
+        },
+        {
+          "title": "Show HN: Three Linux VMs in a browser tab, each running a different browser",
+          "link": "https://michidk.github.io/sidebyside/",
+          "excerpt": "One URL in Firefox, Chromium and Epiphany, each running in a Linux VM in this tab.",
+          "source": "michidk.github.io via Hacker News",
+          "date": "Nov 26",
+          "image": null,
+          "icon": "https://michidk.github.io/favicon.ico",
+          "domain": "michidk.github.io",
+          "hn": "36 points · 11 comments",
+          "score": 2.489,
+          "coverage": 1
+        },
+        {
+          "title": "Tell HN: Happy Thanksgiving",
+          "link": "https://news.ycombinator.com/item?id=50655664",
+          "excerpt": "365 points · 105 comments",
+          "source": "Hacker News",
+          "date": "Nov 26",
+          "image": null,
+          "icon": null,
+          "domain": "news.ycombinator.com",
+          "hn": "365 points · 105 comments",
+          "score": 3.581,
+          "coverage": 1
+        },
+        {
+          "title": "Nextcloud Office Desktop app",
           "link": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
           "excerpt": "The Euro-Office Desktop app is here. Learn about the app’s features, how to install it, and how to co-edit files with your team.",
           "source": "nextcloud.com via Hacker News",
@@ -581,101 +684,8 @@
           "image": "https://nextcloud.com/c/uploads/2026/11/Euro-Office-comes-to-your-desktop-with-the-Nextcloud-Office-app.png",
           "icon": "https://nextcloud.com/c/uploads/2022/03/favicon.png",
           "domain": "nextcloud.com",
-          "hn": "155 points · 52 comments",
-          "score": 3.34,
-          "coverage": 1
-        },
-        {
-          "title": "Intel One Mono font",
-          "link": "https://github.com/intel/intel-one-mono",
-          "excerpt": "Intel One Mono font repository. Contribute to intel/intel-one-mono development by creating an account on GitHub.",
-          "source": "github.com via Hacker News",
-          "date": "Nov 26",
-          "image": "https://opengraph.githubassets.com/ac595fe5295233721790418701996c219b647bc651d1bc6d801501efe3931e7f/intel/intel-one-mono",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "217 points · 127 comments",
-          "score": 3.246,
-          "coverage": 1
-        },
-        {
-          "title": "Moat: Your OpenRouter Replacement",
-          "link": "https://commandcode.ai/moat",
-          "excerpt": "MOAT is the Costco of AI tokens. Pay $5/month. Get 100+ open models of the highest quality at wholesale prices, the cheapest you can get. No usage limits.",
-          "source": "commandcode.ai via Hacker News",
-          "date": "Nov 26",
-          "image": "https://commandcode.ai/moat/og.png",
-          "icon": "https://commandcode.ai/apple-touch-icon.png",
-          "domain": "commandcode.ai",
-          "hn": "132 points · 87 comments",
-          "score": 2.472,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "An algebraic quantization of gravity from the null cone",
-          "link": "https://arxiv.org/abs/2611.34924",
-          "excerpt": "We propose a background independent quantization of vacuum general relativity on four dimensional Lorentzian spacetimes. Starting from first order gravity, we solve the gravitational constraints on intersecting null cones of a bulk subregion and obtain the reduced phase space at finite $G_N$. We…",
-          "source": "arxiv.org via Hacker News",
-          "date": "Nov 26",
-          "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-          "icon": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png",
-          "domain": "arxiv.org",
-          "hn": "86 points · 19 comments",
-          "score": 2.083,
-          "coverage": 1
-        },
-        {
-          "title": "Unconditional Integer Factorization in Subexponential Time",
-          "link": "https://github.com/google-research/google-research/tree/4a7bc8ab0bc770e71a259b7966c500496b99010a/cogentic_research_papers/integer_factorization",
-          "excerpt": "Google Research. Contribute to google-research/google-research development by creating an account on GitHub.",
-          "source": "github.com via Hacker News",
-          "date": "Nov 26",
-          "image": "https://opengraph.githubassets.com/5e97b96d80c37c122996b5fd51b9b48d1fc8979ff7ff19e51dba99f509af5fe3/google-research/google-research",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "81 points · 11 comments",
-          "score": 1.973,
-          "coverage": 1
-        },
-        {
-          "title": "Qualcomm's Oryon 3 Reaches the Top",
-          "link": "https://chipsandcheese.com/p/qualcomms-oryon-3-reaches-the-top",
-          "excerpt": "Qualcomm’s laptop effort had humble beginnings.",
-          "source": "chipsandcheese.com via Hacker News",
-          "date": "Nov 26",
-          "image": "https://substackcdn.com/image/fetch/$s_!mATE!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F190e658d-11f6-4bdf-a0b1-d472149e53b6_1148x878.png",
-          "icon": "https://substackcdn.com/image/fetch/$s_!2gTG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6d6ceac7-3196-46ce-837d-21e5b40021ae%2Fapple-touch-icon-57x57.png",
-          "domain": "chipsandcheese.com",
-          "hn": "63 points · 30 comments",
-          "score": 1.866,
-          "coverage": 1
-        },
-        {
-          "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
-          "link": "https://twitter.com/thsottiaux/status/2125784147889393806",
-          "excerpt": "We made a billing mistake at launch of GPT-6.2 that incorrectly discounted GPT-6.2 Astra and Sol usage for most users. We’ve fixed this now, so the same work will use more of your plan’s usage allowance. Comparing to last week, you will reach your limits 40% faster on GPT-6.2 Astra and 25% faster…",
-          "source": "twitter.com via Hacker News",
-          "date": "Nov 26",
-          "image": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_400x400.jpg",
-          "icon": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
-          "domain": "twitter.com",
-          "hn": "360 points · 197 comments",
-          "score": 2.48,
-          "coverage": 1
-        },
-        {
-          "title": "Minipg: PostgreSQL as a Single Executable",
-          "link": "https://progrium.github.io/minipg/",
-          "excerpt": "193 points · 29 comments",
-          "source": "progrium.github.io via Hacker News",
-          "date": "Nov 26",
-          "image": null,
-          "icon": "https://progrium.github.io/favicon.ico",
-          "domain": "progrium.github.io",
-          "hn": "193 points · 29 comments",
-          "score": 2.103,
+          "hn": "339 points · 143 comments",
+          "score": 3.075,
           "coverage": 1
         }
       ]
