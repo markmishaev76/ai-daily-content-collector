@@ -1,19 +1,19 @@
 {
   "date": "2026-11-26",
   "lead": {
-    "title": "Secure agentic access to AWS with Enterprise-Managed Authorization",
-    "link": "https://aws.amazon.com/blogs/security/secure-agentic-access-to-aws-with-enterprise-managed-authorization/",
-    "excerpt": "AWS Sign-In is introducing support for Enterprise-Managed Authorization (EMA) using the Identity Assertion JWT Authorization Grant (ID-JAG), enabling organizations to securely authorize AI agents to access AWS MCP Server through their existing enterprise identity providers (IdPs), such as Okta.…",
-    "source": "AWS Security Blog",
+    "title": "Where scientists draw the line on AI agents",
+    "link": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+    "excerpt": "A Blog post by Ai2 on Hugging Face",
+    "source": "Hugging Face",
     "date": "Nov 25",
-    "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/25/figure-1-enterprise-managed-authorization-flow-using-okta-aws-sign-in-and-aws-mcp-server.png",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/F32BgZC_rj0kg99apJlto.png",
     "image_credit": null,
-    "section": "Platform, Cloud & Reliability",
+    "section": "AI-Assisted Engineering",
     "pinned": false,
     "note": null,
     "labels": [
-      "Platform, Cloud & Reliability",
-      "5h ago"
+      "AI-Assisted Engineering",
+      "9h ago"
     ],
     "also": []
   },
@@ -25,7 +25,7 @@
       "link_domain": "1password.com",
       "source": "Hacker News",
       "domain": "1password.com",
-      "meta": "Hacker News · 1.2k points · 496 comments · 8h ago",
+      "meta": "Hacker News · 1.3k points · 528 comments · 10h ago",
       "also": [
         {
           "source": "Lobsters",
@@ -42,13 +42,8 @@
       "link_domain": "marginalia.nu",
       "source": "Lobsters",
       "domain": "marginalia.nu",
-      "meta": "Lobsters · 101 points · 19 comments · 19h ago",
-      "also": [
-        {
-          "source": "Hacker News",
-          "thread": "https://news.ycombinator.com/item?id=50638220"
-        }
-      ],
+      "meta": "Lobsters · 103 points · 20 comments · 21h ago",
+      "also": [],
       "image": null,
       "icon": "https://www.marginalia.nu/favicon.ico"
     },
@@ -59,7 +54,7 @@
       "link_domain": "openwall.com",
       "source": "Lobsters",
       "domain": "openwall.com",
-      "meta": "Lobsters · 48 points · 2 comments · 5h ago",
+      "meta": "Lobsters · 54 points · 2 comments · 7h ago",
       "also": [
         {
           "source": "Hacker News",
@@ -70,28 +65,16 @@
       "icon": "https://www.openwall.com/favicon.ico"
     },
     {
-      "title": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
-      "thread": "https://news.ycombinator.com/item?id=50638320",
-      "link": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
-      "link_domain": "comentr.com",
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "thread": "https://news.ycombinator.com/item?id=50647673",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "link_domain": "theverge.com",
       "source": "Hacker News",
-      "domain": "comentr.com",
-      "meta": "Hacker News · 215 points · 168 comments · 22h ago",
+      "domain": "theverge.com",
+      "meta": "Hacker News · 256 points · 205 comments · 6h ago",
       "also": [],
-      "image": "https://cdn.comentr.com/0150CPNGZR000000000C0MENTR/media/content_image/v1/bff5d66072971917ceddac67792e86c36ea69bdec2ba9cb46d7994c29d79c5ad.44HS7JCKCR7PGP5YRJ884468FT/p1-s2024x1956/w1080.webp",
-      "icon": "https://www.comentr.com/apple-touch-icon.png"
-    },
-    {
-      "title": "Taking over US Treasury subdomains for $3 each",
-      "thread": "https://lobste.rs/s/ogxwpi/taking_over_us_treasury_subdomains_for_3",
-      "link": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
-      "link_domain": "intruder.io",
-      "source": "Lobsters",
-      "domain": "intruder.io",
-      "meta": "Lobsters · 25 points · 1 comments · 15h ago",
-      "also": [],
-      "image": "https://cdn.prod.website-files.com/61dd9339d05701829d0b3241/6afdc01d62cd6e97b94540b6_Elastic%20IP%20adresses%20(1).jpg",
-      "icon": "https://cdn.prod.website-files.com/61dd9339d05701b1440b323d/61dd9339d0570119050b32d6_256.png"
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2289911637.jpg?quality=90&strip=all&crop=0%2C10.232235952618%2C100%2C79.535528094764&w=1200",
+      "icon": "https://www.theverge.com/static-assets/icons/apple-touch-icon.png"
     },
     {
       "title": "Scott Aaronson on recent complexity theory AI achievements",
@@ -100,41 +83,28 @@
       "link_domain": "scottaaronson.blog",
       "source": "Lobsters",
       "domain": "scottaaronson.blog",
-      "meta": "Lobsters · 22 points · 0 comments · 4h ago",
+      "meta": "Lobsters · 27 points · 2 comments · 6h ago",
       "also": [],
       "image": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvc2NvdHRhYXJvbnNvbi5ibG9nXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8xMFwvY3JvcHBlZC1KYWNrZXQuZ2lmIiwidHh0IjoiU2h0ZXRsLU9wdGltaXplZCIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxMjk1MjA1ODB9.siOtN7gHw4tefA_rZickBw4GfI6tPxGgOQ1AXr2ZoOQMQ",
       "icon": "https://scottaaronson.blog/wp-content/uploads/2021/10/cropped-Jacket-180x180.gif"
     },
     {
-      "title": "Top open problems in mathematics ranked by LLM-assessed importance",
-      "thread": "https://news.ycombinator.com/item?id=50637871",
-      "link": "https://www.proofatlas.ai/open-problems/",
-      "link_domain": "proofatlas.ai",
-      "source": "Hacker News",
-      "domain": "proofatlas.ai",
-      "meta": "Hacker News · 101 points · 52 comments · 23h ago",
+      "title": "Taking over US Treasury subdomains for $3 each",
+      "thread": "https://lobste.rs/s/ogxwpi/taking_over_us_treasury_subdomains_for_3",
+      "link": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
+      "link_domain": "intruder.io",
+      "source": "Lobsters",
+      "domain": "intruder.io",
+      "meta": "Lobsters · 25 points · 2 comments · 17h ago",
       "also": [],
-      "image": null,
-      "icon": "https://www.proofatlas.ai/assets/favicon.svg"
+      "image": "https://cdn.prod.website-files.com/61dd9339d05701829d0b3241/6afdc01d62cd6e97b94540b6_Elastic%20IP%20adresses%20(1).jpg",
+      "icon": "https://cdn.prod.website-files.com/61dd9339d05701b1440b323d/61dd9339d0570119050b32d6_256.png"
     }
   ],
   "sections": [
     {
       "name": "AI-Assisted Engineering",
       "cards": [
-        {
-          "title": "Where scientists draw the line on AI agents",
-          "link": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
-          "excerpt": "A Blog post by Ai2 on Hugging Face",
-          "source": "Hugging Face",
-          "date": "Nov 25",
-          "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/F32BgZC_rj0kg99apJlto.png",
-          "icon": "https://huggingface.co/favicon.ico",
-          "domain": "huggingface.co",
-          "hn": null,
-          "score": 6.873,
-          "coverage": 1
-        },
         {
           "title": "Verifiable Social Reasoning for LLM Assistants",
           "link": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
@@ -145,7 +115,7 @@
           "icon": null,
           "domain": "research.google",
           "hn": null,
-          "score": 0.86,
+          "score": 0.785,
           "coverage": 1
         },
         {
@@ -158,7 +128,20 @@
           "icon": null,
           "domain": "leaddev.com",
           "hn": null,
-          "score": 0.69,
+          "score": 0.641,
+          "coverage": 1
+        },
+        {
+          "title": "An Indic Voice Agent with CUGA",
+          "link": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+          "excerpt": "A Blog post by IBM Research on Hugging Face",
+          "source": "Hugging Face",
+          "date": "Nov 25",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/67fe070a4e8cc28ba346f53c/-QNcrxSDbjI8VOCBlhi-C.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null,
+          "score": 0.605,
           "coverage": 1
         }
       ],
@@ -173,20 +156,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 1.228,
-          "coverage": 1
-        },
-        {
-          "title": "An Indic Voice Agent with CUGA",
-          "link": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
-          "excerpt": "A Blog post by IBM Research on Hugging Face",
-          "source": "Hugging Face",
-          "date": "Nov 25",
-          "image": "https://cdn-uploads.huggingface.co/production/uploads/67fe070a4e8cc28ba346f53c/-QNcrxSDbjI8VOCBlhi-C.png",
-          "icon": "https://huggingface.co/favicon.ico",
-          "domain": "huggingface.co",
-          "hn": null,
-          "score": 0.649,
+          "score": 1.08,
           "coverage": 1
         },
         {
@@ -199,7 +169,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.472,
+          "score": 0.449,
           "coverage": 1
         },
         {
@@ -212,7 +182,7 @@
           "icon": "https://stackoverflow.blog/apple-touch-icon.png",
           "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 0.814,
+          "score": 0.746,
           "coverage": 1
         }
       ]
@@ -230,7 +200,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.959,
+          "score": 0.85,
           "coverage": 1
         },
         {
@@ -243,7 +213,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.955,
+          "score": 0.847,
           "coverage": 1
         },
         {
@@ -256,7 +226,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.095,
+          "score": 0.093,
           "coverage": 1
         }
       ],
@@ -271,7 +241,7 @@
           "icon": "https://www.daytona.io/apple-touch-icon.png",
           "domain": "daytona.io",
           "hn": null,
-          "score": 1.063,
+          "score": 0.931,
           "coverage": 1
         }
       ]
@@ -289,7 +259,7 @@
           "icon": "https://randsinrepose.com/nitropack_static/pYcrXSmzMTYaBCajyDlByLkiWOiRWpVF/assets/images/optimized/rev-829047b/randsinrepose.com/wp-content/uploads/2025/08/cropped-rands-favicon-1-180x180.png",
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 1.068,
+          "score": 0.934,
           "coverage": 1
         }
       ],
@@ -308,7 +278,7 @@
           "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
           "domain": "aembit.io",
           "hn": null,
-          "score": 5.973,
+          "score": 5.269,
           "coverage": 1
         },
         {
@@ -321,7 +291,7 @@
           "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
           "domain": "aembit.io",
           "hn": null,
-          "score": 5.357,
+          "score": 4.741,
           "coverage": 1
         }
       ],
@@ -340,7 +310,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 2.203,
+          "score": 1.987,
           "coverage": 1
         },
         {
@@ -353,7 +323,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.318,
+          "score": 0.292,
           "coverage": 1
         },
         {
@@ -366,7 +336,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.302,
+          "score": 0.278,
           "coverage": 1
         }
       ],
@@ -381,7 +351,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 3.695,
+          "score": 3.379,
           "coverage": 2
         },
         {
@@ -394,7 +364,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.293,
+          "score": 0.271,
           "coverage": 1
         },
         {
@@ -407,7 +377,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.241,
+          "score": 0.226,
           "coverage": 1
         },
         {
@@ -420,7 +390,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.239,
+          "score": 0.224,
           "coverage": 1
         },
         {
@@ -433,7 +403,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.449,
+          "score": 0.399,
           "coverage": 1
         }
       ]
@@ -441,6 +411,19 @@
     {
       "name": "Platform, Cloud & Reliability",
       "cards": [
+        {
+          "title": "Secure agentic access to AWS with Enterprise-Managed Authorization",
+          "link": "https://aws.amazon.com/blogs/security/secure-agentic-access-to-aws-with-enterprise-managed-authorization/",
+          "excerpt": "AWS Sign-In is introducing support for Enterprise-Managed Authorization (EMA) using the Identity Assertion JWT Authorization Grant (ID-JAG), enabling organizations to securely authorize AI agents to access AWS MCP Server through their existing enterprise identity providers (IdPs), such as Okta.…",
+          "source": "AWS Security Blog",
+          "date": "Nov 25",
+          "image": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/25/figure-1-enterprise-managed-authorization-flow-using-okta-aws-sign-in-and-aws-mcp-server.png",
+          "icon": null,
+          "domain": "aws.amazon.com",
+          "hn": null,
+          "score": 6.19,
+          "coverage": 1
+        },
         {
           "title": "GitHub Ditches CSS-in-JS for CSS Modules, Reports 55% Faster SSR After Three-Year Migration",
           "link": "https://www.infoq.com/news/2026/11/github-css-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -451,7 +434,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 1.659,
+          "score": 1.524,
           "coverage": 1
         },
         {
@@ -464,9 +447,11 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.812,
+          "score": 0.71,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "ICYMI: October 2026 @AWS Security",
           "link": "https://aws.amazon.com/blogs/security/icymi-october-2026-aws-security/",
@@ -477,11 +462,9 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.748,
+          "score": 0.66,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Reduce operational overhead by migrating from AWS CloudHSM to AWS KMS",
           "link": "https://aws.amazon.com/blogs/security/reduce-operational-overhead-by-migrating-from-aws-cloudhsm-to-aws-kms/",
@@ -492,7 +475,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.618,
+          "score": 0.557,
           "coverage": 1
         },
         {
@@ -505,7 +488,7 @@
           "icon": null,
           "domain": "pulumi.com",
           "hn": null,
-          "score": 0.236,
+          "score": 0.224,
           "coverage": 1
         },
         {
@@ -518,7 +501,7 @@
           "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
           "domain": "github.blog",
           "hn": null,
-          "score": 0.509,
+          "score": 0.467,
           "coverage": 1
         },
         {
@@ -531,7 +514,7 @@
           "icon": null,
           "domain": "github.blog",
           "hn": null,
-          "score": 0.244,
+          "score": 0.234,
           "coverage": 1
         }
       ]
@@ -549,7 +532,20 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 5.471,
+          "score": 3.497,
+          "coverage": 1
+        },
+        {
+          "title": "Collection of preserved UI style guides",
+          "link": "https://aresluna.org/ui-style-guides/",
+          "excerpt": "A library of every single UI style guide and guideline document",
+          "source": "aresluna.org via Hacker News",
+          "date": "Nov 26",
+          "image": "https://aresluna.org/images/ui-style-guides/ogimage.png",
+          "icon": "https://aresluna.org/ui-style-guides/site/ui/favicon.png",
+          "domain": "aresluna.org",
+          "hn": "34 points · 2 comments",
+          "score": 2.261,
           "coverage": 1
         },
         {
@@ -561,8 +557,23 @@
           "image": "https://www.modaic.dev/blog/latency-doesnt-lie/latency_doesnt_lie_og.png",
           "icon": "https://modaic.dev/apple-touch-icon.png",
           "domain": "modaic.dev",
-          "hn": "221 points · 63 comments",
-          "score": 3.378,
+          "hn": "258 points · 74 comments",
+          "score": 3.056,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Tell HN: Lots of Ask HNs again",
+          "link": "https://news.ycombinator.com/item?id=50649864",
+          "excerpt": "140 points · 64 comments",
+          "source": "Hacker News",
+          "date": "Nov 26",
+          "image": null,
+          "icon": null,
+          "domain": "news.ycombinator.com",
+          "hn": "140 points · 64 comments",
+          "score": 3.157,
           "coverage": 1
         },
         {
@@ -574,36 +585,21 @@
           "image": "https://opengraph.githubassets.com/1cbee064585fed4b40f809369875bdbbbf8a9e52d3847762ac91c4a02bc15fab/alesha-pro/llm.asm",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "62 points · 7 comments",
-          "score": 2.524,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "Tell HN: Lots of Ask HNs again",
-          "link": "https://news.ycombinator.com/item?id=50649864",
-          "excerpt": "62 points · 32 comments",
-          "source": "Hacker News",
-          "date": "Nov 26",
-          "image": null,
-          "icon": null,
-          "domain": "news.ycombinator.com",
-          "hn": "62 points · 32 comments",
-          "score": 3.172,
+          "hn": "87 points · 16 comments",
+          "score": 2.417,
           "coverage": 1
         },
         {
           "title": "Deploying a payphone on a tiny Pacific Island",
           "link": "https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/",
-          "excerpt": "39 points · 3 comments",
+          "excerpt": "55 points · 7 comments",
           "source": "nickvsnetworking.com via Hacker News",
           "date": "Nov 25",
           "image": null,
           "icon": "https://nickvsnetworking.com/wp-content/uploads/2020/02/cropped-f3727314f1f7fead8c75ff040df58fcf-1-180x180.png",
           "domain": "nickvsnetworking.com",
-          "hn": "39 points · 3 comments",
-          "score": 2.271,
+          "hn": "55 points · 7 comments",
+          "score": 2.187,
           "coverage": 1
         },
         {
@@ -615,8 +611,8 @@
           "image": "https://opengraph.githubassets.com/e252b1c5c9fb76610e98b2b0d266e570b8daa9818124834cb5a1c8614d5f13a7/lsernau/grh-lean",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "280 points · 127 comments",
-          "score": 3.316,
+          "hn": "329 points · 164 comments",
+          "score": 3.036,
           "coverage": 1
         },
         {
@@ -628,21 +624,8 @@
           "image": "https://defang.io/blog/imported/security-incident-november-2026/cover.png",
           "icon": "https://defang.io/icon.png?e5731c15c202d7f5",
           "domain": "defang.io",
-          "hn": "62 points · 19 comments",
-          "score": 2.528,
-          "coverage": 1
-        },
-        {
-          "title": "The New York Times warns photographers not to update Photoshop over AI features",
-          "link": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-          "excerpt": "The NYT doesn’t want AI metadata inadvertently added to its photos.",
-          "source": "theverge.com via Hacker News",
-          "date": "Nov 25",
-          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2289911637.jpg?quality=90&strip=all&crop=0%2C10.232235952618%2C100%2C79.535528094764&w=1200",
-          "icon": "https://www.theverge.com/static-assets/icons/apple-touch-icon.png",
-          "domain": "theverge.com",
-          "hn": "200 points · 154 comments",
-          "score": 3.151,
+          "hn": "68 points · 20 comments",
+          "score": 2.287,
           "coverage": 1
         }
       ]
