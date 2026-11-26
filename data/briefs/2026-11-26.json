@@ -1,22 +1,26 @@
 {
   "date": "2026-11-26",
   "lead": {
-    "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
-    "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
-    "excerpt": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets were not accessed. \"While we took immediate steps…",
-    "source": "The Hacker News",
+    "title": "1Password Breach Exposes Customer Data, Internal Source Code",
+    "link": "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
+    "excerpt": "A hacker used a compromised employee GitHub account to push malicious code and steal customer records, but vaults were not accessed.",
+    "source": "SecurityWeek",
     "date": "Nov 26",
-    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbu9vulg5_P2PLmwCbF5nNRu8UujJDFNLLCGackgRWjz4lmkQcAom8TerCouyPh1pF8sgBAiJTwO7qAQN3kLVd-_0e7czxqhyphenhyphenUQuSG6WyCJvoNsI92X7tl1ukE6h8QDLmQBUBJaKBCyTYXjaGMUeaczy-sTIjMvDHdQjphWmWyCsUyIG4Y7WD4J2FoQfgY/s1600/1password.jpg",
+    "image": "https://www.securityweek.com/wp-content/uploads/2026/11/1password.jpeg",
     "image_credit": null,
     "section": "Security & AppSec",
     "pinned": false,
     "note": null,
     "labels": [
-      "2 sources",
+      "3 sources",
       "Security & AppSec",
-      "1h ago"
+      "2h ago"
     ],
     "also": [
+      {
+        "name": "thehackernews.com",
+        "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html"
+      },
       {
         "name": "bleepingcomputer.com",
         "link": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/"
@@ -31,7 +35,7 @@
       "link_domain": "1password.com",
       "source": "Hacker News",
       "domain": "1password.com",
-      "meta": "Hacker News · 1.3k points · 549 comments · 12h ago",
+      "meta": "Hacker News · 1.4k points · 620 comments · 17h ago",
       "also": [
         {
           "source": "Lobsters",
@@ -42,25 +46,13 @@
       "icon": "https://1password.com/apple-touch-icon.png"
     },
     {
-      "title": "Marginalia Search, Money, C++, Rust, AI, stuff",
-      "thread": "https://lobste.rs/s/srb0dp/marginalia_search_money_c_rust_ai_stuff",
-      "link": "https://www.marginalia.nu/log/a_141_marginalia_update/",
-      "link_domain": "marginalia.nu",
-      "source": "Lobsters",
-      "domain": "marginalia.nu",
-      "meta": "Lobsters · 105 points · 21 comments · 23h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://www.marginalia.nu/favicon.ico"
-    },
-    {
       "title": "Slow Ubuntu security response times",
       "thread": "https://lobste.rs/s/wzlzlh/slow_ubuntu_security_response_times",
       "link": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
       "link_domain": "openwall.com",
       "source": "Lobsters",
       "domain": "openwall.com",
-      "meta": "Lobsters · 59 points · 2 comments · 9h ago",
+      "meta": "Lobsters · 71 points · 5 comments · 14h ago",
       "also": [
         {
           "source": "Hacker News",
@@ -77,7 +69,7 @@
       "link_domain": "github.com",
       "source": "Hacker News",
       "domain": "github.com",
-      "meta": "Hacker News · 383 points · 194 comments · 8h ago",
+      "meta": "Hacker News · 464 points · 249 comments · 13h ago",
       "also": [],
       "image": "https://opengraph.githubassets.com/e252b1c5c9fb76610e98b2b0d266e570b8daa9818124834cb5a1c8614d5f13a7/lsernau/grh-lean",
       "icon": "https://github.githubassets.com/favicons/favicon.svg"
@@ -89,7 +81,7 @@
       "link_domain": "theverge.com",
       "source": "Hacker News",
       "domain": "theverge.com",
-      "meta": "Hacker News · 291 points · 260 comments · 8h ago",
+      "meta": "Hacker News · 401 points · 334 comments · 13h ago",
       "also": [],
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2289911637.jpg?quality=90&strip=all&crop=0%2C10.232235952618%2C100%2C79.535528094764&w=1200",
       "icon": "https://www.theverge.com/static-assets/icons/apple-touch-icon.png"
@@ -101,22 +93,10 @@
       "link_domain": "scottaaronson.blog",
       "source": "Lobsters",
       "domain": "scottaaronson.blog",
-      "meta": "Lobsters · 32 points · 10 comments · 8h ago",
+      "meta": "Lobsters · 44 points · 28 comments · 13h ago",
       "also": [],
       "image": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvc2NvdHRhYXJvbnNvbi5ibG9nXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8xMFwvY3JvcHBlZC1KYWNrZXQuZ2lmIiwidHh0IjoiU2h0ZXRsLU9wdGltaXplZCIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxMjk1MjA1ODB9.siOtN7gHw4tefA_rZickBw4GfI6tPxGgOQ1AXr2ZoOQMQ",
       "icon": "https://scottaaronson.blog/wp-content/uploads/2021/10/cropped-Jacket-180x180.gif"
-    },
-    {
-      "title": "Taking over US Treasury subdomains for $3 each",
-      "thread": "https://lobste.rs/s/ogxwpi/taking_over_us_treasury_subdomains_for_3",
-      "link": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
-      "link_domain": "intruder.io",
-      "source": "Lobsters",
-      "domain": "intruder.io",
-      "meta": "Lobsters · 25 points · 2 comments · 19h ago",
-      "also": [],
-      "image": "https://cdn.prod.website-files.com/61dd9339d05701829d0b3241/6afdc01d62cd6e97b94540b6_Elastic%20IP%20adresses%20(1).jpg",
-      "icon": "https://cdn.prod.website-files.com/61dd9339d05701b1440b323d/61dd9339d0570119050b32d6_256.png"
     }
   ],
   "sections": [
@@ -133,7 +113,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 5.688,
+          "score": 4.709,
           "coverage": 1
         },
         {
@@ -146,7 +126,7 @@
           "icon": null,
           "domain": "research.google",
           "hn": null,
-          "score": 0.722,
+          "score": 0.605,
           "coverage": 1
         },
         {
@@ -159,11 +139,24 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.755,
+          "score": 0.628,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+          "link": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
+          "excerpt": "sqlite3_rsync: Database Remote-Copy Tool For SQLite This additional SQLite tool has been around for a while now - it was added as \"experimental\" in SQLite 3.47.0 in October 2024 and enhanced in SQLite 3.50.0 in May 2025. It was only today that I understood one of its most attractive…",
+          "source": "Simon Willison",
+          "date": "Nov 26",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 1.071,
+          "coverage": 1
+        },
         {
           "title": "Quoting Scott Aaronson",
           "link": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
@@ -174,20 +167,20 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.964,
+          "score": 0.766,
           "coverage": 1
         },
         {
-          "title": "datasette-charts 0.2a1",
-          "link": "https://simonwillison.net/2026/Nov/24/datasette-charts-2/",
-          "excerpt": "Release: datasette-charts 0.2a1 Minor UI improvements: Collapsing the suggested charts section now leaves the chart visible. Following a link to a chart opens it with the suggestions collapsed for that visit. On table pages the panel now sits below the \"4,235 rows where country = CHN\" line. The…",
-          "source": "Simon Willison",
-          "date": "Nov 24",
-          "image": null,
-          "icon": "https://simonwillison.net/favicon.ico",
-          "domain": "simonwillison.net",
+          "title": "Engineering leaders can’t prove AI is paying off",
+          "link": "https://leaddev.com/leadership/engineering-leaders-cant-prove-ai-is-paying-off?utm_source=leaddev&utm_medium=RSS",
+          "excerpt": "What 165 engineering leaders told us at LeadDev Berlin 2026.",
+          "source": "LeadDev",
+          "date": "Nov 26",
+          "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1280,h_853/next/2024/08/Reporting3-1.png",
+          "icon": null,
+          "domain": "leaddev.com",
           "hn": null,
-          "score": 0.3,
+          "score": 1.194,
           "coverage": 1
         },
         {
@@ -200,7 +193,7 @@
           "icon": null,
           "domain": "leaddev.com",
           "hn": null,
-          "score": 0.599,
+          "score": 0.516,
           "coverage": 1
         },
         {
@@ -213,20 +206,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 1.383,
-          "coverage": 1
-        },
-        {
-          "title": "An Indic Voice Agent with CUGA",
-          "link": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
-          "excerpt": "A Blog post by IBM Research on Hugging Face",
-          "source": "Hugging Face",
-          "date": "Nov 25",
-          "image": "https://cdn-uploads.huggingface.co/production/uploads/67fe070a4e8cc28ba346f53c/-QNcrxSDbjI8VOCBlhi-C.png",
-          "icon": "https://huggingface.co/favicon.ico",
-          "domain": "huggingface.co",
-          "hn": null,
-          "score": 0.567,
+          "score": 1.009,
           "coverage": 1
         }
       ]
@@ -244,7 +224,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.764,
+          "score": 0.613,
           "coverage": 1
         },
         {
@@ -257,7 +237,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.761,
+          "score": 0.611,
           "coverage": 1
         },
         {
@@ -270,7 +250,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.092,
+          "score": 0.09,
           "coverage": 1
         }
       ],
@@ -285,7 +265,7 @@
           "icon": "https://www.daytona.io/apple-touch-icon.png",
           "domain": "daytona.io",
           "hn": null,
-          "score": 0.828,
+          "score": 0.654,
           "coverage": 1
         }
       ]
@@ -303,7 +283,20 @@
           "icon": "https://randsinrepose.com/nitropack_static/pYcrXSmzMTYaBCajyDlByLkiWOiRWpVF/assets/images/optimized/rev-829047b/randsinrepose.com/wp-content/uploads/2025/08/cropped-rands-favicon-1-180x180.png",
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.831,
+          "score": 0.656,
+          "coverage": 1
+        },
+        {
+          "title": "Testing Article CS",
+          "link": "https://www.mckinsey.com/industries/healthcare/our-insights/testing-article-cs",
+          "excerpt": "Testing Article CS updated dek",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 26",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.654,
           "coverage": 1
         }
       ],
@@ -322,7 +315,7 @@
           "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
           "domain": "aembit.io",
           "hn": null,
-          "score": 4.716,
+          "score": 3.76,
           "coverage": 1
         },
         {
@@ -335,7 +328,7 @@
           "icon": "https://aembit.io/wp-content/uploads/2023/08/aembit-favicon-300x300.png",
           "domain": "aembit.io",
           "hn": null,
-          "score": 4.254,
+          "score": 3.407,
           "coverage": 1
         }
       ],
@@ -354,7 +347,48 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 1.81,
+          "score": 1.489,
+          "coverage": 1
+        },
+        {
+          "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+          "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+          "excerpt": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets were not accessed. \"While we took immediate steps…",
+          "source": "The Hacker News",
+          "date": "Nov 26",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbu9vulg5_P2PLmwCbF5nNRu8UujJDFNLLCGackgRWjz4lmkQcAom8TerCouyPh1pF8sgBAiJTwO7qAQN3kLVd-_0e7czxqhyphenhyphenUQuSG6WyCJvoNsI92X7tl1ukE6h8QDLmQBUBJaKBCyTYXjaGMUeaczy-sTIjMvDHdQjphWmWyCsUyIG4Y7WD4J2FoQfgY/s1600/1password.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 9.082,
+          "coverage": 3
+        },
+        {
+          "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+          "link": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+          "excerpt": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to…",
+          "source": "The Hacker News",
+          "date": "Nov 26",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiy2EcytpsKiKLhUfvQEADKBG6Ht2NprR2VIhIXPJcNQMIGqKT20l0afBPUVhehKFhRzpkHvl3Qu_qaPjFL3L4UsLYH3L4C1DM63zqskhJV1UAjaPqONaEbNkBFsxVDX2jpPZrMym52WvBx2pHktUiRfdXOcp_23xjTdUOxxjxJtI906XLMmw258Bjah1J2/s1600/drupal-rce.png",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.453,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+          "link": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+          "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed last week. The Mitel MiCollab vulnerabilities are listed below -…",
+          "source": "The Hacker News",
+          "date": "Nov 26",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEht82Zul6A6D_rTYZuOr0QQWkA4p8kQXRI-4qAYhdGBdTR0ZNzlHkHCiz3eSv5wm9Gq1rADX0CIEBUu08HBUbWd4fVKtL6f7UrWcaa_nVetYt0DyPj2-f_yM80HEIUbuy57mpftPYHHp1FKCNXvkDnFtsj-V5PWGUvWiNL38OKY3EIKUwKHuoKsIc4oSXeC/s1600/mitel.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.445,
           "coverage": 1
         },
         {
@@ -367,7 +401,20 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.504,
+          "score": 0.376,
+          "coverage": 1
+        },
+        {
+          "title": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
+          "link": "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
+          "excerpt": "Drupal warns that its previous installer patch left some websites vulnerable to takeover, with attackers already exploiting the gap.",
+          "source": "SecurityWeek",
+          "date": "Nov 26",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Drupal.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.524,
           "coverage": 1
         },
         {
@@ -380,61 +427,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.27,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties",
-          "link": "https://www.securityweek.com/shinyhunters-claims-comeback-new-inception-group-rejects-alleged-ties/",
-          "excerpt": "An account tied to ShinyHunters announced the group’s return, as Okta spots possible links between Inception and ShinyHunters hackers.",
-          "source": "SecurityWeek",
-          "date": "Nov 25",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/09/cybercrime-hacker.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.259,
-          "coverage": 1
-        },
-        {
-          "title": "US Treasury’s FinCEN Disconnects Systems Following Cyber Incident",
-          "link": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
-          "excerpt": "FinCEN has extended deadlines for filers affected by the disruptions while it is investigating the incident.",
-          "source": "SecurityWeek",
-          "date": "Nov 25",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/Treasury-Department.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.253,
-          "coverage": 1
-        },
-        {
-          "title": "Ground Truth: CISO Matt Martin on Building a Real Security Program Without an Enterprise Budget",
-          "link": "https://www.securityweek.com/ground-truth-ciso-matt-martin-on-building-a-real-security-program-without-an-enterprise-budget/",
-          "excerpt": "Matthew Martin is Chief Information Security and Privacy Officer at Western Carolina University.",
-          "source": "SecurityWeek",
-          "date": "Nov 25",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/Matt_Martin_CISO.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.252,
-          "coverage": 1
-        },
-        {
-          "title": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
-          "link": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
-          "excerpt": "A China-linked hacking group chained PHP2Shell with Fragnesia in AI-assisted attacks that hit 25 servers.",
-          "source": "SecurityWeek",
-          "date": "Nov 25",
-          "image": "https://www.securityweek.com/wp-content/uploads/2024/04/Palo-Alto-Networks.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.212,
+          "score": 0.229,
           "coverage": 1
         }
       ]
@@ -452,7 +445,20 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 5.604,
+          "score": 4.56,
+          "coverage": 1
+        },
+        {
+          "title": "Recap of Microsoft Ignite 2026: Copilot as the Work OS and Agent Governance",
+          "link": "https://www.infoq.com/news/2026/11/microsoft-ignite-2026-recap/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "At Ignite 2026, Microsoft positioned Copilot as the operating system for work and extended agent identity, governance, and cost controls across Azure, Foundry, Entra, and Defender. Highlights include Cobalt 200 VMs, Azure HorizonDB, a continuous improvement loop in Foundry, Microsoft IQ, a…",
+          "source": "InfoQ",
+          "date": "Nov 26",
+          "image": "https://res.infoq.com/news/2026/11/microsoft-ignite-2026-recap/en/headerimage/generatedHeaderImage-1795605995597.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 4.541,
           "coverage": 1
         },
         {
@@ -465,9 +471,11 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 1.41,
+          "score": 1.193,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Make post-quantum cryptography updates routine with AWS-LC",
           "link": "https://aws.amazon.com/blogs/security/make-post-quantum-cryptography-updates-routine-with-aws-lc/",
@@ -478,11 +486,9 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.63,
+          "score": 0.496,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "ICYMI: October 2026 @AWS Security",
           "link": "https://aws.amazon.com/blogs/security/icymi-october-2026-aws-security/",
@@ -493,7 +499,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.591,
+          "score": 0.471,
           "coverage": 1
         },
         {
@@ -506,7 +512,7 @@
           "icon": null,
           "domain": "aws.amazon.com",
           "hn": null,
-          "score": 0.507,
+          "score": 0.416,
           "coverage": 1
         },
         {
@@ -519,7 +525,7 @@
           "icon": null,
           "domain": "pulumi.com",
           "hn": null,
-          "score": 0.214,
+          "score": 0.192,
           "coverage": 1
         },
         {
@@ -532,20 +538,7 @@
           "icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
           "domain": "github.blog",
           "hn": null,
-          "score": 0.431,
-          "coverage": 1
-        },
-        {
-          "title": "These are the gifts developers will actually want",
-          "link": "https://github.blog/news-insights/company-news/these-are-the-gifts-developers-will-actually-want/",
-          "excerpt": "The developer you're shopping for hasn’t shared their holiday wish list with you yet? Check out these gifts, plus our Black Friday discount all week long.",
-          "source": "The GitHub Blog",
-          "date": "Nov 24",
-          "image": "https://github.blog/wp-content/uploads/2026/11/Universe-4-4.jpg?resize=1024%2C576",
-          "icon": null,
-          "domain": "github.blog",
-          "hn": null,
-          "score": 0.225,
+          "score": 0.364,
           "coverage": 1
         }
       ]
@@ -563,7 +556,48 @@
           "icon": null,
           "domain": "theverge.com",
           "hn": null,
-          "score": 3.192,
+          "score": 2.637,
+          "coverage": 1
+        },
+        {
+          "title": "Moat: Your OpenRouter Replacement",
+          "link": "https://commandcode.ai/moat",
+          "excerpt": "MOAT is the Costco of AI tokens. Pay $5/month. Get 100+ open models of the highest quality at wholesale prices, the cheapest you can get. No usage limits.",
+          "source": "commandcode.ai via Hacker News",
+          "date": "Nov 26",
+          "image": "https://commandcode.ai/moat/og.png",
+          "icon": "https://commandcode.ai/apple-touch-icon.png",
+          "domain": "commandcode.ai",
+          "hn": "70 points · 50 comments",
+          "score": 2.706,
+          "coverage": 1
+        },
+        {
+          "title": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
+          "link": "https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/",
+          "excerpt": "How John Lions' Unix lecture notes became an underground classic, and finally made it into print.",
+          "source": "fosscomics.com via Hacker News",
+          "date": "Nov 26",
+          "image": "https://fosscomics.com/posts/17. Lions' Commentary on Unix/images/lions-commentary.png",
+          "icon": "https://fosscomics.com/images/favicon.png",
+          "domain": "fosscomics.com",
+          "hn": "107 points · 16 comments",
+          "score": 2.514,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Unconditional Integer Factorization in Subexponential Time",
+          "link": "https://github.com/google-research/google-research/tree/4a7bc8ab0bc770e71a259b7966c500496b99010a/cogentic_research_papers/integer_factorization",
+          "excerpt": "Google Research. Contribute to google-research/google-research development by creating an account on GitHub.",
+          "source": "github.com via Hacker News",
+          "date": "Nov 26",
+          "image": "https://opengraph.githubassets.com/5e97b96d80c37c122996b5fd51b9b48d1fc8979ff7ff19e51dba99f509af5fe3/google-research/google-research",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "45 points · 4 comments",
+          "score": 2.08,
           "coverage": 1
         },
         {
@@ -575,8 +609,8 @@
           "image": "https://substackcdn.com/image/fetch/$s_!mATE!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F190e658d-11f6-4bdf-a0b1-d472149e53b6_1148x878.png",
           "icon": "https://substackcdn.com/image/fetch/$s_!2gTG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6d6ceac7-3196-46ce-837d-21e5b40021ae%2Fapple-touch-icon-57x57.png",
           "domain": "chipsandcheese.com",
-          "hn": "18 points · 1 comments",
-          "score": 2.086,
+          "hn": "50 points · 22 comments",
+          "score": 2.099,
           "coverage": 1
         },
         {
@@ -588,75 +622,34 @@
           "image": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_400x400.jpg",
           "icon": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
           "domain": "twitter.com",
-          "hn": "86 points · 51 comments",
-          "score": 3.133,
+          "hn": "262 points · 143 comments",
+          "score": 2.795,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Minipg: PostgreSQL as a Single Executable",
           "link": "https://progrium.github.io/minipg/",
-          "excerpt": "34 points · 4 comments",
+          "excerpt": "139 points · 21 comments",
           "source": "progrium.github.io via Hacker News",
           "date": "Nov 26",
           "image": null,
           "icon": "https://progrium.github.io/favicon.ico",
           "domain": "progrium.github.io",
-          "hn": "34 points · 4 comments",
-          "score": 2.341,
+          "hn": "139 points · 21 comments",
+          "score": 2.34,
           "coverage": 1
         },
         {
           "title": "Tell HN: Lots of Ask HNs again",
           "link": "https://news.ycombinator.com/item?id=50649864",
-          "excerpt": "189 points · 74 comments",
+          "excerpt": "277 points · 101 comments",
           "source": "Hacker News",
           "date": "Nov 26",
           "image": null,
           "icon": null,
           "domain": "news.ycombinator.com",
-          "hn": "189 points · 74 comments",
-          "score": 2.91,
-          "coverage": 1
-        },
-        {
-          "title": "Collection of preserved UI style guides",
-          "link": "https://aresluna.org/ui-style-guides/",
-          "excerpt": "A library of every single UI style guide and guideline document",
-          "source": "aresluna.org via Hacker News",
-          "date": "Nov 26",
-          "image": "https://aresluna.org/images/ui-style-guides/ogimage.png",
-          "icon": "https://aresluna.org/ui-style-guides/site/ui/favicon.png",
-          "domain": "aresluna.org",
-          "hn": "82 points · 7 comments",
-          "score": 2.408,
-          "coverage": 1
-        },
-        {
-          "title": "Bare Metal Qwen",
-          "link": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
-          "excerpt": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies...",
-          "source": "github.com via Hacker News",
-          "date": "Nov 25",
-          "image": "https://opengraph.githubassets.com/1cbee064585fed4b40f809369875bdbbbf8a9e52d3847762ac91c4a02bc15fab/alesha-pro/llm.asm",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "105 points · 22 comments",
-          "score": 2.257,
-          "coverage": 1
-        },
-        {
-          "title": "Deploying a payphone on a tiny Pacific Island for fun and zero profit",
-          "link": "https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/",
-          "excerpt": "77 points · 9 comments",
-          "source": "nickvsnetworking.com via Hacker News",
-          "date": "Nov 25",
-          "image": null,
-          "icon": "https://nickvsnetworking.com/wp-content/uploads/2020/02/cropped-f3727314f1f7fead8c75ff040df58fcf-1-180x180.png",
-          "domain": "nickvsnetworking.com",
-          "hn": "77 points · 9 comments",
-          "score": 2.097,
+          "hn": "277 points · 101 comments",
+          "score": 2.407,
           "coverage": 1
         }
       ]

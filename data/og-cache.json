@@ -1037,6 +1037,12 @@
   "icon": "https://colossus.com/wp-content/themes/colossus/assets/images/icons/apple-touch-icon.png",
   "image": "https://colossus.com/wp-content/uploads/2025/09/Neumann-preview-card.jpg"
  },
+ "https://commandcode.ai/moat": {
+  "description": "MOAT is the Costco of AI tokens. Pay $5/month. Get 100+ open models of the highest quality at wholesale prices, the cheapest you can get. No usage limits.",
+  "fetched": "2026-11-26",
+  "icon": "https://commandcode.ai/apple-touch-icon.png",
+  "image": "https://commandcode.ai/moat/og.png"
+ },
  "https://commandlinesystems.com/magic.txt": {
   "description": null,
   "fetched": "2026-11-12",
@@ -1733,6 +1739,12 @@
   "icon": "https://fosscomics.com/images/favicon.png",
   "image": "https://fosscomics.com/posts/13. BSD Unix Part 3 - The Beginning of BSD Unix/images/feature.png"
  },
+ "https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/": {
+  "description": "How John Lions' Unix lecture notes became an underground classic, and finally made it into print.",
+  "fetched": "2026-11-26",
+  "icon": "https://fosscomics.com/images/favicon.png",
+  "image": "https://fosscomics.com/posts/17. Lions' Commentary on Unix/images/lions-commentary.png"
+ },
  "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432": {
   "description": "No patched kernels are available yet for 22.04, 24.04, or 26.04 despite a CVSS 9.8 rating.",
   "fetched": "2026-11-03",
@@ -2098,6 +2110,12 @@
   "fetched": "2026-11-11",
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://opengraph.githubassets.com/42448569c70a9c93c9ecb206eec94ef3e1edb619f14a979d930107881bd3214d/gmkurtzer/ginux"
+ },
+ "https://github.com/google-research/google-research/tree/4a7bc8ab0bc770e71a259b7966c500496b99010a/cogentic_research_papers/integer_factorization": {
+  "description": "Google Research. Contribute to google-research/google-research development by creating an account on GitHub.",
+  "fetched": "2026-11-26",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://opengraph.githubassets.com/5e97b96d80c37c122996b5fd51b9b48d1fc8979ff7ff19e51dba99f509af5fe3/google-research/google-research"
  },
  "https://github.com/google-research/google-research/tree/master/cogentic_research_papers": {
   "description": "Google Research. Contribute to google-research/google-research development by creating an account on GitHub.",
@@ -5047,6 +5065,12 @@
  },
  "https://simonwillison.net/2026/Nov/25/scott-aaronson/": {
   "description": "It’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed …",
+  "fetched": "2026-11-26",
+  "icon": null,
+  "image": null
+ },
+ "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/": {
+  "description": "This additional SQLite tool has been around for a while now - it was added as \"experimental\" in SQLite 3.47.0 in October 2024 and enhanced in SQLite 3.50.0 in May …",
   "fetched": "2026-11-26",
   "icon": null,
   "image": null
@@ -8465,6 +8489,12 @@
   "icon": null,
   "image": null
  },
+ "https://www.mckinsey.com/industries/healthcare/our-insights/testing-article-cs": {
+  "description": null,
+  "fetched": "2026-11-26",
+  "icon": null,
+  "image": null
+ },
  "https://www.mckinsey.com/industries/healthcare/our-insights/the-future-of-healthcare": {
   "description": null,
   "fetched": "2026-11-09",
@@ -9215,6 +9245,12 @@
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2023/05/COSMICENERGY-OT-Malware.jpg"
  },
+ "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/": {
+  "description": "1Password disclosed a breach involving the theft of customer account data and internal source code, but password vaults are safe.",
+  "fetched": "2026-11-26",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/11/1password.jpeg"
+ },
  "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/": {
   "description": "Polymarket briefly halted trading after a compromised third-party script, which researchers tied to DebugBear, drained user accounts.",
   "fetched": "2026-10-30",
@@ -9535,6 +9571,12 @@
  },
  "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/": {
   "description": "Drupal confirms active exploitation of CVE-2026-132165, a critical installer flaw discovered by Anthropic’s scanner and added to CISA KEV.",
+  "fetched": "2026-11-26",
+  "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+  "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Drupal.jpg"
+ },
+ "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/": {
+  "description": "Drupal patches a newly disclosed installer flaw being exploited to hijack websites that remained vulnerable after an earlier fix.",
   "fetched": "2026-11-26",
   "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
   "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Drupal.jpg"
