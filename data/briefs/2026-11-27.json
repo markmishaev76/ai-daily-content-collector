@@ -14,7 +14,7 @@
     "labels": [
       "2 sources",
       "News & Research",
-      "under 1h ago"
+      "2h ago"
     ],
     "also": [
       {
@@ -25,28 +25,28 @@
   },
   "pulse": [
     {
-      "title": "Tracking Diseases Cured by AI",
-      "thread": "https://news.ycombinator.com/item?id=50657307",
-      "link": "https://diseasescuredbyai.com/",
-      "link_domain": "diseasescuredbyai.com",
-      "source": "Hacker News",
-      "domain": "diseasescuredbyai.com",
-      "meta": "Hacker News · 306 points · 183 comments · 10h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://diseasescuredbyai.com/favicon.ico"
-    },
-    {
       "title": "OpenAI may be in cost control mode",
       "thread": "https://news.ycombinator.com/item?id=50652527",
       "link": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
       "link_domain": "micjm.com",
       "source": "Hacker News",
       "domain": "micjm.com",
-      "meta": "Hacker News · 301 points · 309 comments · 20h ago",
+      "meta": "Hacker News · 311 points · 319 comments · 22h ago",
       "also": [],
       "image": null,
       "icon": "https://micjm.com/favicon.ico"
+    },
+    {
+      "title": "Tracking Diseases Cured by AI",
+      "thread": "https://news.ycombinator.com/item?id=50657307",
+      "link": "https://diseasescuredbyai.com/",
+      "link_domain": "diseasescuredbyai.com",
+      "source": "Hacker News",
+      "domain": "diseasescuredbyai.com",
+      "meta": "Hacker News · 307 points · 186 comments · 12h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://diseasescuredbyai.com/favicon.ico"
     },
     {
       "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
@@ -55,7 +55,7 @@
       "link_domain": "techstackups.com",
       "source": "Hacker News",
       "domain": "techstackups.com",
-      "meta": "Hacker News · 277 points · 231 comments · 18h ago",
+      "meta": "Hacker News · 303 points · 256 comments · 20h ago",
       "also": [],
       "image": "https://techstackups.com/img/articles/google-workspace-agent-api/cover.jpg",
       "icon": "https://techstackups.com/img/apple-touch-icon.png"
@@ -75,7 +75,20 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.449,
+          "score": 0.427,
+          "coverage": 1
+        },
+        {
+          "title": "Sandboxes, secure inference, and keeping agents from going rogue",
+          "link": "https://stackoverflow.blog/2026/11/27/sandboxes-secure-inference-and-rogue-agents/",
+          "excerpt": "At We Are Developers, Ryan talks with Daytona CEO and cofounder Ivan Burazin about agent sandboxes and Blackbox AI CTO and cofounder Richard Risk about encrypted inference.",
+          "source": "Stack Overflow Blog",
+          "date": "Nov 27",
+          "image": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format",
+          "icon": "https://stackoverflow.blog/apple-touch-icon.png",
+          "domain": "stackoverflow.blog",
+          "hn": null,
+          "score": 1.5,
           "coverage": 1
         }
       ],
@@ -87,14 +100,14 @@
         {
           "title": "Notion's official MCP inject hidden upsell instructions into agent context",
           "link": "https://www.reddit.com/r/ClaudeCode/comments/1y4qm5o/heads_up_if_you_wire_notions_official_mcp_into/",
-          "excerpt": "51 points · 22 comments",
+          "excerpt": "52 points · 22 comments",
           "source": "reddit.com via Hacker News",
           "date": "Nov 26",
           "image": null,
           "icon": "https://www.reddit.com/favicon.ico",
           "domain": "reddit.com",
-          "hn": "51 points · 22 comments",
-          "score": 6.105,
+          "hn": "52 points · 22 comments",
+          "score": 5.596,
           "coverage": 1
         },
         {
@@ -107,20 +120,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.703,
-          "coverage": 1
-        },
-        {
-          "title": "Linus Torvalds: \"Tell Your AI Companion to Get Its Act Together\"",
-          "link": "https://www.phoronix.com/news/Linus-Torvalds-EXT4-AI-Big",
-          "excerpt": "A big EXT4 pull request today intended for the Linux 7.4-rc5 kernel has set off Linus Torvalds",
-          "source": "phoronix.com via Hacker News",
-          "date": "Nov 27",
-          "image": "https://www.phoronix.net/image.php?id=2026&image=more_ext4_perf",
-          "icon": "https://www.phoronix.com/apple-touch-icon-57x57.png",
-          "domain": "phoronix.com",
-          "hn": "14 points · 0 comments",
-          "score": 3.463,
+          "score": 0.63,
           "coverage": 1
         }
       ],
@@ -139,7 +139,7 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 1.711,
+          "score": 1.562,
           "coverage": 1
         },
         {
@@ -152,7 +152,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.352,
+          "score": 0.321,
           "coverage": 1
         },
         {
@@ -165,7 +165,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.313,
+          "score": 0.288,
           "coverage": 1
         }
       ],
@@ -180,7 +180,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.252,
+          "score": 0.236,
           "coverage": 1
         },
         {
@@ -193,7 +193,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.379,
+          "score": 0.343,
           "coverage": 1
         },
         {
@@ -206,7 +206,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.325,
+          "score": 0.298,
           "coverage": 1
         },
         {
@@ -219,7 +219,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.315,
+          "score": 0.29,
           "coverage": 1
         },
         {
@@ -232,7 +232,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.291,
+          "score": 0.27,
           "coverage": 1
         }
       ]
@@ -250,7 +250,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.394,
+          "score": 0.362,
           "coverage": 1
         },
         {
@@ -263,7 +263,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.311,
+          "score": 0.291,
           "coverage": 1
         },
         {
@@ -276,7 +276,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.28,
+          "score": 0.264,
           "coverage": 1
         }
       ],
@@ -291,7 +291,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 1.902,
+          "score": 1.794,
           "coverage": 1
         },
         {
@@ -304,7 +304,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.191,
+          "score": 0.183,
           "coverage": 1
         },
         {
@@ -317,7 +317,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.182,
+          "score": 0.175,
           "coverage": 1
         },
         {
@@ -330,7 +330,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.179,
+          "score": 0.173,
           "coverage": 1
         },
         {
@@ -343,7 +343,7 @@
           "icon": null,
           "domain": "microservices.io",
           "hn": null,
-          "score": 0.161,
+          "score": 0.155,
           "coverage": 1
         }
       ]
@@ -352,16 +352,16 @@
       "name": "News & Research",
       "cards": [
         {
-          "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
-          "link": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
-          "excerpt": "Google Deepmind uses AI agents to run experiments on their own for upcoming Gemini models. Research chief Koray Kavukcuoglu says the lab is still far from recursive self-improvement. For oversight, Deepmind intentionally leaves the agents' internal chains of thought untrained so they can be…",
-          "source": "the-decoder.com via Hacker News",
+          "title": "\"What's Claude's Fursona?\" and Other Questions",
+          "link": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/",
+          "excerpt": "Does Gemini 4 Neon mog Fable-5.2 on FursonaBench??",
+          "source": "herecomesthemoon.net via Hacker News",
           "date": "Nov 27",
-          "image": "https://the-decoder.com/wp-content/uploads/2026/11/gemini-4-neon__blog-header__sm.width-1600.format-webp.webp",
-          "icon": "https://the-decoder.com/resources/favicons/apple-touch-icon-60x60.png?v=3",
-          "domain": "the-decoder.com",
-          "hn": "41 points · 19 comments",
-          "score": 6.05,
+          "image": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/images/dithers/claude-fable-header_dithered.png",
+          "icon": "https://herecomesthemoon.net/icon_hu_a29090d5403a4531.png",
+          "domain": "herecomesthemoon.net",
+          "hn": "39 points · 3 comments",
+          "score": 3.428,
           "coverage": 1
         },
         {
@@ -373,21 +373,21 @@
           "image": "https://pub-430e0c9ecb66464fa6999cd23a749d13.r2.dev/content/images/2026/11/black-friday-hard-drive-prices-are-messed-up/row-of-easystore-drives-on-a-cluttered-workbench.webp",
           "icon": "https://pub-430e0c9ecb66464fa6999cd23a749d13.r2.dev/content/images/size/w256h256/2021/09/2773080.png",
           "domain": "blog.ktz.me",
-          "hn": "116 points · 59 comments",
-          "score": 3.978,
+          "hn": "223 points · 141 comments",
+          "score": 3.938,
           "coverage": 1
         },
         {
-          "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
-          "link": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
-          "excerpt": "Traditional architecture is alive and well in Lahore. A photo essay of Kamil Khan Mumtaz’s greatest works.",
-          "source": "worksinprogress.co via Hacker News",
-          "date": "Nov 26",
-          "image": "https://worksinprogress.co/wip-image/uploads/2026/11/The_Greatest_Architect_Sharecard_03.jpg",
-          "icon": "https://worksinprogress.co/apple-touch-icon.png",
-          "domain": "worksinprogress.co",
-          "hn": "281 points · 59 comments",
-          "score": 3.467,
+          "title": "ESO statement on approval of launch of one million space data centres",
+          "link": "https://www.eso.org/public/news/eso2614/",
+          "excerpt": "ESO statement on approval of launch of one million space data centres",
+          "source": "eso.org via Hacker News",
+          "date": "Nov 27",
+          "image": "https://cdn.eso.org/images/screen/eso2607a.jpg",
+          "icon": "https://www.eso.org/public/archives/favicon.ico",
+          "domain": "eso.org",
+          "hn": "25 points · 32 comments",
+          "score": 2.667,
           "coverage": 1
         }
       ],
@@ -401,21 +401,21 @@
           "image": null,
           "icon": "https://support.google.com/favicon.png",
           "domain": "support.google.com",
-          "hn": "30 points · 6 comments",
-          "score": 6.764,
+          "hn": "82 points · 42 comments",
+          "score": 6.814,
           "coverage": 2
         },
         {
           "title": "Novita, StreamLake, etc. are ByteDance Ark wrappers",
           "link": "https://kendell.dev/blog/arkwrapper/",
-          "excerpt": "60 points · 10 comments",
+          "excerpt": "77 points · 12 comments",
           "source": "kendell.dev via Hacker News",
           "date": "Nov 26",
           "image": null,
           "icon": "https://kendell.dev/favicon.ico",
           "domain": "kendell.dev",
-          "hn": "60 points · 10 comments",
-          "score": 2.767,
+          "hn": "77 points · 12 comments",
+          "score": 2.61,
           "coverage": 1
         },
         {
@@ -427,8 +427,21 @@
           "image": null,
           "icon": "https://janlukas.blog/profile.png?s=180&v=f619bca187429a0d5eb2596013df9bc92473cf9915ea22217d5efd65c85712c0",
           "domain": "janlukas.blog",
-          "hn": "404 points · 222 comments",
-          "score": 3.923,
+          "hn": "483 points · 250 comments",
+          "score": 3.615,
+          "coverage": 1
+        },
+        {
+          "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
+          "link": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
+          "excerpt": "Traditional architecture is alive and well in Lahore. A photo essay of Kamil Khan Mumtaz’s greatest works.",
+          "source": "worksinprogress.co via Hacker News",
+          "date": "Nov 26",
+          "image": "https://worksinprogress.co/wip-image/uploads/2026/11/The_Greatest_Architect_Sharecard_03.jpg",
+          "icon": "https://worksinprogress.co/apple-touch-icon.png",
+          "domain": "worksinprogress.co",
+          "hn": "319 points · 74 comments",
+          "score": 3.205,
           "coverage": 1
         },
         {
@@ -440,21 +453,8 @@
           "image": null,
           "icon": "https://lia.mg/assets/img/favicons/apple-touch-icon.png",
           "domain": "lia.mg",
-          "hn": "165 points · 66 comments",
-          "score": 3.213,
-          "coverage": 1
-        },
-        {
-          "title": "Rvoip: VoIP stack in Rust",
-          "link": "https://github.com/eisenzopf/rvoip",
-          "excerpt": "Open-source Rust SIP/VoIP stack: SIP, WebRTC, SRTP and AI voice agents behind one API. RFC 7502-benchmarked. - eisenzopf/rvoip",
-          "source": "github.com via Hacker News",
-          "date": "Nov 26",
-          "image": "https://opengraph.githubassets.com/7bc3b49bcfc2fe9540ba758b6a70e71bb44b35cf7691807ebe7d97fa45ccdd10/eisenzopf/rvoip",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "101 points · 19 comments",
-          "score": 2.665,
+          "hn": "220 points · 91 comments",
+          "score": 3.05,
           "coverage": 1
         }
       ]
