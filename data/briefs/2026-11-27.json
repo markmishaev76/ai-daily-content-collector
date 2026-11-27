@@ -1,35 +1,29 @@
 {
   "date": "2026-11-27",
   "lead": {
-    "title": "AI made self-hosting fun again",
-    "link": "https://janlukas.blog/posts/ai-self-hosting",
-    "excerpt": "I’ve been self-hosting things for many years. There were times when I was quite enthusiastic about it, constantly trying out new software and tinkering with my infrastructure. But at some point, that enthusiasm faded a bit.",
-    "source": "janlukas.blog via Hacker News",
+    "title": "Android app developers will soon have to share their address publicly",
+    "link": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+    "excerpt": "Independent Android app developers are worried about their privacy after Google announced that from next year many of them will be required to share a phone number and address publicly. The policy change is intended to meet European Union regulations under the Digital Services Act, but Google says…",
+    "source": "The Verge",
     "date": "Nov 26",
-    "image": null,
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24007893/acastro_STK112_android_02.jpg?quality=90&strip=all&crop=0,0,100,100",
     "image_credit": null,
     "section": "News & Research",
     "pinned": false,
     "note": null,
     "labels": [
+      "2 sources",
       "News & Research",
-      "4h ago"
+      "under 1h ago"
     ],
-    "also": []
+    "also": [
+      {
+        "name": "support.google.com",
+        "link": "https://support.google.com/googleplay/android-developer/answer/17594752?hl=en"
+      }
+    ]
   },
   "pulse": [
-    {
-      "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
-      "thread": "https://news.ycombinator.com/item?id=50651117",
-      "link": "https://twitter.com/thsottiaux/status/2125784147889393806",
-      "link_domain": "twitter.com",
-      "source": "Hacker News",
-      "domain": "twitter.com",
-      "meta": "Hacker News · 466 points · 259 comments · 22h ago",
-      "also": [],
-      "image": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_400x400.jpg",
-      "icon": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png"
-    },
     {
       "title": "Tracking Diseases Cured by AI",
       "thread": "https://news.ycombinator.com/item?id=50657307",
@@ -37,7 +31,7 @@
       "link_domain": "diseasescuredbyai.com",
       "source": "Hacker News",
       "domain": "diseasescuredbyai.com",
-      "meta": "Hacker News · 303 points · 180 comments · 8h ago",
+      "meta": "Hacker News · 306 points · 183 comments · 10h ago",
       "also": [],
       "image": null,
       "icon": "https://diseasescuredbyai.com/favicon.ico"
@@ -49,7 +43,7 @@
       "link_domain": "micjm.com",
       "source": "Hacker News",
       "domain": "micjm.com",
-      "meta": "Hacker News · 277 points · 278 comments · 18h ago",
+      "meta": "Hacker News · 301 points · 309 comments · 20h ago",
       "also": [],
       "image": null,
       "icon": "https://micjm.com/favicon.ico"
@@ -61,7 +55,7 @@
       "link_domain": "techstackups.com",
       "source": "Hacker News",
       "domain": "techstackups.com",
-      "meta": "Hacker News · 244 points · 207 comments · 16h ago",
+      "meta": "Hacker News · 277 points · 231 comments · 18h ago",
       "also": [],
       "image": "https://techstackups.com/img/articles/google-workspace-agent-api/cover.jpg",
       "icon": "https://techstackups.com/img/apple-touch-icon.png"
@@ -81,7 +75,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.472,
+          "score": 0.449,
           "coverage": 1
         }
       ],
@@ -93,14 +87,14 @@
         {
           "title": "Notion's official MCP inject hidden upsell instructions into agent context",
           "link": "https://www.reddit.com/r/ClaudeCode/comments/1y4qm5o/heads_up_if_you_wire_notions_official_mcp_into/",
-          "excerpt": "48 points · 18 comments",
+          "excerpt": "51 points · 22 comments",
           "source": "reddit.com via Hacker News",
           "date": "Nov 26",
           "image": null,
           "icon": "https://www.reddit.com/favicon.ico",
           "domain": "reddit.com",
-          "hn": "48 points · 18 comments",
-          "score": 6.66,
+          "hn": "51 points · 22 comments",
+          "score": 6.105,
           "coverage": 1
         },
         {
@@ -113,7 +107,20 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.797,
+          "score": 0.703,
+          "coverage": 1
+        },
+        {
+          "title": "Linus Torvalds: \"Tell Your AI Companion to Get Its Act Together\"",
+          "link": "https://www.phoronix.com/news/Linus-Torvalds-EXT4-AI-Big",
+          "excerpt": "A big EXT4 pull request today intended for the Linux 7.4-rc5 kernel has set off Linus Torvalds",
+          "source": "phoronix.com via Hacker News",
+          "date": "Nov 27",
+          "image": "https://www.phoronix.net/image.php?id=2026&image=more_ext4_perf",
+          "icon": "https://www.phoronix.com/apple-touch-icon-57x57.png",
+          "domain": "phoronix.com",
+          "hn": "14 points · 0 comments",
+          "score": 3.463,
           "coverage": 1
         }
       ],
@@ -132,7 +139,7 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 1.891,
+          "score": 1.711,
           "coverage": 1
         },
         {
@@ -145,7 +152,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.39,
+          "score": 0.352,
           "coverage": 1
         },
         {
@@ -158,7 +165,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.343,
+          "score": 0.313,
           "coverage": 1
         }
       ],
@@ -173,7 +180,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.272,
+          "score": 0.252,
           "coverage": 1
         },
         {
@@ -186,7 +193,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.424,
+          "score": 0.379,
           "coverage": 1
         },
         {
@@ -199,7 +206,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.358,
+          "score": 0.325,
           "coverage": 1
         },
         {
@@ -212,7 +219,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.345,
+          "score": 0.315,
           "coverage": 1
         },
         {
@@ -225,7 +232,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.317,
+          "score": 0.291,
           "coverage": 1
         }
       ]
@@ -243,7 +250,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.432,
+          "score": 0.394,
           "coverage": 1
         },
         {
@@ -256,7 +263,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.334,
+          "score": 0.311,
           "coverage": 1
         },
         {
@@ -269,7 +276,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.299,
+          "score": 0.28,
           "coverage": 1
         }
       ],
@@ -284,7 +291,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 2.024,
+          "score": 1.902,
           "coverage": 1
         },
         {
@@ -297,7 +304,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.2,
+          "score": 0.191,
           "coverage": 1
         },
         {
@@ -310,7 +317,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.19,
+          "score": 0.182,
           "coverage": 1
         },
         {
@@ -323,7 +330,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.187,
+          "score": 0.179,
           "coverage": 1
         },
         {
@@ -336,7 +343,7 @@
           "icon": null,
           "domain": "microservices.io",
           "hn": null,
-          "score": 0.166,
+          "score": 0.161,
           "coverage": 1
         }
       ]
@@ -353,8 +360,21 @@
           "image": "https://the-decoder.com/wp-content/uploads/2026/11/gemini-4-neon__blog-header__sm.width-1600.format-webp.webp",
           "icon": "https://the-decoder.com/resources/favicons/apple-touch-icon-60x60.png?v=3",
           "domain": "the-decoder.com",
-          "hn": "25 points · 3 comments",
-          "score": 6.385,
+          "hn": "41 points · 19 comments",
+          "score": 6.05,
+          "coverage": 1
+        },
+        {
+          "title": "Hard Drive pricing has gotten bad",
+          "link": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
+          "excerpt": "The same 20TB drive went from $249.99 to $549.99 in two Black Fridays. I dug through eight years of receipts, including my ServerPartDeals orders.",
+          "source": "blog.ktz.me via Hacker News",
+          "date": "Nov 27",
+          "image": "https://pub-430e0c9ecb66464fa6999cd23a749d13.r2.dev/content/images/2026/11/black-friday-hard-drive-prices-are-messed-up/row-of-easystore-drives-on-a-cluttered-workbench.webp",
+          "icon": "https://pub-430e0c9ecb66464fa6999cd23a749d13.r2.dev/content/images/size/w256h256/2021/09/2773080.png",
+          "domain": "blog.ktz.me",
+          "hn": "116 points · 59 comments",
+          "score": 3.978,
           "coverage": 1
         },
         {
@@ -366,36 +386,49 @@
           "image": "https://worksinprogress.co/wip-image/uploads/2026/11/The_Greatest_Architect_Sharecard_03.jpg",
           "icon": "https://worksinprogress.co/apple-touch-icon.png",
           "domain": "worksinprogress.co",
-          "hn": "237 points · 48 comments",
-          "score": 3.772,
-          "coverage": 1
-        },
-        {
-          "title": "Rvoip: VoIP stack in Rust",
-          "link": "https://github.com/eisenzopf/rvoip",
-          "excerpt": "Open-source Rust SIP/VoIP stack: SIP, WebRTC, SRTP and AI voice agents behind one API. RFC 7502-benchmarked. - eisenzopf/rvoip",
-          "source": "github.com via Hacker News",
-          "date": "Nov 26",
-          "image": "https://opengraph.githubassets.com/7bc3b49bcfc2fe9540ba758b6a70e71bb44b35cf7691807ebe7d97fa45ccdd10/eisenzopf/rvoip",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "87 points · 17 comments",
-          "score": 2.874,
+          "hn": "281 points · 59 comments",
+          "score": 3.467,
           "coverage": 1
         }
       ],
       "more": [
         {
+          "title": "Google will show solo Android developers' phone numbers and addresses",
+          "link": "https://support.google.com/googleplay/android-developer/answer/17594752?hl=en",
+          "excerpt": "Under Google Play’s global developer policies, all active developer accounts must declare whether they are a trader or non-trader under European Economic Area (EEA) and United Kingdom (UK) laws in Pla",
+          "source": "support.google.com via Hacker News",
+          "date": "Nov 27",
+          "image": null,
+          "icon": "https://support.google.com/favicon.png",
+          "domain": "support.google.com",
+          "hn": "30 points · 6 comments",
+          "score": 6.764,
+          "coverage": 2
+        },
+        {
           "title": "Novita, StreamLake, etc. are ByteDance Ark wrappers",
           "link": "https://kendell.dev/blog/arkwrapper/",
-          "excerpt": "41 points · 6 comments",
+          "excerpt": "60 points · 10 comments",
           "source": "kendell.dev via Hacker News",
           "date": "Nov 26",
           "image": null,
           "icon": "https://kendell.dev/favicon.ico",
           "domain": "kendell.dev",
-          "hn": "41 points · 6 comments",
-          "score": 2.869,
+          "hn": "60 points · 10 comments",
+          "score": 2.767,
+          "coverage": 1
+        },
+        {
+          "title": "AI made self-hosting fun again",
+          "link": "https://janlukas.blog/posts/ai-self-hosting",
+          "excerpt": "I’ve been self-hosting things for many years. There were times when I was quite enthusiastic about it, constantly trying out new software and tinkering with my infrastructure. But at some point, that enthusiasm faded a bit.",
+          "source": "janlukas.blog via Hacker News",
+          "date": "Nov 26",
+          "image": null,
+          "icon": "https://janlukas.blog/profile.png?s=180&v=f619bca187429a0d5eb2596013df9bc92473cf9915ea22217d5efd65c85712c0",
+          "domain": "janlukas.blog",
+          "hn": "404 points · 222 comments",
+          "score": 3.923,
           "coverage": 1
         },
         {
@@ -407,34 +440,21 @@
           "image": null,
           "icon": "https://lia.mg/assets/img/favicons/apple-touch-icon.png",
           "domain": "lia.mg",
-          "hn": "89 points · 19 comments",
-          "score": 3.149,
+          "hn": "165 points · 66 comments",
+          "score": 3.213,
           "coverage": 1
         },
         {
-          "title": "Largest 2D Chart library in the world using BUI: BlenderUI",
-          "link": "https://bui.preetham.top/charts/",
-          "excerpt": "Install BUI Charts, draw your first chart in an rsx! block, and learn how this documentation is organised.",
-          "source": "bui.preetham.top via Hacker News",
+          "title": "Rvoip: VoIP stack in Rust",
+          "link": "https://github.com/eisenzopf/rvoip",
+          "excerpt": "Open-source Rust SIP/VoIP stack: SIP, WebRTC, SRTP and AI voice agents behind one API. RFC 7502-benchmarked. - eisenzopf/rvoip",
+          "source": "github.com via Hacker News",
           "date": "Nov 26",
-          "image": "https://bui.preetham.top/og.png",
-          "icon": "https://bui.preetham.top/apple-touch-icon.png",
-          "domain": "bui.preetham.top",
-          "hn": "58 points · 10 comments",
-          "score": 2.559,
-          "coverage": 1
-        },
-        {
-          "title": "George Whitesides, 1939-2026",
-          "link": "https://www.science.org/content/blog-post/george-whitesides-1939-2026",
-          "excerpt": "63 points · 7 comments",
-          "source": "science.org via Hacker News",
-          "date": "Nov 26",
-          "image": null,
-          "icon": "https://www.science.org/favicon.ico",
-          "domain": "science.org",
-          "hn": "63 points · 7 comments",
-          "score": 2.521,
+          "image": "https://opengraph.githubassets.com/7bc3b49bcfc2fe9540ba758b6a70e71bb44b35cf7691807ebe7d97fa45ccdd10/eisenzopf/rvoip",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "101 points · 19 comments",
+          "score": 2.665,
           "coverage": 1
         }
       ]
