@@ -1,0 +1,443 @@
+{
+  "date": "2026-11-27",
+  "lead": {
+    "title": "AI made self-hosting fun again",
+    "link": "https://janlukas.blog/posts/ai-self-hosting",
+    "excerpt": "I’ve been self-hosting things for many years. There were times when I was quite enthusiastic about it, constantly trying out new software and tinkering with my infrastructure. But at some point, that enthusiasm faded a bit.",
+    "source": "janlukas.blog via Hacker News",
+    "date": "Nov 26",
+    "image": null,
+    "image_credit": null,
+    "section": "News & Research",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "News & Research",
+      "4h ago"
+    ],
+    "also": []
+  },
+  "pulse": [
+    {
+      "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+      "thread": "https://news.ycombinator.com/item?id=50651117",
+      "link": "https://twitter.com/thsottiaux/status/2125784147889393806",
+      "link_domain": "twitter.com",
+      "source": "Hacker News",
+      "domain": "twitter.com",
+      "meta": "Hacker News · 466 points · 259 comments · 22h ago",
+      "also": [],
+      "image": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_400x400.jpg",
+      "icon": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png"
+    },
+    {
+      "title": "Tracking Diseases Cured by AI",
+      "thread": "https://news.ycombinator.com/item?id=50657307",
+      "link": "https://diseasescuredbyai.com/",
+      "link_domain": "diseasescuredbyai.com",
+      "source": "Hacker News",
+      "domain": "diseasescuredbyai.com",
+      "meta": "Hacker News · 303 points · 180 comments · 8h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://diseasescuredbyai.com/favicon.ico"
+    },
+    {
+      "title": "OpenAI may be in cost control mode",
+      "thread": "https://news.ycombinator.com/item?id=50652527",
+      "link": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
+      "link_domain": "micjm.com",
+      "source": "Hacker News",
+      "domain": "micjm.com",
+      "meta": "Hacker News · 277 points · 278 comments · 18h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://micjm.com/favicon.ico"
+    },
+    {
+      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "thread": "https://news.ycombinator.com/item?id=50653477",
+      "link": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "link_domain": "techstackups.com",
+      "source": "Hacker News",
+      "domain": "techstackups.com",
+      "meta": "Hacker News · 244 points · 207 comments · 16h ago",
+      "also": [],
+      "image": "https://techstackups.com/img/articles/google-workspace-agent-api/cover.jpg",
+      "icon": "https://techstackups.com/img/apple-touch-icon.png"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI-Assisted Engineering",
+      "cards": [
+        {
+          "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+          "link": "https://huggingface.co/blog/training-swarms",
+          "excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "source": "Hugging Face",
+          "date": "Nov 26",
+          "image": "https://huggingface.co/blog/assets/training-swarms/thumbnail.png",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null,
+          "score": 0.472,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "AI Agents & Agent Security",
+      "cards": [
+        {
+          "title": "Notion's official MCP inject hidden upsell instructions into agent context",
+          "link": "https://www.reddit.com/r/ClaudeCode/comments/1y4qm5o/heads_up_if_you_wire_notions_official_mcp_into/",
+          "excerpt": "48 points · 18 comments",
+          "source": "reddit.com via Hacker News",
+          "date": "Nov 26",
+          "image": null,
+          "icon": "https://www.reddit.com/favicon.ico",
+          "domain": "reddit.com",
+          "hn": "48 points · 18 comments",
+          "score": 6.66,
+          "coverage": 1
+        },
+        {
+          "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+          "link": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/",
+          "excerpt": "How $1,500 could qualify every company in the world, why customers hate the model selector, and how Clay is building go-to-market infrastructure for every agent",
+          "source": "Latent Space",
+          "date": "Nov 26",
+          "image": "https://i.ytimg.com/vi/qjPcaZf_plo/maxresdefault.jpg",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null,
+          "score": 0.797,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "Microsoft: Hackers in China, N Korea using ARTEX AI tool to break into global tech systems",
+          "link": "https://www.theregister.com/security/2026/11/26/microsoft-hackers-in-china-n-korea-using-artex-ai-tool-to-break-into-global-tech-systems/5312433",
+          "excerpt": "Agentic offensive framework automates familiar attack techniques, with weak defenses potentially breached in minutes",
+          "source": "The Register",
+          "date": "Nov 26",
+          "image": "https://image.theregister.com/?imageId=5310524&width=800",
+          "icon": null,
+          "domain": "theregister.com",
+          "hn": null,
+          "score": 1.891,
+          "coverage": 1
+        },
+        {
+          "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+          "link": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+          "excerpt": "A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install one can change what it does. Checking whether software works as expected only…",
+          "source": "The Hacker News",
+          "date": "Nov 26",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlwb4cL2xbF38yynT-hp8rHaGntsYzuQwL4-68g3SxEW4Taw6_Kl4WFfL4CuNRNXGxO_KS9prZaqk0A6SA6fib3k8j9miTymP8PzABv9OA21eSDsRv1j9NEgbIEVMR7u1C7VmFyFxdBf0Zcj2sckIyHDkRSjm76oFMDd10drUHa1ctv6190vdYHhuVuRPk/s1600/thday.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.39,
+          "coverage": 1
+        },
+        {
+          "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
+          "link": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
+          "excerpt": "FIFA didn’t say when the cyberattack took place, or the precise nature of the hacked information.",
+          "source": "SecurityWeek",
+          "date": "Nov 26",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/FIFA-stadium-football-soccer.webp",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.343,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
+          "link": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
+          "excerpt": "Accenture says hackers exploited MiCollab flaws before Mitel’s advisory, likely aided by AI, in a suspected extortion campaign.",
+          "source": "SecurityWeek",
+          "date": "Nov 26",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/Mitel.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 0.272,
+          "coverage": 1
+        },
+        {
+          "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
+          "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+          "excerpt": "OpenAI confirmed that it fixed a 'bug' that incorrectly discounted GPT-6.2 usage, which means you'll now hit GPT usage limits 40% faster than before. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 26",
+          "image": "https://www.bleepstatic.com/content/hl-images/2023/04/11/OpenAI-headpic.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.424,
+          "coverage": 1
+        },
+        {
+          "title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
+          "link": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
+          "excerpt": "NordVPN's 2026 Black Friday and Cyber Monday deal is now live, offering savings of up to 78% on VPN subscriptions, plus three extra months of protection. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 26",
+          "image": "https://www.bleepstatic.com/content/posts/2026/11/26/nordvpn-blackfriday-2026.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.358,
+          "coverage": 1
+        },
+        {
+          "title": "Fake paid expert interviews impersonate brands to steal Google logins",
+          "link": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
+          "excerpt": "An ongoing phishing campaign dubbed \"GoodGuys\" impersonates major brands, including Google, Nvidia, Accenture, and SpaceX, to steal corporate Google and Okta credentials using fake invitations to paid expert interviews and webinars. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 26",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/06/Phishing.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.345,
+          "coverage": 1
+        },
+        {
+          "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+          "link": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+          "excerpt": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 26",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/25/Gmail.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.317,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "QCon San Francisco 2026: How to Kill the Code Review",
+          "link": "https://www.infoq.com/news/2026/11/qcon-sf-26-kill-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Ankit Jain of Aviator told QCon San Francisco 2026 that line-by-line code review is already fading, since most review comments concern knowledge sharing rather than defects and over 75% of PRs merge without human review. He proposed six layers: argue, capture, codify, prove, debate, own. His team…",
+          "source": "InfoQ",
+          "date": "Nov 26",
+          "image": "https://res.infoq.com/news/2026/11/qcon-sf-26-kill-code-review/en/headerimage/generatedHeaderImage-1795712695641.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.432,
+          "coverage": 1
+        },
+        {
+          "title": "Building a Production-Ready Culture and Skills Through SRE-based Training",
+          "link": "https://www.infoq.com/news/2026/11/SRE-based-training/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Training can act as a confidence engine, turning repeated behaviors into habits and culture. We can tailor training programs that equip developers and operators with the skills to run their services in line with the organization’s maturity and growth, and apply SRE principles to the training…",
+          "source": "InfoQ",
+          "date": "Nov 26",
+          "image": "https://res.infoq.com/news/2026/11/SRE-based-training/en/headerimage/header-1795590551520.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.334,
+          "coverage": 1
+        },
+        {
+          "title": ".NET MAUI 11 Makes CoreCLR the Default Runtime and Adds Incremental XAML Hot Reload",
+          "link": "https://www.infoq.com/news/2026/11/dotnet-maui-11-coreclr-hotreload/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Microsoft released .NET 11 with a .NET MAUI update focused on product quality. CoreCLR is now the default runtime on all platforms, and XAML gets incremental hot reload, implicit namespaces and faster resource dictionaries. The release also adds device test templates and passkey support, and…",
+          "source": "InfoQ",
+          "date": "Nov 26",
+          "image": "https://res.infoq.com/news/2026/11/dotnet-maui-11-coreclr-hotreload/en/headerimage/header-1795560880894.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.299,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Mock Service Worker Releases v3.0 with ESM-Only Build, Socket-Based Interception and GraphQL Subs",
+          "link": "https://www.infoq.com/news/2026/11/mock-service-worker-v3/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Mock Service Worker 3.0 is now ESM-only, requires Node.js 22 or later, and cuts package size from 416KB to 234KB. It adds GraphQL subscription support, protocol-specific entrypoints, and an experimental defineNetwork API. Node.js interception now works at the TCP and TLS level. Some users report…",
+          "source": "InfoQ",
+          "date": "Nov 26",
+          "image": "https://res.infoq.com/news/2026/11/mock-service-worker-v3/en/headerimage/generatedHeaderImage-1795626212829.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 2.024,
+          "coverage": 1
+        },
+        {
+          "title": "DeepMind's Gemini Robotics 2.5 Aims to Make Robots Safer, More Dexterous, and Faster Learners",
+          "link": "https://www.infoq.com/news/2026/11/deepmind-gemini-robotics-2-5/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Google DeepMind introduced Gemini Robotics 2.5, a vision-language-action (VLA) model designed to improve robots' dexterity, reliability, and learning speed, while enabling safer operation in unstructured real-world environments. By Sergio De Simone",
+          "source": "InfoQ",
+          "date": "Nov 25",
+          "image": "https://res.infoq.com/news/2026/11/deepmind-gemini-robotics-2-5/en/headerimage/tripadvisor-tca-migration-1795623375360.jpeg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.2,
+          "coverage": 1
+        },
+        {
+          "title": "DoorDash Scales Dispatch 10x While Maintaining 99.99% Peak Availability",
+          "link": "https://www.infoq.com/news/2026/11/doordash-dispatch-redesign/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "DoorDash has redesigned its real-time dispatch platform, replacing a monolithic optimization engine with a distributed architecture that separates coordination from computation. The new system delivers 10x higher throughput and more than 99.99% peak availability. It also supports hybrid machine…",
+          "source": "InfoQ",
+          "date": "Nov 25",
+          "image": "https://res.infoq.com/news/2026/11/doordash-dispatch-redesign/en/headerimage/generatedHeaderImage-1793847001864.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.19,
+          "coverage": 1
+        },
+        {
+          "title": "Vercel Launched Experimental Board to Coordinate Tasks across Humans and Coding Agents",
+          "link": "https://www.infoq.com/news/2026/11/vercel-board-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Vercel's experimental Board is a headless message store where people and coding agents claim leased tasks, declare dependencies, and sync threads with Slack, GitHub, and Linear. By Daniel Dominguez",
+          "source": "InfoQ",
+          "date": "Nov 25",
+          "image": "https://res.infoq.com/news/2026/11/vercel-board-agents/en/headerimage/generatedHeaderImage-1795183495782.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.187,
+          "coverage": 1
+        },
+        {
+          "title": "Architecting for uncertainty - part 6: Fast flow requires fast inner and outer development loops",
+          "link": "http://microservices.io//post/architecture/2026/11/25/architecting-for-uncertainty-part-6-fast-development-loops.html",
+          "excerpt": "This is the sixth in a series of articles based on my talk Architecting for Fast Flow: Thriving Amid Uncertainty. In this series, I define the term fast flow and explain why it has become an essential software delivery capability. I discuss how fast flow emerges from a socio-technical…",
+          "source": "Microservice architecture",
+          "date": "Nov 25",
+          "image": "https://microservices.io/i/architecting-for-an-uncertain-world/part-6/fast-workflow.png",
+          "icon": null,
+          "domain": "microservices.io",
+          "hn": null,
+          "score": 0.166,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
+          "link": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+          "excerpt": "Google Deepmind uses AI agents to run experiments on their own for upcoming Gemini models. Research chief Koray Kavukcuoglu says the lab is still far from recursive self-improvement. For oversight, Deepmind intentionally leaves the agents' internal chains of thought untrained so they can be…",
+          "source": "the-decoder.com via Hacker News",
+          "date": "Nov 27",
+          "image": "https://the-decoder.com/wp-content/uploads/2026/11/gemini-4-neon__blog-header__sm.width-1600.format-webp.webp",
+          "icon": "https://the-decoder.com/resources/favicons/apple-touch-icon-60x60.png?v=3",
+          "domain": "the-decoder.com",
+          "hn": "25 points · 3 comments",
+          "score": 6.385,
+          "coverage": 1
+        },
+        {
+          "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
+          "link": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
+          "excerpt": "Traditional architecture is alive and well in Lahore. A photo essay of Kamil Khan Mumtaz’s greatest works.",
+          "source": "worksinprogress.co via Hacker News",
+          "date": "Nov 26",
+          "image": "https://worksinprogress.co/wip-image/uploads/2026/11/The_Greatest_Architect_Sharecard_03.jpg",
+          "icon": "https://worksinprogress.co/apple-touch-icon.png",
+          "domain": "worksinprogress.co",
+          "hn": "237 points · 48 comments",
+          "score": 3.772,
+          "coverage": 1
+        },
+        {
+          "title": "Rvoip: VoIP stack in Rust",
+          "link": "https://github.com/eisenzopf/rvoip",
+          "excerpt": "Open-source Rust SIP/VoIP stack: SIP, WebRTC, SRTP and AI voice agents behind one API. RFC 7502-benchmarked. - eisenzopf/rvoip",
+          "source": "github.com via Hacker News",
+          "date": "Nov 26",
+          "image": "https://opengraph.githubassets.com/7bc3b49bcfc2fe9540ba758b6a70e71bb44b35cf7691807ebe7d97fa45ccdd10/eisenzopf/rvoip",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "87 points · 17 comments",
+          "score": 2.874,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Novita, StreamLake, etc. are ByteDance Ark wrappers",
+          "link": "https://kendell.dev/blog/arkwrapper/",
+          "excerpt": "41 points · 6 comments",
+          "source": "kendell.dev via Hacker News",
+          "date": "Nov 26",
+          "image": null,
+          "icon": "https://kendell.dev/favicon.ico",
+          "domain": "kendell.dev",
+          "hn": "41 points · 6 comments",
+          "score": 2.869,
+          "coverage": 1
+        },
+        {
+          "title": "Company Culture = Slack Emoji ÷ √Headcount",
+          "link": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/",
+          "excerpt": "Companies spend an enormous amount of time and money trying to measure - and even worse, decide - culture. Engagement surveys, pulse checks, eNPS, offsites where someone from HR asks you to describe the company as a type of animal. Office posters make claims like “our culture is honesty, hard work…",
+          "source": "lia.mg via Hacker News",
+          "date": "Nov 26",
+          "image": null,
+          "icon": "https://lia.mg/assets/img/favicons/apple-touch-icon.png",
+          "domain": "lia.mg",
+          "hn": "89 points · 19 comments",
+          "score": 3.149,
+          "coverage": 1
+        },
+        {
+          "title": "Largest 2D Chart library in the world using BUI: BlenderUI",
+          "link": "https://bui.preetham.top/charts/",
+          "excerpt": "Install BUI Charts, draw your first chart in an rsx! block, and learn how this documentation is organised.",
+          "source": "bui.preetham.top via Hacker News",
+          "date": "Nov 26",
+          "image": "https://bui.preetham.top/og.png",
+          "icon": "https://bui.preetham.top/apple-touch-icon.png",
+          "domain": "bui.preetham.top",
+          "hn": "58 points · 10 comments",
+          "score": 2.559,
+          "coverage": 1
+        },
+        {
+          "title": "George Whitesides, 1939-2026",
+          "link": "https://www.science.org/content/blog-post/george-whitesides-1939-2026",
+          "excerpt": "63 points · 7 comments",
+          "source": "science.org via Hacker News",
+          "date": "Nov 26",
+          "image": null,
+          "icon": "https://www.science.org/favicon.ico",
+          "domain": "science.org",
+          "hn": "63 points · 7 comments",
+          "score": 2.521,
+          "coverage": 1
+        }
+      ]
+    }
+  ]
+}
