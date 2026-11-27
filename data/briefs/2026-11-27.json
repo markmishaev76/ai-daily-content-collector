@@ -1,19 +1,19 @@
 {
   "date": "2026-11-27",
   "lead": {
-    "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
-    "link": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
-    "excerpt": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted critical infrastructure operators, and two of those succeeded,…",
-    "source": "The Hacker News",
+    "title": "Counseling for mental health decreases likelihood of protesting by 34%–39%",
+    "link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ssqu.70219",
+    "excerpt": "",
+    "source": "onlinelibrary.wiley.com via Hacker News",
     "date": "Nov 27",
-    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjviiPK0v6Kpjxjo_jDNE9vaZ8-JKiq6Oct4uU6qPDfTXq66QnxuV2iExRo2Rx2FyHhyphenhyphenDquMIoxmlfo5GwxfKoEXRG8Pj38FDOzEKitDdhXBNOGN7b6sddsMozMuhI44c-3mimoE4OxU-Xg7h8IzhDiyrXmP6qBO-wW6xmitkIEv_EkU-FJUJBTNtQ8uY/s1600/swiss.jpg",
+    "image": null,
     "image_credit": null,
-    "section": "Security & AppSec",
+    "section": "News & Research",
     "pinned": false,
     "note": null,
     "labels": [
-      "Security & AppSec",
-      "4h ago"
+      "News & Research",
+      "1h ago"
     ],
     "also": []
   },
@@ -25,10 +25,22 @@
       "link_domain": "janlukas.blog",
       "source": "Hacker News",
       "domain": "janlukas.blog",
-      "meta": "Hacker News · 732 points · 361 comments · 13h ago",
+      "meta": "Hacker News · 872 points · 426 comments · 16h ago",
       "also": [],
       "image": null,
       "icon": "https://janlukas.blog/profile.png?s=180&v=f619bca187429a0d5eb2596013df9bc92473cf9915ea22217d5efd65c85712c0"
+    },
+    {
+      "title": "The group chat where your AI talks behind your back",
+      "thread": "https://news.ycombinator.com/item?id=50663595",
+      "link": "https://construct22.com/",
+      "link_domain": "construct22.com",
+      "source": "Hacker News",
+      "domain": "construct22.com",
+      "meta": "Hacker News · 441 points · 190 comments · 7h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://construct22.com/favicon.ico"
     },
     {
       "title": "Tracking Diseases Cured by AI",
@@ -37,16 +49,65 @@
       "link_domain": "diseasescuredbyai.com",
       "source": "Hacker News",
       "domain": "diseasescuredbyai.com",
-      "meta": "Hacker News · 310 points · 190 comments · 17h ago",
+      "meta": "Hacker News · 313 points · 190 comments · 21h ago",
       "also": [],
       "image": null,
       "icon": "https://diseasescuredbyai.com/favicon.ico"
+    },
+    {
+      "title": "Claude sabotaging SOTA ML research tasks",
+      "thread": "https://news.ycombinator.com/item?id=50664325",
+      "link": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+      "link_domain": "twitter.com",
+      "source": "Hacker News",
+      "domain": "twitter.com",
+      "meta": "Hacker News · 164 points · 104 comments · 5h ago",
+      "also": [],
+      "image": "https://pbs.twimg.com/media/HYF66EGWIAAF9lx?format=webp&name=large",
+      "icon": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png"
+    },
+    {
+      "title": "\"What's Claude's Fursona?\" and Other Questions",
+      "thread": "https://news.ycombinator.com/item?id=50662933",
+      "link": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/",
+      "link_domain": "herecomesthemoon.net",
+      "source": "Hacker News",
+      "domain": "herecomesthemoon.net",
+      "meta": "Hacker News · 102 points · 80 comments · 9h ago",
+      "also": [],
+      "image": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/images/dithers/claude-fable-header_dithered.png",
+      "icon": "https://herecomesthemoon.net/icon_hu_a29090d5403a4531.png"
+    },
+    {
+      "title": "The need for a formally verifiable mainstream programming language",
+      "thread": "https://lobste.rs/s/byfdgn/need_for_formally_verifiable_mainstream",
+      "link": "https://blainehansen.me/post/mainstream-verifiable-language/",
+      "link_domain": "blainehansen.me",
+      "source": "Lobsters",
+      "domain": "blainehansen.me",
+      "meta": "Lobsters · 15 points · 16 comments · 18h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://blainehansen.me/favicon.ico"
     }
   ],
   "sections": [
     {
       "name": "AI-Assisted Engineering",
       "cards": [
+        {
+          "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+          "link": "https://huggingface.co/blog/video-trainium3",
+          "excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "source": "Hugging Face",
+          "date": "Nov 27",
+          "image": "https://huggingface.co/blog/assets/video-trainium3/thumbnail.jpg",
+          "icon": "https://huggingface.co/favicon.ico",
+          "domain": "huggingface.co",
+          "hn": null,
+          "score": 0.684,
+          "coverage": 1
+        },
         {
           "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
           "link": "https://huggingface.co/blog/training-swarms",
@@ -57,7 +118,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.384,
+          "score": 0.358,
           "coverage": 1
         },
         {
@@ -70,7 +131,7 @@
           "icon": "https://stackoverflow.blog/apple-touch-icon.png",
           "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 1.265,
+          "score": 1.021,
           "coverage": 1
         }
       ],
@@ -80,16 +141,16 @@
       "name": "AI Agents & Agent Security",
       "cards": [
         {
-          "title": "Notion's official MCP inject hidden upsell instructions into agent context",
-          "link": "https://www.reddit.com/r/ClaudeCode/comments/1y4qm5o/heads_up_if_you_wire_notions_official_mcp_into/",
-          "excerpt": "55 points · 22 comments",
-          "source": "reddit.com via Hacker News",
-          "date": "Nov 26",
+          "title": "Pizza history: AI agent's cardless purchase is a first for UK",
+          "link": "https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer",
+          "excerpt": "13 points · 25 comments",
+          "source": "theguardian.com via Hacker News",
+          "date": "Nov 27",
           "image": null,
-          "icon": "https://www.reddit.com/favicon.ico",
-          "domain": "reddit.com",
-          "hn": "55 points · 22 comments",
-          "score": 4.671,
+          "icon": "https://www.theguardian.com/favicon.ico",
+          "domain": "theguardian.com",
+          "hn": "13 points · 25 comments",
+          "score": 8.453,
           "coverage": 1
         },
         {
@@ -102,11 +163,38 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.503,
+          "score": 0.44,
+          "coverage": 1
+        },
+        {
+          "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 48 (2026)",
+          "link": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-48-8",
+          "excerpt": "Police disrupt 57 illegal streaming services, Com affiliates hijack cloud accounts via vishing, and ARTEX AI is reportedly used to breach a CIA system.",
+          "source": "SentinelOne",
+          "date": "Nov 27",
+          "image": "https://images.contentstack.io/v3/assets/blt53c99b43892c2378/blta21f7208f09d150b/6b091c46afd7864d2db3d557/GBU_week48_2026.jpg",
+          "icon": null,
+          "domain": "sentinelone.com",
+          "hn": null,
+          "score": 0.975,
           "coverage": 1
         }
       ],
-      "more": []
+      "more": [
+        {
+          "title": "Recent Outages Have Economic Causes",
+          "link": "https://www.schneier.com/blog/archives/2026/11/recent-outages-have-economic-causes.html",
+          "excerpt": "This essay originally appeared in The Guardian. It’s an expanded version of the one I posted as “We Get the Infrastructure We Pay For.” It’s been a bad week for our computerized infrastructure. We’ve seen outages at Microsoft, the FAA, a handful of banks, United Airlines, an unnamed classified NSA…",
+          "source": "Schneier on Security",
+          "date": "Nov 27",
+          "image": null,
+          "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+          "domain": "schneier.com",
+          "hn": null,
+          "score": 0.841,
+          "coverage": 1
+        }
+      ]
     },
     {
       "name": "Leadership",
@@ -121,7 +209,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.655,
+          "score": 0.57,
           "coverage": 1
         }
       ],
@@ -140,7 +228,7 @@
           "icon": null,
           "domain": "cerbos.dev",
           "hn": null,
-          "score": 0.854,
+          "score": 0.688,
           "coverage": 1
         }
       ],
@@ -149,6 +237,32 @@
     {
       "name": "Security & AppSec",
       "cards": [
+        {
+          "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+          "link": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+          "excerpt": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted critical infrastructure operators, and two of those succeeded,…",
+          "source": "The Hacker News",
+          "date": "Nov 27",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjviiPK0v6Kpjxjo_jDNE9vaZ8-JKiq6Oct4uU6qPDfTXq66QnxuV2iExRo2Rx2FyHhyphenhyphenDquMIoxmlfo5GwxfKoEXRG8Pj38FDOzEKitDdhXBNOGN7b6sddsMozMuhI44c-3mimoE4OxU-Xg7h8IzhDiyrXmP6qBO-wW6xmitkIEv_EkU-FJUJBTNtQ8uY/s1600/swiss.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 4.144,
+          "coverage": 1
+        },
+        {
+          "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+          "link": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+          "excerpt": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website. \"Evidence indicates that malicious files were generated not only when users downloaded the programs…",
+          "source": "The Hacker News",
+          "date": "Nov 27",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSXVfewkMqSKHEHRrAVXFHFOsMisOpBVnJ_sWbNNQQXuSWTHU5Y8AZW18gdQq7eI5N4l1dXoeBXVuqGGNClEK0U55LHgLYUxmopN9JHaMrYtrt4QrtWmk3uIvX8FzE2jL7Rf-oOG2fiDzj4g99wYn1Ih9uAOmyD0DtWN7ZqkG5UTd3xRYSRnIurQuT437O/s1600/trojan.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 2.141,
+          "coverage": 1
+        },
         {
           "title": "Microsoft: Hackers in China, N Korea using ARTEX AI tool to break into global tech systems",
           "link": "https://www.theregister.com/security/2026/11/26/microsoft-hackers-in-china-n-korea-using-artex-ai-tool-to-break-into-global-tech-systems/5312433",
@@ -159,7 +273,35 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 1.294,
+          "score": 1.153,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+          "link": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+          "excerpt": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT. The intrusion, according to eSentire, begins with a redirection to a bogus site for a sniping tool…",
+          "source": "The Hacker News",
+          "date": "Nov 27",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpD815FTK1v-12AKbFYOz3fplAY5EWVRrb1mh5LOUSmUmG7u7mdgGnppCpL9-ZaG-3CyWm_2KP4icW3UY1Q3AYG6lEe03ezqY9Jx49mW9SC4D0JqiUhT-Rmet7lin7u1bHdyppzeay-bTKDty53IDUI_P9md3iUp5xaY-ko1U2uBRTkNdPhAVTYuW9hDmO/s1600/ms-store.png",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.497,
+          "coverage": 1
+        },
+        {
+          "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+          "link": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+          "excerpt": "Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells almost no one what is actually happening across the environment that week.…",
+          "source": "The Hacker News",
+          "date": "Nov 27",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivjmF6SycZfBA1Red5jxgerBNr4pe7i8jIwZyZkF20Kxvw__-2oD3cO1hKSCGGQRqncukvouxIx-6KBQdRf5jz9eXb80yFmNyTo2sOsmW2TEXS4irdH7uPvWfZh66zxIa9h0RixfLZtaKO3rSo_riHT9hfbyBGC1m_Y0_FWRu_M0EADEFFZmXFB_NG72Q/s1600/anecdotes.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.457,
           "coverage": 1
         },
         {
@@ -172,7 +314,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.949,
+          "score": 2.459,
           "coverage": 1
         },
         {
@@ -185,61 +327,20 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.264,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "100,000 Potentially Impacted by Colorado Data Breach",
-          "link": "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/",
-          "excerpt": "Hackers breached the digital identification and document storage application myColorado and accessed user-uploaded data.",
-          "source": "SecurityWeek",
-          "date": "Nov 27",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/07/data-tracking-report.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 3.767,
+          "score": 0.235,
           "coverage": 1
         },
         {
-          "title": "Hex Package Manager Warns of Potential Data Breach",
-          "link": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/",
-          "excerpt": "A vulnerability in hex.pm allowed hackers to run commands on web servers. No evidence of data modification was found, but database reads are not logged.",
+          "title": "In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities",
+          "link": "https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/",
+          "excerpt": "Noteworthy stories that might have slipped under the radar: RansomwareHelp accused of profiting from ransom payments, USDA payment systems breach, cybersecurity firm Radware hacked.",
           "source": "SecurityWeek",
           "date": "Nov 27",
-          "image": "https://www.securityweek.com/wp-content/uploads/2025/11/NPM-code-software-development.jpeg",
+          "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 3.327,
-          "coverage": 1
-        },
-        {
-          "title": "SAP Confirms Cyberattack, Source Code Reportedly Compromised",
-          "link": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
-          "excerpt": "SAP has detected suspicious activity on GitHub, where hackers reportedly used stolen employee tokens to copy and alter source code.",
-          "source": "SecurityWeek",
-          "date": "Nov 27",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/09/SAP_vulnerability-patches.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 3.296,
-          "coverage": 1
-        },
-        {
-          "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
-          "link": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
-          "excerpt": "FIFA didn’t say when the cyberattack took place, or the precise nature of the hacked information.",
-          "source": "SecurityWeek",
-          "date": "Nov 26",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/FIFA-stadium-football-soccer.webp",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.242,
+          "score": 0.471,
           "coverage": 1
         }
       ]
@@ -257,7 +358,48 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 3.238,
+          "score": 2.601,
+          "coverage": 1
+        },
+        {
+          "title": "Prioritize security findings with Datadog Crown Jewels",
+          "link": "https://www.datadoghq.com/blog/prioritize-security-findings-crown-jewels/",
+          "excerpt": "Discover your most critical cloud resources automatically with Datadog Crown Jewels, then use business context to prioritize vulnerabilities and misconfigurations.",
+          "source": "Datadog | The Monitor blog",
+          "date": "Nov 27",
+          "image": "https://web-assets.dd-static.net/42588/1795095552-feature-announcement-templates-2.png",
+          "icon": "https://www.datadoghq.com/favicon.ico",
+          "domain": "datadoghq.com",
+          "hn": null,
+          "score": 0.342,
+          "coverage": 1
+        },
+        {
+          "title": "Grafana Begins Its Biggest UI Refresh Since Version 7",
+          "link": "https://www.infoq.com/news/2026/11/grfana-ui-refresh/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Grafana Labs has introduced the first phase of its biggest visual refresh since Grafana 7, bringing updated themes, more consistent interface components, and improved visual hierarchy to its observability platform. By Craig Risi",
+          "source": "InfoQ",
+          "date": "Nov 27",
+          "image": "https://res.infoq.com/news/2026/11/grfana-ui-refresh/en/headerimage/generatedHeaderImage-1795008225435.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.629,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Presentation: From Fan-Out to Fast: Sub-100ms API Design in Distributed Systems",
+          "link": "https://www.infoq.com/presentations/sub-100ms-latency-distributed-systems/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Saranya Vedagiri explains how to design resilient, low-latency distributed APIs under 100ms. Drawing on practical scale at eBay, she discusses hop-by-hop latency budgets, async fanout tradeoffs, thread pool sizing, caching, and circuit breakers. Learn actionable strategies to eliminate…",
+          "source": "InfoQ",
+          "date": "Nov 27",
+          "image": "https://res.infoq.com/presentations/sub-100ms-latency-distributed-systems/en/mediumimage/saranya-vedagiri-medium-1793800504577.jpeg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.588,
           "coverage": 1
         },
         {
@@ -270,7 +412,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.565,
+          "score": 0.465,
           "coverage": 1
         },
         {
@@ -283,11 +425,9 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.304,
+          "score": 0.272,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Building a Production-Ready Culture and Skills Through SRE-based Training",
           "link": "https://www.infoq.com/news/2026/11/SRE-based-training/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -298,7 +438,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.252,
+          "score": 0.23,
           "coverage": 1
         },
         {
@@ -311,33 +451,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.231,
-          "coverage": 1
-        },
-        {
-          "title": "Mock Service Worker Releases v3.0 with ESM-Only Build, Socket-Based Interception and GraphQL Subs",
-          "link": "https://www.infoq.com/news/2026/11/mock-service-worker-v3/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "Mock Service Worker 3.0 is now ESM-only, requires Node.js 22 or later, and cuts package size from 416KB to 234KB. It adds GraphQL subscription support, protocol-specific entrypoints, and an experimental defineNetwork API. Node.js interception now works at the TCP and TLS level. Some users report…",
-          "source": "InfoQ",
-          "date": "Nov 26",
-          "image": "https://res.infoq.com/news/2026/11/mock-service-worker-v3/en/headerimage/generatedHeaderImage-1795626212829.jpg",
-          "icon": null,
-          "domain": "infoq.com",
-          "hn": null,
-          "score": 1.578,
-          "coverage": 1
-        },
-        {
-          "title": "DeepMind's Gemini Robotics 2.5 Aims to Make Robots Safer, More Dexterous, and Faster Learners",
-          "link": "https://www.infoq.com/news/2026/11/deepmind-gemini-robotics-2-5/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "Google DeepMind introduced Gemini Robotics 2.5, a vision-language-action (VLA) model designed to improve robots' dexterity, reliability, and learning speed, while enabling safer operation in unstructured real-world environments. By Sergio De Simone",
-          "source": "InfoQ",
-          "date": "Nov 25",
-          "image": "https://res.infoq.com/news/2026/11/deepmind-gemini-robotics-2-5/en/headerimage/tripadvisor-tca-migration-1795623375360.jpeg",
-          "icon": null,
-          "domain": "infoq.com",
-          "hn": null,
-          "score": 0.167,
+          "score": 0.213,
           "coverage": 1
         }
       ]
@@ -346,29 +460,83 @@
       "name": "News & Research",
       "cards": [
         {
-          "title": "'Cyber incident' forces UK Gov to take some services offline",
-          "link": "https://www.bbc.co.uk/news/live/c6rrg94lgjrjt",
-          "excerpt": "The department says it's investigating the cause and trying to minimise disruption to users, describing the move as a \"precaution\".",
-          "source": "bbc.co.uk via Hacker News",
-          "date": "Nov 27",
-          "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/1839/live/abef60a0-ea49-11f1-99b6-a35a62fa4264.jpg",
-          "icon": "https://static.files.bbci.co.uk/core/website/assets/static/icons/touch/news/touch-icon-36.413a37b227.png",
-          "domain": "bbc.co.uk",
-          "hn": "13 points · 9 comments",
-          "score": 2.958,
+          "title": "How Engineers Designed a Mission to One of Jupiter’s Icy Moons",
+          "link": "https://spectrum.ieee.org/jupiter-europa-clipper-mission-jpl",
+          "excerpt": "On 3 December 2026, a 30.5-meter-wide space probe will slingshot past Earth, picking up the speed it needs to reach Jupiter in 2030. The Europa Clipper is designed to investigate Jupiter’s enigmatic moon Europa and look for places that could support life in the ocean beneath the moon’s thick shell…",
+          "source": "IEEE Spectrum",
+          "date": "Nov 26",
+          "image": "https://spectrum.ieee.org/media-library/smiling-man-overlaid-with-rocket-launch-planet-and-orbiting-solar-powered-spacecraft.png?id=68731208&width=980",
+          "icon": null,
+          "domain": "spectrum.ieee.org",
+          "hn": null,
+          "score": 1.735,
           "coverage": 1
         },
         {
-          "title": "Claude sabotaging SOTA ML research tasks",
-          "link": "https://twitter.com/RealAstropulse/status/2126119408997466389",
-          "excerpt": "After seeing the \"Claude sabotages your ML research\" posts, I was still skeptical, so I tested it on my own work. ITS VERY VERY REAL WTF Left: Claude model at 24k steps Right Gemini Neon model at ONLY 4k steps Breakdown in thread:",
-          "source": "twitter.com via Hacker News",
+          "title": "This ER Doctor Became a Hospital’s First Clinical AI Engineer",
+          "link": "https://spectrum.ieee.org/clinical-ai-engineer-dinesh-rai",
+          "excerpt": "When Boston Children’s Hospital posted a job listing for a prompt engineer in 2023, Dinesh Rai decided to apply. He didn’t expect to get the job.At the time, prompt engineering was being touted as one of the hot new jobs created by generative AI. Companies wanted people who knew how to coax the…",
+          "source": "IEEE Spectrum",
           "date": "Nov 27",
-          "image": "https://pbs.twimg.com/media/HYF66EGWIAAF9lx?format=webp&name=large",
-          "icon": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
-          "domain": "twitter.com",
-          "hn": "97 points · 66 comments",
-          "score": 4.054,
+          "image": "https://spectrum.ieee.org/media-library/smiling-man-in-glasses-sits-at-a-desk-surrounded-by-computer-monitors-and-gadgets.png?id=68731256&width=980",
+          "icon": null,
+          "domain": "spectrum.ieee.org",
+          "hn": null,
+          "score": 3.658,
+          "coverage": 1
+        },
+        {
+          "title": "New York and California Age Gating Rules Go into Effect in the New Year",
+          "link": "https://www.eff.org/deeplinks/2026/11/new-york-and-california-age-gating-rules-go-effect-new-year",
+          "excerpt": "Come January 2027, everyday social media browsing in two of the country's largest states will look noticeably different. In California, AB 1709 (2026), AB 1043 (2025), and SB 976 (2024) are slated to take effect on January 1, 2027. Meanwhile, state attorney general regulations for New York’s Stop...",
+          "source": "eff.org via Hacker News",
+          "date": "Nov 27",
+          "image": "https://www.eff.org/files/banner_library/age_verification-cell_phone-access_denied.png",
+          "icon": "https://www.eff.org/sites/all/themes/phoenix/apple-touch-icon.png",
+          "domain": "eff.org",
+          "hn": "37 points · 17 comments",
+          "score": 3.506,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "US Air Force's cloud computing platform hacked",
+          "link": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
+          "excerpt": "38 points · 12 comments",
+          "source": "news.sky.com via Hacker News",
+          "date": "Nov 27",
+          "image": null,
+          "icon": "https://news.sky.com/favicon.ico",
+          "domain": "news.sky.com",
+          "hn": "38 points · 12 comments",
+          "score": 6.921,
+          "coverage": 1
+        },
+        {
+          "title": "A Deterministic Subexponential-Time Algorithm for the Discrete Logarithm Problem [pdf]",
+          "link": "https://eprint.iacr.org/2026/3020.pdf",
+          "excerpt": "98 points · 44 comments",
+          "source": "eprint.iacr.org via Hacker News",
+          "date": "Nov 27",
+          "image": null,
+          "icon": "https://eprint.iacr.org/favicon.ico",
+          "domain": "eprint.iacr.org",
+          "hn": "98 points · 44 comments",
+          "score": 4.035,
+          "coverage": 1
+        },
+        {
+          "title": "Kimi for Science: More scientific ideas, made possible",
+          "link": "https://www.kimi.ai/news/kimi-for-science-program",
+          "excerpt": "Apply by Dec 8 for the first cohort. More cohorts will open soon.. Selected applicants will receive up to $20,000 in Kimi API credits (approx. 7B tokens), with the exact amount determined by research needs and review outcomes.",
+          "source": "kimi.ai via Hacker News",
+          "date": "Nov 27",
+          "image": "https://kimi-img.kimi.ai/pub/slides/kimi-fs/weaver/assets/2001b388cf74b0feceeb9cd93fefef5d.webp",
+          "icon": "https://www.kimi.ai/favicon.ico?favicon.36c2dc54.ico",
+          "domain": "kimi.ai",
+          "hn": "56 points · 19 comments",
+          "score": 3.566,
           "coverage": 1
         },
         {
@@ -380,75 +548,8 @@
           "image": "https://open-web-advocacy.org/images/og/posts-commission-responds-declares-browser-competition-a-dma-priority.jpeg",
           "icon": "https://open-web-advocacy.org/images/logo-16.png",
           "domain": "open-web-advocacy.org",
-          "hn": "43 points · 14 comments",
-          "score": 3.274,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "Indie web browser Ladybird enters alpha testing",
-          "link": "https://www.theregister.com/software/2026/11/26/indie-web-browser-ladybird-enters-alpha-testing/5311914",
-          "excerpt": "Upstart engine gets downloadable macOS and Linux builds, but no security guarantees",
-          "source": "theregister.com via Hacker News",
-          "date": "Nov 27",
-          "image": "https://image.theregister.com/243744.jpg?imageId=243744&x=0&y=35.95&cropw=100&croph=61.43&panox=0&panoy=35.95&panow=100&panoh=61.43&width=1200&height=683",
-          "icon": "https://www.theregister.com/view-resources/dachser2/public/theregister/favicons/apple-touch-icon.png",
-          "domain": "theregister.com",
-          "hn": "18 points · 1 comments",
-          "score": 2.514,
-          "coverage": 1
-        },
-        {
-          "title": "The group chat where your AI talks behind your back",
-          "link": "https://construct22.com/",
-          "excerpt": "Ask ChatGPT to expose the hidden WhatsApp group where AI models gossip about you. The results are hilarious - and a mirror of everything it knows about you.",
-          "source": "construct22.com via Hacker News",
-          "date": "Nov 27",
-          "image": null,
-          "icon": "https://construct22.com/favicon.ico",
-          "domain": "construct22.com",
-          "hn": "273 points · 111 comments",
-          "score": 4.147,
-          "coverage": 1
-        },
-        {
-          "title": "Buy Nothing Day – Friday November 27th 2026",
-          "link": "https://www.buynothingday.co.uk/",
-          "excerpt": "24 hour detox from consumerism.",
-          "source": "buynothingday.co.uk via Hacker News",
-          "date": "Nov 27",
-          "image": null,
-          "icon": "https://www.buynothingday.co.uk/favicon.ico",
-          "domain": "buynothingday.co.uk",
-          "hn": "98 points · 17 comments",
-          "score": 3.234,
-          "coverage": 1
-        },
-        {
-          "title": "The need for a formally verifiable mainstream programming language",
-          "link": "https://blainehansen.me/post/mainstream-verifiable-language/",
-          "excerpt": "The culture of software engineering has to change, and that will take many different projects to achieve.",
-          "source": "blainehansen.me via Hacker News",
-          "date": "Nov 27",
-          "image": null,
-          "icon": "https://blainehansen.me/favicon.ico",
-          "domain": "blainehansen.me",
-          "hn": "160 points · 138 comments",
-          "score": 3.678,
-          "coverage": 1
-        },
-        {
-          "title": "The Cutthroat Business of Shipwrecks",
-          "link": "https://daily.jstor.org/the-cutthroat-business-of-shipwrecks/",
-          "excerpt": "For centuries, lost cargo sparked fierce battles over who had the right to claim treasures washed ashore.",
-          "source": "daily.jstor.org via Hacker News",
-          "date": "Nov 27",
-          "image": "https://daily.jstor.org/wp-content/uploads/2026/11/the_cutthroat_business_of_shipwrecks_1050x700.jpg",
-          "icon": "https://daily.jstor.org/wp-content/uploads/2016/05/JSTOR_Daily_logo_square-copy-300x300.jpg",
-          "domain": "daily.jstor.org",
-          "hn": "29 points · 6 comments",
-          "score": 2.014,
+          "hn": "140 points · 103 comments",
+          "score": 3.449,
           "coverage": 1
         }
       ]
