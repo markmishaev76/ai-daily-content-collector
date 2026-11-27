@@ -1,21 +1,27 @@
 {
   "date": "2026-11-27",
   "lead": {
-    "title": "Counseling for mental health decreases likelihood of protesting by 34%–39%",
-    "link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ssqu.70219",
-    "excerpt": "",
-    "source": "onlinelibrary.wiley.com via Hacker News",
+    "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
+    "link": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+    "excerpt": "Hackers have reportedly breached the US Air Force's Cloud One computing platform, adding to a recent wave of cyberattacks affecting US government agencies, including the FBI, CIA, and Treasury Department. [...]",
+    "source": "BleepingComputer",
     "date": "Nov 27",
-    "image": null,
+    "image": "https://www.bleepstatic.com/content/hl-images/2026/11/27/air-force-red-blue-2.jpg",
     "image_credit": null,
-    "section": "News & Research",
+    "section": "Security & AppSec",
     "pinned": false,
     "note": null,
     "labels": [
-      "News & Research",
-      "1h ago"
+      "2 sources",
+      "Security & AppSec",
+      "2h ago"
     ],
-    "also": []
+    "also": [
+      {
+        "name": "news.sky.com",
+        "link": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163"
+      }
+    ]
   },
   "pulse": [
     {
@@ -25,58 +31,34 @@
       "link_domain": "janlukas.blog",
       "source": "Hacker News",
       "domain": "janlukas.blog",
-      "meta": "Hacker News · 872 points · 426 comments · 16h ago",
+      "meta": "Hacker News · 978 points · 463 comments · 19h ago",
       "also": [],
       "image": null,
       "icon": "https://janlukas.blog/profile.png?s=180&v=f619bca187429a0d5eb2596013df9bc92473cf9915ea22217d5efd65c85712c0"
     },
     {
-      "title": "The group chat where your AI talks behind your back",
+      "title": "Group chat where your AI talks behind your back",
       "thread": "https://news.ycombinator.com/item?id=50663595",
       "link": "https://construct22.com/",
       "link_domain": "construct22.com",
       "source": "Hacker News",
       "domain": "construct22.com",
-      "meta": "Hacker News · 441 points · 190 comments · 7h ago",
+      "meta": "Hacker News · 565 points · 246 comments · 10h ago",
       "also": [],
       "image": null,
       "icon": "https://construct22.com/favicon.ico"
     },
     {
-      "title": "Tracking Diseases Cured by AI",
-      "thread": "https://news.ycombinator.com/item?id=50657307",
-      "link": "https://diseasescuredbyai.com/",
-      "link_domain": "diseasescuredbyai.com",
-      "source": "Hacker News",
-      "domain": "diseasescuredbyai.com",
-      "meta": "Hacker News · 313 points · 190 comments · 21h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://diseasescuredbyai.com/favicon.ico"
-    },
-    {
-      "title": "Claude sabotaging SOTA ML research tasks",
+      "title": "Claude sabotaging ML research tasks?",
       "thread": "https://news.ycombinator.com/item?id=50664325",
       "link": "https://twitter.com/RealAstropulse/status/2126119408997466389",
       "link_domain": "twitter.com",
       "source": "Hacker News",
       "domain": "twitter.com",
-      "meta": "Hacker News · 164 points · 104 comments · 5h ago",
+      "meta": "Hacker News · 309 points · 171 comments · 9h ago",
       "also": [],
       "image": "https://pbs.twimg.com/media/HYF66EGWIAAF9lx?format=webp&name=large",
       "icon": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png"
-    },
-    {
-      "title": "\"What's Claude's Fursona?\" and Other Questions",
-      "thread": "https://news.ycombinator.com/item?id=50662933",
-      "link": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/",
-      "link_domain": "herecomesthemoon.net",
-      "source": "Hacker News",
-      "domain": "herecomesthemoon.net",
-      "meta": "Hacker News · 102 points · 80 comments · 9h ago",
-      "also": [],
-      "image": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/images/dithers/claude-fable-header_dithered.png",
-      "icon": "https://herecomesthemoon.net/icon_hu_a29090d5403a4531.png"
     },
     {
       "title": "The need for a formally verifiable mainstream programming language",
@@ -85,16 +67,41 @@
       "link_domain": "blainehansen.me",
       "source": "Lobsters",
       "domain": "blainehansen.me",
-      "meta": "Lobsters · 15 points · 16 comments · 18h ago",
+      "meta": "Lobsters · 20 points · 19 comments · 21h ago",
       "also": [],
       "image": null,
       "icon": "https://blainehansen.me/favicon.ico"
+    },
+    {
+      "title": "\"What's Claude's fursona?\" and other questions",
+      "thread": "https://news.ycombinator.com/item?id=50662933",
+      "link": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/",
+      "link_domain": "herecomesthemoon.net",
+      "source": "Hacker News",
+      "domain": "herecomesthemoon.net",
+      "meta": "Hacker News · 112 points · 84 comments · 12h ago",
+      "also": [],
+      "image": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/images/dithers/claude-fable-header_dithered.png",
+      "icon": "https://herecomesthemoon.net/icon_hu_a29090d5403a4531.png"
     }
   ],
   "sections": [
     {
       "name": "AI-Assisted Engineering",
       "cards": [
+        {
+          "title": "Where does the time gained from using AI really go? | Nathan Hunt (Snowflake)",
+          "link": "https://newsletter.getdx.com/p/where-does-the-time-gained-from-using",
+          "excerpt": "Snowflake’s Nathan Hunt explains where the time developers save with AI goes, why code review is becoming a bottleneck, and how teams can use those gains to make room for innovation.",
+          "source": "DX",
+          "date": "Nov 27",
+          "image": "https://substackcdn.com/image/youtube/w_728,c_limit/5SoAXLCgDQU",
+          "icon": "https://substackcdn.com/image/fetch/$s_!6g5W!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6135d637-27c9-4440-ba74-f9747a16267f%2Fapple-touch-icon-57x57.png",
+          "domain": "newsletter.getdx.com",
+          "hn": null,
+          "score": 1.287,
+          "coverage": 1
+        },
         {
           "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
           "link": "https://huggingface.co/blog/video-trainium3",
@@ -105,7 +112,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.684,
+          "score": 0.608,
           "coverage": 1
         },
         {
@@ -118,9 +125,11 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.358,
+          "score": 0.336,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Sandboxes, secure inference, and keeping agents from going rogue",
           "link": "https://stackoverflow.blog/2026/11/27/sandboxes-secure-inference-and-rogue-agents/",
@@ -131,11 +140,10 @@
           "icon": "https://stackoverflow.blog/apple-touch-icon.png",
           "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 1.021,
+          "score": 0.859,
           "coverage": 1
         }
-      ],
-      "more": []
+      ]
     },
     {
       "name": "AI Agents & Agent Security",
@@ -143,14 +151,14 @@
         {
           "title": "Pizza history: AI agent's cardless purchase is a first for UK",
           "link": "https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer",
-          "excerpt": "13 points · 25 comments",
+          "excerpt": "20 points · 40 comments",
           "source": "theguardian.com via Hacker News",
           "date": "Nov 27",
           "image": null,
           "icon": "https://www.theguardian.com/favicon.ico",
           "domain": "theguardian.com",
-          "hn": "13 points · 25 comments",
-          "score": 8.453,
+          "hn": "20 points · 40 comments",
+          "score": 7.22,
           "coverage": 1
         },
         {
@@ -163,7 +171,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.44,
+          "score": 0.392,
           "coverage": 1
         },
         {
@@ -176,7 +184,7 @@
           "icon": null,
           "domain": "sentinelone.com",
           "hn": null,
-          "score": 0.975,
+          "score": 0.768,
           "coverage": 1
         }
       ],
@@ -191,7 +199,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.841,
+          "score": 0.683,
           "coverage": 1
         }
       ]
@@ -209,7 +217,7 @@
           "icon": "https://www.mckinsey.com/favicon.ico",
           "domain": "mckinsey.com",
           "hn": null,
-          "score": 0.57,
+          "score": 0.506,
           "coverage": 1
         }
       ],
@@ -228,7 +236,7 @@
           "icon": null,
           "domain": "cerbos.dev",
           "hn": null,
-          "score": 0.688,
+          "score": 0.578,
           "coverage": 1
         }
       ],
@@ -247,7 +255,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 4.144,
+          "score": 3.56,
           "coverage": 1
         },
         {
@@ -260,7 +268,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.141,
+          "score": 1.788,
           "coverage": 1
         },
         {
@@ -273,11 +281,24 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 1.153,
+          "score": 1.042,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+          "link": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+          "excerpt": "A Vietnam-sponsored hacking group has been attributed to attacks targeting Southeast Asian military, government, and legislative organizations with an aim to gather intelligence on South China Sea defense and military agreements. The previously undocumented incursion set, detailed by SOCRadar, has…",
+          "source": "The Hacker News",
+          "date": "Nov 27",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj19T-kU1dmVfKt2PtUQ2I25MGovj8kmv6lMkk6inlif4yLeezJS4kVRTvsARL5UkpTT66jYru6k2b5bmWfjjlkmG4JznSKmkmd4ldXcyxTw3xsU5nP6_jxfWMw9thW37m5usfr-eWAZBHq6bPuS613CIx9XgWxPcSVFcZVgz_9tWd5Nu8YWAxexuqcVPrN/s1600/data.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 0.553,
+          "coverage": 1
+        },
         {
           "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
           "link": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
@@ -288,7 +309,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.497,
+          "score": 0.405,
           "coverage": 1
         },
         {
@@ -301,7 +322,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.457,
+          "score": 0.377,
           "coverage": 1
         },
         {
@@ -314,8 +335,8 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.459,
-          "coverage": 1
+          "score": 6.327,
+          "coverage": 2
         },
         {
           "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
@@ -327,20 +348,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.235,
-          "coverage": 1
-        },
-        {
-          "title": "In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities",
-          "link": "https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/",
-          "excerpt": "Noteworthy stories that might have slipped under the radar: RansomwareHelp accused of profiting from ransom payments, USDA payment systems breach, cybersecurity firm Radware hacked.",
-          "source": "SecurityWeek",
-          "date": "Nov 27",
-          "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.471,
+          "score": 0.212,
           "coverage": 1
         }
       ]
@@ -358,7 +366,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 2.601,
+          "score": 2.182,
           "coverage": 1
         },
         {
@@ -371,7 +379,35 @@
           "icon": "https://www.datadoghq.com/favicon.ico",
           "domain": "datadoghq.com",
           "hn": null,
-          "score": 0.342,
+          "score": 0.304,
+          "coverage": 1
+        },
+        {
+          "title": "Meta Brings Code Review Auto-Approval More Mainstream with PyTorch GreenLight",
+          "link": "https://www.infoq.com/news/2026/11/uber-agent-spend-steady/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "PyTorch now lets an AI reviewer approve pull requests from its own maintainers. GreenLight is an open-source take on RADAR, the system Meta uses to auto-land low-risk diffs after safety checks, a risk score and an LLM review. OpenAI, Anthropic and Sonar describe similar ways to automate approval…",
+          "source": "InfoQ",
+          "date": "Nov 27",
+          "image": "https://res.infoq.com/news/2026/11/uber-agent-spend-steady/en/headerimage/radar-header-1200x630-1795391031838.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.599,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Netflix Builds Quasar to Measure the Blast Radius of Library API Changes",
+          "link": "https://www.infoq.com/news/2026/11/netflix-quasar-api-impact/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Netflix developed Quasar, an internal tool that combines semantic code indexing and API comparisons to identify downstream consumers affected by library changes. Using SCIP, Amazon S3, and Athena, it traces API references across repositories, helping maintainers assess migration impact and make…",
+          "source": "InfoQ",
+          "date": "Nov 27",
+          "image": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.598,
           "coverage": 1
         },
         {
@@ -384,11 +420,9 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.629,
+          "score": 0.511,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Presentation: From Fan-Out to Fast: Sub-100ms API Design in Distributed Systems",
           "link": "https://www.infoq.com/presentations/sub-100ms-latency-distributed-systems/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -399,7 +433,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.588,
+          "score": 0.483,
           "coverage": 1
         },
         {
@@ -412,7 +446,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.465,
+          "score": 0.397,
           "coverage": 1
         },
         {
@@ -425,33 +459,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.272,
-          "coverage": 1
-        },
-        {
-          "title": "Building a Production-Ready Culture and Skills Through SRE-based Training",
-          "link": "https://www.infoq.com/news/2026/11/SRE-based-training/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "Training can act as a confidence engine, turning repeated behaviors into habits and culture. We can tailor training programs that equip developers and operators with the skills to run their services in line with the organization’s maturity and growth, and apply SRE principles to the training…",
-          "source": "InfoQ",
-          "date": "Nov 26",
-          "image": "https://res.infoq.com/news/2026/11/SRE-based-training/en/headerimage/header-1795590551520.jpg",
-          "icon": null,
-          "domain": "infoq.com",
-          "hn": null,
-          "score": 0.23,
-          "coverage": 1
-        },
-        {
-          "title": ".NET MAUI 11 Makes CoreCLR the Default Runtime and Adds Incremental XAML Hot Reload",
-          "link": "https://www.infoq.com/news/2026/11/dotnet-maui-11-coreclr-hotreload/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "Microsoft released .NET 11 with a .NET MAUI update focused on product quality. CoreCLR is now the default runtime on all platforms, and XAML gets incremental hot reload, implicit namespaces and faster resource dictionaries. The release also adds device test templates and passkey support, and…",
-          "source": "InfoQ",
-          "date": "Nov 26",
-          "image": "https://res.infoq.com/news/2026/11/dotnet-maui-11-coreclr-hotreload/en/headerimage/header-1795560880894.jpg",
-          "icon": null,
-          "domain": "infoq.com",
-          "hn": null,
-          "score": 0.213,
+          "score": 0.248,
           "coverage": 1
         }
       ]
@@ -469,7 +477,7 @@
           "icon": null,
           "domain": "spectrum.ieee.org",
           "hn": null,
-          "score": 1.735,
+          "score": 1.59,
           "coverage": 1
         },
         {
@@ -482,74 +490,87 @@
           "icon": null,
           "domain": "spectrum.ieee.org",
           "hn": null,
-          "score": 3.658,
+          "score": 2.881,
           "coverage": 1
         },
         {
-          "title": "New York and California Age Gating Rules Go into Effect in the New Year",
-          "link": "https://www.eff.org/deeplinks/2026/11/new-york-and-california-age-gating-rules-go-effect-new-year",
-          "excerpt": "Come January 2027, everyday social media browsing in two of the country's largest states will look noticeably different. In California, AB 1709 (2026), AB 1043 (2025), and SB 976 (2024) are slated to take effect on January 1, 2027. Meanwhile, state attorney general regulations for New York’s Stop...",
-          "source": "eff.org via Hacker News",
+          "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+          "link": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+          "excerpt": "A card-skimming script was planted on the online stores of Lascana, Samsonite, American Tourister, Revolve and FWRD in the week before Black Friday. After our reports to affected companies, all have had the script removed (on November 24th or 25th) ahead of Black Friday. We observed it in action…",
+          "source": "infohawk.com via Hacker News",
           "date": "Nov 27",
-          "image": "https://www.eff.org/files/banner_library/age_verification-cell_phone-access_denied.png",
-          "icon": "https://www.eff.org/sites/all/themes/phoenix/apple-touch-icon.png",
-          "domain": "eff.org",
-          "hn": "37 points · 17 comments",
-          "score": 3.506,
+          "image": "https://www.infohawk.com/_app/immutable/assets/2026-11-27-black-friday-webrtc-skimmer.BQAmEGg5.png",
+          "icon": "https://www.infohawk.com/favicon.png",
+          "domain": "infohawk.com",
+          "hn": "85 points · 35 comments",
+          "score": 3.976,
           "coverage": 1
         }
       ],
       "more": [
         {
-          "title": "US Air Force's cloud computing platform hacked",
-          "link": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
-          "excerpt": "38 points · 12 comments",
-          "source": "news.sky.com via Hacker News",
+          "title": "False computer-checked proofs",
+          "link": "https://cr.yp.to/proofs/falseccp.html",
+          "excerpt": "54 points · 21 comments",
+          "source": "cr.yp.to via Hacker News",
           "date": "Nov 27",
           "image": null,
-          "icon": "https://news.sky.com/favicon.ico",
-          "domain": "news.sky.com",
-          "hn": "38 points · 12 comments",
-          "score": 6.921,
+          "icon": "https://cr.yp.to/favicon.ico",
+          "domain": "cr.yp.to",
+          "hn": "54 points · 21 comments",
+          "score": 3.582,
           "coverage": 1
         },
         {
-          "title": "A Deterministic Subexponential-Time Algorithm for the Discrete Logarithm Problem [pdf]",
-          "link": "https://eprint.iacr.org/2026/3020.pdf",
-          "excerpt": "98 points · 44 comments",
-          "source": "eprint.iacr.org via Hacker News",
+          "title": "GPT 6.2 Astra Solves a Historical Mystery",
+          "link": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+          "excerpt": "92 points · 41 comments",
+          "source": "generativehistory.substack.com via Hacker News",
           "date": "Nov 27",
           "image": null,
-          "icon": "https://eprint.iacr.org/favicon.ico",
-          "domain": "eprint.iacr.org",
-          "hn": "98 points · 44 comments",
-          "score": 4.035,
+          "icon": "https://generativehistory.substack.com/favicon.ico",
+          "domain": "generativehistory.substack.com",
+          "hn": "92 points · 41 comments",
+          "score": 3.876,
           "coverage": 1
         },
         {
-          "title": "Kimi for Science: More scientific ideas, made possible",
-          "link": "https://www.kimi.ai/news/kimi-for-science-program",
-          "excerpt": "Apply by Dec 8 for the first cohort. More cohorts will open soon.. Selected applicants will receive up to $20,000 in Kimi API credits (approx. 7B tokens), with the exact amount determined by research needs and review outcomes.",
-          "source": "kimi.ai via Hacker News",
+          "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
+          "link": "https://bouncemarket.minhanhday.com/",
+          "excerpt": "a ball will fall. trade on where it lands.",
+          "source": "bouncemarket.minhanhday.com via Hacker News",
           "date": "Nov 27",
-          "image": "https://kimi-img.kimi.ai/pub/slides/kimi-fs/weaver/assets/2001b388cf74b0feceeb9cd93fefef5d.webp",
-          "icon": "https://www.kimi.ai/favicon.ico?favicon.36c2dc54.ico",
-          "domain": "kimi.ai",
-          "hn": "56 points · 19 comments",
-          "score": 3.566,
+          "image": null,
+          "icon": "https://bouncemarket.minhanhday.com/favicon.ico",
+          "domain": "bouncemarket.minhanhday.com",
+          "hn": "191 points · 49 comments",
+          "score": 4.271,
           "coverage": 1
         },
         {
-          "title": "European Commission Declares Browser Competition a Digital Markets Act Priority",
-          "link": "https://open-web-advocacy.org/es/blog/commission-responds-declares-browser-competition-a-dma-priority/",
-          "excerpt": "In comments to Politico regarding our open letter, the European Commission acknowledged the letter and noted that browsers are “effectively the entry point to…",
-          "source": "open-web-advocacy.org via Hacker News",
+          "title": "Norse Atlantic suspends all flights as it faces potential collapse",
+          "link": "https://www.bbc.com/news/articles/c9kgmd0ldy0lo",
+          "excerpt": "The carrier is looking for urgent funding, but will file for bankruptcy without a financial lifeline.",
+          "source": "bbc.com via Hacker News",
           "date": "Nov 27",
-          "image": "https://open-web-advocacy.org/images/og/posts-commission-responds-declares-browser-competition-a-dma-priority.jpeg",
-          "icon": "https://open-web-advocacy.org/images/logo-16.png",
-          "domain": "open-web-advocacy.org",
-          "hn": "140 points · 103 comments",
-          "score": 3.449,
+          "image": "https://ichef.bbci.co.uk/news/1024/branded_news/df47/live/6f07a020-e98c-11f1-9d1c-4dcc8fcde666.jpg",
+          "icon": "https://static.files.bbci.co.uk/bbcdotcom/web/20261123-075408-0707368771-web-3.30.0-2/apple-touch-icon.png",
+          "domain": "bbc.com",
+          "hn": "45 points · 38 comments",
+          "score": 3.352,
+          "coverage": 1
+        },
+        {
+          "title": "Making a 3D fantasy map like a 16th-Century atlas",
+          "link": "https://www.spritefusion.com/blog/making-a-fantasy-map-like-a-16th-century-atlas",
+          "excerpt": "How I made The Game Dev Atlas, a 3D fantasy map drawn like a 1570 atlas.",
+          "source": "spritefusion.com via Hacker News",
+          "date": "Nov 27",
+          "image": "https://www.spritefusion.com/blog/making-a-fantasy-map-like-a-16th-century-atlas/og.jpg",
+          "icon": "https://www.spritefusion.com/apple-touch-icon.png",
+          "domain": "spritefusion.com",
+          "hn": "23 points · 2 comments",
+          "score": 2.576,
           "coverage": 1
         }
       ]
