@@ -1,40 +1,34 @@
 {
   "date": "2026-11-27",
   "lead": {
-    "title": "Android app developers will soon have to share their address publicly",
-    "link": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
-    "excerpt": "Independent Android app developers are worried about their privacy after Google announced that from next year many of them will be required to share a phone number and address publicly. The policy change is intended to meet European Union regulations under the Digital Services Act, but Google says…",
-    "source": "The Verge",
-    "date": "Nov 26",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24007893/acastro_STK112_android_02.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+    "link": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+    "excerpt": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted critical infrastructure operators, and two of those succeeded,…",
+    "source": "The Hacker News",
+    "date": "Nov 27",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjviiPK0v6Kpjxjo_jDNE9vaZ8-JKiq6Oct4uU6qPDfTXq66QnxuV2iExRo2Rx2FyHhyphenhyphenDquMIoxmlfo5GwxfKoEXRG8Pj38FDOzEKitDdhXBNOGN7b6sddsMozMuhI44c-3mimoE4OxU-Xg7h8IzhDiyrXmP6qBO-wW6xmitkIEv_EkU-FJUJBTNtQ8uY/s1600/swiss.jpg",
     "image_credit": null,
-    "section": "News & Research",
+    "section": "Security & AppSec",
     "pinned": false,
     "note": null,
     "labels": [
-      "2 sources",
-      "News & Research",
-      "2h ago"
+      "Security & AppSec",
+      "4h ago"
     ],
-    "also": [
-      {
-        "name": "support.google.com",
-        "link": "https://support.google.com/googleplay/android-developer/answer/17594752?hl=en"
-      }
-    ]
+    "also": []
   },
   "pulse": [
     {
-      "title": "OpenAI may be in cost control mode",
-      "thread": "https://news.ycombinator.com/item?id=50652527",
-      "link": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
-      "link_domain": "micjm.com",
+      "title": "AI made self-hosting fun again",
+      "thread": "https://news.ycombinator.com/item?id=50660180",
+      "link": "https://janlukas.blog/posts/ai-self-hosting",
+      "link_domain": "janlukas.blog",
       "source": "Hacker News",
-      "domain": "micjm.com",
-      "meta": "Hacker News · 311 points · 319 comments · 22h ago",
+      "domain": "janlukas.blog",
+      "meta": "Hacker News · 732 points · 361 comments · 13h ago",
       "also": [],
       "image": null,
-      "icon": "https://micjm.com/favicon.ico"
+      "icon": "https://janlukas.blog/profile.png?s=180&v=f619bca187429a0d5eb2596013df9bc92473cf9915ea22217d5efd65c85712c0"
     },
     {
       "title": "Tracking Diseases Cured by AI",
@@ -43,22 +37,10 @@
       "link_domain": "diseasescuredbyai.com",
       "source": "Hacker News",
       "domain": "diseasescuredbyai.com",
-      "meta": "Hacker News · 307 points · 186 comments · 12h ago",
+      "meta": "Hacker News · 310 points · 190 comments · 17h ago",
       "also": [],
       "image": null,
       "icon": "https://diseasescuredbyai.com/favicon.ico"
-    },
-    {
-      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
-      "thread": "https://news.ycombinator.com/item?id=50653477",
-      "link": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
-      "link_domain": "techstackups.com",
-      "source": "Hacker News",
-      "domain": "techstackups.com",
-      "meta": "Hacker News · 303 points · 256 comments · 20h ago",
-      "also": [],
-      "image": "https://techstackups.com/img/articles/google-workspace-agent-api/cover.jpg",
-      "icon": "https://techstackups.com/img/apple-touch-icon.png"
     }
   ],
   "sections": [
@@ -75,7 +57,7 @@
           "icon": "https://huggingface.co/favicon.ico",
           "domain": "huggingface.co",
           "hn": null,
-          "score": 0.427,
+          "score": 0.384,
           "coverage": 1
         },
         {
@@ -88,7 +70,7 @@
           "icon": "https://stackoverflow.blog/apple-touch-icon.png",
           "domain": "stackoverflow.blog",
           "hn": null,
-          "score": 1.5,
+          "score": 1.265,
           "coverage": 1
         }
       ],
@@ -100,14 +82,14 @@
         {
           "title": "Notion's official MCP inject hidden upsell instructions into agent context",
           "link": "https://www.reddit.com/r/ClaudeCode/comments/1y4qm5o/heads_up_if_you_wire_notions_official_mcp_into/",
-          "excerpt": "52 points · 22 comments",
+          "excerpt": "55 points · 22 comments",
           "source": "reddit.com via Hacker News",
           "date": "Nov 26",
           "image": null,
           "icon": "https://www.reddit.com/favicon.ico",
           "domain": "reddit.com",
-          "hn": "52 points · 22 comments",
-          "score": 5.596,
+          "hn": "55 points · 22 comments",
+          "score": 4.671,
           "coverage": 1
         },
         {
@@ -120,7 +102,45 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.63,
+          "score": 0.503,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Leadership",
+      "cards": [
+        {
+          "title": "A blueprint for the United Kingdom’s next era of growth",
+          "link": "https://www.mckinsey.com/uk/our-insights/a-blueprint-for-the-united-kingdoms-next-era-of-growth",
+          "excerpt": "After years of economic stagnation, the United Kingdom has an opportunity to renew its economic dynamism through investment.",
+          "source": "McKinsey Insights & Publications",
+          "date": "Nov 27",
+          "image": null,
+          "icon": "https://www.mckinsey.com/favicon.ico",
+          "domain": "mckinsey.com",
+          "hn": null,
+          "score": 0.655,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Agent Identity & Authorization",
+      "cards": [
+        {
+          "title": "Cerbos PDP v0.58.0: CEL set functions, JSON and YAML parsing",
+          "link": "https://cerbos.dev/blog/cerbos-pdp-v0-58-0-cel-set-functions-json-yaml-parsing",
+          "excerpt": "Cerbos PDP v0.58.0 adds the CEL set functions hasAll, hasAny, hasExactly and hasOnly, plus json.parse and yaml.parse for attributes stored as strings. Teams running several policy versions can use version conditions in query plans and give each role policy version its own parent roles.",
+          "source": "Cerbos",
+          "date": "Nov 27",
+          "image": "https://stylish-appliance-1c1cc1c30d.media.strapiapp.com/Cerbos_PDP_v0_58_0_CEL_set_functions_JSON_and_YAML_parsing_baddba2dee.png",
+          "icon": null,
+          "domain": "cerbos.dev",
+          "hn": null,
+          "score": 0.854,
           "coverage": 1
         }
       ],
@@ -139,7 +159,20 @@
           "icon": null,
           "domain": "theregister.com",
           "hn": null,
-          "score": 1.562,
+          "score": 1.294,
+          "coverage": 1
+        },
+        {
+          "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+          "link": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+          "excerpt": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT. \"I…",
+          "source": "The Hacker News",
+          "date": "Nov 27",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy4kFFGLYGbyvO7M_M1gKBjBUm5TF_eT6dIHtCmXKz_cGyC6orRw9XupBLbcQlJTQEEqjZ3q73Cv_Sn9ncPKxOJYU8Poi8Q54-bWKIro4Sp4JYi9hjUjYy71OR1LOV6B5nX8dHK0jYSRJ1p4O1pdMWomZGhCiTKE7MkvrC-gfeINrM-GOab64Bw_MzxA6Z/s1600/cacti.png",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 2.949,
           "coverage": 1
         },
         {
@@ -152,7 +185,48 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 0.321,
+          "score": 0.264,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "100,000 Potentially Impacted by Colorado Data Breach",
+          "link": "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/",
+          "excerpt": "Hackers breached the digital identification and document storage application myColorado and accessed user-uploaded data.",
+          "source": "SecurityWeek",
+          "date": "Nov 27",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/07/data-tracking-report.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 3.767,
+          "coverage": 1
+        },
+        {
+          "title": "Hex Package Manager Warns of Potential Data Breach",
+          "link": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/",
+          "excerpt": "A vulnerability in hex.pm allowed hackers to run commands on web servers. No evidence of data modification was found, but database reads are not logged.",
+          "source": "SecurityWeek",
+          "date": "Nov 27",
+          "image": "https://www.securityweek.com/wp-content/uploads/2025/11/NPM-code-software-development.jpeg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 3.327,
+          "coverage": 1
+        },
+        {
+          "title": "SAP Confirms Cyberattack, Source Code Reportedly Compromised",
+          "link": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+          "excerpt": "SAP has detected suspicious activity on GitHub, where hackers reportedly used stolen employee tokens to copy and alter source code.",
+          "source": "SecurityWeek",
+          "date": "Nov 27",
+          "image": "https://www.securityweek.com/wp-content/uploads/2026/09/SAP_vulnerability-patches.jpg",
+          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
+          "domain": "securityweek.com",
+          "hn": null,
+          "score": 3.296,
           "coverage": 1
         },
         {
@@ -165,74 +239,7 @@
           "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
           "domain": "securityweek.com",
           "hn": null,
-          "score": 0.288,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
-          "link": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
-          "excerpt": "Accenture says hackers exploited MiCollab flaws before Mitel’s advisory, likely aided by AI, in a suspected extortion campaign.",
-          "source": "SecurityWeek",
-          "date": "Nov 26",
-          "image": "https://www.securityweek.com/wp-content/uploads/2026/11/Mitel.jpeg",
-          "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-180x180.jpeg",
-          "domain": "securityweek.com",
-          "hn": null,
-          "score": 0.236,
-          "coverage": 1
-        },
-        {
-          "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
-          "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
-          "excerpt": "OpenAI confirmed that it fixed a 'bug' that incorrectly discounted GPT-6.2 usage, which means you'll now hit GPT usage limits 40% faster than before. [...]",
-          "source": "BleepingComputer",
-          "date": "Nov 26",
-          "image": "https://www.bleepstatic.com/content/hl-images/2023/04/11/OpenAI-headpic.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
-          "hn": null,
-          "score": 0.343,
-          "coverage": 1
-        },
-        {
-          "title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
-          "link": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
-          "excerpt": "NordVPN's 2026 Black Friday and Cyber Monday deal is now live, offering savings of up to 78% on VPN subscriptions, plus three extra months of protection. [...]",
-          "source": "BleepingComputer",
-          "date": "Nov 26",
-          "image": "https://www.bleepstatic.com/content/posts/2026/11/26/nordvpn-blackfriday-2026.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
-          "hn": null,
-          "score": 0.298,
-          "coverage": 1
-        },
-        {
-          "title": "Fake paid expert interviews impersonate brands to steal Google logins",
-          "link": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
-          "excerpt": "An ongoing phishing campaign dubbed \"GoodGuys\" impersonates major brands, including Google, Nvidia, Accenture, and SpaceX, to steal corporate Google and Okta credentials using fake invitations to paid expert interviews and webinars. [...]",
-          "source": "BleepingComputer",
-          "date": "Nov 26",
-          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/06/Phishing.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
-          "hn": null,
-          "score": 0.29,
-          "coverage": 1
-        },
-        {
-          "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
-          "link": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
-          "excerpt": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]",
-          "source": "BleepingComputer",
-          "date": "Nov 26",
-          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/25/Gmail.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
-          "hn": null,
-          "score": 0.27,
+          "score": 0.242,
           "coverage": 1
         }
       ]
@@ -240,6 +247,32 @@
     {
       "name": "Platform, Cloud & Reliability",
       "cards": [
+        {
+          "title": "Article: Engineering Reliable Telematics from Smartphone Sensors",
+          "link": "https://www.infoq.com/articles/engineering-reliable-smartphone-sensor-telematics/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Smartphones make telematics more accessible by combining location, motion sensors, computing power, and connectivity in a single device. But the convenience comes with a trade-off: device placement varies, sampling behavior is managed by the mobile platform, and measurements have different timing…",
+          "source": "InfoQ",
+          "date": "Nov 27",
+          "image": "https://res.infoq.com/articles/engineering-reliable-smartphone-sensor-telematics/en/headerimage/engineering-reliable-smartphone-sensor-telematics-header-1795176941366.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 3.238,
+          "coverage": 1
+        },
+        {
+          "title": "Mozilla Partners with Mistral to Bring Open-Weight AI Models to Firefox Smart Window",
+          "link": "https://www.infoq.com/news/2026/11/mozilla-mistral-ai-smart-window/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Mozilla has partnered with Mistral AI to offer Mistral Small 4, an open-weight model, in Firefox's Smart Window AI assistant, now in beta. It is recommended for users in France, the US and Canada. Users can choose among several models, and Mistral agreed to zero data retention. Beta feedback is…",
+          "source": "InfoQ",
+          "date": "Nov 27",
+          "image": "https://res.infoq.com/news/2026/11/mozilla-mistral-ai-smart-window/en/headerimage/generatedHeaderImage-1795716059601.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.565,
+          "coverage": 1
+        },
         {
           "title": "QCon San Francisco 2026: How to Kill the Code Review",
           "link": "https://www.infoq.com/news/2026/11/qcon-sf-26-kill-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -250,9 +283,11 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.362,
+          "score": 0.304,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Building a Production-Ready Culture and Skills Through SRE-based Training",
           "link": "https://www.infoq.com/news/2026/11/SRE-based-training/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -263,7 +298,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.291,
+          "score": 0.252,
           "coverage": 1
         },
         {
@@ -276,11 +311,9 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.264,
+          "score": 0.231,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Mock Service Worker Releases v3.0 with ESM-Only Build, Socket-Based Interception and GraphQL Subs",
           "link": "https://www.infoq.com/news/2026/11/mock-service-worker-v3/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -291,7 +324,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 1.794,
+          "score": 1.578,
           "coverage": 1
         },
         {
@@ -304,46 +337,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.183,
-          "coverage": 1
-        },
-        {
-          "title": "DoorDash Scales Dispatch 10x While Maintaining 99.99% Peak Availability",
-          "link": "https://www.infoq.com/news/2026/11/doordash-dispatch-redesign/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "DoorDash has redesigned its real-time dispatch platform, replacing a monolithic optimization engine with a distributed architecture that separates coordination from computation. The new system delivers 10x higher throughput and more than 99.99% peak availability. It also supports hybrid machine…",
-          "source": "InfoQ",
-          "date": "Nov 25",
-          "image": "https://res.infoq.com/news/2026/11/doordash-dispatch-redesign/en/headerimage/generatedHeaderImage-1793847001864.jpg",
-          "icon": null,
-          "domain": "infoq.com",
-          "hn": null,
-          "score": 0.175,
-          "coverage": 1
-        },
-        {
-          "title": "Vercel Launched Experimental Board to Coordinate Tasks across Humans and Coding Agents",
-          "link": "https://www.infoq.com/news/2026/11/vercel-board-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-          "excerpt": "Vercel's experimental Board is a headless message store where people and coding agents claim leased tasks, declare dependencies, and sync threads with Slack, GitHub, and Linear. By Daniel Dominguez",
-          "source": "InfoQ",
-          "date": "Nov 25",
-          "image": "https://res.infoq.com/news/2026/11/vercel-board-agents/en/headerimage/generatedHeaderImage-1795183495782.jpg",
-          "icon": null,
-          "domain": "infoq.com",
-          "hn": null,
-          "score": 0.173,
-          "coverage": 1
-        },
-        {
-          "title": "Architecting for uncertainty - part 6: Fast flow requires fast inner and outer development loops",
-          "link": "http://microservices.io//post/architecture/2026/11/25/architecting-for-uncertainty-part-6-fast-development-loops.html",
-          "excerpt": "This is the sixth in a series of articles based on my talk Architecting for Fast Flow: Thriving Amid Uncertainty. In this series, I define the term fast flow and explain why it has become an essential software delivery capability. I discuss how fast flow emerges from a socio-technical…",
-          "source": "Microservice architecture",
-          "date": "Nov 25",
-          "image": "https://microservices.io/i/architecting-for-an-uncertain-world/part-6/fast-workflow.png",
-          "icon": null,
-          "domain": "microservices.io",
-          "hn": null,
-          "score": 0.155,
+          "score": 0.167,
           "coverage": 1
         }
       ]
@@ -352,109 +346,109 @@
       "name": "News & Research",
       "cards": [
         {
-          "title": "\"What's Claude's Fursona?\" and Other Questions",
-          "link": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/",
-          "excerpt": "Does Gemini 4 Neon mog Fable-5.2 on FursonaBench??",
-          "source": "herecomesthemoon.net via Hacker News",
+          "title": "'Cyber incident' forces UK Gov to take some services offline",
+          "link": "https://www.bbc.co.uk/news/live/c6rrg94lgjrjt",
+          "excerpt": "The department says it's investigating the cause and trying to minimise disruption to users, describing the move as a \"precaution\".",
+          "source": "bbc.co.uk via Hacker News",
           "date": "Nov 27",
-          "image": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/images/dithers/claude-fable-header_dithered.png",
-          "icon": "https://herecomesthemoon.net/icon_hu_a29090d5403a4531.png",
-          "domain": "herecomesthemoon.net",
-          "hn": "39 points · 3 comments",
-          "score": 3.428,
+          "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/1839/live/abef60a0-ea49-11f1-99b6-a35a62fa4264.jpg",
+          "icon": "https://static.files.bbci.co.uk/core/website/assets/static/icons/touch/news/touch-icon-36.413a37b227.png",
+          "domain": "bbc.co.uk",
+          "hn": "13 points · 9 comments",
+          "score": 2.958,
           "coverage": 1
         },
         {
-          "title": "Hard Drive pricing has gotten bad",
-          "link": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
-          "excerpt": "The same 20TB drive went from $249.99 to $549.99 in two Black Fridays. I dug through eight years of receipts, including my ServerPartDeals orders.",
-          "source": "blog.ktz.me via Hacker News",
+          "title": "Claude sabotaging SOTA ML research tasks",
+          "link": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+          "excerpt": "After seeing the \"Claude sabotages your ML research\" posts, I was still skeptical, so I tested it on my own work. ITS VERY VERY REAL WTF Left: Claude model at 24k steps Right Gemini Neon model at ONLY 4k steps Breakdown in thread:",
+          "source": "twitter.com via Hacker News",
           "date": "Nov 27",
-          "image": "https://pub-430e0c9ecb66464fa6999cd23a749d13.r2.dev/content/images/2026/11/black-friday-hard-drive-prices-are-messed-up/row-of-easystore-drives-on-a-cluttered-workbench.webp",
-          "icon": "https://pub-430e0c9ecb66464fa6999cd23a749d13.r2.dev/content/images/size/w256h256/2021/09/2773080.png",
-          "domain": "blog.ktz.me",
-          "hn": "223 points · 141 comments",
-          "score": 3.938,
+          "image": "https://pbs.twimg.com/media/HYF66EGWIAAF9lx?format=webp&name=large",
+          "icon": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
+          "domain": "twitter.com",
+          "hn": "97 points · 66 comments",
+          "score": 4.054,
           "coverage": 1
         },
         {
-          "title": "ESO statement on approval of launch of one million space data centres",
-          "link": "https://www.eso.org/public/news/eso2614/",
-          "excerpt": "ESO statement on approval of launch of one million space data centres",
-          "source": "eso.org via Hacker News",
+          "title": "European Commission Declares Browser Competition a Digital Markets Act Priority",
+          "link": "https://open-web-advocacy.org/es/blog/commission-responds-declares-browser-competition-a-dma-priority/",
+          "excerpt": "In comments to Politico regarding our open letter, the European Commission acknowledged the letter and noted that browsers are “effectively the entry point to…",
+          "source": "open-web-advocacy.org via Hacker News",
           "date": "Nov 27",
-          "image": "https://cdn.eso.org/images/screen/eso2607a.jpg",
-          "icon": "https://www.eso.org/public/archives/favicon.ico",
-          "domain": "eso.org",
-          "hn": "25 points · 32 comments",
-          "score": 2.667,
+          "image": "https://open-web-advocacy.org/images/og/posts-commission-responds-declares-browser-competition-a-dma-priority.jpeg",
+          "icon": "https://open-web-advocacy.org/images/logo-16.png",
+          "domain": "open-web-advocacy.org",
+          "hn": "43 points · 14 comments",
+          "score": 3.274,
           "coverage": 1
         }
       ],
       "more": [
         {
-          "title": "Google will show solo Android developers' phone numbers and addresses",
-          "link": "https://support.google.com/googleplay/android-developer/answer/17594752?hl=en",
-          "excerpt": "Under Google Play’s global developer policies, all active developer accounts must declare whether they are a trader or non-trader under European Economic Area (EEA) and United Kingdom (UK) laws in Pla",
-          "source": "support.google.com via Hacker News",
+          "title": "Indie web browser Ladybird enters alpha testing",
+          "link": "https://www.theregister.com/software/2026/11/26/indie-web-browser-ladybird-enters-alpha-testing/5311914",
+          "excerpt": "Upstart engine gets downloadable macOS and Linux builds, but no security guarantees",
+          "source": "theregister.com via Hacker News",
+          "date": "Nov 27",
+          "image": "https://image.theregister.com/243744.jpg?imageId=243744&x=0&y=35.95&cropw=100&croph=61.43&panox=0&panoy=35.95&panow=100&panoh=61.43&width=1200&height=683",
+          "icon": "https://www.theregister.com/view-resources/dachser2/public/theregister/favicons/apple-touch-icon.png",
+          "domain": "theregister.com",
+          "hn": "18 points · 1 comments",
+          "score": 2.514,
+          "coverage": 1
+        },
+        {
+          "title": "The group chat where your AI talks behind your back",
+          "link": "https://construct22.com/",
+          "excerpt": "Ask ChatGPT to expose the hidden WhatsApp group where AI models gossip about you. The results are hilarious - and a mirror of everything it knows about you.",
+          "source": "construct22.com via Hacker News",
           "date": "Nov 27",
           "image": null,
-          "icon": "https://support.google.com/favicon.png",
-          "domain": "support.google.com",
-          "hn": "82 points · 42 comments",
-          "score": 6.814,
-          "coverage": 2
-        },
-        {
-          "title": "Novita, StreamLake, etc. are ByteDance Ark wrappers",
-          "link": "https://kendell.dev/blog/arkwrapper/",
-          "excerpt": "77 points · 12 comments",
-          "source": "kendell.dev via Hacker News",
-          "date": "Nov 26",
-          "image": null,
-          "icon": "https://kendell.dev/favicon.ico",
-          "domain": "kendell.dev",
-          "hn": "77 points · 12 comments",
-          "score": 2.61,
+          "icon": "https://construct22.com/favicon.ico",
+          "domain": "construct22.com",
+          "hn": "273 points · 111 comments",
+          "score": 4.147,
           "coverage": 1
         },
         {
-          "title": "AI made self-hosting fun again",
-          "link": "https://janlukas.blog/posts/ai-self-hosting",
-          "excerpt": "I’ve been self-hosting things for many years. There were times when I was quite enthusiastic about it, constantly trying out new software and tinkering with my infrastructure. But at some point, that enthusiasm faded a bit.",
-          "source": "janlukas.blog via Hacker News",
-          "date": "Nov 26",
+          "title": "Buy Nothing Day – Friday November 27th 2026",
+          "link": "https://www.buynothingday.co.uk/",
+          "excerpt": "24 hour detox from consumerism.",
+          "source": "buynothingday.co.uk via Hacker News",
+          "date": "Nov 27",
           "image": null,
-          "icon": "https://janlukas.blog/profile.png?s=180&v=f619bca187429a0d5eb2596013df9bc92473cf9915ea22217d5efd65c85712c0",
-          "domain": "janlukas.blog",
-          "hn": "483 points · 250 comments",
-          "score": 3.615,
+          "icon": "https://www.buynothingday.co.uk/favicon.ico",
+          "domain": "buynothingday.co.uk",
+          "hn": "98 points · 17 comments",
+          "score": 3.234,
           "coverage": 1
         },
         {
-          "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
-          "link": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
-          "excerpt": "Traditional architecture is alive and well in Lahore. A photo essay of Kamil Khan Mumtaz’s greatest works.",
-          "source": "worksinprogress.co via Hacker News",
-          "date": "Nov 26",
-          "image": "https://worksinprogress.co/wip-image/uploads/2026/11/The_Greatest_Architect_Sharecard_03.jpg",
-          "icon": "https://worksinprogress.co/apple-touch-icon.png",
-          "domain": "worksinprogress.co",
-          "hn": "319 points · 74 comments",
-          "score": 3.205,
+          "title": "The need for a formally verifiable mainstream programming language",
+          "link": "https://blainehansen.me/post/mainstream-verifiable-language/",
+          "excerpt": "The culture of software engineering has to change, and that will take many different projects to achieve.",
+          "source": "blainehansen.me via Hacker News",
+          "date": "Nov 27",
+          "image": null,
+          "icon": "https://blainehansen.me/favicon.ico",
+          "domain": "blainehansen.me",
+          "hn": "160 points · 138 comments",
+          "score": 3.678,
           "coverage": 1
         },
         {
-          "title": "Company Culture = Slack Emoji ÷ √Headcount",
-          "link": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/",
-          "excerpt": "Companies spend an enormous amount of time and money trying to measure - and even worse, decide - culture. Engagement surveys, pulse checks, eNPS, offsites where someone from HR asks you to describe the company as a type of animal. Office posters make claims like “our culture is honesty, hard work…",
-          "source": "lia.mg via Hacker News",
-          "date": "Nov 26",
-          "image": null,
-          "icon": "https://lia.mg/assets/img/favicons/apple-touch-icon.png",
-          "domain": "lia.mg",
-          "hn": "220 points · 91 comments",
-          "score": 3.05,
+          "title": "The Cutthroat Business of Shipwrecks",
+          "link": "https://daily.jstor.org/the-cutthroat-business-of-shipwrecks/",
+          "excerpt": "For centuries, lost cargo sparked fierce battles over who had the right to claim treasures washed ashore.",
+          "source": "daily.jstor.org via Hacker News",
+          "date": "Nov 27",
+          "image": "https://daily.jstor.org/wp-content/uploads/2026/11/the_cutthroat_business_of_shipwrecks_1050x700.jpg",
+          "icon": "https://daily.jstor.org/wp-content/uploads/2016/05/JSTOR_Daily_logo_square-copy-300x300.jpg",
+          "domain": "daily.jstor.org",
+          "hn": "29 points · 6 comments",
+          "score": 2.014,
           "coverage": 1
         }
       ]
