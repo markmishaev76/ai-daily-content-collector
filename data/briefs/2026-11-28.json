@@ -1,0 +1,452 @@
+{
+  "date": "2026-11-28",
+  "lead": {
+    "title": "9/UX: a Macintosh-inspired desktop for 9front",
+    "link": "https://progrium.github.io/9ux/",
+    "excerpt": "",
+    "source": "progrium.github.io via Hacker News",
+    "date": "Nov 27",
+    "image": null,
+    "image_credit": null,
+    "section": "News & Research",
+    "pinned": false,
+    "note": null,
+    "labels": [
+      "News & Research",
+      "4h ago"
+    ],
+    "also": []
+  },
+  "pulse": [
+    {
+      "title": "Group chat where your AI talks behind your back",
+      "thread": "https://news.ycombinator.com/item?id=50663595",
+      "link": "https://construct22.com/",
+      "link_domain": "construct22.com",
+      "source": "Hacker News",
+      "domain": "construct22.com",
+      "meta": "Hacker News · 683 points · 286 comments · 19h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://construct22.com/favicon.ico"
+    },
+    {
+      "title": "Claude sabotaging ML research tasks?",
+      "thread": "https://news.ycombinator.com/item?id=50664325",
+      "link": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+      "link_domain": "twitter.com",
+      "source": "Hacker News",
+      "domain": "twitter.com",
+      "meta": "Hacker News · 610 points · 288 comments · 17h ago",
+      "also": [],
+      "image": "https://pbs.twimg.com/media/HYF66EGWIAAF9lx?format=webp&name=large",
+      "icon": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png"
+    },
+    {
+      "title": "US Air Force's cloud computing platform hacked",
+      "thread": "https://news.ycombinator.com/item?id=50666375",
+      "link": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
+      "link_domain": "news.sky.com",
+      "source": "Hacker News",
+      "domain": "news.sky.com",
+      "meta": "Hacker News · 330 points · 201 comments · 13h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://news.sky.com/favicon.ico"
+    },
+    {
+      "title": "I'm Scared of AI",
+      "thread": "https://news.ycombinator.com/item?id=50669561",
+      "link": "https://thesoapbox.email/archive/3",
+      "link_domain": "thesoapbox.email",
+      "source": "Hacker News",
+      "domain": "thesoapbox.email",
+      "meta": "Hacker News · 203 points · 241 comments · 8h ago",
+      "also": [],
+      "image": "https://thesoapbox.email/og.png",
+      "icon": "https://thesoapbox.email/apple-touch-icon.png"
+    },
+    {
+      "title": "\"What's Claude's fursona?\" and other questions",
+      "thread": "https://news.ycombinator.com/item?id=50662933",
+      "link": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/",
+      "link_domain": "herecomesthemoon.net",
+      "source": "Hacker News",
+      "domain": "herecomesthemoon.net",
+      "meta": "Hacker News · 185 points · 172 comments · 21h ago",
+      "also": [],
+      "image": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/images/dithers/claude-fable-header_dithered.png",
+      "icon": "https://herecomesthemoon.net/icon_hu_a29090d5403a4531.png"
+    },
+    {
+      "title": "AI on brink of making online security useless, mathematicians fear",
+      "thread": "https://news.ycombinator.com/item?id=50665488",
+      "link": "https://www.thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8",
+      "link_domain": "thetimes.com",
+      "source": "Hacker News",
+      "domain": "thetimes.com",
+      "meta": "Hacker News · 115 points · 151 comments · 14h ago",
+      "also": [],
+      "image": "https://www.thetimes.com/imageserver/image/1769afb8-0e9f-496d-96a1-6d5de4ca6640.png?strip=all&format=webp&crop=1600px%2C900px%2C0px%2C0px&resize=1200",
+      "icon": "https://www.thetimes.com/imageserver/image/4e2c5841-df25-42a6-8b74-065cc072e1e8.png?w=180"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI-Assisted Engineering",
+      "cards": [
+        {
+          "title": "datasette-mcp 0.4",
+          "link": "https://simonwillison.net/2026/Nov/27/datasette-mcp/",
+          "excerpt": "Release: datasette-mcp 0.4 Fixed for compatibility with Datasette 1.0a44. Tags: model-context-protocol, datasette",
+          "source": "Simon Willison",
+          "date": "Nov 27",
+          "image": null,
+          "icon": "https://simonwillison.net/favicon.ico",
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 4.015,
+          "coverage": 1
+        },
+        {
+          "title": "datasette-charts 0.4a0",
+          "link": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+          "excerpt": "Release: datasette-charts 0.4a0 The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up with a bunch of…",
+          "source": "Simon Willison",
+          "date": "Nov 27",
+          "image": "https://static.simonwillison.net/static/2026/datasette-charts-gallery.webp",
+          "icon": null,
+          "domain": "simonwillison.net",
+          "hn": null,
+          "score": 1.272,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "AI Agents & Agent Security",
+      "cards": [
+        {
+          "title": "Lantern Promos – An MCP server for checking store discount codes",
+          "link": "https://lanternpromos.com/",
+          "excerpt": "Lantern Promos gives your AI assistant free, validated discount codes. Works with ChatGPT, Claude, Perplexity, Muse and any assistant that supports MCP.",
+          "source": "lanternpromos.com via Hacker News",
+          "date": "Nov 27",
+          "image": "https://lanternpromos.com/og.png",
+          "icon": "https://lanternpromos.com/apple-touch-icon.png",
+          "domain": "lanternpromos.com",
+          "hn": "10 points · 9 comments",
+          "score": 6.257,
+          "coverage": 1
+        },
+        {
+          "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+          "link": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/",
+          "excerpt": "A frontier lab can pay more for training data it gets to keep exclusive, or take a discount on data another lab can buy too. At AI Engineer CODE, G2i founder Gabe Greenberg tells swyx how labs make that decision, how small pilot orders turn into bigger...",
+          "source": "Latent Space",
+          "date": "Nov 27",
+          "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/0215d0ff-181b-4f75-aef5-94cd873ea1b0/g2i-how-labs-buy-ai-data-podcast.jpg?t=1795817915",
+          "icon": null,
+          "domain": "latent.space",
+          "hn": null,
+          "score": 0.76,
+          "coverage": 1
+        },
+        {
+          "title": "Friday Squid Blogging: Giant Squid in Newfoundland",
+          "link": "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-giant-squid-in-newfoundland.html",
+          "excerpt": "The two have an interesting history. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.",
+          "source": "Schneier on Security",
+          "date": "Nov 27",
+          "image": null,
+          "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
+          "domain": "schneier.com",
+          "hn": null,
+          "score": 0.746,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Leadership",
+      "cards": [
+        {
+          "title": "Five Non-Leadership Books for Leaders",
+          "link": "https://randsinrepose.com/archives/five-non-leadership-books-for-leaders/",
+          "excerpt": "Foundation Trilogy (Isaac Asimov) — There was a decade when I read through this trilogy1 every year or so. Asimov is a fine writer, but his characters are… flat. Their dialogue is equally flat… it’s like reading two LLMs argue about the meaning of life. Empty of heart. What I appreciate about…",
+          "source": "Rands in Repose",
+          "date": "Nov 27",
+          "image": "https://randsinrepose.com/wp-content/uploads/2026/11/five-non-1024x535.png",
+          "icon": null,
+          "domain": "randsinrepose.com",
+          "hn": null,
+          "score": 0.752,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Agent Identity & Authorization",
+      "cards": [
+        {
+          "title": "Des vitrines aux agents d’IA : la prochaine évolution du commerce de détail",
+          "link": "https://auth0.com/blog/fr-secure-agentic-commerce-interactions-auth0-auth-mcp/",
+          "excerpt": "Comment sécuriser les interactions commerciales agentiques avec Auth for MCP d’Auth0.",
+          "source": "Auth0 Blog",
+          "date": "Nov 27",
+          "image": "https://images.ctfassets.net/23aumh6u8s0i/3xuOnX4Ij9Gc5aOCy2r9FV/533c33dccab39ac28dee6f0df26a40ab/Auth0MCPHero.png",
+          "icon": null,
+          "domain": "auth0.com",
+          "hn": null,
+          "score": 4.197,
+          "coverage": 1
+        },
+        {
+          "title": "実店舗からAIエージェントへ：小売コマースの次なる進化",
+          "link": "https://auth0.com/blog/jp-secure-agentic-commerce-interactions-auth0-auth-mcp/",
+          "excerpt": "Auth0のAuth for MCPでエージェント型コマースのインタラクションを保護する方法",
+          "source": "Auth0 Blog",
+          "date": "Nov 27",
+          "image": "https://images.ctfassets.net/23aumh6u8s0i/3xuOnX4Ij9Gc5aOCy2r9FV/533c33dccab39ac28dee6f0df26a40ab/Auth0MCPHero.png",
+          "icon": null,
+          "domain": "auth0.com",
+          "hn": null,
+          "score": 4.116,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "Security & AppSec",
+      "cards": [
+        {
+          "title": "pCloud confirms password manager hack after suspicious login alerts",
+          "link": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+          "excerpt": "The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 27",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/27/pcloud-logo.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.386,
+          "coverage": 1
+        },
+        {
+          "title": "New Boston Scientific data breach exposes personal, medical info",
+          "link": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+          "excerpt": "Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 27",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/27/bostonscientific.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 2.633,
+          "coverage": 1
+        },
+        {
+          "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+          "link": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+          "excerpt": "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 27",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/27/cacti.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 2.4,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
+          "link": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
+          "excerpt": "Forgotten virtual machines, unpatched servers, and excessive access permissions can create security blind spots across IT infrastructure. ISPsystem explains how centralized infrastructure management, access controls, and resource lifecycle automation can help reduce these risks. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 27",
+          "image": "https://www.bleepstatic.com/content/posts/2026/11/23/ispsystem-vm.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.312,
+          "coverage": 1
+        },
+        {
+          "title": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
+          "link": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
+          "excerpt": "Malwarebytes' 2026 Black Friday and Cyber Monday sale is now live, offering 50% off security subscriptions for individuals, families, and small businesses, including its antivirus software, VPN, identity theft protection, and personal data removal services. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 27",
+          "image": "https://www.bleepstatic.com/content/posts/2026/11/26/malwarebytes_black-friday-2026.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.303,
+          "coverage": 1
+        },
+        {
+          "title": "Microsoft removes WSUS server role in Windows Server 2028",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+          "excerpt": "Microsoft will remove the WSUS server role from Windows Server 2028, the next major release of its server operating system. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 27",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/27/Windows-Server.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.269,
+          "coverage": 1
+        },
+        {
+          "title": "Drupal warns of new site takeover flaw exploited in attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+          "excerpt": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 27",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/27/Drupal_headpic.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.258,
+          "coverage": 1
+        },
+        {
+          "title": "SAP confirms security incident after suspicious GitHub activity",
+          "link": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+          "excerpt": "SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 27",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/27/sap.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 0.256,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "name": "Platform, Cloud & Reliability",
+      "cards": [
+        {
+          "title": "September 29 Outage Incident Report: What we learnt",
+          "link": "https://engineering.atspotify.com/2026/11/september-29-outage-incident-report-what-we-learnt/",
+          "excerpt": "On September 29, Spotify experienced an outage that disrupted users’ access to the platform. This outage was...",
+          "source": "Spotify Engineering",
+          "date": "Nov 27",
+          "image": "https://images.ctfassets.net/p762jor363g1/5Pj1XJpttH7jTwoNtzp0JK/6fe349c743b3f334580c783ee71b7804/tools-orange-c-cream.png",
+          "icon": "https://engineering.atspotify.com/favicon.ico?favicon.123-f8vw5dsz2.ico",
+          "domain": "engineering.atspotify.com",
+          "hn": null,
+          "score": 0.373,
+          "coverage": 1
+        }
+      ],
+      "more": []
+    },
+    {
+      "name": "News & Research",
+      "cards": [
+        {
+          "title": "Passkey blues",
+          "link": "https://ssg.dev/passkey-blues/",
+          "excerpt": "Passkeys are actually great: no more remembering passwords, no more phishing. Logins are just a click or press now, and maybe a biometric scan added to that. They aren't without their problems though.",
+          "source": "ssg.dev via Hacker News",
+          "date": "Nov 27",
+          "image": "https://storage.ghost.io/c/a3/07/a307ba0d-aa3f-4a89-af96-55877f659ce4/content/images/size/w1200/2026/11/photo-1588475950972-c872dd2e730e.jpeg",
+          "icon": "https://ssg.dev/favicon.ico",
+          "domain": "ssg.dev",
+          "hn": "28 points · 4 comments",
+          "score": 2.983,
+          "coverage": 1
+        },
+        {
+          "title": "Painting 1990s anime scenes in Python",
+          "link": "https://www.fofr.ai/greenhouse-after-the-typhoon",
+          "excerpt": "You can paint 1990s cel-and-gouache anime stills from scratch in Python, with no image model and no external textures. One 3D camera warps flat painted panels into depth while shared sunlight, tapered PyCairo ink, gouache grain, and 35mm optics finish the frame.",
+          "source": "fofr.ai via Hacker News",
+          "date": "Nov 27",
+          "image": "https://fofr.ai/og/greenhouse-after-the-typhoon.png",
+          "icon": "https://www.fofr.ai/favicon.ico",
+          "domain": "fofr.ai",
+          "hn": "11 points · 3 comments",
+          "score": 2.428,
+          "coverage": 1
+        },
+        {
+          "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
+          "link": "https://tabernet.es/",
+          "excerpt": "Open a page and your phone is a node. The scheduler sends it a pod, and the pod runs on a Linux kernel booted in the tab.",
+          "source": "tabernet.es via Hacker News",
+          "date": "Nov 27",
+          "image": "https://tabernet.es/card.png",
+          "icon": "https://tabernet.es/icon-180.png",
+          "domain": "tabernet.es",
+          "hn": "33 points · 11 comments",
+          "score": 3.02,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+          "link": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+          "excerpt": "10 points · 0 comments",
+          "source": "drmahfouz.substack.com via Hacker News",
+          "date": "Nov 28",
+          "image": null,
+          "icon": "https://drmahfouz.substack.com/favicon.ico",
+          "domain": "drmahfouz.substack.com",
+          "hn": "10 points · 0 comments",
+          "score": 2.513,
+          "coverage": 1
+        },
+        {
+          "title": "Alaska seized his plane over some beers. He is asking the Supreme Court for help",
+          "link": "https://www.reuters.com/legal/government/alaska-seized-his-seaplane-over-some-beers-he-is-asking-us-supreme-court-help-2026-11-27/",
+          "excerpt": "15 points · 0 comments",
+          "source": "reuters.com via Hacker News",
+          "date": "Nov 28",
+          "image": null,
+          "icon": "https://www.reuters.com/favicon.ico",
+          "domain": "reuters.com",
+          "hn": "15 points · 0 comments",
+          "score": 2.764,
+          "coverage": 1
+        },
+        {
+          "title": "Source Control from Hell",
+          "link": "https://frantic.im/git/",
+          "excerpt": "My first office job was at an enterprise that built software for a big telecom: a massive Delphi help desk application on Windows.",
+          "source": "frantic.im via Hacker News",
+          "date": "Nov 27",
+          "image": "https://frantic.im/assets/og/git.png",
+          "icon": "https://frantic.im/favicon.png",
+          "domain": "frantic.im",
+          "hn": "58 points · 42 comments",
+          "score": 3.355,
+          "coverage": 1
+        },
+        {
+          "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+          "link": "https://sessiongraph.ai/",
+          "excerpt": "Bring your sessions from your favorite harness, explore and visualize in a graph. Compare with your friends.",
+          "source": "sessiongraph.ai via Hacker News",
+          "date": "Nov 27",
+          "image": "https://sessiongraph.ai/assets/social.jpg",
+          "icon": "https://sessiongraph.ai/assets/apple-touch-icon-C83Fb5M9.png",
+          "domain": "sessiongraph.ai",
+          "hn": "28 points · 10 comments",
+          "score": 2.601,
+          "coverage": 1
+        }
+      ]
+    }
+  ]
+}
