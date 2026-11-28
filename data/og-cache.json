@@ -1721,6 +1721,12 @@
   "icon": "https://forum.torproject.org/uploads/default/optimized/2X/d/d3424bed34f4ec18b2e99178c2801ba6dfb655d6_2_180x180.png",
   "image": "https://forum.torproject.org/uploads/default/original/2X/d/d3424bed34f4ec18b2e99178c2801ba6dfb655d6.png"
  },
+ "https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/": {
+  "description": null,
+  "fetched": "2026-11-28",
+  "icon": null,
+  "image": null
+ },
  "https://forums.spacebattles.com/threads/humble-bundle-just-completely-killed-most-of-their-security-through-vibecoding.1346295/": {
   "description": null,
   "fetched": "2026-11-12",
@@ -3058,6 +3064,12 @@
   "fetched": "2026-11-25",
   "icon": "https://latent.space/favicon.png",
   "image": "https://latent.space/og/card/post/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/cbe347eb1fb1cb87c986d8fbe2e2206521e0bdecbfd20fbb16e0c4595e118daa.png"
+ },
+ "https://latent.space/p/ainews-inside-the-exploding-coding-data-market/": {
+  "description": "November 27, 2026 — How frontier labs buy training data.",
+  "fetched": "2026-11-28",
+  "icon": "https://latent.space/favicon.png",
+  "image": "https://latent.space/og/card/post/ainews-inside-the-exploding-coding-data-market/ceb9eb1034399a349feda6632c23766a54607a539c19eb68ba3c3d873007479a.png"
  },
  "https://latent.space/p/ainews-it-s-swapping-season/": {
   "description": "November 4, 2026 — OpenAI’s Linux kernel security work, Kimi K3.1 Pro’s open weights, and Ricursive’s Ripple-65B.",
@@ -6076,6 +6088,12 @@
   "fetched": "2026-11-13",
   "icon": "https://unemploymentlabs.com/favicon.svg",
   "image": "https://unemploymentlabs.com/checkpoint-forensics-og.png?v=4"
+ },
+ "https://unkernel.dev": {
+  "description": "A real Linux kernel, compiled to WebAssembly. It boots to a shell in less than a second.",
+  "fetched": "2026-11-28",
+  "icon": "https://unkernel.dev/apple-touch-icon.png",
+  "image": "https://unkernel.dev/og.png"
  },
  "https://unrelatedfindings.com/essays/the-most-expensive-bargaining-chip-in-history/": {
   "description": "What if Washington’s new chip restrictions became a bargaining chip in its negotiations with Beijing?",

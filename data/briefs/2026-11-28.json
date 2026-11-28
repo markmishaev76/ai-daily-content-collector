@@ -13,7 +13,7 @@
     "note": null,
     "labels": [
       "News & Research",
-      "4h ago"
+      "6h ago"
     ],
     "also": []
   },
@@ -25,7 +25,7 @@
       "link_domain": "construct22.com",
       "source": "Hacker News",
       "domain": "construct22.com",
-      "meta": "Hacker News · 683 points · 286 comments · 19h ago",
+      "meta": "Hacker News · 691 points · 286 comments · 21h ago",
       "also": [],
       "image": null,
       "icon": "https://construct22.com/favicon.ico"
@@ -37,7 +37,7 @@
       "link_domain": "twitter.com",
       "source": "Hacker News",
       "domain": "twitter.com",
-      "meta": "Hacker News · 610 points · 288 comments · 17h ago",
+      "meta": "Hacker News · 636 points · 295 comments · 19h ago",
       "also": [],
       "image": "https://pbs.twimg.com/media/HYF66EGWIAAF9lx?format=webp&name=large",
       "icon": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png"
@@ -49,7 +49,7 @@
       "link_domain": "news.sky.com",
       "source": "Hacker News",
       "domain": "news.sky.com",
-      "meta": "Hacker News · 330 points · 201 comments · 13h ago",
+      "meta": "Hacker News · 336 points · 206 comments · 15h ago",
       "also": [],
       "image": null,
       "icon": "https://news.sky.com/favicon.ico"
@@ -61,7 +61,7 @@
       "link_domain": "thesoapbox.email",
       "source": "Hacker News",
       "domain": "thesoapbox.email",
-      "meta": "Hacker News · 203 points · 241 comments · 8h ago",
+      "meta": "Hacker News · 206 points · 244 comments · 10h ago",
       "also": [],
       "image": "https://thesoapbox.email/og.png",
       "icon": "https://thesoapbox.email/apple-touch-icon.png"
@@ -73,7 +73,7 @@
       "link_domain": "herecomesthemoon.net",
       "source": "Hacker News",
       "domain": "herecomesthemoon.net",
-      "meta": "Hacker News · 185 points · 172 comments · 21h ago",
+      "meta": "Hacker News · 189 points · 176 comments · 23h ago",
       "also": [],
       "image": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/images/dithers/claude-fable-header_dithered.png",
       "icon": "https://herecomesthemoon.net/icon_hu_a29090d5403a4531.png"
@@ -85,7 +85,7 @@
       "link_domain": "thetimes.com",
       "source": "Hacker News",
       "domain": "thetimes.com",
-      "meta": "Hacker News · 115 points · 151 comments · 14h ago",
+      "meta": "Hacker News · 118 points · 153 comments · 16h ago",
       "also": [],
       "image": "https://www.thetimes.com/imageserver/image/1769afb8-0e9f-496d-96a1-6d5de4ca6640.png?strip=all&format=webp&crop=1600px%2C900px%2C0px%2C0px&resize=1200",
       "icon": "https://www.thetimes.com/imageserver/image/4e2c5841-df25-42a6-8b74-065cc072e1e8.png?w=180"
@@ -105,7 +105,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 4.015,
+          "score": 3.812,
           "coverage": 1
         },
         {
@@ -118,7 +118,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 1.272,
+          "score": 1.114,
           "coverage": 1
         }
       ],
@@ -137,7 +137,20 @@
           "icon": "https://lanternpromos.com/apple-touch-icon.png",
           "domain": "lanternpromos.com",
           "hn": "10 points · 9 comments",
-          "score": 6.257,
+          "score": 5.705,
+          "coverage": 1
+        },
+        {
+          "title": "[AINews] Inside the exploding Coding Data Market",
+          "link": "https://latent.space/p/ainews-inside-the-exploding-coding-data-market/",
+          "excerpt": "November 27, 2026 — How frontier labs buy training data.",
+          "source": "Latent Space",
+          "date": "Nov 28",
+          "image": "https://latent.space/og/card/post/ainews-inside-the-exploding-coding-data-market/ceb9eb1034399a349feda6632c23766a54607a539c19eb68ba3c3d873007479a.png",
+          "icon": "https://latent.space/favicon.png",
+          "domain": "latent.space",
+          "hn": null,
+          "score": 0.972,
           "coverage": 1
         },
         {
@@ -146,13 +159,15 @@
           "excerpt": "A frontier lab can pay more for training data it gets to keep exclusive, or take a discount on data another lab can buy too. At AI Engineer CODE, G2i founder Gabe Greenberg tells swyx how labs make that decision, how small pilot orders turn into bigger...",
           "source": "Latent Space",
           "date": "Nov 27",
-          "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=384/uploads/asset/file/0215d0ff-181b-4f75-aef5-94cd873ea1b0/g2i-how-labs-buy-ai-data-podcast.jpg?t=1795817915",
+          "image": "https://i.ytimg.com/vi/lCtMq8jegvo/maxresdefault.jpg",
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.76,
+          "score": 0.972,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Friday Squid Blogging: Giant Squid in Newfoundland",
           "link": "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-giant-squid-in-newfoundland.html",
@@ -163,11 +178,10 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.746,
+          "score": 0.664,
           "coverage": 1
         }
-      ],
-      "more": []
+      ]
     },
     {
       "name": "Leadership",
@@ -182,7 +196,7 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.752,
+          "score": 0.683,
           "coverage": 1
         }
       ],
@@ -201,7 +215,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 4.197,
+          "score": 3.818,
           "coverage": 1
         },
         {
@@ -214,7 +228,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 4.116,
+          "score": 3.75,
           "coverage": 1
         }
       ],
@@ -233,7 +247,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.386,
+          "score": 0.348,
           "coverage": 1
         },
         {
@@ -246,7 +260,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 2.633,
+          "score": 2.383,
           "coverage": 1
         },
         {
@@ -259,7 +273,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 2.4,
+          "score": 2.191,
           "coverage": 1
         }
       ],
@@ -274,7 +288,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.312,
+          "score": 0.287,
           "coverage": 1
         },
         {
@@ -287,7 +301,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.303,
+          "score": 0.28,
           "coverage": 1
         },
         {
@@ -300,7 +314,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.269,
+          "score": 0.25,
           "coverage": 1
         },
         {
@@ -313,7 +327,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.258,
+          "score": 0.241,
           "coverage": 1
         },
         {
@@ -326,7 +340,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.256,
+          "score": 0.239,
           "coverage": 1
         }
       ]
@@ -344,7 +358,7 @@
           "icon": "https://engineering.atspotify.com/favicon.ico?favicon.123-f8vw5dsz2.ico",
           "domain": "engineering.atspotify.com",
           "hn": null,
-          "score": 0.373,
+          "score": 0.345,
           "coverage": 1
         }
       ],
@@ -354,29 +368,16 @@
       "name": "News & Research",
       "cards": [
         {
-          "title": "Passkey blues",
-          "link": "https://ssg.dev/passkey-blues/",
-          "excerpt": "Passkeys are actually great: no more remembering passwords, no more phishing. Logins are just a click or press now, and maybe a biometric scan added to that. They aren't without their problems though.",
-          "source": "ssg.dev via Hacker News",
-          "date": "Nov 27",
-          "image": "https://storage.ghost.io/c/a3/07/a307ba0d-aa3f-4a89-af96-55877f659ce4/content/images/size/w1200/2026/11/photo-1588475950972-c872dd2e730e.jpeg",
-          "icon": "https://ssg.dev/favicon.ico",
-          "domain": "ssg.dev",
-          "hn": "28 points · 4 comments",
-          "score": 2.983,
-          "coverage": 1
-        },
-        {
-          "title": "Painting 1990s anime scenes in Python",
-          "link": "https://www.fofr.ai/greenhouse-after-the-typhoon",
-          "excerpt": "You can paint 1990s cel-and-gouache anime stills from scratch in Python, with no image model and no external textures. One 3D camera warps flat painted panels into depth while shared sunlight, tapered PyCairo ink, gouache grain, and 35mm optics finish the frame.",
-          "source": "fofr.ai via Hacker News",
-          "date": "Nov 27",
-          "image": "https://fofr.ai/og/greenhouse-after-the-typhoon.png",
-          "icon": "https://www.fofr.ai/favicon.ico",
-          "domain": "fofr.ai",
-          "hn": "11 points · 3 comments",
-          "score": 2.428,
+          "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
+          "link": "https://unkernel.dev",
+          "excerpt": "A real Linux kernel, compiled to WebAssembly. It boots to a shell in less than a second.",
+          "source": "unkernel.dev via Hacker News",
+          "date": "Nov 28",
+          "image": "https://unkernel.dev/og.png",
+          "icon": "https://unkernel.dev/apple-touch-icon.png",
+          "domain": "unkernel.dev",
+          "hn": "11 points · 2 comments",
+          "score": 2.656,
           "coverage": 1
         },
         {
@@ -388,36 +389,8 @@
           "image": "https://tabernet.es/card.png",
           "icon": "https://tabernet.es/icon-180.png",
           "domain": "tabernet.es",
-          "hn": "33 points · 11 comments",
-          "score": 3.02,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
-          "link": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
-          "excerpt": "10 points · 0 comments",
-          "source": "drmahfouz.substack.com via Hacker News",
-          "date": "Nov 28",
-          "image": null,
-          "icon": "https://drmahfouz.substack.com/favicon.ico",
-          "domain": "drmahfouz.substack.com",
-          "hn": "10 points · 0 comments",
-          "score": 2.513,
-          "coverage": 1
-        },
-        {
-          "title": "Alaska seized his plane over some beers. He is asking the Supreme Court for help",
-          "link": "https://www.reuters.com/legal/government/alaska-seized-his-seaplane-over-some-beers-he-is-asking-us-supreme-court-help-2026-11-27/",
-          "excerpt": "15 points · 0 comments",
-          "source": "reuters.com via Hacker News",
-          "date": "Nov 28",
-          "image": null,
-          "icon": "https://www.reuters.com/favicon.ico",
-          "domain": "reuters.com",
-          "hn": "15 points · 0 comments",
-          "score": 2.764,
+          "hn": "49 points · 23 comments",
+          "score": 2.948,
           "coverage": 1
         },
         {
@@ -429,8 +402,49 @@
           "image": "https://frantic.im/assets/og/git.png",
           "icon": "https://frantic.im/favicon.png",
           "domain": "frantic.im",
-          "hn": "58 points · 42 comments",
-          "score": 3.355,
+          "hn": "74 points · 54 comments",
+          "score": 3.117,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "Atari Homebrew Awards Cancelled",
+          "link": "https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/",
+          "excerpt": "109 points · 90 comments",
+          "source": "forums.atariage.com via Hacker News",
+          "date": "Nov 28",
+          "image": null,
+          "icon": "https://forums.atariage.com/favicon.ico",
+          "domain": "forums.atariage.com",
+          "hn": "109 points · 90 comments",
+          "score": 4.303,
+          "coverage": 1
+        },
+        {
+          "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+          "link": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+          "excerpt": "90 points · 68 comments",
+          "source": "drmahfouz.substack.com via Hacker News",
+          "date": "Nov 28",
+          "image": null,
+          "icon": "https://drmahfouz.substack.com/favicon.ico",
+          "domain": "drmahfouz.substack.com",
+          "hn": "90 points · 68 comments",
+          "score": 3.996,
+          "coverage": 1
+        },
+        {
+          "title": "Alaska seized his plane over some beers. He is asking the Supreme Court for help",
+          "link": "https://www.reuters.com/legal/government/alaska-seized-his-seaplane-over-some-beers-he-is-asking-us-supreme-court-help-2026-11-27/",
+          "excerpt": "58 points · 39 comments",
+          "source": "reuters.com via Hacker News",
+          "date": "Nov 28",
+          "image": null,
+          "icon": "https://www.reuters.com/favicon.ico",
+          "domain": "reuters.com",
+          "hn": "58 points · 39 comments",
+          "score": 3.612,
           "coverage": 1
         },
         {
@@ -442,8 +456,8 @@
           "image": "https://sessiongraph.ai/assets/social.jpg",
           "icon": "https://sessiongraph.ai/assets/apple-touch-icon-C83Fb5M9.png",
           "domain": "sessiongraph.ai",
-          "hn": "28 points · 10 comments",
-          "score": 2.601,
+          "hn": "35 points · 17 comments",
+          "score": 2.488,
           "coverage": 1
         }
       ]
