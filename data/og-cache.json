@@ -1685,6 +1685,12 @@
   "icon": "https://s.yimg.com/cv/apiv2/default/finance/favicon-180x180.png",
   "image": "https://s.yimg.com/lo/mysterio/api/c7b9e208fd6dff01b9115dea6cf00d560e269c36a6987f309be6e79d843e306b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmoneywise_327%2F892777675c4b84ce45a666a8bfe1fb93.jpg"
  },
+ "https://fleetlayer.ai/": {
+  "description": "Claude Code is awesome until you add a second machine or account: a session on your server can't message one on your laptop, and an agent there can't use the browser you're signed in to. Fleetlayer connects the Claude Code and Codex sessions on your laptop, home server and VPS, under your own accounts, so they message each other, share your signed-in browser and files, and work under access rules you set. Self-hosted and source-available.",
+  "fetched": "2026-11-28",
+  "icon": "https://fleetlayer.ai/favicon.svg",
+  "image": null
+ },
  "https://folklore.org/Switcher.html": {
   "description": null,
   "fetched": "2026-11-13",
@@ -2230,6 +2236,12 @@
   "fetched": "2026-11-23",
   "icon": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://opengraph.githubassets.com/42a92cdef76b4768bfdb2cb47d51c93b1d4dbc3df8a71a2242fa914567ccebc0/os6/nospeaker"
+ },
+ "https://github.com/p-e-w/heretic/issues/601": {
+  "description": "Dear friends of Heretic, as foreshadowed a while ago, my journey has now come to an end. Unfortunately, this includes my work on Heretic, which has meant so much to me. I sincerely regret the incon...",
+  "fetched": "2026-11-28",
+  "icon": "https://github.githubassets.com/favicons/favicon.svg",
+  "image": "https://opengraph.githubassets.com/10d3edc775bffa457275761be57aab66f22543205ff45e93f2f3ddee68c6bfaa/p-e-w/heretic/issues/601"
  },
  "https://github.com/paul-nameless/agweb": {
   "description": "A browser built for agents - no focus stealing, a tiny footprint, all tabs in one view. - paul-nameless/agweb",
@@ -3274,6 +3286,12 @@
   "fetched": "2026-11-01",
   "icon": "https://maketecheasier.com/wp-content/uploads/2022/11/cropped-site-icon-180x180.png",
   "image": "https://maketecheasier.com/wp-content/uploads/2026/10/arecibo-zinc-creep-collapse-featured.jpg"
+ },
+ "https://malspark.com/blog/malicious-gguf-models-hugging-face/": {
+  "description": "A scan of all 3273389 public Hugging Face model repositories found five malicious models downloaded 2428 times. The main campaign, Mir2k, hides a Windows remote access trojan at the end of GGUF files and later arms the chat template to make the model print the command that unpacks it.",
+  "fetched": "2026-11-28",
+  "icon": "https://malspark.com/apple-touch-icon.png",
+  "image": "https://malspark.com/blog/malicious-gguf-models-hugging-face/cover.png"
  },
  "https://margeux.com/rb338.html": {
   "description": "Run the original ReBirth RB-338 Windows release in your browser with Wine and WebAssembly.",
@@ -4786,6 +4804,12 @@
   "fetched": "2026-11-26",
   "icon": "https://scottaaronson.blog/wp-content/uploads/2021/10/cropped-Jacket-180x180.gif",
   "image": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvc2NvdHRhYXJvbnNvbi5ibG9nXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8xMFwvY3JvcHBlZC1KYWNrZXQuZ2lmIiwidHh0IjoiU2h0ZXRsLU9wdGltaXplZCIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxMjk1MjA1ODB9.siOtN7gHw4tefA_rZickBw4GfI6tPxGgOQ1AXr2ZoOQMQ"
+ },
+ "https://scriptor-pro.github.io/luciole-mono/": {
+  "description": "Luciole Mono: a monospaced version of Luciole, the typeface designed for visually impaired readers. For terminals and code editors. Free, CC-BY 4.0.",
+  "fetched": "2026-11-28",
+  "icon": null,
+  "image": null
  },
  "https://sebastianraschka.com/blog/2026/full-to-hybrid-attention.html": {
   "description": "How open-weight LLMs are shifting from full attention to hybrid and sparse designs, and what that means for long-context compute and memory.",
@@ -7895,6 +7919,12 @@
   "icon": "https://www.fgc.org.br/documents/32230/48686/logofgc/ca56aadf-be4d-6356-0f38-b4b59d7bca4c",
   "image": null
  },
+ "https://www.filfre.net/2026/11/diablo-ii/": {
+  "description": null,
+  "fetched": "2026-11-28",
+  "icon": null,
+  "image": null
+ },
  "https://www.firezone.dev/blog/introducing-sanstun": {
   "description": "Our sans-IO WireGuard implementation in Rust, optimized for ease of use, security and performance through a parallel-friendly and idiomatic API.",
   "fetched": "2026-10-31",
@@ -10834,6 +10864,12 @@
   "fetched": "2026-11-19",
   "icon": "https://image.inblog.dev?url=https%3A%2F%2Ficons.duckduckgo.com%2Fip3%2Fxint.io.ico&w=48&h=48&q=100&format=png&objectFit=contain",
   "image": "https://image.inblog.dev/?url=https%3A%2F%2Fsource.inblog.dev%2Ffeatured_image%2Fd21b9ab3-fe60-4b60-b803-6fccaaa14d06%2F6e9f75c9-fe47-4098-bdc3-1358fc6ddec1&w=1200&q=85&format=jpg&v=2026-11-18T07%3A28%3A28.542Z"
+ },
+ "https://xinyadu.github.io/blog/claude-code-sabotage.html": {
+  "description": null,
+  "fetched": "2026-11-28",
+  "icon": null,
+  "image": null
  },
  "https://xn--69f31l4t57c0mag4b613h.xn--7uh4898msjaso/🆆🆃🅵/": {
   "description": null,

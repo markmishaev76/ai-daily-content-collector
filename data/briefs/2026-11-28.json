@@ -1,35 +1,23 @@
 {
   "date": "2026-11-28",
   "lead": {
-    "title": "9/UX: a Macintosh-inspired desktop for 9front",
-    "link": "https://progrium.github.io/9ux/",
-    "excerpt": "",
-    "source": "progrium.github.io via Hacker News",
-    "date": "Nov 27",
-    "image": null,
+    "title": "Farewell",
+    "link": "https://github.com/p-e-w/heretic/issues/601",
+    "excerpt": "Dear friends of Heretic, as foreshadowed a while ago, my journey has now come to an end. Unfortunately, this includes my work on Heretic, which has meant so much to me. I sincerely regret the incon...",
+    "source": "github.com via Hacker News",
+    "date": "Nov 28",
+    "image": "https://opengraph.githubassets.com/10d3edc775bffa457275761be57aab66f22543205ff45e93f2f3ddee68c6bfaa/p-e-w/heretic/issues/601",
     "image_credit": null,
     "section": "News & Research",
     "pinned": false,
     "note": null,
     "labels": [
       "News & Research",
-      "12h ago"
+      "1h ago"
     ],
     "also": []
   },
   "pulse": [
-    {
-      "title": "US Air Force's cloud computing platform hacked",
-      "thread": "https://news.ycombinator.com/item?id=50666375",
-      "link": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
-      "link_domain": "news.sky.com",
-      "source": "Hacker News",
-      "domain": "news.sky.com",
-      "meta": "Hacker News · 345 points · 211 comments · 21h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://news.sky.com/favicon.ico"
-    },
     {
       "title": "I'm Scared of AI",
       "thread": "https://news.ycombinator.com/item?id=50669561",
@@ -37,7 +25,7 @@
       "link_domain": "thesoapbox.email",
       "source": "Hacker News",
       "domain": "thesoapbox.email",
-      "meta": "Hacker News · 213 points · 247 comments · 16h ago",
+      "meta": "Hacker News · 216 points · 248 comments · 19h ago",
       "also": [],
       "image": "https://thesoapbox.email/og.png",
       "icon": "https://thesoapbox.email/apple-touch-icon.png"
@@ -49,22 +37,34 @@
       "link_domain": "drmahfouz.substack.com",
       "source": "Hacker News",
       "domain": "drmahfouz.substack.com",
-      "meta": "Hacker News · 176 points · 127 comments · 8h ago",
+      "meta": "Hacker News · 193 points · 149 comments · 12h ago",
       "also": [],
       "image": null,
       "icon": "https://drmahfouz.substack.com/favicon.ico"
     },
     {
-      "title": "AI on brink of making online security useless, mathematicians fear",
-      "thread": "https://news.ycombinator.com/item?id=50665488",
-      "link": "https://www.thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8",
-      "link_domain": "thetimes.com",
+      "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
+      "thread": "https://news.ycombinator.com/item?id=50672521",
+      "link": "https://tabernet.es/",
+      "link_domain": "tabernet.es",
       "source": "Hacker News",
-      "domain": "thetimes.com",
-      "meta": "Hacker News · 119 points · 162 comments · 23h ago",
+      "domain": "tabernet.es",
+      "meta": "Hacker News · 166 points · 58 comments · 14h ago",
       "also": [],
-      "image": "https://www.thetimes.com/imageserver/image/1769afb8-0e9f-496d-96a1-6d5de4ca6640.png?strip=all&format=webp&crop=1600px%2C900px%2C0px%2C0px&resize=1200",
-      "icon": "https://www.thetimes.com/imageserver/image/4e2c5841-df25-42a6-8b74-065cc072e1e8.png?w=180"
+      "image": "https://tabernet.es/card.png",
+      "icon": "https://tabernet.es/icon-180.png"
+    },
+    {
+      "title": "9/UX: a Macintosh-inspired desktop for 9front",
+      "thread": "https://news.ycombinator.com/item?id=50672008",
+      "link": "https://progrium.github.io/9ux/",
+      "link_domain": "progrium.github.io",
+      "source": "Hacker News",
+      "domain": "progrium.github.io",
+      "meta": "Hacker News · 146 points · 38 comments · 15h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://progrium.github.io/favicon.ico"
     }
   ],
   "sections": [
@@ -81,7 +81,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 3.284,
+          "score": 3.077,
           "coverage": 1
         },
         {
@@ -94,7 +94,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.799,
+          "score": 0.702,
           "coverage": 1
         }
       ],
@@ -113,7 +113,7 @@
           "icon": "https://lanternpromos.com/apple-touch-icon.png",
           "domain": "lanternpromos.com",
           "hn": "10 points · 9 comments",
-          "score": 4.455,
+          "score": 4.027,
           "coverage": 1
         },
         {
@@ -126,7 +126,7 @@
           "icon": "https://latent.space/favicon.png",
           "domain": "latent.space",
           "hn": null,
-          "score": 0.641,
+          "score": 0.55,
           "coverage": 1
         },
         {
@@ -139,7 +139,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.641,
+          "score": 0.55,
           "coverage": 1
         }
       ],
@@ -154,7 +154,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.491,
+          "score": 0.435,
           "coverage": 1
         }
       ]
@@ -172,7 +172,7 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.53,
+          "score": 0.477,
           "coverage": 1
         }
       ],
@@ -191,7 +191,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 2.965,
+          "score": 2.675,
           "coverage": 1
         },
         {
@@ -204,7 +204,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 2.924,
+          "score": 2.642,
           "coverage": 1
         }
       ],
@@ -223,7 +223,7 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.509,
+          "score": 2.064,
           "coverage": 2
         },
         {
@@ -236,7 +236,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 2.509,
+          "score": 2.064,
           "coverage": 2
         },
         {
@@ -249,7 +249,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 1.831,
+          "score": 1.646,
           "coverage": 1
         }
       ],
@@ -264,7 +264,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 1.715,
+          "score": 1.552,
           "coverage": 1
         },
         {
@@ -277,7 +277,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.229,
+          "score": 0.208,
           "coverage": 1
         },
         {
@@ -290,7 +290,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.224,
+          "score": 0.204,
           "coverage": 1
         },
         {
@@ -303,7 +303,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.205,
+          "score": 0.188,
           "coverage": 1
         },
         {
@@ -316,7 +316,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.198,
+          "score": 0.183,
           "coverage": 1
         }
       ]
@@ -334,7 +334,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 3.235,
+          "score": 2.702,
           "coverage": 1
         },
         {
@@ -347,7 +347,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.729,
+          "score": 0.583,
           "coverage": 1
         },
         {
@@ -360,7 +360,7 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.619,
+          "score": 0.511,
           "coverage": 1
         }
       ],
@@ -375,7 +375,7 @@
           "icon": "https://engineering.atspotify.com/favicon.ico?favicon.123-f8vw5dsz2.ico",
           "domain": "engineering.atspotify.com",
           "hn": null,
-          "score": 0.277,
+          "score": 0.253,
           "coverage": 1
         }
       ]
@@ -384,96 +384,96 @@
       "name": "News & Research",
       "cards": [
         {
-          "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
-          "link": "https://unkernel.dev",
-          "excerpt": "A real Linux kernel, compiled to WebAssembly. It boots to a shell in less than a second.",
-          "source": "unkernel.dev via Hacker News",
+          "title": "Show HN: Fleetlayer – Framework for running many AI agents on multiple machines",
+          "link": "https://fleetlayer.ai/",
+          "excerpt": "Claude Code is awesome until you add a second machine or account: a session on your server can't message one on your laptop, and an agent there can't use the browser you're signed in to. Fleetlayer connects the Claude Code and Codex sessions on your laptop, home server and VPS, under your own…",
+          "source": "fleetlayer.ai via Hacker News",
           "date": "Nov 28",
-          "image": "https://unkernel.dev/og.png",
-          "icon": "https://unkernel.dev/apple-touch-icon.png",
-          "domain": "unkernel.dev",
-          "hn": "313 points · 77 comments",
-          "score": 3.503,
+          "image": null,
+          "icon": "https://fleetlayer.ai/favicon.svg",
+          "domain": "fleetlayer.ai",
+          "hn": "14 points · 7 comments",
+          "score": 5.127,
           "coverage": 1
         },
         {
-          "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
-          "link": "https://tabernet.es/",
-          "excerpt": "Open a page and your phone is a node. The scheduler sends it a pod, and the pod runs on a Linux kernel booted in the tab.",
-          "source": "tabernet.es via Hacker News",
-          "date": "Nov 27",
-          "image": "https://tabernet.es/card.png",
-          "icon": "https://tabernet.es/icon-180.png",
-          "domain": "tabernet.es",
-          "hn": "134 points · 42 comments",
-          "score": 2.523,
+          "title": "Claude Code sabotage: preliminary benchmarking",
+          "link": "https://xinyadu.github.io/blog/claude-code-sabotage.html",
+          "excerpt": "35 points · 4 comments",
+          "source": "xinyadu.github.io via Hacker News",
+          "date": "Nov 28",
+          "image": null,
+          "icon": "https://xinyadu.github.io/favicon.ico",
+          "domain": "xinyadu.github.io",
+          "hn": "35 points · 4 comments",
+          "score": 5.843,
           "coverage": 1
         },
         {
-          "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
-          "link": "https://sessiongraph.ai/",
-          "excerpt": "Bring your sessions from your favorite harness, explore and visualize in a graph. Compare with your friends.",
-          "source": "sessiongraph.ai via Hacker News",
-          "date": "Nov 27",
-          "image": "https://sessiongraph.ai/assets/social.jpg",
-          "icon": "https://sessiongraph.ai/assets/apple-touch-icon-C83Fb5M9.png",
-          "domain": "sessiongraph.ai",
-          "hn": "60 points · 26 comments",
-          "score": 2.057,
+          "title": "GGUF LLM Models with Hidden Malware on Hugging Face Reached 2400 Victims",
+          "link": "https://malspark.com/blog/malicious-gguf-models-hugging-face/",
+          "excerpt": "A scan of all 3273389 public Hugging Face model repositories found five malicious models downloaded 2428 times. The main campaign, Mir2k, hides a Windows remote access trojan at the end of GGUF files and later arms the chat template to make the model print the command that unpacks it.",
+          "source": "malspark.com via Hacker News",
+          "date": "Nov 28",
+          "image": "https://malspark.com/blog/malicious-gguf-models-hugging-face/cover.png",
+          "icon": "https://malspark.com/apple-touch-icon.png",
+          "domain": "malspark.com",
+          "hn": "25 points · 11 comments",
+          "score": 3.202,
           "coverage": 1
         }
       ],
       "more": [
         {
+          "title": "Show HN: Luciole Mono – terminal font designed for legibility",
+          "link": "https://scriptor-pro.github.io/luciole-mono/",
+          "excerpt": "Luciole Mono: a monospaced version of Luciole, the typeface designed for visually impaired readers. For terminals and code editors. Free, CC-BY 4.0.",
+          "source": "scriptor-pro.github.io via Hacker News",
+          "date": "Nov 28",
+          "image": null,
+          "icon": "https://scriptor-pro.github.io/favicon.ico",
+          "domain": "scriptor-pro.github.io",
+          "hn": "19 points · 6 comments",
+          "score": 3.149,
+          "coverage": 1
+        },
+        {
+          "title": "Diablo II",
+          "link": "https://www.filfre.net/2026/11/diablo-ii/",
+          "excerpt": "23 points · 7 comments",
+          "source": "filfre.net via Hacker News",
+          "date": "Nov 28",
+          "image": null,
+          "icon": "https://www.filfre.net/favicon.ico",
+          "domain": "filfre.net",
+          "hn": "23 points · 7 comments",
+          "score": 2.672,
+          "coverage": 1
+        },
+        {
           "title": "FastLanes: Next-gen File Format [pdf]",
           "link": "https://research.vu.nl/files/447013431/afroozehphdthesis%20-%2069280d90f0bfd.pdf",
-          "excerpt": "11 points · 1 comments",
+          "excerpt": "33 points · 3 comments",
           "source": "research.vu.nl via Hacker News",
           "date": "Nov 28",
           "image": null,
           "icon": "https://research.vu.nl/favicon.ico",
           "domain": "research.vu.nl",
-          "hn": "11 points · 1 comments",
-          "score": 2.044,
+          "hn": "33 points · 3 comments",
+          "score": 2.256,
           "coverage": 1
         },
         {
           "title": "Knuth: Moratorium on Error Reports",
           "link": "https://www-cs-faculty.stanford.edu/~knuth/moratorium.html",
-          "excerpt": "98 points · 52 comments",
+          "excerpt": "213 points · 108 comments",
           "source": "www-cs-faculty.stanford.edu via Hacker News",
           "date": "Nov 28",
           "image": null,
           "icon": "https://www-cs-faculty.stanford.edu/favicon.ico",
           "domain": "www-cs-faculty.stanford.edu",
-          "hn": "98 points · 52 comments",
-          "score": 3.089,
-          "coverage": 1
-        },
-        {
-          "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
-          "link": "https://github.com/skeeto/prospero",
-          "excerpt": "Prospero coding harness. Contribute to skeeto/prospero development by creating an account on GitHub.",
-          "source": "github.com via Hacker News",
-          "date": "Nov 27",
-          "image": "https://opengraph.githubassets.com/979cbfc9bb9813583c0aa76c4b459ead7f8a89f3104f6a45e4702eab8de1d392/skeeto/prospero",
-          "icon": "https://github.githubassets.com/favicons/favicon.svg",
-          "domain": "github.com",
-          "hn": "77 points · 28 comments",
-          "score": 2.074,
-          "coverage": 1
-        },
-        {
-          "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
-          "link": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
-          "excerpt": "This lawsuit is about seeking justice for the millions of Virginians who maintain accounts on X and were misled by the company’s false reassurances that their data and images would be safe on the platform",
-          "source": "oag.state.va.us via Hacker News",
-          "date": "Nov 27",
-          "image": "https://www.oag.state.va.us/images/OAG-Tile-Image-Jones_20260121.jpg?20220117",
-          "icon": "https://www.oag.state.va.us/templates/g5_helium/custom/images/favicon.ico",
-          "domain": "oag.state.va.us",
-          "hn": "388 points · 242 comments",
-          "score": 2.685,
+          "hn": "213 points · 108 comments",
+          "score": 2.997,
           "coverage": 1
         }
       ]
