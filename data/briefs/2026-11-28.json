@@ -13,11 +13,23 @@
     "note": null,
     "labels": [
       "News & Research",
-      "1h ago"
+      "4h ago"
     ],
     "also": []
   },
   "pulse": [
+    {
+      "title": "Claude Code sabotage: preliminary benchmarking",
+      "thread": "https://news.ycombinator.com/item?id=50676390",
+      "link": "https://xinyadu.github.io/blog/claude-code-sabotage.html",
+      "link_domain": "xinyadu.github.io",
+      "source": "Hacker News",
+      "domain": "xinyadu.github.io",
+      "meta": "Hacker News · 383 points · 138 comments · 5h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://xinyadu.github.io/favicon.ico"
+    },
     {
       "title": "I'm Scared of AI",
       "thread": "https://news.ycombinator.com/item?id=50669561",
@@ -25,7 +37,7 @@
       "link_domain": "thesoapbox.email",
       "source": "Hacker News",
       "domain": "thesoapbox.email",
-      "meta": "Hacker News · 216 points · 248 comments · 19h ago",
+      "meta": "Hacker News · 217 points · 248 comments · 22h ago",
       "also": [],
       "image": "https://thesoapbox.email/og.png",
       "icon": "https://thesoapbox.email/apple-touch-icon.png"
@@ -37,7 +49,7 @@
       "link_domain": "drmahfouz.substack.com",
       "source": "Hacker News",
       "domain": "drmahfouz.substack.com",
-      "meta": "Hacker News · 193 points · 149 comments · 12h ago",
+      "meta": "Hacker News · 201 points · 161 comments · 14h ago",
       "also": [],
       "image": null,
       "icon": "https://drmahfouz.substack.com/favicon.ico"
@@ -49,7 +61,7 @@
       "link_domain": "tabernet.es",
       "source": "Hacker News",
       "domain": "tabernet.es",
-      "meta": "Hacker News · 166 points · 58 comments · 14h ago",
+      "meta": "Hacker News · 186 points · 62 comments · 17h ago",
       "also": [],
       "image": "https://tabernet.es/card.png",
       "icon": "https://tabernet.es/icon-180.png"
@@ -61,7 +73,7 @@
       "link_domain": "progrium.github.io",
       "source": "Hacker News",
       "domain": "progrium.github.io",
-      "meta": "Hacker News · 146 points · 38 comments · 15h ago",
+      "meta": "Hacker News · 153 points · 43 comments · 18h ago",
       "also": [],
       "image": null,
       "icon": "https://progrium.github.io/favicon.ico"
@@ -81,7 +93,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 3.077,
+          "score": 2.913,
           "coverage": 1
         },
         {
@@ -94,7 +106,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.702,
+          "score": 0.634,
           "coverage": 1
         }
       ],
@@ -113,7 +125,7 @@
           "icon": "https://lanternpromos.com/apple-touch-icon.png",
           "domain": "lanternpromos.com",
           "hn": "10 points · 9 comments",
-          "score": 4.027,
+          "score": 3.708,
           "coverage": 1
         },
         {
@@ -126,7 +138,7 @@
           "icon": "https://latent.space/favicon.png",
           "domain": "latent.space",
           "hn": null,
-          "score": 0.55,
+          "score": 0.488,
           "coverage": 1
         },
         {
@@ -139,11 +151,24 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.55,
+          "score": 0.488,
           "coverage": 1
         }
       ],
       "more": [
+        {
+          "title": "I was hired by an AI agent",
+          "link": "https://news.ycombinator.com/item?id=50672702",
+          "excerpt": "10 points · 12 comments",
+          "source": "Hacker News",
+          "date": "Nov 27",
+          "image": null,
+          "icon": null,
+          "domain": "news.ycombinator.com",
+          "hn": "10 points · 12 comments",
+          "score": 4.043,
+          "coverage": 1
+        },
         {
           "title": "Friday Squid Blogging: Giant Squid in Newfoundland",
           "link": "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-giant-squid-in-newfoundland.html",
@@ -154,7 +179,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.435,
+          "score": 0.396,
           "coverage": 1
         }
       ]
@@ -172,7 +197,7 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.477,
+          "score": 0.439,
           "coverage": 1
         }
       ],
@@ -191,7 +216,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 2.675,
+          "score": 2.46,
           "coverage": 1
         },
         {
@@ -204,7 +229,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 2.642,
+          "score": 2.432,
           "coverage": 1
         }
       ],
@@ -223,8 +248,21 @@
           "icon": null,
           "domain": "thehackernews.com",
           "hn": null,
-          "score": 2.064,
+          "score": 1.781,
           "coverage": 2
+        },
+        {
+          "title": "Q-Dir and DesktopOK Windows utilities compromised to push Python RAT",
+          "link": "https://www.bleepingcomputer.com/news/security/q-dir-and-desktopok-windows-utilities-compromised-to-push-python-rat/",
+          "excerpt": "Official distribution channels for the Q-Dir and DesktopOK Windows utilities were compromised to deliver trojanized installers containing Python-based remote access malware. [...]",
+          "source": "BleepingComputer",
+          "date": "Nov 28",
+          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/27/malware.jpg",
+          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
+          "domain": "bleepingcomputer.com",
+          "hn": null,
+          "score": 3.937,
+          "coverage": 1
         },
         {
           "title": "pCloud confirms password manager hack after suspicious login alerts",
@@ -236,9 +274,11 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 2.064,
+          "score": 1.781,
           "coverage": 2
-        },
+        }
+      ],
+      "more": [
         {
           "title": "New Boston Scientific data breach exposes personal, medical info",
           "link": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
@@ -249,11 +289,9 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 1.646,
+          "score": 1.51,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
           "link": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
@@ -264,7 +302,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 1.552,
+          "score": 1.43,
           "coverage": 1
         },
         {
@@ -277,7 +315,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.208,
+          "score": 0.193,
           "coverage": 1
         },
         {
@@ -290,7 +328,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.204,
+          "score": 0.19,
           "coverage": 1
         },
         {
@@ -303,20 +341,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.188,
-          "coverage": 1
-        },
-        {
-          "title": "Drupal warns of new site takeover flaw exploited in attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
-          "excerpt": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. [...]",
-          "source": "BleepingComputer",
-          "date": "Nov 27",
-          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/27/Drupal_headpic.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
-          "hn": null,
-          "score": 0.183,
+          "score": 0.175,
           "coverage": 1
         }
       ]
@@ -334,7 +359,20 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 2.702,
+          "score": 2.355,
+          "coverage": 1
+        },
+        {
+          "title": "Google Enhances its Open-Source MaxText Training Framework for Long-Context Training",
+          "link": "https://www.infoq.com/news/2026/11/google-long-context-training/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "To address the computational, memory, and communication bottlenecks of long-context training, Google has integrated four context-parallelism strategies into MaxText, its open-source JAX training framework, enabling LLM training with context lengths up to 14 million tokens on Cloud TPUs. By Sergio…",
+          "source": "InfoQ",
+          "date": "Nov 28",
+          "image": "https://res.infoq.com/news/2026/11/google-long-context-training/en/headerimage/google-maxtext-training-1795880642734.jpeg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.729,
           "coverage": 1
         },
         {
@@ -347,9 +385,11 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.583,
+          "score": 0.494,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "AWS Introduces Centralized Workforce Access to IAM Roles Across Accounts",
           "link": "https://www.infoq.com/news/2026/11/aws-centralized-workforce-access/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -360,11 +400,9 @@
           "icon": null,
           "domain": "infoq.com",
           "hn": null,
-          "score": 0.511,
+          "score": 0.441,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "September 29 Outage Incident Report: What we learnt",
           "link": "https://engineering.atspotify.com/2026/11/september-29-outage-incident-report-what-we-learnt/",
@@ -375,7 +413,7 @@
           "icon": "https://engineering.atspotify.com/favicon.ico?favicon.123-f8vw5dsz2.ico",
           "domain": "engineering.atspotify.com",
           "hn": null,
-          "score": 0.253,
+          "score": 0.235,
           "coverage": 1
         }
       ]
@@ -384,29 +422,96 @@
       "name": "News & Research",
       "cards": [
         {
-          "title": "Show HN: Fleetlayer – Framework for running many AI agents on multiple machines",
-          "link": "https://fleetlayer.ai/",
-          "excerpt": "Claude Code is awesome until you add a second machine or account: a session on your server can't message one on your laptop, and an agent there can't use the browser you're signed in to. Fleetlayer connects the Claude Code and Codex sessions on your laptop, home server and VPS, under your own…",
-          "source": "fleetlayer.ai via Hacker News",
+          "title": "Google will soon share Android developers' addresses publicly",
+          "link": "https://www.engadget.com/2329389/google-will-soon-share-android-developers-addresses-publicly/",
+          "excerpt": "Google is getting flak for its decision to publish Android developers’ identifying information around the world to comply with European laws.",
+          "source": "engadget.com via Hacker News",
           "date": "Nov 28",
-          "image": null,
-          "icon": "https://fleetlayer.ai/favicon.svg",
-          "domain": "fleetlayer.ai",
-          "hn": "14 points · 7 comments",
-          "score": 5.127,
+          "image": "https://www.engadget.com/img/gallery/google-will-soon-share-android-developers-addresses-publicly/l-intro-1795830224.jpg",
+          "icon": "https://www.engadget.com/img/engadget-favicon.png",
+          "domain": "engadget.com",
+          "hn": "18 points · 1 comments",
+          "score": 2.688,
           "coverage": 1
         },
         {
-          "title": "Claude Code sabotage: preliminary benchmarking",
-          "link": "https://xinyadu.github.io/blog/claude-code-sabotage.html",
-          "excerpt": "35 points · 4 comments",
-          "source": "xinyadu.github.io via Hacker News",
+          "title": "Why stop at Emacs? Native apps you or an AI reprogram in Clojure while they run",
+          "link": "https://github.com/RiccardoSottini/AffrescoUI",
+          "excerpt": "Any application, written in one format and rendered natively. Its users reshape it live, just by asking an AI. - RiccardoSottini/AffrescoUI",
+          "source": "github.com via Hacker News",
+          "date": "Nov 28",
+          "image": "https://opengraph.githubassets.com/629960f54a81addf686d807ae434d9de309b300da9398d51f7694f6d2b6f613d/RiccardoSottini/AffrescoUI",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "27 points · 22 comments",
+          "score": 3.287,
+          "coverage": 1
+        },
+        {
+          "title": "The AI-designed USB-C LTE Modem is built, and it makes calls",
+          "link": "https://koppar.ai/blog/lte-modem-bring-up/",
+          "excerpt": "The LTE modem Koppar designed from a one-page spec has been built and brought up. It registers on 4G, sends texts and makes calls, and AI agents on the RealPCB benchmark are graded against its layout.",
+          "source": "koppar.ai via Hacker News",
+          "date": "Nov 28",
+          "image": "https://koppar.ai/blog/lte-modem-bring-up/cover.png",
+          "icon": "https://koppar.ai/apple-touch-icon.png",
+          "domain": "koppar.ai",
+          "hn": "39 points · 24 comments",
+          "score": 3.447,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "GTA VI writer behind female protagonist deletes X account after online hate",
+          "link": "https://www.cbc.ca/lite/story/9.7438910",
+          "excerpt": "12 points · 3 comments",
+          "source": "cbc.ca via Hacker News",
           "date": "Nov 28",
           "image": null,
-          "icon": "https://xinyadu.github.io/favicon.ico",
-          "domain": "xinyadu.github.io",
-          "hn": "35 points · 4 comments",
-          "score": 5.843,
+          "icon": "https://www.cbc.ca/favicon.ico",
+          "domain": "cbc.ca",
+          "hn": "12 points · 3 comments",
+          "score": 2.841,
+          "coverage": 1
+        },
+        {
+          "title": "Physics Breakthrough Simulator",
+          "link": "https://pages.ethanmdavidson.com/ai-physics-breakthrough",
+          "excerpt": "A satirical clicker: tell your AI assistant \"yes, keep going\" 2,000 times to overturn physics, while managing your sleep and your grip on reality.",
+          "source": "pages.ethanmdavidson.com via Hacker News",
+          "date": "Nov 28",
+          "image": null,
+          "icon": "https://pages.ethanmdavidson.com/favicon.ico",
+          "domain": "pages.ethanmdavidson.com",
+          "hn": "51 points · 8 comments",
+          "score": 3.598,
+          "coverage": 1
+        },
+        {
+          "title": "IBM MVS 3.8j Community Edition (52-year old OS)",
+          "link": "https://github.com/MVS-sysgen/sysgen",
+          "excerpt": "Jay Moseley MVS 3.8j sysgen automation. Contribute to MVS-sysgen/sysgen development by creating an account on GitHub.",
+          "source": "github.com via Hacker News",
+          "date": "Nov 28",
+          "image": "https://opengraph.githubassets.com/e271165366be050d442388e30f0335c010a564a6e36031f94f8e499088882f03/MVS-sysgen/sysgen",
+          "icon": "https://github.githubassets.com/favicons/favicon.svg",
+          "domain": "github.com",
+          "hn": "24 points · 3 comments",
+          "score": 2.714,
+          "coverage": 1
+        },
+        {
+          "title": "Show HN: Luciole Mono – terminal font designed for legibility",
+          "link": "https://scriptor-pro.github.io/luciole-mono/",
+          "excerpt": "Luciole Mono: a monospaced version of Luciole, the typeface designed for visually impaired readers. For terminals and code editors. Free, CC-BY 4.0.",
+          "source": "scriptor-pro.github.io via Hacker News",
+          "date": "Nov 28",
+          "image": null,
+          "icon": "https://scriptor-pro.github.io/favicon.ico",
+          "domain": "scriptor-pro.github.io",
+          "hn": "80 points · 34 comments",
+          "score": 3.542,
           "coverage": 1
         },
         {
@@ -418,62 +523,8 @@
           "image": "https://malspark.com/blog/malicious-gguf-models-hugging-face/cover.png",
           "icon": "https://malspark.com/apple-touch-icon.png",
           "domain": "malspark.com",
-          "hn": "25 points · 11 comments",
-          "score": 3.202,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "Show HN: Luciole Mono – terminal font designed for legibility",
-          "link": "https://scriptor-pro.github.io/luciole-mono/",
-          "excerpt": "Luciole Mono: a monospaced version of Luciole, the typeface designed for visually impaired readers. For terminals and code editors. Free, CC-BY 4.0.",
-          "source": "scriptor-pro.github.io via Hacker News",
-          "date": "Nov 28",
-          "image": null,
-          "icon": "https://scriptor-pro.github.io/favicon.ico",
-          "domain": "scriptor-pro.github.io",
-          "hn": "19 points · 6 comments",
-          "score": 3.149,
-          "coverage": 1
-        },
-        {
-          "title": "Diablo II",
-          "link": "https://www.filfre.net/2026/11/diablo-ii/",
-          "excerpt": "23 points · 7 comments",
-          "source": "filfre.net via Hacker News",
-          "date": "Nov 28",
-          "image": null,
-          "icon": "https://www.filfre.net/favicon.ico",
-          "domain": "filfre.net",
-          "hn": "23 points · 7 comments",
-          "score": 2.672,
-          "coverage": 1
-        },
-        {
-          "title": "FastLanes: Next-gen File Format [pdf]",
-          "link": "https://research.vu.nl/files/447013431/afroozehphdthesis%20-%2069280d90f0bfd.pdf",
-          "excerpt": "33 points · 3 comments",
-          "source": "research.vu.nl via Hacker News",
-          "date": "Nov 28",
-          "image": null,
-          "icon": "https://research.vu.nl/favicon.ico",
-          "domain": "research.vu.nl",
-          "hn": "33 points · 3 comments",
-          "score": 2.256,
-          "coverage": 1
-        },
-        {
-          "title": "Knuth: Moratorium on Error Reports",
-          "link": "https://www-cs-faculty.stanford.edu/~knuth/moratorium.html",
-          "excerpt": "213 points · 108 comments",
-          "source": "www-cs-faculty.stanford.edu via Hacker News",
-          "date": "Nov 28",
-          "image": null,
-          "icon": "https://www-cs-faculty.stanford.edu/favicon.ico",
-          "domain": "www-cs-faculty.stanford.edu",
-          "hn": "213 points · 108 comments",
-          "score": 2.997,
+          "hn": "104 points · 35 comments",
+          "score": 3.47,
           "coverage": 1
         }
       ]
