@@ -13,35 +13,11 @@
     "note": null,
     "labels": [
       "News & Research",
-      "8h ago"
+      "12h ago"
     ],
     "also": []
   },
   "pulse": [
-    {
-      "title": "Group chat where your AI talks behind your back",
-      "thread": "https://news.ycombinator.com/item?id=50663595",
-      "link": "https://construct22.com/",
-      "link_domain": "construct22.com",
-      "source": "Hacker News",
-      "domain": "construct22.com",
-      "meta": "Hacker News · 697 points · 288 comments · 23h ago",
-      "also": [],
-      "image": null,
-      "icon": "https://construct22.com/favicon.ico"
-    },
-    {
-      "title": "Claude sabotaging ML research tasks?",
-      "thread": "https://news.ycombinator.com/item?id=50664325",
-      "link": "https://twitter.com/RealAstropulse/status/2126119408997466389",
-      "link_domain": "twitter.com",
-      "source": "Hacker News",
-      "domain": "twitter.com",
-      "meta": "Hacker News · 655 points · 303 comments · 21h ago",
-      "also": [],
-      "image": "https://pbs.twimg.com/media/HYF66EGWIAAF9lx?format=webp&name=large",
-      "icon": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png"
-    },
     {
       "title": "US Air Force's cloud computing platform hacked",
       "thread": "https://news.ycombinator.com/item?id=50666375",
@@ -49,7 +25,7 @@
       "link_domain": "news.sky.com",
       "source": "Hacker News",
       "domain": "news.sky.com",
-      "meta": "Hacker News · 338 points · 209 comments · 17h ago",
+      "meta": "Hacker News · 345 points · 211 comments · 21h ago",
       "also": [],
       "image": null,
       "icon": "https://news.sky.com/favicon.ico"
@@ -61,10 +37,22 @@
       "link_domain": "thesoapbox.email",
       "source": "Hacker News",
       "domain": "thesoapbox.email",
-      "meta": "Hacker News · 209 points · 244 comments · 12h ago",
+      "meta": "Hacker News · 213 points · 247 comments · 16h ago",
       "also": [],
       "image": "https://thesoapbox.email/og.png",
       "icon": "https://thesoapbox.email/apple-touch-icon.png"
+    },
+    {
+      "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+      "thread": "https://news.ycombinator.com/item?id=50673521",
+      "link": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+      "link_domain": "drmahfouz.substack.com",
+      "source": "Hacker News",
+      "domain": "drmahfouz.substack.com",
+      "meta": "Hacker News · 176 points · 127 comments · 8h ago",
+      "also": [],
+      "image": null,
+      "icon": "https://drmahfouz.substack.com/favicon.ico"
     },
     {
       "title": "AI on brink of making online security useless, mathematicians fear",
@@ -73,7 +61,7 @@
       "link_domain": "thetimes.com",
       "source": "Hacker News",
       "domain": "thetimes.com",
-      "meta": "Hacker News · 118 points · 157 comments · 18h ago",
+      "meta": "Hacker News · 119 points · 162 comments · 23h ago",
       "also": [],
       "image": "https://www.thetimes.com/imageserver/image/1769afb8-0e9f-496d-96a1-6d5de4ca6640.png?strip=all&format=webp&crop=1600px%2C900px%2C0px%2C0px&resize=1200",
       "icon": "https://www.thetimes.com/imageserver/image/4e2c5841-df25-42a6-8b74-065cc072e1e8.png?w=180"
@@ -93,7 +81,7 @@
           "icon": "https://simonwillison.net/favicon.ico",
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 3.629,
+          "score": 3.284,
           "coverage": 1
         },
         {
@@ -106,7 +94,7 @@
           "icon": null,
           "domain": "simonwillison.net",
           "hn": null,
-          "score": 0.992,
+          "score": 0.799,
           "coverage": 1
         }
       ],
@@ -125,7 +113,7 @@
           "icon": "https://lanternpromos.com/apple-touch-icon.png",
           "domain": "lanternpromos.com",
           "hn": "10 points · 9 comments",
-          "score": 5.244,
+          "score": 4.455,
           "coverage": 1
         },
         {
@@ -138,7 +126,7 @@
           "icon": "https://latent.space/favicon.png",
           "domain": "latent.space",
           "hn": null,
-          "score": 0.837,
+          "score": 0.641,
           "coverage": 1
         },
         {
@@ -151,7 +139,7 @@
           "icon": null,
           "domain": "latent.space",
           "hn": null,
-          "score": 0.837,
+          "score": 0.641,
           "coverage": 1
         }
       ],
@@ -166,7 +154,7 @@
           "icon": "https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-180x180.png",
           "domain": "schneier.com",
           "hn": null,
-          "score": 0.598,
+          "score": 0.491,
           "coverage": 1
         }
       ]
@@ -184,7 +172,7 @@
           "icon": null,
           "domain": "randsinrepose.com",
           "hn": null,
-          "score": 0.626,
+          "score": 0.53,
           "coverage": 1
         }
       ],
@@ -203,7 +191,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 3.502,
+          "score": 2.965,
           "coverage": 1
         },
         {
@@ -216,7 +204,7 @@
           "icon": null,
           "domain": "auth0.com",
           "hn": null,
-          "score": 3.445,
+          "score": 2.924,
           "coverage": 1
         }
       ],
@@ -225,6 +213,19 @@
     {
       "name": "Security & AppSec",
       "cards": [
+        {
+          "title": "pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
+          "link": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html",
+          "excerpt": "Cross-platform password manager pCloud Pass has confirmed it was targeted by a cyber attack after users reported seeing unknown devices being connected to their accounts. \"A cyber attack targeting pCloud Pass occurred, which was promptly contained by the pCloud team,\" the Swiss company said in…",
+          "source": "The Hacker News",
+          "date": "Nov 28",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizySCkvtf5mXH_3zoxzuk-QyEdUnYmspglEsVYdqRITloUFrUDZCQJcwtQG09teFmXo2IJOknOQb7CXhUpjKjGnadD6TuOIvVWIoWmKcaxb8-1uwf-3AiXZPYCFf2RzDkHNZ06d2Q5OS6AcCV7JHjTACCJH2f5aipC8vllpOwj1dSBYQJtqJ_wDc5nXQwU/s1600/pcloud.jpg",
+          "icon": null,
+          "domain": "thehackernews.com",
+          "hn": null,
+          "score": 2.509,
+          "coverage": 2
+        },
         {
           "title": "pCloud confirms password manager hack after suspicious login alerts",
           "link": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
@@ -235,8 +236,8 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.318,
-          "coverage": 1
+          "score": 2.509,
+          "coverage": 2
         },
         {
           "title": "New Boston Scientific data breach exposes personal, medical info",
@@ -248,9 +249,11 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 2.178,
+          "score": 1.831,
           "coverage": 1
-        },
+        }
+      ],
+      "more": [
         {
           "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
           "link": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
@@ -261,11 +264,9 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 2.016,
+          "score": 1.715,
           "coverage": 1
-        }
-      ],
-      "more": [
+        },
         {
           "title": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
           "link": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
@@ -276,7 +277,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.266,
+          "score": 0.229,
           "coverage": 1
         },
         {
@@ -289,7 +290,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.26,
+          "score": 0.224,
           "coverage": 1
         },
         {
@@ -302,7 +303,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.234,
+          "score": 0.205,
           "coverage": 1
         },
         {
@@ -315,20 +316,7 @@
           "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
           "domain": "bleepingcomputer.com",
           "hn": null,
-          "score": 0.225,
-          "coverage": 1
-        },
-        {
-          "title": "SAP confirms security incident after suspicious GitHub activity",
-          "link": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
-          "excerpt": "SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment. [...]",
-          "source": "BleepingComputer",
-          "date": "Nov 27",
-          "image": "https://www.bleepstatic.com/content/hl-images/2026/11/27/sap.jpg",
-          "icon": "https://www.bleepstatic.com/icons/apple-touch-icon.png",
-          "domain": "bleepingcomputer.com",
-          "hn": null,
-          "score": 0.224,
+          "score": 0.198,
           "coverage": 1
         }
       ]
@@ -336,6 +324,47 @@
     {
       "name": "Platform, Cloud & Reliability",
       "cards": [
+        {
+          "title": "Azure AI Gateway Reaches General Availability as a Standalone Service",
+          "link": "https://www.infoq.com/news/2026/11/azure-ai-gateway-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Microsoft has made Azure AI Gateway generally available as a standalone Azure service for governing access to AI models and MCP tools across providers. A free tier covers 10,000 requests per gateway per month; paid billing starts January 1, 2027; and private networking remains in preview. By…",
+          "source": "InfoQ",
+          "date": "Nov 28",
+          "image": "https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 3.235,
+          "coverage": 1
+        },
+        {
+          "title": "Anthropic Introduces Claude Ship to Review, Fix, and Approve Pull Requests by Policy",
+          "link": "https://www.infoq.com/news/2026/11/anthropic-claude-ship/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "Anthropic has introduced Claude Ship, a set of agents that can review GitHub pull requests, push fixes, and approve the changes a team's policy allows, on Claude Team and Enterprise plans. By Daniel Dominguez",
+          "source": "InfoQ",
+          "date": "Nov 28",
+          "image": "https://res.infoq.com/news/2026/11/anthropic-claude-ship/en/headerimage/header-1795792564565.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.729,
+          "coverage": 1
+        },
+        {
+          "title": "AWS Introduces Centralized Workforce Access to IAM Roles Across Accounts",
+          "link": "https://www.infoq.com/news/2026/11/aws-centralized-workforce-access/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+          "excerpt": "AWS recently introduced Account Access Manager to centrally assign workforce users and groups to existing IAM roles across an organization, preserving custom trust policies and ABAC configurations while improving individual identity attribution and auditability. By Renato Losio",
+          "source": "InfoQ",
+          "date": "Nov 28",
+          "image": "https://res.infoq.com/news/2026/11/aws-centralized-workforce-access/en/headerimage/generatedHeaderImage-1794557351701.jpg",
+          "icon": null,
+          "domain": "infoq.com",
+          "hn": null,
+          "score": 0.619,
+          "coverage": 1
+        }
+      ],
+      "more": [
         {
           "title": "September 29 Outage Incident Report: What we learnt",
           "link": "https://engineering.atspotify.com/2026/11/september-29-outage-incident-report-what-we-learnt/",
@@ -346,11 +375,10 @@
           "icon": "https://engineering.atspotify.com/favicon.ico?favicon.123-f8vw5dsz2.ico",
           "domain": "engineering.atspotify.com",
           "hn": null,
-          "score": 0.32,
+          "score": 0.277,
           "coverage": 1
         }
-      ],
-      "more": []
+      ]
     },
     {
       "name": "News & Research",
@@ -364,8 +392,8 @@
           "image": "https://unkernel.dev/og.png",
           "icon": "https://unkernel.dev/apple-touch-icon.png",
           "domain": "unkernel.dev",
-          "hn": "104 points · 7 comments",
-          "score": 3.698,
+          "hn": "313 points · 77 comments",
+          "score": 3.503,
           "coverage": 1
         },
         {
@@ -377,49 +405,8 @@
           "image": "https://tabernet.es/card.png",
           "icon": "https://tabernet.es/icon-180.png",
           "domain": "tabernet.es",
-          "hn": "75 points · 30 comments",
-          "score": 2.834,
-          "coverage": 1
-        },
-        {
-          "title": "Source Control from Hell",
-          "link": "https://frantic.im/git/",
-          "excerpt": "My first office job was at an enterprise that built software for a big telecom: a massive Delphi help desk application on Windows.",
-          "source": "frantic.im via Hacker News",
-          "date": "Nov 27",
-          "image": "https://frantic.im/assets/og/git.png",
-          "icon": "https://frantic.im/favicon.png",
-          "domain": "frantic.im",
-          "hn": "82 points · 61 comments",
-          "score": 2.86,
-          "coverage": 1
-        }
-      ],
-      "more": [
-        {
-          "title": "Atari Homebrew Awards Cancelled",
-          "link": "https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/",
-          "excerpt": "151 points · 149 comments",
-          "source": "forums.atariage.com via Hacker News",
-          "date": "Nov 28",
-          "image": null,
-          "icon": "https://forums.atariage.com/favicon.ico",
-          "domain": "forums.atariage.com",
-          "hn": "151 points · 149 comments",
-          "score": 4.021,
-          "coverage": 1
-        },
-        {
-          "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
-          "link": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
-          "excerpt": "140 points · 112 comments",
-          "source": "drmahfouz.substack.com via Hacker News",
-          "date": "Nov 28",
-          "image": null,
-          "icon": "https://drmahfouz.substack.com/favicon.ico",
-          "domain": "drmahfouz.substack.com",
-          "hn": "140 points · 112 comments",
-          "score": 3.793,
+          "hn": "134 points · 42 comments",
+          "score": 2.523,
           "coverage": 1
         },
         {
@@ -431,8 +418,36 @@
           "image": "https://sessiongraph.ai/assets/social.jpg",
           "icon": "https://sessiongraph.ai/assets/apple-touch-icon-C83Fb5M9.png",
           "domain": "sessiongraph.ai",
-          "hn": "42 points · 23 comments",
-          "score": 2.355,
+          "hn": "60 points · 26 comments",
+          "score": 2.057,
+          "coverage": 1
+        }
+      ],
+      "more": [
+        {
+          "title": "FastLanes: Next-gen File Format [pdf]",
+          "link": "https://research.vu.nl/files/447013431/afroozehphdthesis%20-%2069280d90f0bfd.pdf",
+          "excerpt": "11 points · 1 comments",
+          "source": "research.vu.nl via Hacker News",
+          "date": "Nov 28",
+          "image": null,
+          "icon": "https://research.vu.nl/favicon.ico",
+          "domain": "research.vu.nl",
+          "hn": "11 points · 1 comments",
+          "score": 2.044,
+          "coverage": 1
+        },
+        {
+          "title": "Knuth: Moratorium on Error Reports",
+          "link": "https://www-cs-faculty.stanford.edu/~knuth/moratorium.html",
+          "excerpt": "98 points · 52 comments",
+          "source": "www-cs-faculty.stanford.edu via Hacker News",
+          "date": "Nov 28",
+          "image": null,
+          "icon": "https://www-cs-faculty.stanford.edu/favicon.ico",
+          "domain": "www-cs-faculty.stanford.edu",
+          "hn": "98 points · 52 comments",
+          "score": 3.089,
           "coverage": 1
         },
         {
@@ -444,8 +459,21 @@
           "image": "https://opengraph.githubassets.com/979cbfc9bb9813583c0aa76c4b459ead7f8a89f3104f6a45e4702eab8de1d392/skeeto/prospero",
           "icon": "https://github.githubassets.com/favicons/favicon.svg",
           "domain": "github.com",
-          "hn": "51 points · 14 comments",
-          "score": 2.275,
+          "hn": "77 points · 28 comments",
+          "score": 2.074,
+          "coverage": 1
+        },
+        {
+          "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+          "link": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
+          "excerpt": "This lawsuit is about seeking justice for the millions of Virginians who maintain accounts on X and were misled by the company’s false reassurances that their data and images would be safe on the platform",
+          "source": "oag.state.va.us via Hacker News",
+          "date": "Nov 27",
+          "image": "https://www.oag.state.va.us/images/OAG-Tile-Image-Jones_20260121.jpg?20220117",
+          "icon": "https://www.oag.state.va.us/templates/g5_helium/custom/images/favicon.ico",
+          "domain": "oag.state.va.us",
+          "hn": "388 points · 242 comments",
+          "score": 2.685,
           "coverage": 1
         }
       ]
